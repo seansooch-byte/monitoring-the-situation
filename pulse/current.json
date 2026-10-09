@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T07:00:15Z",
-  "capture": "2026-10-09T0629Z",
+  "updated_at": "2026-10-09T07:39:14Z",
+  "capture": "2026-10-09T0702Z",
   "items": [
     {
       "id": "2108187065687118261",
@@ -162,6 +162,21 @@
       "id": "2108296763035767080",
       "desk": "life",
       "line": "A question that divides households: do you feed a neighbour's child who is playing at your house when you cook?"
+    },
+    {
+      "id": "2108189232841781481",
+      "desk": "world",
+      "line": "A Ukrainian account posts a video and transcript of President Zelenskyy answering a remark it attributes to US Secretary of State Rubio that the war is at a \"strategic stalemate\". Zelenskyy says it is not a stalemate but \"a lack of will\", and asks the US to open Starlink for Ukraine. Not checked here."
+    },
+    {
+      "id": "2108437304142430539",
+      "desk": "sports",
+      "line": "Fabrizio Romano relays Karl-Heinz Rummenigge saying Michael Olise and Harry Kane both intend to stay at Bayern for a long time. He says he hopes Kane extends his contract soon, with Olise next."
+    },
+    {
+      "id": "2108270743201145282",
+      "desk": "entertainment",
+      "line": "A film news account shares the first trailer for Love Language, a romantic comedy with Chloë Grace Moretz, Anthony Ramos and Manny Jacinto. The post says it is out on digital on 23 October."
     }
   ]
 }
