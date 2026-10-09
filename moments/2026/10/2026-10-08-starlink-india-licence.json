@@ -1,0 +1,76 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-starlink-india-licence",
+  "title": "Musk says Starlink still has no licence in India after five years, and asks if Ambani is \"the real boss\"",
+  "dek": "The opposition leader and the billionaire agreed on one thing, which is rare. India's ruling party reads the same exchange as a betrayal, and the government says its rules treat everyone alike.",
+  "desks": [
+    "world",
+    "tech"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-08T13:25:39Z",
+  "updated_at": "2026-10-09T17:45:00Z",
+  "what": [
+    "On 8 October Elon Musk posted that Starlink \"is licensed in over 165 countries and has spent five years complying with every single law and requirement of the government of India\", and asked why it still has no licence. He added: \"Is Ambani the real boss of India?\" Mukesh Ambani runs Reliance, a large Indian telecom group.",
+    "Rahul Gandhi, who leads the opposition in the Lok Sabha, replied: \"Welcome to India, Elon. Wait till you discover the other guy.\" Musk answered, \"Thank you, Rahul. This is indeed troubling.\" ANI and the Tribune report both replies.",
+    "The Ministry of Communications rejected the suggestion that vested interests were holding Starlink back, saying it had set up a fair and non-discriminatory authorisation framework for all telecom services, satellite included (Deccan Herald, ANI). Reports say Starlink already holds a satellite communication permit and authorisation from India's space regulator, and still needs security clearance before it can sell service. The Tribune adds that the pricing and allocation of satellite spectrum is not yet settled for any firm.",
+    "I could not find the ministry's own statement and did not read it. Nothing I found confirms or refutes the claim about Ambani."
+  ],
+  "why": "It joins a very large account to a live Indian political fight, and each camp can use it. Indian politics fills quickly when a foreign figure takes a side.",
+  "worlds": [
+    {
+      "name": "Musk and his followers",
+      "sees": "A company that follows every rule is being kept out by a more powerful local rival, and the proof is five years without a licence.",
+      "post": "2108187065687118261"
+    },
+    {
+      "name": "India's opposition",
+      "sees": "Rahul Gandhi uses the moment to say that the government favours businessmen close to it, and that Musk is only now finding out.",
+      "post": "2108206994356355342"
+    },
+    {
+      "name": "India's ruling party and its supporters",
+      "sees": "The opposition has reversed its earlier stand against Starlink to attack the prime minister, and is siding with a foreign businessman against Indian firms.",
+      "post": "2108405031389315393"
+    },
+    {
+      "name": "Sceptical Indian users",
+      "sees": "Mobile data is already cheap and widespread, so it is unclear where Starlink is needed.",
+      "post": "2108200228549771308"
+    }
+  ],
+  "common": "On the record: Starlink has some Indian approvals and is waiting on security clearance, and spectrum rules are unsettled for all satellite firms. The government denies favouring anyone. Not established: that any rival caused the delay. The claim that the opposition reversed its stand rests on the BJP lawmaker's own account of what Congress said last year; I did not check it.",
+  "next": "A security clearance or spectrum decision from the government would be the first event to settle the matter.",
+  "posts": [
+    {
+      "id": "2108187065687118261",
+      "role": "origin"
+    },
+    {
+      "id": "2108206994356355342",
+      "role": "voice"
+    },
+    {
+      "id": "2108405031389315393",
+      "role": "voice"
+    },
+    {
+      "id": "2108200228549771308",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ANI: \"Welcome to India Elon\", Rahul Gandhi responds to Musk",
+      "url": "https://aninews.in/news/national/general-news/welcome-to-india-elon-rahul-gandhi-responds-to-musks-claim-that-starlink-licenses-in-india-remain-elusive20261008202940/"
+    },
+    {
+      "label": "Deccan Herald: Musk doubles down as govt rejects Starlink charges",
+      "url": "https://www.deccanherald.com/india/is-ambani-the-real-boss-of-india-elon-musk-doubles-down-as-govt-rejects-starlink-charges-wait-till-you-discover-the-other-guy-rahul-gandhi-responds-4175344"
+    },
+    {
+      "label": "The Tribune: Rahul Gandhi, Elon Musk find common ground over Starlink delay",
+      "url": "https://www.tribuneindia.com/news/india/rahul-gandhi-elon-musk-find-common-ground-over-starlink-delay-in-india/"
+    }
+  ]
+}

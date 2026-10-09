@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-xhaka-suspended-fine",
+  "title": "Xhaka gets a suspended fine for a fake Covid certificate, and the headline says \"suspended for two years\"",
+  "dek": "A widely shared breaking post can be read as a ban from football. Court reports describe a fine he does not have to pay unless he offends again within two years.",
+  "desks": [
+    "sports",
+    "justice"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-08T14:27:24Z",
+  "updated_at": "2026-10-09T17:45:00Z",
+  "what": [
+    "Sky Sports News posted on Thursday 8 October that Granit Xhaka \"has been fined £136,265, suspended for two years, for forging a COVID-19 certificate\". Xhaka plays for Sunderland and captains Switzerland.",
+    "Reports by Dawn, Yahoo Sports and Newshub say Swiss prosecutors dealt with the case by summary judgment and gave him a suspended fine of 150,000 Swiss francs, set as 50 daily rates of 3,000 francs. A suspended fine is not paid if the person commits no further offence during a probation period. Here the period is two years.",
+    "Xhaka admitted last month that he obtained a fake vaccination certificate in 2022, when Switzerland required one for some travel abroad. He said he acted out of mistrust of the vaccine and worry, and called it a mistake. The Swiss football association then left him out of its Nations League squad.",
+    "I could not find a report of any playing ban. I did not open the Swiss prosecutor's own order, so the figures rest on the news reports named below."
+  ],
+  "why": "The post is short and has a siren in it. \"Suspended for two years\" can be read as a ban from football, so a fan who reads only the line comes away with a different case from one who reads the report.",
+  "next": "The prosecutor's order and any club or federation statement would show whether anything beyond the fine applies.",
+  "posts": [
+    {
+      "id": "2108202607105774017",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Dawn: Swiss captain Xhaka gets suspended fine for fake Covid certificate",
+      "url": "https://www.dawn.com/news/2035785/swiss-captain-xhaka-gets-suspended-fine-for-fake-covid-certificate"
+    },
+    {
+      "label": "Newshub: Granit Xhaka gets suspended CHF 150k fine for fake vaccine",
+      "url": "https://www.newshub.co.uk/sport/2026/10/08/swiss-captain-xhaka-avoids-jail-after-falsifying-covid-vaccine-proof/"
+    },
+    {
+      "label": "Yahoo Sports: Suspended fine for Xhaka over Covid-19 certificate",
+      "url": "https://sports.yahoo.com/articles/suspended-fine-xhaka-over-covid-171232972.html"
+    }
+  ]
+}

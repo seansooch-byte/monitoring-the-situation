@@ -1,0 +1,53 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-hasan-execution-livestream",
+  "title": "Pentagon says the firing squad execution of the Fort Hood shooter will be livestreamed",
+  "dek": "A public broadcast of a U.S. execution would be close to unheard of. The date is set for 3 December, and the plan has drawn objections from some lawmakers and legal scholars.",
+  "desks": [
+    "justice",
+    "defense"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-08T18:45:41Z",
+  "updated_at": "2026-10-09T17:45:00Z",
+  "what": [
+    "Defense Secretary Pete Hegseth said on Thursday 8 October that the execution of Nidal Hasan would be public. CBS News quotes him: \"We'll make sure that people are able to watch it, that it's public.\" CBS and PBS report that a Pentagon official then said it would be livestreamed.",
+    "Hasan, a former Army psychiatrist, was convicted at court-martial in 2013 of killing 13 people at Fort Hood, Texas, in 2009. President Trump approved a firing squad on the Defense Secretary's recommendation earlier this week. CBS reports the date as 3 December at Fort Hood, and says it would be the military's first execution of a service member since 1961.",
+    "CBS quotes Geoffrey Corn, a Texas Tech law professor, as uneasy about making it \"some type of public spectacle\", because past practice limited witnesses to victims' families and chosen media. The Hill reports criticism from Senator Thom Tillis and Senator Chris Murphy. I did not read those remarks in full.",
+    "I could not find a written Pentagon plan that says how the stream would be run. The details rest on the Secretary's remarks and an unnamed official."
+  ],
+  "why": "A public execution is a rare thing to propose, and the news arrived as a short alert that wire services, news outlets and political accounts then passed on with their own framing.",
+  "next": "A written Pentagon notice of the arrangements, or a court challenge, would settle what is actually planned.",
+  "posts": [
+    {
+      "id": "2108267604515139662",
+      "role": "voice"
+    },
+    {
+      "id": "2108306315093119299",
+      "role": "origin"
+    },
+    {
+      "id": "2108294055893369000",
+      "role": "voice"
+    },
+    {
+      "id": "2108328557550182559",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CBS News: Fort Hood shooter's execution will be livestreamed, Pentagon says",
+      "url": "https://www.cbsnews.com/news/hegseth-fort-hood-shooter-execution-public-nidal-hasan/"
+    },
+    {
+      "label": "PBS NewsHour: Pentagon says firing squad execution of Fort Hood shooter will be livestreamed",
+      "url": "https://www.pbs.org/newshour/nation/pentagon-says-firing-squad-execution-of-fort-hood-shooter-will-be-livestreamed"
+    },
+    {
+      "label": "The Hill: Tillis, Murphy blast planned livestream",
+      "url": "https://thehill.com/homenews/senate/6138373-thom-tillis-pentagon-live-firing-squad-execution-nidal-hasal-criticism/"
+    }
+  ]
+}

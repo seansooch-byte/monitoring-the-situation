@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T09:30:00Z",
-  "capture": "2026-10-09T0901Z",
+  "updated_at": "2026-10-09T17:50:00Z",
+  "capture": "2026-10-09T1619Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -185,6 +185,28 @@
       "id": "2108270743201145282",
       "desk": "entertainment",
       "line": "A film news account shares the first trailer for Love Language, a romantic comedy with Chloë Grace Moretz, Anthony Ramos and Manny Jacinto. The post says it is out on digital on 23 October."
+    },
+    {
+      "id": "2108202607105774017",
+      "desk": "sports",
+      "line": "Sky Sports News reports that footballer Granit Xhaka has been fined £136,265 and \"suspended for two years\" for forging a COVID-19 certificate. News reports of the court order describe a suspended fine, not a playing ban; our story has the details.",
+      "also": null
+    },
+    {
+      "id": "2108575881996210210",
+      "desk": "sports",
+      "line": "Reporter Adam Schefter says Mike Ditka, Hall of Fame tight end and head coach of the 1985 Bears, has died, his family announced. He was 86. The AP also reports it.",
+      "also": [
+        "2108584126420844732"
+      ]
+    },
+    {
+      "id": "2108224420460241076",
+      "desk": "politics",
+      "line": "Fox News reports that the Trump administration is suspending Microsoft, Adobe and several large IT outsourcing firms from an employment-based green card programme, accusing them of abusing the visa system. Our story has what press reports add.",
+      "also": [
+        "2108208498496413711"
+      ]
     }
   ]
 }

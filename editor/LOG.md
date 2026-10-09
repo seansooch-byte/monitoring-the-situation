@@ -52,3 +52,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed; the watch list already holds every pulse post.
 - Shipped: see report.
 - For the main editor: the Isaias story is still on advisory 10A and the ICE shooting rests on the mayor's statement only; both need a story pass.
+
+## 2026-10-09T17:50Z
+- Captures read: 1011Z, 1102Z, 1212Z, 1318Z, 1432Z, 1528Z, 1619Z. Last read: 1619Z.
+- X's check: 1619Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier in the span: 1318Z 1 missing (2108531492561572118, AdamSchefter); 1432Z 1 mismatch (2108545259403952438); 1432Z and 1528Z 1 mismatch (2108546607788507337, a podcast post). None cited.
+- Pulse: 35 items on 20 desks (3 new, 0 dropped). Added: Xhaka fine (sports), Ditka death (sports), PERM suspension (politics).
+- Added: 2026-10-08-xhaka-suspended-fine (sports), 2026-10-08-hasan-execution-livestream (justice), 2026-10-08-starlink-india-licence (world), 2026-10-08-perm-suspensions (politics), 2026-10-08-marble-hill-ice-shooting (politics), 2026-10-09-mike-ditka-dies (sports). Updated: 2026-10-08-isaias-pensacola-beach (advisory 12, Category 3).
+- Left out: the TMZ text-chain post (names private people); the stadium employee clip and Dak Prescott (private individual); the Indian market crash and Hugging Face breach claims (unconfirmed); the claim of $500B lost on the green card news (unchecked); a post naming an ICE agent (not confirmed); old_content posts. No new stories for ai, gaming, music, science, medicine, crypto.
+- Requests: added r-2026-10-09-12 (DHS and NYPD accounts of the Marble Hill shooting) and r-2026-10-09-13 (Labor Department notice on PERM). Removed r-2026-10-09-11 (notice, acknowledged). Watch list now holds the new stories' posts.
+- Shipped: see report.
+- For the main editor: the Sky Sports Xhaka wording can mislead; the story covers it. I did not find the Labor Department's PERM notice. Web search returned stale results at first (said Ditka was alive until a second search).

@@ -2,14 +2,14 @@
   "schema": "mts.moment/1",
   "id": "2026-10-08-isaias-pensacola-beach",
   "title": "Hurricane Isaias nears the Gulf Coast as a clip from Pensacola Beach travels ahead of it",
-  "dek": "A storm chaser's 20 second video is the most liked post captured on the weather desk. The hurricane behind it has 105 mph winds, with warnings up from Mississippi to the Florida Panhandle.",
+  "dek": "A storm chaser's 20 second video is the most liked post captured on the weather desk. The hurricane behind it is now Category 3 with 120 mph winds, with warnings up from Mississippi to the Florida Panhandle.",
   "desks": [
     "disaster"
   ],
   "standing": "developing",
   "started_at": "2026-10-08T23:35:00Z",
   "what": [
-    "Hurricane Isaias was about 230 miles south of the mouth of the Mississippi River at 1 a.m. Central time on Friday, moving north-northeast at 14 mph with top sustained winds of 105 mph, according to the National Hurricane Center. A hurricane warning runs from Ocean Springs, Mississippi, to the Bay and Gulf county line in Florida, and a storm surge warning from the mouth of the Mississippi to the Suwannee River.",
+    "Hurricane Isaias was a Category 3 hurricane at 10 a.m. Central time on Friday 9 October, about 195 miles south of Pensacola, Florida, moving north-northeast at 16 mph with top sustained winds of 120 mph, according to the National Hurricane Center (advisory 12). The Center said the middle of the storm was expected to reach the western Florida Panhandle coast that evening, with hurricane-force winds reaching as far as 100 miles inland into southern Alabama. A hurricane warning runs from Ocean Springs, Mississippi, to the Bay and Gulf county line in Florida, and a storm surge warning from the mouth of the Mississippi to the Suwannee River.",
     "On Thursday evening a storm chaser posted a 20 second video from Pensacola Beach with the words \"Are you kidding me right now!\" A meteorologist with 1.3 million followers shared another view of the same evening and called it \"the infamous calm before the storm\". The capture does not describe what the video shows, so this write-up does not either."
   ],
   "why": "People on the coast are posting what they can see, and the clips are travelling faster than the advisories. A second strand is lighter: a Tampa station posted that Florida's governor told a press conference he did not know how to pronounce the storm's name and would call it Isaiah.",
@@ -36,9 +36,15 @@
   ],
   "sources": [
     {
-      "label": "National Hurricane Center, Hurricane Isaias intermediate advisory 10A, 1 a.m. CDT 9 Oct 2026",
+      "label": "National Hurricane Center, Hurricane Isaias advisory 12, 10 a.m. CDT 9 Oct 2026",
       "url": "https://www.nhc.noaa.gov/text/MIATCPAT4.shtml"
     }
   ],
-  "updated_at": "2026-10-09T06:40:00Z"
+  "updated_at": "2026-10-09T17:45:00Z",
+  "corrections": [
+    {
+      "at": "2026-10-09T17:45:00Z",
+      "text": "Updated from advisory 10A (105 mph, 1 a.m. Central) to advisory 12 (120 mph, Category 3, 10 a.m. Central)."
+    }
+  ]
 }

@@ -1,0 +1,45 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-marble-hill-ice-shooting",
+  "title": "A man is shot by an ICE agent in Marble Hill in the Bronx, with a 5-year-old in the car",
+  "dek": "The mayor and federal officials give different pictures of what happened. The central question, what led to the shots, is not settled.",
+  "desks": [
+    "politics",
+    "justice"
+  ],
+  "standing": "disputed",
+  "started_at": "2026-10-08T23:02:04Z",
+  "updated_at": "2026-10-09T17:45:00Z",
+  "what": [
+    "At about 4 p.m. on Thursday 8 October an Immigration and Customs Enforcement agent shot a 28-year-old man in the Marble Hill neighbourhood of the Bronx, according to amNY, CBS New York and Forbes. The NYPD commissioner said at least one agent fired seven rounds and hit him in the neck. A 5-year-old child in the car was unhurt.",
+    "Mayor Zohran Mamdani said agents surrounded the man's car before firing, and wore construction vests and masks, so there was \"no reasonable way\" to tell they were ICE. The Department of Homeland Security said agents were making a targeted arrest, that officers gave aid at once, and that the FBI and Homeland Security Investigations are investigating. amNY lists as unsettled what prompted the shots and whether the man was armed.",
+    "Mamdani said later that talks with President Trump and Homeland Security Secretary Markwayne Mullin did not win the man's release. amNY reports he was taken from hospital by ICE and that a congressman was denied access. Protests followed. I do not name the man, the child or any agent. At least one captured post names an agent. I could not confirm that identification and it is not used.",
+    "The mayor's statement is his own. DHS's account reaches this page only through press reports, as I found no DHS post in the capture."
+  ],
+  "why": "It combines a shooting, a child, the city's new mayor and federal immigration agents in one event, and each side describes a different scene.",
+  "next": "The findings of the FBI and Homeland Security Investigations inquiry, and any video, would settle what led to the shots.",
+  "posts": [
+    {
+      "id": "2108332127318073528",
+      "role": "origin"
+    },
+    {
+      "id": "2108396710292783532",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "amNY: Mamdani says talks with Trump failed to free man wounded by agents",
+      "url": "https://www.amny.com/immigration/ice-shooting-mamdani-trump-marble-hill-10092026/"
+    },
+    {
+      "label": "Forbes: ICE agent shoots man in New York",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/10/09/ice-agent-shoots-man-in-new-york-mamdani-hochul-say-5-year-old-was-in-car/"
+    },
+    {
+      "label": "CBS New York: Man shot by ICE agent in Marble Hill",
+      "url": "https://www.cbsnews.com/newyork/news/ice-agent-shoots-person-in-nycs-marble-hill-law-enforcement-sources-say/"
+    }
+  ]
+}

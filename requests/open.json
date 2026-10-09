@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-09T08:25:00Z",
+  "updated_at": "2026-10-09T17:50:00Z",
   "requests": [
     {
       "id": "r-2026-10-09-05",
@@ -27,10 +27,16 @@
       "ask": "The most liked replies and quote posts, using the early window if the probe shows it works. Also: does any post link the CrowdStrike report this post describes? If so capture it with the link recorded as link media."
     },
     {
-      "id": "r-2026-10-09-11",
-      "kind": "notice",
+      "id": "r-2026-10-09-12",
+      "kind": "search",
       "post": null,
-      "ask": "contract/GRABBER.md changed after your third capture: the pace floor now waits fifteen minutes, needs a tenth of the floor in views and never applies to accounts of kind news; x_stories is optional; early twenty minute windows are the standard for reactions; per-post quote and reply series go in rotation. New files concern the editor routine: contract/EDITOR.md, contract/EDITOR-BRIEF-PULSE.md and contract/EDITOR-BRIEF.md. The watch list now holds every post shown on the site. Answer once with status ok."
+      "ask": "The Marble Hill, Bronx ICE shooting of 8 October (see post 2108332127318073528). Find the most viewed posts from the Department of Homeland Security, ICE or its officials that describe what happened, and from the NYPD. Do not capture posts that name an individual agent or the man shot."
+    },
+    {
+      "id": "r-2026-10-09-13",
+      "kind": "search",
+      "post": null,
+      "ask": "The 8 October suspension of Microsoft, Adobe, Infosys, Tata, Wipro, HCL, Cognizant and Capgemini from the permanent labor certification (PERM) programme. Find any post from the Labor Department or the White House, and from the companies, with the notice or a statement."
     }
   ]
 }

@@ -1,0 +1,58 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-perm-suspensions",
+  "title": "U.S. suspends Microsoft, Adobe and six IT firms from the permanent labor certification programme",
+  "dek": "The step stops the first stage of green card sponsorship for those employers. I found no primary notice, so the details rest on press reports.",
+  "desks": [
+    "politics",
+    "business"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-08T14:50:49Z",
+  "updated_at": "2026-10-09T17:45:00Z",
+  "what": [
+    "The Trump administration suspended eight employers from the Permanent Labor Certification (PERM) programme: Microsoft, Adobe, Capgemini, Cognizant, HCL, Infosys, Tata and Wipro, TechCrunch reports. It says the Labor Department will not accept new PERM applications from them or process pending ones. PERM is usually the first step for an employer sponsoring a green card.",
+    "TechCrunch says Acting Labor Secretary Keith Sonderling announced it and that the administration accused the firms of fraud. It quotes Vice President JD Vance telling Microsoft: \"you've got to hire great American workers\". It also reports probes of nine universities. In September the Labor Department's inspector general had suspended PERM filings for Cognizant and Cloudera, according to Indian press reports.",
+    "Microsoft told TechCrunch that 80% of its H-1B applications last fiscal year extended status for existing employees rather than hiring new ones. Adobe had not responded.",
+    "I could not find the Labor Department's own notice, so the scope and the stated grounds rest on press reports. The reports I read do not show findings against each firm. The captured posts differ in tone: one describes an action against abuse of the visa system, another says the companies brought it on themselves. A post claiming a large stock-market loss tied to the move was not checked and is left out."
+  ],
+  "why": "It touches a very large group of people in the technology industry and in India. Supporters and critics read it in opposite ways.",
+  "worlds": [
+    {
+      "name": "Supporters of the move",
+      "sees": "The firms undercut American workers, and the suspension is overdue enforcement.",
+      "post": "2108208498496413711"
+    },
+    {
+      "name": "Indian tech workers and commentators",
+      "sees": "A restriction on Indian technology professionals that may push work to India instead of keeping it in the United States.",
+      "post": "2108391970792161680"
+    }
+  ],
+  "common": "On the record, per press reports: eight named employers are suspended from PERM filings and the administration alleges abuse. Not established here: any finding against a particular firm, and the effect on any worker. Whether work moves to India is one commentator's prediction.",
+  "next": "The Labor Department's notice, and any company statement or lawsuit, would show what each firm is accused of.",
+  "posts": [
+    {
+      "id": "2108208498496413711",
+      "role": "voice"
+    },
+    {
+      "id": "2108224420460241076",
+      "role": "origin"
+    },
+    {
+      "id": "2108391970792161680",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "TechCrunch: US bars Microsoft, Adobe and major IT firms from green card programme",
+      "url": "https://techcrunch.com/2026/10/08/us-bars-microsoft-adobe-and-major-it-firms-from-green-card-program-for-skilled-foreign-workers/"
+    },
+    {
+      "label": "The Tribune: US suspends 8 IT firms from permanent labour certification programme",
+      "url": "https://www.tribuneindia.com/news/india/us-suspends-8-it-firms-from-permanent-labour-certification-programme/"
+    }
+  ]
+}
