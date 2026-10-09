@@ -150,6 +150,24 @@ test('the build refuses a pulse item whose post is flagged as showing a private 
   run('tools/make-demo.mjs');
 });
 
+test('every time a reader sees is Eastern time, and the machine-readable stamps stay in UTC', () => {
+  run('tools/make-demo.mjs');
+  run('tools/build.mjs', '--demo');
+  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const story = readFileSync(root + 'dist/story/2026-10-08-dog-walks-onto-forecast/index.html', 'utf8');
+  const stories = readFileSync(root + 'dist/stories/index.html', 'utf8');
+  // what a reader sees: the text of the pages, with the markup taken out
+  const seen = (home + story + stories).replace(/<[^>]*>/g, ' ');
+  assert.ok(!/\bUTC\b/.test(seen), 'no time on the page is labelled UTC');
+  const asof = home.match(/<time id="asof" datetime="([^"]+)">(\d\d:\d\d) ET · [A-Z][a-z]{2} \d{1,2} [A-Z][a-z]{2} \d{4}<\/time>/);
+  assert.ok(asof, 'the as-of time reads HH:MM ET, then the day');
+  assert.match(asof[1], /^\d{4}-\d\d-\d\dT[\d:.]+Z$/, 'and its datetime attribute is still the instant in UTC');
+  assert.notEqual(asof[2], asof[1].slice(11, 16), 'the words are not the UTC clock');
+  assert.match(home, /<time datetime="[^"]+Z">\d\d:\d\d ET<\/time>/, 'a post gives its time in ET');
+  assert.match(stories, /began \d\d:\d\d ET, /);
+  assert.match(story, /Written up \d\d:\d\d ET, /);
+});
+
 test('a pulse of nothing, and a pulse of one, still build a whole front page', () => {
   run('tools/make-demo.mjs');
   const file = root + 'fixtures/demo/pulse/current.json';

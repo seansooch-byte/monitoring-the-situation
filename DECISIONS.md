@@ -384,3 +384,23 @@ a quote post; the label is now read from the grabber's own links.
 **The pages the drawing did not cover** (stories, a story, a desk, the desks, the archive, about)
 are set in the same system: the same numerals, rules, labels and cards, with "On the record" as
 an inverted panel.
+
+## 2026-10-09: Times on the page are Eastern time, labelled ET
+
+**Context.** Sean, after Edition 2 shipped: "Swap utc to est." Every time on the site read in
+UTC (as of 08:12 UTC, a post at 13:25 UTC), which is the capture's clock and not a reader's.
+
+**Decision.** One module, `tools/lib/clock.mjs`, converts an instant to `America/New_York` and
+the build prints only what it returns. The label is ET. He wrote "est", but in October New York
+is on daylight time, four hours behind UTC and not five: printing "EST" over that hour would be
+wrong until November, and printing true EST would be an hour off his own clock. ET is right all
+year and the zone's rule does the rest.
+
+**Unchanged.** The 24 hour format. Everything stored: capture file names and run ids, post
+ids, `created_at`, `started_at`, `updated_at`, and each `datetime` attribute stay in UTC, so
+grokbot and the editor's pass are untouched. The archive now groups a story under the day it
+began in New York, which is the day a reader would call it.
+
+**Alternatives.** Converting in the browser to each reader's own zone: the page would then
+differ from what was built and audited, and from what Sean sees. A fixed five hour offset:
+wrong for seven months of the year.

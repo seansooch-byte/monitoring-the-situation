@@ -79,6 +79,7 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 | `briefs/` | Editor | One file per day: the daily briefing by desk. **Planned.** |
 | `site/` | Editor | The stylesheet, the page script and the icon. Page templates live in `tools/build.mjs`. **Built.** |
 | `tools/lib/metrics.mjs` | Editor | Arithmetic on readings: magnitude, a story's totals and trend, a desk's trace. **Built.** |
+| `tools/lib/clock.mjs` | Editor | The site's clock: turns a stored UTC instant into the Eastern time a reader sees. The only place a time zone is named. **Built.** |
 | `tools/make-demo.mjs`, `tools/demo-stories.mjs` | Editor | An invented day in the real file formats, for design work. A build from it is marked on every page and leaves a `DEMO` file so it is never deployed. **Built.** |
 | `.github/workflows/check.yml` | Editor | Runs the tests and Gate 1 on every push, and fails a capture commit that touches anything outside `capture/`. **Built.** |
 
@@ -163,6 +164,9 @@ the first three large, the next six a step down and the rest as a line each, by 
 `site/app.js` sorts by moving the items and never redraws one. `tests/build.test.mjs` pins the
 two things that rests on: the list's only children are the items, and the page script reaches
 for nothing the pages lack.
+
+Every time on a page is Eastern time, labelled ET (`tools/lib/clock.mjs`). Captures, ids, file names
+and each `datetime` attribute stay in UTC.
 
 The reader's own desks are kept in their browser only (`localStorage`); nothing is sent anywhere.
 Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex`

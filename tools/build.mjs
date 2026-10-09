@@ -10,6 +10,7 @@ import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statS
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { deskTrace, magnitude, seriesByPost, storyNumbers } from './lib/metrics.mjs';
+import { ZONE_LABEL, clockTime, dateOf, dayOf } from './lib/clock.mjs';
 
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DEMO = process.argv.includes('--demo');
@@ -66,10 +67,9 @@ function num(n) {
   return String(n);
 }
 const mag = (m) => (m == null ? 'n/a' : m.toFixed(1));
-const hhmm = (ms) => new Date(ms).toISOString().slice(11, 16);
-const DAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-function day(ms) { const d = new Date(ms); return `${DAYS[d.getUTCDay()]} ${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}`; }
+// Times on the page are Eastern time (tools/lib/clock.mjs). Stored timestamps stay in UTC.
+const hhmm = clockTime;
+const day = dayOf;
 function ago(ms) {
   const m = Math.max(0, Math.round((NOW - ms) / 60000));
   if (m < 60) return `${m} min ago`;
@@ -172,7 +172,7 @@ const desks = DESKS.desks.map((d) => {
 const deskLink = (d) => (d ? `<a class="desk" href="/desk/${d.id}/">${esc(d.name)}</a>` : '');
 const groupName = (d) => DESKS.groups.find((g) => g.id === d.group)?.name ?? '';
 const xLink = (p, text, cls) => `<a${cls ? ` class="${cls}"` : ''} href="${esc(p.url)}" rel="noopener noreferrer" target="_blank">${text}</a>`;
-const clock = (p) => `<time datetime="${esc(p.created_at)}">${hhmm(p.created)} UTC</time>`;
+const clock = (p) => `<time datetime="${esc(p.created_at)}">${hhmm(p.created)} ${ZONE_LABEL}</time>`;
 const who = (p) => `<b>${esc(fromX(p.author.name))}</b>`;
 const quoted = (p) => `“${postText(p)}”`;
 const numeral = (m, cls = 'num') => `<span class="${cls}"><span class="vh">Magnitude </span>${mag(m)}</span>`;
@@ -305,7 +305,7 @@ function worldsBlock(s, open) {
 }
 
 function storyMeta(s) {
-  return `<p class="hd-row">${s.desks.map((id) => deskLink(deskById.get(id))).join('')}<span class="meta">began ${hhmm(s.started)} UTC, ${ago(s.started)}</span>${standingTag(s)}<span class="out">${OUTSIDE}</span></p>`;
+  return `<p class="hd-row">${s.desks.map((id) => deskLink(deskById.get(id))).join('')}<span class="meta">began ${hhmm(s.started)} ${ZONE_LABEL}, ${ago(s.started)}</span>${standingTag(s)}<span class="out">${OUTSIDE}</span></p>`;
 }
 
 function magBlock(s) {
@@ -368,7 +368,7 @@ ${DEMO ? '<p class="demo">Design test. Every story and post below is invented. O
 <div class="wrap">
 <header class="top">
   <div class="top-row">
-    <p class="lab asof">As of <time id="asof" datetime="${new Date(NOW).toISOString()}">${hhmm(NOW)} UTC · ${day(NOW)}</time></p>
+    <p class="lab asof">As of <time id="asof" datetime="${new Date(NOW).toISOString()}">${hhmm(NOW)} ${ZONE_LABEL} · ${day(NOW)}</time></p>
     <nav aria-label="Sections">${nav}</nav>
   </div>
   <p class="mast-row"><a class="mast" href="/">Monitoring <span class="the">the</span> Situation</a></p>
@@ -388,7 +388,7 @@ ${body}
 `;
 }
 
-const pinDate = (p) => { const d = new Date(p.created_at); return `<time datetime="${esc(p.created_at)}">${d.getUTCDate()} ${MONTHS[d.getUTCMonth()]} ${d.getUTCFullYear()}</time>`; };
+const pinDate = (p) => `<time datetime="${esc(p.created_at)}">${dateOf(Date.parse(p.created_at))}</time>`;
 
 // The front page carries the site's line and the pinned post as one strip under the nameplate.
 function pinStrip() {
@@ -473,14 +473,14 @@ function storyPage(s) {
       ${worldsBlock(s, true)}
       ${s.next ? `<h2>What to watch</h2><p>${esc(s.next)}</p>` : ''}
       <h2>The posts</h2>${s.posts.map((p) => postFigure(p)).join('')}
-      ${(s.corrections ?? []).length ? `<h2>Corrections</h2><ul class="sources">${s.corrections.map((c) => `<li><time datetime="${esc(c.at)}">${hhmm(Date.parse(c.at))} UTC, ${day(Date.parse(c.at))}</time> ${esc(c.text)}</li>`).join('')}</ul>` : ''}
+      ${(s.corrections ?? []).length ? `<h2>Corrections</h2><ul class="sources">${s.corrections.map((c) => `<li><time datetime="${esc(c.at)}">${hhmm(Date.parse(c.at))} ${ZONE_LABEL}, ${day(Date.parse(c.at))}</time> ${esc(c.text)}</li>`).join('')}</ul>` : ''}
       ${(s.sources ?? []).length ? `<h2>Sources</h2><ul class="sources">${s.sources.map((x) => `<li><a href="${esc(x.url)}" rel="noopener noreferrer" target="_blank">${esc(x.label)}</a></li>`).join('')}</ul>` : ''}
     </div>
     <aside class="full-side">
-      <p class="updated">Written up ${hhmm(Date.parse(s.updated_at))} UTC, ${day(Date.parse(s.updated_at))}</p>
+      <p class="updated">Written up ${hhmm(Date.parse(s.updated_at))} ${ZONE_LABEL}, ${day(Date.parse(s.updated_at))}</p>
       ${magBlock(s)}
       ${spark(s, 280, 80)}
-      <dl class="facts"><div><dt class="lab">Views</dt><dd>${num(s.n.views)}</dd></div><div><dt class="lab">Last hour</dt><dd>${s.n.perHour == null ? 'n/a' : num(s.n.perHour)}</dd></div><div><dt class="lab">Posts tracked</dt><dd>${s.posts.length}</dd></div><div><dt class="lab">Began</dt><dd>${hhmm(s.started)} UTC</dd></div></dl>
+      <dl class="facts"><div><dt class="lab">Views</dt><dd>${num(s.n.views)}</dd></div><div><dt class="lab">Last hour</dt><dd>${s.n.perHour == null ? 'n/a' : num(s.n.perHour)}</dd></div><div><dt class="lab">Posts tracked</dt><dd>${s.posts.length}</dd></div><div><dt class="lab">Began</dt><dd>${hhmm(s.started)} ${ZONE_LABEL}</dd></div></dl>
     </aside>
   </div>
 </article>`;
@@ -516,8 +516,8 @@ ${DESKS.groups.map((g) => `<section class="group"><h2>${esc(g.name)}</h2><div cl
 
 function archivePage() {
   const days = new Map();
-  for (const s of past) { const k = new Date(s.started).toISOString().slice(0, 10); if (!days.has(k)) days.set(k, []); days.get(k).push(s); }
-  const list = [...days.entries()].map(([k, list]) => `<section class="group"><h2>${day(Date.parse(k + 'T12:00:00Z'))}</h2><ul class="st-list">${list.sort((a, b) => (b.n.magnitude ?? 0) - (a.n.magnitude ?? 0)).map((s) => storyLine(s, { dek: true })).join('')}</ul></section>`).join('\n');
+  for (const s of past) { const k = dateOf(s.started); if (!days.has(k)) days.set(k, []); days.get(k).push(s); }
+  const list = [...days.values()].map((list) => `<section class="group"><h2>${day(list[0].started)}</h2><ul class="st-list">${list.sort((a, b) => (b.n.magnitude ?? 0) - (a.n.magnitude ?? 0)).map((s) => storyLine(s, { dek: true })).join('')}</ul></section>`).join('\n');
   const body = `${pageHead({ label: `${past.length} ${past.length === 1 ? 'story' : 'stories'}`, title: 'The archive', dek: 'A story leaves the bulletin 48 hours after it began and is kept here, as it was last written up, with the numbers its posts had reached.' })}
 ${list || empty('Nothing here yet.', 'The record began on 9 October 2026. Stories arrive here two days after they start.')}`;
   return page({ title: `Archive · ${SITE.name}`, description: 'Stories that have left the bulletin, by day.', path: '/archive/', body, current: '/archive/' });
