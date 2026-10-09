@@ -137,3 +137,15 @@ miraghini, _papawere and Spazzzie mostly reply, so they are left out.
 | kenyasgossips | offbeat, internet | repost | Seen as origin of the 5M view giraffe video. |
 | hayasaka_aryan | internet | repost | Seen twice; reaction videos reused by others. |
 | TheNairobiTimez | online | repost | In the probe list. |
+
+## Prune clock
+
+Started 2026-10-09 (run 2026-10-09T0629Z, the first run that read all six groups). On the first run
+after 2026-10-12T06:29Z, drop every account that has not produced a kept post (its own or an
+origin it reposted) in any capture since 2026-10-09, and list the dropped handles in
+capture/NOTES.md. Accounts that authored a kept post in run 2026-10-09T0629Z (origins they reposted not yet counted): Reuters, SkyNews,
+Osint613, visegrad24, Gerashchenko_en, EricLDaugh (news); unusual_whales, WatcherGuru,
+Cointelegraph, cryptorover, AshCrypto (money); AndrewCurran_, jukan05, elonmusk, sciencegirl
+(science); PopBase, PopCrave, IGN, billboard, Nintendo, Wuthering_Waves (culture); NFL, NFLMemes,
+RapSheet, MLB, SportsCenter, barstoolsports, FearedBuck, FabrizioRomano (sports); MarioNawfal,
+IAmLilRico (online). This list is a starting tally, not a verdict.

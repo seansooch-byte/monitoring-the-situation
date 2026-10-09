@@ -218,3 +218,28 @@ including the new ones (protests, migration, fandom, habits).
 | internet | `(meme OR memes OR streamer OR stream OR Twitch OR Kick OR YouTuber OR TikTok OR influencer OR podcast OR fandom OR "main character")` | 132 |
 | life | `(dating OR boyfriend OR girlfriend OR husband OR wife OR marriage OR parents OR kids OR restaurant OR recipe OR wedding OR rent OR tipping OR college OR habit)` | 159 |
 | offbeat | `(dog OR cat OR puppy OR kitten OR animal OR wildlife OR bird OR satisfying OR wholesome OR "wait for it")` | 105 |
+
+## Third probe (2026-10-09, run 2026-10-09T0629Z)
+
+Every call went through the x MCP namespace between 06:29:24 and 06:36:45 UTC. X rejected none of
+them, so there is no rejection text to quote. Five reads.
+
+| Probe | What X returned | Reads |
+|---|---|---|
+| `get_posts_counts_recent "retweets_of_tweet_id:2024898302035067174"`, hour, default window | Accepted. 169 buckets, every one 0, total 0. The post is from February 2026, so a quiet week and an operator that counts nothing look the same. Test again on a post under a day old before trusting it. | 1 |
+| `get_posts_counts_recent "quotes_of_tweet_id:2108262760153026784"`, hour | Accepted. Total 1,193. First non-zero hour 2026-10-08 18:00Z (3), peak 23:00Z (152), 129 in 05:00Z, 56 in the partial 06:00Z bucket. | 1 |
+| `get_posts_counts_recent "conversation_id:2108262760153026784"`, hour | Accepted. Total 1,097 (replies, since the conversation is one post). First non-zero hour 18:00Z (22), peak 22:00Z (142), 66 in 05:00Z. The window starts at the call time minus 7 days (first bucket from 2026-10-02T06:29:24Z). | 1 |
+| Early window replies: `search_posts_all "conversation_id:2108108695876092323 is:reply"`, relevancy, start 08:14:00Z, end 20 minutes after the post | 14 results with real likes: 661 (37,111 views), 279, 235, 94. Without the window, both orders returned only the newest replies with 0 or 1 likes. The window works. | 1 |
+| Early window quotes: `search_posts_all "quotes_of_tweet_id:2108108695876092323 -is:retweet"`, same window | 8 results, all real quote posts of the target (no reposts once `-is:retweet` is added). The top one had 9,732 likes and 832,494 views. | 1 |
+| Two hour window, both kinds, relevancy (run as the r-2026-10-09-10 context step) | 25 results each, but all from the last 45 minutes of the window with 0 to 156 likes: inside a window, relevancy still returns the newest posts first. Use the 20 minute window for most liked; the two hour window only adds the late part. | 2 |
+
+Other facts seen this run:
+
+- `is:quote` also matches reposts of quote posts: 69 of 75 quote-stream results were reposts. Add
+  `-is:retweet` to the quote stream.
+- `search_news` output stays inline (under the size at which the tool writes a file), so it cannot
+  be saved verbatim; `x_stories` stays empty until it can be. Two attempts this run.
+- Per-post series: one read per series, so all three for the 19 watch posts is 57 reads. Planned
+  as a rotation in capture/RUNBOOK.md.
+- Three ids in a by-id read of 94 returned "Not Found Error"; three posts in search results came
+  without their author in `includes.users` and were left out.
