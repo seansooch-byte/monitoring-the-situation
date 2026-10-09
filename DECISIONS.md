@@ -155,3 +155,47 @@ States evening and a daily scoreboard is kept, so the gather is judged by the da
 **Also.** One read of X's counts endpoint returned 167 hourly counts for a desk query, so a week
 of history for all twenty desks costs twenty reads. The site's record will be drawn from these
 counts once they are in.
+
+## 2026-10-09: The purpose is the pinned post, and it decides the design
+
+**Context.** Sean set the site's scope with one post, to be pinned: "People live in different
+worlds" (Elon Musk, 20 Feb 2026, quoting "Your information diet determines your reality"). The
+site exists to reconcile the different-worlds problem that comes from each reader's own feed.
+
+**Decision.** Three things follow from that and are built into edition 1:
+
+- The post is the masthead, set larger than the site's own name, with the site's answer beside it.
+- Every desk is always on the page. A reader can mark the desks they already follow, and the page
+  then counts what is outside them. Nothing is hidden or filtered to taste; the feature points
+  outward.
+- A story can carry `worlds`: how each group describes it, each beside the post that carries that
+  description, followed by `common`, what is established. The editor writes `common` from
+  reporting and says plainly when a claim rests only on posts.
+
+## 2026-10-09: Edition 1, "Record Section"
+
+**Alternatives.** A dark war-room dashboard (the obvious reading of "monitoring the situation");
+a patient monitor (too close to the Read This edition); a trading terminal; a weather map.
+
+**Decision.** A seismic network's record section: one trace per desk on a shared time axis, and
+a magnitude for every story. The log scale is the honest one for attention, which spans ten
+thousand to a hundred million views, and it gives each story one memorable number (7.0 is ten
+million). Ground: drafting vellum, a cool blue-grey, with white sheets. Two colours only: signal
+blue for what is live or large, brick for what is disputed or false. Three faces with three jobs:
+Libre Franklin for headlines and for the internet's own words, STIX Two Text for the editor's
+sentences, B612 (drawn for cockpit displays) for everything the instrument measured.
+
+The wiggle of a trace carries no information; only its height does, and the about page says so.
+
+**Magnitude** is the base ten log of total views across a story's tracked posts, to one decimal.
+It was chosen over a weighted engagement score because a reader can check it in their head.
+
+## 2026-10-09: The first bulletin, and what was left out of it
+
+Seven stories from the first two captures, each post confirmed against X and each claim checked
+against reporting. Left out on purpose: the night's biggest sports post (it shows a stadium
+employee, a private person); a politics item whose central quote I could not confirm in any
+reporting; the vaccine-clinic story, because the capture held only one side and the facts were
+not confirmed (asked of the grabber); a markets post spreading mainly through jokes about a
+nationality. One cited post was swapped out because its text gave identifying details of a
+private person accused of a crime.

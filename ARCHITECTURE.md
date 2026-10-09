@@ -29,10 +29,10 @@ Every arrow is a real dependency: the node at its head reads what the node at it
 |---|---|---|---|---|
 | Grabber | Record what is viral on X, and re-read it on a schedule | X, `requests/` | `capture/` | A capture with `run.status` `partial` or `down` and a reason. A missing file means it did not run. |
 | Gate 1, structure (**Built**) | Reject a malformed capture | one capture file, ids from earlier captures | PASS or a list of errors | Exit 1. The grabber fixes the file or replaces it with a `down` run. |
-| Gate 2, existence (**Planned**) | Confirm against X that each post exists and that its author and text match | `capture/`, X's public oEmbed endpoint | a ledger of confirmed, missing and mismatched posts | A post that is not confirmed is never published. An invented post counts against its run. |
+| Gate 2, existence (**Built**: `tools/verify-posts.mjs`) | Confirm against X that each post exists and that its author and text match | `capture/`, X's public oEmbed endpoint | a ledger of confirmed, missing and mismatched posts | A post that is not confirmed is never published. An invented post counts against its run. |
 | Editor | Group posts into stories, research them, write every word | confirmed posts, reporting on the web | `moments/`, `briefs/`, `requests/` | A story it cannot stand behind is not written. |
-| Build (**Planned**) | Render the site | `moments/`, `briefs/`, `capture/` | `dist/` | Refuses to build if a story cites a post that Gate 2 has not confirmed. |
-| Cloudflare Pages (**Planned**) | Serve `dist/` | `dist/` | the public site | The previous deployment stays live. |
+| Build (**Built**: `tools/build.mjs`) | Render the site | `moments/`, `capture/`, `verified/posts.json`, `contract/desks.json`, `site.json` | `dist/` | Refuses to build if a story cites a post that no capture recorded or that Gate 2 has not confirmed. |
+| Cloudflare Pages (**Planned**, waiting on a hostname) | Serve `dist/` | `dist/` | the public site | The previous deployment stays live. |
 
 Two rules hold the design together:
 
@@ -52,9 +52,13 @@ Two rules hold the design together:
 | `tests/` | Editor | The contract as tests. **Built.** |
 | `requests/` | Editor | What the editor wants from the next run: lookups, searches, and the list of posts to keep re-reading. **Built** (format); the grabber starts reading it with its first run. |
 | `capture/` | Grabber | One file per run, append only. Empty until the first run. |
-| `moments/` | Editor | One file per story. **Planned.** |
+| `moments/` | Editor | One file per story (`mts.moment/1`): title, standing, what happened, why it is spreading, how each world sees it, what is on the record, the posts it cites by id, sources. **Built.** |
+| `verified/posts.json` | Editor | Gate 2's ledger: for each post checked, what X answered and when. **Built.** |
+| `site.json` | Editor | The site's name, its pinned post and its statement of purpose. **Built.** |
 | `briefs/` | Editor | One file per day: the daily briefing by desk. **Planned.** |
-| `site/` | Editor | Templates, styles and scripts for the site. **Planned.** |
+| `site/` | Editor | The stylesheet, the page script and the icon. Page templates live in `tools/build.mjs`. **Built.** |
+| `tools/lib/metrics.mjs` | Editor | Arithmetic on readings: magnitude, a story's totals and trend, a desk's trace. **Built.** |
+| `tools/make-demo.mjs`, `tools/demo-stories.mjs` | Editor | An invented day in the real file formats, for design work. A build from it is marked on every page and leaves a `DEMO` file so it is never deployed. **Built.** |
 | `.github/workflows/check.yml` | Editor | Runs the tests and Gate 1 on every push, and fails a capture commit that touches anything outside `capture/`. **Built.** |
 
 ## The desks
@@ -87,6 +91,33 @@ none of which trust the grabber's own word:
 - **Some lookups have no answer.** The editor may ask the grabber to look up an id that does not
   exist. The right answer is `not_found`. A record returned for one is an invention, caught by the
   same Gate 2.
+
+## The site
+
+One static build, no server and no database. `node tools/build.mjs` writes `dist/`:
+
+- `/` the pulse: the pinned post and the purpose, the record (one trace per desk over 24 hours),
+  a picker for the reader's own desks, and the bulletin of stories ranked by magnitude.
+- `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`.
+- `/data/pulse.json` the same numbers for machines.
+
+Purpose, which decides the design: people who read different things come away with different
+days (the pinned post). The site puts every desk on one sheet, and where groups describe one
+story differently it sets each description beside the post that carries it, then states what
+is established.
+
+How a number reaches the page: magnitude is the base ten log of views across a story's posts
+at their latest reading; a desk's trace is views gained per hour by the posts the grabber
+labelled with that desk, spread over the time between readings. A desk's figure for the day
+counts posts written in the last 24 hours. The trace will be drawn from X's hourly post counts
+(`volume`) once a week of them is in for every desk (**Planned**).
+
+The reader's own desks are kept in their browser only (`localStorage`); nothing is sent anywhere.
+Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex` until
+the site has a hostname and Sean opens it.
+
+Not built yet: deployment to Cloudflare (waiting on a hostname), a daily brief and an archive,
+scheduled editor passes, click-to-load embeds of posts.
 
 ## What this replaces
 

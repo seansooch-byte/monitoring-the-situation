@@ -50,7 +50,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '
 const fromX = (s) => String(s ?? '').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 function postText(p) {
   let t = fromX(p.text);
-  if ((p.media ?? []).length) t = t.replace(/\s*https:\/\/t\.co\/\w+\s*$/, '');
+  // X appends a t.co link for attached media and for a quoted post; they are not part of the words.
+  if ((p.media ?? []).length || p.quotes) t = t.replace(/(\s*https:\/\/t\.co\/\w+)+\s*$/, '');
   return esc(t).replace(/\n/g, '<br>');
 }
 function num(n) {
@@ -79,9 +80,13 @@ const TREND = { rising: 'rising', fading: 'fading', steady: 'steady', new: 'new'
 
 // ---------- stories: the editor's words joined to the grabber's numbers
 
+// Gate 2's ledger. A real build refuses a story citing a post X has not confirmed.
+const LEDGER = !DEMO && existsSync(join(REPO, 'verified', 'posts.json')) ? readJSON(join(REPO, 'verified', 'posts.json')) : {};
+
 function resolvePost(ref) {
   const rec = records.get(ref.id);
   if (!rec) throw new Error(`story cites post ${ref.id}, which no capture has recorded`);
+  if (!DEMO && LEDGER[ref.id]?.result !== 'ok') throw new Error(`story cites post ${ref.id}, which X has not confirmed; run node tools/verify-posts.mjs --moments`);
   const list = series.get(ref.id) ?? [];
   const live = [...list].reverse().find((o) => Number.isFinite(o.views)) ?? list[list.length - 1] ?? null;
   return { ...rec, role: ref.role, now: live, readings: list, created: Date.parse(rec.created_at) };
@@ -111,8 +116,11 @@ const desks = DESKS.desks.map((d) => {
   const own = [...records.values()].filter((p) => p.desk === d.id).map((p) => ({ id: p.id, created: Date.parse(p.created_at) }));
   const bins = deskTrace(own, series, { from: FROM, to: NOW, bins: BINS });
   const mine = stories.filter((s) => s.home?.id === d.id);
-  const total = own.reduce((sum, p) => { const l = (series.get(p.id) ?? []).filter((o) => Number.isFinite(o.views)).pop(); return sum + (l ? l.views : 0); }, 0);
-  return { ...d, bins, posts: own.length, views: total, mag: magnitude(total), stories: mine, also: stories.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)) };
+  // The desk's figure for the day counts posts written in the last 24 hours. An old post that a
+  // reference led back to still feeds the trace by what it gained, but not the day's total.
+  const fresh = own.filter((p) => p.created >= FROM);
+  const total = fresh.reduce((sum, p) => { const l = (series.get(p.id) ?? []).filter((o) => Number.isFinite(o.views)).pop(); return sum + (l ? l.views : 0); }, 0);
+  return { ...d, bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: stories.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)) };
 });
 
 function tracePath(desk, w = 960, h = 40) {
@@ -155,8 +163,9 @@ function postBlock(p, { compact = false } = {}) {
 function spark(s, w = 200, h = 44) {
   const pts = [];
   for (const p of s.posts) for (const o of p.readings) if (Number.isFinite(o.views)) pts.push(o.at);
-  const times = [...new Set(pts)].sort((a, b) => a - b);
-  if (times.length < 2) return `<p class="spark-wait">One reading so far. The curve starts with the next one.</p>`;
+  const born = Math.min(...s.posts.map((p) => p.created));
+  const times = [...new Set([born, ...pts])].sort((a, b) => a - b);
+  if (times.length < 2) return `<p class="spark-wait">No reading yet.</p>`;
   const total = (t) => s.posts.reduce((sum, p) => { const r = p.readings.filter((o) => o.at <= t && Number.isFinite(o.views)).pop(); return sum + (r ? r.views : 0); }, 0);
   const ys = times.map(total), max = Math.max(...ys, 1), t0 = times[0], span = times[times.length - 1] - t0 || 1;
   const d = times.map((t, i) => `${i ? 'L' : 'M'}${(((t - t0) / span) * w).toFixed(1)} ${(h - 2 - (ys[i] / max) * (h - 6)).toFixed(1)}`).join('');
@@ -204,7 +213,7 @@ function storyRow(s, i) {
 function recordFigure(list, { labels = true } = {}) {
   const ticks = [];
   const first = Math.ceil(FROM / (3 * HOUR)) * 3 * HOUR;
-  for (let t = first; t < NOW; t += 3 * HOUR) ticks.push(`<span style="left:${(((t - FROM) / (NOW - FROM)) * 100).toFixed(2)}%">${hhmm(t)}</span>`);
+  for (let t = first; t < NOW - 1.2 * HOUR; t += 3 * HOUR) ticks.push(`<span style="left:${(((t - FROM) / (NOW - FROM)) * 100).toFixed(2)}%">${hhmm(t)}</span>`);
   const row = (d) => {
     const marks = d.stories.filter((s) => s.n.magnitude != null).slice(0, 4).map((s) => {
       const x = Math.max(0, Math.min(100, ((s.started - FROM) / (NOW - FROM)) * 100));
@@ -352,7 +361,7 @@ function deskPage(d) {
   <p class="beats">${d.beats.map((b) => `<span>${esc(b)}</span>`).join('')}</p>
 </section>
 <section class="record">${recordFigure([d], { labels: false })}
-  <p class="desk-nums">${d.posts ? `${d.posts} posts recorded in the last capture window, ${num(d.views)} views in all.` : 'Nothing on this desk cleared its floor in the last 24 hours.'}</p>
+  <p class="desk-nums">${d.posts ? `${d.posts} posts written in the last 24 hours are on record for this desk, with ${num(d.views)} views between them.` : 'Nothing on this desk cleared its floor in the last 24 hours.'}</p>
 </section>
 <section class="bulletin">
   <header class="sec-head"><h2>Stories on this desk</h2></header>

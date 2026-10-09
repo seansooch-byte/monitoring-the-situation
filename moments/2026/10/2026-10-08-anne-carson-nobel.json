@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-anne-carson-nobel",
+  "title": "Anne Carson wins the Nobel Prize in Literature, and an old clip of her advice finds new readers",
+  "dek": "The New Yorker reposted her remarks from a 2024 awards night. One quote post, from a reader who had never read her and now intends to, has been seen more than a hundred thousand times.",
+  "desks": [
+    "ideas"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-08T16:00:00Z",
+  "what": [
+    "The Swedish Academy awarded the 2026 Nobel Prize in Literature to the Canadian poet Anne Carson on Thursday, \"for her bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature.\" The New Yorker marked it by sharing a video of her giving a book recommendation and writing advice at the 2024 National Book Awards."
+  ],
+  "why": "A prize sends people looking for a way in, and a short clip of the writer herself is an easier door than the books.",
+  "worlds": [],
+  "common": null,
+  "next": null,
+  "posts": [
+    {
+      "id": "2108225984533352725",
+      "role": "origin"
+    },
+    {
+      "id": "2108248047142502910",
+      "role": "quote"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: 2026 Nobel Prize in Literature",
+      "url": "https://en.wikipedia.org/wiki/2026_Nobel_Prize_in_Literature"
+    }
+  ],
+  "updated_at": "2026-10-09T06:40:00Z"
+}

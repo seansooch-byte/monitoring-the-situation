@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-08-thirty-year-auction",
+  "title": "The Treasury sells 30-year bonds at 5.618 percent, the highest auction yield since 2000",
+  "dek": "Bidders asked for two and a half times the amount on offer, at a price the government has not paid at a 30-year sale in a generation.",
+  "desks": [
+    "markets"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-08T19:26:00Z",
+  "what": [
+    "The Treasury sold $22 billion of 30-year bonds on Thursday at a high yield of 5.618 percent, the highest for a 30-year auction since August 2000. Bidders asked for 2.54 times the amount on offer. September's sale cleared at 5.308 percent and June's at 5.02 percent."
+  ],
+  "why": "It is a clean, checkable record, the kind of number market accounts post the minute it prints.",
+  "worlds": [],
+  "common": null,
+  "next": null,
+  "posts": [
+    {
+      "id": "2108277881466196021",
+      "role": "origin"
+    },
+    {
+      "id": "2108293887332954562",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "TFTC: 30-year Treasury bond auction results",
+      "url": "https://www.tftc.io/treasury-auctions/30-year-bond"
+    }
+  ],
+  "updated_at": "2026-10-09T06:40:00Z"
+}
