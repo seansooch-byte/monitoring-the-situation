@@ -1,11 +1,81 @@
 # X queries, tools and accounts used for the 2026-10-08 briefing
 
-The briefing was gathered by a subagent (sand-subagent-322b5c11-8df5-fcaf-71e9-2e1cce628499). Its
-transcript was not available to the grabber: the grabber has no transcript reader, and no copy of
-that transcript was found on the box. So the exact queries and the account lists it used are
-not recorded here. The editor should ask Sean's main agent, which can read that transcript.
+The briefing was gathered by a subagent (sand-subagent-322b5c11-8df5-fcaf-71e9-2e1cce628499).
+The sections below were recovered from that subagent's own transcript by the main agent and are
+the exact tool calls it made. There was no fixed account list: the accounts were picked per story
+after the news searches.
 
-What can be recovered from the finished briefing (`build_2026-10-08.py`): the X links it cites.
+## Method
+
+1. Load the schemas of the `x` tool namespace.
+2. Run X story searches (`search_news`) per section to find candidate stories. Treat X's story
+   summaries as leads only, not facts.
+3. Pull the US trends list (`get_trends_by_woeid`).
+4. Cross-check each lead on the web (`WebSearch`, `WebFetch`), and keep only stories with a
+   reputable web source.
+5. For chosen stories, search the posts of the relevant news or official account on X
+   (`search_posts_all`) to get an original post link.
+6. Write the Markdown and JSON with `build_2026-10-08.py`.
+
+## X calls (tool namespace `x`), in order
+
+`search_news`, each with `max_age_hours: 24` and `max_results: 8`:
+
+| query | section it fed |
+|---|---|
+| `stock market` | Finance |
+| `politics Congress White House` | Politics |
+| `AI` | Tech and AI |
+| `FDA health medicine` | Medicine |
+| `MLB playoffs NFL NBA` | Sports |
+| `celebrity music movie` | Pop culture |
+| `CDC outbreak vaccine hospital` | Medicine |
+
+`get_trends_by_woeid` with `woeid: 23424977` (United States) and `max_trends: 30`.
+
+`search_posts_all` (`start_time` in UTC):
+
+| query | start_time | max_results | sort_order |
+|---|---|---|---|
+| `from:MLB (Brewers OR Dodgers OR Rays OR Guardians) -is:retweet` | 2026-10-07T20:00:00Z | 15 | relevancy |
+| `from:Reuters (Treasury OR yields OR Hormuz OR oil)` | 2026-10-07T12:00:00Z | 15 | relevancy |
+| `from:AP ("Eva Marie Saint" OR Paramount OR mifepristone OR Kennedy vaccine)` | 2026-10-06T00:00:00Z | 15 | relevancy |
+| `from:OpenAI GPT-6` | 2026-10-06T00:00:00Z | 10 | relevancy |
+| `from:AnthropicAI Haiku` | 2026-10-06T00:00:00Z | 10 | relevancy |
+| `from:NHC_Atlantic Isaias` | 2026-10-07T12:00:00Z | 10 | recency |
+
+That is 15 X calls in all.
+
+## Web calls (WebSearch and WebFetch)
+
+WebSearch queries: `stock market today October 8 2026`; `10-year Treasury yield highest since 2002
+October 2026`; `Trump Accounts $1,000 announcement October 7 2026`; `OpenAI 722 math papers
+quasi-Riemann October 2026`; `FDA mifepristone review March 2027 court filing`; `Kennedy NIH
+vaccine injury clinic announcement October 2026`; `Irkutsk anti-plague institute lab worker death
+WHO`; `Hurricane Isaias forecast October 8 2026`; `Brewers beat Padres Game 4 NLDS Dodgers Braves
+Game 4 October 7 2026`; `Rays sweep Yankees ALDS Game 3 fan interference Volpe`; `White Sox
+Guardians ALDS Game 3 result October 2026`; `Iran Strait of Hormuz shipping attacks October 8 2026`;
+`Reuters Hormuz tanker attacks Iran war oil IEA reserves October 2026`; `Thursday Night Football
+October 8 2026 preview`; `Andrew Garfield Sam Altman "Artificial" NYFF premiere reviews`;
+`entertainment news October 7 2026`; `Paramount completes Warner Bros. Discovery acquisition October
+7 2026`; `Eva Marie Saint dies at 102`; `CDC flu hospitalizations rising early October 2026`;
+`emergency medicine residency match 2027 ERAS news October 2026`; `tech news October 8 2026 AI`;
+`Bezos AI single income families Fox News interview Blue Origin`; `Michael Burry denial stage market
+warning Nvidia short October 2026`; `Tillis Hegseth regret memoir "How to Lose Friends and
+Antagonize Presidents"`; `OpenAI GPT-6 rollout ChatGPT October 2026`; `Anthropic Claude Haiku 5.5
+launch`; `Supreme Court arguments this week October 2026`; `FDA approves October 7 2026`;
+`Supreme Court Suncor Boulder climate case oral argument justices`; `Iranian official "illegal
+routes" Strait of Hormuz blocked`.
+
+WebFetch pages: the NHC Isaias advisory 7, the Page Six Mark Hamill story, the EMRA Match page, the
+Becker's flu story and the FDA tucatinib approval page.
+
+Selection judgements the subagent made (the editor may decide differently): it dropped X stories it
+could not confirm on the web (Tillis on Speaker Johnson and seating a new Congress, "No Invasion of
+Our Country Act", a $49T claim about Democratic plans), and left out the FDA tucatinib approval
+only to keep medicine at five items.
+
+Accounts and links in the finished briefing (`build_2026-10-08.py`): the X links it cites.
 They show that the briefing used X stories (`https://x.com/i/trending/<id>`, from X's news/story
 search) and posts from these accounts: Reuters, AP, MLB, OpenAI, AnthropicAI, NHC_Atlantic. There
 was no fixed account list; the accounts are whichever sources the items came from.
