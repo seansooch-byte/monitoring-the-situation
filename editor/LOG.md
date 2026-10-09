@@ -92,3 +92,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the two earthquake posts. open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Panama quake may need a story pass once USGS reports it.
+
+## 2026-10-09T20:30Z
+- Captures read: 2010Z. Last read: 2010Z.
+- X's check: 2010Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 42 items on 20 desks (2 new, 0 dropped). Added: Fox News on Katie Zacharia replacing Karoline Leavitt as press secretary (politics); Unusual Whales on a Trump-Putin diesel deal, citing the FT (markets). Both marked not checked.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: the Ledger $86M drain claim (unchecked, and the post gives advice; needs a source); the Microsoft-Decision-1 post, Grok Bot email posts and Musk replies (ai already full, Musk well represented); a Flock/police video (may identify private people); an unnamed-actress post with no clear point; Threads and TikTok meme posts, sports and NFL injury posts (desks full, small); old_content posts.
+- Requests: watch list now holds the two new pulse posts. open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Zacharia press secretary and Trump-Putin diesel items, and the Ledger drain, need sources on a story pass.

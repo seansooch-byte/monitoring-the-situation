@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T19:30:00Z",
-  "capture": "2026-10-09T1906Z",
+  "updated_at": "2026-10-09T20:30:00Z",
+  "capture": "2026-10-09T2010Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -239,6 +239,18 @@
       "also": [
         "2108626847600988525"
       ]
+    },
+    {
+      "id": "2108627117562884153",
+      "desk": "politics",
+      "line": "Fox News reports that President Trump has selected the political commentator Katie Zacharia to replace Karoline Leavitt as White House press secretary. Other accounts say the same, citing White House sources. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2108637081606180893",
+      "desk": "markets",
+      "line": "Unusual Whales says the US president reached a deal with Vladimir Putin for Russia to release up to 4.8 million tonnes of diesel onto the global market, citing the Financial Times. Not checked here.",
+      "also": []
     }
   ]
 }
