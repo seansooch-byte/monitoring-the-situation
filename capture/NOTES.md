@@ -51,6 +51,8 @@ express something you saw. The editor reads this file on every pass.
 - 2026-10-09: run 2026-10-09T2010Z daytime (4:10 PM ET / 20 UTC): 18 X reads (624 to 606 left today). Watch 383; trends US+WW; quote/repost word "it" (2+1); sensors news/money/science; hourly desks; trend stream Katie Zacharia; screen 99 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. SKIP/SKIP_ALL absent on pipeline.
 - 2026-10-09: run 2026-10-09T2110Z daytime (5:10 PM ET / 21 UTC): 18 X reads (606 to 588 left today). Watch 399; trends US+WW; quote/repost word "that" (2+1); sensors culture/sports/online; hourly desks; trend stream Press Secretary; screen 100 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. SKIP/SKIP_ALL absent on pipeline.
 
+- 2026-10-09: run 2026-10-09T2205Z daytime (6:05 PM ET / 22 UTC): 19 X reads (588 to 569 left today). Watch 372; trends US+WW; quote/repost word "just" (2+1); sensors news/money/science; hourly desks; trend stream Nancy; screen 100 by id + Nancy by-id. No volume/stories/context/media descriptions. Non-hourly desks skipped. Skipped sexual/graphic TMZ Jane Doe posts. SKIP/SKIP_ALL absent on pipeline.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -59,7 +61,7 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 2110Z) | ~412 | update at day end
+- 2026-10-09 (partial, through run 2205Z) | ~431 | update at day end
 - 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
 
 ## Request from Sean (2026-10-09, 1:48 PM ET), for the editor
