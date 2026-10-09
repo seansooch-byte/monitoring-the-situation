@@ -419,7 +419,9 @@ for (const d of desks) put(`desk/${d.id}/index.html`, deskPage(d));
 for (const s of stories) put(`story/${s.id}/index.html`, storyPage(s));
 put('404.html', page({ title: `Not found · ${SITE.name}`, description: 'No such page.', path: '/404', body: '<section class="desk-head"><p class="label">404</p><h1>Nothing recorded here.</h1><p class="dek"><a href="/">Back to the record.</a></p></section>' }));
 for (const f of ['styles.css', 'app.js', 'favicon.svg']) cpSync(join(REPO, 'site', f), join(OUT, f));
-const CSP = "default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'";
+// Cloudflare adds its analytics beacon to every page on this zone; it is allowed by name. It also
+// adds an inline bot-check script, which stays blocked: no inline script runs here, Cloudflare's included.
+const CSP = "default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; base-uri 'none'; form-action 'none'; frame-ancestors 'none'";
 put('_headers', `/*\n  Content-Security-Policy: ${CSP}\n  Strict-Transport-Security: max-age=31536000\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Robots-Tag: noindex\n`);
 put('robots.txt', 'User-agent: *\nDisallow: /\n');
 put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), stories: stories.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));

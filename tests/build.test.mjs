@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
+import { stripEdge } from '../tools/audit-live.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
 const run = (...args) => execFileSync('node', args, { cwd: root, encoding: 'utf8' });
@@ -53,4 +54,12 @@ test('the real build leaves no DEMO marker, and counts only posts X has confirme
   const headers = readFileSync(root + 'dist/_headers', 'utf8');
   assert.match(headers, /Content-Security-Policy: default-src 'none'/);
   assert.match(headers, /X-Robots-Tag: noindex/);
+});
+
+test('the live audit removes only what Cloudflare adds, so a real difference still shows', () => {
+  const page = '<body><p>x</p><script src="/app.js" defer></script></body>';
+  const edge = '<script>(function(){var a;a.src=\'/cdn-cgi/challenge-platform/scripts/jsd/main.js\';})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v4" data-cf-beacon=\'{}\'></script>';
+  assert.equal(stripEdge(page.replace('</body>', edge + '</body>')), page);
+  assert.notEqual(stripEdge(page.replace('<p>x</p>', '<p>y</p>')), page);
+  assert.notEqual(stripEdge(page.replace('</body>', '<script>alert(1)</script></body>')), page);
 });

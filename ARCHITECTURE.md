@@ -141,7 +141,11 @@ Worker is retired. Both of those are separate, later changes and need Sean's go-
 
 ## Third parties
 
-At runtime, one: Google Fonts (the stylesheet and three font families). Nothing else is loaded
-from another origin, no page posts data anywhere, and an enforced Content-Security-Policy in
-`_headers` holds it to that. A link to a post opens X in a new tab. At build and edit time:
+At runtime, two: Google Fonts (the stylesheet and three font families), and Cloudflare's web
+analytics beacon, which Cloudflare adds to every HTML page on the seansooch.dev zone and which
+counts visits without cookies. Nothing else is loaded from another origin, and an enforced
+Content-Security-Policy in `_headers` holds it to that. Cloudflare also adds an inline bot-check
+script to each page; the policy blocks it, which shows as one console message and changes nothing
+a reader sees. `tools/audit-live.mjs` compares every live file with the build after removing
+those two additions. A link to a post opens X in a new tab. At build and edit time:
 GitHub, X's oEmbed endpoint, Cloudflare.
