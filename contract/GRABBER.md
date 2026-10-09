@@ -66,39 +66,52 @@ X does not say whether a missing post was deleted, so `deleted` is not used.
 
 ## Finding posts
 
-X's search cannot sort by views or filter by likes. The first capture worked around that by taking
-candidates only from X's story clusters, and it showed the cost: 153 posts whose views added up to
-38 million, less than one large post gets on its own, with a median age of twelve hours. Story
-clusters find what X has already filed as news. The subject of this site is what people are
-passing around right now.
+X's search cannot sort by views or filter by likes, so candidates have to be found indirectly and
+then screened by their exact numbers (read by id, 100 per call). The sources below are ranked by
+what each one actually returned in the side by side run of 2026-10-09T0615Z, best first. That run
+was at 2 AM Eastern, so the ranking will be measured again in the evening; until then spend reads
+in this order.
 
-Use these five sources of candidates. They are ranked by how much they find per read. Every
-candidate from every source is then screened the same way: read by id (100 per call) and kept only
-if its exact numbers clear the floor.
-
-1. **The repost stream.** A search for reposts, newest first, returns the reposts happening this
-   minute, and each one carries the post being reposted. The posts that turn up are therefore a
-   sample weighted by how fast they are being reposted right now, which is the measure search
-   cannot give you directly. One read returns up to 25 originals with their numbers. The same works
-   with quote posts, which samples what is being argued about. Search needs a keyword beside the
-   operator: use a desk's terms for a desk sweep, and very common words for the global sweeps. A
-   post that appears more than once in a page is hotter than one that appears once; say so in `lead`.
-2. **References.** Every post you read names the post it quotes or replies to, and X returns that
-   post with it. Screen it like any candidate. Ask X for the media source too
-   (`attachments.media_source_tweet_id`): when an account reposts someone else's clip, that field
-   is the post the clip came from. Record it in `media_source` and capture that post. This is how an
-   aggregator's post leads to the origin.
-3. **Trending names.** For each of the top ten United States trends, one repost-stream search on
-   the name. Put what clears the floor in that trend's `post_ids`. A trend with no posts attached
-   tells the editor nothing.
-4. **Sensor accounts.** One search can name many accounts (`from:a OR from:b ...`). Keep a list
-   per desk group, in `capture/SENSORS.md`, of the accounts that most reliably post or repost what
-   is about to be everywhere, and read each group's newest posts in one call. Sensors are for
-   finding things: follow their references to the origin and capture that, not only the sensor's copy.
-5. **X's story clusters.** Still useful, as one source among five, and X's own name and summary
-   for a story are worth having: record them in `x_stories`.
+1. **References. Free, and the best source measured** (11 origins for no extra reads, median
+   994,000 views). Every post X returns names the post it quotes or replies to and, when asked
+   (`attachments.media_source_tweet_id`), the post its media was first attached to. Follow all
+   three, for every candidate and not only the posts you keep, and follow them a second hop from
+   the origin itself. Count how often each referenced post turns up across everything a run
+   reads: a post that several unrelated candidates point at is the thing people are reacting to.
+   Screen the most pointed-at first and say the count in `lead`.
+2. **Sensor accounts** (2 kept from 1 read, median 1.2 million, with a list that was mostly
+   replies). `capture/SENSORS.md` is the list. Each group is one read:
+   `(from:a OR from:b ...) -is:reply`, newest first. Keep reposts in: a sensor's repost is a
+   reference to follow. Read every group at least every second run.
+3. **Trending names** (freshest source: median age 3 hours). One repost-stream search for each
+   of the top ten United States names that did not already have posts attached in the previous
+   run. Attach the three biggest posts to the trend whatever their size; a trend's top posts are
+   context and have no floor. When several names are plainly one event, say so in `lead`.
+4. **The quote stream, then the repost stream** (quote stream median 278,000; repost stream
+   81,000). `the lang:en is:quote` and `the lang:en is:retweet`, newest first: each result carries
+   the post being quoted or reposted, so a page is a sample weighted by what is spreading this
+   minute. One page is one minute, which is a small sample, so vary the common word between reads
+   and keep a tally across runs: a post that turns up in the stream in several runs of the last
+   six is worth more than one that turned up once. Say the tally in `lead`.
+5. **X's story clusters** (found the biggest fresh post of the night, 5.3 million, but with a
+   median age of 15 hours). Keep them for the global sweeps and for the hourly desks. Save X's
+   name and summary for each story in `x_stories`, from a saved file, never retyped.
+6. **Desk repost streams** (44 kept of 44, medians 40,000 to 78,000: wide but shallow). Use a
+   desk's standing query with `lang:en is:retweet -is:reply`, and keep at most the five best per
+   desk by the pace rule below.
 
 Say in each sweep's `method` which sources produced its posts and the exact query used.
+
+**The floor is a pace for a young post.** A post captured in its first hour will not have its
+views yet, and a floor on totals throws away exactly the posts worth following. A post under three
+hours old clears a floor if its views divided by its age in hours is at least a quarter of the
+floor's view count: 25,000 views an hour for a global sweep, and for a desk a quarter of that
+desk's `floor.views`. Posts three hours old or more are screened on totals as before. A young
+post kept on pace joins the re-read list like any other, which is how its rise gets measured.
+
+**An origin can be old.** When a reference leads to a post more than a week older than the copy
+that led you there, capture it and set the `old_content` flag on it. That a clip is from last
+spring is something the editor needs to know before writing about it.
 
 If X rejects any of these, record exactly what it said in `capture/CAPABILITIES.md`, drop to the
 next source, and carry on. Never fill a gap with a guess.
@@ -106,12 +119,20 @@ next source, and carry on. Never fill a gap with a guess.
 ## Volume
 
 X will count the posts matching a query for each hour of the last week
-(`get_posts_counts_recent`), in one read. Keep one query per desk, written to be broad and stable,
-and record its hourly counts in `volume` with the query itself. This is the measured signal behind
-the site's main chart, so the query for a desk must not change from day to day; when one has to
-change, say so in `capture/NOTES.md`. One read returns a week of hours, so each desk needs a read
-only every six hours: three or four desks a run, in rotation. Do the same for the top five United
-States trends each run, with key `trend.us.<name>`.
+(`get_posts_counts_recent`), in one read. This is the measured signal behind the site's main chart.
+
+- **Desks.** Each desk has one standing query, listed in `capture/CAPABILITIES.md`. It must not
+  change from day to day; when one has to change, say so in `capture/NOTES.md`. Record its hourly
+  counts in `volume` with key `desk.<desk>` and the query itself. Because one read returns the
+  whole week, a desk needs a read only every six hours: three or four desks a run, in rotation.
+  Leave out the partial first and last hours.
+- **Trends.** The top five United States trends each run, key `trend.us.<name>`.
+- **Posts.** If X will count reposts, quote posts and replies of one post by the hour
+  (`retweets_of_tweet_id:`, `quotes_of_tweet_id:`, `conversation_id:` as the query), then one read
+  gives a post's whole history of spreading since it was written, including the hours before
+  anyone was watching it. Keys `post.<id>.reposts`, `post.<id>.quotes`, `post.<id>.replies`, with
+  `desk` `null`. Do this once for every post in `requests/watch.json` and refresh it every six
+  hours while the post is still on the list.
 
 ## Media and links
 
@@ -128,8 +149,13 @@ on x.com.
 
 Do not spend reads on replies and quote posts for posts nobody has asked about. Run `context.top`
 for the three biggest new posts of a run, and otherwise wait for a `context` request: the editor
-asks for the reaction to the posts it is writing about. For each, read two pages rather than one,
-try `relevancy` order as well as newest, and keep the five most liked of each kind.
+asks for the reaction to the posts it is writing about.
+
+Newest-first and `relevancy` both return the latest replies, which have no likes yet. The replies
+with the most likes are nearly always among the first written, so ask for those: the same search
+with `end_time` set twenty minutes after the post was created, and again at two hours. For quote
+posts use `quotes_of_tweet_id:<id> -is:retweet` with the same two windows, and keep only results
+whose reference is a quote of that post. Keep the five most liked of each kind.
 
 ## The read budget
 
@@ -143,6 +169,12 @@ The limit is 1,000 reads a day, shared with the daily briefing. Stay under 850.
 Inside a run, spend roughly: re-reads 4, trends 2, global repost and quote stream 5, trend names 5,
 desks due 10, sensors 3, story clusters 3, volume 4, screening by id 3, context and requests 3.
 If the day is running short, the cut order below still applies.
+
+**A daily scoreboard.** In the last run before 00:00 UTC, append one line to `capture/NOTES.md`
+for the day just ended, counted over all of that day's captures with duplicates removed: reads
+used; posts kept; how many were over 1 million, 5 million and 10 million views at their last
+reading; the largest; the median; the median age when first captured; and the same largest and
+median for each source. The gather is judged by the day, not by any one run.
 
 ## The desks
 

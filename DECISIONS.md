@@ -131,3 +131,27 @@ and `volume` (hourly post counts per desk from X's counts endpoint). `volume` is
 the site's main chart: it is a measured count per desk per hour, where views gained between two
 readings is only an interpolation. Replies and quote posts are fetched on the editor's request
 instead of by default, because reads are the scarce resource.
+
+## 2026-10-09: The repost stream was not the lever; references were
+
+**Context.** The side by side run (2026-10-09T0615Z, about 2 AM Eastern) measured each source
+by what it returned per read. The earlier entry bet on sampling the repost stream. Measured:
+the global repost stream was the weakest source (one read, six posts kept, median 81,000 views).
+Following references cost no reads and was the strongest (eleven origins, median 994,000). Sensor
+accounts and trend names came next. Story clusters, the old method, still found the largest fresh
+post. Old and new shared no posts at all.
+
+**Decision.** Reorder the sources in `contract/GRABBER.md` by measured yield and stop treating
+the global repost stream as the main one: one page of it is 25 reposts from a single minute, too
+small a sample of the whole network. Keep it where the pool is narrow (a trend name, a desk).
+Three rules added from what the run exposed: a pace floor for posts under three hours old (a
+floor on totals discards a young post before it has its views); counting how often a post is
+referenced across a run; flagging an origin much older than its copy.
+
+**Not concluded.** Whether any method finds the top of the distribution among fresh posts. At
+2 AM the fastest young post gained 60,000 views an hour. The comparison is repeated in the United
+States evening and a daily scoreboard is kept, so the gather is judged by the day.
+
+**Also.** One read of X's counts endpoint returned 167 hourly counts for a desk query, so a week
+of history for all twenty desks costs twenty reads. The site's record will be drawn from these
+counts once they are in.

@@ -155,8 +155,8 @@ X writes these summaries itself. They are leads for the editor, never text for t
 
 | Field | What it holds |
 |---|---|
-| `key` | `desk.<desk>` or `trend.us.<name>`. One series per key in a capture. |
-| `desk` | The desk, or `null` for a trend. |
+| `key` | `desk.<desk>`, `trend.us.<name>`, or for one post `post.<id>.reposts`, `post.<id>.quotes`, `post.<id>.replies`. One series per key in a capture. |
+| `desk` | The desk, or `null` for a trend or a post. |
 | `query` | The exact query that was counted. A desk's query stays the same from day to day. |
 | `granularity` | `hour`. |
 | `points` | `{ start, count }` per hour, oldest first: the UTC start of the hour and the whole number X returned. Up to 200. |

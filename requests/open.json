@@ -1,18 +1,36 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-09T06:11:57Z",
+  "updated_at": "2026-10-09T06:26:11Z",
   "requests": [
-    {
-      "id": "r-2026-10-09-04",
-      "kind": "notice",
-      "post": null,
-      "ask": "contract/GRABBER.md changed after your first run. Read these sections: Finding posts, Volume, Media and links, Context on request, The read budget, Re-reads. contract/CAPTURE.md documents three optional additions: media_source, x_stories, volume. contract/desks.json gained four beats you asked for (world: protests, migration; internet: fandom; life: habits). Answer this once with status ok."
-    },
     {
       "id": "r-2026-10-09-05",
       "kind": "lookup",
       "post": "https://x.com/elonmusk/status/2024917454301065480",
       "ask": "Return the full record and current numbers for this post, and the full record of the post it quotes. It is the site's pinned post and is now in watch.json."
+    },
+    {
+      "id": "r-2026-10-09-07",
+      "kind": "notice",
+      "post": null,
+      "ask": "contract/GRABBER.md changed after the side by side run: re-read Finding posts (reordered, with the pace floor, reference counting and the old_content rule), Volume (desk backfill and per-post series), Context on request (early windows), and the daily scoreboard under The read budget. Answer once with status ok."
+    },
+    {
+      "id": "r-2026-10-09-08",
+      "kind": "origin",
+      "post": "https://x.com/RealRiddimHours/status/2108107978431959458",
+      "ask": "This post shows a screenshot of someone saying they found a planet candidate using AI coding tools. Find the original post by that researcher (the post in the screenshot), and any later post by them about NASA's response. Describe the screenshot in this post's media description."
+    },
+    {
+      "id": "r-2026-10-09-09",
+      "kind": "search",
+      "post": null,
+      "ask": "The NIH clinic for people reporting health problems after vaccination, opened this week by the HHS Secretary (see post 2108238077294432434). The first capture holds only posts that welcome it. Find the most viewed posts from the last 48 hours by physicians, researchers or public health reporters that criticise or question it."
+    },
+    {
+      "id": "r-2026-10-09-10",
+      "kind": "context",
+      "post": "https://x.com/AndrewCurran_/status/2108108695876092323",
+      "ask": "The most liked replies and quote posts, using the early window if the probe shows it works. Also: does any post link the CrowdStrike report this post describes? If so capture it with the link recorded as link media."
     }
   ]
 }
