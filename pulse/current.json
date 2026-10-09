@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T21:45:00Z",
-  "capture": "2026-10-09T2110Z",
+  "updated_at": "2026-10-09T22:30:00Z",
+  "capture": "2026-10-09T2205Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -242,6 +242,12 @@
       "id": "2108641198084682219",
       "desk": "disaster",
       "line": "Fox News posts surveillance video it says shows floodwaters carrying cars through the streets of Santiago, Chile. It says at least six people are injured and a state of emergency has been declared in Las Condes. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2108498371803807866",
+      "desk": "entertainment",
+      "line": "The account Film Updates says Aaron Sorkin's film The Social Reckoning now holds a 59% score on Rotten Tomatoes and is in theaters. Not checked here.",
       "also": []
     }
   ]

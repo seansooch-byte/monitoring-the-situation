@@ -112,3 +112,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the new story and pulse posts. open.json unchanged except its timestamp. Other live stories (Hasan, Marble Hill, PERM, Starlink) were not re-checked this pass.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. CNBC and Axios returned 403; the diesel story rests on NBC and Kyiv Independent. The USGS page and the OFAC license text were not opened directly.
+
+## 2026-10-09T22:30Z
+- Captures read: 2205Z. Last read: 2205Z.
+- X's check: 2205Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 41 items on 20 desks (1 new, 0 dropped). Added: Film Updates on The Social Reckoning's Rotten Tomatoes score (entertainment), marked not checked.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Ossoff campaign video (accuses a named opponent's office of ties to white supremacists, not confirmed outside X) and the Collins/Ossoff debate exchange (refers to a private relative); the Indian stock market crash post (unchecked, no source); the phone-driver crash clip and other viral clips (people may be identifiable, point unclear); the "laid hands on your girlfriend" bait post; old_content posts.
+- Requests: watch list now holds the new pulse post. open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged.
