@@ -24,6 +24,12 @@ if [ "${1:-}" = "--check" ]; then echo "check only: not deployed"; exit 0; fi
 npx --yes wrangler@latest deploy
 
 # A status code proves nothing; compare what is live with what was built, file by file.
-sleep 6
-node tools/audit-live.mjs "https://$HOST" || { echo "NOT VERIFIED: see the differences above (a new hostname can take a minute; run node tools/audit-live.mjs again)"; exit 1; }
+# A release takes some seconds to reach every edge, so look up to four times before calling it a failure.
+ok=no
+for wait in 8 12 15 20; do
+  sleep "$wait"
+  if node tools/audit-live.mjs "https://$HOST" > /tmp/mts-audit.txt 2>&1; then ok=yes; break; fi
+done
+tail -3 /tmp/mts-audit.txt
+[ "$ok" = yes ] || { echo "NOT VERIFIED: the live site still differs from this build after a minute; run node tools/audit-live.mjs"; exit 1; }
 echo "live: https://$HOST serves commit $(git rev-parse --short HEAD)"
