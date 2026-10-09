@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T17:50:00Z",
-  "capture": "2026-10-09T1619Z",
+  "updated_at": "2026-10-09T17:27:00Z",
+  "capture": "2026-10-09T1721Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -207,6 +207,18 @@
       "also": [
         "2108208498496413711"
       ]
+    },
+    {
+      "id": "2108604227643719745",
+      "desk": "world",
+      "line": "Elon Musk follows his earlier Starlink post with a mock-formal letter to \"Prime Minister Ambani\". He apologises for not knowing Ambani is \"the real boss of India\", accuses him of a monopoly, and asks to be allowed to compete, saying Starlink would bring internet to places in India with none. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2108294741972652292",
+      "desk": "internet",
+      "line": "A poster, BoomerGary1958, says his son cannot find a downtown Chicago rental under $5k a month, while a suburb has many places under $1,500, and asks why young people are so stubborn. Not checked here.",
+      "also": []
     }
   ]
 }

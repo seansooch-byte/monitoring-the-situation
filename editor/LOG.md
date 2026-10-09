@@ -62,3 +62,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-09-12 (DHS and NYPD accounts of the Marble Hill shooting) and r-2026-10-09-13 (Labor Department notice on PERM). Removed r-2026-10-09-11 (notice, acknowledged). Watch list now holds the new stories' posts.
 - Shipped: see report.
 - For the main editor: the Sky Sports Xhaka wording can mislead; the story covers it. I did not find the Labor Department's PERM notice. Web search returned stale results at first (said Ditka was alive until a second search).
+
+## 2026-10-09T17:30Z
+- Captures read: 1721Z. Last read: 1721Z.
+- X's check: 1721Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items on 20 desks (2 new, 0 dropped). Added: Musk's mock letter to "Prime Minister Ambani" on Starlink (world); a Chicago rent post (internet).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Fred VanVleet clip and Premier League return (sports already at five); Hasan Piker/El-Sayed exchange and other Hasan execution posts (politics already at four, the justice item covers it); anime and entertainment posts with no media description; Trump's Nobel retruth (not checked); old_content posts.
+- Requests: watch list now also holds the two new pulse posts. Nothing added to open.json.
+- Shipped: see report.
+- For the main editor: Musk's Starlink India letter follows the licence post; worth a line on a story pass.
