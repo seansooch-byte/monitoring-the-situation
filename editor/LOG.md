@@ -122,3 +122,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the new pulse post. open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged.
+
+## 2026-10-09T23:20Z
+- Captures read: 2303Z. Last read: 2303Z.
+- X's check: 2303Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 41 items on 20 desks (0 new, 0 dropped). Lines unchanged; capture and timestamp updated.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: the Orwell Day Flock-surveillance video (shows police and a private person at a door); the NYC mailbox cleaning post (points at an unnamed private person's TikTok); Sen. Mark Kelly's long post on the Hasan execution (the Hasan item already holds two related posts; for the next story pass); Ronaldo goals, Ditka tributes, Schefter roster posts (desks full or small); old_content posts and an ad.
+- Requests: watch list unchanged; open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged.
