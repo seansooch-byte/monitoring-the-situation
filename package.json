@@ -4,7 +4,7 @@
   "type": "module",
   "description": "A record of what the internet is paying attention to. Grok reads X; Claude writes and builds.",
   "scripts": {
-    "test": "node --test \"tests/*.test.mjs\"",
+    "test": "node --test",
     "check": "node tools/check-capture.mjs"
   },
   "engines": { "node": ">=18" }
