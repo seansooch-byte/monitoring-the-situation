@@ -61,7 +61,7 @@ Two rules hold the design together:
 
 The site watches twenty desks in six groups: News (politics, world, defense, justice, disaster),
 Money (markets, business, crypto), Science and tech (ai, tech, science, medicine), Culture
-(entertainment, music, gaming, ideas), Sports, and Life online (internet, life, offbeat).
+(entertainment, music, gaming, ideas), Sports (sports), and Life online (internet, life, offbeat).
 
 `contract/desks.json` is the only list. Each desk has an id, a short code, a scope, its near
 misses, its beats, how often the grabber sweeps it, and the smallest post worth taking. Three
