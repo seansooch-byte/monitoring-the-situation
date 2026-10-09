@@ -29,6 +29,8 @@ express something you saw. The editor reads this file on every pass.
 
 - 2026-10-09: run 2026-10-09T0804Z lean overnight (4 AM ET): about 23 X reads (853 to 830 left today). Watch 400; trends US+WW; quote/repost word "and" (bare and rejected, quoted works); sensors sports/online/news; hourly desks; trend streams #PPHALLOWEENPARTY/New Yorker/CeeDee. Excluded giveaway 2108437202543800337 and under-15-minute FabrizioRomano 2108468759350358134. No volume/stories/context/media descriptions.
 
+- 2026-10-09: run 2026-10-09T0901Z lean overnight (5 AM ET): about 24 X reads (830 to 806 left today). Watch ~400; trends US+WW; quote/repost word "my" (2 quote pages + 1 repost); sensors science/culture (money inline unsaved); hourly desks politics/sports/internet (entertainment inline unsaved); trend stream #AvatarSevenHavens; screen 35 by id. No volume/stories/context/media descriptions. Excluded NSFW/slur/giveaway pattern ids.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -37,4 +39,4 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 0804Z) | ~170 | see prior + 0804Z | update at day end
+- 2026-10-09 (partial, through run 0901Z) | ~194 | see prior + 0901Z | update at day end
