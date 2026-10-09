@@ -1,7 +1,10 @@
 # Hourly grabber runbook
 
 Rewritten 2026-10-09 (run 2026-10-09T0629Z) for the source order, pace floor, reference counts,
-old_content rule, volume and scoreboard in contract/GRABBER.md at 874ebe0. If this file and the
+old_content rule, volume and scoreboard in contract/GRABBER.md at 874ebe0. Updated 2026-10-09
+after REPLY-03 (GRABBER.md at 6fcaa39): fifteen-minute pace floor, tenth-of-floor views, news
+accounts on totals only, x_stories optional, watch.json history series, repost-count retest.
+capture/RANKING.md is a guide to where to look; it never changes what goes into a capture. If this file and the
 contract disagree, the contract is right; note the conflict in capture/NOTES.md.
 
 ## Budget
@@ -48,8 +51,8 @@ contract disagree, the contract is right; note the conflict in capture/NOTES.md.
    or repost stream in N of the last 6 runs". A post seen in several of the last six outranks one
    seen once when screening.
 9. **Story clusters** (up to 3 reads): `search_news` for the global sweeps and the hourly desks.
-   Fill `x_stories` only from a saved file; if the output came back inline, leave `x_stories`
-   empty and say so in the stories sweep.
+   `x_stories` is optional: fill it only from a saved file. If the output came back inline,
+   leave the array out entirely and do not mark the run partial for it.
 10. **Due desks** (up to 10 reads): `<standing query> lang:en is:retweet -is:reply` from
     CAPABILITIES.md, newest first. Keep at most the five best per desk by the pace rule.
 11. **References** (0 to 2 reads): for every post read in steps 3 to 10, follow `quoted`,
@@ -59,10 +62,14 @@ contract disagree, the contract is right; note the conflict in capture/NOTES.md.
     run").
 12. **Screen** (about 3 reads): every candidate by id. Age is measured at the time of the read that
     gave its numbers.
-    - Global: under 24 hours and 100,000 views or 2,000 likes; under 3 hours old, views divided
-      by age in hours of at least 25,000.
-    - Desk: the desk's floor in contract/desks.json; under 3 hours old, a quarter of
-      `floor.views` per hour.
+    - Global: under 24 hours and 100,000 views or 2,000 likes; between 15 minutes and 3 hours
+      old, views divided by age in hours of at least 25,000 and at least 10,000 views already.
+    - Desk: the desk's floor in contract/desks.json; between 15 minutes and 3 hours old, a
+      quarter of `floor.views` per hour and at least a tenth of `floor.views` already.
+    - Under 15 minutes old: do not keep on pace (it is noise); if it came from a strong source,
+      read it again next run.
+    - An account whose `kind` is `news`: totals only, never pace.
+    - 3 hours old or more: totals as before.
     - A young post kept on pace joins the next runs' re-read list, and its lead says the pace.
     - **Old origins**: a referenced post more than 7 days older than the post that led to it is
       captured with the `old_content` flag, whatever its size.
@@ -73,15 +80,17 @@ contract disagree, the contract is right; note the conflict in capture/NOTES.md.
       hours so there is no partial first or last hour. Record all 167 full hours (key
       `desk.<desk>`).
     - Trends: the top five US names, `"<name>"`, key `trend.us.<name>`, when the budget allows.
-    - Posts: `retweets_of_tweet_id:<id>`, `quotes_of_tweet_id:<id>` and `conversation_id:<id>`,
-      keys `post.<id>.reposts|quotes|replies`, `desk` null. Three reads per post, so rotate:
-      about 4 posts' series a day, oldest refresh first, each refreshed every 6 hours while on
-      the watch list only when the day has more than 300 reads left. Only full hours.
+    - Posts: for each post on `requests/watch.json`, once, in rotation, a few per run:
+      `quotes_of_tweet_id:<id>` and `conversation_id:<id>`, keys `post.<id>.quotes|replies`,
+      `desk` null, only full hours. Refresh a post's series only while it is still gaining.
+    - Repost counts (`retweets_of_tweet_id:<id>`, key `post.<id>.reposts`): test once on a post
+      under a day old. If it is still all zeros, drop that series and say so in
+      capture/NOTES.md and capture/CAPABILITIES.md.
 14. **Context and requests** (about 3 reads): `context.top` for the three biggest new posts and
     each `context` request: `conversation_id:<id> is:reply` and
     `quotes_of_tweet_id:<id> -is:retweet`, relevancy, `start_time` at the post and `end_time` 20
-    minutes later (the two hour window only returns the newest posts inside it). Keep the five
-    most liked of each kind. Then the open requests.
+    minutes later, one read each (drop the two hour window: it only returns the newest posts
+    inside it). Keep the five most liked of each kind. Then the open requests.
 15. **Media**: for the 25 most viewed posts and every watch post, download each image or video
     preview (`?name=small`), look at it, and write one plain sentence in `media[].description`.
     Skip sexual or graphic posts entirely and name the skipped ids in `run.reason`.
