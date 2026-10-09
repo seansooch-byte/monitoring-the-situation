@@ -42,3 +42,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now also holds the two Mamdani posts. Nothing added to open.json.
 - Shipped: see report.
 - For the main editor: the ICE shooting rests on the mayor's statement only; worth checking against reporting on a story pass. The Isaias story is still on advisory 10A.
+
+## 2026-10-09T09:30Z
+- Captures read: 0901Z (a lean overnight run). Last read: 0901Z.
+- X's check: 0901Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 32 items on 20 desks (0 new, 0 dropped). Nothing in 0901Z was both large and clear enough to add; every item is still inside 36 hours.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Musk's emoji-only quote of a Not_the_Bee post (point cannot be worked out from its words); a podcast clip (no media description, point unclear); an MLB 154-game proposal and a South Alabama kick return (sports desk already at three); old_content posts. I did not compare every item's current reach with the 0901Z observations, because some shell commands were refused partway.
+- Requests: none changed; the watch list already holds every pulse post.
+- Shipped: see report.
+- For the main editor: the Isaias story is still on advisory 10A and the ICE shooting rests on the mayor's statement only; both need a story pass.
