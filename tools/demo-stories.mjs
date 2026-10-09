@@ -14,7 +14,7 @@ export const STORIES = [
     why: 'Nothing is at stake and nobody is arguing. People are passing it along because the forecaster never breaks, and replies have turned into a contest of captions for the dog.',
     posts: [
       { role: 'origin', at: 0, v: 21400000, tau: 3.2, handle: 'demo_tvclips', name: 'Clips From The Desk', kind: 'aggregator', followers: 812000, text: 'he just. kept. doing the weather', media: [{ type: 'video', description: 'A studio weather forecast; a golden retriever lies in front of the map while the forecaster points over it', duration_s: 244 }] },
-      { role: 'reply', at: 38, v: 2900000, tau: 2.5, handle: 'demo_marnie', name: 'marnie', kind: 'person', followers: 4100, text: 'the dog is the only one in that building who knows it is not going to rain' },
+      { role: 'reply', at: 38, v: 2900000, tau: 2.5, handle: 'demo_marnie', name: 'marnie', kind: 'person', followers: 4100, text: 'the dog is the only one in that building who knows it is not going to rain <3 & he is right' },
       { role: 'official', at: 95, v: 3600000, tau: 4, handle: 'demo_station6', name: 'Channel 6 Weather', kind: 'news', followers: 96000, text: 'His name is Biscuit. He has been promoted to chief meteorologist effective immediately.' },
     ],
   },
