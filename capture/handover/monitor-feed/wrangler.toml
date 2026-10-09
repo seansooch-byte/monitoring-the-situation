@@ -1,0 +1,18 @@
+name = "monitor-feed"
+main = "src/index.js"
+compatibility_date = "2026-08-20"
+workers_dev = false
+preview_urls = false
+
+routes = [
+  { pattern = "feed.seansooch.dev", custom_domain = true }
+]
+
+[[kv_namespaces]]
+binding = "FEED"
+id = "e86dcd02d9064b5cbd8e70ff06ab8f77"
+
+[observability]
+enabled = true
+
+# Secret (not in this file): FEED_WRITE_SECRET  ->  wrangler secret put FEED_WRITE_SECRET
