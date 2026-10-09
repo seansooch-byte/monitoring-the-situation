@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T17:27:00Z",
-  "capture": "2026-10-09T1721Z",
+  "updated_at": "2026-10-09T18:25:00Z",
+  "capture": "2026-10-09T1808Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -218,6 +218,18 @@
       "id": "2108294741972652292",
       "desk": "internet",
       "line": "A poster, BoomerGary1958, says his son cannot find a downtown Chicago rental under $5k a month, while a suburb has many places under $1,500, and asks why young people are so stubborn. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2108565647667904647",
+      "desk": "world",
+      "line": "US Secretary of State Marco Rubio announces that the Trump administration is sanctioning the International Criminal Court. He says allies within the Court should work to end what he calls a threat to US sovereignty. The post carries a video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2108513103734530130",
+      "desk": "ai",
+      "line": "A tech account shares a video of NYU mathematician Tristan Buckmaster saying a Tuesday release of 722 AI-generated math papers by OpenAI hurt early career mathematicians. The claims about the release and its effect are his. Not checked here.",
       "also": []
     }
   ]

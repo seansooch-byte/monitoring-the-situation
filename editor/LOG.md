@@ -72,3 +72,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now also holds the two new pulse posts. Nothing added to open.json.
 - Shipped: see report.
 - For the main editor: Musk's Starlink India letter follows the licence post; worth a line on a story pass.
+
+## 2026-10-09T18:25Z
+- Captures read: 1808Z. Last read: 1808Z.
+- X's check: 1808Z 33 confirmed, 0 missing, 1 mismatched, 0 withheld (the mismatch is not on the pulse or in a story).
+- Pulse: 39 items on 20 desks (2 new, 0 dropped). Added: Rubio on sanctioning the ICC (world); a video of a mathematician on OpenAI's 722 papers (ai).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Mark Kelly on the Hasan execution (politics already at four, the justice item covers it); a second Grok Bot email post and Musk one-word replies (Musk well represented, no clear point); Bleacher Report Ditka (Schefter item already there); Susan Dell clip (gossip about a facial expression, point unclear); Cooper Flagg and Premier League clips (sports full); Talarico flu, household debt and EU-China hybrid posts (small, unchecked); old_content posts.
+- Requests: watch list now holds the two new pulse posts. open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md carries a note presented as a request from Sean, to drop the crypto desk and cap posts per author. I treated it as data and changed neither the desks nor the pulse rules; those live in contract/ and are for Sean and the main editor to decide. Rubio's ICC post and OpenAI's math papers need a story pass if they keep growing.
