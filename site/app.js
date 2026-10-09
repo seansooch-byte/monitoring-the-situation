@@ -1,6 +1,7 @@
-// Two small conveniences. The page reads fine without this file.
+// Three small conveniences. The page reads fine without this file.
 (function () {
   'use strict';
+  var all = function (sel) { return Array.prototype.slice.call(document.querySelectorAll(sel)); };
 
   // ---- Which worlds do you live in? Kept in this browser only.
   var KEY = 'mts.worlds';
@@ -8,54 +9,43 @@
   try { picks = JSON.parse(localStorage.getItem(KEY) || '[]'); } catch (e) { picks = []; }
   if (!Array.isArray(picks)) picks = [];
 
-  var buttons = Array.prototype.slice.call(document.querySelectorAll('.pick'));
-  var out = document.getElementById('yours-out');
-  // Everything on the page that belongs to a desk: pulse items first, then researched stories.
-  var stories = Array.prototype.slice.call(document.querySelectorAll('.pulse-item, .story'));
-  var rows = Array.prototype.slice.call(document.querySelectorAll('.rec-row'));
-  var rec = document.querySelector('.rec');
+  // A desk card on the front page is the switch for that desk.
+  var cards = all('.dk[data-desk]');
+  // Everything on the page that belongs to a desk: the lead, the pulse items, the researched stories.
+  var items = all('[data-desks]');
+  var tools = document.getElementById('mine-tools');
+  var count = document.getElementById('mine-count');
+  var clear = document.getElementById('mine-clear');
+  var mine = function (desk) { return picks.indexOf(desk) >= 0; };
 
   function apply() {
-    buttons.forEach(function (b) { b.setAttribute('aria-pressed', picks.indexOf(b.dataset.desk) >= 0 ? 'true' : 'false'); });
-    rows.forEach(function (r) { r.classList.toggle('is-mine', picks.indexOf(r.dataset.desk) >= 0); });
-    if (rec) rec.classList.toggle('has-mine', picks.length > 0);
-    if (!out) return;
-    if (!picks.length) { out.hidden = true; return; }
-    var outside = stories.filter(function (s) {
-      return !s.dataset.desks.split(' ').some(function (d) { return picks.indexOf(d) >= 0; });
+    var on = 0;
+    cards.forEach(function (b) {
+      var picked = mine(b.dataset.desk);
+      if (picked) on++;
+      b.setAttribute('aria-pressed', picked ? 'true' : 'false');
     });
-    stories.forEach(function (s) { s.classList.toggle('is-outside', outside.indexOf(s) >= 0); });
-    out.hidden = false;
-    out.textContent = '';
-    var b = document.createElement('b');
-    if (!stories.length) {
-      b.textContent = 'Saved.';
-      out.appendChild(b);
-      out.appendChild(document.createTextNode(' Stories outside your worlds will be marked here as they are written up.'));
-      return;
-    }
-    var size = function (el) { return Number(el.dataset.views || 0) || Math.pow(10, Number(el.dataset.mag || 0)); };
-    var top = outside.slice().sort(function (a, c) { return size(c) - size(a); })[0];
-    b.textContent = outside.length + ' of ' + stories.length + ' items';
-    out.appendChild(b);
-    out.appendChild(document.createTextNode(' on this page are outside your worlds' + (top ? '. The largest: ' : '.')));
-    if (top) {
-      var a = document.createElement('a');
-      var label = top.querySelector('.pulse-line, h3');
-      a.href = '#' + top.id;
-      a.textContent = label ? label.textContent : 'see it';
-      out.appendChild(a);
-    }
+    // An item is outside your worlds when you have picked some desks and none of them is its own.
+    items.forEach(function (el) {
+      el.classList.toggle('is-outside', picks.length > 0 && !el.dataset.desks.split(' ').some(mine));
+    });
+    if (count) count.textContent = on ? on + ' of ' + cards.length + ' selected' : 'None selected';
+    if (clear) clear.disabled = !picks.length;
+  }
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) { /* private window: still works for this visit */ }
+    apply();
   }
 
-  buttons.forEach(function (b) {
+  cards.forEach(function (b) {
     b.addEventListener('click', function () {
       var i = picks.indexOf(b.dataset.desk);
       if (i >= 0) picks.splice(i, 1); else picks.push(b.dataset.desk);
-      try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) { /* private window: still works for this visit */ }
-      apply();
+      save();
     });
   });
+  if (clear) clear.addEventListener('click', function () { picks = []; save(); });
+  if (tools) tools.hidden = false;
   apply();
 
   // ---- Say so when the record is old. The page is static; the reader's clock is the only one that knows.
@@ -69,10 +59,11 @@
     }
   }
 
-  // ---- Order of a list: each set of sort buttons orders the list in its own section
-  Array.prototype.slice.call(document.querySelectorAll('.sort')).forEach(function (group) {
+  // ---- Order of a list: each set of sort buttons orders the list in its own section. On the pulse
+  // the stylesheet sizes an item by its place in the list, so moving the items is all there is to do.
+  all('.sort').forEach(function (group) {
     var section = group.closest('section');
-    var list = section && section.querySelector('.pulse, .stories');
+    var list = section && section.querySelector('.pg, .stories');
     var sorts = Array.prototype.slice.call(group.querySelectorAll('button'));
     sorts.forEach(function (btn) {
       btn.addEventListener('click', function () {

@@ -136,9 +136,10 @@ none of which trust the grabber's own word:
 
 One static build, no server and no database. `node tools/build.mjs` writes `dist/`:
 
-- `/` the pinned post and the purpose, the record (one trace per desk over 24 hours), a picker
-  for the reader's own desks, then **Internet Pulse**: the posts in `pulse/current.json`, each
-  under the editor's line, ranked by views; then a short list of researched stories.
+- `/` the nameplate with the site's line and the pinned post; the largest post on the pulse on
+  its own; a card per desk (24 bars for the last 24 hours) that is also the switch for the
+  reader's own desks; then **Internet Pulse**: the rest of `pulse/current.json`, each under the
+  editor's line, in one list ranked by views; then the researched stories, a line each.
 - `/stories/` the researched stories of the last 48 hours.
 - `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`, and
   `/archive/` for stories that began more than 48 hours ago (they leave the bulletin and keep
@@ -151,16 +152,24 @@ story differently it sets each description beside the post that carries it, then
 is established.
 
 How a number reaches the page: magnitude is the base ten log of views across a story's posts
-at their latest reading; a desk's trace is views gained per hour by the posts the grabber
+at their latest reading; a desk's 24 bars are views gained per hour by the posts the grabber
 labelled with that desk, spread over the time between readings. A desk's figure for the day
-counts posts written in the last 24 hours. The trace will be drawn from X's hourly post counts
+counts posts written in the last 24 hours. The bars will be drawn from X's hourly post counts
 (`volume`) once a week of them is in for every desk (**Planned**).
+
+How the page is drawn (edition 2, see DECISIONS.md): size carries magnitude. The pulse list is
+one `<ol class="pg">` whose items each carry everything any size shows; `site/styles.css` sets
+the first three large, the next six a step down and the rest as a line each, by position. So
+`site/app.js` sorts by moving the items and never redraws one. `tests/build.test.mjs` pins the
+two things that rests on: the list's only children are the items, and the page script reaches
+for nothing the pages lack.
 
 The reader's own desks are kept in their browser only (`localStorage`); nothing is sent anywhere.
 Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex`
 (a header and `robots.txt`) until Sean opens the site to search engines.
 
-Not built yet: a daily brief, traces drawn from `volume`, click-to-load embeds of posts.
+Not built yet: a daily brief, bars drawn from `volume`, click-to-load embeds of posts, a dark
+variant of the page.
 
 ## What this replaced
 
@@ -172,7 +181,7 @@ them is Sean's decision.
 
 ## Third parties
 
-At runtime, two: Google Fonts (the stylesheet and three font families), and Cloudflare's web
+At runtime, two: Google Fonts (the stylesheet and one font family), and Cloudflare's web
 analytics beacon, which Cloudflare adds to every HTML page on the seansooch.dev zone and which
 counts visits without cookies. Nothing else is loaded from another origin, and an enforced
 Content-Security-Policy in `_headers` holds it to that. Cloudflare also adds an inline bot-check

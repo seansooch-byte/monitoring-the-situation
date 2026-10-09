@@ -337,3 +337,50 @@ editor lists it, and the build refuses a flagged post even then.
 script". The hourly step is a pulse pass by a model, because someone has to read each post and
 write its line. `tools/refresh.sh` stays as the fallback. Sean confirmed the runs are on his
 subscription, so the constraint is usage, not dollars.
+
+## 2026-10-09: Edition 2, "Glossy" (the grotesk cut), supersedes Edition 1
+
+**Context.** Sean, the same day Edition 1 shipped: "the data is great but it's super
+aesthetically poor." Three things were wrong and none was the data. Three unrelated faces
+competed on one page. The stretched traces made every desk look alike, and their wiggle carried
+nothing. And a post seen 45 million times was set exactly like one seen 60 thousand times, in a
+single column, after a screen of explanation.
+
+**Alternatives.** Drawn on a design canvas with the site's real numbers
+(https://claude.ai/artifact/QkMasEZzGBBDWynzbNBCJz), not described: A, a dark halftone wall of
+20 desks by 24 hours with dot-matrix numerals; B, a white magazine page with a hairline serif;
+C, a chart of every post of the day on one scale, in six group colours. Sean picked B and asked
+for type that is easier to read. Three cuts of B followed: B1, the hairline serif kept for
+numerals only; B2, a Clarendon; B3, one grotesque throughout. He picked B3 and said to ship it.
+
+**Decision.** B3 as drawn. A white page, black ink, Schibsted Grotesk and nothing else, and red
+only for what is outside the reader's worlds, disputed or false. Size carries magnitude: the
+largest post leads the page on its own, the next three are set large, six more a step down, and
+the rest take a line each. Each desk is a card with 24 bars, one an hour, and the card is the
+switch for "this is one of my worlds": a picked card inverts to black. Researched stories are a
+ruled line each. Light only; a dark variant was not drawn and is not built.
+
+**How it is built.** The tiers are positions in one list, decided by the stylesheet with
+`:nth-child`. Every item carries all that any tier shows, so sorting is moving items and the
+page script never redraws one. That replaced three lists and a renderer in the browser.
+
+**Kept though the drawing did not show it,** fitted into the drawing's own shapes: the banner
+that says the record is old, and the one that marks a demo build; "gaining" against "averaging"
+on a post's hourly figure, because one is measured and the other is not; a post's related posts,
+behind a "+2 related posts" disclosure in its byline (the lead shows its own in the open); the
+link from a post to its researched story; the outside-your-worlds mark on the lead.
+
+**Dropped.** The record's traces and the story flags on them. The sentence naming the largest
+item outside your worlds. The media description under a post on the front page (story pages keep
+it). The full text of long posts on the front page: tiers one and two clamp at seven and five
+lines, and the post is one tap away.
+
+**Corrected against the drawing.** The drawing set tabular figures on small text. In this face
+that widens the full stop and the colon too, so 35.7M read as "35 . 7M" and a name as
+"Jurassic . Hansen": the same fault that ruled out B612 Mono in Edition 1. Figures are
+proportional. The drawing also labelled a related post "The reply" where the capture says it is
+a quote post; the label is now read from the grabber's own links.
+
+**The pages the drawing did not cover** (stories, a story, a desk, the desks, the archive, about)
+are set in the same system: the same numerals, rules, labels and cards, with "On the record" as
+an inverted panel.
