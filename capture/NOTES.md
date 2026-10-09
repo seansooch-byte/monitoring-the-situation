@@ -37,6 +37,8 @@ express something you saw. The editor reads this file on every pass.
 
 - 2026-10-09: run 2026-10-09T1318Z daytime (9 AM ET / 13 UTC): 19 X reads counted (748 to 729 left today; 3 shared-access 429s burned reads with no data). Watch 171; trends US+WW; quote/repost word "what" (1+1); sensors culture/sports/online; hourly desks; trend streams Category 3 + Hurricane Isaias; screen 100 by id. No volume/stories/context/media descriptions. Disaster desk swept as big hour (Isaias Cat 3). SKIP_ALL still set on pipeline so editor will not run after this push.
 
+- 2026-10-09: run 2026-10-09T1432Z daytime (10 AM ET / 14 UTC): 17 X reads (729 to 712 left today; 1 invalid-id probe burned a read). Watch 200; trends US+WW; quote/repost word "the" (1+1); sensors news/money/science; hourly desks; trend streams New Yorker + Charlie Kirk; screen 100 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. SKIP_ALL still set on pipeline so editor will not run after this push.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -45,5 +47,5 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 1318Z) | ~271 | update at day end
+- 2026-10-09 (partial, through run 1432Z) | ~288 | update at day end
 - 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
