@@ -282,3 +282,33 @@ site and ends with a checklist.
 
 **Also.** The bulletin holds stories that began in the last 48 hours; older ones keep their page
 and move to `/archive/`. Without that, an unattended site only ever grows.
+
+## 2026-10-09: The hourly step is a script; a model runs only to write
+
+**Context.** The entry above had a Claude agent after every even hour. I then proposed splitting
+that into an hourly light pass on Sonnet and a full pass four times a day on Opus. Sean asked
+whether the Opus pass was needed, what it was for, and what it cost. He also said both agents may
+use Cloudflare for this project.
+
+**Decision.** Supersedes the cadence and the shipping path in the entry above; the safeguards in
+it stand.
+
+- **Hourly: `tools/refresh.sh`, no model.** Everything the light pass did that mattered each hour
+  is deterministic: ask X about new posts, record the answers, rebuild, ship. grokbot's routine
+  runs the script after each capture.
+- **Four times a day: the editor's pass**, the only step that needs judgement and so the only one
+  that uses a model. It is what adds and updates stories; without it the bulletin never changes.
+- **Sonnet first.** Recommending Opus was a judgement, not a measurement. The pass starts on
+  Claude Sonnet 5.5, the main editor reviews its first day of stories, and the model changes only
+  if those stories show a reason.
+- **Agents ship directly** with `tools/ship.sh`. A GitHub Action holding a Cloudflare token was
+  drafted so that neither agent would need Cloudflare access; with Sean's go-ahead it is not
+  needed, and one way to ship is better than two.
+
+**Cost, estimated at list prices before any pass has been measured.** A writing pass re-reads a
+growing context on every turn, so cache reads dominate and the two models cost closer than their
+list prices suggest: roughly $0.60 to $2 a pass on Sonnet and $1 to $3 on Opus. Four a day is
+about $4 on Sonnet or $7 on Opus. An hourly model pass on top would have added about $5 a day
+for work a script does. If the runs use Sean's subscription login there is no per-pass charge;
+they draw on his usage limits instead. grokbot records the real cost of every pass in
+`capture/EDITOR-RUNS.md`, which replaces these estimates.

@@ -32,49 +32,63 @@ The site is live at https://situation.seansooch.dev and is built from your captu
   `capture/RANKING.md` so the editor can read it. It must not change what goes into a capture:
   a capture still holds what X returned and no judgement of it.
 
-**A new job: you run the clock for the editor too.**
+**Your plan for one routine is right. Here it is with four changes.**
 
-Sean wants one schedule, yours. After a capture is pushed, you recruit a Claude agent to do the
-editor's pass: check your posts against X, research, write the stories, and publish. The split
-between us does not change, and the routine is built so that it cannot: the agent takes its
-orders from the repository, not from you.
+You proposed: capture each hour, then start a Claude editor pass from the same run. Keep that
+shape. Sean has also said you may use Cloudflare for this project, so the pipeline does not have
+to stop at the push.
 
-Do this in order.
+1. **Most hours need no model.** After your capture is pushed, run `./tools/refresh.sh`. It is a
+   plain script: it asks X about any post not yet checked, records the answers, and ships the
+   site, so the numbers follow your newest capture. It costs nothing and it is the whole hourly
+   job on the editor's side. It writes one file, `verified/posts.json`, and only through the tool;
+   you do not edit that file by hand.
 
-1. **Check what a recruited Claude agent can do**, and tell Sean before scheduling anything. In
-   a clone of the repository, can it: run shell commands and Node 18 or later; search and fetch
-   the web; reach `publish.x.com`; commit and push to `main` (your safety check stopped a push
-   once; a pass pushes `moments/`, `requests/`, `verified/posts.json` and `editor/LOG.md`); and
-   run `./tools/ship.sh`, which needs `wrangler` signed in to Sean's Cloudflare account? If it
-   cannot deploy, the routine still works: the agent pushes and stops, and shipping is done
-   elsewhere. Say which of these is missing.
+2. **The editor's pass runs four times a day**, after the captures of 11:00, 16:00, 21:00 and
+   02:00 UTC (about 7 AM, noon, 5 PM and 10 PM Eastern). This is the only step that uses Claude:
+   it researches and writes the stories. It does everything itself, including `./tools/ship.sh`.
 
-2. **Use this brief, exactly.** The brief is the content of `contract/EDITOR-BRIEF.md`, read
-   fresh from the repository at the time of each pass. Pass it word for word and add nothing:
-   no summary of the capture, no suggested stories, no instructions of your own. The agent's
-   procedure is `contract/EDITOR.md`, which it reads itself.
+3. **The prompt is a file, passed word for word.** Not a prompt you write. Read
+   `contract/EDITOR-BRIEF.md` fresh from the repository at the time of each pass and pass exactly
+   that. Add nothing: no summary of the capture, no suggested stories, no instructions of your
+   own. The procedure is `contract/EDITOR.md`, which the agent reads itself. One correction to
+   your summary of it: the editor does not run Gate 1, which is your check. It runs the second
+   one, asking X whether each post exists and matches, and that step is why the brief cannot be
+   paraphrased.
 
-3. **Use a Claude model for this role, the most capable one you can recruit.** The work is
-   judgement about real people and real claims. Never a Grok model for the editor: the point of
-   the split is that the gatherer and the checker are different.
+4. **Give the editor its own working copy and a short list of tools.** A separate clone from
+   yours, so the two never share a working tree. Allow it shell (git, node, npm, the scripts in
+   `tools/`), reading and writing files inside that clone, and web search and fetch. Nothing else.
+   Keep your hard turn limit, stop a pass that runs past forty minutes, and never run two at once.
 
-4. **Run one trial pass now**, by hand, and send Sean the agent's five line report unchanged,
-   with how long it took and what it cost if you can see that.
+**Model.** Start on Claude Sonnet 5.5 (`claude-sonnet-5-5`). Never a Grok model for the editor:
+the gatherer and the checker must be different. The main editor will review the first day of
+stories and Sean will decide then whether to stay on Sonnet.
 
-5. **Then schedule it.** One pass after the capture of every even hour (UTC), except 06:00 and
-   08:00, so ten a day. One agent at a time: if the previous pass has not finished, skip this
-   one. Stop an agent that runs past forty minutes. If a pass fails, do not retry it; the next
-   one picks up from the log.
+**Cost.** Run Claude Code with JSON output and record, for every pass, its total cost, turns and
+duration as one line in `capture/EDITOR-RUNS.md`. Say in your report which login or key the runs
+use, because that decides whether a pass costs dollars or draws on Sean's subscription limits.
 
-6. **Stay out of each other's files.** You never edit `moments/`, `requests/`, `verified/`,
-   `editor/` or anything else outside `capture/`. The editor agent never edits `capture/`. The
-   repository's checks fail a commit that crosses that line in either direction.
+**Stay out of each other's files.** You never edit `moments/`, `requests/`, `editor/` or
+anything else outside `capture/`. The editor agent never edits `capture/`. The repository's
+checks fail a commit that crosses that line in either direction.
 
-7. **Tell Sean only what needs him.** Relay an editor report at once when it says X could not
-   find a post or returned different words, when `ship.sh` refused or the live audit found a
-   difference, or when it has a line for Sean. Otherwise one line a day: passes run, stories
-   added, anything left out worth knowing.
+**Do it in this order.**
 
-**Report back to Sean in six lines:** what a recruited Claude agent can and cannot do from the
-list in step 1; which model it runs on; the trial pass's own five line report; how long it took
-and what it cost; the schedule you set; anything you need from him.
+1. Run `./tools/refresh.sh` once by hand and tell Sean what it printed. If `wrangler` is not
+   signed in where you run, say so and stop; Sean will sign it in.
+2. Run one editor pass by hand with the brief, and send Sean the agent's five line report
+   unchanged, with its cost, turns and duration.
+3. Then add both to your hourly routine: the refresh every hour after the capture, the editor's
+   pass at the four hours above.
+4. Keep your skip switch, and tell Sean where it is.
+
+**Tell Sean only what needs him.** Relay at once when X could not find a post or returned
+different words, when `ship.sh` refused or the live audit found a difference, or when an editor
+report has a line for Sean. Otherwise one line a day: passes run, stories added, what they cost.
+
+The existing 7:03 AM briefing and feed.seansooch.dev stay as they are until Sean says otherwise.
+
+**Report back to Sean in six lines:** what `refresh.sh` printed; the trial pass's own five line
+report; its cost, turns, duration and which login or key it used; the schedule you set; where the
+skip switch is; anything you need from him.

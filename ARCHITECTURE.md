@@ -65,7 +65,7 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 | `contract/KICKOFF.md`, `REPLY-01.md` to `REPLY-03.md` | Editor | The messages Sean pasted to grokbot, kept on record. |
 | `contract/EDITOR.md`, `contract/EDITOR-BRIEF.md` | Editor | The procedure and the word-for-word brief for a scheduled editor pass. **Built.** |
 | `editor/LOG.md` | Editor | One entry per pass: what was read, what X confirmed, what was added, updated and left out. **Built.** |
-| `wrangler.jsonc`, `tools/ship.sh` | Editor | Where the files are served and the only way they are shipped. **Built.** |
+| `wrangler.jsonc`, `tools/ship.sh`, `tools/refresh.sh`, `tools/audit-live.mjs` | Editor | Where the files are served, the only way they are shipped, the hourly no-model refresh, and the comparison of live with built. **Built.** |
 | `fixtures/demo/` | generated | Written by `tools/make-demo.mjs`, ignored by git. |
 | `moments/` | Editor | One file per story (`mts.moment/1`): title, standing, what happened, why it is spreading, how each world sees it, what is on the record, the posts it cites by id, sources. **Built.** |
 | `verified/posts.json` | Editor | Gate 2's ledger: for each post checked, what X answered and when. **Built.** |
@@ -79,13 +79,16 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 ## Who runs when
 
 - **The grabber** runs hourly on grokbot's scheduler and pushes one capture.
-- **The editor's pass** is a Claude agent that grokbot's scheduler recruits after the capture of
-  every even hour (**Planned**: the routine is specified and waiting on grokbot's trial pass).
-  The agent's brief is `contract/EDITOR-BRIEF.md`, passed word for word, and its procedure is
-  `contract/EDITOR.md`, which it reads from the repository itself. grokbot runs the clock and
-  supplies no instruction about content. A pass may write only `moments/`, `requests/`,
-  `verified/posts.json` and `editor/LOG.md`, and CI fails a `bulletin:` commit that touches
-  anything else. `editor/LOG.md` is the editor's memory from one pass to the next.
+- **The hourly refresh** is a script, `tools/refresh.sh`, that grokbot's routine runs after each
+  capture. No model: it asks X about posts not yet checked, commits the ledger, and ships, so
+  the site's numbers follow the newest capture (**Built**; scheduled once grokbot's trial passes).
+- **The editor's pass** is a Claude agent that grokbot's routine starts four times a day
+  (**Planned**: specified, waiting on the trial pass). Its brief is `contract/EDITOR-BRIEF.md`,
+  passed word for word, and its procedure is `contract/EDITOR.md`, which it reads from the
+  repository itself. grokbot runs the clock and supplies no instruction about content. A pass
+  may write only `moments/`, `requests/`, `verified/posts.json` and `editor/LOG.md`, and CI
+  fails a `bulletin:` commit that touches anything else. `editor/LOG.md` is the editor's memory
+  from one pass to the next. The pass ships with `tools/ship.sh`.
 - **The main editor** (a Claude session with Sean) owns the contract, the tools and the site,
   and is the only one who changes them.
 

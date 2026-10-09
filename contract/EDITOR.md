@@ -33,7 +33,8 @@ under "For the main editor" and carry on with what you can do.
 
 1. **Start clean.** `git pull --rebase origin main`, then `npm test`. If tests fail, stop: write
    the failure in your report and change nothing.
-2. **Ask X about every new post.** `node tools/verify-posts.mjs --captures`. It prints, per run,
+2. **Ask X about every new post.** `node tools/verify-posts.mjs --captures`. (An hourly script,
+   `tools/refresh.sh`, already does this between passes, so there may be little left to check.) It prints, per run,
    how many posts X confirmed, could not find, or returned with different words. A post that is
    not `ok` cannot be cited and counts for nothing. Any `missing` or `mismatch` goes in your log
    line with its id: that is the grabber's record and Sean wants to see it.
@@ -66,10 +67,11 @@ under "For the main editor" and carry on with what you can do.
    this file. The build refuses a story that cites a post X has not confirmed; do not work around
    that, change the story.
 10. **Record the pass.** Append one entry to `editor/LOG.md` (format below).
-11. **Publish.** Commit with a subject starting `bulletin:` and the usual trailer, push to main,
-    then `./tools/ship.sh`. It tests, builds, deploys, and compares the live site with the build.
-    If it refuses or reports a difference, do not retry blindly: put its output in your report.
-    If you cannot deploy from where you are running, push, say so, and stop there.
+11. **Publish.** Commit with a subject starting `bulletin:` and the usual trailer, push to `main`
+    (on rejection, `git pull --rebase origin main` and push again), then run `./tools/ship.sh`.
+    It tests, builds, deploys, and compares the live site with the build. If it refuses or
+    reports a difference, do not retry blindly: put its output in your report. If you changed
+    nothing, do not commit and do not ship.
 
 If a pass finds nothing worth adding, that is a correct result. Update what needs updating, log
 it, publish if anything changed, and report.
@@ -155,4 +157,5 @@ posts, is made by a company in the story.
 ## Your report
 
 Five lines to whoever started you: captures read and X's tally; stories added, updated and left
-out; requests filed; whether the site shipped and the audit was clean; anything for Sean.
+out; requests filed; whether the site shipped and the audit was clean, or that nothing changed;
+anything for Sean.
