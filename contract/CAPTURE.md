@@ -67,14 +67,15 @@ A `down` run has empty arrays and is still a valid file. It is how a failure is 
 |---|---|
 | `id` | A stable name: `watch`, `trends.us`, `trends.ww`, `viral.global`, `rising.global`, `desk.<desk>`, `context.top`, `request.<request id>`. |
 | `kind` | `discovery`, `desk`, `trends`, `watch`, `context` or `request`. |
-| `desk` | One of the seven desks, or `null`. |
+| `desk` | A desk id from `contract/desks.json`, or `null`. |
 | `method` | The exact query, filter or tool call used, so the selection can be audited and repeated. |
 | `window_hours` | How far back the sweep looked, or `null`. |
 | `status` | `ok`, `partial`, `down` or `skipped`. |
 | `reason` | Required unless `status` is `ok`. |
 | `post_ids` | The ids this sweep returned, best first. |
 
-Desks: `finance`, `politics`, `culture`, `sports`, `tech`, `medicine`, `internet`.
+The desks are listed in `contract/desks.json`, each with its scope, its beats, how often to sweep
+it and its floor. That file is the only list; nothing here repeats it.
 
 ## trends[]
 
@@ -105,7 +106,8 @@ Desks: `finance`, `politics`, `culture`, `sports`, `tech`, `medicine`, `internet
 | `reply_to`, `quotes` | The id of the post this one replies to or quotes, or `null`. |
 | `note` | `{ text }` if the post carries a community note, copied exactly. Otherwise `null`. |
 | `flags` | Any of `nsfw`, `graphic`, `private_individual`, `minor`, `ad`, `engagement_bait`, `ai_media_suspected`, `old_content`, `non_english`. Usually empty. |
-| `desk` | Your best single desk, or `null`. |
+| `desk` | The one desk the post is most about (an id from `contract/desks.json`), or `null` if none fits. |
+| `beat` | Optional. One of that desk's beats from the same file, or `null`. A beat needs a desk. |
 | `topic` | A short neutral noun phrase naming what the post is about, so related posts can be grouped. No opinion in it. Or `null`. |
 | `lead` | Optional. Something you noticed that the editor should check, written as an unverified lead. Or `null`. |
 
@@ -145,7 +147,8 @@ Wrong schema tag. An id that is not a string of digits. A `created_at` that disa
 A url for a different id or handle. A post with no observation. An observation for a post nobody
 recorded. A metric that is not a whole number or `null`. A live observation with no numbers. A time
 outside the run, in the future, or before the post existed. Any id referenced from `sweeps`,
-`trends`, `context` or `answers` without a record. A value outside a closed list. A link that is not
+`trends`, `context` or `answers` without a record. A value outside a closed list, including a desk that is not in `contract/desks.json` or a beat that
+is not one of its desk's beats. A link that is not
 `https`. A failed run or sweep with no reason. An `ok` run with no posts. A duplicate record. An em
 dash in any string you wrote yourself (verbatim fields are exempt). More than 400 posts or 1,500
 observations in one file.

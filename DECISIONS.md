@@ -69,3 +69,41 @@ would be a second, weaker definition that could drift from the first. The prose 
 
 **Decision.** `run.status: "down"` with a reason is a valid capture. A failure recorded as data can
 be counted and charted; a missing file cannot be told apart from a schedule that stopped.
+
+## 2026-10-09: Twenty desks, kept as data in one file
+
+**Context.** The first contract carried seven desks: the six sectors of the old page (which Sean
+said he had listed off the top of his head) plus one for the internet itself. Sean asked for the
+set to be complete. Yesterday's feed shows the cost of a short list: a hurricane was filed under
+Medicine and a studio merger under Pop culture, because nothing closer existed.
+
+**Alternatives.** (a) Keep six or seven broad sectors and let stories sit awkwardly. (b) A
+newspaper's section list. (c) Free-form tags from the grabber. (d) A fixed set of desks drawn from
+both a newspaper's sections and the communities that actually exist on X, with a second level of
+beats inside each.
+
+**Decision.** (d): twenty desks in six groups, each with beats, listed in `contract/desks.json`.
+A newspaper's list alone misses what is native to the platform (crypto, gaming, AI as its own
+world, creators and memes, everyday-life arguments, clips shared for delight). Free tags cannot be
+swept on a schedule or charted over time. The list is data, not code, read by the checker, the
+grabber and the site, so changing it is one edit.
+
+Choices inside it:
+
+- **AI is split from tech**, and **crypto from markets**: each is one of the largest communities on
+  X with its own vocabulary and its own virality.
+- **World, defense, justice and disaster are separate from politics.** The old page's Politics
+  sector held all of them. Defense is its own desk although it overlaps with world, because the
+  military and open-source analysts are a distinct community; the boundary is written into both
+  desks' `not_here`.
+- **Sports stays one desk** with fifteen beats rather than a desk per league, so the top level does
+  not change with the season.
+- **Entertainment and music are two desks**, celebrity sits inside entertainment. Three desks
+  (film and TV, music, celebrity) put too many posts on a boundary.
+- **Life and offbeat exist** because a large share of what goes viral has no news in it at all.
+- **Obituaries are not a desk.** A death belongs to the desk of the person's field.
+- **A post has one desk.** A story can sit on several; that is the editor's call, made later.
+- **Cadence and floors differ by desk** (1, 2 or 4 hours; floors from 10,000 to 50,000 views). They
+  are starting values chosen without capture data and will be tuned from the first week of it.
+
+**Supersedes** the seven-desk list in the first commit. No capture had been delivered against it.

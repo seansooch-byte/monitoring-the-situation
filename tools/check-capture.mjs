@@ -12,7 +12,10 @@ import { basename, dirname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 export const SCHEMA = 'mts.capture/1';
-export const DESKS = ['finance', 'politics', 'culture', 'sports', 'tech', 'medicine', 'internet'];
+// The desks and their beats are data: contract/desks.json is the one list.
+const DESK_FILE = JSON.parse(readFileSync(new URL('../contract/desks.json', import.meta.url), 'utf8'));
+export const DESKS = DESK_FILE.desks.map((d) => d.id);
+export const BEATS = Object.fromEntries(DESK_FILE.desks.map((d) => [d.id, d.beats]));
 const RUN_STATUS = ['ok', 'partial', 'down'];
 const SWEEP_STATUS = ['ok', 'partial', 'down', 'skipped'];
 const SWEEP_KINDS = ['discovery', 'desk', 'trends', 'watch', 'context', 'request'];
@@ -172,7 +175,11 @@ export function checkCapture(doc, opts = {}) {
     }
     if (p.note != null && !(isObj(p.note) && isStr(p.note.text))) err(`${at}.note`, 'must be { text } or null');
     arr(`${at}.flags`, p.flags).forEach((f) => oneOf(`${at}.flags`, f, FLAGS));
-    oneOf(`${at}.desk`, p.desk, DESKS, { nullable: true });
+    if (p.desk != null && !DESKS.includes(p.desk)) err(`${at}.desk`, 'must be a desk id from contract/desks.json, or null');
+    if (p.beat != null) {
+      if (p.desk == null) err(`${at}.beat`, 'needs a desk; a beat is a part of one desk');
+      else if (!(BEATS[p.desk] ?? []).includes(p.beat)) err(`${at}.beat`, `is not a beat of ${p.desk} in contract/desks.json; use one of its beats or null`);
+    }
     own(`${at}.topic`, p.topic);
     own(`${at}.lead`, p.lead);
   });
@@ -222,7 +229,7 @@ export function checkCapture(doc, opts = {}) {
     if (!isObj(s)) { err(at, 'must be an object'); return; }
     own(`${at}.id`, s.id, { required: true });
     oneOf(`${at}.kind`, s.kind, SWEEP_KINDS);
-    oneOf(`${at}.desk`, s.desk, DESKS, { nullable: true });
+    if (s.desk != null && !DESKS.includes(s.desk)) err(`${at}.desk`, 'must be a desk id from contract/desks.json, or null');
     own(`${at}.method`, s.method, { required: true });
     if (s.window_hours != null && !(typeof s.window_hours === 'number' && s.window_hours > 0)) err(`${at}.window_hours`, 'must be a positive number or null');
     oneOf(`${at}.status`, s.status, SWEEP_STATUS);

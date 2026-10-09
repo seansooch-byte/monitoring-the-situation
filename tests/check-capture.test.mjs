@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { checkCapture, knownIdsBefore, snowflakeFor, snowflakeTime } from '../tools/check-capture.mjs';
+import { BEATS, DESKS, checkCapture, knownIdsBefore, snowflakeFor, snowflakeTime } from '../tools/check-capture.mjs';
 
 const T0 = Date.parse('2026-10-09T05:00:00.000Z'); // post created
 const RUN_START = '2026-10-09T06:00:00Z';
@@ -271,4 +271,87 @@ test('a later run may send numbers for a post recorded by an earlier file, and o
   } finally {
     rmSync(root, { recursive: true, force: true });
   }
+});
+
+// ---- the desks: contract/desks.json is the one list, read by the checker, the grabber and the site
+
+const desksDoc = JSON.parse(readFileSync(new URL('../contract/desks.json', import.meta.url), 'utf8'));
+
+test('the desk list is well formed: unique ids and codes, a known group, a scope, a cadence, a floor', () => {
+  assert.equal(desksDoc.schema, 'mts.desks/1');
+  const groups = new Set(desksDoc.groups.map((g) => g.id));
+  assert.equal(groups.size, desksDoc.groups.length, 'group ids are unique');
+  const ids = new Set(), codes = new Set();
+  for (const d of desksDoc.desks) {
+    assert.match(d.id, /^[a-z]+$/, `${d.id}: id is one lowercase word`);
+    assert.match(d.code, /^[A-Z]{2,3}$/, `${d.id}: code is two or three capitals`);
+    assert.ok(!ids.has(d.id), `${d.id}: duplicate id`); ids.add(d.id);
+    assert.ok(!codes.has(d.code), `${d.id}: duplicate code ${d.code}`); codes.add(d.code);
+    assert.ok(groups.has(d.group), `${d.id}: unknown group ${d.group}`);
+    assert.ok(typeof d.name === 'string' && d.name.length > 0, `${d.id}: name`);
+    assert.ok(typeof d.scope === 'string' && d.scope.length > 30, `${d.id}: scope says what belongs`);
+    assert.ok([1, 2, 4].includes(d.sweep_every_hours), `${d.id}: sweep_every_hours is 1, 2 or 4`);
+    assert.ok(Number.isInteger(d.floor.views) && d.floor.views > 0 && Number.isInteger(d.floor.likes) && d.floor.likes > 0, `${d.id}: floor`);
+    assert.ok(Array.isArray(d.beats) && d.beats.length >= 2, `${d.id}: at least two beats`);
+    assert.equal(new Set(d.beats).size, d.beats.length, `${d.id}: beats are unique`);
+    for (const b of d.beats) assert.match(b, /^[a-z0-9]+(-[a-z0-9]+)*$/, `${d.id}: beat ${b} is lowercase words joined by hyphens`);
+    for (const text of [d.name, d.scope, d.not_here ?? '']) assert.ok(!text.includes(EM_DASH), `${d.id}: no em dash`);
+  }
+  for (const g of desksDoc.groups) assert.ok(desksDoc.desks.some((d) => d.group === g.id), `group ${g.id} has a desk`);
+});
+
+test('the checker reads its desks and beats from that file, not from a list of its own', () => {
+  assert.deepEqual(DESKS, desksDoc.desks.map((d) => d.id));
+  for (const d of desksDoc.desks) assert.deepEqual(BEATS[d.id], d.beats);
+});
+
+test('the six sectors of the old page each still have a home', () => {
+  // Finance/markets, Politics, Pop culture, Sports, Tech & AI, Medicine
+  for (const id of ['markets', 'politics', 'entertainment', 'sports', 'tech', 'ai', 'medicine']) assert.ok(DESKS.includes(id), id);
+});
+
+test('a beat is optional, and when given it must belong to the post\'s desk', () => {
+  const desk = desksDoc.desks[0], other = desksDoc.desks.find((d) => !d.beats.includes(desk.beats[0]));
+  const a = capture(); Object.assign(a.posts[0], { desk: desk.id, beat: desk.beats[0] });
+  assert.deepEqual(errs(a), []);
+  const b = capture(); Object.assign(b.posts[0], { desk: desk.id, beat: null });
+  assert.deepEqual(errs(b), []);
+  const c = capture(); Object.assign(c.posts[0], { desk: other.id, beat: desk.beats[0] });
+  assert.ok(has(errs(c), /beat/));
+  const d = capture(); Object.assign(d.posts[0], { desk: null, beat: desk.beats[0] });
+  assert.ok(has(errs(d), /beat/));
+  const e = capture(); Object.assign(e.posts[0], { desk: desk.id, beat: 'made-up-beat' });
+  assert.ok(has(errs(e), /beat/));
+});
+
+test('a sweep names a desk from the same list', () => {
+  const a = capture(); a.sweeps[0].desk = 'finance'; // a sector name from the old page, not a desk
+  assert.ok(has(errs(a), /sweeps\[0\]\.desk/));
+  const b = capture(); b.sweeps[0].desk = desksDoc.desks.at(-1).id;
+  assert.deepEqual(errs(b), []);
+});
+
+test('the desk map in GRABBER.md names every desk in the file once, under its own group, and nothing else', () => {
+  const doc = readFileSync(new URL('../contract/GRABBER.md', import.meta.url), 'utf8');
+  const table = doc.slice(doc.indexOf('| Group | Desks |'), doc.indexOf('(The table is a map for reading.'));
+  const rows = table.split('\n').filter((l) => l.startsWith('| ') && !l.startsWith('| Group') && !l.startsWith('|---'));
+  const seen = [];
+  for (const row of rows) {
+    const [, groupName, cells] = row.split('|').map((c) => c.trim());
+    const group = desksDoc.groups.find((g) => g.name === groupName);
+    assert.ok(group, `GRABBER.md names a group that is not in the file: ${groupName}`);
+    for (const id of [...cells.matchAll(/`([a-z]+)`/g)].map((m) => m[1])) {
+      const desk = desksDoc.desks.find((d) => d.id === id);
+      assert.ok(desk, `GRABBER.md names a desk that is not in the file: ${id}`);
+      assert.equal(desk.group, group.id, `${id} is listed under the wrong group`);
+      seen.push(id);
+    }
+  }
+  assert.deepEqual(seen, desksDoc.desks.map((d) => d.id));
+});
+
+test('ARCHITECTURE.md mentions every desk', () => {
+  const doc = readFileSync(new URL('../ARCHITECTURE.md', import.meta.url), 'utf8');
+  const section = doc.slice(doc.indexOf('## The desks'), doc.indexOf('## The checks on the grabber'));
+  for (const d of desksDoc.desks) assert.match(section, new RegExp(`\\b${d.id}\\b`), `${d.id} is missing from ARCHITECTURE.md`);
 });

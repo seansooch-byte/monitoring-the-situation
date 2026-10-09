@@ -1,0 +1,154 @@
+{
+  "schema": "mts.desks/1",
+  "about": "The desks: every part of the internet's attention this site watches. This file is the one list. The checker validates against it, the grabber sweeps by it, and the site draws its sections from it. A post gets the single desk it is most about, or null if nothing fits.",
+  "groups": [
+    { "id": "news", "name": "News" },
+    { "id": "money", "name": "Money" },
+    { "id": "science", "name": "Science and tech" },
+    { "id": "culture", "name": "Culture" },
+    { "id": "sports", "name": "Sports" },
+    { "id": "online", "name": "Life online" }
+  ],
+  "desks": [
+    {
+      "id": "politics", "code": "POL", "name": "Politics", "group": "news",
+      "scope": "United States politics and government: the White House, Congress, campaigns and elections, the Supreme Court and federal agencies as political actors, state politics, policy fights, and the political culture war.",
+      "not_here": "Another country's politics is world. A criminal trial is justice unless the story is the politics around it.",
+      "beats": ["white-house", "congress", "elections", "courts", "states", "policy", "culture-war"],
+      "sweep_every_hours": 1, "floor": { "views": 50000, "likes": 1000 }
+    },
+    {
+      "id": "world", "code": "WLD", "name": "World", "group": "news",
+      "scope": "What happens between countries and inside other ones: wars and conflicts as events, diplomacy, foreign governments and elections, protests abroad, international bodies, migration crises.",
+      "not_here": "Weapons, forces and military analysis are defense. Markets reacting to world events are markets.",
+      "beats": ["conflict", "diplomacy", "europe", "middle-east", "asia-pacific", "americas", "africa"],
+      "sweep_every_hours": 2, "floor": { "views": 50000, "likes": 1000 }
+    },
+    {
+      "id": "defense", "code": "DEF", "name": "Defense", "group": "news",
+      "scope": "The military itself: forces and operations, weapons and defense technology, service life, veterans, the defense industry, and open-source analysis of equipment and movements.",
+      "not_here": "The politics and diplomacy of a war are world or politics.",
+      "beats": ["operations", "weapons", "service-life", "veterans", "industry", "osint"],
+      "sweep_every_hours": 4, "floor": { "views": 10000, "likes": 250 }
+    },
+    {
+      "id": "justice", "code": "JUS", "name": "Crime and courts", "group": "news",
+      "scope": "Crime, policing, trials and verdicts, lawsuits, prisons, and footage of crimes, arrests and confrontations that people are passing around.",
+      "not_here": "Court rulings whose stakes are political are politics. Posts here often show people who are not public figures: set the private_individual flag.",
+      "beats": ["crime", "trials", "policing", "lawsuits"],
+      "sweep_every_hours": 2, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "disaster", "code": "DIS", "name": "Weather and disasters", "group": "news",
+      "scope": "Weather and natural hazards (storms, earthquakes, fires, floods, heat, cold) and accidents and emergencies in progress: crashes, collapses, explosions, large outages of power, water or transport.",
+      "not_here": "Climate science is science. An attack is world or justice.",
+      "beats": ["storms", "earthquakes", "fires", "floods", "aviation", "accidents", "outages"],
+      "sweep_every_hours": 4, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "markets", "code": "MKT", "name": "Markets", "group": "money",
+      "scope": "Markets and the economy: stocks, bonds, interest rates and the Federal Reserve, commodities and energy prices, economic data, housing, earnings as market events, investors arguing, and personal finance.",
+      "not_here": "Tokens and coins are crypto. A company's own story (a deal, layoffs, a chief executive) is business.",
+      "beats": ["stocks", "macro", "rates", "commodities", "housing", "personal-finance"],
+      "sweep_every_hours": 2, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "business", "code": "BIZ", "name": "Business", "group": "money",
+      "scope": "Companies and work: deals, executives, layoffs, labor and unions, careers and office life, brands and advertising, retail and prices, startups as businesses, and the business of media.",
+      "not_here": "A technology product is tech or ai. A share price move is markets.",
+      "beats": ["companies", "deals", "work", "brands", "retail", "startups", "media"],
+      "sweep_every_hours": 4, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "crypto", "code": "CRY", "name": "Crypto", "group": "money",
+      "scope": "Bitcoin and other tokens, memecoins, exchanges and protocols, scams and collapses, crypto personalities, and crypto policy.",
+      "not_here": "Promotional posts for a coin are ads: leave them out unless the promotion itself is the story.",
+      "beats": ["bitcoin", "altcoins", "memecoins", "exchanges", "scams", "policy"],
+      "sweep_every_hours": 4, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "ai", "code": "AI", "name": "AI", "group": "science",
+      "scope": "Artificial intelligence: models and the labs that make them, releases and benchmarks, safety and policy, AI and jobs, what people make with AI, and the arguments about all of it.",
+      "not_here": "An ordinary meme that happens to be AI-generated is internet. AI company finances are business or markets.",
+      "beats": ["models", "labs", "safety", "policy", "jobs", "made-with-ai"],
+      "sweep_every_hours": 2, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "tech", "code": "TEC", "name": "Tech", "group": "science",
+      "scope": "Technology apart from AI: devices, software and developer culture, the big technology companies as makers of things, cybersecurity and breaches, service outages, cars and robots.",
+      "not_here": "Social platforms as places people live (bans, feuds, rule changes) are internet.",
+      "beats": ["devices", "software", "developers", "security", "big-tech", "vehicles-robots"],
+      "sweep_every_hours": 2, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "science", "code": "SCI", "name": "Science and space", "group": "science",
+      "scope": "Space and launches, astronomy, physics, chemistry, biology, earth and climate science, discoveries, disputes over research, and university research life.",
+      "not_here": "Human health and medicine are medicine. Animal clips with no science in them are offbeat.",
+      "beats": ["space", "astronomy", "physics", "biology", "climate", "research"],
+      "sweep_every_hours": 4, "floor": { "views": 10000, "likes": 250 }
+    },
+    {
+      "id": "medicine", "code": "MED", "name": "Medicine", "group": "science",
+      "scope": "Medicine and health: clinical medicine and the people who practice it, public health and outbreaks, the health agencies, drugs and devices, health claims and wellness trends, nutrition and fitness, mental health, and the cost and business of care.",
+      "not_here": "Nothing that identifies a patient is ever captured.",
+      "beats": ["clinical", "public-health", "agencies", "drugs", "wellness", "mental-health", "health-system"],
+      "sweep_every_hours": 2, "floor": { "views": 10000, "likes": 250 }
+    },
+    {
+      "id": "entertainment", "code": "ENT", "name": "Entertainment", "group": "culture",
+      "scope": "Film, television and streaming, animation, anime and comics, trailers, box office, awards, and celebrity news and gossip.",
+      "not_here": "Musicians doing music things are music. Game adaptations as games are gaming.",
+      "beats": ["film", "tv", "anime-comics", "awards", "celebrity"],
+      "sweep_every_hours": 1, "floor": { "views": 50000, "likes": 1000 }
+    },
+    {
+      "id": "music", "code": "MUS", "name": "Music", "group": "culture",
+      "scope": "Releases, charts, tours and tickets, feuds, festivals, music awards, and the fandoms around artists, K-pop included.",
+      "not_here": "A musician's private life with no music in it is entertainment.",
+      "beats": ["pop", "hip-hop", "k-pop", "country", "latin", "rock-alt", "electronic", "live"],
+      "sweep_every_hours": 2, "floor": { "views": 50000, "likes": 1000 }
+    },
+    {
+      "id": "gaming", "code": "GAM", "name": "Gaming", "group": "culture",
+      "scope": "Video games and the people who play them: releases, studios, consoles and PC hardware, esports, players arguing about games, and tabletop games.",
+      "not_here": "A streamer's drama that is not about a game is internet.",
+      "beats": ["releases", "studios", "hardware", "esports", "community", "tabletop"],
+      "sweep_every_hours": 2, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "ideas", "code": "IDE", "name": "Arts and ideas", "group": "culture",
+      "scope": "Books, art, architecture and design, history, philosophy, religion, language, and the essays and long threads that travel because of an idea.",
+      "not_here": "Scientific research is science. School and campus life is life.",
+      "beats": ["books", "art", "architecture", "history", "philosophy", "religion"],
+      "sweep_every_hours": 4, "floor": { "views": 10000, "likes": 250 }
+    },
+    {
+      "id": "sports", "code": "SPT", "name": "Sports", "group": "sports",
+      "scope": "Every sport and league, college and professional, plus betting and fantasy. Sweep the leagues that are in season first.",
+      "not_here": "An athlete's celebrity life with no sport in it is entertainment.",
+      "beats": ["nfl", "nba", "mlb", "nhl", "soccer", "college-football", "college-basketball", "wnba", "combat", "wrestling", "motorsport", "golf", "tennis", "olympics", "betting-fantasy"],
+      "sweep_every_hours": 1, "floor": { "views": 50000, "likes": 1000 }
+    },
+    {
+      "id": "internet", "code": "NET", "name": "The internet", "group": "online",
+      "scope": "Things native to the platforms themselves: memes and formats, creators, streamers and podcasters, platforms as places (rule changes, bans, outages people feel), the person everyone is talking about today, and jokes with no news peg.",
+      "not_here": "A meme about a news story goes with that story's desk when the story is the point.",
+      "beats": ["memes", "creators", "streamers", "platforms", "main-character", "jokes"],
+      "sweep_every_hours": 1, "floor": { "views": 50000, "likes": 1000 }
+    },
+    {
+      "id": "life", "code": "LIF", "name": "Life", "group": "online",
+      "scope": "How people live, argued about in public: dating and relationships, family and parenting, food and restaurants, travel, fashion and beauty, home, school and campus, and manners around money and occasions.",
+      "not_here": "These posts often involve people who are not public figures: set the private_individual flag.",
+      "beats": ["relationships", "family", "food", "travel", "style", "home", "school", "etiquette"],
+      "sweep_every_hours": 4, "floor": { "views": 20000, "likes": 500 }
+    },
+    {
+      "id": "offbeat", "code": "ODD", "name": "Offbeat", "group": "online",
+      "scope": "Things people share because they are delightful or strange, with no argument attached: animals and nature, feats, oddities, feel-good moments, astonishing or satisfying clips.",
+      "not_here": "A clip that is spreading because of a claim about it belongs to the desk of that claim.",
+      "beats": ["animals", "nature", "feats", "oddities", "feel-good"],
+      "sweep_every_hours": 2, "floor": { "views": 50000, "likes": 1000 }
+    }
+  ]
+}

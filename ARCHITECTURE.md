@@ -47,7 +47,7 @@ Two rules hold the design together:
 
 | Path | Owner | What it is |
 |---|---|---|
-| `contract/` | Editor | The grabber's standing orders (`GRABBER.md`), the capture format (`CAPTURE.md`), a checked example. **Built.** |
+| `contract/` | Editor | The grabber's standing orders (`GRABBER.md`), the capture format (`CAPTURE.md`), the desks (`desks.json`), a checked example. **Built.** |
 | `tools/check-capture.mjs` | Editor | Gate 1, and the definition of a valid capture. **Built.** |
 | `tests/` | Editor | The contract as tests. **Built.** |
 | `requests/` | Editor | What the editor wants from the next run: lookups, searches, and the list of posts to keep re-reading. **Built** (format); the grabber starts reading it with its first run. |
@@ -56,6 +56,23 @@ Two rules hold the design together:
 | `briefs/` | Editor | One file per day: the daily briefing by desk. **Planned.** |
 | `site/` | Editor | Templates, styles and scripts for the site. **Planned.** |
 | `.github/workflows/check.yml` | Editor | Runs the tests and Gate 1 on every push, and fails a capture commit that touches anything outside `capture/`. **Built.** |
+
+## The desks
+
+The site watches twenty desks in six groups: News (politics, world, defense, justice, disaster),
+Money (markets, business, crypto), Science and tech (ai, tech, science, medicine), Culture
+(entertainment, music, gaming, ideas), Sports, and Life online (internet, life, offbeat).
+
+`contract/desks.json` is the only list. Each desk has an id, a short code, a scope, its near
+misses, its beats, how often the grabber sweeps it, and the smallest post worth taking. Three
+readers share the file, so a desk is added, merged or renamed in one place:
+
+- the checker rejects a post or sweep whose desk is not in it, and a beat that is not its desk's;
+- the grabber decides which desks are due and what clears the floor from it;
+- the site (**Planned**) draws its sections, their order and their codes from it.
+
+A desk id that has been used in a capture is never renamed or removed, only retired: old captures
+still carry it.
 
 ## The checks on the grabber
 

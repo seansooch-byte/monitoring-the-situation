@@ -29,8 +29,9 @@ Prefer, in this order:
    with 4 million. Speed is the product.
 3. **The reaction.** For the biggest posts, the most liked replies and quote posts. That is where
    the internet's answer to a post lives.
-4. **Breadth across desks.** A smaller post that is the biggest thing in medicine today is worth more
-   than the fortieth biggest politics post.
+4. **Breadth across desks.** The site watches twenty desks, from politics to gaming to medicine. A
+   smaller post that is the biggest thing on its desk today is worth more than the fortieth biggest
+   politics post.
 
 ## The sweeps
 
@@ -42,23 +43,50 @@ Run them in this order. Use the ids exactly as written.
 | `trends.us`, `trends.ww` | X's trending list for the United States and worldwide, as shown: rank, name, post count, and X's own story text and link where one exists. | top 20 each |
 | `viral.global` | The most viewed posts created in the last 24 hours, any subject, English first. | up to 40 new |
 | `rising.global` | Posts under 6 hours old gaining fastest. | up to 20 new |
-| `desk.<desk>` | The most viewed and fastest posts of the last 24 hours for one desk. Sweep `internet` every run and rotate through the other six so each is swept at least every third run. | up to 12 new per desk |
+| `desk.<desk>` | The most viewed and fastest posts of the last 24 hours for one desk. Sweep every desk that is due (see The desks, below). | up to 10 new per desk |
 | `context.top` | For the 15 biggest posts that are new this run: the 3 most liked replies, the 3 most liked quote posts, and the parent post if it is itself a reply or a quote. | up to 7 per post |
 | `request.<id>` | One sweep per open request in `requests/open.json`. Answer it in `answers`. | as asked |
 
-The desks:
+## The desks
 
-- `finance`: markets, the economy, companies, crypto, personal finance arguments.
-- `politics`: United States and world politics, courts, war and diplomacy.
-- `culture`: film, television, music, celebrity, fashion, books, food.
-- `sports`: every league, plus betting and fantasy talk.
-- `tech`: technology and AI, the industry and the arguments inside it.
-- `medicine`: medicine, public health, science, health claims going around.
-- `internet`: the things native to the platform itself. Memes and formats, creators, platform drama,
-  the person everyone is talking about today, jokes with no news peg.
+`contract/desks.json` is the list: twenty desks in six groups. Read it before your first run and
+again whenever it changes. For each desk it gives:
 
-Floors, so the file stays about viral things: a global sweep takes nothing under 100,000 views or
-2,000 likes; a desk sweep takes nothing under 20,000 views or 500 likes. Context posts have no floor.
+- `scope`: what belongs there, and `not_here`: the near misses and where they go instead.
+- `beats`: the parts of the desk, for example `nfl` and `nba` under `sports`. Use them to build
+  your searches and to fill a post's `beat`.
+- `sweep_every_hours`: 1, 2 or 4. A desk is **due** when its last sweep with status `ok` or
+  `partial` started at least that many hours ago. Sweep every desk that is due, in the order the
+  file lists them. At an hourly schedule that is about ten desk sweeps a run.
+- `floor`: the smallest post worth taking on that desk, as views or likes. A post clears the floor
+  if it meets either number. Desks with smaller communities have lower floors.
+
+| Group | Desks |
+|---|---|
+| News | `politics`, `world`, `defense`, `justice`, `disaster` |
+| Money | `markets`, `business`, `crypto` |
+| Science and tech | `ai`, `tech`, `science`, `medicine` |
+| Culture | `entertainment`, `music`, `gaming`, `ideas` |
+| Sports | `sports` |
+| Life online | `internet`, `life`, `offbeat` |
+
+(The table is a map for reading. If it ever disagrees with the file, the file is right.)
+
+Rules for sweeping and labelling:
+
+- **A desk is having a big hour.** If the trending list or a global sweep shows it, sweep that desk
+  this run even if it is not due.
+- **One desk per post.** Choose by what the post is about. When two fit, choose the community that
+  is passing it around: a senator's joke that sports fans are sharing is `sports`. When nothing
+  fits, `desk` is `null`; do not force it.
+- **Posts from the global sweeps get a desk too.** Label every post, however you found it.
+- **A beat is optional.** Fill it when it is obvious, leave it `null` when it is not. Never invent
+  a beat that is not in the file; if a desk keeps needing one it does not have, say so in
+  `capture/NOTES.md`.
+- **A quiet desk is a short sweep.** If nothing on a desk clears its floor, record the sweep as
+  `ok` with no posts. That is information the site shows; do not lower the floor to fill it.
+
+A global sweep takes nothing under 100,000 views or 2,000 likes. Context posts have no floor.
 Under the floors, a quiet hour is a short capture. That is a correct result. Do not pad it.
 
 ## What to leave out
@@ -122,9 +150,10 @@ git push origin main                                           # on rejection: p
 
 - Target: one run at the top of every hour, UTC. Floor: one run every three hours.
 - A run should finish inside ten minutes.
-- If you are short on quota, time or budget, cut in this order: desk sweeps first, then
-  `rising.global`, then `context.top`, then `viral.global`, then `trends`. Never cut `watch`:
-  a gap in the time series cannot be repaired later.
+- If you are short on quota, time or budget, cut in this order: desk sweeps first (drop the
+  four-hour desks, then the two-hour desks, and keep the hourly ones longest), then `rising.global`,
+  then `context.top`, then `viral.global`, then `trends`. Never cut `watch`: a gap in the time
+  series cannot be repaired later. Record every sweep you dropped as `skipped` with the reason.
 - If a limit forces a slower schedule, slow down, keep it regular, and say so in `run.reason`.
 
 ## Requests from the editor
