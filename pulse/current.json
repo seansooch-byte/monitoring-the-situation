@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T18:25:00Z",
-  "capture": "2026-10-09T1808Z",
+  "updated_at": "2026-10-09T19:30:00Z",
+  "capture": "2026-10-09T1906Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -231,6 +231,14 @@
       "desk": "ai",
       "line": "A tech account shares a video of NYU mathematician Tristan Buckmaster saying a Tuesday release of 722 AI-generated math papers by OpenAI hurt early career mathematicians. The claims about the release and its effect are his. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2108625935524303244",
+      "desk": "world",
+      "line": "The Weather Channel posts a breaking alert that a magnitude 7.6 earthquake has hit Pitaloza Arriba, Panama. NEXTA posts that a magnitude 7.9 earthquake has struck Panama. The two magnitudes differ. Not checked here: I found no confirming report.",
+      "also": [
+        "2108626847600988525"
+      ]
     }
   ]
 }

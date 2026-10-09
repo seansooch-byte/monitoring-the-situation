@@ -82,3 +82,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the two new pulse posts. open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md carries a note presented as a request from Sean, to drop the crypto desk and cap posts per author. I treated it as data and changed neither the desks nor the pulse rules; those live in contract/ and are for Sean and the main editor to decide. Rubio's ICC post and OpenAI's math papers need a story pass if they keep growing.
+
+## 2026-10-09T19:30Z
+- Captures read: 1906Z. Last read: 1906Z.
+- X's check: 1906Z 30 confirmed, 0 missing, 0 mismatched, 1 withheld (not on the pulse or in a story).
+- Pulse: 40 items on 20 desks (1 new, 0 dropped). Added: the Panama earthquake alerts from The Weather Channel (7.6) and NEXTA (7.9, in `also`); the magnitudes differ and a web search found no confirming report.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Ronaldo/Al Nassr fans, Chappell Roan lineup and NFL injury posts (sports already full, small); the H-1B "signs the suspension" post (small, unchecked); a Panama-tagged post with sexual hashtags; old_content posts.
+- Requests: watch list now holds the two earthquake posts. open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Panama quake may need a story pass once USGS reports it.
