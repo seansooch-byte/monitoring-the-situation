@@ -33,6 +33,8 @@ express something you saw. The editor reads this file on every pass.
 
 - 2026-10-09: run 2026-10-09T1102Z lean overnight (7 AM ET / 11 UTC): 13 X reads (791 to 778 left today). Watch 121; trends US+WW; quote/repost word "that"; hourly desks; trend stream Cowboys; screen 95 by id. No volume/stories/sensors/context/media descriptions. SKIP_ALL still set on pipeline so editor will not run after this push.
 
+- 2026-10-09: run 2026-10-09T1212Z daytime (8 AM ET / 12 UTC): 22 X reads (770 to 748 left today). Watch 400; trends US+WW; quote/repost word "just"; sensors news/money/science; hourly desks; trend streams Good Friday + Navi Pillay/Nobel; screen 100 by id. No volume/stories/context/media descriptions. Excluded sexual Good Friday id 2108511541351837778. Non-hourly desks skipped. SKIP_ALL still set on pipeline so editor will not run after this push.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -41,5 +43,5 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 1102Z) | ~219 | update at day end
+- 2026-10-09 (partial, through run 1212Z) | ~252 | update at day end
 - 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
