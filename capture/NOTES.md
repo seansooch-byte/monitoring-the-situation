@@ -27,6 +27,8 @@ express something you saw. The editor reads this file on every pass.
 
 - 2026-10-09: run 2026-10-09T0702Z overnight thrift (3 AM ET): 15 reads (868 to 853 left today). Watch 200/400; trends US+WW; quote+repost word you; culture sensors; hourly desks politics/entertainment/sports/internet; Dak Prescott trend stream; no volume/stories/context/media descriptions. Excluded sexual or minor-related posts including 2108366539439411593 and 2108378335512293747. Notice r-2026-10-09-11 acknowledged.
 
+- 2026-10-09: run 2026-10-09T0804Z lean overnight (4 AM ET): about 23 X reads (853 to 830 left today). Watch 400; trends US+WW; quote/repost word "and" (bare and rejected, quoted works); sensors sports/online/news; hourly desks; trend streams #PPHALLOWEENPARTY/New Yorker/CeeDee. Excluded giveaway 2108437202543800337 and under-15-minute FabrizioRomano 2108468759350358134. No volume/stories/context/media descriptions.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -35,4 +37,4 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 0702Z) | 147 | 494 | 44 | 12 | 7 | 44,168,298 (2108187065687118261) | 95,060 | 10.2 | global sweeps 44,168,298 / 655,426; stream.global.quote 44,168,298 / 230,404; desk streams and clusters 2,125,674 / 85,244; trends 2,125,674 / 241,537; sensors 9,191,949 / 81,146; context 832,635 / 4,970; requests 39,941,861 / 614
+- 2026-10-09 (partial, through run 0804Z) | ~170 | see prior + 0804Z | update at day end
