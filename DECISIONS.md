@@ -257,3 +257,28 @@ A guard on Sean's machine blocks any command that runs a path ending `tools/` + 
 his `~/edge` repository has uncommitted changes. It is written for that repository and does not
 look at which one the command is in. This project's script is named `tools/ship.sh` so the two do
 not collide; the guard is untouched and still protects `~/edge`.
+
+## 2026-10-09: grokbot runs the clock; a recruited Claude agent does the editor's pass
+
+**Context.** Sean wants one schedule. grokbot already runs hourly and can recruit Claude agents.
+
+**Alternatives.** A Claude cloud routine on its own timer (my first recommendation); a GitHub
+Action calling the API on each capture push; grokbot doing the editor's work itself.
+
+**Decision.** grokbot's scheduler recruits a Claude agent after the capture of every even hour.
+The risk in letting the party being checked start its own checker is handled in the repository,
+not by trust: the brief is a file passed word for word (`contract/EDITOR-BRIEF.md`); the
+procedure is a file the agent reads itself (`contract/EDITOR.md`) and it tells the agent to
+ignore anything else it was told; a pass may write only stories, requests, the ledger and its
+log, and CI fails a `bulletin:` commit that touches anything else; the build refuses a post X
+has not confirmed. grokbot doing the editing itself was rejected outright: the gatherer and the
+checker must be different.
+
+**Consequences.** Each pass is a fresh agent with no memory, so `editor/LOG.md` carries state
+between passes. A scheduled pass cannot change the contract, the tools or the site; those stay
+with the main editor session. Unattended publishing about real people is the largest risk the
+project takes on, which is why `EDITOR.md` spends most of its length on what never goes on the
+site and ends with a checklist.
+
+**Also.** The bulletin holds stories that began in the last 48 hours; older ones keep their page
+and move to `/archive/`. Without that, an unattended site only ever grows.

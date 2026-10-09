@@ -252,3 +252,8 @@ dd { font-size: 12.5px; font-weight: 700; }
   .foot { grid-template-columns: 1fr; }
   .foot-links { text-align: left; flex-direction: row; gap: 18px; }
 }
+
+/* ---------- archive, and a story's own date */
+.archive.desk-index { grid-template-columns: 1fr; max-width: 900px; }
+.updated { font: 400 11px/1.3 var(--inst); color: var(--ink-2); letter-spacing: 0.02em; }
+.sources time { font-size: 11px; color: var(--ink-2); margin-right: 6px; }

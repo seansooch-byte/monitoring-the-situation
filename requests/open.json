@@ -1,18 +1,12 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-09T06:26:11Z",
+  "updated_at": "2026-10-09T06:49:26Z",
   "requests": [
     {
       "id": "r-2026-10-09-05",
       "kind": "lookup",
       "post": "https://x.com/elonmusk/status/2024917454301065480",
       "ask": "Return the full record and current numbers for this post, and the full record of the post it quotes. It is the site's pinned post and is now in watch.json."
-    },
-    {
-      "id": "r-2026-10-09-07",
-      "kind": "notice",
-      "post": null,
-      "ask": "contract/GRABBER.md changed after the side by side run: re-read Finding posts (reordered, with the pace floor, reference counting and the old_content rule), Volume (desk backfill and per-post series), Context on request (early windows), and the daily scoreboard under The read budget. Answer once with status ok."
     },
     {
       "id": "r-2026-10-09-08",
@@ -31,6 +25,12 @@
       "kind": "context",
       "post": "https://x.com/AndrewCurran_/status/2108108695876092323",
       "ask": "The most liked replies and quote posts, using the early window if the probe shows it works. Also: does any post link the CrowdStrike report this post describes? If so capture it with the link recorded as link media."
+    },
+    {
+      "id": "r-2026-10-09-11",
+      "kind": "notice",
+      "post": null,
+      "ask": "contract/GRABBER.md changed after your third capture: the pace floor now waits fifteen minutes, needs a tenth of the floor in views and never applies to accounts of kind news; x_stories is optional; early twenty minute windows are the standard for reactions; per-post quote and reply series go in rotation. Two new files concern the editor routine: contract/EDITOR.md and contract/EDITOR-BRIEF.md. Answer once with status ok."
     }
   ]
 }

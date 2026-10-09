@@ -29,7 +29,7 @@ jobs:
           fi
           if [ -z "$files" ]; then echo "no capture files in this push"; exit 0; fi
           echo "$files" | xargs node tools/check-capture.mjs
-      - name: A capture commit touches only capture/
+      - name: A capture commit touches only capture/, and a bulletin commit only the editor's files
         env:
           BEFORE: ${{ github.event.before }}
         run: |
@@ -40,6 +40,11 @@ jobs:
               capture:*)
                 outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v '^capture/' || true)
                 if [ -n "$outside" ]; then echo "commit $c is a capture commit but changes:"; echo "$outside"; bad=1; fi
+                ;;
+              bulletin:*)
+                # A scheduled editor pass writes stories, requests, the ledger and its log. Nothing else.
+                outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v -E '^(moments/|requests/|verified/posts\.json$|editor/LOG\.md$)' || true)
+                if [ -n "$outside" ]; then echo "commit $c is a bulletin commit but changes:"; echo "$outside"; bad=1; fi
                 ;;
             esac
           done

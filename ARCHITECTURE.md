@@ -62,7 +62,9 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 | `tests/` | Editor | The contract as tests. **Built.** |
 | `requests/` | Editor | What the editor wants from the next run: lookups, searches, and the list of posts to keep re-reading. **Built** (format); the grabber starts reading it with its first run. |
 | `capture/` | Grabber | One file per run, append only (`YYYY/MM/DD/HHMMZ.json`). Beside them, the grabber's own papers, which the contract asks for and the editor reads: `CAPABILITIES.md` (what X actually returns, and the standing query per desk), `RUNBOOK.md` (its hourly procedure), `SENSORS.md` (accounts it reads), `NOTES.md` (its channel back to the editor), and `handover/` (the old briefing's method and the old feed Worker's source, secrets removed). |
-| `contract/KICKOFF.md`, `REPLY-01.md`, `REPLY-02.md` | Editor | The messages Sean pasted to grokbot, kept on record. |
+| `contract/KICKOFF.md`, `REPLY-01.md` to `REPLY-03.md` | Editor | The messages Sean pasted to grokbot, kept on record. |
+| `contract/EDITOR.md`, `contract/EDITOR-BRIEF.md` | Editor | The procedure and the word-for-word brief for a scheduled editor pass. **Built.** |
+| `editor/LOG.md` | Editor | One entry per pass: what was read, what X confirmed, what was added, updated and left out. **Built.** |
 | `wrangler.jsonc`, `tools/ship.sh` | Editor | Where the files are served and the only way they are shipped. **Built.** |
 | `fixtures/demo/` | generated | Written by `tools/make-demo.mjs`, ignored by git. |
 | `moments/` | Editor | One file per story (`mts.moment/1`): title, standing, what happened, why it is spreading, how each world sees it, what is on the record, the posts it cites by id, sources. **Built.** |
@@ -73,6 +75,19 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 | `tools/lib/metrics.mjs` | Editor | Arithmetic on readings: magnitude, a story's totals and trend, a desk's trace. **Built.** |
 | `tools/make-demo.mjs`, `tools/demo-stories.mjs` | Editor | An invented day in the real file formats, for design work. A build from it is marked on every page and leaves a `DEMO` file so it is never deployed. **Built.** |
 | `.github/workflows/check.yml` | Editor | Runs the tests and Gate 1 on every push, and fails a capture commit that touches anything outside `capture/`. **Built.** |
+
+## Who runs when
+
+- **The grabber** runs hourly on grokbot's scheduler and pushes one capture.
+- **The editor's pass** is a Claude agent that grokbot's scheduler recruits after the capture of
+  every even hour (**Planned**: the routine is specified and waiting on grokbot's trial pass).
+  The agent's brief is `contract/EDITOR-BRIEF.md`, passed word for word, and its procedure is
+  `contract/EDITOR.md`, which it reads from the repository itself. grokbot runs the clock and
+  supplies no instruction about content. A pass may write only `moments/`, `requests/`,
+  `verified/posts.json` and `editor/LOG.md`, and CI fails a `bulletin:` commit that touches
+  anything else. `editor/LOG.md` is the editor's memory from one pass to the next.
+- **The main editor** (a Claude session with Sean) owns the contract, the tools and the site,
+  and is the only one who changes them.
 
 ## The desks
 
@@ -111,7 +126,9 @@ One static build, no server and no database. `node tools/build.mjs` writes `dist
 
 - `/` the pulse: the pinned post and the purpose, the record (one trace per desk over 24 hours),
   a picker for the reader's own desks, and the bulletin of stories ranked by magnitude.
-- `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`.
+- `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`, and
+  `/archive/` for stories that began more than 48 hours ago (they leave the bulletin and keep
+  their page).
 - `/data/pulse.json` the same numbers for machines.
 
 Purpose, which decides the design: people who read different things come away with different
@@ -129,8 +146,7 @@ The reader's own desks are kept in their browser only (`localStorage`); nothing 
 Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex`
 (a header and `robots.txt`) until Sean opens the site to search engines.
 
-Not built yet: a daily brief and an archive, scheduled editor passes, traces drawn from `volume`,
-click-to-load embeds of posts.
+Not built yet: a daily brief, traces drawn from `volume`, click-to-load embeds of posts.
 
 ## What this replaces
 

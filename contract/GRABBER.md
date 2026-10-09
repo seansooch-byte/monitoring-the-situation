@@ -88,14 +88,15 @@ in this order.
    run. Attach the three biggest posts to the trend whatever their size; a trend's top posts are
    context and have no floor. When several names are plainly one event, say so in `lead`.
 4. **The quote stream, then the repost stream** (quote stream median 278,000; repost stream
-   81,000). `the lang:en is:quote` and `the lang:en is:retweet`, newest first: each result carries
+   81,000). `the lang:en is:quote -is:retweet` and `the lang:en is:retweet`, newest first: each result carries
    the post being quoted or reposted, so a page is a sample weighted by what is spreading this
    minute. One page is one minute, which is a small sample, so vary the common word between reads
    and keep a tally across runs: a post that turns up in the stream in several runs of the last
    six is worth more than one that turned up once. Say the tally in `lead`.
 5. **X's story clusters** (found the biggest fresh post of the night, 5.3 million, but with a
-   median age of 15 hours). Keep them for the global sweeps and for the hourly desks. Save X's
-   name and summary for each story in `x_stories`, from a saved file, never retyped.
+   median age of 15 hours). Keep them for the global sweeps and for the hourly desks. `x_stories`
+   is optional: fill it only when the tool writes its result to a file you can copy from. While
+   the result only comes back inline, leave the array out and do not mark the run partial for it.
 6. **Desk repost streams** (44 kept of 44, medians 40,000 to 78,000: wide but shallow). Use a
    desk's standing query with `lang:en is:retweet -is:reply`, and keep at most the five best per
    desk by the pace rule below.
@@ -103,11 +104,19 @@ in this order.
 Say in each sweep's `method` which sources produced its posts and the exact query used.
 
 **The floor is a pace for a young post.** A post captured in its first hour will not have its
-views yet, and a floor on totals throws away exactly the posts worth following. A post under three
-hours old clears a floor if its views divided by its age in hours is at least a quarter of the
-floor's view count: 25,000 views an hour for a global sweep, and for a desk a quarter of that
-desk's `floor.views`. Posts three hours old or more are screened on totals as before. A young
-post kept on pace joins the re-read list like any other, which is how its rise gets measured.
+views yet, and a floor on totals throws away exactly the posts worth following. A post between
+fifteen minutes and three hours old clears a floor if its views divided by its age in hours is at
+least a quarter of the floor's view count (25,000 views an hour for a global sweep; for a desk, a
+quarter of that desk's `floor.views`) and it already has at least a tenth of the floor in views.
+Three limits keep the pace honest:
+
+- Under fifteen minutes a pace is noise. Do not keep the post; if it came from a strong source,
+  read it again next run.
+- An account whose `kind` is `news` posts its own headlines all day to a large following. Screen
+  those on totals only, never on pace.
+- Posts three hours old or more are screened on totals as before.
+
+A young post kept on pace joins the re-read list like any other, which is how its rise gets measured.
 
 **An origin can be old.** When a reference leads to a post more than a week older than the copy
 that led you there, capture it and set the `old_content` flag on it. That a clip is from last
@@ -131,8 +140,11 @@ X will count the posts matching a query for each hour of the last week
   (`retweets_of_tweet_id:`, `quotes_of_tweet_id:`, `conversation_id:` as the query), then one read
   gives a post's whole history of spreading since it was written, including the hours before
   anyone was watching it. Keys `post.<id>.reposts`, `post.<id>.quotes`, `post.<id>.replies`, with
-  `desk` `null`. Do this once for every post in `requests/watch.json` and refresh it every six
-  hours while the post is still on the list.
+  `desk` `null`. Quote and reply counts are confirmed to work. Repost counts came back as zeros on
+  an old post and are untested on a fresh one: test once on a post under a day old, and drop that
+  series if it is still all zeros. Three series for every watched post costs too many reads, so
+  take the quote and reply series for each post on `requests/watch.json` once, in rotation, a few
+  per run, and refresh a post's series only while it is still gaining.
 
 ## Media and links
 
@@ -152,10 +164,12 @@ for the three biggest new posts of a run, and otherwise wait for a `context` req
 asks for the reaction to the posts it is writing about.
 
 Newest-first and `relevancy` both return the latest replies, which have no likes yet. The replies
-with the most likes are nearly always among the first written, so ask for those: the same search
-with `end_time` set twenty minutes after the post was created, and again at two hours. For quote
-posts use `quotes_of_tweet_id:<id> -is:retweet` with the same two windows, and keep only results
-whose reference is a quote of that post. Keep the five most liked of each kind.
+with the most likes are among the first written, and the third probe confirmed it: limiting the
+search to the first twenty minutes after the post returned replies with hundreds of likes and a
+quote post with nearly ten thousand. So: `conversation_id:<id> is:reply` and
+`quotes_of_tweet_id:<id> -is:retweet`, each with `start_time` at the post's creation and
+`end_time` twenty minutes later. One read each. Keep the five most liked of each kind. A two hour
+window only returns the late part of itself and is not worth its read.
 
 ## The read budget
 

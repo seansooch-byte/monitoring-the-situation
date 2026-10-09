@@ -7,6 +7,14 @@
 
 export const STORIES = [
   {
+    slug: 'old-lighthouse-webcam', desks: ['offbeat'], beat: 'nature', standing: 'established', start: 61,
+    title: 'A lighthouse webcam catches the same seal on the same rock for the ninth day',
+    dek: 'This invented story is more than two days old, so it belongs in the archive and not on the bulletin.',
+    what: ['A harbour webcam has shown one seal returning to one rock at the same hour for nine days.'],
+    why: 'People have started setting alarms for it.',
+    posts: [{ role: 'origin', at: 0, v: 900000, tau: 9, handle: 'demo_harbourcam', name: 'Harbour Cam', kind: 'creator', followers: 21000, text: 'day nine. same rock.', media: [{ type: 'photo', description: 'A seal lying on a rock below a lighthouse', duration_s: null }] }],
+  },
+  {
     slug: 'dog-walks-onto-forecast', desks: ['offbeat', 'internet'], beat: 'animals', standing: 'established', start: 9.5,
     title: 'A dog walks onto a live weather forecast and stays for the whole thing',
     dek: 'A local forecaster kept going for four minutes with a retriever asleep on the map. The clip is the most viewed thing on the platform today.',

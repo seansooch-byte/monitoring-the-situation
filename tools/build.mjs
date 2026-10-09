@@ -106,6 +106,11 @@ const stories = moments.map((m) => {
   };
 }).sort((a, b) => (b.n.magnitude ?? 0) - (a.n.magnitude ?? 0) || b.started - a.started);
 
+// The bulletin holds what began in the last 48 hours. An older story keeps its page and moves to the archive.
+const LIVE_FOR = 48 * HOUR;
+const live = stories.filter((s) => s.started >= NOW - LIVE_FOR);
+const past = stories.filter((s) => s.started < NOW - LIVE_FOR).sort((a, b) => b.started - a.started);
+
 // ---------- the record: one trace per desk, from every post the grabber labelled with that desk
 
 function hash(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
@@ -119,12 +124,12 @@ const confirmed = (id) => DEMO || LEDGER[id]?.result === 'ok';
 const desks = DESKS.desks.map((d) => {
   const own = [...records.values()].filter((p) => p.desk === d.id && confirmed(p.id)).map((p) => ({ id: p.id, created: Date.parse(p.created_at) }));
   const bins = deskTrace(own, series, { from: FROM, to: NOW, bins: BINS });
-  const mine = stories.filter((s) => s.home?.id === d.id);
+  const mine = live.filter((s) => s.home?.id === d.id);
   // The desk's figure for the day counts posts written in the last 24 hours. An old post that a
   // reference led back to still feeds the trace by what it gained, but not the day's total.
   const fresh = own.filter((p) => p.created >= FROM);
   const total = fresh.reduce((sum, p) => { const l = (series.get(p.id) ?? []).filter((o) => Number.isFinite(o.views)).pop(); return sum + (l ? l.views : 0); }, 0);
-  return { ...d, bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: stories.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)) };
+  return { ...d, bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: live.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)), past: past.filter((s) => s.desks.includes(d.id)) };
 });
 
 function tracePath(desk, w = 960, h = 40) {
@@ -247,7 +252,7 @@ function recordFigure(list, { labels = true } = {}) {
 const FONTS = 'https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Libre+Franklin:ital,wght@0,400;0,600;0,800;0,900;1,400&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap';
 
 function page({ title, description, path, body, current }) {
-  const nav = [['/', 'Pulse'], ['/desks/', 'Desks'], ['/about/', 'About']].map(([href, label]) => `<a href="${href}"${current === href ? ' aria-current="page"' : ''}>${label}</a>`).join('');
+  const nav = [['/', 'Pulse'], ['/desks/', 'Desks'], ['/archive/', 'Archive'], ['/about/', 'About']].map(([href, label]) => `<a href="${href}"${current === href ? ' aria-current="page"' : ''}>${label}</a>`).join('');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -309,8 +314,8 @@ function pinned() {
 function pulsePage() {
   const active = desks.filter((d) => d.posts > 0).length;
   const posts = records.size;
-  const bulletin = stories.length
-    ? `<ol class="stories">${stories.map(storyRow).join('')}</ol>`
+  const bulletin = live.length
+    ? `<ol class="stories">${live.map(storyRow).join('')}</ol>`
     : `<div class="empty"><h3>The first bulletin is being written.</h3><p>The instrument is recording: ${posts} posts on ${active} of ${desks.length} desks so far. Stories appear here once each post in them has been checked against X and the write-up is done.</p></div>`;
   const picker = `<section class="yours" id="yours" aria-labelledby="yours-h">
   <header class="sec-head"><h2 id="yours-h">Which worlds do you live in?</h2><p>Pick the desks you already follow. The record will mark what you are not seeing.</p></header>
@@ -346,9 +351,11 @@ function storyPage(s) {
       ${worldsBlock(s, true)}
       ${s.next ? `<h2>What to watch</h2><p>${esc(s.next)}</p>` : ''}
       <h2>The posts</h2>${s.posts.map((p) => postBlock(p)).join('')}
+      ${(s.corrections ?? []).length ? `<h2>Corrections</h2><ul class="sources">${s.corrections.map((c) => `<li><time datetime="${esc(c.at)}">${hhmm(Date.parse(c.at))} UTC, ${day(Date.parse(c.at))}</time> ${esc(c.text)}</li>`).join('')}</ul>` : ''}
       ${(s.sources ?? []).length ? `<h2>Sources</h2><ul class="sources">${s.sources.map((x) => `<li><a href="${esc(x.url)}" rel="noopener noreferrer" target="_blank">${esc(x.label)}</a></li>`).join('')}</ul>` : ''}
     </div>
     <aside class="full-side">
+      <p class="updated">Written up ${hhmm(Date.parse(s.updated_at))} UTC, ${day(Date.parse(s.updated_at))}</p>
       ${magBlock(s)}
       ${spark(s, 280, 80)}
       <dl><div><dt>Views</dt><dd>${num(s.n.views)}</dd></div><div><dt>Last hour</dt><dd>${s.n.perHour == null ? 'n/a' : num(s.n.perHour)}</dd></div><div><dt>Posts tracked</dt><dd>${s.posts.length}</dd></div><div><dt>Began</dt><dd>${hhmm(s.started)} UTC</dd></div></dl>
@@ -371,7 +378,8 @@ function deskPage(d) {
 </section>
 <section class="bulletin">
   <header class="sec-head"><h2>Stories on this desk</h2></header>
-  ${all.length ? `<ol class="stories">${all.map(storyRow).join('')}</ol>` : `<div class="empty"><h3>No stories written up yet.</h3><p>A quiet desk is reported as quiet. Nothing is added to fill it.</p></div>`}
+  ${all.length ? `<ol class="stories">${all.map(storyRow).join('')}</ol>` : `<div class="empty"><h3>No stories on this desk in the last 48 hours.</h3><p>A quiet desk is reported as quiet. Nothing is added to fill it.</p></div>`}
+  ${d.past.length ? `<p class="desk-nums"><a href="/archive/">${d.past.length} earlier ${d.past.length === 1 ? 'story' : 'stories'} on this desk in the archive</a></p>` : ''}
 </section>`;
   return page({ title: `${d.name} · ${SITE.name}`, description: d.scope, path: `/desk/${d.id}/`, body, current: '/desks/' });
 }
@@ -383,6 +391,15 @@ function desksPage() {
     return `<li><a href="/desk/${d.id}/"><span class="code">${d.code}</span><b>${esc(d.name)}</b><span class="desk-peak">${d.posts ? mag(d.mag) : 'quiet'}</span><span class="desk-top">${top ? esc(top.title) : esc(d.scope.split(':')[0])}</span></a></li>`;
   }).join('')}</ul></div>`).join('')}</section>`;
   return page({ title: `The desks · ${SITE.name}`, description: 'The twenty desks this site watches, in six groups.', path: '/desks/', body, current: '/desks/' });
+}
+
+function archivePage() {
+  const days = new Map();
+  for (const s of past) { const k = new Date(s.started).toISOString().slice(0, 10); if (!days.has(k)) days.set(k, []); days.get(k).push(s); }
+  const list = [...days.entries()].map(([k, list]) => `<div class="desk-group"><h2>${day(Date.parse(k + 'T12:00:00Z'))}</h2><ul>${list.sort((a, b) => (b.n.magnitude ?? 0) - (a.n.magnitude ?? 0)).map((s) => `<li><a href="/story/${esc(s.id)}/"><span class="code">${s.home?.code ?? ''}</span><b>${esc(s.title)}</b><span class="desk-peak">${mag(s.n.magnitude)}</span><span class="desk-top">${esc(s.dek)}</span></a></li>`).join('')}</ul></div>`).join('');
+  const body = `<section class="desk-head"><p class="label">${past.length} ${past.length === 1 ? 'story' : 'stories'}</p><h1>The archive</h1><p class="dek">A story leaves the bulletin 48 hours after it began and is kept here, as it was last written up, with the numbers its posts had reached.</p></section>
+<section class="desk-index archive">${list || '<div class="empty"><h3>Nothing here yet.</h3><p>The record began on 9 October 2026. Stories arrive here two days after they start.</p></div>'}</section>`;
+  return page({ title: `Archive · ${SITE.name}`, description: 'Stories that have left the bulletin, by day.', path: '/archive/', body, current: '/archive/' });
 }
 
 function aboutPage() {
@@ -415,6 +432,7 @@ const put = (rel, text) => { const p = join(OUT, rel); mkdirSync(dirname(p), { r
 put('index.html', pulsePage());
 put('desks/index.html', desksPage());
 put('about/index.html', aboutPage());
+put('archive/index.html', archivePage());
 for (const d of desks) put(`desk/${d.id}/index.html`, deskPage(d));
 for (const s of stories) put(`story/${s.id}/index.html`, storyPage(s));
 put('404.html', page({ title: `Not found · ${SITE.name}`, description: 'No such page.', path: '/404', body: '<section class="desk-head"><p class="label">404</p><h1>Nothing recorded here.</h1><p class="dek"><a href="/">Back to the record.</a></p></section>' }));
@@ -424,6 +442,6 @@ for (const f of ['styles.css', 'app.js', 'favicon.svg']) cpSync(join(REPO, 'site
 const CSP = "default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; base-uri 'none'; form-action 'none'; frame-ancestors 'none'";
 put('_headers', `/*\n  Content-Security-Policy: ${CSP}\n  Strict-Transport-Security: max-age=31536000\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Robots-Tag: noindex\n`);
 put('robots.txt', 'User-agent: *\nDisallow: /\n');
-put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), stories: stories.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));
+put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), stories: live.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));
 if (DEMO) put('DEMO', 'Built from invented data. Never deploy this folder.\n');
-console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${stories.length} stories, ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);
+console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${stories.length} stories (${live.length} on the bulletin), ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);

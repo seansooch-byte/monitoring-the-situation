@@ -14,7 +14,7 @@ const desks = JSON.parse(readFileSync(root + 'contract/desks.json', 'utf8')).des
 test('the demo build writes the pulse page, a page per desk and a page per story, and marks itself', () => {
   run('tools/make-demo.mjs');
   const out = run('tools/build.mjs', '--demo');
-  assert.match(out, /built DEMO site: 16 stories/);
+  assert.match(out, /built DEMO site: 17 stories \(16 on the bulletin\)/);
   const home = readFileSync(root + 'dist/index.html', 'utf8');
   assert.ok(existsSync(root + 'dist/DEMO'), 'a demo build leaves a DEMO marker so it is never deployed');
   assert.match(home, /class="demo"/);
@@ -24,8 +24,13 @@ test('the demo build writes the pulse page, a page per desk and a page per story
     assert.ok(home.includes(`data-desk="${d.id}"`), `${d.id} has a line on the record`);
     assert.ok(existsSync(`${root}dist/desk/${d.id}/index.html`), `${d.id} has a page`);
   }
-  assert.equal(readdirSync(root + 'dist/story').length, 16);
+  // one invented story is more than 48 hours old: it keeps its page, leaves the bulletin, and is in the archive
+  assert.equal(readdirSync(root + 'dist/story').length, 17);
   assert.equal((home.match(/<li class="story"/g) ?? []).length, 16);
+  assert.ok(!home.includes('lighthouse webcam'), 'a story older than 48 hours is off the bulletin');
+  const archive = readFileSync(root + 'dist/archive/index.html', 'utf8');
+  assert.ok(archive.includes('lighthouse webcam'), 'and listed in the archive');
+  assert.ok(!archive.includes('A dog walks onto a live weather forecast'), 'which does not repeat the bulletin');
   assert.ok(!home.includes(String.fromCharCode(0x2014)), 'no em dash on the page');
   // every element the page script looks up by id exists in the markup
   const script = readFileSync(root + 'site/app.js', 'utf8');
