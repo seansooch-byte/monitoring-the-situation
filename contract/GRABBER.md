@@ -39,13 +39,44 @@ Run them in this order. Use the ids exactly as written.
 
 | Sweep id | What to do | Size |
 |---|---|---|
-| `watch` | Re-read the numbers of every post id in `requests/watch.json`, and of every post you first captured in the last 24 hours that was still growing at its last reading. Observations only; no new records unless one changed. | all of them |
+| `watch` | Re-read the numbers of the posts on the re-read list (see Re-reads, below). Observations only; no new records unless one changed. | up to 400 |
 | `trends.us`, `trends.ww` | X's trending list for the United States and worldwide, as shown: rank, name, post count, and X's own story text and link where one exists. | top 20 each |
 | `viral.global` | The most viewed posts created in the last 24 hours, any subject, English first. | up to 40 new |
 | `rising.global` | Posts under 6 hours old gaining fastest. | up to 20 new |
 | `desk.<desk>` | The most viewed and fastest posts of the last 24 hours for one desk. Sweep every desk that is due (see The desks, below). | up to 10 new per desk |
-| `context.top` | For the 15 biggest posts that are new this run: the 3 most liked replies, the 3 most liked quote posts, and the parent post if it is itself a reply or a quote. | up to 7 per post |
+| `context.top` | For the 5 biggest posts that are new this run (all 15 every third run, if the day's budget allows): the 3 most liked replies and the 3 most liked quote posts among the most recent page of each, and the parent post if it is itself a reply or a quote. | up to 7 per post |
 | `request.<id>` | One sweep per open request in `requests/open.json`. Answer it in `answers`. | as asked |
+
+## Re-reads
+
+One file per run, always. The re-read list for a run is built in this order and stops at 400 posts
+(four calls):
+
+1. Every id in `requests/watch.json`. These are the posts in published stories and are never dropped.
+2. Every post first captured in the last 6 hours.
+3. Posts first captured 6 to 24 hours ago that gained at least 2 percent in views between their
+   last two readings.
+4. Every fourth hour, the rest of the last 24 hours, slowest growing last.
+
+A post older than 24 hours is re-read only while it is in `watch.json`. A post X no longer returns
+gets one observation with `state` `unavailable` and all numbers `null`, and then leaves the list.
+X does not say whether a missing post was deleted, so `deleted` is not used.
+
+## Finding posts without a view sort
+
+X's search cannot sort by views or filter by likes, so discovery runs through X's own story
+clusters (`search_news`) and then screens the cluster posts by their exact numbers. That is the
+right method, with one known blind spot: a big post that X has not put in a story is invisible.
+Three things narrow it, in order of cost:
+
+- Follow the quote and reply links of every post you keep. The post being quoted is often the real
+  origin and often bigger; when it clears the floor, capture it.
+- Use the trending names. For each of the top ten United States trends, one search for the name,
+  screened by exact numbers like any other candidate.
+- When `requests/open.json` carries a `search` request, the editor has seen something you have
+  not. Run it.
+
+Say in each sweep's `method` which of these produced its posts.
 
 ## The desks
 

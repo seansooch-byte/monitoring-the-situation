@@ -1,24 +1,18 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-09T05:37:26Z",
+  "updated_at": "2026-10-09T06:05:21Z",
   "requests": [
     {
-      "id": "r-2026-10-09-01",
-      "kind": "lookup",
-      "post": "https://x.com/i/status/2108047268167274883",
-      "ask": "Return the full record and current numbers for this post."
-    },
-    {
-      "id": "r-2026-10-09-02",
-      "kind": "lookup",
-      "post": "https://x.com/i/status/2107854088614357910",
-      "ask": "Return the full record and current numbers for this post."
-    },
-    {
-      "id": "r-2026-10-09-03",
-      "kind": "search",
+      "id": "r-2026-10-09-04",
+      "kind": "notice",
       "post": null,
-      "ask": "The ten most viewed posts of the last 24 hours that use the phrase \"monitoring the situation\", any subject."
+      "ask": "contract/GRABBER.md changed after your first run: read the new sections Re-reads and Finding posts without a view sort, and the context.top row. contract/desks.json gained four beats you asked for (world: protests, migration; internet: fandom; life: habits). Answer this once with status ok."
+    },
+    {
+      "id": "r-2026-10-09-05",
+      "kind": "lookup",
+      "post": "https://x.com/elonmusk/status/2024917454301065480",
+      "ask": "Return the full record and current numbers for this post, and the full record of the post it quotes. It is the site's pinned post and is now in watch.json."
     }
   ]
 }

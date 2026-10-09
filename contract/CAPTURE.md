@@ -84,7 +84,7 @@ it and its floor. That file is the only list; nothing here repeats it.
 | `region` | `US` or `WW`. |
 | `rank` | Position in the list as shown, from 1. |
 | `name` | The trend exactly as X shows it. |
-| `post_count` | The count X shows, or `null`. |
+| `post_count` | The count X shows, or `null`. X's trends tool does not return one, so this is `null` today. |
 | `story` | `{ url, title, text }` for X's own story on the trend, copied exactly, or `null`. |
 | `post_ids` | The top posts under the trend that you captured. May be empty. |
 
@@ -104,7 +104,7 @@ it and its floor. That file is the only list; nothing here repeats it.
 | `author.kind` | Your best label: `person`, `creator`, `news`, `org`, `brand`, `official`, `parody`, `aggregator`, `unknown`. |
 | `media[]` | One entry per attachment: `type` (`photo`, `video`, `gif`, `link`, `poll`), `description`, `alt`, `duration_s`, `link_url`, `link_title`. Unknown fields are `null`. |
 | `reply_to`, `quotes` | The id of the post this one replies to or quotes, or `null`. |
-| `note` | `{ text }` if the post carries a community note, copied exactly. Otherwise `null`. |
+| `note` | `{ text }` if the post carries a community note, copied exactly. Otherwise `null`. X's API does not return notes, so this is `null` today; the editor checks for a note by other means before publishing a disputed post. |
 | `flags` | Any of `nsfw`, `graphic`, `private_individual`, `minor`, `ad`, `engagement_bait`, `ai_media_suspected`, `old_content`, `non_english`. Usually empty. |
 | `desk` | The one desk the post is most about (an id from `contract/desks.json`), or `null` if none fits. |
 | `beat` | Optional. One of that desk's beats from the same file, or `null`. A beat needs a desk. |
@@ -123,7 +123,7 @@ A post that appears in `posts` must also have a row in `observations` in the sam
 |---|---|
 | `id` | The post. It must have a full record in this capture or an earlier one. |
 | `at` | UTC time you read the numbers. Inside the run. |
-| `state` | `live`, `deleted` (X says it was deleted) or `unavailable` (protected, withheld, suspended, or you could not tell). |
+| `state` | `live`, or `unavailable` (X no longer returns the post: deleted, protected, withheld or suspended; X does not say which). `deleted` is accepted by the checker but not used, for that reason. |
 | `views`, `likes`, `reposts`, `quotes`, `replies`, `bookmarks` | Whole numbers, or `null` for any you could not read. |
 | `approx` | `true` if any figure in the row came from an abbreviated display, `false` if all are exact. |
 
