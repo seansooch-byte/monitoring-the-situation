@@ -168,3 +168,53 @@ every 3 hours.
 - `possibly_sensitive`, `conversation_id`, edit history ids.
 - X stories (`search_news`): name, summary, category and cluster post ids, updated time.
 - `get_posts_counts_recent`: post volume per hour for a query, which could stand in for trend counts.
+
+## Second probe (2026-10-09, run 2026-10-09T0615Z)
+
+Every call below went through the x MCP namespace during run 2026-10-09T0615Z. X rejected none of them.
+The only adjustment message was from the tool: "max_results was lowered from 100 to 25, the most
+results one call can return." Totals are from the "X reads left" line each call returns.
+
+| Probe | What X returned | Reads |
+|---|---|---|
+| Repost stream: `search_posts_all "the lang:en is:retweet"`, newest first | 25 retweets from the last minute or so. Each carries the original in `includes.tweets` (expansion `referenced_tweets.id`) with `created_at`, text, author and full `public_metrics`. 25 distinct originals; 6 were under 24 hours and over 100k views or 2k likes (largest 884,660 views). | 1 |
+| Quote stream: `search_posts_all "the lang:en is:quote"`, newest first | 23 results, 23 distinct quoted posts with `lang`, entities and metrics. 6 cleared the global floor (largest 462,781 views). | 1 |
+| `attachments.media_source_tweet_id` | Works. Put `attachments` in post.fields and `attachments.media_source_tweet_id` in expansions; the source id appears as an array inside `attachments`. On 3 aggregator videos from the first capture: 2108221472980218305 (_papawere) gives 2108078093827031386; 2108150422733009382 (MarioNawfal) gives 2107749380040343905; 2108404380856975503 (barstoolsports) gives 2108397722348716044. Absent on 2108076659010105408 (streetmediatv), 2108125191159132417 (miraghini) and 2108256108624400390 (insanevideos), which look like own uploads. Across the 174 re-read posts, 12 carried a source. | 0 extra (rides on by-id reads) |
+| Many accounts in one search | 30 accounts joined by `OR from:` in one 585 character query: accepted, 25 results. I did not find the length limit; nothing was rejected at 585. Results were mostly replies and reposts by miraghini, _papawere and Spazzzie, so sensor queries need `-is:reply` and those accounts are poor sensors. | 1 |
+| `get_posts_counts_recent`, granularity hour, politics standing query | 169 buckets for 7 days: a partial first bucket from 2026-10-02T06:16:02Z, 167 full hours from 2026-10-02T07:00Z to 2026-10-09T05:00Z, and a partial bucket 06:00 to 06:16:02Z. Field is `tweet_count` with `start` and `end`; `meta.total_tweet_count` 13,623,797 matched the sum. Cost: 1 read (944 to 943). | 1 |
+| Replies, relevancy vs newest: `conversation_id:2108262760153026784 is:reply` | Both orders returned the same 25 replies in the same order, all from the last 30 minutes, with 0 or 1 likes. Neither page has more likes; relevancy order does not surface most liked replies for this post (888 replies). | 2 |
+| `quotes_of_tweet_id:2108262760153026784` | Accepted, 25 results: 4 direct quote posts of the target plus 21 reposts of other posts in the same story (likely reposts of quotes). Usable only after filtering to `referenced_tweets` type `quoted` with the target id. | 1 |
+
+Other facts seen: the metric key is `repost_count` in get_posts_by_ids but `retweet_count` in search
+results; users can carry `withheld.country_codes`; a 100 id by-id read costs 1 read.
+
+## Standing queries
+
+One query per desk, kept stable so volume series stay comparable. Desk sweeps run
+`<query> lang:en is:retweet` newest first and take the reposted originals; volume runs
+`<query> lang:en` through `get_posts_counts_recent` at hour granularity. Changed for the weak desks
+(world, gaming, ideas, life, medicine, internet) to cover the beats in contract/desks.json,
+including the new ones (protests, migration, fandom, habits).
+
+| Desk | Query | Chars |
+|---|---|---|
+| politics | `(Trump OR "White House" OR Congress OR Senate OR Democrats OR Republicans OR GOP OR "Supreme Court" OR election OR governor)` | 124 |
+| world | `(Ukraine OR Russia OR Israel OR Gaza OR Iran OR China OR "prime minister" OR president OR protesters OR protest OR migrants OR refugees OR ceasefire OR NATO OR "United Nations")` | 177 |
+| defense | `(military OR Pentagon OR Army OR Navy OR "Air Force" OR Marines OR soldiers OR troops OR veterans OR missile OR drone OR "fighter jet")` | 135 |
+| justice | `(arrested OR police OR cops OR trial OR verdict OR sentenced OR lawsuit OR sued OR shooting OR murder OR jail OR prison)` | 120 |
+| disaster | `(hurricane OR tornado OR earthquake OR wildfire OR flood OR flooding OR storm OR "power outage" OR crash OR explosion OR evacuation)` | 132 |
+| markets | `(stocks OR "stock market" OR Nasdaq OR "Dow Jones" OR "S&P 500" OR yields OR Treasury OR "the Fed" OR inflation OR "oil prices" OR mortgage OR "interest rates")` | 160 |
+| business | `(CEO OR company OR layoffs OR "laid off" OR merger OR acquisition OR startup OR boycott OR retail OR earnings OR brand)` | 119 |
+| crypto | `(bitcoin OR BTC OR crypto OR ethereum OR ETH OR solana OR memecoin OR Coinbase OR Binance OR altcoin)` | 101 |
+| ai | `(AI OR "artificial intelligence" OR OpenAI OR ChatGPT OR Anthropic OR Claude OR Gemini OR Grok OR LLM OR "AI model")` | 116 |
+| tech | `(Apple OR iPhone OR Google OR Microsoft OR Android OR software OR hackers OR hacked OR "data breach" OR outage OR Tesla OR robot)` | 129 |
+| science | `(NASA OR SpaceX OR rocket OR launch OR astronomers OR telescope OR physics OR scientists OR "new study" OR species OR climate)` | 126 |
+| medicine | `(doctor OR doctors OR nurse OR nurses OR hospital OR FDA OR CDC OR NIH OR vaccine OR outbreak OR measles OR "mental health" OR patients OR Medicare OR medication)` | 162 |
+| entertainment | `(movie OR film OR trailer OR "box office" OR Netflix OR "TV show" OR episode OR season OR anime OR actor OR actress OR celebrity)` | 129 |
+| music | `(album OR song OR tour OR concert OR rapper OR singer OR Billboard OR Spotify OR Grammy OR kpop OR "music video")` | 113 |
+| gaming | `(game OR gaming OR gamers OR PlayStation OR PS5 OR Xbox OR Nintendo OR Steam OR esports OR "video game" OR patch OR DLC)` | 120 |
+| ideas | `(book OR novel OR author OR museum OR painting OR artist OR architecture OR history OR historian OR philosophy OR religion OR church OR Bible OR essay)` | 151 |
+| sports | `(NFL OR NBA OR MLB OR NHL OR WNBA OR UFC OR "Premier League" OR soccer OR touchdown OR playoffs OR "home run" OR F1 OR golf OR tennis)` | 134 |
+| internet | `(meme OR memes OR streamer OR stream OR Twitch OR Kick OR YouTuber OR TikTok OR influencer OR podcast OR fandom OR "main character")` | 132 |
+| life | `(dating OR boyfriend OR girlfriend OR husband OR wife OR marriage OR parents OR kids OR restaurant OR recipe OR wedding OR rent OR tipping OR college OR habit)` | 159 |
+| offbeat | `(dog OR cat OR puppy OR kitten OR animal OR wildlife OR bird OR satisfying OR wholesome OR "wait for it")` | 105 |
