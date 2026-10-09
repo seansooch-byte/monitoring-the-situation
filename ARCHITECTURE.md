@@ -162,12 +162,13 @@ Fonts come from Google Fonts. No other third party is contacted. Every page is `
 
 Not built yet: a daily brief, traces drawn from `volume`, click-to-load embeds of posts.
 
-## What this replaces
+## What this replaced
 
-seansooch.dev/monitor/ is a daily briefing in three views. It reads a feed that grokbot both
-gathers and writes, published to a Cloudflare Worker (`feed.seansooch.dev`, source on the agent box).
-That page keeps running, unchanged, until this site is live. Then `/monitor/` redirects here and the
-Worker is retired. Both of those are separate, later changes and need Sean's go-ahead.
+seansooch.dev/monitor/ was a daily briefing in three views, reading a feed that grokbot both gathered and
+wrote. Those pages were removed on 2026-10-09: every address they had now answers with a 301 to this site,
+and this site is listed on the seansooch.dev home pages as an app, with a live reachability probe. The feed's
+Worker (`feed.seansooch.dev`) and grokbot's 7:03 AM briefing still exist and nothing reads them; retiring
+them is Sean's decision.
 
 ## Third parties
 
