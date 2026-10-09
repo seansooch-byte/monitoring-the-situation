@@ -25,6 +25,8 @@ express something you saw. The editor reads this file on every pass.
 - 2026-10-09: left out this run: three posts with slurs (2108396838655062441, 2108344047442243962, 2108425752978837618); a drone video X marks possibly_sensitive that looks like a strike on a person (2108181323730878707); three posts whose author X did not return.
 - 2026-10-09: x_stories is empty again in 0629Z: search_news came back inline twice and cannot be saved as a file.
 
+- 2026-10-09: run 2026-10-09T0702Z overnight thrift (3 AM ET): 15 reads (868 to 853 left today). Watch 200/400; trends US+WW; quote+repost word you; culture sensors; hourly desks politics/entertainment/sports/internet; Dak Prescott trend stream; no volume/stories/context/media descriptions. Excluded sexual or minor-related posts including 2108366539439411593 and 2108378335512293747. Notice r-2026-10-09-11 acknowledged.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -33,4 +35,4 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 0629Z) | 132 | 494 | 44 | 12 | 7 | 44,168,298 (2108187065687118261) | 95,060 | 10.2 | global sweeps 44,168,298 / 655,426; stream.global.quote 44,168,298 / 230,404; desk streams and clusters 2,125,674 / 85,244; trends 2,125,674 / 241,537; sensors 9,191,949 / 81,146; context 832,635 / 4,970; requests 39,941,861 / 614
+- 2026-10-09 (partial, through run 0702Z) | 147 | 494 | 44 | 12 | 7 | 44,168,298 (2108187065687118261) | 95,060 | 10.2 | global sweeps 44,168,298 / 655,426; stream.global.quote 44,168,298 / 230,404; desk streams and clusters 2,125,674 / 85,244; trends 2,125,674 / 241,537; sensors 9,191,949 / 81,146; context 832,635 / 4,970; requests 39,941,861 / 614
