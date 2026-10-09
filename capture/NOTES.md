@@ -40,3 +40,4 @@ Sources are the sweep families each post was listed under (a post can count for 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
 - 2026-10-09 (partial, through run 0901Z) | ~194 | see prior + 0901Z | update at day end
+- 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
