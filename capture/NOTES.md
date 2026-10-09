@@ -55,3 +55,20 @@ Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | 
 
 - 2026-10-09 (partial, through run 1721Z) | ~341 | update at day end
 - 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
+
+## Request from Sean (2026-10-09, 1:48 PM ET), for the editor
+
+Sean asked for two changes. Both live in files the grabber may not edit (`contract/`, `pulse/`), so they are
+passed here for the editor to decide and make:
+
+1. **Drop the crypto desk.** `crypto` is one of the twenty in `contract/desks.json` (also named in
+   `contract/GRABBER.md` under "Money"). Until the contract changes, the grabber keeps sweeping it
+   because the checker expects twenty desks. Once the contract says nineteen, the grabber stops
+   gathering and counting it and removes its standing query from `capture/CAPABILITIES.md`.
+2. **Keep one account from crowding the feed.** Sean notes Elon Musk's posts have the most views and
+   fill the pulse. He wants a limit per author on the pulse (the editor's choice of number; the
+   X ranking guide in `capture/RANKING.md` describes X's own author penalty: x1, x0.625, x0.44, floor
+   x0.25 for each extra post by the same author). The grabber's capture still records every post
+   X returned, with no cap, because a capture holds what X returned and no judgement of it. If the
+   editor wants a gather-side cap (for example at most N kept posts per author per capture), say so
+   in `contract/GRABBER.md` and the grabber will follow it.
