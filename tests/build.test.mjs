@@ -40,9 +40,17 @@ test('post text from X is escaped, never trusted as markup', () => {
   assert.ok(!story.includes('rain <3 & he'), 'and never written raw');
 });
 
-test('the real build leaves no DEMO marker', () => {
+test('the real build leaves no DEMO marker, and counts only posts X has confirmed', () => {
   const out = run('tools/build.mjs');
   assert.match(out, /^built site:/m);
   assert.ok(!existsSync(root + 'dist/DEMO'));
   assert.ok(!readFileSync(root + 'dist/index.html', 'utf8').includes('class="demo"'));
+  const ledger = existsSync(root + 'verified/posts.json') ? JSON.parse(readFileSync(root + 'verified/posts.json', 'utf8')) : {};
+  const ok = Object.values(ledger).filter((v) => v.result === 'ok').length;
+  const pulse = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8'));
+  const counted = pulse.desks.reduce((n, d) => n + d.posts, 0);
+  assert.ok(counted <= ok, `desks count ${counted} posts but X has confirmed only ${ok}`);
+  const headers = readFileSync(root + 'dist/_headers', 'utf8');
+  assert.match(headers, /Content-Security-Policy: default-src 'none'/);
+  assert.match(headers, /X-Robots-Tag: noindex/);
 });

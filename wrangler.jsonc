@@ -1,0 +1,15 @@
+// Cloudflare: a Worker that serves dist/ as static files, on its own hostname.
+// No script runs at the edge; this file only says where the files are and where they answer.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "monitoring-the-situation",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": false,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  },
+  "routes": [{ "pattern": "situation.seansooch.dev", "custom_domain": true }]
+}

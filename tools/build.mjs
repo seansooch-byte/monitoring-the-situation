@@ -43,6 +43,9 @@ const series = seriesByPost(captures);
 const NOW = captures.length ? Math.max(...captures.map((c) => Date.parse(c.run.finished_at))) : Date.now();
 const FROM = NOW - 24 * HOUR;
 
+// Gate 2's ledger: what X answered about each captured post.
+const LEDGER = !DEMO && existsSync(join(REPO, 'verified', 'posts.json')) ? readJSON(join(REPO, 'verified', 'posts.json')) : {};
+
 // ---------- small helpers
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -80,12 +83,10 @@ const TREND = { rising: 'rising', fading: 'fading', steady: 'steady', new: 'new'
 
 // ---------- stories: the editor's words joined to the grabber's numbers
 
-// Gate 2's ledger. A real build refuses a story citing a post X has not confirmed.
-const LEDGER = !DEMO && existsSync(join(REPO, 'verified', 'posts.json')) ? readJSON(join(REPO, 'verified', 'posts.json')) : {};
-
 function resolvePost(ref) {
   const rec = records.get(ref.id);
   if (!rec) throw new Error(`story cites post ${ref.id}, which no capture has recorded`);
+  // A real build refuses a story citing a post X has not confirmed.
   if (!DEMO && LEDGER[ref.id]?.result !== 'ok') throw new Error(`story cites post ${ref.id}, which X has not confirmed; run node tools/verify-posts.mjs --moments`);
   const list = series.get(ref.id) ?? [];
   const live = [...list].reverse().find((o) => Number.isFinite(o.views)) ?? list[list.length - 1] ?? null;
@@ -112,8 +113,11 @@ function hash(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeA
 // Trace height is views gained per hour on a log scale: 1,000 an hour is flat, 10 million is full.
 const level = (perHour) => Math.max(0, Math.min(1, (Math.log10(Math.max(perHour, 1)) - 3) / 4));
 
+// Only posts X has confirmed feed a trace or a total. A post Gate 2 could not confirm counts for nothing.
+const confirmed = (id) => DEMO || LEDGER[id]?.result === 'ok';
+
 const desks = DESKS.desks.map((d) => {
-  const own = [...records.values()].filter((p) => p.desk === d.id).map((p) => ({ id: p.id, created: Date.parse(p.created_at) }));
+  const own = [...records.values()].filter((p) => p.desk === d.id && confirmed(p.id)).map((p) => ({ id: p.id, created: Date.parse(p.created_at) }));
   const bins = deskTrace(own, series, { from: FROM, to: NOW, bins: BINS });
   const mine = stories.filter((s) => s.home?.id === d.id);
   // The desk's figure for the day counts posts written in the last 24 hours. An old post that a
@@ -252,6 +256,7 @@ function page({ title, description, path, body, current }) {
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
 ${DEMO ? '<meta name="robots" content="noindex">' : ''}
+${SITE.url ? `<link rel="canonical" href="${esc(SITE.url + path)}">\n<meta property="og:url" content="${esc(SITE.url + path)}">` : ''}
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(description)}">
 <meta name="theme-color" content="#e8edf2">
@@ -267,8 +272,9 @@ ${DEMO ? '<p class="demo">Design test. Every story and post below is invented. O
 <header class="bar">
   <a class="brand" href="/">Monitoring <span>the</span> Situation</a>
   <nav aria-label="Sections">${nav}</nav>
-  <p class="asof">As of <time datetime="${new Date(NOW).toISOString()}">${hhmm(NOW)} UTC, ${day(NOW)}</time></p>
+  <p class="asof">As of <time id="asof" datetime="${new Date(NOW).toISOString()}">${hhmm(NOW)} UTC, ${day(NOW)}</time></p>
 </header>
+<p class="stale" id="stale" role="status" hidden></p>
 <main id="main">
 ${body}
 </main>
@@ -413,7 +419,9 @@ for (const d of desks) put(`desk/${d.id}/index.html`, deskPage(d));
 for (const s of stories) put(`story/${s.id}/index.html`, storyPage(s));
 put('404.html', page({ title: `Not found · ${SITE.name}`, description: 'No such page.', path: '/404', body: '<section class="desk-head"><p class="label">404</p><h1>Nothing recorded here.</h1><p class="dek"><a href="/">Back to the record.</a></p></section>' }));
 for (const f of ['styles.css', 'app.js', 'favicon.svg']) cpSync(join(REPO, 'site', f), join(OUT, f));
-put('_headers', `/*\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  X-Robots-Tag: noindex\n`);
+const CSP = "default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'";
+put('_headers', `/*\n  Content-Security-Policy: ${CSP}\n  Strict-Transport-Security: max-age=31536000\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Robots-Tag: noindex\n`);
+put('robots.txt', 'User-agent: *\nDisallow: /\n');
 put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), stories: stories.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));
 if (DEMO) put('DEMO', 'Built from invented data. Never deploy this folder.\n');
 console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${stories.length} stories, ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);

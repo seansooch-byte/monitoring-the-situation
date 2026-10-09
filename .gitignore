@@ -1,6 +1,6 @@
-dist/
-node_modules/
-.wrangler/
-.DS_Store
 *.local.*
+.DS_Store
+.wrangler/
+dist/
 fixtures/demo/
+node_modules/

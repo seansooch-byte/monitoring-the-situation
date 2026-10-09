@@ -1,7 +1,7 @@
 {
   "name": "Monitoring the Situation",
   "line": "One record of every world.",
-  "url": "",
+  "url": "https://situation.seansooch.dev",
   "pinned": {
     "id": "2024917454301065480",
     "url": "https://x.com/elonmusk/status/2024917454301065480",
@@ -9,7 +9,11 @@
     "name": "Elon Musk",
     "text": "People live in different worlds",
     "created_at": "2026-02-20T18:41:56Z",
-    "quotes": { "handle": "XFreeze", "name": "X Freeze", "text": "Your information diet determines your reality" },
+    "quotes": {
+      "handle": "XFreeze",
+      "name": "X Freeze",
+      "text": "Your information diet determines your reality"
+    },
     "confirmed_with_x": "2026-10-09"
   },
   "purpose": [

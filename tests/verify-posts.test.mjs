@@ -47,3 +47,28 @@ test('a post with no text matches an embed with no text', () => {
 test('no answer from X is "missing", never a pass', () => {
   assert.equal(compareToX(record(), null).result, 'missing');
 });
+
+// ---- what the first full pass over two real captures showed (2026-10-09): 24 false mismatches
+
+test('a reply matches although the API keeps the leading @mentions and the embed drops them', () => {
+  const embed = { ...REUTERS, html: '<blockquote><p lang="en" dir="ltr">are they finding all the mormon planets?</p>&mdash; x</blockquote>' };
+  assert.equal(compareToX(record({ text: '@somewheresy are they finding all the mormon planets?' }), embed).result, 'ok');
+  assert.equal(compareToX(record({ text: '@a_b @c2 are they finding all the mormon planets?' }), embed).result, 'ok');
+});
+
+test('spacing before a hashtag and the embed\'s own media link do not make a mismatch', () => {
+  const embed = { ...REUTERS, html: '<blockquote><p lang="en" dir="ltr">Lily : The ultimate cure!!!!<a href="https://x.com/hashtag/Wuwafanart">#Wuwafanart</a> <a href="https://t.co/Ct0xuT9UTn">pic.twitter.com/Ct0xuT9UTn</a></p>&mdash; x</blockquote>' };
+  assert.equal(compareToX(record({ text: 'Lily : The ultimate cure!!!!\n#Wuwafanart https://t.co/Ct0xuT9UTn' }), embed).result, 'ok');
+});
+
+test('a post that is only media matches an embed that shows only its media link', () => {
+  const embed = { ...REUTERS, html: '<blockquote><p lang="zxx" dir="ltr"><a href="https://t.co/SBf83gzkaZ">pic.twitter.com/SBf83gzkaZ</a></p>&mdash; x</blockquote>' };
+  assert.equal(compareToX(record({ text: 'https://t.co/SBf83gzkaZ https://t.co/09cZAeeIwn' }), embed).result, 'ok');
+  assert.equal(compareToX(record({ text: '' }), embed).result, 'ok');
+});
+
+test('the looser comparison still catches a record whose words are not what X shows', () => {
+  const embed = { ...REUTERS, html: '<blockquote><p>are they finding all the mormon planets?</p>&mdash; x</blockquote>' };
+  assert.equal(compareToX(record({ text: '@somewheresy they have found every planet already' }), embed).result, 'mismatch');
+  assert.equal(compareToX(record({ text: '' }), embed).result, 'mismatch');
+});

@@ -55,6 +55,17 @@
   });
   apply();
 
+  // ---- Say so when the record is old. The page is static; the reader's clock is the only one that knows.
+  var asof = document.getElementById('asof');
+  var stale = document.getElementById('stale');
+  if (asof && stale) {
+    var hours = (Date.now() - Date.parse(asof.getAttribute('datetime'))) / 3600000;
+    if (hours >= 3) {
+      stale.textContent = 'This record was last updated ' + (hours < 48 ? Math.round(hours) + ' hours' : Math.round(hours / 24) + ' days') + ' ago. Anything still developing has moved on since.';
+      stale.hidden = false;
+    }
+  }
+
   // ---- Order of the bulletin
   var list = document.querySelector('.bulletin .stories');
   var sorts = Array.prototype.slice.call(document.querySelectorAll('.sort button'));
