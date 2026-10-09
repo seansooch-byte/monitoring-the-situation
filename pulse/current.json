@@ -1,8 +1,16 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T07:39:14Z",
-  "capture": "2026-10-09T0702Z",
+  "updated_at": "2026-10-09T08:25:00Z",
+  "capture": "2026-10-09T0804Z",
   "items": [
+    {
+      "id": "2108332127318073528",
+      "desk": "politics",
+      "line": "New York's mayor, Zohran Mamdani, says a New Yorker was shot by an ICE agent in Marble Hill, and that early reports say agents surrounded him and his five year old child in a car. He says he has called the President to demand an end to ICE enforcement in the city. Not checked here.",
+      "also": [
+        "2108396710292783532"
+      ]
+    },
     {
       "id": "2108187065687118261",
       "desk": "world",

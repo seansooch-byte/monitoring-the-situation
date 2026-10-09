@@ -32,3 +32,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the 50 posts on the pulse, plus the pinned post. None added or removed.
 - Shipped: see report.
 - For the main editor: the Isaias story still rests on advisory 10A; it needs refreshing on the next story pass. The 0730Z row in capture/EDITOR-RUNS.md shows failed(success) after 3 seconds; I could not tell why.
+
+## 2026-10-09T08:25Z
+- Captures read: 0804Z (a lean overnight run, hourly desks only). Last read: 0804Z.
+- X's check: 0804Z 55 confirmed, 0 missing, 0 mismatched, 2 withheld.
+- Pulse: 32 items on 20 desks (1 new, 0 dropped). Added: Mayor Mamdani on an ICE shooting in Marble Hill (politics), with Acyn's clip of his remarks.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: a Fox/Vance visa-programme suspension alert (claim not checked); a WNBA MVP report (sports desk already at three); Fort Hood execution aggregator posts (the justice item covers it); old_content and sexual posts; a post spreading mainly through insults about a nationality; a giveaway.
+- Requests: watch list now also holds the two Mamdani posts. Nothing added to open.json.
+- Shipped: see report.
+- For the main editor: the ICE shooting rests on the mayor's statement only; worth checking against reporting on a story pass. The Isaias story is still on advisory 10A.
