@@ -1,0 +1,46 @@
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Contract tests
+        run: npm test
+      - name: Captures in this push pass the checker
+        env:
+          BEFORE: ${{ github.event.before }}
+          BASE: ${{ github.event.pull_request.base.sha }}
+        run: |
+          from="${BASE:-$BEFORE}"
+          if [ -z "$from" ] || ! git cat-file -e "$from^{commit}" 2>/dev/null; then
+            files=$(git ls-files 'capture/*/*/*/*Z.json')
+          else
+            files=$(git diff --name-only --diff-filter=AM "$from" HEAD -- 'capture/*/*/*/*Z.json')
+          fi
+          if [ -z "$files" ]; then echo "no capture files in this push"; exit 0; fi
+          echo "$files" | xargs node tools/check-capture.mjs
+      - name: A capture commit touches only capture/
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          if [ -z "$BEFORE" ] || ! git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then exit 0; fi
+          bad=0
+          for c in $(git rev-list "$BEFORE"..HEAD); do
+            case "$(git log -1 --format=%s "$c")" in
+              capture:*)
+                outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v '^capture/' || true)
+                if [ -n "$outside" ]; then echo "commit $c is a capture commit but changes:"; echo "$outside"; bad=1; fi
+                ;;
+            esac
+          done
+          exit $bad

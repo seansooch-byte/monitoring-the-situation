@@ -1,0 +1,24 @@
+{
+  "schema": "mts.requests/1",
+  "updated_at": "2026-10-09T05:37:26Z",
+  "requests": [
+    {
+      "id": "r-2026-10-09-01",
+      "kind": "lookup",
+      "post": "https://x.com/i/status/2108047268167274883",
+      "ask": "Return the full record and current numbers for this post."
+    },
+    {
+      "id": "r-2026-10-09-02",
+      "kind": "lookup",
+      "post": "https://x.com/i/status/2107854088614357910",
+      "ask": "Return the full record and current numbers for this post."
+    },
+    {
+      "id": "r-2026-10-09-03",
+      "kind": "search",
+      "post": null,
+      "ask": "The ten most viewed posts of the last 24 hours that use the phrase \"monitoring the situation\", any subject."
+    }
+  ]
+}

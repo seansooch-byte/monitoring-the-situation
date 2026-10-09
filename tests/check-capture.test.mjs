@@ -1,0 +1,274 @@
+// The capture contract, as tests. A capture is one sweep of X by the grabber.
+// Every rule the grabber must meet is pinned here; contract/CAPTURE.md describes the same
+// rules in prose, and contract/example.capture.json is checked below so it cannot rot.
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { checkCapture, knownIdsBefore, snowflakeFor, snowflakeTime } from '../tools/check-capture.mjs';
+
+const T0 = Date.parse('2026-10-09T05:00:00.000Z'); // post created
+const RUN_START = '2026-10-09T06:00:00Z';
+const RUN_END = '2026-10-09T06:04:30Z';
+const NOW = new Date('2026-10-09T06:05:00Z');
+const EM_DASH = String.fromCharCode(0x2014);
+
+function post(over = {}) {
+  const id = over.id ?? snowflakeFor(T0, 7);
+  return {
+    id,
+    url: `https://x.com/example_handle/status/${id}`,
+    created_at: '2026-10-09T05:00:00Z',
+    lang: 'en',
+    text: 'Example post text.',
+    author: { handle: 'example_handle', name: 'Example Account', followers: 1200, verified: 'none', kind: 'person' },
+    media: [],
+    reply_to: null,
+    quotes: null,
+    note: null,
+    flags: [],
+    desk: 'internet',
+    topic: 'example topic',
+    lead: null,
+    ...over,
+  };
+}
+
+function obs(id, over = {}) {
+  return {
+    id, at: '2026-10-09T06:01:00Z', state: 'live',
+    views: 1200000, likes: 41000, reposts: 6100, quotes: 900, replies: 2300, bookmarks: 5100,
+    approx: false, ...over,
+  };
+}
+
+function capture(over = {}) {
+  const p = post();
+  return {
+    schema: 'mts.capture/1',
+    run: {
+      id: '2026-10-09T0600Z', started_at: RUN_START, finished_at: RUN_END,
+      status: 'ok', reason: null,
+      grabber: { agent: 'example', model: null, method: 'synthetic fixture' },
+      requests_rev: null,
+    },
+    sweeps: [{ id: 'viral.global', kind: 'discovery', desk: null, method: 'top posts, last 6 hours', window_hours: 6, status: 'ok', reason: null, post_ids: [p.id] }],
+    trends: [],
+    posts: [p],
+    observations: [obs(p.id)],
+    context: [],
+    answers: [],
+    ...over,
+  };
+}
+
+const errs = (doc, opts = {}) => checkCapture(doc, { now: NOW, ...opts }).errors;
+const has = (list, re) => list.some((e) => re.test(e));
+
+test('a well-formed capture passes with no errors', () => {
+  assert.deepEqual(errs(capture()), []);
+});
+
+test('the example in contract/ passes, so the documented shape is the checked shape', () => {
+  const doc = JSON.parse(readFileSync(new URL('../contract/example.capture.json', import.meta.url), 'utf8'));
+  assert.deepEqual(checkCapture(doc, { now: new Date(Date.parse(doc.run.finished_at) + 60000) }).errors, []);
+});
+
+test('snowflake helpers round-trip a timestamp', () => {
+  assert.equal(snowflakeTime(snowflakeFor(T0, 0)), T0);
+  // A real post id, checked against X on 2026-10-09: created 2026-10-08T04:10:09Z.
+  assert.equal(new Date(snowflakeTime('2108047268167274883')).toISOString().slice(0, 19), '2026-10-08T04:10:09');
+});
+
+test('the schema tag is required and exact', () => {
+  assert.ok(has(errs(capture({ schema: 'mts.capture/2' })), /schema/));
+});
+
+test('a post id must be a string of digits: a JSON number has already lost digits', () => {
+  const c = capture();
+  c.posts[0].id = Number(c.posts[0].id);
+  assert.ok(has(errs(c), /posts\[0\]\.id.*string/));
+});
+
+test('created_at must agree with the time inside the id, which is how an invented id is caught', () => {
+  const c = capture();
+  c.posts[0].created_at = '2026-10-09T05:07:00Z';
+  assert.ok(has(errs(c), /created_at.*id/));
+});
+
+test('the url must be the canonical x.com status url for the same id and handle', () => {
+  const a = capture(); a.posts[0].url = 'https://x.com/example_handle/status/123';
+  assert.ok(has(errs(a), /url/));
+  const b = capture(); b.posts[0].url = `https://x.com/someone_else/status/${b.posts[0].id}`;
+  assert.ok(has(errs(b), /url/));
+  const c = capture(); c.posts[0].url = `http://twitter.com/example_handle/status/${c.posts[0].id}`;
+  assert.ok(has(errs(c), /url/));
+});
+
+test('every full post record carries at least one observation', () => {
+  assert.ok(has(errs(capture({ observations: [] })), /no observation/));
+});
+
+test('an observation must point at a post in this capture or an earlier one', () => {
+  const c = capture();
+  const stranger = snowflakeFor(T0 - 3600000, 3);
+  c.observations.push(obs(stranger));
+  assert.ok(has(errs(c), /observations\[1\].*unknown post/));
+  assert.deepEqual(errs(c, { known: new Set([stranger]) }), []);
+});
+
+test('metrics are whole numbers or null, never strings like 1.2M and never negative', () => {
+  const a = capture(); a.observations[0].views = '1.2M';
+  assert.ok(has(errs(a), /views/));
+  const b = capture(); b.observations[0].likes = -1;
+  assert.ok(has(errs(b), /likes/));
+  const c = capture(); c.observations[0].reposts = 10.5;
+  assert.ok(has(errs(c), /reposts/));
+  const d = capture(); d.observations[0].views = null;
+  assert.deepEqual(errs(d), []);
+});
+
+test('a live observation with every metric null says nothing and is rejected; a deleted one may be empty', () => {
+  const blank = { views: null, likes: null, reposts: null, quotes: null, replies: null, bookmarks: null };
+  const a = capture(); Object.assign(a.observations[0], blank);
+  assert.ok(has(errs(a), /no metrics/));
+  const b = capture(); Object.assign(b.observations[0], blank, { state: 'deleted' });
+  assert.deepEqual(errs(b), []);
+});
+
+test('an observation cannot predate its post or fall outside the run', () => {
+  const a = capture(); a.observations[0].at = '2026-10-09T04:00:00Z';
+  assert.ok(has(errs(a), /before the post/));
+  const b = capture(); b.observations[0].at = '2026-10-09T09:00:00Z';
+  assert.ok(has(errs(b), /outside the run/));
+});
+
+test('a run cannot finish in the future or before it started', () => {
+  const a = capture(); a.run.finished_at = '2026-10-09T08:00:00Z';
+  assert.ok(has(errs(a), /future/));
+  const b = capture(); b.run.finished_at = '2026-10-09T05:00:00Z';
+  assert.ok(has(errs(b), /before it started/));
+});
+
+test('every id referenced anywhere must be a known post', () => {
+  const ghost = snowflakeFor(T0 - 60000, 9);
+  const a = capture(); a.sweeps[0].post_ids.push(ghost);
+  assert.ok(has(errs(a), /sweeps\[0\].*unknown post/));
+  const b = capture(); b.trends.push({ region: 'US', rank: 1, name: 'Example', post_count: null, story: null, post_ids: [ghost] });
+  assert.ok(has(errs(b), /trends\[0\].*unknown post/));
+  const c = capture(); c.context.push({ post_id: c.posts[0].id, replies: [ghost], quotes: [] });
+  assert.ok(has(errs(c), /context\[0\].*unknown post/));
+  const d = capture(); d.answers.push({ request_id: 'r1', status: 'ok', post_ids: [ghost], note: null });
+  assert.ok(has(errs(d), /answers\[0\].*unknown post/));
+});
+
+test('an answer of not_found carries no posts', () => {
+  const c = capture();
+  c.answers.push({ request_id: 'r1', status: 'not_found', post_ids: [c.posts[0].id], note: null });
+  assert.ok(has(errs(c), /not_found/));
+});
+
+test('enumerations are closed: desk, author kind, flags, media type, state', () => {
+  const a = capture(); a.posts[0].desk = 'weather';
+  assert.ok(has(errs(a), /desk/));
+  const b = capture(); b.posts[0].author.kind = 'celebrity';
+  assert.ok(has(errs(b), /author\.kind/));
+  const c = capture(); c.posts[0].flags = ['spicy'];
+  assert.ok(has(errs(c), /flags/));
+  const d = capture(); d.posts[0].media = [{ type: 'hologram', description: null, alt: null, duration_s: null, link_url: null, link_title: null }];
+  assert.ok(has(errs(d), /media\[0\]\.type/));
+  const e = capture(); e.observations[0].state = 'gone';
+  assert.ok(has(errs(e), /state/));
+});
+
+test('links are https only', () => {
+  const c = capture();
+  c.posts[0].media = [{ type: 'link', description: null, alt: null, duration_s: null, link_url: 'javascript:alert(1)', link_title: 'x' }];
+  assert.ok(has(errs(c), /link_url/));
+});
+
+test('a sweep or run that did not succeed must say why, as data', () => {
+  const a = capture(); a.sweeps[0].status = 'down';
+  assert.ok(has(errs(a), /sweeps\[0\]\.reason/));
+  const b = capture(); b.run.status = 'partial';
+  assert.ok(has(errs(b), /run\.reason/));
+});
+
+test('a run that was down is a valid ledger entry with no posts at all', () => {
+  const stub = {
+    schema: 'mts.capture/1',
+    run: { id: '2026-10-09T0600Z', started_at: RUN_START, finished_at: RUN_END, status: 'down', reason: 'X search returned errors on every call', grabber: { agent: 'example', model: null, method: 'synthetic fixture' }, requests_rev: null },
+    sweeps: [], trends: [], posts: [], observations: [], context: [], answers: [],
+  };
+  assert.deepEqual(errs(stub), []);
+});
+
+test('an ok run with no posts is not ok', () => {
+  assert.ok(has(errs(capture({ posts: [], observations: [], sweeps: [] })), /no posts/));
+});
+
+test('grabber-written strings carry no em dash; verbatim post text is never policed', () => {
+  const a = capture(); a.posts[0].topic = `one thing ${EM_DASH} another`;
+  assert.ok(has(errs(a), /topic.*dash/));
+  const b = capture(); b.posts[0].text = `as posted ${EM_DASH} untouched`;
+  assert.deepEqual(errs(b), []);
+});
+
+test('duplicate post records are rejected', () => {
+  const c = capture(); c.posts.push(post());
+  assert.ok(has(errs(c), /duplicate/));
+});
+
+test('the run id must match its file name when one is given', () => {
+  assert.ok(has(errs(capture(), { fileName: '0700Z.json', filePath: 'capture/2026/10/09/0700Z.json' }), /file/));
+  assert.deepEqual(errs(capture(), { filePath: 'capture/2026/10/09/0600Z.json' }), []);
+});
+
+test('implausible numbers are warnings, not errors: the grabber reports what it saw', () => {
+  const c = capture(); c.observations[0].views = 10; // fewer views than likes
+  const r = checkCapture(c, { now: NOW });
+  assert.deepEqual(r.errors, []);
+  assert.ok(has(r.warnings, /views/));
+});
+
+test('an X story must have an https url and text that is a string or null', () => {
+  const p = capture().posts[0].id;
+  const trend = (story) => capture({ trends: [{ region: 'US', rank: 1, name: 'Example', post_count: null, story, post_ids: [p] }] });
+  assert.deepEqual(errs(trend({ url: 'https://x.com/i/trending/1', title: 'As X wrote it', text: null })), []);
+  assert.ok(has(errs(trend({ url: 'http://x.com/i/trending/1', title: 't', text: 't' })), /story/));
+  assert.ok(has(errs(trend({ url: 'https://x.com/i/trending/1', title: 7, text: 't' })), /story/));
+});
+
+test('a capture over the size caps is rejected', () => {
+  const c = capture();
+  for (let i = 0; i < 400; i++) {
+    const p = post({ id: snowflakeFor(T0 + 1000, i + 100) });
+    p.url = `https://x.com/example_handle/status/${p.id}`;
+    p.created_at = '2026-10-09T05:00:01Z';
+    c.posts.push(p);
+    c.observations.push(obs(p.id));
+  }
+  assert.ok(has(errs(c), /posts: holds 401 records/));
+});
+
+test('a later run may send numbers for a post recorded by an earlier file, and only an earlier one', () => {
+  const root = mkdtempSync(join(tmpdir(), 'mts-'));
+  try {
+    const day = join(root, 'capture', '2026', '10', '09');
+    mkdirSync(day, { recursive: true });
+    const first = capture();
+    const id = first.posts[0].id;
+    writeFileSync(join(day, '0600Z.json'), JSON.stringify(first));
+    writeFileSync(join(day, '0600Z.note.json'), JSON.stringify({ posts: [{ id: '111111111111111111' }] }));
+    const later = join(day, '0700Z.json');
+    writeFileSync(later, '{}');
+    assert.deepEqual([...knownIdsBefore(later)], [id]);
+    assert.deepEqual([...knownIdsBefore(join(day, '0600Z.json'))], []);
+    const yesterday = join(root, 'capture', '2026', '10', '08');
+    mkdirSync(yesterday, { recursive: true });
+    assert.deepEqual([...knownIdsBefore(join(yesterday, '2300Z.json'))], []);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
