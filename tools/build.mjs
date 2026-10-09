@@ -111,6 +111,37 @@ const LIVE_FOR = 48 * HOUR;
 const live = stories.filter((s) => s.started >= NOW - LIVE_FOR);
 const past = stories.filter((s) => s.started < NOW - LIVE_FOR).sort((a, b) => b.started - a.started);
 
+// ---------- the pulse: single posts the editor has passed, each with the editor's line
+
+const NEVER_SHOWN = ['private_individual', 'minor', 'nsfw', 'graphic'];
+const pulseFile = join(DATA, 'pulse', 'current.json');
+const PULSE = existsSync(pulseFile) ? readJSON(pulseFile) : { items: [] };
+const storyOf = new Map();
+for (const s of stories) for (const p of s.posts) if (!storyOf.has(p.id)) storyOf.set(p.id, s);
+
+function pulsePost(id, what) {
+  const rec = records.get(id);
+  if (!rec) throw new Error(`pulse ${what} ${id} is not in any capture`);
+  const bad = (rec.flags ?? []).filter((f) => NEVER_SHOWN.includes(f));
+  // A hard stop in code: whatever the editor wrote, a flagged post is never rendered.
+  if (bad.length) throw new Error(`pulse ${what} ${id} is flagged ${bad.join(', ')} by the grabber and cannot be shown`);
+  if (!DEMO && LEDGER[id]?.result !== 'ok') throw new Error(`pulse ${what} ${id} has not been confirmed by X; run node tools/verify-posts.mjs --captures`);
+  return resolvePost({ id, role: null });
+}
+
+const pulse = (PULSE.items ?? []).map((it) => {
+  const post = pulsePost(it.id, 'item');
+  const n = storyNumbers([it.id], series, NOW);
+  const ageH = Math.max((NOW - post.created) / HOUR, 0.05);
+  return {
+    ...it, post, n, ageH,
+    pace: n.perHour ?? (n.views != null ? Math.round(n.views / ageH) : null), measured: n.perHour != null,
+    also: (it.also ?? []).map((id) => pulsePost(id, 'related post')),
+    story: storyOf.get(it.id) ?? null,
+    deskInfo: deskById.get(it.desk) ?? deskById.get(post.desk),
+  };
+}).filter((it) => it.n.views != null).sort((a, b) => b.n.views - a.n.views);
+
 // ---------- the record: one trace per desk, from every post the grabber labelled with that desk
 
 function hash(str) { let h = 2166136261; for (const c of str) { h ^= c.charCodeAt(0); h = Math.imul(h, 16777619); } return h >>> 0; }
@@ -129,7 +160,7 @@ const desks = DESKS.desks.map((d) => {
   // reference led back to still feeds the trace by what it gained, but not the day's total.
   const fresh = own.filter((p) => p.created >= FROM);
   const total = fresh.reduce((sum, p) => { const l = (series.get(p.id) ?? []).filter((o) => Number.isFinite(o.views)).pop(); return sum + (l ? l.views : 0); }, 0);
-  return { ...d, bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: live.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)), past: past.filter((s) => s.desks.includes(d.id)) };
+  return { ...d, pulse: pulse.filter((it) => it.deskInfo?.id === d.id), bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: live.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)), past: past.filter((s) => s.desks.includes(d.id)) };
 });
 
 function tracePath(desk, w = 960, h = 40) {
@@ -219,6 +250,27 @@ function storyRow(s, i) {
 </li>`;
 }
 
+function pulseRow(it) {
+  const d = it.deskInfo;
+  const big = (it.n.magnitude ?? 0) >= 7;
+  const age = it.ageH < 1 ? `${Math.round(it.ageH * 60)} min old` : it.ageH < 48 ? `${Math.round(it.ageH)} h old` : `${Math.round(it.ageH / 24)} days old`;
+  const pace = it.pace == null ? '' : `<span>${it.measured ? 'gaining' : 'averaging'} ${num(it.pace)} views/h</span>`;
+  return `<li class="pulse-item" id="p-${esc(it.id)}" data-views="${it.n.views}" data-pace="${it.pace ?? 0}" data-start="${it.post.created}" data-desks="${esc(d?.id ?? '')}">
+  <div class="pulse-mag"><span class="mag${big ? ' mag-big' : ''}">${mag(it.n.magnitude)}</span></div>
+  <div class="pulse-body">
+    <p class="story-meta">${d ? chip(d.id) : ''}<span>${esc(d?.name ?? '')}</span><span>${age}</span>${pace}</p>
+    <p class="pulse-line">${esc(it.line)}</p>
+    ${postBlock(it.post)}
+    ${it.also.length ? `<div class="pulse-also">${it.also.map((p) => postBlock(p, { compact: true })).join('')}</div>` : ''}
+    ${it.story ? `<p class="pulse-story"><a href="/story/${esc(it.story.id)}/">The researched story: ${esc(it.story.title)}</a></p>` : ''}
+  </div>
+</li>`;
+}
+
+function storyTeaser(s) {
+  return `<li><a href="/story/${esc(s.id)}/"><span class="desk-peak">${mag(s.n.magnitude)}</span><b>${esc(s.title)}</b><span class="standing standing-${esc(s.standing)}">${STANDING[s.standing] ?? esc(s.standing)}</span><span class="desk-top">${esc(s.dek)}</span></a></li>`;
+}
+
 function recordFigure(list, { labels = true } = {}) {
   const ticks = [];
   const first = Math.ceil(FROM / (3 * HOUR)) * 3 * HOUR;
@@ -252,7 +304,7 @@ function recordFigure(list, { labels = true } = {}) {
 const FONTS = 'https://fonts.googleapis.com/css2?family=B612:wght@400;700&family=Libre+Franklin:ital,wght@0,400;0,600;0,800;0,900;1,400&family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap';
 
 function page({ title, description, path, body, current }) {
-  const nav = [['/', 'Pulse'], ['/desks/', 'Desks'], ['/archive/', 'Archive'], ['/about/', 'About']].map(([href, label]) => `<a href="${href}"${current === href ? ' aria-current="page"' : ''}>${label}</a>`).join('');
+  const nav = [['/', 'Pulse'], ['/stories/', 'Stories'], ['/desks/', 'Desks'], ['/archive/', 'Archive'], ['/about/', 'About']].map(([href, label]) => `<a href="${href}"${current === href ? ' aria-current="page"' : ''}>${label}</a>`).join('');
   return `<!doctype html>
 <html lang="en">
 <head>
@@ -313,28 +365,44 @@ function pinned() {
 
 function pulsePage() {
   const active = desks.filter((d) => d.posts > 0).length;
-  const posts = records.size;
-  const bulletin = live.length
-    ? `<ol class="stories">${live.map(storyRow).join('')}</ol>`
-    : `<div class="empty"><h3>The first bulletin is being written.</h3><p>The instrument is recording: ${posts} posts on ${active} of ${desks.length} desks so far. Stories appear here once each post in them has been checked against X and the write-up is done.</p></div>`;
   const picker = `<section class="yours" id="yours" aria-labelledby="yours-h">
-  <header class="sec-head"><h2 id="yours-h">Which worlds do you live in?</h2><p>Pick the desks you already follow. The record will mark what you are not seeing.</p></header>
+  <header class="sec-head"><h2 id="yours-h">Which worlds do you live in?</h2><p>Pick the desks you already follow. The page will mark what you are not seeing.</p></header>
   <div class="yours-desks" role="group" aria-label="Desks you follow">${DESKS.desks.map((d) => `<button type="button" class="pick" data-desk="${d.id}" aria-pressed="false"><span class="code">${d.code}</span>${esc(d.name)}</button>`).join('')}</div>
   <p class="yours-out" id="yours-out" hidden></p>
 </section>`;
+  const pulseList = pulse.length
+    ? `<ol class="pulse">${pulse.map(pulseRow).join('')}</ol>`
+    : `<div class="empty"><h3>The first pulse is being read.</h3><p>The instrument is recording on ${active} of ${desks.length} desks. Posts appear here once each has been confirmed with X and passed by the editor.</p></div>`;
   const body = `${pinned()}
 <section class="record" id="record" aria-labelledby="record-h">
-  <header class="sec-head"><h2 id="record-h">The record</h2><p>The last 24 hours on all ${desks.length} desks. Each line is one desk; its height is views gained per hour. A flag is a story, and its number is the story's magnitude.${captures.length < 4 ? ` <strong>Early days: ${captures.length === 1 ? 'one reading' : captures.length + ' readings'} so far, so each line shows only when its posts began. It sharpens with every hourly reading.</strong>` : ''}</p></header>
+  <header class="sec-head"><h2 id="record-h">The record</h2><p>The last 24 hours on all ${desks.length} desks. Each line is one desk; its height is views gained per hour. A flag is a researched story, and its number is the story's magnitude.${captures.length < 4 ? ` <strong>Early days: ${captures.length === 1 ? 'one reading' : captures.length + ' readings'} so far, so each line shows only when its posts began. It sharpens with every hourly reading.</strong>` : ''}</p></header>
   ${recordFigure(desks)}
 </section>
 ${picker}
-<section class="bulletin" id="bulletin" aria-labelledby="bulletin-h">
-  <header class="sec-head"><h2 id="bulletin-h">The bulletin</h2>
-    <div class="sort" role="group" aria-label="Order"><button type="button" data-sort="mag" aria-pressed="true">Largest</button><button type="button" data-sort="rate" aria-pressed="false">Fastest</button><button type="button" data-sort="start" aria-pressed="false">Newest</button></div>
+<section class="pulse-sec" id="pulse" aria-labelledby="pulse-h">
+  <header class="sec-head"><h2 id="pulse-h">Internet Pulse</h2>
+    <p>The posts the internet is passing around right now, largest first, from every desk. The number is magnitude: 6.0 is a million views, 7.0 is ten million. The sentence above each post is ours and says what it is, not whether it is right.</p>
+    <div class="sort" role="group" aria-label="Order"><button type="button" data-sort="views" aria-pressed="true">Largest</button><button type="button" data-sort="pace" aria-pressed="false">Fastest</button><button type="button" data-sort="start" aria-pressed="false">Newest</button></div>
   </header>
-  ${bulletin}
+  ${pulseList}
+</section>
+<section class="stories-sec" id="stories" aria-labelledby="stories-h">
+  <header class="sec-head"><h2 id="stories-h">Researched stories</h2><p>Slower and deeper: what happened, how each world is describing it, and what is on the record, with sources.</p></header>
+  ${live.length ? `<ul class="teasers">${live.slice(0, 6).map(storyTeaser).join('')}</ul><p class="desk-nums"><a href="/stories/">All ${live.length} current stories</a></p>` : `<div class="empty"><h3>No stories written up yet.</h3></div>`}
 </section>`;
   return page({ title: `${SITE.name}: ${SITE.line}`, description: 'What every corner of the internet is passing around, on one record: twenty desks, measured hourly, with what each world is seeing and what is established.', path: '/', body, current: '/' });
+}
+
+function storiesPage() {
+  const body = `<section class="desk-head"><p class="label">${live.length} current</p><h1>Researched stories</h1><p class="dek">For the things worth more than a line: what happened, why it is spreading, how each world is describing it, and what is on the record. Each claim has a source, and each post was confirmed with X.</p></section>
+<section class="bulletin" id="bulletin">
+  <header class="sec-head"><h2>The last 48 hours</h2>
+    <div class="sort" role="group" aria-label="Order"><button type="button" data-sort="mag" aria-pressed="true">Largest</button><button type="button" data-sort="rate" aria-pressed="false">Fastest</button><button type="button" data-sort="start" aria-pressed="false">Newest</button></div>
+  </header>
+  ${live.length ? `<ol class="stories">${live.map(storyRow).join('')}</ol>` : `<div class="empty"><h3>The first stories are being written.</h3></div>`}
+  ${past.length ? `<p class="desk-nums"><a href="/archive/">${past.length} earlier ${past.length === 1 ? 'story' : 'stories'} in the archive</a></p>` : ''}
+</section>`;
+  return page({ title: `Stories · ${SITE.name}`, description: 'Researched write-ups of what the internet is passing around: what happened, how each world sees it, and what is established.', path: '/stories/', body, current: '/stories/' });
 }
 
 function storyPage(s) {
@@ -376,9 +444,13 @@ function deskPage(d) {
 <section class="record">${recordFigure([d], { labels: false })}
   <p class="desk-nums">${d.posts ? `${d.posts} posts written in the last 24 hours are on record for this desk, with ${num(d.views)} views between them.` : 'Nothing on this desk cleared its floor in the last 24 hours.'}</p>
 </section>
+<section class="pulse-sec">
+  <header class="sec-head"><h2>On this desk now</h2></header>
+  ${d.pulse.length ? `<ol class="pulse">${d.pulse.map(pulseRow).join('')}</ol>` : `<div class="empty"><h3>Nothing from this desk is on the pulse right now.</h3><p>A quiet desk is reported as quiet. Nothing is added to fill it.</p></div>`}
+</section>
 <section class="bulletin">
-  <header class="sec-head"><h2>Stories on this desk</h2></header>
-  ${all.length ? `<ol class="stories">${all.map(storyRow).join('')}</ol>` : `<div class="empty"><h3>No stories on this desk in the last 48 hours.</h3><p>A quiet desk is reported as quiet. Nothing is added to fill it.</p></div>`}
+  <header class="sec-head"><h2>Researched stories on this desk</h2></header>
+  ${all.length ? `<ol class="stories">${all.map(storyRow).join('')}</ol>` : `<p class="desk-nums">None in the last 48 hours.</p>`}
   ${d.past.length ? `<p class="desk-nums"><a href="/archive/">${d.past.length} earlier ${d.past.length === 1 ? 'story' : 'stories'} on this desk in the archive</a></p>` : ''}
 </section>`;
   return page({ title: `${d.name} · ${SITE.name}`, description: d.scope, path: `/desk/${d.id}/`, body, current: '/desks/' });
@@ -387,8 +459,8 @@ function deskPage(d) {
 function desksPage() {
   const body = `<section class="desk-head"><p class="label">${desks.length} stations</p><h1>The desks</h1><p class="dek">Every part of the internet's attention this site watches. Each is swept on a schedule, and a quiet desk is reported as quiet.</p></section>
 <section class="desk-index">${DESKS.groups.map((g) => `<div class="desk-group"><h2>${esc(g.name)}</h2><ul>${desks.filter((d) => d.group === g.id).map((d) => {
-    const top = d.stories[0];
-    return `<li><a href="/desk/${d.id}/"><span class="code">${d.code}</span><b>${esc(d.name)}</b><span class="desk-peak">${d.posts ? mag(d.mag) : 'quiet'}</span><span class="desk-top">${top ? esc(top.title) : esc(d.scope.split(':')[0])}</span></a></li>`;
+    const top = d.pulse[0]?.line ?? d.stories[0]?.title;
+    return `<li><a href="/desk/${d.id}/"><span class="code">${d.code}</span><b>${esc(d.name)}</b><span class="desk-peak">${d.posts ? mag(d.mag) : 'quiet'}</span><span class="desk-top">${top ? esc(top) : esc(d.scope.split(':')[0])}</span></a></li>`;
   }).join('')}</ul></div>`).join('')}</section>`;
   return page({ title: `The desks · ${SITE.name}`, description: 'The twenty desks this site watches, in six groups.', path: '/desks/', body, current: '/desks/' });
 }
@@ -409,11 +481,13 @@ function aboutPage() {
   <ol class="steps">
     <li><h3>Grok reads X.</h3><p>Every hour it records what is spreading on each of twenty desks: the posts exactly as written, and their numbers. It re-reads the posts it is tracking so that speed can be measured. It writes no words of its own.</p></li>
     <li><h3>Each post is checked.</h3><p>A post's id carries the moment it was created, so a record whose date does not match its id is rejected. Before a post appears here, X is asked directly whether it exists and whether its author and text match.</p></li>
-    <li><h3>Claude writes.</h3><p>It groups posts into stories, reads the reporting, and writes every word on the site: what happened, why it is spreading, how each world is seeing it, and what is on the record. It supplies no numbers.</p></li>
+    <li><h3>Claude writes.</h3><p>It reads each post before it is shown, leaves out what should not be shown, and writes the sentence above it. For the larger things it reads the reporting and writes a story: what happened, why it is spreading, how each world is seeing it, and what is on the record. It supplies no numbers.</p></li>
   </ol>
   <h2>How to read it</h2>
   <dl class="glossary">
-    <div><dt>Magnitude</dt><dd>The base ten log of views across a story's tracked posts. 6.0 is a million views, 7.0 is ten million, 8.0 is a hundred million. Each whole step is ten times larger.</dd></div>
+    <div><dt>Internet Pulse</dt><dd>The front of the site: single posts, largest first, from every desk, refreshed each hour. The sentence above a post is the editor's and says what the post is, not whether it is right.</dd></div>
+    <div><dt>Stories</dt><dd>Slower and deeper. For the things worth more than a line: what happened, why it is spreading, how each world describes it, and what is on the record, with sources.</dd></div>
+    <div><dt>Magnitude</dt><dd>The base ten log of views, for one post on the pulse or across a story's tracked posts. 6.0 is a million views, 7.0 is ten million, 8.0 is a hundred million. Each whole step is ten times larger.</dd></div>
     <div><dt>The record</dt><dd>One line per desk over 24 hours. The height of a line is the views gained per hour by the posts recorded on that desk, on a log scale. The wiggle itself carries no information; only its height does.</dd></div>
     <div><dt>Worlds</dt><dd>When groups of people are describing the same story differently, each description is set out beside the post that carries it, followed by what is established.</dd></div>
     <div><dt>Standing</dt><dd>Established, developing, disputed, false or satire: the editor's reading of the story as a whole, with sources on its page.</dd></div>
@@ -431,6 +505,7 @@ rmSync(OUT, { recursive: true, force: true });
 const put = (rel, text) => { const p = join(OUT, rel); mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, text); };
 put('index.html', pulsePage());
 put('desks/index.html', desksPage());
+put('stories/index.html', storiesPage());
 put('about/index.html', aboutPage());
 put('archive/index.html', archivePage());
 for (const d of desks) put(`desk/${d.id}/index.html`, deskPage(d));
@@ -442,6 +517,6 @@ for (const f of ['styles.css', 'app.js', 'favicon.svg']) cpSync(join(REPO, 'site
 const CSP = "default-src 'none'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' https://fonts.googleapis.com; style-src-attr 'unsafe-inline'; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self' https://cloudflareinsights.com; base-uri 'none'; form-action 'none'; frame-ancestors 'none'";
 put('_headers', `/*\n  Content-Security-Policy: ${CSP}\n  Strict-Transport-Security: max-age=31536000\n  X-Content-Type-Options: nosniff\n  X-Frame-Options: DENY\n  Referrer-Policy: strict-origin-when-cross-origin\n  Permissions-Policy: camera=(), microphone=(), geolocation=()\n  X-Robots-Tag: noindex\n`);
 put('robots.txt', 'User-agent: *\nDisallow: /\n');
-put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), stories: live.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));
+put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), pulse: pulse.map((it) => ({ id: it.id, url: it.post.url, desk: it.deskInfo?.id ?? null, line: it.line, views: it.n.views, magnitude: it.n.magnitude, views_per_hour: it.pace })), stories: live.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));
 if (DEMO) put('DEMO', 'Built from invented data. Never deploy this folder.\n');
-console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${stories.length} stories (${live.length} on the bulletin), ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);
+console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${pulse.length} on the pulse, ${stories.length} stories (${live.length} current), ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);

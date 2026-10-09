@@ -312,3 +312,28 @@ about $4 on Sonnet or $7 on Opus. An hourly model pass on top would have added a
 for work a script does. If the runs use Sean's subscription login there is no per-pass charge;
 they draw on his usage limits instead. grokbot records the real cost of every pass in
 `capture/EDITOR-RUNS.md`, which replaces these estimates.
+
+## 2026-10-09: Internet Pulse is the posts themselves; researched stories are a second layer
+
+**Context.** The first public build put seven researched stories on the front page and called the
+page the pulse. Sean, on seeing what a research pass produces: that is separate from Internet
+Pulse. His brief from the start was that the flagship is the X content that goes viral.
+
+**Decision.** Two layers.
+
+- **Internet Pulse**, the front page: single posts, largest first, from every desk, each under one
+  or two sentences from the editor saying what it is. One file, `pulse/current.json`, rewritten
+  hourly. The line describes and attributes; it never asserts a claim or adds a fact.
+- **Researched stories**, their own page and a short list on the front: slower, sourced, with the
+  different-worlds view.
+
+**The rule that nothing appears unreviewed is kept.** The alternative was to show every confirmed,
+unflagged post automatically, which would need no model. It was rejected: the grabber's flags are
+one party's judgement about private people and minors, and a viral post about a private person is
+exactly what an unattended site must not amplify. So a post reaches the pulse only when the
+editor lists it, and the build refuses a flagged post even then.
+
+**Consequence for the routine.** This supersedes the previous entry's "the hourly step is a
+script". The hourly step is a pulse pass by a model, because someone has to read each post and
+write its line. `tools/refresh.sh` stays as the fallback. Sean confirmed the runs are on his
+subscription, so the constraint is usage, not dollars.

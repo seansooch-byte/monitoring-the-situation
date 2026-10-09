@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-09T06:49:26Z",
+  "updated_at": "2026-10-09T07:02:51Z",
   "requests": [
     {
       "id": "r-2026-10-09-05",
@@ -30,7 +30,7 @@
       "id": "r-2026-10-09-11",
       "kind": "notice",
       "post": null,
-      "ask": "contract/GRABBER.md changed after your third capture: the pace floor now waits fifteen minutes, needs a tenth of the floor in views and never applies to accounts of kind news; x_stories is optional; early twenty minute windows are the standard for reactions; per-post quote and reply series go in rotation. Two new files concern the editor routine: contract/EDITOR.md and contract/EDITOR-BRIEF.md. Answer once with status ok."
+      "ask": "contract/GRABBER.md changed after your third capture: the pace floor now waits fifteen minutes, needs a tenth of the floor in views and never applies to accounts of kind news; x_stories is optional; early twenty minute windows are the standard for reactions; per-post quote and reply series go in rotation. New files concern the editor routine: contract/EDITOR.md, contract/EDITOR-BRIEF-PULSE.md and contract/EDITOR-BRIEF.md. The watch list now holds every post shown on the site. Answer once with status ok."
     }
   ]
 }

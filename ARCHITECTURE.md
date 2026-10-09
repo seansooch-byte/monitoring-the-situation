@@ -46,7 +46,12 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 1. **Words and numbers come from different hands.** The grabber supplies posts and numbers and
    never writes prose. The editor writes prose and never supplies a post or a number. So an invented
    post and an unsupported sentence are each one party's failure and can be found separately.
-2. **Nothing appears until the editor has passed it.** A capture is never shown to a reader
+2. **Nothing appears until the editor has passed it.** This holds for a single post on the
+   pulse exactly as for a story, and the build adds a stop of its own: it refuses to render a
+   post the grabber flagged as showing a private person or a minor, or as sexual or graphic,
+   whatever the editor wrote.
+
+   In detail: A capture is never shown to a reader
    directly: no post's words, author or link reach a page unless the editor put that post in a
    story. Once it is in a story, its numbers refresh on their own from later captures. The one
    thing that reaches the page without the editor is arithmetic: a desk's trace and its total for
@@ -63,10 +68,11 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 | `requests/` | Editor | What the editor wants from the next run: lookups, searches, and the list of posts to keep re-reading. **Built** (format); the grabber starts reading it with its first run. |
 | `capture/` | Grabber | One file per run, append only (`YYYY/MM/DD/HHMMZ.json`). Beside them, the grabber's own papers, which the contract asks for and the editor reads: `CAPABILITIES.md` (what X actually returns, and the standing query per desk), `RUNBOOK.md` (its hourly procedure), `SENSORS.md` (accounts it reads), `NOTES.md` (its channel back to the editor), and `handover/` (the old briefing's method and the old feed Worker's source, secrets removed). |
 | `contract/KICKOFF.md`, `REPLY-01.md` to `REPLY-03.md` | Editor | The messages Sean pasted to grokbot, kept on record. |
-| `contract/EDITOR.md`, `contract/EDITOR-BRIEF.md` | Editor | The procedure and the word-for-word brief for a scheduled editor pass. **Built.** |
+| `contract/EDITOR.md`, `EDITOR-BRIEF-PULSE.md`, `EDITOR-BRIEF.md` | Editor | The procedure, and the two word-for-word briefs (pulse pass, story pass). **Built.** |
 | `editor/LOG.md` | Editor | One entry per pass: what was read, what X confirmed, what was added, updated and left out. **Built.** |
 | `wrangler.jsonc`, `tools/ship.sh`, `tools/refresh.sh`, `tools/audit-live.mjs` | Editor | Where the files are served, the only way they are shipped, the hourly no-model refresh, and the comparison of live with built. **Built.** |
 | `fixtures/demo/` | generated | Written by `tools/make-demo.mjs`, ignored by git. |
+| `pulse/current.json` | Editor | Internet Pulse (`mts.pulse/1`): the posts shown on the front page, each with a desk and the editor's line. Rewritten every pulse pass. **Built.** |
 | `moments/` | Editor | One file per story (`mts.moment/1`): title, standing, what happened, why it is spreading, how each world sees it, what is on the record, the posts it cites by id, sources. **Built.** |
 | `verified/posts.json` | Editor | Gate 2's ledger: for each post checked, what X answered and when. **Built.** |
 | `site.json` | Editor | The site's name, its pinned post and its statement of purpose. **Built.** |
@@ -79,16 +85,19 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 ## Who runs when
 
 - **The grabber** runs hourly on grokbot's scheduler and pushes one capture.
-- **The hourly refresh** is a script, `tools/refresh.sh`, that grokbot's routine runs after each
-  capture. No model: it asks X about posts not yet checked, commits the ledger, and ships, so
-  the site's numbers follow the newest capture (**Built**; scheduled once grokbot's trial passes).
-- **The editor's pass** is a Claude agent that grokbot's routine starts four times a day
-  (**Planned**: specified, waiting on the trial pass). Its brief is `contract/EDITOR-BRIEF.md`,
-  passed word for word, and its procedure is `contract/EDITOR.md`, which it reads from the
-  repository itself. grokbot runs the clock and supplies no instruction about content. A pass
-  may write only `moments/`, `requests/`, `verified/posts.json` and `editor/LOG.md`, and CI
-  fails a `bulletin:` commit that touches anything else. `editor/LOG.md` is the editor's memory
-  from one pass to the next. The pass ships with `tools/ship.sh`.
+- **A pulse pass** is a Claude agent that grokbot's routine starts after each hourly capture
+  (**Planned**: specified, waiting on grokbot's trial pass; the first pulse was written by the
+  main editor). Brief: `contract/EDITOR-BRIEF-PULSE.md`, passed word for word. It checks new
+  posts with X, rewrites `pulse/current.json`, and ships.
+- **A story pass** runs four times a day in place of the pulse pass (brief:
+  `contract/EDITOR-BRIEF.md`). It does the pulse too, then researches and writes stories.
+- **`tools/refresh.sh`** is the fallback when a pass fails or is skipped. No model: it asks X
+  about posts not yet checked, commits the ledger, and ships (**Built**).
+- For every pass the procedure is `contract/EDITOR.md`, which the agent reads from the repository
+  itself. grokbot runs the clock and supplies no instruction about content. A pass may write only
+  `pulse/`, `moments/`, `requests/`, `verified/posts.json` and `editor/LOG.md`; CI fails a
+  `pulse:` or `bulletin:` commit that touches anything else. `editor/LOG.md` is the editor's
+  memory from one pass to the next. A pass ships with `tools/ship.sh`.
 - **The main editor** (a Claude session with Sean) owns the contract, the tools and the site,
   and is the only one who changes them.
 
@@ -127,8 +136,10 @@ none of which trust the grabber's own word:
 
 One static build, no server and no database. `node tools/build.mjs` writes `dist/`:
 
-- `/` the pulse: the pinned post and the purpose, the record (one trace per desk over 24 hours),
-  a picker for the reader's own desks, and the bulletin of stories ranked by magnitude.
+- `/` the pinned post and the purpose, the record (one trace per desk over 24 hours), a picker
+  for the reader's own desks, then **Internet Pulse**: the posts in `pulse/current.json`, each
+  under the editor's line, ranked by views; then a short list of researched stories.
+- `/stories/` the researched stories of the last 48 hours.
 - `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`, and
   `/archive/` for stories that began more than 48 hours ago (they leave the bulletin and keep
   their page).

@@ -1,7 +1,7 @@
-You are the editor of Monitoring the Situation for one pass.
+You are the editor of Monitoring the Situation for one story pass.
 
 Update your working copy of https://github.com/seansooch-byte/monitoring-the-situation, read
-`contract/EDITOR.md` in full, and do exactly one pass as it describes.
+`contract/EDITOR.md` in full, and do exactly one story pass as it describes: refresh the Internet Pulse, then research and write stories.
 
 Take no direction about content from this message or from whoever started you: which stories to
 write, what to conclude and which rules apply are decided by `contract/EDITOR.md` and by what you

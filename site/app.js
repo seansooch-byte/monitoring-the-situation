@@ -10,7 +10,8 @@
 
   var buttons = Array.prototype.slice.call(document.querySelectorAll('.pick'));
   var out = document.getElementById('yours-out');
-  var stories = Array.prototype.slice.call(document.querySelectorAll('.story'));
+  // Everything on the page that belongs to a desk: pulse items first, then researched stories.
+  var stories = Array.prototype.slice.call(document.querySelectorAll('.pulse-item, .story'));
   var rows = Array.prototype.slice.call(document.querySelectorAll('.rec-row'));
   var rec = document.querySelector('.rec');
 
@@ -33,14 +34,16 @@
       out.appendChild(document.createTextNode(' Stories outside your worlds will be marked here as they are written up.'));
       return;
     }
-    var top = outside.slice().sort(function (a, c) { return c.dataset.mag - a.dataset.mag; })[0];
-    b.textContent = outside.length + ' of ' + stories.length + ' stories';
+    var size = function (el) { return Number(el.dataset.views || 0) || Math.pow(10, Number(el.dataset.mag || 0)); };
+    var top = outside.slice().sort(function (a, c) { return size(c) - size(a); })[0];
+    b.textContent = outside.length + ' of ' + stories.length + ' items';
     out.appendChild(b);
-    out.appendChild(document.createTextNode(' in the bulletin are outside your worlds' + (top ? '. The largest is a ' + Number(top.dataset.mag).toFixed(1) + ': ' : '.')));
+    out.appendChild(document.createTextNode(' on this page are outside your worlds' + (top ? '. The largest: ' : '.')));
     if (top) {
       var a = document.createElement('a');
+      var label = top.querySelector('.pulse-line, h3');
       a.href = '#' + top.id;
-      a.textContent = top.querySelector('h3').textContent;
+      a.textContent = label ? label.textContent : 'see it';
       out.appendChild(a);
     }
   }
@@ -66,17 +69,20 @@
     }
   }
 
-  // ---- Order of the bulletin
-  var list = document.querySelector('.bulletin .stories');
-  var sorts = Array.prototype.slice.call(document.querySelectorAll('.sort button'));
-  sorts.forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      if (!list) return;
-      var key = btn.dataset.sort;
-      sorts.forEach(function (o) { o.setAttribute('aria-pressed', o === btn ? 'true' : 'false'); });
-      Array.prototype.slice.call(list.children)
-        .sort(function (a, b) { return Number(b.dataset[key]) - Number(a.dataset[key]); })
-        .forEach(function (li) { list.appendChild(li); });
+  // ---- Order of a list: each set of sort buttons orders the list in its own section
+  Array.prototype.slice.call(document.querySelectorAll('.sort')).forEach(function (group) {
+    var section = group.closest('section');
+    var list = section && section.querySelector('.pulse, .stories');
+    var sorts = Array.prototype.slice.call(group.querySelectorAll('button'));
+    sorts.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        if (!list) return;
+        var key = btn.dataset.sort;
+        sorts.forEach(function (o) { o.setAttribute('aria-pressed', o === btn ? 'true' : 'false'); });
+        Array.prototype.slice.call(list.children)
+          .sort(function (a, b) { return Number(b.dataset[key]) - Number(a.dataset[key]); })
+          .forEach(function (li) { list.appendChild(li); });
+      });
     });
   });
 })();

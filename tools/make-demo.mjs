@@ -80,5 +80,13 @@ for (let h = 23; h >= 0; h--) {
 }
 mkdirSync(join(ROOT, 'moments'), { recursive: true });
 for (const m of moments) writeFileSync(join(ROOT, 'moments', `${m.id}.json`), JSON.stringify(m, null, 2) + '\n');
+// The pulse: the origin post of every story whose posts may be shown, with an invented line.
+const flagged = posts.find((p) => p.record.flags.includes('private_individual'));
+mkdirSync(join(ROOT, 'pulse'), { recursive: true });
+writeFileSync(join(ROOT, 'pulse', 'current.json'), JSON.stringify({
+  schema: 'mts.pulse/1', updated_at: iso(NOW), capture: runIdFor(NOW),
+  items: moments.filter((m) => !posts.find((p) => p.record.id === m.posts[0].id).record.flags.length).map((m) => ({ id: m.posts[0].id, desk: m.desks[0], line: m.dek, also: m.posts.slice(1, 2).map((x) => x.id) })),
+}, null, 2) + '\n');
+writeFileSync(join(ROOT, 'FLAGGED_POST'), JSON.stringify({ id: flagged.record.id }) + '\n');
 writeFileSync(join(ROOT, 'DEMO'), 'Invented data for design work. Never deploy a site built from this folder.\n');
 console.log(`demo: ${moments.length} stories, ${posts.length} posts, 24 captures in fixtures/demo`);

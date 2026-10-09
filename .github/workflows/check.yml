@@ -41,10 +41,10 @@ jobs:
                 outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v '^capture/' || true)
                 if [ -n "$outside" ]; then echo "commit $c is a capture commit but changes:"; echo "$outside"; bad=1; fi
                 ;;
-              bulletin:*)
-                # A scheduled editor pass writes stories, requests, the ledger and its log. Nothing else.
-                outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v -E '^(moments/|requests/|verified/posts\.json$|editor/LOG\.md$)' || true)
-                if [ -n "$outside" ]; then echo "commit $c is a bulletin commit but changes:"; echo "$outside"; bad=1; fi
+              bulletin:*|pulse:*)
+                # A scheduled editor pass writes the pulse, stories, requests, the ledger and its log. Nothing else.
+                outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v -E '^(moments/|pulse/|requests/|verified/posts\.json$|editor/LOG\.md$)' || true)
+                if [ -n "$outside" ]; then echo "commit $c is an editor pass but changes:"; echo "$outside"; bad=1; fi
                 ;;
             esac
           done

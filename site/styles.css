@@ -231,8 +231,8 @@ dd { font-size: 12.5px; font-weight: 700; }
 /* ---------- narrow */
 @media (max-width: 900px) {
   :root { --pad: 18px; }
-  .bar { grid-template-columns: 1fr auto; gap: 10px 16px; }
-  .asof { grid-column: 1 / -1; }
+  .bar { grid-template-columns: 1fr; gap: 10px; }
+  .bar nav { flex-wrap: wrap; gap: 8px 18px; }
   .pin { grid-template-columns: 1fr; gap: 28px; padding: 28px 0 32px; }
   .story { grid-template-columns: 1fr; gap: 14px; padding: 22px 0 24px; }
   .story-mag { flex-direction: row; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
@@ -257,3 +257,28 @@ dd { font-size: 12.5px; font-weight: 700; }
 .archive.desk-index { grid-template-columns: 1fr; max-width: 900px; }
 .updated { font: 400 11px/1.3 var(--inst); color: var(--ink-2); letter-spacing: 0.02em; }
 .sources time { font-size: 11px; color: var(--ink-2); margin-right: 6px; }
+
+/* ---------- Internet Pulse: the posts themselves. The editor's line leads, the post is the evidence. */
+.pulse { border-top: 2px solid var(--ink); }
+.pulse-item { display: grid; grid-template-columns: 132px minmax(0, 1fr); gap: 0 32px; padding: 22px 0 24px; border-bottom: 1px solid var(--ink); }
+.pulse-mag .mag { font-size: 56px; }
+.pulse-body { max-width: 760px; }
+.pulse-line { font: 400 21px/1.36 var(--read); margin: 9px 0 2px; text-wrap: pretty; }
+.pulse-item .post { margin-top: 12px; }
+.pulse-also { margin: 4px 0 0 17px; }
+.pulse-story { margin-top: 12px; font: 400 12px/1.3 var(--inst); letter-spacing: 0.02em; }
+.pulse-story a { color: var(--signal); }
+.pulse-item.is-outside .pulse-mag::after, .story.is-outside .story-mag::after { content: "outside your worlds"; display: block; margin-top: 8px; font: 700 9.5px/1.2 var(--inst); letter-spacing: 0.1em; text-transform: uppercase; color: var(--signal); }
+.teasers { border-top: 2px solid var(--ink); }
+.teasers li a { display: grid; grid-template-columns: 56px minmax(0, 1fr) auto; gap: 2px 14px; align-items: baseline; padding: 13px 0; border-bottom: 1px solid var(--hair); text-decoration: none; }
+.teasers b { font: 800 20px/1.15 var(--news); letter-spacing: -0.015em; }
+.teasers .desk-peak { font: 900 22px/1 var(--news); letter-spacing: -0.03em; }
+.teasers .desk-top { grid-column: 2 / -1; font-size: 16px; line-height: 1.38; color: var(--ink-2); max-width: 78ch; }
+@media (max-width: 900px) {
+  .pulse-item { grid-template-columns: 1fr; gap: 6px; padding: 18px 0 20px; }
+  .pulse-mag .mag { font-size: 40px; }
+  .pulse-line { font-size: 19px; }
+  .pulse-item.is-outside .pulse-mag::after, .story.is-outside .story-mag::after { display: inline-block; margin: 0 0 0 10px; }
+  .teasers li a { grid-template-columns: 44px minmax(0, 1fr); }
+  .teasers .standing { grid-column: 2; justify-self: start; }
+}

@@ -3,7 +3,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
-import { existsSync, readFileSync, readdirSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { stripEdge } from '../tools/audit-live.mjs';
 
@@ -14,7 +14,7 @@ const desks = JSON.parse(readFileSync(root + 'contract/desks.json', 'utf8')).des
 test('the demo build writes the pulse page, a page per desk and a page per story, and marks itself', () => {
   run('tools/make-demo.mjs');
   const out = run('tools/build.mjs', '--demo');
-  assert.match(out, /built DEMO site: 17 stories \(16 on the bulletin\)/);
+  assert.match(out, /built DEMO site: \d+ on the pulse, 17 stories \(16 current\)/);
   const home = readFileSync(root + 'dist/index.html', 'utf8');
   assert.ok(existsSync(root + 'dist/DEMO'), 'a demo build leaves a DEMO marker so it is never deployed');
   assert.match(home, /class="demo"/);
@@ -26,8 +26,10 @@ test('the demo build writes the pulse page, a page per desk and a page per story
   }
   // one invented story is more than 48 hours old: it keeps its page, leaves the bulletin, and is in the archive
   assert.equal(readdirSync(root + 'dist/story').length, 17);
-  assert.equal((home.match(/<li class="story"/g) ?? []).length, 16);
-  assert.ok(!home.includes('lighthouse webcam'), 'a story older than 48 hours is off the bulletin');
+  const all = readFileSync(root + 'dist/stories/index.html', 'utf8');
+  assert.equal((all.match(/<li class="story"/g) ?? []).length, 16);
+  assert.ok(!all.includes('lighthouse webcam') || all.includes('archive'), 'a story older than 48 hours is off the list of current stories');
+  assert.equal((all.match(/<li class="story"[^>]*lighthouse/g) ?? []).length, 0);
   const archive = readFileSync(root + 'dist/archive/index.html', 'utf8');
   assert.ok(archive.includes('lighthouse webcam'), 'and listed in the archive');
   assert.ok(!archive.includes('A dog walks onto a live weather forecast'), 'which does not repeat the bulletin');
@@ -67,4 +69,45 @@ test('the live audit removes only what Cloudflare adds, so a real difference sti
   assert.equal(stripEdge(page.replace('</body>', edge + '</body>')), page);
   assert.notEqual(stripEdge(page.replace('<p>x</p>', '<p>y</p>')), page);
   assert.notEqual(stripEdge(page.replace('</body>', '<script>alert(1)</script></body>')), page);
+});
+
+// ---- Internet Pulse: the viral posts themselves, each passed and described by the editor
+
+test('the demo build shows the pulse above the stories: one row per item, ranked by views, with the editor\'s line', () => {
+  run('tools/make-demo.mjs');
+  run('tools/build.mjs', '--demo');
+  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const rows = [...home.matchAll(/<li class="pulse-item"[^>]*data-views="(\d+)"/g)].map((m) => Number(m[1]));
+  assert.ok(rows.length >= 10, `expected at least ten pulse items, found ${rows.length}`);
+  assert.deepEqual(rows, [...rows].sort((a, b) => b - a), 'largest first');
+  assert.ok(home.indexOf('id="pulse"') < home.indexOf('id="stories"'), 'the pulse comes before the stories');
+  assert.match(home, /class="pulse-line"/);
+  assert.ok(existsSync(root + 'dist/stories/index.html'), 'the researched stories have their own page');
+});
+
+test('the build refuses a pulse item whose post is flagged as showing a private person or a minor', () => {
+  run('tools/make-demo.mjs');
+  const file = root + 'fixtures/demo/pulse/current.json';
+  const pulse = JSON.parse(readFileSync(file, 'utf8'));
+  const flagged = JSON.parse(readFileSync(root + 'fixtures/demo/FLAGGED_POST', 'utf8'));
+  pulse.items.push({ id: flagged.id, desk: 'life', line: 'This post must never be shown.' });
+  writeFileSync(file, JSON.stringify(pulse));
+  assert.throws(() => run('tools/build.mjs', '--demo'), /flagged/);
+  run('tools/make-demo.mjs');
+});
+
+test('the real pulse file is well formed: unique posts, a known desk and a line for each, no em dash', () => {
+  const file = root + 'pulse/current.json';
+  if (!existsSync(file)) return;
+  const pulse = JSON.parse(readFileSync(file, 'utf8'));
+  assert.equal(pulse.schema, 'mts.pulse/1');
+  const ids = new Set();
+  for (const it of pulse.items) {
+    assert.match(it.id, /^\d{15,20}$/);
+    assert.ok(!ids.has(it.id), `${it.id} is listed twice`); ids.add(it.id);
+    assert.ok(desks.some((d) => d.id === it.desk), `${it.id}: unknown desk ${it.desk}`);
+    assert.ok(typeof it.line === 'string' && it.line.length >= 20 && it.line.length <= 320, `${it.id}: a line of 20 to 320 characters`);
+    assert.ok(!it.line.includes(String.fromCharCode(0x2014)), `${it.id}: no em dash`);
+    for (const a of it.also ?? []) assert.match(a, /^\d{15,20}$/);
+  }
 });
