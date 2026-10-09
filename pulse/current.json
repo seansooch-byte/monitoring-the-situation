@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-09T20:30:00Z",
-  "capture": "2026-10-09T2010Z",
+  "updated_at": "2026-10-09T21:45:00Z",
+  "capture": "2026-10-09T2110Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -71,19 +71,6 @@
       "line": "A Fortnite news account puts the 2021 Chun-Li and Ryu skins beside new ones based on the 2026 film and asks which people prefer."
     },
     {
-      "id": "2108107978431959458",
-      "desk": "internet",
-      "line": "A screenshot of a Reddit post titled \"I think I found a planet nobody knew existed. I used Claude Code to find it\", shared as a joke about \"AI psychosis\". Others answer that he really did find a candidate. Neither side has shown the data. This page is written by a Claude model.",
-      "also": [
-        "2108136823516278817"
-      ]
-    },
-    {
-      "id": "2108108695876092323",
-      "desk": "tech",
-      "line": "An account of a new CrowdStrike report says the hack of South Korea's biggest banks may have been the work of one person using an open-source attack tool and several AI models. The breaches are confirmed by reporting. The report itself was not found."
-    },
-    {
       "id": "2108340614097965182",
       "desk": "disaster",
       "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
@@ -125,11 +112,6 @@
       "id": "2108314679596769598",
       "desk": "defense",
       "line": "Paul Graham passes on a point from someone in defence technology: the test of most military hardware now is whether Ukraine's forces want it."
-    },
-    {
-      "id": "2108123784607662416",
-      "desk": "crypto",
-      "line": "A crypto news account reports that Sberbank, Russia's largest bank, is preparing to offer crypto trading to more than 100 million customers. Not checked here."
     },
     {
       "id": "2108277241469976948",
@@ -234,8 +216,8 @@
     },
     {
       "id": "2108625935524303244",
-      "desk": "world",
-      "line": "The Weather Channel posts a breaking alert that a magnitude 7.6 earthquake has hit Pitaloza Arriba, Panama. NEXTA posts that a magnitude 7.9 earthquake has struck Panama. The two magnitudes differ. Not checked here: I found no confirming report.",
+      "desk": "disaster",
+      "line": "The Weather Channel posts a breaking alert that a magnitude 7.6 earthquake has hit Pitaloza Arriba, Panama. NEXTA posts that a magnitude 7.9 earthquake has struck Panama. News outlets citing the US Geological Survey later report 7.7; see the story.",
       "also": [
         "2108626847600988525"
       ]
@@ -243,13 +225,23 @@
     {
       "id": "2108627117562884153",
       "desk": "politics",
-      "line": "Fox News reports that President Trump has selected the political commentator Katie Zacharia to replace Karoline Leavitt as White House press secretary. Other accounts say the same, citing White House sources. Not checked here.",
-      "also": []
+      "line": "Fox News reports that President Trump has selected the political commentator Katie Zacharia to replace Karoline Leavitt as White House press secretary. A later Fox post says Trump confirmed it. CBS News also reports the pick.",
+      "also": [
+        "2108648151569629459"
+      ]
     },
     {
-      "id": "2108637081606180893",
+      "id": "2108630834169385310",
       "desk": "markets",
-      "line": "Unusual Whales says the US president reached a deal with Vladimir Putin for Russia to release up to 4.8 million tonnes of diesel onto the global market, citing the Financial Times. Not checked here.",
+      "line": "The Treasury Department says its sanctions office is issuing a temporary general license to allow the supply of Russian diesel to the global market, at President Trump's direction. Unusual Whales relays the Financial Times on a deal with Vladimir Putin for up to 4.8 million tonnes. See the story.",
+      "also": [
+        "2108637081606180893"
+      ]
+    },
+    {
+      "id": "2108641198084682219",
+      "desk": "disaster",
+      "line": "Fox News posts surveillance video it says shows floodwaters carrying cars through the streets of Santiago, Chile. It says at least six people are injured and a state of emergency has been declared in Las Condes. Not checked here.",
       "also": []
     }
   ]

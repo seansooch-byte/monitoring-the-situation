@@ -1,0 +1,45 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-09-panama-earthquake",
+  "title": "A magnitude 7.7 earthquake strikes southern Panama, with tsunami warnings across the region",
+  "dek": "Early posts gave three different magnitudes. The US Geological Survey figure, as reported, is 7.7.",
+  "desks": [
+    "disaster",
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-09T18:29:34Z",
+  "updated_at": "2026-10-09T21:40:00Z",
+  "what": [
+    "A strong earthquake struck the Pacific side of Panama on Friday 9 October, shortly before 1 p.m. local time, according to ABC News citing the president's office. The US Geological Survey put it at magnitude 7.7, with the epicentre near Pitaloza Arriba, CBS News and ABC News report.",
+    "The first captured posts disagreed. The Weather Channel posted 7.6 and the news account NEXTA posted 7.9. Those figures were early. The 7.7 figure comes from the USGS as reported by news outlets. I did not open the USGS page itself.",
+    "The US tsunami warning system said hazardous waves were possible on some coasts of Panama, Costa Rica, Colombia, Ecuador, Nicaragua, Guatemala, El Salvador, Peru and Mexico, ABC News reports. It said waves of up to three meters were possible on the Panama coast. The Pacific Tsunami Warning Center later said the threat had passed, according to the same report.",
+    "Al Jazeera and ABC report that a historic cathedral tower collapsed in the city of Penonome, in Cocle province, and balconies fell from buildings there. Schools were ordered closed. Al Jazeera quotes President Jose Raul Mulino saying the event should not be used to cause alarm or disorder. Neither outlet reported casualties at the time I read them. That may change."
+  ],
+  "why": "A large quake near a populated coast produces alerts within minutes, and each outlet and account posts the figure it has first. The numbers then get revised.",
+  "next": "The USGS event page and Panama's civil protection agency are the places for final magnitude, damage and casualty figures.",
+  "posts": [
+    {
+      "id": "2108625935524303244",
+      "role": "origin"
+    },
+    {
+      "id": "2108626847600988525",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ABC News: 7.7 magnitude earthquake shakes Panama, sparking tsunami threat",
+      "url": "https://abcnews.com/International/tsunami-threat-after-76-magnitude-earthquake-reported-panama/story?id=137140557"
+    },
+    {
+      "label": "CBS News: Panama struck by magnitude 7.7 earthquake, USGS says",
+      "url": "https://www.cbsnews.com/news/panama-earthquake-tsunami-threat/"
+    },
+    {
+      "label": "Al Jazeera: Tsunami warnings across Latin America after 7.7 magnitude earthquake",
+      "url": "https://www.aljazeera.com/news/2026/10/9/tsunami-warnings-across-latin-america-after-7-7-magnitude-earthquake-hits"
+    }
+  ]
+}

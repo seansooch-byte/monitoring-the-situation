@@ -102,3 +102,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the two new pulse posts. open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Zacharia press secretary and Trump-Putin diesel items, and the Ledger drain, need sources on a story pass.
+
+## 2026-10-09T21:50Z
+- Captures read: 2110Z. Last read: 2110Z.
+- X's check: 2110Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs this day with a missing (1318Z) or mismatched (1432Z, 1528Z, 1808Z) post were already logged; none is on the pulse or in a story.
+- Pulse: 40 items on 20 desks (1 new, 3 dropped as older than 36 hours). Added: Fox News video of Santiago floods (disaster). Reworked: Treasury's Russian diesel license is now the lead post with Unusual Whales in `also`; quake and press secretary lines updated.
+- Added: 2026-10-09-panama-earthquake (disaster), 2026-10-09-russian-diesel-license (markets), 2026-10-09-zacharia-press-secretary (politics). Updated: 2026-10-08-isaias-pensacola-beach (advisory 13).
+- Left out: the WikiLeaksQ post on a former Israeli prime minister (serious accusation about a real person, not confirmed outside X); the 6-year-old shooting video post (may identify a private person); the Mullin/Mamdani fact check (not researched); Susan Collins term-limits clip, P320 claim and NFL injury posts (small or unchecked).
+- Requests: watch list now holds the new story and pulse posts. open.json unchanged except its timestamp. Other live stories (Hasan, Marble Hill, PERM, Starlink) were not re-checked this pass.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. CNBC and Axios returned 403; the diesel story rests on NBC and Kyiv Independent. The USGS page and the OFAC license text were not opened directly.

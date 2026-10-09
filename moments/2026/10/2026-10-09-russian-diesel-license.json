@@ -1,0 +1,47 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-09-russian-diesel-license",
+  "title": "Treasury issues a license for Russian diesel after Trump says Putin agreed to ship millions of tons",
+  "dek": "The US is easing sanctions on one Russian fuel to bring down diesel prices. Ukraine's president objects.",
+  "desks": [
+    "markets",
+    "politics",
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-09T18:49:01Z",
+  "updated_at": "2026-10-09T21:40:00Z",
+  "what": [
+    "On Friday 9 October the Treasury Department said, at President Trump's direction, that its Office of Foreign Assets Control was issuing a temporary general license to allow the supply of Russian diesel to the global market. OFAC's recent actions page lists a Russia-related general license for that day. I did not open the license text. NBC News reports it covers sale, delivery, offloading or importation, including into the United States, of Russian diesel through April 7, 2027.",
+    "Trump wrote that Russia would supply over 300,000 tons of diesel immediately, another 500,000 tons in November and 1,000,000 tons right after, per the Kyiv Independent quoting his post. The FT figure of up to 4.8 million tons, relayed by Unusual Whales, is the figure in headlines. I could not match it to Trump's three numbers.",
+    "The Kremlin confirmed that Putin told Trump Russia was ready to supply oil and petroleum products, NBC News and the Kyiv Independent report. NBC says Russian Deputy Prime Minister Alexander Novak said Russia would begin lifting its export ban at once.",
+    "President Zelenskyy called the move a weakness that, in NBC's wording of his remarks, plays into Russia's hands and lets it wage war for longer. A European diplomat quoted by the Kyiv Independent doubted the effect on prices would be large.",
+    "NBC reports diesel futures fell about 4 percent after the announcement and remain up more than 110 percent since the start of 2026."
+  ],
+  "why": "It joins fuel prices, the war in Ukraine and sanctions policy in one decision, and people read it first by which of those they care about most.",
+  "next": "Whether cargoes move, and what the full text of the OFAC license allows.",
+  "posts": [
+    {
+      "id": "2108630834169385310",
+      "role": "official"
+    },
+    {
+      "id": "2108637081606180893",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "OFAC recent actions",
+      "url": "https://ofac.treasury.gov/recent-actions"
+    },
+    {
+      "label": "NBC News: Trump eases Russia sanctions, says Putin will release diesel",
+      "url": "https://www.nbcnews.com/business/energy/trump-putin-diesel-prices-rcna602566"
+    },
+    {
+      "label": "Kyiv Independent: Trump allows Russia to supply millions of tons of diesel",
+      "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/"
+    }
+  ]
+}
