@@ -1,0 +1,25 @@
+{
+  "name": "Monitoring the Situation",
+  "line": "One record of every world.",
+  "url": "",
+  "pinned": {
+    "id": "2024917454301065480",
+    "url": "https://x.com/elonmusk/status/2024917454301065480",
+    "handle": "elonmusk",
+    "name": "Elon Musk",
+    "text": "People live in different worlds",
+    "created_at": "2026-02-20T18:41:56Z",
+    "quotes": { "handle": "XFreeze", "name": "X Freeze", "text": "Your information diet determines your reality" },
+    "confirmed_with_x": "2026-10-09"
+  },
+  "purpose": [
+    "What you read decides what you think is happening. Two people can spend the same evening online and come away from two different days, each sure the other missed the story.",
+    "This site is one record for all of them. Every hour it reads what each corner of the internet is passing around, twenty desks from politics to gaming to medicine, and sets them on the same sheet. You see your own world next to the ones you never visit.",
+    "Where the worlds disagree about a story, it shows what each one is seeing, and then what is on the record."
+  ],
+  "method": [
+    "Grok reads X and records the posts and their numbers exactly. It writes no words.",
+    "Claude checks each post against X, groups posts into stories, researches them and writes every word. It supplies no numbers.",
+    "Magnitude is the base ten log of views: 6.0 is a million, 7.0 is ten million."
+  ]
+}

@@ -43,8 +43,11 @@ file means the grabber did not run at all, and that is the only thing a missing 
 | `observations` | One row of numbers per post read this run. This is the time series. |
 | `context` | For the biggest posts: which replies and quote posts are the most liked. |
 | `answers` | Replies to the editor's open requests in `requests/open.json`. |
+| `x_stories` | Optional. X's own stories for the clusters you read. |
+| `volume` | Optional. Posts per hour for a standing query, as counted by X. |
 
-All six arrays are always present, even when empty.
+The first six arrays are always present, even when empty. The last two were added after the first
+capture and may be left out.
 
 ## run
 
@@ -104,6 +107,7 @@ it and its floor. That file is the only list; nothing here repeats it.
 | `author.kind` | Your best label: `person`, `creator`, `news`, `org`, `brand`, `official`, `parody`, `aggregator`, `unknown`. |
 | `media[]` | One entry per attachment: `type` (`photo`, `video`, `gif`, `link`, `poll`), `description`, `alt`, `duration_s`, `link_url`, `link_title`. Unknown fields are `null`. |
 | `reply_to`, `quotes` | The id of the post this one replies to or quotes, or `null`. |
+| `media_source` | Optional. The id of the post this one's media was first attached to, when X reports one. This is how a reposted clip is traced to its origin. |
 | `note` | `{ text }` if the post carries a community note, copied exactly. Otherwise `null`. X's API does not return notes, so this is `null` today; the editor checks for a note by other means before publishing a disputed post. |
 | `flags` | Any of `nsfw`, `graphic`, `private_individual`, `minor`, `ad`, `engagement_bait`, `ai_media_suspected`, `old_content`, `non_english`. Usually empty. |
 | `desk` | The one desk the post is most about (an id from `contract/desks.json`), or `null` if none fits. |
@@ -134,6 +138,28 @@ every run matters more than finding new ones.
 
 `{ post_id, replies: [ids], quotes: [ids] }`: the most liked replies and quote posts of a big post,
 best first. Each id listed needs its own record in `posts`.
+
+## x_stories[]
+
+| Field | What it holds |
+|---|---|
+| `id`, `url` | The story's id and its `https://x.com/i/trending/<id>` address. |
+| `name` | The story's name exactly as X wrote it. |
+| `summary`, `category` | X's own text and label, copied exactly, or `null`. |
+| `updated_at` | When X last updated the story, or `null`. |
+| `post_ids` | The cluster posts you captured. May be empty. |
+
+X writes these summaries itself. They are leads for the editor, never text for the site.
+
+## volume[]
+
+| Field | What it holds |
+|---|---|
+| `key` | `desk.<desk>` or `trend.us.<name>`. One series per key in a capture. |
+| `desk` | The desk, or `null` for a trend. |
+| `query` | The exact query that was counted. A desk's query stays the same from day to day. |
+| `granularity` | `hour`. |
+| `points` | `{ start, count }` per hour, oldest first: the UTC start of the hour and the whole number X returned. Up to 200. |
 
 ## answers[]
 

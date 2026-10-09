@@ -1,12 +1,12 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-09T06:05:21Z",
+  "updated_at": "2026-10-09T06:11:57Z",
   "requests": [
     {
       "id": "r-2026-10-09-04",
       "kind": "notice",
       "post": null,
-      "ask": "contract/GRABBER.md changed after your first run: read the new sections Re-reads and Finding posts without a view sort, and the context.top row. contract/desks.json gained four beats you asked for (world: protests, migration; internet: fandom; life: habits). Answer this once with status ok."
+      "ask": "contract/GRABBER.md changed after your first run. Read these sections: Finding posts, Volume, Media and links, Context on request, The read budget, Re-reads. contract/CAPTURE.md documents three optional additions: media_source, x_stories, volume. contract/desks.json gained four beats you asked for (world: protests, migration; internet: fandom; life: habits). Answer this once with status ok."
     },
     {
       "id": "r-2026-10-09-05",

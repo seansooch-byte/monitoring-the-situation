@@ -40,11 +40,13 @@ Run them in this order. Use the ids exactly as written.
 | Sweep id | What to do | Size |
 |---|---|---|
 | `watch` | Re-read the numbers of the posts on the re-read list (see Re-reads, below). Observations only; no new records unless one changed. | up to 400 |
-| `trends.us`, `trends.ww` | X's trending list for the United States and worldwide, as shown: rank, name, post count, and X's own story text and link where one exists. | top 20 each |
-| `viral.global` | The most viewed posts created in the last 24 hours, any subject, English first. | up to 40 new |
-| `rising.global` | Posts under 6 hours old gaining fastest. | up to 20 new |
+| `trends.us`, `trends.ww` | X's trending list for the United States and worldwide, as shown, in rank order. For the top ten United States names, the posts driving the trend go in its `post_ids`. | top 20 each |
+| `viral.global` | The most viewed posts created in the last 24 hours, any subject, English first, from all five sources in Finding posts. | up to 40 new |
+| `rising.global` | Posts under 6 hours old gaining fastest: the repost stream and the quote stream, sampled with no desk terms. | up to 30 new |
+| `sensors.<group>` | The newest posts of one desk group's sensor accounts, and the posts they point at. | up to 15 new per group |
 | `desk.<desk>` | The most viewed and fastest posts of the last 24 hours for one desk. Sweep every desk that is due (see The desks, below). | up to 10 new per desk |
-| `context.top` | For the 5 biggest posts that are new this run (all 15 every third run, if the day's budget allows): the 3 most liked replies and the 3 most liked quote posts among the most recent page of each, and the parent post if it is itself a reply or a quote. | up to 7 per post |
+| `context.top` | For the 3 biggest posts that are new this run, and every open `context` request: the most liked replies and quote posts (see Context on request). | up to 10 per post |
+| `volume.<desk>` | Hourly post counts for the desk's standing query (see Volume). No posts. | 3 or 4 desks a run |
 | `request.<id>` | One sweep per open request in `requests/open.json`. Answer it in `answers`. | as asked |
 
 ## Re-reads
@@ -62,21 +64,85 @@ A post older than 24 hours is re-read only while it is in `watch.json`. A post X
 gets one observation with `state` `unavailable` and all numbers `null`, and then leaves the list.
 X does not say whether a missing post was deleted, so `deleted` is not used.
 
-## Finding posts without a view sort
+## Finding posts
 
-X's search cannot sort by views or filter by likes, so discovery runs through X's own story
-clusters (`search_news`) and then screens the cluster posts by their exact numbers. That is the
-right method, with one known blind spot: a big post that X has not put in a story is invisible.
-Three things narrow it, in order of cost:
+X's search cannot sort by views or filter by likes. The first capture worked around that by taking
+candidates only from X's story clusters, and it showed the cost: 153 posts whose views added up to
+38 million, less than one large post gets on its own, with a median age of twelve hours. Story
+clusters find what X has already filed as news. The subject of this site is what people are
+passing around right now.
 
-- Follow the quote and reply links of every post you keep. The post being quoted is often the real
-  origin and often bigger; when it clears the floor, capture it.
-- Use the trending names. For each of the top ten United States trends, one search for the name,
-  screened by exact numbers like any other candidate.
-- When `requests/open.json` carries a `search` request, the editor has seen something you have
-  not. Run it.
+Use these five sources of candidates. They are ranked by how much they find per read. Every
+candidate from every source is then screened the same way: read by id (100 per call) and kept only
+if its exact numbers clear the floor.
 
-Say in each sweep's `method` which of these produced its posts.
+1. **The repost stream.** A search for reposts, newest first, returns the reposts happening this
+   minute, and each one carries the post being reposted. The posts that turn up are therefore a
+   sample weighted by how fast they are being reposted right now, which is the measure search
+   cannot give you directly. One read returns up to 25 originals with their numbers. The same works
+   with quote posts, which samples what is being argued about. Search needs a keyword beside the
+   operator: use a desk's terms for a desk sweep, and very common words for the global sweeps. A
+   post that appears more than once in a page is hotter than one that appears once; say so in `lead`.
+2. **References.** Every post you read names the post it quotes or replies to, and X returns that
+   post with it. Screen it like any candidate. Ask X for the media source too
+   (`attachments.media_source_tweet_id`): when an account reposts someone else's clip, that field
+   is the post the clip came from. Record it in `media_source` and capture that post. This is how an
+   aggregator's post leads to the origin.
+3. **Trending names.** For each of the top ten United States trends, one repost-stream search on
+   the name. Put what clears the floor in that trend's `post_ids`. A trend with no posts attached
+   tells the editor nothing.
+4. **Sensor accounts.** One search can name many accounts (`from:a OR from:b ...`). Keep a list
+   per desk group, in `capture/SENSORS.md`, of the accounts that most reliably post or repost what
+   is about to be everywhere, and read each group's newest posts in one call. Sensors are for
+   finding things: follow their references to the origin and capture that, not only the sensor's copy.
+5. **X's story clusters.** Still useful, as one source among five, and X's own name and summary
+   for a story are worth having: record them in `x_stories`.
+
+Say in each sweep's `method` which sources produced its posts and the exact query used.
+
+If X rejects any of these, record exactly what it said in `capture/CAPABILITIES.md`, drop to the
+next source, and carry on. Never fill a gap with a guess.
+
+## Volume
+
+X will count the posts matching a query for each hour of the last week
+(`get_posts_counts_recent`), in one read. Keep one query per desk, written to be broad and stable,
+and record its hourly counts in `volume` with the query itself. This is the measured signal behind
+the site's main chart, so the query for a desk must not change from day to day; when one has to
+change, say so in `capture/NOTES.md`. One read returns a week of hours, so each desk needs a read
+only every six hours: three or four desks a run, in rotation. Do the same for the top five United
+States trends each run, with key `trend.us.<name>`.
+
+## Media and links
+
+The editor cannot see media. For the 25 most viewed posts in each capture, and every post in
+`requests/watch.json`, fill `media[].description`: one plain sentence saying what is visible and
+any words on screen. For video you can only see the preview frame; say that it is a video, its
+length, and what the frame shows.
+
+A link card belongs in `media` as type `link`, with `link_url` set to the expanded address and
+`link_title` to the title X returned. When a post has several links, use the last one that is not
+on x.com.
+
+## Context on request
+
+Do not spend reads on replies and quote posts for posts nobody has asked about. Run `context.top`
+for the three biggest new posts of a run, and otherwise wait for a `context` request: the editor
+asks for the reaction to the posts it is writing about. For each, read two pages rather than one,
+try `relevancy` order as well as newest, and keep the five most liked of each kind.
+
+## The read budget
+
+The limit is 1,000 reads a day, shared with the daily briefing. Stay under 850.
+
+| Hours (UTC) | United States time | Reads per run |
+|---|---|---|
+| 12:00 to 05:00 | morning through late evening | up to 42 |
+| 06:00 to 11:00 | overnight | up to 20: re-reads, trends, both global sweeps, the hourly desks |
+
+Inside a run, spend roughly: re-reads 4, trends 2, global repost and quote stream 5, trend names 5,
+desks due 10, sensors 3, story clusters 3, volume 4, screening by id 3, context and requests 3.
+If the day is running short, the cut order below still applies.
 
 ## The desks
 
@@ -179,8 +245,8 @@ git push origin main                                           # on rejection: p
 
 ## Schedule and budget
 
-- Target: one run at the top of every hour, UTC. Floor: one run every three hours.
-- A run should finish inside ten minutes.
+- One run every hour. A run should finish inside ten minutes.
+- Stay inside the read budget above.
 - If you are short on quota, time or budget, cut in this order: desk sweeps first (drop the
   four-hour desks, then the two-hour desks, and keep the hourly ones longest), then `rising.global`,
   then `context.top`, then `viral.global`, then `trends`. Never cut `watch`: a gap in the time

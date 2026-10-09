@@ -107,3 +107,27 @@ Choices inside it:
   are starting values chosen without capture data and will be tuned from the first week of it.
 
 **Supersedes** the seven-desk list in the first commit. No capture had been delivered against it.
+
+## 2026-10-09: Discovery moves from X's story clusters to the repost stream
+
+**Context.** The first real capture (2026-10-09T0552Z) was honest and well formed, and thin: 153
+discovered posts totalling 38.2 million views, the largest 3.35 million, median age 12 hours, no
+post attached to any of 40 trends. X's search has no engagement sort and no minimum-likes
+operator, so the grabber had taken every candidate from X's own story clusters.
+
+**Alternatives.** (a) Accept story clusters as the only source. (b) Seed lists of large accounts
+read one timeline at a time (too many reads against a limit of 1,000 a day). (c) Sample the live
+repost and quote streams, whose results carry the post being reposted and are therefore weighted
+by current spread; follow quote, reply and media-source references to origins; attach posts to
+trend names; read sensor accounts many to a query; keep clusters as one source of five.
+
+**Decision.** (c), written into `contract/GRABBER.md`, with a probe first: none of these
+techniques has been run against X by this project yet, so the grabber tests each one and records
+what X returned before depending on it. The improvement is measured by a side by side run, not
+assumed.
+
+**Also decided.** The capture gains three optional parts: `media_source` on a post, `x_stories`,
+and `volume` (hourly post counts per desk from X's counts endpoint). `volume` is intended to drive
+the site's main chart: it is a measured count per desk per hour, where views gained between two
+readings is only an interpolation. Replies and quote posts are fetched on the editor's request
+instead of by default, because reads are the scarce resource.

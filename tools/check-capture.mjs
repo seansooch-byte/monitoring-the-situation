@@ -18,7 +18,7 @@ export const DESKS = DESK_FILE.desks.map((d) => d.id);
 export const BEATS = Object.fromEntries(DESK_FILE.desks.map((d) => [d.id, d.beats]));
 const RUN_STATUS = ['ok', 'partial', 'down'];
 const SWEEP_STATUS = ['ok', 'partial', 'down', 'skipped'];
-const SWEEP_KINDS = ['discovery', 'desk', 'trends', 'watch', 'context', 'request'];
+const SWEEP_KINDS = ['discovery', 'desk', 'trends', 'watch', 'context', 'request', 'volume'];
 const AUTHOR_KINDS = ['person', 'creator', 'news', 'org', 'brand', 'official', 'parody', 'aggregator', 'unknown'];
 const VERIFIED = ['blue', 'business', 'government', 'none'];
 const MEDIA_TYPES = ['photo', 'video', 'gif', 'link', 'poll'];
@@ -29,6 +29,8 @@ const METRICS = ['views', 'likes', 'reposts', 'quotes', 'replies', 'bookmarks'];
 
 const MAX_POSTS = 400;
 const MAX_OBSERVATIONS = 1500;
+const MAX_VOLUME_SERIES = 60;
+const MAX_VOLUME_POINTS = 200;
 const ID_TIME_TOLERANCE_MS = 2000;
 const RUN_SLACK_MS = 5 * 60 * 1000;
 
@@ -170,7 +172,7 @@ export function checkCapture(doc, opts = {}) {
     });
     if (isStr(p.text) && p.text === '' && Array.isArray(p.media) && p.media.length === 0) warn(at, 'has no text and no media');
 
-    for (const rel of ['reply_to', 'quotes']) {
+    for (const rel of ['reply_to', 'quotes', 'media_source']) {
       if (p[rel] != null && !isId(p[rel])) err(`${at}.${rel}`, 'must be a post id string or null');
     }
     if (p.note != null && !(isObj(p.note) && isStr(p.note.text))) err(`${at}.note`, 'must be { text } or null');
@@ -271,6 +273,42 @@ export function checkCapture(doc, opts = {}) {
     if (a.status === 'not_found' && Array.isArray(a.post_ids) && a.post_ids.length) err(at, 'is not_found but lists posts');
     own(`${at}.note`, a.note);
   });
+
+  // ---- optional arrays, added after the first real capture. A capture without them is valid.
+  if (doc.x_stories != null) arr('x_stories', doc.x_stories).forEach((x, i) => {
+    const at = `x_stories[${i}]`;
+    if (!isObj(x)) { err(at, 'must be an object'); return; }
+    if (!isStr(x.id) || x.id === '') err(`${at}.id`, 'must be the story id as a string');
+    if (!httpsUrl(x.url)) err(`${at}.url`, 'must be the https url of the story on X');
+    if (!isStr(x.name) || x.name === '') err(`${at}.name`, 'must be the story name exactly as X wrote it');
+    for (const k of ['summary', 'category']) if (x[k] != null && !isStr(x[k])) err(`${at}.${k}`, 'must be a string or null');
+    if (x.updated_at != null && isNaN(utc(x.updated_at))) err(`${at}.updated_at`, 'must be a UTC time or null');
+    refs(`${at}.post_ids`, x.post_ids);
+  });
+
+  if (doc.volume != null) {
+    const keys = new Set();
+    const list = arr('volume', doc.volume);
+    if (list.length > MAX_VOLUME_SERIES) err('volume', `holds ${list.length} series; the cap is ${MAX_VOLUME_SERIES}`);
+    list.forEach((v, i) => {
+      const at = `volume[${i}]`;
+      if (!isObj(v)) { err(at, 'must be an object'); return; }
+      own(`${at}.key`, v.key, { required: true });
+      if (isStr(v.key)) { if (keys.has(v.key)) err(`${at}.key`, `duplicate of an earlier series for ${v.key}`); keys.add(v.key); }
+      if (v.desk != null && !DESKS.includes(v.desk)) err(`${at}.desk`, 'must be a desk id from contract/desks.json, or null');
+      if (!isStr(v.query) || v.query.trim() === '') err(`${at}.query`, 'must be the exact query the counts are for');
+      oneOf(`${at}.granularity`, v.granularity, ['hour']);
+      const pts = arr(`${at}.points`, v.points);
+      if (pts.length > MAX_VOLUME_POINTS) err(`${at}.points`, `holds ${pts.length} points; the cap is ${MAX_VOLUME_POINTS}`);
+      let prev = -Infinity;
+      pts.forEach((pt, j) => {
+        const t = isObj(pt) ? utc(pt.start) : NaN;
+        if (isNaN(t)) err(`${at}.points[${j}].start`, 'must be the UTC start of the hour');
+        else { if (t <= prev) err(`${at}.points[${j}]`, 'is out of order; hours go oldest first with no repeats'); prev = t; }
+        if (!isObj(pt) || !isCount(pt.count)) err(`${at}.points[${j}].count`, 'must be a whole number');
+      });
+    });
+  }
 
   if (run.status === 'ok' && posts.length === 0) err('run.status', 'is ok but the capture has no posts; use partial or down and say why');
 

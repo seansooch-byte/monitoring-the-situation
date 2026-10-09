@@ -355,3 +355,54 @@ test('ARCHITECTURE.md mentions every desk', () => {
   const section = doc.slice(doc.indexOf('## The desks'), doc.indexOf('## The checks on the grabber'));
   for (const d of desksDoc.desks) assert.match(section, new RegExp(`\\b${d.id}\\b`), `${d.id} is missing from ARCHITECTURE.md`);
 });
+
+// ---- additions after the first real capture: all optional, so earlier captures stay valid
+
+test('a capture without the newer arrays is still valid', () => {
+  const c = capture();
+  assert.equal(c.x_stories, undefined);
+  assert.equal(c.volume, undefined);
+  assert.deepEqual(errs(c), []);
+});
+
+test('media_source names the post a clip or image was first attached to', () => {
+  const a = capture(); a.posts[0].media_source = snowflakeFor(T0 - 7200000, 5);
+  assert.deepEqual(errs(a), []);
+  const b = capture(); b.posts[0].media_source = 12345;
+  assert.ok(has(errs(b), /media_source/));
+});
+
+test('x_stories carry X\'s own story for a cluster, with posts that have records', () => {
+  const c = capture();
+  const story = { id: '2107164174623097194', url: 'https://x.com/i/trending/2107164174623097194', name: 'As X wrote it', summary: null, category: null, updated_at: '2026-10-09T05:30:00Z', post_ids: [c.posts[0].id] };
+  c.x_stories = [story];
+  assert.deepEqual(errs(c), []);
+  c.x_stories = [{ ...story, url: 'http://x.com/i/trending/1' }];
+  assert.ok(has(errs(c), /x_stories\[0\]\.url/));
+  c.x_stories = [{ ...story, post_ids: [snowflakeFor(T0 - 1000, 77)] }];
+  assert.ok(has(errs(c), /x_stories\[0\].*unknown post/));
+  c.x_stories = [{ ...story, name: '' }];
+  assert.ok(has(errs(c), /x_stories\[0\]\.name/));
+});
+
+test('volume is posts per hour for a query: whole counts, hours in order, the query written down', () => {
+  const series = (over = {}) => ({ key: 'desk.sports', desk: 'sports', query: '(NFL OR NBA) lang:en -is:retweet', granularity: 'hour', points: [{ start: '2026-10-09T03:00:00Z', count: 41200 }, { start: '2026-10-09T04:00:00Z', count: 38900 }], ...over });
+  const a = capture(); a.volume = [series()];
+  assert.deepEqual(errs(a), []);
+  const b = capture(); b.volume = [series({ points: [{ start: '2026-10-09T04:00:00Z', count: 1 }, { start: '2026-10-09T03:00:00Z', count: 2 }] })];
+  assert.ok(has(errs(b), /volume\[0\].*order/));
+  const c = capture(); c.volume = [series({ points: [{ start: '2026-10-09T03:00:00Z', count: '41K' }] })];
+  assert.ok(has(errs(c), /count/));
+  const d = capture(); d.volume = [series({ desk: 'finance' })];
+  assert.ok(has(errs(d), /volume\[0\]\.desk/));
+  const e = capture(); e.volume = [series({ query: '' })];
+  assert.ok(has(errs(e), /volume\[0\]\.query/));
+  const f = capture(); f.volume = [series(), series()];
+  assert.ok(has(errs(f), /duplicate/));
+});
+
+test('a volume sweep is a kind of sweep', () => {
+  const c = capture();
+  c.sweeps.push({ id: 'volume.sports', kind: 'volume', desk: 'sports', method: 'counts for the desk query, hourly', window_hours: 24, status: 'ok', reason: null, post_ids: [] });
+  assert.deepEqual(errs(c), []);
+});
