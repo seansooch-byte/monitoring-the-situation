@@ -282,3 +282,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Zelenskyy post. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T15:40Z
+- Captures read: 1502Z. Last read: 1502Z.
+- X's check: 1502Z 33 confirmed, 0 missing, 0 mismatched, 2 withheld. No new mismatches.
+- Pulse: 45 items (3 new, 3 dropped: the WNBA Dream-Liberty result, Tinashe at ACL and Republicans against Trump, all among the smallest). Added: the Pope's account on the death penalty (ideas), F1 on Verstappen's Singapore pole (sports), Mario Nawfal on a reported Houthi strike at Riyadh airport (world, marked not checked).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: EndWokeness and Brandons__1 politics posts (pile-on and profanity-led, no checkable point); Nawfal airport photo (no media description, same unchecked claim); news_9x and mhmck Ukraine refinery posts (claims unchecked); Imran Khan detention (unchecked); adult, old_content, fandom, meme, promotion posts; Schefter on Crosby physical (sports already full).
+- Requests: watch list gained the Pope, F1 pole and Riyadh posts. open.json unchanged except timestamp.
+- Shipped: yes, commit 000c814, live audit clean (51 files match).
+- For the main editor: the reported Riyadh airport strike has no checked source yet; worth a look in a story pass if it holds.
