@@ -362,3 +362,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the three new posts and lost the two dropped. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: Johnson's post and the Trump diesel story are linked; the claim that the US lifted sanctions on Russian fuel is worth confirming against Treasury at the next story pass.
+
+## 2026-10-10T23:30Z
+- Captures read: 2306Z. Last read: 2306Z.
+- X's check: 2306Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches.
+- Pulse: 45 items (3 new, 4 dropped). Added Rupar's Mike Tyson clip (politics), Romano on Vinicius Jr (sports), Pop Crave on Kelly Clarkson (entertainment). Dropped Pop Crave on Manifest (past 36 hours), Fox on the press secretary pick, a Rupar clip on the execution, BBC on Nord Stream (all among the smallest).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Musk's first Starlink post, Rahul Gandhi, Malpani, Xhaka fine and AP Fort Hood (all older than 36 hours); "house or dog", "she better not cheat", ICE shooting reply, Lala Baptiste, bride/body posts (bait, private people or unclear); Whole Mars on India (reply, small); sports and fandom clips (sports already full).
+- Requests: watch list gained the three new posts and lost the four dropped. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing new.
