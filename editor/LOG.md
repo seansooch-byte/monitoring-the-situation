@@ -162,3 +162,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the four new post ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the grabber labelled MLB post 2108248649440375237 politics; it is sports. The NHC page may lag; advisory 13A was the newest the fetch returned at about 02:30Z.
+
+## 2026-10-10T03:20Z
+- Captures read: 0308Z. Last read: 0308Z.
+- X's check: 0308Z 31 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches already logged.
+- Pulse: 46 items (3 new, 5 dropped as older than 36 hours: Pennsylvania measles, NASA and Energy nuclear power, Starlink India post with its two replies, Zelenskyy, Xhaka). Medicine has nothing to show now. Added: Reed Timmer on Isaias at Fort Walton Beach (disaster), White House on Hormuz and diesel (politics, marked not checked), ESPN on Angel Reese and the WNBA Finals (sports).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: referee clip with a high school player (minor); Japan crime post (insults about a nationality); "Great Quantum Awakening" and "Avatar" posts (point not clear); Trump "gestating" clip (not clear it is real); HQNewsNow press secretary post (duplicate of the Fox item); ADHD study meme; old_content posts; sexual posts.
+- Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
