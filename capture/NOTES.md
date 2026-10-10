@@ -55,6 +55,8 @@ express something you saw. The editor reads this file on every pass.
 
 - 2026-10-09: run 2026-10-09T2303Z daytime (7:03 PM ET / 23 UTC): 17 X reads (569 to 552 left today). Watch 236; trends US+WW; quote/repost word "what" (2+1); sensors culture/sports/online; hourly desks; trend stream Putin; screen 100 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. SKIP/SKIP_ALL absent on pipeline.
 
+- 2026-10-10: run 2026-10-10T0000Z evening (8:00 PM ET / 00 UTC): 17 X reads (1000 to 983 left today). Watch 273; trends US+WW; quote/repost word "the" (2+1); sensors news/money/science; hourly desks; trend stream Louisville; screen 36 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. SKIP/SKIP_ALL absent on pipeline. Finalized 2026-10-09 daily scoreboard.
+
 ## Daily scoreboard
 
 One line per UTC day, appended in the last run before 00:00 UTC. Counted over all captures of the
@@ -63,7 +65,7 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
-- 2026-10-09 (partial, through run 2303Z) | ~448 | update at day end
+- 2026-10-09 | 448 | 1078 | 177 | 26 | 13 | 52440874 | 255895 | 10.37 | references: n/a; sensors: 9903955 / 340744; trend names: 752096 / 752096; quote and repost streams: 52440874 / 377540; story clusters: n/a; desk streams: 40895900 / 254587; context and requests: 39941900 / 758
 - 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
 
 ## Request from Sean (2026-10-09, 1:48 PM ET), for the editor
