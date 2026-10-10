@@ -152,3 +152,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the two new pulse posts. open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a "request from Sean" (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Dissident Wire cocaine claim is worth a story-pass check.
+
+## 2026-10-10T02:35Z
+- Captures read: 0135Z, 0206Z. Last read: 0206Z.
+- X's check: 0135Z 152 confirmed, 0 missing, 0 mismatched, 2 withheld. 0206Z 35 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier 0000Z mismatch (2108604925278044400) already logged.
+- Pulse: 48 items (3 new, 0 dropped). Added: Passan on MLB 154 games (sports), Anthropic behavior report (ai, company link stated), Watcher Guru on telecom stocks (markets).
+- Added: 2026-10-09-mlb-154-game-proposal (sports), 2026-10-09-anthropic-unintended-actions-report (ai), 2026-10-09-starlink-mobile-spectrum-telecom-stocks (money). Updated: 2026-10-08-isaias-pensacola-beach (advisory 13A). Other live stories not re-checked this pass.
+- Left out: Trump-Putin call post and the Dissident Wire claim (search found no 2026 confirmation); Vance socialism and H-1B clips; Black Ops browser-zombies post (older than 36h); Dak Prescott stadium-worker posts (private person); Gregory Green post (named private person, accusation); Epstein email post (claim about a named person, unconfirmed).
+- Requests: watch list holds the four new post ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the grabber labelled MLB post 2108248649440375237 politics; it is sports. The NHC page may lag; advisory 13A was the newest the fetch returned at about 02:30Z.

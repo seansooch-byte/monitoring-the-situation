@@ -1,0 +1,32 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-09-starlink-mobile-spectrum-telecom-stocks",
+  "title": "Verizon, AT&T and T-Mobile shares fall after SpaceX buys spectrum for Starlink Mobile",
+  "dek": "SpaceX says the deal fills a gap in its plan to become a major US mobile carrier. It still needs FCC approval.",
+  "desks": [
+    "money"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-09T18:00:00Z",
+  "updated_at": "2026-10-10T02:30:00Z",
+  "what": [
+    "SpaceX agreed to buy a nationwide portfolio of 800 MHz spectrum licenses from Grain Management, Yahoo Finance reports. The portfolio is up to 14 megahertz of paired spectrum. SpaceX says it addresses \"a key technical gap\" in its plan to launch Starlink Mobile. The deal needs FCC approval before it can close.",
+    "On Friday 9 October, Yahoo Finance reports, Verizon fell about 10 percent, AT&T about 10 percent and T-Mobile 13 percent. The report says Verizon was on pace for its steepest one-day drop since 2002. Those moves were reported during the trading day. I did not see closing prices.",
+    "FCC Chair Brendan Carr said the agency is likely to bring over $100 billion of spectrum to market in the next two years and will not pick winners and losers, per the same report.",
+    "The post on the page is from Watcher Guru, an account that posts market news. It says the stocks \"continue to crash\" and ties them to a SpaceX plan. I found no price for the Grain deal, so none is given."
+  ],
+  "why": "Investors read the deal as a new rival for the three big US carriers, and the drop is large for stocks of that size.",
+  "next": "FCC review of the purchase. Closing prices for 9 October.",
+  "posts": [
+    {
+      "id": "2108603591699448028",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Yahoo Finance: SpaceX Starlink Mobile spectrum deal hits telecom stocks",
+      "url": "https://finance.yahoo.com/technology/articles/spacex-starlink-mobile-spectrum-deal-172208938.html"
+    }
+  ]
+}

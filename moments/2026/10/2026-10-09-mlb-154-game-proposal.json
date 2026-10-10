@@ -1,0 +1,40 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-09-mlb-154-game-proposal",
+  "title": "MLB proposes a 154-game season and seven-game division series",
+  "dek": "The offer came in labor talks with the players' union. The league ties all of it to a salary cap, which the union opposes.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-08T21:00:00Z",
+  "updated_at": "2026-10-10T02:30:00Z",
+  "what": [
+    "Major League Baseball proposed cutting the regular season from 162 games to 154 in a bargaining session with the players' union, the MLBPA, on 8 October. ESPN's Jeff Passan reported it in a post on X. MLB's own account on X lists the same package.",
+    "CBS Sports reports the 154-game schedule and a best-of-seven division series would start in 2029. Higher seeds choosing their wild card and division series opponents would start in 2027. CBS also reports a weekly off-day in the plan.",
+    "CBS reports that MLB made every proposal contingent on the players agreeing to a salary cap. The union said the league \"once again made clear that all of its proposals are contingent on players' agreement to a salary cap.\" It said players will weigh in and respond at the bargaining table.",
+    "CBS reports the current labor agreement expires at 11:59 p.m. Eastern on 1 December 2026. I did not confirm that date in a primary document."
+  ],
+  "why": "A shorter season changes every team's schedule and pay, and the offer is tied to the cap fight, so fans, players and owners each read it differently.",
+  "next": "The union has said it will respond at the bargaining table. The current agreement runs out on 1 December, per CBS.",
+  "posts": [
+    {
+      "id": "2108249687044264269",
+      "role": "origin"
+    },
+    {
+      "id": "2108248649440375237",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CBS Sports: MLB proposes 154-game regular season, bulked-up playoff schedule",
+      "url": "https://www.cbssports.com/mlb/news/mlb-proposes-154-game-regular-season-bulked-up-playoff-schedule/"
+    },
+    {
+      "label": "NBC Sports: Report: MLB proposes 154-game regular season",
+      "url": "https://www.nbcsports.com/fantasy/baseball/player-news/2026-10-08/report-mlb-proposes-154-game-regular-season"
+    }
+  ]
+}
