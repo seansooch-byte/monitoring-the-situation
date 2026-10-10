@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T15:40:00Z",
-  "capture": "2026-10-10T1502Z",
+  "updated_at": "2026-10-10T16:45:00Z",
+  "capture": "2026-10-10T1603Z",
   "items": [
     {
       "id": "2108697452568023410",
@@ -17,11 +17,6 @@
       "id": "2108738606135206246",
       "desk": "sports",
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
-    },
-    {
-      "id": "2108407946296082723",
-      "desk": "music",
-      "line": "Troye Sivan says his album She's the Best is out, along with a video for the song FF."
     },
     {
       "id": "2108437304142430539",
@@ -252,6 +247,12 @@
       "id": "2108921109403852868",
       "desk": "world",
       "line": "The account Mario Nawfal, citing Telegram channels and local accounts, reports a Houthi ballistic missile strike on Riyadh International Airport, with explosions and an evacuation. The post itself says damage and casualties are unconfirmed. Not checked here."
+    },
+    {
+      "id": "2108936212014923979",
+      "desk": "sports",
+      "line": "ESPN's Adam Schefter says the Arizona Cardinals are finalizing a trade of wide receiver Marvin Harrison, with Ian Rapoport as a second source, and that Harrison will sit out Sunday's game against Detroit. No team is named in the post.",
+      "also": []
     }
   ]
 }

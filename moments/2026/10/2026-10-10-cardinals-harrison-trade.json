@@ -1,0 +1,39 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-10-cardinals-harrison-trade",
+  "title": "Cardinals reportedly finalizing a trade of receiver Marvin Harrison Jr.",
+  "dek": "ESPN's Adam Schefter says Arizona has told the 2024 first-round pick he will sit on Sunday while a deal is finished. No team or price is confirmed.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-10T15:02:00Z",
+  "updated_at": "2026-10-10T16:45:00Z",
+  "what": [
+    "On Saturday 10 October, ESPN's Adam Schefter posted that the Arizona Cardinals are finalizing a deal to trade wide receiver Marvin Harrison, with Ian Rapoport as a second source. He says the team told Harrison that morning he will be inactive for Sunday's game against Detroit while the details are settled.",
+    "NBC Sports and local outlets repeat the report. They say, citing Schefter, that no trade will be completed until after Sunday's games. They name no receiving team. They report that the Houston Texans have been in talks. They also cite The Ringer's Tom Pelissero saying Arizona wants a second-round pick and a mid-round pick. All of this is reporting by others. I found no statement from the Cardinals.",
+    "Harrison has five catches for 85 yards and one touchdown in four games this season, those outlets report. Another reporter, Mike Chappell, posted that he was told the Indianapolis Colts did their checking but will not pursue Harrison, perhaps because of the price. That rests on his post and one source he cites."
+  ],
+  "why": "A first-round receiver being moved in his third season is rare, and every team that might want him is now named in posts and guesses.",
+  "next": "The trade cannot be completed until after Sunday's games, per Schefter. The NFL trade deadline is 10 November, per Arizona Sports.",
+  "posts": [
+    {
+      "id": "2108936212014923979",
+      "role": "origin"
+    },
+    {
+      "id": "2108939234258403549",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "NBC Sports: Schefter, Cardinals finalizing Marvin Harrison Jr. trade",
+      "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-10/schefter-cardinals-finalizing-marvin-harrison-jr-trade"
+    },
+    {
+      "label": "azfamily: Cardinals finalizing deal to trade WR Marvin Harrison, reports say",
+      "url": "https://www.azfamily.com/2026/10/10/cardinals-finalizing-deal-trade-wr-marvin-harrison-reports-say/"
+    }
+  ]
+}

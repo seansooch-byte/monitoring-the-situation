@@ -292,3 +292,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Pope, F1 pole and Riyadh posts. open.json unchanged except timestamp.
 - Shipped: yes, commit 000c814, live audit clean (51 files match).
 - For the main editor: the reported Riyadh airport strike has no checked source yet; worth a look in a story pass if it holds.
+
+## 2026-10-10T16:50Z
+- Captures read: 1603Z. Last read: 1603Z.
+- X's check: 1603Z 24 confirmed, 0 missing, 9 mismatched, 0 withheld. Mismatches, all @elonmusk retweets where the record keeps the "RT @user:" prefix and X returns the text without it: 2108936693336187103, 2108926323473490359, 2108934234786422804, 2108928137060913257, 2108927302704791932, 2108933309967278292, 2108935855222276474, 2108933144724590962, 2108927208899154059.
+- Pulse: 45 items (1 new, 1 dropped). Added Schefter on the Cardinals and Marvin Harrison (sports). Dropped the Troye Sivan album post (past 36 hours).
+- Added: 2026-10-10-cardinals-harrison-trade (sports, developing). Updated: none. The Isaias story was not refreshed: searches returned only forecasts from 8 October, no landfall report.
+- Left out: Piers Morgan on Carragher (context unclear); Rahul Gandhi on Modi (no checked context); Raphinha injury and Knicks (sports already full); Cowboys stadium clip, "mother of a 6-year-old" and wedding posts (private persons); view-bait, fandom, meme and promotion posts; Musk retweets (mismatched).
+- Requests: watch list gained the Schefter and Chappell posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the grabber's record stores retweet text with the "RT @user:" prefix and X does not, so every Musk retweet mismatches. The 1603Z capture's 40 posts were a different set from the pulse, so the pulse relies on older captures.
