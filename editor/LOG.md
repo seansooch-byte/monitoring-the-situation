@@ -242,3 +242,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the four new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T11:30Z
+- Captures read: 1105Z. Last read: 1105Z.
+- X's check: 1105Z 36 confirmed, 0 missing, 1 mismatched (2108845018131865875, pledis_17 Hoshi performance film), 0 withheld.
+- Pulse: 45 items (3 new, 3 dropped as older than 36 hours: Musk AI joke, Sanders on Ellison, Marble Hill ICE shooting post with its also). Added: Shehbaz Sharif on Trump and the Nobel (politics), Republicans against Trump quoting Trump on the prize (politics), Formula 1 on Verstappen's sprint win (sports).
+- Added: 2026-10-09-pillay-nobel-trump-icc (politics, world). Updated: none. The Marble Hill story is still live and its posts stay on the watch list.
+- Left out: Delhi protest called by the Cockroach Janta Party (my searches found only June and September items, nothing on this weekend's protest; no source I could open); Justice Datta quote (unchecked); Angel Reese Finals posts (already covered by ESPN and WNBA items; no source opened); Pro-Israel PAC $250M post, OSAP post (unchecked claims); Danish TV post (private person); HQNewsNow rally post (framing); Arsenal, Netflix, fadnavis_amruta (promotion); fandom and meme posts; old_content post.
+- Requests: watch list gained the Sharif, Trump quote, Verstappen, Nobel and Rubio posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the Pillay story omits worlds; the captures hold no clear post from a side that welcomes the sanctions, so I did not invent a contrast.

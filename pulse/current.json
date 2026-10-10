@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T10:35:00Z",
-  "capture": "2026-10-10T1005Z",
+  "updated_at": "2026-10-10T11:30:00Z",
+  "capture": "2026-10-10T1105Z",
   "items": [
-    {
-      "id": "2108332127318073528",
-      "desk": "politics",
-      "line": "New York's mayor, Zohran Mamdani, says a New Yorker was shot by an ICE agent in Marble Hill, and that early reports say agents surrounded him and his five year old child in a car. He says he has called the President to demand an end to ICE enforcement in the city. Not checked here.",
-      "also": [
-        "2108396710292783532"
-      ]
-    },
     {
       "id": "2108697452568023410",
       "desk": "disaster",
@@ -27,11 +19,6 @@
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
     },
     {
-      "id": "2108321181602353333",
-      "desk": "ai",
-      "line": "A joke from Elon Musk about AI safety: the labs have agreed to move all testing onto Delta flights, where the internet cannot be reached."
-    },
-    {
       "id": "2108340614097965182",
       "desk": "disaster",
       "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
@@ -43,11 +30,6 @@
       "also": [
         "2108395972204056582"
       ]
-    },
-    {
-      "id": "2108329632747639224",
-      "desk": "business",
-      "line": "Senator Bernie Sanders lists the networks and studios that he says one man, David Ellison, now controls after the merger, and calls it oligarchy."
     },
     {
       "id": "2108407946296082723",
@@ -251,6 +233,21 @@
       "id": "2108762890945904948",
       "desk": "music",
       "line": "Tinashe's account says she joined Charli XCX onstage at ACL Weekend 2 for the first live performance of \"Melatonin\". Not checked here."
+    },
+    {
+      "id": "2108475276879610257",
+      "desk": "politics",
+      "line": "Pakistan's prime minister, Shehbaz Sharif, says President Trump helped bring Pakistan and India back from the brink and secure a ceasefire, and that Pakistan had nominated him for the Nobel Peace Prize. He hopes the effort is recognised this time. Not checked here."
+    },
+    {
+      "id": "2108753576361148612",
+      "desk": "politics",
+      "line": "Republicans against Trump posts what it says is Trump's statement that the US, represented by him, should have received the Nobel Peace Prize, calling the decision a stain on Norway. The post is text over an image. The wording matches press reports of his rally remarks."
+    },
+    {
+      "id": "2108864545452142708",
+      "desk": "sports",
+      "line": "Formula 1's account announces that Max Verstappen won the sprint race at the Singapore Grand Prix."
     }
   ]
 }

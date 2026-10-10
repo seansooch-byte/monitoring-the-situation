@@ -1,0 +1,58 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-09-pillay-nobel-trump-icc",
+  "title": "Navi Pillay wins the Nobel Peace Prize; Trump attacks the choice, and the US sanctions the ICC",
+  "dek": "Three things landed within a day of each other: a peace prize for an international-law judge, a president saying he should have had it, and sanctions on the court she once served on.",
+  "desks": [
+    "politics",
+    "world"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-09T08:30:54Z",
+  "updated_at": "2026-10-10T11:30:00Z",
+  "what": [
+    "On Friday 9 October the Norwegian Nobel Committee announced that the 2026 Nobel Peace Prize goes to Navanethem \"Navi\" Pillay of South Africa, for her efforts to promote peace and international law. Reports say she is a former judge of the International Criminal Court (ICC) and a former UN High Commissioner for Human Rights, and still sits on the International Court of Justice.",
+    "Earlier that day, Pakistan's prime minister Shehbaz Sharif posted that Pakistan had nominated President Trump for the prize, credited him with helping secure a ceasefire between India and Pakistan, and said he hoped Trump's efforts would be recognised \"this time\". The nomination is Sharif's claim. I did not check it.",
+    "At a rally in Syracuse, New York, on Friday, Trump said the United States, \"represented by me as your president, should have received the Nobel Peace Prize, but didn't.\" RTÉ reports he also said \"I never heard of this particular person, but congratulations anyway\", and called the decision an \"indelible stain on the country of Norway\". The Norwegian Nobel Committee is independent of the Norwegian government.",
+    "Hours after the prize was announced, Secretary of State Marco Rubio announced US sanctions on the ICC as an institution. Earlier US sanctions named individual judges and prosecutors. Rubio said: \"We will ban transactions with this rogue court, cutting off their resources and crippling its ability to operate.\" Reports say the administration cites the court's arrest warrants for Israel's prime minister and its past inquiries into US troops in Afghanistan.",
+    "The ICC called the sanctions an \"assault on the rule of law\". The European Union called them \"deeply regrettable\", according to Ynet's report. I found no official text of the sanctions order, so what they cover in practice is not confirmed here."
+  ],
+  "why": "A prize, a president's grievance and a sanctions order arrived the same day and all touch the same question: who judges war crimes. Posts about each are being shared as if they were one story.",
+  "next": "The sanctions order itself, when published, will show which transactions are banned and for whom.",
+  "posts": [
+    {
+      "id": "2108482846449189371",
+      "role": "official"
+    },
+    {
+      "id": "2108475276879610257",
+      "role": "voice"
+    },
+    {
+      "id": "2108753576361148612",
+      "role": "voice"
+    },
+    {
+      "id": "2108565647667904647",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "RTÉ: 'Stain' on Norway for not awarding me Nobel Prize - Trump",
+      "url": "https://www.rte.ie/news/2026/1010/1594802-us-nobel-pillay/"
+    },
+    {
+      "label": "Ynet: Trump sanctions entire ICC over Netanyahu warrant hours after former judge wins Nobel Peace Prize",
+      "url": "https://www.ynetnews.com/article/sjwqk008ife"
+    },
+    {
+      "label": "UN News: Former UN human rights chief Navi Pillay awarded Nobel Peace Prize",
+      "url": "https://news.un.org/en/story/2026/10/1168558"
+    },
+    {
+      "label": "NobelPrize.org: Nobel Peace Prize 2026 press release",
+      "url": "https://www.nobelprize.org/prizes/peace/2026/press-release/"
+    }
+  ]
+}
