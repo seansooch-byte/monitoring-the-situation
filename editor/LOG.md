@@ -302,3 +302,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Schefter and Chappell posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the grabber's record stores retweet text with the "RT @user:" prefix and X does not, so every Musk retweet mismatches. The 1603Z capture's 40 posts were a different set from the pulse, so the pulse relies on older captures.
+
+## 2026-10-10T17:25Z
+- Captures read: 1708Z. Last read: 1708Z.
+- X's check: 1708Z 37 confirmed, 0 missing, 0 mismatched, 1 withheld (an old_content post, not used). No new mismatches.
+- Pulse: 45 items, unchanged (0 new, 0 dropped). All 45 are confirmed and inside 36 hours; the oldest is the Bayern post from 06:00Z on 9 October. The 1708Z capture held nothing larger that may be shown.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: the Tom Cruise post (a link only, no media description, point unclear); the Truthout post on Mike Johnson (aggregator headline, small, politics already full); the Mississauga mayor clip (claim unchecked, small); the travisakers execution post (opinion, no checkable point); "house or dog" bait, sexual, fandom, meme and old_content posts; the F1 front-row post (sports already full).
+- Requests: none changed. The watch list already covers every pulse item.
+- Shipped: see report.
+- For the main editor: nothing new. The 1708Z capture's 38 posts again barely overlap the pulse, so the pulse still rests on earlier captures.
