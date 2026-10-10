@@ -142,3 +142,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the four new pulse posts. open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Watcher Guru claim about Anthropic is worth a story-pass check.
+
+## 2026-10-10T01:15Z
+- Captures read: 0101Z. Last read: 0101Z.
+- X's check: 0101Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items on 20 desks (2 new, 2 dropped; none older than 36 hours). Added: CNN on Mike Ditka's death (sports), Dissident Wire on Trump and cocaine legalization (internet, marked not checked). Dropped: Sengun triple-double and the Amanda the Adventurer film post (small, desks still held).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Seth Day abuse-charge post (accusation about a named person, involves a minor); the "Sam arrested" LELDF post and the "Sofia vent art" post (private people); TikTok and meme posts; the traffic-stop clip (private people); the Becky Armstrong post (private person); Bloodaxe trailer, Mike Flanagan, NFL injury news (desks full or small); old_content posts.
+- Requests: watch list holds the two new pulse posts. open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a "request from Sean" (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Dissident Wire cocaine claim is worth a story-pass check.
