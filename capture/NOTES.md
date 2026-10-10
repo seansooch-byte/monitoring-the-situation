@@ -65,6 +65,7 @@ Sources are the sweep families each post was listed under (a post can count for 
 
 Format: `date | reads used | posts kept | >1M | >5M | >10M | largest | median | median age (h) | per source: largest / median`
 
+- 2026-10-10 (partial, through 0135Z) | 71 | 256 | 54 | 11 | 2 | 54254931 | 257313 | 12.13 | references: 54254931 / 235543; sensors: 8887990 / 125100; trend names: 434872 / 62093; quote and repost streams: 54254931 / 497267; story clusters: 1038552 / 89131; desk streams: 1015039 / 162660; context and requests: n/a
 - 2026-10-09 | 448 | 1078 | 177 | 26 | 13 | 52440874 | 255895 | 10.37 | references: n/a; sensors: 9903955 / 340744; trend names: 752096 / 752096; quote and repost streams: 52440874 / 377540; story clusters: n/a; desk streams: 40895900 / 254587; context and requests: 39941900 / 758
 - 2026-10-09: run 2026-10-09T1011Z lean overnight (6 AM ET): 15 X reads (806 to 791 left today). Watch 400; trends US+WW; quote/repost word "it"; hourly desks; trend stream Navi Pillay (Nobel Peace Prize). No volume/stories/sensors/context/media descriptions. Excluded NSFW/sexual/minor/piracy ids including 2108124415762592123 and 2108366539439411593.
 
@@ -86,3 +87,22 @@ passed here for the editor to decide and make:
    in `contract/GRABBER.md` and the grabber will follow it.
 
 - 2026-10-10: run 2026-10-10T0101Z evening (9:01 PM ET / 01 UTC): 17 X reads (983 to 966 left today). Watch 239; trends US+WW; quote/repost word "this" (2+1); sensors culture/sports/online; hourly desks; trend stream #SmackDown; screen 100 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. Skipped sexual/graphic ids. SKIP/SKIP_ALL absent on pipeline.
+
+## Evening side-by-side 2026-10-10T0135Z
+
+- 2026-10-10: evening side-by-side, run 2026-10-10T0135Z (about 9:35 PM ET / 01 UTC). Run total 38 X reads (967 to 929 left today). "Candidates" = distinct originals under 24h after spam screening (with a saved record). Views/ages at ~01:41Z. Watch + trends first; sensors news/sports/culture; trend streams for Putin/Louisville/Angel Reese/Igor/Norvell (prior capture empty); quote `the`+`this` + repost `the`; story clusters viral+four hourly desks; desk repost streams for those desks. Skipped volume/context/media descriptions. First 5 `search_news` calls lacked `cluster_posts_results` (wasted +5 reads) and were redone; referenced origins often lack authors until a by-id pass (trend tops +1, clearing repost origins +1).
+- Table (a post found by several sources counts for each):
+
+| Source | Reads | Candidates | Kept | Largest | Median | Median age (h) |
+|---|---|---|---|---|---|---|
+| references | 0 | 329 | 120 | 54,254,931 | 235,543 | 8.66 |
+| sensors | 3 | 70 | 22 | 8,887,990 | 125,100 | 1.35 |
+| trend names | 6 | 97 | 20 | 434,872 | 62,093 | 1.55 |
+| quote stream | 2 | 32 | 3 | 54,254,931 | 905,811 | 7.55 |
+| repost stream | 2 | 19 | 6 | 412,545 | 88,723 | 7.42 |
+| story clusters | 5 | 50 | 12 | 1,038,552 | 89,131 | 20.75 |
+| desk repost streams | 4 | 86 | 11 | 1,015,039 | 162,660 | 5.48 |
+
+- Comparison vs night run 2026-10-09T0615Z: overlap of kept ids = 2 (2024898302035067174, 2108376131108041026). Biggest fresh under-24h post this evening: 54,254,931 views (elonmusk 2108604227643719745, age 8.63h) via references, quote stream. Night's biggest fresh was 5.3M via story clusters (old method). GRABBER.md ranking (refs → sensors → trends → quote → repost → stories → desks) only partly holds at this busy hour: quote stream has the highest median; references still find the biggest and a strong median; sensors still strong; trend names still freshest (median age 1.55h) but lower median views; story clusters weaker on under-24h kept (median age 20.75h, only 12 kept after screening budget); desk streams mid; repost stream recovered after author by-id. Run both methods until more evening samples exist.
+- 2026-10-10: run 2026-10-10T0135Z evening side-by-side (9:35 PM ET / 01 UTC): 38 X reads (967 to 929 left today). Watch 246; trends US+WW; sensors news/sports/culture; trend streams Putin/Louisville/Angel Reese/Igor/Norvell; quote the+this + repost the; story clusters (5+5 reads); desk streams four hourly; screen 323 + trend/repost author by-id. No volume/context/media descriptions. Skipped sexual/graphic ids including 2108586677908435200 (Charlie Kirk murder video) and prior EXCLUDE list ids. Checker PASS (190 posts, 415 observations).
+- Pace floor this run: 23 kept posts under 3 hours old that cleared on pace (<100k views and <2k likes). Fastest: DiscussingFilm 2108722243249258618, 66,415 views at 0.812h, about 81,741 views/hour.
