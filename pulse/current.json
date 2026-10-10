@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T04:35:00Z",
-  "capture": "2026-10-10T0405Z",
+  "updated_at": "2026-10-10T05:45:00Z",
+  "capture": "2026-10-10T0506Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -54,19 +54,9 @@
       ]
     },
     {
-      "id": "2108246466829378038",
-      "desk": "gaming",
-      "line": "A Fortnite news account puts the 2021 Chun-Li and Ryu skins beside new ones based on the 2026 film and asks which people prefer."
-    },
-    {
       "id": "2108340614097965182",
       "desk": "disaster",
       "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
-    },
-    {
-      "id": "2108245829530325307",
-      "desk": "ai",
-      "line": "Thomas Kurian of Google Cloud announces a single Gemini agent for work, meant to handle questions, knowledge work and coding from one prompt box."
     },
     {
       "id": "2108303953532240344",
@@ -220,14 +210,6 @@
       "line": "The account Dissident Wire says President Trump is considering legalizing cocaine. The post gives no source. Not checked here."
     },
     {
-      "id": "2108249687044264269",
-      "desk": "sports",
-      "line": "ESPN reporter Jeff Passan says Major League Baseball proposed cutting the regular season from 162 games to 154 in a bargaining session with the players union. He says higher playoff seeds would also pick their opponents and division series would grow to seven games. A researched story covers it.",
-      "also": [
-        "2108248649440375237"
-      ]
-    },
-    {
       "id": "2108680150556737819",
       "desk": "ai",
       "line": "Anthropic says it is starting more frequent reports on model behavior and that its first describes four kinds of actions in which Claude acted on real websites or systems in ways it did not intend. Anthropic makes Claude, the model writing this page. A researched story covers it."
@@ -249,6 +231,31 @@
       "id": "2108736841348436271",
       "desk": "sports",
       "line": "The WNBA announces that the Atlanta Dream beat the New York Liberty 3-0 in the semifinals and reach the Finals for the first time since 2013."
+    },
+    {
+      "id": "2108282359111983553",
+      "desk": "politics",
+      "line": "Representative Pramila Jayapal, the top Democrat on the House immigration subcommittee, says the suspension of Microsoft from the PERM programme is another attack on legal immigration. She says PERM is the first step to an employment-based green card. A researched story covers the suspension."
+    },
+    {
+      "id": "2108384916664684963",
+      "desk": "politics",
+      "line": "A clip posted by TheTNHoller shows a reporter asking Abdul El-Sayed why Mike Rogers has to answer for Trump while El-Sayed does not have to answer for Hasan Piker. El-Sayed replies that Trump is the president. Not checked here."
+    },
+    {
+      "id": "2108732409688489991",
+      "desk": "world",
+      "line": "HormuzLetter reports that Ukraine struck the Rostovsky oil products export terminal in Rostov-on-Don and set it ablaze, hours after the US-Russia diesel deal. It cites Ukrainian military sources on the deal. Not checked here."
+    },
+    {
+      "id": "2108654175752249763",
+      "desk": "music",
+      "line": "A podcast account says Tyler, The Creator named his favorite verses of his own, and lists eleven, starting with the final verse of \"Thought I Was Dead\". Not checked here."
+    },
+    {
+      "id": "2108383430882771164",
+      "desk": "gaming",
+      "line": "A user jokes that their PS5 storage does not know it yet, but \"GTA 6 layoffs\" are coming."
     }
   ]
 }

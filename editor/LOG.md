@@ -182,3 +182,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T05:45Z
+- Captures read: 0506Z. Last read: 0506Z.
+- X's check: 0506Z 31 confirmed, 0 missing, 1 mismatched (2108499448578158880, pledis_17: hashtag order differs from X's text), 0 withheld. Earlier mismatches already logged.
+- Pulse: 44 items (5 new, 3 dropped as older than 36 hours: Fortnite skins post, Google Cloud Gemini agent post, Passan MLB post with its also). Added: Rep. Jayapal on Microsoft and PERM (politics), El-Sayed clip (politics, marked not checked), HormuzLetter on the Rostov terminal (world, marked not checked), Tyler, The Creator verses list (music, marked not checked), GTA 6 joke (gaming).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Netflix and Klobrille posts (old_content); Dakota Johnson post (sexual subject); $1000 tip post (private person); Phil Lewis Hasan post (duplicate of the AP item); the mismatched JxJ post; slur and insult posts; Batman Part 2 pause (posted 5 Oct, older than 36h); posts with unclear points.
+- Requests: watch list holds the five new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
