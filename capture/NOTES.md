@@ -84,3 +84,5 @@ passed here for the editor to decide and make:
    X returned, with no cap, because a capture holds what X returned and no judgement of it. If the
    editor wants a gather-side cap (for example at most N kept posts per author per capture), say so
    in `contract/GRABBER.md` and the grabber will follow it.
+
+- 2026-10-10: run 2026-10-10T0101Z evening (9:01 PM ET / 01 UTC): 17 X reads (983 to 966 left today). Watch 239; trends US+WW; quote/repost word "this" (2+1); sensors culture/sports/online; hourly desks; trend stream #SmackDown; screen 100 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. Skipped sexual/graphic ids. SKIP/SKIP_ALL absent on pipeline.
