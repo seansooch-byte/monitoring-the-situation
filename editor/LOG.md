@@ -332,3 +332,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Rupar and Dexerto posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing new.
+
+## 2026-10-10T20:30Z
+- Captures read: 2002Z. Last read: 2002Z.
+- X's check: 2002Z 8 confirmed, 0 missing, 0 mismatched, 0 withheld (the other posts were already confirmed). No new mismatches.
+- Pulse: 45 items (1 new, 1 dropped). Added Elon Musk's new post on Starlink and Ambani in India (world). Dropped the podcast post on Tyler, The Creator's verses (music, among the smallest).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Tom Cruise and Satya Nadella (links only); "house or dog" and X's own "post before you talk yourself out of it" (bait); the brawl, slickback, bride and BTS posts (private people, pile-on or unclear); Musk's electricity post (rests on a quoted post not captured); WatcherGuru on the XRP Ledger flaw (no source, unchecked); Nebraska, Man Utd and Ferguson posts (sports already full); the Cecile Eledge post (private person); "my plan b is always suicide" (self-harm); sexual, fandom and meme posts.
+- Requests: watch list gained the new Musk post. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing new.
