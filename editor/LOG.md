@@ -262,3 +262,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the SpaceX, BBC and Yadav posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: for a story pass, the Nord Stream trial coverage (BBC, German police, Ukraine) has no checked source yet.
+
+## 2026-10-10T13:35Z
+- Captures read: 1302Z. Last read: 1302Z.
+- X's check: 1302Z 37 confirmed, 0 missing, 0 mismatched, 2 withheld. No new mismatches.
+- Pulse: 45 items (2 new, 2 dropped: RapSheet and TheTNHoller posts, both about to pass 36 hours). Added: Formula 1 video of the Norris and Piastri sprint collision (sports), Schefter's ESPN tribute to Mike Ditka with Ari Meirov's death post in also (sports, marked not checked).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Piers Morgan on Carragher (point depends on context I cannot see); Arsenal team news (promotion); Cole Palmer stream (promotion); Knicks extension talks (sports already full); Cowboys stadium employee clips (private individual flag); Mourinho quotes (sports already full); fandom, relationship-story and meme posts; the "mother of a 6-year-old" post (private person).
+- Requests: watch list gained the F1, Schefter and Meirov posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.

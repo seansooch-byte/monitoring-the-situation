@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T12:45:00Z",
-  "capture": "2026-10-10T1207Z",
+  "updated_at": "2026-10-10T13:35:00Z",
+  "capture": "2026-10-10T1302Z",
   "items": [
     {
       "id": "2108697452568023410",
@@ -17,14 +17,6 @@
       "id": "2108738606135206246",
       "desk": "sports",
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
-    },
-    {
-      "id": "2108376300209807419",
-      "desk": "sports",
-      "line": "From Thursday night's Buccaneers game at the Cowboys: Bucky Irving's 72 yard run, and an interception by Alex Anzalone.",
-      "also": [
-        "2108395972204056582"
-      ]
     },
     {
       "id": "2108407946296082723",
@@ -137,11 +129,6 @@
       "line": "The WNBA announces that the Atlanta Dream beat the New York Liberty 3-0 in the semifinals and reach the Finals for the first time since 2013."
     },
     {
-      "id": "2108384916664684963",
-      "desk": "politics",
-      "line": "A clip posted by TheTNHoller shows a reporter asking Abdul El-Sayed why Mike Rogers has to answer for Trump while El-Sayed does not have to answer for Hasan Piker. El-Sayed replies that Trump is the president. Not checked here."
-    },
-    {
       "id": "2108732409688489991",
       "desk": "world",
       "line": "HormuzLetter reports that Ukraine struck the Rostovsky oil products export terminal in Rostov-on-Don and set it ablaze, hours after the US-Russia diesel deal. It cites Ukrainian military sources on the deal. Not checked here."
@@ -249,6 +236,19 @@
       "id": "2108783134439297454",
       "desk": "world",
       "line": "BBC World posts a link to its report on the Nord Stream trial, headlined \"How German police followed the evidence - to Ukraine\". The report itself is not checked here."
+    },
+    {
+      "id": "2108865673942167802",
+      "desk": "sports",
+      "line": "Formula 1's account posts a video of what it calls the moment Lando Norris and Oscar Piastri collide in the Singapore Grand Prix sprint."
+    },
+    {
+      "id": "2108656083669799335",
+      "desk": "sports",
+      "line": "NFL reporter Adam Schefter shares ESPN's video tribute to Mike Ditka. A second post, by Ari Meirov, says Ditka has died at 86. Not checked here.",
+      "also": [
+        "2108574643644703042"
+      ]
     }
   ]
 }
