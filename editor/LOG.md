@@ -322,3 +322,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Sky News and Visegrad 24 posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the Yorkshire tiger death and Trump's remarks on Ukraine's president are worth a story-pass look.
+
+## 2026-10-10T19:30Z
+- Captures read: 1907Z. Last read: 1907Z.
+- X's check: 1907Z 34 confirmed, 0 missing, 0 mismatched, 3 withheld. No new mismatches.
+- Pulse: 45 items (2 new, 2 dropped). Added Dexerto on the GTA 6 leaker threat (gaming) and Aaron Rupar's video of Trump on Ukraine's president (politics, marked not checked), the latter replacing Visegrad 24's shorter clip of the same remark. Dropped the Dissident Wire cocaine post (no source) and the Visegrad 24 clip.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: PopBase on detentions at India's "Cockroach" protest (aggregator, claims unchecked; worth a story-pass look with Rajdeep Sardesai's post on a related detention); Man Utd/Spurs score and Luke Shaw posts (sports already full); old_content, sexual, bait, religion-insult, fandom and meme posts.
+- Requests: watch list gained the Rupar and Dexerto posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing new.
