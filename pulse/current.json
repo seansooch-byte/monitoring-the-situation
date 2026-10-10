@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T09:25:00Z",
-  "capture": "2026-10-10T0905Z",
+  "updated_at": "2026-10-10T10:35:00Z",
+  "capture": "2026-10-10T1005Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -27,15 +27,6 @@
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
     },
     {
-      "id": "2108306315093119299",
-      "desk": "justice",
-      "line": "An AP alert: the Pentagon says it will livestream the firing squad execution of Nidal Hasan, convicted of the 2009 Fort Hood shooting. CBS News puts the date at 3 December, and Pete Hegseth answered that report with one word.",
-      "also": [
-        "2108328557550182559",
-        "2108344900165263476"
-      ]
-    },
-    {
       "id": "2108321181602353333",
       "desk": "ai",
       "line": "A joke from Elon Musk about AI safety: the labs have agreed to move all testing onto Delta flights, where the internet cannot be reached."
@@ -46,22 +37,12 @@
       "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
     },
     {
-      "id": "2108303953532240344",
-      "desk": "business",
-      "line": "A film news account relays a Variety report that David Zaslav receives a $606 million payout from the Paramount and Warner Bros. merger."
-    },
-    {
       "id": "2108376300209807419",
       "desk": "sports",
       "line": "From Thursday night's Buccaneers game at the Cowboys: Bucky Irving's 72 yard run, and an interception by Alex Anzalone.",
       "also": [
         "2108395972204056582"
       ]
-    },
-    {
-      "id": "2108314679596769598",
-      "desk": "defense",
-      "line": "Paul Graham passes on a point from someone in defence technology: the test of most military hardware now is whether Ukraine's forces want it."
     },
     {
       "id": "2108329632747639224",
@@ -89,20 +70,17 @@
     {
       "id": "2108604227643719745",
       "desk": "world",
-      "line": "Elon Musk follows his earlier Starlink post with a mock-formal letter to \"Prime Minister Ambani\". He apologises for not knowing Ambani is \"the real boss of India\", accuses him of a monopoly, and asks to be allowed to compete, saying Starlink would bring internet to places in India with none. Not checked here.",
-      "also": []
+      "line": "Elon Musk follows his earlier Starlink post with a mock-formal letter to \"Prime Minister Ambani\". He apologises for not knowing Ambani is \"the real boss of India\", accuses him of a monopoly, and asks to be allowed to compete, saying Starlink would bring internet to places in India with none. Not checked here."
     },
     {
       "id": "2108565647667904647",
       "desk": "world",
-      "line": "US Secretary of State Marco Rubio announces that the Trump administration is sanctioning the International Criminal Court. He says allies within the Court should work to end what he calls a threat to US sovereignty. The post carries a video. Not checked here.",
-      "also": []
+      "line": "US Secretary of State Marco Rubio announces that the Trump administration is sanctioning the International Criminal Court. He says allies within the Court should work to end what he calls a threat to US sovereignty. The post carries a video. Not checked here."
     },
     {
       "id": "2108513103734530130",
       "desk": "ai",
-      "line": "A tech account shares a video of NYU mathematician Tristan Buckmaster saying a Tuesday release of 722 AI-generated math papers by OpenAI hurt early career mathematicians. The claims about the release and its effect are his. Not checked here.",
-      "also": []
+      "line": "A tech account shares a video of NYU mathematician Tristan Buckmaster saying a Tuesday release of 722 AI-generated math papers by OpenAI hurt early career mathematicians. The claims about the release and its effect are his. Not checked here."
     },
     {
       "id": "2108625935524303244",
@@ -131,14 +109,12 @@
     {
       "id": "2108641198084682219",
       "desk": "disaster",
-      "line": "Fox News posts surveillance video it says shows floodwaters carrying cars through the streets of Santiago, Chile. It says at least six people are injured and a state of emergency has been declared in Las Condes. Not checked here.",
-      "also": []
+      "line": "Fox News posts surveillance video it says shows floodwaters carrying cars through the streets of Santiago, Chile. It says at least six people are injured and a state of emergency has been declared in Las Condes. Not checked here."
     },
     {
       "id": "2108498371803807866",
       "desk": "entertainment",
-      "line": "The account Film Updates says Aaron Sorkin's film The Social Reckoning now holds a 59% score on Rotten Tomatoes and is in theaters. Not checked here.",
-      "also": []
+      "line": "The account Film Updates says Aaron Sorkin's film The Social Reckoning now holds a 59% score on Rotten Tomatoes and is in theaters. Not checked here."
     },
     {
       "id": "2108662426606395572",
@@ -204,11 +180,6 @@
       "line": "A user jokes that their PS5 storage does not know it yet, but \"GTA 6 layoffs\" are coming."
     },
     {
-      "id": "2108315261044445330",
-      "desk": "business",
-      "line": "Elon Musk says he sees \"a path to SpaceX being worth orders of magnitude more than the current Earth economy\". It is his own forecast. Not checked here."
-    },
-    {
       "id": "2108667683315007703",
       "desk": "politics",
       "line": "Journalist Aaron Rupar posts a short clip. In it, he says, a reporter asks President Trump whether he personally approved the livestreamed execution, and Trump answers \"Did I approve? Absolutely I did.\" Not checked here."
@@ -260,6 +231,26 @@
       "id": "2108682188342391022",
       "desk": "politics",
       "line": "Politico reports that Ukraine's President Zelenskyy accuses President Trump of a 'smokescreen' oil deal, as talks to end the war continue. Not checked here."
+    },
+    {
+      "id": "2108482846449189371",
+      "desk": "politics",
+      "line": "The Nobel Prize account announces that the Norwegian Nobel Committee has decided to award the 2026 Peace Prize to Navanethem \"Navi\" Pillay for her efforts to promote peace and international law. Not checked here."
+    },
+    {
+      "id": "2108609764766908772",
+      "desk": "ai",
+      "line": "The Grok Bot account says the bot now has its own email address, and can use it to sign up for services, contact businesses or schedule time with someone. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here."
+    },
+    {
+      "id": "2108714662556577862",
+      "desk": "politics",
+      "line": "Journalist Aaron Rupar posts an 11 second video and quotes President Trump as calling New York Attorney General Letitia James \"a dog\". Not checked here."
+    },
+    {
+      "id": "2108762890945904948",
+      "desk": "music",
+      "line": "Tinashe's account says she joined Charli XCX onstage at ACL Weekend 2 for the first live performance of \"Melatonin\". Not checked here."
     }
   ]
 }

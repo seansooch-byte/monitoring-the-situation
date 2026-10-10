@@ -232,3 +232,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T10:35Z
+- Captures read: 1005Z. Last read: 1005Z.
+- X's check: 1005Z 34 confirmed, 0 missing, 0 mismatched, 1 withheld (2108214354894111077). Earlier mismatches already logged.
+- Pulse: 45 items (4 new, 4 dropped as older than 36 hours: AP, DiscussingFilm, Paul Graham and Musk business posts). Added: Nobel Prize account on the 2026 Peace Prize (politics), Grok Bot email (ai, xAI disclosure), Rupar clip of Trump on Letitia James (politics), Tinashe with Charli XCX (music).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Hillary Clinton "barbaric idea" post (image has no description, point unclear); Mamdani immigration hotline post (phone number and help instructions, close to advice); Delhi "eerie scenes" and NYT Jantar Mantar posts (Delhi already on the pulse, claims unchecked); Shopify connectors (older than 36h); F1 sprint clips and fandom posts; withheld and old_content posts.
+- Requests: watch list holds the four new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
