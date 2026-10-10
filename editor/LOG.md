@@ -222,3 +222,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the four new pulse posts and the also post. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T09:25Z
+- Captures read: 0905Z. Last read: 0905Z.
+- X's check: 0905Z 35 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches already logged.
+- Pulse: 45 items (2 new, 2 dropped as older than 36 hours: Jeremy Diamond hostage thread with its also; HBO Max Crazy Rich Asians). Added: Shashi Tharoor on the Delhi lockdown before a protest, with the ANI video of economist Jean Dreze in also (world, marked not checked); DiscussingFilm poster for Common Side Effects season 2 (entertainment).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Nobel Peace Prize "meltdown" post (unverified framing); Trump-Putin diesel posts from Kristof, Jones, spectatorindex, WarClandestine, Bojic (topic already on the pulse via Politico and White House items); Michelangelus typeface (older than 36h); sleepover post (minor); AnthNFS deportation quote (insult-driven, unclear context); Rathee arrest post (named person, unchecked); Labour by-election candidate post (unchecked claim about a politician); Fox Paris protest investigation (unchecked); F1, fandom and meme posts; old_content post. For a story pass: the Delhi protest called by the Cockroach Janta Party (Tharoor, ANI, Mrsinha, MostlyKohli posts) is large and has no checked source yet.
+- Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.

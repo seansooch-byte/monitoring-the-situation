@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T08:25:00Z",
-  "capture": "2026-10-10T0805Z",
+  "updated_at": "2026-10-10T09:25:00Z",
+  "capture": "2026-10-10T0905Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -34,11 +34,6 @@
         "2108328557550182559",
         "2108344900165263476"
       ]
-    },
-    {
-      "id": "2108301627690283011",
-      "desk": "entertainment",
-      "line": "HBO Max says Crazy Rich Asians will continue as a series, with production starting in 2027 and Constance Wu, Henry Golding, Ronny Chieng and Michelle Yeoh returning."
     },
     {
       "id": "2108321181602353333",
@@ -239,12 +234,17 @@
       "line": "The NBA account posts a video of the actor Jackie Chan at the NBA China Games 2026."
     },
     {
-      "id": "2108246362076938720",
+      "id": "2108809173777399983",
       "desk": "world",
-      "line": "Jeremy Diamond posts a thread on a report about 40 hostages he says were taken alive on Oct 7 and died in captivity. He says 24 of the deaths trace to Israeli military actions, which he says the IDF has acknowledged in many cases. Not checked here.",
+      "line": "Indian politician Shashi Tharoor posts a long statement on Delhi, saying checkpoints, barriers, 22,000 police and paramilitary, 250 cancelled trains, 45 closed metro stations and an internet suspension were used to stop a protest about the integrity of elections. He calls it repression. Not checked here.",
       "also": [
-        "2108246359027462401"
+        "2108828991142724050"
       ]
+    },
+    {
+      "id": "2108722243249258618",
+      "desk": "entertainment",
+      "line": "DiscussingFilm posts the first poster for season 2 of Common Side Effects and says it releases January 24 on Adult Swim."
     },
     {
       "id": "2108505241364635740",
