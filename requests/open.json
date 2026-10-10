@@ -1,7 +1,13 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-10T20:30:00Z",
+  "updated_at": "2026-10-10T21:30:00Z",
   "requests": [
+    {
+      "id": "r-2026-10-10-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the White House, the Ukrainian president's office or foreign ministry, or a named outlet, on whether the US has threatened to cut intelligence sharing with Ukraine over refinery strikes (see post 2108998029600571595). Also the most viewed Ukrainian official replies to President Trump's remark that Ukraine should get a new president."
+    },
     {
       "id": "r-2026-10-09-05",
       "kind": "lookup",

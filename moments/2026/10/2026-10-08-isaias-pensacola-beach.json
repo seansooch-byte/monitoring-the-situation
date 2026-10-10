@@ -1,22 +1,22 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-10-08-isaias-pensacola-beach",
-  "title": "Hurricane Isaias nears the Gulf Coast as a clip from Pensacola Beach travels ahead of it",
-  "dek": "A storm chaser's 20 second video is the most liked post captured on the weather desk. The hurricane behind it is now Category 3 with 120 mph winds, with warnings up from Mississippi to the Florida Panhandle.",
+  "title": "Hurricane Isaias reached the Gulf Coast and is now a post-tropical storm over Alabama",
+  "dek": "A storm chaser's 20 second video was the most liked post captured on the weather desk. The storm that followed it has weakened and is moving inland with flooding rain.",
   "desks": [
     "disaster"
   ],
-  "standing": "developing",
+  "standing": "established",
   "started_at": "2026-10-08T23:35:00Z",
   "what": [
-    "Hurricane Isaias was a Category 3 hurricane at 4 p.m. Central time on Friday 9 October, about 90 miles south of Pensacola, Florida, moving north at 17 mph with top sustained winds of 115 mph, according to the National Hurricane Center (advisory 13). The Center said the middle of the storm was expected to come ashore on the western Florida Panhandle coast that evening. A hurricane warning runs from Ocean Springs, Mississippi, to the Bay and Gulf county line in Florida, and a storm surge warning from the mouth of the Mississippi to the Suwannee River. Earlier advisory 12 had said hurricane-force winds could reach as far as 100 miles inland into southern Alabama; I did not see that line in advisory 13.",
-    "A later bulletin, intermediate advisory 13A, was issued at 7 p.m. Central on Friday 9 October. It put the storm about 45 miles southeast of Pensacola, moving north at 18 mph, with top sustained winds of 110 mph, and said landfall on the western Florida Panhandle coast was expected within the next hour or two. This is the newest advisory I could read. I did not find a later one, so I cannot say whether the storm has come ashore.",
+    "As of advisory 17, issued at 4 p.m. Central on Saturday 10 October, the National Hurricane Center called Isaias a post-tropical cyclone. Its centre was about 5 miles west of Birmingham, Alabama, moving north-northeast at 15 mph with top sustained winds of 30 mph. The advisory names flash flooding as the main hazard, with 3 to 6 inches of rain possible in the southern Appalachians and local amounts near 10 inches, plus gusts and a couple of possible tornadoes.",
+    "Before that, at 4 p.m. Central on Friday 9 October (advisory 13), Isaias was a Category 3 hurricane about 90 miles south of Pensacola, Florida, with 115 mph winds. Intermediate advisory 13A at 7 p.m. put it 45 miles southeast of Pensacola with 110 mph winds and landfall on the western Panhandle coast expected within an hour or two. I did not read the advisories between 13A and 17, so I cannot give the landfall time or place.",
     "On Thursday evening a storm chaser posted a 20 second video from Pensacola Beach with the words \"Are you kidding me right now!\" A meteorologist with 1.3 million followers shared another view of the same evening and called it \"the infamous calm before the storm\". The capture does not describe what the video shows, so this write-up does not either."
   ],
   "why": "People on the coast are posting what they can see, and the clips are travelling faster than the advisories. A second strand is lighter: a Tampa station posted that Florida's governor told a press conference he did not know how to pronounce the storm's name and would call it Isaiah.",
   "worlds": [],
   "common": null,
-  "next": "The Hurricane Center issues a full advisory every six hours and an intermediate one in between. Landfall timing and place are theirs to call, not this page's.",
+  "next": "The Hurricane Center's advisories and local National Weather Service offices carry the flood and tornado warnings.",
   "posts": [
     {
       "id": "2108340614097965182",
@@ -41,7 +41,7 @@
       "url": "https://www.nhc.noaa.gov/text/MIATCPAT4.shtml"
     }
   ],
-  "updated_at": "2026-10-10T02:35:00Z",
+  "updated_at": "2026-10-10T21:30:00Z",
   "corrections": [
     {
       "at": "2026-10-09T17:45:00Z",
@@ -54,6 +54,10 @@
     {
       "at": "2026-10-10T02:35:00Z",
       "text": "Added advisory 13A (7 p.m. Central, Friday 9 October). Top winds are given as 110 mph, down from 115 mph in advisory 13."
+    },
+    {
+      "at": "2026-10-10T21:30:00Z",
+      "text": "Updated to advisory 17 (4 p.m. Central, Saturday 10 October): Isaias is post-tropical over Alabama with 30 mph winds. Replaced the statement that I could not say whether it had come ashore."
     }
   ]
 }

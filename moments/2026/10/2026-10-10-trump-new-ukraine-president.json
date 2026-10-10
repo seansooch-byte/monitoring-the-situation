@@ -1,0 +1,71 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-10-trump-new-ukraine-president",
+  "title": "Trump says it is time for Ukraine to get a new president, and blames Kyiv's refinery strikes for fuel prices",
+  "dek": "The remark came a day after the US eased sanctions on Russian diesel. Viewers describe it very differently, and a claim about US intelligence sharing is circulating with nothing behind it yet.",
+  "desks": [
+    "politics",
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-10T16:47:16Z",
+  "updated_at": "2026-10-10T21:30:00Z",
+  "what": [
+    "On Saturday 10 October, outside the White House before leaving for a rally in Tennessee, President Trump told reporters, \"It's time for Ukraine to get a new president,\" Fox News reports. He also said Ukraine should \"get a new leader who can make a deal\" and that Zelenskyy had \"better damn well stop\" hitting Russian refineries, according to Fox, CBS and the Kyiv Independent. The White House's Rapid Response account posted video of him saying the US had told Zelenskyy he could do what he wanted to Russia but should not hit the refineries because that is \"a world problem\".",
+    "The remarks followed Trump's announcement on Friday that Russia would supply diesel to the US and world markets, and a Treasury license easing sanctions to allow it (see the story on the license). Zelenskyy has called that deal a weak decision that would let Russia fund its war for longer, per CBS News and the Kyiv Independent. His foreign minister, Andriy Sybiha, said he has the support of the Ukrainian people, per CBS.",
+    "Trump blamed Ukrainian strikes for high diesel prices. The Kyiv Independent notes that experts point instead to US-Iran tensions and the closure of the Strait of Hormuz. Former UK prime minister Boris Johnson makes the same argument in a post. I did not find a price source of my own for either account.",
+    "Zelenskyy also posted on Saturday that Russia had hit Kyiv with ballistic missiles after attacks on energy sites, and that allowing Russia to sell oil products sent the wrong signal. CBS reports Russian bombs killed at least 20 people in Zaporizhzhia that day and missiles wounded four in Kyiv.",
+    "One account with about 200,000 followers posted that Trump's envoys Steve Witkoff and Jared Kushner told a Ukrainian team in Miami that US intelligence sharing could be cut off if the refinery strikes continue. I could not find that in any outlet I read, and Fox's report on the remarks does not mention it. Treat it as unconfirmed."
+  ],
+  "why": "It joins three things people feel differently about: the price of fuel, the war, and who should lead Ukraine. A one-sentence clip travels far, and each side adds its own headline.",
+  "worlds": [
+    {
+      "name": "Supporters of the president",
+      "sees": "Trump is pressing Zelenskyy to stop strikes that raise fuel prices and to make a deal, after giving him a free hand elsewhere.",
+      "post": "2108962579825467535"
+    },
+    {
+      "name": "Ukraine's backers",
+      "sees": "Blaming Ukraine for prices that rose with the Hormuz closure is wrong, and easing sanctions on Russian fuel helps pay for a war on civilians.",
+      "post": "2109001821687853171"
+    }
+  ],
+  "common": "Established: Trump said the words above on 10 October, in video several outlets quote. The US did ease sanctions on Russian diesel on 9 October, and Zelenskyy opposes it. Not established: that Ukrainian strikes are the main cause of high diesel prices, which Trump says and the experts quoted by the Kyiv Independent dispute; and that the US has threatened to cut intelligence sharing, which rests on one post. Who leads Ukraine is a matter for Ukraine's own law and voters; I found no election date in the reporting.",
+  "next": "Whether Russian diesel cargoes move under the license, any statement from the White House or Kyiv on intelligence sharing, and Ukraine's reply to the call for a new president.",
+  "posts": [
+    {
+      "id": "2108962579825467535",
+      "role": "origin"
+    },
+    {
+      "id": "2108964287758639480",
+      "role": "official"
+    },
+    {
+      "id": "2108890004868985056",
+      "role": "voice"
+    },
+    {
+      "id": "2109001821687853171",
+      "role": "voice"
+    },
+    {
+      "id": "2108998029600571595",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fox News: Trump calls for Ukraine to replace Zelenskyy after clash over Russia diesel deal",
+      "url": "https://www.foxnews.com/politics/trump-calls-ukraine-replace-zelenskyy-clash-russia-diesel-deal-get-new-president"
+    },
+    {
+      "label": "CBS News: Trump says Ukraine needs a new president, blames Zelenskyy's refinery strikes",
+      "url": "https://www.cbsnews.com/news/russia-strikes-ukraine-trump-diesel-deal/"
+    },
+    {
+      "label": "Kyiv Independent: 'He better damn well stop'",
+      "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/"
+    }
+  ]
+}

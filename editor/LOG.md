@@ -342,3 +342,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the new Musk post. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing new.
+
+## 2026-10-10T21:35Z
+- Captures read: 2002Z, 2107Z. Last read: 2107Z.
+- X's check: 2107Z 20 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1603Z run still shows 9 mismatched, already on record.
+- Pulse: 46 items (1 new: Rapid Response video of Trump on Zelenskyy's refinery strikes; 0 dropped).
+- Added: 2026-10-10-trump-new-ukraine-president (politics, world), 2026-10-10-yorkshire-tiger-death (world). Updated: 2026-10-08-isaias-pensacola-beach (advisory 17, post-tropical, now established), 2026-10-09-russian-diesel-license (Saturday's remarks).
+- Left out: Delhi "Cockroach" protest detentions, Starlink/Ambani, Nord Stream trial, Chile floods, Trump on Letitia James (not researched this pass); tiger video (graphic risk). The intelligence cut-off claim is in the Trump story as unconfirmed, one post only.
+- Requests: added r-2026-10-10-01 (intelligence-sharing claim and Ukrainian replies). Watch list gained the new story posts.
+- Shipped: see report.
+- For the main editor: Fox gave the diesel license end date as April 7, 2026; the existing story says 2027. I did not use Fox's date.

@@ -1,0 +1,39 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-10-yorkshire-tiger-death",
+  "title": "A man dies after entering the tiger enclosure at Yorkshire Wildlife Park",
+  "dek": "South Yorkshire Police confirmed the death. Video of the incident is spreading widely, and this page does not link it.",
+  "desks": [
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-10T17:41:31Z",
+  "updated_at": "2026-10-10T21:30:00Z",
+  "what": [
+    "South Yorkshire Police said emergency services were called shortly after 1.30 p.m. on Saturday 10 October to Yorkshire Wildlife Park, after a man entered the tiger enclosure and was attacked. He was pronounced dead at the scene despite medical efforts, ITV and RTE report the force's statement. His family has been told. The tiger was not hurt and stayed in its enclosure, police said, and there is no wider risk to the public.",
+    "The park says it began its emergency procedures, evacuated visitors and closed. The man has not been named in the reports I read, and this page does not name him.",
+    "How he came to be inside the enclosure has not been explained by police or the park in anything I read. Posts on X offer accounts of it; none is confirmed here."
+  ],
+  "why": "Video taken by visitors reached X within hours, and news accounts, aggregators and commentary posts now travel alongside it. Posts that add lessons or guesses about the man are not facts.",
+  "next": "Police and the park have said nothing yet about the cause or a formal investigation. A later statement would settle how he got in.",
+  "posts": [
+    {
+      "id": "2108976232947646708",
+      "role": "origin"
+    },
+    {
+      "id": "2108977935428592059",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ITV News: Man dies after entering tiger enclosure at Yorkshire Wildlife Park",
+      "url": "https://www.itv.com/news/2026-10-10/man-dies-after-entering-tiger-enclosure-at-yorkshire-wildlife-park"
+    },
+    {
+      "label": "RTE: Man dies after entering tiger enclosure in UK",
+      "url": "https://www.rte.ie/news/world/2026/1010/1594859-tiger-man-injured/"
+    }
+  ]
+}
