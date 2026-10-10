@@ -202,3 +202,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T07:20Z
+- Captures read: 0705Z. Last read: 0705Z.
+- X's check: 0705Z 25 confirmed, 0 missing, 0 mismatched, 6 withheld (2072278480402751795, 2108404348552347664, 2108703963147055351, 2108326355989336292, 2108635205661753545, 2108640138918080902; sexual or old_content). Earlier mismatches already logged.
+- Pulse: 45 items (3 new, 3 dropped as older than 36 hours: Star Wars racing game post, whooping crane post, Love Language trailer). Added: ESPN on Gabby Williams and the Valkyries (sports), Anime Updates on the Chainsaw Man Grammy submission (entertainment, marked not checked), NBA clip of Jackie Chan (sports).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Cyberpunk 2077 film post (older than 36h); Valkyrae gossip post (about two named people, unchecked); "Musk" film review post (opinion, speaker not identified); Trump strike on Iran posts (aggregator, speculation); EndWokeness execution post (point unclear); Blumhouse slate image (no description of the image); Muslims insult post; Adult Swim ad; sexual and withheld posts.
+- Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.

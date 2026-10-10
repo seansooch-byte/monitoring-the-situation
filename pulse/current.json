@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T06:12:04Z",
-  "capture": "2026-10-10T0606Z",
+  "updated_at": "2026-10-10T07:20:00Z",
+  "capture": "2026-10-10T0705Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -56,22 +56,12 @@
       "line": "A film news account relays a Variety report that David Zaslav receives a $606 million payout from the Paramount and Warner Bros. merger."
     },
     {
-      "id": "2108269524021829782",
-      "desk": "offbeat",
-      "line": "A post recalling how captive-bred whooping cranes, with no wild adults left to teach them the way, were led south by pilots in crane costumes flying ultralight aircraft."
-    },
-    {
       "id": "2108376300209807419",
       "desk": "sports",
       "line": "From Thursday night's Buccaneers game at the Cowboys: Bucky Irving's 72 yard run, and an interception by Alex Anzalone.",
       "also": [
         "2108395972204056582"
       ]
-    },
-    {
-      "id": "2108264478727082332",
-      "desk": "gaming",
-      "line": "A player of the new Star Wars racing game on what it says about a nine year old Anakin Skywalker. Strong language."
     },
     {
       "id": "2108314679596769598",
@@ -102,11 +92,6 @@
       "id": "2108437304142430539",
       "desk": "sports",
       "line": "Fabrizio Romano relays Karl-Heinz Rummenigge saying Michael Olise and Harry Kane both intend to stay at Bayern for a long time. He says he hopes Kane extends his contract soon, with Olise next."
-    },
-    {
-      "id": "2108270743201145282",
-      "desk": "entertainment",
-      "line": "A film news account shares the first trailer for Love Language, a romantic comedy with Chloë Grace Moretz, Anthony Ramos and Manny Jacinto. The post says it is out on digital on 23 October."
     },
     {
       "id": "2108575881996210210",
@@ -258,6 +243,21 @@
       "id": "2108643598975783250",
       "desk": "sports",
       "line": "In Arabic, the sports channel Thmanyah says Coman has scored Al Nassr's third goal against Al Diriyah in the Saudi league, and posts a clip."
+    },
+    {
+      "id": "2108774257459114194",
+      "desk": "sports",
+      "line": "ESPN posts a 27 second video it says shows Gabby Williams hitting a \"dagger\" to send the Golden State Valkyries to the WNBA Finals."
+    },
+    {
+      "id": "2108746252577837336",
+      "desk": "entertainment",
+      "line": "The account Anime Updates says the Chainsaw Man theme song \"Iris Out\", by Kenshi Yonezu, is the first anime song submitted for the Grammys, in Best Asian Pop Music Performance and Best Song Written for Visual Media. Not checked here."
+    },
+    {
+      "id": "2108535458812842267",
+      "desk": "sports",
+      "line": "The NBA account posts a video of the actor Jackie Chan at the NBA China Games 2026."
     }
   ]
 }
