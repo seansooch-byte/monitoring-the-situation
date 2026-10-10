@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T13:35:00Z",
-  "capture": "2026-10-10T1302Z",
+  "updated_at": "2026-10-10T14:35:00Z",
+  "capture": "2026-10-10T1403Z",
   "items": [
     {
       "id": "2108697452568023410",
@@ -188,9 +188,12 @@
       "line": "The Nigerian paper Vanguard reports that petrol has reached N1,900 a litre as depot prices rise despite a cut by NNPC. Not checked here."
     },
     {
-      "id": "2108682188342391022",
-      "desk": "politics",
-      "line": "Politico reports that Ukraine's President Zelenskyy accuses President Trump of a 'smokescreen' oil deal, as talks to end the war continue. Not checked here."
+      "id": "2108890004868985056",
+      "desk": "world",
+      "line": "Ukraine's President Zelenskyy says Russia followed attacks on energy sites with a ballistic missile strike on Kyiv, some missiles intercepted, and that allowing Russia to sell oil products sends the wrong signal. He asks the US and Europe to restrict Russia. Not checked here.",
+      "also": [
+        "2108682188342391022"
+      ]
     },
     {
       "id": "2108482846449189371",

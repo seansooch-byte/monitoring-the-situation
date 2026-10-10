@@ -272,3 +272,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the F1, Schefter and Meirov posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T14:35Z
+- Captures read: 1403Z. Last read: 1403Z.
+- X's check: 1403Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches.
+- Pulse: 45 items (1 swapped, 0 dropped for age). Zelenskyy's own post on the Kyiv missile strike (world) replaces the Politico item on the same subject, which moves to its also.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: KobeissiLetter on Trump's Nobel statement (pulse already has the Nobel items); WatcherGuru on China and a blockchain network (unchecked claim); Imran Khan detention (unchecked); Checo reaction clip (sports already full); Seth Day charge post (accused person and a minor); Foley post (graphic reference); fandom, meme and promotion posts.
+- Requests: watch list gained the Zelenskyy post. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
