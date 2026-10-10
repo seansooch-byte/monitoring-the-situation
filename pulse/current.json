@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T03:20:00Z",
-  "capture": "2026-10-10T0308Z",
+  "updated_at": "2026-10-10T04:35:00Z",
+  "capture": "2026-10-10T0405Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -36,24 +36,6 @@
       ]
     },
     {
-      "id": "2108232824520319175",
-      "desk": "ai",
-      "line": "Elon Musk promotes a new feature of Grok Bot, his company's AI agent, which can now help run a Shopify store. Worth knowing as you read it: Grok also gathers the posts for this site.",
-      "also": [
-        "2108228871938359347"
-      ]
-    },
-    {
-      "id": "2108216880976773548",
-      "desk": "offbeat",
-      "line": "A 21 second clip of performers stacked in a towering human pyramid, posted with a caption in Chinese. Read it with care: X's own story on the clip says fact-checkers found it to be AI-generated. That has not been checked here."
-    },
-    {
-      "id": "2108217063860826555",
-      "desk": "sports",
-      "line": "Paris Saint-Germain says, in French, that Ousmane Dembélé and Nuno Mendes have been given a rest period and will return to training on Saturday 10 and Sunday 11 October."
-    },
-    {
       "id": "2108301627690283011",
       "desk": "entertainment",
       "line": "HBO Max says Crazy Rich Asians will continue as a series, with production starting in 2027 and Constance Wu, Henry Golding, Ronny Chieng and Michelle Yeoh returning."
@@ -80,11 +62,6 @@
       "id": "2108340614097965182",
       "desk": "disaster",
       "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
-    },
-    {
-      "id": "2108217495563739470",
-      "desk": "politics",
-      "line": "A Fox News clip of reporters questioning New York's mayor, Zohran Mamdani, about his statement on October 7. The description of the exchange in the post is Fox's own."
     },
     {
       "id": "2108245829530325307",
@@ -125,11 +102,6 @@
       "line": "James Blunt's four word answer to someone who posted that they did not want to hear him speak."
     },
     {
-      "id": "2108225984533352725",
-      "desk": "ideas",
-      "line": "The New Yorker shares a 2024 clip of Anne Carson, who was awarded the Nobel Prize in Literature on Thursday, giving a book recommendation and writing advice."
-    },
-    {
       "id": "2108277881466196021",
       "desk": "markets",
       "line": "The Treasury sold $22 billion of 30-year bonds at 5.618 percent, the highest yield at a 30-year auction since August 2000."
@@ -165,14 +137,6 @@
       "line": "Reporter Adam Schefter says Mike Ditka, Hall of Fame tight end and head coach of the 1985 Bears, has died, his family announced. He was 86. The AP also reports it.",
       "also": [
         "2108584126420844732"
-      ]
-    },
-    {
-      "id": "2108224420460241076",
-      "desk": "politics",
-      "line": "Fox News reports that the Trump administration is suspending Microsoft, Adobe and several large IT outsourcing firms from an employment-based green card programme, accusing them of abusing the visa system. Our story has what press reports add.",
-      "also": [
-        "2108208498496413711"
       ]
     },
     {
@@ -272,6 +236,19 @@
       "id": "2108603591699448028",
       "desk": "markets",
       "line": "The account Watcher Guru says AT&T, Verizon and T-Mobile stocks continue to fall after SpaceX announced plans to make Starlink a major US mobile carrier. A researched story covers the spectrum purchase behind it."
+    },
+    {
+      "id": "2108612939842511217",
+      "desk": "ai",
+      "line": "Elon Musk says Grok's @Bot account can now set up its own email, in a post quoting Andrew Milich asking the bot to do so. Grok is made by xAI, the company that also gathers the posts for this site. Not checked here.",
+      "also": [
+        "2108610351269134546"
+      ]
+    },
+    {
+      "id": "2108736841348436271",
+      "desk": "sports",
+      "line": "The WNBA announces that the Atlanta Dream beat the New York Liberty 3-0 in the semifinals and reach the Finals for the first time since 2013."
     }
   ]
 }

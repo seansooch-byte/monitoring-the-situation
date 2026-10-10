@@ -172,3 +172,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T04:35Z
+- Captures read: 0405Z. Last read: 0405Z.
+- X's check: 0405Z 34 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches already logged.
+- Pulse: 42 items (2 new, 6 dropped as older than 36 hours: Grok Bot Shopify post, human pyramid clip, PSG, Fox clip of the mayor, New Yorker Anne Carson clip, Fox on the suspension). Ideas has nothing to show now. Added: Musk on Grok's @Bot email with the Milich post in also (ai, company link stated), WNBA on the Dream reaching the Finals (sports).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Venezuela Starlink approval post (promotional account, unchecked); Maye Musk Cybercab post (promotion); Hasan post on "racism" (target unclear); Trump rally and Syracuse posts (small); Austin downtown post (private person); insult and sexual posts; old_content posts.
+- Requests: watch list holds the new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
