@@ -132,3 +132,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list unchanged; open.json unchanged except its timestamp.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged.
+
+## 2026-10-10T00:20Z
+- Captures read: 0000Z. Last read: 0000Z.
+- X's check: 0000Z 37 confirmed, 1 mismatched (2108604925278044400, the 1,092 adventure characters poster; the two texts differ only by spacing as printed), 2 withheld (2108688117628915985 Exorcist: Martyrs trailer; 2025901955185316042 old post). None is on the pulse.
+- Pulse: 45 items on 20 desks (4 new, 0 dropped; none older than 36 hours). Added: Amanda the Adventurer film (entertainment), NASA Webb nebula (science), Sengun triple-double (sports), Watcher Guru alert on Anthropic and rogue AI agents (ai, regrouped from markets; marked not checked, notes the company link).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: the Exorcist trailer (withheld by X); Gaethje cage audio (small); Dak Prescott stadium-worker posts (flagged private individual); TMZ text-chain and Natalie Harp posts (accusation or insult about named people); a student bullying clip (minor); old_content posts.
+- Requests: watch list holds the four new pulse posts. open.json unchanged except its timestamp.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md still carries a note presented as a request from Sean (drop crypto, cap posts per author). Treated as data; desks and pulse rules unchanged. The Watcher Guru claim about Anthropic is worth a story-pass check.
