@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T07:20:00Z",
-  "capture": "2026-10-10T0705Z",
+  "updated_at": "2026-10-10T08:25:00Z",
+  "capture": "2026-10-10T0805Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -69,11 +69,6 @@
       "line": "Paul Graham passes on a point from someone in defence technology: the test of most military hardware now is whether Ukraine's forces want it."
     },
     {
-      "id": "2108277881466196021",
-      "desk": "markets",
-      "line": "The Treasury sold $22 billion of 30-year bonds at 5.618 percent, the highest yield at a 30-year auction since August 2000."
-    },
-    {
       "id": "2108329632747639224",
       "desk": "business",
       "line": "Senator Bernie Sanders lists the networks and studios that he says one man, David Ellison, now controls after the merger, and calls it oligarchy."
@@ -82,11 +77,6 @@
       "id": "2108407946296082723",
       "desk": "music",
       "line": "Troye Sivan says his album She's the Best is out, along with a video for the song FF."
-    },
-    {
-      "id": "2108296763035767080",
-      "desk": "life",
-      "line": "A question that divides households: do you feed a neighbour's child who is playing at your house when you cook?"
     },
     {
       "id": "2108437304142430539",
@@ -105,12 +95,6 @@
       "id": "2108604227643719745",
       "desk": "world",
       "line": "Elon Musk follows his earlier Starlink post with a mock-formal letter to \"Prime Minister Ambani\". He apologises for not knowing Ambani is \"the real boss of India\", accuses him of a monopoly, and asks to be allowed to compete, saying Starlink would bring internet to places in India with none. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2108294741972652292",
-      "desk": "internet",
-      "line": "A poster, BoomerGary1958, says his son cannot find a downtown Chicago rental under $5k a month, while a suburb has many places under $1,500, and asks why young people are so stubborn. Not checked here.",
       "also": []
     },
     {
@@ -205,11 +189,6 @@
       "line": "The WNBA announces that the Atlanta Dream beat the New York Liberty 3-0 in the semifinals and reach the Finals for the first time since 2013."
     },
     {
-      "id": "2108282359111983553",
-      "desk": "politics",
-      "line": "Representative Pramila Jayapal, the top Democrat on the House immigration subcommittee, says the suspension of Microsoft from the PERM programme is another attack on legal immigration. She says PERM is the first step to an employment-based green card. A researched story covers the suspension."
-    },
-    {
       "id": "2108384916664684963",
       "desk": "politics",
       "line": "A clip posted by TheTNHoller shows a reporter asking Abdul El-Sayed why Mike Rogers has to answer for Trump while El-Sayed does not have to answer for Hasan Piker. El-Sayed replies that Trump is the president. Not checked here."
@@ -258,6 +237,29 @@
       "id": "2108535458812842267",
       "desk": "sports",
       "line": "The NBA account posts a video of the actor Jackie Chan at the NBA China Games 2026."
+    },
+    {
+      "id": "2108246362076938720",
+      "desk": "world",
+      "line": "Jeremy Diamond posts a thread on a report about 40 hostages he says were taken alive on Oct 7 and died in captivity. He says 24 of the deaths trace to Israeli military actions, which he says the IDF has acknowledged in many cases. Not checked here.",
+      "also": [
+        "2108246359027462401"
+      ]
+    },
+    {
+      "id": "2108505241364635740",
+      "desk": "music",
+      "line": "Pop Crave says the Turkish girl group Manifest have released their debut English-language single, “TRALALA.” The post carries a 16 second video. Not checked here."
+    },
+    {
+      "id": "2108784787402215533",
+      "desk": "business",
+      "line": "The Nigerian paper Vanguard reports that petrol has reached N1,900 a litre as depot prices rise despite a cut by NNPC. Not checked here."
+    },
+    {
+      "id": "2108682188342391022",
+      "desk": "politics",
+      "line": "Politico reports that Ukraine's President Zelenskyy accuses President Trump of a 'smokescreen' oil deal, as talks to end the war continue. Not checked here."
     }
   ]
 }

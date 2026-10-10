@@ -212,3 +212,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T08:25Z
+- Captures read: 0805Z. Last read: 0805Z.
+- X's check: 0805Z 36 confirmed, 0 missing, 0 mismatched, 2 withheld. Earlier mismatches already logged.
+- Pulse: 45 items (4 new, 4 dropped: Jayapal and the 30-year bond sale as older than 36 hours; the BoomerGary1958 rental post and the neighbour's child question as the oldest, to stay at 45). Added: Jeremy Diamond's thread on the 40 hostages with his first post in also (world, marked not checked), Pop Crave on Manifest's English single (music), Vanguard on the Nigerian petrol price (business), Politico on Zelenskyy and the oil deal (politics).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Daily Loud press secretary post (covered by the Fox item and a story); Shaun King post on the hostages (says "CNN confirms ... killed by Israel", stronger than the thread, so the thread is used); airdrop ads; Arabic video accusing a wife (private person); TikTok, "Jerry" broadcast and Arsenal/F1 matchday posts (point unclear or promotional); Trump-Putin and ICC aggregator posts (framed, unchecked); old_content and sexual posts.
+- Requests: watch list holds the four new pulse posts and the also post. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
