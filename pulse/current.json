@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T11:30:00Z",
-  "capture": "2026-10-10T1105Z",
+  "updated_at": "2026-10-10T12:45:00Z",
+  "capture": "2026-10-10T1207Z",
   "items": [
     {
       "id": "2108697452568023410",
@@ -17,11 +17,6 @@
       "id": "2108738606135206246",
       "desk": "sports",
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
-    },
-    {
-      "id": "2108340614097965182",
-      "desk": "disaster",
-      "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
     },
     {
       "id": "2108376300209807419",
@@ -157,11 +152,6 @@
       "line": "A podcast account says Tyler, The Creator named his favorite verses of his own, and lists eleven, starting with the final verse of \"Thought I Was Dead\". Not checked here."
     },
     {
-      "id": "2108383430882771164",
-      "desk": "gaming",
-      "line": "A user jokes that their PS5 storage does not know it yet, but \"GTA 6 layoffs\" are coming."
-    },
-    {
       "id": "2108667683315007703",
       "desk": "politics",
       "line": "Journalist Aaron Rupar posts a short clip. In it, he says, a reporter asks President Trump whether he personally approved the livestreamed execution, and Trump answers \"Did I approve? Absolutely I did.\" Not checked here."
@@ -191,7 +181,8 @@
       "desk": "world",
       "line": "Indian politician Shashi Tharoor posts a long statement on Delhi, saying checkpoints, barriers, 22,000 police and paramilitary, 250 cancelled trains, 45 closed metro stations and an internet suspension were used to stop a protest about the integrity of elections. He calls it repression. Not checked here.",
       "also": [
-        "2108828991142724050"
+        "2108828991142724050",
+        "2108809744312062221"
       ]
     },
     {
@@ -248,6 +239,16 @@
       "id": "2108864545452142708",
       "desk": "sports",
       "line": "Formula 1's account announces that Max Verstappen won the sprint race at the Singapore Grand Prix."
+    },
+    {
+      "id": "2108821569225310335",
+      "desk": "science",
+      "line": "SpaceX posts a launch video: a Falcon 9 carrying the fourth Tranche 1 data transport mission for the Space Development Agency (@SemperCitiusSDA) to low-Earth orbit."
+    },
+    {
+      "id": "2108783134439297454",
+      "desk": "world",
+      "line": "BBC World posts a link to its report on the Nord Stream trial, headlined \"How German police followed the evidence - to Ukraine\". The report itself is not checked here."
     }
   ]
 }

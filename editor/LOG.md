@@ -252,3 +252,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Sharif, Trump quote, Verstappen, Nobel and Rubio posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the Pillay story omits worlds; the captures hold no clear post from a side that welcomes the sanctions, so I did not invent a contrast.
+
+## 2026-10-10T12:45Z
+- Captures read: 1207Z. Last read: 1207Z.
+- X's check: 1207Z 35 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches already logged.
+- Pulse: 45 items (2 new, 2 dropped: the Pensacola Beach storm-chaser video as older than 36 hours; the GTA 6 PS5 joke as one of the oldest and smallest). Added: SpaceX Falcon 9 Tranche 1 launch (science), BBC World on the Nord Stream trial (world, marked not checked). Yogendra Yadav's Hindi post on not being detained added to the Tharoor Delhi item's also.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: dating-story post (private person); KFILE on an ABC retraction (unchecked claim about an outlet); robinmonotti on Nord Stream (framing question); WatcherGuru liquidation anniversary (figure unchecked); Cole Palmer stream, TPUSA speaker drop, Premier League debut (promotion or older than 36h); Bohuslavska and JayinKyiv Ukraine posts (claims unchecked); adult, giveaway and old_content posts; fandom and meme posts.
+- Requests: watch list gained the SpaceX, BBC and Yadav posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: for a story pass, the Nord Stream trial coverage (BBC, German police, Ukraine) has no checked source yet.
