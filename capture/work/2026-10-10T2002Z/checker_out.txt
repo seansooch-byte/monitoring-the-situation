@@ -1,0 +1,6 @@
+  warning  observations[277]: has fewer views than likes
+  warning  observations[278]: has fewer views than likes
+FAIL capture/2026/10/10/2002Z.json (3 errors)
+  observations[305]: points at unknown post 2109006097881104598; include its full record in posts
+  sweeps[3].post_ids: points at unknown post 2109006097881104598; include its full record in posts
+  sweeps[14].post_ids: points at unknown post 2109006097881104598; include its full record in posts
