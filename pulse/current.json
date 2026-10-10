@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T05:45:00Z",
-  "capture": "2026-10-10T0506Z",
+  "updated_at": "2026-10-10T06:12:04Z",
+  "capture": "2026-10-10T0606Z",
   "items": [
     {
       "id": "2108332127318073528",
@@ -46,14 +46,6 @@
       "line": "A joke from Elon Musk about AI safety: the labs have agreed to move all testing onto Delta flights, where the internet cannot be reached."
     },
     {
-      "id": "2108258677773967451",
-      "desk": "politics",
-      "line": "A White House account posts video of the president presenting the National Medal of Science to Sergey Brin, Jensen Huang, Elon Musk and Lisa Su, and the National Medal of Technology and Innovation to Michael Dell and Satya Nadella.",
-      "also": [
-        "2108304519046021604"
-      ]
-    },
-    {
       "id": "2108340614097965182",
       "desk": "disaster",
       "line": "A storm chaser's 20 second video from Pensacola Beach, posted as Hurricane Isaias moved toward the Gulf Coast. The record does not describe what the video shows."
@@ -85,11 +77,6 @@
       "id": "2108314679596769598",
       "desk": "defense",
       "line": "Paul Graham passes on a point from someone in defence technology: the test of most military hardware now is whether Ukraine's forces want it."
-    },
-    {
-      "id": "2108277241469976948",
-      "desk": "entertainment",
-      "line": "James Blunt's four word answer to someone who posted that they did not want to hear him speak."
     },
     {
       "id": "2108277881466196021",
@@ -256,6 +243,21 @@
       "id": "2108383430882771164",
       "desk": "gaming",
       "line": "A user jokes that their PS5 storage does not know it yet, but \"GTA 6 layoffs\" are coming."
+    },
+    {
+      "id": "2108315261044445330",
+      "desk": "business",
+      "line": "Elon Musk says he sees \"a path to SpaceX being worth orders of magnitude more than the current Earth economy\". It is his own forecast. Not checked here."
+    },
+    {
+      "id": "2108667683315007703",
+      "desk": "politics",
+      "line": "Journalist Aaron Rupar posts a short clip. In it, he says, a reporter asks President Trump whether he personally approved the livestreamed execution, and Trump answers \"Did I approve? Absolutely I did.\" Not checked here."
+    },
+    {
+      "id": "2108643598975783250",
+      "desk": "sports",
+      "line": "In Arabic, the sports channel Thmanyah says Coman has scored Al Nassr's third goal against Al Diriyah in the Saudi league, and posts a clip."
     }
   ]
 }

@@ -192,3 +192,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list holds the five new pulse posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-10T06:20Z
+- Captures read: 0606Z. Last read: 0606Z.
+- X's check: 0606Z 31 confirmed, 0 missing, 1 mismatched (2108593003191234755, @F1: different words from X's text), 1 withheld (2105311344404906225, old_content). Earlier mismatches already logged.
+- Pulse: 45 items (3 new, 2 dropped: White House Medal of Science video with its also, older than 36 hours; James Blunt Celebrity Traitors post, to make room). Added: Musk on SpaceX's possible worth (business, marked not checked), Rupar clip of Trump on approving the livestreamed execution (politics, not checked), Thmanyah Arabic goal post (sports).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: TMZ text chain post and Cowboys stadium employee posts (private persons); choidot fan site closing (accuses a named singer and his company, Korean, not checked); Sabi funding post (company announcement); Linkin Park, Kai Cenat and meme posts (low value or point unclear); the mismatched F1 post; old_content posts; sexual posts.
+- Requests: watch list holds the three new pulse posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
