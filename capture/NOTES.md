@@ -151,3 +151,6 @@ Daytime (12:00-05:00 UTC budget): 19 X reads (588→569 left). Watch 300; trends
 
 ## 2026-10-10T2200Z
 Daytime (12:00-05:00 UTC budget): 16 X reads (569→553 left). Watch 177; trends US+WW; quote/repost word "is" (2+1); sensors news/money/science; hourly desks; trend stream UCLA; screen 100. No volume/context/media. Checker PASS partial (40 posts, 194 obs). Standing crypto-desk/author-cap untouched. Skipped possibly_sensitive ids from screen/sensors.
+
+## 2026-10-10T2306Z
+Daytime (12:00-05:00 UTC budget): 18 X reads (553→535 left). Watch 197; trends US+WW; quote/repost word "you" (2+1); sensors culture/sports/online; hourly desks; trend stream Arch Manning; screen 100. No volume/context/media. Checker PASS partial (40 posts, 229 obs). Standing crypto-desk/author-cap untouched. Skipped sexual/graphic ids from screen/exclude list. One wasted watch call on bad ids early in run counted in the 18.
