@@ -312,3 +312,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed. The watch list already covers every pulse item.
 - Shipped: see report.
 - For the main editor: nothing new. The 1708Z capture's 38 posts again barely overlap the pulse, so the pulse still rests on earlier captures.
+
+## 2026-10-10T18:25Z
+- Captures read: 1808Z. Last read: 1808Z.
+- X's check: 1808Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches.
+- Pulse: 45 items (2 new, 2 dropped). Added Sky News on a man's death in a Yorkshire tiger enclosure (world, police-attributed, no name) and Visegrad 24's clip of Trump on Ukraine's president (politics, marked not checked). Dropped the Romano post (past 36 hours) and the Weather Channel alert (smallest).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: the 5.5M-view tiger post from a private account (unconfirmed account of gunshots, video with no description); Nadella (link only); Heyman and Premier League (sports already full); Bessent on Warren (politics already full); Hasan execution post (graphic reference); Regina Daniels, Botox, Kenyan skater and Infosys items (private person, insult, unclear or small); old_content, bait, sexual, fandom and meme posts.
+- Requests: watch list gained the Sky News and Visegrad 24 posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the Yorkshire tiger death and Trump's remarks on Ukraine's president are worth a story-pass look.

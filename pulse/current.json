@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T17:25:00Z",
-  "capture": "2026-10-10T1708Z",
+  "updated_at": "2026-10-10T18:25:00Z",
+  "capture": "2026-10-10T1808Z",
   "items": [
     {
       "id": "2108697452568023410",
@@ -17,11 +17,6 @@
       "id": "2108738606135206246",
       "desk": "sports",
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
-    },
-    {
-      "id": "2108437304142430539",
-      "desk": "sports",
-      "line": "Fabrizio Romano relays Karl-Heinz Rummenigge saying Michael Olise and Harry Kane both intend to stay at Bayern for a long time. He says he hopes Kane extends his contract soon, with Olise next."
     },
     {
       "id": "2108575881996210210",
@@ -45,14 +40,6 @@
       "id": "2108513103734530130",
       "desk": "ai",
       "line": "A tech account shares a video of NYU mathematician Tristan Buckmaster saying a Tuesday release of 722 AI-generated math papers by OpenAI hurt early career mathematicians. The claims about the release and its effect are his. Not checked here."
-    },
-    {
-      "id": "2108625935524303244",
-      "desk": "disaster",
-      "line": "The Weather Channel posts a breaking alert that a magnitude 7.6 earthquake has hit Pitaloza Arriba, Panama. NEXTA posts that a magnitude 7.9 earthquake has struck Panama. News outlets citing the US Geological Survey later report 7.7; see the story.",
-      "also": [
-        "2108626847600988525"
-      ]
     },
     {
       "id": "2108627117562884153",
@@ -253,6 +240,16 @@
       "desk": "sports",
       "line": "ESPN's Adam Schefter says the Arizona Cardinals are finalizing a trade of wide receiver Marvin Harrison, with Ian Rapoport as a second source, and that Harrison will sit out Sunday's game against Detroit. No team is named in the post.",
       "also": []
+    },
+    {
+      "id": "2108976232947646708",
+      "desk": "world",
+      "line": "Sky News reports that a man has died after entering the tiger enclosure at a wildlife park in Yorkshire, according to police, and posts a video report from its correspondent. Not checked here beyond the post."
+    },
+    {
+      "id": "2108970787042693504",
+      "desk": "politics",
+      "line": "The news account Visegrad 24 posts a very short clip with the words \"I think it's time for Ukraine to get a new President\", which it attributes to President Trump. Not checked here."
     }
   ]
 }
