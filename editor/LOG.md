@@ -352,3 +352,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-10-01 (intelligence-sharing claim and Ukrainian replies). Watch list gained the new story posts.
 - Shipped: see report.
 - For the main editor: Fox gave the diesel license end date as April 7, 2026; the existing story says 2027. I did not use Fox's date.
+
+## 2026-10-10T22:30Z
+- Captures read: 2200Z. Last read: 2200Z.
+- X's check: 2200Z 14 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches.
+- Pulse: 46 items (2 new, 2 dropped). Added Musk on Grok ordering purchases from a card photo, with his reply (tech; xAI disclosure included) and Boris Johnson on the lifting of Russian fuel sanctions (world). Dropped the Nobel Peace Prize announcement and the Sharif post (both past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Musk's link-only post; Romano, Man Utd, Schefter and Rapsheet sports items (sports already full); Greenwald on Istanbul talks (claim about 2022 events, unchecked); rawsalerts on an influencer contract (aggregator, unchecked); PopBase TikTok, Batman, Other Mommy, Netflix, Dylan Harper (private person, unconfirmed allegation) and fandom or bait posts.
+- Requests: watch list gained the three new posts and lost the two dropped. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: Johnson's post and the Trump diesel story are linked; the claim that the US lifted sanctions on Russian fuel is worth confirming against Treasury at the next story pass.

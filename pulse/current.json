@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T21:30:00Z",
-  "capture": "2026-10-10T2107Z",
+  "updated_at": "2026-10-10T22:30:00Z",
+  "capture": "2026-10-10T2200Z",
   "items": [
     {
       "id": "2108964287758639480",
@@ -178,11 +178,6 @@
       ]
     },
     {
-      "id": "2108482846449189371",
-      "desk": "politics",
-      "line": "The Nobel Prize account announces that the Norwegian Nobel Committee has decided to award the 2026 Peace Prize to Navanethem \"Navi\" Pillay for her efforts to promote peace and international law. Not checked here."
-    },
-    {
       "id": "2108609764766908772",
       "desk": "ai",
       "line": "The Grok Bot account says the bot now has its own email address, and can use it to sign up for services, contact businesses or schedule time with someone. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here."
@@ -191,11 +186,6 @@
       "id": "2108714662556577862",
       "desk": "politics",
       "line": "Journalist Aaron Rupar posts an 11 second video and quotes President Trump as calling New York Attorney General Letitia James \"a dog\". Not checked here."
-    },
-    {
-      "id": "2108475276879610257",
-      "desk": "politics",
-      "line": "Pakistan's prime minister, Shehbaz Sharif, says President Trump helped bring Pakistan and India back from the brink and secure a ceasefire, and that Pakistan had nominated him for the Nobel Peace Prize. He hopes the effort is recognised this time. Not checked here."
     },
     {
       "id": "2108864545452142708",
@@ -255,6 +245,19 @@
       "id": "2108964313977278956",
       "desk": "politics",
       "line": "Journalist Aaron Rupar posts a 55 second video of President Trump saying \"I think it's time for Ukraine to get a new president\". The post does not say where or when it was said. Not checked here."
+    },
+    {
+      "id": "2109027407185277123",
+      "desk": "tech",
+      "line": "Elon Musk says you can photograph your credit card, drop it in the chat, and Grok will search the internet for the best deal and order the item. In a reply he says he ordered LEGO this way. Grok is made by xAI, the company that also gathers the posts for this page. Not checked here.",
+      "also": [
+        "2109028313553399947"
+      ]
+    },
+    {
+      "id": "2109001821687853171",
+      "desk": "world",
+      "line": "Boris Johnson calls the US lifting of sanctions on Russian fuel sickening and says blaming Ukraine for the price spike is ridiculous, because prices rose after the Strait of Hormuz closed. He says ending the war is the way to bring Russian oil and gas back to market. Not checked here."
     }
   ]
 }
