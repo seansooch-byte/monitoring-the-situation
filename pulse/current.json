@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T14:35:00Z",
-  "capture": "2026-10-10T1403Z",
+  "updated_at": "2026-10-10T15:40:00Z",
+  "capture": "2026-10-10T1502Z",
   "items": [
     {
       "id": "2108697452568023410",
@@ -124,11 +124,6 @@
       ]
     },
     {
-      "id": "2108736841348436271",
-      "desk": "sports",
-      "line": "The WNBA announces that the Atlanta Dream beat the New York Liberty 3-0 in the semifinals and reach the Finals for the first time since 2013."
-    },
-    {
       "id": "2108732409688489991",
       "desk": "world",
       "line": "HormuzLetter reports that Ukraine struck the Rostovsky oil products export terminal in Rostov-on-Don and set it ablaze, hours after the US-Russia diesel deal. It cites Ukrainian military sources on the deal. Not checked here."
@@ -211,19 +206,9 @@
       "line": "Journalist Aaron Rupar posts an 11 second video and quotes President Trump as calling New York Attorney General Letitia James \"a dog\". Not checked here."
     },
     {
-      "id": "2108762890945904948",
-      "desk": "music",
-      "line": "Tinashe's account says she joined Charli XCX onstage at ACL Weekend 2 for the first live performance of \"Melatonin\". Not checked here."
-    },
-    {
       "id": "2108475276879610257",
       "desk": "politics",
       "line": "Pakistan's prime minister, Shehbaz Sharif, says President Trump helped bring Pakistan and India back from the brink and secure a ceasefire, and that Pakistan had nominated him for the Nobel Peace Prize. He hopes the effort is recognised this time. Not checked here."
-    },
-    {
-      "id": "2108753576361148612",
-      "desk": "politics",
-      "line": "Republicans against Trump posts what it says is Trump's statement that the US, represented by him, should have received the Nobel Peace Prize, calling the decision a stain on Norway. The post is text over an image. The wording matches press reports of his rally remarks."
     },
     {
       "id": "2108864545452142708",
@@ -252,6 +237,21 @@
       "also": [
         "2108574643644703042"
       ]
+    },
+    {
+      "id": "2108882737792745846",
+      "desk": "ideas",
+      "line": "The Pope's account posts a statement that the death penalty is inadmissible because it attacks the dignity of the person. It says detention can protect citizens without denying the guilty the possibility of redemption."
+    },
+    {
+      "id": "2108928602519531894",
+      "desk": "sports",
+      "line": "Formula 1's account announces that Max Verstappen has taken pole for the Singapore Grand Prix."
+    },
+    {
+      "id": "2108921109403852868",
+      "desk": "world",
+      "line": "The account Mario Nawfal, citing Telegram channels and local accounts, reports a Houthi ballistic missile strike on Riyadh International Airport, with explosions and an evacuation. The post itself says damage and casualties are unconfirmed. Not checked here."
     }
   ]
 }
