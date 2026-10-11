@@ -174,3 +174,4 @@ Evening (12:00-05:00 UTC budget): 17 X reads (932→915 left). Watch 129; trends
 
 ## Daily scoreboard (partial 2026-10-11 UTC)
 Running: after 0005Z+0101Z+0202Z+0301Z+0403Z — 85 reads used; posts kept this capture 40. Full day line at last run before 00:00 UTC.
+2026-10-11T0507Z: partial evening run, 17 X reads (915→898). Watch 197; trends; quote/repost word what; sensors culture/sports/online; hourly desks; Kentucky trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped: barstoolsports x12, mlb x4, popbase x9, marionawfal x11, popcrave x1. Crypto desk retired untouched.
