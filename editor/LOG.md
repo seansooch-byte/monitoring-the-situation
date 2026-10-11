@@ -372,3 +372,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the three new posts and lost the four dropped. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing new.
+
+## 2026-10-11T00:30Z
+- Captures read: 0005Z. Last read: 0005Z.
+- X's check: 0005Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, already on record).
+- Pulse: 45 items (3 new, 3 dropped). Added Acyn's Trump clip (politics), DiscussingFilm on Nicolas Cage and True Detective (entertainment), WWE on Reigns retaining (entertainment). Dropped realBigBrainAI, FilmUpdates and the NBA post (all at or past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Yorkshire tiger posts (graphic risk), alligator attack (private woman, unconfirmed), Xhaka, Rahul Gandhi, Malpani and the older Musk Starlink post (older than 36 hours), Nadella (link only), Rupar on the press secretary (politics already has Rupar items), WWE and SportsCenter duplicates and fan posts, ICE shooting reply (private person), bait and fandom posts.
+- Requests: watch list gained the three new posts and lost the three dropped. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing new.

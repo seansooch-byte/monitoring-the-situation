@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-10T23:30:00Z",
-  "capture": "2026-10-10T2306Z",
+  "updated_at": "2026-10-11T00:30:00Z",
+  "capture": "2026-10-11T0005Z",
   "items": [
     {
       "id": "2108964287758639480",
@@ -42,11 +42,6 @@
       "line": "US Secretary of State Marco Rubio announces that the Trump administration is sanctioning the International Criminal Court. He says allies within the Court should work to end what he calls a threat to US sovereignty. The post carries a video. Not checked here."
     },
     {
-      "id": "2108513103734530130",
-      "desk": "ai",
-      "line": "A tech account shares a video of NYU mathematician Tristan Buckmaster saying a Tuesday release of 722 AI-generated math papers by OpenAI hurt early career mathematicians. The claims about the release and its effect are his. Not checked here."
-    },
-    {
       "id": "2108630834169385310",
       "desk": "markets",
       "line": "The Treasury Department says its sanctions office is issuing a temporary general license to allow the supply of Russian diesel to the global market, at President Trump's direction. Unusual Whales relays the Financial Times on a deal with Vladimir Putin for up to 4.8 million tonnes. See the story.",
@@ -58,11 +53,6 @@
       "id": "2108641198084682219",
       "desk": "disaster",
       "line": "Fox News posts surveillance video it says shows floodwaters carrying cars through the streets of Santiago, Chile. It says at least six people are injured and a state of emergency has been declared in Las Condes. Not checked here."
-    },
-    {
-      "id": "2108498371803807866",
-      "desk": "entertainment",
-      "line": "The account Film Updates says Aaron Sorkin's film The Social Reckoning now holds a 59% score on Rotten Tomatoes and is in theaters. Not checked here."
     },
     {
       "id": "2108662426606395572",
@@ -126,11 +116,6 @@
       "id": "2108746252577837336",
       "desk": "entertainment",
       "line": "The account Anime Updates says the Chainsaw Man theme song \"Iris Out\", by Kenshi Yonezu, is the first anime song submitted for the Grammys, in Best Asian Pop Music Performance and Best Song Written for Visual Media. Not checked here."
-    },
-    {
-      "id": "2108535458812842267",
-      "desk": "sports",
-      "line": "The NBA account posts a video of the actor Jackie Chan at the NBA China Games 2026."
     },
     {
       "id": "2108809173777399983",
@@ -250,6 +235,21 @@
       "id": "2109019399361614118",
       "desk": "entertainment",
       "line": "Pop Crave quotes singer Kelly Clarkson as saying she drove to a Brooklyn store and was treated like the character played by Julia Roberts in \"Pretty Woman\". The store is not named in the post. Not checked here."
+    },
+    {
+      "id": "2109023282469261805",
+      "desk": "politics",
+      "line": "Political video account Acyn posts a 29 second clip captioned \"Trump: I could say the stupidest things and you'd clap\". The post does not say when or where it was said. Not checked here."
+    },
+    {
+      "id": "2108968536999895201",
+      "desk": "entertainment",
+      "line": "Film news account DiscussingFilm says Nicolas Cage confirms he will star in Season 5 of \"True Detective\", citing Entertainment Weekly. Not checked here."
+    },
+    {
+      "id": "2109051600836989417",
+      "desk": "entertainment",
+      "line": "WWE announces that Roman Reigns is still World Heavyweight Champion after a match at its Money in the Bank event on Saturday night."
     }
   ]
 }
