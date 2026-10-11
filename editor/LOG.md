@@ -482,3 +482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the four new posts and the Nawfal Saudi strikes post (cited by the new story), and lost the two dropped posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: CNN returned HTTP 451 and Saudi Gazette 402 to my fetches, so the Riyadh story leans on Al Jazeera, Yahoo News and Al-Monitor. Those sources disagree on the date of the airport strike (one says 8 October); I used Saturday 10 October from Al Jazeera's wording.
+
+## 2026-10-11T12:40Z
+- Captures read: 1206Z. Last read: 1206Z.
+- X's check: 1206Z 18 confirmed, 0 missing, 1 mismatched, 0 withheld. The mismatch in this run's posts is two ids: F1 "SaWaDiKa" 2108603403131818254 and the Musk repost of Cohen 2109156083302539363 (the record carries "RT @" text). The 1603Z run still shows 9 mismatched and the 0704Z run 1, already on record.
+- Pulse: 45 items (4 new, 3 dropped). Added Pence on lifting Russian energy sanctions (politics), Sikorski on Russian fuel shortages (world, Polish), Aaron Burnett on India's fixed broadband (tech), a16z call center jobs chart (business). Dropped the Rupar 00:22Z video, the Shopify post and the Gerashchenko quote of Rubio (all past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Jack Doherty gambling contract (FearedBuck; a claim about a named person and a quoted CEO, unconfirmed, for the next story pass); 19scartoon (link only); thsottiaux "Day 6/ Reset" (point unclear); abhijeet_dipke on Modi (opinion, the Gandhi item covers it); Imo rally "one million" claim (unconfirmed); second Musk, Rapid Response and Roemmele Grok Bot posts (account already has a place, or promotion); Kyrie return, jgindel, StephenM, Burchett, Kinzinger (small or covered); the two mismatched posts (cannot be cited); old_content posts.
+- Requests: watch list rebuilt to the pulse, stories started in the last 48 hours and the pinned post (140 to 69 ids; four new posts added, posts no longer shown removed). open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.

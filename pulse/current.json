@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-11T11:50:00Z",
-  "capture": "2026-10-11T1105Z",
+  "updated_at": "2026-10-11T12:40:00Z",
+  "capture": "2026-10-11T1206Z",
   "items": [
     {
       "id": "2108964287758639480",
@@ -74,11 +74,6 @@
       ]
     },
     {
-      "id": "2108714662556577862",
-      "desk": "politics",
-      "line": "Journalist Aaron Rupar posts an 11 second video and quotes President Trump as calling New York Attorney General Letitia James \"a dog\". Not checked here."
-    },
-    {
       "id": "2108864545452142708",
       "desk": "sports",
       "line": "Formula 1's account announces that Max Verstappen won the sprint race at the Singapore Grand Prix."
@@ -111,8 +106,7 @@
     {
       "id": "2108936212014923979",
       "desk": "sports",
-      "line": "ESPN's Adam Schefter says the Arizona Cardinals are finalizing a trade of wide receiver Marvin Harrison, with Ian Rapoport as a second source, and that Harrison will sit out Sunday's game against Detroit. No team is named in the post.",
-      "also": []
+      "line": "ESPN's Adam Schefter says the Arizona Cardinals are finalizing a trade of wide receiver Marvin Harrison, with Ian Rapoport as a second source, and that Harrison will sit out Sunday's game against Detroit. No team is named in the post."
     },
     {
       "id": "2108976232947646708",
@@ -170,8 +164,7 @@
     {
       "id": "2109036995552952475",
       "desk": "science",
-      "line": "Anil Menon, whose account is verified as a government account, posts a 54 second video of an aurora and says it is as seen from the station, after significant solar activity. Not checked here.",
-      "also": []
+      "line": "Anil Menon, whose account is verified as a government account, posts a 54 second video of an aurora and says it is as seen from the station, after significant solar activity. Not checked here."
     },
     {
       "id": "2108888123493273642",
@@ -224,19 +217,29 @@
       "line": "The account Late Night-er posts a 29 second video that it says shows Shane Gillis dropping a live F-bomb on Saturday Night Live. Not checked here."
     },
     {
-      "id": "2108226178146263268",
-      "desk": "tech",
-      "line": "Shopify announces new connectors that let a merchant link a store to Grok to ask questions about the business, or to another assistant to build a team of agents. Grok is made by xAI, the company behind the grabber that gathers this page's posts."
-    },
-    {
       "id": "2109084934283710914",
       "desk": "sports",
       "line": "The account acdmma_ posts a 48 second video and calls Andre Fili's head kick possibly the knockout of the year at UFC Vegas 122. Not checked here."
     },
     {
-      "id": "2108120993608667474",
+      "id": "2108993426025021479",
+      "desk": "politics",
+      "line": "Former Vice President Mike Pence says President Trump's decision to lift sanctions on Russian energy makes no sense and should be rescinded. He calls for harsh sanctions on any nation that buys Russian energy. Not checked here."
+    },
+    {
+      "id": "2108855785530982800",
       "desk": "world",
-      "line": "The account Gerashchenko_en quotes Secretary of State Rubio, in an interview with the Greek outlet Kathimerini, as saying there are no prospects of a negotiated settlement in Ukraine now and calling the war a strategic stalemate. The interview itself was not checked here."
+      "line": "In Polish, Radosław Sikorski, a Polish politician, says his country's embassy reports fuel shortages even in Moscow. He says serious sources report Ukraine has damaged about half of Russia's refining capacity, and asks where export surpluses will come from. Not checked here."
+    },
+    {
+      "id": "2108948402033524979",
+      "desk": "tech",
+      "line": "Aaron Burnett posts a long thread arguing that the claim India's internet is great and cheap holds only for mobile, and that fixed home broadband is far less common. It joins the Starlink in India argument. His figures are his own. Not checked here."
+    },
+    {
+      "id": "2108663228029112702",
+      "desk": "business",
+      "line": "The venture firm a16z posts a chart in its weekly roundup. It says call center jobs grew about 4% a year for 15 years and are now shrinking about 4% a year. Not checked here."
     }
   ]
 }
