@@ -412,3 +412,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Riyadh post and lost the two Ditka posts. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the Riyadh airport attack (12 dead, a US citizen among them, per Nawfal) could be checked against outside reporting at a story pass.
+
+## 2026-10-11T04:30Z
+- Captures read: 0403Z. Last read: 0403Z.
+- X's check: 0403Z 22 confirmed, 0 missing, 0 mismatched, 3 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, already on record).
+- Pulse: 45 items (1 new, 1 dropped). Added the Dr. STONE TERRAFORMING anime announcement (entertainment, Japanese). Dropped the CNN item (past 36 hours). Attached Secretary Rubio's statement on the Riyadh airport strike to the Nawfal item as `also` and edited its line to say so.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Yorkshire tiger posts (graphic risk); lyra_harper_, Dirtdog, hoodwild_ and clip__king posts (bait or private people); Kai Cenat stream clip (small next to the page); Gabriel Jesus goal (sports full); Nadella (link only); Tao slide (not researched); sexual, old_content and private-person posts. Three kept items (Vanguard, HormuzLetter, Musk reply) show X state unavailable with views null in the capture; kept as in earlier passes.
+- Requests: watch list gained the Dr. STONE and Rubio posts and lost the CNN post. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the Riyadh airport attack now has a State Department statement; the figures (12 dead, 300 wounded) still need outside reporting at a story pass.
