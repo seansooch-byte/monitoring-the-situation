@@ -158,5 +158,9 @@ Daytime (12:00-05:00 UTC budget): 18 X reads (553→535 left). Watch 197; trends
 ## 2026-10-11T0005Z
 Evening (12:00-05:00 UTC budget, new X day): 19 X reads (1000→981 left). Watch 197; trends US+WW; quote/repost word "and" (2+1); sensors news/money/science; hourly desks; trend stream #MITB; screen 100. No volume/context/media. Checker PASS partial (40 posts, 229 obs). Standing crypto-desk/author-cap untouched. Three wasted reads (bad watch ids once; unquoted and-stream twice). Skipped possibly_sensitive/NSFW ids from screen/exclude list.
 
+
+## 2026-10-11T0101Z
+Evening (12:00-05:00 UTC budget): 16 X reads (981→965 left). Watch 135; trends US+WW; quote/repost word "my" (2+1); sensors culture/sports/online; hourly desks; trend stream Arch; screen 66. No volume/context/media. Checker PASS partial (38 posts, 176 obs). Standing crypto-desk/author-cap untouched. Skipped sexual/graphic ids including 2109011084795584706 and FearedBuck private-drama clips. Sensor JSON saved via screen by-id only (inline sensor pages not re-saved as files).
+
 ## Daily scoreboard (partial 2026-10-11 UTC)
-Running: after 0005Z only — 19 reads used; 40 posts kept this capture. Full day line at last run before 00:00 UTC.
+Running: after 0005Z+0101Z — 35 reads used; posts kept this capture 38 (+40 prior). Full day line at last run before 00:00 UTC.
