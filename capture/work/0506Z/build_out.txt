@@ -1,0 +1,7 @@
+wrote /workspace/monitoring-the-situation/capture/2026/10/11/0507Z.json posts 40 obs 241 sweeps 38
+viral 40 rising 11
+top posts [('2105744946141483133', 'elonmusk', 10228635, 'internet'), ('2108923070417129667', 'UNHumanRights', 4393718, 'internet'), ('2108763919879909798', 'aemondseyepatch', 3818190, 'entertainment'), ('2108954944267231270', 'ChimaPhag', 1743442, 'internet'), ('2108543002767409399', 'NoContextHumans', 1481022, 'internet'), ('2108782258442440892', 'realphilhendrie', 1400987, 'politics'), ('2109119362871308353', 'barstoolsports', 1008936, 'internet'), ('2108964817730158697', 'RapidResponse47', 972849, 'world'), ('2108800893693153782', 'bitcoinregulate', 941667, 'world'), ('2069942984016007346', 'barstoolsports', 906404, 'sports')]
+press_ids ['2109117328189182102', '2109119714899230735']
+author drops {'barstoolsports': 12, 'mlb': 4, 'popbase': 9, 'marionawfal': 11, 'popcrave': 1}
+skipped_sensitive 9
+tally runs ['2026-10-11T0005Z', '2026-10-11T0101Z', '2026-10-11T0202Z', '2026-10-11T0301Z', '2026-10-11T0403Z', '2026-10-11T0507Z'] origins 75
