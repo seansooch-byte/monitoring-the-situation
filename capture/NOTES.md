@@ -175,7 +175,11 @@ Evening (12:00-05:00 UTC budget): 17 X reads (932→915 left). Watch 129; trends
 ## 2026-10-11T0558Z
 Evening (12:00-05:00 UTC budget, late evening ~1:58 AM ET): 17 X reads (898→881 left). Watch 200; trends US+WW; quote/repost word "the" (2+1); sensors news/money/science; hourly desks; trend stream Georgia; screen 100 by id. No volume/context/media. Checker PASS partial (40 posts, 179 obs). Standing crypto-desk/author-cap untouched. Author-cap dropped: sciencegirl x2. One wasted screen call on bad id list counted in the 17. Skipped possibly_sensitive/NSFW ids from screen/exclude list.
 
+## 2026-10-11T0704Z
+Overnight (06:00-11:00 UTC budget): 16 X reads (881→865 left). Watch 200; trends US+WW; quote/repost word "this" (2+1); sensors culture/sports/online; hourly desks; trend stream Bama; screen 100. No volume/context/media. Checker PASS partial (40 posts, 240 obs). Standing crypto-desk/author-cap untouched. Author-cap dropped none.
+
 ## Daily scoreboard (partial 2026-10-11 UTC)
-Running: after 0005Z+0101Z+0202Z+0301Z+0403Z+0507Z+0558Z — 119 reads used; posts kept this capture 40. Full day line at last run before 00:00 UTC.
+Running: after 0005Z+0101Z+0202Z+0301Z+0403Z+0507Z+0558Z+0704Z — 135 reads used; posts kept this capture 40. Full day line at last run before 00:00 UTC.
 2026-10-11T0507Z: partial evening run, 17 X reads (915→898). Watch 197; trends; quote/repost word what; sensors culture/sports/online; hourly desks; Kentucky trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped: barstoolsports x12, mlb x4, popbase x9, marionawfal x11, popcrave x1. Crypto desk retired untouched.
 2026-10-11T0558Z: partial evening run, 17 X reads (898→881). Watch 200; trends; quote/repost word the; sensors news/money/science; hourly desks; Georgia trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped: sciencegirl x2. Crypto desk retired untouched.
+2026-10-11T0704Z: partial overnight run, 16 X reads (881→865). Watch 200; trends; quote/repost word this; sensors culture/sports/online; hourly desks; Bama trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped none. Crypto desk retired untouched.
