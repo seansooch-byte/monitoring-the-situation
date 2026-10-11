@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-11T07:30:00Z",
-  "capture": "2026-10-11T0704Z",
+  "updated_at": "2026-10-11T08:30:00Z",
+  "capture": "2026-10-11T0802Z",
   "items": [
     {
       "id": "2108964287758639480",
@@ -25,11 +25,6 @@
       "also": [
         "2109070090000015659"
       ]
-    },
-    {
-      "id": "2108641198084682219",
-      "desk": "disaster",
-      "line": "Fox News posts surveillance video it says shows floodwaters carrying cars through the streets of Santiago, Chile. It says at least six people are injured and a state of emergency has been declared in Las Condes. Not checked here."
     },
     {
       "id": "2108662426606395572",
@@ -60,11 +55,6 @@
       "id": "2108994867582095465",
       "desk": "world",
       "line": "Elon Musk posts again on Starlink in India. He says arguments by Ambani's \"army of Internet shills\" contradict each other, that competition would help Indians, and that Ambani would not go out of business. This is the latest in his run of posts on the subject. Not checked here."
-    },
-    {
-      "id": "2108643598975783250",
-      "desk": "sports",
-      "line": "In Arabic, the sports channel Thmanyah says Coman has scored Al Nassr's third goal against Al Diriyah in the Saudi league, and posts a clip."
     },
     {
       "id": "2108774257459114194",
@@ -122,14 +112,6 @@
       "id": "2108865673942167802",
       "desk": "sports",
       "line": "Formula 1's account posts a video of what it calls the moment Lando Norris and Oscar Piastri collide in the Singapore Grand Prix sprint."
-    },
-    {
-      "id": "2108656083669799335",
-      "desk": "sports",
-      "line": "NFL reporter Adam Schefter shares ESPN's video tribute to Mike Ditka. A second post, by Ari Meirov, says Ditka has died at 86. Not checked here.",
-      "also": [
-        "2108574643644703042"
-      ]
     },
     {
       "id": "2108882737792745846",
@@ -245,6 +227,11 @@
       "id": "2109010544644571569",
       "desk": "internet",
       "line": "The account Pop Base says TikTok now allows users to repost comments, and attaches two screenshots. Not checked here."
+    },
+    {
+      "id": "2108976004031012961",
+      "desk": "entertainment",
+      "line": "The account ToonHive quotes Nicolas Cage as saying he refused to sign a waiver allowing Amazon to use AI in his \"Spider-Noir\" series, and that he is \"not an AI-friendly actor\". Not checked here."
     }
   ]
 }

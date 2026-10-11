@@ -442,3 +442,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the two new posts and lost the Treasury posts (one is cited by a story and stays). open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: no log entry exists for the 0558Z pulse pass (commit 2d6d057); this entry covers both captures.
+
+## 2026-10-11T08:30Z
+- Captures read: 0802Z. Last read: 0802Z.
+- X's check: 0802Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched and the 0704Z run 1, already on record).
+- Pulse: 43 items (1 new, 3 dropped). Added ToonHive's post on Nicolas Cage refusing an AI waiver for "Spider-Noir" (entertainment). Dropped the Fox Santiago flood item, the Thmanyah Coman goal and the Schefter Ditka tribute with its Meirov post (all past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: OpenAI Newsroom note on three departed research staff (names individuals who may not be public figures; for a story pass); skyyreturns Drake and Serena Williams watch photos (no media description, point not clear); 433 on Vinicius red card (Romano item already covers him); HormuzLetter tanker blast (account already has a place); Rapid Response second Ukraine post (account has a place); airkatakana, DavidJHarrisJr, racial-slur and old_content posts (advice, accusation, slur, stale).
+- Requests: watch list gained the Cage post and lost the three dropped items and the Meirov post (none cited by a story). open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the OpenAI Newsroom post (2108441580806025712, large) and the Hormuz tanker mine report are candidates for a story pass, needing outside sources.
