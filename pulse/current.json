@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-11T02:30:00Z",
-  "capture": "2026-10-11T0202Z",
+  "updated_at": "2026-10-11T03:30:00Z",
+  "capture": "2026-10-11T0301Z",
   "items": [
     {
       "id": "2108964287758639480",
@@ -24,12 +24,9 @@
       "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
     },
     {
-      "id": "2108575881996210210",
-      "desk": "sports",
-      "line": "Reporter Adam Schefter says Mike Ditka, Hall of Fame tight end and head coach of the 1985 Bears, has died, his family announced. He was 86. The AP also reports it.",
-      "also": [
-        "2108584126420844732"
-      ]
+      "id": "2109055486368665764",
+      "desk": "world",
+      "line": "Mario Nawfal's news account posts that a US citizen is dead and 12 people were killed in an attack on King Khalid Airport in Riyadh, with more than 300 wounded, and says officials call the conflict \"contained\". Not checked here."
     },
     {
       "id": "2108604227643719745",

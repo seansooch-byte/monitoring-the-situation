@@ -402,3 +402,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the aurora post and the four F1 sprint posts, lost the two dropped. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the web search tool returned stale 2024 results on a first query; extended mode fixed it. Nothing else.
+
+## 2026-10-11T03:30Z
+- Captures read: 0301Z. Last read: 0301Z.
+- X's check: 0301Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, already on record).
+- Pulse: 45 items (1 new, 1 dropped). Added Mario Nawfal's post on the Riyadh airport attack (world). Dropped the Ditka item and its AP reply (past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: MLB Guardians posts and the Kentucky-LSU post (small next to what is on the page); other Nawfal posts (account already has a place); Philadelphia officers posts (private people, graphic risk); Dhruv Rathee wife post (private person); Laiba Ejaz post (private person, suicide); Yorkshire tiger (graphic risk); Blade Runner 2099 duplicates, sexual, bait and fandom posts.
+- Requests: watch list gained the Riyadh post and lost the two Ditka posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the Riyadh airport attack (12 dead, a US citizen among them, per Nawfal) could be checked against outside reporting at a story pass.
