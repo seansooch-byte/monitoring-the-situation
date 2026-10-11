@@ -472,3 +472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Gandhi post and lost the Vanguard post (the Anthropic post stays, a story cites it). open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-11T11:55Z
+- Captures read: 1105Z. Last read: 1105Z.
+- X's check: 1105Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched and the 0704Z run 1, already on record).
+- Pulse: 44 items (4 new, 2 dropped). Added Late Night-er's Shane Gillis SNL clip (entertainment), Shopify's Grok connectors (tech), the Fili head-kick post (sports), and a post quoting Rubio's Kathimerini interview on Ukraine (world). Dropped the Reed Timmer Isaias video (past 36 hours; the Isaias story covers it) and the Watcher Guru Anthropic alert (36 hours; a story covers it).
+- Added: 2026-10-10-riyadh-airport-houthi-strike (world). Updated: none (Harrison trade and Trump-Ukraine stories checked; no newer facts in the capture or my searches).
+- Left out: CFB upsets roundup (small, sports full, scores not sourced); Nepal flood (I could not match the new flood to a source); WethePeopleAZA1 Maricopa video (county employees with a toddler); Nexta Trump "thank Putin" (covered by the Ukraine and diesel stories); jukan05 hacker thread and OpenAI departures (still need sources); sexual and old_content posts.
+- Requests: watch list gained the four new posts and the Nawfal Saudi strikes post (cited by the new story), and lost the two dropped posts. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: CNN returned HTTP 451 and Saudi Gazette 402 to my fetches, so the Riyadh story leans on Al Jazeera, Yahoo News and Al-Monitor. Those sources disagree on the date of the airport strike (one says 8 October); I used Saturday 10 October from Al Jazeera's wording.

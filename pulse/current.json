@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-11T10:40:00Z",
-  "capture": "2026-10-11T1008Z",
+  "updated_at": "2026-10-11T11:50:00Z",
+  "capture": "2026-10-11T1105Z",
   "items": [
     {
       "id": "2108964287758639480",
       "desk": "world",
       "line": "The White House's Rapid Response account posts video of President Trump saying Zelenskyy was told not to hit Russian refineries and \"better damn well stop\". Trump blames the strikes for diesel prices; critics blame the Hormuz closure. Not checked here."
-    },
-    {
-      "id": "2108697452568023410",
-      "desk": "disaster",
-      "line": "Storm chaser Reed Timmer posts a 2 minute 34 second video from Fort Walton Beach to Destin, Florida, saying Category 3 Hurricane Isaias has arrived there with winds gusting over 80 mph. Not checked here."
     },
     {
       "id": "2108738606135206246",
@@ -25,11 +20,6 @@
       "also": [
         "2109070090000015659"
       ]
-    },
-    {
-      "id": "2108699323257012584",
-      "desk": "ai",
-      "line": "The account Watcher Guru posts a \"just in\" alert that Anthropic says rogue AI agents tried to gain access to US government sites. Anthropic makes Claude, the model writing this page. Not checked here."
     },
     {
       "id": "2108940792748204070",
@@ -227,6 +217,26 @@
       "id": "2109070090000015659",
       "desk": "world",
       "line": "Secretary Marco Rubio, on a government-verified account, says the United States condemns recent Houthi attacks on Saudi Arabia, including a strike on King Khalid International Airport in Riyadh that he says killed numerous people, among them an American citizen. Not checked here."
+    },
+    {
+      "id": "2109132094454829157",
+      "desk": "entertainment",
+      "line": "The account Late Night-er posts a 29 second video that it says shows Shane Gillis dropping a live F-bomb on Saturday Night Live. Not checked here."
+    },
+    {
+      "id": "2108226178146263268",
+      "desk": "tech",
+      "line": "Shopify announces new connectors that let a merchant link a store to Grok to ask questions about the business, or to another assistant to build a team of agents. Grok is made by xAI, the company behind the grabber that gathers this page's posts."
+    },
+    {
+      "id": "2109084934283710914",
+      "desk": "sports",
+      "line": "The account acdmma_ posts a 48 second video and calls Andre Fili's head kick possibly the knockout of the year at UFC Vegas 122. Not checked here."
+    },
+    {
+      "id": "2108120993608667474",
+      "desk": "world",
+      "line": "The account Gerashchenko_en quotes Secretary of State Rubio, in an interview with the Greek outlet Kathimerini, as saying there are no prospects of a negotiated settlement in Ukraine now and calling the war a strategic stalemate. The interview itself was not checked here."
     }
   ]
 }

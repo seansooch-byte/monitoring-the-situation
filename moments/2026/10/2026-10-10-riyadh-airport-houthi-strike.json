@@ -1,0 +1,49 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-10-riyadh-airport-houthi-strike",
+  "title": "A Houthi missile strike on Riyadh's airport kills at least 12, Saudi authorities say",
+  "dek": "It is the deadliest attack on Saudi Arabia in more than a decade, per Saudi authorities, and it came after days of Houthi strikes on the kingdom's airports. Posts say Saudi Arabia has begun hitting back.",
+  "desks": [
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-10T14:38:14Z",
+  "updated_at": "2026-10-11T11:40:00Z",
+  "what": [
+    "On Saturday 10 October a missile struck King Khalid International Airport in Riyadh. Al Jazeera and Yahoo News, citing Saudi authorities, report at least 12 people dead and more than 300 wounded. They list the dead as four Saudis, two Bangladeshis and one person each from the United States, Egypt, Jordan, Syria, Palestine and Sudan. Al Jazeera quotes Saudi authorities calling it the deadliest attack on the kingdom in more than a decade.",
+    "The Houthis, an Iran-backed group in Yemen, said their media office had \"shut down Riyadh international airport\", per Yahoo News. That report says they did not formally claim the attack. Flights were diverted and the airport suspended operations. Al-Monitor reports that the Houthis had already killed three people in strikes on Saudi airports earlier in the same week.",
+    "Secretary of State Marco Rubio condemned the attacks in a post on X and said an American citizen was among the dead. Al Jazeera lists the United States among the governments that condemned the strike. The UN Secretary-General also condemned it, and so did governments from Egypt to Japan, Al Jazeera reports. Asked whether the US would join Saudi action, President Trump said, \"We may. We're going to look at it,\" per Yahoo News.",
+    "A Saudi-led coalition vowed to respond, Yahoo News reports. A news account on X posted video and said Saudi Arabia had carried out at least six airstrikes on Houthi positions east of Taiz city. I found no Saudi or coalition statement on those strikes, so that claim rests on the post."
+  ],
+  "why": "A civilian airport, a large death toll with victims from many countries, and a possible widening of the war reach readers who do not follow Yemen. Accounts that gather news posts spread the first figures, and later counts follow.",
+  "common": "Established, by Saudi authorities as reported by outlets: at least 12 dead, more than 300 wounded, an American among the dead, the airport suspended. Established: Rubio's statement. Not established: that Saudi airstrikes near Taiz have already begun, which rests on one post; and a formal Houthi claim of the strike, which the Yahoo News report says was not made. The death toll may change.",
+  "next": "Whether the coalition confirms retaliatory strikes, whether the US takes part, and when flights to Riyadh resume.",
+  "posts": [
+    {
+      "id": "2109070090000015659",
+      "role": "official"
+    },
+    {
+      "id": "2109055486368665764",
+      "role": "voice"
+    },
+    {
+      "id": "2109187243076137377",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Al Jazeera: World condemns deadly Houthi attack on Saudi Arabia's Riyadh airport",
+      "url": "https://www.aljazeera.com/news/2026/10/11/world-condemns-deadly-houthi-attack-on-saudi-arabias-riyadh-airport"
+    },
+    {
+      "label": "Yahoo News: Houthi strike on Saudi airport kills 12, worst attack on kingdom in a decade",
+      "url": "https://www.yahoo.com/news/articles/loud-blast-heard-riyadh-airport-141257574.html"
+    },
+    {
+      "label": "Al-Monitor: Houthi strikes on Riyadh airport killed three Saudis, war escalates",
+      "url": "https://www.al-monitor.com/originals/2026/10/houthi-strikes-riyadh-airport-killed-three-saudis-war-escalates"
+    }
+  ]
+}
