@@ -462,3 +462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Rubio post and lost the NASA post (not cited by a story). open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-11T10:40Z
+- Captures read: 1008Z. Last read: 1008Z.
+- X's check: 1008Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched and the 0704Z run 1, already on record).
+- Pulse: 42 items (1 new, 2 dropped). Added Rahul Gandhi's video post on Modi and the RSS (politics). Dropped the Anthropic behavior report post (past 36 hours; a story covers it) and the Vanguard Nigerian petrol item (the post shows as unavailable in the capture).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Yorkshire tiger enclosure post (a man in the enclosure, likely a private person, outcome unknown); Kelly Clarkson, Georgia prank, Dirtdog, clip__king, Kai Cenat/Reggie (private people or bait); Carragher and Piers Morgan spat (sports full, the post they argue over is not visible); Mattoo Nobel claim (unconfirmed); hokkori_buzz (religion and nationality row); second Musk, Schefter and Rapid Response posts (account already has a place); sexual and old_content posts.
+- Requests: watch list gained the Gandhi post and lost the Vanguard post (the Anthropic post stays, a story cites it). open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
