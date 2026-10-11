@@ -422,3 +422,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Dr. STONE and Rubio posts and lost the CNN post. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the Riyadh airport attack now has a State Department statement; the figures (12 dead, 300 wounded) still need outside reporting at a story pass.
+
+## 2026-10-11T05:30Z
+- Captures read: 0507Z. Last read: 0507Z.
+- X's check: 0507Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, already on record).
+- Pulse: 45 items (2 new, 2 dropped). Added the UN Human Rights office's post on detentions at the Delhi protests (world) and Bleacher Report's Kentucky-LSU overtime clip (sports). Dropped the Musk "Prime Minister Ambani" letter and the Watcher Guru carrier-stocks post (past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Yorkshire tiger posts (graphic risk; Sky News item already on the page); lyra_harper_, Dirtdog, clip__king and Kai Cenat posts (bait or private people); Schefter Crosby post and ESPN Kentucky clip (account already has a place); Guardians clinch, Gillis on SNL, Zelensky election remark (small next to the page or covered by an existing item); sexual, old_content and private-person posts. Vanguard item still shows X state unavailable with views null; kept as before.
+- Requests: watch list gained the two new posts and lost the two dropped. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
