@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-11T08:30:00Z",
-  "capture": "2026-10-11T0802Z",
+  "updated_at": "2026-10-11T09:30:00Z",
+  "capture": "2026-10-11T0900Z",
   "items": [
     {
       "id": "2108964287758639480",
@@ -25,11 +25,6 @@
       "also": [
         "2109070090000015659"
       ]
-    },
-    {
-      "id": "2108662426606395572",
-      "desk": "science",
-      "line": "NASA posts a Webb telescope infrared image of a nebula and says it shows many stars of different ages, which helps study how stars change over time."
     },
     {
       "id": "2108699323257012584",
@@ -232,6 +227,11 @@
       "id": "2108976004031012961",
       "desk": "entertainment",
       "line": "The account ToonHive quotes Nicolas Cage as saying he refused to sign a waiver allowing Amazon to use AI in his \"Spider-Noir\" series, and that he is \"not an AI-friendly actor\". Not checked here."
+    },
+    {
+      "id": "2109070090000015659",
+      "desk": "world",
+      "line": "Secretary Marco Rubio, on a government-verified account, says the United States condemns recent Houthi attacks on Saudi Arabia, including a strike on King Khalid International Airport in Riyadh that he says killed numerous people, among them an American citizen. Not checked here."
     }
   ]
 }

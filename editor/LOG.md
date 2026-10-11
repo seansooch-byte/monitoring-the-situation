@@ -452,3 +452,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Cage post and lost the three dropped items and the Meirov post (none cited by a story). open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the OpenAI Newsroom post (2108441580806025712, large) and the Hormuz tanker mine report are candidates for a story pass, needing outside sources.
+
+## 2026-10-11T09:30Z
+- Captures read: 0900Z. Last read: 0900Z.
+- X's check: 0900Z 31 confirmed, 0 missing, 0 mismatched, 3 withheld. No new mismatches (the 1603Z run still shows 9 mismatched and the 0704Z run 1, already on record).
+- Pulse: 43 items (1 new, 1 dropped). Added Secretary Rubio's statement condemning the Houthi strike on Riyadh airport (world). Dropped the NASA Webb nebula post (past 36 hours).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Kelly Clarkson's own post (names a store and insults an unnamed employee; the Pop Crave item covers it without the name); Georgia students' fake-fight prank (minors, a principal); Dirtdog, clip__king, Wearethrones1 (Dhruv Rathee's wife), ChimaPhag and Complex Walmart employee posts (bait or private people); mcfc_kairo Grok toilet question (point unclear); Musk Grok-shopping reply, WWE, Dexerto, Rupar and Rapid Response extras (account already has a place); sexual and old_content posts.
+- Requests: watch list gained the Rubio post and lost the NASA post (not cited by a story). open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing.
