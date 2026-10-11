@@ -432,3 +432,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the two new posts and lost the two dropped. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-11T07:30Z
+- Captures read: 0558Z, 0704Z. Last read: 0704Z.
+- X's check: 0704Z 28 confirmed, 1 mismatched (2108497704611414366, kounotori_DIY), 5 withheld; 0558Z 31 confirmed, 0 missing, 0 mismatched. The 1603Z run still shows 9 mismatched, already on record.
+- Pulse: 45 items (2 new, 2 dropped). Added Rep. Fitzpatrick's Russian oil bill (politics) and Pop Base on TikTok comment reposts (internet). Dropped the Treasury diesel license item and its Unusual Whales post (past 36 hours; a story covers it).
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: zerohedge on Trump's Ukraine remark and Musk's reply (Musk already has two places; Rupar items cover the remark); Percy Jackson trailer (entertainment full); CFB roundup and Bama posts (sports full, small); sexual, old_content and private-person posts.
+- Requests: watch list gained the two new posts and lost the Treasury posts (one is cited by a story and stays). open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: no log entry exists for the 0558Z pulse pass (commit 2d6d057); this entry covers both captures.
