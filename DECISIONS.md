@@ -474,3 +474,26 @@ per-run limit does not bound the page.
 
 **Not checked by the checker.** The three-a-run limit is a rule about what to keep, like the
 floors, and lives in `contract/GRABBER.md`. The checker stays the definition of a valid file.
+
+## 2026-10-10: The account rule is applied to each list, not once for the whole site
+
+**Context.** The entry above cut the editor's list once and drew every page from what was left.
+A second reader of the change (the test run before shipping) recomputed it on the real pulse:
+three of the twelve held posts sat on a different desk from their account's kept post, and the
+Tech desk went from one item to none. Its page said nothing from the desk was on the pulse
+while the editor had passed a post there with 3.2 million views, and its card on the front
+page showed 13 million views for the day.
+
+**Decision.** "One account, one place" holds for each list a reader is shown. The front page
+is cut from everything the editor passed. A desk's page is cut the same way from that desk's
+items alone. A post held off the front because its account has a larger one elsewhere is
+therefore still that account's one place on its own desk.
+
+**Why.** The complaint was one account crowding the feed, and the feed is the front page. A
+desk page that reports a quiet desk when it is not is a false statement, which is worse than
+a repeated name on a page a reader chose to open. The desks page shows each desk's top line,
+so one account can be the top line of more than one desk there; that is what is largest on
+each desk and is left as it is.
+
+**Supersedes** the sentence in the entry above that the build "keeps each account's most
+viewed post" without saying of which list.

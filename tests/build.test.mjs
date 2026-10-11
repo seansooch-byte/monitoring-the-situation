@@ -58,6 +58,9 @@ test('the real build leaves no DEMO marker, and counts only posts X has confirme
   const pulse = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8'));
   const counted = pulse.desks.reduce((n, d) => n + d.posts, 0);
   assert.ok(counted <= ok, `desks count ${counted} posts but X has confirmed only ${ok}`);
+  // The record holds posts filed under a desk that was later retired. They feed no total: the
+  // desks the site reports are the desks watched now, and nothing else.
+  assert.deepEqual(pulse.desks.map((d) => d.id), desks.map((d) => d.id));
   const headers = readFileSync(root + 'dist/_headers', 'utf8');
   assert.match(headers, /Content-Security-Policy: default-src 'none'/);
   assert.match(headers, /X-Robots-Tag: noindex/);
@@ -213,14 +216,20 @@ const captureFiles = (dir, out = []) => {
   return out;
 };
 
-test('no account holds more than one place on the pulse: its largest post stays, and the build says what it held back', () => {
+test('no account holds more than one place in a list: its largest post stays, and a post held off the front still stands on its own desk', () => {
   run('tools/make-demo.mjs');
   run('tools/build.mjs', '--demo');
   const before = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8')).pulse;
   assert.ok(before.length >= 6, 'the fixture has a pulse to cut');
   assert.deepEqual(before.map((it) => it.views), before.map((it) => it.views).sort((a, b) => b - a), 'and it is ranked largest first');
-  // Hand three of its posts to one account, written three ways, as X handles ignore case.
-  const same = [before[1], before[3], before[4]];
+  // Hand three of its posts to one account, written three ways, as X handles ignore case:
+  // its largest, a smaller one on the same desk, and a smaller one on another desk.
+  const a = before.find((it, i) => before.slice(i + 1).some((x) => x.desk === it.desk));
+  const rest = a ? before.slice(before.indexOf(a) + 1) : [];
+  const b = rest.find((it) => it.desk === a.desk);
+  const c = rest.find((it) => it.desk !== a.desk);
+  assert.ok(a && b && c, 'the fixture has two posts on one desk and a smaller one on another');
+  const same = [a, b, c];
   const handles = ['demo_loud', 'Demo_Loud', 'DEMO_LOUD'];
   for (const f of captureFiles(root + 'fixtures/demo/capture')) {
     const doc = JSON.parse(readFileSync(f, 'utf8'));
@@ -234,12 +243,18 @@ test('no account holds more than one place on the pulse: its largest post stays,
   }
   const out = run('tools/build.mjs', '--demo');
   const after = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8')).pulse.map((it) => it.id);
-  const gone = [same[1].id, same[2].id];
+  const gone = [b.id, c.id];
   assert.deepEqual(after, before.map((it) => it.id).filter((id) => !gone.includes(id)), 'only that account\'s two smaller posts are gone, and everything else holds its order');
   const home = readFileSync(root + 'dist/index.html', 'utf8');
-  assert.ok(home.includes(`id="p-${same[0].id}"`), 'its largest post is on the page');
-  for (const id of gone) assert.ok(!home.includes(`id="p-${id}"`) && !home.includes(`/status/${id}"`), `${id} is not on the page`);
+  assert.ok(home.includes(`id="p-${a.id}"`), 'its largest post is on the front page');
+  for (const id of gone) assert.ok(!home.includes(`id="p-${id}"`) && !home.includes(`/status/${id}"`), `${id} is not on the front page`);
   assert.match(out, /held back 2 posts.*demo_loud/i, 'and the build names the account and the count');
+  // Each desk's own list is cut the same way, from everything passed for that desk.
+  const own = readFileSync(`${root}dist/desk/${a.desk}/index.html`, 'utf8');
+  assert.ok(own.includes(`id="p-${a.id}"`) && !own.includes(`id="p-${b.id}"`), 'on its own desk the account still holds one place');
+  const other = readFileSync(`${root}dist/desk/${c.desk}/index.html`, 'utf8');
+  assert.ok(other.includes(`id="p-${c.id}"`), 'the post held off the front is the account\'s one place on its own desk');
+  assert.ok(!other.includes('Nothing from this desk is on the pulse') , 'so that desk is not reported empty');
   assert.match(readFileSync(root + 'dist/about/index.html', 'utf8'), /No account holds more than one place/, 'the about page states the rule');
   run('tools/make-demo.mjs');
 });
@@ -255,6 +270,9 @@ test('a page that says how many desks there are takes the number from the list',
   }
   assert.ok(said.length >= 5, `the pages state the number of desks in at least five places, found ${said.length}`);
   for (const n of said) assert.ok(right.includes(n), `a page says "${n} desks" but the list has ${desks.length}`);
+  // site.json writes the number as {desks}: the site's own words carry it, and no page shows the placeholder.
+  assert.ok(readFileSync(root + 'dist/about/index.html', 'utf8').includes(`${right[0]} desks from politics`), 'the purpose gives the number in words');
+  for (const f of readdirSync(root + 'dist', { recursive: true }).filter((f) => f.endsWith('.html'))) assert.ok(!readFileSync(root + 'dist/' + f, 'utf8').includes('{desks}'), `${f} shows no placeholder`);
   assert.ok(!existsSync(root + 'dist/desk/crypto/index.html'), 'a retired desk has no page');
   assert.ok(!readFileSync(root + 'dist/index.html', 'utf8').includes('data-desk="crypto"'), 'and no card');
 });

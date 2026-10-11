@@ -356,6 +356,13 @@ test('a retired desk is refused on a post, a sweep and a volume series in any ca
   }
 });
 
+test('a retired desk is refused when the capture does not say when it started', () => {
+  for (const d of desksDoc.retired) {
+    const a = capture(); a.posts[0].desk = d.id; a.run.started_at = 'this morning';
+    assert.ok(has(errs(a), /posts\[0\]\.desk.*retired/), `${d.id} is not waved through by an unreadable start time`);
+  }
+});
+
 test('a desk that never existed is still refused whenever the capture was made', () => {
   const a = capture(); a.posts[0].desk = 'finance';
   assert.ok(has(errs(a), /posts\[0\]\.desk.*contract\/desks\.json/));

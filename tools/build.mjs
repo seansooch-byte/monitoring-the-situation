@@ -152,7 +152,10 @@ const passed = (PULSE.items ?? []).map((it) => {
 
 // The pulse is every corner of the internet, so no one account may fill it. Of the posts the
 // editor passed, an account keeps its largest; the build says which others it held back.
-const { kept: pulse, held } = placesPerAccount(passed, PULSE_PER_ACCOUNT, (it) => it.post.author.handle);
+// The rule is applied to each list a reader is shown: the front page here, and each desk's
+// own list below, so a post held off the front still stands on its desk.
+const onePlace = (list) => placesPerAccount(list, PULSE_PER_ACCOUNT, (it) => it.post.author.handle);
+const { kept: pulse, held } = onePlace(passed);
 
 // ---------- the desks: 24 hourly figures per desk, from every post the grabber labelled with that desk
 
@@ -170,7 +173,7 @@ const desks = DESKS.desks.map((d) => {
   // reference led back to still feeds the trace by what it gained, but not the day's total.
   const fresh = own.filter((p) => p.created >= FROM);
   const total = fresh.reduce((sum, p) => { const l = (series.get(p.id) ?? []).filter((o) => Number.isFinite(o.views)).pop(); return sum + (l ? l.views : 0); }, 0);
-  return { ...d, pulse: pulse.filter((it) => it.deskInfo?.id === d.id), bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: live.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)), past: past.filter((s) => s.desks.includes(d.id)) };
+  return { ...d, pulse: onePlace(passed.filter((it) => it.deskInfo?.id === d.id)).kept, bins, posts: fresh.length, views: total, mag: magnitude(total), stories: mine, also: live.filter((s) => s.home?.id !== d.id && s.desks.includes(d.id)), past: past.filter((s) => s.desks.includes(d.id)) };
 });
 
 

@@ -53,6 +53,8 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 3. **No one account fills the pulse.** An account holds one place: of the posts the editor
    passed, the build keeps each account's most viewed and prints the ones it held back
    (`placesPerAccount` in `tools/lib/metrics.mjs`, `PULSE_PER_ACCOUNT` in the build). The rule
+   is applied to each list a reader is shown, the front page and each desk's own, so a post
+   held off the front still stands on its desk. The rule
    is in the build and not only in the editor's instructions because a post's rank changes
    every hour and the no-model refresh rebuilds the page without an editor. Upstream, the
    grabber keeps at most three new posts from one account in a run (`contract/GRABBER.md`),

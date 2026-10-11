@@ -102,14 +102,17 @@ large and helps a reader understand, attach it in `also` (two at most) and do no
 its own. Drop an item when it is older than 36 hours or has stopped being among the largest. An
 item that stays keeps its line unless the facts have changed.
 
-**One account, one place.** List one post from any one account: its largest that may be shown.
-The pulse is every corner of the internet, and an account with a very large following would
-otherwise fill it with its own posts, each of them among the largest of the day. The build
-holds this whatever the file says: it keeps an account's most viewed item, leaves the others
-out, and prints which. So count accounts, not posts, when you choose the dozen largest and the
-three per desk, and give the places this frees to other accounts. When a second thing from the
-same account matters, show it through someone else's post about it, or note it in the log for
-the next story pass. A post in `also` is context and is not counted.
+**One account, one place.** On the front page an account holds one place: its largest post that
+may be shown. The pulse is every corner of the internet, and an account with a very large
+following would otherwise fill it with its own posts, each of them among the largest of the
+day. The build holds this whatever the file says: it keeps an account's most viewed item,
+holds the others off the front page, and prints which. Each desk's own page is cut the same
+way from that desk's items. So count accounts, not posts, when you choose the dozen largest
+and the three per desk, and give the places this frees to other accounts. List a second post
+from an account only when it is on a different desk and among the largest things there: it
+will stand on that desk's page and not on the front. When a second thing from the same
+account matters otherwise, show it through someone else's post about it, or note it in the
+log for the next story pass. A post in `also` is context and is not counted.
 
 **Desks.** An item's desk is one of the desks watched now. A desk listed under `retired` in
 `contract/desks.json` is no longer on the site: do not file an item or a story under it. A post
