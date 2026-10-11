@@ -1,0 +1,52 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-10-singapore-sprint-mclaren-collision",
+  "title": "McLaren teammates Norris and Piastri collide on the last lap of the Singapore sprint",
+  "dek": "Max Verstappen won a wet, chaotic sprint and then took pole for Sunday's race. McLaren's own drivers took each other out of the points.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-10T10:16:00Z",
+  "updated_at": "2026-10-11T02:30:00Z",
+  "what": [
+    "On Saturday 10 October, Max Verstappen of Red Bull won the sprint race at the Singapore Grand Prix, Formula 1 reports. Lewis Hamilton of Ferrari was second, 2.591 seconds behind, and Charles Leclerc of Ferrari third. George Russell of Mercedes had been leading when he crashed into a wall on the first lap. Formula 1 says he was unhurt.",
+    "On the last lap, Lando Norris tried to pass his McLaren teammate Oscar Piastri on the inside at Turn 5. Formula 1 and the TSN report say Norris got alongside, ran out of room at the apex, and the cars touched. Both spun. Piastri hit the wall and fell out of the points. Norris recovered to eighth and took one point. TSN reports that McLaren would have scored nine with the two cars in fourth and fifth. The accounts I found disagree on how Piastri was classified, so I do not give it here.",
+    "The stewards looked at the clash and gave no penalty. TSN quotes them as saying both drivers contributed. McLaren team principal Andrea Stella told reporters that seeing two McLarens make contact \"is simply not acceptable\" and that it would be discussed privately. Norris said he had apologised and that both could have done better. Piastri said such things cannot happen.",
+    "Later on Saturday, Formula 1's account announced that Verstappen had taken pole position for Sunday's race."
+  ],
+  "why": "The two McLaren drivers are teammates, and a crash between them costs the team points that rivals could not take from it. Formula 1 posted video of the moment, and it spread widely.",
+  "next": "The Singapore Grand Prix itself is on Sunday 11 October.",
+  "posts": [
+    {
+      "id": "2108864299062206851",
+      "role": "origin"
+    },
+    {
+      "id": "2108865673942167802",
+      "role": "official"
+    },
+    {
+      "id": "2108864545452142708",
+      "role": "official"
+    },
+    {
+      "id": "2108928602519531894",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Formula 1: Verstappen wins dramatic, rain-hit Singapore sprint as Russell crashes and McLarens collide",
+      "url": "https://www.formula1.com/en/latest/article/verstappen-wins-dramatic-rain-hit-singapore-sprint-as-russell-crashes-and-mclarens-collide.4r90mH2skljBa5sinFAsyp"
+    },
+    {
+      "label": "TSN: Norris and Piastri collision at Singapore GP sprint 'not acceptable', McLaren boss",
+      "url": "https://www.tsn.ca/motorsports/article/norris-and-piastri-collision-at-singapore-gp-sprint-not-acceptable-mclaren-boss-n1-50131344/"
+    },
+    {
+      "label": "ABC News (Australia): Piastri, Norris collide on last lap of Singapore sprint",
+      "url": "https://www.abc.net.au/news/2026-10-11/oscar-piastri-lando-norris-singapore-sprint-crash/107252330"
+    }
+  ]
+}

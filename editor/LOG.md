@@ -392,3 +392,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the Obama post. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the TVA chairman pay claim (Trump, via Sortor) could be checked at a story pass.
+
+## 2026-10-11T02:30Z
+- Captures read: 0202Z. Last read: 0202Z.
+- X's check: 0202Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, already on record).
+- Pulse: 45 items (1 new, 2 dropped). Added Anil Menon's aurora video (science). Dropped the Rubio ICC post and the Obama midterm post (at 36 hours).
+- Added: 2026-10-10-singapore-sprint-mclaren-collision (sports). Updated: none; I looked for movement on 2026-10-10-trump-new-ukraine-president and found nothing new.
+- Left out: "Trump Ocean" (rawsalerts says Trump formally proposes it; I found only the earlier "American Ocean" remark in reporting, so unconfirmed); Penta winning Money in the Bank (only WWE's own posts, no outside report of the result yet; WWE already has a pulse place); Tao "Math 2.0" slide, Shanghai remote surgery, China blockchain network, Fortune on high-tax states (not researched this pass); sexual, bait and private-person posts.
+- Requests: watch list gained the aurora post and the four F1 sprint posts, lost the two dropped. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the web search tool returned stale 2024 results on a first query; extended mode fixed it. Nothing else.
