@@ -181,8 +181,11 @@ Overnight (06:00-11:00 UTC budget): 16 X reads (881→865 left). Watch 200; tren
 ## 2026-10-11T0802Z
 Overnight (06:00-11:00 UTC budget): 16 X reads (865→849 left). Watch 200; trends US+WW; quote/repost word "is" (2+1); sensors news/money/science; hourly desks; trend stream Stein; screen 100. No volume/context/media. Checker PASS partial (33 posts, 233 obs). Standing crypto-desk/author-cap untouched. Author-cap dropped none. Skipped possibly_sensitive/NSFW id 2108603994276847942.
 
+## 2026-10-11T1206Z
+Evening (12:00-05:00 UTC budget, ~8:06 AM ET): 16 X reads (790→774 left). Watch 200; trends US+WW; quote/repost word "it" (2+1); sensors news/money/science; hourly desks; trend stream Kyrie; screen 100. No volume/context/media. Checker PASS partial (40 posts, 231 obs). Standing crypto-desk/author-cap untouched. Author-cap dropped: elonmusk x8, nba x3, cryptorover x1. Skipped possibly_sensitive/NSFW ids from exclude list.
+
 ## Daily scoreboard (partial 2026-10-11 UTC)
-Running: after 0005Z+0101Z+0202Z+0301Z+0403Z+0507Z+0558Z+0704Z+0802Z+0900Z+1008Z+1105Z — 203 reads used; posts kept this capture 40. Full day line at last run before 00:00 UTC.
+Running: after 0005Z+0101Z+0202Z+0301Z+0403Z+0507Z+0558Z+0704Z+0802Z+0900Z+1008Z+1105Z+1206Z — 226 reads used; posts kept this capture 40. Full day line at last run before 00:00 UTC.
 2026-10-11T0507Z: partial evening run, 17 X reads (915→898). Watch 197; trends; quote/repost word what; sensors culture/sports/online; hourly desks; Kentucky trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped: barstoolsports x12, mlb x4, popbase x9, marionawfal x11, popcrave x1. Crypto desk retired untouched.
 2026-10-11T0558Z: partial evening run, 17 X reads (898→881). Watch 200; trends; quote/repost word the; sensors news/money/science; hourly desks; Georgia trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped: sciencegirl x2. Crypto desk retired untouched.
 2026-10-11T0704Z: partial overnight run, 16 X reads (881→865). Watch 200; trends; quote/repost word this; sensors culture/sports/online; hourly desks; Bama trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped none. Crypto desk retired untouched.
@@ -196,3 +199,4 @@ Overnight (06:00-11:00 UTC budget): 19 X reads (833→814 left; includes 3 waste
 ## 2026-10-11T1105Z
 Overnight (06:00-11:00 UTC budget, ~7:05 AM ET): 17 X reads (814→797 left; includes 1 wasted on bad watch ids). Watch 200; trends US+WW; quote/repost word "my" (2+1); sensors culture/sports/online; hourly desks; trend stream Bama; screen 99. No volume/context/media. Checker PASS partial (40 posts, 238 obs). Standing crypto-desk/author-cap untouched. Author-cap dropped none. Skipped possibly_sensitive/NSFW ids from exclude list.
 2026-10-11T1105Z: partial overnight run, 17 X reads (814→797). Watch 200; trends; quote/repost word my; sensors culture/sports/online; hourly desks; Bama trend stream; screen 99. No volume/story clusters/context.top/media. Author-cap dropped none. Crypto desk retired untouched.
+2026-10-11T1206Z: partial evening run, 16 X reads (790→774). Watch 200; trends; quote/repost word it; sensors news/money/science; hourly desks; Kyrie trend stream; screen 100. No volume/story clusters/context.top/media. Author-cap dropped: elonmusk x8, nba x3, cryptorover x1. Crypto desk retired untouched.
