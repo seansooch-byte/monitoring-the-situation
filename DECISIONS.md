@@ -404,3 +404,73 @@ began in New York, which is the day a reader would call it.
 **Alternatives.** Converting in the browser to each reader's own zone: the page would then
 differ from what was built and audited, and from what Sean sees. A fixed five hour offset:
 wrong for seven months of the year.
+
+## 2026-10-10: The crypto desk is retired, and a desk is retired by moving it, not deleting it
+
+**Context.** Sean, to the grabber, which passed it on in `capture/NOTES.md` because it may not
+edit the contract: "Drop the crypto category." Crypto was one of twenty desks and is in 46
+sweep records. In two days it produced 14 posts, the last captured early on 9 October, and
+nothing from it was on the pulse. The rule that a used desk id is "only retired" was written on day one
+with no way to do it: the checker, the grabber and the site each read one flat list.
+
+**Decision.** `contract/desks.json` gains a `retired` list beside `desks`. Retiring a desk moves
+its whole entry there with `retired_at` and `instead`. `desks` stays the list watched now, so
+every reader that knows nothing about retirement is right by default: the grabber sweeps
+nineteen, the site draws nineteen, the tests walk nineteen. Only the checker reads `retired`,
+to accept the id (and its beats) in a capture started before `retired_at` and refuse it after.
+The pages no longer type the number of desks: the build writes it from the list, and
+`site.json` says `{desks}`.
+
+**What happens to coin posts.** They are not sought: no desk sweep, no standing query, no volume
+series. One that reaches a global sweep on its own numbers is labelled like any other post:
+`markets` when it is a market event, `business` when it is a company's story, otherwise `null`.
+Dropping the category should not blind the record to a crash the whole internet is watching;
+it should stop the site going looking for coin talk. No `crypto` beat was added to `markets`:
+that would be the category again under another name.
+
+**Alternatives.** A `retired: true` flag on the desk inside `desks`: every reader then has to
+remember to filter, and the one that forgets draws a dead desk. Deleting the entry: 14 recorded
+posts and 46 sweeps would fail the checker, or the checker would have to stop checking desks in
+old files. Accepting the id forever: the grabber could go on labelling with it. A cut-off by
+time was chosen over "any capture already in the repository" because it is a property of the
+capture itself and needs no list of files.
+
+**Timing.** `retired_at` is 2026-10-11T02:00:00Z, the first hour after the change was pushed, so
+a run already in flight still passes.
+
+## 2026-10-10: One account, one place on the pulse
+
+**Context.** Sean, same message: "optimize so musk posts aren't crowding the whole feed. (He
+has the most hits on his posts)". When he wrote it one account held places 1, 4, 7 and 18 of
+37. On the evening of 10 October it held 1, 7, 11 and 12 of 45, and three other accounts held
+three places each. Upstream, one capture that day kept 13 posts from that account out of 40. The site's purpose is every corner of the internet on one record; an account with a very
+large following turns "largest first" into a page about itself.
+
+**Decision.** An account holds one place on the pulse: its most viewed post that the editor
+passed. The build applies it (`PULSE_PER_ACCOUNT`, `placesPerAccount`), prints what it held
+back, and the about page states the rule, so the page does not pretend to be a raw ranking.
+`contract/EDITOR.md` tells the editor to count accounts, not posts, so the freed places go to
+other accounts. The grabber keeps at most three new posts from one account in a run.
+
+**Why the build and not only the editor.** Which of an account's posts is largest changes
+hourly, the no-model refresh rebuilds the page with no editor present, and a rule a language
+model is asked to follow is a rule that is sometimes not followed. The build already ranks by
+measured views; this is the same kind of arithmetic. It keeps rather than refuses: a refusal
+would leave the page stale until the next pass over a matter the build can settle itself.
+
+**Why one and not two.** With two, the account Sean named would still have held the lead and
+one of the three large places on the day he complained. One is also the rule a reader can be
+told in a sentence. The cost is real: a reporter who breaks two separate stories in 36 hours
+shows once, and the second story has to come through someone else's post or the story layer.
+It is one constant, and the choice is Sean's to reverse.
+
+**Alternatives.** X's own author decay (1, 0.625, 0.44, then 0.25 for each further post), which
+the grabber's ranking notes describe: it reorders but does not remove, and an account whose
+posts are each ten times anyone else's still fills the top. Folding an account's other posts
+under its first as related posts: the lead shows its related posts in the open, so this would
+put more of the same account at the head of the page, and those posts would carry no line.
+Capping only what the grabber keeps: the editor chooses from 36 hours of captures, so a
+per-run limit does not bound the page.
+
+**Not checked by the checker.** The three-a-run limit is a rule about what to keep, like the
+floors, and lives in `contract/GRABBER.md`. The checker stays the definition of a valid file.

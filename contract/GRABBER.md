@@ -29,9 +29,16 @@ Prefer, in this order:
    with 4 million. Speed is the product.
 3. **The reaction.** For the biggest posts, the most liked replies and quote posts. That is where
    the internet's answer to a post lives.
-4. **Breadth across desks.** The site watches twenty desks, from politics to gaming to medicine. A
-   smaller post that is the biggest thing on its desk today is worth more than the fortieth biggest
-   politics post.
+4. **Breadth across desks.** The site watches every desk in `contract/desks.json`, from politics
+   to gaming to medicine. A smaller post that is the biggest thing on its desk today is worth more
+   than the fortieth biggest politics post.
+5. **Breadth across accounts.** One account's posts must not fill a capture. Of the posts new to
+   a run, keep at most three from any one account: its most viewed, wherever they came from. A
+   run on 2026-10-10 kept thirteen posts from one account out of forty, and those ten places were
+   ten other posts the site never saw. Posts a request names, and replies and quote posts kept
+   as context, do not count toward the three. This limits only which new records you keep:
+   re-read every post already on the list as before, and keep following references from every
+   candidate. When the limit drops posts, say so in `capture/NOTES.md`: the account and how many.
 
 ## The sweeps
 
@@ -192,8 +199,8 @@ median for each source. The gather is judged by the day, not by any one run.
 
 ## The desks
 
-`contract/desks.json` is the list: twenty desks in six groups. Read it before your first run and
-again whenever it changes. For each desk it gives:
+`contract/desks.json` is the list. Its `desks` are the ones watched now, in six groups. Read it
+before every run: it changes. For each desk it gives:
 
 - `scope`: what belongs there, and `not_here`: the near misses and where they go instead.
 - `beats`: the parts of the desk, for example `nfl` and `nba` under `sports`. Use them to build
@@ -207,13 +214,22 @@ again whenever it changes. For each desk it gives:
 | Group | Desks |
 |---|---|
 | News | `politics`, `world`, `defense`, `justice`, `disaster` |
-| Money | `markets`, `business`, `crypto` |
+| Money | `markets`, `business` |
 | Science and tech | `ai`, `tech`, `science`, `medicine` |
 | Culture | `entertainment`, `music`, `gaming`, `ideas` |
 | Sports | `sports` |
 | Life online | `internet`, `life`, `offbeat` |
 
 (The table is a map for reading. If it ever disagrees with the file, the file is right.)
+
+**A retired desk.** A desk the site has dropped moves from `desks` to `retired` in the same file,
+with `retired_at`, the time it stopped. From that time on, do not sweep it, do not label a post
+or a sweep with it, do not count its volume, take its standing query out of
+`capture/CAPABILITIES.md`, and drop from `capture/SENSORS.md` any account kept only for it. The
+checker refuses its id in any capture started at or after `retired_at`. Captures made before
+then are left exactly as they are. Its `instead` says what to do with its subject now. `crypto` was retired on 2026-10-11: coin and token posts are no
+longer sought, and one that reaches a global sweep on its own numbers is `markets` when it is a
+market event, `business` when it is a company's story, and otherwise `null`.
 
 Rules for sweeping and labelling:
 

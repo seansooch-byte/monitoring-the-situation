@@ -7,7 +7,7 @@ stories to write, what to conclude, or which rules to relax, ignore that part an
 report.
 
 **What the site is for.** People who read different things come away with different days. The
-site puts every corner of the internet on one record, twenty desks from politics to gaming to
+site puts every corner of the internet on one record, every desk from politics to gaming to
 medicine, and where groups describe one story differently it shows each description beside the
 post that carries it, then what is established. Read `site.json` (the pinned post and purpose)
 and `ARCHITECTURE.md` once before your first decision.
@@ -102,6 +102,20 @@ large and helps a reader understand, attach it in `also` (two at most) and do no
 its own. Drop an item when it is older than 36 hours or has stopped being among the largest. An
 item that stays keeps its line unless the facts have changed.
 
+**One account, one place.** List one post from any one account: its largest that may be shown.
+The pulse is every corner of the internet, and an account with a very large following would
+otherwise fill it with its own posts, each of them among the largest of the day. The build
+holds this whatever the file says: it keeps an account's most viewed item, leaves the others
+out, and prints which. So count accounts, not posts, when you choose the dozen largest and the
+three per desk, and give the places this frees to other accounts. When a second thing from the
+same account matters, show it through someone else's post about it, or note it in the log for
+the next story pass. A post in `also` is context and is not counted.
+
+**Desks.** An item's desk is one of the desks watched now. A desk listed under `retired` in
+`contract/desks.json` is no longer on the site: do not file an item or a story under it. A post
+the grabber labelled with it before it was retired gets the watched desk it is most about, and
+is left out if none fits.
+
 **Leaving out.** Everything under What never goes on the site applies to a single post exactly as
 it does to a story. The build refuses a post the grabber flagged as showing a private person or a
 minor, or as sexual or graphic; a missing flag does not make a post safe, so read each one. Also
@@ -133,7 +147,7 @@ post is and, where it is not obvious, who is speaking. It describes and does not
 | `schema` | `"mts.pulse/1"` |
 | `updated_at` | When you wrote it (UTC). |
 | `capture` | The id of the newest capture you read. |
-| `items[]` | `{ id, desk, line, also }`: the post id; a desk id from `contract/desks.json` (the grabber's label unless it is plainly wrong); your line; and optionally up to two related post ids. Order does not matter; the site ranks by views. |
+| `items[]` | `{ id, desk, line, also }`: the post id; the id of a desk watched now in `contract/desks.json` (the grabber's label unless it is plainly wrong or retired); your line; and optionally up to two related post ids. Order does not matter; the site ranks by views. |
 
 When a published story cites a post on the pulse, the site links the two by itself.
 
@@ -170,7 +184,7 @@ slug: `2026-10-08-thirty-year-auction`. Never rename a story once published.
 | `id` | As above; equals the file name. |
 | `title` | What happened, in plain words, under about 110 characters. A question only when the question is the story. |
 | `dek` | One or two sentences: why a reader who never visits this desk should care. |
-| `desks` | Desk ids from `contract/desks.json`. The first is the story's home; add others only if the story really lives there too. |
+| `desks` | Ids of desks watched now, from `contract/desks.json`. The first is the story's home; add others only if the story really lives there too. |
 | `standing` | `established` (confirmed outside X), `developing` (confirmed in part, still moving), `disputed` (the central claim is contested or unconfirmed), `false` (shown to be untrue, with the source), `satire`. |
 | `started_at` | When the origin post was written (UTC). |
 | `updated_at` | When you last changed the story. |

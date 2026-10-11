@@ -78,7 +78,8 @@ A `down` run has empty arrays and is still a valid file. It is how a failure is 
 | `post_ids` | The ids this sweep returned, best first. |
 
 The desks are listed in `contract/desks.json`, each with its scope, its beats, how often to sweep
-it and its floor. That file is the only list; nothing here repeats it.
+it and its floor. That file is the only list; nothing here repeats it. A desk under `retired`
+there is valid only in a capture started before its `retired_at`.
 
 ## trends[]
 
@@ -173,8 +174,8 @@ Wrong schema tag. An id that is not a string of digits. A `created_at` that disa
 A url for a different id or handle. A post with no observation. An observation for a post nobody
 recorded. A metric that is not a whole number or `null`. A live observation with no numbers. A time
 outside the run, in the future, or before the post existed. Any id referenced from `sweeps`,
-`trends`, `context` or `answers` without a record. A value outside a closed list, including a desk that is not in `contract/desks.json` or a beat that
-is not one of its desk's beats. A link that is not
+`trends`, `context` or `answers` without a record. A value outside a closed list, including a desk that is not in `contract/desks.json`, a desk
+retired before the run started, or a beat that is not one of its desk's beats. A link that is not
 `https`. A failed run or sweep with no reason. An `ok` run with no posts. A duplicate record. An em
 dash in any string you wrote yourself (verbatim fields are exempt). More than 400 posts or 1,500
 observations in one file.

@@ -9,7 +9,7 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { deskTrace, magnitude, seriesByPost, storyNumbers } from './lib/metrics.mjs';
+import { deskTrace, magnitude, placesPerAccount, seriesByPost, storyNumbers } from './lib/metrics.mjs';
 import { ZONE_LABEL, clockTime, dateOf, dayOf } from './lib/clock.mjs';
 
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -18,11 +18,19 @@ const DATA = DEMO ? join(REPO, 'fixtures', 'demo') : REPO;
 const OUT = join(REPO, 'dist');
 const HOUR = 3600000;
 const BINS = 24; // one for each of the last 24 hours
+// One account holds at most this many places on the pulse, however many of its posts are large.
+const PULSE_PER_ACCOUNT = 1;
 
 const readJSON = (p) => JSON.parse(readFileSync(p, 'utf8'));
+// The site draws the desks watched now. A retired desk has no card, no page and no total.
 const DESKS = readJSON(join(REPO, 'contract', 'desks.json'));
-const SITE = readJSON(join(REPO, 'site.json'));
 const deskById = new Map(DESKS.desks.map((d) => [d.id, d]));
+// A count in a sentence is written as a word, and is read from the data, never typed.
+const WORDS = ['no', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+const inWords = (n) => WORDS[n] ?? String(n);
+const DESK_COUNT = inWords(DESKS.desks.length);
+// site.json holds the site's own words. Where they give the number of desks they say {desks}.
+const SITE = JSON.parse(readFileSync(join(REPO, 'site.json'), 'utf8').replaceAll('{desks}', DESK_COUNT));
 
 function walk(dir, test, out = []) {
   if (!existsSync(dir)) return out;
@@ -129,7 +137,7 @@ function pulsePost(id, what) {
   return resolvePost({ id, role: null });
 }
 
-const pulse = (PULSE.items ?? []).map((it) => {
+const passed = (PULSE.items ?? []).map((it) => {
   const post = pulsePost(it.id, 'item');
   const n = storyNumbers([it.id], series, NOW);
   const ageH = Math.max((NOW - post.created) / HOUR, 0.05);
@@ -141,6 +149,10 @@ const pulse = (PULSE.items ?? []).map((it) => {
     deskInfo: deskById.get(it.desk) ?? deskById.get(post.desk),
   };
 }).filter((it) => it.n.views != null).sort((a, b) => b.n.views - a.n.views);
+
+// The pulse is every corner of the internet, so no one account may fill it. Of the posts the
+// editor passed, an account keeps its largest; the build says which others it held back.
+const { kept: pulse, held } = placesPerAccount(passed, PULSE_PER_ACCOUNT, (it) => it.post.author.handle);
 
 // ---------- the desks: 24 hourly figures per desk, from every post the grabber labelled with that desk
 
@@ -444,7 +456,7 @@ ${lead && !rest.length ? '' : `<section class="pulse-sec" id="pulse" aria-labell
   <header class="sec-head"><h2 id="stories-h">Researched stories</h2><p>Slower and deeper: what happened, how each world is describing it, and what is on the record, with sources.</p></header>
   ${shown.length ? `<ul class="st-list">${shown.map((s) => storyLine(s)).join('')}</ul>${live.length > shown.length ? `<p class="note"><a href="/stories/">All ${live.length} current stories</a></p>` : ''}` : empty('No stories written up yet.')}
 </section>`;
-  return page({ title: `${SITE.name}: ${SITE.line}`, description: 'What every corner of the internet is passing around, on one record: twenty desks, measured hourly, with what each world is seeing and what is established.', path: '/', body, current: '/', front: pinStrip() });
+  return page({ title: `${SITE.name}: ${SITE.line}`, description: `What every corner of the internet is passing around, on one record: ${DESK_COUNT} desks, measured hourly, with what each world is seeing and what is established.`, path: '/', body, current: '/', front: pinStrip() });
 }
 
 function storiesPage() {
@@ -511,7 +523,7 @@ function deskPage(d) {
 function desksPage() {
   const body = `${pageHead({ label: `${desks.length} desks`, title: 'The desks', dek: `Every part of the internet's attention this site watches. Each is swept on a schedule, and a quiet desk is reported as quiet.` })}
 ${DESKS.groups.map((g) => `<section class="group"><h2>${esc(g.name)}</h2><div class="dk-grid">${desks.filter((d) => d.group === g.id).map((d) => deskCard(d, { link: true })).join('')}</div></section>`).join('\n')}`;
-  return page({ title: `The desks · ${SITE.name}`, description: 'The twenty desks this site watches, in six groups.', path: '/desks/', body, current: '/desks/' });
+  return page({ title: `The desks · ${SITE.name}`, description: `The ${DESK_COUNT} desks this site watches, in ${inWords(DESKS.groups.length)} groups.`, path: '/desks/', body, current: '/desks/' });
 }
 
 function archivePage() {
@@ -530,13 +542,13 @@ function aboutPage() {
   ${SITE.purpose.map((t) => `<p>${esc(t)}</p>`).join('')}
   <h2>How it is made</h2>
   <ol class="steps">
-    <li><h3>Grok reads X.</h3><p>Every hour it records what is spreading on each of twenty desks: the posts exactly as written, and their numbers. It re-reads the posts it is tracking so that speed can be measured. It writes no words of its own.</p></li>
+    <li><h3>Grok reads X.</h3><p>Every hour it records what is spreading on each of ${DESK_COUNT} desks: the posts exactly as written, and their numbers. It re-reads the posts it is tracking so that speed can be measured. It writes no words of its own.</p></li>
     <li><h3>Each post is checked.</h3><p>A post's id carries the moment it was created, so a record whose date does not match its id is rejected. Before a post appears here, X is asked directly whether it exists and whether its author and text match.</p></li>
     <li><h3>Claude writes.</h3><p>It reads each post before it is shown, leaves out what should not be shown, and writes the sentence above it. For the larger things it reads the reporting and writes a story: what happened, why it is spreading, how each world is seeing it, and what is on the record. It supplies no numbers.</p></li>
   </ol>
   <h2>How to read it</h2>
   <dl class="glossary">
-    <div><dt>Internet Pulse</dt><dd>The front of the site: single posts from every desk, refreshed each hour. The largest leads the page, and the larger a post is, the larger it is set. The sentence above a post is the editor's and says what the post is, not whether it is right.</dd></div>
+    <div><dt>Internet Pulse</dt><dd>The front of the site: single posts from every desk, refreshed each hour. The largest leads the page, and the larger a post is, the larger it is set. No account holds more than ${inWords(PULSE_PER_ACCOUNT)} ${PULSE_PER_ACCOUNT === 1 ? 'place' : 'places'}, however many of its posts are large: this is every corner of the internet, not the loudest one. The sentence above a post is the editor's and says what the post is, not whether it is right.</dd></div>
     <div><dt>Stories</dt><dd>Slower and deeper. For the things worth more than a line: what happened, why it is spreading, how each world describes it, and what is on the record, with sources.</dd></div>
     <div><dt>Magnitude</dt><dd>The base ten log of views, for one post on the pulse or across a story's tracked posts. 6.0 is a million views, 7.0 is ten million, 8.0 is a hundred million. Each whole step is ten times larger.</dd></div>
     <div><dt>The desks</dt><dd>One card per desk, with a bar for each of the last 24 hours. The height of a bar is the views gained in that hour by the posts recorded on that desk, on a log scale: a thousand an hour is the floor and ten million is full height.</dd></div>
@@ -571,4 +583,9 @@ put('_headers', `/*\n  Content-Security-Policy: ${CSP}\n  Strict-Transport-Secur
 put('robots.txt', 'User-agent: *\nDisallow: /\n');
 put('data/pulse.json', JSON.stringify({ as_of: new Date(NOW).toISOString(), demo: DEMO, desks: desks.map((d) => ({ id: d.id, code: d.code, posts: d.posts, views: d.views, magnitude: d.mag })), pulse: pulse.map((it) => ({ id: it.id, url: it.post.url, desk: it.deskInfo?.id ?? null, line: it.line, views: it.n.views, magnitude: it.n.magnitude, views_per_hour: it.pace })), stories: live.map((s) => ({ id: s.id, title: s.title, desks: s.desks, standing: s.standing, ...s.n })) }, null, 1));
 if (DEMO) put('DEMO', 'Built from invented data. Never deploy this folder.\n');
+if (held.length) {
+  const by = new Map();
+  for (const it of held) by.set(it.post.author.handle.toLowerCase(), (by.get(it.post.author.handle.toLowerCase()) ?? 0) + 1);
+  console.log(`pulse: held back ${held.length} ${held.length === 1 ? 'post' : 'posts'} over ${inWords(PULSE_PER_ACCOUNT)} to an account (${[...by].map(([h, n]) => `${h} ${n}`).join(', ')})`);
+}
 console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${pulse.length} on the pulse, ${stories.length} stories (${live.length} current), ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);

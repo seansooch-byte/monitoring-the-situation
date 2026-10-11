@@ -1,6 +1,6 @@
 {
   "schema": "mts.desks/1",
-  "about": "The desks: every part of the internet's attention this site watches. This file is the one list. The checker validates against it, the grabber sweeps by it, and the site draws its sections from it. A post gets the single desk it is most about, or null if nothing fits.",
+  "about": "The desks: every part of the internet's attention this site watches. This file is the one list. The checker validates against it, the grabber sweeps by it, and the site draws its sections from it. A post gets the single desk it is most about, or null if nothing fits. `desks` are the ones watched now. A desk that is dropped moves to `retired` with the time it stopped: the captures made before then still carry its id, nothing started after may use it, and its id and code are never given to another desk.",
   "groups": [
     {
       "id": "news",
@@ -89,7 +89,7 @@
       "name": "Markets",
       "group": "money",
       "scope": "Markets and the economy: stocks, bonds, interest rates and the Federal Reserve, commodities and energy prices, economic data, housing, earnings as market events, investors arguing, and personal finance.",
-      "not_here": "Tokens and coins are crypto. A company's own story (a deal, layoffs, a chief executive) is business.",
+      "not_here": "Coins and tokens are not sought (the crypto desk is retired). One belongs here only as a market event the wider internet is passing around. A company's own story (a deal, layoffs, a chief executive) is business.",
       "beats": ["stocks", "macro", "rates", "commodities", "housing", "personal-finance"],
       "sweep_every_hours": 2,
       "floor": { "views": 20000, "likes": 500 }
@@ -102,17 +102,6 @@
       "scope": "Companies and work: deals, executives, layoffs, labor and unions, careers and office life, brands and advertising, retail and prices, startups as businesses, and the business of media.",
       "not_here": "A technology product is tech or ai. A share price move is markets.",
       "beats": ["companies", "deals", "work", "brands", "retail", "startups", "media"],
-      "sweep_every_hours": 4,
-      "floor": { "views": 20000, "likes": 500 }
-    },
-    {
-      "id": "crypto",
-      "code": "CRY",
-      "name": "Crypto",
-      "group": "money",
-      "scope": "Bitcoin and other tokens, memecoins, exchanges and protocols, scams and collapses, crypto personalities, and crypto policy.",
-      "not_here": "Promotional posts for a coin are ads: leave them out unless the promotion itself is the story.",
-      "beats": ["bitcoin", "altcoins", "memecoins", "exchanges", "scams", "policy"],
       "sweep_every_hours": 4,
       "floor": { "views": 20000, "likes": 500 }
     },
@@ -247,6 +236,21 @@
       "beats": ["animals", "nature", "feats", "oddities", "feel-good"],
       "sweep_every_hours": 2,
       "floor": { "views": 50000, "likes": 1000 }
+    }
+  ],
+  "retired": [
+    {
+      "id": "crypto",
+      "code": "CRY",
+      "name": "Crypto",
+      "group": "money",
+      "retired_at": "2026-10-11T02:00:00Z",
+      "instead": "Coin and token posts are no longer sought: no desk sweep, no standing query, no volume series. One that reaches a global sweep on its own numbers is labelled like any other post: markets when it is a market event, business when it is a company's story, and otherwise null.",
+      "scope": "Bitcoin and other tokens, memecoins, exchanges and protocols, scams and collapses, crypto personalities, and crypto policy.",
+      "not_here": "Promotional posts for a coin are ads: leave them out unless the promotion itself is the story.",
+      "beats": ["bitcoin", "altcoins", "memecoins", "exchanges", "scams", "policy"],
+      "sweep_every_hours": 4,
+      "floor": { "views": 20000, "likes": 500 }
     }
   ]
 }

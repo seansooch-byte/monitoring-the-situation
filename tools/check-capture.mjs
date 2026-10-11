@@ -14,8 +14,11 @@ import { fileURLToPath } from 'node:url';
 export const SCHEMA = 'mts.capture/1';
 // The desks and their beats are data: contract/desks.json is the one list.
 const DESK_FILE = JSON.parse(readFileSync(new URL('../contract/desks.json', import.meta.url), 'utf8'));
+// The desks watched now. A retired desk is not one of them, but the captures made while it was
+// watched still carry its id and its beats, so the record keeps both and the time it stopped.
 export const DESKS = DESK_FILE.desks.map((d) => d.id);
-export const BEATS = Object.fromEntries(DESK_FILE.desks.map((d) => [d.id, d.beats]));
+export const RETIRED = Object.fromEntries((DESK_FILE.retired ?? []).map((d) => [d.id, d.retired_at]));
+export const BEATS = Object.fromEntries([...DESK_FILE.desks, ...(DESK_FILE.retired ?? [])].map((d) => [d.id, d.beats]));
 const RUN_STATUS = ['ok', 'partial', 'down'];
 const SWEEP_STATUS = ['ok', 'partial', 'down', 'skipped'];
 const SWEEP_KINDS = ['discovery', 'desk', 'trends', 'watch', 'context', 'request', 'volume'];
@@ -93,6 +96,13 @@ export function checkCapture(doc, opts = {}) {
   const arr = (path, v) => {
     if (!Array.isArray(v)) { err(path, 'must be an array'); return []; }
     return v;
+  };
+  // A desk id is good while its desk is watched. A retired desk's id stays good in a capture
+  // started before it was retired, and in nothing started after.
+  const desk = (path, v) => {
+    if (v == null || DESKS.includes(v)) return;
+    if (!Object.hasOwn(RETIRED, v)) err(path, 'must be a desk id from contract/desks.json, or null');
+    else if (!(utc(doc.run?.started_at) < Date.parse(RETIRED[v]))) err(path, `is ${v}, a desk retired on ${RETIRED[v].slice(0, 10)}: it is no longer swept, labelled or counted; use a desk watched now, or null`);
   };
 
   if (!isObj(doc)) return { errors: ['capture: must be a JSON object'], warnings };
@@ -177,10 +187,10 @@ export function checkCapture(doc, opts = {}) {
     }
     if (p.note != null && !(isObj(p.note) && isStr(p.note.text))) err(`${at}.note`, 'must be { text } or null');
     arr(`${at}.flags`, p.flags).forEach((f) => oneOf(`${at}.flags`, f, FLAGS));
-    if (p.desk != null && !DESKS.includes(p.desk)) err(`${at}.desk`, 'must be a desk id from contract/desks.json, or null');
+    desk(`${at}.desk`, p.desk);
     if (p.beat != null) {
       if (p.desk == null) err(`${at}.beat`, 'needs a desk; a beat is a part of one desk');
-      else if (!(BEATS[p.desk] ?? []).includes(p.beat)) err(`${at}.beat`, `is not a beat of ${p.desk} in contract/desks.json; use one of its beats or null`);
+      else if (!(Object.hasOwn(BEATS, p.desk) ? BEATS[p.desk] : []).includes(p.beat)) err(`${at}.beat`, `is not a beat of ${p.desk} in contract/desks.json; use one of its beats or null`);
     }
     own(`${at}.topic`, p.topic);
     own(`${at}.lead`, p.lead);
@@ -231,7 +241,7 @@ export function checkCapture(doc, opts = {}) {
     if (!isObj(s)) { err(at, 'must be an object'); return; }
     own(`${at}.id`, s.id, { required: true });
     oneOf(`${at}.kind`, s.kind, SWEEP_KINDS);
-    if (s.desk != null && !DESKS.includes(s.desk)) err(`${at}.desk`, 'must be a desk id from contract/desks.json, or null');
+    desk(`${at}.desk`, s.desk);
     own(`${at}.method`, s.method, { required: true });
     if (s.window_hours != null && !(typeof s.window_hours === 'number' && s.window_hours > 0)) err(`${at}.window_hours`, 'must be a positive number or null');
     oneOf(`${at}.status`, s.status, SWEEP_STATUS);
@@ -295,7 +305,7 @@ export function checkCapture(doc, opts = {}) {
       if (!isObj(v)) { err(at, 'must be an object'); return; }
       own(`${at}.key`, v.key, { required: true });
       if (isStr(v.key)) { if (keys.has(v.key)) err(`${at}.key`, `duplicate of an earlier series for ${v.key}`); keys.add(v.key); }
-      if (v.desk != null && !DESKS.includes(v.desk)) err(`${at}.desk`, 'must be a desk id from contract/desks.json, or null');
+      desk(`${at}.desk`, v.desk);
       if (!isStr(v.query) || v.query.trim() === '') err(`${at}.query`, 'must be the exact query the counts are for');
       oneOf(`${at}.granularity`, v.granularity, ['hour']);
       const pts = arr(`${at}.points`, v.points);

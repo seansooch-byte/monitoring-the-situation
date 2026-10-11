@@ -13,7 +13,7 @@ Start here:
 | If you are | Read |
 |---|---|
 | The grabber | `contract/GRABBER.md`, then `contract/CAPTURE.md` and `contract/desks.json` |
-| Adding, merging or renaming a desk | `contract/desks.json`: it is the only list |
+| Adding or retiring a desk | `contract/desks.json`: it is the only list. A desk that has been captured against is never renamed or deleted; it moves to `retired` |
 | Changing how the pieces fit | `ARCHITECTURE.md` |
 | Wondering why something is the way it is | `DECISIONS.md` |
 

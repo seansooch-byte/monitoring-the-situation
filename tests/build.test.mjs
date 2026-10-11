@@ -202,3 +202,59 @@ test('the real pulse file is well formed: unique posts, a known desk and a line 
     for (const a of it.also ?? []) assert.match(a, /^\d{15,20}$/);
   }
 });
+
+// ---- one account, one place; and the desks the pages count are the desks in the list
+
+const captureFiles = (dir, out = []) => {
+  for (const name of readdirSync(dir, { withFileTypes: true })) {
+    if (name.isDirectory()) captureFiles(`${dir}/${name.name}`, out);
+    else if (/^\d{4}Z\.json$/.test(name.name)) out.push(`${dir}/${name.name}`);
+  }
+  return out;
+};
+
+test('no account holds more than one place on the pulse: its largest post stays, and the build says what it held back', () => {
+  run('tools/make-demo.mjs');
+  run('tools/build.mjs', '--demo');
+  const before = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8')).pulse;
+  assert.ok(before.length >= 6, 'the fixture has a pulse to cut');
+  assert.deepEqual(before.map((it) => it.views), before.map((it) => it.views).sort((a, b) => b - a), 'and it is ranked largest first');
+  // Hand three of its posts to one account, written three ways, as X handles ignore case.
+  const same = [before[1], before[3], before[4]];
+  const handles = ['demo_loud', 'Demo_Loud', 'DEMO_LOUD'];
+  for (const f of captureFiles(root + 'fixtures/demo/capture')) {
+    const doc = JSON.parse(readFileSync(f, 'utf8'));
+    let changed = false;
+    for (const p of doc.posts) {
+      const i = same.findIndex((it) => it.id === p.id);
+      if (i < 0) continue;
+      p.author.handle = handles[i]; p.url = `https://x.com/${handles[i]}/status/${p.id}`; changed = true;
+    }
+    if (changed) writeFileSync(f, JSON.stringify(doc));
+  }
+  const out = run('tools/build.mjs', '--demo');
+  const after = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8')).pulse.map((it) => it.id);
+  const gone = [same[1].id, same[2].id];
+  assert.deepEqual(after, before.map((it) => it.id).filter((id) => !gone.includes(id)), 'only that account\'s two smaller posts are gone, and everything else holds its order');
+  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  assert.ok(home.includes(`id="p-${same[0].id}"`), 'its largest post is on the page');
+  for (const id of gone) assert.ok(!home.includes(`id="p-${id}"`) && !home.includes(`/status/${id}"`), `${id} is not on the page`);
+  assert.match(out, /held back 2 posts.*demo_loud/i, 'and the build names the account and the count');
+  assert.match(readFileSync(root + 'dist/about/index.html', 'utf8'), /No account holds more than one place/, 'the about page states the rule');
+  run('tools/make-demo.mjs');
+});
+
+test('a page that says how many desks there are takes the number from the list', () => {
+  run('tools/make-demo.mjs');
+  run('tools/build.mjs', '--demo');
+  const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen', 'twenty'];
+  const right = [WORDS[desks.length] ?? String(desks.length), String(desks.length)];
+  const said = [];
+  for (const f of ['index.html', 'desks/index.html', 'about/index.html']) {
+    for (const [, n] of readFileSync(root + 'dist/' + f, 'utf8').matchAll(new RegExp(`\\b(${WORDS.join('|')}|\\d+) desks\\b`, 'gi'))) said.push(n.toLowerCase());
+  }
+  assert.ok(said.length >= 5, `the pages state the number of desks in at least five places, found ${said.length}`);
+  for (const n of said) assert.ok(right.includes(n), `a page says "${n} desks" but the list has ${desks.length}`);
+  assert.ok(!existsSync(root + 'dist/desk/crypto/index.html'), 'a retired desk has no page');
+  assert.ok(!readFileSync(root + 'dist/index.html', 'utf8').includes('data-desk="crypto"'), 'and no card');
+});

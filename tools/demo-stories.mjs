@@ -162,7 +162,7 @@ export const STORIES = [
     ],
   },
   {
-    slug: 'typo-coin', desks: ['crypto'], beat: 'memecoins', standing: 'developing', start: 5.0,
+    slug: 'typo-coin', desks: ['markets'], standing: 'developing', start: 5.0,
     title: 'A token named after a typo gains and loses most of its value in three hours',
     dek: 'It started as a joke about a misspelled announcement. The chart is now the joke.',
     what: ['After an exchange misspelled a word in an announcement, someone launched a token using the misspelling as its name. It rose quickly, and has since fallen by about four fifths from its peak.'],

@@ -6,7 +6,7 @@ import assert from 'node:assert/strict';
 import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { BEATS, DESKS, checkCapture, knownIdsBefore, snowflakeFor, snowflakeTime } from '../tools/check-capture.mjs';
+import { BEATS, DESKS, RETIRED, checkCapture, knownIdsBefore, runIdFor, snowflakeFor, snowflakeTime } from '../tools/check-capture.mjs';
 
 const T0 = Date.parse('2026-10-09T05:00:00.000Z'); // post created
 const RUN_START = '2026-10-09T06:00:00Z';
@@ -276,13 +276,16 @@ test('a later run may send numbers for a post recorded by an earlier file, and o
 // ---- the desks: contract/desks.json is the one list, read by the checker, the grabber and the site
 
 const desksDoc = JSON.parse(readFileSync(new URL('../contract/desks.json', import.meta.url), 'utf8'));
+// Every desk the record has ever used: the ones watched now, then the retired ones.
+const everyDesk = [...desksDoc.desks, ...desksDoc.retired];
 
 test('the desk list is well formed: unique ids and codes, a known group, a scope, a cadence, a floor', () => {
   assert.equal(desksDoc.schema, 'mts.desks/1');
   const groups = new Set(desksDoc.groups.map((g) => g.id));
   assert.equal(groups.size, desksDoc.groups.length, 'group ids are unique');
   const ids = new Set(), codes = new Set();
-  for (const d of desksDoc.desks) {
+  // A retired desk keeps its id and code for good, so neither can be handed to a new desk.
+  for (const d of everyDesk) {
     assert.match(d.id, /^[a-z]+$/, `${d.id}: id is one lowercase word`);
     assert.match(d.code, /^[A-Z]{2,3}$/, `${d.id}: code is two or three capitals`);
     assert.ok(!ids.has(d.id), `${d.id}: duplicate id`); ids.add(d.id);
@@ -298,11 +301,72 @@ test('the desk list is well formed: unique ids and codes, a known group, a scope
     for (const text of [d.name, d.scope, d.not_here ?? '']) assert.ok(!text.includes(EM_DASH), `${d.id}: no em dash`);
   }
   for (const g of desksDoc.groups) assert.ok(desksDoc.desks.some((d) => d.group === g.id), `group ${g.id} has a desk`);
+  for (const d of desksDoc.desks) assert.equal(d.retired_at, undefined, `${d.id}: a watched desk has no retirement time`);
+  for (const d of desksDoc.retired) {
+    assert.match(d.retired_at, /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$/, `${d.id}: retired_at is a UTC time`);
+    assert.ok(typeof d.instead === 'string' && d.instead.length > 30 && !d.instead.includes(EM_DASH), `${d.id}: says where its subject goes now`);
+  }
 });
 
 test('the checker reads its desks and beats from that file, not from a list of its own', () => {
   assert.deepEqual(DESKS, desksDoc.desks.map((d) => d.id));
-  for (const d of desksDoc.desks) assert.deepEqual(BEATS[d.id], d.beats);
+  for (const d of everyDesk) assert.deepEqual(BEATS[d.id], d.beats);
+  assert.deepEqual(RETIRED, Object.fromEntries(desksDoc.retired.map((d) => [d.id, d.retired_at])));
+});
+
+// ---- retiring a desk: its id stays good in the captures made while it was watched, and in nothing after
+
+// The same capture, run at another time.
+function runAt(doc, startMs) {
+  const iso = (ms) => new Date(ms).toISOString().replace('.000Z', 'Z');
+  Object.assign(doc.run, { id: runIdFor(startMs), started_at: iso(startMs), finished_at: iso(startMs + 270000) });
+  for (const o of doc.observations) o.at = iso(startMs + 60000);
+  return { doc, opts: { now: new Date(startMs + 300000) } };
+}
+
+test('crypto is retired: it is not a watched desk, and the record still knows what it was', () => {
+  assert.ok(!DESKS.includes('crypto'), 'crypto is not swept, labelled or drawn');
+  assert.ok(RETIRED.crypto, 'and it is listed as retired, with the time it stopped');
+  assert.ok(BEATS.crypto.length >= 2, 'with the beats its old captures used');
+});
+
+test('a retired desk is accepted in a capture started before it was retired', () => {
+  for (const d of desksDoc.retired) {
+    const { doc, opts } = runAt(capture(), Date.parse(d.retired_at) - 3600000);
+    Object.assign(doc.posts[0], { desk: d.id, beat: d.beats[0] });
+    doc.sweeps.push({ id: `desk.${d.id}`, kind: 'desk', desk: d.id, method: 'standing query', window_hours: 24, status: 'ok', reason: null, post_ids: [] });
+    doc.volume = [{ key: `desk.${d.id}`, desk: d.id, query: 'standing query', granularity: 'hour', points: [] }];
+    assert.deepEqual(errs(doc, opts), [], `${d.id} an hour before it was retired`);
+  }
+});
+
+test('a retired desk is refused on a post, a sweep and a volume series in any capture started after', () => {
+  for (const d of desksDoc.retired) {
+    for (const startMs of [Date.parse(d.retired_at), Date.parse(d.retired_at) + 3600000]) {
+      const a = runAt(capture(), startMs); a.doc.posts[0].desk = d.id;
+      assert.ok(has(errs(a.doc, a.opts), /posts\[0\]\.desk.*retired/), `${d.id} on a post`);
+      const b = runAt(capture(), startMs); b.doc.sweeps[0].desk = d.id;
+      assert.ok(has(errs(b.doc, b.opts), /sweeps\[0\]\.desk.*retired/), `${d.id} on a sweep`);
+      const c = runAt(capture(), startMs); c.doc.volume = [{ key: `desk.${d.id}`, desk: d.id, query: 'standing query', granularity: 'hour', points: [] }];
+      assert.ok(has(errs(c.doc, c.opts), /volume\[0\]\.desk.*retired/), `${d.id} on a volume series`);
+      // the control: the same capture at the same hour passes once the retired desk is taken off it
+      const ok = runAt(capture(), startMs);
+      assert.deepEqual(errs(ok.doc, ok.opts), [], 'and the capture is otherwise sound');
+    }
+  }
+});
+
+test('a desk that never existed is still refused whenever the capture was made', () => {
+  const a = capture(); a.posts[0].desk = 'finance';
+  assert.ok(has(errs(a), /posts\[0\]\.desk.*contract\/desks\.json/));
+  assert.ok(!has(errs(a), /retired/), 'and is not mistaken for a retired one');
+  // A name every object already has is not a desk, and must be refused like any other, not crash the checker.
+  for (const name of ['constructor', 'toString', '__proto__']) {
+    const b = capture(); Object.assign(b.posts[0], { desk: name, beat: 'policy' }); b.sweeps[0].desk = name;
+    const list = errs(b);
+    assert.ok(has(list, /posts\[0\]\.desk.*contract\/desks\.json/) && has(list, /sweeps\[0\]\.desk.*contract\/desks\.json/), `${name} is refused as a desk`);
+    assert.ok(has(list, /posts\[0\]\.beat/), `and ${name} has no beats`);
+  }
 });
 
 test('the six sectors of the old page each still have a home', () => {

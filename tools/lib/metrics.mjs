@@ -105,3 +105,17 @@ export function deskTrace(posts, series, { from, to, bins }) {
   }
   return out.map((g) => g / (width / HOUR));
 }
+
+// No account takes more than `limit` places in a list ranked largest first. Its largest posts
+// stay where they are; the rest are handed back apart, so whoever cut the list can say what it
+// left out. X handles ignore case, so the account is its handle in lower case.
+export function placesPerAccount(ranked, limit, handleOf) {
+  const taken = new Map(), kept = [], held = [];
+  for (const it of ranked) {
+    const account = handleOf(it).toLowerCase();
+    const place = (taken.get(account) ?? 0) + 1;
+    taken.set(account, place);
+    (place <= limit ? kept : held).push(it);
+  }
+  return { kept, held };
+}

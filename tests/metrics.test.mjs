@@ -1,7 +1,7 @@
 // The numbers the site shows, derived from captures. Words come from the editor; these never do.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { seriesByPost, magnitude, storyNumbers, deskTrace, trend } from '../tools/lib/metrics.mjs';
+import { seriesByPost, magnitude, storyNumbers, deskTrace, trend, placesPerAccount } from '../tools/lib/metrics.mjs';
 
 const H = 3600000;
 const T = Date.parse('2026-10-08T00:00:00Z');
@@ -57,4 +57,24 @@ test('a trace ignores a reading that goes backwards instead of drawing negative 
   const s = seriesByPost([cap(1, [['a', 6000]]), cap(2, [['a', 5000]])]);
   const tr = deskTrace([{ id: 'a', created: T }], s, { from: T, to: T + 2 * H, bins: 2 });
   assert.deepEqual(tr.map(Math.round), [6000, 0]);
+});
+
+// ---- one account, one place: no account may fill a list that is meant to be every corner of the internet
+
+test('an account keeps only its largest places in a ranked list, and the rest keep their order', () => {
+  const ranked = [['a', 'loud', 900], ['b', 'quiet', 800], ['c', 'Loud', 700], ['d', 'other', 600], ['e', 'LOUD', 500]].map(([id, handle, views]) => ({ id, handle, views }));
+  const one = placesPerAccount(ranked, 1, (it) => it.handle);
+  assert.deepEqual(one.kept.map((it) => it.id), ['a', 'b', 'd'], 'the largest post of each account, largest first');
+  assert.deepEqual(one.held.map((it) => it.id), ['c', 'e'], 'the rest are handed back, not lost');
+  const two = placesPerAccount(ranked, 2, (it) => it.handle);
+  assert.deepEqual(two.kept.map((it) => it.id), ['a', 'b', 'c', 'd']);
+  assert.deepEqual(two.held.map((it) => it.id), ['e']);
+});
+
+test('a handle is one account however it is capitalised, and a list with no repeats is left alone', () => {
+  const ranked = [{ id: 'a', handle: 'One' }, { id: 'b', handle: 'two' }];
+  const out = placesPerAccount(ranked, 1, (it) => it.handle);
+  assert.deepEqual(out.kept, ranked);
+  assert.deepEqual(out.held, []);
+  assert.deepEqual(placesPerAccount([], 1, (it) => it.handle), { kept: [], held: [] });
 });

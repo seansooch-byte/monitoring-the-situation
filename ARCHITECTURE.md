@@ -50,6 +50,13 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
    pulse exactly as for a story, and the build adds a stop of its own: it refuses to render a
    post the grabber flagged as showing a private person or a minor, or as sexual or graphic,
    whatever the editor wrote.
+3. **No one account fills the pulse.** An account holds one place: of the posts the editor
+   passed, the build keeps each account's most viewed and prints the ones it held back
+   (`placesPerAccount` in `tools/lib/metrics.mjs`, `PULSE_PER_ACCOUNT` in the build). The rule
+   is in the build and not only in the editor's instructions because a post's rank changes
+   every hour and the no-model refresh rebuilds the page without an editor. Upstream, the
+   grabber keeps at most three new posts from one account in a run (`contract/GRABBER.md`),
+   so one account cannot use up a capture either.
 
    In detail: A capture is never shown to a reader
    directly: no post's words, author or link reach a page unless the editor put that post in a
@@ -104,20 +111,27 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 
 ## The desks
 
-The site watches twenty desks in six groups: News (politics, world, defense, justice, disaster),
-Money (markets, business, crypto), Science and tech (ai, tech, science, medicine), Culture
+The site watches nineteen desks in six groups: News (politics, world, defense, justice,
+disaster), Money (markets, business), Science and tech (ai, tech, science, medicine), Culture
 (entertainment, music, gaming, ideas), Sports (sports), and Life online (internet, life, offbeat).
 
 `contract/desks.json` is the only list. Each desk has an id, a short code, a scope, its near
 misses, its beats, how often the grabber sweeps it, and the smallest post worth taking. Three
-readers share the file, so a desk is added, merged or renamed in one place:
+readers share the file, so a desk is added or retired in one place:
 
 - the checker rejects a post or sweep whose desk is not in it, and a beat that is not its desk's;
 - the grabber decides which desks are due and what clears the floor from it;
 - the site draws its sections, their order and their codes from it (**Built**).
 
 A desk id that has been used in a capture is never renamed or removed, only retired: old captures
-still carry it.
+still carry it. Retiring is moving the desk from `desks` to `retired` in the same file with
+`retired_at`, the time it stopped, and `instead`, what happens to its subject now. `desks` is
+therefore always the list watched now, and a reader that knows nothing about retirement gets
+the right answer: the grabber stops sweeping it and the site stops drawing it (no card, no page,
+no total; the pages take the number of desks from the list). Only the checker reads `retired`:
+it accepts the id in a capture started before `retired_at`, with its old beats, and refuses it
+in any capture started after. A retired id or code is never given to a new desk. The crypto
+desk was retired on 2026-10-11 (DECISIONS.md).
 
 ## The checks on the grabber
 
@@ -140,7 +154,8 @@ One static build, no server and no database. `node tools/build.mjs` writes `dist
 - `/` the nameplate with the site's line and the pinned post; the largest post on the pulse on
   its own; a card per desk (24 bars for the last 24 hours) that is also the switch for the
   reader's own desks; then **Internet Pulse**: the rest of `pulse/current.json`, each under the
-  editor's line, in one list ranked by views; then the researched stories, a line each.
+  editor's line, in one list ranked by views, one place to an account; then the researched
+  stories, a line each.
 - `/stories/` the researched stories of the last 48 hours.
 - `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`, and
   `/archive/` for stories that began more than 48 hours ago (they leave the bulletin and keep
