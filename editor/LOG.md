@@ -382,3 +382,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained the three new posts and lost the three dropped. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing new.
+
+## 2026-10-11T01:30Z
+- Captures read: 0101Z. Last read: 0101Z.
+- X's check: 0101Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, already on record).
+- Pulse: 46 items (1 new, 0 dropped). Added the Democrats' account posting Obama's midterm message (politics). Nothing is past 36 hours yet; the Rubio ICC post and the Ditka items age out next pass.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Rimmesfk and PopBase tiger posts (graphic risk; Sky News already covers it); Sortor on the TVA chairman's pay (Trump's figures, unchecked); ESPN on Arch Manning (sports full, ESPN already has a place); DiscussingFilm Blade Runner trailer (account already has a place); sexual, bait and private-person posts.
+- Requests: watch list gained the Obama post. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the TVA chairman pay claim (Trump, via Sortor) could be checked at a story pass.
