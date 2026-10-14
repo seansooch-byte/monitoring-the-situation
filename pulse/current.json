@@ -1,20 +1,23 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T13:10:14Z",
-  "capture": "2026-10-14T1303Z",
+  "updated_at": "2026-10-14T14:20:00Z",
+  "capture": "2026-10-14T1406Z",
   "items": [
     {
       "id": "2110113833805402475",
       "desk": "world",
-      "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. Not checked here."
+      "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. Not checked here.",
+      "also": [
+        "2110114165922640106"
+      ]
     },
     {
-      "id": "2110068149622350226",
+      "id": "2110068047700443191",
       "desk": "entertainment",
-      "line": "Discussing Film posts that the first trailer for Greta Gerwig's Narnia film is out, with release in theaters on February 12, 2027.",
+      "line": "Netflix posts a video, saying it shows how Narnia was created in Narnia: The Magician's Nephew, a film by Greta Gerwig, in theaters February 12.",
       "also": [
-        "2110068049206194384",
-        "2110075453331706054"
+        "2110068149622350226",
+        "2110068049206194384"
       ]
     },
     {
@@ -149,6 +152,61 @@
       "id": "2110079118843011411",
       "desk": "internet",
       "line": "A user posts a joke: whoever cries the loudest at their funeral gets their Steam account."
+    },
+    {
+      "id": "2110051057829364066",
+      "desk": "internet",
+      "line": "A user says Shaquille O'Neal posted a video on TikTok and that people in the comments are going wild. The video is not described in the capture."
+    },
+    {
+      "id": "2110222061780254801",
+      "desk": "life",
+      "line": "PopBase posts that today is National I Love You Day."
+    },
+    {
+      "id": "2110040532429009014",
+      "desk": "gaming",
+      "line": "RivalsAssembled posts a video and says a new legendary Mr. Fantastic skin has been revealed."
+    },
+    {
+      "id": "2110087583120408870",
+      "desk": "politics",
+      "line": "Fox News Politics says security camera footage reviewed by The New York Times disproves a rumor about where Texas Democratic Senate nominee James Talarico was during nine days in early October, and that his campaign said he had the flu. Not checked here."
+    },
+    {
+      "id": "2110104163967246529",
+      "desk": "world",
+      "line": "Volodymyr Zelensky says a Russian ballistic missile attack hit Kyiv's CHPP-4 energy plant and damaged a residential building, and that Ukraine got no early warning from partners. He says Russia is preparing more launches. Not checked here."
+    },
+    {
+      "id": "2110157114958368833",
+      "desk": "world",
+      "line": "Remarks, a news account, posts that Canadian Prime Minister Carney says he plans to increase immigration into Canada. Not checked here."
+    },
+    {
+      "id": "2110178399129849873",
+      "desk": "politics",
+      "line": "Nick Sortor says President Trump announced full pardons for three Alaskans charged over fixing engines, and quotes Trump saying they faced 10 years in jail. Not checked here."
+    },
+    {
+      "id": "2110252784813568174",
+      "desk": "world",
+      "line": "BBC World reports that Saudi Arabia has overturned a death sentence given to a man over a Facebook comment."
+    },
+    {
+      "id": "2110355864875872634",
+      "desk": "sports",
+      "line": "Adam Schefter reports that a jury returned a mixed verdict in the civil assault and battery trial against Tyreek Hill, finding him liable on two battery counts and not liable on the eight other claims by his estranged wife. Not checked here."
+    },
+    {
+      "id": "2110020119355367795",
+      "desk": "sports",
+      "line": "Bleacher Report posts its staff ranking of the top 99 NBA players for 2026, with Wemby at 2, KD at 12 and LeBron at 22."
+    },
+    {
+      "id": "2110060618258497764",
+      "desk": "ai",
+      "line": "Ethan Mollick says using Gemini 4 makes you realize how many other models must be distilling Claude or GPT, or using a similar training pipeline. Claude, the model writing this page, is made by Anthropic, which is named in the post. Not checked here."
     }
   ]
 }

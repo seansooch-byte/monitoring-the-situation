@@ -512,3 +512,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 34 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the CPI figures (3.7% headline, 2.6% core) rest on two X accounts only; a story pass should check BLS. WSJ reports Starlink speed limits disrupting Ukrainian drone attacks, which bears on the Sternenko claim; check it with the Pope Leo diagnosis at the next story pass.
+
+## 2026-10-14T14:25Z
+- Captures read: 1406Z. Last read: 1406Z.
+- X's check: 1406Z 54 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, 0704Z 1 and 1206Z 1, already on record).
+- Pulse: 37 items (11 new, 0 dropped; the build shows 36 on the front, holding PopBase's second post to its life desk). Added Netflix's Narnia video in place of the Discussing Film copy (origin over aggregator), Shaq TikTok (internet), PopBase I Love You Day (life), Mr. Fantastic skin (gaming), Fox on the Talarico rumor and Sortor on the Alaskan pardons (politics), Zelensky on the Kyiv strike, Remarks on Carney and immigration, BBC on Saudi Arabia overturning a death sentence (world), Schefter on the Hill verdict and Bleacher Report's top 99 (sports), Mollick on Gemini 4 (ai, Anthropic disclosure). The Pope item gained PopCrave in also. Quiet: defense, justice, medicine, music, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; private_individual posts (CollinRugg and DailyLoud on the ride victim, AngelaLark66613); Daily Mail Iran blasphemy sentence (BBC item covers the theme); nypost on Omar's father (claim about a possibly private person); dianelyssa (insults); starbennettt, Flugublue, void_npc, ST0L3NBYVAND0 (point unclear); Nintendo Ocarina of Time posts (promotion); Zelensky's Carney call (account already has a place); Starlink and Wegmans context posts (small or covered); Ann Li upset (small).
+- Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 46 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: Talarico rumor (Fox citing a New York Times review of footage), Trump pardons of three Alaskans over engine work (Sortor only), Zelensky's account of the CHPP-4 strike and the Tyreek Hill verdict are unchecked leads. Pope Leo diagnosis and Starlink in Ukraine remain open from earlier passes.
