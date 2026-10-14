@@ -502,3 +502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 19 ids (no story is under 48 hours old). open.json unchanged except timestamp; the 1209Z capture deferred open requests.
 - Shipped: see report.
 - For the main editor: PopBase says the Vatican confirmed a lung cancer diagnosis for Pope Leo XIV. Press reports I found dated 11 October (surgery at Gemelli Hospital) say a lung nodule was found and it is unclear whether it is cancer. Needs a story-pass check. Also the Sternenko claim that Starlink was restricted in Ukraine (with a Sikorski reply) is large and unchecked.
+
+## 2026-10-14T13:20Z
+- Captures read: 1303Z. Last read: 1303Z.
+- X's check: 1303Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (the 1603Z run still shows 9 mismatched, 0704Z 1 and 1206Z 1, already on record).
+- Pulse: 26 items (11 new, 0 dropped). Added DeItaone on September CPI with Kobeissi in also (markets), Tesla's Roadster event and NVIDIA Run:ai (tech), Xbox Labs (gaming), Carrick on Martinez with Romano's Martinez post in also (sports), hurricane map (disaster), 3D-printed salmon (business), SpaceX launch trail (science), two Grok Bot posts (ai, company links stated), a funeral joke (internet). The Narnia and Starlink items gained attached posts (the NarniaMovie trailer post, WSJ). Quiet: defense, justice, medicine, music, ideas, life, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; private_individual posts (WildMediaHQ coach, Breck Worsham, jameszimmermann); Danny Trejo's son posts (point unclear, may name a private person); Maalouf video of a Palestinian father (unconfirmed claim, insults a culture); Dhruv Rathee claim and Blessing CEO health claim (named people, unconfirmed); catturd2 on Omar and CalltoActivism (insults); Musk's posts (Grok promotion or point unclear); dvorahfr and TheLostsignal_ (Grok promotion or bait); GTA 6 image post (point unclear without a media description); KaiKai, theNyx__, Stolas fan posts and saintjavelin (small or covered).
+- Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 34 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the CPI figures (3.7% headline, 2.6% core) rest on two X accounts only; a story pass should check BLS. WSJ reports Starlink speed limits disrupting Ukrainian drone attacks, which bears on the Sternenko claim; check it with the Pope Leo diagnosis at the next story pass.

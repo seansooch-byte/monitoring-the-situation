@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T12:35:00Z",
-  "capture": "2026-10-14T1209Z",
+  "updated_at": "2026-10-14T13:10:14Z",
+  "capture": "2026-10-14T1303Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -12,7 +12,10 @@
       "id": "2110068149622350226",
       "desk": "entertainment",
       "line": "Discussing Film posts that the first trailer for Greta Gerwig's Narnia film is out, with release in theaters on February 12, 2027.",
-      "also": ["2110075453331706054"]
+      "also": [
+        "2110068049206194384",
+        "2110075453331706054"
+      ]
     },
     {
       "id": "2110047358264488023",
@@ -38,7 +41,9 @@
       "id": "2110181758943547547",
       "desk": "politics",
       "line": "Gunther Eagleman says Kathy Hochul blamed Trump for utility bills and that Bruce Blakeman answered: \"Donald Trump didn't raise utility rates 48 times. You did.\" An RNC Research post attaches the same quote to the Nassau County Executive. Not checked here.",
-      "also": ["2110151955104534889"]
+      "also": [
+        "2110151955104534889"
+      ]
     },
     {
       "id": "2110201855762391208",
@@ -64,7 +69,10 @@
       "id": "2110240563135951022",
       "desk": "world",
       "line": "Sternenko says Starlink terminal operation in Ukraine was restricted overnight, with connections dropping above 160 km/h, and that SpaceX likely acted at the Trump administration's request. Not checked here. Another account replies that Starlink and Starshield are different services.",
-      "also": ["2110327426580648014"]
+      "also": [
+        "2110313050423095339",
+        "2110327426580648014"
+      ]
     },
     {
       "id": "2110273651023151330",
@@ -80,6 +88,67 @@
       "id": "2110130318237995151",
       "desk": "world",
       "line": "In Portuguese, a video post quotes Flávio Bolsonaro as saying people who think he is radical on public security have not seen anything yet, and that he is talking with Derrite because he thinks El Salvador is too little."
+    },
+    {
+      "id": "2110347514683490356",
+      "desk": "markets",
+      "line": "Walter Bloomberg (DeItaone), a markets news account, reports US September CPI inflation at 3.7% against 3.6% expected, with core at 2.6% against 2.5%, and gasoline up 9.1%. Not checked here.",
+      "also": [
+        "2110347809308455363"
+      ]
+    },
+    {
+      "id": "2110165104713183485",
+      "desk": "tech",
+      "line": "Tesla says its Roadster event will stream live this Thursday at 7:55pm CST."
+    },
+    {
+      "id": "2110014692420706667",
+      "desk": "tech",
+      "line": "NVIDIA AI Infrastructure says it is open sourcing the full NVIDIA Run:ai platform as part of its DSX AI Factory Platform."
+    },
+    {
+      "id": "2110092821571027310",
+      "desk": "gaming",
+      "line": "Mr. Rebs posts what it says is Xbox CEO Asha Sharma's reply to games being decompiled and rebuilt for other hardware, including Halo mods, and says she has asked for an Xbox Labs group to be set up. Not checked here."
+    },
+    {
+      "id": "2110148252628619288",
+      "desk": "sports",
+      "line": "Stretford Paddock, a Manchester United fan account, posts a video of Michael Carrick reacting to Lisandro Martinez's comments.",
+      "also": [
+        "2110219797040611404"
+      ]
+    },
+    {
+      "id": "2110196734718845397",
+      "desk": "disaster",
+      "line": "Joshua Barzon posts a map of every hurricane to hit the United States over 173 years and says Virginia, Maryland and Delaware seem to have a \"magical hurricane force field\". Not checked here."
+    },
+    {
+      "id": "2110067869287661838",
+      "desk": "business",
+      "line": "Daily Loud posts that 3D-printed salmon from the Israeli company Steakholder Foods is coming to US supermarkets. Not checked here."
+    },
+    {
+      "id": "2110016190617911553",
+      "desk": "science",
+      "line": "A user posts a 16-second video of a SpaceX launch off the coast of Florida, saying it left a trail they had never seen before."
+    },
+    {
+      "id": "2110180938948747730",
+      "desk": "ai",
+      "line": "A user says a Grok Bot saved them more than $1,000 by filing a complex tax return with overseas reporting, and that they only reviewed and submitted it. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here."
+    },
+    {
+      "id": "2110224953287070195",
+      "desk": "ai",
+      "line": "A user says they made a Grok Bot that uses Suno, Midjourney and Opus to make music videos, and posts a 20-second teaser it made. Grok is made by xAI, the company behind the model that gathers this page's posts; Opus is made by Anthropic, the company behind the model that writes it. Not checked here."
+    },
+    {
+      "id": "2110079118843011411",
+      "desk": "internet",
+      "line": "A user posts a joke: whoever cries the loudest at their funeral gets their Steam account."
     }
   ]
 }
