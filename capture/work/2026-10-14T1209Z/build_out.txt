@@ -1,0 +1,7 @@
+wrote /workspace/monitoring-the-situation/capture/2026/10/14/1209Z.json posts 40 obs 107 sweeps 38
+viral 40 rising 1
+top posts [('2024898302035067174', 'XFreeze', 39942300, 'internet'), ('1692516740737958343', 'Acosta', 12662966, 'world'), ('2110113833805402475', 'PopBase', 10494423, 'world'), ('2110068149622350226', 'DiscussingFilm', 10487791, 'entertainment'), ('1965216497036615858', 'manic_posting', 5895253, 'internet'), ('2060272735083807097', 'LfcZaki', 3598493, 'sports'), ('2110203291049288166', 'Mae_DayJ', 3231655, 'entertainment'), ('2110047358264488023', 'criterionhouse', 3063240, 'entertainment'), ('2110005182511956436', 'unusual_whales', 2855007, 'world'), ('2110009533531869638', 'CalltoActivism', 2566305, 'politics')]
+press_ids ['2110327426580648014', '2110305562596426009', '2110278144259178523', '2110063257981698437', '2110298824895865107', '2110181758943547547', '2110182728897355789', '2110151955104534889']
+author drops {'fabrizioromano': 10, 'discussingfilm': 1, 'rncresearch': 1, 'marionawfal': 11}
+skipped_sensitive 14
+tally runs ['2026-10-11T0802Z', '2026-10-11T0900Z', '2026-10-11T1008Z', '2026-10-11T1105Z', '2026-10-11T1206Z', '2026-10-14T1209Z'] origins 50
