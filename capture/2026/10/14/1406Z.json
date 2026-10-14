@@ -1,0 +1,4068 @@
+{
+  "schema": "mts.capture/1",
+  "run": {
+    "id": "2026-10-14T1406Z",
+    "started_at": "2026-10-14T14:06:00Z",
+    "finished_at": "2026-10-14T14:12:00Z",
+    "status": "partial",
+    "reason": "10:06 AM ET run (14 UTC Oct 14): 26 X reads (951 to 925 left today). Watch 78 of 78 ids returned (watch.json plus the posts first captured in 2026-10-14T1209Z and 2026-10-14T1303Z); trends US+WW; trend names Starshield, Wegmans, Ann Li, #NationalDessertDay and Hot CPI (Hot CPI, 3.7% YoY and 3.7% in September are one event with September CPI and Core CPI, the September CPI release, which had posts attached last run; US ranks 2, 5, 7 are day greetings); quote/repost words \"the\", \"this\", \"is\" (3+1); sensors culture/sports/online; desks politics, world, justice, ai, tech, medicine, entertainment, sports, internet; two screening reads by id of 118 unread referenced and media_source posts. No volume, story clusters, context.top or media descriptions; x_stories omitted; open requests deferred. SKIP/SKIP_ALL absent on pipeline. Skipped sexual or graphic ids are in exclude_ids.json and build_meta.json in the work folder.",
+    "grabber": {
+      "agent": "grokbot",
+      "model": null,
+      "method": "x MCP namespace (get_posts_by_ids, search_posts_all, get_trends_by_woeid)"
+    },
+    "requests_rev": "cc461a1ec2271cacbf39f4022b7c6dcc6fb9ef6f"
+  },
+  "sweeps": [
+    {
+      "id": "watch",
+      "kind": "watch",
+      "desk": null,
+      "method": "get_posts_by_ids of requests/watch.json (34 ids) plus every post first captured in the last 6 hours (captures 2026-10-14T1209Z and 2026-10-14T1303Z), 78 unique ids, 78 returned, 1 read; no other capture in the last 24 hours; fields created_at,public_metrics,author_id,referenced_tweets,attachments,entities,lang,note_tweet,conversation_id,edit_history_tweet_ids,possibly_sensitive; expansions author_id,attachments.media_keys,attachments.media_source_tweet_id,referenced_tweets.id",
+      "window_hours": null,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2024917454301065480",
+        "2110113833805402475",
+        "2110068149622350226",
+        "2110068049206194384",
+        "2110075453331706054",
+        "2110047358264488023",
+        "2110005182511956436",
+        "2110111648019358068",
+        "2110135054747795625",
+        "2110181758943547547",
+        "2110151955104534889",
+        "2110201855762391208",
+        "2110121696535470196",
+        "2110138921841479895",
+        "2110234147956601114",
+        "2110240563135951022",
+        "2110313050423095339",
+        "2110327426580648014",
+        "2110273651023151330",
+        "2110199081385570786",
+        "2110130318237995151",
+        "2110347514683490356",
+        "2110347809308455363",
+        "2110165104713183485",
+        "2110014692420706667",
+        "2110092821571027310",
+        "2110148252628619288",
+        "2110219797040611404",
+        "2110196734718845397",
+        "2110067869287661838",
+        "2110016190617911553",
+        "2110180938948747730",
+        "2110224953287070195",
+        "2110079118843011411",
+        "2024898302035067174",
+        "1692516740737958343",
+        "1965216497036615858",
+        "2060272735083807097",
+        "2110203291049288166",
+        "2110009533531869638",
+        "2028683986604585273",
+        "2110222071229989249",
+        "2066216083636273590",
+        "2110245095824052431",
+        "2110240936001249782",
+        "2110094110103310789",
+        "1716019237259465013",
+        "2103463918140334316",
+        "2110124399986671667",
+        "2110002004206727480",
+        "2110305562596426009",
+        "2110278144259178523",
+        "2110063257981698437",
+        "2110298824895865107",
+        "2110182728897355789",
+        "2110057477236789447",
+        "2008193557673488846",
+        "2110018291792244758",
+        "2110243595504820641",
+        "2098449226980057368",
+        "2110223110003982788",
+        "2110253157758673079",
+        "2110107526809505873",
+        "2110091703419871393",
+        "2110025766037803057",
+        "2110135850361291059",
+        "2110026708355101058",
+        "2110062933816611208",
+        "2110047459925749889",
+        "2110207594484642084",
+        "2110160673586008537",
+        "2110077123528736991",
+        "2110062762218926204",
+        "2110108110203363626",
+        "2110267056700690732",
+        "2110030804243857578",
+        "2041083751136977114",
+        "2110349054815174737"
+      ]
+    },
+    {
+      "id": "trends.us",
+      "kind": "trends",
+      "desk": null,
+      "method": "get_trends_by_woeid 23424977 max_trends 20",
+      "window_hours": null,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "trends.ww",
+      "kind": "trends",
+      "desk": null,
+      "method": "get_trends_by_woeid 1 max_trends 20",
+      "window_hours": null,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "viral.global",
+      "kind": "discovery",
+      "desk": null,
+      "method": "sources: references followed from every post read (screened in two get_posts_by_ids reads of 118 unread referenced and media_source ids, most pointed-at first); sensors culture/sports/online; trend names \"\"Starshield\" lang:en is:retweet\", \"\"Wegmans\" lang:en is:retweet\", \"\"Ann Li\" lang:en is:retweet\", \"\"#NationalDessertDay\" lang:en is:retweet\", \"\"Hot CPI\" lang:en is:retweet\"; quote streams \"the lang:en is:quote -is:retweet\", \"this lang:en is:quote -is:retweet\", \"is lang:en is:quote -is:retweet\" and repost stream \"the lang:en is:retweet\" (newest first, 25 each); desk repost streams. Global floor 100,000 views or 2,000 likes under 24 hours, pace rule for 15 min to 3 h",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110269590798569489",
+        "2085489355536191674",
+        "2110032746542162173",
+        "2110050933283668252",
+        "2110050992469213412",
+        "2110087583120408870",
+        "2110100437965897849",
+        "2110114165922640106",
+        "2110138366935134346",
+        "2110213435220697160",
+        "2110252784813568174",
+        "2110287346285298055",
+        "2057009001926480197",
+        "2063014148674670941",
+        "2085453333347590555",
+        "2106800979228139661",
+        "2110040532429009014",
+        "2110041731949576244",
+        "2110104163967246529",
+        "2110068047700443191",
+        "2110243147464728599",
+        "2110282217327136984",
+        "2110355190935151081",
+        "2110198804872077621",
+        "2110157114958368833",
+        "2101729335178612834",
+        "2110222061780254801",
+        "2110066955634012367",
+        "2110355208270471286",
+        "2110355864875872634",
+        "2110020119355367795",
+        "2110116592210284863",
+        "2110178399129849873",
+        "2036445935455142126",
+        "2110117400092037422",
+        "2110159173350772823",
+        "2110060618258497764",
+        "2110079227009835140",
+        "2110090777825087635",
+        "2110051057829364066"
+      ]
+    },
+    {
+      "id": "rising.global",
+      "kind": "discovery",
+      "desk": null,
+      "method": "3 quote pages + 1 repost page, common words \"the\", \"this\" and \"is\": \"the lang:en is:quote -is:retweet\", \"this lang:en is:quote -is:retweet\", \"is lang:en is:quote -is:retweet\", \"the lang:en is:retweet\", newest first, 25 each; originals screened",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110287346285298055",
+        "2110282217327136984",
+        "2110355190935151081",
+        "2110355208270471286",
+        "2110355864875872634"
+      ]
+    },
+    {
+      "id": "sensors.culture",
+      "kind": "discovery",
+      "desk": null,
+      "method": "search_posts_all (from:PopBase OR from:PopCrave OR from:CultureCrave OR from:DiscussingFilm OR from:superTV247 OR from:scottygb OR from:IGN OR from:Dexerto OR from:flolikethis OR from:chaovampz OR from:HYBE_LABELS OR from:billboard OR from:Wuthering_Waves OR from:Nintendo OR from:PlayStation OR from:wahalaondirocks) -is:reply newest first, 25 results; reposts and quotes followed to the origin",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110355190935151081",
+        "2110355208270471286"
+      ]
+    },
+    {
+      "id": "sensors.sports",
+      "kind": "discovery",
+      "desk": null,
+      "method": "search_posts_all (from:NFL OR from:NFLMemes OR from:RapSheet OR from:AdamSchefter OR from:ShamsCharania OR from:MLB OR from:SportsCenter OR from:BleacherReport OR from:espnW OR from:stephenasmith OR from:barstoolsports OR from:FearedBuck OR from:TotalProSports OR from:Underdog OR from:FabrizioRomano) -is:reply newest first, 25 results; reposts and quotes followed to the origin",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110020119355367795",
+        "2110243147464728599",
+        "2110355864875872634"
+      ]
+    },
+    {
+      "id": "sensors.online",
+      "kind": "discovery",
+      "desk": null,
+      "method": "search_posts_all (from:SinClipd OR from:Clipdyz OR from:DramaAlert OR from:NoContextHumans OR from:crazyclipsonly OR from:interesting_aIl OR from:AMAZlNGNATURE OR from:insanevideos OR from:MarioNawfal OR from:SomaKazima2 OR from:IAmLilRico OR from:lyricsmotions OR from:kenyasgossips OR from:hayasaka_aryan OR from:TheNairobiTimez) -is:reply newest first, 25 results; reposts and quotes followed to the origin",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2057009001926480197",
+        "2110040532429009014"
+      ]
+    },
+    {
+      "id": "sensors.news",
+      "kind": "discovery",
+      "desk": null,
+      "method": "rotation: culture/sports/online this run",
+      "window_hours": 6,
+      "status": "skipped",
+      "reason": "sensor rotation; news/money/science were read in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "sensors.money",
+      "kind": "discovery",
+      "desk": null,
+      "method": "rotation: culture/sports/online this run",
+      "window_hours": 6,
+      "status": "skipped",
+      "reason": "sensor rotation; news/money/science were read in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "sensors.science",
+      "kind": "discovery",
+      "desk": null,
+      "method": "rotation: culture/sports/online this run",
+      "window_hours": 6,
+      "status": "skipped",
+      "reason": "sensor rotation; news/money/science were read in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.politics",
+      "kind": "desk",
+      "desk": "politics",
+      "method": "search_posts_all (Trump OR \"White House\" OR Congress OR Senate OR Democrats OR Republicans OR GOP OR \"Supreme Court\" OR election OR governor) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2085489355536191674",
+        "2110032746542162173",
+        "2110050933283668252",
+        "2110087583120408870",
+        "2110138366935134346"
+      ]
+    },
+    {
+      "id": "desk.world",
+      "kind": "desk",
+      "desk": "world",
+      "method": "search_posts_all (Ukraine OR Russia OR Israel OR Gaza OR Iran OR China OR \"prime minister\" OR president OR protesters OR protest OR migrants OR refugees OR ceasefire OR NATO OR \"United Nations\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json) (2-hour desk last swept in 2026-10-14T1209Z, started 1 h 57 min before this run; taken as due at the hourly cadence)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110269590798569489",
+        "2110114165922640106",
+        "2110252784813568174",
+        "2110287346285298055",
+        "2085453333347590555"
+      ]
+    },
+    {
+      "id": "desk.justice",
+      "kind": "desk",
+      "desk": "justice",
+      "method": "search_posts_all (arrested OR police OR cops OR trial OR verdict OR sentenced OR lawsuit OR sued OR shooting OR murder OR jail OR prison) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json) (2-hour desk last swept in 2026-10-14T1209Z, started 1 h 57 min before this run; taken as due at the hourly cadence)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.ai",
+      "kind": "desk",
+      "desk": "ai",
+      "method": "search_posts_all (AI OR \"artificial intelligence\" OR OpenAI OR ChatGPT OR Anthropic OR Claude OR Gemini OR Grok OR LLM OR \"AI model\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json) (2-hour desk last swept in 2026-10-14T1209Z, started 1 h 57 min before this run; taken as due at the hourly cadence)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110159173350772823",
+        "2110060618258497764"
+      ]
+    },
+    {
+      "id": "desk.tech",
+      "kind": "desk",
+      "desk": "tech",
+      "method": "search_posts_all (Apple OR iPhone OR Google OR Microsoft OR Android OR software OR hackers OR hacked OR \"data breach\" OR outage OR Tesla OR robot) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json) (2-hour desk last swept in 2026-10-14T1209Z, started 1 h 57 min before this run; taken as due at the hourly cadence)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.medicine",
+      "kind": "desk",
+      "desk": "medicine",
+      "method": "search_posts_all (doctor OR doctors OR nurse OR nurses OR hospital OR FDA OR CDC OR NIH OR vaccine OR outbreak OR measles OR \"mental health\" OR patients OR Medicare OR medication) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json) (2-hour desk last swept in 2026-10-14T1209Z, started 1 h 57 min before this run; taken as due at the hourly cadence)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.entertainment",
+      "kind": "desk",
+      "desk": "entertainment",
+      "method": "search_posts_all (movie OR film OR trailer OR \"box office\" OR Netflix OR \"TV show\" OR episode OR season OR anime OR actor OR actress OR celebrity) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110213435220697160",
+        "2057009001926480197",
+        "2110068047700443191",
+        "2110079227009835140"
+      ]
+    },
+    {
+      "id": "desk.sports",
+      "kind": "desk",
+      "desk": "sports",
+      "method": "search_posts_all (NFL OR NBA OR MLB OR NHL OR WNBA OR UFC OR \"Premier League\" OR soccer OR touchdown OR playoffs OR \"home run\" OR F1 OR golf OR tennis) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110050992469213412",
+        "2110198804872077621",
+        "2110355864875872634",
+        "2110020119355367795",
+        "2110090777825087635"
+      ]
+    },
+    {
+      "id": "desk.internet",
+      "kind": "desk",
+      "desk": "internet",
+      "method": "search_posts_all (meme OR memes OR streamer OR stream OR Twitch OR Kick OR YouTuber OR TikTok OR influencer OR podcast OR fandom OR \"main character\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110243147464728599",
+        "2110282217327136984",
+        "2110051057829364066"
+      ]
+    },
+    {
+      "id": "desk.markets",
+      "kind": "desk",
+      "desk": "markets",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.music",
+      "kind": "desk",
+      "desk": "music",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.gaming",
+      "kind": "desk",
+      "desk": "gaming",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.offbeat",
+      "kind": "desk",
+      "desk": "offbeat",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.defense",
+      "kind": "desk",
+      "desk": "defense",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 4-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.disaster",
+      "kind": "desk",
+      "desk": "disaster",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 4-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.business",
+      "kind": "desk",
+      "desk": "business",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 4-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.science",
+      "kind": "desk",
+      "desk": "science",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 4-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.ideas",
+      "kind": "desk",
+      "desk": "ideas",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 4-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.life",
+      "kind": "desk",
+      "desk": "life",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 4-hour desk swept ok in 2026-10-14T1303Z",
+      "post_ids": []
+    },
+    {
+      "id": "context.top",
+      "kind": "context",
+      "desk": null,
+      "method": "not run",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "cut for time this run",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-10-01",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-05",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-08",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-09",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-10",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-12",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-13",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    }
+  ],
+  "trends": [
+    {
+      "region": "US",
+      "rank": 1,
+      "name": "Starshield",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110257281816236136",
+        "2110327426580648014",
+        "2110263883642310884"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 2,
+      "name": "Good Wednesday",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 3,
+      "name": "September CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 4,
+      "name": "Core CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 5,
+      "name": "Hump Day",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 6,
+      "name": "Hot CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110357224761536984",
+        "2110355956437582312",
+        "2110358547255230669"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 7,
+      "name": "Happy Hump",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 8,
+      "name": "Wegmans",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110317227799114083",
+        "2110346990987157525",
+        "2110344869239513569"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 9,
+      "name": "3.7% YoY",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 10,
+      "name": "3.7% in September",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 11,
+      "name": "#NationalDessertDay",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110226603569787036",
+        "2110355070185325050",
+        "2110370043607310652"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 12,
+      "name": "Ann Li",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110354370290229394",
+        "2110368491098210662",
+        "2110369280667640108"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 13,
+      "name": "Stolas",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 14,
+      "name": "Musk",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 15,
+      "name": "3.4% in August",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 16,
+      "name": "Sabalenka",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 17,
+      "name": "Martha Plimpton",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 18,
+      "name": "La Granja VIP",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 19,
+      "name": "Headline CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 20,
+      "name": "2.6% YoY",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 1,
+      "name": "#8per7ByFirstOne",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 2,
+      "name": "FIRSTONE 2ND SINGLE MV",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 3,
+      "name": "#水曜日のダウンタウン",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 4,
+      "name": "#ポリティカルパン",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 5,
+      "name": "#Aぇヤンタン",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 6,
+      "name": "#BUS_CHESTVOICE_MV",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 7,
+      "name": "横浜優勝",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 8,
+      "name": "乗車準備会",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 9,
+      "name": "ローランド",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 10,
+      "name": "たかほー",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 11,
+      "name": "東京ドーム公演記念",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 12,
+      "name": "レイノルズ",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 13,
+      "name": "LOVE TO THE MOON AND KEY",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 14,
+      "name": "入場者特典",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 15,
+      "name": "モイネロ",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 16,
+      "name": "FLÁVIO INIMIGO DO TRABALHADOR",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 17,
+      "name": "BINI GLOBAL IMPACT AWARD",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 18,
+      "name": "PUINOONBINT DESTINY MOMENT",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 19,
+      "name": "Somewhere Over the Rainbow",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 20,
+      "name": "jejak asap asing",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    }
+  ],
+  "posts": [
+    {
+      "id": "2110068047700443191",
+      "url": "https://x.com/netflix/status/2110068047700443191",
+      "created_at": "2026-10-13T18:00:00Z",
+      "lang": "en",
+      "text": "A Universe Begins. See how Narnia was created in Narnia: The Magician's Nephew, a film by Greta Gerwig - only in theaters February 12. https://t.co/jwxksCL0N7",
+      "author": {
+        "handle": "netflix",
+        "name": "Netflix",
+        "followers": 29302230,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 150.0,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110041731949576244",
+      "url": "https://x.com/CollinRugg/status/2110041731949576244",
+      "created_at": "2026-10-13T16:15:26Z",
+      "lang": "en",
+      "text": "42-year-old Hassan Kariem, an Atlanta teacher, has been identified as the victim who fell to his death from a rollercoaster at Six Flags.\n\nKariem was riding the Goliath rollercoaster with his son when he was flung from his seat.\n\nKariem's wife and daughter reportedly watched from the ground.\n\nAccording to a witness, Kariem somehow came out of his seat and was hit by the rollercoaster multiple times before he plunged to the roof of a haunted house.\n\n\"He hit a girl two rows in front of us on the Goliath ride right where the pictures are taken. His blood splattered over everybody, and his body fell behind one of the haunted attractions,\" said one woman on the ride.\n\n\"You can see images of the person out of the seat. You can see him on the girl on her row,\" a rider said while speaking about the souvenir pictures.\n\nGoliath reaches top speeds of 70 mph and is Georgia's tallest rollercoaster. Six Flags has since shut down nine \"gigacoasters\" like Goliath throughout the country.",
+      "author": {
+        "handle": "CollinRugg",
+        "name": "Collin Rugg",
+        "followers": 2925581,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": "Video, about 69 seconds; the preview frame is a collage: a stopped rollercoaster train on a lift hill with workers on the stairs beside it, a smiling man in a green hat and patterned shirt, and an on-ride photo with the words \"Six Flags Over Georgia\", \"J-1209\" and \"GOLIATH\".",
+          "alt": null,
+          "duration_s": 68.933,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "private_individual"
+      ],
+      "desk": "disaster",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110051057829364066",
+      "url": "https://x.com/Emeraldjeborri/status/2110051057829364066",
+      "created_at": "2026-10-13T16:52:29Z",
+      "lang": "en",
+      "text": "Shaquille O'Neal posted a video on Tiktok and people going wild in the comments section https://t.co/S3h9Q1XzJl https://t.co/18U5so3sbv",
+      "author": {
+        "handle": "Emeraldjeborri",
+        "name": "£me•rald",
+        "followers": 7801,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 76.466,
+          "link_url": null,
+          "link_title": null
+        },
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": "2109559389883703722",
+      "note": null,
+      "flags": [],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2057009001926480197",
+      "url": "https://x.com/POPin4k/status/2057009001926480197",
+      "created_at": "2026-05-20T08:02:18Z",
+      "lang": "en",
+      "text": "i'm sorry but homelander trying to fly without his power had me laughing so bad lmao 😭 #theboys https://t.co/T760EKBGJY",
+      "author": {
+        "handle": "POPin4k",
+        "name": "★",
+        "followers": 32763,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 12.213,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110222061780254801",
+      "url": "https://x.com/PopBase/status/2110222061780254801",
+      "created_at": "2026-10-14T04:12:00Z",
+      "lang": "en",
+      "text": "Today is National I Love You Day.",
+      "author": {
+        "handle": "PopBase",
+        "name": "Pop Base",
+        "followers": 7562717,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "life",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs"
+    },
+    {
+      "id": "2110040532429009014",
+      "url": "https://x.com/RivalsAssembled/status/2110040532429009014",
+      "created_at": "2026-10-13T16:10:40Z",
+      "lang": "en",
+      "text": "‼️NEW MR FANTASTIC LEGENDARY SKIN REVEALED https://t.co/MLct4HZqIc",
+      "author": {
+        "handle": "RivalsAssembled",
+        "name": "Marvel Rivals Intel",
+        "followers": 295823,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 14.8,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "gaming",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110198804872077621",
+      "url": "https://x.com/ST0L3NBYVAND0/status/2110198804872077621",
+      "created_at": "2026-10-14T02:39:35Z",
+      "lang": "en",
+      "text": "podz wanna be steph so bad im crine 😭😭 https://t.co/nWGZWSw8zj",
+      "author": {
+        "handle": "ST0L3NBYVAND0",
+        "name": "💫",
+        "followers": 1842,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs; pointed at by 2 posts read this run"
+    },
+    {
+      "id": "2085453333347590555",
+      "url": "https://x.com/GAZAWOOD2/status/2085453333347590555",
+      "created_at": "2026-08-06T19:49:55Z",
+      "lang": "en",
+      "text": "A Palestinian father pushes his child toward IDF soldiers, asking them to shoot the boy while he hides behind.\n\nThat sums up the entire conflict. https://t.co/KrODYxBhX1",
+      "author": {
+        "handle": "GAZAWOOD2",
+        "name": "GAZAWOOD - The Pallywood Saga - Official",
+        "followers": 29680,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 89.72,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110087583120408870",
+      "url": "https://x.com/foxnewspolitics/status/2110087583120408870",
+      "created_at": "2026-10-13T19:17:38Z",
+      "lang": "en",
+      "text": "Texas Democratic Senate nominee James Talarico's viral hospital rumor has been debunked by time-stamped security footage reviewed by The New York Times — but the bigger story may be why his campaign sat on the evidence while the conspiracy theory exploded across social media for days.\n\nTalarico disappeared from the campaign trail for nine days in early October, fueling rampant speculation that he had secretly traveled to an Ohio behavioral health center. His campaign maintained he was home with the flu, and security camera images from his Austin home now back that up. But GOP strategists and journalists are torching the campaign's response as \"mind-numbing malpractice\" for not releasing the footage sooner.\n\nWith Election Day just weeks away in one of the biggest Senate races in the country, the question has shifted from where Talarico was to why his team let the narrative spiral unchecked when they had the receipts the entire time.\n\nFull story here https://t.co/Jz4g41YoRO",
+      "author": {
+        "handle": "foxnewspolitics",
+        "name": "Fox News Politics",
+        "followers": 1856638,
+        "verified": "blue",
+        "kind": "news"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110066955634012367",
+      "url": "https://x.com/DailyLoud/status/2110066955634012367",
+      "created_at": "2026-10-13T17:55:40Z",
+      "lang": "en",
+      "text": "42-year-old Hassan Kariem, an Atlanta teacher, has been identified as the victim who fell to his death from a rollercoaster at Six Flags. 🙏 🕊️  https://t.co/2Gn4vJ5d5E",
+      "author": {
+        "handle": "DailyLoud",
+        "name": "Daily Loud",
+        "followers": 6956334,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": "Video; the preview frame is the same collage: a stopped rollercoaster train on a lift hill with workers on the stairs beside it, a smiling man in a green hat and patterned shirt, and an on-ride photo with the words \"Six Flags Over Georgia\", \"J-1209\" and \"GOLIATH\".",
+          "alt": null,
+          "duration_s": 68.933,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "private_individual"
+      ],
+      "desk": "disaster",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs"
+    },
+    {
+      "id": "2063014148674670941",
+      "url": "https://x.com/Jmspork/status/2063014148674670941",
+      "created_at": "2026-06-05T21:44:36Z",
+      "lang": "zxx",
+      "text": "https://t.co/iVsvp8X73a",
+      "author": {
+        "handle": "Jmspork",
+        "name": "sporkie",
+        "followers": 3480,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 17.5,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": null,
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2085489355536191674",
+      "url": "https://x.com/NRSC/status/2085489355536191674",
+      "created_at": "2026-08-06T22:13:03Z",
+      "lang": "en",
+      "text": "How does Abdul El-Sayed's campaign surrogate Hasan Piker feel about Black Americans?\n\nWatch for yourself. https://t.co/icGiXek7Ok",
+      "author": {
+        "handle": "NRSC",
+        "name": "Senate Republicans",
+        "followers": 174910,
+        "verified": "government",
+        "kind": "official"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 41.877,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110104163967246529",
+      "url": "https://x.com/ZelenskyyUa/status/2110104163967246529",
+      "created_at": "2026-10-13T20:23:31Z",
+      "lang": "en",
+      "text": "A Russian ballistic missile attack on Kyiv. Once again, no early warning from our partners. The main target was energy infrastructure, specifically CHPP-4. Unfortunately, it was hit. A residential building was also damaged, and rescuers are currently putting out a fire there. Our systems detected these missiles only when they were already virtually on approach to Kyiv. CHPP-4 is one of Kyiv’s key energy facilities. \n\nAccording to our intelligence, the Russians are preparing further ballistic missile launches. The facts show that the Russians do not consider themselves bound by what the President of the United States said. Ukraine supported an energy ceasefire. Russia is targeting yet another power plant and the lives of our people. \n\nAnd this is absolutely unjust: when they are destroying our energy infrastructure, and Ukraine is not even receiving early warnings about ballistic missile launches. It is important that the world does not stay silent about this. And it is important that the United States really see what is happening and who is responsible for this war continuing. \n\nPlease stay safe tonight and tomorrow. We are working to replenish our air defenses with anti-ballistic missiles.",
+      "author": {
+        "handle": "ZelenskyyUa",
+        "name": "Volodymyr Zelenskyy / Володимир Зеленський",
+        "followers": 8923675,
+        "verified": "government",
+        "kind": "official"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110114165922640106",
+      "url": "https://x.com/PopCrave/status/2110114165922640106",
+      "created_at": "2026-10-13T21:03:15Z",
+      "lang": "en",
+      "text": "Pope Leo XIV has been diagnosed with lung cancer after his surgery, the Vatican announced. https://t.co/TWGowj8pWw",
+      "author": {
+        "handle": "PopCrave",
+        "name": "Pop Crave",
+        "followers": 8015325,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110157114958368833",
+      "url": "https://x.com/remarks/status/2110157114958368833",
+      "created_at": "2026-10-13T23:53:55Z",
+      "lang": "en",
+      "text": "JUST IN: 🇨🇦 Canadian Prime Minister Carney says he plans to increase immigration into Canada. https://t.co/NRAIgvxNoL",
+      "author": {
+        "handle": "remarks",
+        "name": "Remarks",
+        "followers": 143563,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs; pointed at by 2 posts read this run"
+    },
+    {
+      "id": "2110178399129849873",
+      "url": "https://x.com/nicksortor/status/2110178399129849873",
+      "created_at": "2026-10-14T01:18:30Z",
+      "lang": "en",
+      "text": "🚨 JUST IN: President Trump just announced FULL UNCONDITIONAL PARDONS for three Alaskans charged with FIXING ENGINES\n\n\"They want to put them in jail for 10 YEARS because they fixed an engine. How SICK\"\n\n\"If you MURDER somebody, no problem! Unless a Republican does the murdering. https://t.co/ZiQEwpo61K",
+      "author": {
+        "handle": "nicksortor",
+        "name": "Nick Sortor",
+        "followers": 1630640,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110100437965897849",
+      "url": "https://x.com/starbennettt/status/2110100437965897849",
+      "created_at": "2026-10-13T20:08:42Z",
+      "lang": "en",
+      "text": "“birthing your oppressors” starting to sound like a dog whistle to me and just overall such unproductive talking point and view of children and feminism can yall please retire it😭",
+      "author": {
+        "handle": "starbennettt",
+        "name": "𝑐𝑙𝑜𝑣𝑒𝑟 ⋆˚𝜗𝜚˚⋆",
+        "followers": 2495,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": null,
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2036445935455142126",
+      "url": "https://x.com/BohuslavskaKate/status/2036445935455142126",
+      "created_at": "2026-03-24T14:12:01Z",
+      "lang": "en",
+      "text": "Alice Weidel: \"They ship countless billions to one of the most corrupt regimes on Earth: Ukraine. To prolong a war that is not ours. They stand with Kyiv even when the regime blackmails, threatens, and physically attacks vital infrastructure inside EU member states.\"\n\nWhat a https://t.co/3TuC3hnIMS",
+      "author": {
+        "handle": "BohuslavskaKate",
+        "name": "Kate from Kharkiv",
+        "followers": 135857,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110117400092037422",
+      "url": "https://x.com/ZelenskyyUa/status/2110117400092037422",
+      "created_at": "2026-10-13T21:16:06Z",
+      "lang": "en",
+      "text": "I spoke with Prime Minister @MarkJCarney. Thank you, Canada! I briefed him on the latest Russian strike on Kyiv and no advance warning from our partners about the ballistic missile launch. This is the second time Ukraine has received no warning this week. \n\nA rescue operation is",
+      "author": {
+        "handle": "ZelenskyyUa",
+        "name": "Volodymyr Zelenskyy / Володимир Зеленський",
+        "followers": 8923675,
+        "verified": "government",
+        "kind": "official"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110252784813568174",
+      "url": "https://x.com/BBCWorld/status/2110252784813568174",
+      "created_at": "2026-10-14T06:14:05Z",
+      "lang": "en",
+      "text": "Saudi Arabia overturns death sentence for man over Facebook comment https://t.co/5DXezYoE62",
+      "author": {
+        "handle": "BBCWorld",
+        "name": "BBC News (World)",
+        "followers": 42340771,
+        "verified": "business",
+        "kind": "news"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://www.bbc.com/news/articles/c6x2v0vn7r1do?xtor=AL-71-%5Bpartner%5D-%5Bbbc.news.twitter%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D&at_ptr_name=twitter&at_medium=social&at_link_origin=BBCWorld&at_link_id=7234EF86-C796-11F1-8D61-DCC05F789866&at_format=link&at_campaign=Social_Flow&at_bbc_team=editorial&at_link_type=web_link&at_campaign_type=owned",
+          "link_title": "Saudi Arabia overturns death sentence for man over Facebook comment"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110269590798569489",
+      "url": "https://x.com/KyivIndependent/status/2110269590798569489",
+      "created_at": "2026-10-14T07:20:52Z",
+      "lang": "en",
+      "text": "⚡️ 'This cannot be a coincidence' — Ukraine's Starlink access restricted without warning, Zelensky adviser says.\n\nUkraine relies on Starlink to operate its mid-strike drones in Russian-occupied Ukraine.\nhttps://t.co/62wMD28DUL",
+      "author": {
+        "handle": "KyivIndependent",
+        "name": "The Kyiv Independent",
+        "followers": 1846140,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://kyivindependent.com/this-cannot-be-a-coincidence-ukraines-starlink-access-restricted-without-warning-zelensky-adviser-says/",
+          "link_title": "'This cannot be a coincidence' — Ukraine's Starlink access restricted without warning, Zelensky adviser says"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110282217327136984",
+      "url": "https://x.com/Flugublue/status/2110282217327136984",
+      "created_at": "2026-10-14T08:11:02Z",
+      "lang": "en",
+      "text": "This ending is diabolical https://t.co/rwVEUQ3J9Q",
+      "author": {
+        "handle": "Flugublue",
+        "name": "Flugublue 🦉✨",
+        "followers": 13585,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 126.693,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110020119355367795",
+      "url": "https://x.com/BleacherReport/status/2110020119355367795",
+      "created_at": "2026-10-13T14:49:33Z",
+      "lang": "en",
+      "text": "TOP 99 PLAYERS IN THE NBA FOR 2026 🚨🐐\n\n90) Dray\n75) Ja\n62) PG\n39) AD\n36) Kyrie\n22) LeBron\n12) KD\n2) Wemby\n\nFULL B/R STAFF RANKINGS HERE: https://t.co/byL0x5Kmcd https://t.co/vKJLVhMFsc",
+      "author": {
+        "handle": "BleacherReport",
+        "name": "Bleacher Report",
+        "followers": 20860265,
+        "verified": "business",
+        "kind": "news"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://bleacherreport.com/articles/25507731-ranking-99-best-nba-players-ahead-2026-27?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAcGRvZgJzcnRjBmFwcF9pZA85MzY2MTk3NDMzOTI0NTkAAaffJsdMRxxcv-l61Bd1peApSiR_XzN77m5xLWsccubqjdLpcroGmQ_OvCe_yA_aem_Nw3LdYfvsNUe2N4kjhSNEA",
+          "link_title": "B/R 99: Ranking the 99 Best NBA Players Ahead of 2026-27"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110032746542162173",
+      "url": "https://x.com/BulwarkClips/status/2110032746542162173",
+      "created_at": "2026-10-13T15:39:43Z",
+      "lang": "en",
+      "text": "Forstag on the transgender debate: “[My mom] taught me that government has no business sticking its nose into our personal lives, whether that's a gun safe, whether that's a doctor's office. I don't want a politician anywhere near it. So, let's leave sports to the leagues that actually run them. Let's let people live their lives with dignity and make their own private personal decisions and let's keep politics the heck out of it. Because what I see with that kind of anger and rhetoric…they're singing and dancing while they pick our pockets.”",
+      "author": {
+        "handle": "BulwarkClips",
+        "name": "Bulwark Clips",
+        "followers": 6601,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 68.301,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2106800979228139661",
+      "url": "https://x.com/News18India/status/2106800979228139661",
+      "created_at": "2026-10-04T17:37:50Z",
+      "lang": "hi",
+      "text": "Aman Chopra : ज्ञानेश कुमार का इस्तीफा नहीं इंपिचमेंट हो, क्यों बोले आनंद रंगनाथन? | CEC Gyanesh Kumar\n#ElectionCommission #GyaneshKumar #RahulGandhi | @AmanChopra_ https://t.co/AHjdwLOyz9",
+      "author": {
+        "handle": "News18India",
+        "name": "News18 India",
+        "followers": 3271303,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 680.64,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110090777825087635",
+      "url": "https://x.com/FOS/status/2110090777825087635",
+      "created_at": "2026-10-13T19:30:19Z",
+      "lang": "en",
+      "text": "Elle Duncan says covering the WNBA is \"toxic as hell.\"\n\nHere's her full reason why. https://t.co/bQ0iAlW8CJ",
+      "author": {
+        "handle": "FOS",
+        "name": "Front Office Sports",
+        "followers": 249601,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 324.638,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2101729335178612834",
+      "url": "https://x.com/owenjonesjourno/status/2101729335178612834",
+      "created_at": "2026-09-20T17:44:56Z",
+      "lang": "en",
+      "text": "This is the biggest lie you’ve been told.\n\nYou’re told the West is falling apart because of migrants and minorities.\n\nBut who closed the factories? Crashed the banks? Launched the wars?\n\nHere’s what really happened. https://t.co/yKeiuiX2Mj",
+      "author": {
+        "handle": "owenjonesjourno",
+        "name": "Owen Jones",
+        "followers": 1086724,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": null,
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs; pointed at by 2 posts read this run"
+    },
+    {
+      "id": "2110243147464728599",
+      "url": "https://x.com/voiddmp4/status/2110243147464728599",
+      "created_at": "2026-10-14T05:35:47Z",
+      "lang": "en",
+      "text": "RDC gets HEATED with viewers over plans to play Hood Warfare 2, a COD-style game some call racist for mocking Black crime and stereotypes (and allegedly being made by a white developer). They were open to trying it but FOLDED to the backlash and stopped playing it 😳\n\n“Then we shouldn’t play GTA 6 in November, huh? Like, I don’t understand, y’all n**gas are on some bullsh-t.”",
+      "author": {
+        "handle": "voiddmp4",
+        "name": "ᴠᴏɪᴅ 💿",
+        "followers": 9716,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 305.2,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110116592210284863",
+      "url": "https://x.com/dianelyssa/status/2110116592210284863",
+      "created_at": "2026-10-13T21:12:54Z",
+      "lang": "en",
+      "text": "lord please take his suffering and give it to trump and netanyahu and putin and ken paxton and greg abbott and david ellison https://t.co/84QgDHu9Ch",
+      "author": {
+        "handle": "dianelyssa",
+        "name": "maybe: diane",
+        "followers": 29515,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2110114165922640106",
+      "note": null,
+      "flags": [],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110355864875872634",
+      "url": "https://x.com/AdamSchefter/status/2110355864875872634",
+      "created_at": "2026-10-14T13:03:41Z",
+      "lang": "en",
+      "text": "A jury returned a mixed verdict in the assault and battery civil trial against Tyreek Hill, finding the former NFL wide receiver liable for two counts of battery but not liable for the eight remaining claims made by his estranged wife, Lakeeta Vaccaro.\n\nStory via @Xuan_Thai:\n\nhttps://t.co/eUaCN0X90h",
+      "author": {
+        "handle": "AdamSchefter",
+        "name": "Adam Schefter",
+        "followers": 11804609,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "credits @Xuan_Thai"
+    },
+    {
+      "id": "2110355190935151081",
+      "url": "https://x.com/NintendoAmerica/status/2110355190935151081",
+      "created_at": "2026-10-14T13:01:00Z",
+      "lang": "en",
+      "text": "Your quest through the vast kingdom of Hyrule begins when The Legend of #Zelda: #OcarinaOfTime comes exclusively to Nintendo Switch 2 on Nov 5.\n\nPre-order now: https://t.co/FNWvsJDFej https://t.co/peIRfkTMJh",
+      "author": {
+        "handle": "NintendoAmerica",
+        "name": "Nintendo of America",
+        "followers": 15776576,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 283.216,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "gaming",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110138366935134346",
+      "url": "https://x.com/nypost/status/2110138366935134346",
+      "created_at": "2026-10-13T22:39:25Z",
+      "lang": "en",
+      "text": "Ilhan Omar's father was 'loyal' to Somali dictator, 'misrepresented himself as a refugee': Source https://t.co/54iDw53TJD https://t.co/XDqjddZrCX",
+      "author": {
+        "handle": "nypost",
+        "name": "New York Post",
+        "followers": 4206921,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110287346285298055",
+      "url": "https://x.com/DailyMail/status/2110287346285298055",
+      "created_at": "2026-10-14T08:31:25Z",
+      "lang": "en",
+      "text": "Iranian woman, 23, is sentenced to death for blasphemy over a social media post that 'insulted the prophet' https://t.co/r6zXMuUVmY",
+      "author": {
+        "handle": "DailyMail",
+        "name": "Daily Mail",
+        "followers": 2871524,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://www.dailymail.com/news/article-16207711/Iranian-woman-sentenced-death-blasphemy-social-media-post-insulted-prophet.html?ns_mchannel=rss&ns_campaign=1490&ito=social-twitter_mailonline",
+          "link_title": "Iranian woman sentenced to death for blasphemy over social media post"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110213435220697160",
+      "url": "https://x.com/gizmodojapan/status/2110213435220697160",
+      "created_at": "2026-10-14T03:37:43Z",
+      "lang": "ja",
+      "text": "賛否両論？ 小島秀夫監督は『DIGGER／ディガー』のどこに震えたのか。イニャリトゥ監督と語る”新たな現実”\nhttps://t.co/GnmWHHa88K",
+      "author": {
+        "handle": "gizmodojapan",
+        "name": "ギズモード・ジャパン（公式）",
+        "followers": 627704,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://www.gizmodo.jp/article/inarritu-kojima-digger-interview/?utm_source=twitter&utm_medium=feed",
+          "link_title": "賛否両論？ 小島秀夫監督は『DIGGER／ディガー』のどこに震えたのか。イニャリトゥ監督と語る”新たな現実” | ギズモード・ジャパン"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110050992469213412",
+      "url": "https://x.com/void_npc/status/2110050992469213412",
+      "created_at": "2026-10-13T16:52:14Z",
+      "lang": "en",
+      "text": "What if Kenya hosted the Formula One ?",
+      "author": {
+        "handle": "void_npc",
+        "name": "NPC",
+        "followers": 5513,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110355208270471286",
+      "url": "https://x.com/Nintendo/status/2110355208270471286",
+      "created_at": "2026-10-14T13:01:04Z",
+      "lang": "ja",
+      "text": "[任天堂HP]Nintendo Switch 2 ソフト『ゼルダの伝説 時のオカリナ』の紹介映像を公開しました。\n#時のオカリナ #ゼルダの伝説40周年\nhttps://t.co/H1EkjXvTb1",
+      "author": {
+        "handle": "Nintendo",
+        "name": "任天堂株式会社",
+        "followers": 5740594,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://www.nintendo.com/jp/games/switch2/aa9ja/index.html?utm_source=twitter&utm_medium=social&utm_content=20261014&utm_campaign=aa9ja",
+          "link_title": "ゼルダの伝説 時のオカリナ | Nintendo Switch 2 | 任天堂"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "gaming",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110159173350772823",
+      "url": "https://x.com/KusakiDesu/status/2110159173350772823",
+      "created_at": "2026-10-14T00:02:06Z",
+      "lang": "en",
+      "text": "The fact that we went from \"Wikipedia is not a legitimate source of information\" in school to \"Just ask AI / ChatGPT to get it done\" is actually really insulting to me frankly",
+      "author": {
+        "handle": "KusakiDesu",
+        "name": "kusaki ✦🌿",
+        "followers": 3716,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110050933283668252",
+      "url": "https://x.com/AngelaLark66613/status/2110050933283668252",
+      "created_at": "2026-10-13T16:52:00Z",
+      "lang": "en",
+      "text": "This fragile piece of shit beat a woman's face at a pedo rally yet he was not arrested. \nMake him famous! https://t.co/TlfmwrcYzP",
+      "author": {
+        "handle": "AngelaLark66613",
+        "name": "Morrígu66613",
+        "followers": 13631,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "private_individual"
+      ],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110060618258497764",
+      "url": "https://x.com/emollick/status/2110060618258497764",
+      "created_at": "2026-10-13T17:30:29Z",
+      "lang": "en",
+      "text": "Using Gemini 4 makes you realize how many other models must be distilling Claude/GPT (or using a similar training pipeline). It feels quite different than other models.",
+      "author": {
+        "handle": "emollick",
+        "name": "Ethan Mollick",
+        "followers": 403442,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110079227009835140",
+      "url": "https://x.com/POPin4k/status/2110079227009835140",
+      "created_at": "2026-10-13T18:44:25Z",
+      "lang": "en",
+      "text": "this was my fav shot from the narnia trailer… greta gerwig i love your mind https://t.co/yMflIJEPT6",
+      "author": {
+        "handle": "POPin4k",
+        "name": "★",
+        "followers": 32763,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 3.088,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110257281816236136",
+      "url": "https://x.com/OstapYarysh/status/2110257281816236136",
+      "created_at": "2026-10-14T06:31:57Z",
+      "lang": "en",
+      "text": "‼️ Ukrainian Defense Ministry adviser Serhii Beskrestnov confirms that Starlink services - and specifically Starshield - have been partially restricted in Ukraine. The same was reported earlier by @sternenko. https://t.co/1eiqu74zwx",
+      "author": {
+        "handle": "OstapYarysh",
+        "name": "Ostap Yarysh",
+        "followers": 96960,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Starshield; no floor"
+    },
+    {
+      "id": "2110327426580648014",
+      "url": "https://x.com/cb_doge/status/2110327426580648014",
+      "created_at": "2026-10-14T11:10:41Z",
+      "lang": "en",
+      "text": "There is a lot of misinformation being spread about Starlink.\n\nStarlink provides internet to homes and businesses. Starshield serves government and military users, including systems under US government control.\n\nThey are different services. Stop confusing Starlink and Starshield. https://t.co/4CjPA2d34h",
+      "author": {
+        "handle": "cb_doge",
+        "name": "DogeDesigner",
+        "followers": 1907574,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Starshield; no floor"
+    },
+    {
+      "id": "2110263883642310884",
+      "url": "https://x.com/Mylovanov/status/2110263883642310884",
+      "created_at": "2026-10-14T06:58:11Z",
+      "lang": "en",
+      "text": "SpaceX blocked Ukraine’s military Starlink overnight with no warning to Ukraine's defense forces.\n\nStarShield terminals lose connection above 100 mph. Some terminals stop working at 43.5 mph.\n\nSeveral missions failed — Serhii Sternenko. 1/ https://t.co/KdOKXylMOX",
+      "author": {
+        "handle": "Mylovanov",
+        "name": "Tymofiy Mylovanov",
+        "followers": 192184,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Starshield; no floor"
+    },
+    {
+      "id": "2110317227799114083",
+      "url": "https://x.com/JoeBrunoWSOC9/status/2110317227799114083",
+      "created_at": "2026-10-14T10:30:09Z",
+      "lang": "en",
+      "text": "There are people tailgating the opening of Charlotte’s first Wegmans. Another car had a table and was cooking breakfast around 4:30 am @wsoctv https://t.co/rLzkoUlKSp",
+      "author": {
+        "handle": "JoeBrunoWSOC9",
+        "name": "Joe Bruno",
+        "followers": 62560,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "business",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Wegmans; no floor"
+    },
+    {
+      "id": "2110346990987157525",
+      "url": "https://x.com/JoeBrunoWSOC9/status/2110346990987157525",
+      "created_at": "2026-10-14T12:28:25Z",
+      "lang": "en",
+      "text": "Charlotte’s first Wegmans officially is open https://t.co/bR9vbDObzb",
+      "author": {
+        "handle": "JoeBrunoWSOC9",
+        "name": "Joe Bruno",
+        "followers": 62560,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 15.616,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "business",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Wegmans; no floor"
+    },
+    {
+      "id": "2110344869239513569",
+      "url": "https://x.com/JoeBrunoWSOC9/status/2110344869239513569",
+      "created_at": "2026-10-14T12:19:59Z",
+      "lang": "en",
+      "text": "Someone at the Charlotte Wegmans grand opening just yelled “I found you!” and then grabbed four jars of something called Boss Sauce https://t.co/UotglNJTqs",
+      "author": {
+        "handle": "JoeBrunoWSOC9",
+        "name": "Joe Bruno",
+        "followers": 62560,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "business",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Wegmans; no floor"
+    },
+    {
+      "id": "2110354370290229394",
+      "url": "https://x.com/WTA/status/2110354370290229394",
+      "created_at": "2026-10-14T12:57:45Z",
+      "lang": "en",
+      "text": "Decider incoming 👀\n\nAnn Li forces a third set against Sabalenka in Wuhan!\n\n#dongfengvoyahwuhanopen https://t.co/rsUeLJhVeW",
+      "author": {
+        "handle": "WTA",
+        "name": "wta",
+        "followers": 1031837,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 25.2,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Ann Li; no floor"
+    },
+    {
+      "id": "2110368491098210662",
+      "url": "https://x.com/josemorgado/status/2110368491098210662",
+      "created_at": "2026-10-14T13:53:51Z",
+      "lang": "en",
+      "text": "WOW!\n\nAnn Li comes back from 2-4 down in the 2nd set and upsets world #2 and three time champ Aryna Sabalenka 3-6, 6-4, 7-6(5) to reach the last 16 in Wuhan.\n\nNeeded TEN MATCH POINTS!\n\nSabalenka won her first 20 matches at the event but now has back to back losses...\n\nShe is https://t.co/JsiChxjMnS",
+      "author": {
+        "handle": "josemorgado",
+        "name": "José Morgado",
+        "followers": 274811,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Ann Li; no floor"
+    },
+    {
+      "id": "2110369280667640108",
+      "url": "https://x.com/WTA/status/2110369280667640108",
+      "created_at": "2026-10-14T13:56:59Z",
+      "lang": "en",
+      "text": "THE BIGGEST WIN OF HER CAREER 💪\n\nAnn Li defeats the No.1 seed in Wuhan!\n\n#dongfengvoyahwuhanopen https://t.co/UXmnwsiJDK",
+      "author": {
+        "handle": "WTA",
+        "name": "wta",
+        "followers": 1031837,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 44.466,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Ann Li; no floor"
+    },
+    {
+      "id": "2110226603569787036",
+      "url": "https://x.com/RedChilliesEnt/status/2110226603569787036",
+      "created_at": "2026-10-14T04:30:03Z",
+      "lang": "en",
+      "text": "Don’t underestimate the power of a halwai😋\n#NationalDessertDay",
+      "author": {
+        "handle": "RedChilliesEnt",
+        "name": "Red Chillies Entertainment",
+        "followers": 675198,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "life",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for #NationalDessertDay; no floor"
+    },
+    {
+      "id": "2110355070185325050",
+      "url": "https://x.com/HeyWhatDay/status/2110355070185325050",
+      "created_at": "2026-10-14T13:00:31Z",
+      "lang": "en",
+      "text": "It’s National Dessert Day! \n#NationalDessertDay #DessertDay #Dessert https://t.co/qW5osozRO8",
+      "author": {
+        "handle": "HeyWhatDay",
+        "name": "HeyWhatDay",
+        "followers": 10392,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "life",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for #NationalDessertDay; no floor"
+    },
+    {
+      "id": "2110370043607310652",
+      "url": "https://x.com/CardSnacks/status/2110370043607310652",
+      "created_at": "2026-10-14T14:00:01Z",
+      "lang": "en",
+      "text": "Happy #NationalDessertDay from CardSnacks!🍬🍩\nWhat are your favorite desserts?😋\nRetweet to be entered into our weekly drawing for a 25$ Gift Card of your choice! 🤑💸#Giveaway https://t.co/W26Qp9KDbo",
+      "author": {
+        "handle": "CardSnacks",
+        "name": "CardSnacks",
+        "followers": 10813,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "life",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for #NationalDessertDay; no floor"
+    },
+    {
+      "id": "2110357224761536984",
+      "url": "https://x.com/DeItaone/status/2110357224761536984",
+      "created_at": "2026-10-14T13:09:05Z",
+      "lang": "en",
+      "text": "📊FED HIKE ODDS EXPLODE AFTER HOT CPI REPORT\n\nKalshi traders now price a 55% chance of a 25-basis-point Fed hike in October, up from just 21% earlier.\n\nRate-hike odds have overtaken hold odds for the first time in months\nhttps://t.co/zjyZ70SiCv https://t.co/8qFWMMd4HO",
+      "author": {
+        "handle": "DeItaone",
+        "name": "*Walter Bloomberg",
+        "followers": 1961803,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "markets",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Hot CPI (US rank 6; one event with September CPI, Core CPI, 3.7% YoY, 3.7% in September, Headline CPI and 3.4% in August: the September CPI release); no floor"
+    },
+    {
+      "id": "2110355956437582312",
+      "url": "https://x.com/MrZackMorris/status/2110355956437582312",
+      "created_at": "2026-10-14T13:04:03Z",
+      "lang": "en",
+      "text": "1/ Pre-market $SPY / $QQQ — Wed Oct 14 (~9:00 AM ET)\nHot CPI. Futures slipped on the print.\n$SPY 775.31 (−0.35%) vs 778.01 close\n$QQQ 738.48 (−0.68%) vs 743.57 close",
+      "author": {
+        "handle": "MrZackMorris",
+        "name": "Zack Morris",
+        "followers": 520610,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "markets",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Hot CPI (US rank 6; one event with September CPI, Core CPI, 3.7% YoY, 3.7% in September, Headline CPI and 3.4% in August: the September CPI release); no floor"
+    },
+    {
+      "id": "2110358547255230669",
+      "url": "https://x.com/optionscjp/status/2110358547255230669",
+      "created_at": "2026-10-14T13:14:20Z",
+      "lang": "en",
+      "text": "With the hot cpi \n\nI’m now waiting for all the slop bait posters to post\n\n“CaN SoMeOne ExplAin To me LiKe I’m 5 Why tHe stonk MArKet is cRashInG”😭😭",
+      "author": {
+        "handle": "optionscjp",
+        "name": "Options selling with Christian",
+        "followers": 50311,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "markets",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Hot CPI (US rank 6; one event with September CPI, Core CPI, 3.7% YoY, 3.7% in September, Headline CPI and 3.4% in August: the September CPI release); no floor"
+    }
+  ],
+  "observations": [
+    {
+      "id": "2024917454301065480",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 39481837,
+      "likes": 255862,
+      "reposts": 19433,
+      "quotes": 1051,
+      "replies": 8598,
+      "bookmarks": 16440,
+      "approx": false
+    },
+    {
+      "id": "2110113833805402475",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 11712605,
+      "likes": 256349,
+      "reposts": 10771,
+      "quotes": 11987,
+      "replies": 2477,
+      "bookmarks": 10166,
+      "approx": false
+    },
+    {
+      "id": "2110068149622350226",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 10915001,
+      "likes": 97923,
+      "reposts": 9157,
+      "quotes": 6116,
+      "replies": 1921,
+      "bookmarks": 21803,
+      "approx": false
+    },
+    {
+      "id": "2110068049206194384",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 6006186,
+      "likes": 18124,
+      "reposts": 1398,
+      "quotes": 525,
+      "replies": 414,
+      "bookmarks": 2947,
+      "approx": false
+    },
+    {
+      "id": "2110075453331706054",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1450505,
+      "likes": 4740,
+      "reposts": 222,
+      "quotes": 144,
+      "replies": 285,
+      "bookmarks": 383,
+      "approx": false
+    },
+    {
+      "id": "2110047358264488023",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 3738939,
+      "likes": 173516,
+      "reposts": 10427,
+      "quotes": 894,
+      "replies": 239,
+      "bookmarks": 6770,
+      "approx": false
+    },
+    {
+      "id": "2110005182511956436",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 3008293,
+      "likes": 44034,
+      "reposts": 4387,
+      "quotes": 1084,
+      "replies": 626,
+      "bookmarks": 3156,
+      "approx": false
+    },
+    {
+      "id": "2110111648019358068",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1554113,
+      "likes": 2336,
+      "reposts": 69,
+      "quotes": 13,
+      "replies": 270,
+      "bookmarks": 122,
+      "approx": false
+    },
+    {
+      "id": "2110135054747795625",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1259811,
+      "likes": 24449,
+      "reposts": 3689,
+      "quotes": 535,
+      "replies": 6779,
+      "bookmarks": 515,
+      "approx": false
+    },
+    {
+      "id": "2110181758943547547",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 229176,
+      "likes": 22763,
+      "reposts": 5809,
+      "quotes": 75,
+      "replies": 176,
+      "bookmarks": 375,
+      "approx": false
+    },
+    {
+      "id": "2110151955104534889",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 107221,
+      "likes": 8126,
+      "reposts": 2436,
+      "quotes": 48,
+      "replies": 85,
+      "bookmarks": 180,
+      "approx": false
+    },
+    {
+      "id": "2110201855762391208",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1841635,
+      "likes": 8940,
+      "reposts": 207,
+      "quotes": 48,
+      "replies": 176,
+      "bookmarks": 1296,
+      "approx": false
+    },
+    {
+      "id": "2110121696535470196",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1771295,
+      "likes": 45865,
+      "reposts": 2797,
+      "quotes": 623,
+      "replies": 371,
+      "bookmarks": 6542,
+      "approx": false
+    },
+    {
+      "id": "2110138921841479895",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1213371,
+      "likes": 12672,
+      "reposts": 798,
+      "quotes": 453,
+      "replies": 288,
+      "bookmarks": 3898,
+      "approx": false
+    },
+    {
+      "id": "2110234147956601114",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1391925,
+      "likes": 54400,
+      "reposts": 2971,
+      "quotes": 96,
+      "replies": 297,
+      "bookmarks": 567,
+      "approx": false
+    },
+    {
+      "id": "2110240563135951022",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 944644,
+      "likes": 20943,
+      "reposts": 5706,
+      "quotes": 715,
+      "replies": 884,
+      "bookmarks": 921,
+      "approx": false
+    },
+    {
+      "id": "2110313050423095339",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 713362,
+      "likes": 2016,
+      "reposts": 569,
+      "quotes": 133,
+      "replies": 302,
+      "bookmarks": 172,
+      "approx": false
+    },
+    {
+      "id": "2110327426580648014",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 57919,
+      "likes": 1463,
+      "reposts": 356,
+      "quotes": 93,
+      "replies": 260,
+      "bookmarks": 117,
+      "approx": false
+    },
+    {
+      "id": "2110273651023151330",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1015201,
+      "likes": 43391,
+      "reposts": 8068,
+      "quotes": 473,
+      "replies": 2549,
+      "bookmarks": 944,
+      "approx": false
+    },
+    {
+      "id": "2110199081385570786",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1420991,
+      "likes": 12137,
+      "reposts": 1246,
+      "quotes": 1028,
+      "replies": 3052,
+      "bookmarks": 2218,
+      "approx": false
+    },
+    {
+      "id": "2110130318237995151",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 879559,
+      "likes": 31824,
+      "reposts": 3929,
+      "quotes": 461,
+      "replies": 1313,
+      "bookmarks": 1030,
+      "approx": false
+    },
+    {
+      "id": "2110347514683490356",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 217210,
+      "likes": 1295,
+      "reposts": 210,
+      "quotes": 80,
+      "replies": 97,
+      "bookmarks": 72,
+      "approx": false
+    },
+    {
+      "id": "2110347809308455363",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 285691,
+      "likes": 3330,
+      "reposts": 535,
+      "quotes": 144,
+      "replies": 222,
+      "bookmarks": 199,
+      "approx": false
+    },
+    {
+      "id": "2110165104713183485",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2443739,
+      "likes": 18653,
+      "reposts": 2215,
+      "quotes": 760,
+      "replies": 832,
+      "bookmarks": 1367,
+      "approx": false
+    },
+    {
+      "id": "2110014692420706667",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 261554,
+      "likes": 1196,
+      "reposts": 162,
+      "quotes": 27,
+      "replies": 50,
+      "bookmarks": 173,
+      "approx": false
+    },
+    {
+      "id": "2110092821571027310",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 349216,
+      "likes": 3972,
+      "reposts": 270,
+      "quotes": 83,
+      "replies": 95,
+      "bookmarks": 608,
+      "approx": false
+    },
+    {
+      "id": "2110148252628619288",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 933996,
+      "likes": 9882,
+      "reposts": 566,
+      "quotes": 148,
+      "replies": 373,
+      "bookmarks": 1803,
+      "approx": false
+    },
+    {
+      "id": "2110219797040611404",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1271247,
+      "likes": 53446,
+      "reposts": 4505,
+      "quotes": 311,
+      "replies": 661,
+      "bookmarks": 499,
+      "approx": false
+    },
+    {
+      "id": "2110196734718845397",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 800970,
+      "likes": 3570,
+      "reposts": 266,
+      "quotes": 109,
+      "replies": 246,
+      "bookmarks": 1173,
+      "approx": false
+    },
+    {
+      "id": "2110067869287661838",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 824408,
+      "likes": 7604,
+      "reposts": 1012,
+      "quotes": 676,
+      "replies": 437,
+      "bookmarks": 1229,
+      "approx": false
+    },
+    {
+      "id": "2110016190617911553",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 514358,
+      "likes": 10865,
+      "reposts": 1300,
+      "quotes": 114,
+      "replies": 217,
+      "bookmarks": 1760,
+      "approx": false
+    },
+    {
+      "id": "2110180938948747730",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 897071,
+      "likes": 413,
+      "reposts": 34,
+      "quotes": 19,
+      "replies": 40,
+      "bookmarks": 84,
+      "approx": false
+    },
+    {
+      "id": "2110224953287070195",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1051079,
+      "likes": 2296,
+      "reposts": 279,
+      "quotes": 77,
+      "replies": 239,
+      "bookmarks": 1503,
+      "approx": false
+    },
+    {
+      "id": "2110079118843011411",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 380757,
+      "likes": 46726,
+      "reposts": 8258,
+      "quotes": 349,
+      "replies": 56,
+      "bookmarks": 1308,
+      "approx": false
+    },
+    {
+      "id": "2024898302035067174",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 39942300,
+      "likes": 6610,
+      "reposts": 1054,
+      "quotes": 525,
+      "replies": 844,
+      "bookmarks": 1084,
+      "approx": false
+    },
+    {
+      "id": "1692516740737958343",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 12680036,
+      "likes": 11601,
+      "reposts": 4073,
+      "quotes": 3437,
+      "replies": 9388,
+      "bookmarks": 752,
+      "approx": false
+    },
+    {
+      "id": "1965216497036615858",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 6419745,
+      "likes": 1713,
+      "reposts": 259,
+      "quotes": 94,
+      "replies": 1,
+      "bookmarks": 4945,
+      "approx": false
+    },
+    {
+      "id": "2060272735083807097",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 3608737,
+      "likes": 7206,
+      "reposts": 570,
+      "quotes": 30,
+      "replies": 89,
+      "bookmarks": 349,
+      "approx": false
+    },
+    {
+      "id": "2110203291049288166",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 5024976,
+      "likes": 168938,
+      "reposts": 15326,
+      "quotes": 622,
+      "replies": 1004,
+      "bookmarks": 17087,
+      "approx": false
+    },
+    {
+      "id": "2110009533531869638",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2639104,
+      "likes": 4136,
+      "reposts": 626,
+      "quotes": 93,
+      "replies": 332,
+      "bookmarks": 529,
+      "approx": false
+    },
+    {
+      "id": "2028683986604585273",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2271903,
+      "likes": 12896,
+      "reposts": 1648,
+      "quotes": 29,
+      "replies": 124,
+      "bookmarks": 393,
+      "approx": false
+    },
+    {
+      "id": "2110222071229989249",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2189152,
+      "likes": 25398,
+      "reposts": 2264,
+      "quotes": 378,
+      "replies": 2430,
+      "bookmarks": 1163,
+      "approx": false
+    },
+    {
+      "id": "2066216083636273590",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1580675,
+      "likes": 5561,
+      "reposts": 815,
+      "quotes": 57,
+      "replies": 17,
+      "bookmarks": 940,
+      "approx": false
+    },
+    {
+      "id": "2110245095824052431",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2040077,
+      "likes": 3065,
+      "reposts": 238,
+      "quotes": 23,
+      "replies": 250,
+      "bookmarks": 458,
+      "approx": false
+    },
+    {
+      "id": "2110240936001249782",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1181243,
+      "likes": 65567,
+      "reposts": 3120,
+      "quotes": 96,
+      "replies": 347,
+      "bookmarks": 403,
+      "approx": false
+    },
+    {
+      "id": "2110094110103310789",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 988102,
+      "likes": 72197,
+      "reposts": 20738,
+      "quotes": 528,
+      "replies": 105,
+      "bookmarks": 10912,
+      "approx": false
+    },
+    {
+      "id": "1716019237259465013",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 855605,
+      "likes": 2192,
+      "reposts": 1062,
+      "quotes": 409,
+      "replies": 1046,
+      "bookmarks": 121,
+      "approx": false
+    },
+    {
+      "id": "2103463918140334316",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 803793,
+      "likes": 26054,
+      "reposts": 1854,
+      "quotes": 91,
+      "replies": 166,
+      "bookmarks": 1788,
+      "approx": false
+    },
+    {
+      "id": "2110124399986671667",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1009294,
+      "likes": 12112,
+      "reposts": 587,
+      "quotes": 9,
+      "replies": 77,
+      "bookmarks": 651,
+      "approx": false
+    },
+    {
+      "id": "2110002004206727480",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 814707,
+      "likes": 368,
+      "reposts": 59,
+      "quotes": 80,
+      "replies": 27,
+      "bookmarks": 58,
+      "approx": false
+    },
+    {
+      "id": "2110305562596426009",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 26414,
+      "likes": 1269,
+      "reposts": 190,
+      "quotes": 9,
+      "replies": 48,
+      "bookmarks": 24,
+      "approx": false
+    },
+    {
+      "id": "2110278144259178523",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 9136,
+      "likes": 904,
+      "reposts": 228,
+      "quotes": 6,
+      "replies": 15,
+      "bookmarks": 19,
+      "approx": false
+    },
+    {
+      "id": "2110063257981698437",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 44282,
+      "likes": 5243,
+      "reposts": 629,
+      "quotes": 17,
+      "replies": 46,
+      "bookmarks": 329,
+      "approx": false
+    },
+    {
+      "id": "2110298824895865107",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 37516,
+      "likes": 1958,
+      "reposts": 214,
+      "quotes": 24,
+      "replies": 20,
+      "bookmarks": 395,
+      "approx": false
+    },
+    {
+      "id": "2110182728897355789",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 128546,
+      "likes": 11402,
+      "reposts": 3006,
+      "quotes": 50,
+      "replies": 108,
+      "bookmarks": 229,
+      "approx": false
+    },
+    {
+      "id": "2110057477236789447",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 3449356,
+      "likes": 34699,
+      "reposts": 1805,
+      "quotes": 506,
+      "replies": 1451,
+      "bookmarks": 14234,
+      "approx": false
+    },
+    {
+      "id": "2008193557673488846",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2561746,
+      "likes": 22585,
+      "reposts": 3293,
+      "quotes": 161,
+      "replies": 811,
+      "bookmarks": 714,
+      "approx": false
+    },
+    {
+      "id": "2110018291792244758",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2712882,
+      "likes": 122920,
+      "reposts": 4586,
+      "quotes": 127,
+      "replies": 263,
+      "bookmarks": 2438,
+      "approx": false
+    },
+    {
+      "id": "2110243595504820641",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2185879,
+      "likes": 3540,
+      "reposts": 439,
+      "quotes": 47,
+      "replies": 548,
+      "bookmarks": 521,
+      "approx": false
+    },
+    {
+      "id": "2098449226980057368",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1476944,
+      "likes": 4104,
+      "reposts": 352,
+      "quotes": 58,
+      "replies": 169,
+      "bookmarks": 1849,
+      "approx": false
+    },
+    {
+      "id": "2110223110003982788",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1387126,
+      "likes": 3412,
+      "reposts": 475,
+      "quotes": 45,
+      "replies": 629,
+      "bookmarks": 288,
+      "approx": false
+    },
+    {
+      "id": "2110253157758673079",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1399328,
+      "likes": 4818,
+      "reposts": 623,
+      "quotes": 89,
+      "replies": 1162,
+      "bookmarks": 837,
+      "approx": false
+    },
+    {
+      "id": "2110107526809505873",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 801645,
+      "likes": 50878,
+      "reposts": 8495,
+      "quotes": 107,
+      "replies": 508,
+      "bookmarks": 811,
+      "approx": false
+    },
+    {
+      "id": "2110091703419871393",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 860023,
+      "likes": 905,
+      "reposts": 75,
+      "quotes": 22,
+      "replies": 146,
+      "bookmarks": 1140,
+      "approx": false
+    },
+    {
+      "id": "2110025766037803057",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 557498,
+      "likes": 9623,
+      "reposts": 1212,
+      "quotes": 10,
+      "replies": 170,
+      "bookmarks": 446,
+      "approx": false
+    },
+    {
+      "id": "2110135850361291059",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 489627,
+      "likes": 19882,
+      "reposts": 6908,
+      "quotes": 192,
+      "replies": 1009,
+      "bookmarks": 419,
+      "approx": false
+    },
+    {
+      "id": "2110026708355101058",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 387146,
+      "likes": 866,
+      "reposts": 191,
+      "quotes": 45,
+      "replies": 351,
+      "bookmarks": 245,
+      "approx": false
+    },
+    {
+      "id": "2110062933816611208",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 387112,
+      "likes": 14743,
+      "reposts": 3766,
+      "quotes": 210,
+      "replies": 499,
+      "bookmarks": 1400,
+      "approx": false
+    },
+    {
+      "id": "2110047459925749889",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 349424,
+      "likes": 26071,
+      "reposts": 5358,
+      "quotes": 289,
+      "replies": 2454,
+      "bookmarks": 314,
+      "approx": false
+    },
+    {
+      "id": "2110207594484642084",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 376537,
+      "likes": 54801,
+      "reposts": 4524,
+      "quotes": 17,
+      "replies": 78,
+      "bookmarks": 3843,
+      "approx": false
+    },
+    {
+      "id": "2110160673586008537",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 340334,
+      "likes": 1011,
+      "reposts": 107,
+      "quotes": 16,
+      "replies": 342,
+      "bookmarks": 92,
+      "approx": false
+    },
+    {
+      "id": "2110077123528736991",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 311287,
+      "likes": 40084,
+      "reposts": 3464,
+      "quotes": 32,
+      "replies": 96,
+      "bookmarks": 1608,
+      "approx": false
+    },
+    {
+      "id": "2110062762218926204",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 286973,
+      "likes": 886,
+      "reposts": 127,
+      "quotes": 11,
+      "replies": 88,
+      "bookmarks": 120,
+      "approx": false
+    },
+    {
+      "id": "2110108110203363626",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 270965,
+      "likes": 784,
+      "reposts": 95,
+      "quotes": 11,
+      "replies": 53,
+      "bookmarks": 434,
+      "approx": false
+    },
+    {
+      "id": "2110267056700690732",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 368064,
+      "likes": 33263,
+      "reposts": 3530,
+      "quotes": 24,
+      "replies": 71,
+      "bookmarks": 1354,
+      "approx": false
+    },
+    {
+      "id": "2110030804243857578",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 267682,
+      "likes": 717,
+      "reposts": 97,
+      "quotes": 7,
+      "replies": 72,
+      "bookmarks": 182,
+      "approx": false
+    },
+    {
+      "id": "2041083751136977114",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 250140,
+      "likes": 1215,
+      "reposts": 360,
+      "quotes": 51,
+      "replies": 33,
+      "bookmarks": 121,
+      "approx": false
+    },
+    {
+      "id": "2110349054815174737",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 113049,
+      "likes": 481,
+      "reposts": 92,
+      "quotes": 20,
+      "replies": 34,
+      "bookmarks": 30,
+      "approx": false
+    },
+    {
+      "id": "2110068047700443191",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 13465118,
+      "likes": 23867,
+      "reposts": 5726,
+      "quotes": 3526,
+      "replies": 905,
+      "bookmarks": 3899,
+      "approx": false
+    },
+    {
+      "id": "2110041731949576244",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 10724194,
+      "likes": 24029,
+      "reposts": 1589,
+      "quotes": 362,
+      "replies": 978,
+      "bookmarks": 6767,
+      "approx": false
+    },
+    {
+      "id": "2110051057829364066",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 9746337,
+      "likes": 27065,
+      "reposts": 884,
+      "quotes": 164,
+      "replies": 363,
+      "bookmarks": 7873,
+      "approx": false
+    },
+    {
+      "id": "2057009001926480197",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 6632510,
+      "likes": 74089,
+      "reposts": 4733,
+      "quotes": 765,
+      "replies": 666,
+      "bookmarks": 6384,
+      "approx": false
+    },
+    {
+      "id": "2110222061780254801",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 5451475,
+      "likes": 99023,
+      "reposts": 15688,
+      "quotes": 20215,
+      "replies": 2178,
+      "bookmarks": 13467,
+      "approx": false
+    },
+    {
+      "id": "2110040532429009014",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2775403,
+      "likes": 23156,
+      "reposts": 908,
+      "quotes": 389,
+      "replies": 210,
+      "bookmarks": 2578,
+      "approx": false
+    },
+    {
+      "id": "2110198804872077621",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2505955,
+      "likes": 37537,
+      "reposts": 1900,
+      "quotes": 1259,
+      "replies": 794,
+      "bookmarks": 3345,
+      "approx": false
+    },
+    {
+      "id": "2085453333347590555",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2366818,
+      "likes": 26968,
+      "reposts": 4679,
+      "quotes": 437,
+      "replies": 828,
+      "bookmarks": 3023,
+      "approx": false
+    },
+    {
+      "id": "2110087583120408870",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2187499,
+      "likes": 1005,
+      "reposts": 137,
+      "quotes": 789,
+      "replies": 4193,
+      "bookmarks": 637,
+      "approx": false
+    },
+    {
+      "id": "2110066955634012367",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2161280,
+      "likes": 24184,
+      "reposts": 1990,
+      "quotes": 276,
+      "replies": 448,
+      "bookmarks": 4174,
+      "approx": false
+    },
+    {
+      "id": "2063014148674670941",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2023340,
+      "likes": 21420,
+      "reposts": 4689,
+      "quotes": 179,
+      "replies": 73,
+      "bookmarks": 4469,
+      "approx": false
+    },
+    {
+      "id": "2085489355536191674",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 2007535,
+      "likes": 5423,
+      "reposts": 1591,
+      "quotes": 391,
+      "replies": 408,
+      "bookmarks": 1081,
+      "approx": false
+    },
+    {
+      "id": "2110104163967246529",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1662764,
+      "likes": 33975,
+      "reposts": 8955,
+      "quotes": 864,
+      "replies": 2884,
+      "bookmarks": 814,
+      "approx": false
+    },
+    {
+      "id": "2110114165922640106",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1232912,
+      "likes": 24835,
+      "reposts": 1058,
+      "quotes": 1225,
+      "replies": 212,
+      "bookmarks": 745,
+      "approx": false
+    },
+    {
+      "id": "2110157114958368833",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1137059,
+      "likes": 9246,
+      "reposts": 1181,
+      "quotes": 873,
+      "replies": 2599,
+      "bookmarks": 1425,
+      "approx": false
+    },
+    {
+      "id": "2110178399129849873",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 1064177,
+      "likes": 41832,
+      "reposts": 7491,
+      "quotes": 138,
+      "replies": 575,
+      "bookmarks": 1115,
+      "approx": false
+    },
+    {
+      "id": "2110100437965897849",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 948596,
+      "likes": 13101,
+      "reposts": 1415,
+      "quotes": 385,
+      "replies": 126,
+      "bookmarks": 895,
+      "approx": false
+    },
+    {
+      "id": "2036445935455142126",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 857042,
+      "likes": 14632,
+      "reposts": 2821,
+      "quotes": 360,
+      "replies": 1150,
+      "bookmarks": 491,
+      "approx": false
+    },
+    {
+      "id": "2110117400092037422",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 810860,
+      "likes": 19639,
+      "reposts": 3113,
+      "quotes": 159,
+      "replies": 1216,
+      "bookmarks": 246,
+      "approx": false
+    },
+    {
+      "id": "2110252784813568174",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 802076,
+      "likes": 7832,
+      "reposts": 1269,
+      "quotes": 514,
+      "replies": 450,
+      "bookmarks": 714,
+      "approx": false
+    },
+    {
+      "id": "2110269590798569489",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 801731,
+      "likes": 3615,
+      "reposts": 785,
+      "quotes": 177,
+      "replies": 244,
+      "bookmarks": 187,
+      "approx": false
+    },
+    {
+      "id": "2110282217327136984",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 801038,
+      "likes": 12537,
+      "reposts": 767,
+      "quotes": 537,
+      "replies": 197,
+      "bookmarks": 4771,
+      "approx": false
+    },
+    {
+      "id": "2110020119355367795",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 693386,
+      "likes": 884,
+      "reposts": 45,
+      "quotes": 55,
+      "replies": 147,
+      "bookmarks": 110,
+      "approx": false
+    },
+    {
+      "id": "2110032746542162173",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 678719,
+      "likes": 8518,
+      "reposts": 771,
+      "quotes": 134,
+      "replies": 97,
+      "bookmarks": 736,
+      "approx": false
+    },
+    {
+      "id": "2106800979228139661",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 666523,
+      "likes": 5287,
+      "reposts": 1218,
+      "quotes": 40,
+      "replies": 163,
+      "bookmarks": 693,
+      "approx": false
+    },
+    {
+      "id": "2110090777825087635",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 657660,
+      "likes": 4602,
+      "reposts": 880,
+      "quotes": 242,
+      "replies": 406,
+      "bookmarks": 1809,
+      "approx": false
+    },
+    {
+      "id": "2101729335178612834",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 607070,
+      "likes": 9291,
+      "reposts": 3070,
+      "quotes": 91,
+      "replies": 769,
+      "bookmarks": 2123,
+      "approx": false
+    },
+    {
+      "id": "2110243147464728599",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 570367,
+      "likes": 3268,
+      "reposts": 130,
+      "quotes": 268,
+      "replies": 259,
+      "bookmarks": 1526,
+      "approx": false
+    },
+    {
+      "id": "2110116592210284863",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 478513,
+      "likes": 75393,
+      "reposts": 10622,
+      "quotes": 919,
+      "replies": 364,
+      "bookmarks": 606,
+      "approx": false
+    },
+    {
+      "id": "2110355864875872634",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 467888,
+      "likes": 708,
+      "reposts": 66,
+      "quotes": 17,
+      "replies": 77,
+      "bookmarks": 36,
+      "approx": false
+    },
+    {
+      "id": "2110355190935151081",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 441950,
+      "likes": 12897,
+      "reposts": 2233,
+      "quotes": 427,
+      "replies": 177,
+      "bookmarks": 1255,
+      "approx": false
+    },
+    {
+      "id": "2110138366935134346",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 417035,
+      "likes": 12493,
+      "reposts": 2788,
+      "quotes": 276,
+      "replies": 450,
+      "bookmarks": 583,
+      "approx": false
+    },
+    {
+      "id": "2110287346285298055",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 408755,
+      "likes": 3778,
+      "reposts": 1496,
+      "quotes": 504,
+      "replies": 417,
+      "bookmarks": 517,
+      "approx": false
+    },
+    {
+      "id": "2110213435220697160",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 396264,
+      "likes": 682,
+      "reposts": 135,
+      "quotes": 22,
+      "replies": 0,
+      "bookmarks": 245,
+      "approx": false
+    },
+    {
+      "id": "2110050992469213412",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 396006,
+      "likes": 379,
+      "reposts": 133,
+      "quotes": 223,
+      "replies": 79,
+      "bookmarks": 157,
+      "approx": false
+    },
+    {
+      "id": "2110355208270471286",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 388274,
+      "likes": 7057,
+      "reposts": 3799,
+      "quotes": 278,
+      "replies": 29,
+      "bookmarks": 609,
+      "approx": false
+    },
+    {
+      "id": "2110159173350772823",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 387807,
+      "likes": 68235,
+      "reposts": 10714,
+      "quotes": 141,
+      "replies": 79,
+      "bookmarks": 1736,
+      "approx": false
+    },
+    {
+      "id": "2110050933283668252",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 387608,
+      "likes": 39508,
+      "reposts": 13676,
+      "quotes": 296,
+      "replies": 866,
+      "bookmarks": 504,
+      "approx": false
+    },
+    {
+      "id": "2110060618258497764",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 380741,
+      "likes": 7019,
+      "reposts": 209,
+      "quotes": 39,
+      "replies": 188,
+      "bookmarks": 812,
+      "approx": false
+    },
+    {
+      "id": "2110079227009835140",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 377185,
+      "likes": 48530,
+      "reposts": 4047,
+      "quotes": 151,
+      "replies": 35,
+      "bookmarks": 1505,
+      "approx": false
+    },
+    {
+      "id": "2110257281816236136",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 76873,
+      "likes": 1316,
+      "reposts": 401,
+      "quotes": 46,
+      "replies": 35,
+      "bookmarks": 34,
+      "approx": false
+    },
+    {
+      "id": "2110263883642310884",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 41270,
+      "likes": 819,
+      "reposts": 272,
+      "quotes": 45,
+      "replies": 53,
+      "bookmarks": 47,
+      "approx": false
+    },
+    {
+      "id": "2110317227799114083",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 140888,
+      "likes": 1844,
+      "reposts": 91,
+      "quotes": 86,
+      "replies": 70,
+      "bookmarks": 95,
+      "approx": false
+    },
+    {
+      "id": "2110346990987157525",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 23652,
+      "likes": 141,
+      "reposts": 18,
+      "quotes": 29,
+      "replies": 34,
+      "bookmarks": 16,
+      "approx": false
+    },
+    {
+      "id": "2110344869239513569",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 22822,
+      "likes": 272,
+      "reposts": 12,
+      "quotes": 6,
+      "replies": 21,
+      "bookmarks": 20,
+      "approx": false
+    },
+    {
+      "id": "2110354370290229394",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 12629,
+      "likes": 167,
+      "reposts": 14,
+      "quotes": 12,
+      "replies": 15,
+      "bookmarks": 4,
+      "approx": false
+    },
+    {
+      "id": "2110368491098210662",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 9222,
+      "likes": 256,
+      "reposts": 32,
+      "quotes": 20,
+      "replies": 38,
+      "bookmarks": 11,
+      "approx": false
+    },
+    {
+      "id": "2110369280667640108",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 5302,
+      "likes": 158,
+      "reposts": 30,
+      "quotes": 21,
+      "replies": 9,
+      "bookmarks": 7,
+      "approx": false
+    },
+    {
+      "id": "2110226603569787036",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 13480,
+      "likes": 229,
+      "reposts": 35,
+      "quotes": 2,
+      "replies": 6,
+      "bookmarks": 2,
+      "approx": false
+    },
+    {
+      "id": "2110355070185325050",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 707,
+      "likes": 33,
+      "reposts": 19,
+      "quotes": 2,
+      "replies": 2,
+      "bookmarks": 0,
+      "approx": false
+    },
+    {
+      "id": "2110370043607310652",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 123,
+      "likes": 14,
+      "reposts": 16,
+      "quotes": 0,
+      "replies": 5,
+      "bookmarks": 1,
+      "approx": false
+    },
+    {
+      "id": "2110357224761536984",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 73299,
+      "likes": 143,
+      "reposts": 32,
+      "quotes": 5,
+      "replies": 23,
+      "bookmarks": 15,
+      "approx": false
+    },
+    {
+      "id": "2110355956437582312",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 7216,
+      "likes": 12,
+      "reposts": 3,
+      "quotes": 0,
+      "replies": 7,
+      "bookmarks": 1,
+      "approx": false
+    },
+    {
+      "id": "2110358547255230669",
+      "at": "2026-10-14T14:08:00Z",
+      "state": "live",
+      "views": 4185,
+      "likes": 58,
+      "reposts": 2,
+      "quotes": 1,
+      "replies": 13,
+      "bookmarks": 0,
+      "approx": false
+    }
+  ],
+  "context": [],
+  "answers": []
+}
