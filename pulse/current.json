@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T21:45:00Z",
-  "capture": "2026-10-14T2107Z",
+  "updated_at": "2026-10-14T22:25:00Z",
+  "capture": "2026-10-14T2202Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -84,12 +84,6 @@
       "also": []
     },
     {
-      "id": "2110130318237995151",
-      "desk": "world",
-      "line": "In Portuguese, a video post quotes Flávio Bolsonaro as saying people who think he is radical on public security have not seen anything yet, and that he is talking with Derrite because he thinks El Salvador is too little.",
-      "also": []
-    },
-    {
       "id": "2110347514683490356",
       "desk": "markets",
       "line": "Walter Bloomberg (DeItaone), a markets news account, reports US September CPI inflation at 3.7% against 3.6% expected, with core at 2.6% against 2.5%, and gasoline up 9.1%. Not checked here.",
@@ -102,14 +96,6 @@
       "desk": "tech",
       "line": "Tesla says its Roadster event will stream live this Thursday at 7:55pm CST.",
       "also": []
-    },
-    {
-      "id": "2110148252628619288",
-      "desk": "sports",
-      "line": "Stretford Paddock, a Manchester United fan account, posts a video of Michael Carrick reacting to Lisandro Martinez's comments.",
-      "also": [
-        "2110219797040611404"
-      ]
     },
     {
       "id": "2110196734718845397",
@@ -286,6 +272,20 @@
       "desk": "politics",
       "line": "The Baltimore Banner posts a video and says Republican Rep. Andy Harris incorrectly told a reporter they were breaking the law while recording him after a debate with Democratic challenger Dan Schwartz. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2110390512264056843",
+      "desk": "entertainment",
+      "line": "DiscussingFilm posts a new trailer for a Muhammad Ali biopic series, executive produced by Michael B. Jordan, which it says arrives on Prime Video on November 4.",
+      "also": []
+    },
+    {
+      "id": "2110458633259553247",
+      "desk": "sports",
+      "line": "Ari Meirov, citing @sportsrapport, says Joe Buck and Troy Aikman argued before Monday night's Rams-Bills game over their ESPN contract situations. ProFootballTalk repeats the report. Not checked here.",
+      "also": [
+        "2110472954241032568"
+      ]
     }
   ]
 }

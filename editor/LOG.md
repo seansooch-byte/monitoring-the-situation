@@ -592,3 +592,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list gained 2 Narnia story posts (59 ids); open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: sources are thin. For OpenAI only Engadget was opened (CBC returned 403; Variety and Hollywood Reporter redirected to a third-party host that I did not follow). Still open: Netflix layoffs, Bank of America penalties, Alaska pardons, Zelensky on Starlink, Vinicius suspension, Harris video.
+
+## 2026-10-14T22:25Z
+- Captures read: 2202Z. Last read: 2202Z.
+- X's check: 2202Z 41 confirmed, 0 missing, 1 mismatched (2110403761474597194, PiersUncensored's Zelensky post; text differs from the record; not used), 0 withheld.
+- Pulse: 45 items (2 new, 2 dropped; the build shows 44, holding PopBase's second post to its life desk). Added the Muhammad Ali biopic trailer (entertainment) and the Buck and Aikman report (sports, marked unchecked, ProFootballTalk in `also`). Dropped Stretford Paddock's Carrick video and Sam Pancher's Bolsonaro video (smaller and older). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; Netflix "Wide Deceiver" documentary (about a named private person); Romano and Mourinho on Endrick (account already on the pulse); Musk's Grok Voice 3.0 post (xAI product, claim unchecked, below the smallest kept ai item); small gaming posts; the Zelensky/Piers Morgan post (mismatch).
+- Requests: watch list swapped three ids for three (59 ids). open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: nothing about the contract. Process note: a script I did not write was already at /tmp/ed/upd.mjs; I ran it by mistake and it wrote old 10 October pulse and watch data into the tree. I reverted it with git checkout before anything was committed.
