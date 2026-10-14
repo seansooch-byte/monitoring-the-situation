@@ -522,3 +522,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 46 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: Talarico rumor (Fox citing a New York Times review of footage), Trump pardons of three Alaskans over engine work (Sortor only), Zelensky's account of the CHPP-4 strike and the Tyreek Hill verdict are unchecked leads. Pope Leo diagnosis and Starlink in Ukraine remain open from earlier passes.
+
+## 2026-10-14T15:40Z
+- Captures read: 1509Z. Last read: 1509Z.
+- X's check: 1509Z 42 confirmed, 0 missing, 2 mismatched, 0 withheld. Mismatched: 2110362754263736448 and 2110370768697901279, both elonmusk retweets recorded with an "RT @user:" prefix that X's text does not carry. Earlier mismatches (1603Z 9, 0704Z 1, 1206Z 1) are already on record.
+- Pulse: 41 items (4 new, 0 dropped; the build shows 40 on the front, holding PopBase's second post to its life desk). Added NASA's Oct. 23 Moon update (science), Osint613 on Israel's Apache purchase (defense), Rachel Weisz News on the Mummy set (entertainment), the Phillies signing Don Mattingly with MLB in also (sports). Quiet: justice, medicine, music, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; the two mismatched Musk retweets (the originals by XFreeze and debs_obrien are small); Eng_china5 claim about the US Treasury Secretary (unconfirmed, partisan framing); Watters on Omar (claim about a named person, unchecked); cryptogoos (bait, no desk); Hump Day and Good Wednesday posts (small); Confido Health funding (promotion); GMMTV shop (advertisement); Kimmonismus on Anthropic and OpenAI safety (small, unchecked).
+- Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 51 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: Osint613's Apache purchase and Phillies/Mattingly are unchecked leads. Pope Leo diagnosis, Starlink in Ukraine, CPI figures (check BLS), Talarico rumor and Alaska pardons remain open.
