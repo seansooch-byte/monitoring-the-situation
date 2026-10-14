@@ -562,3 +562,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list updated to the pulse, its `also` posts and the pinned post, 57 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: OpenAI's recording-device account (FBI arrest, employee terminated) and the Treasury penalties on Bank of America are unchecked leads for a story pass; check OpenAI's own statement and Treasury. OpenAI is not Anthropic or xAI, so no disclosure line was added.
+
+## 2026-10-14T19:30Z
+- Captures read: 1902Z. Last read: 1902Z.
+- X's check: 1902Z 49 confirmed, 0 missing, 1 mismatched (2110370039962685538, wearelloud's LISA promo; hashtags differ from the record; not used), 0 withheld. No other new mismatches (1509Z 2, 1603Z 9, 0704Z 1, 1206Z 1 already on record).
+- Pulse: 45 items (2 new, 2 dropped; the build shows 44, holding PopBase's second post to its life desk). Added UpdateCharts on Lula's "Pé de Meia Universitário" (world, marked unchecked) and Nature Unedited's dog park video (internet). Dropped Daily Loud on 3D-printed salmon and the Steam funeral joke (both smaller). Quiet: defense, medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; the electrocution tattoo video (a person injured, possibly private, media undescribed); Romano on Barcola (account already on the pulse); Netflix layoffs, Xbox Nano controller, Wickham on Zelensky and Starlink, Musk "Try Grok Voice" (all well below the smallest items kept); Charlie Kirk birthday posts and the Gillis gym posts (opinion framing); Zenzap, LISA and Epic Games posts (promotion); Joey Contino (opinion).
+- Requests: watch list updated (two ids swapped), 57 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: Netflix's reported layoff of about 1,000 staff, Grok Voice 3.0 (SpaceX Super Intelligence, an xAI product; disclosure needed) and Zelensky telling Piers Morgan that the US and Musk cut off Starlink are unchecked leads. Still open: Pope Leo, Starlink in Ukraine, Talarico, Alaska pardons, Tyreek Hill, Apache purchase, OpenAI device, Bank of America penalties.
