@@ -1,0 +1,34 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-13-openai-hidden-recording-device",
+  "title": "OpenAI says it found a hidden recording device in its office and an employee was arrested",
+  "dek": "One of the biggest AI companies says it used its own models to trace who planted a bug in its building. The charge is not yet decided in court.",
+  "desks": [
+    "ai",
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-13T19:48:42Z",
+  "updated_at": "2026-10-14T21:40:00Z",
+  "what": [
+    "On October 13, OpenAI's newsroom account posted that the company had found a \"sophisticated recording device\" hidden in one of its offices. It said it used its models to understand the device and where it came from, and that this showed a specific employee had planted it a few days earlier. It said it referred the matter to the FBI, which made an arrest, and that the employee was terminated.",
+    "OpenAI also said it had no indication that the person accessed or took model weights, source code or customer data. That is OpenAI's own statement. I did not find an independent check of it.",
+    "Engadget reports further details from the charges: the device was found on September 30, plugged into the USB port of a TV in an executive conference room, and a second device was found on October 5 in an abandoned bag. Engadget reports prosecutors say meetings in that room often covered confidential product, research and government work, and that the accused used AI chatbots to learn how to build and hide audio recorders. It reports the maximum penalty is five years in federal prison.",
+    "I could not open the charging documents or a statement from prosecutors, so those details rest on Engadget's report. I am not naming the accused. A charge is an accusation, and I found no report of a plea or a ruling."
+  ],
+  "why": "A company that sells AI says AI helped catch the person, which makes the story both a security story and an advertisement for the product. Accounts that cover tech and AI spread the post.",
+  "common": "On the record from OpenAI: it found a device, an employee was terminated, the FBI was told, and an arrest followed. Reported by Engadget from the charges: dates, the room, the second device and the possible penalty. Not established: what was recorded, whether any confidential material was heard, and anything about motive.",
+  "next": "A court hearing or a prosecutor's statement would show what the charge alleges was recorded.",
+  "posts": [
+    {
+      "id": "2110095403198849132",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Engadget: OpenAI says it found a 'sophisticated recording device' hidden in its offices",
+      "url": "https://www.engadget.com/2286084/openai-says-it-found-a-sophisticated-recording-device-hidden-in-its-offices/"
+    }
+  ]
+}

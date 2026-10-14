@@ -582,3 +582,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list updated to the pulse, its `also` posts, recent story posts and the pinned post, 57 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: CBS News says the US may have intentionally withheld early warnings of Russian strikes, and Fedorov says Starlink speeds are being restored: unchecked leads for a story pass, with Zelensky's post and the WSJ speed-limit item. The Vinicius suspension and the Harris video are unchecked.
+
+## 2026-10-14T21:50Z
+- Captures read: 2107Z. Last read: 2107Z.
+- X's check: 2107Z 42 confirmed, 0 missing, 1 mismatched (2110408040499364263, PiersUncensored's Zelensky/Starlink post; record and X differ in the text; not used), 1 withheld (2059786697026437577, Viraal_x, old content; not used). No other new mismatches.
+- Pulse: 45 items (0 new, 0 dropped; the build shows 44, holding PopBase's second post to its life desk). 2107Z held only old content and a Champions League evening; nothing new cleared the smallest kept item. Quiet: defense, medicine, ideas, offbeat.
+- Added: 2026-10-13-openai-hidden-recording-device (ai), 2026-10-13-narnia-magicians-nephew-trailer (entertainment). Updated: none.
+- Left out: the accused in the OpenAI case is not named (private person, charge only); Jeff Passan on MLB's salary cap (small, sports full); Alaska pardons and the Talarico rumor (searches found no source, so no story); live Real Madrid and Man City match posts; Diddy/Dudus (named person, unconfirmed); old_content posts.
+- Requests: watch list gained 2 Narnia story posts (59 ids); open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: sources are thin. For OpenAI only Engadget was opened (CBC returned 403; Variety and Hollywood Reporter redirected to a third-party host that I did not follow). Still open: Netflix layoffs, Bank of America penalties, Alaska pardons, Zelensky on Starlink, Vinicius suspension, Harris video.
