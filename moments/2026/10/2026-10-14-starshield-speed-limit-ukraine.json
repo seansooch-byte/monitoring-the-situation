@@ -1,0 +1,71 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-14-starshield-speed-limit-ukraine",
+  "title": "Ukraine says a speed limit hit military Starshield terminals overnight; who ordered it is unclear",
+  "dek": "Ukrainian officials say drone missions were disrupted. Some accounts blame SpaceX and politics. Others say Starshield is a US government service.",
+  "desks": [
+    "world",
+    "defense",
+    "tech"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-14T05:25:31Z",
+  "updated_at": "2026-10-14T16:45:00Z",
+  "what": [
+    "Early on October 14, Serhii Sternenko, a Ukrainian volunteer who raises money for drones, posted that Starlink terminals in Ukraine had been restricted overnight. He said connections dropped above 160 km/h and that \"a number of critical missions were disrupted.\"",
+    "Adviser Serhii Beskrestnov, whom posts describe as a presidential adviser and as a Defense Ministry adviser, then confirmed it. In a statement quoted in a post he said SpaceX introduced a speed limit on terminals in motion, that it applies to the Starshield \"military package\" and is set at 100 mph (about 160 km/h), and that forces were given no notice. Ukrainska Pravda reported the same from four front-line sources and a commander's video. It also reports that ordinary Starlink already had the same limit and Starshield did not.",
+    "Poland's foreign minister, Radosław Sikorski, asked Elon Musk in a post whether he was \"playing politics with your products again.\"",
+    "I could not find any statement from SpaceX or Elon Musk explaining the limit. One trade report says the Pentagon declined to discuss specific speed caps. Sternenko also wrote that Ukraine got no warning of ballistic missile launches toward Kyiv that night and that sanctions on Russia have been eased. Those two claims rest on his post alone and are not checked here."
+  ],
+  "why": "Drones that fly fast and far need a satellite link that keeps working at speed. A limit on that link, arriving without warning during a war, reads to many people as a decision with a motive.",
+  "worlds": [
+    {
+      "name": "Ukrainian officials and their supporters",
+      "sees": "SpaceX changed terminal behaviour overnight with no warning, missions failed, and Beskrestnov said it cannot be a coincidence and is tied to the political situation.",
+      "post": "2110252621441151177"
+    },
+    {
+      "name": "Accounts that watch Starshield or defend SpaceX",
+      "sees": "Starshield is not consumer Starlink. It serves government and military users under US government control, so the limit may be a decision of the US Defense Department rather than SpaceX alone.",
+      "post": "2110355391435657508"
+    }
+  ],
+  "common": "Established by Ukrainian officials and Ukrainska Pravda: a 100 mph limit appeared on Starshield terminals overnight and disrupted missions. Not established: who ordered it and why. SpaceX has not explained it in anything I found. The idea that the Defense Department asked for it is an inference in posts, and so is the idea that Musk chose it for political reasons. Sternenko's claims about missile warnings and sanctions are unconfirmed here.",
+  "next": "A statement from SpaceX, the Pentagon or Ukraine's Defense Ministry on who set the limit, and whether it is lifted.",
+  "posts": [
+    {
+      "id": "2110240563135951022",
+      "role": "origin"
+    },
+    {
+      "id": "2110252621441151177",
+      "role": "voice"
+    },
+    {
+      "id": "2110257281816236136",
+      "role": "voice"
+    },
+    {
+      "id": "2110273651023151330",
+      "role": "voice"
+    },
+    {
+      "id": "2110355391435657508",
+      "role": "voice"
+    },
+    {
+      "id": "2110327426580648014",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ukrainska Pravda: Ukrainian forces report speed caps on military Starshield satellite service",
+      "url": "https://www.pravda.com.ua/eng/news/2026/10/14/8057920/"
+    },
+    {
+      "label": "SATNews: SpaceX restricts military Starshield speeds in Ukraine",
+      "url": "https://satnews.com/2026/10/14/spacex-restricts-military-starshield-speeds-in-ukraine-disrupting-pentagon-funded-tactical-drone-operations/"
+    }
+  ]
+}

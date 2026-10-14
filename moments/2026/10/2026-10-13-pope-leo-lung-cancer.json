@@ -1,0 +1,46 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-13-pope-leo-lung-cancer",
+  "title": "The Vatican says Pope Leo XIV has lung cancer and had part of a lung removed",
+  "dek": "Posts that called it a diagnosis on Tuesday evening matched the Vatican. Days earlier it had said only that doctors found a nodule.",
+  "desks": [
+    "world",
+    "medicine"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-13T21:01:56Z",
+  "updated_at": "2026-10-14T16:45:00Z",
+  "what": [
+    "On Sunday, October 11, Pope Leo XIV said after the Angelus that doctors had found \"a small, localized nodule\" in his lung, \"detected at a very early stage.\" He said surgery was scheduled for the coming days. Reports at the time noted that many lung nodules are not cancer and that the Vatican had not said whether this one was.",
+    "He was admitted to Rome's Gemelli Hospital on Tuesday, October 13. That evening posts said the Vatican had announced a lung cancer diagnosis. The Vatican statement, as reported by the Associated Press on October 14, says the lower lobe of his right lung was removed and the diagnosis is lung adenocarcinoma.",
+    "On Wednesday, October 14, the Vatican said he had a tranquil night, resumed a regular diet, began walking and did breathing exercises, and that \"recovery is proceeding as planned.\" Blood tests and chest X-rays showed normal progress, according to that report.",
+    "Not public as of the afternoon of October 14: whether the cancer reached lymph nodes, and whether he will need more treatment. The Vatican had announced no change to a planned trip to Uruguay, Argentina and Peru from November 6 to 17. Peru's president said there could be changes to the schedule."
+  ],
+  "why": "The head of the Catholic Church is 71 and his illness was announced in two steps: a nodule, then a cancer diagnosis after surgery. Accounts that post breaking news spread the second step within minutes.",
+  "common": "Established by the Vatican and reported by the Associated Press: the nodule, the surgery on October 13, the removal of the lower lobe of the right lung, and the diagnosis of lung adenocarcinoma. The two posts cited here match that. Not established: the stage of the cancer, lymph node results, any further treatment, and whether the November trip goes ahead.",
+  "next": "Lymph node results would show whether more treatment is planned.",
+  "posts": [
+    {
+      "id": "2110113833805402475",
+      "role": "origin"
+    },
+    {
+      "id": "2110114165922640106",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AP via Anchorage Daily News: Pope Leo XIV will undergo surgery to remove a nodule on his lung (Oct. 11)",
+      "url": "https://www.adn.com/nation-world/2026/10/11/pope-leo-xiv-will-undergo-surgery-to-remove-a-nodule-on-his-lung/"
+    },
+    {
+      "label": "Blue News: Pope carries out his schedule Tuesday at the hospital for lung surgery",
+      "url": "https://www.bluewin.ch/en/news/pope-carries-out-his-schedule-tuesday-at-the-hospital-for-lung-surgery-li.3633014"
+    },
+    {
+      "label": "AP via WSLS: Vatican says Pope Leo spent a tranquil night after cancer surgery (Oct. 14)",
+      "url": "https://www.wsls.com/news/world/2026/10/14/the-vatican-says-pope-leo-spent-a-tranquil-night-in-the-hospital-after-undergoing-cancer-surgery/"
+    }
+  ]
+}

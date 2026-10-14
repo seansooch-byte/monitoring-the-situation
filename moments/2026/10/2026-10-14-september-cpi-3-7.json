@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-14-september-cpi-3-7",
+  "title": "US inflation rose to 3.7% in September, driven by gasoline",
+  "dek": "The Labor Department's figures are out. Markets news accounts say they beat forecasts.",
+  "desks": [
+    "markets"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-14T12:30:30Z",
+  "updated_at": "2026-10-14T16:45:00Z",
+  "what": [
+    "The Bureau of Labor Statistics reports that the Consumer Price Index rose 0.6 percent in September on a seasonally adjusted basis, after 0.4 percent in August. Over twelve months, prices rose 3.7 percent, up from 3.4 percent in August.",
+    "Excluding food and energy, prices rose 0.3 percent in the month and 2.6 percent over the year. Gasoline rose 9.1 percent in the month and accounted for over half of the monthly increase. Energy prices were up 20.4 percent over twelve months. Shelter was up 0.4 percent in the month and 3.2 percent over the year. Food prices were flat in September.",
+    "Two markets news accounts posted the release within minutes and said both headline and core inflation came in above forecasts of 3.6 and 2.5 percent. I did not find the forecasts in a primary source, so the comparison rests on those posts."
+  ],
+  "why": "It is the most watched price report each month, and it came out before markets opened.",
+  "common": "Established by the BLS: the figures above. Not checked here: the forecasts the posts compare them with, and any statement about the odds of a Federal Reserve rate change.",
+  "posts": [
+    {
+      "id": "2110347514683490356",
+      "role": "origin"
+    },
+    {
+      "id": "2110347809308455363",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Bureau of Labor Statistics: Consumer Price Index summary, September 2026",
+      "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+    }
+  ]
+}

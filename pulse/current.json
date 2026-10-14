@@ -1,12 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T15:40:00Z",
-  "capture": "2026-10-14T1509Z",
+  "updated_at": "2026-10-14T16:50:00Z",
+  "capture": "2026-10-14T1607Z",
   "items": [
     {
       "id": "2110113833805402475",
       "desk": "world",
-      "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. Not checked here.",
+      "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. A story on this page sets out what the Vatican and the Associated Press reported.",
       "also": [
         "2110114165922640106"
       ]
@@ -23,22 +23,26 @@
     {
       "id": "2110047358264488023",
       "desk": "entertainment",
-      "line": "A user posts a video with the caption: remembering the day they downloaded Letterboxd and marked every movie they had ever watched as watched."
+      "line": "A user posts a video with the caption: remembering the day they downloaded Letterboxd and marked every movie they had ever watched as watched.",
+      "also": []
     },
     {
       "id": "2110005182511956436",
       "desk": "world",
-      "line": "Unusual Whales posts that the United Nations adopted a global pandemic preparedness declaration by 153 to 3, per UN News, with the United States, Israel and Argentina voting against. Not checked here."
+      "line": "Unusual Whales posts that the United Nations adopted a global pandemic preparedness declaration by 153 to 3, per UN News, with the United States, Israel and Argentina voting against. Not checked here.",
+      "also": []
     },
     {
       "id": "2110111648019358068",
       "desk": "politics",
-      "line": "A user asks Grok which state Katie Zacharia, named in the post as Trump's new press secretary, passed the bar exam in, saying she has repeatedly called herself a lawyer. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here."
+      "line": "A user asks Grok which state Katie Zacharia, named in the post as Trump's new press secretary, passed the bar exam in, saying she has repeatedly called herself a lawyer. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here.",
+      "also": []
     },
     {
       "id": "2110135054747795625",
       "desk": "politics",
-      "line": "Kamala Harris says people are tired of choosing between gas and groceries because of what she calls Donald Trump's war in Iran, and that they are ready to stop him."
+      "line": "Kamala Harris says people are tired of choosing between gas and groceries because of what she calls Donald Trump's war in Iran, and that they are ready to stop him.",
+      "also": []
     },
     {
       "id": "2110181758943547547",
@@ -51,22 +55,26 @@
     {
       "id": "2110201855762391208",
       "desk": "internet",
-      "line": "Yoxics says RaKai had to call 911 over trouble breathing while trying to set a record for most T-shirts worn at once. A video is attached. Not checked here."
+      "line": "Yoxics says RaKai had to call 911 over trouble breathing while trying to set a record for most T-shirts worn at once. A video is attached. Not checked here.",
+      "also": []
     },
     {
       "id": "2110121696535470196",
       "desk": "gaming",
-      "line": "A user posts a video captioned \"Windows 7 on PS5\"."
+      "line": "A user posts a video captioned \"Windows 7 on PS5\".",
+      "also": []
     },
     {
       "id": "2110138921841479895",
       "desk": "gaming",
-      "line": "In Spanish, a user lists what they say are details of a discarded version of RE9 called \"Resident Evil Apocalypse\", with Jill, Leon, Ada and Sheva as leads. The post does not say where the details come from. Not checked here."
+      "line": "In Spanish, a user lists what they say are details of a discarded version of RE9 called \"Resident Evil Apocalypse\", with Jill, Leon, Ada and Sheva as leads. The post does not say where the details come from. Not checked here.",
+      "also": []
     },
     {
       "id": "2110234147956601114",
       "desk": "sports",
-      "line": "Fabrizio Romano quotes Rafael Leão as saying he hopes Lamine Yamal wins the Ballon d'Or and big trophies with Barça, and calling him one of the best in the world."
+      "line": "Fabrizio Romano quotes Rafael Leão as saying he hopes Lamine Yamal wins the Ballon d'Or and big trophies with Barça, and calling him one of the best in the world.",
+      "also": []
     },
     {
       "id": "2110240563135951022",
@@ -80,17 +88,20 @@
     {
       "id": "2110273651023151330",
       "desk": "world",
-      "line": "Radosław Sikorski asks Elon Musk whether he is playing politics with his products again, and tells him European customers are watching. The post quotes another post that is not recorded here."
+      "line": "Radosław Sikorski asks Elon Musk whether he is playing politics with his products again, and tells him European customers are watching. The post quotes another post that is not recorded here.",
+      "also": []
     },
     {
       "id": "2110199081385570786",
       "desk": "world",
-      "line": "BRICS Info posts that India's High Commissioner says Canada will need 15,000,000 new immigrants over the next decade to meet job demand. Not checked here."
+      "line": "BRICS Info posts that India's High Commissioner says Canada will need 15,000,000 new immigrants over the next decade to meet job demand. Not checked here.",
+      "also": []
     },
     {
       "id": "2110130318237995151",
       "desk": "world",
-      "line": "In Portuguese, a video post quotes Flávio Bolsonaro as saying people who think he is radical on public security have not seen anything yet, and that he is talking with Derrite because he thinks El Salvador is too little."
+      "line": "In Portuguese, a video post quotes Flávio Bolsonaro as saying people who think he is radical on public security have not seen anything yet, and that he is talking with Derrite because he thinks El Salvador is too little.",
+      "also": []
     },
     {
       "id": "2110347514683490356",
@@ -103,17 +114,20 @@
     {
       "id": "2110165104713183485",
       "desk": "tech",
-      "line": "Tesla says its Roadster event will stream live this Thursday at 7:55pm CST."
+      "line": "Tesla says its Roadster event will stream live this Thursday at 7:55pm CST.",
+      "also": []
     },
     {
       "id": "2110014692420706667",
       "desk": "tech",
-      "line": "NVIDIA AI Infrastructure says it is open sourcing the full NVIDIA Run:ai platform as part of its DSX AI Factory Platform."
+      "line": "NVIDIA AI Infrastructure says it is open sourcing the full NVIDIA Run:ai platform as part of its DSX AI Factory Platform.",
+      "also": []
     },
     {
       "id": "2110092821571027310",
       "desk": "gaming",
-      "line": "Mr. Rebs posts what it says is Xbox CEO Asha Sharma's reply to games being decompiled and rebuilt for other hardware, including Halo mods, and says she has asked for an Xbox Labs group to be set up. Not checked here."
+      "line": "Mr. Rebs posts what it says is Xbox CEO Asha Sharma's reply to games being decompiled and rebuilt for other hardware, including Halo mods, and says she has asked for an Xbox Labs group to be set up. Not checked here.",
+      "also": []
     },
     {
       "id": "2110148252628619288",
@@ -126,102 +140,122 @@
     {
       "id": "2110196734718845397",
       "desk": "disaster",
-      "line": "Joshua Barzon posts a map of every hurricane to hit the United States over 173 years and says Virginia, Maryland and Delaware seem to have a \"magical hurricane force field\". Not checked here."
+      "line": "Joshua Barzon posts a map of every hurricane to hit the United States over 173 years and says Virginia, Maryland and Delaware seem to have a \"magical hurricane force field\". Not checked here.",
+      "also": []
     },
     {
       "id": "2110067869287661838",
       "desk": "business",
-      "line": "Daily Loud posts that 3D-printed salmon from the Israeli company Steakholder Foods is coming to US supermarkets. Not checked here."
+      "line": "Daily Loud posts that 3D-printed salmon from the Israeli company Steakholder Foods is coming to US supermarkets. Not checked here.",
+      "also": []
     },
     {
       "id": "2110016190617911553",
       "desk": "science",
-      "line": "A user posts a 16-second video of a SpaceX launch off the coast of Florida, saying it left a trail they had never seen before."
+      "line": "A user posts a 16-second video of a SpaceX launch off the coast of Florida, saying it left a trail they had never seen before.",
+      "also": []
     },
     {
       "id": "2110180938948747730",
       "desk": "ai",
-      "line": "A user says a Grok Bot saved them more than $1,000 by filing a complex tax return with overseas reporting, and that they only reviewed and submitted it. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here."
+      "line": "A user says a Grok Bot saved them more than $1,000 by filing a complex tax return with overseas reporting, and that they only reviewed and submitted it. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here.",
+      "also": []
     },
     {
       "id": "2110224953287070195",
       "desk": "ai",
-      "line": "A user says they made a Grok Bot that uses Suno, Midjourney and Opus to make music videos, and posts a 20-second teaser it made. Grok is made by xAI, the company behind the model that gathers this page's posts; Opus is made by Anthropic, the company behind the model that writes it. Not checked here."
+      "line": "A user says they made a Grok Bot that uses Suno, Midjourney and Opus to make music videos, and posts a 20-second teaser it made. Grok is made by xAI, the company behind the model that gathers this page's posts; Opus is made by Anthropic, the company behind the model that writes it. Not checked here.",
+      "also": []
     },
     {
       "id": "2110079118843011411",
       "desk": "internet",
-      "line": "A user posts a joke: whoever cries the loudest at their funeral gets their Steam account."
+      "line": "A user posts a joke: whoever cries the loudest at their funeral gets their Steam account.",
+      "also": []
     },
     {
       "id": "2110051057829364066",
       "desk": "internet",
-      "line": "A user says Shaquille O'Neal posted a video on TikTok and that people in the comments are going wild. The video is not described in the capture."
+      "line": "A user says Shaquille O'Neal posted a video on TikTok and that people in the comments are going wild. The video is not described in the capture.",
+      "also": []
     },
     {
       "id": "2110222061780254801",
       "desk": "life",
-      "line": "PopBase posts that today is National I Love You Day."
+      "line": "PopBase posts that today is National I Love You Day.",
+      "also": []
     },
     {
       "id": "2110040532429009014",
       "desk": "gaming",
-      "line": "RivalsAssembled posts a video and says a new legendary Mr. Fantastic skin has been revealed."
+      "line": "RivalsAssembled posts a video and says a new legendary Mr. Fantastic skin has been revealed.",
+      "also": []
     },
     {
       "id": "2110087583120408870",
       "desk": "politics",
-      "line": "Fox News Politics says security camera footage reviewed by The New York Times disproves a rumor about where Texas Democratic Senate nominee James Talarico was during nine days in early October, and that his campaign said he had the flu. Not checked here."
+      "line": "Fox News Politics says security camera footage reviewed by The New York Times disproves a rumor about where Texas Democratic Senate nominee James Talarico was during nine days in early October, and that his campaign said he had the flu. Not checked here.",
+      "also": []
     },
     {
       "id": "2110104163967246529",
       "desk": "world",
-      "line": "Volodymyr Zelensky says a Russian ballistic missile attack hit Kyiv's CHPP-4 energy plant and damaged a residential building, and that Ukraine got no early warning from partners. He says Russia is preparing more launches. Not checked here."
+      "line": "Volodymyr Zelensky says a Russian ballistic missile attack hit Kyiv's CHPP-4 energy plant and damaged a residential building, and that Ukraine got no early warning from partners. He says Russia is preparing more launches. Not checked here.",
+      "also": []
     },
     {
       "id": "2110157114958368833",
       "desk": "world",
-      "line": "Remarks, a news account, posts that Canadian Prime Minister Carney says he plans to increase immigration into Canada. Not checked here."
+      "line": "Remarks, a news account, posts that Canadian Prime Minister Carney says he plans to increase immigration into Canada. Not checked here.",
+      "also": []
     },
     {
       "id": "2110178399129849873",
       "desk": "politics",
-      "line": "Nick Sortor says President Trump announced full pardons for three Alaskans charged over fixing engines, and quotes Trump saying they faced 10 years in jail. Not checked here."
+      "line": "Nick Sortor says President Trump announced full pardons for three Alaskans charged over fixing engines, and quotes Trump saying they faced 10 years in jail. Not checked here.",
+      "also": []
     },
     {
       "id": "2110252784813568174",
       "desk": "world",
-      "line": "BBC World reports that Saudi Arabia has overturned a death sentence given to a man over a Facebook comment."
+      "line": "BBC World reports that Saudi Arabia has overturned a death sentence given to a man over a Facebook comment.",
+      "also": []
     },
     {
       "id": "2110355864875872634",
       "desk": "sports",
-      "line": "Adam Schefter reports that a jury returned a mixed verdict in the civil assault and battery trial against Tyreek Hill, finding him liable on two battery counts and not liable on the eight other claims by his estranged wife. Not checked here."
+      "line": "Adam Schefter reports that a jury returned a mixed verdict in the civil assault and battery trial against Tyreek Hill, finding him liable on two battery counts and not liable on the eight other claims by his estranged wife. Not checked here.",
+      "also": []
     },
     {
       "id": "2110020119355367795",
       "desk": "sports",
-      "line": "Bleacher Report posts its staff ranking of the top 99 NBA players for 2026, with Wemby at 2, KD at 12 and LeBron at 22."
+      "line": "Bleacher Report posts its staff ranking of the top 99 NBA players for 2026, with Wemby at 2, KD at 12 and LeBron at 22.",
+      "also": []
     },
     {
       "id": "2110060618258497764",
       "desk": "ai",
-      "line": "Ethan Mollick says using Gemini 4 makes you realize how many other models must be distilling Claude or GPT, or using a similar training pipeline. Claude, the model writing this page, is made by Anthropic, which is named in the post. Not checked here."
+      "line": "Ethan Mollick says using Gemini 4 makes you realize how many other models must be distilling Claude or GPT, or using a similar training pipeline. Claude, the model writing this page, is made by Anthropic, which is named in the post. Not checked here.",
+      "also": []
     },
     {
       "id": "2110371804959191288",
       "desk": "science",
-      "line": "NASA announces an update on Oct. 23 on its plans to return American astronauts to the Moon by 2028, with details on the upcoming Artemis III mission to test systems needed for future Moon landings."
+      "line": "NASA announces an update on Oct. 23 on its plans to return American astronauts to the Moon by 2028, with details on the upcoming Artemis III mission to test systems needed for future Moon landings.",
+      "also": []
     },
     {
       "id": "2110278140777935054",
       "desk": "defense",
-      "line": "Osint613 reports that Israel’s government approved nearly NIS 1 billion in an emergency phone vote to buy 12 Apache helicopters, and that the US State Department has already approved a possible sale of AH-64E Apaches. Not checked here."
+      "line": "Osint613 reports that Israel’s government approved nearly NIS 1 billion in an emergency phone vote to buy 12 Apache helicopters, and that the US State Department has already approved a possible sale of AH-64E Apaches. Not checked here.",
+      "also": []
     },
     {
       "id": "2110322028825727211",
       "desk": "entertainment",
-      "line": "Rachel Weisz News, a fan account, posts three photos and says Rachel Weisz and Brendan Fraser have reunited on the set of the new Mummy movie. Not checked here."
+      "line": "Rachel Weisz News, a fan account, posts three photos and says Rachel Weisz and Brendan Fraser have reunited on the set of the new Mummy movie. Not checked here.",
+      "also": []
     },
     {
       "id": "2110371044603384204",
@@ -230,6 +264,30 @@
       "also": [
         "2110374171905548483"
       ]
+    },
+    {
+      "id": "2110355411144675696",
+      "desk": "sports",
+      "line": "Arsenal posts a photo captioned \"The class of 26/27\".",
+      "also": []
+    },
+    {
+      "id": "2110161243332071841",
+      "desk": "politics",
+      "line": "The account of the Mayor of New York City posts a greeting for the Hindu festival of Navaratri, naming Garba dancing, Sindur Khela and Golu displays in homes.",
+      "also": []
+    },
+    {
+      "id": "2110230614158848350",
+      "desk": "entertainment",
+      "line": "Variety quotes actor Martha Plimpton criticising comedian Shane Gillis's Saturday Night Live monologue in strong language, and saying he deserves a spanking from his mother.",
+      "also": []
+    },
+    {
+      "id": "2110143974098796801",
+      "desk": "world",
+      "line": "HormuzLetter says Ukraine struck an oil depot in Valuyki, Belgorod Oblast, and launched over 500 drones into Russia overnight, the first strike on energy sites since a US-announced energy ceasefire. Not checked here.",
+      "also": []
     }
   ]
 }

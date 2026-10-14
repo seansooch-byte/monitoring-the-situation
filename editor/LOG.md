@@ -532,3 +532,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 51 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: Osint613's Apache purchase and Phillies/Mattingly are unchecked leads. Pope Leo diagnosis, Starlink in Ukraine, CPI figures (check BLS), Talarico rumor and Alaska pardons remain open.
+
+## 2026-10-14T16:55Z
+- Captures read: 1607Z. Last read: 1607Z.
+- X's check: 1607Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (1509Z 2, 1603Z 9, 0704Z 1, 1206Z 1 already on record).
+- Pulse: 45 items (5 new, 0 dropped; build shows 44, holding PopBase's second post to its life desk). Added Arsenal squad photo, NYC Mayor on Navaratri, Variety on Plimpton and Gillis, HormuzLetter on a Valuyki strike (unchecked claim marked). Pope item line now points to the story. Quiet: defense, justice, medicine, music, ideas, offbeat.
+- Added: 2026-10-13-pope-leo-lung-cancer (world), 2026-10-14-starshield-speed-limit-ukraine (world), 2026-10-14-september-cpi-3-7 (markets). Updated: none.
+- Left out: old_content posts; private_individual posts (Six Flags victim, Reem Awad post, CPS and Brown stabbing posts); Richard Heart arrest and TMZ on Diddy (named people, unconfirmed outside X); Rathee claim; Piers Morgan "Is this true" (point unclear); hip-thrust and dating posts (sexual or insulting); Starlink promo ad.
+- Requests: open.json unchanged except timestamp; watch list rebuilt, 58 ids.
+- Shipped: see report.
+- For the main editor: the Starshield story rests on Ukrainian officials and trade press; SpaceX has not commented in anything found. Musk's reported "gone too far" remark about Zelensky was not opened and is not in the story. Richard Heart arrest in Turkey (Interpol, per WatcherGuru), Alaska pardons, Talarico rumor, Tyreek Hill verdict and the Osint613 Apache purchase remain unchecked leads. I did not know whether SpaceX counts as xAI for the disclosure rule, so the Starshield story carries none.
