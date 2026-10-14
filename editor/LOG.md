@@ -552,3 +552,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list rebuilt to the pulse, its `also` posts, recent story posts and the pinned post, 57 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: the Georgia donkey shooting (Fox, officer on leave, state investigation) and Ship 40's return are unchecked leads. I did not know whether SpaceX counts as xAI for the disclosure rule; the SpaceX item carries none. The Rajwa line is my reading of a short Arabic caption with undescribed photos. Pope Leo, Starlink in Ukraine, Talarico, Alaska pardons, Tyreek Hill and the Apache purchase remain open.
+
+## 2026-10-14T18:40Z
+- Captures read: 1807Z. Last read: 1807Z.
+- X's check: 1807Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches (1509Z 2, 1603Z 9, 0704Z 1, 1206Z 1 already on record).
+- Pulse: 45 items (2 new, 2 dropped; the build shows 44, holding PopBase's second post to its life desk). Added OpenAI's post on a hidden recording device (ai) and Eric Daugherty on the Treasury penalties on Bank of America (business, marked unchecked). Dropped Ethan Mollick and the RobLogic SpaceX trail video (both small). Quiet: defense, medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; private_individual posts (rayclipsx, NewsAlgebraIND); more posts from Romano (account already on the pulse); Boruto/Kishimoto posts (opinion framing); Epic Games Launcher and BTS viewing (promotion); Piers Morgan on Zelensky (world already full); Dearborn mayor post (claim about a named official, unchecked).
+- Requests: watch list updated to the pulse, its `also` posts and the pinned post, 57 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: OpenAI's recording-device account (FBI arrest, employee terminated) and the Treasury penalties on Bank of America are unchecked leads for a story pass; check OpenAI's own statement and Treasury. OpenAI is not Anthropic or xAI, so no disclosure line was added.

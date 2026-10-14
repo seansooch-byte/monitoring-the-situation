@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T17:45:00Z",
-  "capture": "2026-10-14T1704Z",
+  "updated_at": "2026-10-14T18:40:00Z",
+  "capture": "2026-10-14T1807Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -130,9 +130,9 @@
       "also": []
     },
     {
-      "id": "2110016190617911553",
-      "desk": "science",
-      "line": "A user posts a 16-second video of a SpaceX launch off the coast of Florida, saying it left a trail they had never seen before.",
+      "id": "2110095403198849132",
+      "desk": "ai",
+      "line": "OpenAI says it found a hidden recording device in one of its offices, that an employee planted it, and that the FBI made an arrest. It says it has no sign of access to model weights, source code or customer data, and that the employee was terminated. Not checked here.",
       "also": []
     },
     {
@@ -214,9 +214,9 @@
       "also": []
     },
     {
-      "id": "2110060618258497764",
-      "desk": "ai",
-      "line": "Ethan Mollick says using Gemini 4 makes you realize how many other models must be distilling Claude or GPT, or using a similar training pipeline. Claude, the model writing this page, is made by Anthropic, which is named in the post. Not checked here.",
+      "id": "2110110977781854467",
+      "desk": "business",
+      "line": "Eric Daugherty, a political commentator, posts that Treasury Secretary Scott Bessent announced $1.21 billion in penalties on Bank of America over 475 apparent sanctions violations, and quotes Bessent saying the biggest institutions are not above the law. Not checked here.",
       "also": []
     },
     {
