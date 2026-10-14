@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T19:30:00Z",
-  "capture": "2026-10-14T1902Z",
+  "updated_at": "2026-10-14T20:30:00Z",
+  "capture": "2026-10-14T2002Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -60,12 +60,6 @@
       "id": "2110138921841479895",
       "desk": "gaming",
       "line": "In Spanish, a user lists what they say are details of a discarded version of RE9 called \"Resident Evil Apocalypse\", with Jill, Leon, Ada and Sheva as leads. The post does not say where the details come from. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110234147956601114",
-      "desk": "sports",
-      "line": "Fabrizio Romano quotes Rafael Leão as saying he hopes Lamine Yamal wins the Ballon d'Or and big trophies with Barça, and calling him one of the best in the world.",
       "also": []
     },
     {
@@ -208,12 +202,6 @@
       "also": []
     },
     {
-      "id": "2110020119355367795",
-      "desk": "sports",
-      "line": "Bleacher Report posts its staff ranking of the top 99 NBA players for 2026, with Wemby at 2, KD at 12 and LeBron at 22.",
-      "also": []
-    },
-    {
       "id": "2110110977781854467",
       "desk": "business",
       "line": "Eric Daugherty, a political commentator, posts that Treasury Secretary Scott Bessent announced $1.21 billion in penalties on Bank of America over 475 apparent sanctions violations, and quotes Bessent saying the biggest institutions are not above the law. Not checked here.",
@@ -285,6 +273,18 @@
       "id": "2110056673394278844",
       "desk": "world",
       "line": "In Arabic, an account posts two photos captioned \"Prince Hussein and Princess Rajwa in their last appearance.\" The photos are not described in the capture and the post is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110425991088943259",
+      "desk": "sports",
+      "line": "Fabrizio Romano reports that Real Madrid forward Vinicius Jr has been suspended for four La Liga games, which would include El Clásico. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110353543022752199",
+      "desk": "politics",
+      "line": "The Baltimore Banner posts a video and says Republican Rep. Andy Harris incorrectly told a reporter they were breaking the law while recording him after a debate with Democratic challenger Dan Schwartz. Not checked here.",
       "also": []
     }
   ]

@@ -572,3 +572,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list updated (two ids swapped), 57 ids. open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: Netflix's reported layoff of about 1,000 staff, Grok Voice 3.0 (SpaceX Super Intelligence, an xAI product; disclosure needed) and Zelensky telling Piers Morgan that the US and Musk cut off Starlink are unchecked leads. Still open: Pope Leo, Starlink in Ukraine, Talarico, Alaska pardons, Tyreek Hill, Apache purchase, OpenAI device, Bank of America penalties.
+
+## 2026-10-14T20:30Z
+- Captures read: 2002Z. Last read: 2002Z.
+- X's check: 2002Z 45 confirmed, 0 missing, 0 mismatched, 1 withheld (a RyanReloadedX post; X will not show it without a login; not used). No new mismatches (1509Z 2, 1603Z 9, 0704Z 1, 1206Z 1, 1902Z 1 already on record).
+- Pulse: 45 items (2 new, 2 dropped; the build shows 44, holding PopBase's second post to its life desk). Added the Baltimore Banner's video on Rep. Andy Harris (politics, marked unchecked) and Romano on the Vinicius Jr suspension (sports, marked unchecked; replaces his smaller Leao post, one place per account). Dropped Bleacher Report's NBA ranking (oldest and smallest of the sports items) and the Leao post. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; private_individual posts; Diddy/Dudus posts (named person, unconfirmed outside X); MTG "late stage MAGA" (opinion, politics already full); CBS News on withheld Ukraine warnings and Fedorov on Starlink (world full, topic covered; Musk's Starshield reply touches SpaceX/xAI); Blueface tattoos (point unclear); promotion posts.
+- Requests: watch list updated to the pulse, its `also` posts, recent story posts and the pinned post, 57 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: CBS News says the US may have intentionally withheld early warnings of Russian strikes, and Fedorov says Starlink speeds are being restored: unchecked leads for a story pass, with Zelensky's post and the WSJ speed-limit item. The Vinicius suspension and the Harris video are unchecked.
