@@ -542,3 +542,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: open.json unchanged except timestamp; watch list rebuilt, 58 ids.
 - Shipped: see report.
 - For the main editor: the Starshield story rests on Ukrainian officials and trade press; SpaceX has not commented in anything found. Musk's reported "gone too far" remark about Zelensky was not opened and is not in the story. Richard Heart arrest in Turkey (Interpol, per WatcherGuru), Alaska pardons, Talarico rumor, Tyreek Hill verdict and the Osint613 Apache purchase remain unchecked leads. I did not know whether SpaceX counts as xAI for the disclosure rule, so the Starshield story carries none.
+
+## 2026-10-14T17:45Z
+- Captures read: 1704Z. Last read: 1704Z.
+- X's check: 1704Z 48 confirmed, 0 missing, 0 mismatched, 1 withheld (saintjavelin's Starshield post 2110278144259178523). No new mismatches (1509Z 2, 1603Z 9, 0704Z 1, 1206Z 1 already on record).
+- Pulse: 45 items (6 new, 6 dropped). Added SpaceX on Ship 40 (science), Paul Graham on Tesla FSD (tech), Fox News on the Georgia donkey shooting (justice), CBS Sports Golazo with eurofootcom in also (sports), kchartsmaster on the AI K-pop group (music), an Arabic photo post on Prince Hussein and Princess Rajwa (world). Dropped the smallest or oldest: Variety, NVIDIAAIInfra, GuntherEagleman, Phillies, Mr_Rebs_, RachelWeiszNews. Quiet: defense, medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; private_individual posts (oeste child, Six Flags victim posts, AlertaMundoNews swing, Gaza mother post); Diddy/Dudus posts and Richard Heart arrest (named people, unconfirmed outside X); Danny Trejo's son post and reply (point unclear); Elon Musk "Timing is everything" and the target emoji post (point unclear); TheLostsignal_ and cryptogoos (Grok bait); Trump tiger video posts (opinion framing); Nintendo Ocarina posts (promotion); Fithub360 (small); GTA 6 Bloomberg (gaming desk already full).
+- Requests: watch list rebuilt to the pulse, its `also` posts, recent story posts and the pinned post, 57 ids. open.json unchanged except timestamp.
+- Shipped: see report.
+- For the main editor: the Georgia donkey shooting (Fox, officer on leave, state investigation) and Ship 40's return are unchecked leads. I did not know whether SpaceX counts as xAI for the disclosure rule; the SpaceX item carries none. The Rajwa line is my reading of a short Arabic caption with undescribed photos. Pope Leo, Starlink in Ukraine, Talarico, Alaska pardons, Tyreek Hill and the Apache purchase remain open.

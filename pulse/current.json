@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T16:50:00Z",
-  "capture": "2026-10-14T1607Z",
+  "updated_at": "2026-10-14T17:45:00Z",
+  "capture": "2026-10-14T1704Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -43,14 +43,6 @@
       "desk": "politics",
       "line": "Kamala Harris says people are tired of choosing between gas and groceries because of what she calls Donald Trump's war in Iran, and that they are ready to stop him.",
       "also": []
-    },
-    {
-      "id": "2110181758943547547",
-      "desk": "politics",
-      "line": "Gunther Eagleman says Kathy Hochul blamed Trump for utility bills and that Bruce Blakeman answered: \"Donald Trump didn't raise utility rates 48 times. You did.\" An RNC Research post attaches the same quote to the Nassau County Executive. Not checked here.",
-      "also": [
-        "2110151955104534889"
-      ]
     },
     {
       "id": "2110201855762391208",
@@ -115,18 +107,6 @@
       "id": "2110165104713183485",
       "desk": "tech",
       "line": "Tesla says its Roadster event will stream live this Thursday at 7:55pm CST.",
-      "also": []
-    },
-    {
-      "id": "2110014692420706667",
-      "desk": "tech",
-      "line": "NVIDIA AI Infrastructure says it is open sourcing the full NVIDIA Run:ai platform as part of its DSX AI Factory Platform.",
-      "also": []
-    },
-    {
-      "id": "2110092821571027310",
-      "desk": "gaming",
-      "line": "Mr. Rebs posts what it says is Xbox CEO Asha Sharma's reply to games being decompiled and rebuilt for other hardware, including Halo mods, and says she has asked for an Xbox Labs group to be set up. Not checked here.",
       "also": []
     },
     {
@@ -252,20 +232,6 @@
       "also": []
     },
     {
-      "id": "2110322028825727211",
-      "desk": "entertainment",
-      "line": "Rachel Weisz News, a fan account, posts three photos and says Rachel Weisz and Brendan Fraser have reunited on the set of the new Mummy movie. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110371044603384204",
-      "desk": "sports",
-      "line": "The Phillies announce they have signed Don Mattingly to a two-year contract for the 2027 and 2028 seasons.",
-      "also": [
-        "2110374171905548483"
-      ]
-    },
-    {
       "id": "2110355411144675696",
       "desk": "sports",
       "line": "Arsenal posts a photo captioned \"The class of 26/27\".",
@@ -278,15 +244,47 @@
       "also": []
     },
     {
-      "id": "2110230614158848350",
-      "desk": "entertainment",
-      "line": "Variety quotes actor Martha Plimpton criticising comedian Shane Gillis's Saturday Night Live monologue in strong language, and saying he deserves a spanking from his mother.",
-      "also": []
-    },
-    {
       "id": "2110143974098796801",
       "desk": "world",
       "line": "HormuzLetter says Ukraine struck an oil depot in Valuyki, Belgorod Oblast, and launched over 500 drones into Russia overnight, the first strike on energy sites since a US-announced energy ceasefire. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110126570233094527",
+      "desk": "science",
+      "line": "SpaceX posts a video and photos of Starship Ship 40, which it says was the first Starship to return to its launch site. It says the ship now stands in a Megabay at Starbase and will give data on a flown heatshield, engines and avionics.",
+      "also": []
+    },
+    {
+      "id": "2110091290063090093",
+      "desk": "tech",
+      "line": "Paul Graham, a founder of the startup accelerator Y Combinator, posts that a Tesla Model 3 with FSD drove him and his wife to the gym with no hands on the controls, and calls it mind-blowing. His account of one drive; not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110076564654240126",
+      "desk": "justice",
+      "line": "Fox News reports that a Georgia police officer shot and killed a miniature donkey named HeeHaw while officers searched a farm for a missing child. It says the officer claims the donkey charged, the owner says it was only approaching people, and the officer is on administrative leave.",
+      "also": []
+    },
+    {
+      "id": "2110075228634112023",
+      "desk": "sports",
+      "line": "CBS Sports Golazo posts a video captioned \"Kate really went there with Micah.\" A fan account in also says it shows Kate Abdo introducing Micah Richards on CBS Sports with a joke about medals. The video itself is not described in the capture.",
+      "also": [
+        "2110090093075796274"
+      ]
+    },
+    {
+      "id": "2110357842125328426",
+      "desk": "music",
+      "line": "K-charts account kchartsmaster reports that muuo:23, a five-member K-pop group made with generative AI by Creation Zipup, pre-debuted with a single called NEVERTHELESS.",
+      "also": []
+    },
+    {
+      "id": "2110056673394278844",
+      "desk": "world",
+      "line": "In Arabic, an account posts two photos captioned \"Prince Hussein and Princess Rajwa in their last appearance.\" The photos are not described in the capture and the post is not checked here.",
       "also": []
     }
   ]
