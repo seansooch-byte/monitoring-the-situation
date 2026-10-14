@@ -602,3 +602,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swapped three ids for three (59 ids). open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing about the contract. Process note: a script I did not write was already at /tmp/ed/upd.mjs; I ran it by mistake and it wrote old 10 October pulse and watch data into the tree. I reverted it with git checkout before anything was committed.
+
+## 2026-10-14T23:30Z
+- Captures read: 2302Z. Last read: 2302Z.
+- X's check: 2302Z 43 confirmed, 0 missing, 0 mismatched, 1 withheld (1929362358637342881, LordPunishergh, old explicit post; not used).
+- Pulse: 45 items (0 new, 0 dropped; the build shows 44, holding PopBase's second post to its life desk). 2302Z held old content, Real Madrid v Roma and Man City v PSG chatter (Romano already on the pulse), and Starlink and Trump rally posts, none of which clears a kept item. NFLMemes's Week 5 joke is a meme with no claim and sports is full. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts; the explicit post; Fedorov on Starlink speeds (unchecked lead, world full); more Romano and Mourinho posts (account already on the pulse); Trump Bullhead City rally posts (politics full, small).
+- Requests: none changed; the watch list already holds every pulse and `also` id and the pinned post (59 ids). Timestamps only.
+- Shipped: see report.
+- For the main editor: nothing.
