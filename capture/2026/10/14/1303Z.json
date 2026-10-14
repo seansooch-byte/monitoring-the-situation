@@ -1,0 +1,2874 @@
+{
+  "schema": "mts.capture/1",
+  "run": {
+    "id": "2026-10-14T1303Z",
+    "started_at": "2026-10-14T13:03:00Z",
+    "finished_at": "2026-10-14T13:09:00Z",
+    "status": "partial",
+    "reason": "9:03 AM ET run (13 UTC Oct 14): 27 X reads (978 to 951 left today). Watch 41 of 41 ids returned (watch.json plus the posts first captured in 2026-10-14T1209Z); trends US+WW; trend names Core CPI and September CPI (one event, the September CPI release; US ranks 1, 5, 6 are day greetings, 8 is a Spanish-language show, Stolas at 9 had posts attached last run); quote/repost words \"just\" and \"what\" (2+1); sensors news/money/science; desks politics, defense, disaster, business, science, entertainment, music, gaming, ideas, sports, internet, life, offbeat, plus markets for the CPI hour; two screening reads by id of 200 referenced posts. No volume, story clusters, context.top or media descriptions; x_stories omitted; open requests deferred. SKIP/SKIP_ALL absent on pipeline. Skipped sexual or graphic ids are in exclude_ids.json and build_meta.json in the work folder.",
+    "grabber": {
+      "agent": "grokbot",
+      "model": null,
+      "method": "x MCP namespace (get_posts_by_ids, search_posts_all, get_trends_by_woeid)"
+    },
+    "requests_rev": "310240516296fabd5d901c516328e2e4b38f1ee7"
+  },
+  "sweeps": [
+    {
+      "id": "watch",
+      "kind": "watch",
+      "desk": null,
+      "method": "get_posts_by_ids of requests/watch.json (19 ids) plus every post first captured in the last 6 hours (capture 2026-10-14T1209Z), 41 unique ids, 41 returned, 1 read; no other capture in the last 24 hours; fields created_at,public_metrics,author_id,referenced_tweets,attachments,entities,lang,note_tweet,conversation_id,edit_history_tweet_ids,possibly_sensitive; expansions author_id,attachments.media_keys,attachments.media_source_tweet_id,referenced_tweets.id",
+      "window_hours": null,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2024917454301065480",
+        "2110113833805402475",
+        "2110068149622350226",
+        "2110075453331706054",
+        "2110047358264488023",
+        "2110005182511956436",
+        "2110111648019358068",
+        "2110135054747795625",
+        "2110181758943547547",
+        "2110151955104534889",
+        "2110201855762391208",
+        "2110121696535470196",
+        "2110138921841479895",
+        "2110234147956601114",
+        "2110240563135951022",
+        "2110327426580648014",
+        "2110273651023151330",
+        "2110199081385570786",
+        "2110130318237995151",
+        "2024898302035067174",
+        "1692516740737958343",
+        "1965216497036615858",
+        "2060272735083807097",
+        "2110203291049288166",
+        "2110009533531869638",
+        "2028683986604585273",
+        "2110222071229989249",
+        "2066216083636273590",
+        "2110245095824052431",
+        "2110219797040611404",
+        "2110240936001249782",
+        "2110094110103310789",
+        "1716019237259465013",
+        "2103463918140334316",
+        "2110124399986671667",
+        "2110002004206727480",
+        "2110305562596426009",
+        "2110278144259178523",
+        "2110063257981698437",
+        "2110298824895865107",
+        "2110182728897355789"
+      ]
+    },
+    {
+      "id": "trends.us",
+      "kind": "trends",
+      "desk": null,
+      "method": "get_trends_by_woeid 23424977 max_trends 20",
+      "window_hours": null,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "trends.ww",
+      "kind": "trends",
+      "desk": null,
+      "method": "get_trends_by_woeid 1 max_trends 20",
+      "window_hours": null,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "viral.global",
+      "kind": "discovery",
+      "desk": null,
+      "method": "sources: references followed from every post read (screened in two get_posts_by_ids reads of 200 unread referenced and media_source ids, most pointed-at first); sensors news/money/science; trend names \"\"Core CPI\" lang:en is:retweet\" and \"\"September CPI\" lang:en is:retweet\"; quote streams \"just lang:en is:quote -is:retweet\" and \"what lang:en is:quote -is:retweet\" and repost stream \"just lang:en is:retweet\" (newest first, 25 each); desk repost streams. Global floor 100,000 views or 2,000 likes under 24 hours, pace rule for 15 min to 3 h",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110313050423095339",
+        "2110165104713183485",
+        "2110224953287070195",
+        "2110148252628619288",
+        "2110068049206194384",
+        "2110057477236789447",
+        "2098449226980057368",
+        "2110180938948747730",
+        "2110067869287661838",
+        "2110107526809505873",
+        "2110091703419871393",
+        "2110196734718845397",
+        "2110025766037803057",
+        "2110016190617911553",
+        "2110135850361291059",
+        "2110026708355101058",
+        "2110062933816611208",
+        "2110047459925749889",
+        "2110092821571027310",
+        "2110160673586008537",
+        "2110077123528736991",
+        "2110062762218926204",
+        "2110108110203363626",
+        "2110267056700690732",
+        "2110030804243857578",
+        "2110014692420706667",
+        "2008193557673488846",
+        "2110253157758673079",
+        "2110243595504820641",
+        "2110223110003982788",
+        "2041083751136977114",
+        "2110079118843011411",
+        "2110018291792244758",
+        "2110207594484642084",
+        "2110347809308455363",
+        "2110347514683490356",
+        "2110349054815174737"
+      ]
+    },
+    {
+      "id": "rising.global",
+      "kind": "discovery",
+      "desk": null,
+      "method": "2 quote pages + 1 repost page, common words \"just\" and \"what\": \"just lang:en is:quote -is:retweet\", \"what lang:en is:quote -is:retweet\", \"just lang:en is:retweet\", newest first, 25 each; originals screened",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110313050423095339",
+        "2110267056700690732"
+      ]
+    },
+    {
+      "id": "sensors.news",
+      "kind": "discovery",
+      "desk": null,
+      "method": "search_posts_all (from:atrupar OR from:EricLDaugh OR from:LeadingReport OR from:visegrad24 OR from:Osint613 OR from:sethharpesq OR from:nfergus OR from:rawsalerts OR from:streetmediatv OR from:WFLA OR from:JimCantore OR from:BrandonCopicWx OR from:BBCBreaking OR from:SkyNews OR from:Reuters OR from:MeidasTouch OR from:CollinRugg OR from:Gerashchenko_en) -is:reply newest first, 25 results; reposts and quotes followed to the origin",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "sensors.money",
+      "kind": "discovery",
+      "desk": null,
+      "method": "search_posts_all (from:unusual_whales OR from:TheStalwart OR from:biancoresearch OR from:markgurman OR from:MacRumors OR from:Variety OR from:DiscussingFilm OR from:WatcherGuru OR from:BitcoinMagazine OR from:Cointelegraph OR from:cryptorover OR from:AshCrypto OR from:BullTheoryio OR from:scottmelker OR from:BitcoinArchive OR from:GrantCardone) -is:reply newest first, 25 results; reposts and quotes followed to the origin",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "sensors.science",
+      "kind": "discovery",
+      "desk": null,
+      "method": "search_posts_all (from:AndrewCurran_ OR from:kimmonismus OR from:jukan05 OR from:Hesamation OR from:marclou OR from:ryancarson OR from:NASAAdmin OR from:NASA OR from:SpaceX OR from:elonmusk OR from:sciencegirl OR from:ChildrensHD OR from:SecKennedy OR from:CDCgov) -is:reply newest first, 25 results; reposts and quotes followed to the origin",
+      "window_hours": 6,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110165104713183485",
+        "2110243595504820641",
+        "2110222071229989249",
+        "2110223110003982788",
+        "2110253157758673079",
+        "2110224953287070195",
+        "2110180938948747730",
+        "2110091703419871393",
+        "2110160673586008537",
+        "2110062762218926204",
+        "2110108110203363626",
+        "2110030804243857578",
+        "2110014692420706667"
+      ]
+    },
+    {
+      "id": "sensors.culture",
+      "kind": "discovery",
+      "desk": null,
+      "method": "rotation: news/money/science this run",
+      "window_hours": 6,
+      "status": "skipped",
+      "reason": "sensor rotation; culture/sports/online were read in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "sensors.sports",
+      "kind": "discovery",
+      "desk": null,
+      "method": "rotation: news/money/science this run",
+      "window_hours": 6,
+      "status": "skipped",
+      "reason": "sensor rotation; culture/sports/online were read in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "sensors.online",
+      "kind": "discovery",
+      "desk": null,
+      "method": "rotation: news/money/science this run",
+      "window_hours": 6,
+      "status": "skipped",
+      "reason": "sensor rotation; culture/sports/online were read in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.politics",
+      "kind": "desk",
+      "desk": "politics",
+      "method": "search_posts_all (Trump OR \"White House\" OR Congress OR Senate OR Democrats OR Republicans OR GOP OR \"Supreme Court\" OR election OR governor) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110107526809505873",
+        "2110135850361291059"
+      ]
+    },
+    {
+      "id": "desk.defense",
+      "kind": "desk",
+      "desk": "defense",
+      "method": "search_posts_all (military OR Pentagon OR Army OR Navy OR \"Air Force\" OR Marines OR soldiers OR troops OR veterans OR missile OR drone OR \"fighter jet\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.disaster",
+      "kind": "desk",
+      "desk": "disaster",
+      "method": "search_posts_all (hurricane OR tornado OR earthquake OR wildfire OR flood OR flooding OR storm OR \"power outage\" OR crash OR explosion OR evacuation) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110196734718845397"
+      ]
+    },
+    {
+      "id": "desk.markets",
+      "kind": "desk",
+      "desk": "markets",
+      "method": "search_posts_all (stocks OR \"stock market\" OR Nasdaq OR \"Dow Jones\" OR \"S&P 500\" OR yields OR Treasury OR \"the Fed\" OR inflation OR \"oil prices\" OR mortgage OR \"interest rates\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json) (not due; swept because CPI names fill the US trending list)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110347809308455363",
+        "2110347514683490356",
+        "2110349054815174737"
+      ]
+    },
+    {
+      "id": "desk.business",
+      "kind": "desk",
+      "desk": "business",
+      "method": "search_posts_all (CEO OR company OR layoffs OR \"laid off\" OR merger OR acquisition OR startup OR boycott OR retail OR earnings OR brand) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110067869287661838"
+      ]
+    },
+    {
+      "id": "desk.science",
+      "kind": "desk",
+      "desk": "science",
+      "method": "search_posts_all (NASA OR SpaceX OR rocket OR launch OR astronomers OR telescope OR physics OR scientists OR \"new study\" OR species OR climate) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110016190617911553"
+      ]
+    },
+    {
+      "id": "desk.entertainment",
+      "kind": "desk",
+      "desk": "entertainment",
+      "method": "search_posts_all (movie OR film OR trailer OR \"box office\" OR Netflix OR \"TV show\" OR episode OR season OR anime OR actor OR actress OR celebrity) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110068049206194384",
+        "2110025766037803057",
+        "2110062762218926204",
+        "2110267056700690732",
+        "2110014692420706667"
+      ]
+    },
+    {
+      "id": "desk.music",
+      "kind": "desk",
+      "desk": "music",
+      "method": "search_posts_all (album OR song OR tour OR concert OR rapper OR singer OR Billboard OR Spotify OR Grammy OR kpop OR \"music video\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.gaming",
+      "kind": "desk",
+      "desk": "gaming",
+      "method": "search_posts_all (game OR gaming OR gamers OR PlayStation OR PS5 OR Xbox OR Nintendo OR Steam OR esports OR \"video game\" OR patch OR DLC) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110092821571027310",
+        "2110018291792244758",
+        "2110207594484642084"
+      ]
+    },
+    {
+      "id": "desk.ideas",
+      "kind": "desk",
+      "desk": "ideas",
+      "method": "search_posts_all (book OR novel OR author OR museum OR painting OR artist OR architecture OR history OR historian OR philosophy OR religion OR church OR Bible OR essay) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.sports",
+      "kind": "desk",
+      "desk": "sports",
+      "method": "search_posts_all (NFL OR NBA OR MLB OR NHL OR WNBA OR UFC OR \"Premier League\" OR soccer OR touchdown OR playoffs OR \"home run\" OR F1 OR golf OR tennis) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2110148252628619288",
+        "2110057477236789447"
+      ]
+    },
+    {
+      "id": "desk.internet",
+      "kind": "desk",
+      "desk": "internet",
+      "method": "search_posts_all (meme OR memes OR streamer OR stream OR Twitch OR Kick OR YouTuber OR TikTok OR influencer OR podcast OR fandom OR \"main character\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": [
+        "2098449226980057368",
+        "2110026708355101058",
+        "2110077123528736991",
+        "2008193557673488846",
+        "2041083751136977114"
+      ]
+    },
+    {
+      "id": "desk.life",
+      "kind": "desk",
+      "desk": "life",
+      "method": "search_posts_all (dating OR boyfriend OR girlfriend OR husband OR wife OR marriage OR parents OR kids OR restaurant OR recipe OR wedding OR rent OR tipping OR college OR habit) lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.offbeat",
+      "kind": "desk",
+      "desk": "offbeat",
+      "method": "search_posts_all (dog OR cat OR puppy OR kitten OR animal OR wildlife OR bird OR satisfying OR wholesome OR \"wait for it\") lang:en is:retweet -is:reply newest first, 25 results; reposted originals screened by the desk floor and pace rule (contract/desks.json)",
+      "window_hours": 24,
+      "status": "ok",
+      "reason": null,
+      "post_ids": []
+    },
+    {
+      "id": "desk.world",
+      "kind": "desk",
+      "desk": "world",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.justice",
+      "kind": "desk",
+      "desk": "justice",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.ai",
+      "kind": "desk",
+      "desk": "ai",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.tech",
+      "kind": "desk",
+      "desk": "tech",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "desk.medicine",
+      "kind": "desk",
+      "desk": "medicine",
+      "method": "not due",
+      "window_hours": 24,
+      "status": "skipped",
+      "reason": "not due: 2-hour desk swept ok in 2026-10-14T1209Z",
+      "post_ids": []
+    },
+    {
+      "id": "context.top",
+      "kind": "context",
+      "desk": null,
+      "method": "not run",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "cut for time this run",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-10-01",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-05",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-08",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-09",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-10",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-12",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    },
+    {
+      "id": "request.r-2026-10-09-13",
+      "kind": "request",
+      "desk": null,
+      "method": "open request deferred",
+      "window_hours": null,
+      "status": "skipped",
+      "reason": "deferred this run for time; watched ids re-read in watch",
+      "post_ids": []
+    }
+  ],
+  "trends": [
+    {
+      "region": "US",
+      "rank": 1,
+      "name": "Good Wednesday",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 2,
+      "name": "Starshield",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 3,
+      "name": "Core CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110347809308455363",
+        "2110347514683490356",
+        "2110349054815174737"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 4,
+      "name": "September CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": [
+        "2110347809308455363",
+        "2110347514683490356",
+        "2110349054815174737"
+      ]
+    },
+    {
+      "region": "US",
+      "rank": 5,
+      "name": "Hump Day",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 6,
+      "name": "Happy Hump",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 7,
+      "name": "3.7% YoY",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 8,
+      "name": "La Granja VIP",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 9,
+      "name": "Stolas",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 10,
+      "name": "Headline CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 11,
+      "name": "Hot CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 12,
+      "name": "Wegmans",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 13,
+      "name": "US CPI",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 14,
+      "name": "Hochul",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 15,
+      "name": "Danny Trejo",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 16,
+      "name": "3.4% in August",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 17,
+      "name": "#WednesdayWisdom",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 18,
+      "name": "Martha Plimpton",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 19,
+      "name": "$BUSTED",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "US",
+      "rank": 20,
+      "name": "$JUGGERNAUT",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 1,
+      "name": "横浜優勝",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 2,
+      "name": "#8per7ByFirstOne",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 3,
+      "name": "FIRSTONE 2ND SINGLE MV",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 4,
+      "name": "#BUS_CHESTVOICE_MV",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 5,
+      "name": "乗車準備会",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 6,
+      "name": "たかほー",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 7,
+      "name": "#baystars",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 8,
+      "name": "#sbhawks",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 9,
+      "name": "レイノルズ",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 10,
+      "name": "東京ドーム公演記念",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 11,
+      "name": "入場者特典",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 12,
+      "name": "モイネロ",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 13,
+      "name": "#KomisyonPBLKnerede",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 14,
+      "name": "ベイスターズ",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 15,
+      "name": "LOVE TO THE MOON AND KEY",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 16,
+      "name": "ホークス",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 17,
+      "name": "jejak asap asing",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 18,
+      "name": "PUINOONBINT DESTINY MOMENT",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 19,
+      "name": "フォトカード",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    },
+    {
+      "region": "WW",
+      "rank": 20,
+      "name": "任命責任",
+      "post_count": null,
+      "story": null,
+      "post_ids": []
+    }
+  ],
+  "posts": [
+    {
+      "id": "2110068049206194384",
+      "url": "https://x.com/NarniaMovie/status/2110068049206194384",
+      "created_at": "2026-10-13T18:00:00Z",
+      "lang": "en",
+      "text": "A Universe Begins. See how Narnia was created in Narnia: The Magician's Nephew, a film by Greta Gerwig - only in theaters February 12. https://t.co/yv912r4yKn",
+      "author": {
+        "handle": "NarniaMovie",
+        "name": "Narnia Movie",
+        "followers": 1532,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 150.0,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110057477236789447",
+      "url": "https://x.com/WildMediaHQ/status/2110057477236789447",
+      "created_at": "2026-10-13T17:18:00Z",
+      "lang": "en",
+      "text": "He Just Threw His Whole Career Away! Southwest Florida Football Coach Cusses Out Football Player. Watch What Happens Next https://t.co/WEYNmOBf59",
+      "author": {
+        "handle": "WildMediaHQ",
+        "name": "Wild Media",
+        "followers": 472143,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 160.682,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "private_individual"
+      ],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs"
+    },
+    {
+      "id": "2008193557673488846",
+      "url": "https://x.com/jameszimmermann/status/2008193557673488846",
+      "created_at": "2026-01-05T15:07:09Z",
+      "lang": "en",
+      "text": "This is Rachel Ford, the Knoxville Symphony CEO who denied me the Principal Clarinet job after I won the blind audition unanimously.\n\nRachel, why did you invite me to the audition after reviewing my resume if you had no intention of hiring me? Why have me waste my time? https://t.co/vAiQKLpoEe",
+      "author": {
+        "handle": "jameszimmermann",
+        "name": "slimzim",
+        "followers": 22091,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content",
+        "private_individual"
+      ],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110018291792244758",
+      "url": "https://x.com/yowtfahhh/status/2110018291792244758",
+      "created_at": "2026-10-13T14:42:17Z",
+      "lang": "en",
+      "text": "GTA 6 :\n\nPS5 Day 1                                 PC Day 1 https://t.co/1JkPbTMUyF",
+      "author": {
+        "handle": "yowtfahhh",
+        "name": "Fahhh",
+        "followers": 32370,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        },
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "gaming",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110165104713183485",
+      "url": "https://x.com/Tesla/status/2110165104713183485",
+      "created_at": "2026-10-14T00:25:40Z",
+      "lang": "en",
+      "text": "Roadster event streaming live this Thursday at 7:55pm CST https://t.co/AbsmpVucui",
+      "author": {
+        "handle": "Tesla",
+        "name": "Tesla",
+        "followers": 24761068,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "tech",
+      "beat": null,
+      "topic": null,
+      "lead": "pointed at by 2 posts read this run"
+    },
+    {
+      "id": "2110243595504820641",
+      "url": "https://x.com/elonmusk/status/2110243595504820641",
+      "created_at": "2026-10-14T05:37:34Z",
+      "lang": "en",
+      "text": "Made with @Grok @Imagine https://t.co/GIb43YWtxb",
+      "author": {
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "followers": 241510330,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2109652536642637884",
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2098449226980057368",
+      "url": "https://x.com/yaskid_67021/status/2098449226980057368",
+      "created_at": "2026-09-11T16:30:57Z",
+      "lang": "en",
+      "text": "When the dress does all the talking 💛 Just a little twirl a little pose and a whole lot of main character energy. https://t.co/NhjHAC2xKT",
+      "author": {
+        "handle": "yaskid_67021",
+        "name": "Y🧠",
+        "followers": 12698,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 23.755,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110223110003982788",
+      "url": "https://x.com/elonmusk/status/2110223110003982788",
+      "created_at": "2026-10-14T04:16:10Z",
+      "lang": "en",
+      "text": "Grok @Bot can help with complex taxes https://t.co/VySoMSeYdT",
+      "author": {
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "followers": 241510330,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2110180938948747730",
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110253157758673079",
+      "url": "https://x.com/elonmusk/status/2110253157758673079",
+      "created_at": "2026-10-14T06:15:34Z",
+      "lang": "en",
+      "text": "Grok @Bot can help with your taxes https://t.co/3GuyxxRFQZ",
+      "author": {
+        "handle": "elonmusk",
+        "name": "Elon Musk",
+        "followers": 241510330,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2110091703419871393",
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110224953287070195",
+      "url": "https://x.com/anabology/status/2110224953287070195",
+      "created_at": "2026-10-14T04:23:29Z",
+      "lang": "en",
+      "text": "I made a Grok Bot that can use Suno, Midjourney, and Opus to make music videos\n\n\"Claudia\" (the Grok Bot) made this teaser autonomously with @imagine\n\nhttps://t.co/VcQYivuVYE https://t.co/XXZEIhYTt3",
+      "author": {
+        "handle": "anabology",
+        "name": "anabology",
+        "followers": 86234,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 20.2,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": "pointed at by 2 posts read this run"
+    },
+    {
+      "id": "2110148252628619288",
+      "url": "https://x.com/StretfordPaddck/status/2110148252628619288",
+      "created_at": "2026-10-13T23:18:42Z",
+      "lang": "en",
+      "text": "🎙️ Michael Carrick reacts to Lisandro Martinez's comments.\n\n#MUFC https://t.co/7Lj7uGJ2K3",
+      "author": {
+        "handle": "StretfordPaddck",
+        "name": "Stretford Paddock",
+        "followers": 707757,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 65.281,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "sports",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs; pointed at by 2 posts read this run"
+    },
+    {
+      "id": "2110180938948747730",
+      "url": "https://x.com/Texas_Twins_Dad/status/2110180938948747730",
+      "created_at": "2026-10-14T01:28:35Z",
+      "lang": "en",
+      "text": "Grok Bot saved me more than $1,000 today. I had a very complex tax filing with overseas reporting. Complicated, expensive, and hard to find the right accountant.\n\nGrok Bot found and organized the necessary documents itself (emails and bank accounts), figured out the requirements, filled out the forms, and saved everything from its own computer.\n\nI just reviewed and submitted. Huge time and cost saver.",
+      "author": {
+        "handle": "Texas_Twins_Dad",
+        "name": "Texas Twins Dad",
+        "followers": 2971,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110067869287661838",
+      "url": "https://x.com/DailyLoud/status/2110067869287661838",
+      "created_at": "2026-10-13T17:59:17Z",
+      "lang": "en",
+      "text": "3D-printed salmon is coming to U.S. supermarkets, produced by Israeli food technology company Steakholder Foods.",
+      "author": {
+        "handle": "DailyLoud",
+        "name": "Daily Loud",
+        "followers": 6956540,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "business",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110107526809505873",
+      "url": "https://x.com/catturd2/status/2110107526809505873",
+      "created_at": "2026-10-13T20:36:52Z",
+      "lang": "en",
+      "text": "President Trump just went scorched earth on crooked IIham Omar, and I’m here for it. https://t.co/ReAAQWjBsS",
+      "author": {
+        "handle": "catturd2",
+        "name": "Catturd ™",
+        "followers": 4070186,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110091703419871393",
+      "url": "https://x.com/jasonfreedman/status/2110091703419871393",
+      "created_at": "2026-10-13T19:34:00Z",
+      "lang": "en",
+      "text": "I just gave my a Grokbot four years of past tax returns and financial files.  Just a dump of folders and unlabled files.\n\nK-1s, 1099s, mortgage statements, HSA records, and every email with our CPA.  266 files.\n\nI just said, please double check my CPA's work.\n\nA few minutes later, it had found a lot of mistakes.\n\nMortgage interest left off our 2022 return entirely.\n\nHSA payroll contributions counted twice, four years in a row, which created a penalty tax that never should have existed.\n\nA missing IRA form for Jen that would have cost us.\n\nOn this year's return: home office errors, two K-1s missing, an outdated 1099, and startup losses we never claimed.\n\nAnd a retirement contribution the return already deducted...that we hadn't actually deposited.  \n\nI sent it all to our CPA.  They sent back an amended return.  The bot reviewed that too.\n\nOne fix went the wrong direction.  The explanation had typos.\n\nThree versions later, all in one afternoon, it said ready to sign.\n\nJust a few hours start to finish.  With about 90 seconds of my time and attention required. I was just the meat proxy hitting send as Grokbot watched the replies in my email.  \n\nOur CPA is great and turned every fix around the same day.  \n\nWe chatted afterwards.  He wanted to know what I was using - just normal ole' grokbot.\n\nI asked him what he was using?  No AI tools.  \n\nI set him up with @magnetictax for next season (we're an investor).  All CPAs should be using Magnetic Tax or something like it.  Every single one.\n\nAll individuals should be double checking the work and past work with Grokbot or something like that.  \n\nWant to copy the exact the prompt I used?  it was just this:\n\n\"Please do a thorough review of my taxes and help me understand if my CPA made any mistakes\"\n\n\"Think deeply\"\n\nOr just tag your bot into this thread.",
+      "author": {
+        "handle": "jasonfreedman",
+        "name": "Jason Freedman",
+        "followers": 12209,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110196734718845397",
+      "url": "https://x.com/JoshuaBarzon/status/2110196734718845397",
+      "created_at": "2026-10-14T02:31:21Z",
+      "lang": "en",
+      "text": "Every hurricane that hit the United States over 173 years. Virginia, Maryland and Delaware seem to have a magical hurricane force field. https://t.co/aMi8fIUVBS",
+      "author": {
+        "handle": "JoshuaBarzon",
+        "name": "Josh Barzon",
+        "followers": 158934,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "disaster",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs"
+    },
+    {
+      "id": "2110025766037803057",
+      "url": "https://x.com/MostlyKohli/status/2110025766037803057",
+      "created_at": "2026-10-13T15:11:59Z",
+      "lang": "en",
+      "text": "🚨 Dhruv Rathee can't get out of India now. He previously made a video taking a dig at one of the bollywood actress. Her boyfriend and some of his Gurugram based gurjar friends allegedly showed up at the place where Rathee is staying.\n\nWhen they confronted him, neighbours called the Gurugram Police. Now, the boyfriend has allegedly filed a case against Dhruv Rathee on behalf of his girlfriend.\n\nRathee was planning to leave within a week but police have ordered him to stay in India for over a month. Maybe a big name is behind all this and It looks over for German Shepherd 🙏",
+      "author": {
+        "handle": "MostlyKohli",
+        "name": "Suprvirat",
+        "followers": 30885,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110313050423095339",
+      "url": "https://x.com/WSJ/status/2110313050423095339",
+      "created_at": "2026-10-14T10:13:33Z",
+      "lang": "en",
+      "text": "New speed limits on Starlink terminals, operated by billionaire Elon Musk’s SpaceX, disrupted drone attacks over Russian-occupied Ukraine, Ukrainian officials and military units said https://t.co/BuwMWB0lyf",
+      "author": {
+        "handle": "WSJ",
+        "name": "The Wall Street Journal",
+        "followers": 22275725,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "link",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": "https://www.wsj.com/world/europe/ukraine-says-new-starlink-speed-limit-is-disrupting-its-attacks-79225e19?mod=e2tw",
+          "link_title": "Ukraine Says New Starlink Speed Limit Is Disrupting Its Attacks"
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": "pointed at by 3 posts read this run"
+    },
+    {
+      "id": "2110016190617911553",
+      "url": "https://x.com/RobLogic/status/2110016190617911553",
+      "created_at": "2026-10-13T14:33:56Z",
+      "lang": "en",
+      "text": "Amazing @SpaceX launch leaving a trail I never seen before off the coast of Florida https://t.co/r1jox3L3d9",
+      "author": {
+        "handle": "RobLogic",
+        "name": "RobLogic",
+        "followers": 24706,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 16.0,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "science",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110135850361291059",
+      "url": "https://x.com/ImBreckWorsham/status/2110135850361291059",
+      "created_at": "2026-10-13T22:29:25Z",
+      "lang": "en",
+      "text": "This is the man who punched a woman in the face at a Trump rally for daring to ask Trump about Epstein from the crowd, as Trump and other attendees cheered him on.\n\nAnyone know his name? \n\nLet's make him famous. https://t.co/ToUTpaKoeB",
+      "author": {
+        "handle": "ImBreckWorsham",
+        "name": "ThePatrioticBlonde™🇺🇸",
+        "followers": 192206,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "private_individual"
+      ],
+      "desk": "politics",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110026708355101058",
+      "url": "https://x.com/GodfreyWis44495/status/2110026708355101058",
+      "created_at": "2026-10-13T15:15:44Z",
+      "lang": "en",
+      "text": "Please Nigerians, let us pray for Blessing CEO. She is currently on oxyg£n support and has been diagn@sed with canc£r. It's truly s@d and h£artbr£aking 😭💔 to see her in this c0nditi0n. She genuinely needs our prayers her current stat£ is not something we should ignore😭💔. https://t.co/vibJmlTe7R",
+      "author": {
+        "handle": "GodfreyWis44495",
+        "name": "dangerous baby",
+        "followers": 14868,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 17.229,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110062933816611208",
+      "url": "https://x.com/realMaalouf/status/2110062933816611208",
+      "created_at": "2026-10-13T17:39:41Z",
+      "lang": "en",
+      "text": "A Palestinian father uses his child as a shield, pushing him towards IDF soldiers and urging them to shoot him while a camera crew films them.\n\nHe literally wants his son to die so he can use it as propaganda. Let that sink in.\n\nNot all cultures are equal. https://t.co/yEXMTap1rO",
+      "author": {
+        "handle": "realMaalouf",
+        "name": "Dr. Maalouf ‏",
+        "followers": 510458,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 89.72,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110047459925749889",
+      "url": "https://x.com/Mike_Pence/status/2110047459925749889",
+      "created_at": "2026-10-13T16:38:11Z",
+      "lang": "en",
+      "text": "Putin doesn’t want peace. Putin wants Ukraine. Enough is enough. \n\nPresident Trump should rescind the diesel deal with Russia and return to the strong policies of our four years in the White House; use the Lindsey Graham Sanctioning Russia Act to impose harsh sanctions on any nation purchasing Russian energy and work with our allies to ensure Ukraine has the military support it needs to repel and defeat this Russian invasion once and for all. Slava Ukraini🇺🇸🇺🇦 https://t.co/cSEfmtpA8M",
+      "author": {
+        "handle": "Mike_Pence",
+        "name": "Mike Pence",
+        "followers": 5779476,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "world",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110092821571027310",
+      "url": "https://x.com/Mr_Rebs_/status/2110092821571027310",
+      "created_at": "2026-10-13T19:38:26Z",
+      "lang": "en",
+      "text": "XBOX CEO Asha Sharma just addressed the recent surge in games being “decompiled and rebuilt to run on hardware they were never originally designed to support.” This includes the community Halo mods. In response, Asha says, “It is easy to see the possibilities in making great games easier to access, giving old games new life and allowing more players to become creators and co-creators…To explore these possibilities, I’ve asked Scott to stand-up XBOX LABS, a small group of game makers, engineers and scientists whose job is to turn emerging ideas into things our players and developers can experience. We’ll build in the open, learn from what people do, and measure success by whether more people are playing and creating.” #Xbox",
+      "author": {
+        "handle": "Mr_Rebs_",
+        "name": "Rebs Gaming",
+        "followers": 21593,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        },
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        },
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "gaming",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs"
+    },
+    {
+      "id": "2110207594484642084",
+      "url": "https://x.com/KaiKai2492/status/2110207594484642084",
+      "created_at": "2026-10-14T03:14:30Z",
+      "lang": "en",
+      "text": "Cryin Sony couldn't do backwards compatibility and hackers turning this damn thing into the gaming equivalent of the infinity gauntlet https://t.co/c5JTQ3eFZJ",
+      "author": {
+        "handle": "KaiKai2492",
+        "name": "🎮𝙆𝙖𝙞𝙮𝙖🎮",
+        "followers": 14667,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2110121696535470196",
+      "note": null,
+      "flags": [],
+      "desk": "gaming",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110079118843011411",
+      "url": "https://x.com/bbpoltergayist/status/2110079118843011411",
+      "created_at": "2026-10-13T18:43:59Z",
+      "lang": "en",
+      "text": "whoever cries the loudest at my funeral gets my steam account",
+      "author": {
+        "handle": "bbpoltergayist",
+        "name": "i",
+        "followers": 289,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110160673586008537",
+      "url": "https://x.com/ConnorTalksAI/status/2110160673586008537",
+      "created_at": "2026-10-14T00:08:04Z",
+      "lang": "en",
+      "text": "Grok Bot or ChatGPT Dots?\n\nBe honest… https://t.co/8iy43yso9N",
+      "author": {
+        "handle": "ConnorTalksAI",
+        "name": "Connor",
+        "followers": 3327,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": null,
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110077123528736991",
+      "url": "https://x.com/theNyx__/status/2110077123528736991",
+      "created_at": "2026-10-13T18:36:04Z",
+      "lang": "en",
+      "text": "Imagine the internet never existed, and she’s just at home doing this and we have no idea https://t.co/uenW4u1v2F",
+      "author": {
+        "handle": "theNyx__",
+        "name": "×",
+        "followers": 46997,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2110071981156790668",
+      "note": null,
+      "flags": [],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": "seen in the quote or repost stream in 2 of the last 6 runs"
+    },
+    {
+      "id": "2110062762218926204",
+      "url": "https://x.com/dvorahfr/status/2110062762218926204",
+      "created_at": "2026-10-13T17:39:00Z",
+      "lang": "en",
+      "text": "Robots. Servers. Machines that dream.\nAll shot on a film stock that remembers 1985.\nTomorrow, filmed like yesterday.\n\nWhat if AI had been filmed in 1985?\n\nVisuals: @grok  @imagine .  \nDirection assisted by Grok @bot .\n\nMusic: Suno +editing software https://t.co/no0P3n57C7",
+      "author": {
+        "handle": "dvorahfr",
+        "name": "Déborah",
+        "followers": 196024,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 59.234,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110108110203363626",
+      "url": "https://x.com/moritzkremb/status/2110108110203363626",
+      "created_at": "2026-10-13T20:39:12Z",
+      "lang": "en",
+      "text": "Grok @bot has gotten so good lately\n\nIt's a huge difference from just a few weeks ago\n\nIn this video:\n&gt;All the latest Grok Bot updates\n&gt;My top use cases and how my set up looks\n&gt;Can it run autonomous businesses now?\n\nFull breakdown: https://t.co/EL1TIQIaiu",
+      "author": {
+        "handle": "moritzkremb",
+        "name": "Moritz Kremb",
+        "followers": 75008,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [
+        {
+          "type": "video",
+          "description": null,
+          "alt": null,
+          "duration_s": 1206.2,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110267056700690732",
+      "url": "https://x.com/StopTweetingMia/status/2110267056700690732",
+      "created_at": "2026-10-14T07:10:47Z",
+      "lang": "en",
+      "text": "This is super sad because Danny Trejo will do any movie, including student films where he works for free just to get a young filmmakers project off the ground.\n\nYou have to be the actual devil to take advantage of someone that has that kind of work ethic and love for his craft. https://t.co/yfBuX5jiVU",
+      "author": {
+        "handle": "StopTweetingMia",
+        "name": "Mia Moore",
+        "followers": 77181,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": "2110203291049288166",
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110030804243857578",
+      "url": "https://x.com/JJEnglert/status/2110030804243857578",
+      "created_at": "2026-10-13T15:32:00Z",
+      "lang": "en",
+      "text": "Suggestion for you:\n\nPick an agent for work, and pick an agent for personal.\n\nYou could explore to do this all with Grok Bot (with many different types of bots)\n\nPersonally, I like @bot for work, and @Muse for personal agents.\n\nIt helps to create a clean separation for me.\n\nHere are some reasons why Grok for Work:\n\n- Grok is very good at coding, so if you want your bot to help you do engineering / building, Grok beats muse.\n\n- Groks VM / Browser is very strong. I love it for deeper tasks that are work releated.\n\n- Groks integration with X is goated. And I use X heavily for work.\n\nHere are some reasons why @Muse for personal: \n\n- The simplicity with one agent who knows all is awesome\n\n- The pricing is either free, or very cheap\n\n- They have a history of keeping your private data safe\n\n- They are focused on building personal agents, including training their models this way\n\n- It gives me enough permissions to control my agents at the personal level \n\n- Building personal software within the app is so easy and well suited for personal use cases \n\n- Meta is all in on personal agents, which means significant resources being poured into product advancements (your agent gets better every day)\n\n- Muse SDK allowing my agent to go with me on many devices is the right direction\n\n- Meta's Sunglasses gets way more interesting once Muse is supported.",
+      "author": {
+        "handle": "JJEnglert",
+        "name": "JJ Englert",
+        "followers": 38128,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "ai",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110014692420706667",
+      "url": "https://x.com/NVIDIAAIInfra/status/2110014692420706667",
+      "created_at": "2026-10-13T14:27:59Z",
+      "lang": "en",
+      "text": "Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, platform teams, and partners can build on production-grade AI workloads and GPU orchestration to improve GPU utilization, increase workload throughput, and bring AI factory solutions to market faster.\n\nDeploy the integrated NVIDIA Run:ai platform or adopt individual components to fit your needs.\n\nSee what’s included, how to get started, and how to contribute: https://t.co/2DB9gjjdYD",
+      "author": {
+        "handle": "NVIDIAAIInfra",
+        "name": "NVIDIA AI Infrastructure",
+        "followers": 83490,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [
+        {
+          "type": "photo",
+          "description": null,
+          "alt": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
+          "duration_s": null,
+          "link_url": null,
+          "link_title": null
+        }
+      ],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "entertainment",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2041083751136977114",
+      "url": "https://x.com/KIOFStats/status/2041083751136977114",
+      "created_at": "2026-04-06T09:21:02Z",
+      "lang": "en",
+      "text": "KISS OF LIFE  'Who is She' Music Video is OUT NOW!\n\n#KISSOFLIFE #키스오브라이프 #KIOF #키오프 #JULIE #NATTY #BELLE #HANEUL\n#쥴리 #나띠 #벨 #하늘 #Who_is_she https://t.co/CYyaJoFdr9",
+      "author": {
+        "handle": "KIOFStats",
+        "name": "KISS OF LIFE Charts",
+        "followers": 12332,
+        "verified": "none",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [
+        "old_content"
+      ],
+      "desk": "internet",
+      "beat": null,
+      "topic": null,
+      "lead": null
+    },
+    {
+      "id": "2110347809308455363",
+      "url": "https://x.com/KobeissiLetter/status/2110347809308455363",
+      "created_at": "2026-10-14T12:31:40Z",
+      "lang": "en",
+      "text": "BREAKING: September CPI inflation rises to 3.7%, above expectations of 3.6%\n\nCore CPI inflation rises to 2.6%, also above expectations of 2.5%.\n\nThis officially marks the third highest US inflation reading since September 2023.\n\nRate hike expectations are rising on the news.",
+      "author": {
+        "handle": "KobeissiLetter",
+        "name": "The Kobeissi Letter",
+        "followers": 2689904,
+        "verified": "business",
+        "kind": "org"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "markets",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Core CPI and September CPI (one event, the September CPI release); no floor"
+    },
+    {
+      "id": "2110347514683490356",
+      "url": "https://x.com/DeItaone/status/2110347514683490356",
+      "created_at": "2026-10-14T12:30:30Z",
+      "lang": "en",
+      "text": "U.S. INFLATION SURGES TO 3.7%, BEATING EXPECTATIONS\n\nSeptember CPI rose 0.6% MoM, matching forecasts, while annual inflation hit 3.7% vs. 3.6% expected.\n\nCore CPI climbed 0.3% vs. 0.2% expected, with annual core inflation reaching 2.6% vs. 2.5% forecast.\n\nGasoline prices surged 9.1%, energy jumped 5.2%, and real earnings fell 0.5%, highlighting renewed pressure on consumers.",
+      "author": {
+        "handle": "DeItaone",
+        "name": "*Walter Bloomberg",
+        "followers": 1961793,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "markets",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Core CPI and September CPI (one event, the September CPI release); no floor"
+    },
+    {
+      "id": "2110349054815174737",
+      "url": "https://x.com/DeItaone/status/2110349054815174737",
+      "created_at": "2026-10-14T12:36:37Z",
+      "lang": "en",
+      "text": "U.S. INFLATION RUNS HOTTER THAN HEADLINE NUMBERS SUGGEST\n\nUnrounded September CPI rose 0.649% MoM, beating the 0.58% forecast, while core CPI climbed 0.335% vs. 0.21% expected.\n\nAnnual inflation reached 3.738%, with core CPI accelerating to 2.564% from 2.446%.\n\nBoth headline and core inflation exceeded expectations.",
+      "author": {
+        "handle": "DeItaone",
+        "name": "*Walter Bloomberg",
+        "followers": 1961793,
+        "verified": "blue",
+        "kind": "unknown"
+      },
+      "media": [],
+      "reply_to": null,
+      "quotes": null,
+      "note": null,
+      "flags": [],
+      "desk": "markets",
+      "beat": null,
+      "topic": null,
+      "lead": "trend context for Core CPI and September CPI (one event, the September CPI release); no floor"
+    }
+  ],
+  "observations": [
+    {
+      "id": "2024917454301065480",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 39481836,
+      "likes": 255862,
+      "reposts": 19433,
+      "quotes": 1051,
+      "replies": 8598,
+      "bookmarks": 16441,
+      "approx": false
+    },
+    {
+      "id": "2110113833805402475",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 11048042,
+      "likes": 253550,
+      "reposts": 10609,
+      "quotes": 11862,
+      "replies": 2416,
+      "bookmarks": 10039,
+      "approx": false
+    },
+    {
+      "id": "2110068149622350226",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 10677406,
+      "likes": 96955,
+      "reposts": 9072,
+      "quotes": 6042,
+      "replies": 1897,
+      "bookmarks": 21668,
+      "approx": false
+    },
+    {
+      "id": "2110075453331706054",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1335615,
+      "likes": 4573,
+      "reposts": 219,
+      "quotes": 136,
+      "replies": 275,
+      "bookmarks": 368,
+      "approx": false
+    },
+    {
+      "id": "2110047358264488023",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 3350190,
+      "likes": 170618,
+      "reposts": 10182,
+      "quotes": 855,
+      "replies": 232,
+      "bookmarks": 6605,
+      "approx": false
+    },
+    {
+      "id": "2110005182511956436",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 2925051,
+      "likes": 43577,
+      "reposts": 4345,
+      "quotes": 1074,
+      "replies": 617,
+      "bookmarks": 3119,
+      "approx": false
+    },
+    {
+      "id": "2110111648019358068",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1486204,
+      "likes": 2221,
+      "reposts": 65,
+      "quotes": 12,
+      "replies": 256,
+      "bookmarks": 114,
+      "approx": false
+    },
+    {
+      "id": "2110135054747795625",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1201225,
+      "likes": 23542,
+      "reposts": 3549,
+      "quotes": 506,
+      "replies": 6407,
+      "bookmarks": 492,
+      "approx": false
+    },
+    {
+      "id": "2110181758943547547",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 200892,
+      "likes": 20975,
+      "reposts": 5266,
+      "quotes": 70,
+      "replies": 161,
+      "bookmarks": 347,
+      "approx": false
+    },
+    {
+      "id": "2110151955104534889",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 103873,
+      "likes": 7935,
+      "reposts": 2371,
+      "quotes": 45,
+      "replies": 84,
+      "bookmarks": 176,
+      "approx": false
+    },
+    {
+      "id": "2110201855762391208",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1638056,
+      "likes": 8329,
+      "reposts": 193,
+      "quotes": 43,
+      "replies": 163,
+      "bookmarks": 1213,
+      "approx": false
+    },
+    {
+      "id": "2110121696535470196",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1590531,
+      "likes": 43748,
+      "reposts": 2670,
+      "quotes": 598,
+      "replies": 359,
+      "bookmarks": 6255,
+      "approx": false
+    },
+    {
+      "id": "2110138921841479895",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1141916,
+      "likes": 12223,
+      "reposts": 770,
+      "quotes": 423,
+      "replies": 272,
+      "bookmarks": 3743,
+      "approx": false
+    },
+    {
+      "id": "2110234147956601114",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1329719,
+      "likes": 51115,
+      "reposts": 2812,
+      "quotes": 89,
+      "replies": 288,
+      "bookmarks": 527,
+      "approx": false
+    },
+    {
+      "id": "2110240563135951022",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 877770,
+      "likes": 20301,
+      "reposts": 5543,
+      "quotes": 695,
+      "replies": 827,
+      "bookmarks": 886,
+      "approx": false
+    },
+    {
+      "id": "2110327426580648014",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 36730,
+      "likes": 998,
+      "reposts": 234,
+      "quotes": 52,
+      "replies": 163,
+      "bookmarks": 75,
+      "approx": false
+    },
+    {
+      "id": "2110273651023151330",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 873683,
+      "likes": 38947,
+      "reposts": 7203,
+      "quotes": 433,
+      "replies": 2270,
+      "bookmarks": 841,
+      "approx": false
+    },
+    {
+      "id": "2110199081385570786",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1245069,
+      "likes": 11512,
+      "reposts": 1164,
+      "quotes": 915,
+      "replies": 2782,
+      "bookmarks": 2066,
+      "approx": false
+    },
+    {
+      "id": "2110130318237995151",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 843889,
+      "likes": 31436,
+      "reposts": 3867,
+      "quotes": 451,
+      "replies": 1289,
+      "bookmarks": 1022,
+      "approx": false
+    },
+    {
+      "id": "2024898302035067174",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 39942300,
+      "likes": 6610,
+      "reposts": 1054,
+      "quotes": 525,
+      "replies": 844,
+      "bookmarks": 1083,
+      "approx": false
+    },
+    {
+      "id": "1692516740737958343",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 12671536,
+      "likes": 11586,
+      "reposts": 4066,
+      "quotes": 3437,
+      "replies": 9387,
+      "bookmarks": 750,
+      "approx": false
+    },
+    {
+      "id": "1965216497036615858",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 6116052,
+      "likes": 1713,
+      "reposts": 259,
+      "quotes": 91,
+      "replies": 1,
+      "bookmarks": 4942,
+      "approx": false
+    },
+    {
+      "id": "2060272735083807097",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 3603834,
+      "likes": 7205,
+      "reposts": 570,
+      "quotes": 30,
+      "replies": 89,
+      "bookmarks": 349,
+      "approx": false
+    },
+    {
+      "id": "2110203291049288166",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 4024041,
+      "likes": 138951,
+      "reposts": 12570,
+      "quotes": 511,
+      "replies": 820,
+      "bookmarks": 14344,
+      "approx": false
+    },
+    {
+      "id": "2110009533531869638",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 2598637,
+      "likes": 4114,
+      "reposts": 623,
+      "quotes": 92,
+      "replies": 332,
+      "bookmarks": 526,
+      "approx": false
+    },
+    {
+      "id": "2028683986604585273",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 2266403,
+      "likes": 12896,
+      "reposts": 1647,
+      "quotes": 29,
+      "replies": 124,
+      "bookmarks": 393,
+      "approx": false
+    },
+    {
+      "id": "2110222071229989249",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1931230,
+      "likes": 23147,
+      "reposts": 2050,
+      "quotes": 351,
+      "replies": 2219,
+      "bookmarks": 1067,
+      "approx": false
+    },
+    {
+      "id": "2066216083636273590",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1580254,
+      "likes": 5561,
+      "reposts": 815,
+      "quotes": 57,
+      "replies": 17,
+      "bookmarks": 940,
+      "approx": false
+    },
+    {
+      "id": "2110245095824052431",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1763691,
+      "likes": 2717,
+      "reposts": 221,
+      "quotes": 22,
+      "replies": 224,
+      "bookmarks": 401,
+      "approx": false
+    },
+    {
+      "id": "2110219797040611404",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1227792,
+      "likes": 51177,
+      "reposts": 4335,
+      "quotes": 309,
+      "replies": 651,
+      "bookmarks": 479,
+      "approx": false
+    },
+    {
+      "id": "2110240936001249782",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1124360,
+      "likes": 59937,
+      "reposts": 2910,
+      "quotes": 93,
+      "replies": 339,
+      "bookmarks": 371,
+      "approx": false
+    },
+    {
+      "id": "2110094110103310789",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 928274,
+      "likes": 70655,
+      "reposts": 20332,
+      "quotes": 518,
+      "replies": 101,
+      "bookmarks": 10639,
+      "approx": false
+    },
+    {
+      "id": "1716019237259465013",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 844839,
+      "likes": 2191,
+      "reposts": 1060,
+      "quotes": 409,
+      "replies": 1045,
+      "bookmarks": 120,
+      "approx": false
+    },
+    {
+      "id": "2103463918140334316",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 803784,
+      "likes": 26054,
+      "reposts": 1854,
+      "quotes": 91,
+      "replies": 166,
+      "bookmarks": 1788,
+      "approx": false
+    },
+    {
+      "id": "2110124399986671667",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 888821,
+      "likes": 10684,
+      "reposts": 533,
+      "quotes": 8,
+      "replies": 75,
+      "bookmarks": 582,
+      "approx": false
+    },
+    {
+      "id": "2110002004206727480",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 779816,
+      "likes": 349,
+      "reposts": 57,
+      "quotes": 75,
+      "replies": 26,
+      "bookmarks": 52,
+      "approx": false
+    },
+    {
+      "id": "2110305562596426009",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 19572,
+      "likes": 1006,
+      "reposts": 141,
+      "quotes": 5,
+      "replies": 40,
+      "bookmarks": 19,
+      "approx": false
+    },
+    {
+      "id": "2110278144259178523",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 8596,
+      "likes": 866,
+      "reposts": 221,
+      "quotes": 5,
+      "replies": 15,
+      "bookmarks": 18,
+      "approx": false
+    },
+    {
+      "id": "2110063257981698437",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 42103,
+      "likes": 5000,
+      "reposts": 598,
+      "quotes": 14,
+      "replies": 44,
+      "bookmarks": 313,
+      "approx": false
+    },
+    {
+      "id": "2110298824895865107",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 27134,
+      "likes": 1456,
+      "reposts": 165,
+      "quotes": 21,
+      "replies": 15,
+      "bookmarks": 294,
+      "approx": false
+    },
+    {
+      "id": "2110182728897355789",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 115190,
+      "likes": 10357,
+      "reposts": 2700,
+      "quotes": 41,
+      "replies": 106,
+      "bookmarks": 206,
+      "approx": false
+    },
+    {
+      "id": "2110068049206194384",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 5538646,
+      "likes": 17143,
+      "reposts": 1351,
+      "quotes": 497,
+      "replies": 388,
+      "bookmarks": 2795,
+      "approx": false
+    },
+    {
+      "id": "2110057477236789447",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 3195854,
+      "likes": 33263,
+      "reposts": 1706,
+      "quotes": 475,
+      "replies": 1362,
+      "bookmarks": 13593,
+      "approx": false
+    },
+    {
+      "id": "2008193557673488846",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 2560124,
+      "likes": 22579,
+      "reposts": 3292,
+      "quotes": 161,
+      "replies": 811,
+      "bookmarks": 713,
+      "approx": false
+    },
+    {
+      "id": "2110018291792244758",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 2548191,
+      "likes": 118709,
+      "reposts": 4434,
+      "quotes": 123,
+      "replies": 257,
+      "bookmarks": 2350,
+      "approx": false
+    },
+    {
+      "id": "2110165104713183485",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 2208097,
+      "likes": 18111,
+      "reposts": 2145,
+      "quotes": 731,
+      "replies": 795,
+      "bookmarks": 1325,
+      "approx": false
+    },
+    {
+      "id": "2110243595504820641",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1964819,
+      "likes": 3168,
+      "reposts": 370,
+      "quotes": 42,
+      "replies": 514,
+      "bookmarks": 455,
+      "approx": false
+    },
+    {
+      "id": "2098449226980057368",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1476899,
+      "likes": 4109,
+      "reposts": 352,
+      "quotes": 58,
+      "replies": 169,
+      "bookmarks": 1849,
+      "approx": false
+    },
+    {
+      "id": "2110223110003982788",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1292612,
+      "likes": 3141,
+      "reposts": 412,
+      "quotes": 45,
+      "replies": 601,
+      "bookmarks": 266,
+      "approx": false
+    },
+    {
+      "id": "2110253157758673079",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 1266908,
+      "likes": 4201,
+      "reposts": 537,
+      "quotes": 83,
+      "replies": 1050,
+      "bookmarks": 719,
+      "approx": false
+    },
+    {
+      "id": "2110224953287070195",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 967112,
+      "likes": 2124,
+      "reposts": 263,
+      "quotes": 76,
+      "replies": 220,
+      "bookmarks": 1345,
+      "approx": false
+    },
+    {
+      "id": "2110148252628619288",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 904035,
+      "likes": 9688,
+      "reposts": 548,
+      "quotes": 147,
+      "replies": 367,
+      "bookmarks": 1774,
+      "approx": false
+    },
+    {
+      "id": "2110180938948747730",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 817038,
+      "likes": 382,
+      "reposts": 30,
+      "quotes": 17,
+      "replies": 38,
+      "bookmarks": 79,
+      "approx": false
+    },
+    {
+      "id": "2110067869287661838",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 779539,
+      "likes": 7413,
+      "reposts": 981,
+      "quotes": 658,
+      "replies": 424,
+      "bookmarks": 1217,
+      "approx": false
+    },
+    {
+      "id": "2110107526809505873",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 779288,
+      "likes": 49390,
+      "reposts": 8165,
+      "quotes": 99,
+      "replies": 495,
+      "bookmarks": 793,
+      "approx": false
+    },
+    {
+      "id": "2110091703419871393",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 743310,
+      "likes": 795,
+      "reposts": 70,
+      "quotes": 19,
+      "replies": 130,
+      "bookmarks": 1000,
+      "approx": false
+    },
+    {
+      "id": "2110196734718845397",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 595954,
+      "likes": 3068,
+      "reposts": 219,
+      "quotes": 84,
+      "replies": 209,
+      "bookmarks": 1012,
+      "approx": false
+    },
+    {
+      "id": "2110025766037803057",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 550231,
+      "likes": 9554,
+      "reposts": 1202,
+      "quotes": 10,
+      "replies": 168,
+      "bookmarks": 444,
+      "approx": false
+    },
+    {
+      "id": "2110313050423095339",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 494609,
+      "likes": 1554,
+      "reposts": 460,
+      "quotes": 94,
+      "replies": 222,
+      "bookmarks": 135,
+      "approx": false
+    },
+    {
+      "id": "2110016190617911553",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 477345,
+      "likes": 10449,
+      "reposts": 1258,
+      "quotes": 110,
+      "replies": 212,
+      "bookmarks": 1687,
+      "approx": false
+    },
+    {
+      "id": "2110135850361291059",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 452166,
+      "likes": 18356,
+      "reposts": 6385,
+      "quotes": 177,
+      "replies": 944,
+      "bookmarks": 393,
+      "approx": false
+    },
+    {
+      "id": "2110026708355101058",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 371285,
+      "likes": 838,
+      "reposts": 183,
+      "quotes": 46,
+      "replies": 342,
+      "bookmarks": 239,
+      "approx": false
+    },
+    {
+      "id": "2110062933816611208",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 369232,
+      "likes": 13936,
+      "reposts": 3543,
+      "quotes": 202,
+      "replies": 470,
+      "bookmarks": 1321,
+      "approx": false
+    },
+    {
+      "id": "2110047459925749889",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 337734,
+      "likes": 25412,
+      "reposts": 5221,
+      "quotes": 279,
+      "replies": 2382,
+      "bookmarks": 308,
+      "approx": false
+    },
+    {
+      "id": "2110092821571027310",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 324991,
+      "likes": 3739,
+      "reposts": 257,
+      "quotes": 78,
+      "replies": 89,
+      "bookmarks": 576,
+      "approx": false
+    },
+    {
+      "id": "2110207594484642084",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 324937,
+      "likes": 47536,
+      "reposts": 3942,
+      "quotes": 13,
+      "replies": 70,
+      "bookmarks": 3344,
+      "approx": false
+    },
+    {
+      "id": "2110079118843011411",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 323200,
+      "likes": 39790,
+      "reposts": 7141,
+      "quotes": 309,
+      "replies": 46,
+      "bookmarks": 1132,
+      "approx": false
+    },
+    {
+      "id": "2110160673586008537",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 321739,
+      "likes": 963,
+      "reposts": 104,
+      "quotes": 15,
+      "replies": 326,
+      "bookmarks": 85,
+      "approx": false
+    },
+    {
+      "id": "2110077123528736991",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 290929,
+      "likes": 38013,
+      "reposts": 3281,
+      "quotes": 28,
+      "replies": 93,
+      "bookmarks": 1497,
+      "approx": false
+    },
+    {
+      "id": "2110062762218926204",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 268037,
+      "likes": 821,
+      "reposts": 121,
+      "quotes": 10,
+      "replies": 83,
+      "bookmarks": 111,
+      "approx": false
+    },
+    {
+      "id": "2110108110203363626",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 258189,
+      "likes": 739,
+      "reposts": 90,
+      "quotes": 11,
+      "replies": 51,
+      "bookmarks": 393,
+      "approx": false
+    },
+    {
+      "id": "2110267056700690732",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 253568,
+      "likes": 24711,
+      "reposts": 2667,
+      "quotes": 16,
+      "replies": 50,
+      "bookmarks": 1000,
+      "approx": false
+    },
+    {
+      "id": "2110030804243857578",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 252281,
+      "likes": 679,
+      "reposts": 91,
+      "quotes": 7,
+      "replies": 69,
+      "bookmarks": 168,
+      "approx": false
+    },
+    {
+      "id": "2110014692420706667",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 250859,
+      "likes": 1148,
+      "reposts": 158,
+      "quotes": 26,
+      "replies": 49,
+      "bookmarks": 170,
+      "approx": false
+    },
+    {
+      "id": "2041083751136977114",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 250116,
+      "likes": 1215,
+      "reposts": 360,
+      "quotes": 51,
+      "replies": 33,
+      "bookmarks": 121,
+      "approx": false
+    },
+    {
+      "id": "2110347809308455363",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 140013,
+      "likes": 1772,
+      "reposts": 307,
+      "quotes": 91,
+      "replies": 145,
+      "bookmarks": 116,
+      "approx": false
+    },
+    {
+      "id": "2110347514683490356",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 131529,
+      "likes": 770,
+      "reposts": 141,
+      "quotes": 61,
+      "replies": 63,
+      "bookmarks": 48,
+      "approx": false
+    },
+    {
+      "id": "2110349054815174737",
+      "at": "2026-10-14T13:05:00Z",
+      "state": "live",
+      "views": 74100,
+      "likes": 303,
+      "reposts": 63,
+      "quotes": 16,
+      "replies": 25,
+      "bookmarks": 22,
+      "approx": false
+    }
+  ],
+  "context": [],
+  "answers": []
+}
