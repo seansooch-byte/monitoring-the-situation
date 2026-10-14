@@ -492,3 +492,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list rebuilt to the pulse, stories started in the last 48 hours and the pinned post (140 to 69 ids; four new posts added, posts no longer shown removed). open.json unchanged except timestamp.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-14T12:35Z
+- Captures read: 1209Z (first since 1206Z on 11 October, a gap of about 72 hours). Last read: 1209Z.
+- X's check: 1209Z 37 confirmed, 0 missing, 0 mismatched, 1 withheld (saintjavelin's Starshield post 2110278144259178523, left out). No new mismatches (the 1603Z run still shows 9 mismatched, 0704Z 1 and 1206Z 1, already on record).
+- Pulse: 15 items (all new; the 45 from 11 October were past 36 hours and dropped). Fewer than the usual 25 to 45: one capture of 40 posts, 14 of them old_content. Quiet: defense, justice, disaster, markets, business, ai, tech, science, medicine, music, ideas, life, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: old_content posts (XFreeze, Acosta, Ysf34A, Atherton, others); Musk "Timing is everything" (the post it quotes is not captured, point unclear); TheLostsignal_ Grok image bait; Danny Trejo's son post (point unclear, may name a private person); CalltoActivism on Zacharia (insults, covered by the Grok question post); the Figen police clip, babemachina and jiminticaI (private people or unclear); Stolas fan posts (small); Romano's other two posts and Eagleman's second Hochul post (account already has a place).
+- Requests: watch list rebuilt to the pulse, its `also` posts and the pinned post, 19 ids (no story is under 48 hours old). open.json unchanged except timestamp; the 1209Z capture deferred open requests.
+- Shipped: see report.
+- For the main editor: PopBase says the Vatican confirmed a lung cancer diagnosis for Pope Leo XIV. Press reports I found dated 11 October (surgery at Gemelli Hospital) say a lung nodule was found and it is unclear whether it is cancer. Needs a story-pass check. Also the Sternenko claim that Starlink was restricted in Ukraine (with a Sikorski reply) is large and unchecked.

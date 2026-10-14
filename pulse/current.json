@@ -1,245 +1,85 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-11T12:40:00Z",
-  "capture": "2026-10-11T1206Z",
+  "updated_at": "2026-10-14T12:35:00Z",
+  "capture": "2026-10-14T1209Z",
   "items": [
     {
-      "id": "2108964287758639480",
+      "id": "2110113833805402475",
       "desk": "world",
-      "line": "The White House's Rapid Response account posts video of President Trump saying Zelenskyy was told not to hit Russian refineries and \"better damn well stop\". Trump blames the strikes for diesel prices; critics blame the Hormuz closure. Not checked here."
+      "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. Not checked here."
     },
     {
-      "id": "2108738606135206246",
-      "desk": "sports",
-      "line": "ESPN posts a 31 second video of Angel Reese saying \"I manifested this\" after her Atlanta Dream reached the WNBA Finals for the first time."
-    },
-    {
-      "id": "2109055486368665764",
-      "desk": "world",
-      "line": "Mario Nawfal's news account posts that a US citizen is dead and 12 people were killed in an attack on King Khalid Airport in Riyadh, with more than 300 wounded. Secretary of State Rubio's attached post says a Houthi strike there killed numerous people, including an American. The other figures are not checked here.",
-      "also": [
-        "2109070090000015659"
-      ]
-    },
-    {
-      "id": "2108940792748204070",
-      "desk": "gaming",
-      "line": "Dexerto says a leaker called Cyberleek has threatened to release a complete, playable build of GTA 6, and warned that major story spoilers could follow to prove it is real. Not checked here."
-    },
-    {
-      "id": "2108732409688489991",
-      "desk": "world",
-      "line": "HormuzLetter reports that Ukraine struck the Rostovsky oil products export terminal in Rostov-on-Don and set it ablaze, hours after the US-Russia diesel deal. It cites Ukrainian military sources on the deal. Not checked here."
-    },
-    {
-      "id": "2108994867582095465",
-      "desk": "world",
-      "line": "Elon Musk posts again on Starlink in India. He says arguments by Ambani's \"army of Internet shills\" contradict each other, that competition would help Indians, and that Ambani would not go out of business. This is the latest in his run of posts on the subject. Not checked here."
-    },
-    {
-      "id": "2108774257459114194",
-      "desk": "sports",
-      "line": "ESPN posts a 27 second video it says shows Gabby Williams hitting a \"dagger\" to send the Golden State Valkyries to the WNBA Finals."
-    },
-    {
-      "id": "2108746252577837336",
+      "id": "2110068149622350226",
       "desk": "entertainment",
-      "line": "The account Anime Updates says the Chainsaw Man theme song \"Iris Out\", by Kenshi Yonezu, is the first anime song submitted for the Grammys, in Best Asian Pop Music Performance and Best Song Written for Visual Media. Not checked here."
+      "line": "Discussing Film posts that the first trailer for Greta Gerwig's Narnia film is out, with release in theaters on February 12, 2027.",
+      "also": ["2110075453331706054"]
     },
     {
-      "id": "2108809173777399983",
-      "desk": "world",
-      "line": "Indian politician Shashi Tharoor posts a long statement on Delhi, saying checkpoints, barriers, 22,000 police and paramilitary, 250 cancelled trains, 45 closed metro stations and an internet suspension were used to stop a protest about the integrity of elections. He calls it repression. Not checked here.",
-      "also": [
-        "2108828991142724050",
-        "2108809744312062221"
-      ]
-    },
-    {
-      "id": "2108722243249258618",
+      "id": "2110047358264488023",
       "desk": "entertainment",
-      "line": "DiscussingFilm posts the first poster for season 2 of Common Side Effects and says it releases January 24 on Adult Swim."
+      "line": "A user posts a video with the caption: remembering the day they downloaded Letterboxd and marked every movie they had ever watched as watched."
     },
     {
-      "id": "2108879919535341863",
+      "id": "2110005182511956436",
+      "desk": "world",
+      "line": "Unusual Whales posts that the United Nations adopted a global pandemic preparedness declaration by 153 to 3, per UN News, with the United States, Israel and Argentina voting against. Not checked here."
+    },
+    {
+      "id": "2110111648019358068",
       "desk": "politics",
-      "line": "Rahul Gandhi posts a 1 minute 53 second video saying he has fought Narendra Modi and the RSS for over a decade, calls them cowards, and says \"we already have the information we need\". The claims are his. Not checked here."
+      "line": "A user asks Grok which state Katie Zacharia, named in the post as Trump's new press secretary, passed the bar exam in, saying she has repeatedly called herself a lawyer. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here."
     },
     {
-      "id": "2108890004868985056",
-      "desk": "world",
-      "line": "Ukraine's President Zelenskyy says Russia followed attacks on energy sites with a ballistic missile strike on Kyiv, some missiles intercepted, and that allowing Russia to sell oil products sends the wrong signal. He asks the US and Europe to restrict Russia. Not checked here.",
-      "also": [
-        "2108682188342391022"
-      ]
-    },
-    {
-      "id": "2108864545452142708",
-      "desk": "sports",
-      "line": "Formula 1's account announces that Max Verstappen won the sprint race at the Singapore Grand Prix."
-    },
-    {
-      "id": "2108821569225310335",
-      "desk": "science",
-      "line": "SpaceX posts a launch video: a Falcon 9 carrying the fourth Tranche 1 data transport mission for the Space Development Agency (@SemperCitiusSDA) to low-Earth orbit."
-    },
-    {
-      "id": "2108865673942167802",
-      "desk": "sports",
-      "line": "Formula 1's account posts a video of what it calls the moment Lando Norris and Oscar Piastri collide in the Singapore Grand Prix sprint."
-    },
-    {
-      "id": "2108882737792745846",
-      "desk": "ideas",
-      "line": "The Pope's account posts a statement that the death penalty is inadmissible because it attacks the dignity of the person. It says detention can protect citizens without denying the guilty the possibility of redemption."
-    },
-    {
-      "id": "2108928602519531894",
-      "desk": "sports",
-      "line": "Formula 1's account announces that Max Verstappen has taken pole for the Singapore Grand Prix."
-    },
-    {
-      "id": "2108921109403852868",
-      "desk": "world",
-      "line": "The account Mario Nawfal, citing Telegram channels and local accounts, reports a Houthi ballistic missile strike on Riyadh International Airport, with explosions and an evacuation. The post itself says damage and casualties are unconfirmed. Not checked here."
-    },
-    {
-      "id": "2108936212014923979",
-      "desk": "sports",
-      "line": "ESPN's Adam Schefter says the Arizona Cardinals are finalizing a trade of wide receiver Marvin Harrison, with Ian Rapoport as a second source, and that Harrison will sit out Sunday's game against Detroit. No team is named in the post."
-    },
-    {
-      "id": "2108976232947646708",
-      "desk": "world",
-      "line": "Sky News reports that a man has died after entering the tiger enclosure at a wildlife park in Yorkshire, according to police, and posts a video report from its correspondent. Not checked here beyond the post."
-    },
-    {
-      "id": "2108964313977278956",
+      "id": "2110135054747795625",
       "desk": "politics",
-      "line": "Journalist Aaron Rupar posts a 55 second video of President Trump saying \"I think it's time for Ukraine to get a new president\". The post does not say where or when it was said. Not checked here."
+      "line": "Kamala Harris says people are tired of choosing between gas and groceries because of what she calls Donald Trump's war in Iran, and that they are ready to stop him."
     },
     {
-      "id": "2109027407185277123",
-      "desk": "tech",
-      "line": "Elon Musk says you can photograph your credit card, drop it in the chat, and Grok will search the internet for the best deal and order the item. In a reply he says he ordered LEGO this way. Grok is made by xAI, the company that also gathers the posts for this page. Not checked here.",
-      "also": [
-        "2109028313553399947"
-      ]
-    },
-    {
-      "id": "2109001821687853171",
-      "desk": "world",
-      "line": "Boris Johnson calls the US lifting of sanctions on Russian fuel sickening and says blaming Ukraine for the price spike is ridiculous, because prices rose after the Strait of Hormuz closed. He says ending the war is the way to bring Russian oil and gas back to market. Not checked here."
-    },
-    {
-      "id": "2108731631703871722",
+      "id": "2110181758943547547",
       "desk": "politics",
-      "line": "Journalist Aaron Rupar posts a 19 second video of the boxer Mike Tyson saying, \"There's no way I would be here if it wasn't for a president like Donald Trump.\" Rupar does not say where or when it was filmed. Not checked here."
+      "line": "Gunther Eagleman says Kathy Hochul blamed Trump for utility bills and that Bruce Blakeman answered: \"Donald Trump didn't raise utility rates 48 times. You did.\" An RNC Research post attaches the same quote to the Nassau County Executive. Not checked here.",
+      "also": ["2110151955104534889"]
     },
     {
-      "id": "2109038055625740535",
-      "desk": "sports",
-      "line": "Football reporter Fabrizio Romano quotes Real Madrid forward Vinicius Jr as saying he is still happy and wants to apologize to his teammates and Real Madrid fans. The post does not say what he is apologizing for. Not checked here."
-    },
-    {
-      "id": "2109019399361614118",
-      "desk": "entertainment",
-      "line": "Pop Crave quotes singer Kelly Clarkson as saying she drove to a Brooklyn store and was treated like the character played by Julia Roberts in \"Pretty Woman\". The store is not named in the post. Not checked here."
-    },
-    {
-      "id": "2109023282469261805",
-      "desk": "politics",
-      "line": "Political video account Acyn posts a 29 second clip captioned \"Trump: I could say the stupidest things and you'd clap\". The post does not say when or where it was said. Not checked here."
-    },
-    {
-      "id": "2108968536999895201",
-      "desk": "entertainment",
-      "line": "Film news account DiscussingFilm says Nicolas Cage confirms he will star in Season 5 of \"True Detective\", citing Entertainment Weekly. Not checked here."
-    },
-    {
-      "id": "2109051600836989417",
-      "desk": "entertainment",
-      "line": "WWE announces that Roman Reigns is still World Heavyweight Champion after a match at its Money in the Bank event on Saturday night."
-    },
-    {
-      "id": "2109036995552952475",
-      "desk": "science",
-      "line": "Anil Menon, whose account is verified as a government account, posts a 54 second video of an aurora and says it is as seen from the station, after significant solar activity. Not checked here."
-    },
-    {
-      "id": "2108888123493273642",
-      "desk": "entertainment",
-      "line": "The official account of the anime Dr. STONE announces, in Japanese, that a new anime titled \"Dr.STONE TERRAFORMING\" is in production, a story set after the final episode of the TV series. The post carries a 29 second video."
-    },
-    {
-      "id": "2108923070417129667",
-      "desk": "world",
-      "line": "The UN Human Rights office posts that it is concerned by reports of mass detentions of demonstrators, protest leaders, lawyers and journalists before and during large demonstrations in Delhi. It calls on the authorities to respect the right to peaceful assembly. Not checked here."
-    },
-    {
-      "id": "2109117328189182102",
-      "desk": "sports",
-      "line": "Bleacher Report posts a 17 second video, credited to the Kentucky football account, of a two-point conversion it says beat No. 10 LSU in overtime, with fans storming the field."
-    },
-    {
-      "id": "2108992955382210632",
-      "desk": "science",
-      "line": "AI industry commentator Andrew Curran posts a slide he says is from Terence Tao's \"Math 2.0\" public lecture at Caltech. He adds that a Stage 4 cancer patient would say understanding how a cure works does not matter to them. Not checked here."
-    },
-    {
-      "id": "2108971933324685600",
-      "desk": "entertainment",
-      "line": "The account Animetrends says Boichi, the creator of \"Dr. STONE\", states that readers of pirated manga are \"our future audience\" because many countries lack legal ways to buy manga, and that affordable digital services are the answer. The quotes are the account's. Not checked here."
-    },
-    {
-      "id": "2109005704275374227",
-      "desk": "politics",
-      "line": "Representative Brian Fitzpatrick says he will introduce bipartisan legislation to block all purchases of Russian oil, called the \"Ronald Reagan Peace Through Strength Act\", and force it to the floor by discharge. He says it will pass overwhelmingly. Not checked here."
-    },
-    {
-      "id": "2109010544644571569",
+      "id": "2110201855762391208",
       "desk": "internet",
-      "line": "The account Pop Base says TikTok now allows users to repost comments, and attaches two screenshots. Not checked here."
+      "line": "Yoxics says RaKai had to call 911 over trouble breathing while trying to set a record for most T-shirts worn at once. A video is attached. Not checked here."
     },
     {
-      "id": "2108976004031012961",
-      "desk": "entertainment",
-      "line": "The account ToonHive quotes Nicolas Cage as saying he refused to sign a waiver allowing Amazon to use AI in his \"Spider-Noir\" series, and that he is \"not an AI-friendly actor\". Not checked here."
+      "id": "2110121696535470196",
+      "desk": "gaming",
+      "line": "A user posts a video captioned \"Windows 7 on PS5\"."
     },
     {
-      "id": "2109070090000015659",
-      "desk": "world",
-      "line": "Secretary Marco Rubio, on a government-verified account, says the United States condemns recent Houthi attacks on Saudi Arabia, including a strike on King Khalid International Airport in Riyadh that he says killed numerous people, among them an American citizen. Not checked here."
+      "id": "2110138921841479895",
+      "desk": "gaming",
+      "line": "In Spanish, a user lists what they say are details of a discarded version of RE9 called \"Resident Evil Apocalypse\", with Jill, Leon, Ada and Sheva as leads. The post does not say where the details come from. Not checked here."
     },
     {
-      "id": "2109132094454829157",
-      "desk": "entertainment",
-      "line": "The account Late Night-er posts a 29 second video that it says shows Shane Gillis dropping a live F-bomb on Saturday Night Live. Not checked here."
-    },
-    {
-      "id": "2109084934283710914",
+      "id": "2110234147956601114",
       "desk": "sports",
-      "line": "The account acdmma_ posts a 48 second video and calls Andre Fili's head kick possibly the knockout of the year at UFC Vegas 122. Not checked here."
+      "line": "Fabrizio Romano quotes Rafael Leão as saying he hopes Lamine Yamal wins the Ballon d'Or and big trophies with Barça, and calling him one of the best in the world."
     },
     {
-      "id": "2108993426025021479",
-      "desk": "politics",
-      "line": "Former Vice President Mike Pence says President Trump's decision to lift sanctions on Russian energy makes no sense and should be rescinded. He calls for harsh sanctions on any nation that buys Russian energy. Not checked here."
-    },
-    {
-      "id": "2108855785530982800",
+      "id": "2110240563135951022",
       "desk": "world",
-      "line": "In Polish, Radosław Sikorski, a Polish politician, says his country's embassy reports fuel shortages even in Moscow. He says serious sources report Ukraine has damaged about half of Russia's refining capacity, and asks where export surpluses will come from. Not checked here."
+      "line": "Sternenko says Starlink terminal operation in Ukraine was restricted overnight, with connections dropping above 160 km/h, and that SpaceX likely acted at the Trump administration's request. Not checked here. Another account replies that Starlink and Starshield are different services.",
+      "also": ["2110327426580648014"]
     },
     {
-      "id": "2108948402033524979",
-      "desk": "tech",
-      "line": "Aaron Burnett posts a long thread arguing that the claim India's internet is great and cheap holds only for mobile, and that fixed home broadband is far less common. It joins the Starlink in India argument. His figures are his own. Not checked here."
+      "id": "2110273651023151330",
+      "desk": "world",
+      "line": "Radosław Sikorski asks Elon Musk whether he is playing politics with his products again, and tells him European customers are watching. The post quotes another post that is not recorded here."
     },
     {
-      "id": "2108663228029112702",
-      "desk": "business",
-      "line": "The venture firm a16z posts a chart in its weekly roundup. It says call center jobs grew about 4% a year for 15 years and are now shrinking about 4% a year. Not checked here."
+      "id": "2110199081385570786",
+      "desk": "world",
+      "line": "BRICS Info posts that India's High Commissioner says Canada will need 15,000,000 new immigrants over the next decade to meet job demand. Not checked here."
+    },
+    {
+      "id": "2110130318237995151",
+      "desk": "world",
+      "line": "In Portuguese, a video post quotes Flávio Bolsonaro as saying people who think he is radical on public security have not seen anything yet, and that he is talking with Derrite because he thinks El Salvador is too little."
     }
   ]
 }
