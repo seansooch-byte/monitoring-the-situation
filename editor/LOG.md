@@ -812,3 +812,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops c68ty, adds the two new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T22:20Z
+- Captures read: 2200Z. Last read: 2200Z.
+- X's check: 2200Z 39 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; for the next story pass.
+- Pulse: 37 items (1 new, 1 dropped). Added BNO News on the reported active shooter at Silver Rail Elementary School in Bend, Oregon (justice), with BNO's later post in `also`; line says nothing is checked here. Dropped past 36 hours: SynthPotato (gaming). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Eagles post (no words to work out); Kash Patel, Complex on the Jolie note, jameygannon, Wallace, Telugu360, Everett Stern (as in earlier passes); Musk's other posts and thecsguy (Amazon/Grok already on the pulse, account holds its place); AlertaMundoNews, kporzee, TropahPalm, Complex's Alaska student post (private individuals); other Bend posts (small, repeat the same report). Story pass: Bend shooting needs police and school sources.
+- Requests: watch list drops SynthPotato, adds the two Bend ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

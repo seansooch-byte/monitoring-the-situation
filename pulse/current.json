@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T21:10:00Z",
-  "capture": "2026-10-15T2059Z",
+  "updated_at": "2026-10-15T22:20:00Z",
+  "capture": "2026-10-15T2200Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -95,12 +95,6 @@
       "id": "2110377155079385477",
       "desk": "science",
       "line": "François Chollet posts that string theory is what happens when an intelligent system is starved of sensory input and starts hallucinating, and that intelligence needs grounding. The post is his opinion, not a finding.",
-      "also": []
-    },
-    {
-      "id": "2110314244457541802",
-      "desk": "gaming",
-      "line": "SynthPotato posts a long list of highlights it says come from a Bloomberg article on how GTA VI was made. The list and the article have not been checked here against each other.",
       "also": []
     },
     {
@@ -230,6 +224,14 @@
       "desk": "internet",
       "line": "Heyyesama posts a video captioned that Luffy is using the camera to put his eyes back in place. The caption points to a clip from One Piece. I could not see the video itself. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2110832194910298251",
+      "desk": "justice",
+      "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon. A later BNO post says several people, including children, were hurt, the shooter is dead and the number of victims is unclear. Police and school statements are not captured here. Not checked here.",
+      "also": [
+        "2110846886710251810"
+      ]
     }
   ]
 }
