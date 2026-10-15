@@ -682,3 +682,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops one id and adds six (61 ids). open.json timestamp only.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T07:15Z
+- Captures read: 0708Z. Last read: 0708Z.
+- X's check: 0708Z 27 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2070356379878220100 (ATEEZofficial, music video post; hashtags differ; not on the pulse or in a story, so not cited).
+- Pulse: unchanged, 45 items (0 new, 0 dropped; the oldest, the Fox News Politics Talarico post, is just inside 36 hours and goes next pass). Nothing new in 0708Z was large and fit to show. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Elon Musk's "Timing is everything" (account already holds places); eattmilo, AlertaMundoNews, Danny Trejo's son (private or injured individuals); AgkAztro's "most beautiful gif ever" (no media description, point cannot be worked out).
+- Requests: none changed.
+- Shipped: no, the pulse did not change.
+- For the main editor: nothing.
