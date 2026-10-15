@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T10:10:00Z",
-  "capture": "2026-10-15T0959Z",
+  "updated_at": "2026-10-15T11:45:00Z",
+  "capture": "2026-10-15T1108Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -214,6 +214,12 @@
       "id": "2110485766417866988",
       "desk": "politics",
       "line": "Acyn, an account that posts clips of political speeches, gives a transcript of remarks it attributes to Donald Trump about doctors who travel with him and what they do if someone in a crowd falls ill. No video is attached. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110646408227274753",
+      "desk": "entertainment",
+      "line": "BBC World reports that actor Imran Khan has been asked to leave India after taking part in a protest. The post gives no further detail; the BBC's story is not checked here.",
       "also": []
     }
   ]

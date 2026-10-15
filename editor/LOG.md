@@ -722,3 +722,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops three ids and adds the Elon Musk Grok Bot post (52 ids). open.json untouched.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T11:45Z
+- Captures read: 1108Z. Last read: 1108Z.
+- X's check: 1108Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited).
+- Pulse: 35 items (1 new, 0 dropped; the build shows 34, holding BBC World's second post off the front). Added BBC World on actor Imran Khan (entertainment). Tesla and remarks posts pass 36 hours next pass. Quiet: medicine, ideas, offbeat.
+- Added: 2026-10-14-tesla-roadster-demo (tech). Updated: 2026-10-14-starshield-speed-limit-ukraine (Musk's reported reply that the US government sets Starshield limits; correction added).
+- Left out: Nick Sortor's Alaska pardons (could not confirm outside X; stays on the pulse as "Not checked here"); Vinicius Jr suspension (search returned only a 2025 case); Dexerto on a South Korean influencer's death (not confirmed outside X); Sherrod Brown judges pledge, Burnham on Greens (not researched, candidates for the next story pass).
+- Requests: watch list adds the Imran Khan and BRICS Info posts. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. Process note: I ran a stale script left in /tmp by an earlier pass by mistake; I reverted its effects before committing.

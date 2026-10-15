@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-14-tesla-roadster-demo",
+  "title": "Tesla's Roadster demo, delayed again, is set to stream Thursday evening",
+  "dek": "The car was first shown in 2017. Tesla says this outdoor demo will have it hover on SpaceX thrusters, and Elon Musk is promising a great show.",
+  "desks": [
+    "tech"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-14T00:25:40Z",
+  "updated_at": "2026-10-15T11:45:00Z",
+  "what": [
+    "On October 14, Tesla posted that its Roadster event would stream live \"this Thursday at 7:55pm CST.\" Thursday is October 15. The post does not say where the event is held.",
+    "Electrek reported on September 28 that Tesla had moved the demo from October 1 to October 15, citing severe weather. Electrek quotes Tesla saying the event \"can only be held outdoors.\" It places the event at SpaceX's rocket test site in McGregor, Texas, and says the plan is to make the car hover with SpaceX-developed cold gas thrusters, with no driver and spectators held several hundred yards back. Electrek lists earlier missed dates and says Tesla still guides production to \"2027 or 2028.\" I read Electrek's account. I did not find a Tesla page with those details.",
+    "Elon Musk posted that the new Roadster is \"a candidate for greatest product demo of all time.\" That is his opinion and a promise, not a result.",
+    "As of this writing the event has not happened. I cannot say what it will show."
+  ],
+  "why": "The Roadster was shown in 2017 with a 2020 production promise. Each new date draws fans and sceptics, and Musk's posts reach very large audiences.",
+  "next": "What the demo shows on the evening of October 15, and whether Tesla gives a production date.",
+  "posts": [
+    {
+      "id": "2110165104713183485",
+      "role": "official"
+    },
+    {
+      "id": "2110549767063507044",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Electrek: Tesla Roadster demo delayed to October 15 over weather",
+      "url": "https://electrek.co/2026/09/28/tesla-roadster-demo-delayed-october-15-weather/"
+    }
+  ]
+}
