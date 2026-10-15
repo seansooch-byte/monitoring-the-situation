@@ -632,3 +632,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swapped two ids for two (59 ids). open.json timestamp only.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T02:10Z
+- Captures read: 0159Z. Last read: 0159Z.
+- X's check: 0159Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items (1 new, 1 dropped; the build shows 44, holding PopBase's second post to its life desk). Added MLB's Game 3 post (sports). Dropped Unusual Whales's pandemic post (36 hours old). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: other Dodgers v Brewers posts (sports full, smaller, same game); eattmilo, Danny Trejo's son and AlertaMundoNews posts (injured or private individuals); Starlink post (advertisement); Denise Richards post (personal claim, unchecked); old_content posts.
+- Requests: watch list swapped one id for one (59 ids). open.json timestamp only.
+- Shipped: see report.
+- For the main editor: nothing.

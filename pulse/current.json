@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T01:25:00Z",
-  "capture": "2026-10-15T0103Z",
+  "updated_at": "2026-10-15T02:10:00Z",
+  "capture": "2026-10-15T0159Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -24,12 +24,6 @@
       "id": "2110047358264488023",
       "desk": "entertainment",
       "line": "A user posts a video with the caption: remembering the day they downloaded Letterboxd and marked every movie they had ever watched as watched.",
-      "also": []
-    },
-    {
-      "id": "2110005182511956436",
-      "desk": "world",
-      "line": "Unusual Whales posts that the United Nations adopted a global pandemic preparedness declaration by 153 to 3, per UN News, with the United States, Israel and Argentina voting against. Not checked here.",
       "also": []
     },
     {
@@ -285,6 +279,12 @@
       "id": "2110385901297709079",
       "desk": "justice",
       "line": "TMZ reports, as an exclusive, that Diddy's head injury came from a prison fight with a Jamaican drug lord it calls Dudus. The post names no source for the claim. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110523723732107761",
+      "desk": "sports",
+      "line": "MLB posts a video captioned \"Jackson Chourio, first pitch, Brewers lead!\" Other posts about Game 3 of Dodgers v Brewers describe it as a leadoff home run.",
       "also": []
     }
   ]
