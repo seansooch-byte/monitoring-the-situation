@@ -1,0 +1,6 @@
+post.fields=created_at,public_metrics,author_id,referenced_tweets,attachments,entities,lang,note_tweet,conversation_id,edit_history_tweet_ids,possibly_sensitive
+expansions=author_id,attachments.media_keys,attachments.media_source_tweet_id,referenced_tweets.id,referenced_tweets.id.author_id
+user.fields=created_at,description,public_metrics,verified,verified_type,username,name,profile_image_url
+media.fields=type,url,preview_image_url,duration_ms,alt_text,width,height
+max_results=25
+sort_order=recency
