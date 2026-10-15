@@ -792,3 +792,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T20:30Z
+- Captures read: 2009Z. Last read: 2009Z.
+- X's check: 2009Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; stories are not touched in a pulse pass, so it is for the next story pass.
+- Pulse: 34 items (0 new, 2 dropped). Dropped past 36 hours: Sikorski to Musk (still cited by 2026-10-14-starshield-speed-limit-ukraine, so it stays on the watch list) and Osint613 on the Israeli Apache purchase. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: DailyLoud Samuel L. Jackson clip (no media description, the reporter may be a private person); esidery on Aikman leaving ESPN (unconfirmed, repeats a report already on the pulse); DiscussingFilm Friday the 13th prequel (account holds its place); Consequence on Roger Waters and James Hetfield, and the Guardians playoff clips (small, music and sports already covered); Ruth's Chris dinner post (private individual, no point to work out).
+- Requests: watch list drops the Osint613 id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
