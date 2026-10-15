@@ -802,3 +802,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the Osint613 id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T21:10Z
+- Captures read: 2059Z. Last read: 2059Z.
+- X's check: 2059Z 32 confirmed, 0 missing, 0 mismatched, 1 withheld. The withheld post is probably 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools), still not on the watch list; stories are not touched in a pulse pass, so it is for the next story pass. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited).
+- Pulse: 37 items on the file (2 new, 1 dropped). Added IGN on the Daryl Dixon clip (entertainment) and Heyyesama's Luffy clip (internet, no media description, line says so). Dropped past 36 hours: c68ty (Denise Richards quotes). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: MLB Petey Halpin posts (account already holds its place on sports); Complex on the Jolie note (trivial, not checked); Kash Patel, Pope Leo, Gaetz, Wallace, Telugu360, Everett Stern, jameygannon (as in earlier passes); AlertaMundoNews, kporzee, TropahPalm (private individuals); hippyygoat (pile-on, unclear point).
+- Requests: watch list drops c68ty, adds the two new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

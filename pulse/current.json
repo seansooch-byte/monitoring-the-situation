@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T20:30:00Z",
-  "capture": "2026-10-15T2009Z",
+  "updated_at": "2026-10-15T21:10:00Z",
+  "capture": "2026-10-15T2059Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -116,12 +116,6 @@
       "also": []
     },
     {
-      "id": "2110293580086436290",
-      "desk": "entertainment",
-      "line": "The account c68ty posts quotes it attributes to Denise Richards, in which she says she chose to talk openly about her facelift after her ex-husband mentioned it in court. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110571616384213156",
       "desk": "ai",
       "line": "Nic Cruz Patane says his Grok Bot was blocked when it tried to order from Amazon, and quotes a message saying continued access by an unauthorized AI agent violates Amazon's Conditions of Use. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
@@ -223,6 +217,18 @@
       "id": "2110664497769701654",
       "desk": "internet",
       "line": "Dexerto reports that South Korean running influencer Yoo Ji-won has died aged 25 after collapsing 500 meters from the finish line of a half-marathon. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110417606574268816",
+      "desk": "entertainment",
+      "line": "IGN posts a clip from Season 4 of \"The Walking Dead: Daryl Dixon\" from the #IGNFanFest event and calls it terrifying, saying you cannot outrun a zombie horde.",
+      "also": []
+    },
+    {
+      "id": "2110372067614904646",
+      "desk": "internet",
+      "line": "Heyyesama posts a video captioned that Luffy is using the camera to put his eyes back in place. The caption points to a clip from One Piece. I could not see the video itself. Not checked here.",
       "also": []
     }
   ]
