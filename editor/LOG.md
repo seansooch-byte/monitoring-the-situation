@@ -782,3 +782,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the three new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T19:30Z
+- Captures read: 1908Z. Last read: 1908Z.
+- X's check: 1908Z 34 confirmed, 0 missing, 0 mismatched, 1 withheld. The withheld post is probably 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools), still not on the watch list; stories are not touched in a pulse pass, so it is for the next story pass. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited).
+- Pulse: 36 items (2 new, 1 dropped). Added Pete Thamel on the College Football Playoff nearing 24 teams (sports) and Dexerto on the death of runner Yoo Ji-won (internet). Dropped past 36 hours: BBC World on the Saudi sentence (still cited by its story, so it stays on the watch list). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Petey Halpin and Chandler Simpson ALCS clips (minutes old, near-duplicates, sports already has several); Matt Wallace Trump rally post (unconfirmed security claim); Telugu360 Aurora plot post (crime claim, not checked, candidate for a story pass); Everett Stern letter to Bessent and jameygannon on Shane Gillis (claims about real people, not checked); TropahPalm, kporzee, eattmilo, AlertaMundoNews, heyyitsjanea (private individuals); Kash Patel (no point to work out); Musk's other posts (account holds its place).
+- Requests: watch list adds the two new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

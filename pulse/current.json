@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T18:15:00Z",
-  "capture": "2026-10-15T1803Z",
+  "updated_at": "2026-10-15T19:30:00Z",
+  "capture": "2026-10-15T1908Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -22,12 +22,6 @@
       "also": [
         "2110347809308455363"
       ]
-    },
-    {
-      "id": "2110252784813568174",
-      "desk": "world",
-      "line": "BBC World reports that Saudi Arabia has overturned a death sentence given to a man over a Facebook comment.",
-      "also": []
     },
     {
       "id": "2110355864875872634",
@@ -229,6 +223,18 @@
       "id": "2110512395470987450",
       "desk": "politics",
       "line": "Kyle Griffin posts a Wall Street Journal report that the Trump administration's investigation into Rep. Ilhan Omar is aimed at building a case to strip her of her citizenship and deport her, citing officials and others familiar with the probe. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110787647610515541",
+      "desk": "sports",
+      "line": "Pete Thamel reports, citing sources, that the College Football Playoff is nearing a deal to expand to 24 teams, starting in 2027 and pending final approvals. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110664497769701654",
+      "desk": "internet",
+      "line": "Dexerto reports that South Korean running influencer Yoo Ji-won has died aged 25 after collapsing 500 meters from the finish line of a half-marathon. Not checked here.",
       "also": []
     }
   ]
