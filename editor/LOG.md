@@ -662,3 +662,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swapped one id for one (60 ids). open.json timestamp only.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T05:10Z
+- Captures read: 0502Z. Last read: 0502Z.
+- X's check: 0502Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows one mismatch at 2202Z on Oct 14 (id not recovered).
+- Pulse: 41 items (0 new, 4 dropped, all past 36 hours: the Narnia-day video and the Shaquille O'Neal TikTok claim (entertainment, internet), the Mr. Fantastic Rivals post (gaming), the Gemini 4 Argon post (ai)). Nothing new in 0502Z was large and fit to show. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Telugu360's Aurora temple-plot post (names a private person, his employer and a co-worker's account); Kash Patel's "From Russia, with Love…" (no media, point cannot be worked out); CStewartNews on the Keefe D sentence (34 hours old, not confirmed outside X here; a candidate for a story pass); Elon Musk's "Timing is everything" (account already holds places); eattmilo and AlertaMundoNews posts (injured or private individuals); old_content posts.
+- Requests: watch list drops the four dropped ids (56 ids). open.json timestamp only.
+- Shipped: see report.
+- For the main editor: nothing.

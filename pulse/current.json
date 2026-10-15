@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T04:25:00Z",
-  "capture": "2026-10-15T0404Z",
+  "updated_at": "2026-10-15T05:10:00Z",
+  "capture": "2026-10-15T0502Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -19,12 +19,6 @@
         "2110068149622350226",
         "2110068049206194384"
       ]
-    },
-    {
-      "id": "2110047358264488023",
-      "desk": "entertainment",
-      "line": "A user posts a video with the caption: remembering the day they downloaded Letterboxd and marked every movie they had ever watched as watched.",
-      "also": []
     },
     {
       "id": "2110111648019358068",
@@ -104,21 +98,9 @@
       "also": []
     },
     {
-      "id": "2110051057829364066",
-      "desk": "internet",
-      "line": "A user says Shaquille O'Neal posted a video on TikTok and that people in the comments are going wild. The video is not described in the capture.",
-      "also": []
-    },
-    {
       "id": "2110222061780254801",
       "desk": "life",
       "line": "PopBase posts that today is National I Love You Day.",
-      "also": []
-    },
-    {
-      "id": "2110040532429009014",
-      "desk": "gaming",
-      "line": "RivalsAssembled posts a video and says a new legendary Mr. Fantastic skin has been revealed.",
       "also": []
     },
     {
@@ -243,12 +225,6 @@
       "id": "2110226740425445513",
       "desk": "politics",
       "line": "Donald Trump posts a video and says it shows where the US sends its \"killers, drug dealers and thugs\", and that this is why murder and other crimes are at record lows. The video is not described in the capture. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110040034489381228",
-      "desk": "ai",
-      "line": "Google's Antigravity account announces Gemini 4 Argon, which it calls its frontier model for complex workflows. It says Google saw 35% more agentic code and 30% fewer post-submit rollbacks, and that it is rolling out to Google AI Ultra subscribers. Not checked here.",
       "also": []
     },
     {
