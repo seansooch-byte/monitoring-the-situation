@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T22:20:00Z",
-  "capture": "2026-10-15T2200Z",
+  "updated_at": "2026-10-15T23:16:40Z",
+  "capture": "2026-10-15T2308Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -232,6 +232,18 @@
       "also": [
         "2110846886710251810"
       ]
+    },
+    {
+      "id": "2110619178520490024",
+      "desk": "entertainment",
+      "line": "Complex reports that a handwritten thank-you note Angelina Jolie left for hotel staff while filming ‘Maria’ in Greece has resurfaced, and that people are trying to work out what it says. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110599487228117283",
+      "desk": "gaming",
+      "line": "House House, the studio account for Big Walk, posts a link to an explanation of why the game is not available on Xbox. The explanation is in a screenshot of its site that I could not read in full. Not checked here.",
+      "also": []
     }
   ]
 }
