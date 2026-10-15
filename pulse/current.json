@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T09:20:00Z",
-  "capture": "2026-10-15T0908Z",
+  "updated_at": "2026-10-15T10:10:00Z",
+  "capture": "2026-10-15T0959Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -13,12 +13,6 @@
       "id": "2110201855762391208",
       "desk": "internet",
       "line": "Yoxics says RaKai had to call 911 over trouble breathing while trying to set a record for most T-shirts worn at once. A video is attached. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110121696535470196",
-      "desk": "gaming",
-      "line": "A user posts a video captioned \"Windows 7 on PS5\".",
       "also": []
     },
     {
@@ -105,12 +99,6 @@
       "also": []
     },
     {
-      "id": "2110126570233094527",
-      "desk": "science",
-      "line": "SpaceX posts a video and photos of Starship Ship 40, which it says was the first Starship to return to its launch site. It says the ship now stands in a Megabay at Starbase and will give data on a flown heatshield, engines and avionics.",
-      "also": []
-    },
-    {
       "id": "2110357842125328426",
       "desk": "music",
       "line": "K-charts account kchartsmaster reports that muuo:23, a five-member K-pop group made with generative AI by Creation Zipup, pre-debuted with a single called NEVERTHELESS.",
@@ -146,12 +134,6 @@
       "id": "2110226740425445513",
       "desk": "politics",
       "line": "Donald Trump posts a video and says it shows where the US sends its \"killers, drug dealers and thugs\", and that this is why murder and other crimes are at record lows. The video is not described in the capture. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110125937551397151",
-      "desk": "ai",
-      "line": "Elon Musk posts that Grok @Bot detects scam emails, with a link. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
       "also": []
     },
     {
@@ -224,7 +206,9 @@
       "id": "2110571616384213156",
       "desk": "ai",
       "line": "Nic Cruz Patane says his Grok Bot was blocked when it tried to order from Amazon, and quotes a message saying continued access by an unauthorized AI agent violates Amazon's Conditions of Use. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
-      "also": []
+      "also": [
+        "2110602585572860213"
+      ]
     },
     {
       "id": "2110485766417866988",

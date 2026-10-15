@@ -712,3 +712,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops three ids and keeps the two Pope Leo posts for their story (54 ids). open.json untouched.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T10:10Z
+- Captures read: 0959Z. Last read: 0959Z.
+- X's check: 0959Z 28 confirmed, 0 missing, 0 mismatched, 1 withheld. No new mismatch; the ledger still shows the earlier ones at 0603Z and 0708Z (neither cited).
+- Pulse: 34 items (0 new, 3 dropped). Dropped, all past 36 hours: oBasiiiiiim's Windows 7 on PS5 (gaming), Elon Musk's ai post, SpaceX (science). Elon Musk's Grok Bot post, which quotes the Nic Cruz Patane post, is attached to it in `also`. Quiet: medicine, ideas, offbeat, gaming.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Elon Musk's other posts (account holds places); AlertaMundoNews (private individual); IGN (advertisement); Kash Patel "From Russia, with Love..." (no point to work out); Massie on the House adjourning (small beside the rest; candidate for a story pass on the Epstein files and Hegseth); Fabrizio Romano on Mourinho (second sports place not needed).
+- Requests: watch list drops three ids and adds the Elon Musk Grok Bot post (52 ids). open.json untouched.
+- Shipped: see report.
+- For the main editor: nothing.
