@@ -243,3 +243,4 @@ Other facts seen this run:
   as a rotation in capture/RUNBOOK.md.
 - Three ids in a by-id read of 94 returned "Not Found Error"; three posts in search results came
   without their author in `includes.users` and were left out.
+- 2026-10-15T0708Z: X rejects the bare common word `and` as a search term ("Ambiguous use of and as a keyword. Use a space to logically join two clauses, or \"and\" to find occurrences of and in text (at position 1)"), and the rejected read still counts. Quote it: `"and" lang:en is:quote -is:retweet`.
