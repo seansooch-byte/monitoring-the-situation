@@ -732,3 +732,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the Imran Khan and BRICS Info posts. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. Process note: I ran a stale script left in /tmp by an earlier pass by mistake; I reverted its effects before committing.
+
+## 2026-10-15T12:40Z
+- Captures read: 1210Z. Last read: 1210Z.
+- X's check: 1210Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited).
+- Pulse: 35 items (2 new, 2 dropped; the build shows 34, holding BBC World's second post off the front). Added dnapway on Jensen and TSMC (business), SpaceXSI on Grok Voice 3.0 (ai, with the xAI note). Dropped past 36 hours: the Tesla Roadster event post (the live Roadster story still cites it) and remarks. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Telugu360 on the Aurora temple plot (names an arrested private person and an employer); Elon Musk's other posts (account holds places); AlertaMundoNews, kporzee, muhammadshehad2 (private individuals); IGN, Netflix, Starlink (advertisements); Kash Patel "From Russia, with Love..." (no point to work out); wearelloud Tarantino (ledger mismatch); MBS ultimatum to Russia (single claim, not confirmed, candidate for a story pass).
+- Requests: watch list drops the remarks post and adds the two new ids (54 ids). open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

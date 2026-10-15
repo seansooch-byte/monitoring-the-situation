@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T11:45:00Z",
-  "capture": "2026-10-15T1108Z",
+  "updated_at": "2026-10-15T12:40:00Z",
+  "capture": "2026-10-15T1210Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -39,12 +39,6 @@
       ]
     },
     {
-      "id": "2110165104713183485",
-      "desk": "tech",
-      "line": "Tesla says its Roadster event will stream live this Thursday at 7:55pm CST.",
-      "also": []
-    },
-    {
       "id": "2110196734718845397",
       "desk": "disaster",
       "line": "Joshua Barzon posts a map of every hurricane to hit the United States over 173 years and says Virginia, Maryland and Delaware seem to have a \"magical hurricane force field\". Not checked here.",
@@ -60,12 +54,6 @@
       "id": "2110222061780254801",
       "desk": "life",
       "line": "PopBase posts that today is National I Love You Day.",
-      "also": []
-    },
-    {
-      "id": "2110157114958368833",
-      "desk": "world",
-      "line": "Remarks, a news account, posts that Canadian Prime Minister Carney says he plans to increase immigration into Canada. Not checked here.",
       "also": []
     },
     {
@@ -220,6 +208,18 @@
       "id": "2110646408227274753",
       "desk": "entertainment",
       "line": "BBC World reports that actor Imran Khan has been asked to leave India after taking part in a protest. The post gives no further detail; the BBC's story is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110535115059470527",
+      "desk": "business",
+      "line": "dnapway posts a clip in which Jensen says he first reached the founder of TSMC by cold calling a number from the Yellow Pages. The clip says TSMC and UMC were poor companies then. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110416580899168305",
+      "desk": "ai",
+      "line": "SpaceXSI announces Grok Voice 3.0, which it calls the most intelligent speech-to-speech model, able to resolve customer calls and answer in under a second. These are the company's own claims and are not checked here. Grok is made by xAI, the company that also makes the Grok model gathering this page's posts.",
       "also": []
     }
   ]
