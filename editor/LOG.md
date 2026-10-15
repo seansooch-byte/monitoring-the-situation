@@ -622,3 +622,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swapped five ids for five (59 ids). open.json timestamp only.
 - Shipped: see report.
 - For the main editor: the Starlink/Starshield dispute (Sternenko, Musk's reply, Sen. Shaheen's statement) is large and worth a story pass.
+
+## 2026-10-15T01:30Z
+- Captures read: 0103Z. Last read: 0103Z.
+- X's check: 0103Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items (2 new, 2 dropped; the build shows 44, holding PopBase's second post to its life desk). Added Epic Games's launcher post (gaming) and TMZ's Diddy report (justice, marked unchecked). Dropped HormuzLetter's Valuyki depot post (smallest on a full world desk) and BRICS Info's Canada immigration post (same subject as the Remarks post already kept). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: eattmilo's electrocution post and Danny Trejo's son post (injured or private individuals, unconfirmed); Collin Rugg's and DailyLoud's Six Flags posts (name a private person); AlertaMundoNews swing clip (private individual flag); the aliens joke and the gif (point unclear); Kash Patel's post (no content); old_content posts; more Romano posts (account already on the pulse).
+- Requests: watch list swapped two ids for two (59 ids). open.json timestamp only.
+- Shipped: see report.
+- For the main editor: nothing.

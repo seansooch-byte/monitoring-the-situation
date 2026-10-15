@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T00:40:00Z",
-  "capture": "2026-10-15T0006Z",
+  "updated_at": "2026-10-15T01:25:00Z",
+  "capture": "2026-10-15T0103Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -69,12 +69,6 @@
       "id": "2110273651023151330",
       "desk": "world",
       "line": "Radosław Sikorski asks Elon Musk whether he is playing politics with his products again, and tells him European customers are watching. The post quotes another post that is not recorded here.",
-      "also": []
-    },
-    {
-      "id": "2110199081385570786",
-      "desk": "world",
-      "line": "BRICS Info posts that India's High Commissioner says Canada will need 15,000,000 new immigrants over the next decade to meet job demand. Not checked here.",
       "also": []
     },
     {
@@ -188,12 +182,6 @@
       "also": []
     },
     {
-      "id": "2110143974098796801",
-      "desk": "world",
-      "line": "HormuzLetter says Ukraine struck an oil depot in Valuyki, Belgorod Oblast, and launched over 500 drones into Russia overnight, the first strike on energy sites since a US-announced energy ceasefire. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110126570233094527",
       "desk": "science",
       "line": "SpaceX posts a video and photos of Starship Ship 40, which it says was the first Starship to return to its launch site. It says the ship now stands in a Megabay at Starbase and will give data on a flown heatshield, engines and avionics.",
@@ -285,6 +273,18 @@
       "id": "2110457263840477263",
       "desk": "defense",
       "line": "BRICS Info posts that Elon Musk responds to claims SpaceX restricted Ukraine's access to its satellite internet, quoting him saying Starshield systems are owned and controlled by the US government and that limits on them are set by the US military and ultimately the president. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110369347592229333",
+      "desk": "gaming",
+      "line": "Epic Games, the company behind the Epic Games Store, says it \"vibe coded\" a faster Epic Games Launcher than \"the other guy\" and invites people to try it in Preview. The speed claim is the company's own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110385901297709079",
+      "desk": "justice",
+      "line": "TMZ reports, as an exclusive, that Diddy's head injury came from a prison fight with a Jamaican drug lord it calls Dudus. The post names no source for the claim. Not checked here.",
       "also": []
     }
   ]
