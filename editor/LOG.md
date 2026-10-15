@@ -692,3 +692,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed.
 - Shipped: no, the pulse did not change.
 - For the main editor: nothing.
+
+## 2026-10-15T08:45Z
+- Captures read: 0804Z. Last read: 0804Z.
+- X's check: 0804Z 28 confirmed, 0 missing, 0 mismatched, 1 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (ArtificialAnlys, ATEEZofficial; neither cited).
+- Pulse: 41 items (2 new, 6 dropped; the build shows 39, holding PopBase's and Elon Musk's second posts). Dropped, all past 36 hours: OpenAI's recording-device post (the live OpenAI story still cites it), Fox News Politics, Zelensky, Paul Graham, Fox News (Georgia officer), CBS Sports Golazo (with its attached reply). Added Nic Cruz Patane on Amazon blocking his Grok Bot (ai) and Acyn's transcript of Trump on doctors at his events (politics; the grabber had it on medicine, but it is a political remark). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Elon Musk's other posts (account holds a place); eattmilo, AlertaMundoNews, oeste, kporzee (private, injured or minor); Starlink, Netflix, 2MinuteDrill, IGN Walking Dead clip (advertisements); Kash Patel "From Russia, with Love..." (no point to work out); Jim Chuong HR post (advice); EdiriQX and PrzemekShura (unconfirmed claims about real people); Telugu360 (names a private person); Jeff Passan salary-cap post (sports already full; candidate for a story pass).
+- Requests: watch list drops five ids, adds two, and keeps the OpenAI post for its story (56 ids). open.json untouched.
+- Shipped: see report.
+- For the main editor: nothing.

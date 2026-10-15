@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T06:09:37Z",
-  "capture": "2026-10-15T0603Z",
+  "updated_at": "2026-10-15T08:45:00Z",
+  "capture": "2026-10-15T0804Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -77,12 +77,6 @@
       "also": []
     },
     {
-      "id": "2110095403198849132",
-      "desk": "ai",
-      "line": "OpenAI says it found a hidden recording device in one of its offices, that an employee planted it, and that the FBI made an arrest. It says it has no sign of access to model weights, source code or customer data, and that the employee was terminated. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110178104916230500",
       "desk": "internet",
       "line": "Nature Unedited posts a video captioned \"Before and after the dog park\". The video is not described in the capture.",
@@ -92,18 +86,6 @@
       "id": "2110222061780254801",
       "desk": "life",
       "line": "PopBase posts that today is National I Love You Day.",
-      "also": []
-    },
-    {
-      "id": "2110087583120408870",
-      "desk": "politics",
-      "line": "Fox News Politics says security camera footage reviewed by The New York Times disproves a rumor about where Texas Democratic Senate nominee James Talarico was during nine days in early October, and that his campaign said he had the flu. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110104163967246529",
-      "desk": "world",
-      "line": "Volodymyr Zelensky says a Russian ballistic missile attack hit Kyiv's CHPP-4 energy plant and damaged a residential building, and that Ukraine got no early warning from partners. He says Russia is preparing more launches. Not checked here.",
       "also": []
     },
     {
@@ -153,26 +135,6 @@
       "desk": "science",
       "line": "SpaceX posts a video and photos of Starship Ship 40, which it says was the first Starship to return to its launch site. It says the ship now stands in a Megabay at Starbase and will give data on a flown heatshield, engines and avionics.",
       "also": []
-    },
-    {
-      "id": "2110091290063090093",
-      "desk": "tech",
-      "line": "Paul Graham, a founder of the startup accelerator Y Combinator, posts that a Tesla Model 3 with FSD drove him and his wife to the gym with no hands on the controls, and calls it mind-blowing. His account of one drive; not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110076564654240126",
-      "desk": "justice",
-      "line": "Fox News reports that a Georgia police officer shot and killed a miniature donkey named HeeHaw while officers searched a farm for a missing child. It says the officer claims the donkey charged, the owner says it was only approaching people, and the officer is on administrative leave.",
-      "also": []
-    },
-    {
-      "id": "2110075228634112023",
-      "desk": "sports",
-      "line": "CBS Sports Golazo posts a video captioned \"Kate really went there with Micah.\" A fan account in also says it shows Kate Abdo introducing Micah Richards on CBS Sports with a joke about medals. The video itself is not described in the capture.",
-      "also": [
-        "2110090093075796274"
-      ]
     },
     {
       "id": "2110357842125328426",
@@ -282,6 +244,18 @@
       "id": "2110293580086436290",
       "desk": "entertainment",
       "line": "The account c68ty posts quotes it attributes to Denise Richards, in which she says she chose to talk openly about her facelift after her ex-husband mentioned it in court. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110571616384213156",
+      "desk": "ai",
+      "line": "Nic Cruz Patane says his Grok Bot was blocked when it tried to order from Amazon, and quotes a message saying continued access by an unauthorized AI agent violates Amazon's Conditions of Use. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110485766417866988",
+      "desk": "politics",
+      "line": "Acyn, an account that posts clips of political speeches, gives a transcript of remarks it attributes to Donald Trump about doctors who travel with him and what they do if someone in a crowd falls ill. No video is attached. Not checked here.",
       "also": []
     }
   ]
