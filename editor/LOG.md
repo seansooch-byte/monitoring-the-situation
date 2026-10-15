@@ -612,3 +612,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed; the watch list already holds every pulse and `also` id and the pinned post (59 ids). Timestamps only.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T00:40Z
+- Captures read: 0006Z. Last read: 0006Z.
+- X's check: 0006Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items (5 new, 5 dropped). Added Trump's video post (politics), Google Antigravity's Gemini 4 Argon announcement and Musk's Grok @Bot post (ai), Watcher Guru's market-loss post (markets), BRICS Info's quote of Musk on Starshield (defense). Dropped two small Grok Bot user posts (ai), the Mayor of New York Navaratri greeting, the Spanish RE9 post, Arsenal's photo (all smaller). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: RJ Mitte gossip and the electrocution tattoo post (private or injured individuals, unconfirmed); kporzee's health post (personal health claim, no outside source); Kash Patel's "From Russia, with Love" (no content to describe); Acyn's Trump clip (politics full, insulting wording); Mourinho posts (account already on the pulse); old_content posts; an undescribed gif and Danny Trejo's son post (point unclear).
+- Requests: watch list swapped five ids for five (59 ids). open.json timestamp only.
+- Shipped: see report.
+- For the main editor: the Starlink/Starshield dispute (Sternenko, Musk's reply, Sen. Shaheen's statement) is large and worth a story pass.

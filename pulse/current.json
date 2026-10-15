@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-14T23:30:00Z",
-  "capture": "2026-10-14T2302Z",
+  "updated_at": "2026-10-15T00:40:00Z",
+  "capture": "2026-10-15T0006Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -57,12 +57,6 @@
       "also": []
     },
     {
-      "id": "2110138921841479895",
-      "desk": "gaming",
-      "line": "In Spanish, a user lists what they say are details of a discarded version of RE9 called \"Resident Evil Apocalypse\", with Jill, Leon, Ada and Sheva as leads. The post does not say where the details come from. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110240563135951022",
       "desk": "world",
       "line": "Sternenko says Starlink terminal operation in Ukraine was restricted overnight, with connections dropping above 160 km/h, and that SpaceX likely acted at the Trump administration's request. Not checked here. Another account replies that Starlink and Starshield are different services.",
@@ -113,18 +107,6 @@
       "id": "2110095403198849132",
       "desk": "ai",
       "line": "OpenAI says it found a hidden recording device in one of its offices, that an employee planted it, and that the FBI made an arrest. It says it has no sign of access to model weights, source code or customer data, and that the employee was terminated. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110180938948747730",
-      "desk": "ai",
-      "line": "A user says a Grok Bot saved them more than $1,000 by filing a complex tax return with overseas reporting, and that they only reviewed and submitted it. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110224953287070195",
-      "desk": "ai",
-      "line": "A user says they made a Grok Bot that uses Suno, Midjourney and Opus to make music videos, and posts a 20-second teaser it made. Grok is made by xAI, the company behind the model that gathers this page's posts; Opus is made by Anthropic, the company behind the model that writes it. Not checked here.",
       "also": []
     },
     {
@@ -206,18 +188,6 @@
       "also": []
     },
     {
-      "id": "2110355411144675696",
-      "desk": "sports",
-      "line": "Arsenal posts a photo captioned \"The class of 26/27\".",
-      "also": []
-    },
-    {
-      "id": "2110161243332071841",
-      "desk": "politics",
-      "line": "The account of the Mayor of New York City posts a greeting for the Hindu festival of Navaratri, naming Garba dancing, Sindur Khela and Golu displays in homes.",
-      "also": []
-    },
-    {
       "id": "2110143974098796801",
       "desk": "world",
       "line": "HormuzLetter says Ukraine struck an oil depot in Valuyki, Belgorod Oblast, and launched over 500 drones into Russia overnight, the first strike on energy sites since a US-announced energy ceasefire. Not checked here.",
@@ -286,6 +256,36 @@
       "also": [
         "2110472954241032568"
       ]
+    },
+    {
+      "id": "2110226740425445513",
+      "desk": "politics",
+      "line": "Donald Trump posts a video and says it shows where the US sends its \"killers, drug dealers and thugs\", and that this is why murder and other crimes are at record lows. The video is not described in the capture. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110040034489381228",
+      "desk": "ai",
+      "line": "Google's Antigravity account announces Gemini 4 Argon, which it calls its frontier model for complex workflows. It says Google saw 35% more agentic code and 30% fewer post-submit rollbacks, and that it is rolling out to Google AI Ultra subscribers. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110125937551397151",
+      "desk": "ai",
+      "line": "Elon Musk posts that Grok @Bot detects scam emails, with a link. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110471187025575982",
+      "desk": "markets",
+      "line": "Watcher Guru, a news account, posts that $1 trillion was wiped out from the US stock market today, with a chart image. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110457263840477263",
+      "desk": "defense",
+      "line": "BRICS Info posts that Elon Musk responds to claims SpaceX restricted Ukraine's access to its satellite internet, quoting him saying Starshield systems are owned and controlled by the US government and that limits on them are set by the US military and ultimately the president. Not checked here.",
+      "also": []
     }
   ]
 }
