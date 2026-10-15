@@ -742,3 +742,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the remarks post and adds the two new ids (54 ids). open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T15:30Z
+- Captures read: 1305Z, 1413Z, 1516Z. Last read: 1516Z.
+- X's check: 1516Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). Grabber notes say 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) was reported withheld by earlier passes and is not on the watch list; stories are not touched in a pulse pass, so it is for the next story pass.
+- Pulse: 33 items (3 new, 5 dropped; the build shows 32, holding BBC World's second post off the front). Added Rockstar Games on the GTA VI launch trailer (gaming), iPopBase on Kalimantan wildfires (disaster), Jim Chuong on HR (internet). Dropped past 36 hours: yoxics, JoshuaBarzon, NatureUnedited, nicksortor (Alaska pardons, unconfirmed), rccsetzer. Quiet: ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Elon Musk's other posts (account holds places); AlertaMundoNews, eattmilo (private individuals); MattWallace888 Secret Service rally clip (shows private people, not confirmed); EdiriQX unnamed president's death (no source); FmrRepMTG (describes a woman at a rally); Dexerto influencer death (not confirmed outside X); Kash Patel "From Russia, with Love..." (no point to work out); IGN, Netflix, Starlink (advertisements); cryptorover PPI figure (unconfirmed).
+- Requests: watch list drops five ids and adds the three new ones (52 ids). open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

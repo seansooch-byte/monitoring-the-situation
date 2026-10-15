@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T12:40:00Z",
-  "capture": "2026-10-15T1210Z",
+  "updated_at": "2026-10-15T15:25:55Z",
+  "capture": "2026-10-15T1516Z",
   "items": [
     {
       "id": "2110549767063507044",
       "desk": "tech",
       "line": "Elon Musk says the new Tesla Roadster is a candidate for greatest product demo of all time. The post quotes another of his posts. Tesla has said the Roadster event streams live this Thursday. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110201855762391208",
-      "desk": "internet",
-      "line": "Yoxics says RaKai had to call 911 over trouble breathing while trying to set a record for most T-shirts worn at once. A video is attached. Not checked here.",
       "also": []
     },
     {
@@ -39,27 +33,9 @@
       ]
     },
     {
-      "id": "2110196734718845397",
-      "desk": "disaster",
-      "line": "Joshua Barzon posts a map of every hurricane to hit the United States over 173 years and says Virginia, Maryland and Delaware seem to have a \"magical hurricane force field\". Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110178104916230500",
-      "desk": "internet",
-      "line": "Nature Unedited posts a video captioned \"Before and after the dog park\". The video is not described in the capture.",
-      "also": []
-    },
-    {
       "id": "2110222061780254801",
       "desk": "life",
       "line": "PopBase posts that today is National I Love You Day.",
-      "also": []
-    },
-    {
-      "id": "2110178399129849873",
-      "desk": "politics",
-      "line": "Nick Sortor says President Trump announced full pardons for three Alaskans charged over fixing engines, and quotes Trump saying they faced 10 years in jail. Not checked here.",
       "also": []
     },
     {
@@ -179,12 +155,6 @@
       "also": []
     },
     {
-      "id": "2110190429777858976",
-      "desk": "entertainment",
-      "line": "Rccsetzer, a fan account, says Masashi Kishimoto explained that the Boruto manga was not his idea and that he is now writing his own sequel to Naruto. The post adds its own view of Boruto fans. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110293580086436290",
       "desk": "entertainment",
       "line": "The account c68ty posts quotes it attributes to Denise Richards, in which she says she chose to talk openly about her facelift after her ex-husband mentioned it in court. Not checked here.",
@@ -220,6 +190,24 @@
       "id": "2110416580899168305",
       "desk": "ai",
       "line": "SpaceXSI announces Grok Voice 3.0, which it calls the most intelligent speech-to-speech model, able to resolve customer calls and answer in under a second. These are the company's own claims and are not checked here. Grok is made by xAI, the company that also makes the Grok model gathering this page's posts.",
+      "also": []
+    },
+    {
+      "id": "2110717537964953810",
+      "desk": "gaming",
+      "line": "Rockstar Games says the Grand Theft Auto VI launch trailer is out and that the game arrives November 19. The post names the song \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110349489710219638",
+      "desk": "disaster",
+      "line": "iPopBase posts new photos of wildfires in Central Kalimantan, Indonesia. It says Indonesia ranks first in the world for daily wildfire carbon emissions, citing Copernicus. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110384152633565210",
+      "desk": "internet",
+      "line": "Jim Chuong says Human Resources is not an employee's friend and is there to protect the company. Four images are attached. It is his opinion.",
       "also": []
     }
   ]
