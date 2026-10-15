@@ -652,3 +652,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list gained 2109689305073614918 (60 ids).
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T04:25Z
+- Captures read: 0404Z. Last read: 0404Z.
+- X's check: 0404Z 34 confirmed, 0 missing, 0 mismatched, 1 withheld. I did not recover the id of the withheld post.
+- Pulse: 45 items (1 new, 1 dropped; the build shows 43, holding PopBase's second post to its life desk and Elon Musk's second to the ai desk). Added Elon Musk's Tesla Roadster post (tech). Dropped Kamala Harris's gas and groceries post (smallest on a full politics desk). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: eattmilo, Danny Trejo's son, AlertaMundoNews and the Palestinian mother post (private or injured individuals); kporzee's health post (private person, unconfirmed); Starlink post (advertisement); other Dodgers v Brewers posts (one MLB post already kept); Jim Chuong's HR post (workplace advice, no clear claim).
+- Requests: watch list swapped one id for one (60 ids). open.json timestamp only.
+- Shipped: see report.
+- For the main editor: nothing.
