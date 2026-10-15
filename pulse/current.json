@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T05:10:00Z",
-  "capture": "2026-10-15T0502Z",
+  "updated_at": "2026-10-15T06:09:37Z",
+  "capture": "2026-10-15T0603Z",
   "items": [
     {
       "id": "2110113833805402475",
@@ -9,15 +9,6 @@
       "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. A story on this page sets out what the Vatican and the Associated Press reported.",
       "also": [
         "2110114165922640106"
-      ]
-    },
-    {
-      "id": "2110068047700443191",
-      "desk": "entertainment",
-      "line": "Netflix posts a video, saying it shows how Narnia was created in Narnia: The Magician's Nephew, a film by Greta Gerwig, in theaters February 12.",
-      "also": [
-        "2110068149622350226",
-        "2110068049206194384"
       ]
     },
     {
@@ -190,12 +181,6 @@
       "also": []
     },
     {
-      "id": "2110056673394278844",
-      "desk": "world",
-      "line": "In Arabic, an account posts two photos captioned \"Prince Hussein and Princess Rajwa in their last appearance.\" The photos are not described in the capture and the post is not checked here.",
-      "also": []
-    },
-    {
       "id": "2110425991088943259",
       "desk": "sports",
       "line": "Fabrizio Romano reports that Real Madrid forward Vinicius Jr has been suspended for four La Liga games, which would include El Clásico. Not checked here.",
@@ -261,6 +246,42 @@
       "id": "2110523723732107761",
       "desk": "sports",
       "line": "MLB posts a video captioned \"Jackson Chourio, first pitch, Brewers lead!\" Other posts about Game 3 of Dodgers v Brewers describe it as a leadoff home run.",
+      "also": []
+    },
+    {
+      "id": "2110377155079385477",
+      "desk": "science",
+      "line": "François Chollet posts that string theory is what happens when an intelligent system is starved of sensory input and starts hallucinating, and that intelligence needs grounding. The post is his opinion, not a finding.",
+      "also": []
+    },
+    {
+      "id": "2110314244457541802",
+      "desk": "gaming",
+      "line": "SynthPotato posts a long list of highlights it says come from a Bloomberg article on how GTA VI was made. The list and the article have not been checked here against each other.",
+      "also": []
+    },
+    {
+      "id": "2110422019263156567",
+      "desk": "music",
+      "line": "The account keeno posts a video of Blueface showing new face tattoos, which the post describes as including a touched-up portrait of Benjamin Franklin, casino chips and a Maybach emblem.",
+      "also": []
+    },
+    {
+      "id": "2110399767897366690",
+      "desk": "music",
+      "line": "Genius marks 13 years since Eminem released \"Rap God\" and says the track fits 1,560 words into 6 minutes and 4 seconds. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110190429777858976",
+      "desk": "entertainment",
+      "line": "Rccsetzer, a fan account, says Masashi Kishimoto explained that the Boruto manga was not his idea and that he is now writing his own sequel to Naruto. The post adds its own view of Boruto fans. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110293580086436290",
+      "desk": "entertainment",
+      "line": "The account c68ty posts quotes it attributes to Denise Richards, in which she says she chose to talk openly about her facelift after her ex-husband mentioned it in court. Not checked here.",
       "also": []
     }
   ]

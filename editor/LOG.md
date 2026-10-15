@@ -672,3 +672,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the four dropped ids (56 ids). open.json timestamp only.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T06:12Z
+- Captures read: 0603Z. Last read: 0603Z.
+- X's check: 0603Z 28 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2110421964095713743 (ArtificialAnlys, Grok Voice 3.0 ranking; not on the pulse or in a story, so not cited).
+- Pulse: 45 items (6 new, 2 dropped; the build shows 43, holding PopBase's second post to its life desk and Elon Musk's second to the ai desk). Dropped the Narnia trailer item (past 36 hours; the live Narnia story still cites its posts) and the Arabic-language royal couple photo post (past 36 hours). Added Chollet (science), SynthPotato on GTA VI (gaming), keeno on Blueface (music), Genius on Rap God (music), Rccsetzer on Boruto (entertainment), c68ty on Denise Richards (entertainment). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: eattmilo, AlertaMundoNews, Danny Trejo's son, oeste child clip, Palestinian mother post, kporzee (private, injured or minor); Starlink and 2MinuteDrill posts (advertisements); Kash Patel "From Russia, with Love…" (no point to work out); Jim Chuong HR post (advice); Elon Musk's other posts (account holds a place); Netflix bodyguard film promo (advertisement); EdiriQX "president died" rumour and PrzemekShura post (claims about real people, unconfirmed).
+- Requests: watch list drops one id and adds six (61 ids). open.json timestamp only.
+- Shipped: see report.
+- For the main editor: nothing.
