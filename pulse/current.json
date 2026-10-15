@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T16:50:00Z",
-  "capture": "2026-10-15T1606Z",
+  "updated_at": "2026-10-15T17:30:00Z",
+  "capture": "2026-10-15T1709Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -87,12 +87,6 @@
       "also": [
         "2110472954241032568"
       ]
-    },
-    {
-      "id": "2110226740425445513",
-      "desk": "politics",
-      "line": "Donald Trump posts a video and says it shows where the US sends its \"killers, drug dealers and thugs\", and that this is why murder and other crimes are at record lows. The video is not described in the capture. Not checked here.",
-      "also": []
     },
     {
       "id": "2110471187025575982",
@@ -214,6 +208,18 @@
       "id": "2110355411144675696",
       "desk": "sports",
       "line": "Arsenal, the football club, posts a squad photo captioned \"The class of 26/27.\"",
+      "also": []
+    },
+    {
+      "id": "2110506786747011202",
+      "desk": "ai",
+      "line": "Mark Cuban says AI is book smart and not street smart. The post gives no example or detail.",
+      "also": []
+    },
+    {
+      "id": "2110459376846991620",
+      "desk": "tech",
+      "line": "Bloomberg's Mark Gurman, per his own post, reports that Apple is preparing to launch the first Apple Intelligence features in China in December, after years of regulatory scrutiny. Not checked here.",
       "also": []
     }
   ]

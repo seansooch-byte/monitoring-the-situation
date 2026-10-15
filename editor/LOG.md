@@ -762,3 +762,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-15-01 (Amazon and Pentagon statements). Watch list rebuilt (59 ids).
 - Shipped: see report.
 - For the main editor: reports differ on who issued the Imran Khan notice (FRRO or Mumbai Police); the story says so. The Saudi story names no one on purpose.
+
+## 2026-10-15T17:30Z
+- Captures read: 1709Z. Last read: 1709Z.
+- X's check: 1709Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; stories are not touched in a pulse pass, so it is for the next story pass.
+- Pulse: 35 items (2 new, 1 dropped). Added Mark Cuban on AI being book smart (ai) and Mark Gurman on Apple Intelligence in China (tech). Dropped past 36 hours: Trump's video post. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Elon Musk's other posts (account holds places); TropahPalm streamer clip and heyyitsjanea (private individuals); shortsqueeznews HSBC fund (unconfirmed claim); RpsAgainstTrump on Trump and Putin (aggregator quote, not checked); Ally_Sammarco photo (no point to work out); OpenAI Newsroom recording device (past 36 hours, names no one, candidate for a story pass); TwoMinuteDrill0 (advertisement).
+- Requests: watch list swaps the dropped id for the two new ones. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
