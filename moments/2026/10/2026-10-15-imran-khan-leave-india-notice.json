@@ -1,0 +1,50 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-15-imran-khan-leave-india-notice",
+  "title": "Actor Imran Khan is told to leave India by October 28 after joining a Mumbai protest",
+  "dek": "A film actor who holds a US passport and an Indian overseas card was detained at a protest on October 10. India has now given him a deadline to go. He plans to fight it.",
+  "desks": [
+    "world",
+    "entertainment",
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-10T12:33:59Z",
+  "what": [
+    "On October 10, police detained nearly 400 people at August Kranti Maidan in Mumbai during a protest calling for Chief Election Commissioner Gyanesh Kumar to resign. Reports and posts name actor Imran Khan among them.",
+    "On October 15, NDTV reported that Mumbai Police had directed Khan to leave India by October 28. The Quint and Brut report the notice came from the Foreigners Regional Registration Office (FRRO). The reports agree on the deadline and on the reason given: he took part in a protest while not an Indian citizen. Brut reports the notice cites sections 7 and 29 of the Immigration and Foreigners Act, 2025.",
+    "Khan is a US citizen with an Overseas Citizen of India (OCI) card. ThePrint reports a former BJP member of parliament, Kirit Somaiya, had complained about his taking part. It quotes Khan's lawyer saying \"We are going to challenge the notice.\" The Indian Express, as cited by Brut, says he is preparing to go to the Bombay High Court.",
+    "ThePrint quotes Maharashtra's Minister of State for Home (City), Yogesh Kadam: \"If someone is violating visa rules then he will face consequences.\" I did not find the notice itself, so the legal basis rests on those reports. Which office issued it differs between reports."
+  ],
+  "why": "It joins a film star, a protest about elections and the rules for foreign passport holders. What a foreign passport holder may do at a protest is the question underneath it.",
+  "next": "A filing in the Bombay High Court, or a statement from the FRRO or the Home Ministry, before the October 28 deadline.",
+  "posts": [
+    {
+      "id": "2108898838631120925",
+      "role": "origin"
+    },
+    {
+      "id": "2110596961166561470",
+      "role": "official"
+    },
+    {
+      "id": "2110611239915401570",
+      "role": "voice"
+    },
+    {
+      "id": "2110646408227274753",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ThePrint: Will Imran Khan now challenge Leave India notice in court? He has 13 days",
+      "url": "https://theprint.in/feature/imran-khan-leave-india-notice-oci-card-cjp-protest-mumbai-gyanesh-kumar/3072544/"
+    },
+    {
+      "label": "Brut: Why has actor Imran Khan been asked to leave India after a Mumbai protest?",
+      "url": "https://www.brut.media/in/articles/india/politics/why-has-actor-imran-khan-been-asked-to-leave-india-after-a-mumbai-protest"
+    }
+  ],
+  "updated_at": "2026-10-15T16:45:00Z"
+}

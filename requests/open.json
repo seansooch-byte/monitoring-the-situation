@@ -1,7 +1,13 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-15T15:25:55Z",
+  "updated_at": "2026-10-15T16:55:00Z",
   "requests": [
+    {
+      "id": "r-2026-10-15-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from Amazon or an Amazon spokesperson, or a named outlet quoting one, on Amazon blocking Grok Bot from placing orders (see post 2110571616384213156). Also any statement from the Pentagon, the White House or SpaceX on who set the Starshield speed limit in Ukraine."
+    },
     {
       "id": "r-2026-10-10-01",
       "kind": "search",

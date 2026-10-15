@@ -1,0 +1,50 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-15-amazon-blocks-grok-bot",
+  "title": "Amazon blocks Grok Bot from placing orders; Musk says shop elsewhere and floats a rival",
+  "dek": "AI assistants that buy things for you need the stores to let them in. Amazon is saying no to another one, and the maker of this one is saying so in public.",
+  "desks": [
+    "ai",
+    "business"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-15T03:21:00Z",
+  "what": [
+    "Early on October 15, Nic Cruz Patane said his Grok Bot tried to order from Amazon and was stopped. He posted a screenshot of a message that reads: \"Continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" He wrote that his bots could no longer use Amazon for orders.",
+    "A post on October 10 had already told Elon Musk that Amazon was blocking the bot, a few minutes after Musk described the shopping feature. Musk answered the October 15 reports in a post saying users can ask Grok Bot to buy \"someplace else\" because there are \"far more purchasing websites than just Amazon.\" Later he posted: \"Maybe we should start a competitor to Amazon.\" Investing.com reports he wrote that on Thursday, October 15, in reply to claims that Amazon was blocking Grok bots.",
+    "Investing.com reports that Amazon has also blocked Meta's Muse shopping agent, and that Amazon is building AI shopping tools of its own. It notes that a rival to Amazon would need merchants, delivery and changes in what shoppers do. The same report says Amazon shares fell 1.7% that day and puts that down to a weak day for tech stocks, not to Musk's post.",
+    "I did not find a statement from Amazon about Grok Bot. The message in the screenshot is quoted from a post and I could not check it against Amazon. Musk's other claim, that SpaceX will refund users if the bot makes a mistake with a purchase, is his own and is not checked here.",
+    "Grok Bot comes from the company that makes Grok, xAI, and Musk's posts speak of SpaceX standing behind it. Grok, the model that gathers this page's posts, is made by xAI, a company in this story."
+  ],
+  "why": "Grok Bot has been pushed hard by its maker this week, and shopping is one of its headline uses. A block by the biggest online store tests whether an AI agent can work without the store's consent.",
+  "next": "A statement from Amazon, or Amazon allowing agents that identify themselves. Whether Musk's remark about a rival turns into a plan.",
+  "posts": [
+    {
+      "id": "2109027614140813621",
+      "role": "voice"
+    },
+    {
+      "id": "2110571616384213156",
+      "role": "origin"
+    },
+    {
+      "id": "2110602585572860213",
+      "role": "voice"
+    },
+    {
+      "id": "2110693166059851836",
+      "role": "voice"
+    },
+    {
+      "id": "2110715556328579219",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Investing.com: Musk floats Amazon rival as AI shopping battle comes into focus",
+      "url": "https://za.investing.com/news/stock-market-news/musk-floats-amazon-rival-as-ai-shopping-battle-comes-into-focus-4506937"
+    }
+  ],
+  "updated_at": "2026-10-15T16:45:00Z"
+}

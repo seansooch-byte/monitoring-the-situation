@@ -1,0 +1,32 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-14-saudi-death-sentence-facebook-overturned",
+  "title": "Saudi Supreme Court sets aside a migrant worker's death sentence over a Facebook comment",
+  "dek": "A Sri Lankan worker was sentenced to death for a deleted comment. Sri Lanka says the sentence has been overturned. What happens to him next is not clear.",
+  "desks": [
+    "world",
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-14T06:14:05Z",
+  "what": [
+    "On October 14, BBC World reported that Saudi Arabia had overturned a death sentence given to a man over a Facebook comment. ThePrint reports that Sri Lanka's Deputy Foreign Minister, Arun Hemachandra, announced in a Facebook post that Saudi Arabia's Supreme Court set the sentence aside on Tuesday, October 13.",
+    "ThePrint reports the man is a Sri Lankan migrant worker convicted of blasphemy over a comment made during an argument on Facebook. It says he deleted the comment and posted an apology video, and that a screenshot reached his employer and officials and he was arrested in July. A lower court first gave five years in prison and a fine of three million riyals. The death sentence followed in September. I am not naming him.",
+    "ThePrint attributes the reversal to \"sustained diplomatic and legal efforts\" by the Sri Lankan government. It says it is not clear whether he will stay in detention or face further proceedings. I found no statement from Saudi authorities."
+  ],
+  "why": "A death sentence for a social media comment is rare news. The report that it was lifted travelled faster than any detail about what comes after.",
+  "next": "Confirmation from Saudi authorities, and word on whether he is released or tried again.",
+  "posts": [
+    {
+      "id": "2110252784813568174",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ThePrint: Saudi Arabia overturns Sri Lankan migrant worker's death sentence over Facebook comment",
+      "url": "https://theprint.in/world/saudi-arabia-overturns-sri-lankan-migrant-workers-death-sentence-over-facebook-comment/3071484/"
+    }
+  ],
+  "updated_at": "2026-10-15T16:45:00Z"
+}

@@ -10,12 +10,13 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-14T05:25:31Z",
-  "updated_at": "2026-10-15T11:40:00Z",
+  "updated_at": "2026-10-15T16:30:00Z",
   "what": [
     "Early on October 14, Serhii Sternenko, a Ukrainian volunteer who raises money for drones, posted that Starlink terminals in Ukraine had been restricted overnight. He said connections dropped above 160 km/h and that \"a number of critical missions were disrupted.\"",
     "Adviser Serhii Beskrestnov, whom posts describe as a presidential adviser and as a Defense Ministry adviser, then confirmed it. In a statement quoted in a post he said SpaceX introduced a speed limit on terminals in motion, that it applies to the Starshield \"military package\" and is set at 100 mph (about 160 km/h), and that forces were given no notice. Ukrainska Pravda reported the same from four front-line sources and a commander's video. It also reports that ordinary Starlink already had the same limit and Starshield did not.",
     "Poland's foreign minister, Radosław Sikorski, asked Elon Musk in a post whether he was \"playing politics with your products again.\"",
-    "At 19:46 UTC on October 14, BRICS News posted what it presents as Elon Musk's response: Starshield systems are \"owned and controlled by the US government,\" and any limits on speed or usage \"are decided by the US military and ultimately POTUS.\" The post says Starlink is a separate commercial service owned and controlled by SpaceX. I could not find the response on Musk's own account or in a news report, so the wording rests on that post. I found no statement from the Pentagon or the White House on who set the limit. One trade report says the Pentagon declined to discuss specific speed caps. Sternenko also wrote that Ukraine got no warning of ballistic missile launches toward Kyiv that night and that sanctions on Russia have been eased. Those two claims rest on his post alone and are not checked here."
+    "On the evening of October 14, Ukraine's Defense Minister Mykhailo Fedorov posted that Starlink connectivity at speeds of up to 160 km/h was being restored. He wrote that removing the Starshield speed limit entirely was now critical for Ukraine's defense, and thanked Musk. Meduza reports the 100 mph limit itself was not lifted.",
+    "At 19:46 UTC on October 14, BRICS News posted what it presents as Elon Musk's response: Starshield systems are \"owned and controlled by the US government,\" and any limits on speed or usage \"are decided by the US military and ultimately POTUS.\" The post says Starlink is a separate commercial service owned and controlled by SpaceX. Meduza also reports Musk's reply on X on October 14 with the same wording, and adds that he called Starlink a commercial service restricted to civilian or defensive activities. I found no statement from the Pentagon or the White House on who set the limit. One trade report says the Pentagon declined to discuss specific speed caps. Sternenko also wrote that Ukraine got no warning of ballistic missile launches toward Kyiv that night and that sanctions on Russia have been eased. Those two claims rest on his post alone and are not checked here."
   ],
   "why": "Drones that fly fast and far need a satellite link that keeps working at speed. A limit on that link, arriving without warning during a war, reads to many people as a decision with a motive.",
   "worlds": [
@@ -30,7 +31,7 @@
       "post": "2110355391435657508"
     }
   ],
-  "common": "Established by Ukrainian officials and Ukrainska Pravda: a 100 mph limit appeared on Starshield terminals overnight and disrupted missions. Not established: who ordered it and why. SpaceX has not explained it in anything I found. The idea that the Defense Department asked for it is an inference in posts, and so is the idea that Musk chose it for political reasons. Sternenko's claims about missile warnings and sanctions are unconfirmed here.",
+  "common": "Established by Ukrainian officials and Ukrainska Pravda: a 100 mph limit appeared on Starshield terminals overnight and disrupted missions. Not established: who ordered it and why. SpaceX has not explained it in anything I found. Fedorov says service at up to 160 km/h is being restored; whether the limit is gone is not established. The idea that the Defense Department asked for it is an inference in posts, and so is the idea that Musk chose it for political reasons. Sternenko's claims about missile warnings and sanctions are unconfirmed here.",
   "next": "A statement from SpaceX, the Pentagon or Ukraine's Defense Ministry on who set the limit, and whether it is lifted.",
   "posts": [
     {
@@ -60,6 +61,10 @@
     {
       "id": "2110457263840477263",
       "role": "voice"
+    },
+    {
+      "id": "2110432031968542721",
+      "role": "official"
     }
   ],
   "sources": [
@@ -70,12 +75,20 @@
     {
       "label": "SATNews: SpaceX restricts military Starshield speeds in Ukraine",
       "url": "https://satnews.com/2026/10/14/spacex-restricts-military-starshield-speeds-in-ukraine-disrupting-pentagon-funded-tactical-drone-operations/"
+    },
+    {
+      "label": "Meduza: Musk responds to Ukraine's complaints about restrictions on the military version of Starlink",
+      "url": "https://meduza.io/en/news/2026/10/14/starshield-systems-are-owned-and-controlled-by-the-u-s-government-musk-responds-to-ukraine-s-complaints-about-restrictions-on-the-military-version-of-starlink"
     }
   ],
   "corrections": [
     {
       "at": "2026-10-15T11:40:00Z",
       "text": "Added a post carrying Elon Musk's reported response, which says the US government sets Starshield limits. An earlier version said no SpaceX or Musk statement had been found."
+    },
+    {
+      "at": "2026-10-15T16:30:00Z",
+      "text": "Added the Defense Minister's evening post that service up to 160 km/h is being restored, and a news report (Meduza) that carries Musk's reply. An earlier version said the reply rested on one post only."
     }
   ]
 }

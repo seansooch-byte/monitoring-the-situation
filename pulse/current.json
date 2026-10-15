@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T15:25:55Z",
-  "capture": "2026-10-15T1516Z",
+  "updated_at": "2026-10-15T16:50:00Z",
+  "capture": "2026-10-15T1606Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -31,12 +31,6 @@
       "also": [
         "2110347809308455363"
       ]
-    },
-    {
-      "id": "2110222061780254801",
-      "desk": "life",
-      "line": "PopBase posts that today is National I Love You Day.",
-      "also": []
     },
     {
       "id": "2110252784813568174",
@@ -208,6 +202,18 @@
       "id": "2110384152633565210",
       "desk": "internet",
       "line": "Jim Chuong says Human Resources is not an employee's friend and is there to protect the company. Four images are attached. It is his opinion.",
+      "also": []
+    },
+    {
+      "id": "2110432031968542721",
+      "desk": "world",
+      "line": "Mykhailo Fedorov, whom Meduza describes as Ukraine's Defense Minister, says Starlink connectivity at speeds up to 160 km/h is being restored and that removing the Starshield speed limit entirely is now critical for Ukraine's defense. He thanks Elon Musk. See the story on the speed limit.",
+      "also": []
+    },
+    {
+      "id": "2110355411144675696",
+      "desk": "sports",
+      "line": "Arsenal, the football club, posts a squad photo captioned \"The class of 26/27.\"",
       "also": []
     }
   ]

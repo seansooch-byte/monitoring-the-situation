@@ -752,3 +752,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops five ids and adds the three new ones (52 ids). open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T17:00Z
+- Captures read: 1606Z. Last read: 1606Z.
+- X's check: 1606Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; I left that story alone.
+- Pulse: 33 items (2 new, 1 dropped). Added Fedorov on restoring Starlink speeds (world) and Arsenal's squad photo (sports). Dropped PopBase (past 36 hours). Quiet: medicine, ideas, offbeat.
+- Added: 2026-10-15-amazon-blocks-grok-bot (ai), 2026-10-15-imran-khan-leave-india-notice (world), 2026-10-15-gta-vi-launch-trailer (gaming), 2026-10-14-saudi-death-sentence-facebook-overturned (world). Updated: 2026-10-14-starshield-speed-limit-ukraine (Fedorov's restoration post; Meduza carries Musk's reply; correction added).
+- Left out: Diddy head injury (TMZ only, not checked); Tyreek Hill verdict (civil case, other party a private person); Kash Patel "From Russia, with Love..." (no point to work out); kporzee, eattmilo, AlertaMundoNews (private individuals). Not researched, candidates for the next story pass: September PPI, Andy Harris and the Baltimore Banner, MLB salary cap.
+- Requests: added r-2026-10-15-01 (Amazon and Pentagon statements). Watch list rebuilt (59 ids).
+- Shipped: see report.
+- For the main editor: reports differ on who issued the Imran Khan notice (FRRO or Mumbai Police); the story says so. The Saudi story names no one on purpose.
