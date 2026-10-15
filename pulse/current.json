@@ -1,22 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T17:30:00Z",
-  "capture": "2026-10-15T1709Z",
+  "updated_at": "2026-10-15T18:15:00Z",
+  "capture": "2026-10-15T1803Z",
   "items": [
     {
       "id": "2110549767063507044",
       "desk": "tech",
       "line": "Elon Musk says the new Tesla Roadster is a candidate for greatest product demo of all time. The post quotes another of his posts. Tesla has said the Roadster event streams live this Thursday. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2110240563135951022",
-      "desk": "world",
-      "line": "Sternenko says Starlink terminal operation in Ukraine was restricted overnight, with connections dropping above 160 km/h, and that SpaceX likely acted at the Trump administration's request. Not checked here. Another account replies that Starlink and Starshield are different services.",
-      "also": [
-        "2110313050423095339",
-        "2110327426580648014"
-      ]
     },
     {
       "id": "2110273651023151330",
@@ -220,6 +211,24 @@
       "id": "2110459376846991620",
       "desk": "tech",
       "line": "Bloomberg's Mark Gurman, per his own post, reports that Apple is preparing to launch the first Apple Intelligence features in China in December, after years of regulatory scrutiny. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110777583642009692",
+      "desk": "sports",
+      "line": "Ian Rapoport posts the Eagles' statement that quarterback Jalen Hurts is out for Sunday's game against the Panthers because of a superficial blood clot. The statement says a follow-up ultrasound on Wednesday night showed movement in the clot.",
+      "also": []
+    },
+    {
+      "id": "2110778025629347999",
+      "desk": "ai",
+      "line": "Mark Zuckerberg says Meta's Muse Spark Open model weights are releasing today and that the model runs well on new Mac Studios, thanks to work with Apple. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110512395470987450",
+      "desk": "politics",
+      "line": "Kyle Griffin posts a Wall Street Journal report that the Trump administration's investigation into Rep. Ilhan Omar is aimed at building a case to strip her of her citizenship and deport her, citing officials and others familiar with the probe. Not checked here.",
       "also": []
     }
   ]

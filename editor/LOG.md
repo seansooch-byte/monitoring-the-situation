@@ -772,3 +772,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swaps the dropped id for the two new ones. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T18:15Z
+- Captures read: 1803Z. Last read: 1803Z.
+- X's check: 1803Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; stories are not touched in a pulse pass, so it is for the next story pass.
+- Pulse: 35 items (3 new, 1 dropped; the build shows 36 counting also posts and holds BBC World's second post off the front). Added Ian Rapoport on the Eagles' statement about Jalen Hurts (sports), Mark Zuckerberg on Muse Spark Open (ai), Kyle Griffin on the WSJ report on Ilhan Omar (politics). Dropped past 36 hours: Sternenko (Starlink in Ukraine; still cited by 2026-10-14-starshield-speed-limit-ukraine, so it stays on the watch list). Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Pope Leo lung cancer post (PopBase only, a serious health claim about a real person, not checked outside X); Matt Gaetz lawsuit posts (accusation about a real person, not checked, candidate for a story pass); OpenAI Newsroom recording device (past 36 hours); Fabrizio Romano on Lisandro Martinez (account holds its place); JolinaJasmine, BillyM_91, brivael (past 36 hours); Crowder v. CNN (small, not checked).
+- Requests: watch list adds the three new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
