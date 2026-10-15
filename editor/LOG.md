@@ -702,3 +702,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops five ids, adds two, and keeps the OpenAI post for its story (56 ids). open.json untouched.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-15T09:20Z
+- Captures read: 0908Z. Last read: 0908Z.
+- X's check: 0908Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatch; the ledger still shows the earlier ones at 0603Z and 0708Z (neither cited).
+- Pulse: 37 items (0 new, 4 dropped; the build shows 36, holding Elon Musk's second post). Dropped, all past 36 hours: Eric Daugherty (business), AmericaPapaBear's Grok question (politics), PopBase's Pope Leo post (world; the live Pope Leo story still cites it and its reply), UpdateCharts on Lula (world). Nothing new in 0908Z was large and fit to show. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Elon Musk's other posts (account holds places); AlertaMundoNews, kporzee (private or injured individuals); Netflix, IGN (advertisements); Kash Patel "From Russia, with Love..." (no point to work out); Jim Chuong HR post (advice); BarakRavid on White House and SpaceX control (small, and the Starlink thread is already on the pulse; candidate for a story pass).
+- Requests: watch list drops three ids and keeps the two Pope Leo posts for their story (54 ids). open.json untouched.
+- Shipped: see report.
+- For the main editor: nothing.

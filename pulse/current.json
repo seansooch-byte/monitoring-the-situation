@@ -1,22 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T08:45:00Z",
-  "capture": "2026-10-15T0804Z",
+  "updated_at": "2026-10-15T09:20:00Z",
+  "capture": "2026-10-15T0908Z",
   "items": [
-    {
-      "id": "2110113833805402475",
-      "desk": "world",
-      "line": "PopBase, a news aggregator account, posts that Pope Leo XIV has been diagnosed with lung cancer and that the Vatican confirms it. A story on this page sets out what the Vatican and the Associated Press reported.",
-      "also": [
-        "2110114165922640106"
-      ]
-    },
-    {
-      "id": "2110111648019358068",
-      "desk": "politics",
-      "line": "A user asks Grok which state Katie Zacharia, named in the post as Trump's new press secretary, passed the bar exam in, saying she has repeatedly called herself a lawyer. Grok, the model that gathers this page's posts, is made by xAI, which is named in the post. Not checked here.",
-      "also": []
-    },
     {
       "id": "2110549767063507044",
       "desk": "tech",
@@ -71,12 +57,6 @@
       "also": []
     },
     {
-      "id": "2110114171480072255",
-      "desk": "world",
-      "line": "In Portuguese, UpdateCharts posts a video saying Lula announced \"Pé de Meia Universitário\" together with students. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110178104916230500",
       "desk": "internet",
       "line": "Nature Unedited posts a video captioned \"Before and after the dog park\". The video is not described in the capture.",
@@ -110,12 +90,6 @@
       "id": "2110355864875872634",
       "desk": "sports",
       "line": "Adam Schefter reports that a jury returned a mixed verdict in the civil assault and battery trial against Tyreek Hill, finding him liable on two battery counts and not liable on the eight other claims by his estranged wife. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110110977781854467",
-      "desk": "business",
-      "line": "Eric Daugherty, a political commentator, posts that Treasury Secretary Scott Bessent announced $1.21 billion in penalties on Bank of America over 475 apparent sanctions violations, and quotes Bessent saying the biggest institutions are not above the law. Not checked here.",
       "also": []
     },
     {
