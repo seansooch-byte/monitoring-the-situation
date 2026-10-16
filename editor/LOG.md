@@ -942,3 +942,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the Cuban id and holds the three Bend post ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: web search returned stale 2025 results on standard mode; the Bend event only surfaced on an extended search. Several news sites block WebFetch.
+
+## 2026-10-16T12:30Z
+- Captures read: 1200Z. Last read: 1200Z.
+- X's check: 1200Z 31 confirmed, 0 missing, 1 mismatched (2110915288296575280, cb_doge, text differs from X in spacing; a Roadster event copy, not on the pulse or cited), 0 withheld. Earlier mismatches and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 25 items (1 new, 0 dropped). No item older than 36 hours.
+- Added: none. Updated: none (pulse pass).
+- Left out: MattWallace888 rally clip (no date or place, cannot tell if it is new); Eagles image post (no words); DOGEQEEN cruise ship post (shows a minor); Bigrexy01okz movie clip (point unclear); cb_doge and other Roadster copies (Tesla and Musk already placed); Fabrizio Romano posts (sports full).
+- Requests: watch list adds the MKBHD id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

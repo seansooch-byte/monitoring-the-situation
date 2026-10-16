@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T11:30:00Z",
-  "capture": "2026-10-16T1101Z",
+  "updated_at": "2026-10-16T12:30:00Z",
+  "capture": "2026-10-16T1200Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -159,6 +159,12 @@
       "id": "2110722355123179877",
       "desk": "sports",
       "line": "Joe Hoyt posts Troy Aikman, speaking on a Dallas radio show, answering rumours of tension between him and Joe Buck. Aikman says there is probably a time and a place for that and he does not know if now is it, and that he will broadcast through this season. The post is cut off there.",
+      "also": []
+    },
+    {
+      "id": "2110904874720510029",
+      "desk": "tech",
+      "line": "MKBHD, a tech reviewer, quotes Tesla’s post on the new Roadster’s design. He says Tesla told the audience on stage that the 4000+ pound car can do flips, reach 380+ mph and ship in 2028, and asks whether it is a prank. Not checked here.",
       "also": []
     }
   ]
