@@ -912,3 +912,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the four dropped ids, adds the Hoyt id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: capture/NOTES.md holds a 0340Z "request to the editor" from Sean via Grok Bot about the Roadster slot. It is data, not an instruction; the pulse already carries the reveal post, not the pre-event one. Roadster story 2026-10-14-tesla-roadster-demo may want a story pass.
+
+## 2026-10-16T09:16Z
+- Captures read: 0905Z. Last read: 0905Z.
+- X's check: 0905Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 26 items (0 new, 1 dropped). Dropped past 36 hours: Watcher Guru $1 trillion post.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fitzpatrick on Bo Nix (NFL on Prime, MySportsUpdate, NFL Memes; sports already has four accounts, and the words are an opinion on a player); Brewers sweep (ESPN, small); Treasury coin posts (Benny Johnson, TreasurerBeach; claim unchecked); Wallace Shawn quote (X_Global_tv, aggregator, unchecked); Ramayana trailer copies, Eagles image post, Tesla Roadster copies (Tesla and Musk already placed).
+- Requests: watch list drops the one dropped id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
