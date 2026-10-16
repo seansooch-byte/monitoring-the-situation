@@ -962,3 +962,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the two dropped ids, adds the two new. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T14:40Z
+- Captures read: 1403Z. Last read: 1403Z.
+- X's check: 1403Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 26 items (2 new, 1 dropped). Dropped past 36 hours: Marjorie Taylor Greene post. New: Rahul Gandhi on Rubio and Mumbai (world), Headquarters measles clip (medicine).
+- Added: none. Updated: none (pulse pass).
+- Left out: Tesla kickflip, Holy smokes and Out of this world posts (Tesla and Musk already placed); NFL on Prime and Fitzpatrick Bo Nix posts (sports full); Delhi Police quote post (point unclear); ssssscca image reply (no words); CVS pharmacy anecdote, concert, passerby and Somalia clip (private individuals); BLEACH trailer (Japanese, small next to desk); Haas F1 post (sports full).
+- Requests: watch list drops the Greene id, adds the two new. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
