@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T05:16:00Z",
-  "capture": "2026-10-16T0508Z",
+  "updated_at": "2026-10-16T06:40:00Z",
+  "capture": "2026-10-16T0608Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -11,12 +11,6 @@
         "2110913438293647789",
         "2110901393238474863"
       ]
-    },
-    {
-      "id": "2110425991088943259",
-      "desk": "sports",
-      "line": "Fabrizio Romano reports that Real Madrid forward Vinicius Jr has been suspended for four La Liga games, which would include El Clásico. Not checked here.",
-      "also": []
     },
     {
       "id": "2110813916620091584",
@@ -65,12 +59,6 @@
       "also": []
     },
     {
-      "id": "2110422019263156567",
-      "desk": "music",
-      "line": "The account keeno posts a video of Blueface showing new face tattoos, which the post describes as including a touched-up portrait of Benjamin Franklin, casino chips and a Maybach emblem.",
-      "also": []
-    },
-    {
       "id": "2110571616384213156",
       "desk": "ai",
       "line": "Nic Cruz Patane says his Grok Bot was blocked when it tried to order from Amazon, and quotes a message saying continued access by an unauthorized AI agent violates Amazon's Conditions of Use. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
@@ -100,12 +88,6 @@
       "id": "2110717537964953810",
       "desk": "gaming",
       "line": "Rockstar Games says the Grand Theft Auto VI launch trailer is out and that the game arrives November 19. The post names the song \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110432031968542721",
-      "desk": "world",
-      "line": "Mykhailo Fedorov, whom Meduza describes as Ukraine's Defense Minister, says Starlink connectivity at speeds up to 160 km/h is being restored and that removing the Starshield speed limit entirely is now critical for Ukraine's defense. He thanks Elon Musk. See the story on the speed limit.",
       "also": []
     },
     {
