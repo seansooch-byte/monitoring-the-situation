@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T19:15:00Z",
-  "capture": "2026-10-16T1901Z",
+  "updated_at": "2026-10-16T20:20:00Z",
+  "capture": "2026-10-16T2007Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -54,12 +54,6 @@
       "id": "2111026882959286396",
       "desk": "politics",
       "line": "CNN reports that new Federal Election Commission filings show tech billionaire Elon Musk's heavy influence on the 2026 midterms, especially the Texas Senate race. The linked CNN story is headlined as saying Musk gave more than $150 million to bolster Republicans there. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110646408227274753",
-      "desk": "entertainment",
-      "line": "BBC World reports that actor Imran Khan has been asked to leave India after taking part in a protest. The post gives no further detail; the BBC's story is not checked here.",
       "also": []
     },
     {
@@ -202,6 +196,12 @@
       "also": [
         "2111142826301948312"
       ]
+    },
+    {
+      "id": "2110917400145330203",
+      "desk": "business",
+      "line": "Reliance Industries posts a statement on \"recent remarks\" about it and India. It says it welcomes competition in satellite communications, including Starlink, and that Jio's own satellite services await clearances. It does not say what the remarks were. Not checked here.",
+      "also": []
     }
   ]
 }

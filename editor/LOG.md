@@ -1022,3 +1022,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T20:20Z
+- Captures read: 2007Z. Last read: 2007Z.
+- X's check: 2007Z 31 confirmed, 0 missing, 0 mismatched, 2 withheld (ids not looked up; not on the pulse or cited). Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the 1509Z, 1702Z withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 31 items (1 new, 1 dropped). New: Reliance Industries statement on competition including Starlink (business). Dropped at the 36-hour edge: BBC World on Imran Khan (entertainment, posted 2026-10-15T08:18Z).
+- Added: none. Updated: none (pulse pass).
+- Left out: Josh Jacobs posts (Schefter, RapSheet, MySportsUpdate; sports desk full); TMZ Zacharia "fired" post (conflicts with Fox's wording, story pass should check); Indonesia stock crash claim (cryptorover, not checked); Tesla/Roadster repeats (Musk and Tesla already placed); Clavicular streamer clips and Kaylub Giamanco posts (private individuals); posts flagged old_content.
+- Requests: watch list adds the new id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
