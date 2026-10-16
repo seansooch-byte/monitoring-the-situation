@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T20:20:00Z",
-  "capture": "2026-10-16T2007Z",
+  "updated_at": "2026-10-16T21:30:00Z",
+  "capture": "2026-10-16T2105Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -81,12 +81,6 @@
       "also": []
     },
     {
-      "id": "2110664497769701654",
-      "desk": "internet",
-      "line": "Dexerto reports that South Korean running influencer Yoo Ji-won has died aged 25 after collapsing 500 meters from the finish line of a half-marathon. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110832194910298251",
       "desk": "justice",
       "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. KPTV counts five dead in all, the shooter among them. See the story.",
@@ -160,7 +154,7 @@
     {
       "id": "2110872117445013817",
       "desk": "defense",
-      "line": "Erin Banco, a reporter, writes that the order to limit a satellite system Ukraine uses for battlefield communications and drone operations came from inside the White House, according to two US officials and a Western official. Not checked here beyond our live story on it.",
+      "line": "Erin Banco, a reporter, writes that the order to limit a satellite system Ukraine uses for drone operations came from inside the White House, according to two US officials and a Western official. See the story on it, which carries a senior US official's denial that the president asked for it.",
       "also": []
     },
     {
@@ -172,7 +166,7 @@
     {
       "id": "2111146227454947837",
       "desk": "politics",
-      "line": "Fox News reports that a senior White House official told its reporter that Katie Zacharia is \"transitioning out\" of her job as press secretary. Its follow-up, attached, says President Trump denies firing her. Other accounts post that she was fired; that has not been checked here.",
+      "line": "Fox News reports that a senior White House official told its reporter that Katie Zacharia is \"transitioning out\" of her job as press secretary. Its follow-up, attached, says President Trump denies firing her. CBS News reports, citing two US officials, that she was removed. See the story on her exit.",
       "also": [
         "2111147899623186742"
       ]
@@ -201,6 +195,20 @@
       "id": "2110917400145330203",
       "desk": "business",
       "line": "Reliance Industries posts a statement on \"recent remarks\" about it and India. It says it welcomes competition in satellite communications, including Starlink, and that Jio's own satellite services await clearances. It does not say what the remarks were. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111182130411971037",
+      "desk": "disaster",
+      "line": "The Orange County Fire Authority says evacuation orders are in place for San Juan Zones 4, 5 and 10 and San Clemente Zone 12, and tells people in them to leave immediately. It uses the name Norte Fire. See the story on the fire.",
+      "also": [
+        "2111181874995323072"
+      ]
+    },
+    {
+      "id": "2111168692365218084",
+      "desk": "politics",
+      "line": "Anthony Scaramucci addresses Katie Zacharia directly, calling himself \"the world's leading expert on short White House tenures\", and tells her to turn off the news and go enjoy her family.",
       "also": []
     }
   ]

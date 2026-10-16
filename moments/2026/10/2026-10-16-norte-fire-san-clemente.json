@@ -1,0 +1,45 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-16-norte-fire-san-clemente",
+  "title": "Norte Fire burns homes near San Clemente and San Juan Capistrano as Santa Ana winds blow",
+  "dek": "Evacuation orders are in place in two Orange County cities. The fire was still growing Friday afternoon.",
+  "desks": [
+    "disaster"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-16T19:45:57Z",
+  "updated_at": "2026-10-16T21:30:00Z",
+  "what": [
+    "CBS Los Angeles reports that the Orange County Fire Authority responded shortly after 11:30 a.m. Pacific on Friday 16 October to a vegetation fire near Portico Del Norte in the San Clemente area. The authority calls it the Norte Fire.",
+    "CBS, updating at 2:02 p.m. Pacific, puts the fire at 250 acres. It reports evacuation orders for San Juan Zones 4, 5 and 10 and San Clemente Zones 12 and 13, and two evacuation shelters. It says the authority described crews as attacking the fire from the ground and air, with aircraft dropping retardant.",
+    "The Orange County Fire Authority posted on X that people in the San Juan and San Clemente zones should leave immediately.",
+    "CBS says multiple homes are visible burning in aerial video but gives no count. One post says eight homes are burning, passing on what the poster has seen reported. I could not confirm that number. CBS mentions no injuries and gives no cause or containment figure.",
+    "CBS says hot temperatures and a Santa Ana wind event have raised fire danger across Southern California."
+  ],
+  "why": "Fire video from hillside streets spreads fast, and people share it to warn family and neighbours. Numbers change by the hour.",
+  "next": "Containment figures, the number of homes lost, and the cause, from the Orange County Fire Authority.",
+  "posts": [
+    {
+      "id": "2111181874995323072",
+      "role": "origin"
+    },
+    {
+      "id": "2111182130411971037",
+      "role": "official"
+    },
+    {
+      "id": "2111197646958542860",
+      "role": "voice"
+    },
+    {
+      "id": "2111191207791796285",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CBS Los Angeles: Evacuation orders issued for Norte Fire burning in San Clemente area",
+      "url": "https://www.cbsnews.com/losangeles/news/norte-fire-san-clemente-orange-county-fire-authority/"
+    }
+  ]
+}

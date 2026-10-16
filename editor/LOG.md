@@ -1032,3 +1032,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the new id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T21:35Z
+- Captures read: 2105Z. Last read: 2105Z.
+- X's check: 2105Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the 1509Z, 1702Z, 2007Z withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 32 items (2 new, 1 dropped). New: Orange County Fire Authority evacuation orders for the Norte Fire (disaster); Scaramucci to Zacharia (politics). Dropped: Dexerto on a runner's death (at the 36-hour edge). Lines updated for Banco and Fox to match the story changes.
+- Added: 2026-10-16-norte-fire-san-clemente (disaster). Updated: 2026-10-09-zacharia-press-secretary (her exit; standing now developing, correction added), 2026-10-14-starshield-speed-limit-ukraine (Reuters: order from inside the White House).
+- Left out: Miami University active threat (no outside confirmation found; pulse line stays marked unchecked); JezziiB post on Starshield (motive claim and insult); the evacuee family video of the fire (private person); Hannity interview clips (covered by the Zacharia story). Reuters text not opened and CNBC returned 403, so the Starshield addition rests on the Kyiv Independent's account and says so.
+- Requests: added r-2026-10-16-01 (Norte Fire official figures). Watch list updated.
+- Shipped: see report.
+- For the main editor: nothing.

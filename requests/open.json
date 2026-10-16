@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-16T20:20:00Z",
+  "updated_at": "2026-10-16T21:30:00Z",
   "requests": [
     {
       "id": "r-2026-10-15-01",
@@ -49,6 +49,12 @@
       "kind": "search",
       "post": null,
       "ask": "The 8 October suspension of Microsoft, Adobe, Infosys, Tata, Wipro, HCL, Cognizant and Capgemini from the permanent labor certification (PERM) programme. Find any post from the Labor Department or the White House, and from the companies, with the notice or a statement."
+    },
+    {
+      "id": "r-2026-10-16-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the Orange County Fire Authority, the City of San Clemente or San Juan Capistrano, or a named outlet, giving the Norte Fire's acres, containment, homes lost and cause. Do not capture posts that show or name residents."
     }
   ]
 }
