@@ -922,3 +922,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the one dropped id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T10:12Z
+- Captures read: 1000Z. Last read: 1000Z.
+- X's check: 1000Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 25 items (0 new, 1 dropped). Dropped past 36 hours: Acyn transcript of Trump remarks on doctors.
+- Added: none. Updated: none (pulse pass).
+- Left out: MLB Brewers pennant post and ESPN/Dodgers posts (MLB already holds the sports place with the Ohtani post, and sports has four accounts); RonDeSantis on the Roadster (small); Narnia, OpenAI device and Pope Leo posts (older than 36 hours); child safety post (shows a minor); RED Friday posts (small).
+- Requests: watch list drops the one dropped id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
