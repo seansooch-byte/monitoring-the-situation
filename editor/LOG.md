@@ -982,3 +982,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T16:55Z
+- Captures read: 1604Z. Last read: 1604Z.
+- X's check: 1604Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the 1509Z withheld post remain in the ledger; none on the pulse or cited.
+- Pulse: 29 items (2 new, 0 dropped). New: Shams Charania on NBA bet bans (sports), Ted on Indonesia's stock crash (markets).
+- Added: 2026-10-16-nba-sportsbooks-ban-bet-types (sports), 2026-10-16-indonesia-stocks-msci-plunge (markets). Updated: none; the other live stories were not re-checked against their sources this pass.
+- Left out: Zelensky FT interview and Erin Banco Starshield post (not researched this pass; Starshield story already live); Miami University active-threat alert (not researched, safety event, check next pass); flagged private-individual posts; Vidya Balan and Joe Rogan recap claims (not checkable); Tesla/Roadster repeats.
+- Requests: watch list adds the two new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: Indonesia close differs between outlets (5,240 vs 5,185); the story says so. Tempo and IDNFinancials pages were not opened (403 or search snippet only), so not cited.

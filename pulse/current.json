@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T15:45:00Z",
-  "capture": "2026-10-16T1509Z",
+  "updated_at": "2026-10-16T16:55:00Z",
+  "capture": "2026-10-16T1604Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -175,6 +175,18 @@
       "id": "2110945327478173854",
       "desk": "internet",
       "line": "PopBase, a pop culture account, says today is Global Cat Day and posts a photo.",
+      "also": []
+    },
+    {
+      "id": "2111109670429409481",
+      "desk": "sports",
+      "line": "ESPN reporter Shams Charania says that he and David Purdum report the NBA and prominent sportsbooks have agreed to ban several types of bets, including parlays on the under of one player's stats. Outlets repeating the ESPN report say the league sent a memo to its sportsbook partners.",
+      "also": []
+    },
+    {
+      "id": "2111005738306789584",
+      "desk": "markets",
+      "line": "Ted, a markets commentary account, says Indonesia's stock market is collapsing, the worst crash in 28 years. Business Today reports a fall of about 11 percent on Friday after MSCI proposed a downgrade of Indonesia.",
       "also": []
     }
   ]

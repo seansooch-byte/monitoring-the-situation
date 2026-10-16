@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-16-nba-sportsbooks-ban-bet-types",
+  "title": "NBA and sportsbooks agree to ban several types of bets",
+  "dek": "ESPN reports the league and major betting companies will stop offering some player bets, after two betting cases involving players.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-16T14:59:02Z",
+  "updated_at": "2026-10-16T16:50:00Z",
+  "what": [
+    "ESPN reporters Shams Charania and David Purdum report that the NBA and prominent sportsbooks have agreed to ban several kinds of bets. Charania posted the list on Friday, October 16.",
+    "As the reporting describes it, the banned bets include parlays that combine \"under\" bets on the same player's statistics; \"first of\" markets such as the winner of the opening tip or one player's specific first shot, rebound, assist or steal; \"under\" bets on players expected to play fewer than 12 minutes a game; bets on players on 10-day or two-way contracts; and player bets on turnovers, fouls and missed free throws.",
+    "Yahoo Sports and Hoops Rumors, both summarising the ESPN report, say the NBA sent a memo to its sportsbook partners, including DraftKings and FanDuel. They say the league pointed to the cases of Jontay Porter and Terry Rozier, in which players were accused of changing their play to help people betting on \"under\" bets. Hoops Rumors quotes the league's Scott Kaufman-Ross as saying it wanted \"the right balance\" between rules and pushing bettors to illegal markets.",
+    "I could not find the memo itself or a statement from the league, the players' union or the sportsbooks. I did not find a start date. The list above rests on ESPN's reporting as relayed by those two outlets."
+  ],
+  "why": "Betting has become part of how many fans watch games, and the cases of two players made the risk plain. A league changing what its own partners may sell is unusual.",
+  "next": "A start date and any statement from the NBA, the players' union or the sportsbooks would settle how and when the ban applies.",
+  "posts": [
+    {
+      "id": "2111109670429409481",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Yahoo Sports: NBA, sportsbooks agree to ban different types of prop bets",
+      "url": "https://sports.yahoo.com/articles/nba-sportsbooks-agree-ban-different-154516533.html"
+    },
+    {
+      "label": "Hoops Rumors: NBA Instructs Sportsbook Partners To Ban Certain Bets",
+      "url": "https://www.hoopsrumors.com/2026/10/nba-instructs-sportsbook-partners-to-ban-certain-bets.html"
+    }
+  ]
+}

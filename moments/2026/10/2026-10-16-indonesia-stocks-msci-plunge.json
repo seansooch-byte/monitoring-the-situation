@@ -1,0 +1,33 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-16-indonesia-stocks-msci-plunge",
+  "title": "Indonesia's stock index falls about 11% after MSCI proposes a downgrade",
+  "dek": "Reports call it the biggest one-day drop since 1998. MSCI wants to move Indonesia out of the emerging-market group.",
+  "desks": [
+    "markets"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-16T08:06:03Z",
+  "updated_at": "2026-10-16T16:50:00Z",
+  "what": [
+    "The Jakarta Composite Index fell by roughly 11 percent on Friday, October 16. Business Today reports a drop of about 614 points to close near 5,240. Other search results gave a close of 5,185 and a fall of 11.57 percent. I could not reconcile the two, so the exact figure is not settled here.",
+    "Business Today reports the index is down about 39 percent for the year after the fall, and that it was the worst day since January 1998.",
+    "The cause reported is a proposal from MSCI, the index provider, to reclassify Indonesia from an emerging market to a standalone market. Business Today quotes MSCI citing \"persistent opacity in shareholding structures and suspected coordinated trading behavior.\" It says a consultation is open and a final decision is due by the end of June 2027.",
+    "Business Today says the Indonesian authorities had announced reforms, including more disclosure by large shareholders and a roadmap toward a 15 percent minimum free float, but that MSCI has not seen sufficient progress consistently. I did not find a statement from Indonesian officials on Friday's fall."
+  ],
+  "why": "A fall this size in a large market is rare. Funds that track MSCI indexes could have to sell if a downgrade goes ahead, which is how outlets describe the risk; I did not check that against MSCI's documents.",
+  "common": "Established by the outlet cited: a fall of about 11 percent on October 16, and an MSCI proposal to reclassify Indonesia. Not settled: the exact close, and how much selling by funds would follow a downgrade.",
+  "next": "MSCI's consultation is open, with a final decision by the end of June 2027, per Business Today.",
+  "posts": [
+    {
+      "id": "2111005738306789584",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Business Today: Jakarta Composite plunges as MSCI reviews emerging market status",
+      "url": "https://www.businesstoday.in/markets/stocks/story/indonesia-stocks-jakarta-composite-plunges-10-as-msci-reviews-emerging-market-status-561947-2026-10-16"
+    }
+  ]
+}
