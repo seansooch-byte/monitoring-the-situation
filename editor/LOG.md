@@ -842,3 +842,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the six dropped ids, adds the Olivia Rodrigo id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T02:45Z
+- Captures read: 0201Z. Last read: 0201Z.
+- X's check: 0201Z 39 confirmed, 1 missing (2110914427209797939, NFL, Seahawks-Broncos post; not on the pulse or cited), 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z, 0708Z and 0101Z (none cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is now on the watch list.
+- Pulse: 33 items (3 new, 4 dropped). Added Miami University's active threat alert (justice, not checked, no outside source found), Netflix STEPS (entertainment), FC Barcelona and Tyler, The Creator (music). Updated the Musk Roadster line (the event has happened). Dropped past 36 hours: NASA Artemis update, Epic launcher, Chollet, Heyyesama. Quiet: medicine, ideas, offbeat.
+- Added: 2026-10-15-cfp-24-team-expansion (sports). Updated: 2026-10-14-tesla-roadster-demo (rewritten after the event, with a correction line).
+- Left out: Bend school shooting story (web search found no police or school report; stays on the pulse as not checked); Miami University story (no outside source); Batman: Part 2 directing change (search found nothing on the change, only older Reeves news); posts about the Oregon politician and the upside-down flag (private-individual flags); NotAvgLiberal post naming a man (private person); Complex Alaska student (private individual); Seahawks-Broncos meme posts (small). Story pass needed on Bend and Miami University once police statements exist.
+- Requests: watch list now holds the pulse, the CFP origin, the Tesla posts, the pinned post and the planet-candidate post. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: web search could not reach news from the last few hours on Bend or Miami, so both are held to the pulse.

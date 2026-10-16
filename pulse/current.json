@@ -1,19 +1,15 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T01:25:00Z",
-  "capture": "2026-10-16T0101Z",
+  "updated_at": "2026-10-16T02:45:00Z",
+  "capture": "2026-10-16T0201Z",
   "items": [
     {
       "id": "2110549767063507044",
       "desk": "tech",
-      "line": "Elon Musk says the new Tesla Roadster is a candidate for greatest product demo of all time. The post quotes another of his posts. Tesla has said the Roadster event streams live this Thursday. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110371804959191288",
-      "desk": "science",
-      "line": "NASA announces an update on Oct. 23 on its plans to return American astronauts to the Moon by 2028, with details on the upcoming Artemis III mission to test systems needed for future Moon landings.",
-      "also": []
+      "line": "Elon Musk says the new Tesla Roadster is a candidate for greatest product demo of all time. He posted it before Tesla's event on October 15; see the story on the demo. Not checked here.",
+      "also": [
+        "2110901393238474863"
+      ]
     },
     {
       "id": "2110425991088943259",
@@ -48,12 +44,6 @@
       "also": []
     },
     {
-      "id": "2110369347592229333",
-      "desk": "gaming",
-      "line": "Epic Games, the company behind the Epic Games Store, says it \"vibe coded\" a faster Epic Games Launcher than \"the other guy\" and invites people to try it in Preview. The speed claim is the company's own. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110385901297709079",
       "desk": "justice",
       "line": "TMZ reports, as an exclusive, that Diddy's head injury came from a prison fight with a Jamaican drug lord it calls Dudus. The post names no source for the claim. Not checked here.",
@@ -63,12 +53,6 @@
       "id": "2110523723732107761",
       "desk": "sports",
       "line": "MLB posts a video captioned \"Jackson Chourio, first pitch, Brewers lead!\" Other posts about Game 3 of Dodgers v Brewers describe it as a leadoff home run.",
-      "also": []
-    },
-    {
-      "id": "2110377155079385477",
-      "desk": "science",
-      "line": "François Chollet posts that string theory is what happens when an intelligent system is starved of sensory input and starts hallucinating, and that intelligence needs grounding. The post is his opinion, not a finding.",
       "also": []
     },
     {
@@ -182,12 +166,6 @@
       "also": []
     },
     {
-      "id": "2110372067614904646",
-      "desk": "internet",
-      "line": "Heyyesama posts a video captioned that Luffy is using the camera to put his eyes back in place. The caption points to a clip from One Piece. I could not see the video itself. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110832194910298251",
       "desk": "justice",
       "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. No police or school statement is captured here. Not checked here.",
@@ -212,6 +190,24 @@
       "id": "2110884276359319861",
       "desk": "music",
       "line": "Olivia Rodrigo says her song \"expectations\", featuring Chappell Roan, is out now, and praises Roan as an artist and friend.",
+      "also": []
+    },
+    {
+      "id": "2110794015348011464",
+      "desk": "justice",
+      "line": "Miami University's alert account posts an emergency notice that an active threat has been reported on its Oxford campus and tells people to run, hide or fight. No police statement is captured here. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110717329575190935",
+      "desk": "entertainment",
+      "line": "Netflix announces STEPS, starring Ali Wong, Amanda Seyfried and Stephanie Hsu, which it describes as a Cinderella story gone wrong, premiering November 20.",
+      "also": []
+    },
+    {
+      "id": "2110626893414154326",
+      "desk": "music",
+      "line": "FC Barcelona announces Tyler, The Creator as a partner in a deal with Spotify and GOLF WANG, and welcomes him \"to the team\". The post gives no terms. Not checked here.",
       "also": []
     }
   ]

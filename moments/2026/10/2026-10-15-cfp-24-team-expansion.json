@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-15-cfp-24-team-expansion",
+  "title": "College Football Playoff reported to be nearing a 24-team format from 2027",
+  "dek": "The report rests on unnamed sources. If it holds, the playoff would double in size and the conference title games could go.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-15T17:39:26Z",
+  "updated_at": "2026-10-16T02:45:00Z",
+  "what": [
+    "On October 15, ESPN's Pete Thamel reported, citing sources, that the College Football Playoff is nearing a deal to expand to 24 teams. He said the new format would start in 2027 and is expected to come together in the near future, pending final approvals.",
+    "ESPN's written report adds details, all from sources and none confirmed by the playoff. It describes 19 at-large bids, the four Power 4 conference champions and the highest-ranked Group of 6 team. It says the top eight seeds would get first-round byes. It says the deal is expected to end the Power 4 conference championship games and move the season start a week earlier. Reports of where the later rounds are played differ between outlets, so I do not state it here.",
+    "What is on the record from the playoff itself is older. After an exclusive 30-day window with ESPN closed on October 9, the playoff said talks with ESPN were continuing and had been constructive. It gave no financial terms or timeline and said talks were confidential. The playoff currently has 12 teams.",
+    "I found no statement from the playoff, ESPN or the conferences confirming a deal. I did not find anything that says the details above are final."
+  ],
+  "why": "College football fans, schools and conferences all have something at stake: who gets in, whether the conference title games survive, and what the games are worth to broadcasters. A leak from a well-known reporter moves fast.",
+  "next": "An announcement from the College Football Playoff.",
+  "posts": [
+    {
+      "id": "2110787647610515541",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ESPN: Sources: College Football Playoff nearing deal for 24-team format",
+      "url": "https://www.espn.com/college-football/story/_/id/50190410/sources-college-football-playoff-nearing-deal-24-team-format"
+    },
+    {
+      "label": "FOX 5 DC: College Football Playoff expansion, CFP and ESPN continue talks on 24-team model (October 10)",
+      "url": "https://www.fox5dc.com/sports/college-football-playoff-expansion-cfp-espn-continue-talks-24-team-model"
+    }
+  ]
+}
