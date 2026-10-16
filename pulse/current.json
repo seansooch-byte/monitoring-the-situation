@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T14:40:00Z",
-  "capture": "2026-10-16T1403Z",
+  "updated_at": "2026-10-16T15:45:00Z",
+  "capture": "2026-10-16T1509Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -45,12 +45,16 @@
       "also": []
     },
     {
-      "id": "2110571616384213156",
-      "desk": "ai",
-      "line": "Nic Cruz Patane says his Grok Bot was blocked when it tried to order from Amazon, and quotes a message saying continued access by an unauthorized AI agent violates Amazon's Conditions of Use. Grok is made by xAI, the company behind the model that gathers this page's posts. Not checked here.",
-      "also": [
-        "2110602585572860213"
-      ]
+      "id": "2110857376870072369",
+      "desk": "tech",
+      "line": "Porsche posts \"Mission S\" with the words \"Authentic. Consistent. Timeless.\" and says the car has mid-engine architecture and a focus on the driver. It calls the post \"a love letter\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111026882959286396",
+      "desk": "politics",
+      "line": "CNN reports that new Federal Election Commission filings show tech billionaire Elon Musk's heavy influence on the 2026 midterms, especially the Texas Senate race. The linked CNN story is headlined as saying Musk gave more than $150 million to bolster Republicans there. Not checked here.",
+      "also": []
     },
     {
       "id": "2110646408227274753",

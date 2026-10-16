@@ -972,3 +972,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the Greene id, adds the two new. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T15:45Z
+- Captures read: 1509Z. Last read: 1509Z.
+- X's check: 1509Z 29 confirmed, 0 missing, 0 mismatched, 1 withheld (2071338423747821706, NotLikeRuss, a June post; not on the pulse or cited). Earlier mismatches (0101Z, 1200Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 27 items (2 new, 1 dropped). Dropped past 36 hours: Nic Cruz Grok Bot on Amazon (the story on it stays live). New: Porsche Mission S (tech), CNN on Musk and FEC filings (politics).
+- Added: none. Updated: none (pulse pass).
+- Left out: Andy Harris clip and its reply (private individual flagged); CVS pharmacy anecdote (private individual); Chinese bride GPU clip (private individuals); Vidya Balan post (unnamed accusation, not checkable); Joe Rogan recap on Mother Teresa (claim, not checkable); Tesla flip, WatcherGuru and Teslaconomics Roadster posts (Tesla and Musk already placed); Eagles NLCS and Joe Milton posts (sports full); iPhone Duo sold-out post (small, same event); NVIDIA app PSA (unverified claim, tech has enough); old posts (OpenAI recording device, Narnia, Pope Leo, Netflix, I Love You Day) past 36 hours. The Musk FEC story could go to the next story pass.
+- Requests: watch list adds the two new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
