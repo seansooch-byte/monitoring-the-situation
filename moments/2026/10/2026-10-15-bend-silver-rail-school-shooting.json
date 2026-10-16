@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-15-bend-silver-rail-school-shooting",
+  "title": "Shooting at Silver Rail Elementary in Bend, Oregon leaves five dead, including the shooter",
+  "dek": "Posts first said \"5 people killed, including 3 children\". Local reporting counts five dead in all, with the shooter among them. Police had not named the shooter when I looked.",
+  "desks": [
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-15T20:36:27Z",
+  "what": [
+    "On Thursday, October 15, 2026, a shooting took place at Silver Rail Elementary School in Bend, Oregon. KPTV reports five dead: three children aged 5, 8 and 11, one teacher, and the shooter. It reports at least two people hospitalized.",
+    "KPTV quotes the Bend police chief at an afternoon briefing: the first call came from a driver at 12:59 p.m. who said someone with a long rifle had shot at him. Minutes later, 911 calls reported a shooter inside the school, and the school went into lockdown. Officers arrived to find the shooter already dead. KPTV reports a person at the school shot the attacker and that police did not identify that person.",
+    "Police had not released the shooter's name when KPTV wrote. No names of the dead or of the shooter appear on this page.",
+    "The early posts differ from this count in wording. BNO News first posted that an active shooter had been reported, then that there were multiple victims including children and that the shooter was dead, possibly stopped by a bystander, with the number of victims unclear. The Spectator Index later posted \"5 people killed, including 3 children\". By KPTV's count, four of the five dead were victims and the fifth was the shooter. I could not open the police statement itself, so the count rests on KPTV's report of it.",
+    "KPTV reports classes and football games were canceled on Friday and a vigil was planned at Drake Park. Search results also list reports from other outlets that give five dead. I did not open them."
+  ],
+  "why": "A school shooting with children among the dead spreads fast, and early counts travel before police give theirs. Short posts can read as five victims when officials counted five dead in all.",
+  "next": "A police or FBI statement naming the victims and the shooter, and a final count of the injured.",
+  "posts": [
+    {
+      "id": "2110832194910298251",
+      "role": "origin"
+    },
+    {
+      "id": "2110846886710251810",
+      "role": "voice"
+    },
+    {
+      "id": "2110869254199501095",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "KPTV: 5 dead in Bend elementary school shooting",
+      "url": "https://www.kptv.com/2026/10/15/bend-police-respond-report-active-shooter-silver-rail-elementary-school/"
+    }
+  ],
+  "updated_at": "2026-10-16T11:30:00Z"
+}

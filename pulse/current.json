@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T10:12:00Z",
-  "capture": "2026-10-16T1000Z",
+  "updated_at": "2026-10-16T11:30:00Z",
+  "capture": "2026-10-16T1101Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -65,12 +65,6 @@
       "also": []
     },
     {
-      "id": "2110506786747011202",
-      "desk": "ai",
-      "line": "Mark Cuban says AI is book smart and not street smart. The post gives no example or detail.",
-      "also": []
-    },
-    {
       "id": "2110777583642009692",
       "desk": "sports",
       "line": "Ian Rapoport posts the Eagles' statement that quarterback Jalen Hurts is out for Sunday's game against the Panthers because of a superficial blood clot. The statement says a follow-up ultrasound on Wednesday night showed movement in the clot.",
@@ -103,7 +97,7 @@
     {
       "id": "2110832194910298251",
       "desk": "justice",
-      "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. No police or school statement is captured here. Not checked here.",
+      "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. KPTV counts five dead in all, the shooter among them. See the story.",
       "also": [
         "2110846886710251810",
         "2110869254199501095"

@@ -932,3 +932,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the one dropped id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T11:30Z
+- Captures read: 1101Z. Last read: 1101Z.
+- X's check: 1101Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 24 items (0 new, 1 dropped). Dropped past 36 hours: Mark Cuban AI post. Bend line now points to the story.
+- Added: 2026-10-15-bend-silver-rail-school-shooting (justice). Updated: none.
+- Left out: Brewers pennant (search returned only 2025 results, could not confirm); Miami University active threat alert (no outside report found); no names of minors or victims in the Bend story. Only one outlet (KPTV) opened for Bend; CNN, Washington Times, KOIN and The Hill returned 403/451.
+- Requests: watch list drops the Cuban id and holds the three Bend post ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: web search returned stale 2025 results on standard mode; the Bend event only surfaced on an extended search. Several news sites block WebFetch.
