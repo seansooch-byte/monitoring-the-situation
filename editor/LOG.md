@@ -952,3 +952,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the MKBHD id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T13:40Z
+- Captures read: 1300Z. Last read: 1300Z.
+- X's check: 1300Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z, 1200Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 25 items (2 new, 2 dropped). Dropped past 36 hours: Jensen/TSMC clip, Kyle Griffin WSJ post. New: Tim Cook on iPhone Duo pre-orders (tech), PopBase Global Cat Day (internet).
+- Added: none. Updated: none (pulse pass).
+- Left out: femcelfile gaming post (about a suicide, a joke or bait, not checkable); Dizzle_tan account deletion post (unclear, private artist); F1 Haas and Fabrizio Romano posts (sports full); Tesla Kickflip and Configurations posts (Tesla and Musk already placed); iPhone Duo outage posts (small, same event); Love is Blind post (point unclear).
+- Requests: watch list drops the two dropped ids, adds the two new. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

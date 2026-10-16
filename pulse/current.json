@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T12:30:00Z",
-  "capture": "2026-10-16T1200Z",
+  "updated_at": "2026-10-16T13:40:00Z",
+  "capture": "2026-10-16T1300Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -53,12 +53,6 @@
       "also": []
     },
     {
-      "id": "2110535115059470527",
-      "desk": "business",
-      "line": "dnapway posts a clip in which Jensen says he first reached the founder of TSMC by cold calling a number from the Yellow Pages. The clip says TSMC and UMC were poor companies then. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110717537964953810",
       "desk": "gaming",
       "line": "Rockstar Games says the Grand Theft Auto VI launch trailer is out and that the game arrives November 19. The post names the song \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard. Not checked here.",
@@ -74,12 +68,6 @@
       "id": "2110778025629347999",
       "desk": "ai",
       "line": "Mark Zuckerberg says Meta's Muse Spark Open model weights are releasing today and that the model runs well on new Mac Studios, thanks to work with Apple. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110512395470987450",
-      "desk": "politics",
-      "line": "Kyle Griffin posts a Wall Street Journal report that the Trump administration's investigation into Rep. Ilhan Omar is aimed at building a case to strip her of her citizenship and deport her, citing officials and others familiar with the probe. Not checked here.",
       "also": []
     },
     {
@@ -165,6 +153,18 @@
       "id": "2110904874720510029",
       "desk": "tech",
       "line": "MKBHD, a tech reviewer, quotes Tesla’s post on the new Roadster’s design. He says Tesla told the audience on stage that the 4000+ pound car can do flips, reach 380+ mph and ship in 2028, and asks whether it is a prank. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111056812212687246",
+      "desk": "tech",
+      "line": "Tim Cook, Apple CEO, says Apple cannot wait for the world to experience the iPhone Duo next week and that pre-orders start today. The post has a three-second video.",
+      "also": []
+    },
+    {
+      "id": "2110945327478173854",
+      "desk": "internet",
+      "line": "PopBase, a pop culture account, says today is Global Cat Day and posts a photo.",
       "also": []
     }
   ]
