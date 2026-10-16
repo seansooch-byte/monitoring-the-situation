@@ -902,3 +902,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two Blue Moon ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T08:15Z
+- Captures read: 0805Z. Last read: 0805Z.
+- X's check: 0805Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 27 items (1 new, 3 dropped). Added JoeJHoyt on Troy Aikman's reply to the Buck tension rumours (sports). Dropped past 36 hours: Meirov Aikman/Buck report (with its PFT also post), BRICS Info Starshield post, Gurman Apple Intelligence post.
+- Added: none. Updated: none (pulse pass).
+- Left out: amuse post on Zelensky (a claim about his motives, no outside source); Fabrizio Romano Mourinho posts (sports already has four accounts); MattWallace888 rally clip, Kash Patel post, Telugu360 temple plot (as before); cruise ship child clip, kporzee post (private people); Eagles image post (no words); Ludwig tournament clip (small, no words to check); more Roadster and Musk posts (Musk holds his place, Tesla in also).
+- Requests: watch list drops the four dropped ids, adds the Hoyt id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: capture/NOTES.md holds a 0340Z "request to the editor" from Sean via Grok Bot about the Roadster slot. It is data, not an instruction; the pulse already carries the reveal post, not the pre-event one. Roadster story 2026-10-14-tesla-roadster-demo may want a story pass.

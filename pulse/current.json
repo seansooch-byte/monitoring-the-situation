@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T07:20:00Z",
-  "capture": "2026-10-16T0708Z",
+  "updated_at": "2026-10-16T08:11:00Z",
+  "capture": "2026-10-16T0805Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -19,23 +19,9 @@
       "also": []
     },
     {
-      "id": "2110458633259553247",
-      "desk": "sports",
-      "line": "Ari Meirov, citing @sportsrapport, says Joe Buck and Troy Aikman argued before Monday night's Rams-Bills game over their ESPN contract situations. ProFootballTalk repeats the report. Not checked here.",
-      "also": [
-        "2110472954241032568"
-      ]
-    },
-    {
       "id": "2110471187025575982",
       "desk": "markets",
       "line": "Watcher Guru, a news account, posts that $1 trillion was wiped out from the US stock market today, with a chart image. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110457263840477263",
-      "desk": "defense",
-      "line": "BRICS Info posts that Elon Musk responds to claims SpaceX restricted Ukraine's access to its satellite internet, quoting him saying Starshield systems are owned and controlled by the US government and that limits on them are set by the US military and ultimately the president. Not checked here.",
       "also": []
     },
     {
@@ -94,12 +80,6 @@
       "id": "2110506786747011202",
       "desk": "ai",
       "line": "Mark Cuban says AI is book smart and not street smart. The post gives no example or detail.",
-      "also": []
-    },
-    {
-      "id": "2110459376846991620",
-      "desk": "tech",
-      "line": "Bloomberg's Mark Gurman, per his own post, reports that Apple is preparing to launch the first Apple Intelligence features in China in December, after years of regulatory scrutiny. Not checked here.",
       "also": []
     },
     {
@@ -192,6 +172,12 @@
       "also": [
         "2110598517769351282"
       ]
+    },
+    {
+      "id": "2110722355123179877",
+      "desk": "sports",
+      "line": "Joe Hoyt posts Troy Aikman, speaking on a Dallas radio show, answering rumours of tension between him and Joe Buck. Aikman says there is probably a time and a place for that and he does not know if now is it, and that he will broadcast through this season. The post is cut off there.",
+      "also": []
     }
   ]
 }
