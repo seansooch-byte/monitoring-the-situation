@@ -1,0 +1,2 @@
+{"detail":"One or more parameters to your request was invalid.","errors":[{"message":"There were errors processing your request: Ambiguous use of and as a keyword. Use a space to logically join two clauses, or \"and\" to find occurrences of and in text (at position 1)","parameters":{"query":["and lang:en is:retweet"]}}],"title":"Invalid Request","type":"https://api.x.com/2/problems/invalid-request"}
+X reads left for this user: 23 of 30 this minute (resets at 2026-10-16T09:07:00.000Z), 767 of 1000 today (resets at 2026-10-17T00:00:00.000Z).
