@@ -992,3 +992,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: Indonesia close differs between outlets (5,240 vs 5,185); the story says so. Tempo and IDNFinancials pages were not opened (403 or search snippet only), so not cited.
+
+## 2026-10-16T17:55Z
+- Captures read: 1702Z. Last read: 1702Z.
+- X's check: 1702Z 35 confirmed, 0 missing, 0 mismatched, 1 withheld (id not looked up; not on the pulse or cited). Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the 1509Z withheld post remain in the ledger; none on the pulse or cited.
+- Pulse: 31 items (2 new, 0 dropped). New: Erin Banco on the Starshield order (defense), Aaron Rupar clip of Trump on a Ukrainian woman's interview (politics).
+- Added: none. Updated: none (pulse pass).
+- Left out: Joe Milton posts (sports full); Elon Musk Grok Bot and Zelensky posts (Musk already placed); Kaylub Giamanco posts and family photo (private individual); SmokeAwayyy thruster clip (point unclear); sexual or graphic ids.
+- Requests: watch list adds the two new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

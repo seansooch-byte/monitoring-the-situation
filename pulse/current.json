@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T16:55:00Z",
-  "capture": "2026-10-16T1604Z",
+  "updated_at": "2026-10-16T17:55:00Z",
+  "capture": "2026-10-16T1702Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -187,6 +187,18 @@
       "id": "2111005738306789584",
       "desk": "markets",
       "line": "Ted, a markets commentary account, says Indonesia's stock market is collapsing, the worst crash in 28 years. Business Today reports a fall of about 11 percent on Friday after MSCI proposed a downgrade of Indonesia.",
+      "also": []
+    },
+    {
+      "id": "2110872117445013817",
+      "desk": "defense",
+      "line": "Erin Banco, a reporter, writes that the order to limit a satellite system Ukraine uses for battlefield communications and drone operations came from inside the White House, according to two US officials and a Western official. Not checked here beyond our live story on it.",
+      "also": []
+    },
+    {
+      "id": "2110889540814557222",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a clip of President Trump saying he watched an interview with a young woman from Ukraine who blamed President Zelenskyy for the country's losses. Trump is relaying her words; they were not checked here.",
       "also": []
     }
   ]
