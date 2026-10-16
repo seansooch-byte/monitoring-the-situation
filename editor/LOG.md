@@ -832,3 +832,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the Spectator Index Bend id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T01:25Z
+- Captures read: 0101Z. Last read: 0101Z.
+- X's check: 0101Z 31 confirmed, 0 missing, 1 mismatched (2110712459405464057, MinimalDuck, spam-call bot post; text differs from X after a long unbroken string; not on the pulse or cited), 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; for the next story pass.
+- Pulse: 34 items (1 new, 6 dropped). Added Olivia Rodrigo on the "expectations" release with Chappell Roan (music). Dropped past 36 hours: DeItaone (markets), Schefter jury (sports), kchartsmaster (music), Baltimore Banner (politics), iPopBase wildfires (disaster), Arsenal (sports). Quiet: medicine, ideas, offbeat, disaster.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Eagles image post (no words; Rapoport's statement post covers it); Musk spam-call bot post and MinimalDuck's (mismatch); DiscussingFilm and IGN on the Batman: Part 2 directing change (both accounts already hold a place on entertainment; story-pass candidate); EliteVauIt Kristen Stewart claim (unconfirmed); HoodRich4Pres, ibzdrag, Raindropsmedia1, lvthvante, 15x0xx (private individuals or unclear point).
+- Requests: watch list drops the six dropped ids, adds the Olivia Rodrigo id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

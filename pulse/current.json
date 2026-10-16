@@ -1,26 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T00:14:00Z",
-  "capture": "2026-10-16T0001Z",
+  "updated_at": "2026-10-16T01:25:00Z",
+  "capture": "2026-10-16T0101Z",
   "items": [
     {
       "id": "2110549767063507044",
       "desk": "tech",
       "line": "Elon Musk says the new Tesla Roadster is a candidate for greatest product demo of all time. The post quotes another of his posts. Tesla has said the Roadster event streams live this Thursday. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110347514683490356",
-      "desk": "markets",
-      "line": "Walter Bloomberg (DeItaone), a markets news account, reports US September CPI inflation at 3.7% against 3.6% expected, with core at 2.6% against 2.5%, and gasoline up 9.1%. Not checked here.",
-      "also": [
-        "2110347809308455363"
-      ]
-    },
-    {
-      "id": "2110355864875872634",
-      "desk": "sports",
-      "line": "Adam Schefter reports that a jury returned a mixed verdict in the civil assault and battery trial against Tyreek Hill, finding him liable on two battery counts and not liable on the eight other claims by his estranged wife. Not checked here.",
       "also": []
     },
     {
@@ -30,21 +16,9 @@
       "also": []
     },
     {
-      "id": "2110357842125328426",
-      "desk": "music",
-      "line": "K-charts account kchartsmaster reports that muuo:23, a five-member K-pop group made with generative AI by Creation Zipup, pre-debuted with a single called NEVERTHELESS.",
-      "also": []
-    },
-    {
       "id": "2110425991088943259",
       "desk": "sports",
       "line": "Fabrizio Romano reports that Real Madrid forward Vinicius Jr has been suspended for four La Liga games, which would include El Clásico. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110353543022752199",
-      "desk": "politics",
-      "line": "The Baltimore Banner posts a video and says Republican Rep. Andy Harris incorrectly told a reporter they were breaking the law while recording him after a debate with Democratic challenger Dan Schwartz. Not checked here.",
       "also": []
     },
     {
@@ -148,12 +122,6 @@
       "also": []
     },
     {
-      "id": "2110349489710219638",
-      "desk": "disaster",
-      "line": "iPopBase posts new photos of wildfires in Central Kalimantan, Indonesia. It says Indonesia ranks first in the world for daily wildfire carbon emissions, citing Copernicus. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110384152633565210",
       "desk": "internet",
       "line": "Jim Chuong says Human Resources is not an employee's friend and is there to protect the company. Four images are attached. It is his opinion.",
@@ -163,12 +131,6 @@
       "id": "2110432031968542721",
       "desk": "world",
       "line": "Mykhailo Fedorov, whom Meduza describes as Ukraine's Defense Minister, says Starlink connectivity at speeds up to 160 km/h is being restored and that removing the Starshield speed limit entirely is now critical for Ukraine's defense. He thanks Elon Musk. See the story on the speed limit.",
-      "also": []
-    },
-    {
-      "id": "2110355411144675696",
-      "desk": "sports",
-      "line": "Arsenal, the football club, posts a squad photo captioned \"The class of 26/27.\"",
       "also": []
     },
     {
@@ -244,6 +206,12 @@
       "id": "2110599487228117283",
       "desk": "gaming",
       "line": "House House, the studio account for Big Walk, posts a link to an explanation of why the game is not available on Xbox. The explanation is in a screenshot of its site that I could not read in full. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110884276359319861",
+      "desk": "music",
+      "line": "Olivia Rodrigo says her song \"expectations\", featuring Chappell Roan, is out now, and praises Roan as an artist and friend.",
       "also": []
     }
   ]
