@@ -8,13 +8,13 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-14T00:25:40Z",
-  "updated_at": "2026-10-16T02:40:00Z",
+  "updated_at": "2026-10-16T03:50:00Z",
   "what": [
     "Tesla held its Roadster event on the evening of October 15 (Central time), after delays from October 1. TechCrunch and Fox Business report it took place at a SpaceX test site in Texas. Fox Business places it in McGregor. TechCrunch says near Waco.",
     "Reports agree on the core of the show. The car drove up a curved ramp, left it, turned over in the air on bursts from thrusters, and landed upright. TechCrunch says it also lifted over other Tesla vehicles in motion. Glitchwire says the thrusters run on compressed air from a tank that replaces the rear seats and feed ten nozzles. TechCrunch quotes Tesla's engineering lead on ten thrusters and 600 liters of compressed air. Glitchwire gives a tank weight of 260 kilos. These details differ between outlets and I could not find a Tesla page that settles them.",
     "Tesla and Musk made the performance claims. Fox Business reports Tesla saying the car reaches 60 mph in under a second. TechCrunch reports a demonstration of 0 to 60 in about one second. I found no independent test.",
     "On production, TechCrunch reports Musk saying the car will be built in 2028, and lists reservation tiers of $50,000 (Performance) and $250,000 (Thrust), with a third tier by invitation. Glitchwire instead says manufacturing would likely begin in 2027. I could not reconcile the two. Fox Business quotes a Tesla post calling the Roadster \"the best of the last human-driven cars.\"",
-    "Before the event, Musk called it a candidate for greatest product demo of all time. That was his opinion and a promise. This page does not judge the result."
+    "Before the event, Musk called it a candidate for greatest product demo of all time. That was his opinion and a promise. After it, Musk posted a video of the car with the words \"Turns out the future does have flying cars,\" and Tesla posted video of the reveal with \"Real life, baby.\" Both are the company's own account of its own show. This page does not judge the result."
   ],
   "why": "The Roadster has been promised since 2017, and each date has drawn both fans and sceptics. Musk and Tesla reach very large audiences, and a car that flips in the air makes a short video that travels.",
   "next": "Whether Tesla publishes specifications, a price and a production date on its own site, and whether anyone tests the speed claim.",
@@ -34,6 +34,14 @@
     {
       "id": "2110901393238474863",
       "role": "voice"
+    },
+    {
+      "id": "2110913107094606330",
+      "role": "official"
+    },
+    {
+      "id": "2110913438293647789",
+      "role": "official"
     }
   ],
   "sources": [
@@ -58,6 +66,10 @@
     {
       "at": "2026-10-16T02:40:00Z",
       "text": "The page said the event had not happened. It has now happened, and the story is rewritten around what was shown."
+    },
+    {
+      "at": "2026-10-16T03:50:00Z",
+      "text": "Added Musk's and Tesla's own posts made after the event."
     }
   ]
 }

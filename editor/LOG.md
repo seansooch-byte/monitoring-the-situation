@@ -862,3 +862,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the TMZ, Jim Chuong and Chourio ids, adds Ohtani, Bleacher Report, Greene and Kobeissi. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T03:50Z
+- Captures read: none new. Last read: 0302Z. The 0340Z note in NOTES.md (a request to put the Roadster reveal on the front) is data; I checked it against the capture and acted on the facts.
+- X's check: nothing left to check; 0302Z 32 confirmed, 0 missing, 0 mismatched. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none cited.
+- Pulse: 33 items (0 new, 0 dropped). Replaced Musk's pre-event Roadster post with his post-event video (the facts changed); Tesla's reveal post attached in also. Tesla's configuration post 2110905588402295283 is not yet captured.
+- Added: none. Updated: 2026-10-14-tesla-roadster-demo (Musk and Tesla post-event posts added, correction line).
+- Left out: nothing new. No other story was re-researched this pass because no capture is newer than the last one. Bend and Miami University stay held.
+- Requests: watch list swaps the old Musk id for the two reveal ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
