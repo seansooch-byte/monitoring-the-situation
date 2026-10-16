@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T02:45:00Z",
-  "capture": "2026-10-16T0201Z",
+  "updated_at": "2026-10-16T03:20:00Z",
+  "capture": "2026-10-16T0302Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -44,15 +44,23 @@
       "also": []
     },
     {
-      "id": "2110385901297709079",
-      "desk": "justice",
-      "line": "TMZ reports, as an exclusive, that Diddy's head injury came from a prison fight with a Jamaican drug lord it calls Dudus. The post names no source for the claim. Not checked here.",
+      "id": "2110895796308820439",
+      "desk": "sports",
+      "line": "MLB posts a short video captioned \"Shohei Ohtani, home run\". Bleacher Report, in a post attached here, says it was his first home run since August 18.",
+      "also": [
+        "2110898074763907195"
+      ]
+    },
+    {
+      "id": "2110550281649783154",
+      "desk": "politics",
+      "line": "Marjorie Taylor Greene, a former congresswoman, says she and Rep. Ilhan Omar disagree on policy but that moving to deport Omar will not lower gas prices or the cost of health insurance and groceries. She swears at the White House and calls on it to release the Epstein files.",
       "also": []
     },
     {
-      "id": "2110523723732107761",
-      "desk": "sports",
-      "line": "MLB posts a video captioned \"Jackson Chourio, first pitch, Brewers lead!\" Other posts about Game 3 of Dodgers v Brewers describe it as a leadoff home run.",
+      "id": "2110710265880924621",
+      "desk": "markets",
+      "line": "The Kobeissi Letter, a markets newsletter account, says September producer price inflation rose to 6.3% against expectations of 5.3%, and that the odds of rate hikes are rising. Not checked here.",
       "also": []
     },
     {
@@ -103,12 +111,6 @@
       "id": "2110717537964953810",
       "desk": "gaming",
       "line": "Rockstar Games says the Grand Theft Auto VI launch trailer is out and that the game arrives November 19. The post names the song \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110384152633565210",
-      "desk": "internet",
-      "line": "Jim Chuong says Human Resources is not an employee's friend and is there to protect the company. Four images are attached. It is his opinion.",
       "also": []
     },
     {

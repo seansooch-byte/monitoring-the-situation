@@ -852,3 +852,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list now holds the pulse, the CFP origin, the Tesla posts, the pinned post and the planet-candidate post. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: web search could not reach news from the last few hours on Bend or Miami, so both are held to the pulse.
+
+## 2026-10-16T03:20Z
+- Captures read: 0302Z. Last read: 0302Z.
+- X's check: 0302Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z, 0708Z and 0101Z and the missing post at 0201Z (none on the pulse or cited). 2108136823516278817 is now on the watch list and was re-read.
+- Pulse: 33 items (3 new, 3 dropped). Added Greene on the Omar deportation report (politics), the Kobeissi Letter on September PPI (markets, not checked), and MLB's Ohtani home run (sports, Bleacher Report in also; it replaces MLB's older Chourio post because an account holds one place). Dropped past 36 hours: TMZ on Diddy, Jim Chuong. Quiet: medicine, ideas, offbeat, disaster.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: Eagles image post (no words); MattWallace888 rally clip (shows a man, claim unconfirmed); Kash Patel "From Russia, with Love" (point not clear from the post); hippyygoat on Israel (insult-driven); DOGEQEEN cruise ship post (a child); Telugu360 Aurora plot (names an accused 19-year-old); EdiriQX African president rumour (unconfirmed); more Musk and Tesla Roadster posts (account holds its place; the story covers the demo); other Dodgers and Brewers game posts (repeat or small). Story pass candidates: Bend and Miami University once police statements exist; the PPI figures need a check against the BLS.
+- Requests: watch list drops the TMZ, Jim Chuong and Chourio ids, adds Ohtani, Bleacher Report, Greene and Kobeissi. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
