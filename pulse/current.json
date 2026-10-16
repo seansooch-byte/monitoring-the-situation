@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T06:40:00Z",
-  "capture": "2026-10-16T0608Z",
+  "updated_at": "2026-10-16T07:20:00Z",
+  "capture": "2026-10-16T0708Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -183,6 +183,14 @@
       "line": "Livedoor News, a Japanese news outlet, reports in Japanese that the Japan Meteorological Agency has withdrawn the earthquake early warning issued at 12:48 p.m. on the 16th as a false alarm and says no earthquake occurred. UN_NERV, a disaster alert account, posts the cancellation notice. Not checked here.",
       "also": [
         "2110941011191189536"
+      ]
+    },
+    {
+      "id": "2110585384379752814",
+      "desk": "music",
+      "line": "Zara Larsson Feed, a fan account, posts a video and says Zara Larsson has released the music video for \"Blue Moon.\" Pop Crave, a pop culture outlet, describes her as a fairy and a mermaid in it.",
+      "also": [
+        "2110598517769351282"
       ]
     }
   ]

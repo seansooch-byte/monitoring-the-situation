@@ -892,3 +892,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the two dropped ids, adds the two Japan alert ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T07:20Z
+- Captures read: 0608Z, 0708Z. Last read: 0708Z.
+- X's check: 0708Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 32 items (1 new, 0 dropped). Added Zara Larsson Feed on the "Blue Moon" video (music; Pop Crave in also). Nothing is past 36 hours yet; the Meirov, BRICS Info and Gurman items reach it within the hour.
+- Added: none. Updated: none (pulse pass).
+- Left out: MattWallace888 Secret Service rally clip (politics already has three accounts; claim unchecked); Kash Patel "From Russia, with Love" (point unclear from its words); Aurora temple plot (Telugu360, no outside source); cruise ship child clip and kporzee medical post (private people); Shane Gillis opinion post; more Musk and Tesla Roadster posts (Musk holds his place, Tesla in also); Eagles image post (no words).
+- Requests: watch list adds the two Blue Moon ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
