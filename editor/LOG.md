@@ -882,3 +882,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the two dropped ids, adds the Eyes of Ghana post. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T05:16Z
+- Captures read: 0508Z. Last read: 0508Z.
+- X's check: 0508Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 31 items (1 new, 2 dropped). Added Livedoor News on the cancelled Japanese earthquake early warning (disaster; UN_NERV in also). Dropped past 36 hours: SpaceXSI Grok Voice 3.0, IGN Daryl Dixon clip. Quiet: medicine, ideas, life.
+- Added: none. Updated: none (pulse pass).
+- Left out: the "M9.9" and cyber attack claims around the Japan alert (unconfirmed rumour; the cancellation says no quake occurred); HormuzLetter Iran missile post (small, unconfirmed); Brewers pennant and Dodgers elimination posts (small beside the Ohtani item; a story pass could cover the NLCS result); Watcher Guru and Tesla Roadster posts (account holds its place, Musk item covers it); OpenAI device, Pope Leo and Narnia posts (older than 36 hours); Bo Nix posts (insult-led, small); old_content memes.
+- Requests: watch list drops the two dropped ids, adds the two Japan alert ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

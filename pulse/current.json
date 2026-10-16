@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T04:25:00Z",
-  "capture": "2026-10-16T0405Z",
+  "updated_at": "2026-10-16T05:16:00Z",
+  "capture": "2026-10-16T0508Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -97,12 +97,6 @@
       "also": []
     },
     {
-      "id": "2110416580899168305",
-      "desk": "ai",
-      "line": "SpaceXSI announces Grok Voice 3.0, which it calls the most intelligent speech-to-speech model, able to resolve customer calls and answer in under a second. These are the company's own claims and are not checked here. Grok is made by xAI, the company that also makes the Grok model gathering this page's posts.",
-      "also": []
-    },
-    {
       "id": "2110717537964953810",
       "desk": "gaming",
       "line": "Rockstar Games says the Grand Theft Auto VI launch trailer is out and that the game arrives November 19. The post names the song \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard. Not checked here.",
@@ -157,12 +151,6 @@
       "also": []
     },
     {
-      "id": "2110417606574268816",
-      "desk": "entertainment",
-      "line": "IGN posts a clip from Season 4 of \"The Walking Dead: Daryl Dixon\" from the #IGNFanFest event and calls it terrifying, saying you cannot outrun a zombie horde.",
-      "also": []
-    },
-    {
       "id": "2110832194910298251",
       "desk": "justice",
       "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. No police or school statement is captured here. Not checked here.",
@@ -206,6 +194,14 @@
       "desk": "music",
       "line": "FC Barcelona announces Tyler, The Creator as a partner in a deal with Spotify and GOLF WANG, and welcomes him \"to the team\". The post gives no terms. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2110942239853793325",
+      "desk": "disaster",
+      "line": "Livedoor News, a Japanese news outlet, reports in Japanese that the Japan Meteorological Agency has withdrawn the earthquake early warning issued at 12:48 p.m. on the 16th as a false alarm and says no earthquake occurred. UN_NERV, a disaster alert account, posts the cancellation notice. Not checked here.",
+      "also": [
+        "2110941011191189536"
+      ]
     }
   ]
 }
