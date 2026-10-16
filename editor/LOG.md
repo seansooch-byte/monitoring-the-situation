@@ -1012,3 +1012,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the new ids. open.json only updated_at.
 - Shipped: yes, commit c781aab, live audit clean (log entry committed after the ship).
 - For the main editor: nothing.
+
+## 2026-10-16T19:15Z
+- Captures read: 1901Z. Last read: 1901Z.
+- X's check: 1901Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the 1509Z and 1702Z withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 31 items (1 new, 1 dropped). New: NotPalo on the Shrek 2 Remastered announcement, in Spanish, with DiscussingFilm's trailer post attached (gaming). Dropped as older than 36 hours: Olivia Rodrigo (music, posted about 07:00Z on 2026-10-15).
+- Added: none. Updated: none (pulse pass).
+- Left out: Humanrights256 claim that Cameroon's president died (not checked here; story pass should look); OldRowSports Savannah Bananas post (sports desk full); Nuener Lucky post on the Cornell case (private individuals); Zacharia repeats (Fox follow-up already placed); posts flagged old_content.
+- Requests: watch list adds the two new ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

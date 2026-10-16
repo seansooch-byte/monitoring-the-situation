@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T18:40:00Z",
-  "capture": "2026-10-16T1804Z",
+  "updated_at": "2026-10-16T19:15:00Z",
+  "capture": "2026-10-16T1901Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -120,12 +120,6 @@
       "also": []
     },
     {
-      "id": "2110626893414154326",
-      "desk": "music",
-      "line": "FC Barcelona announces Tyler, The Creator as a partner in a deal with Spotify and GOLF WANG, and welcomes him \"to the team\". The post gives no terms. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110942239853793325",
       "desk": "disaster",
       "line": "Livedoor News, a Japanese news outlet, reports in Japanese that the Japan Meteorological Agency has withdrawn the earthquake early warning issued at 12:48 p.m. on the 16th as a false alarm and says no earthquake occurred. UN_NERV, a disaster alert account, posts the cancellation notice. Not checked here.",
@@ -200,6 +194,14 @@
       "desk": "world",
       "line": "President Zelensky, in an address to a European Council meeting, says the war will cost 155 billion euros next year and Ukraine needs at least 70 billion euros more. He says drones stop most Russian assaults. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2111131357497663940",
+      "desk": "gaming",
+      "line": "NotPalo, a leaks and news account posting in Spanish, says Shrek 2 Remastered has been announced in the style of the GTA VI trailer, with more information expected on October 20. A 52-second video is attached, and DiscussingFilm calls it the first trailer for the game. Not checked here.",
+      "also": [
+        "2111142826301948312"
+      ]
     }
   ]
 }
