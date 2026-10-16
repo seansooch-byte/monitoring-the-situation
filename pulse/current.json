@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T22:40:00Z",
-  "capture": "2026-10-16T2210Z",
+  "updated_at": "2026-10-16T23:30:00Z",
+  "capture": "2026-10-16T2303Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -221,6 +221,12 @@
       "id": "2110819638401704438",
       "desk": "ai",
       "line": "Bluesky says that starting today people can use Attie, which it describes as vibe-coding made social, to make sites such as games, quizzes and guestbooks. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110884776400097494",
+      "desk": "music",
+      "line": "PopBase, a pop culture account, says Tate McRae has released a new single called \"Housewife\" and posts a short video. Not checked here.",
       "also": []
     }
   ]

@@ -1052,3 +1052,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list updated. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T23:30Z
+- Captures read: 2303Z. Last read: 2303Z.
+- X's check: 2303Z 29 confirmed, 0 missing, 2 mismatched (2110892251534565586 kylegriffin, 2111098604974719116 fable; neither is on the pulse or cited), 0 withheld. Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and earlier withheld posts remain in the ledger.
+- Pulse: 35 items (1 new, 0 dropped; none older than 36 hours). New: PopBase on Tate McRae's new single (music).
+- Added: none. Updated: none (pulse pass).
+- Left out: IlhanMN thank-you post (quotes a post X reported as mismatched, and its text is cut off); Tesla "kickflip" (Tesla already placed); Kid Rock dinner claim (EricLDaugh, not checked); Barnes_Joe Starshield post (Banco item covers it); carterefe__ (private individual flag); posts flagged old_content.
+- Requests: watch list adds the new id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: the mismatch detail for both ids prints identical record and X text in the first 64 characters, so the tool may be comparing something past that point.
