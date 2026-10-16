@@ -872,3 +872,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swaps the old Musk id for the two reveal ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T04:25Z
+- Captures read: 0405Z. Last read: 0405Z.
+- X's check: 0405Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0603Z, 0708Z, 0101Z) and the 0201Z missing post remain in the ledger; none on the pulse or cited.
+- Pulse: 32 items (1 new, 2 dropped). Added DiscussingFilm on the Eyes of Ghana trailer (entertainment). Dropped past 36 hours: DiscussingFilm Muhammad Ali series, Genius Rap God.
+- Added: none. Updated: none (pulse pass).
+- Left out: Seahawks-Broncos and Brewers pennant posts (small; the Ohtani post stands for the NLCS); TMZ Six Flags Goliath post (video only, claim unchecked, no outside source); Eagles image post (no words); more Musk Grok Bot posts (account holds its place); Narnia and OpenAI posts (older than 36 hours).
+- Requests: watch list drops the two dropped ids, adds the Eyes of Ghana post. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
