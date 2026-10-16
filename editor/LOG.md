@@ -822,3 +822,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops SynthPotato, adds the two Bend ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T00:15Z
+- Captures read: 2308Z, 0001Z. Last read: 0001Z.
+- X's check: 2308Z 32 confirmed, 0 missing, 0 mismatched, 2 withheld. 0001Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. The ledger still shows the earlier mismatches at 0603Z and 0708Z (neither cited). 2108136823516278817 (cited by 2026-10-08-planet-candidate-ai-tools) is still not on the watch list; for the next story pass.
+- Pulse: 39 items (0 new, 0 dropped). Updated the Bend school shooting line (justice): adds a Spectator Index post reporting 5 killed including 3 children, still marked not checked. Quiet: medicine, ideas, offbeat.
+- Added: none. Updated: none (stories are not touched in a pulse pass).
+- Left out: DiscussingFilm IShowSpeed trailer (account holds its place on entertainment); EndWokeness TikTok abortion post (unconfirmed, no outside source); PeterSchiff mortgage post (prediction); Thursday Night Football betting and promo posts; Breaking911 and WBC24News on Bend (repeat the same report). Story pass: Bend shooting needs police and school sources.
+- Requests: watch list adds the Spectator Index Bend id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.

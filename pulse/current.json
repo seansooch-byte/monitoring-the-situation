@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-15T23:16:40Z",
-  "capture": "2026-10-15T2308Z",
+  "updated_at": "2026-10-16T00:14:00Z",
+  "capture": "2026-10-16T0001Z",
   "items": [
     {
       "id": "2110549767063507044",
@@ -228,9 +228,10 @@
     {
       "id": "2110832194910298251",
       "desk": "justice",
-      "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon. A later BNO post says several people, including children, were hurt, the shooter is dead and the number of victims is unclear. Police and school statements are not captured here. Not checked here.",
+      "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. No police or school statement is captured here. Not checked here.",
       "also": [
-        "2110846886710251810"
+        "2110846886710251810",
+        "2110869254199501095"
       ]
     },
     {
