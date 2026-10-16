@@ -1002,3 +1002,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T18:40Z
+- Captures read: 1804Z. Last read: 1804Z.
+- X's check: 1804Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the 1509Z and 1702Z withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 31 items (3 new, 3 dropped). New: Fox News on Katie Zacharia leaving the press secretary job, with its follow-up carrying Trump's denial (politics); Elon Musk on an advertising standard for X (business, held off the front by the one-account rule, stands on its desk); Zelensky's address to the European Council (world). Dropped as older than 36 hours: Complex on Angelina Jolie, House House, Zara Larsson Feed.
+- Added: none. Updated: none (pulse pass).
+- Left out: Dhruv Rathee post on Modi (political insult, claim not checkable); NYT on Musk and Paxton (CNN FEC item already placed); EndWokeness TikTok claim (not checkable); Rahul Gandhi post on assaulted students (private_individual flagged); sports repeats (desk full); Tesla/Roadster repeats; PopBase and TMZ posts saying Zacharia was fired (conflict with Fox's "transitioning out"; story pass should check).
+- Requests: watch list adds the new ids. open.json only updated_at.
+- Shipped: yes, commit c781aab, live audit clean (log entry committed after the ship).
+- For the main editor: nothing.
