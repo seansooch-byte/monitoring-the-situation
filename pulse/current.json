@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T17:55:00Z",
-  "capture": "2026-10-16T1702Z",
+  "updated_at": "2026-10-16T18:40:00Z",
+  "capture": "2026-10-16T1804Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -102,18 +102,6 @@
       ]
     },
     {
-      "id": "2110619178520490024",
-      "desk": "entertainment",
-      "line": "Complex reports that a handwritten thank-you note Angelina Jolie left for hotel staff while filming ‘Maria’ in Greece has resurfaced, and that people are trying to work out what it says. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110599487228117283",
-      "desk": "gaming",
-      "line": "House House, the studio account for Big Walk, posts a link to an explanation of why the game is not available on Xbox. The explanation is in a screenshot of its site that I could not read in full. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110884276359319861",
       "desk": "music",
       "line": "Olivia Rodrigo says her song \"expectations\", featuring Chappell Roan, is out now, and praises Roan as an artist and friend.",
@@ -143,14 +131,6 @@
       "line": "Livedoor News, a Japanese news outlet, reports in Japanese that the Japan Meteorological Agency has withdrawn the earthquake early warning issued at 12:48 p.m. on the 16th as a false alarm and says no earthquake occurred. UN_NERV, a disaster alert account, posts the cancellation notice. Not checked here.",
       "also": [
         "2110941011191189536"
-      ]
-    },
-    {
-      "id": "2110585384379752814",
-      "desk": "music",
-      "line": "Zara Larsson Feed, a fan account, posts a video and says Zara Larsson has released the music video for \"Blue Moon.\" Pop Crave, a pop culture outlet, describes her as a fairy and a mermaid in it.",
-      "also": [
-        "2110598517769351282"
       ]
     },
     {
@@ -199,6 +179,26 @@
       "id": "2110889540814557222",
       "desk": "politics",
       "line": "Aaron Rupar posts a clip of President Trump saying he watched an interview with a young woman from Ukraine who blamed President Zelenskyy for the country's losses. Trump is relaying her words; they were not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111146227454947837",
+      "desk": "politics",
+      "line": "Fox News reports that a senior White House official told its reporter that Katie Zacharia is \"transitioning out\" of her job as press secretary. Its follow-up, attached, says President Trump denies firing her. Other accounts post that she was fired; that has not been checked here.",
+      "also": [
+        "2111147899623186742"
+      ]
+    },
+    {
+      "id": "2111131160348688395",
+      "desk": "business",
+      "line": "Elon Musk says all advertising on 𝕏 will be subject to a \"reasonable esthetic standard\" going forward, and that advertisers whose ads are ugly, shrill, strident or overstate claims about their product will be barred. The post does not say how this would be enforced.",
+      "also": []
+    },
+    {
+      "id": "2111076654105641393",
+      "desk": "world",
+      "line": "President Zelensky, in an address to a European Council meeting, says the war will cost 155 billion euros next year and Ukraine needs at least 70 billion euros more. He says drones stop most Russian assaults. Not checked here.",
       "also": []
     }
   ]
