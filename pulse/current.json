@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T21:30:00Z",
-  "capture": "2026-10-16T2105Z",
+  "updated_at": "2026-10-16T22:40:00Z",
+  "capture": "2026-10-16T2210Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -209,6 +209,18 @@
       "id": "2111168692365218084",
       "desk": "politics",
       "line": "Anthony Scaramucci addresses Katie Zacharia directly, calling himself \"the world's leading expert on short White House tenures\", and tells her to turn off the news and go enjoy her family.",
+      "also": []
+    },
+    {
+      "id": "2110810888433500323",
+      "desk": "politics",
+      "line": "EliasofNE, an X user, writes \"How are any young men left wing I genuinely don’t understand.\" It is a personal opinion with no data in the post.",
+      "also": []
+    },
+    {
+      "id": "2110819638401704438",
+      "desk": "ai",
+      "line": "Bluesky says that starting today people can use Attie, which it describes as vibe-coding made social, to make sites such as games, quizzes and guestbooks. Not checked here.",
       "also": []
     }
   ]

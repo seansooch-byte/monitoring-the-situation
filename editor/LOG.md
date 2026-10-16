@@ -1042,3 +1042,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-16-01 (Norte Fire official figures). Watch list updated.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-16T22:40Z
+- Captures read: 2210Z. Last read: 2210Z.
+- X's check: 2210Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z), the 0201Z missing post and the earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 34 items (2 new, 0 dropped; none older than 36 hours). New: EliasofNE opinion post (politics); Bluesky's Attie announcement (ai).
+- Added: none. Updated: none (pulse pass).
+- Left out: MLP_officiel post in French on Muslim French citizens (could not confirm the account owner or what the video shows); thecsguy claim that Amazon blocks Grok bots (unchecked, a Grok mention); Josh Jacobs Schefter post (sports desk full); other Tesla Roadster repeats (Tesla and Musk already placed); posts of children, couples and private people (cruise ship child, wedding GPU clip, Clavicular clips).
+- Requests: watch list updated. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
