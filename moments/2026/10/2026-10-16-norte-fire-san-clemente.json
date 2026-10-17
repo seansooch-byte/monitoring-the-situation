@@ -2,14 +2,18 @@
   "schema": "mts.moment/1",
   "id": "2026-10-16-norte-fire-san-clemente",
   "title": "Norte Fire burns homes near San Clemente and San Juan Capistrano as Santa Ana winds blow",
-  "dek": "Evacuation orders were in place in two Orange County cities on Friday. CBS Los Angeles put the fire at 465 acres that evening.",
+  "dek": "Evacuation orders were in place in two Orange County cities on Friday. CBS Los Angeles put the fire at 570 acres by Friday night.",
   "desks": [
     "disaster"
   ],
   "standing": "developing",
   "started_at": "2026-10-16T19:45:57Z",
-  "updated_at": "2026-10-17T02:20:00Z",
+  "updated_at": "2026-10-17T11:30:00Z",
   "corrections": [
+    {
+      "at": "2026-10-17T11:30:00Z",
+      "text": "CBS Los Angeles's last update, at 9:32 p.m. Pacific on Friday, puts the fire at 570 acres. Six homes impacted and two firefighters hospitalized are unchanged, and it gives no containment figure or cause."
+    },
     {
       "at": "2026-10-17T02:20:00Z",
       "text": "Added CBS Los Angeles's 7:02 p.m. Pacific figures: 465 acres, six homes impacted, two firefighters hospitalized. The 250-acre figure above is from 2:02 p.m."

@@ -1162,3 +1162,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed; watch list already matches the pulse.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T11:35Z
+- Captures read: 1108Z. Last read: 1108Z.
+- X's check: 1108Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches, missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 31 items (0 new, 2 dropped). Dropped (older than 36 hours): Porsche Mission S, DiscussingFilm on The Batman Part 2. Medicine still has no item. The build holds PopBase and Elon Musk second posts off the front.
+- Added: 2026-10-16-musk-texas-senate-filings (politics; CNN page returned HTTP 451, figures rest on CBS News). Updated: 2026-10-16-norte-fire-san-clemente (570 acres at 9:32 p.m. Pacific).
+- Left out: Usher/LeBron birthday clip (small); Trump "Mohammed" clip (partisan aggregator); Musk X ad "esthetic standard" (only his own post, no outside source); Tim Cook iPhone Duo, Zelensky European Council, WaPo settler attack, Rahul Gandhi/Rubio (not researched this pass); private_individual and old_content posts. Bend story: KPTV says five dead including the shooter; other outlets early said four; not rechecked, no newer source found.
+- Requests: watch list drops two ids, adds Bernie Sanders post 2111159177250787764. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

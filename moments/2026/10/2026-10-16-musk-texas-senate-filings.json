@@ -1,0 +1,38 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-16-musk-texas-senate-filings",
+  "title": "New filings show Musk gave more than $150 million to a Senate GOP fund that fed the Texas race",
+  "dek": "Third-quarter reports filed on Thursday show where Elon Musk's money went. The Texas Senate race is the biggest single destination.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-16T09:30:04Z",
+  "updated_at": "2026-10-17T11:30:00Z",
+  "what": [
+    "CNN reports that new filings with the Federal Election Commission show tech billionaire Elon Musk's heavy influence on the 2026 midterms, especially the Senate race in Texas. Its headline says Musk contributed more than $150 million to bolster the GOP in that race. I could not open the CNN story, so I rely on CBS News for the figures below.",
+    "CBS News reports that Musk gave $75 million to the Senate Leadership Fund, a Republican super PAC, on September 9, and $83 million on September 23. It reports that the fund sent matching amounts to a group called Texas PAC within one day of each gift.",
+    "CBS says Texas PAC reported more than $100 million in spending for Republican Ken Paxton and against Democrat James Talarico. It describes the race as tight and says Talarico announced a record $64 million fundraising haul.",
+    "CBS also lists other Musk giving in the filings: more than $80 million to America PAC from July to September, $10 million from his trust to Lone Star Liberty PAC in August, and $20 million to the Congressional Leadership Fund in September.",
+    "CBS quotes America PAC spokesperson Andrew Romeo: \"If Democrats take control of Washington...America risks becoming a socialist, woke and borderless country.\" CBS says no direct statement from Musk, Paxton or Talarico appears in its story.",
+    "Senator Bernie Sanders posted a list of top political donors that puts Musk first at $369 million, and calls the election a fight over oligarchs buying the government. His post does not say where the figures come from. I did not check them."
+  ],
+  "why": "Campaign money is public, but few people read the filings. A single gift of this size, and the speed at which it reached one race, makes a short post that people on both sides can use.",
+  "next": "Later FEC reports before Election Day, and any statement from Musk or the campaigns about the Texas spending.",
+  "posts": [
+    {
+      "id": "2111026882959286396",
+      "role": "origin"
+    },
+    {
+      "id": "2111159177250787764",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CBS News: Elon Musk donates over $150 million to Senate GOP group, assisting Ken Paxton",
+      "url": "https://www.cbsnews.com/news/elon-musk-midterm-donations-texas-ken-paxton/"
+    }
+  ]
+}
