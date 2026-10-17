@@ -1132,3 +1132,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the dropped id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T09:10Z
+- Captures read: 0703Z, 0806Z. Last read: 0806Z.
+- X's check: 0806Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z; also cb_doge full Roadster event video 2110915288296575280), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 34 items (4 new, 5 dropped, 1 swapped). New: Katie Zacharia's own post (politics); Schefter on Josh Jacobs (sports); Steve Weis "Claude found the seeds" (ai; Anthropic disclosure included, linked page not checked); DiscussingFilm on Soderbergh and The Batman Part 2 (entertainment; Deadline claim not checked). Swapped: Rupar's Hannity interview post replaces his Trump-Zelensky clip (same account, larger). Dropped (older than 36 hours): a trailer post, Thamel on the playoff, Bend school shooting alert, EliasofNE, Bluesky Attie. The build holds PopBase and Elon Musk second posts off the front.
+- Added: none. Updated: none (pulse pass).
+- Left out: RT_Visual wedding GPU post (private couple, unconfirmed); Ilhan Omar post (I cannot tell what it answers); JesseBWatters raid claim (unconfirmed, about a real person); Dexerto influencer arrest (accused person); WatcherGuru and other Roadster copies; posts with no media description (atensnut, ngnchiikawa, SmokeAwayyy); CENTCOM "Update" (no text); flagged and old_content posts. For the next story pass: Barnes/Banco/Telegraph reports on Starlink limits in Ukraine.
+- Requests: watch list swapped to the current pulse ids; open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

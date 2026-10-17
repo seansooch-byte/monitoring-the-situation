@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T06:45:00Z",
-  "capture": "2026-10-17T0600Z",
+  "updated_at": "2026-10-17T09:10:00Z",
+  "capture": "2026-10-17T0806Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -11,12 +11,6 @@
         "2110913438293647789",
         "2110901393238474863"
       ]
-    },
-    {
-      "id": "2110813916620091584",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts the first trailer for \"The Eyes of Ghana,\" which it calls the first film produced by IShowSpeed. It says the documentary follows Ghanaian cinematographer Chris Hesse as he tries to rescue more than 1,000 films of Africa's independence-era years. Not checked here.",
-      "also": []
     },
     {
       "id": "2110895796308820439",
@@ -49,21 +43,6 @@
       "desk": "politics",
       "line": "CNN reports that new Federal Election Commission filings show tech billionaire Elon Musk's heavy influence on the 2026 midterms, especially the Texas Senate race. The linked CNN story is headlined as saying Musk gave more than $150 million to bolster Republicans there. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2110787647610515541",
-      "desk": "sports",
-      "line": "Pete Thamel reports, citing sources, that the College Football Playoff is nearing a deal to expand to 24 teams, starting in 2027 and pending final approvals. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110832194910298251",
-      "desk": "justice",
-      "line": "BNO News reports an active shooter at Silver Rail Elementary School in Bend, Oregon, and later that the shooter is dead. The Spectator Index, a news account, posts that 5 people were killed, including 3 children. KPTV counts five dead in all, the shooter among them. See the story.",
-      "also": [
-        "2110846886710251810",
-        "2110869254199501095"
-      ]
     },
     {
       "id": "2110884276359319861",
@@ -116,9 +95,9 @@
       "also": []
     },
     {
-      "id": "2110889540814557222",
+      "id": "2110906012857454976",
       "desk": "politics",
-      "line": "Aaron Rupar posts a clip of President Trump saying he watched an interview with a young woman from Ukraine who blamed President Zelenskyy for the country's losses. Trump is relaying her words; they were not checked here.",
+      "line": "Aaron Rupar posts a video of Fox News host Sean Hannity interviewing Katie Zacharia, then White House press secretary. Hannity asks about her calling herself a lawyer and cites a report of 15 posts calling her an attorney. She answers that she thinks they were retweets. Rupar calls it a flame out.",
       "also": []
     },
     {
@@ -170,18 +149,6 @@
       "also": []
     },
     {
-      "id": "2110810888433500323",
-      "desk": "politics",
-      "line": "EliasofNE, an X user, writes \"How are any young men left wing I genuinely don’t understand.\" It is a personal opinion with no data in the post.",
-      "also": []
-    },
-    {
-      "id": "2110819638401704438",
-      "desk": "ai",
-      "line": "Bluesky says that starting today people can use Attie, which it describes as vibe-coding made social, to make sites such as games, quizzes and guestbooks. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2110884776400097494",
       "desk": "music",
       "line": "PopBase, a pop culture account, says Tate McRae has released a new single called \"Housewife\" and posts a short video. Not checked here.",
@@ -227,6 +194,30 @@
       "id": "2111184275374813362",
       "desk": "ai",
       "line": "The Grok Bot account says its new version finishes computer tasks 3x sooner on average and answers everything else in less than half the time. The speed claim is the account's own and has not been checked here. Grok is made by xAI, the company behind the model that gathers this page's posts.",
+      "also": []
+    },
+    {
+      "id": "2111263907297788052",
+      "desk": "politics",
+      "line": "Katie Zacharia writes that President Trump is \"kind, wonderful, gracious, thoughtful, enthusiastic, and hardworking\" and that it was an honor to work for him. It follows reports, from Fox News and others, that she is leaving her job as White House press secretary.",
+      "also": []
+    },
+    {
+      "id": "2111181836567081020",
+      "desk": "sports",
+      "line": "ESPN's Adam Schefter reports, citing sources, that Packers running back Josh Jacobs will be removed from the NFL's Commissioner Exempt list on Monday. He says the league's investigation stays open and Jacobs is expected to be eligible for Week 7.",
+      "also": []
+    },
+    {
+      "id": "2111165738836717980",
+      "desk": "ai",
+      "line": "Steve Weis posts \"CLAUDE FOUND THE SEEDS\" with a link to an Anthropic research page titled \"Claude reveals ECDSA curve origins\". What the page shows was not checked here. Claude, the model writing this page, is made by Anthropic.",
+      "also": []
+    },
+    {
+      "id": "2110859264734728241",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, says, citing Deadline, that Steven Soderbergh will direct the rest of \"The Batman: Part 2\" and work with Matt Reeves, who will take over post-production. Not checked here.",
       "also": []
     }
   ]
