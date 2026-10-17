@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-16T23:30:00Z",
-  "capture": "2026-10-16T2303Z",
+  "updated_at": "2026-10-17T00:30:00Z",
+  "capture": "2026-10-17T0003Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -227,6 +227,12 @@
       "id": "2110884776400097494",
       "desk": "music",
       "line": "PopBase, a pop culture account, says Tate McRae has released a new single called \"Housewife\" and posts a short video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2110886603371536546",
+      "desk": "science",
+      "line": "SpaceX posts a 20-second video that it says shows a Falcon 9 first stage landing on the droneship Of Course I Still Love You.",
       "also": []
     }
   ]

@@ -1062,3 +1062,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the new id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: the mismatch detail for both ids prints identical record and X text in the first 64 characters, so the tool may be comparing something past that point.
+
+## 2026-10-17T00:30Z
+- Captures read: 0003Z. Last read: 0003Z.
+- X's check: 0003Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 36 items (1 new, 0 dropped; none older than 36 hours). New: SpaceX Falcon 9 landing video (science).
+- Added: none. Updated: none (pulse pass).
+- Left out: OpenAINewsroom recording-device post (more than 36 hours old); Tesla and WatcherGuru Roadster repeats (Tesla already placed); Schefter and MySportsUpdate on Josh Jacobs (sports desk full); Red Rising and True Detective casting posts (entertainment covered); yarotrof post on a Trump Tomahawk claim (world full, not checked); ottosipe airline passenger post (private_individual flag); old_content posts.
+- Requests: watch list adds the new id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing.
