@@ -1102,3 +1102,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the new id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T04:25Z
+- Captures read: 0403Z. Last read: 0403Z.
+- X's check: 0403Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: unchanged, 35 items (0 new, 0 dropped). The oldest items are about 35 hours old and go next pass. Nothing new was large enough on an account or desk not already placed.
+- Added: none. Updated: none (pulse pass).
+- Left out: WWE Cody Rhodes clip (sports already has four items); White House "flying cars before GTA 6" post (its photo has no description, so I cannot say what it shows); Elon Musk Grok and Neuralink posts (one account, one place); Adin Ross boxing event posts (small so far, people named in a fight); Tesla Roadster copies; flagged and old_content posts.
+- Requests: none changed.
+- Shipped: no, nothing changed on the site.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
