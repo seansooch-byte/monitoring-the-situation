@@ -1202,3 +1202,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops 45 ids (older story posts and dropped pulse items), adds 5. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T15:25Z
+- Captures read: 1501Z. Last read: 1501Z.
+- X's check: 1501Z 31 confirmed, 0 missing, 1 mismatched (2111430954426274039, GuntherEagleman "No Kings" post; the first characters of the stored and X text print the same, so the difference is later in the post; not on the pulse), 0 withheld. Earlier mismatches, missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 29 items (2 new, 0 dropped). Added: ABC News on a self-driving Tesla crash into a California Highway Patrol vehicle (tech), Fabrizio Romano on Haaland's goals (sports). Nothing was past 36 hours at writing; the two Japan earthquake-warning posts and the Global Cat Day post pass 36 hours within the hour and should go next pass. Defense has one item, medicine none.
+- Added: none. Updated: none (pulse pass).
+- Left out: GuntherEagleman "No Kings" (mismatched, partisan insults); theliamnissan Tomahawk question to Grok (a question, claim unchecked); applefiles_ "what does the i stand for" (no point I can state); Dexerto on an Indian influencer and delivered goods (private person, unnamed); sylviaxkruz (profanity, no point); small fan posts; old_content and private_individual posts. For the next story pass: the No Kings protests today have no post on the pulse and need a neutral source.
+- Requests: watch list adds two ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

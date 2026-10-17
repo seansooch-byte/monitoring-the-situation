@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T14:30:00Z",
-  "capture": "2026-10-17T1403Z",
+  "updated_at": "2026-10-17T15:20:00Z",
+  "capture": "2026-10-17T1501Z",
   "items": [
     {
       "id": "2110972416751186421",
@@ -165,6 +165,18 @@
       "id": "2111354696854114702",
       "desk": "tech",
       "line": "Elon Musk, replying to Robert Scoble, says people will be able to ask the new Tesla Roadster to perform the tricks shown at its event autonomously, \"as it will be sentient\". He adds that Tesla will build a looping test track at its Texas headquarters. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111177994773709117",
+      "desk": "tech",
+      "line": "ABC News reports that a self-driving Tesla crashed into a California Highway Patrol vehicle and seriously injured two officers inside. It says the officers told it the driver said he was asleep and using the car's driver-assistance technology. A 32-second video is attached. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111467664174456882",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Erling Haaland has reached 14 goals for club and country so far, with another one today, and 7 goals in 7 Premier League games. A photo is attached.",
       "also": []
     },
     {
