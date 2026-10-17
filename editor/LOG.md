@@ -1122,3 +1122,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the three new ids and drops the two dropped. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T06:45Z
+- Captures read: 0600Z. Last read: 0600Z.
+- X's check: 0600Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 35 items (0 new, 1 dropped). Dropped: Miami University alert (older than 36 hours).
+- Added: none. Updated: none (pulse pass).
+- Left out: NYT on Trump's order exempting Russia from sanctions (politics already has five items; for the next story pass, with the Telegraph Starlink report); addywithawhy "tiktok is not a real place" (no media description, so I cannot say what it shows); TMZ impersonator, Tulane/Memphis and Notre Dame posts (small or desk already placed); Rockstar, OpenAINewsroom, Netflix, PopBase Pope, Tesla "Real life, baby" (older than 36 hours or already left out); flagged and old_content posts.
+- Requests: watch list drops the dropped id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
