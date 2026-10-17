@@ -1,0 +1,39 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-17-trump-waives-russia-sanctions-act",
+  "title": "Trump signs an order waiving the new Russia sanctions law Congress passed last month",
+  "dek": "Republican senators joined Democrats in objecting. The order came days after a Russian diesel deal, and the White House gives energy prices and national interest as reasons.",
+  "desks": ["politics", "world"],
+  "standing": "developing",
+  "started_at": "2026-10-17T02:03:49Z",
+  "updated_at": "2026-10-17T16:30:00Z",
+  "what": [
+    "The New York Times posted a breaking-news alert late on Friday 16 October (US time) saying President Trump had signed an executive order exempting Russia from new sanctions legislation that Congress passed last month.",
+    "The law is the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026. A search summary of the coverage says the Senate passed it 86 to 11 and the House 262 to 159, and that Trump signed it on 18 September. It allows tariffs of up to 100 percent on the largest buyers of Russian oil and gas and on countries that help Russia evade sanctions. I did not open the bill text.",
+    "NBC News reports the order waives the sanctions, and quotes Trump as saying the waiver is in the national interests of the United States. NBC links it to energy prices during the Iran war and to a recent deal with Putin to release Russian diesel onto world markets. WFTV reports the sanctions were due to take effect on 17 October. I could not open the order itself, and the two outlets word the stated reason differently (national interest, and national security concerns).",
+    "Senator Thom Tillis, a Republican, wrote on X, \"What part of enforcing a law passed 86-11 by the Senate does the President and his advisors not understand?\" WFTV and NBC also quote Senator John Cornyn (\"Lindsey would be appalled\"), Representative Don Bacon, Senator Richard Blumenthal and Chuck Schumer, all critical. NBC quotes Ukraine's President Zelensky as saying the weaker pressure works as a financial reward for Putin.",
+    "WFTV reports both chambers are on recess until after the 3 November election, so a quick response from Congress is unlikely. It also reports Representative Gregory Meeks introduced a bill to block the diesel deal. I have not confirmed that from a second source."
+  ],
+  "why": "A law passed by a wide bipartisan margin was set aside by the president who signed it, and the objection came from his own party as well as the opposition. It also lands on top of the diesel license and the Ukraine Starlink restrictions, which readers were already linking.",
+  "worlds": [
+    {
+      "name": "Republican critics in Congress",
+      "sees": "A law passed 86 to 11 is being set aside, and the administration is giving ground to Russia.",
+      "post": "2111421972655603934"
+    },
+    {
+      "name": "The administration's stated case",
+      "sees": "The waiver serves the national interest, with energy prices and the Russian diesel supply named as the context.",
+      "post": "2111276969690038485"
+    }
+  ],
+  "common": "Established by several outlets: Trump signed an executive order on 16 October waiving the sanctions set up by the law he signed in September, and he called it in the national interest. Lawmakers of both parties objected on the record. Not established here: the full text and legal basis of the order, which I did not read, and whether the diesel deal caused it. The administration's side rests on Trump's quoted words as relayed by NBC and WFTV, since the post that carries it is the Times alert and not a White House statement.",
+  "next": "The published text of the order, any White House statement, and whether Congress acts after it returns.",
+  "posts": [
+    { "id": "2111276969690038485", "role": "origin" },
+    { "id": "2111421972655603934", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "NBC News: Zelenskyy says Trump is rewarding Putin as he waives new Russia sanctions passed by Congress", "url": "https://www.nbcnews.com/politics/trump-administration/trump-suspends-new-russia-sanctions-deal-purchase-diesel-citing-nation-rcna603991" },
+    { "label": "WFTV: Trump's decision to waive Russian sanctions outrages Congress, but no quick counter seen", "url": "https://www.wftv.com/news/politics/trumps-decision/WZNZ54YYKI3JHGMRVLNX7CMX6Q/" }  ]
+}

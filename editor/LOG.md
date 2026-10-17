@@ -1212,3 +1212,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds two ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T16:35Z
+- Captures read: 1600Z. Last read: 1600Z.
+- X's check: 1600Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches remain in the ledger; none on the pulse or cited.
+- Pulse: 30 items (4 new, 2 dropped). Dropped (past 36 hours): Livedoor Japan earthquake-warning post (with its attached post) and PopBase Global Cat Day. Added: Tillis on the Russia sanctions waiver (politics), Christopher J. Miller on Zelensky and Starlink (world), ClaudeDevs on Claude Code speed (ai, Anthropic disclosure in the line), Premier League on Liverpool v Brentford (sports). Schefter's line now points to the Jacobs story.
+- Added: 2026-10-17-trump-waives-russia-sanctions-act (politics), 2026-10-16-jacobs-exempt-list-removal (sports). Updated: none. Zacharia story left as is; a search summary says Cheung told CNN she "transitions to a new role", which I did not open, so not added.
+- Left out: PopBase "Zacharia fired" (story covers it); dhruv_rathee London posts (partisan campaign); Kristi Noem opener post; RabbiJeffx (hate bait); libsoftiktok Oregon shooter photo (private_individual); old_content and private_individual posts. For the next story pass: the Starlink story could take Zelensky's 17 October EU-test claim once a source beyond a post is found; the Axios and Hill pages returned 403 to me, so the sanctions story rests on NBC and WFTV.
+- Requests: watch list adds four ids, drops three. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

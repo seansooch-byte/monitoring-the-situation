@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T15:20:00Z",
-  "capture": "2026-10-17T1501Z",
+  "updated_at": "2026-10-17T16:35:00Z",
+  "capture": "2026-10-17T1600Z",
   "items": [
     {
       "id": "2110972416751186421",
@@ -16,23 +16,9 @@
       "also": []
     },
     {
-      "id": "2110942239853793325",
-      "desk": "disaster",
-      "line": "Livedoor News, a Japanese news outlet, reports in Japanese that the Japan Meteorological Agency has withdrawn the earthquake early warning issued at 12:48 p.m. on the 16th as a false alarm and says no earthquake occurred. UN_NERV, a disaster alert account, posts the cancellation notice. Not checked here.",
-      "also": [
-        "2110941011191189536"
-      ]
-    },
-    {
       "id": "2111056812212687246",
       "desk": "tech",
       "line": "Tim Cook, Apple CEO, says Apple cannot wait for the world to experience the iPhone Duo next week and that pre-orders start today. The post has a three-second video.",
-      "also": []
-    },
-    {
-      "id": "2110945327478173854",
-      "desk": "internet",
-      "line": "PopBase, a pop culture account, says today is Global Cat Day and posts a photo.",
       "also": []
     },
     {
@@ -134,7 +120,7 @@
     {
       "id": "2111181836567081020",
       "desk": "sports",
-      "line": "ESPN's Adam Schefter reports, citing sources, that Packers running back Josh Jacobs will be removed from the NFL's Commissioner Exempt list on Monday. He says the league's investigation stays open and Jacobs is expected to be eligible for Week 7.",
+      "line": "ESPN's Adam Schefter reports, citing sources, that Packers running back Josh Jacobs will be removed from the NFL's Commissioner Exempt list on Monday while the league's investigation stays open. See the story on his return.",
       "also": []
     },
     {
@@ -183,6 +169,30 @@
       "id": "2111207677527310645",
       "desk": "ideas",
       "line": "Voices of WW2, a history account, tells in a long post the story of Schloss Itter, an Austrian castle where it says American and German soldiers fought the SS together on 5 May 1945 to defend French prisoners. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111421972655603934",
+      "desk": "politics",
+      "line": "Republican Senator Thom Tillis calls the Trump administration's move \"beyond irresponsible\" and asks what part of enforcing a law the Senate passed 86-11 it does not understand. He is responding to the reported order waiving Russia sanctions. See the story on the order.",
+      "also": []
+    },
+    {
+      "id": "2111418903842672985",
+      "desk": "world",
+      "line": "Journalist Christopher J. Miller relays that Ukraine's President Zelensky says Starlink restrictions remain and that tests with vehicles sent into the EU show the speed limit applies only in Ukraine, which he calls a planned operation. SpaceX has reportedly told Kyiv it is a technical problem. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111209208012210409",
+      "desk": "ai",
+      "line": "The ClaudeDevs account says Claude Code now compresses the conversation it sends each turn, so replies start sooner, and that cloud sessions start as soon as you type. Claude is made by Anthropic, which also makes the model writing this page.",
+      "also": []
+    },
+    {
+      "id": "2111483507448967623",
+      "desk": "sports",
+      "line": "The Premier League says Liverpool came back against Brentford, with an equaliser from Victor Munoz and then a goal from Alexander Isak, per its post.",
       "also": []
     }
   ]
