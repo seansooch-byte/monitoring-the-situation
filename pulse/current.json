@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T16:35:00Z",
-  "capture": "2026-10-17T1600Z",
+  "updated_at": "2026-10-17T17:40:00Z",
+  "capture": "2026-10-17T1706Z",
   "items": [
     {
       "id": "2110972416751186421",
@@ -160,12 +160,6 @@
       "also": []
     },
     {
-      "id": "2111467664174456882",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, says Erling Haaland has reached 14 goals for club and country so far, with another one today, and 7 goals in 7 Premier League games. A photo is attached.",
-      "also": []
-    },
-    {
       "id": "2111207677527310645",
       "desk": "ideas",
       "line": "Voices of WW2, a history account, tells in a long post the story of Schloss Itter, an Austrian castle where it says American and German soldiers fought the SS together on 5 May 1945 to defend French prisoners. Not checked here.",
@@ -193,6 +187,24 @@
       "id": "2111483507448967623",
       "desk": "sports",
       "line": "The Premier League says Liverpool came back against Brentford, with an equaliser from Victor Munoz and then a goal from Alexander Isak, per its post.",
+      "also": []
+    },
+    {
+      "id": "2111493774753058898",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Enzo Maresca is the first manager in Premier League history to win his first 7 games in charge. A photo is attached. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111072697690317011",
+      "desk": "science",
+      "line": "SpaceX says it will post its Q3 2026 financial and operational results on October 20, 2026, with a live audio-only webcast at 3:30 p.m. CT the same day.",
+      "also": []
+    },
+    {
+      "id": "2111203630892404844",
+      "desk": "internet",
+      "line": "The Streamer Awards announces its nominees for Best International Streamer and names five accounts, with a link to vote. A photo is attached.",
       "also": []
     }
   ]
