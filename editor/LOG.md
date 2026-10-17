@@ -1192,3 +1192,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops five ids, adds one. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: the 12:30Z pass left the Treasury post on the pulse past 36 hours; removed here. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T14:35Z
+- Captures read: 1403Z. Last read: 1403Z.
+- X's check: 1403Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches, missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 27 items (3 new, 2 dropped). Dropped (past 36 hours): Elon Musk's Roadster video (with its attached Tesla and CollinRugg posts) and Reliance Industries. Added: DeepSeek V4.1-Flash announcement (ai), Musk reply on Roadster tricks (tech; the build holds it off the front because his ad post is larger), Voices of WW2 on Schloss Itter (ideas). Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Tesla "Do a kickflip!" (video with no description, nearly 36 hours old); CENTCOM "Update from CENTCOM Commander" (link only); White House "flying cars before GTA 6" (photo with no description); wemby (image only); atensnut, ngnchiikawa (no point I can state); dhruv_rathee (partisan campaign); fan-campaign posts for CORTIS, LingOrm, Fourth (small); private_individual and old_content posts. For the next story pass: the Schloss Itter account is only a post here and would need a source.
+- Requests: watch list drops 45 ids (older story posts and dropped pulse items), adds 5. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
