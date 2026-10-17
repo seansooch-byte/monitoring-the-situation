@@ -1082,3 +1082,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed.
 - Shipped: yes, commit 716c774, live audit clean. (The log entry was committed after shipping; it does not affect the site.)
 - For the main editor: nothing.
+
+## 2026-10-17T02:30Z
+- Captures read: 0203Z. Last read: 0203Z.
+- X's check: 0203Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 35 items (2 new, 0 dropped). New: thvchapters on BTS "Heartbeat" (music); DOJ clip on the Memphis Safe Task Force (justice; figures are the department's, not checked). The build holds 2 posts back under one-account-one-place (popbase, elonmusk).
+- Added: none. Updated: 2026-10-16-norte-fire-san-clemente (CBS LA 7:02 p.m. PT: 465 acres, six homes impacted, two firefighters hospitalized; correction added).
+- Left out: HormuzLetter claim on Hegseth (unchecked, no source); DeepLeaksHQ and TWIGGYRNUSA posts (private_individual flag, unfounded claims); dhruv_rathee London post (not enough to place); Marcus Stokes gambling posts (private_individual); old_content posts. No new stories: nothing else could be confirmed outside X this pass. Zacharia story already current as of 21:30Z.
+- Requests: watch list adds the two new ids. open.json unchanged (r-2026-10-16-01 still open).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -2,18 +2,25 @@
   "schema": "mts.moment/1",
   "id": "2026-10-16-norte-fire-san-clemente",
   "title": "Norte Fire burns homes near San Clemente and San Juan Capistrano as Santa Ana winds blow",
-  "dek": "Evacuation orders are in place in two Orange County cities. The fire was still growing Friday afternoon.",
+  "dek": "Evacuation orders were in place in two Orange County cities on Friday. CBS Los Angeles put the fire at 465 acres that evening.",
   "desks": [
     "disaster"
   ],
   "standing": "developing",
   "started_at": "2026-10-16T19:45:57Z",
-  "updated_at": "2026-10-16T21:30:00Z",
+  "updated_at": "2026-10-17T02:20:00Z",
+  "corrections": [
+    {
+      "at": "2026-10-17T02:20:00Z",
+      "text": "Added CBS Los Angeles's 7:02 p.m. Pacific figures: 465 acres, six homes impacted, two firefighters hospitalized. The 250-acre figure above is from 2:02 p.m."
+    }
+  ],
   "what": [
     "CBS Los Angeles reports that the Orange County Fire Authority responded shortly after 11:30 a.m. Pacific on Friday 16 October to a vegetation fire near Portico Del Norte in the San Clemente area. The authority calls it the Norte Fire.",
     "CBS, updating at 2:02 p.m. Pacific, puts the fire at 250 acres. It reports evacuation orders for San Juan Zones 4, 5 and 10 and San Clemente Zones 12 and 13, and two evacuation shelters. It says the authority described crews as attacking the fire from the ground and air, with aircraft dropping retardant.",
     "The Orange County Fire Authority posted on X that people in the San Juan and San Clemente zones should leave immediately.",
-    "CBS says multiple homes are visible burning in aerial video but gives no count. One post says eight homes are burning, passing on what the poster has seen reported. I could not confirm that number. CBS mentions no injuries and gives no cause or containment figure.",
+    "CBS says multiple homes are visible burning in aerial video but gives no count. One post says eight homes are burning, passing on what the poster has seen reported. I could not confirm that number. CBS's first report mentions no injuries and gives no cause or containment figure.",
+    "In its update at 7:02 p.m. Pacific on Friday, CBS Los Angeles puts the fire at 465 acres and says most of the fire had been knocked down by 5:45 p.m. It says six homes were impacted and two firefighters were hospitalized with significant injuries, both in stable condition. The same update lists the same evacuation zones. It quotes Captain Steve Concialdi saying the wind was still blowing strongly. It gives no containment percentage and no cause. I did not find a count of homes lost from the fire authority itself.",
     "CBS says hot temperatures and a Santa Ana wind event have raised fire danger across Southern California."
   ],
   "why": "Fire video from hillside streets spreads fast, and people share it to warn family and neighbours. Numbers change by the hour.",

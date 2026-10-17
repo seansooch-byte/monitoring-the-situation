@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T01:14:17Z",
-  "capture": "2026-10-17T0105Z",
+  "updated_at": "2026-10-17T02:25:00Z",
+  "capture": "2026-10-17T0203Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -215,6 +215,18 @@
       "id": "2110886603371536546",
       "desk": "science",
       "line": "SpaceX posts a 20-second video that it says shows a Falcon 9 first stage landing on the droneship Of Course I Still Love You.",
+      "also": []
+    },
+    {
+      "id": "2111259796368494835",
+      "desk": "music",
+      "line": "A fan account says BTS is performing \"Heartbeat\" for the first time ever and posts a 93-second video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111145709231595603",
+      "desk": "justice",
+      "line": "The U.S. Department of Justice posts a clip of @AGToddBlanche talking about the Memphis Safe Task Force. The post says overall crime is at a 25-year low and murders are down 33%. These are the department's figures. Not checked here.",
       "also": []
     }
   ]
