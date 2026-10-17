@@ -1222,3 +1222,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds four ids, drops three. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T18:25Z
+- Captures read: 1807Z. Last read: 1807Z.
+- X's check: 1807Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 35 items (3 new, 1 dropped). Dropped (past 36 hours): Rahul Gandhi on Rubio and Mumbai. Added: AP on the Russia sanctions hold (world), Kunle Afolayan house tour (entertainment), Sciencegirl on Chinese school videos (science). Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Tesla "Holy smokes" (video with no description, 36 hours old); confrontfr Marseille video (point unclear); Pete Thamel playoff expansion (48 hours); Polymarket Hoops Kerr clip, Laiibaaa_, beyoncegarden (private_individual); Simi28_ arrest post (private person named); atensnut, SHIRO_116 (no point I can state); dhruv_rathee (partisan campaign); GuntherEagleman (mismatched earlier, insults); old_content posts; in-game college football and Betis posts (small, still moving). For the next story pass: the Marseille 17 October video is large and needs a source to say what it is.
+- Requests: watch list adds three ids, drops one. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
