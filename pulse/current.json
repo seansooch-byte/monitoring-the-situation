@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T21:35:00Z",
-  "capture": "2026-10-17T2101Z",
+  "updated_at": "2026-10-17T22:20:00Z",
+  "capture": "2026-10-17T2201Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -241,6 +241,12 @@
       "id": "2111538109946962345",
       "desk": "sports",
       "line": "ESPN says Florida beat No. 7 Texas in Austin after trailing 17-3, scoring 24 straight points, and that it is Texas's second straight loss.",
+      "also": []
+    },
+    {
+      "id": "2111512931561066852",
+      "desk": "world",
+      "line": "A French account posts a 22-second video and says a crowd is targeting police vehicles near République in Paris on the 17 October protest day. The post is in French. The video has not been checked here.",
       "also": []
     }
   ]

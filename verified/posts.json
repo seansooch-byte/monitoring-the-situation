@@ -482,6 +482,13 @@
   "handle": "churchtalkative",
   "run": "2026-10-17T1202Z"
  },
+ "1815122486645924270": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:43Z",
+  "handle": "DavidSacks",
+  "run": "2026-10-17T2201Z"
+ },
  "1820897762063315188": {
   "result": "ok",
   "detail": null,
@@ -2029,6 +2036,13 @@
   "handle": "wizkidayo",
   "run": "2026-10-15T1709Z"
  },
+ "2069374923190182098": {
+  "result": "mismatch",
+  "detail": "text: the record begins \"[episode]btsworldtour‘arirang’intokyosketch(#bts#방탄소년단#bts_worldtour_a\", X begins \"[episode]btsworldtour‘arirang’intokyosketch(#방탄소년단#bts_worldtour_arira\"",
+  "checked_at": "2026-10-17T22:07:44Z",
+  "handle": "bts_bighit",
+  "run": "2026-10-17T2201Z"
+ },
  "2069499076668711186": {
   "result": "ok",
   "detail": null,
@@ -2084,6 +2098,13 @@
   "checked_at": "2026-10-11T04:09:10Z",
   "handle": "00selm",
   "run": "2026-10-11T0403Z"
+ },
+ "2070878721368858750": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:50Z",
+  "handle": "nongsiii",
+  "run": "2026-10-17T2201Z"
  },
  "2070932547182170578": {
   "result": "ok",
@@ -2602,6 +2623,13 @@
   "checked_at": "2026-10-10T23:13:09Z",
   "handle": "BellaRamaTV",
   "run": "2026-10-10T2306Z"
+ },
+ "2093968131756536285": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:45Z",
+  "handle": "zee_zhu_",
+  "run": "2026-10-17T2201Z"
  },
  "2094099349630288278": {
   "result": "ok",
@@ -4552,14 +4580,14 @@
  "2108107978431959458": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:26Z",
+  "checked_at": "2026-10-17T22:08:57Z",
   "handle": "RealRiddimHours",
   "run": "2026-10-09T0552Z"
  },
  "2108108695876092323": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:23Z",
+  "checked_at": "2026-10-17T22:08:54Z",
   "handle": "AndrewCurran_",
   "run": "2026-10-09T0552Z"
  },
@@ -4720,7 +4748,7 @@
  "2108123283782512927": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:24Z",
+  "checked_at": "2026-10-17T22:08:54Z",
   "handle": "kimmonismus",
   "run": "2026-10-09T0552Z"
  },
@@ -4755,7 +4783,7 @@
  "2108127841439383827": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:24Z",
+  "checked_at": "2026-10-17T22:08:54Z",
   "handle": "jukan05",
   "run": "2026-10-09T0552Z"
  },
@@ -4874,7 +4902,7 @@
  "2108136823516278817": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:27Z",
+  "checked_at": "2026-10-17T22:08:57Z",
   "handle": "fleshsimulator",
   "run": "2026-10-09T0552Z"
  },
@@ -5385,7 +5413,7 @@
  "2108187065687118261": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:27Z",
+  "checked_at": "2026-10-17T22:08:58Z",
   "handle": "elonmusk",
   "run": "2026-10-09T0629Z"
  },
@@ -5616,7 +5644,7 @@
  "2108200228549771308": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:28Z",
+  "checked_at": "2026-10-17T22:08:59Z",
   "handle": "kunalstwt",
   "run": "2026-10-09T0615Z"
  },
@@ -5658,7 +5686,7 @@
  "2108202607105774017": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:30Z",
+  "checked_at": "2026-10-17T22:09:00Z",
   "handle": "SkySportsNews",
   "run": "2026-10-09T1432Z"
  },
@@ -5707,7 +5735,7 @@
  "2108206994356355342": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:28Z",
+  "checked_at": "2026-10-17T22:08:58Z",
   "handle": "RahulGandhi",
   "run": "2026-10-09T0629Z"
  },
@@ -5721,7 +5749,7 @@
  "2108208498496413711": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:25Z",
+  "checked_at": "2026-10-17T22:08:56Z",
   "handle": "EricLDaugh",
   "run": "2026-10-09T0804Z"
  },
@@ -5833,7 +5861,7 @@
  "2108215293793476754": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:27Z",
+  "checked_at": "2026-10-17T22:08:58Z",
   "handle": "MTSlive",
   "run": "2026-10-09T0552Z"
  },
@@ -6022,7 +6050,7 @@
  "2108224420460241076": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:25Z",
+  "checked_at": "2026-10-17T22:08:56Z",
   "handle": "FoxNews",
   "run": "2026-10-09T0804Z"
  },
@@ -6071,7 +6099,7 @@
  "2108225984533352725": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:20Z",
+  "checked_at": "2026-10-17T22:08:50Z",
   "handle": "NewYorker",
   "run": "2026-10-09T0552Z"
  },
@@ -6533,7 +6561,7 @@
  "2108246323707383961": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:27Z",
+  "checked_at": "2026-10-17T22:08:57Z",
   "handle": "trq212",
   "run": "2026-10-09T0552Z"
  },
@@ -6589,7 +6617,7 @@
  "2108248047142502910": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:20Z",
+  "checked_at": "2026-10-17T22:08:50Z",
   "handle": "dbbovey",
   "run": "2026-10-09T0552Z"
  },
@@ -6610,7 +6638,7 @@
  "2108248649440375237": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:32Z",
+  "checked_at": "2026-10-17T22:09:03Z",
   "handle": "MLB",
   "run": "2026-10-10T0135Z"
  },
@@ -6631,7 +6659,7 @@
  "2108249687044264269": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:32Z",
+  "checked_at": "2026-10-17T22:09:02Z",
   "handle": "JeffPassan",
   "run": "2026-10-10T0135Z"
  },
@@ -7065,7 +7093,7 @@
  "2108264478727082332": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:20Z",
+  "checked_at": "2026-10-17T22:08:50Z",
   "handle": "Hansen104th",
   "run": "2026-10-09T0552Z"
  },
@@ -7142,7 +7170,7 @@
  "2108267604515139662": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:21Z",
+  "checked_at": "2026-10-17T22:08:51Z",
   "handle": "EricLDaugh",
   "run": "2026-10-09T0629Z"
  },
@@ -7366,7 +7394,7 @@
  "2108277881466196021": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:29Z",
+  "checked_at": "2026-10-17T22:08:59Z",
   "handle": "unusual_whales",
   "run": "2026-10-09T0552Z"
  },
@@ -7667,14 +7695,14 @@
  "2108293887332954562": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:29Z",
+  "checked_at": "2026-10-17T22:09:00Z",
   "handle": "scottmelker",
   "run": "2026-10-09T0552Z"
  },
  "2108294055893369000": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:21Z",
+  "checked_at": "2026-10-17T22:08:52Z",
   "handle": "BNONews",
   "run": "2026-10-09T0804Z"
  },
@@ -7891,7 +7919,7 @@
  "2108302651343409289": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:30Z",
+  "checked_at": "2026-10-17T22:09:01Z",
   "handle": "Variety",
   "run": "2026-10-09T0552Z"
  },
@@ -7919,7 +7947,7 @@
  "2108303953532240344": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:30Z",
+  "checked_at": "2026-10-17T22:09:00Z",
   "handle": "DiscussingFilm",
   "run": "2026-10-09T0552Z"
  },
@@ -7989,7 +8017,7 @@
  "2108306315093119299": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:21Z",
+  "checked_at": "2026-10-17T22:08:51Z",
   "handle": "AP",
   "run": "2026-10-09T0629Z"
  },
@@ -8087,7 +8115,7 @@
  "2108312311131717975": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:23Z",
+  "checked_at": "2026-10-17T22:08:53Z",
   "handle": "WFLA",
   "run": "2026-10-09T0552Z"
  },
@@ -8199,7 +8227,7 @@
  "2108315757205741648": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:23Z",
+  "checked_at": "2026-10-17T22:08:53Z",
   "handle": "legendofmain",
   "run": "2026-10-09T0552Z"
  },
@@ -8472,7 +8500,7 @@
  "2108328557550182559": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:22Z",
+  "checked_at": "2026-10-17T22:08:52Z",
   "handle": "CBSNews",
   "run": "2026-10-09T0629Z"
  },
@@ -8542,7 +8570,7 @@
  "2108332127318073528": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:24Z",
+  "checked_at": "2026-10-17T22:08:55Z",
   "handle": "NYCMayor",
   "run": "2026-10-09T0804Z"
  },
@@ -8696,7 +8724,7 @@
  "2108340614097965182": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:22Z",
+  "checked_at": "2026-10-17T22:08:52Z",
   "handle": "PappenheimWx",
   "run": "2026-10-09T0552Z"
  },
@@ -8976,7 +9004,7 @@
  "2108355456750031186": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:22Z",
+  "checked_at": "2026-10-17T22:08:53Z",
   "handle": "JimCantore",
   "run": "2026-10-09T0552Z"
  },
@@ -9676,7 +9704,7 @@
  "2108391970792161680": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:26Z",
+  "checked_at": "2026-10-17T22:08:56Z",
   "handle": "vineetnayar",
   "run": "2026-10-09T0702Z"
  },
@@ -9837,7 +9865,7 @@
  "2108396710292783532": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:25Z",
+  "checked_at": "2026-10-17T22:08:55Z",
   "handle": "Acyn",
   "run": "2026-10-09T0804Z"
  },
@@ -10131,7 +10159,7 @@
  "2108405031389315393": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:28Z",
+  "checked_at": "2026-10-17T22:08:59Z",
   "handle": "Tejasvi_Surya",
   "run": "2026-10-09T0615Z"
  },
@@ -11167,7 +11195,7 @@
  "2108475276879610257": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:34Z",
+  "checked_at": "2026-10-17T22:09:04Z",
   "handle": "CMShehbaz",
   "run": "2026-10-10T1105Z"
  },
@@ -11244,7 +11272,7 @@
  "2108482846449189371": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:33Z",
+  "checked_at": "2026-10-17T22:09:04Z",
   "handle": "NobelPrize",
   "run": "2026-10-09T1011Z"
  },
@@ -12378,7 +12406,7 @@
  "2108565647667904647": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:34Z",
+  "checked_at": "2026-10-17T22:09:05Z",
   "handle": "SecRubio",
   "run": "2026-10-09T1528Z"
  },
@@ -12476,7 +12504,7 @@
  "2108572709282369924": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:31Z",
+  "checked_at": "2026-10-17T22:09:01Z",
   "handle": "thescorechicago",
   "run": "2026-10-09T1528Z"
  },
@@ -12539,7 +12567,7 @@
  "2108575881996210210": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:31Z",
+  "checked_at": "2026-10-17T22:09:02Z",
   "handle": "AdamSchefter",
   "run": "2026-10-09T1528Z"
  },
@@ -12721,7 +12749,7 @@
  "2108584126420844732": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:31Z",
+  "checked_at": "2026-10-17T22:09:02Z",
   "handle": "NFL",
   "run": "2026-10-09T1619Z"
  },
@@ -13169,7 +13197,7 @@
  "2108603591699448028": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:35Z",
+  "checked_at": "2026-10-17T22:09:06Z",
   "handle": "WatcherGuru",
   "run": "2026-10-10T0206Z"
  },
@@ -13736,7 +13764,7 @@
  "2108625935524303244": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:33Z",
+  "checked_at": "2026-10-17T22:09:03Z",
   "handle": "weatherchannel",
   "run": "2026-10-09T1906Z"
  },
@@ -13750,14 +13778,14 @@
  "2108626847600988525": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:33Z",
+  "checked_at": "2026-10-17T22:09:04Z",
   "handle": "nexta_tv",
   "run": "2026-10-09T1906Z"
  },
  "2108627117562884153": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:36Z",
+  "checked_at": "2026-10-17T22:09:06Z",
   "handle": "FoxNews",
   "run": "2026-10-09T2010Z"
  },
@@ -13827,7 +13855,7 @@
  "2108630834169385310": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:35Z",
+  "checked_at": "2026-10-17T22:09:05Z",
   "handle": "USTreasury",
   "run": "2026-10-09T2110Z"
  },
@@ -13967,7 +13995,7 @@
  "2108637081606180893": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:35Z",
+  "checked_at": "2026-10-17T22:09:06Z",
   "handle": "unusual_whales",
   "run": "2026-10-09T2010Z"
  },
@@ -14226,7 +14254,7 @@
  "2108648151569629459": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:36Z",
+  "checked_at": "2026-10-17T22:09:07Z",
   "handle": "FoxNews",
   "run": "2026-10-09T2110Z"
  },
@@ -14730,7 +14758,7 @@
  "2108680150556737819": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:30Z",
+  "checked_at": "2026-10-17T22:09:01Z",
   "handle": "AnthropicAI",
   "run": "2026-10-10T0206Z"
  },
@@ -15913,7 +15941,7 @@
  "2108753576361148612": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:34Z",
+  "checked_at": "2026-10-17T22:09:05Z",
   "handle": "RpsAgainstTrump",
   "run": "2026-10-10T1105Z"
  },
@@ -16617,6 +16645,13 @@
   "handle": "godmitzu",
   "run": "2026-10-10T1808Z"
  },
+ "2108838028777005102": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:47Z",
+  "handle": "Defensa_Israel",
+  "run": "2026-10-17T2201Z"
+ },
  "2108839088220758270": {
   "result": "ok",
   "detail": null,
@@ -16872,7 +16907,7 @@
  "2108864299062206851": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:38Z",
+  "checked_at": "2026-10-17T22:09:09Z",
   "handle": "F1",
   "run": "2026-10-11T0202Z"
  },
@@ -16893,7 +16928,7 @@
  "2108864545452142708": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:39Z",
+  "checked_at": "2026-10-17T22:09:10Z",
   "handle": "F1",
   "run": "2026-10-10T1105Z"
  },
@@ -16914,7 +16949,7 @@
  "2108865673942167802": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:39Z",
+  "checked_at": "2026-10-17T22:09:10Z",
   "handle": "F1",
   "run": "2026-10-10T1105Z"
  },
@@ -17145,7 +17180,7 @@
  "2108890004868985056": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:40Z",
+  "checked_at": "2026-10-17T22:09:11Z",
   "handle": "ZelenskyyUa",
   "run": "2026-10-10T1403Z"
  },
@@ -17236,7 +17271,7 @@
  "2108898838631120925": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:55Z",
+  "checked_at": "2026-10-17T22:09:27Z",
   "handle": "zoo_bear",
   "run": "2026-10-10T1403Z"
  },
@@ -17600,7 +17635,7 @@
  "2108928602519531894": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:40Z",
+  "checked_at": "2026-10-17T22:09:11Z",
   "handle": "F1",
   "run": "2026-10-10T1502Z"
  },
@@ -17705,7 +17740,7 @@
  "2108936212014923979": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:37Z",
+  "checked_at": "2026-10-17T22:09:08Z",
   "handle": "AdamSchefter",
   "run": "2026-10-10T1603Z"
  },
@@ -17733,7 +17768,7 @@
  "2108939234258403549": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:37Z",
+  "checked_at": "2026-10-17T22:09:08Z",
   "handle": "mchappell51",
   "run": "2026-10-10T1603Z"
  },
@@ -17971,7 +18006,7 @@
  "2108962579825467535": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:40Z",
+  "checked_at": "2026-10-17T22:09:11Z",
   "handle": "EricLDaugh",
   "run": "2026-10-10T1907Z"
  },
@@ -18027,7 +18062,7 @@
  "2108964287758639480": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:40Z",
+  "checked_at": "2026-10-17T22:09:11Z",
   "handle": "RapidResponse47",
   "run": "2026-10-10T1907Z"
  },
@@ -18230,7 +18265,7 @@
  "2108976232947646708": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:41Z",
+  "checked_at": "2026-10-17T22:09:13Z",
   "handle": "SkyNews",
   "run": "2026-10-10T1808Z"
  },
@@ -18258,7 +18293,7 @@
  "2108977935428592059": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:42Z",
+  "checked_at": "2026-10-17T22:09:13Z",
   "handle": "EricLDaugh",
   "run": "2026-10-10T1808Z"
  },
@@ -18517,7 +18552,7 @@
  "2108998029600571595": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:41Z",
+  "checked_at": "2026-10-17T22:09:12Z",
   "handle": "HormuzLetter",
   "run": "2026-10-10T2107Z"
  },
@@ -18559,7 +18594,7 @@
  "2109001821687853171": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:41Z",
+  "checked_at": "2026-10-17T22:09:12Z",
   "handle": "BorisJohnson",
   "run": "2026-10-10T2107Z"
  },
@@ -18846,7 +18881,7 @@
  "2109027614140813621": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:51Z",
+  "checked_at": "2026-10-17T22:09:22Z",
   "handle": "PEoperator",
   "run": "2026-10-11T1105Z"
  },
@@ -19098,7 +19133,7 @@
  "2109055486368665764": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:38Z",
+  "checked_at": "2026-10-17T22:09:09Z",
   "handle": "MarioNawfal",
   "run": "2026-10-11T0301Z"
  },
@@ -19259,7 +19294,7 @@
  "2109070090000015659": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:37Z",
+  "checked_at": "2026-10-17T22:09:08Z",
   "handle": "SecRubio",
   "run": "2026-10-11T0403Z"
  },
@@ -19770,7 +19805,7 @@
  "2109187243076137377": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:38Z",
+  "checked_at": "2026-10-17T22:09:09Z",
   "handle": "MarioNawfal",
   "run": "2026-10-11T1105Z"
  },
@@ -19920,6 +19955,13 @@
   "checked_at": "2026-10-16T11:08:43Z",
   "handle": "OnlyFightHQ",
   "run": "2026-10-16T1101Z"
+ },
+ "2109374730021249453": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:43Z",
+  "handle": "DrLindaHarper",
+  "run": "2026-10-17T2201Z"
  },
  "2109380407259025870": {
   "result": "ok",
@@ -20113,7 +20155,7 @@
  "2109689305073614918": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:42Z",
+  "checked_at": "2026-10-17T22:09:13Z",
   "handle": "finkd",
   "run": "2026-10-15T0259Z"
  },
@@ -20869,7 +20911,7 @@
  "2110068047700443191": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:43Z",
+  "checked_at": "2026-10-17T22:09:14Z",
   "handle": "netflix",
   "run": "2026-10-14T1406Z"
  },
@@ -20883,7 +20925,7 @@
  "2110068149622350226": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:43Z",
+  "checked_at": "2026-10-17T22:09:14Z",
   "handle": "DiscussingFilm",
   "run": "2026-10-14T1209Z"
  },
@@ -20939,7 +20981,7 @@
  "2110075453331706054": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:43Z",
+  "checked_at": "2026-10-17T22:09:15Z",
   "handle": "damiebi10",
   "run": "2026-10-14T1209Z"
  },
@@ -20988,7 +21030,7 @@
  "2110079227009835140": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:43Z",
+  "checked_at": "2026-10-17T22:09:14Z",
   "handle": "POPin4k",
   "run": "2026-10-14T1406Z"
  },
@@ -21135,7 +21177,7 @@
  "2110095403198849132": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:44Z",
+  "checked_at": "2026-10-17T22:09:15Z",
   "handle": "OpenAINewsroom",
   "run": "2026-10-14T1807Z"
  },
@@ -21268,14 +21310,14 @@
  "2110113833805402475": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:44Z",
+  "checked_at": "2026-10-17T22:09:16Z",
   "handle": "PopBase",
   "run": "2026-10-14T1209Z"
  },
  "2110114165922640106": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:44Z",
+  "checked_at": "2026-10-17T22:09:16Z",
   "handle": "PopCrave",
   "run": "2026-10-14T1406Z"
  },
@@ -21723,7 +21765,7 @@
  "2110165104713183485": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:49Z",
+  "checked_at": "2026-10-17T22:09:21Z",
   "handle": "Tesla",
   "run": "2026-10-14T1303Z"
  },
@@ -22206,7 +22248,7 @@
  "2110240563135951022": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:46Z",
+  "checked_at": "2026-10-17T22:09:17Z",
   "handle": "sternenko",
   "run": "2026-10-14T1209Z"
  },
@@ -22332,14 +22374,14 @@
  "2110252621441151177": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:46Z",
+  "checked_at": "2026-10-17T22:09:18Z",
   "handle": "JimmySecUK",
   "run": "2026-10-14T1607Z"
  },
  "2110252784813568174": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:45Z",
+  "checked_at": "2026-10-17T22:09:16Z",
   "handle": "BBCWorld",
   "run": "2026-10-14T1406Z"
  },
@@ -22388,7 +22430,7 @@
  "2110257281816236136": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:47Z",
+  "checked_at": "2026-10-17T22:09:18Z",
   "handle": "OstapYarysh",
   "run": "2026-10-14T1406Z"
  },
@@ -22472,7 +22514,7 @@
  "2110273651023151330": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:47Z",
+  "checked_at": "2026-10-17T22:09:18Z",
   "handle": "sikorskiradek",
   "run": "2026-10-14T1209Z"
  },
@@ -22850,7 +22892,7 @@
  "2110327426580648014": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:48Z",
+  "checked_at": "2026-10-17T22:09:19Z",
   "handle": "cb_doge",
   "run": "2026-10-14T1209Z"
  },
@@ -23067,14 +23109,14 @@
  "2110347514683490356": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:45Z",
+  "checked_at": "2026-10-17T22:09:17Z",
   "handle": "DeItaone",
   "run": "2026-10-14T1303Z"
  },
  "2110347809308455363": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:46Z",
+  "checked_at": "2026-10-17T22:09:17Z",
   "handle": "KobeissiLetter",
   "run": "2026-10-14T1303Z"
  },
@@ -23242,7 +23284,7 @@
  "2110355391435657508": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:47Z",
+  "checked_at": "2026-10-17T22:09:19Z",
   "handle": "Rebel44CZ",
   "run": "2026-10-14T1607Z"
  },
@@ -24551,7 +24593,7 @@
  "2110432031968542721": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:48Z",
+  "checked_at": "2026-10-17T22:09:20Z",
   "handle": "FedorovMykhailo",
   "run": "2026-10-14T2002Z"
  },
@@ -25062,7 +25104,7 @@
  "2110457263840477263": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:48Z",
+  "checked_at": "2026-10-17T22:09:19Z",
   "handle": "BRICSinfo",
   "run": "2026-10-15T0006Z"
  },
@@ -26651,7 +26693,7 @@
  "2110549767063507044": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:49Z",
+  "checked_at": "2026-10-17T22:09:21Z",
   "handle": "elonmusk",
   "run": "2026-10-15T0259Z"
  },
@@ -27050,7 +27092,7 @@
  "2110571616384213156": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:51Z",
+  "checked_at": "2026-10-17T22:09:23Z",
   "handle": "niccruzpatane",
   "run": "2026-10-15T0708Z"
  },
@@ -27183,7 +27225,7 @@
  "2110596961166561470": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:55Z",
+  "checked_at": "2026-10-17T22:09:27Z",
   "handle": "ndtv",
   "run": "2026-10-15T0708Z"
  },
@@ -27239,7 +27281,7 @@
  "2110602585572860213": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:52Z",
+  "checked_at": "2026-10-17T22:09:23Z",
   "handle": "elonmusk",
   "run": "2026-10-15T0708Z"
  },
@@ -27295,7 +27337,7 @@
  "2110611239915401570": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:56Z",
+  "checked_at": "2026-10-17T22:09:27Z",
   "handle": "TheQuint",
   "run": "2026-10-15T0959Z"
  },
@@ -27540,7 +27582,7 @@
  "2110646408227274753": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:56Z",
+  "checked_at": "2026-10-17T22:09:28Z",
   "handle": "BBCWorld",
   "run": "2026-10-15T1108Z"
  },
@@ -27792,7 +27834,7 @@
  "2110692763758940436": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:55Z",
+  "checked_at": "2026-10-17T22:09:26Z",
   "handle": "GameRoll_",
   "run": "2026-10-15T1413Z"
  },
@@ -27806,7 +27848,7 @@
  "2110693166059851836": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:52Z",
+  "checked_at": "2026-10-17T22:09:23Z",
   "handle": "thecsguy",
   "run": "2026-10-15T1516Z"
  },
@@ -28065,7 +28107,7 @@
  "2110715556328579219": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:52Z",
+  "checked_at": "2026-10-17T22:09:24Z",
   "handle": "elonmusk",
   "run": "2026-10-15T1516Z"
  },
@@ -28093,7 +28135,7 @@
  "2110717537964953810": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:54Z",
+  "checked_at": "2026-10-17T22:09:26Z",
   "handle": "RockstarGames",
   "run": "2026-10-15T1413Z"
  },
@@ -28107,7 +28149,7 @@
  "2110717676851216815": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:54Z",
+  "checked_at": "2026-10-17T22:09:26Z",
   "handle": "DiscussingFilm",
   "run": "2026-10-15T1516Z"
  },
@@ -29276,7 +29318,7 @@
  "2110787647610515541": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:54Z",
+  "checked_at": "2026-10-17T22:09:25Z",
   "handle": "PeteThamel",
   "run": "2026-10-15T1908Z"
  },
@@ -29962,7 +30004,7 @@
  "2110832194910298251": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:53Z",
+  "checked_at": "2026-10-17T22:09:24Z",
   "handle": "BNONews",
   "run": "2026-10-15T2200Z"
  },
@@ -30137,7 +30179,7 @@
  "2110846886710251810": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:53Z",
+  "checked_at": "2026-10-17T22:09:25Z",
   "handle": "BNONews",
   "run": "2026-10-15T2200Z"
  },
@@ -30396,7 +30438,7 @@
  "2110869254199501095": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:53Z",
+  "checked_at": "2026-10-17T22:09:25Z",
   "handle": "spectatorindex",
   "run": "2026-10-16T0001Z"
  },
@@ -30431,7 +30473,7 @@
  "2110872117445013817": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:49Z",
+  "checked_at": "2026-10-17T22:09:20Z",
   "handle": "ErinBanco",
   "run": "2026-10-16T1604Z"
  },
@@ -30816,7 +30858,7 @@
  "2110897247663853658": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:50Z",
+  "checked_at": "2026-10-17T22:09:21Z",
   "handle": "Tesla",
   "run": "2026-10-16T0201Z"
  },
@@ -30879,7 +30921,7 @@
  "2110901393238474863": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:50Z",
+  "checked_at": "2026-10-17T22:09:21Z",
   "handle": "CollinRugg",
   "run": "2026-10-16T0201Z"
  },
@@ -31194,7 +31236,7 @@
  "2110913107094606330": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:50Z",
+  "checked_at": "2026-10-17T22:09:22Z",
   "handle": "elonmusk",
   "run": "2026-10-16T0302Z"
  },
@@ -31208,7 +31250,7 @@
  "2110913438293647789": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:51Z",
+  "checked_at": "2026-10-17T22:09:22Z",
   "handle": "Tesla",
   "run": "2026-10-16T0302Z"
  },
@@ -32286,7 +32328,7 @@
  "2111005738306789584": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:56Z",
+  "checked_at": "2026-10-17T22:09:28Z",
   "handle": "TedPillows",
   "run": "2026-10-16T1604Z"
  },
@@ -32405,7 +32447,7 @@
  "2111026882959286396": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:57Z",
+  "checked_at": "2026-10-17T22:09:29Z",
   "handle": "CNN",
   "run": "2026-10-16T1509Z"
  },
@@ -32906,6 +32948,13 @@
   "handle": "GMMTV",
   "run": "2026-10-16T1300Z"
  },
+ "2111079839352402226": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:48Z",
+  "handle": "PlayStation",
+  "run": "2026-10-17T2201Z"
+ },
  "2111080152197476739": {
   "result": "ok",
   "detail": null,
@@ -33175,7 +33224,7 @@
  "2111109670429409481": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:58Z",
+  "checked_at": "2026-10-17T22:09:29Z",
   "handle": "ShamsCharania",
   "run": "2026-10-16T1604Z"
  },
@@ -33410,6 +33459,13 @@
   "handle": "KalshiPolitics",
   "run": "2026-10-17T0907Z"
  },
+ "2111127615734227065": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:45Z",
+  "handle": "asir4m",
+  "run": "2026-10-17T2201Z"
+ },
  "2111127940742476115": {
   "result": "ok",
   "detail": null,
@@ -33479,6 +33535,13 @@
   "checked_at": "2026-10-17T03:14:49Z",
   "handle": "elonmusk",
   "run": "2026-10-17T0308Z"
+ },
+ "2111135790239564206": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:49Z",
+  "handle": "JoshWest247",
+  "run": "2026-10-17T2201Z"
  },
  "2111136203496116704": {
   "result": "ok",
@@ -33637,7 +33700,7 @@
  "2111146227454947837": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:36Z",
+  "checked_at": "2026-10-17T22:09:07Z",
   "handle": "FoxNews",
   "run": "2026-10-16T1804Z"
  },
@@ -33875,7 +33938,7 @@
  "2111159177250787764": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:58Z",
+  "checked_at": "2026-10-17T22:09:29Z",
   "handle": "BernieSanders",
   "run": "2026-10-17T1108Z"
  },
@@ -33924,7 +33987,7 @@
  "2111164055054426351": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:36Z",
+  "checked_at": "2026-10-17T22:09:07Z",
   "handle": "kaitlancollins",
   "run": "2026-10-16T2105Z"
  },
@@ -33984,6 +34047,13 @@
   "handle": "elonmusk",
   "run": "2026-10-16T2210Z"
  },
+ "2111171211254190393": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:44Z",
+  "handle": "Sony",
+  "run": "2026-10-17T2201Z"
+ },
  "2111171825527103889": {
   "result": "ok",
   "detail": null,
@@ -34011,6 +34081,13 @@
   "checked_at": "2026-10-17T08:12:36Z",
   "handle": "HotstarReality",
   "run": "2026-10-17T0703Z"
+ },
+ "2111174273112879452": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:44Z",
+  "handle": "EvanAboutCinema",
+  "run": "2026-10-17T2201Z"
  },
  "2111176621487173820": {
   "result": "ok",
@@ -34071,14 +34148,14 @@
  "2111181836567081020": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:57Z",
+  "checked_at": "2026-10-17T22:09:28Z",
   "handle": "AdamSchefter",
   "run": "2026-10-16T2007Z"
  },
  "2111181874995323072": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:58Z",
+  "checked_at": "2026-10-17T22:09:30Z",
   "handle": "BillMelugin_",
   "run": "2026-10-16T2105Z"
  },
@@ -34092,7 +34169,7 @@
  "2111182130411971037": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:58Z",
+  "checked_at": "2026-10-17T22:09:30Z",
   "handle": "OCFireAuthority",
   "run": "2026-10-16T2105Z"
  },
@@ -34218,7 +34295,7 @@
  "2111191207791796285": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:59Z",
+  "checked_at": "2026-10-17T22:09:31Z",
   "handle": "OC_Scanner",
   "run": "2026-10-16T2105Z"
  },
@@ -34253,7 +34330,7 @@
  "2111197646958542860": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:59Z",
+  "checked_at": "2026-10-17T22:09:30Z",
   "handle": "weatherchannel",
   "run": "2026-10-16T2105Z"
  },
@@ -34383,6 +34460,13 @@
   "handle": "VoicesofWW2",
   "run": "2026-10-17T1403Z"
  },
+ "2111207862596977013": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:47Z",
+  "handle": "zhuzhupetlvr",
+  "run": "2026-10-17T2201Z"
+ },
  "2111208588521935274": {
   "result": "ok",
   "detail": null,
@@ -34466,6 +34550,13 @@
   "checked_at": "2026-10-17T05:12:21Z",
   "handle": "donkoclock",
   "run": "2026-10-17T0506Z"
+ },
+ "2111219056468480460": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:47Z",
+  "handle": "izthisJudah",
+  "run": "2026-10-17T2201Z"
  },
  "2111219287067066456": {
   "result": "ok",
@@ -34663,6 +34754,13 @@
   "handle": "UnderdogCFB",
   "run": "2026-10-17T0203Z"
  },
+ "2111253044432429396": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:50Z",
+  "handle": "spectatorindex",
+  "run": "2026-10-17T2201Z"
+ },
  "2111254859014152526": {
   "result": "ok",
   "detail": null,
@@ -34831,6 +34929,13 @@
   "handle": "daninarizona77",
   "run": "2026-10-17T0308Z"
  },
+ "2111276563731759352": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:50Z",
+  "handle": "traplikedave",
+  "run": "2026-10-17T2201Z"
+ },
  "2111276956167606413": {
   "result": "ok",
   "detail": null,
@@ -34841,7 +34946,7 @@
  "2111276969690038485": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:02Z",
+  "checked_at": "2026-10-17T22:09:33Z",
   "handle": "nytimes",
   "run": "2026-10-17T0600Z"
  },
@@ -35047,6 +35152,13 @@
   "checked_at": "2026-10-17T15:06:50Z",
   "handle": "JASP_ERofficial",
   "run": "2026-10-17T1501Z"
+ },
+ "2111314463630463115": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:49Z",
+  "handle": "ziddi__2633",
+  "run": "2026-10-17T2201Z"
  },
  "2111316032849940885": {
   "result": "ok",
@@ -35457,7 +35569,7 @@
  "2111421972655603934": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:03Z",
+  "checked_at": "2026-10-17T22:09:34Z",
   "handle": "SenThomTillis",
   "run": "2026-10-17T1600Z"
  },
@@ -35569,7 +35681,7 @@
  "2111435061505544229": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:09:59Z",
+  "checked_at": "2026-10-17T22:09:31Z",
   "handle": "jon_delorraine",
   "run": "2026-10-17T2101Z"
  },
@@ -35804,6 +35916,13 @@
   "handle": "tekkersfoot",
   "run": "2026-10-17T1600Z"
  },
+ "2111481025289441471": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:49Z",
+  "handle": "NewsLiberdade",
+  "run": "2026-10-17T2201Z"
+ },
  "2111482118505451685": {
   "result": "ok",
   "detail": null,
@@ -35832,6 +35951,13 @@
   "handle": "brfootball",
   "run": "2026-10-17T1600Z"
  },
+ "2111484581845311694": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:46Z",
+  "handle": "maesenhess",
+  "run": "2026-10-17T2201Z"
+ },
  "2111487276702114072": {
   "result": "ok",
   "detail": null,
@@ -35845,6 +35971,13 @@
   "checked_at": "2026-10-17T21:07:40Z",
   "handle": "TRobinsonNewEra",
   "run": "2026-10-17T2101Z"
+ },
+ "2111489219046641980": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:48Z",
+  "handle": "Dr_DewSweep",
+  "run": "2026-10-17T2201Z"
  },
  "2111491755497701521": {
   "result": "ok",
@@ -35972,6 +36105,13 @@
   "handle": "CFBReport",
   "run": "2026-10-17T1706Z"
  },
+ "2111504560443543557": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:48Z",
+  "handle": "maesenhess",
+  "run": "2026-10-17T2201Z"
+ },
  "2111506579128480242": {
   "result": "ok",
   "detail": null,
@@ -35996,9 +36136,16 @@
  "2111506896230240437": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:00Z",
+  "checked_at": "2026-10-17T22:09:31Z",
   "handle": "DenisCarreaux",
   "run": "2026-10-17T2101Z"
+ },
+ "2111507158215057620": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:46Z",
+  "handle": "elonmusk",
+  "run": "2026-10-17T2201Z"
  },
  "2111507379951226974": {
   "result": "ok",
@@ -36087,7 +36234,7 @@
  "2111514740593746283": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:00Z",
+  "checked_at": "2026-10-17T22:09:32Z",
   "handle": "EmmanuelMacron",
   "run": "2026-10-17T2003Z"
  },
@@ -36206,7 +36353,7 @@
  "2111541852755091581": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:01Z",
+  "checked_at": "2026-10-17T22:09:33Z",
   "handle": "ESPNCFB",
   "run": "2026-10-17T2003Z"
  },
@@ -36220,7 +36367,7 @@
  "2111544795357401308": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:02Z",
+  "checked_at": "2026-10-17T22:09:33Z",
   "handle": "OhioStateFB",
   "run": "2026-10-17T2003Z"
  },
@@ -36255,7 +36402,7 @@
  "2111545499106897982": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:01Z",
+  "checked_at": "2026-10-17T22:09:32Z",
   "handle": "SportsCenter",
   "run": "2026-10-17T2003Z"
  },
@@ -36265,6 +36412,13 @@
   "checked_at": "2026-10-17T20:11:10Z",
   "handle": "awfulannouncing",
   "run": "2026-10-17T2003Z"
+ },
+ "2111546989280186852": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:46Z",
+  "handle": "AdamSchefter",
+  "run": "2026-10-17T2201Z"
  },
  "2111547010021212415": {
   "result": "ok",
@@ -36276,9 +36430,72 @@
  "2111547717017293296": {
   "result": "ok",
   "detail": null,
-  "checked_at": "2026-10-17T21:10:01Z",
+  "checked_at": "2026-10-17T22:09:32Z",
   "handle": "BleacherReport",
   "run": "2026-10-17T2003Z"
+ },
+ "2111556832380723227": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:52Z",
+  "handle": "kyabeliving",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111559701754507355": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:52Z",
+  "handle": "On3",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111559833304629653": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:53Z",
+  "handle": "thepostwire",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111569576777367942": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:53Z",
+  "handle": "TSN_Sports",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111571262250299557": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:51Z",
+  "handle": "On3",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111571440008872424": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:51Z",
+  "handle": "barstoolsports",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111573805357257153": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:52Z",
+  "handle": "On3",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111574122241073548": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:51Z",
+  "handle": "espn",
+  "run": "2026-10-17T2201Z"
+ },
+ "2111574295491362990": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-10-17T22:07:52Z",
+  "handle": "BleacherReport",
+  "run": "2026-10-17T2201Z"
  },
  "957372018919428098": {
   "result": "ok",

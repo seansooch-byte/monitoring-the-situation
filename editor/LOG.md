@@ -1242,3 +1242,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds eight ids. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T22:20Z
+- Captures read: 2201Z. Last read: 2201Z.
+- X's check: 2201Z 30 confirmed, 0 missing, 1 mismatched (2069374923190182098, bts_bighit, hashtag order differs; not on the pulse or cited), 0 withheld.
+- Pulse: 40 items (1 new, 0 dropped). Added: LucAuffret video of police vehicles targeted in Paris on 17 October (world). Nothing is past 36 hours yet; Tim Cook's post (34.7 hours) goes next pass. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Marseille and Lyon clips (private individuals, point unclear); ImpactMediaFR hijacked-train claim (no source found); Telegraph Starlink exclusive (covered by the story); dhruv_rathee, atensnut, SHIRO_116 (as before); private_individual posts. For the next story pass: Paris 17 October clips need an official arrest and damage count.
+- Requests: watch list adds one id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
