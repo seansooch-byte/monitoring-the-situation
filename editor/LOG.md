@@ -1092,3 +1092,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids. open.json unchanged (r-2026-10-16-01 still open).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T03:35Z
+- Captures read: 0308Z. Last read: 0308Z.
+- X's check: 0308Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 35 items (1 new, 1 dropped). New: Culture Crave on the Power To The Players Act (gaming; the bill claim is the account's, not checked). Dropped: Joe Hoyt on Troy Aikman (older than 36 hours).
+- Added: none. Updated: none (pulse pass).
+- Left out: SmokeAwayyy "thrusters" video and ngnchiikawa emoji post (no words or media description to say what they show); Caleb Williams TikTok posts (Bears account and a 103-follower account, content unclear); Pence on Russia sanctions (politics full); Rockstar, OpenAINewsroom, Netflix and PopBase Pope post (older than 36 hours or already left out); DatelineNBC and OPLive posts (private_individual); old_content posts.
+- Requests: watch list adds the new id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
