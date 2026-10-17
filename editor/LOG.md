@@ -1142,3 +1142,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list swapped to the current pulse ids; open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T10:10Z
+- Captures read: 0907Z. Last read: 0907Z.
+- X's check: 0907Z 27 confirmed, 0 missing, 1 mismatched (2111372812057522401, T1psy100413, LingOrm concert stream; X adds a superscript character to the text), 0 withheld. Earlier mismatches, missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 33 items (0 new, 1 dropped). Dropped: Headquarters measles clip (older than 36 hours; medicine now has no item).
+- Added: none. Updated: none (pulse pass).
+- Left out: dhruv_rathee and BJP4India (partisan, unchecked); Katie Zacharia firing by PopBase (her own post is already on the pulse); Japan early-warning posts (disaster already placed); Barnes/CENTCOM/IsraeliPM (defense and world placed or no text); private_individual and sexual-language posts. For the next story pass: Barnes/Banco/Telegraph reports on Starlink limits in Ukraine.
+- Requests: watch list drops the dropped id. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
