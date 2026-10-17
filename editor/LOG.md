@@ -1112,3 +1112,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed.
 - Shipped: no, nothing changed on the site.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T05:40Z
+- Captures read: 0506Z. Last read: 0506Z.
+- X's check: 0506Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 36 items (3 new, 2 dropped). New: Washington Post on the West Bank attack (world); Film Updates on "You Can See Everything" (entertainment; ratings claim not checked); Grok Bot speed claim (ai; xAI disclosure included). Dropped: Rapoport on Jalen Hurts and Zuckerberg on Muse Spark (older than 36 hours).
+- Added: none. Updated: none (pulse pass).
+- Left out: Telegraph exclusive on Musk and Starlink speed limits in Ukraine (politics already has five items; for the next story pass, with the Starshield request); donkoclock rally post and BJP4India post (partisan, unchecked); Tesla "Real life, baby" and "Do a kickflip" (no media description; the first is already in `also`); Rockstar, OpenAINewsroom, Netflix, PopBase Pope (older than 36 hours); BrandRisk fight posts (people named in a fight); MaxNordau post (sexual language); old_content posts.
+- Requests: watch list adds the three new ids and drops the two dropped. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

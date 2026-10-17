@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T03:35:00Z",
-  "capture": "2026-10-17T0308Z",
+  "updated_at": "2026-10-17T05:40:00Z",
+  "capture": "2026-10-17T0506Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -48,18 +48,6 @@
       "id": "2111026882959286396",
       "desk": "politics",
       "line": "CNN reports that new Federal Election Commission filings show tech billionaire Elon Musk's heavy influence on the 2026 midterms, especially the Texas Senate race. The linked CNN story is headlined as saying Musk gave more than $150 million to bolster Republicans there. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2110777583642009692",
-      "desk": "sports",
-      "line": "Ian Rapoport posts the Eagles' statement that quarterback Jalen Hurts is out for Sunday's game against the Panthers because of a superficial blood clot. The statement says a follow-up ultrasound on Wednesday night showed movement in the clot.",
-      "also": []
-    },
-    {
-      "id": "2110778025629347999",
-      "desk": "ai",
-      "line": "Mark Zuckerberg says Meta's Muse Spark Open model weights are releasing today and that the model runs well on new Mac Studios, thanks to work with Apple. Not checked here.",
       "also": []
     },
     {
@@ -227,6 +215,24 @@
       "id": "2111225700497957140",
       "desk": "gaming",
       "line": "Culture Crave, an entertainment news account, says a US lawmaker plans to introduce the Power To The Players Act. It says the bill would require publishers to make games playable offline before shutting down their servers. The post names no lawmaker. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111091381963800922",
+      "desk": "world",
+      "line": "The Washington Post says masked Israeli settlers attacked Palestinian villagers on Friday, setting olive groves on fire and throwing rocks. It says one of its photographers was caught in the attack and quotes her saying she was kicked about 50 times. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111106256878653913",
+      "desk": "entertainment",
+      "line": "Film Updates, a film news account, says \"You Can See Everything\" by Nathan Fielder and Lance Oppenheim is currently the highest rated film of the year on Rotten Tomatoes and Metacritic. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111184275374813362",
+      "desk": "ai",
+      "line": "The Grok Bot account says its new version finishes computer tasks 3x sooner on average and answers everything else in less than half the time. The speed claim is the account's own and has not been checked here. Grok is made by xAI, the company behind the model that gathers this page's posts.",
       "also": []
     }
   ]
