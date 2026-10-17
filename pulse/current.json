@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T19:20:00Z",
-  "capture": "2026-10-17T1906Z",
+  "updated_at": "2026-10-17T20:40:00Z",
+  "capture": "2026-10-17T2003Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -37,12 +37,6 @@
       "id": "2111109670429409481",
       "desk": "sports",
       "line": "ESPN reporter Shams Charania says that he and David Purdum report the NBA and prominent sportsbooks have agreed to ban several types of bets, including parlays on the under of one player's stats. Outlets repeating the ESPN report say the league sent a memo to its sportsbook partners.",
-      "also": []
-    },
-    {
-      "id": "2111005738306789584",
-      "desk": "markets",
-      "line": "Ted, a markets commentary account, says Indonesia's stock market is collapsing, the worst crash in 28 years. Business Today reports a fall of about 11 percent on Friday after MSCI proposed a downgrade of Indonesia.",
       "also": []
     },
     {
@@ -223,6 +217,24 @@
       "id": "2111180174779670845",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Nicolas Cage and Antonio Banderas will lead Season 5 of True Detective, with filming to begin next year. The post names no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111514740593746283",
+      "desk": "world",
+      "line": "French President Emmanuel Macron, in French, says there is no place for violence in the Republic, that people who broke and attacked prefectures and shops will be prosecuted and punished, and that he backs the police. The post as recorded is cut off. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111516431141540160",
+      "desk": "politics",
+      "line": "President Trump endorses Texas Attorney General Ken Paxton for the U.S. Senate and calls James Talarico, spelled \"TalaFREAKO\" in the post, a \"Radical Left Lunatic\". These are his words and are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111547717017293296",
+      "desk": "sports",
+      "line": "Bleacher Report says Indiana receiver Nick Marsh was out of bounds on what looked like a winning touchdown, and that Ohio State won 19-15.",
       "also": []
     }
   ]
