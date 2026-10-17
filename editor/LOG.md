@@ -1152,3 +1152,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops the dropped id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T11:10Z
+- Captures read: 0959Z. Last read: 0959Z.
+- X's check: 0959Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (including 2111372812057522401), missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 33 items (0 new, 0 dropped). Every item is still inside 36 hours (Porsche and DiscussingFilm are the oldest, at about 36 hours). Medicine still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Trump "Mohammed" clip by johnnymaga (partisan aggregator, unchecked); Bernie Sanders on Musk spending (politics already has six items); NFL Eagles signing (sports already has three); Netflix, ReddCinema, atensnut, SmokeAwayyy (no media description); Dexerto death, ZLFeed, Rockstar, OpenAINewsroom (older than 36 hours or already left out); private_individual and old_content posts; CORTIS/Keonho fan campaign posts (small, one campaign).
+- Requests: none changed; watch list already matches the pulse.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
