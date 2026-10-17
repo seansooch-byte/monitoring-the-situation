@@ -1172,3 +1172,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops two ids, adds Bernie Sanders post 2111159177250787764. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T12:30Z
+- Captures read: 1202Z. Last read: 1202Z.
+- X's check: 1202Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches, missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 29 items (2 new, 4 dropped). Dropped (older than 36 hours): Olivia Rodrigo, ErinBanco (defense), PopBase Tate McRae, SpaceX. Added: NYT alert on Trump order exempting Russia from sanctions (politics), US Treasury on Iran and an Iraqi bank (world). Defense and medicine now have no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA Wembanyama dunk (sports already has three accounts); GenFlynn on Zelensky (partisan); Rioriotalk "finish this drawing" Grok post (no clear point); cb_doge full Roadster event (tech placed); Afghanistan women-ban posts (old claim recirculating, unchecked); K-pop fan campaign posts (small); old_content and private_individual posts. For the next story pass: the NYT report on the Russia sanctions order needs a primary source.
+- Requests: watch list drops four ids, adds two. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
