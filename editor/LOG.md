@@ -1072,3 +1072,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the new id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing.
+
+## 2026-10-17T01:15Z
+- Captures read: 0105Z. Last read: 0105Z.
+- X's check: 0105Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0101Z, 1200Z, 2303Z), the 0201Z missing post and earlier withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 33 items (0 new, 3 dropped as older than 36 hours: Kobeissi Letter on producer prices, Rockstar's GTA VI trailer, Netflix's STEPS announcement).
+- Added: none. Updated: none (pulse pass).
+- Left out: Tesla's own Roadster post and WatcherGuru repeat (Tesla topic already placed); kaitlancollins anonymous-sources post on the press secretary (Scaramucci item covers it); WWE SmackDown and Notre Dame schedule posts (sports desk full); DojaCat (private_individual); old_content posts.
+- Requests: none changed.
+- Shipped: yes, commit 716c774, live audit clean. (The log entry was committed after shipping; it does not affect the site.)
+- For the main editor: nothing.
