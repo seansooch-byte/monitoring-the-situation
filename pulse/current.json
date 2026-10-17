@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T18:25:00Z",
-  "capture": "2026-10-17T1807Z",
+  "updated_at": "2026-10-17T19:20:00Z",
+  "capture": "2026-10-17T1906Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -217,6 +217,12 @@
       "id": "2111203630892404844",
       "desk": "internet",
       "line": "The Streamer Awards announces its nominees for Best International Streamer and names five accounts, with a link to vote. A photo is attached.",
+      "also": []
+    },
+    {
+      "id": "2111180174779670845",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, says Nicolas Cage and Antonio Banderas will lead Season 5 of True Detective, with filming to begin next year. The post names no source. Not checked here.",
       "also": []
     }
   ]
