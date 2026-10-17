@@ -1252,3 +1252,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds one id. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T23:30Z
+- Captures read: 2308Z. Last read: 2308Z.
+- X's check: 2308Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 39 items (0 new, 1 dropped); the build holds one more off the front page (a second elonmusk post). Dropped (past 36 hours): Tim Cook on the iPhone Duo. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Adam Schefter on Eagles QB Hurts going on injured reserve (same account and desk as the Josh Jacobs item; one place per account); Auburn v Georgia, Michigan benching and other game posts (small, still moving); Limoges and Paris clips from accounts already shown or with no clear source; private_individual posts as before. For the next story pass: the Hurts injured reserve report, if the sports desk is wanted.
+- Requests: watch list drops one id (Tim Cook post, not cited). open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
