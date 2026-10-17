@@ -1,17 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T13:35:00Z",
-  "capture": "2026-10-17T1307Z",
+  "updated_at": "2026-10-17T14:30:00Z",
+  "capture": "2026-10-17T1403Z",
   "items": [
-    {
-      "id": "2110913107094606330",
-      "desk": "tech",
-      "line": "Elon Musk posts a 15-second video of the new Tesla Roadster after Tesla's event on October 15, with the words \"Turns out the future does have flying cars.\" Tesla's own post of the reveal is attached. See the story on the demo. Not checked here.",
-      "also": [
-        "2110913438293647789",
-        "2110901393238474863"
-      ]
-    },
     {
       "id": "2110972416751186421",
       "desk": "world",
@@ -83,12 +74,6 @@
       "also": [
         "2111142826301948312"
       ]
-    },
-    {
-      "id": "2110917400145330203",
-      "desk": "business",
-      "line": "Reliance Industries posts a statement on \"recent remarks\" about it and India. It says it welcomes competition in satellite communications, including Starlink, and that Jio's own satellite services await clearances. It does not say what the remarks were. Not checked here.",
-      "also": []
     },
     {
       "id": "2111182130411971037",
@@ -168,6 +153,24 @@
       "id": "2111156654850847230",
       "desk": "defense",
       "line": "The account Barnes_Joe posts what it says is a Telegraph exclusive: that Elon Musk proposed to President Trump throttling Ukraine's use of SpaceX's Starshield satellite network, citing unnamed sources. It says Musk then tweeted that the US administration did it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111375640717033777",
+      "desk": "ai",
+      "line": "DeepSeek, the Chinese AI lab, announces DeepSeek-V4.1-Flash-1017 and says it has stronger benchmark performance, faster task completion and shorter outputs than the previous version. It says the model is live on its website, app and API. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111354696854114702",
+      "desk": "tech",
+      "line": "Elon Musk, replying to Robert Scoble, says people will be able to ask the new Tesla Roadster to perform the tricks shown at its event autonomously, \"as it will be sentient\". He adds that Tesla will build a looping test track at its Texas headquarters. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111207677527310645",
+      "desk": "ideas",
+      "line": "Voices of WW2, a history account, tells in a long post the story of Schloss Itter, an Austrian castle where it says American and German soldiers fought the SS together on 5 May 1945 to defend French prisoners. Not checked here.",
       "also": []
     }
   ]
