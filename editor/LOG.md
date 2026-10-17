@@ -1232,3 +1232,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds three ids, drops one. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T21:35Z
+- Captures read: 1906Z, 2003Z, 2101Z. Last read: 2101Z.
+- X's check: 2101Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. 2003Z had 1 withheld (not on the pulse or cited).
+- Pulse: 38 items (2 new, 1 dropped). Dropped (36 hours): CNN on Musk FEC filings. Added: Limoges town hall video (world), ESPN on Florida over Texas (sports).
+- Added: 2026-10-17-france-17-october-limoges-town-hall (world), 2026-10-17-ohio-state-indiana-marsh-out-of-bounds (sports). Updated: none.
+- Left out: Marseille and Lyon looting clips (private shop worker, private individuals); Eagles QB Hurts injured reserve (one post, not researched); Shrek 2 Remastered trailer (not researched); Tesla Roadster story not updated, no new facts found. France arrest figures left out (blog only). For the next story pass: the France story needs an official arrest count and a page naming who called the day.
+- Requests: watch list adds eight ids. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

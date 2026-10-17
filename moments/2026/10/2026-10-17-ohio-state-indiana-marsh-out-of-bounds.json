@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-17-ohio-state-indiana-marsh-out-of-bounds",
+  "title": "Ohio State beats Indiana 19-15 after a would-be winning touchdown is ruled out of bounds",
+  "dek": "Indiana's 22-game win streak ended on a review. Ohio State also lost its starting quarterback for several weeks.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-10-17T20:10:00Z",
+  "updated_at": "2026-10-17T21:30:00Z",
+  "what": [
+    "Yahoo Sports reports that No. 4 Ohio State beat No. 5 Indiana 19-15 on Saturday 17 October at Memorial Stadium in Bloomington.",
+    "With about a minute left, Indiana quarterback Josh Hoover threw to receiver Nick Marsh in the end zone on fourth and 4. Yahoo reports Marsh was ruled to have stepped out of bounds, so the touchdown did not count. The play was reviewed and the call stood. The loss ended Indiana's 22-game win streak, which began in week 1 of the 2025 season.",
+    "Ohio State quarterback Julian Sayin hurt his right arm in the fourth quarter after a sack and left in a sling, Yahoo reports. Coach Ryan Day said he would probably be out several weeks. Freshman Luke Fahey finished the game, and Ohio State's own account posted that he kneeled it out."
+  ],
+  "why": "A finish decided by one call, between two top-five teams, produced many clips and arguments within minutes.",
+  "next": "Whether Ohio State names a return date for Sayin, and how the rankings change on Sunday.",
+  "posts": [
+    { "id": "2111547717017293296", "role": "voice" },
+    { "id": "2111545499106897982", "role": "voice" },
+    { "id": "2111541852755091581", "role": "voice" },
+    { "id": "2111544795357401308", "role": "official" }
+  ],
+  "sources": [
+    { "label": "Yahoo Sports: Ohio State stops Indiana's 22-game win streak after Nick Marsh is barely out of bounds", "url": "https://sports.yahoo.com/college-football/live/no-4-ohio-state-stops-no-5-indianas-22-game-win-streak-after-nick-marsh-is-barely-out-of-bounds-on-potential-game-winning-td-200316337.html" }
+  ]
+}

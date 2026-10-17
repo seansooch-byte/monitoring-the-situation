@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T20:40:00Z",
-  "capture": "2026-10-17T2003Z",
+  "updated_at": "2026-10-17T21:35:00Z",
+  "capture": "2026-10-17T2101Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -19,12 +19,6 @@
       "id": "2111387868769951920",
       "desk": "science",
       "line": "Sciencegirl, a science account, says schools in China show children videos of hard daily work such as construction and farming, to help them understand their parents' sacrifices. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111026882959286396",
-      "desk": "politics",
-      "line": "CNN reports that new Federal Election Commission filings show tech billionaire Elon Musk's heavy influence on the 2026 midterms, especially the Texas Senate race. The linked CNN story is headlined as saying Musk gave more than $150 million to bolster Republicans there. Not checked here.",
       "also": []
     },
     {
@@ -235,6 +229,18 @@
       "id": "2111547717017293296",
       "desk": "sports",
       "line": "Bleacher Report says Indiana receiver Nick Marsh was out of bounds on what looked like a winning touchdown, and that Ohio State won 19-15.",
+      "also": []
+    },
+    {
+      "id": "2111506896230240437",
+      "desk": "world",
+      "line": "A French account posts a short video and says the Limoges town hall has been set on fire, calling it a scandal and a sadness. The post is in French. Franceinfo reports the fire during the 17 October protest day; the video itself has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2111538109946962345",
+      "desk": "sports",
+      "line": "ESPN says Florida beat No. 7 Texas in Austin after trailing 17-3, scoring 24 straight points, and that it is Texas's second straight loss.",
       "also": []
     }
   ]
