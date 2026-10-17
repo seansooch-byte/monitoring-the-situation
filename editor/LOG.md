@@ -1182,3 +1182,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops four ids, adds two. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-17T13:35Z
+- Captures read: 1307Z. Last read: 1307Z.
+- X's check: 1307Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches, missing and withheld posts remain in the ledger; none on the pulse or cited.
+- Pulse: 26 items (1 new, 4 dropped). Dropped: MLB Ohtani (with its attached post), MKBHD and Rupar/Hannity (all past 36 hours), and the US Treasury Iran post (created 15 October 18:49Z, so past 36 hours; the 12:30Z pass kept it). Added: Barnes_Joe on a Telegraph report about Musk and Starshield (defense). Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk "Grok Bot got much faster" (ai already has the Grok Bot account's post); Wembanyama (the post is only a link); dhruv_rathee (partisan campaign post); Tesla "Real life, baby" (attached to the Roadster item already as context); Everton v Chelsea and Emi Martinez injury posts (small, sports placed); atensnut, ngnchiikawa, SmokeAwayyy (no point I can state); private_individual and old_content posts. For the next story pass: the Telegraph report on Musk and Starshield needs the Telegraph page; the NYT Russia sanctions order needs a primary source.
+- Requests: watch list drops five ids, adds one. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: the 12:30Z pass left the Treasury post on the pulse past 36 hours; removed here. The message that started me had no instructions beyond the contract.

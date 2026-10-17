@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-17T12:30:00Z",
-  "capture": "2026-10-17T1202Z",
+  "updated_at": "2026-10-17T13:35:00Z",
+  "capture": "2026-10-17T1307Z",
   "items": [
     {
       "id": "2110913107094606330",
@@ -10,14 +10,6 @@
       "also": [
         "2110913438293647789",
         "2110901393238474863"
-      ]
-    },
-    {
-      "id": "2110895796308820439",
-      "desk": "sports",
-      "line": "MLB posts a short video captioned \"Shohei Ohtani, home run\". Bleacher Report, in a post attached here, says it was his first home run since August 18.",
-      "also": [
-        "2110898074763907195"
       ]
     },
     {
@@ -41,12 +33,6 @@
       ]
     },
     {
-      "id": "2110904874720510029",
-      "desk": "tech",
-      "line": "MKBHD, a tech reviewer, quotes Tesla’s post on the new Roadster’s design. He says Tesla told the audience on stage that the 4000+ pound car can do flips, reach 380+ mph and ship in 2028, and asks whether it is a prank. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2111056812212687246",
       "desk": "tech",
       "line": "Tim Cook, Apple CEO, says Apple cannot wait for the world to experience the iPhone Duo next week and that pre-orders start today. The post has a three-second video.",
@@ -68,12 +54,6 @@
       "id": "2111005738306789584",
       "desk": "markets",
       "line": "Ted, a markets commentary account, says Indonesia's stock market is collapsing, the worst crash in 28 years. Business Today reports a fall of about 11 percent on Friday after MSCI proposed a downgrade of Indonesia.",
-      "also": []
-    },
-    {
-      "id": "2110906012857454976",
-      "desk": "politics",
-      "line": "Aaron Rupar posts a video of Fox News host Sean Hannity interviewing Katie Zacharia, then White House press secretary. Hannity asks about her calling herself a lawyer and cites a report of 15 posts calling her an attorney. She answers that she thinks they were retweets. Rupar calls it a flame out.",
       "also": []
     },
     {
@@ -185,9 +165,9 @@
       "also": []
     },
     {
-      "id": "2110805296662614448",
-      "desk": "world",
-      "line": "The US Treasury says it disrupted Iran’s efforts to infiltrate the international financial system through an Iraqi bank that it says also supports Iran’s proxy militia groups, as part of what it calls Operation Economic Outcast. Not checked here.",
+      "id": "2111156654850847230",
+      "desk": "defense",
+      "line": "The account Barnes_Joe posts what it says is a Telegraph exclusive: that Elon Musk proposed to President Trump throttling Ukraine's use of SpaceX's Starshield satellite network, citing unnamed sources. It says Musk then tweeted that the US administration did it. Not checked here.",
       "also": []
     }
   ]
