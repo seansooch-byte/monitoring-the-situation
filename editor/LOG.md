@@ -1402,3 +1402,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; the two dropped ids stay on the watch list because a live story cites them.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T16:35Z
+- Captures read: 1600Z. Last read: 1600Z.
+- X's check: 1600Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatches are unchanged and off the pulse.
+- Pulse: 30 items, no changes beyond the capture stamp (nothing aged past 36 hours; nothing new both large and showable).
+- Added: 2026-10-18-cfb-wainwright-explosion-fire (defense), 2026-10-17-wichita-soccer-field-truck (justice), 2026-10-17-hurts-injured-reserve-blood-clot (sports). Updated: 2026-10-17-france-17-october-limoges-town-hall (prefect's account; unconfirmed blog arrest figure dropped, correction added).
+- Left out: Saudi executions (unconfirmed, sensitive); Paxton endorsement (not researched); opencode breach claim (not researched); BreidenFehoko post accusing Schefter (claim about a real person, unconfirmed); Wichita driver details post (private person); Paris woman and rioter posts (private individuals). Not rechecked this pass: Norte fire, Bend, sanctions waiver, Jacobs, Musk filings.
+- Requests: added r-2026-10-18-01 (official Wainwright count and Wichita cause). Watch list adds 7 ids.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

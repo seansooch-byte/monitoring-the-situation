@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-17-hurts-injured-reserve-blood-clot",
+  "title": "Eagles put quarterback Jalen Hurts on injured reserve with a blood clot in his calf",
+  "dek": "He is out indefinitely. ESPN reports he will miss at least four games.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-17T19:56:47Z",
+  "updated_at": "2026-10-18T16:30:00Z",
+  "what": [
+    "ESPN reports the Eagles placed Hurts on injured reserve on Saturday 17 October because of a superficial blood clot in his calf. It reports the clot moved at some point, which prompted the decision, and that treatment normally involves blood thinners, during which players cannot play.",
+    "ESPN reports the move sidelines him indefinitely and gives doctors' estimates of a minimum of about six weeks, with a range from several weeks to as long as three months. It says he will miss at least four games before the Week 10 bye. Backup Tanner McKee starts against Carolina on Sunday.",
+    "Adam Schefter and Ian Rapoport each posted the news on Saturday, citing sources and \"numerous doctors and experts.\""
+  ],
+  "why": "The starting quarterback of a top team is out with no return date, and the news came as a bulletin from two of the most followed reporters in the league.",
+  "next": "A return timeline from the Eagles.",
+  "posts": [
+    {
+      "id": "2111546989280186852",
+      "role": "origin"
+    },
+    {
+      "id": "2111547010021212415",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ESPN: Sources, Eagles place Jalen Hurts on IR due to blood clot",
+      "url": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot"
+    }
+  ]
+}

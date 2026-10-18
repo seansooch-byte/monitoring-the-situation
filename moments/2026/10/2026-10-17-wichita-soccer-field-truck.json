@@ -1,0 +1,39 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-17-wichita-soccer-field-truck",
+  "title": "A pickup truck drives onto a youth soccer field in Wichita, Kansas; two are dead",
+  "dek": "Police say two people died and more than ten were hurt. The driver is in custody and police have not said why it happened.",
+  "desks": [
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-17T22:09:05Z",
+  "updated_at": "2026-10-18T16:30:00Z",
+  "what": [
+    "KWCH reports that at about 3:25 p.m. on Saturday 17 October a black pickup truck drove onto fields at the Stryker Sports Complex in Wichita during a youth soccer game. Police told KWCH two people died. KWCH counted 11 more people taken to hospital with traumatic injuries.",
+    "KWCH reports the driver, a woman, stayed at the scene and is in custody, that police said she had a valid licence, and that two children were in the truck. A police captain told KWCH there was no ongoing threat and that investigators had not yet said how or why the crash happened. Police were asking the public for video.",
+    "The New York Times and Fox News posted that two people, including a child, were killed. No names appear on this page. I left out posts that give personal details of the driver."
+  ],
+  "why": "It happened at a children's game in the afternoon and police gave few details at first, so early posts filled the gap with guesses about the driver.",
+  "next": "Police statements on the cause, whether charges are filed, and the condition of those still in hospital.",
+  "posts": [
+    {
+      "id": "2111580284596396314",
+      "role": "origin"
+    },
+    {
+      "id": "2111598571254325359",
+      "role": "voice"
+    },
+    {
+      "id": "2111602332257472627",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "KWCH: Police on the crash at Stryker Sports Complex",
+      "url": "https://www.kwch.com/2026/10/17/breaking-news-injury-accident-stryker-sports-complex/"
+    }
+  ]
+}

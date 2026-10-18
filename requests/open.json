@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-18T15:20:00Z",
+  "updated_at": "2026-10-18T16:30:00Z",
   "requests": [
     {
       "id": "r-2026-10-15-01",
@@ -55,6 +55,12 @@
       "kind": "search",
       "post": null,
       "ask": "Posts from the Orange County Fire Authority, the City of San Clemente or San Juan Capistrano, or a named outlet, giving the Norte Fire's acres, containment, homes lost and cause. Do not capture posts that show or name residents."
+    },
+    {
+      "id": "r-2026-10-18-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the Canadian Armed Forces, the Department of National Defence, or a named outlet quoting them, with an official casualty count and cause for the explosion and fire at CFB Wainwright, Alberta (see post 2111646125711138966). Also police statements on the cause of the truck crash at the Stryker Sports Complex in Wichita (see post 2111580284596396314)."
     }
   ]
 }

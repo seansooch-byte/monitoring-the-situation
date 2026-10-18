@@ -3,25 +3,50 @@
   "id": "2026-10-17-france-17-october-limoges-town-hall",
   "title": "Limoges town hall burned during France's 17 October day of protest over living costs",
   "dek": "A national protest day turned violent in several cities. President Macron promised prosecutions, and the fire at Limoges destroyed much of a historic building.",
-  "desks": ["world"],
+  "desks": [
+    "world"
+  ],
   "standing": "developing",
   "started_at": "2026-10-17T12:32:01Z",
-  "updated_at": "2026-10-17T21:30:00Z",
+  "updated_at": "2026-10-18T16:30:00Z",
   "what": [
     "Franceinfo reports that hundreds of thousands of people took part in protests across France on Saturday 17 October. It gives 800,000 as the organisers' count and 550,000 as the Interior Ministry's count. Reporting I read describes the day as a mobilisation against the cost of living, with roots in an earlier high school student movement. I could not open a page that names every group that called it.",
     "Franceinfo reports that after marches, masked people attacked the town hall of Limoges, burned a municipal police vehicle outside it, broke windows, entered and set fires inside. The campanile (bell tower) collapsed and much of the roof was destroyed. A search summary of local reporting says the prefect of Haute-Vienne called the building \"largely lost\". I did not open that page.",
     "Franceinfo also reports violence elsewhere: the town hall and shops in Marseille, a tourism office in Lyon ransacked and burned, protesters forcing entrances to town halls in Lille, clashes at Place de la République in Paris, and a university building damaged by fire in Rouen. Police vehicles were burned near Limoges.",
     "At about 7:48 p.m. Paris time, President Emmanuel Macron wrote on X that those who broke and attacked prefectures and shops and looted \"even our town halls\" would be prosecuted and punished. He also said the Nation backs the police, who guarantee the right to protest.",
-    "Arrest and injury totals for the day were still being reported when I wrote this. One summary says nearly 400 arrests and about sixty officers hurt, attributed to Interior Minister Laurent Nuñez. It comes from a blog, and I could not confirm it from an official or news page. I do not give those figures as established. Who carried out each attack has not been established in what I read."
+    "France 24 quotes the prefect of Haute-Vienne, Maurice Barate, saying the roof of the Limoges town hall collapsed onto the lower floors except the west wing and two-thirds of the exterior was gone. He called it a catastrophe for heritage and a deliberate act by hooligans. France 24 also reports shops in central Limoges were looted.",
+    "Search summaries of Sunday coverage say Interior Minister Laurent Nuñez posted that more than 2,000 people were arrested and more than 600 police officers were injured. I did not open a page that carries those figures, so they are not given as established. The earlier figure of about 400 arrests came from a blog and has been dropped. Who carried out each attack has not been established in what I read."
   ],
   "why": "Video of a burning town hall is simple to share without language or context. Many of the first posts came from French accounts that posted clips with a single line, and the footage reached people who had not followed the protest.",
   "next": "Official arrest and injury figures, any charges for the Limoges fire, and whether further protest days are called.",
   "posts": [
-    { "id": "2111435061505544229", "role": "voice" },
-    { "id": "2111506896230240437", "role": "voice" },
-    { "id": "2111514740593746283", "role": "official" }
+    {
+      "id": "2111435061505544229",
+      "role": "voice"
+    },
+    {
+      "id": "2111506896230240437",
+      "role": "voice"
+    },
+    {
+      "id": "2111514740593746283",
+      "role": "official"
+    }
   ],
   "sources": [
-    { "label": "Franceinfo: a fire ravages the Limoges town hall on the fringes of the 17 October mobilisation", "url": "https://www.franceinfo.fr/economie/greve/video-un-incendie-ravage-l-hotel-de-ville-de-limoges-en-marge-de-la-mobilisation-du-17-octobre_8242054.html" }
+    {
+      "label": "Franceinfo: a fire ravages the Limoges town hall on the fringes of the 17 October mobilisation",
+      "url": "https://www.franceinfo.fr/economie/greve/video-un-incendie-ravage-l-hotel-de-ville-de-limoges-en-marge-de-la-mobilisation-du-17-octobre_8242054.html"
+    },
+    {
+      "label": "France 24: Town hall in Limoges largely lost to blaze set during French protests",
+      "url": "https://www.france24.com/en/live-news/20261017-fire-rages-at-town-hall-in-france-s-limoges-after-protests-authorities"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-10-18T16:30:00Z",
+      "text": "Replaced the unconfirmed blog figure of nearly 400 arrests with a note that later coverage cites far higher official figures, not yet checked here. Added the prefect's description of the damage."
+    }
   ]
 }
