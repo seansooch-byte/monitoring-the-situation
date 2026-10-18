@@ -1352,3 +1352,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list adds three ids and drops four (the Josh Jacobs and Norte Fire posts stay because a story cites them).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T11:30Z
+- Captures read: 0906Z, 1004Z, 1101Z. Last read: 1101Z.
+- X's check: 1101Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0600Z mismatch (2111578001863549106) is unchanged and off the pulse.
+- Pulse: 35 items (1 new, 0 dropped). Added: DiscussingFilm on Hunter Schafer in an A24 vampire film (entertainment, attributed). Life has no item.
+- Added: none. Updated: none. Web searches for the Wichita soccer-field vehicle incident, the Wainwright base explosion, the Limoges town hall fire and Jalen Hurts going on injured reserve found no outside confirmation yet, so no story was written.
+- Left out: Musk reply to Maguire on France (account already holds a place); private_individual France posts; upuknews1 Saudi executions (unconfirmed, sensitive); Carrick quotes (small, no new fact). For the next story pass: Wichita and Wainwright need an official statement; Limoges cause and damage; France arrests count; Hurts move.
+- Requests: none changed beyond updated_at; watch list adds one id.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
