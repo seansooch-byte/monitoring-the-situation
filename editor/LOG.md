@@ -1262,3 +1262,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops one id (Tim Cook post, not cited). open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T00:15Z
+- Captures read: 0004Z. Last read: 0004Z.
+- X's check: 0004Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 39 items (0 new, 0 dropped); the build holds one more off the front page (a second elonmusk post). Nothing is past 36 hours yet: Zelensky's address and SpaceX's Q3 date post (about 35.5 hours) go next pass. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Tesla and Musk "flying cars" posts (about 46 hours old); France clips from confrontfr, DailyLoud, HeaterMart, F_Desouche (France already shown, causes or sources not confirmed); Radio Genoa "Italy like France" post (claim not confirmed, framed against a religion); Chatnovski ants clip and crackcobain post (point unclear); dinguskhan hospital post (point unclear); lenibriscoe school shooting post (insults, families not public); private_individual posts as before. For the next story pass: the France unrest still needs an official arrest and damage count.
+- Requests: none changed beyond updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
