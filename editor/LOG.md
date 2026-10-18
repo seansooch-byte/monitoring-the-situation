@@ -1362,3 +1362,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list adds one id.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T12:45Z
+- Captures read: 1200Z. Last read: 1200Z.
+- X's check: 1200Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatches (2111578001863549106 in 0600Z, and one in 2201Z on 17 Oct) are unchanged and off the pulse.
+- Pulse: 34 items (3 new, 2 dropped). Added: Odyssey on a fruit fly brain in its world model (science, attributed, not checked), Texas_Twins_Dad on a Grok Bot class (ai, xAI note), bloomjpg on QTCinderella teasing Ludwig over Streamer Awards nominations (internet, not checked). Dropped (past 36 hours): Culture Crave, CinemaWireNews. Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: private_individual France and Tommy posts; confrontfr Marseille clip (point not clear from its words); factpostnews Vance clip (shows a bereaved private person); TheTNHoller (pile-on at a heckler); noahdummett on Jack Doherty's ban and BreidenFehoko on rigged games (claims about real people, unconfirmed); Love_Deepspace (advertisement); Trump and Macron insult posts; further France posts (France already shown); sundayvibes posts (small); large posts older than 36 hours. For the next story pass: France arrests and damage count, Limoges cause, Hurts move.
+- Requests: none changed beyond updated_at; watch list adds three ids and drops the two dropped items.
+- Shipped: yes, commit 0be8c63, live audit clean.
+- For the main editor: a stale script from an earlier run sat at /tmp/ed/pulse.mjs and ran in place of mine; I reverted its output and used a new file. Nothing wrong in the repo.
