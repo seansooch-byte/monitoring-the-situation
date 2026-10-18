@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T08:45:00Z",
-  "capture": "2026-10-18T0802Z",
+  "updated_at": "2026-10-18T09:55:00Z",
+  "capture": "2026-10-18T0906Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -58,12 +58,6 @@
       "also": []
     },
     {
-      "id": "2111207677527310645",
-      "desk": "ideas",
-      "line": "Voices of WW2, a history account, tells in a long post the story of Schloss Itter, an Austrian castle where it says American and German soldiers fought the SS together on 5 May 1945 to defend French prisoners. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2111421972655603934",
       "desk": "politics",
       "line": "Republican Senator Thom Tillis calls the Trump administration's move \"beyond irresponsible\" and asks what part of enforcing a law the Senate passed 86-11 it does not understand. He is responding to the reported order waiving Russia sanctions. See the story on the order.",
@@ -76,12 +70,6 @@
       "also": []
     },
     {
-      "id": "2111209208012210409",
-      "desk": "ai",
-      "line": "The ClaudeDevs account says Claude Code now compresses the conversation it sends each turn, so replies start sooner, and that cloud sessions start as soon as you type. Claude is made by Anthropic, which also makes the model writing this page.",
-      "also": []
-    },
-    {
       "id": "2111483507448967623",
       "desk": "sports",
       "line": "The Premier League says Liverpool came back against Brentford, with an equaliser from Victor Munoz and then a goal from Alexander Isak, per its post.",
@@ -91,12 +79,6 @@
       "id": "2111493774753058898",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Enzo Maresca is the first manager in Premier League history to win his first 7 games in charge. A photo is attached. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111203630892404844",
-      "desk": "internet",
-      "line": "The Streamer Awards announces its nominees for Best International Streamer and names five accounts, with a link to vote. A photo is attached.",
       "also": []
     },
     {
@@ -190,6 +172,21 @@
       "desk": "entertainment",
       "line": "CinemaWireNews, a film news account, says a film of the horror game Mouthwashing is reportedly in the works at Sony, and credits another account for the report. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2111646125711138966",
+      "desk": "defense",
+      "line": "BNO News, a news account, says officials report \"significant casualties,\" including deaths, after an explosion at a Canadian military base in Wainwright, Alberta. The post carries a 10-second video. Not checked here."
+    },
+    {
+      "id": "2111598571254325359",
+      "desk": "disaster",
+      "line": "The New York Times posts a breaking-news alert saying two people, including a child, were killed and several others injured when a truck drove through a soccer game in Wichita, Kansas, the authorities said."
+    },
+    {
+      "id": "2111568649513587167",
+      "desk": "politics",
+      "line": "Acyn posts a 51-second clip of an exchange in which Abdul El-Sayed is asked whether he will disavow the Muslim Brotherhood. He says yes, asks why the question is put to him, and asks the questioner whether they have disavowed it. The post does not say where or when it was filmed."
     }
   ]
 }
