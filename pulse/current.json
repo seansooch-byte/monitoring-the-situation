@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T19:40:00Z",
-  "capture": "2026-10-18T1904Z",
+  "updated_at": "2026-10-18T20:20:00Z",
+  "capture": "2026-10-18T2005Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -181,6 +181,12 @@
       "id": "2111734532483207284",
       "desk": "justice",
       "line": "Sky News reports that a police officer was shot in Nottingham city centre, and links its own story. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111864930815402428",
+      "desk": "politics",
+      "line": "Elon Musk posts \"Talarico hates Texas\" with a link and no further explanation. Talarico is James Talarico, whom President Trump attacked in a separate post. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
       "also": []
     }
   ]

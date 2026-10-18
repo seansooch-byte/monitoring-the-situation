@@ -1442,3 +1442,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T20:20Z
+- Captures read: 2005Z. Last read: 2005Z.
+- X's check: 2005Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatch (0600Z) is unchanged and off the pulse.
+- Pulse: 31 items (1 new, 0 dropped; nothing past 36 hours yet). New: Musk, "Talarico hates Texas" (politics).
+- Added: none. Updated: none (pulse pass).
+- Left out: Rush Hour 4 casting and feud claim (unconfirmed claim about real people); confrontfr and MrPropagande France videos (point not clear, France already has five items); Loreine_LAD, EuroDale, duckofprey, El-Sayed "Tommy" (private_individual); upuknews1 Saudi executions (unconfirmed, sensitive); Dior and Celine Dion France posts (France crowded, jibe); Endrick, Brighton, Falcons injury, Browns posts (sports crowded); old_content posts. For the next story pass: Nottingham officer shooting, France arrests and damage count, Trump and Musk on the Texas Senate race.
+- Requests: watch list adds the Musk id; open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
