@@ -1392,3 +1392,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list drops one id.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T15:20Z
+- Captures read: 1501Z. Last read: 1501Z.
+- X's check: 1501Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatches are unchanged and off the pulse.
+- Pulse: 30 items (0 new, 2 dropped). Dropped (past 36 hours): AP on the Russia sanctions waiver (world), NYT (politics). Nothing new in 1501Z was both large enough and showable. Life and music have no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: duckofprey (private_individual); further France posts (Limoges, Lyon, Opera Garnier; France already shown); upuknews1 Saudi executions (unconfirmed, sensitive); OsewaOreoluwa (shows a person falling); usmilihist and NosebleedHQ on an officer's fall at a pregame show (injured person, no update on condition; defense already has an item); spencerpratt (opinion on a political event); brivael and bennyjohnson (claims about immigration, unchecked). For the next story pass: France arrests and damage count, Limoges cause, Hurts move, the Alamodome officer's condition.
+- Requests: none changed beyond updated_at; the two dropped ids stay on the watch list because a live story cites them.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
