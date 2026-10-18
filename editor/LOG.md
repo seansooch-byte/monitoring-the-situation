@@ -1322,3 +1322,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list adds one id.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T06:40Z
+- Captures read: 0600Z. Last read: 0600Z.
+- X's check: 0600Z 30 confirmed, 0 missing, 1 mismatched, 0 withheld. The mismatch is 2111578001863549106 (NFL, Houston v Jacksonville promo; X has extra characters in the text). It is on neither the pulse nor a story.
+- Pulse: 37 items (0 new, 3 dropped). Dropped (past 36 hours): Ayanfe_Baddo, FoxNews, TheJusticeDept. Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: nothing new beyond earlier passes (the 0600Z posts are Oregon football, France clips and private_individual posts already judged). For the next story pass: France still needs an official arrest and damage count.
+- Requests: none changed beyond updated_at; watch list drops three ids (two dropped items and one attachment; the FoxNews item stays listed because a story cites it).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
