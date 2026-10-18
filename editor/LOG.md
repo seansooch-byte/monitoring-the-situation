@@ -1382,3 +1382,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list adds one id and drops two.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T14:25Z
+- Captures read: 1406Z. Last read: 1406Z.
+- X's check: 1406Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatches are unchanged and off the pulse.
+- Pulse: 32 items (0 new, 1 dropped). Dropped (past 36 hours): KatieZacharia on leaving the White House press office. Nothing new in 1406Z was both large enough and showable. Life and music have no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: atrupar's Trump quote about a candidate (insult about a person's name and religion); further France posts (France already shown); private_individual posts; Musk posts (account already holds a place); upuknews1 Saudi executions (unconfirmed, sensitive). For the next story pass: France arrests and damage count, Limoges cause, Hurts move.
+- Requests: none changed beyond updated_at; watch list drops one id.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
