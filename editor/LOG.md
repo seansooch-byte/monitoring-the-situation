@@ -1312,3 +1312,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list drops five ids (three dropped items and two attachments, none cited) and adds two.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T05:40Z
+- Captures read: 0506Z. Last read: 0506Z.
+- X's check: 0506Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 40 items (1 new, 0 dropped). Added: a magic-trick reveal video (offbeat, attributed, not checked). Nothing is past 36 hours yet; the Kunle Afolayan item passes it within the hour. Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk Roadster flying-car posts (the account already holds a place); Florida State v Miami final-play posts, Messi brace, Ospreay result (sports already full, small); Wainwright and soccer-ground incident posts (unconfirmed, possible mass-casualty claims); tiktok "not a real place" (point unclear without media text); Marseille confrontfr clip (does not say what it shows); private_individual posts as before. For the next story pass: the Roadster demo claims by Elon Musk and the Florida State final-play review could be checked against primary sources; France still needs an official arrest and damage count.
+- Requests: none changed beyond updated_at; watch list adds one id.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
