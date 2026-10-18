@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T09:55:00Z",
-  "capture": "2026-10-18T0906Z",
+  "updated_at": "2026-10-18T10:15:00Z",
+  "capture": "2026-10-18T1004Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -187,6 +187,14 @@
       "id": "2111568649513587167",
       "desk": "politics",
       "line": "Acyn posts a 51-second clip of an exchange in which Abdul El-Sayed is asked whether he will disavow the Muslim Brotherhood. He says yes, asks why the question is put to him, and asks the questioner whether they have disavowed it. The post does not say where or when it was filmed."
+    },
+    {
+      "id": "2111623932792947099",
+      "desk": "sports",
+      "line": "Major League Soccer's account posts \"MESSI. This is what he does.\" with an attached clip. In a separate post, football reporter Fabrizio Romano says Lionel Messi had two more goal contributions for Inter Miami that night. Not checked here.",
+      "also": [
+        "2111633427011170306"
+      ]
     }
   ]
 }
