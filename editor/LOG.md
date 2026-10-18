@@ -1292,3 +1292,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list drops the three dropped ids.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T03:45Z
+- Captures read: 0304Z. Last read: 0304Z.
+- X's check: 0304Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 40 items (5 new, 2 dropped); the build holds two more off the front page (a second elonmusk post, a second nytimes post, which stands on politics). Added: Auburn at Georgia (sports, ESPN attached), Eagles QB on injured reserve (sports), NYT on a $1 million transfer to a Michigan Senate candidate with Acyn's clip attached (politics), Dhruv Rathee in London (world), a post on doctors' pay (medicine, thin). Dropped (past 36 hours): Shams on NBA bet bans (the story 2026-10-16-nba-sportsbooks-ban-bet-types still cites it, so it stays on the watch list), Film Updates on a film's ratings. Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: atensnut, applefiles_ (Grok "what does the i stand for"), wemby, SHIRO_116, wilding_gyres posts (point unclear without media text); private_individual posts (beyoncegarden, FlexorTV, PolymarketHoops, Inevitablewest, duckofprey); Michigan benching, UFC Malott KO and the live Miami v Florida State posts (sports already full, small); more France clips (cause and counts not confirmed); BNONews Wichita truck (no confirming source yet). For the next story pass: the NYT report on AOC and El-Sayed and the Eagles injury could be checked against primary sources; France still needs an official arrest and damage count.
+- Requests: none changed beyond updated_at; watch list adds eight ids (new items and attachments) and drops the Film Updates id.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

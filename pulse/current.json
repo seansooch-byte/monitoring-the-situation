@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T02:30:00Z",
-  "capture": "2026-10-18T0202Z",
+  "updated_at": "2026-10-18T03:40:00Z",
+  "capture": "2026-10-18T0304Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -19,12 +19,6 @@
       "id": "2111387868769951920",
       "desk": "science",
       "line": "Sciencegirl, a science account, says schools in China show children videos of hard daily work such as construction and farming, to help them understand their parents' sacrifices. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111109670429409481",
-      "desk": "sports",
-      "line": "ESPN reporter Shams Charania says that he and David Purdum report the NBA and prominent sportsbooks have agreed to ban several types of bets, including parlays on the under of one player's stats. Outlets repeating the ESPN report say the league sent a memo to its sportsbook partners.",
       "also": []
     },
     {
@@ -79,12 +73,6 @@
       "id": "2111225700497957140",
       "desk": "gaming",
       "line": "Culture Crave, an entertainment news account, says a US lawmaker plans to introduce the Power To The Players Act. It says the bill would require publishers to make games playable offline before shutting down their servers. The post names no lawmaker. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111106256878653913",
-      "desk": "entertainment",
-      "line": "Film Updates, a film news account, says \"You Can See Everything\" by Nathan Fielder and Lance Oppenheim is currently the highest rated film of the year on Rotten Tomatoes and Metacritic. Not checked here.",
       "also": []
     },
     {
@@ -230,6 +218,42 @@
       "desk": "gaming",
       "line": "Tim Sweeney, who runs Epic Games, says games that cost too much to make to earn their money back will soon become possible, and calls it a new golden age of gaming. The post does not say how. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2111593695233687855",
+      "desk": "sports",
+      "line": "Barstool Sports says Auburn won at Georgia. ESPN, attached, calls it a shock for the No. 1 Bulldogs and says they had won 53 straight games against unranked teams before this one.",
+      "also": [
+        "2111593381038059718"
+      ]
+    },
+    {
+      "id": "2111547010021212415",
+      "desk": "sports",
+      "line": "The RapSheet account says sources told it and Adam Schefter that the Eagles are placing quarterback Jalen Hurts on injured reserve, after consulting doctors and experts, and that he is out for the foreseeable future.",
+      "also": []
+    },
+    {
+      "id": "2111124462020047227",
+      "desk": "politics",
+      "line": "The New York Times reports that Rep. Alexandria Ocasio-Cortez transferred $1 million to Abdul El-Sayed, who is running for Senate in Michigan. Acyn, a clip account, posts an exchange in which El-Sayed is asked whether he will disavow the Muslim Brotherhood and says yes. Not checked here.",
+      "also": [
+        "2111568649513587167"
+      ]
+    },
+    {
+      "id": "2111423181063946740",
+      "desk": "medicine",
+      "line": "A user says they looked up how much money doctors make in the US and found it shocking. The post gives no figures. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111172108663324927",
+      "desk": "world",
+      "line": "Dhruv Rathee says he has reached London and asks people there to join a protest at the Gandhi statue in Parliament Square at 12pm the next day. He says \"vote chor\" and \"murderer of democracy\" without naming who. Part is in Hindi. His later post, attached, says \"This is London right now\".",
+      "also": [
+        "2111449904984056138"
+      ]
     }
   ]
 }
