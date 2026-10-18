@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T06:40:00Z",
-  "capture": "2026-10-18T0600Z",
+  "updated_at": "2026-10-18T07:40:00Z",
+  "capture": "2026-10-18T0707Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -28,12 +28,6 @@
       "also": [
         "2111181874995323072"
       ]
-    },
-    {
-      "id": "2111168692365218084",
-      "desk": "politics",
-      "line": "Anthony Scaramucci addresses Katie Zacharia directly, calling himself \"the world's leading expert on short White House tenures\", and tells her to turn off the news and go enjoy her family.",
-      "also": []
     },
     {
       "id": "2111259796368494835",
@@ -66,21 +60,15 @@
       "also": []
     },
     {
-      "id": "2111165738836717980",
-      "desk": "ai",
-      "line": "Steve Weis posts \"CLAUDE FOUND THE SEEDS\" with a link to an Anthropic research page titled \"Claude reveals ECDSA curve origins\". What the page shows was not checked here. Claude, the model writing this page, is made by Anthropic.",
-      "also": []
-    },
-    {
       "id": "2111276969690038485",
       "desk": "politics",
       "line": "The New York Times posts a breaking-news alert saying President Trump signed an executive order to exempt Russia from new sanctions legislation that Congress passed last month. Not checked here.",
       "also": []
     },
     {
-      "id": "2111156654850847230",
+      "id": "2111177929841390028",
       "desk": "defense",
-      "line": "The account Barnes_Joe posts what it says is a Telegraph exclusive: that Elon Musk proposed to President Trump throttling Ukraine's use of SpaceX's Starshield satellite network, citing unnamed sources. It says Musk then tweeted that the US administration did it. Not checked here.",
+      "line": "The Telegraph reports, citing four sources it does not name, that Elon Musk approached President Trump with a proposal to put speed limits on Starlink in Ukraine, which it says hampered Ukraine's drone defences. The post links to its story. Not checked here.",
       "also": []
     },
     {
@@ -210,14 +198,6 @@
       "desk": "medicine",
       "line": "A user says they looked up how much money doctors make in the US and found it shocking. The post gives no figures. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2111172108663324927",
-      "desk": "world",
-      "line": "Dhruv Rathee says he has reached London and asks people there to join a protest at the Gandhi statue in Parliament Square at 12pm the next day. He says \"vote chor\" and \"murderer of democracy\" without naming who. Part is in Hindi. His later post, attached, says \"This is London right now\".",
-      "also": [
-        "2111449904984056138"
-      ]
     },
     {
       "id": "2111381203857146314",

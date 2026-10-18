@@ -1332,3 +1332,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list drops three ids (two dropped items and one attachment; the FoxNews item stays listed because a story cites it).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T07:40Z
+- Captures read: 0707Z. Last read: 0707Z.
+- X's check: 0707Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched. The 0600Z mismatch (2111578001863549106) is unchanged and off the pulse.
+- Pulse: 34 items (1 new, 4 dropped). Added: the Telegraph's own post on Musk and Starlink speed limits in Ukraine (defense, attributed, not checked), replacing the Barnes_Joe copy of it. Dropped (past 36 hours): Scaramucci on Zacharia, Steve Weis on the Claude ECDSA page, Barnes_Joe, Dhruv Rathee (with its attachment). Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: atensnut "Careful. It's Tricky" and SHIRO_116 "Jesus" (point not clear from words); upuknews1 Saudi executions post (unconfirmed, sensitive); WhiteHouse "flying cars" and PopCrave "Forgive an Ex Day" (photo undescribed, small); applefiles_ Grok question (point unclear); further France clips (France already shown); private_individual posts as before. For the next story pass: the Telegraph report on Starlink limits and the Trump sanctions-waiver items could be checked against primary sources; France still needs an official arrest and damage count.
+- Requests: none changed beyond updated_at; watch list drops five ids (four dropped items and one attachment) and adds one.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
