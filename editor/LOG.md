@@ -1302,3 +1302,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list adds eight ids (new items and attachments) and drops the Film Updates id.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T04:35Z
+- Captures read: 0400Z. Last read: 0400Z.
+- X's check: 0400Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 39 items (2 new, 3 dropped). Added: The Hormuz Letter on an Iranian state media report about Pickaxe Mountain (defense, attributed, not checked), a user's ant-hill sugar joke (markets). Dropped (past 36 hours): Elon Musk on ad standards, NotPalo on Shrek 2 Remastered (with its attachment), NYT on the AOC transfer (with Acyn attachment). Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: BYU over Notre Dame, Kentucky and AEW posts (sports already full); Paris police-vehicle post by koshercockney (France already shown, profanity); Limoges fire posts by visegrad24 and others (Limoges already shown, cause and damage not confirmed); Boston Globe on the Sabatini verdict (involves an accuser who is a private person); James Harden beard, GBNEWS, Lauderdale11 (small or opinion); private_individual posts as before. For the next story pass: the Iran Pickaxe Mountain claim and the BYU-Notre Dame result could be checked against primary sources; France still needs an official arrest and damage count.
+- Requests: none changed beyond updated_at; watch list drops five ids (three dropped items and two attachments, none cited) and adds two.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

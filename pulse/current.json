@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T03:40:00Z",
-  "capture": "2026-10-18T0304Z",
+  "updated_at": "2026-10-18T04:35:00Z",
+  "capture": "2026-10-18T0400Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -27,20 +27,6 @@
       "line": "Fox News reports that a senior White House official told its reporter that Katie Zacharia is \"transitioning out\" of her job as press secretary. Its follow-up, attached, says President Trump denies firing her. CBS News reports, citing two US officials, that she was removed. See the story on her exit.",
       "also": [
         "2111147899623186742"
-      ]
-    },
-    {
-      "id": "2111131160348688395",
-      "desk": "business",
-      "line": "Elon Musk says all advertising on 𝕏 will be subject to a \"reasonable esthetic standard\" going forward, and that advertisers whose ads are ugly, shrill, strident or overstate claims about their product will be barred. The post does not say how this would be enforced.",
-      "also": []
-    },
-    {
-      "id": "2111131357497663940",
-      "desk": "gaming",
-      "line": "NotPalo, a leaks and news account posting in Spanish, says Shrek 2 Remastered has been announced in the style of the GTA VI trailer, with more information expected on October 20. A 52-second video is attached, and DiscussingFilm calls it the first trailer for the game. Not checked here.",
-      "also": [
-        "2111142826301948312"
       ]
     },
     {
@@ -234,14 +220,6 @@
       "also": []
     },
     {
-      "id": "2111124462020047227",
-      "desk": "politics",
-      "line": "The New York Times reports that Rep. Alexandria Ocasio-Cortez transferred $1 million to Abdul El-Sayed, who is running for Senate in Michigan. Acyn, a clip account, posts an exchange in which El-Sayed is asked whether he will disavow the Muslim Brotherhood and says yes. Not checked here.",
-      "also": [
-        "2111568649513587167"
-      ]
-    },
-    {
       "id": "2111423181063946740",
       "desk": "medicine",
       "line": "A user says they looked up how much money doctors make in the US and found it shocking. The post gives no figures. Not checked here.",
@@ -254,6 +232,18 @@
       "also": [
         "2111449904984056138"
       ]
+    },
+    {
+      "id": "2111381203857146314",
+      "desk": "markets",
+      "line": "A user says there is a guy on Instagram who pours a whole pack of sugar on an ant hill to \"give them sudden wealth, cause inflation and crash their economy\". The post reads as a joke about economics. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111258031556108483",
+      "desk": "defense",
+      "line": "The Hormuz Letter, a news account, says Iranian state media correspondent Morteza Ghoroghi reported that the US asked Iran for permission to strike its Pickaxe Mountain nuclear site without retaliation and that Iran refused. It says he called Iran's forces fully ready. Not checked here.",
+      "also": []
     }
   ]
 }
