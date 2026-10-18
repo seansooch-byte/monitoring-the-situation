@@ -1432,3 +1432,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the Sky News id; open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T19:40Z
+- Captures read: 1904Z. Last read: 1904Z.
+- X's check: 1904Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatch (0600Z) is unchanged and off the pulse.
+- Pulse: 30 items (0 new, 1 dropped: Musk replying to Scoble, past 36 hours).
+- Added: none. Updated: none (pulse pass).
+- Left out: Saints travelling to Paris (Schefter already on the pulse, sports crowded); Saudi executions (unconfirmed, sensitive); DailyLoud and RescueYou247TW France clips (France already has five items); El-Sayed "Tommy" post, Inevitablewest, duckofprey, nypost items (private_individual); old_content posts. For the next story pass: Nottingham officer shooting, France arrests and damage count, NFL Paris game.
+- Requests: updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
