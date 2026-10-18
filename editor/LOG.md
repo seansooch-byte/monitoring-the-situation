@@ -1412,3 +1412,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-18-01 (official Wainwright count and Wichita cause). Watch list adds 7 ids.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T17:30Z
+- Captures read: 1709Z. Last read: 1709Z.
+- X's check: 1709Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatch (0600Z) is unchanged and off the pulse.
+- Pulse: 30 items, no changes beyond the capture stamp (nothing past 36 hours yet; the oldest, Musk replying to Scoble, passes it next pass). Nothing new in 1709Z was both large and showable.
+- Added: none. Updated: none (pulse pass).
+- Left out: JDVance on France (politics already has three items; opinion on a political event); FactPost on Vance and a soldier's husband (private person quoted, unchecked); Louis_Tomlinson "My hero" (post does not say who); VALORANT teaser (point not clear from its words); BioLifex power outage clip (point not clear); NFL Cam Little field goal (sports crowded); AnthoDepe, FrenchRapUS, Inevitablewest, ThaisEscufon, Frontieresmedia, DolceVenezia74, EuroDale, Dr_DewSweep, duckofprey (private_individual); upuknews1 Saudi executions (unconfirmed, sensitive). For the next story pass: France arrests and damage count, Limoges cause, Vance's remarks on France.
+- Requests: unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
