@@ -1282,3 +1282,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list drops two ids (Zelensky, SpaceX posts, not cited) and adds three. open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T02:35Z
+- Captures read: 0202Z. Last read: 0202Z.
+- X's check: 0202Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches in the window (2111372812057522401, 2111430954426274039) are on neither the pulse nor a story.
+- Pulse: 37 items (0 new, 3 dropped). Dropped (past 36 hours): Washington Post on settlers, Mariah Carey "Loverboy" video, dog-cornrows video. Medicine and life have no item.
+- Added: none. Updated: none. Searched for new official figures on the France 17 October unrest and a Wichita truck report (BNONews); found nothing I could open that confirms either, so the Limoges story is unchanged.
+- Left out: Wichita pickup-truck post (no confirming source found); Dior and Galeries Lafayette clips (unconfirmed); Tennessee v Alabama (ESPN already has a place); private_individual posts as before. For the next story pass: official arrest and damage count for France; the Wichita incident if a police or news source appears.
+- Requests: none changed beyond updated_at; watch list drops the three dropped ids.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
