@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T22:25:00Z",
-  "capture": "2026-10-18T2203Z",
+  "updated_at": "2026-10-18T23:15:00Z",
+  "capture": "2026-10-18T2306Z",
   "items": [
     {
       "id": "2111421972655603934",
@@ -219,6 +219,12 @@
       "id": "2111672659310248366",
       "desk": "offbeat",
       "line": "An account posts a 110-second video of a mother cat it says was dying and then rescued by a kind stranger. The same clip was posted earlier by another account. Not checked here."
+    },
+    {
+      "id": "2111949144210464799",
+      "desk": "sports",
+      "line": "NBA reporter Shams Charania says, citing sources at ESPN, that Sacramento Kings guard Ben Simmons is believed to have torn an Achilles tendon at practice on Sunday. His follow-up says an MRI confirmed a season-ending tear. Not checked here.",
+      "also": ["2111955572807602620"]
     }
   ]
 }

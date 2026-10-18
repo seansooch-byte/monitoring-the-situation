@@ -1472,3 +1472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the five new ids; open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T23:20Z
+- Captures read: 2306Z. Last read: 2306Z.
+- X's check: 2306Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 39 items (1 new, 0 dropped; the two oldest posts, 11:27Z and 11:40Z on 17 October, leave at the next pass). New: Shams Charania on Ben Simmons' Achilles (sports), with his MRI follow-up in `also`. The build holds one Musk post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: BleacherReport repost of the Simmons news (copy); Rams-Cardinals and Chiefs game posts (sports already has nine items); Bigfoot hoax (entertainment has three); Saudi executions (unconfirmed, sensitive); French riot videos (France already has five items); duckofprey, AbdulElSayed "Tommy", Loreine_LAD, EuroDale, Dr_DewSweep (private_individual or unclear); old_content posts. For the next story pass: Nottingham officer shooting, Bessent and Zelensky on Starshield.
+- Requests: watch list adds the two Simmons ids; open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
