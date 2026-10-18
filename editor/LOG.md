@@ -1462,3 +1462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-18-02 (Omar official statements; Nottinghamshire Police). Watch list synced to the pulse and the new story.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T22:25Z
+- Captures read: 2203Z. Last read: 2203Z.
+- X's check: 2203Z 40 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 38 items (5 new, 0 dropped; nothing past 36 hours). New: Bessent on Zelensky via Daugherty (politics), Taiwan landslide clip (disaster), Martin on Daenerys (entertainment), BTS Santiago (music), mother cat rescue (offbeat). The build holds one Musk post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Politico property-tax post (names a private person); Paris Franprix looting video and Eva Vlaar France post (France crowded, pile-on); NFL Sunday posts (sports already has eight items); Musk Starship post (account already placed); old_content posts; poptime and MauricioLeite89 (private_individual); post with no text (tsitsiii_t). For the next story pass: Nottingham officer shooting (Sky, Channel 4 and Newsforce posts only), Bessent and Zelensky on Starshield, Omar search lawyers' letter.
+- Requests: watch list adds the five new ids; open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

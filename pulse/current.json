@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T21:40:00Z",
-  "capture": "2026-10-18T2102Z",
+  "updated_at": "2026-10-18T22:25:00Z",
+  "capture": "2026-10-18T2203Z",
   "items": [
     {
       "id": "2111421972655603934",
@@ -194,6 +194,31 @@
       "id": "2111766455574548937",
       "desk": "medicine",
       "line": "Fox News posts a breaking alert saying Pope Leo has given his first prayer since leaving hospital after lung cancer surgery. See the story on the pope."
+    },
+    {
+      "id": "2111833083787809253",
+      "desk": "politics",
+      "line": "Eric Daugherty relays Treasury Secretary Scott Bessent calling it \"very reckless\" for Ukraine's President Zelensky to accuse President Trump over Starshield limits. Daugherty adds his own call to cut Zelensky off. Not checked here."
+    },
+    {
+      "id": "2111718925159244130",
+      "desk": "disaster",
+      "line": "Bulvar Medya, a Turkish-language account, says a villager picking tea in Taiwan's Chiayi area heard cracking from the mountain and filmed a huge mass of rock and earth collapsing down the slope. The post is in Turkish. The video has not been checked here."
+    },
+    {
+      "id": "2111821497434046875",
+      "desk": "entertainment",
+      "line": "A fan account says George R. R. Martin calls Daenerys Targaryen \"The Prince That Was Promised\" in Game of Thrones. It gives no date or source for the remark. Not checked here."
+    },
+    {
+      "id": "2111650559891763485",
+      "desk": "music",
+      "line": "BTS's official account posts its daily update in Korean for the 17 October show in Santiago on the group's Arirang world tour. The post is mostly hashtags."
+    },
+    {
+      "id": "2111672659310248366",
+      "desk": "offbeat",
+      "line": "An account posts a 110-second video of a mother cat it says was dying and then rescued by a kind stranger. The same clip was posted earlier by another account. Not checked here."
     }
   ]
 }
