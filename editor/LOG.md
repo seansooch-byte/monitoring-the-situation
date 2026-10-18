@@ -1272,3 +1272,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T01:20Z
+- Captures read: 0059Z. Last read: 0059Z.
+- X's check: 0059Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched.
+- Pulse: 40 items (3 new, 2 dropped); the build holds one more off the front page (a second elonmusk post). Added: Tim Sweeney on the future of games (gaming), a fan account on Mariah Carey's "Loverboy" video (music), a dog-cornrows video (offbeat). Dropped (past 36 hours): Zelensky's address, SpaceX's Q3 date post. Medicine and life have no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: dom_lucre post on a California power outage naming an actor (claim not confirmed); spencerpratt and Ne_pas_couvrir (opinion on the France unrest, no source); confrontfr and MrPropagande France clips (France already shown, cause not confirmed); adleruby college photos (point unclear); more Auburn, Tennessee, UFC and AEW posts (sports already full, small); private_individual posts as before. For the next story pass: the France unrest still needs an official arrest and damage count.
+- Requests: watch list drops two ids (Zelensky, SpaceX posts, not cited) and adds three. open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

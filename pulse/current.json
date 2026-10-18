@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T00:15:00Z",
-  "capture": "2026-10-18T0004Z",
+  "updated_at": "2026-10-18T01:20:00Z",
+  "capture": "2026-10-18T0059Z",
   "items": [
     {
       "id": "2111274047673663777",
@@ -39,12 +39,6 @@
       "id": "2111131160348688395",
       "desk": "business",
       "line": "Elon Musk says all advertising on 𝕏 will be subject to a \"reasonable esthetic standard\" going forward, and that advertisers whose ads are ugly, shrill, strident or overstate claims about their product will be barred. The post does not say how this would be enforced.",
-      "also": []
-    },
-    {
-      "id": "2111076654105641393",
-      "desk": "world",
-      "line": "President Zelensky, in an address to a European Council meeting, says the war will cost 155 billion euros next year and Ukraine needs at least 70 billion euros more. He says drones stop most Russian assaults. Not checked here.",
       "also": []
     },
     {
@@ -190,12 +184,6 @@
       "also": []
     },
     {
-      "id": "2111072697690317011",
-      "desk": "science",
-      "line": "SpaceX says it will post its Q3 2026 financial and operational results on October 20, 2026, with a live audio-only webcast at 3:30 p.m. CT the same day.",
-      "also": []
-    },
-    {
       "id": "2111203630892404844",
       "desk": "internet",
       "line": "The Streamer Awards announces its nominees for Best International Streamer and names five accounts, with a link to vote. A photo is attached.",
@@ -241,6 +229,24 @@
       "id": "2111512931561066852",
       "desk": "world",
       "line": "A French account posts a 22-second video and says a crowd is targeting police vehicles near République in Paris on the 17 October protest day. The post is in French. The video has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2111565595594375353",
+      "desk": "gaming",
+      "line": "Tim Sweeney, who runs Epic Games, says games that cost too much to make to earn their money back will soon become possible, and calls it a new golden age of gaming. The post does not say how. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111099306518495251",
+      "desk": "music",
+      "line": "A fan account says Mariah Carey released the music video for \"Loverboy\" in 4K, and posts the video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111095752436937184",
+      "desk": "offbeat",
+      "line": "An account posts a three-minute video of a dog getting cornrows and says it is the first in its family to see that. Not checked here.",
       "also": []
     }
   ]
