@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T11:30:00Z",
-  "capture": "2026-10-18T1101Z",
+  "updated_at": "2026-10-18T12:45:00Z",
+  "capture": "2026-10-18T1200Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -25,12 +25,6 @@
       "id": "2111259796368494835",
       "desk": "music",
       "line": "A fan account says BTS is performing \"Heartbeat\" for the first time ever and posts a 93-second video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111225700497957140",
-      "desk": "gaming",
-      "line": "Culture Crave, an entertainment news account, says a US lawmaker plans to introduce the Power To The Players Act. It says the bill would require publishers to make games playable offline before shutting down their servers. The post names no lawmaker. Not checked here.",
       "also": []
     },
     {
@@ -168,12 +162,6 @@
       "also": []
     },
     {
-      "id": "2111245703037215020",
-      "desk": "entertainment",
-      "line": "CinemaWireNews, a film news account, says a film of the horror game Mouthwashing is reportedly in the works at Sony, and credits another account for the report. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2111646125711138966",
       "desk": "defense",
       "line": "BNO News, a news account, says officials report \"significant casualties,\" including deaths, after an explosion at a Canadian military base in Wainwright, Alberta. The post carries a 10-second video. Not checked here."
@@ -200,6 +188,24 @@
       "also": [
         "2111633427011170306"
       ]
+    },
+    {
+      "id": "2111589148146749616",
+      "desk": "science",
+      "line": "Odyssey, an AI lab, says it placed a fruit fly brain inside its world model, Odyssey-3, and that the simulated fly now flies around imagined worlds by itself. The claim is the lab's own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111464049812873375",
+      "desk": "ai",
+      "line": "A user says he should start a class for new users, because many people still do not understand what Grok Bot is or what it can do. Grok is made by xAI, the company behind the model that gathers this page's posts.",
+      "also": []
+    },
+    {
+      "id": "2111566376850616554",
+      "desk": "internet",
+      "line": "An account says streamer QTCinderella teased streamer Ludwig after Clavicular got no Streamer Awards nomination, and quotes her remark. Not checked here.",
+      "also": []
     }
   ]
 }
