@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T17:30:00Z",
-  "capture": "2026-10-18T1709Z",
+  "updated_at": "2026-10-18T18:35:00Z",
+  "capture": "2026-10-18T1807Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -181,6 +181,12 @@
       "id": "2111540297893122538",
       "desk": "entertainment",
       "line": "Variety reports that Dancing With the Stars has pulled Val Chmerkovskiy after what the show called an inappropriate joke about a slap involving Carrie Ann Inaba, and quotes the show saying staff well-being is non-negotiable. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111734532483207284",
+      "desk": "justice",
+      "line": "Sky News reports that a police officer was shot in Nottingham city centre, and links its own story. Not checked here.",
       "also": []
     }
   ]

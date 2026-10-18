@@ -1422,3 +1422,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T18:35Z
+- Captures read: 1807Z. Last read: 1807Z.
+- X's check: 1807Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatch (0600Z) is unchanged and off the pulse.
+- Pulse: 31 items (1 new, 0 dropped; the oldest, Musk replying to Scoble, is at 35 hours and passes 36 next pass). New: Sky News on a police officer shot in Nottingham (justice). Nothing else new was both large and showable.
+- Added: none. Updated: none (pulse pass).
+- Left out: Tiger Shroff shooting video (real person, "purportedly", unchecked); Breaking911 and DailyLoud crucifix video (fatal accident footage); WhiteHouse Trump quote (politics already has three); Musk Starlink and X usage posts (Musk already on the pulse); Raiola, Hunter, Caleb Williams, Boswell posts (sports crowded); Wichita and Wainwright posts (live stories cover them); Saudi executions (unconfirmed, sensitive); Inevitablewest and duckofprey (private_individual); old_content posts. For the next story pass: Nottingham officer shooting, France arrests and damage count.
+- Requests: watch list adds the Sky News id; open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
