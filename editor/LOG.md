@@ -1342,3 +1342,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list drops five ids (four dropped items and one attachment) and adds one.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T08:45Z
+- Captures read: 0802Z. Last read: 0802Z.
+- X's check: 0802Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing on the pulse or cited is missing or mismatched. The 0600Z mismatch (2111578001863549106) is unchanged and off the pulse.
+- Pulse: 31 items (3 new, 6 dropped). Added: Schefter on Jalen Hurts going on injured reserve (sports, attributed), Destination Télé on the Limoges town hall collapsing (world, cause not stated, fire claim unchecked), CinemaWireNews on a Mouthwashing film at Sony (entertainment, attributed). Dropped (past 36 hours): Telegraph, ABC, DiscussingFilm, Schefter on Josh Jacobs, OCFireAuthority, Grok Bot. Life has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: private_individual posts as before; Paris police-tyre, looting and Limoges fire-claim posts from accounts that assert causes (France already shown; Limoges cause unconfirmed); upuknews1 Saudi executions (unconfirmed, sensitive); Wundakid49 on Dwayne Johnson's build (speculation about a real person's body); PopCrave "Forgive an Ex Day" and WhiteHouse "flying cars" (small, photo undescribed). For the next story pass: Limoges town hall (official cause and damage), France arrests and damage count, the Eagles' Hurts move, the Roadster demo claims.
+- Requests: none changed beyond updated_at; watch list adds three ids and drops four (the Josh Jacobs and Norte Fire posts stay because a story cites them).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

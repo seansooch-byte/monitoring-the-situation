@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T07:40:00Z",
-  "capture": "2026-10-18T0707Z",
+  "updated_at": "2026-10-18T08:45:00Z",
+  "capture": "2026-10-18T0802Z",
   "items": [
     {
       "id": "2111373522711060505",
@@ -22,14 +22,6 @@
       "also": []
     },
     {
-      "id": "2111182130411971037",
-      "desk": "disaster",
-      "line": "The Orange County Fire Authority says evacuation orders are in place for San Juan Zones 4, 5 and 10 and San Clemente Zone 12, and tells people in them to leave immediately. It uses the name Norte Fire. See the story on the fire.",
-      "also": [
-        "2111181874995323072"
-      ]
-    },
-    {
       "id": "2111259796368494835",
       "desk": "music",
       "line": "A fan account says BTS is performing \"Heartbeat\" for the first time ever and posts a 93-second video. Not checked here.",
@@ -42,33 +34,15 @@
       "also": []
     },
     {
-      "id": "2111184275374813362",
-      "desk": "ai",
-      "line": "The Grok Bot account says its new version finishes computer tasks 3x sooner on average and answers everything else in less than half the time. The speed claim is the account's own and has not been checked here. Grok is made by xAI, the company behind the model that gathers this page's posts.",
-      "also": []
-    },
-    {
       "id": "2111263907297788052",
       "desk": "politics",
       "line": "Katie Zacharia writes that President Trump is \"kind, wonderful, gracious, thoughtful, enthusiastic, and hardworking\" and that it was an honor to work for him. It follows reports, from Fox News and others, that she is leaving her job as White House press secretary.",
       "also": []
     },
     {
-      "id": "2111181836567081020",
-      "desk": "sports",
-      "line": "ESPN's Adam Schefter reports, citing sources, that Packers running back Josh Jacobs will be removed from the NFL's Commissioner Exempt list on Monday while the league's investigation stays open. See the story on his return.",
-      "also": []
-    },
-    {
       "id": "2111276969690038485",
       "desk": "politics",
       "line": "The New York Times posts a breaking-news alert saying President Trump signed an executive order to exempt Russia from new sanctions legislation that Congress passed last month. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111177929841390028",
-      "desk": "defense",
-      "line": "The Telegraph reports, citing four sources it does not name, that Elon Musk approached President Trump with a proposal to put speed limits on Starlink in Ukraine, which it says hampered Ukraine's drone defences. The post links to its story. Not checked here.",
       "also": []
     },
     {
@@ -81,12 +55,6 @@
       "id": "2111354696854114702",
       "desk": "tech",
       "line": "Elon Musk, replying to Robert Scoble, says people will be able to ask the new Tesla Roadster to perform the tricks shown at its event autonomously, \"as it will be sentient\". He adds that Tesla will build a looping test track at its Texas headquarters. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111177994773709117",
-      "desk": "tech",
-      "line": "ABC News reports that a self-driving Tesla crashed into a California Highway Patrol vehicle and seriously injured two officers inside. It says the officers told it the driver said he was asleep and using the car's driver-assistance technology. A 32-second video is attached. Not checked here.",
       "also": []
     },
     {
@@ -129,12 +97,6 @@
       "id": "2111203630892404844",
       "desk": "internet",
       "line": "The Streamer Awards announces its nominees for Best International Streamer and names five accounts, with a link to vote. A photo is attached.",
-      "also": []
-    },
-    {
-      "id": "2111180174779670845",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, says Nicolas Cage and Antonio Banderas will lead Season 5 of True Detective, with filming to begin next year. The post names no source. Not checked here.",
       "also": []
     },
     {
@@ -209,6 +171,24 @@
       "id": "2111258031556108483",
       "desk": "defense",
       "line": "The Hormuz Letter, a news account, says Iranian state media correspondent Morteza Ghoroghi reported that the US asked Iran for permission to strike its Pickaxe Mountain nuclear site without retaliation and that Iran refused. It says he called Iran's forces fully ready. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111546989280186852",
+      "desk": "sports",
+      "line": "ESPN's Adam Schefter reports, citing sources, that the Eagles are placing quarterback Jalen Hurts on injured reserve after consulting doctors and experts, and that the move sidelines him indefinitely. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111530660154294435",
+      "desk": "world",
+      "line": "Destination Télé, a French-language account, posts a 17-second video and says the town hall of Limoges, a listed historic building from 1876, is collapsing. The post does not say why. Other posts say it was set on fire during the protests; that has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2111245703037215020",
+      "desk": "entertainment",
+      "line": "CinemaWireNews, a film news account, says a film of the horror game Mouthwashing is reportedly in the works at Sony, and credits another account for the report. Not checked here.",
       "also": []
     }
   ]
