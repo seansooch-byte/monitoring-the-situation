@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-18T20:20:00Z",
+  "updated_at": "2026-10-18T21:45:00Z",
   "requests": [
     {
       "id": "r-2026-10-15-01",
@@ -61,6 +61,12 @@
       "kind": "search",
       "post": null,
       "ask": "Posts from the Canadian Armed Forces, the Department of National Defence, or a named outlet quoting them, with an official casualty count and cause for the explosion and fire at CFB Wainwright, Alberta (see post 2111646125711138966). Also police statements on the cause of the truck crash at the Stryker Sports Complex in Wichita (see post 2111580284596396314)."
+    },
+    {
+      "id": "r-2026-10-18-02",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the Justice Department, Homeland Security, Rep. Ilhan Omar or her office, or a named outlet, on the federal search of her home and the citizenship inquiry (see post 2111819687524774170). Do not capture posts that name her relatives. Also any post from Nottinghamshire Police on the officer shot in Nottingham city centre (see post 2111734532483207284)."
     }
   ]
 }

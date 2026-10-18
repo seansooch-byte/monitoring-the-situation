@@ -1452,3 +1452,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the Musk id; open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-18T21:50Z
+- Captures read: 2102Z (earlier ones read in pulse passes). Last read: 2102Z.
+- X's check: 2102Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatch (0600Z) and the kylegriffin1 WaPo post 2110892251534565586 (mismatch) are not cited.
+- Pulse: 33 items (6 new, 4 dropped past 36 hours: offbeat, science, DeepSeek, markets). New: Obama on Omar, Vance on France (politics), Army fast-rope fall (defense), Musk Roadster (tech), OpenCode breach (ai), Pope Leo prayer (medicine). The build holds one Musk post off the front page. Offbeat and markets now have no item.
+- Added: 2026-10-14-omar-citizenship-probe (politics, justice). Updated: none. Search found no new reporting for Wichita, Wainwright, France or Nottingham, so those stories are unchanged.
+- Left out: Nottingham officer shooting (no source found beyond the Sky News post); UTSA fast-rope fall as a story (no source found); Saudi executions (unconfirmed, sensitive); Tiger Shroff video (unchecked); Vlad Ncl punch, Dwayne Johnson body post, Love and Deepspace and Valorant promos; private_individual posts.
+- Requests: added r-2026-10-18-02 (Omar official statements; Nottinghamshire Police). Watch list synced to the pulse and the new story.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

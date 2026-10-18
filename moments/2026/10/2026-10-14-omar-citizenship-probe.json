@@ -1,0 +1,73 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-14-omar-citizenship-probe",
+  "title": "Federal agents searched Rep. Ilhan Omar's home in a probe reported to aim at stripping her citizenship",
+  "dek": "A sitting member of Congress is under criminal investigation, three weeks before the election. Barack Obama, Republican commentators and Democratic governors are describing it in opposite ways.",
+  "desks": [
+    "politics",
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-14T23:25:41Z",
+  "updated_at": "2026-10-18T21:30:00Z",
+  "what": [
+    "Newsweek reports that Homeland Security Investigations agents searched Rep. Ilhan Omar's home in the Washington area on Monday, October 12, under a judicially authorized warrant. Newsweek and Fox 9 report that agents took her phone and boxes of evidence. Other outlets report her passport, notebooks and computers were also taken.",
+    "Newsweek reports that a grand jury in Minnesota has issued more than a dozen subpoenas, some to her relatives. Fox 9 and Newsweek say the Justice Department described the search as part of an ongoing criminal investigation. Newsweek quotes U.S. Attorney Jeanine Pirro: \"If there was a crime that was committed, it will be prosecuted.\"",
+    "The Wall Street Journal reported on October 14, citing U.S. officials and others familiar with the probe, that it is aimed at building a case to strip Omar of her citizenship and deport her. Al Jazeera, summarising the Journal, says investigators are examining whether Omar or her late father changed her age on immigration papers. Omar came to the United States in 1995 and became a citizen in 2000, when she was 17. Obama's post says a child under 18 becomes a citizen automatically when a parent is naturalised, and an adult must apply separately.",
+    "The Associated Press, in a story carried by the Anchorage Daily News, reports that the Department of Homeland Security, the White House and the Justice Department declined to comment or did not answer its questions. It also reports that Pirro's office is looking separately at Omar's financial disclosures.",
+    "Omar has called the search \"an outrageous abuse of power\" and an attempt \"to target political enemies and weaponize federal law enforcement.\" Her office called the investigation baseless. Al Jazeera, citing the Journal, says a similar allegation was examined in an earlier administration and not pursued for lack of evidence. I could not confirm that earlier review in a document.",
+    "Newsweek quotes immigration attorney Ana Pottratz Acosta saying a case would be very difficult because the burden is on the government. Al Jazeera, citing the Journal, says any loss of citizenship would need court proceedings. Omar's father died in 2020.",
+    "On Sunday, October 18, former President Barack Obama posted a long statement. He says the government cannot target people for their political beliefs, that the age theory is unsubstantiated, and that earlier Justice Department cases against Trump's critics were stalled or dismissed. Those are his claims. I did not check his list of earlier cases. I found no charge against Omar. I found no court filing in the search results."
+  ],
+  "why": "It joins three things people already argue about: who counts as a citizen, whether the Justice Department is being used against critics, and how close to an election such steps should be taken. Each camp has a post that fits its view.",
+  "worlds": [
+    {
+      "name": "Critics of the administration",
+      "sees": "A president's critic is being singled out by federal agents because of what she says. The age theory is thin, the raid was heavy-handed, and the same thing could happen to others. Obama and JB Pritzker put it this way.",
+      "post": "2111819687524774170"
+    },
+    {
+      "name": "Supporters of the inquiry",
+      "sees": "Citizenship is the basic requirement for a seat in Congress, and a question about the paperwork should be settled. A court signed the warrant. If the records are right, they say, they can simply be shown. Commentators cite John Yoo, a former clerk to Justice Clarence Thomas, and House Oversight Chairman James Comer.",
+      "post": "2110525414778995126"
+    }
+  ],
+  "common": "On the record: agents carried out a court-authorized search on October 12, a Minnesota grand jury has issued subpoenas, and the Justice Department calls it a criminal investigation. Reported by the Journal and not confirmed by any agency I found: the goal is to strip her citizenship. On the law, per the Journal summary: any loss of citizenship needs a court. Not established: that her age was altered, by whom, or that any crime occurred. No one has been charged. Each side's account stops where the evidence does: critics say the theory is baseless, which no court has yet tested, and supporters say the paperwork is in doubt, which no document I found shows.",
+  "next": "Whether a grand jury indicts, whether the government files a denaturalisation case in court, and any statement from the Justice Department or Homeland Security.",
+  "posts": [
+    {
+      "id": "2110512395470987450",
+      "role": "origin"
+    },
+    {
+      "id": "2111819687524774170",
+      "role": "voice"
+    },
+    {
+      "id": "2110525414778995126",
+      "role": "voice"
+    },
+    {
+      "id": "2110730366247960896",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Newsweek: Ilhan Omar's phone seized, Trump administration targeting her citizenship",
+      "url": "https://www.newsweek.com/ilhan-omars-phone-seized-trump-admin-targeting-her-citizenship-reports-12570641"
+    },
+    {
+      "label": "Fox 9: Ilhan Omar's home raided, feds reportedly seek to strip citizenship",
+      "url": "https://fox9.com/news/ilhan-omars-home-raided-feds-reportedly-seek-strip-citizenship-deport"
+    },
+    {
+      "label": "Al Jazeera, summarising the Wall Street Journal, 15 October 2026",
+      "url": "https://aljazeera.com/news/2026/10/15/trump-administration-seeks-to-strip-ilhan-omar-of-us-citizenship-wsj"
+    },
+    {
+      "label": "Associated Press via Anchorage Daily News: federal probe of Omar focuses on birth date and citizenship papers",
+      "url": "https://www.adn.com/nation-world/2026/10/13/federal-probe-of-rep-ilhan-omar-focuses-on-birth-date-and-citizenship-papers-people-familiar-say/"
+    }
+  ]
+}
