@@ -1372,3 +1372,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed beyond updated_at; watch list adds three ids and drops the two dropped items.
 - Shipped: yes, commit 0be8c63, live audit clean.
 - For the main editor: a stale script from an earlier run sat at /tmp/ed/pulse.mjs and ran in place of mine; I reverted its output and used a new file. Nothing wrong in the repo.
+
+## 2026-10-18T13:20Z
+- Captures read: 1303Z. Last read: 1303Z.
+- X's check: 1303Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatches are unchanged and off the pulse.
+- Pulse: 33 items (1 new, 2 dropped); the build holds one NYT item off the front page under the one-account rule. Added: Variety on Dancing With the Stars pulling Val Chmerkovskiy (entertainment, attributed). Dropped (past 36 hours): the BTS Heartbeat fan post (music), The Hormuz Letter (defense). Life and music have no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: private_individual France and costume posts; the elderly couple robbery post; OsewaOreoluwa streamer pool clip (shows a person falling); upuknews1 Saudi executions (unconfirmed, sensitive); further France posts (France already shown); Carola and 444Feru posts (insults at real people); Riley_Gaines and mrddmia military posts (point unclear from words); Slotkin posts (politics already full, claims about a senator unchecked); ads and Blessed Sunday posts (small). For the next story pass: France arrests and damage count, Limoges cause, Hurts move.
+- Requests: none changed beyond updated_at; watch list adds one id and drops two.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
