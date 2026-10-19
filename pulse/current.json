@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T21:30:00Z",
-  "capture": "2026-10-19T2100Z",
+  "updated_at": "2026-10-19T22:35:00Z",
+  "capture": "2026-10-19T2209Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -15,12 +15,6 @@
       "also": []
     },
     {
-      "id": "2111734532483207284",
-      "desk": "justice",
-      "line": "Sky News reports that a police officer was shot in Nottingham city centre, and links its own story. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2111864930815402428",
       "desk": "politics",
       "line": "Elon Musk posts \"Talarico hates Texas\" with a link and no further explanation. Talarico is James Talarico, whom President Trump attacked in a separate post. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
@@ -30,11 +24,6 @@
       "id": "2111819687524774170",
       "desk": "politics",
       "line": "Former President Barack Obama posts a long statement saying the Trump administration is targeting Rep. Ilhan Omar for her political views, and calls the age theory behind the citizenship probe unsubstantiated. These are his claims. See the story on the probe."
-    },
-    {
-      "id": "2111766455574548937",
-      "desk": "medicine",
-      "line": "Fox News posts a breaking alert saying Pope Leo has given his first prayer since leaving hospital after lung cancer surgery. See the story on the pope."
     },
     {
       "id": "2111833083787809253",
@@ -81,12 +70,6 @@
       "id": "2111884227985785165",
       "desk": "world",
       "line": "Sky News posts an 88-second video and reports that President Macron says France feels \"anger and shame\" over the protests and that \"nothing\" justifies the riots and damage in several cities.",
-      "also": []
-    },
-    {
-      "id": "2111839653959540753",
-      "desk": "sports",
-      "line": "Adam Schefter reports the Saints leave tonight for Paris to play the Steelers next Sunday at Stade de France, and quotes an NFL statement that preparations continue as scheduled despite the riots there. Not checked here.",
       "also": []
     },
     {
@@ -212,9 +195,24 @@
       "line": "Daily Star Wars Games, a fan account, says a new rumour has Lucasfilm pushing hard for a Star Wars Battlefront 3, with DICE and Bungie both in talks. It is a rumour and it is not checked here."
     },
     {
-      "id": "2111107062511837328",
-      "desk": "gaming",
-      "line": "Gio, a games fan, posts that playing video games on PC sucks. It is an opinion with no further detail."
+      "id": "2112232199177068907",
+      "desk": "sports",
+      "line": "Fabrizio Romano reports that Portugal's football federation has suspended Cristiano Ronaldo for 30 days and fined him €255 after he left the national team's camp in Denmark. He says Ronaldo had suggested a punishment himself after apologizing. Not checked here."
+    },
+    {
+      "id": "2111994362179510541",
+      "desk": "defense",
+      "line": "BBC World reports a major fire at a military base in Canada that left four people dead and dozens injured, and links its own story. Not checked here."
+    },
+    {
+      "id": "2111796941050769529",
+      "desk": "ideas",
+      "line": "Pope Leo, posting as @Pontifex, thanks those who prayed for him in recent days and the doctors, nurses and staff of the Gemelli Hospital. He says he has overcome a delicate phase and will gradually resume his activities."
+    },
+    {
+      "id": "2111857588858147149",
+      "desk": "markets",
+      "line": "Unusual Whales, an account that posts market news, says BlackRock's Larry Fink told CNBC that a data center moratorium could trigger a recession. Not checked here."
     }
   ]
 }

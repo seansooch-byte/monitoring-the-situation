@@ -1692,3 +1692,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T22:35Z
+- Captures read: 2209Z (2100Z was read last pass). Last read: 2209Z.
+- X's check: 2209Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; pledis_17 2112166891208753234; _EagleTimes 2111541639457931721; jennierubyjane 1897881221482606897) unchanged and not cited.
+- Pulse: 37 items (4 new, 4 dropped). New: Romano on the Ronaldo suspension (sports), BBC World on the Canada base fire (defense), Pontifex thanks (ideas), Unusual Whales on Fink and CNBC (markets). Dropped: Sky News Nottingham, Fox pope alert and Gio PC gaming (past 36 hours); Schefter Saints trip (stale, sports full). The build holds one post (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kim Jong Un death rumours (claims about a real person); Georgia officer Flock posts (about a private person); Indonesia stock crash (unconfirmed figures); Kansas mom, Eve Jobs, Milan, Louvre and Paris tourist posts (private people or insults); Man City points deduction (Daily Mail exclusive, unchecked); Miley Cyrus (PopBase already holds a place). Medicine has no item now: nothing safe and large enough. For the next story pass: Ronaldo suspension and the Canada base fire, if the Portuguese federation or Canadian defence ministry confirm.
+- Requests: watch.json updated (4 added); open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. A stale script at /tmp/ed/upd.mjs from an earlier run overwrote the pulse when I ran it by mistake; I reverted it before anything was committed.
