@@ -1542,3 +1542,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 dropped ids removed, 2 new added; Macron's post stays because the Limoges story cites it); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T07:15Z
+- Captures read: 0703Z. Last read: 0703Z.
+- X's check: 0703Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 33 items (1 new, 1 dropped). Dropped as past 36 hours: Destination Tele's Limoges town hall video. New: Sky News report of Macron's anger and shame statement (world). The build holds two posts (discussingfilm, skynews) off the front page; the Sky News post stands on the world page.
+- Added: none. Updated: none (pulse pass).
+- Left out: BenBankas comedy-show video and its quote (private_individual, old_content); NikandrosTV and nyaraVT allegations about named streamers (unverified, involve a minor); mmtv6014 and Rothmus (likely paid or promotion); TheColdJack Polytechnique students video (identifiable students, no media description); old_content posts. For the next story pass: Wainwright base fire, Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund.
+- Requests: watch.json updated (1 dropped id removed, 1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

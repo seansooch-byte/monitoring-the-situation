@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T06:30:00Z",
-  "capture": "2026-10-19T0603Z",
+  "updated_at": "2026-10-19T07:15:00Z",
+  "capture": "2026-10-19T0703Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -45,12 +45,6 @@
       "id": "2111546989280186852",
       "desk": "sports",
       "line": "ESPN's Adam Schefter reports, citing sources, that the Eagles are placing quarterback Jalen Hurts on injured reserve after consulting doctors and experts, and that the move sidelines him indefinitely. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111530660154294435",
-      "desk": "world",
-      "line": "Destination Télé, a French-language account, posts a 17-second video and says the town hall of Limoges, a listed historic building from 1876, is collapsing. The post does not say why. Other posts say it was set on fire during the protests; that has not been checked here.",
       "also": []
     },
     {
@@ -195,6 +189,12 @@
       "id": "2111977227483267574",
       "desk": "life",
       "line": "PopCulture2000s posts a 39-second video and says Kylie Jenner is wearing a \"22 million dollars\" fantasy bra at the Victoria's Secret show. The price is the account's claim. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111884227985785165",
+      "desk": "world",
+      "line": "Sky News posts an 88-second video and reports that President Macron says France feels \"anger and shame\" over the protests and that \"nothing\" justifies the riots and damage in several cities.",
       "also": []
     }
   ]
