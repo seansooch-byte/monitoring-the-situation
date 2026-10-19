@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T01:30:00Z",
-  "capture": "2026-10-19T0106Z",
+  "updated_at": "2026-10-19T02:30:00Z",
+  "capture": "2026-10-19T0200Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -121,12 +121,6 @@
       "id": "2111589148146749616",
       "desk": "science",
       "line": "Odyssey, an AI lab, says it placed a fruit fly brain inside its world model, Odyssey-3, and that the simulated fly now flies around imagined worlds by itself. The claim is the lab's own. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111464049812873375",
-      "desk": "ai",
-      "line": "A user says he should start a class for new users, because many people still do not understand what Grok Bot is or what it can do. Grok is made by xAI, the company behind the model that gathers this page's posts.",
       "also": []
     },
     {

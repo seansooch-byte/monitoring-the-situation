@@ -1502,3 +1502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T02:30Z
+- Captures read: 0200Z. Last read: 0200Z.
+- X's check: 0200Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 35 items (0 new, 1 dropped: Texas_Twins_Dad post, past 36 hours). Capture id moved to 0200Z. The build holds one Musk post off the front page.
+- Added: none. Updated: none. The Omar story already carries Obama's post.
+- Left out: Anthropic Public Benefit Fund as a story (anthropic.com/news lists "Investing in the public benefit" on 18 October but I could not open the article, so no source beyond the post); Macron's "Adresse aux Français" (no text or media description); Tiger Shroff video (searches found no report of the incident); Cowboys-Packers and VS Fashion Show posts (small or crowded desks); private_individual and old_content posts.
+- Requests: updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
