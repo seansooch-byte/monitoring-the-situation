@@ -1682,3 +1682,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T21:30Z
+- Captures read: 2100Z (2000Z was read last pass). Last read: 2100Z.
+- X's check: 2100Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; pledis_17 2112166891208753234; _EagleTimes 2111541639457931721; jennierubyjane 1897881221482606897) unchanged and not cited.
+- Pulse: 37 items (1 new, 0 dropped). New: PopBase on Trump and New Mexico (politics). The build holds two posts (elonmusk, skynews) off the front page.
+- Added: 2026-10-19-trump-new-mexico-new-america (politics). Updated: none; other live stories not rechecked this pass.
+- Left out: Kim Jong Un death rumours (xie_wanjun, rawsalerts, MarioNawfal: unconfirmed claims about a real person); Lakers waiving Dalton Knecht (Shams already on the pulse; I found no confirming report yet, for the next story pass); SpaceX shares for kids (I found only a July gift by Gwynne Shotwell, nothing confirming Musk's claim); Talarico (not researched); Eve Jobs, French shop owner and Paxton rally posts (private people); Milan post (insults about migrants); sexual and likely paid posts.
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

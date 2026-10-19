@@ -1,8 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T20:20:00Z",
-  "capture": "2026-10-19T2000Z",
+  "updated_at": "2026-10-19T21:30:00Z",
+  "capture": "2026-10-19T2100Z",
   "items": [
+    {
+      "id": "2112273011504226337",
+      "desk": "politics",
+      "line": "PopBase posts that Donald Trump calls for New Mexico to be renamed to New America. The Washington Examiner reports Trump posted that the state should change its name \"immediately\"; a president cannot rename a state."
+    },
     {
       "id": "2111881963657412903",
       "desk": "ai",

@@ -1,0 +1,49 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-19-trump-new-mexico-new-america",
+  "title": "Trump says New Mexico should \"immediately\" rename itself New America",
+  "dek": "It is the second time in six weeks he has asked. A president cannot rename a state himself, and New Mexico's leaders of both parties have said no.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-19T19:08:45Z",
+  "updated_at": "2026-10-19T21:30:00Z",
+  "what": [
+    "On Monday 19 October, President Trump posted on Truth Social that New Mexico should \"immediately\" change its name to \"New America\". The Washington Examiner quotes him saying \"We are not Mexico, we are the United States of America!\" and that the name \"would add great value and prestige to the State\". It also reports he suggested home values and incomes would rise. I could not open the post itself; these words come from that report and from the headlines of CNN, the Washington Post and Rolling Stone.",
+    "This is a repeat. In September Trump posted a graphic with \"Mexico\" crossed out and \"America\" written in, with words saying many people had suggested the change. The EWN news agency reports that Governor Michelle Lujan Grisham answered then that the name \"isn't up for debate\" and had been the state's before the United States existed.",
+    "The Washington Examiner reports that the governor and both candidates to succeed her, Democrat Deb Haaland and Republican Gregg Hull, oppose the idea. It quotes Hull saying New Mexico does not need a new name.",
+    "A president has no power to rename a state. The Examiner reports the name is in the state constitution, so a change would need the state legislature and a vote of the people. Other outlets say it would also probably need Congress. The renamings Trump has ordered before, the Gulf of America and Lake America, were bodies of water, which an executive order can reach.",
+    "Nothing in what I found says any step toward a change has been taken."
+  ],
+  "why": "It follows his earlier renamings, it touches a state with an election coming, and the headline is easy to pass on in one line.",
+  "next": "Whether any New Mexico or federal official files a bill or a legal step. Nothing found so far says one has.",
+  "posts": [
+    {
+      "id": "2112259677241413875",
+      "role": "voice"
+    },
+    {
+      "id": "2112265757983945079",
+      "role": "voice"
+    },
+    {
+      "id": "2112273011504226337",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Washington Examiner: Trump says New Mexico should 'immediately' change its name to New America",
+      "url": "https://www.washingtonexaminer.com/news/white-house/4771178/trump-new-mexico-change-name-new-america/"
+    },
+    {
+      "label": "CNN: Trump calls on New Mexico to change its name to 'New America' (headline only; page would not open)",
+      "url": "https://www.cnn.com/2026/10/19/politics/trump-new-mexico-name-change"
+    },
+    {
+      "label": "EWN: Trump suggests renaming New Mexico state 'New America' (September)",
+      "url": "https://www.ewn.co.za/2026/09/07/trump-suggests-renaming-new-mexico-state-new-america"
+    }
+  ]
+}
