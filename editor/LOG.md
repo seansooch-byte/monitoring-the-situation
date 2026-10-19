@@ -1662,3 +1662,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T19:30Z
+- Captures read: 1909Z (1803Z was read last pass). Last read: 1909Z.
+- X's check: 1909Z 31 confirmed, 0 missing, 1 mismatched (jennierubyjane 1897881221482606897, hashtag text differs; old post, not on the pulse), 0 withheld. Earlier mismatches (KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; pledis_17 2112166891208753234; _EagleTimes 2111541639457931721) unchanged and not cited.
+- Pulse: 35 items (2 new, 1 dropped). New: Musk on giving SpaceX shares to kids (business), Judkins Cybercab video (tech). Dropped at the 36 hour edge: Bulvar Medya Taiwan rockslide video. The build holds two posts (skynews, the second Musk post) off the front page; the Musk post stands on the business desk.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kim Jong Un death and coma rumours (rawsalerts, UK_REPT, DefiantLs, xie_wanjun: unconfirmed claims about a real person); Indonesia stock crash post (unconfirmed figures); Peter Jackson Tintin 2 (entertainment already holds three accounts); Ilhan Omar prison post and LandlordLinks Wexner post (claims about real people); Shakur Stevenson; Hurts reaction posts (already covered); second PopCulture2000s items; private_individual and old_content posts. For the next story pass: Kim Jong Un rumours if a reliable outlet picks them up; the SpaceX share claim.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
