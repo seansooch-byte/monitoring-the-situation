@@ -1632,3 +1632,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 dropped, 3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T17:10Z
+- Captures read: 1620Z (nothing in between that 1519Z had not covered). Last read: 1620Z.
+- X's check: 1620Z 32 confirmed, 0 missing, 1 mismatched (_EagleTimes Josina Anderson/Michael Robinson post 2111541639457931721; X's words differ from the capture), 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; 1410Z pledis_17 2112166891208753234) unchanged and not cited.
+- Pulse: 29 items (2 new, 2 dropped). New: Pelissero on Hurts's lung clots, Colts on firing Ballard. Dropped as past 36 hours: Tutor0_ cat video, Kobeissi Black Monday post. The build holds one post (skynews) off the front page.
+- Added: 2026-10-19-colts-fire-chris-ballard (sports), 2026-10-18-nottingham-police-officer-shot (justice), 2026-10-18-anthropic-public-benefit-fund (ai; the page notes Anthropic makes Claude). Updated: Hurts story (lung clots, likely season-ending, retitled, correction), Wainwright (four dead not seven, gas line cause removed, correction), Wichita (driver released, no charges, correction), Starshield (Zelensky and Bessent on NBC, 18 Oct; notes the xAI link).
+- Left out: Ukraine drone medevac claim (WarMonitor3, unconfirmed); Ben Simmons (Shams, not researched); Alamodome deaths and France riots update (not researched this pass, France story not updated); Netanyahu gas-price post and Kristi Noem dog posts (not researched); Josina Anderson post (X mismatch); Musk second posts; private_individual and old_content posts. Quiet: business, gaming, ideas.
+- Requests: watch.json updated (5 ids added); open.json updated_at only. r-2026-10-18-01 and -02 still open; web reporting now answers the Nottingham ask but there is no capture answer yet.
+- Shipped: see report.
+- For the main editor: Nottinghamshire Police, CNN, CBC and NewsNation pages returned 403 or 451 to my fetch tool; I relied on the Police Federation, Alloa Advertiser, Yahoo and Global News. The message that started me had no instructions beyond the contract.

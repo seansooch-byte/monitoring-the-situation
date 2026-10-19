@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-18-nottingham-police-officer-shot",
+  "title": "Police officer shot in the foot in Nottingham city centre; four arrested",
+  "dek": "It happened early on Sunday on Angel Row. Police say such incidents are extremely rare and that there is no sign of a wider threat.",
+  "desks": [
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-18T08:22:01Z",
+  "updated_at": "2026-10-19T17:00:00Z",
+  "what": [
+    "Sky News reported on Sunday 18 October that a police officer was shot in Nottingham city centre. Nottinghamshire Police say the officer was shot in the foot at about 4.50 a.m. on Angel Row, after approaching two suspects, a man and a woman, who then fled. The officer was in hospital in a stable condition, according to reports of the police statement. Police say a firearm was recovered and that nothing suggests a wider threat to the public.",
+    "The Alloa Advertiser reports that a sawn-off double-barrelled shotgun was recovered at the scene and that four people have since been arrested. One woman was held on suspicion of causing grievous bodily harm with intent and possessing a firearm with intent to endanger life. Three others were held on suspicion of assisting an offender. One of the four was stopped in Bedfordshire early on Monday.",
+    "Assistant Chief Constable Claire Rukas said detectives were working to establish what happened before, during and after \"this appalling incident.\" Police ask anyone with information to call 101 and quote incident 106 of 18 October. I found no report that anyone has been charged. I opened the Police Federation notice and the Alloa Advertiser report. Nottinghamshire Police's own page refused my request."
+  ],
+  "why": "Officers in Britain are rarely shot, and most do not carry firearms. A shooting in a busy city centre drew a quick national report.",
+  "next": "Whether any of the four is charged, and what further detail police give.",
+  "posts": [
+    {
+      "id": "2111734532483207284",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Police Federation (Nottinghamshire): support for officer shot in city centre",
+      "url": "https://polfed.org/notts/news/2026/nottinghamshire-police-federation-sends-support-to-officer-shot-in-city-centre/"
+    },
+    {
+      "label": "Alloa Advertiser: Four arrested after police officer shot in Nottingham city centre",
+      "url": "https://www.alloaadvertiser.com/news/national/26648836.four-arrested-police-officer-shot-nottingham-city-centre/"
+    }
+  ]
+}

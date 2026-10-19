@@ -1,21 +1,22 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-10-17-hurts-injured-reserve-blood-clot",
-  "title": "Eagles put quarterback Jalen Hurts on injured reserve with a blood clot in his calf",
-  "dek": "He is out indefinitely. ESPN reports he will miss at least four games.",
+  "title": "Eagles say Jalen Hurts has blood clots in his lungs and leg; reports say he is likely out for the season",
+  "dek": "The team first said a clot in his calf. New imaging found more serious clots, and reporters say he is unlikely to play again this year.",
   "desks": [
     "sports"
   ],
   "standing": "established",
   "started_at": "2026-10-17T19:56:47Z",
-  "updated_at": "2026-10-18T16:30:00Z",
+  "updated_at": "2026-10-19T17:00:00Z",
   "what": [
-    "ESPN reports the Eagles placed Hurts on injured reserve on Saturday 17 October because of a superficial blood clot in his calf. It reports the clot moved at some point, which prompted the decision, and that treatment normally involves blood thinners, during which players cannot play.",
-    "ESPN reports the move sidelines him indefinitely and gives doctors' estimates of a minimum of about six weeks, with a range from several weeks to as long as three months. It says he will miss at least four games before the Week 10 bye. Backup Tanner McKee starts against Carolina on Sunday.",
-    "Adam Schefter and Ian Rapoport each posted the news on Saturday, citing sources and \"numerous doctors and experts.\""
+    "ESPN reported on Saturday 17 October that the Eagles placed Hurts on injured reserve because of a superficial blood clot in his calf. It said the clot had moved and that treatment normally involves blood thinners, during which players cannot play. Adam Schefter and Ian Rapoport each posted the news, citing sources.",
+    "On Monday 19 October the picture changed. NBC News reports the Eagles said Hurts has deep vein thrombosis in his left calf and bilateral pulmonary emboli, which are clots in both lungs. NFL.com reports the team and his agent put out the statement. The team said he is clinically stable and that it anticipates no long-term effect, according to NBC News. NFL.com adds that the team expects him to be able to resume contact football once he is off blood thinners.",
+    "Tom Pelissero of NFL Network posted that Hurts is expected to be sidelined for multiple months and that it is unlikely he plays again this season. NBC News writes that action in 2026 seems highly unlikely. I found no team statement that gives a return date.",
+    "Hurts last played on 11 October, in the Eagles' 19-17 loss to Jacksonville in London, according to NBC News. Before the new findings, a post by JonMarksMedia quoted NFL Network analyst Michael Robinson saying: \"if I'm Jalen Hurts - or anybody in Jalen Hurts' camp - I'm saying, 'Well if everybody's hurt, I'm hurt, too.'\" Posts now replay that remark beside the diagnosis. I could not find a response from Robinson to the diagnosis."
   ],
-  "why": "The starting quarterback of a top team is out with no return date, and the news came as a bulletin from two of the most followed reporters in the league.",
-  "next": "A return timeline from the Eagles.",
+  "why": "The starting quarterback of a top team is out for what reporters say is the year, and a blood-clot diagnosis that looked minor on Saturday turned out to be a serious one. Many posts are replaying an on-air remark that doubted him.",
+  "next": "The Eagles' own timeline, and whether Robinson or NFL Network respond.",
   "posts": [
     {
       "id": "2111546989280186852",
@@ -24,12 +25,38 @@
     {
       "id": "2111547010021212415",
       "role": "voice"
+    },
+    {
+      "id": "2112184806213931268",
+      "role": "voice"
+    },
+    {
+      "id": "2111255871611097219",
+      "role": "voice"
+    },
+    {
+      "id": "2112199986893262912",
+      "role": "reply"
     }
   ],
   "sources": [
     {
       "label": "ESPN: Sources, Eagles place Jalen Hurts on IR due to blood clot",
       "url": "https://www.espn.com/nfl/story/_/id/50202417/sources-eagles-place-jalen-hurts-ir-due-blood-clot"
+    },
+    {
+      "label": "NBC News: Eagles quarterback Jalen Hurts likely out for season after blood clots found in lungs and leg",
+      "url": "https://www.nbcnews.com/sports/nfl/eagles-quarterback-jalen-hurts-likely-season-blood-clots-found-lungs-l-rcna604355"
+    },
+    {
+      "label": "NFL.com: Eagles QB Jalen Hurts likely out for rest of 2026 season due to blood clots",
+      "url": "https://www.nfl.com/news/eagles-qb-jalen-hurts-out-2026-season-blood-clots"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-10-19T17:00:00Z",
+      "text": "The headline and text said a clot in his calf and an absence of at least four games. On 19 October the Eagles reported clots in his lungs as well, and reporters now say he is likely out for the season. The earlier ESPN estimate no longer holds."
     }
   ]
 }

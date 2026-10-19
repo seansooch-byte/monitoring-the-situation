@@ -8,11 +8,12 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-17T22:09:05Z",
-  "updated_at": "2026-10-18T16:30:00Z",
+  "updated_at": "2026-10-19T17:00:00Z",
   "what": [
     "KWCH reports that at about 3:25 p.m. on Saturday 17 October a black pickup truck drove onto fields at the Stryker Sports Complex in Wichita during a youth soccer game. Police told KWCH two people died. KWCH counted 11 more people taken to hospital with traumatic injuries.",
     "KWCH reports the driver, a woman, stayed at the scene and is in custody, that police said she had a valid licence, and that two children were in the truck. A police captain told KWCH there was no ongoing threat and that investigators had not yet said how or why the crash happened. Police were asking the public for video.",
-    "The New York Times and Fox News posted that two people, including a child, were killed. No names appear on this page. I left out posts that give personal details of the driver."
+    "The New York Times and Fox News posted that two people, including a child, were killed. No names appear on this page. I left out posts that give personal details of the driver.",
+    "A later report from Yahoo News says police put the toll at two dead and 10 injured, five of the injured children, and that the driver was released pending toxicology results and a mechanical examination of the truck. It says no charges have been filed, that officers had interviewed more than 30 witnesses, and that they were still working out how the truck got into the fenced complex and why. This page does not name the dead or the driver."
   ],
   "why": "It happened at a children's game in the afternoon and police gave few details at first, so early posts filled the gap with guesses about the driver.",
   "next": "Police statements on the cause, whether charges are filed, and the condition of those still in hospital.",
@@ -34,6 +35,16 @@
     {
       "label": "KWCH: Police on the crash at Stryker Sports Complex",
       "url": "https://www.kwch.com/2026/10/17/breaking-news-injury-accident-stryker-sports-complex/"
+    },
+    {
+      "label": "Yahoo News: Driver released after pickup kills 2 and injures 10 during a youth soccer game in Wichita, police say",
+      "url": "https://sg.news.yahoo.com/2-killed-multiple-injured-vehicle-232859492.html"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-10-19T17:00:00Z",
+      "text": "The earlier text said the driver was in custody and 11 others were taken to hospital. Police later said she was released with no charges filed, and the count of injured is 10."
     }
   ]
 }

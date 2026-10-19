@@ -1,7 +1,7 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-10-18-cfb-wainwright-explosion-fire",
-  "title": "Explosion and fire at CFB Wainwright in Alberta; military sources say at least seven are dead",
+  "title": "Fire and explosion at CFB Wainwright in Alberta kills four service members",
   "dek": "The base is a major Canadian army training area. The cause and the toll come from unnamed military sources, not yet from a full official count.",
   "desks": [
     "defense",
@@ -9,12 +9,12 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-18T02:30:43Z",
-  "updated_at": "2026-10-18T16:30:00Z",
+  "updated_at": "2026-10-19T17:00:00Z",
   "what": [
-    "Global News reports an explosion and fire at Canadian Forces Base Wainwright, Alberta, at about 4 p.m. Mountain Time on Saturday 17 October. It cites military sources for seven dead and dozens injured. It says the Canadian Armed Forces had not confirmed injury or casualty details because next of kin were still being notified.",
-    "Global News also cites military sources for the cause: a live-fire training exercise struck a gas line or gas well on the base. That has not been officially confirmed. It reports wind gusts of up to 100 km/h pushed the fire past the base boundary into the municipality of Wainwright.",
-    "Global News quotes Defence Minister David McGuinty calling it \"a very, very active and delicate situation\" and says Chief of the Defence Staff Jennie Carignan said the priority was the welfare of members, families and the community. It says Prime Minister Mark Carney and Alberta Premier Danielle Smith both spoke publicly. It reports that several Alberta hospitals declared a Code Orange, a mass-casualty alert, and that air ambulances were sent.",
-    "BNO News posted that officials reported \"significant casualties,\" including deaths. An early post from a user said evacuations and mass casualties were under way and cited a Facebook video. I could not check that video. I found no official figure for the injured."
+    "Global News reports a fire and explosion at Canadian Forces Base Wainwright, Alberta, at about 4 p.m. Mountain Time on Saturday 17 October. Its update of 19 October says four soldiers died and 39 were hospitalised, 19 of them in critical condition. It names the dead as Sgt. Morgan Wong, Pte. Shaun Farrell, Pte. Aidan Goulding and Pte. Hayden Lykkemark.",
+    "Global News's first report, citing military sources, said at least seven were dead. Its later reporting says four. Early posts that repeated seven are out of date.",
+    "Global News says the cause is unknown and under investigation. Several kinds of live ordnance were in use, including grenades, grenade launchers and small arms ammunition. Maj.-Gen. Wade Rutland, who commands 1st Canadian Division, said the fire was a kilometre away when the wind shifted, and that it is \"not normal for a fire to move a kilometre in 30-to-60 seconds.\" An earlier version of this page said military sources blamed a strike on a gas line or gas well. I could not find that confirmed and have removed it.",
+    "Global News earlier quoted Defence Minister David McGuinty and reported statements from Chief of the Defence Staff Jennie Carignan, Prime Minister Mark Carney and Alberta Premier Danielle Smith, and a Code Orange at several Alberta hospitals."
   ],
   "why": "A military base, a fire that crossed into a town and a hospital alert came with little official detail. The first posts carried words like \"mass casualties\" before any count was given.",
   "next": "An official casualty count from the Canadian Armed Forces or the Department of National Defence, and a statement of the cause.",
@@ -32,6 +32,16 @@
     {
       "label": "Global News: 7 dead, dozens injured in explosion and fire at CFB Wainwright",
       "url": "https://globalnews.ca/news/12106709/cfb-wainwright-fire/"
+    },
+    {
+      "label": "Global News: Fire at CFB Wainwright wasn't a concern until a rapid 'uncommon' shift in wind",
+      "url": "https://globalnews.ca/news/12107062/cfb-wainwright-fire-what-we-know/"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-10-19T17:00:00Z",
+      "text": "The title and text said at least seven were dead, from military sources. Global News now reports four dead and 39 hospitalised. The gas line cause, also from military sources, is removed because it is not confirmed."
     }
   ]
 }

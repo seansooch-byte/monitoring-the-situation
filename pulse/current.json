@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T15:45:00Z",
-  "capture": "2026-10-19T1519Z",
+  "updated_at": "2026-10-19T17:05:00Z",
+  "capture": "2026-10-19T1620Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -42,11 +42,6 @@
       "line": "Bulvar Medya, a Turkish-language account, says a villager picking tea in Taiwan's Chiayi area heard cracking from the mountain and filmed a huge mass of rock and earth collapsing down the slope. The post is in Turkish. The video has not been checked here."
     },
     {
-      "id": "2111672659310248366",
-      "desk": "offbeat",
-      "line": "An account posts a 110-second video of a mother cat it says was dying and then rescued by a kind stranger. The same clip was posted earlier by another account. Not checked here."
-    },
-    {
       "id": "2111949144210464799",
       "desk": "sports",
       "line": "NBA reporter Shams Charania says, citing sources at ESPN, that Sacramento Kings guard Ben Simmons is believed to have torn an Achilles tendon at practice on Sunday. His follow-up says an MRI confirmed a season-ending tear. Not checked here.",
@@ -59,11 +54,6 @@
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says the 1967 Bigfoot film has been confirmed as a hoax after new archival footage turned up for an upcoming documentary. It links a Variety review of that documentary. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2111679803560796451",
-      "desk": "markets",
-      "line": "The Kobeissi Letter, a markets newsletter account, says calls for a \"Black Monday\" are spreading rapidly on social media and that, if history is any guide, the S&P 500 should hit 8,000 soon. It points to its own analysis. That is its forecast and is not checked here."
     },
     {
       "id": "2111730102618972636",
@@ -167,6 +157,16 @@
       "id": "2112017230648971765",
       "desk": "life",
       "line": "Kylie Jenner posts \"best day ever\" and tags Victoria's Secret, with no further detail."
+    },
+    {
+      "id": "2112184806213931268",
+      "desk": "sports",
+      "line": "NFL Network reporter Tom Pelissero says Eagles quarterback Jalen Hurts is expected to miss multiple months after new imaging found several blood clots in his lungs. He says Hurts is on blood thinners and should have no long-term effects, but is unlikely to play again this season."
+    },
+    {
+      "id": "2112175612932882744",
+      "desk": "sports",
+      "line": "The Indianapolis Colts account says the team has relieved Chris Ballard of his duties as general manager."
     }
   ]
 }
