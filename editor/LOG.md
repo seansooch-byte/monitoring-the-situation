@@ -1592,3 +1592,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added, uncited aged-out ids removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T12:30Z
+- Captures read: 1203Z. Last read: 1203Z.
+- X's check: 1203Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 29 items (1 new, 0 dropped). New: Macron's "Ceux qui ont cherché à faire tomber la République" post (world, French, video has no description). Line changed on the usmilihist Alamodome item, with ABC News's post on an Air Force member's death attached in `also` (the posts do not say it is the same person). The build holds two posts (discussingfilm, skynews) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk "Hire Grok Bot" (promotion, and a second Musk post); Musk SpaceX shares pledge (second Musk post, unconfirmed outside X); Samie Elishi pregnancy post (not a clear public figure, not checked); unusual_whales mortgage post (statistic not checked); CJFCSpox Arabic post (no media description); mattvanswol Milan post (insults about migrants); RafaelSereti, AbdulElSayed "Tommy" and other private_individual and old_content posts. For the next story pass: Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund, Alamodome rappelling deaths, Macron's address on the riots.
+- Requests: watch.json updated (Macron and ABC ids added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

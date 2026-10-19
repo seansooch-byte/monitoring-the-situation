@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T11:40:00Z",
-  "capture": "2026-10-19T1104Z",
+  "updated_at": "2026-10-19T12:30:00Z",
+  "capture": "2026-10-19T1203Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -55,7 +55,10 @@
     {
       "id": "2111635359989715161",
       "desk": "defense",
-      "line": "The usmilihist account posts a 20-second video it says shows a U.S. Army officer falling during a fast rope demonstration before the Navy and UTSA football game, and says the officer was taken to hospital. No update on the officer's condition is given. Not checked here."
+      "line": "The usmilihist account posts a video it says shows a U.S. Army officer falling during a fast rope demonstration before the Navy and UTSA game. A later ABC News post says an Air Force member died after rappelling from the Alamodome ceiling at a pre-game ceremony. Same person not stated. Not checked here.",
+      "also": [
+        "2111860130241188243"
+      ]
     },
     {
       "id": "2111766455574548937",
@@ -167,6 +170,12 @@
       "id": "2112126166673022976",
       "desk": "markets",
       "line": "Watcher.Guru reports that JPMorgan is expanding its JPM Coin deposit token to Ethereum, so that institutional clients can transfer money around the clock. Crypto outlets report the same; I did not find a JPMorgan statement. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111904110693810595",
+      "desk": "world",
+      "line": "French President Emmanuel Macron posts, in French, \"Those who sought to bring down the Republic will have to answer for it,\" with a 7-second video. The video has no description in the capture. Not checked here.",
       "also": []
     }
   ]
