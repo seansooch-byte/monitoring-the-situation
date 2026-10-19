@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T02:30:00Z",
-  "capture": "2026-10-19T0200Z",
+  "updated_at": "2026-10-19T03:30:00Z",
+  "capture": "2026-10-19T0304Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -204,6 +204,18 @@
       "also": [
         "2111955572807602620"
       ]
+    },
+    {
+      "id": "2111907213891792958",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, says the 1967 Bigfoot film has been confirmed as a hoax after new archival footage turned up for an upcoming documentary. It links a Variety review of that documentary. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111611563417252190",
+      "desk": "life",
+      "line": "A user asks people to normalize \"bed rotting\" on Saturday and Sunday, because \"you work hard all week.\" The post is text only.",
+      "also": []
     }
   ]
 }
