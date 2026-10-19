@@ -1642,3 +1642,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (5 ids added); open.json updated_at only. r-2026-10-18-01 and -02 still open; web reporting now answers the Nottingham ask but there is no capture answer yet.
 - Shipped: see report.
 - For the main editor: Nottinghamshire Police, CNN, CBC and NewsNation pages returned 403 or 451 to my fetch tool; I relied on the Police Federation, Alloa Advertiser, Yahoo and Global News. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T17:20Z
+- Captures read: 1710Z (1620Z was read last pass). Last read: 1710Z.
+- X's check: 1710Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; 1410Z pledis_17 2112166891208753234; 1620Z _EagleTimes 2111541639457931721) unchanged and not cited.
+- Pulse: 33 items (4 new, 0 dropped; nothing is past 36 hours). New: Rainmaker1973 earthquake pool video (disaster), Variety on Nathan Fielder and Elizabeth Holmes (entertainment), 60 Minutes Dhillon interview with Mike Lee's quote in `also` (politics), mimicryptid pingu meme (internet). The build holds one post (skynews) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: GMMTV announcement (images with no description); Barbara Palvin post (second PopCulture2000s item); mattvanswol Milan post (insults about migrants); RafaelSereti and TheeAnimeGuru_ posts (private_individual); abhijeet_dipke post (private people); WarMonitor3 drone medevac (unconfirmed); BreidenFehoko NFL rigging claim and CaryKelly11 blood clot insinuation (unconfirmed claims); LandlordLinks Wexner post (claim about a real person); nakamura_asa Japanese post (quotes a post I could not read); rustyrockets (trial of real people); old_content posts. For the next story pass: Hurts clots reaction (ESPN 2112188973418217805), noncitizen voting and the Dhillon interview.
+- Requests: watch.json updated (5 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

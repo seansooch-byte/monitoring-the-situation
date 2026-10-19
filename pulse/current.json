@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T17:05:00Z",
-  "capture": "2026-10-19T1620Z",
+  "updated_at": "2026-10-19T17:21:56Z",
+  "capture": "2026-10-19T1710Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -167,6 +167,32 @@
       "id": "2112175612932882744",
       "desk": "sports",
       "line": "The Indianapolis Colts account says the team has relieved Chris Ballard of his duties as general manager."
+    },
+    {
+      "id": "2111807005484613664",
+      "desk": "disaster",
+      "line": "The account Rainmaker1973 posts a two-minute video that he says shows what it is like at the rooftop pool of a high rise during an M7.7 earthquake. He does not say where. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111929060033229114",
+      "desk": "entertainment",
+      "line": "Variety reports that Nathan Fielder, speaking at the New York Film Festival, says Elizabeth Holmes seemed \"so genuine at times\" but that he knew she was a liar. He also says he and Lance disagreed about what happened in some scenes.",
+      "also": []
+    },
+    {
+      "id": "2111969347497312730",
+      "desk": "politics",
+      "line": "60 Minutes posts its interview clip with Harmeet Dhillon, who heads the Justice Department Civil Rights Division, on noncitizen voting. Dhillon says the distrust already exists and such crimes are now prosecuted in volume. Sen. Mike Lee quotes it with a TSA comparison.",
+      "also": [
+        "2112069558362407284"
+      ]
+    },
+    {
+      "id": "2112036444541952086",
+      "desk": "internet",
+      "line": "The artist and voice actor MimiCryptid posts a \"tag yourself\" meme made from pingus, which she says she is obsessed with. It quotes an earlier post.",
+      "also": []
     }
   ]
 }
