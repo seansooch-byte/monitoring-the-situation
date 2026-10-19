@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T14:45:00Z",
-  "capture": "2026-10-19T1410Z",
+  "updated_at": "2026-10-19T15:45:00Z",
+  "capture": "2026-10-19T1519Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -40,11 +40,6 @@
       "id": "2111718925159244130",
       "desk": "disaster",
       "line": "Bulvar Medya, a Turkish-language account, says a villager picking tea in Taiwan's Chiayi area heard cracking from the mountain and filmed a huge mass of rock and earth collapsing down the slope. The post is in Turkish. The video has not been checked here."
-    },
-    {
-      "id": "2111650559891763485",
-      "desk": "music",
-      "line": "BTS's official account posts its daily update in Korean for the 17 October show in Santiago on the group's Arirang world tour. The post is mostly hashtags."
     },
     {
       "id": "2111672659310248366",
@@ -157,6 +152,21 @@
       "id": "2111901178355425769",
       "desk": "internet",
       "line": "The account scubaryan_ says streamer Fanum noticed someone watching his stream at the AMP House and made an infinite loop. The video has no description, so I could not see what it shows."
+    },
+    {
+      "id": "2111852574815264962",
+      "desk": "politics",
+      "line": "Molly Ploofkins posts a short video and captions it as President Trump saying that if Democrats win, \"You're going to be thrown into a system where everyone gets healthcare.\" The video has no description, so I could not see it. Not checked here."
+    },
+    {
+      "id": "2111915544387735684",
+      "desk": "sports",
+      "line": "SM Highlights posts a short clip and says the Rams' new kicker, Blake Grupe, injured himself trying to tackle someone on a kickoff, after the team cut Harrison Mevis. Not checked here."
+    },
+    {
+      "id": "2112017230648971765",
+      "desk": "life",
+      "line": "Kylie Jenner posts \"best day ever\" and tags Victoria's Secret, with no further detail."
     }
   ]
 }

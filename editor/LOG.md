@@ -1622,3 +1622,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added, 5 uncited aged-out ids removed; BNO id kept because the Wainwright story cites it); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T15:45Z
+- Captures read: 1519Z. Last read: 1519Z.
+- X's check: 1519Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; 1410Z pledis_17 2112166891208753234) are unchanged and not cited.
+- Pulse: 29 items (3 new, 1 dropped). Dropped: BTS Santiago update (past 36 hours). New: Molly Ploofkins Trump healthcare clip (politics), SM Highlights Rams kicker clip (sports), Kylie Jenner Victoria's Secret post (life). The build holds one post (skynews) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Schefter Jalen Hurts injured reserve posts (second Schefter item on sports; for the next story pass, with the Colts firing of Chris Ballard); GMMTV announcement (images with no description); mattvanswol Milan post (insults about migrants); CJFCSpox Arabic post (no media description); GPC_Globall Lieu Epstein claim and bolly_talkies Tiger Shroff shooting video (claims about real people, unconfirmed); Eve Jobs posts (private-life gossip); Musk SpaceX shares pledge and other second Musk posts; private_individual and old_content posts.
+- Requests: watch.json updated (1 dropped, 3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
