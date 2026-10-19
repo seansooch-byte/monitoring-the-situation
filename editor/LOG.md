@@ -1562,3 +1562,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 dropped ids removed; the three ids cited by the Hurts and Marsh stories stay; 2 new added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T09:15Z
+- Captures read: 0905Z. Last read: 0905Z.
+- X's check: 0905Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 31 items (2 new, 1 dropped). Dropped as past 36 hours: Tim Sweeney's post. New: Acyn's post of Trump's text on Russia and Zelensky (world) and The Tennis Letter on the Svitolina and Monfils split (sports). The build holds three posts (discussingfilm, skynews, acyn) off the front page; Acyn's world item stands on the world page.
+- Added: none. Updated: none (pulse pass).
+- Left out: MegansStats Victoria's Secret post (no media description); s2iyoung A2O LITE VFX clip (tiny account, nothing to add to the caption); 6ixbuzztv Haiti donation post (a child); WallStreetApes robot dog clip (private person); GPC_Globall Lieu Epstein claim (serious claim about a real person, not confirmed outside X); mattvanswol Milan post (insults about migrants); TheColdJack, P0eMPieDinges, cpasdeslol_X, JohnHann04 (private or identifiable people); Nechemaduagwu (sexualised); greeting streams; old_content posts. For the next story pass: Wainwright base fire, Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund, Trump's Russia and diesel statement.
+- Requests: watch.json updated (Sweeney's id removed, 2 new added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

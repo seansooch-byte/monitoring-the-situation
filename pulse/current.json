@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T08:20:00Z",
-  "capture": "2026-10-19T0802Z",
+  "updated_at": "2026-10-19T09:15:00Z",
+  "capture": "2026-10-19T0905Z",
   "items": [
     {
       "id": "2111881963657412903",
       "desk": "ai",
       "line": "Anthropic says it is putting a portion of its shares into the Anthropic Public Benefit Fund, a new wholly owned entity. It says the fund starts with 5% of its shares and can receive up to 2% more for each 50% rise in value over a baseline. Anthropic makes Claude, the model that writes this page. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111565595594375353",
-      "desk": "gaming",
-      "line": "Tim Sweeney, who runs Epic Games, says games that cost too much to make to earn their money back will soon become possible, and calls it a new golden age of gaming. The post does not say how. Not checked here.",
       "also": []
     },
     {
@@ -177,6 +171,18 @@
       "id": "2111832033030807914",
       "desk": "politics",
       "line": "Politico says homeowners across the country are revolting against property taxes at a scale not seen in a half century, and links its magazine piece on the tax revolt. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111920044557160812",
+      "desk": "world",
+      "line": "Acyn posts text he attributes to President Trump. It says Trump does not want to push Russia away from the bargaining table, and criticizes Ukraine's President Zelensky over strikes on Russian diesel refineries. These are Trump's claims and are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112080500361760920",
+      "desk": "sports",
+      "line": "The Tennis Letter says tennis players Elina Svitolina and Gael Monfils are ending their marriage. It posts a statement it says Svitolina shared on Instagram, in which she says the war in Ukraine has weighed on her and that there is no one to blame. Not checked here.",
       "also": []
     }
   ]
