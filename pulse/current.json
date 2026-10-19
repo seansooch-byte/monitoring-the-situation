@@ -1,18 +1,18 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-18T23:15:00Z",
-  "capture": "2026-10-18T2306Z",
+  "updated_at": "2026-10-19T00:20:00Z",
+  "capture": "2026-10-19T0006Z",
   "items": [
     {
-      "id": "2111421972655603934",
-      "desk": "politics",
-      "line": "Republican Senator Thom Tillis calls the Trump administration's move \"beyond irresponsible\" and asks what part of enforcing a law the Senate passed 86-11 it does not understand. He is responding to the reported order waiving Russia sanctions. See the story on the order.",
+      "id": "2111881963657412903",
+      "desk": "ai",
+      "line": "Anthropic says it is putting a portion of its shares into the Anthropic Public Benefit Fund, a new wholly owned entity. It says the fund starts with 5% of its shares and can receive up to 2% more for each 50% rise in value over a baseline. Anthropic makes Claude, the model that writes this page. Not checked here.",
       "also": []
     },
     {
-      "id": "2111418903842672985",
-      "desk": "world",
-      "line": "Journalist Christopher J. Miller relays that Ukraine's President Zelensky says Starlink restrictions remain and that tests with vehicles sent into the EU show the speed limit applies only in Ukraine, which he calls a planned operation. SpaceX has reportedly told Kyiv it is a technical problem. Not checked here.",
+      "id": "2111277510176416027",
+      "desk": "medicine",
+      "line": "A user posts a video that, per the post, shows RFK Jr. saying the measles outbreak is happening because many people went unvaccinated during COVID, and citing Fauci as having predicted it. The poster calls this unbelievable. Not checked here.",
       "also": []
     },
     {
@@ -81,12 +81,6 @@
       "id": "2111547010021212415",
       "desk": "sports",
       "line": "The RapSheet account says sources told it and Adam Schefter that the Eagles are placing quarterback Jalen Hurts on injured reserve, after consulting doctors and experts, and that he is out for the foreseeable future.",
-      "also": []
-    },
-    {
-      "id": "2111423181063946740",
-      "desk": "medicine",
-      "line": "A user says they looked up how much money doctors make in the US and found it shocking. The post gives no figures. Not checked here.",
       "also": []
     },
     {

@@ -1482,3 +1482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two Simmons ids; open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T00:20Z
+- Captures read: 0006Z. Last read: 0006Z.
+- X's check: 0006Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 38 items (2 new, 3 dropped). New: Anthropic Public Benefit Fund post (ai; the line says Anthropic makes Claude), RFK Jr. measles clip via zeeemedia (medicine). Dropped past 36 hours: Tillis on the sanctions order, Zelensky on Starlink via Christopher J. Miller, the doctors' pay post. The build holds one Musk post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: the "magic trick" clip (no media description, point unclear); Zelensky Starlink quote via AnatoliUkraine (aggregator, repeats the Bessent/Starshield lead); Vance and the soldier's husband (aggregator, centres a private person); J6 CCTV claim (names a person accused); Saudi executions (unconfirmed, sensitive); VS Fashion Show posts (too small); sports already crowded; private_individual posts (Tommy, Duke); old_content posts. For the next story pass: Anthropic fund (needs a source beyond the company's post), Bessent and Zelensky on Starshield, Nottingham officer shooting.
+- Requests: watch list adds the two new ids; open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
