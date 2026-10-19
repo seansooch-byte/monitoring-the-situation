@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T19:25:00Z",
-  "capture": "2026-10-19T1909Z",
+  "updated_at": "2026-10-19T20:20:00Z",
+  "capture": "2026-10-19T2000Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -58,12 +58,6 @@
       "id": "2111907213891792958",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says the 1967 Bigfoot film has been confirmed as a hoax after new archival footage turned up for an upcoming documentary. It links a Variety review of that documentary. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111730102618972636",
-      "desk": "tech",
-      "line": "XFreeze, an X account, says the new Tesla Roadster's cold-gas thrust of over 80 kN beats the roughly 79.2 kN an F-16 engine makes without afterburner. The figures are its own and are not checked here.",
       "also": []
     },
     {
@@ -206,6 +200,16 @@
       "also": [
         "2112218179279684032"
       ]
+    },
+    {
+      "id": "2112222971142316531",
+      "desk": "gaming",
+      "line": "Daily Star Wars Games, a fan account, says a new rumour has Lucasfilm pushing hard for a Star Wars Battlefront 3, with DICE and Bungie both in talks. It is a rumour and it is not checked here."
+    },
+    {
+      "id": "2111107062511837328",
+      "desk": "gaming",
+      "line": "Gio, a games fan, posts that playing video games on PC sucks. It is an opinion with no further detail."
     }
   ]
 }

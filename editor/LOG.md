@@ -1672,3 +1672,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T20:20Z
+- Captures read: 2000Z (1909Z was read last pass). Last read: 2000Z.
+- X's check: 2000Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; pledis_17 2112166891208753234; _EagleTimes 2111541639457931721; jennierubyjane 1897881221482606897) unchanged and not cited.
+- Pulse: 36 items (2 new, 1 dropped). New: Daily Star Wars Games on the Battlefront 3 rumour, Gio on PC gaming (gaming). Dropped at the 36 hour edge: XFreeze Tesla Roadster post. The build holds two posts (skynews, the second Musk post) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Zelensky Kharkiv strike post (names a child victim); Kobeissi and unusual_whales posts saying Trump wants New Mexico renamed New America (politics already holds many accounts; unconfirmed; for the next story pass); Gunn Mister Miracle casting and other entertainment posts (desk full); Maddison goal (sports full); prtygal777 and Gen Z videos (no description); Eve Jobs, Kansas and Paxton rally posts (private people); leahfiles Shawn Ryan post (claims about real people); older Hurts, Jacobs and Mirs_____ posts (past 36 hours).
+- Requests: watch.json updated (2 added); open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
