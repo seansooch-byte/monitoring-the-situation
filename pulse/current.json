@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T03:30:00Z",
-  "capture": "2026-10-19T0304Z",
+  "updated_at": "2026-10-19T04:20:00Z",
+  "capture": "2026-10-19T0404Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -216,6 +216,11 @@
       "desk": "life",
       "line": "A user asks people to normalize \"bed rotting\" on Saturday and Sunday, because \"you work hard all week.\" The post is text only.",
       "also": []
+    },
+    {
+      "id": "2111679803560796451",
+      "desk": "markets",
+      "line": "The Kobeissi Letter, a markets newsletter account, says calls for a \"Black Monday\" are spreading rapidly on social media and that, if history is any guide, the S&P 500 should hit 8,000 soon. It points to its own analysis. That is its forecast and is not checked here."
     }
   ]
 }

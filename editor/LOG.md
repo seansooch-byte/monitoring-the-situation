@@ -1512,3 +1512,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T04:20Z
+- Captures read: 0304Z, 0404Z. Last read: 0404Z.
+- X's check: 0404Z 33 confirmed, 0 missing, 1 mismatched (KDA_MUSIC 2112002511729205311, hashtags differ from X's text; not cited), 0 withheld. Earlier mismatches (0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 38 items (1 new, 0 dropped). New: Kobeissi Letter on "Black Monday" calls (markets, which had no item). The build holds two posts off the front page (elonmusk, discussingfilm).
+- Added: none. Updated: none (pulse pass).
+- Left out: KDA firestarter video (mismatch); Kansas mother released without charges (centres a private person); Hungarian PM post and Cowboys-Packers posts (small or crowded desk); gaming PlayStation/Switch opinion post (small account, adds nothing); private_individual and old_content posts. For the next story pass: Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund.
+- Requests: watch.json lists every pulse and also id; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
