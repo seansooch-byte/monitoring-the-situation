@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T17:21:56Z",
-  "capture": "2026-10-19T1710Z",
+  "updated_at": "2026-10-19T18:11:49Z",
+  "capture": "2026-10-19T1803Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -193,6 +193,14 @@
       "desk": "internet",
       "line": "The artist and voice actor MimiCryptid posts a \"tag yourself\" meme made from pingus, which she says she is obsessed with. It quotes an earlier post.",
       "also": []
+    },
+    {
+      "id": "2112220986795766059",
+      "desk": "music",
+      "line": "Cardi B tells people to go watch her Tiny Desk performance and asks what they think of it. The post links a video titled \"Cardi B: Tiny Desk Concert\". The video has not been watched here.",
+      "also": [
+        "2112218179279684032"
+      ]
     }
   ]
 }

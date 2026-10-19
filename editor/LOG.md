@@ -1652,3 +1652,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (5 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T18:15Z
+- Captures read: 1803Z (1710Z was read last pass). Last read: 1803Z.
+- X's check: 1803Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; 1410Z pledis_17 2112166891208753234; 1620Z _EagleTimes 2111541639457931721) unchanged and not cited.
+- Pulse: 34 items (1 new, 0 dropped; nothing is past 36 hours). New: Cardi B on her Tiny Desk concert (music, with Phil_Lewis_ in `also`).
+- Added: none. Updated: none (pulse pass).
+- Left out: Shakur Stevenson leaving Zuffa and the Ronaldo suspension (sports already holds more than three accounts; for the next story pass); second Musk posts; GMMTV posts (images with no description); Palvin and Bella Hadid posts (second PopCulture2000s items); mattvanswol Milan post (insults about migrants); private_individual and old_content posts; likely paid posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
