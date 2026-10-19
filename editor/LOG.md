@@ -1492,3 +1492,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch list adds the two new ids; open.json only updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T01:30Z
+- Captures read: 0106Z. Last read: 0106Z.
+- X's check: 0106Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 36 items (0 new, 2 dropped). Dropped: the George R. R. Martin / Daenerys fan post (X now returns it as unavailable, not authorised) and the RFK Jr. measles clip via zeeemedia (47 hours old, past the 36-hour limit; it should not have been added at 46 hours last pass). Medicine now has one item. The build holds one Musk post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Limoges town hall, Marseille and other French riot posts (France already has five items); Saudi executions (unconfirmed, sensitive); Vance and the soldier's husband (aggregator, centres a private person); VS Fashion Show and Cowboys-Packers posts (small, sports crowded); AbdulElSayed "Tommy" (private_individual); old_content posts. For the next story pass: Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund.
+- Requests: watch.json and open.json only updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
