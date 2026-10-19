@@ -1572,3 +1572,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (Sweeney's id removed, 2 new added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T10:15Z
+- Captures read: 1000Z. Last read: 1000Z.
+- X's check: 1000Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 29 items (0 new, 2 dropped). Dropped as past 36 hours: Acyn's El-Sayed clip and bloomjpg's streamer post. The build holds two posts (discussingfilm, skynews) off the front page. Quiet: business, gaming, ideas.
+- Added: none. Updated: none (pulse pass).
+- Left out: CJFCSpox Arabic post (very large, photo with no media description, cannot say what it points at); VALORANT and League of Legends posts (no media description); popbackupp Hunter Schafer clip (no description); Pontifex post (thanks to Gemelli Hospital staff, dated 2026-10-18, may be older text re-posted, not checked); Macron "Adresse aux Français" (no text); localteamit Milan police car video (no description); mattvanswol Milan post (insults about migrants); duckofprey and AbdulElSayed "Tommy" video (private_individual); other private_individual and old_content posts. For the next story pass: Wainwright base fire, Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund, Trump's Russia and diesel statement.
+- Requests: watch.json updated (2 dropped ids removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T09:15:00Z",
-  "capture": "2026-10-19T0905Z",
+  "updated_at": "2026-10-19T10:15:00Z",
+  "capture": "2026-10-19T1000Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -31,11 +31,6 @@
       "line": "The New York Times posts a breaking-news alert saying two people, including a child, were killed and several others injured when a truck drove through a soccer game in Wichita, Kansas, the authorities said."
     },
     {
-      "id": "2111568649513587167",
-      "desk": "politics",
-      "line": "Acyn posts a 51-second clip of an exchange in which Abdul El-Sayed is asked whether he will disavow the Muslim Brotherhood. He says yes, asks why the question is put to him, and asks the questioner whether they have disavowed it. The post does not say where or when it was filmed."
-    },
-    {
       "id": "2111659042590314770",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Hunter Schafer reveals she is starring in an upcoming A24 vampire film, with Emma Corrin, Havana Rose Liu, Sophie Wilde, Fabien Frankel and Josh Hutcherson. It credits the Academy Museum. Not checked here."
@@ -52,12 +47,6 @@
       "id": "2111589148146749616",
       "desk": "science",
       "line": "Odyssey, an AI lab, says it placed a fruit fly brain inside its world model, Odyssey-3, and that the simulated fly now flies around imagined worlds by itself. The claim is the lab's own. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111566376850616554",
-      "desk": "internet",
-      "line": "An account says streamer QTCinderella teased streamer Ludwig after Clavicular got no Streamer Awards nomination, and quotes her remark. Not checked here.",
       "also": []
     },
     {
