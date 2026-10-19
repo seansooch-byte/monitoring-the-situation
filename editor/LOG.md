@@ -1612,3 +1612,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 dropped ids removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T14:45Z
+- Captures read: 1410Z. Last read: 1410Z.
+- X's check: 1410Z 31 confirmed, 1 mismatched (pledis_17 JxJ MV photo post 2112166891208753234; X drops two hashtags from the text), 0 missing, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 27 items (4 new, 4 dropped). Dropped: BNO News Wainwright, JD Vance Limoges and usmilihist Alamodome (past 36 hours, ABC post removed with it), DiscussingFilm Hunter Schafer (second DiscussingFilm item on the same desk). New: Umamusume concert visa notice (gaming), OnePunch_Daily Saitama vs Goku video (entertainment), Local Team Milan police car (justice, Italian), scubaryan_ Fanum loop clip (internet). The build holds one post (skynews) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: GMMTV Joong-Dunk announcement (point is in two images with no description); Colts firing of Chris Ballard (Colts 2112175612932882744, Schefter 2112175780587606151; fresh but sports already has three accounts; for the next story pass); VALORANT and League of Legends teaser posts (no text or media description to go on); Musk SpaceX shares pledge (second Musk post, unconfirmed); mattvanswol Milan post (insults about migrants); CJFCSpox Arabic post (no media description); GPC_Globall Lieu Epstein claim and versivald Sanders post (claims about real people, unconfirmed); private_individual and old_content posts.
+- Requests: watch.json updated (4 added, 5 uncited aged-out ids removed; BNO id kept because the Wainwright story cites it); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
