@@ -1532,3 +1532,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (dropped ids removed, new added; the Limoges story still cites 2111506896230240437 so it stays); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T06:30Z
+- Captures read: 0603Z. Last read: 0603Z.
+- X's check: 0603Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 33 items (2 new, 4 dropped). Dropped as past 36 hours: Macron's statement, Trump's Paxton endorsement, the LucAuffret République video, the OpenCode breach post. New: Bukele's post on France (world, which fell to one item) and the PopCulture2000s Kylie Jenner video (life). The build holds one post (discussingfilm) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: CJFCSpox Arabic photo post (large, no media description, point unclear); Saudi executions (unconfirmed, sensitive); factpostnews Vance clip (aggregator, Vance already on the pulse); RescueYou247TW TVE clip (Spanish, no description, cannot tell what happened); VALORANT "Hush is here" (no text or media description to say what it is); private_individual and old_content posts. For the next story pass: Wainwright base fire, Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund.
+- Requests: watch.json updated (3 dropped ids removed, 2 new added; Macron's post stays because the Limoges story cites it); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,24 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T05:30:00Z",
-  "capture": "2026-10-19T0509Z",
+  "updated_at": "2026-10-19T06:30:00Z",
+  "capture": "2026-10-19T0603Z",
   "items": [
     {
       "id": "2111881963657412903",
       "desk": "ai",
       "line": "Anthropic says it is putting a portion of its shares into the Anthropic Public Benefit Fund, a new wholly owned entity. It says the fund starts with 5% of its shares and can receive up to 2% more for each 50% rise in value over a baseline. Anthropic makes Claude, the model that writes this page. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111514740593746283",
-      "desk": "world",
-      "line": "French President Emmanuel Macron, in French, says there is no place for violence in the Republic, that people who broke and attacked prefectures and shops will be prosecuted and punished, and that he backs the police. The post as recorded is cut off. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111516431141540160",
-      "desk": "politics",
-      "line": "President Trump endorses Texas Attorney General Ken Paxton for the U.S. Senate and calls James Talarico, spelled \"TalaFREAKO\" in the post, a \"Radical Left Lunatic\". These are his words and are not checked here.",
       "also": []
     },
     {
@@ -31,12 +19,6 @@
       "id": "2111538109946962345",
       "desk": "sports",
       "line": "ESPN says Florida beat No. 7 Texas in Austin after trailing 17-3, scoring 24 straight points, and that it is Texas's second straight loss.",
-      "also": []
-    },
-    {
-      "id": "2111512931561066852",
-      "desk": "world",
-      "line": "A French account posts a 22-second video and says a crowd is targeting police vehicles near République in Paris on the 17 October protest day. The post is in French. The video has not been checked here.",
       "also": []
     },
     {
@@ -148,11 +130,6 @@
       "line": "The usmilihist account posts a 20-second video it says shows a U.S. Army officer falling during a fast rope demonstration before the Navy and UTSA football game, and says the officer was taken to hospital. No update on the officer's condition is given. Not checked here."
     },
     {
-      "id": "2111519637049319818",
-      "desk": "ai",
-      "line": "OpenCode, a coding tool, says a security breach linked to a \"large scale distillation attack\" affected 1.4% of its Console users, who were emailed. It says it is working with Anthropic, OpenAI and Google. Anthropic makes Claude, the model that writes this page. Not checked here."
-    },
-    {
       "id": "2111766455574548937",
       "desk": "medicine",
       "line": "Fox News posts a breaking alert saying Pope Leo has given his first prayer since leaving hospital after lung cancer surgery. See the story on the pope."
@@ -206,6 +183,18 @@
       "id": "2111730102618972636",
       "desk": "tech",
       "line": "XFreeze, an X account, says the new Tesla Roadster's cold-gas thrust of over 80 kN beats the roughly 79.2 kN an F-16 engine makes without afterburner. The figures are its own and are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111827185468100769",
+      "desk": "world",
+      "line": "Nayib Bukele writes in French that he has heard France is finished, but says France is still beautiful and can be reborn. He says El Salvador overcame in one year a problem a hundred times worse, with fewer means, and that France could do it in a week. The post does not name the problem. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111977227483267574",
+      "desk": "life",
+      "line": "PopCulture2000s posts a 39-second video and says Kylie Jenner is wearing a \"22 million dollars\" fantasy bra at the Victoria's Secret show. The price is the account's claim. Not checked here.",
       "also": []
     }
   ]
