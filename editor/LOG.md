@@ -1702,3 +1702,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added); open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. A stale script at /tmp/ed/upd.mjs from an earlier run overwrote the pulse when I ran it by mistake; I reverted it before anything was committed.
+
+## 2026-10-19T23:20Z
+- Captures read: 2300Z (2209Z was read last pass). Last read: 2300Z.
+- X's check: 2300Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; pledis_17 2112166891208753234; _EagleTimes 2111541639457931721; jennierubyjane 1897881221482606897) unchanged and not cited.
+- Pulse: 37 items, no item changes (0 new, 0 dropped); capture id and time refreshed. The build holds one post (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Shams on the Lakers waiving Dalton Knecht (Shams already holds the sports place with the Simmons item, so a second post would be held off); NFL investigation of the Eagles over Hurts (WesSteinberg, unconfirmed claim about penalties; for the next story pass); Kim Jong Un death rumours (unconfirmed claims about a real person); Eve Jobs, Kaohsiung metro, bathroom fight and Texas event videos (private people); AI Kim/Putin/Trump video (no description).
+- Requests: watch.json and open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
