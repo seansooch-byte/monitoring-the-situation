@@ -1582,3 +1582,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 dropped ids removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T11:40Z
+- Captures read: 1104Z. Last read: 1104Z.
+- X's check: 1104Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 28 items (2 new, 3 dropped as past 36 hours: odysseyml, barstoolsports, nytimes). New: VISUAL ARTS on Jun Maeda (entertainment, animeupdates attached) and Watcher.Guru on JPM Coin (markets). The build holds two posts (discussingfilm, skynews) off the front page.
+- Added: 2026-10-19-jun-maeda-pharyngeal-cancer (entertainment). Updated: none.
+- Left out: JPM Coin story (only crypto outlets found, no JPMorgan statement); Musk "one SpaceX share to every kid" post (second Musk post, no outside confirmation; searches show only Gwynne Shotwell's earlier gift to Trump Accounts, a different thing); Ben Simmons Achilles (Shams, same account as another pulse item, not researched); Leah Files and Shawn Ryan posts (claims about real people, unconfirmed); mattvanswol Milan post; private_individual and old_content posts. Stories not refreshed this pass: Wainwright fire, France riots, Hurts, Marsh, Wichita; their sources were not rechecked. For the next story pass: Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund, Musk SpaceX shares pledge, JPM Coin primary source.
+- Requests: watch.json updated (3 added, uncited aged-out ids removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

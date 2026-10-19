@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T10:15:00Z",
-  "capture": "2026-10-19T1000Z",
+  "updated_at": "2026-10-19T11:40:00Z",
+  "capture": "2026-10-19T1104Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -10,25 +10,12 @@
       "also": []
     },
     {
-      "id": "2111593695233687855",
-      "desk": "sports",
-      "line": "Barstool Sports says Auburn won at Georgia. ESPN, attached, calls it a shock for the No. 1 Bulldogs and says they had won 53 straight games against unranked teams before this one.",
-      "also": [
-        "2111593381038059718"
-      ]
-    },
-    {
       "id": "2111646125711138966",
       "desk": "defense",
       "line": "BNO News, a news account, says officials report \"significant casualties,\" including deaths, after an explosion at a Canadian military base in Wainwright, Alberta. A later BBC post says four were killed and dozens injured in a major fire at the base. Not checked here.",
       "also": [
         "2111994362179510541"
       ]
-    },
-    {
-      "id": "2111598571254325359",
-      "desk": "disaster",
-      "line": "The New York Times posts a breaking-news alert saying two people, including a child, were killed and several others injured when a truck drove through a soccer game in Wichita, Kansas, the authorities said."
     },
     {
       "id": "2111659042590314770",
@@ -42,12 +29,6 @@
       "also": [
         "2111633427011170306"
       ]
-    },
-    {
-      "id": "2111589148146749616",
-      "desk": "science",
-      "line": "Odyssey, an AI lab, says it placed a fruit fly brain inside its world model, Odyssey-3, and that the simulated fly now flies around imagined worlds by itself. The claim is the lab's own. Not checked here.",
-      "also": []
     },
     {
       "id": "2111734532483207284",
@@ -172,6 +153,20 @@
       "id": "2112080500361760920",
       "desk": "sports",
       "line": "The Tennis Letter says tennis players Elina Svitolina and Gael Monfils are ending their marriage. It posts a statement it says Svitolina shared on Instagram, in which she says the war in Ukraine has weighed on her and that there is no one to blame. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112076543250124825",
+      "desk": "entertainment",
+      "line": "VISUAL ARTS, the company behind the Key studio, says it has an important announcement about its creator Jun Maeda and points to attached documents. Posts about it report that Maeda has pharyngeal cancer and has chosen palliative care; the company statement itself is in the attachment.",
+      "also": [
+        "2112114025253249306"
+      ]
+    },
+    {
+      "id": "2112126166673022976",
+      "desk": "markets",
+      "line": "Watcher.Guru reports that JPMorgan is expanding its JPM Coin deposit token to Ethereum, so that institutional clients can transfer money around the clock. Crypto outlets report the same; I did not find a JPMorgan statement. Not checked here.",
       "also": []
     }
   ]
