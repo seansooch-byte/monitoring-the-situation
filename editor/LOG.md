@@ -1602,3 +1602,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (Macron and ABC ids added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T13:15Z
+- Captures read: 1302Z. Last read: 1302Z.
+- X's check: 1302Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 27 items (0 new, 2 dropped as past 36 hours: MLS Messi post with Romano attached, and the "bed rotting" post). The build holds two posts (discussingfilm, skynews) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: upuknews1 Saudi executions post (claim about real people, unconfirmed outside X); Elon Musk SpaceX shares pledge (second Musk post, unconfirmed); mattvanswol Milan post (insults about migrants); 6ixbuzztv piggy bank post (child); A_Oberdorff and RabbiJeffx (private_individual); Bornakang and boymolish Eve Jobs posts (private-life gossip, not a clear fit); old_content posts. Quiet: business, gaming, ideas.
+- Requests: watch.json updated (3 dropped ids removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

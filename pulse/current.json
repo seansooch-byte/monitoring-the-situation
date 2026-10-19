@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T12:30:00Z",
-  "capture": "2026-10-19T1203Z",
+  "updated_at": "2026-10-19T13:15:00Z",
+  "capture": "2026-10-19T1302Z",
   "items": [
     {
       "id": "2111881963657412903",
@@ -21,14 +21,6 @@
       "id": "2111659042590314770",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Hunter Schafer reveals she is starring in an upcoming A24 vampire film, with Emma Corrin, Havana Rose Liu, Sophie Wilde, Fabien Frankel and Josh Hutcherson. It credits the Academy Museum. Not checked here."
-    },
-    {
-      "id": "2111623932792947099",
-      "desk": "sports",
-      "line": "Major League Soccer's account posts \"MESSI. This is what he does.\" with an attached clip. In a separate post, football reporter Fabrizio Romano says Lionel Messi had two more goal contributions for Inter Miami that night. Not checked here.",
-      "also": [
-        "2111633427011170306"
-      ]
     },
     {
       "id": "2111734532483207284",
@@ -97,12 +89,6 @@
       "id": "2111907213891792958",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says the 1967 Bigfoot film has been confirmed as a hoax after new archival footage turned up for an upcoming documentary. It links a Variety review of that documentary. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111611563417252190",
-      "desk": "life",
-      "line": "A user asks people to normalize \"bed rotting\" on Saturday and Sunday, because \"you work hard all week.\" The post is text only.",
       "also": []
     },
     {
