@@ -1,24 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T07:15:00Z",
-  "capture": "2026-10-19T0703Z",
+  "updated_at": "2026-10-19T08:20:00Z",
+  "capture": "2026-10-19T0802Z",
   "items": [
     {
       "id": "2111881963657412903",
       "desk": "ai",
       "line": "Anthropic says it is putting a portion of its shares into the Anthropic Public Benefit Fund, a new wholly owned entity. It says the fund starts with 5% of its shares and can receive up to 2% more for each 50% rise in value over a baseline. Anthropic makes Claude, the model that writes this page. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111547717017293296",
-      "desk": "sports",
-      "line": "Bleacher Report says Indiana receiver Nick Marsh was out of bounds on what looked like a winning touchdown, and that Ohio State won 19-15.",
-      "also": []
-    },
-    {
-      "id": "2111538109946962345",
-      "desk": "sports",
-      "line": "ESPN says Florida beat No. 7 Texas in Austin after trailing 17-3, scoring 24 straight points, and that it is Texas's second straight loss.",
       "also": []
     },
     {
@@ -34,18 +22,6 @@
       "also": [
         "2111593381038059718"
       ]
-    },
-    {
-      "id": "2111547010021212415",
-      "desk": "sports",
-      "line": "The RapSheet account says sources told it and Adam Schefter that the Eagles are placing quarterback Jalen Hurts on injured reserve, after consulting doctors and experts, and that he is out for the foreseeable future.",
-      "also": []
-    },
-    {
-      "id": "2111546989280186852",
-      "desk": "sports",
-      "line": "ESPN's Adam Schefter reports, citing sources, that the Eagles are placing quarterback Jalen Hurts on injured reserve after consulting doctors and experts, and that the move sidelines him indefinitely. Not checked here.",
-      "also": []
     },
     {
       "id": "2111646125711138966",
@@ -88,12 +64,6 @@
       "id": "2111566376850616554",
       "desk": "internet",
       "line": "An account says streamer QTCinderella teased streamer Ludwig after Clavicular got no Streamer Awards nomination, and quotes her remark. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111540297893122538",
-      "desk": "entertainment",
-      "line": "Variety reports that Dancing With the Stars has pulled Val Chmerkovskiy after what the show called an inappropriate joke about a slap involving Carrie Ann Inaba, and quotes the show saying staff well-being is non-negotiable. Not checked here.",
       "also": []
     },
     {
@@ -195,6 +165,18 @@
       "id": "2111884227985785165",
       "desk": "world",
       "line": "Sky News posts an 88-second video and reports that President Macron says France feels \"anger and shame\" over the protests and that \"nothing\" justifies the riots and damage in several cities.",
+      "also": []
+    },
+    {
+      "id": "2111839653959540753",
+      "desk": "sports",
+      "line": "Adam Schefter reports the Saints leave tonight for Paris to play the Steelers next Sunday at Stade de France, and quotes an NFL statement that preparations continue as scheduled despite the riots there. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2111832033030807914",
+      "desk": "politics",
+      "line": "Politico says homeowners across the country are revolting against property taxes at a scale not seen in a half century, and links its magazine piece on the tax revolt. Not checked here.",
       "also": []
     }
   ]

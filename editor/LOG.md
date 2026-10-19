@@ -1552,3 +1552,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 dropped id removed, 1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T08:20Z
+- Captures read: 0802Z. Last read: 0802Z.
+- X's check: 0802Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 30 items (2 new, 5 dropped). Dropped as past 36 hours: Bleacher Report (Ohio State), ESPN (Florida), RapSheet and Schefter (Hurts posts), Variety. New: Schefter on the Saints trip to Paris (sports) and Politico on the property tax revolt (politics). The build holds two posts (discussingfilm, skynews) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Wichita soccer-game incident (heatedreports, aggregator, child victim, unnamed driver); Love and Deepspace crossover (advertisement); Macron "Adresse aux Français" (no text, cannot say what it says; the Sky News post already covers his statement); localteamit Milan police car video (no media description, unverified); versivald Pilar Sanders court claim (about a real person, not confirmed); mattvanswol Milan post (insults about migrants); private_individual and old_content posts. For the next story pass: Wainwright base fire, Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund, the NFL Paris game and the riots.
+- Requests: watch.json updated (2 dropped ids removed; the three ids cited by the Hurts and Marsh stories stay; 2 new added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
