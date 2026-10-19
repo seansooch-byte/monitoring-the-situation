@@ -1,0 +1,1 @@
+X rejected the first quote-stream read, the bare word and ("Ambiguous use of and as a keyword. Use a space to logically join two clauses, or \"and\" to find occurrences of and in text (at position 1)"); the read counted; reread with "and" quoted as CAPABILITIES.md says.
