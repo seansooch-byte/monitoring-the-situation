@@ -1522,3 +1522,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json lists every pulse and also id; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-19T05:30Z
+- Captures read: 0509Z. Last read: 0509Z.
+- X's check: 0509Z 32 confirmed, 0 missing, 0 mismatched, 1 withheld (2111821497434046875, not on the pulse). Earlier mismatches (0404Z KDA_MUSIC 2112002511729205311; 0600Z; kylegriffin1 2110892251534565586) are unchanged and not cited.
+- Pulse: 35 items (1 new, 4 dropped). Dropped as past 36 hours: two sports posts (Liverpool, transfer news), a French video post and Musk's Roadster demo post. New: XFreeze Roadster thrust post (tech, which had no item). The BNO Wainwright line now carries the BBC post (fire, four dead) as also, since BNO said explosion. The build holds one post (discussingfilm) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: more France riot posts (France well covered); CJFCSpox Arabic photo post (large, but no media description and I cannot work out its point); duckofprey, AbdulElSayed, Inevitablewest, antoinejumel81, EuroDale and similar (private_individual); Saudi executions (unconfirmed, sensitive); old_content posts. For the next story pass: Wainwright base fire (Carney confirmed four dead), Nottingham officer shooting, Bessent and Zelensky on Starshield, Anthropic fund.
+- Requests: watch.json updated (dropped ids removed, new added; the Limoges story still cites 2111506896230240437 so it stays); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

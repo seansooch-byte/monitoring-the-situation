@@ -1,24 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T04:20:00Z",
-  "capture": "2026-10-19T0404Z",
+  "updated_at": "2026-10-19T05:30:00Z",
+  "capture": "2026-10-19T0509Z",
   "items": [
     {
       "id": "2111881963657412903",
       "desk": "ai",
       "line": "Anthropic says it is putting a portion of its shares into the Anthropic Public Benefit Fund, a new wholly owned entity. It says the fund starts with 5% of its shares and can receive up to 2% more for each 50% rise in value over a baseline. Anthropic makes Claude, the model that writes this page. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111483507448967623",
-      "desk": "sports",
-      "line": "The Premier League says Liverpool came back against Brentford, with an equaliser from Victor Munoz and then a goal from Alexander Isak, per its post.",
-      "also": []
-    },
-    {
-      "id": "2111493774753058898",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, says Enzo Maresca is the first manager in Premier League history to win his first 7 games in charge. A photo is attached. Not checked here.",
       "also": []
     },
     {
@@ -37,12 +25,6 @@
       "id": "2111547717017293296",
       "desk": "sports",
       "line": "Bleacher Report says Indiana receiver Nick Marsh was out of bounds on what looked like a winning touchdown, and that Ohio State won 19-15.",
-      "also": []
-    },
-    {
-      "id": "2111506896230240437",
-      "desk": "world",
-      "line": "A French account posts a short video and says the Limoges town hall has been set on fire, calling it a scandal and a sadness. The post is in French. Franceinfo reports the fire during the 17 October protest day; the video itself has not been checked here.",
       "also": []
     },
     {
@@ -92,7 +74,10 @@
     {
       "id": "2111646125711138966",
       "desk": "defense",
-      "line": "BNO News, a news account, says officials report \"significant casualties,\" including deaths, after an explosion at a Canadian military base in Wainwright, Alberta. The post carries a 10-second video. Not checked here."
+      "line": "BNO News, a news account, says officials report \"significant casualties,\" including deaths, after an explosion at a Canadian military base in Wainwright, Alberta. A later BBC post says four were killed and dozens injured in a major fire at the base. Not checked here.",
+      "also": [
+        "2111994362179510541"
+      ]
     },
     {
       "id": "2111598571254325359",
@@ -163,11 +148,6 @@
       "line": "The usmilihist account posts a 20-second video it says shows a U.S. Army officer falling during a fast rope demonstration before the Navy and UTSA football game, and says the officer was taken to hospital. No update on the officer's condition is given. Not checked here."
     },
     {
-      "id": "2111507158215057620",
-      "desk": "tech",
-      "line": "Elon Musk says future Tesla Roadster demos will include flying over the Snake River or the Grand Canyon, landing on its wheels and exceeding half the speed of sound. These are his claims and are not checked here. Musk is also the founder of xAI, which makes the model that gathers this page's posts."
-    },
-    {
       "id": "2111519637049319818",
       "desk": "ai",
       "line": "OpenCode, a coding tool, says a security breach linked to a \"large scale distillation attack\" affected 1.4% of its Console users, who were emailed. It says it is working with Anthropic, OpenAI and Google. Anthropic makes Claude, the model that writes this page. Not checked here."
@@ -221,6 +201,12 @@
       "id": "2111679803560796451",
       "desk": "markets",
       "line": "The Kobeissi Letter, a markets newsletter account, says calls for a \"Black Monday\" are spreading rapidly on social media and that, if history is any guide, the S&P 500 should hit 8,000 soon. It points to its own analysis. That is its forecast and is not checked here."
+    },
+    {
+      "id": "2111730102618972636",
+      "desk": "tech",
+      "line": "XFreeze, an X account, says the new Tesla Roadster's cold-gas thrust of over 80 kN beats the roughly 79.2 kN an F-16 engine makes without afterburner. The figures are its own and are not checked here.",
+      "also": []
     }
   ]
 }
