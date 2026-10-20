@@ -1832,3 +1832,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T16:50Z
+- Captures read: 1502Z, 1600Z (1401Z was read last pass). Last read: 1600Z.
+- X's check: 1600Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 26 items (1 new, 1 dropped past 36 hours: Kylie Jenner "best day ever"). New: Eric Daugherty's video post on Trump saying the US would leave Europe (politics). The build holds three posts off the front page (elonmusk 2, PopBase 1).
+- Added: 2026-10-20-trump-threatens-to-leave-europe (politics, world; one outside source, Newsweek, so developing). Updated: none.
+- Left out: Umamusume LA cancellation, JPM Coin on Ethereum, Jay-Z halftime (Puck), Kharkiv park strike (searches found no outside confirmation of these specific claims); Kim Jong Un rumour; Paxton, Planet Fitness, Amy Acton posts (private individuals); Rob Schneider France post (opinion); Wytsekoetse tour post (advertisement). Live stories were not re-checked at length: the Limoges story still lacks official arrest figures.
+- Requests: watch.json updated (pulse ids plus the Trump post); open.json updated_at only.
+- Shipped: yes, commit d954839, live audit clean (log entry added in a follow-up commit).
+- For the main editor: web search returned thin results for several of today's claims, so I wrote one story rather than six. The message that started me had no instructions beyond the contract.
