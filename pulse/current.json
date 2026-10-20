@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T19:40:00Z",
-  "capture": "2026-10-20T1905Z",
+  "updated_at": "2026-10-20T20:20:00Z",
+  "capture": "2026-10-20T2007Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -12,17 +12,6 @@
       "id": "2112217914673959115",
       "desk": "politics",
       "line": "Elon Musk posts \"Talarico hates Texas\" with a link and no further explanation. Talarico is James Talarico, whom President Trump attacked in a separate post. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112089556615123114",
-      "desk": "business",
-      "line": "Elon Musk posts that next year he will give one of his SpaceX shares to every kid in America, and calls it the first of many. He gives no details in the post. Not checked here."
-    },
-    {
-      "id": "2112080500361760920",
-      "desk": "sports",
-      "line": "The Tennis Letter says tennis players Elina Svitolina and Gael Monfils are ending their marriage. It posts a statement it says Svitolina shared on Instagram, in which she says the war in Ukraine has weighed on her and that there is no one to blame. Not checked here.",
       "also": []
     },
     {
@@ -153,6 +142,21 @@
       "id": "2112537441110475235",
       "desk": "entertainment",
       "line": "DiscussingFilm posts that the trailer for the film Logan was released 10 years ago today. Not checked here."
+    },
+    {
+      "id": "2112281656266559956",
+      "desk": "medicine",
+      "line": "Polymarket reports that Veradermics says its experimental hair-loss pill significantly increased hair growth in over 500 men in a late-stage study, with no serious side effects. Not checked here."
+    },
+    {
+      "id": "2112231064663887996",
+      "desk": "entertainment",
+      "line": "TMZ reports that Richard Riehle, an actor in \"Office Space\", has died at 78. It links its own story. Not checked here."
+    },
+    {
+      "id": "2112145932049412375",
+      "desk": "defense",
+      "line": "US Representative Brian Fitzpatrick says he will speak with Ukraine's President Zelenskyy this week about Starshield, sanctions and defending Ukraine. He says he will bring bills on aid and sanctions to the House floor. Not checked here."
     }
   ]
 }
