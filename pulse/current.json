@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T04:10:00Z",
-  "capture": "2026-10-20T0400Z",
+  "updated_at": "2026-10-20T05:35:00Z",
+  "capture": "2026-10-20T0501Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -15,7 +15,7 @@
       "also": []
     },
     {
-      "id": "2111864930815402428",
+      "id": "2112217914673959115",
       "desk": "politics",
       "line": "Elon Musk posts \"Talarico hates Texas\" with a link and no further explanation. Talarico is James Talarico, whom President Trump attacked in a separate post. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
       "also": []
@@ -103,11 +103,6 @@
       "line": "The account scubaryan_ says streamer Fanum noticed someone watching his stream at the AMP House and made an infinite loop. The video has no description, so I could not see what it shows."
     },
     {
-      "id": "2111852574815264962",
-      "desk": "politics",
-      "line": "Molly Ploofkins posts a short video and captions it as President Trump saying that if Democrats win, \"You're going to be thrown into a system where everyone gets healthcare.\" The video has no description, so I could not see it. Not checked here."
-    },
-    {
       "id": "2111915544387735684",
       "desk": "sports",
       "line": "SM Highlights posts a short clip and says the Rams' new kicker, Blake Grupe, injured himself trying to tackle someone on a kickoff, after the team cut Harrison Mevis. Not checked here."
@@ -169,11 +164,6 @@
       "id": "2111994362179510541",
       "desk": "defense",
       "line": "BBC World reports a major fire at a military base in Canada that left four people dead and dozens injured, and links its own story. Not checked here."
-    },
-    {
-      "id": "2111857588858147149",
-      "desk": "markets",
-      "line": "Unusual Whales, an account that posts market news, says BlackRock's Larry Fink told CNBC that a data center moratorium could trigger a recession. Not checked here."
     },
     {
       "id": "2112293785472225568",

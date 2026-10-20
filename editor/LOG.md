@@ -1742,3 +1742,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T05:35Z
+- Captures read: 0501Z (0400Z was read last pass). Last read: 0501Z.
+- X's check: 0501Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 30 items (1 swapped, 2 dropped past 36 hours: Mollyploofkins, Unusual Whales BlackRock). The 36.5-hour Talarico post by elonmusk was replaced by his newer post with the same words (2112217914673959115, politics), same line. The build holds one post (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Rays AL pennant and 49ers win posts (sports already holds more than three items); Vance clip from atrupar (caption spells the quote oddly, point not clear enough); Hillary Clinton post (claims I could not check); Trump Texas early voting post (second post from an account already shown); franzkaftah and Y40IFRQTTING posts (jokes about religions); Musk timeline post (second post from an account on the front page); videos of private people (as before). For the next story pass: Rays pennant and World Series, if a researched story is wanted. The Anthropic, OnePunch Man, Sky News and Local Team items pass 36 hours next pass.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
