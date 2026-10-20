@@ -1852,3 +1852,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T18:35Z
+- Captures read: 1804Z (1705Z was read last pass). Last read: 1804Z.
+- X's check: 1804Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 27 items (0 new, 0 dropped). Every item is still live and inside 36 hours; the oldest (Elon Musk "one-shotted", 06:35Z on the 19th) goes at the next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: SpaceX Q3 earnings notice and Elon Musk "massive numbers for UK & Spain" (account already placed, not among the largest); Fox News WNBA anthem, Angel Reese and WNBA Finals posts (sports already holds more than three); RapidResponse47 post quoting Trump on Paris (world already holds more than three; quote not checked); French riot videos, child sumo videos, shop CCTV and Nicki Minaj fan photos (private individuals or minors).
+- Requests: watch.json and open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
