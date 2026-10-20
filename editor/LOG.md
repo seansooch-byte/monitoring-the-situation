@@ -1872,3 +1872,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T21:15Z
+- Captures read: 2007Z, 2059Z (1905Z was read last logged pass; the 2014Z pass refreshed the pulse to 2007Z without a log entry). Last read: 2059Z.
+- X's check: 2059Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 31 items (3 new, 0 dropped; all items are inside 36 hours). New: FC Barcelona "We are not afraid" with Fabrizio Romano's PSG post attached (sports), GOV.UK clocks going back (life), Daily Mail on Christina Applegate (entertainment). The build holds one post off the front page (PopBase 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk and ScottPresler Paxton posts (campaign appeals, account already placed); bizarrebiology gif (no media description, point unclear); James O'Keefe El-Sayed post (unchecked claim about a candidate, politics full); Candace Owens posts (a dispute with a named person, not checked); atrupar Trump Q&A clip (politics full); springfield1952 post (private individual); HarmlessHQ beheading post (unchecked graphic claim); live NBA and PSG match posts (sports full, small).
+- Requests: watch.json updated (4 added); open.json updated_at only.
+- Shipped: yes, commit 0050260, live audit clean (log added in a follow-up commit, which changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
