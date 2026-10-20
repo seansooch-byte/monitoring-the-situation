@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T21:15:00Z",
-  "capture": "2026-10-20T2059Z",
+  "updated_at": "2026-10-20T22:30:00Z",
+  "capture": "2026-10-20T2207Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -162,7 +162,9 @@
       "id": "2112378472823763384",
       "desk": "sports",
       "line": "FC Barcelona posts the words \"We are not afraid.\" and nothing else. Fabrizio Romano later posts that Paris Saint-Germain have made it four against Barcelona, Barcelona's first defeat of the season. The Barcelona post does not say what it refers to.",
-      "also": ["2112649648641065013"]
+      "also": [
+        "2112649648641065013"
+      ]
     },
     {
       "id": "2112533057991262562",
@@ -173,6 +175,11 @@
       "id": "2112528089297117401",
       "desk": "entertainment",
       "line": "The Daily Mail posts that actor Christina Applegate tearfully says she does not have MS and was misdiagnosed for years. It links its own story. Not checked here."
+    },
+    {
+      "id": "2112612774874325148",
+      "desk": "politics",
+      "line": "Fox News reports that President Trump described a new anti-fraud program that would pay a 1% commission to anyone who reports fraud that is then uncovered. In the clip Trump says a person who reports fraud worth $1 billion would get that share. Not checked here."
     }
   ]
 }

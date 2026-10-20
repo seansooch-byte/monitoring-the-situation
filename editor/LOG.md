@@ -1882,3 +1882,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added); open.json updated_at only.
 - Shipped: yes, commit 0050260, live audit clean (log added in a follow-up commit, which changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T22:30Z
+- Captures read: 2207Z (2059Z was read last pass). Last read: 2207Z.
+- X's check: 2207Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 32 items (1 new, 0 dropped; all items are inside 36 hours, the oldest are WatcherGuru, WarMonitor3 and RepBrianFitz at about 10:20Z on the 19th and go at the next pass). New: Fox News on Trump's 1% anti-fraud commission program (politics).
+- Added: none. Updated: none (pulse pass).
+- Left out: Phil_Lewis_ Senatobia shooting post (names a child victim); RahulGandhi RSS post (world already holds three); amanpour "An update from me" (point unclear from its words); Nick Shirley Oval Office posts from EricLDaugh, GuntherEagleman and MAGAVoice (politics full, not checked; a lead for the next story pass); ThereSofie credit card post (private individual); lariemolegal birthday clip (Portuguese, point unclear); messedupfoods, druski, BGOnTheScene, davido and ShamsCharania posts (older than 36 hours); live NBA and match posts (sports full, small).
+- Requests: watch.json updated (new pulse id added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
