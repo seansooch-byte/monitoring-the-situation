@@ -1822,3 +1822,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T14:15Z
+- Captures read: 1401Z (1310Z was read last pass). Last read: 1401Z.
+- X's check: 1401Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 25 items (1 new, 3 dropped). New: the Umamusume English account's cancellation of its Los Angeles concerts (gaming; replaces its earlier visa-pending post, which is now in `also`). Dropped past 36 hours: BBC World Canada base fire, DiscussingFilm Apu voice clip. The build holds three posts off the front page (elonmusk 2, PopBase 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: Jadeeslike Avengers: Endgame GIF (no text or description to say what it is); SumitM_X "WHAT ??" (point not clear); AnimeSpotlightt post on Japanese fans (aggregator, quotes unattributed); Ballon d'Or voting and all-time nominees posts, NBA season-opener and Knicks posts (sports already holds more than three); Kick streamer fight videos, Amy Acton mother ad, bullhorn video and replies, Paxton post (private individuals); Ohio poll posts (small). For the next story pass: Umamusume cancellation (official notice not opened); Ronaldo suspension (federation statement).
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

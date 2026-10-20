@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T13:35:00Z",
-  "capture": "2026-10-20T1310Z",
+  "updated_at": "2026-10-20T14:15:00Z",
+  "capture": "2026-10-20T1401Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -40,9 +40,12 @@
       "also": []
     },
     {
-      "id": "2112016006331945286",
+      "id": "2112401161940529303",
       "desk": "gaming",
-      "line": "The official Umamusume: Pretty Derby English account says US visas for its Oct 22 to 23 concerts in Los Angeles had not yet been approved. It says it will announce by 10:00 p.m. Pacific on Oct 19 whether they can go ahead. Not checked here."
+      "line": "The official Umamusume: Pretty Derby English account announces that its Oct 22 to 23 concerts in Los Angeles are cancelled because it could not get the US visas needed for entry. It says it will refund on-site and streaming tickets. Not checked here.",
+      "also": [
+        "2112016006331945286"
+      ]
     },
     {
       "id": "2112216349393232083",
@@ -89,11 +92,6 @@
       "line": "Fabrizio Romano reports that Portugal's football federation has suspended Cristiano Ronaldo for 30 days and fined him €255 after he left the national team's camp in Denmark. He says Ronaldo had suggested a punishment himself after apologizing. Not checked here."
     },
     {
-      "id": "2111994362179510541",
-      "desk": "defense",
-      "line": "BBC World reports a major fire at a military base in Canada that left four people dead and dozens injured, and links its own story. Not checked here."
-    },
-    {
       "id": "2112293785472225568",
       "desk": "politics",
       "line": "President Trump thanks Elon Musk for what he calls his generosity in giving SpaceX stock to American children through Trump Accounts. Musk's own post on this is also on this page. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
@@ -104,11 +102,6 @@
       "desk": "life",
       "line": "The Weather Channel posts, as a joke, that the sun will soon set at 4:30 pm and that people should prepare to eat dinner in the dark. It gives no place or date.",
       "also": []
-    },
-    {
-      "id": "2111987220932649464",
-      "desk": "entertainment",
-      "line": "DiscussingFilm posts a clip saying the voice of Apu from The Simpsons has been revealed, and that the character has not spoken for almost a decade. I could not make out from the post who the new voice is. Not checked here."
     },
     {
       "id": "2112126846972149931",
