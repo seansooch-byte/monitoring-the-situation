@@ -1802,3 +1802,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (6 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the ten Hag interview itself was not opened, so those quotes rest on posts. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T12:25Z
+- Captures read: 1200Z (1103Z was read last pass). Last read: 1200Z.
+- X's check: 1200Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 26 items (1 new, 2 dropped past 36 hours: 60 Minutes Dhillon clip, PopCulture2000s Kylie Jenner video). New: Zelenskyy's post on the Kharkiv region strike (world; his figures, marked not checked; the line names no victims). The build holds two posts (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: GMMTV announcement on two actor pairs (Thai text, point is in an image with no description); Kim Jong Un death posts (unconfirmed rumour); Kick streamer criminal charges (private person, unchecked); Hurts and other sports posts (sports already holds more than three); Planet Fitness and Amy Acton posts (private individuals). For the next story pass: Kharkiv strike; Kim Jong Un rumour (check for any official word); Hurts out for the season.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

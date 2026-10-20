@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T11:30:00Z",
-  "capture": "2026-10-20T1103Z",
+  "updated_at": "2026-10-20T12:20:00Z",
+  "capture": "2026-10-20T1200Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -18,12 +18,6 @@
       "id": "2112089556615123114",
       "desk": "business",
       "line": "Elon Musk posts that next year he will give one of his SpaceX shares to every kid in America, and calls it the first of many. He gives no details in the post. Not checked here."
-    },
-    {
-      "id": "2111977227483267574",
-      "desk": "life",
-      "line": "PopCulture2000s posts a 39-second video and says Kylie Jenner is wearing a \"22 million dollars\" fantasy bra at the Victoria's Secret show. The price is the account's claim. Not checked here.",
-      "also": []
     },
     {
       "id": "2112080500361760920",
@@ -69,14 +63,6 @@
       "id": "2112175612932882744",
       "desk": "sports",
       "line": "The Indianapolis Colts account says the team has relieved Chris Ballard of his duties as general manager."
-    },
-    {
-      "id": "2111969347497312730",
-      "desk": "politics",
-      "line": "60 Minutes posts its interview clip with Harmeet Dhillon, who heads the Justice Department Civil Rights Division, on noncitizen voting. Dhillon says the distrust already exists and such crimes are now prosecuted in volume. Sen. Mike Lee quotes it with a TSA comparison.",
-      "also": [
-        "2112069558362407284"
-      ]
     },
     {
       "id": "2112036444541952086",
@@ -154,6 +140,11 @@
       "id": "2112451712870953105",
       "desk": "sports",
       "line": "The Touchline posts quotes it attributes to Erik ten Hag, Manchester United's former manager, saying Cristiano Ronaldo let the team down and was not training properly. Not checked here."
+    },
+    {
+      "id": "2112225056478679118",
+      "desk": "world",
+      "line": "Ukrainian President Volodymyr Zelenskyy posts photos and says a Russian shahed drone struck people in a park near a cafe in the Kharkiv region, killing six, including children, and wounding 14. He asks allies to keep sanctions on Russia and to give Ukraine air defense. These are his figures. Not checked here."
     }
   ]
 }
