@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T09:25:00Z",
-  "capture": "2026-10-20T0906Z",
+  "updated_at": "2026-10-20T10:25:00Z",
+  "capture": "2026-10-20T1007Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -152,6 +152,11 @@
       "desk": "world",
       "line": "Politics UK reports that Andy Burnham has announced changes to car parking fines: a 5-minute grace period before parking, 10 minutes to leave, and a £20 maximum on appeal for minor mistakes. It says the £100 cap stays. Not checked here.",
       "also": null
+    },
+    {
+      "id": "2112223850696200226",
+      "desk": "entertainment",
+      "line": "Gulte, an Indian film news account, posts a 48-second video with words it attributes to the actor Yash. It says he asks viewers not to pick at small faults such as the effects in Ramayana, and to watch the film with an open mind. Not checked here."
     }
   ]
 }

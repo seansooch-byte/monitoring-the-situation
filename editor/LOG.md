@@ -1782,3 +1782,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only (every pulse post was already on watch).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T10:25Z
+- Captures read: 1007Z (0906Z was read last pass). Last read: 1007Z.
+- X's check: 1007Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 27 items (1 new, 0 dropped; nothing is past 36 hours yet). New: Gulte's video of Yash on Ramayana criticism (entertainment, marked not checked). The build holds two posts (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Eric Daugherty's Trump NATO post (politics already holds more than three); Mark Ruffalo on TikTok and the Musk documentary (claim about a company unchecked, small); Ten Hag on Ronaldo, Angel Reese and 49ers posts (sports already holds more than three); Good Tuesday greetings (small); videos of private people (as before). For the next story pass: Rays to the World Series; Hurts out for the season; Savannah Flock and ICE story; Trump on leaving Europe.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
