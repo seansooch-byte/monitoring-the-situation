@@ -1842,3 +1842,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (pulse ids plus the Trump post); open.json updated_at only.
 - Shipped: yes, commit d954839, live audit clean (log entry added in a follow-up commit).
 - For the main editor: web search returned thin results for several of today's claims, so I wrote one story rather than six. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T17:30Z
+- Captures read: 1705Z (1600Z was read last pass). Last read: 1705Z.
+- X's check: 1705Z 26 confirmed, 0 missing, 0 mismatched, 2 withheld. The withheld ones include theestallion's #TINATUESDAY post (2112575454821646467), which I tried to add and removed. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 27 items (1 new, 0 dropped). New: HYPEX's Slender Man in Fortnite showcase video (gaming). The build holds three posts off the front page (elonmusk 2, PopBase 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: Megan Thee Stallion freestyle (withheld by X); TMZ and DiscussingFilm Jay-Z copies (PopBase already shown); unusual_whales GTA VI claim (gaming already at three); Watcher.Guru UK TV licence (world already holds more than three; not researched); Netflix FROM (advertisement); Amy Acton and French riot posts (private individuals or minors); Obama, Macron, Cybercab posts (past 36 hours).
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

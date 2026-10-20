@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T16:50:00Z",
-  "capture": "2026-10-20T1600Z",
+  "updated_at": "2026-10-20T17:30:00Z",
+  "capture": "2026-10-20T1705Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -152,6 +152,11 @@
       "id": "2112336156360638591",
       "desk": "politics",
       "line": "Commentator Eric Daugherty shares a video of President Trump saying the US would have \"no choice but to LEAVE\" Europe if it does not \"find their way\", and calls it official. Newsweek reports the same threat from a Truth Social post and says the White House gave no detail. See the story."
+    },
+    {
+      "id": "2112198022255768028",
+      "desk": "gaming",
+      "line": "HYPEX posts a 46-second video it calls the full showcase of Slender Man in Fortnite. The post says nothing more about it."
     }
   ]
 }
