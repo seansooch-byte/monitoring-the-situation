@@ -1892,3 +1892,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (new pulse id added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T23:10Z
+- Captures read: 2258Z (2207Z was read last pass). Last read: 2258Z.
+- X's check: 2258Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 31 items (1 new, 2 dropped past 36 hours: WatcherGuru, WarMonitor3). New: Polymarket on an Anthropic loss claim (ai; unchecked, and the line says the model writing the page is made by Anthropic). The build holds two posts off the front page (PopBase 1, Polymarket 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); FelixKhouryy Portuguese post (point unclear); NYT Bloomberg donation, Paxton posts, Nick Shirley posts (politics full, unchecked; Shirley is still a lead for the next story pass); TMZ Dylan Sprouse (entertainment full); Elon Musk SpaceX revenue post (account already placed, small); live NBA posts (sports full, small).
+- Requests: watch.json updated (new pulse id added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
