@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T12:20:00Z",
-  "capture": "2026-10-20T1200Z",
+  "updated_at": "2026-10-20T13:35:00Z",
+  "capture": "2026-10-20T1310Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -145,6 +145,12 @@
       "id": "2112225056478679118",
       "desk": "world",
       "line": "Ukrainian President Volodymyr Zelenskyy posts photos and says a Russian shahed drone struck people in a park near a cafe in the Kharkiv region, killing six, including children, and wounding 14. He asks allies to keep sanctions on Russia and to give Ukraine air defense. These are his figures. Not checked here."
+    },
+    {
+      "id": "2112427182631145953",
+      "desk": "music",
+      "line": "PopBase says Puck reports that Jay-Z has picked himself to headline the 2027 Super Bowl halftime show, and that Miley Cyrus and Justin Bieber were reportedly considered. The post links Puck's story. Not checked here.",
+      "also": []
     }
   ]
 }
