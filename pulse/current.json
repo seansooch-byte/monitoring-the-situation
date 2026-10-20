@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T06:15:50Z",
-  "capture": "2026-10-20T0607Z",
+  "updated_at": "2026-10-20T07:10:10Z",
+  "capture": "2026-10-20T0704Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -164,6 +164,11 @@
       "id": "2112126846972149931",
       "desk": "world",
       "line": "WarMonitor3 reports that Ukraine carried out the first medical evacuation of a person by drone, when its 30th mechanised brigade got an injured soldier out of a minefield. Not checked here."
+    },
+    {
+      "id": "2112070071401238607",
+      "desk": "ai",
+      "line": "Elon Musk posts that many people will be \"one-shotted\" by super persuasive super intelligences, and that he might be one of them. He gives no example or detail."
     }
   ]
 }

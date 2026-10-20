@@ -1762,3 +1762,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T07:12Z
+- Captures read: 0704Z (0607Z was read last pass). Last read: 0704Z.
+- X's check: 0704Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 29 items (1 new, 0 dropped; nothing is past 36 hours yet, the oldest, Macron and scubaryan, go in the next two passes). New: Elon Musk's "one-shotted" post (ai desk, which had no item; the account's other items are on politics and business). The build holds two posts (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fousey post (cut off, point not clear); GMMTV announcement (Thai, unclear what it announces; entertainment already has three); Hire Grok and Grok bot posts (promotion); Musk USB-C and timeline posts (second posts from an account on the front page); Kim Jong Un rumours; Ronaldo, Hurts, Rays and 49ers posts (sports already holds more than three); videos of private people (as before). For the next story pass: Rays to the World Series; Hurts out for the season; Savannah Flock and ICE story.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
