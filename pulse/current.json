@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T14:15:00Z",
-  "capture": "2026-10-20T1401Z",
+  "updated_at": "2026-10-20T15:20:00Z",
+  "capture": "2026-10-20T1502Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -144,6 +144,14 @@
       "desk": "music",
       "line": "PopBase says Puck reports that Jay-Z has picked himself to headline the 2027 Super Bowl halftime show, and that Miley Cyrus and Justin Bieber were reportedly considered. The post links Puck's story. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2112514626256884044",
+      "desk": "science",
+      "line": "SpaceX posts that the rideshare deployment sequence has started. The post names no mission and no customers. An earlier SpaceX post says a Falcon 9 first stage landed on the droneship A Shortfall of Gravitas. Not checked here.",
+      "also": [
+        "2112502543947325773"
+      ]
     }
   ]
 }
