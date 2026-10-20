@@ -1812,3 +1812,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T13:35Z
+- Captures read: 1310Z (1200Z was read last pass). Last read: 1310Z.
+- X's check: 1310Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 27 items (1 new, 0 dropped; nothing is past 36 hours). New: PopBase's post on Puck's report that Jay-Z picked himself for the 2027 Super Bowl halftime show (music; marked not checked). The build holds three posts off the front page (elonmusk 2, PopBase 1; the PopBase one stands on the music page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Kim Jong Un death posts (unconfirmed rumour); Netflix FROM promotion (advertisement); Atrupar Vance protester clip, nicksortor rally clip, Shawn Ryan episode post (private individuals); Trump on leaving Europe and on Russia and Ukraine (politics and world already hold more than three; not researched); Hurts, Ben Simmons and NBA waiver posts (sports already holds more than three); GMMTV and Dunk Natachai Thai posts (point not clear from words). For the next story pass: Jay-Z halftime report (Puck's story not opened); Kim Jong Un rumour (any official word); Trump on leaving Europe.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
