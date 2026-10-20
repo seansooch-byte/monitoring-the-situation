@@ -1,0 +1,48 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-19-ronaldo-portugal-suspension",
+  "title": "Portugal suspends Cristiano Ronaldo for 30 days and fines him 255 euros for leaving camp",
+  "dek": "The penalty covers his walkout from the national team base. Reports say it will cost him no matches.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-19T17:19:34Z",
+  "updated_at": "2026-10-20T11:30:00Z",
+  "what": [
+    "The Portuguese Football Federation suspended Cristiano Ronaldo for 30 days and fined him 255 euros, according to ABC News and The National. The penalty follows his departure from the national team base in Copenhagen before a Nations League match against Denmark.",
+    "Reports say he left after a dispute with coach Jorge Jesus, who had not played him in a win over Norway. The National reports Ronaldo admitted the facts and had a clean disciplinary record, which reduced the penalty. Plataforma Media reports he had already served 19 days and will miss no matches, and that the next international window starts on 12 November.",
+    "Separately, posts quote Erik ten Hag, Ronaldo's former manager at Manchester United, in an interview with The Athletic published on Tuesday 20 October. In the posts he says Ronaldo let the team down and let him down, that Ronaldo was not training properly, and that he respected him as one of the best players in history. I did not open the interview. These quotes rest on posts only.",
+    "One post says Ronaldo had himself suggested a punishment after apologising. I could not confirm that outside X."
+  ],
+  "why": "Ronaldo is one of the most followed people in the world, and a public row with his national coach and a former club manager has put his name back in many feeds.",
+  "next": "Portugal's next matches are in the window that starts on 12 November.",
+  "posts": [
+    {
+      "id": "2112232199177068907",
+      "role": "origin"
+    },
+    {
+      "id": "2112472113953091801",
+      "role": "voice"
+    },
+    {
+      "id": "2112451712870953105",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ABC News: Ronaldo suspended for 30 days and fined for walking out on Portugal camp",
+      "url": "https://abcnews.com/Sports/wireStory/ronaldo-suspended-30-days-fined-walking-portugal-camp-137395782"
+    },
+    {
+      "label": "The National: Cristiano Ronaldo handed 30-day suspension and 255 euro fine by Portuguese FA",
+      "url": "https://www.thenationalnews.com/sport/football/2026/10/20/cristiano-ronaldo-handed-30-day-suspension-and-255-fine-by-portuguese-fa/"
+    },
+    {
+      "label": "Plataforma Media: Cristiano Ronaldo suspended 30 days by Portuguese Football Federation",
+      "url": "https://www.plataformamedia.com/en/2026/10/20/cristiano-ronaldo-suspended-30-days-by-portuguese-football-federation/"
+    }
+  ]
+}

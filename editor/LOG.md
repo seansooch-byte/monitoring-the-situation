@@ -1792,3 +1792,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T11:35Z
+- Captures read: 1103Z (1007Z was read last pass). Last read: 1103Z.
+- X's check: 1103Z 28 confirmed, 1 mismatched (2112357292444385405, KDA_MUSIC track list, hashtag differences; not cited), 0 missing, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 27 items (2 new, 2 dropped past 36 hours: Jeremy Judkins Cybercab video, Shams Charania Kings post). New: MLB's World Series post; The Touchline's ten Hag quotes on Ronaldo (marked not checked). The build holds two posts (elonmusk) off the front page.
+- Added: 2026-10-20-rays-brewers-world-series (sports), 2026-10-19-ronaldo-portugal-suspension (sports). Updated: none; I did not re-check older live stories this pass.
+- Left out: Hurts out for the season update, Savannah Flock and ICE story, Trump on leaving Europe, Slotkin lawfare post (not researched); KDA track list (mismatched); videos of private people (as before).
+- Requests: watch.json updated (6 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the ten Hag interview itself was not opened, so those quotes rest on posts. The message that started me had no instructions beyond the contract.

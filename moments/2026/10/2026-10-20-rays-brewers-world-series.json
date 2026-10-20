@@ -1,0 +1,47 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-20-rays-brewers-world-series",
+  "title": "Rays beat Guardians in Game 6 and will play the Brewers in the World Series",
+  "dek": "One of two teams that have never won a title will win this one. It is the first such final since 1980.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-20T03:09:00Z",
+  "updated_at": "2026-10-20T11:30:00Z",
+  "what": [
+    "The Tampa Bay Rays beat the Cleveland Guardians 7-3 on Monday 19 October and won the American League Championship Series 4 games to 2, according to reports from NPR, ESPN and others. Freddy Peralta pitched 5 and a third innings, and Junior Caminero and Yandy Diaz each hit a two-run home run, according to Yahoo Sports.",
+    "They will face the Milwaukee Brewers. Neither team has won a World Series, so a first-time champion is guaranteed. NPR and CBS Sports report it is the first final between two such teams since 1980. Game 1 is on Friday 23 October in Milwaukee.",
+    "An account on X posted earlier on Monday that the Rays were one win from their third American League pennant. After the game it posted that the matchup was set."
+  ],
+  "why": "Fans of two small-market teams have waited a long time, and a title is certain for one of them. Former Rays players, shown at the game in one post, were part of the talk.",
+  "next": "Game 1 is on Friday 23 October in Milwaukee.",
+  "posts": [
+    {
+      "id": "2112265147435659592",
+      "role": "voice"
+    },
+    {
+      "id": "2112348662302970184",
+      "role": "voice"
+    },
+    {
+      "id": "2112380534089252933",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "NPR: Rays will face Brewers in World Series to produce a first-time champion",
+      "url": "https://www.npr.org/2026/10/20/nx-s1-6008836/rays-brewers-world-series"
+    },
+    {
+      "label": "ESPN: Rays clinch ALCS in Game 6, to face Brewers in World Series",
+      "url": "https://www.espn.com/mlb/story/_/id/50224233/rays-clinch-alcs-game-6-face-brewers-world-series"
+    },
+    {
+      "label": "Yahoo Sports: Peralta, big bats deliver Rays past Guardians in ALCS Game 6",
+      "url": "https://sports.yahoo.com/mlb/breaking-news/article/guardians-rays-box-score-live-updates-lineups-starting-pitchers-news-highlights-where-to-watch-game-6-alcs-230328352.html"
+    }
+  ]
+}

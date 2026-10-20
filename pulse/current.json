@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T10:25:00Z",
-  "capture": "2026-10-20T1007Z",
+  "updated_at": "2026-10-20T11:30:00Z",
+  "capture": "2026-10-20T1103Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -18,19 +18,6 @@
       "id": "2112089556615123114",
       "desk": "business",
       "line": "Elon Musk posts that next year he will give one of his SpaceX shares to every kid in America, and calls it the first of many. He gives no details in the post. Not checked here."
-    },
-    {
-      "id": "2111946722591006758",
-      "desk": "tech",
-      "line": "Jeremy Judkins posts a video of what he calls coffee and contemplation inside a Tesla Cybercab. The post is his own account of the ride and has not been checked here."
-    },
-    {
-      "id": "2111949144210464799",
-      "desk": "sports",
-      "line": "NBA reporter Shams Charania says, citing sources at ESPN, that Sacramento Kings guard Ben Simmons is believed to have torn an Achilles tendon at practice on Sunday. His follow-up says an MRI confirmed a season-ending tear. Not checked here.",
-      "also": [
-        "2111955572807602620"
-      ]
     },
     {
       "id": "2111977227483267574",
@@ -157,6 +144,16 @@
       "id": "2112223850696200226",
       "desk": "entertainment",
       "line": "Gulte, an Indian film news account, posts a 48-second video with words it attributes to the actor Yash. It says he asks viewers not to pick at small faults such as the effects in Ramayana, and to watch the film with an open mind. Not checked here."
+    },
+    {
+      "id": "2112380534089252933",
+      "desk": "sports",
+      "line": "MLB posts that the World Series matchup is set and that either the Brewers or the Rays will win their first championship."
+    },
+    {
+      "id": "2112451712870953105",
+      "desk": "sports",
+      "line": "The Touchline posts quotes it attributes to Erik ten Hag, Manchester United's former manager, saying Cristiano Ronaldo let the team down and was not training properly. Not checked here."
     }
   ]
 }
