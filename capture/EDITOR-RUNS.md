@@ -185,3 +185,4 @@ One line per editor pass, written by /workspace/pipeline/editor-pass.sh from Cla
 | 2026-10-19T2109Z | EDITOR-BRIEF.md | ok | 50 | 4m10s | 0.81 | 78/12275/1852435/53220 | none |
 | 2026-10-19T2216Z | EDITOR-BRIEF-PULSE.md | ok | 40 | 3m22s | 0.68 | 64/14644/1506343/57212 | none |
 | 2026-10-19T2306Z | EDITOR-BRIEF-PULSE.md | ok | 32 | 2m31s | 0.39 | 44/7312/841983/38039 | none |
+| 2026-10-20T0009Z | EDITOR-BRIEF-PULSE.md | ok | 28 | 2m18s | 0.50 | 52/11826/1058217/41650 | none |
