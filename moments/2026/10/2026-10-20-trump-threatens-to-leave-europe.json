@@ -1,0 +1,33 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-20-trump-threatens-to-leave-europe",
+  "title": "Trump says the US will \"leave\" Europe if it does not \"find its way\"",
+  "dek": "The remarks tie French unrest, NATO and the Iran war together. No policy has been announced, and the White House gave no detail when asked.",
+  "desks": [
+    "politics",
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-20T00:12:39Z",
+  "updated_at": "2026-10-20T16:45:00Z",
+  "what": [
+    "Newsweek reports that President Trump said on Truth Social that the United States could leave Europe. It quotes him: \"We stand with Europe, despite its flaws... But if they don't soon find their way, we will have no choice but to leave.\"",
+    "Newsweek also quotes him describing France as \"a once-great nation that is being conquered, looted, and burned to the ground,\" and calling on Europe to \"CLOSE THEIR BORDERS.\" The remarks follow the 17 October protest day in France, when a town hall in Limoges was burned. Newsweek says Trump linked European disorder to the midterm elections, and cited the unpopularity of the Iran war for Republicans.",
+    "A video shared on X by the commentator Eric Daugherty carries lines in Trump's voice about Iran: \"When we asked for help in Iran... they weren't there to help,\" and \"It's something we can NEVER forget.\" I could not find where or when those words were spoken, so I do not tie them to the Truth Social post.",
+    "Newsweek says it asked the White House what Trump meant and got no clarification. I found no announced troop order, treaty step or timetable. The post that calls it \"OFFICIAL\" and says the US \"will have to WITHDRAW\" goes further than the words Newsweek quotes, which say \"if\" and give no date."
+  ],
+  "why": "The words are short and blunt, and they arrive on top of footage of the French unrest. The most widely shared post about them is a commentator's video, and it presents them as a settled decision. Newsweek's account is more hedged.",
+  "next": "Whether the White House or the State Department says what leaving would mean in practice, and how European governments answer.",
+  "posts": [
+    {
+      "id": "2112336156360638591",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Newsweek: Trump skips details as he issues threat to \"leave Europe\"",
+      "url": "https://www.newsweek.com/trump-skips-details-as-he-issues-threat-to-leave-europe-12592966"
+    }
+  ]
+}

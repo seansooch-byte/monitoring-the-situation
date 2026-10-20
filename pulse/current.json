@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T15:20:00Z",
-  "capture": "2026-10-20T1502Z",
+  "updated_at": "2026-10-20T16:50:00Z",
+  "capture": "2026-10-20T1600Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -51,11 +51,6 @@
       "id": "2112216349393232083",
       "desk": "internet",
       "line": "Fousey posts a long account of two nights of binge eating five days before a bodybuilding show. The post says they are unsure whether to compete on Saturday or postpone to November, and will take breaks from social media and look at their relationship with food. Not checked here."
-    },
-    {
-      "id": "2112017230648971765",
-      "desk": "life",
-      "line": "Kylie Jenner posts \"best day ever\" and tags Victoria's Secret, with no further detail."
     },
     {
       "id": "2112184806213931268",
@@ -152,6 +147,11 @@
       "also": [
         "2112502543947325773"
       ]
+    },
+    {
+      "id": "2112336156360638591",
+      "desk": "politics",
+      "line": "Commentator Eric Daugherty shares a video of President Trump saying the US would have \"no choice but to LEAVE\" Europe if it does not \"find their way\", and calls it official. Newsweek reports the same threat from a Truth Social post and says the White House gave no detail. See the story."
     }
   ]
 }
