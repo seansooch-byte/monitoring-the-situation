@@ -1,0 +1,8 @@
+s=open('build_capture.py').read()
+a="skip_nsfw |= {'1847821204347851053','2086189593473294825'}  # 0607Z"
+assert a in s
+s=s.replace(a,"skip_nsfw |= {'2106065720207610217','2111863011774448069','2075703449442996429','2103203004409131243'}  # 0704Z: pornographic text (PawgRedHead1, Oct 2 origin); sexual text (RealRexxie); likely paid (TFTBLMEDIA July clip: 10 likes and 0 replies on 890K views); promotion (MySpenda cash-prize creator contest, Sept 24)\n"+a,1)
+b="EXTRA_PRIVATE |= {'2079207083405439455','2030661522364481751','2112200357636137073'}  # 0607Z"
+assert b in s
+s=s.replace(b,"EXTRA_PRIVATE |= {'2111852303779017201','2112187818646626502','2112062941935935950'}  # 0704Z: Rainmaker1973 video of an Amish couple dating (private people); shortmagsmle post on the same video remarking on the girl's speech (private person); MiddleEast_24 photo of a couple at the Kaaba (private people)\nDESK_OVERRIDE_RUN.update({'2111615352257843443':'gaming','2112187818646626502':'internet','2111852303779017201':'offbeat','2112215717848461612':'life','2112062941935935950':'world','2112210657995272355':'world','2112090404711485931':'world','2111635331217006627':'world','2111921002196123884':'business','2015504294062051459':'sports','2015451824669466839':'sports','2015500166158016952':'sports','2015501436554035249':'sports'})  # 0704Z desk fixes: DXFromYT Castlevania/Hades post to gaming; Amish dating video posts to offbeat, internet and life; Kaaba photo, Albania, Macron and Africa-aid posts to world; hiring post to business; Amad Diallo and cagiago_ January exchange to sports\n"+b,1)
+open('build_capture.py','w').write(s); print('ok')
