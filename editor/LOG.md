@@ -1772,3 +1772,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T09:25Z
+- Captures read: 0801Z, 0906Z (0704Z was read last pass). Last read: 0906Z.
+- X's check: 0801Z 29 confirmed, 0906Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 26 items (1 new, 3 dropped past 36 hours: Rams kicker, Acyn on Trump and Russia, Variety on Nathan Fielder). New: Fousey's own post about binge eating before a bodybuilding show (internet; a public figure's account of their own health; the line names no one else). The 0704Z pass left this post out as cut off; the capture now holds the full text. The build holds two posts (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Rays to the World Series (Sportsnet, MLB; sports already holds more than three); Netflix "FROM" post (advertisement); UgoLagos background video (point not clear); atrupar Vance clip (flagged private individual); instablog9ja flight post and Jizhengguang video (private individuals); #EndSARS anniversary posts (small); videos of private people (as before). For the next story pass: Rays to the World Series; Hurts out for the season; Savannah Flock and ICE story.
+- Requests: watch.json and open.json updated_at only (every pulse post was already on watch).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
