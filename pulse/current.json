@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T18:35:00Z",
-  "capture": "2026-10-20T1804Z",
+  "updated_at": "2026-10-20T19:40:00Z",
+  "capture": "2026-10-20T1905Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -24,14 +24,6 @@
       "desk": "sports",
       "line": "The Tennis Letter says tennis players Elina Svitolina and Gael Monfils are ending their marriage. It posts a statement it says Svitolina shared on Instagram, in which she says the war in Ukraine has weighed on her and that there is no one to blame. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2112076543250124825",
-      "desk": "entertainment",
-      "line": "VISUAL ARTS, the company behind the Key studio, says it has an important announcement about its creator Jun Maeda and points to attached documents. Posts about it report that Maeda has pharyngeal cancer and has chosen palliative care; the company statement itself is in the attachment.",
-      "also": [
-        "2112114025253249306"
-      ]
     },
     {
       "id": "2112126166673022976",
@@ -61,12 +53,6 @@
       "id": "2112175612932882744",
       "desk": "sports",
       "line": "The Indianapolis Colts account says the team has relieved Chris Ballard of his duties as general manager."
-    },
-    {
-      "id": "2112036444541952086",
-      "desk": "internet",
-      "line": "The artist and voice actor MimiCryptid posts a \"tag yourself\" meme made from pingus, which she says she is obsessed with. It quotes an earlier post.",
-      "also": []
     },
     {
       "id": "2112220986795766059",
@@ -102,11 +88,6 @@
       "id": "2112126846972149931",
       "desk": "world",
       "line": "WarMonitor3 reports that Ukraine carried out the first medical evacuation of a person by drone, when its 30th mechanised brigade got an injured soldier out of a minefield. Not checked here."
-    },
-    {
-      "id": "2112070071401238607",
-      "desk": "ai",
-      "line": "Elon Musk posts that many people will be \"one-shotted\" by super persuasive super intelligences, and that he might be one of them. He gives no example or detail."
     },
     {
       "id": "2112295254598787433",
@@ -157,6 +138,21 @@
       "id": "2112198022255768028",
       "desk": "gaming",
       "line": "HYPEX posts a 46-second video it calls the full showcase of Slender Man in Fortnite. The post says nothing more about it."
+    },
+    {
+      "id": "2112514167961747931",
+      "desk": "sports",
+      "line": "ESPN posts a video with the words \"Hoopsday has arrived. NBA basketball is back.\" The post says nothing more about the games."
+    },
+    {
+      "id": "2112528840593387590",
+      "desk": "politics",
+      "line": "Eric Balchunas says Trump Accounts may soon be expanded to anyone under 40. He credits Brad Gerstner, whom he describes as leading the effort, and a New York Post report. Not checked here."
+    },
+    {
+      "id": "2112537441110475235",
+      "desk": "entertainment",
+      "line": "DiscussingFilm posts that the trailer for the film Logan was released 10 years ago today. Not checked here."
     }
   ]
 }

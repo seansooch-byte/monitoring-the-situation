@@ -1862,3 +1862,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T19:40Z
+- Captures read: 1905Z (1804Z was read last pass). Last read: 1905Z.
+- X's check: 1905Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 27 items (3 new, 3 dropped past 36 hours: VisualArtsUSA, mimicryptid, Elon Musk "one-shotted"). New: ESPN NBA opening video (sports), Eric Balchunas on Trump Accounts (politics), DiscussingFilm Logan trailer anniversary (entertainment). The ai desk now has nothing on the pulse.
+- Added: none. Updated: none (pulse pass).
+- Left out: Paxton early-vote posts from Elon Musk and ScottPresler (account already placed or politics full; campaign appeals); EndWokeness Belgium/London post and Elon Musk "Great Replacement" post (demographic claims, not checked); Nick Shirley Oval Office posts (not checked, no outside source yet; a lead for the next story pass); libsoftiktok teacher post and knafaesque screenshot (private individuals); WNBA reply, Celtics start-time and Prestige poster posts (sports full, not among the largest).
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
