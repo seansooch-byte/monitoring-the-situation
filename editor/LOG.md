@@ -1712,3 +1712,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T00:30Z
+- Captures read: 0004Z (2300Z was read last pass). Last read: 0004Z.
+- X's check: 0004Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (KDA_MUSIC 2112002511729205311; kylegriffin1 2110892251534565586; pledis_17 2112166891208753234; _EagleTimes 2111541639457931721; jennierubyjane 1897881221482606897) unchanged and not cited.
+- Pulse: 39 items (2 new, 0 dropped). New: Trump thanking Musk over SpaceX stock for children (politics), the Weather Channel sunset joke (life). Nothing is past 36 hours yet. The build holds one post (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kim Jong Un death rumours (unconfirmed claims about a real person); Shawn Ryan, leahfiles and Bilzerian posts (a personal dispute, not checked); fousey post (point not clear from its words); Ted Nugent rally posts (small, and the stream also holds claims about a minor); Texans and Monday Night Football posts (small or no news). For the next story pass: whether Trump Accounts received SpaceX stock from Musk; I found no confirming source.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

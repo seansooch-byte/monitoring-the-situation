@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-19T23:20:00Z",
-  "capture": "2026-10-19T2300Z",
+  "updated_at": "2026-10-20T00:30:00Z",
+  "capture": "2026-10-20T0004Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -213,6 +213,18 @@
       "id": "2111857588858147149",
       "desk": "markets",
       "line": "Unusual Whales, an account that posts market news, says BlackRock's Larry Fink told CNBC that a data center moratorium could trigger a recession. Not checked here."
+    },
+    {
+      "id": "2112293785472225568",
+      "desk": "politics",
+      "line": "President Trump thanks Elon Musk for what he calls his generosity in giving SpaceX stock to American children through Trump Accounts. Musk's own post on this is also on this page. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112230237010272645",
+      "desk": "life",
+      "line": "The Weather Channel posts, as a joke, that the sun will soon set at 4:30 pm and that people should prepare to eat dinner in the dark. It gives no place or date.",
+      "also": []
     }
   ]
 }
