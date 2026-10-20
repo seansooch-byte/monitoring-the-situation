@@ -1722,3 +1722,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T03:00Z
+- Captures read: 0200Z (0004Z was read last pass; no 0106Z capture exists). Last read: 0200Z.
+- X's check: 0200Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 32 items (0 new, 7 dropped past 36 hours: Obama, Bessent relay, Bigfoot film, Bukele, Politico homeowners, Rainmaker video, Pontifex). The build holds one post (elonmusk) off the front page.
+- Added: 2026-10-19-musk-spacex-share-every-kid (business, politics). Updated: none. I did not re-check the older live stories against their sources this pass.
+- Left out: France riots (my search returned only 2023 coverage, nothing I could confirm for this week); Netanyahu remark on US presidents (one post, unchecked); Dan Quinn fourth-down mix-up (small, no source); Kim Jong Un rumours, Ted Nugent posts, videos of private people (as before).
+- Requests: added r-2026-10-20-01 (how the SpaceX shares would be delivered). watch.json updated (Trump post and Musk post ids).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. WebFetch could not open CNN (451) or Axios (403); the new story relies on the Washington Examiner, which I opened.

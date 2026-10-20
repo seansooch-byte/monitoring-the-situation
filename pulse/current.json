@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T00:30:00Z",
-  "capture": "2026-10-20T0004Z",
+  "updated_at": "2026-10-20T03:00:00Z",
+  "capture": "2026-10-20T0200Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -19,16 +19,6 @@
       "desk": "politics",
       "line": "Elon Musk posts \"Talarico hates Texas\" with a link and no further explanation. Talarico is James Talarico, whom President Trump attacked in a separate post. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2111819687524774170",
-      "desk": "politics",
-      "line": "Former President Barack Obama posts a long statement saying the Trump administration is targeting Rep. Ilhan Omar for her political views, and calls the age theory behind the citizenship probe unsubstantiated. These are his claims. See the story on the probe."
-    },
-    {
-      "id": "2111833083787809253",
-      "desk": "politics",
-      "line": "Eric Daugherty relays Treasury Secretary Scott Bessent calling it \"very reckless\" for Ukraine's President Zelensky to accuse President Trump over Starshield limits. Daugherty adds his own call to cut Zelensky off. Not checked here."
     },
     {
       "id": "2112089556615123114",
@@ -49,18 +39,6 @@
       ]
     },
     {
-      "id": "2111907213891792958",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, says the 1967 Bigfoot film has been confirmed as a hoax after new archival footage turned up for an upcoming documentary. It links a Variety review of that documentary. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2111827185468100769",
-      "desk": "world",
-      "line": "Nayib Bukele writes in French that he has heard France is finished, but says France is still beautiful and can be reborn. He says El Salvador overcame in one year a problem a hundred times worse, with fewer means, and that France could do it in a week. The post does not name the problem. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2111977227483267574",
       "desk": "life",
       "line": "PopCulture2000s posts a 39-second video and says Kylie Jenner is wearing a \"22 million dollars\" fantasy bra at the Victoria's Secret show. The price is the account's claim. Not checked here.",
@@ -70,12 +48,6 @@
       "id": "2111884227985785165",
       "desk": "world",
       "line": "Sky News posts an 88-second video and reports that President Macron says France feels \"anger and shame\" over the protests and that \"nothing\" justifies the riots and damage in several cities.",
-      "also": []
-    },
-    {
-      "id": "2111832033030807914",
-      "desk": "politics",
-      "line": "Politico says homeowners across the country are revolting against property taxes at a scale not seen in a half century, and links its magazine piece on the tax revolt. Not checked here.",
       "also": []
     },
     {
@@ -156,12 +128,6 @@
       "line": "The Indianapolis Colts account says the team has relieved Chris Ballard of his duties as general manager."
     },
     {
-      "id": "2111807005484613664",
-      "desk": "disaster",
-      "line": "The account Rainmaker1973 posts a two-minute video that he says shows what it is like at the rooftop pool of a high rise during an M7.7 earthquake. He does not say where. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2111929060033229114",
       "desk": "entertainment",
       "line": "Variety reports that Nathan Fielder, speaking at the New York Film Festival, says Elizabeth Holmes seemed \"so genuine at times\" but that he knew she was a liar. He also says he and Lance disagreed about what happened in some scenes.",
@@ -203,11 +169,6 @@
       "id": "2111994362179510541",
       "desk": "defense",
       "line": "BBC World reports a major fire at a military base in Canada that left four people dead and dozens injured, and links its own story. Not checked here."
-    },
-    {
-      "id": "2111796941050769529",
-      "desk": "ideas",
-      "line": "Pope Leo, posting as @Pontifex, thanks those who prayed for him in recent days and the doctors, nurses and staff of the Gemelli Hospital. He says he has overcome a delicate phase and will gradually resume his activities."
     },
     {
       "id": "2111857588858147149",

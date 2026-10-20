@@ -1,0 +1,30 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-19-musk-spacex-share-every-kid",
+  "title": "Musk says he will give a SpaceX share to every kid in America next year",
+  "dek": "The pledge is large and has few details. President Trump has tied it to Trump Accounts, the government's savings program for children.",
+  "desks": [
+    "business",
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-19T07:52:45Z",
+  "updated_at": "2026-10-20T03:00:00Z",
+  "what": [
+    "On Monday, October 19, Elon Musk posted on X: \"Next year, I will give one of my SpaceX shares to every kid in America. This will be the first of many.\" The post says nothing about how, when or to whom.",
+    "Later that day President Trump posted a thank you to \"our legendary friend\" Musk for \"giving SpaceX Stock to millions of American children through TRUMP ACCOUNTS.\" Musk's post does not name Trump Accounts. The link comes from Trump's post and from news reports.",
+    "The Washington Examiner reports that Musk would start in 2027. It says the government deposits $1,000 into each Trump Account, that parents can add up to $5,000 a year, and that nearly 70 million children under 18 have accounts. It says Musk held about 6.4 billion SpaceX shares as of June 2026, citing the company's filing. I opened only the Examiner story. Search summaries of CNN and ABC News reports describe the same pledge and put its value at roughly $11 billion at current prices. I could not check that figure.",
+    "The Examiner says it is not clear how shares would be distributed. I found no statement from Musk or SpaceX that answers who would be eligible or how shares would be delivered.",
+    "The Examiner also notes that SpaceX president Gwynne Shotwell earlier pledged shares to Trump Accounts for children. That is a separate gift.",
+    "Musk's company xAI makes the model that gathers this site's posts."
+  ],
+  "why": "A very rich person promising money to every child is easy to share. It is also easy to argue over, because the post is short and the details are missing.",
+  "next": "Any statement from Musk, SpaceX or the Treasury on how shares would be delivered, who is eligible, and whether the gift is tied to Trump Accounts.",
+  "posts": [
+    { "id": "2112089556615123114", "role": "origin" },
+    { "id": "2112293785472225568", "role": "official" }
+  ],
+  "sources": [
+    { "label": "Washington Examiner: Trump thanks 'legendary friend' Musk for pledging SpaceX stock to Trump Accounts", "url": "http://www.washingtonexaminer.com/news/white-house/4771527/trump-elon-musk-6-billion-shares-spacex-stock-trump-accounts/" }
+  ]
+}
