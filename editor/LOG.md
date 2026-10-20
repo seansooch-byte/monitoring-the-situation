@@ -1732,3 +1732,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-20-01 (how the SpaceX shares would be delivered). watch.json updated (Trump post and Musk post ids).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. WebFetch could not open CNN (451) or Axios (403); the new story relies on the Washington Examiner, which I opened.
+
+## 2026-10-20T04:10Z
+- Captures read: 0308Z, 0400Z (0200Z was read last pass). Last read: 0400Z.
+- X's check: 0400Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld (0308Z 34 confirmed, 0 missing). Earlier mismatches unchanged and not cited.
+- Pulse: 32 items (0 new, 0 dropped); capture id and time refreshed. Nothing is past 36 hours yet; the Mollyploofkins item reaches it at 04:11Z and goes next pass. The build holds one post (elonmusk) off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Rays winning the AL pennant, Angel Reese and Commanders at 49ers posts (sports already holds more than three items); Musk's USB-C post (tech, a second post from an account already on the front page, small beside the tech item); Kim Jong Un rumours (unconfirmed claims about a real person); videos of private people (as before). For the next story pass: Rays pennant, if a researched story is wanted.
+- Requests: watch.json and open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
