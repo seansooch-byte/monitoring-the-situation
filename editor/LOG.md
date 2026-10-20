@@ -1752,3 +1752,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-20T06:20Z
+- Captures read: 0607Z (0501Z was read last pass). Last read: 0607Z.
+- X's check: 0607Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 28 items (2 new, 4 dropped past 36 hours: Anthropic fund, Sky News, OnePunch Man, Local Team). New: DiscussingFilm Apu voice clip (entertainment), WarMonitor3 drone medical evacuation (world, marked not checked). The build holds one post (elonmusk) off the front page. The ai and justice desks now have no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kim Jong Un death and coma rumours (unconfirmed claims about a real person); Zelensky's Kharkiv post (names a dead infant and her mother); Savannah police officer Flock posts (private person); SKY-001 launch (very small account, claims unchecked); Jalen Hurts posts (sports already holds more than three); videos of private people (as before). For the next story pass: Jalen Hurts out for the season; the Savannah Flock and ICE story.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
