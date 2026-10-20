@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-20T07:10:10Z",
-  "capture": "2026-10-20T0704Z",
+  "updated_at": "2026-10-20T08:20:00Z",
+  "capture": "2026-10-20T0801Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -65,20 +65,9 @@
       "also": []
     },
     {
-      "id": "2111904110693810595",
-      "desk": "world",
-      "line": "French President Emmanuel Macron posts, in French, \"Those who sought to bring down the Republic will have to answer for it,\" with a 7-second video. The video has no description in the capture. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112016006331945286",
       "desk": "gaming",
       "line": "The official Umamusume: Pretty Derby English account says US visas for its Oct 22 to 23 concerts in Los Angeles had not yet been approved. It says it will announce by 10:00 p.m. Pacific on Oct 19 whether they can go ahead. Not checked here."
-    },
-    {
-      "id": "2111901178355425769",
-      "desk": "internet",
-      "line": "The account scubaryan_ says streamer Fanum noticed someone watching his stream at the AMP House and made an infinite loop. The video has no description, so I could not see what it shows."
     },
     {
       "id": "2111915544387735684",
@@ -169,6 +158,12 @@
       "id": "2112070071401238607",
       "desk": "ai",
       "line": "Elon Musk posts that many people will be \"one-shotted\" by super persuasive super intelligences, and that he might be one of them. He gives no example or detail."
+    },
+    {
+      "id": "2112295254598787433",
+      "desk": "world",
+      "line": "Politics UK reports that Andy Burnham has announced changes to car parking fines: a 5-minute grace period before parking, 10 minutes to leave, and a £20 maximum on appeal for minor mistakes. It says the £100 cap stays. Not checked here.",
+      "also": null
     }
   ]
 }
