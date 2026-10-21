@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T08:25:00Z",
-  "capture": "2026-10-21T0804Z",
+  "updated_at": "2026-10-21T09:25:00Z",
+  "capture": "2026-10-21T0906Z",
   "items": [
     {
       "id": "2112401161940529303",
@@ -74,12 +74,6 @@
       "also": []
     },
     {
-      "id": "2112281656266559956",
-      "desk": "medicine",
-      "line": "Polymarket reports that Veradermics says its experimental hair-loss pill significantly increased hair growth in over 500 men in a late-stage study, with no serious side effects. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112378472823763384",
       "desk": "sports",
       "line": "FC Barcelona posts the words \"We are not afraid.\" and nothing else. Fabrizio Romano later posts that Paris Saint-Germain have made it four against Barcelona, Barcelona's first defeat of the season. The Barcelona post does not say what it refers to.",
@@ -127,12 +121,6 @@
       "id": "2112523919282573650",
       "desk": "politics",
       "line": "Activist Scott Presler posts that today is a great day to vote early in person for Ken Paxton in Texas. The post gives no reason.",
-      "also": []
-    },
-    {
-      "id": "2112285246557462626",
-      "desk": "sports",
-      "line": "NBA reporter Shams Charania says the Los Angeles Lakers are waiving 2024 first-round pick Dalton Knecht, citing sources. The post links to ESPN.",
       "also": []
     },
     {
@@ -212,6 +200,16 @@
       "id": "2112253657647599684",
       "desk": "internet",
       "line": "Gottalovechaze posts a joke that cats naturally smell like baby powder and vanilla, and dogs do not. It is a lighthearted post, and the claim is not checked here."
+    },
+    {
+      "id": "2112638276389790102",
+      "desk": "business",
+      "line": "SpaceX posts its Q3 2026 highlights, saying revenue was $14.6 billion, up 161% year over year. It credits some growth to Grok, which is made by xAI, the company behind the model that gathers this page's posts. Not checked here."
+    },
+    {
+      "id": "2112499101312942227",
+      "desk": "gaming",
+      "line": "The official Cyberpunk 2077 account announces a REDstreams broadcast on Wednesday, October 21 at 5 PM CEST about the Edgerunners 2 Update (2.5). It says the stream will cover cyberware customization and a new dual-wielding playstyle."
     }
   ]
 }
