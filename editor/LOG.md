@@ -1992,3 +1992,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added, 1 removed); open.json updated_at only.
 - Shipped: yes, commit 1d2d771, live audit clean (this log entry added in a follow-up commit, which changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T09:25Z
+- Captures read: 0906Z (0804Z was read last pass). Last read: 0906Z.
+- X's check: 0906Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0804Z mismatch (2112755758106611943, ATEEZofficial) and the 1103Z mismatch (2112357292444385405, KDA_MUSIC) are unchanged and not cited.
+- Pulse: 33 items (2 new, 2 dropped past 36 hours: Veradermics, Shams Lakers). New: SpaceX Q3 highlights (business, line names xAI), Cyberpunk REDstreams announcement (gaming). The build holds one post off the front page (SpaceX 1, its second place; the Q3 post stands on business). Next to age out: Burnham parking, Trump/Musk thanks.
+- Added: none. Updated: none (pulse pass).
+- Left out: elonmusk "Honest feedback from Grok and Fable" (media only, point not clear from the words; account already placed); SawyerMerritt Musk quote on Grok growth (ai has enough, xAI involved); Damaan4u33 crowd-chant post (loaded framing, politics full); Kick_Champ criminal-charges claim (claim about a named streamer, unchecked); EnesFreedom WNBA post (bait framing); instablog9ja (private_individual); fousey (personal post); NBA Aday Mara posts and Helluva Boss/The Drop/Myanmar fan posts (desks full or small); WilliamsRuto (link only).
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: yes, commit 6fe6fae, live audit clean (this log entry added in a follow-up commit, which changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
