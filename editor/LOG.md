@@ -2032,3 +2032,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Note for a story pass: the WSJ Starlink slowdown report (Ukraine) has no story yet.
+
+## 2026-10-21T13:40Z
+- Captures read: 1302Z (1204Z was read last pass). Last read: 1302Z.
+- X's check: 1302Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0804Z mismatch (2112755758106611943, ATEEZofficial) and the 1107Z mismatch (2112357292444385405, KDA_MUSIC) are unchanged and not cited.
+- Pulse: 36 items (0 new, 0 dropped; the oldest, FC Barcelona and the MLB post, are about 34 hours old). Header moved to 1302Z. Nothing new in 1302Z beat what is on the page: the Hubbard posts (WhiteHouse, FoxNews) and the Witkoff-to-Putin clips are small against the pulse, and world already has four items.
+- Added: none. Updated: none (pulse pass).
+- Left out: Witkoff-to-Putin clips (Gerashchenko_en, Osint613, CaolanReports; the 2026-10-21 Hubbard story is live, a note for the next story pass); hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); Musk video call, Bach, Great Replacement, UK/Spain and SpaceX $1T posts (account already placed); ballondor and EnesFreedom (bait); stoneoreye, allchronology, wcdispatch, KaleiRenay, knafaesque, its_The_Dr, FearedBuck, Justwandyy, notdokun, RyanAFournier (private_individual); SumitM_X (point unclear); unusual_whales GTA VI claim (unchecked).
+- Requests: watch.json and open.json updated_at only (every pulse post is already on watch).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
