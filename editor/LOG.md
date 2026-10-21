@@ -1962,3 +1962,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: yes, commit 4ecb251, live audit clean (this log entry added in a follow-up commit, which changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T06:10Z
+- Captures read: 0559Z (0507Z was read last pass). Last read: 0559Z.
+- X's check: 0559Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 32 items (4 new, 0 dropped; nothing past 36 hours yet, the oldest are at about 32 to 34h). New: ANI cockroach effigy (offbeat), HormuzReport on Barrack and the Gulf (world, line says not checked), RabbiJeffx asking Grok about Jesus (ai, line names xAI), Auriel_zy expense-split dialogue (life, line says it reads as made up). The build holds two posts off the front page (PopBase 1, Polymarket 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: Ronaldo suspension (Romano, past 36 hours); TMZ Dylan Sprouse remark (claim about named people, unchecked); Noe1017_Monad execution claim (serious unconfirmed claim about named people); IcedTeardrops (tiny account, insult-style take); ThePatriotOasis Trump/France post (politics full); Brewers ticket, Mara/Wemby and DWTS posts (desks full, small); EAGLE-4 posts (vendor announcement, ai has enough); stoneoreye and wildfreakouts (private_individual).
+- Requests: watch.json updated (4 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

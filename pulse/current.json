@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T05:25:00Z",
-  "capture": "2026-10-21T0507Z",
+  "updated_at": "2026-10-21T06:10:00Z",
+  "capture": "2026-10-21T0559Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -177,6 +177,30 @@
       "id": "2112491642552987698",
       "desk": "music",
       "line": "A fan account for the group A2O Lite posts a video of the group performing \"Neon\" as an encore at an event it calls THE SHOW.",
+      "also": []
+    },
+    {
+      "id": "2112406293092987169",
+      "desk": "offbeat",
+      "line": "ANI, an Indian news agency, reports that a Delhi Ramlila committee will burn a 30-foot cockroach effigy beside the usual effigies of Ravana, Kumbhakarna and Meghnad, at grounds in Pitampura. The post gives no reason for the cockroach. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112616840635773183",
+      "desk": "world",
+      "line": "HormuzReport, a news account, says the US is preparing to abandon Gulf countries and that Trump envoy Tom Barrack told Gulf allies in Doha that Washington cannot guarantee their security indefinitely. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112582934498824194",
+      "desk": "ai",
+      "line": "RabbiJeffx asks the Grok chatbot what nationality Jesus would be if he were born in 2026, and tells it to answer with the nationality only. Grok is made by xAI, which also makes the model that gathers this page's posts.",
+      "also": []
+    },
+    {
+      "id": "2112572559325585704",
+      "desk": "life",
+      "line": "Auriel_zy posts a written dialogue between a wife who earns more and a husband who earns less, arguing over splitting household costs 50/50. It reads as a made-up scenario, and the post does not say it is a real couple.",
       "also": []
     }
   ]
