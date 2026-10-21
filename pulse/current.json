@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T02:40:00Z",
-  "capture": "2026-10-21T0203Z",
+  "updated_at": "2026-10-21T03:30:00Z",
+  "capture": "2026-10-21T0308Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -112,12 +112,6 @@
       "also": []
     },
     {
-      "id": "2112198022255768028",
-      "desk": "gaming",
-      "line": "HYPEX posts a 46-second video it calls the full showcase of Slender Man in Fortnite. The post says nothing more about it.",
-      "also": []
-    },
-    {
       "id": "2112514167961747931",
       "desk": "sports",
       "line": "ESPN posts a video with the words \"Hoopsday has arrived. NBA basketball is back.\" The post says nothing more about the games.",
@@ -215,6 +209,18 @@
       "id": "2112476496283775135",
       "desk": "ai",
       "line": "DeepSeek says it is open-sourcing DeepInfer, its in-house inference framework, which it says powers DeepSeek-V4.1-Flash. It says the aim is to lower compute costs. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112533162790395930",
+      "desk": "entertainment",
+      "line": "Cover Corp posts a notice in Japanese. The linked page is titled as a notice about how the company is responding to posts by talent under its management and to defamation and sexual harassment. I did not read the notice itself. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112607347688583586",
+      "desk": "ai",
+      "line": "OpenAI announces it has acquired Orchestra Bio, a platform that helps biopharma teams coordinate drug development. It says it will build on Rosalind, its AI models and tools for life sciences research. Not checked here.",
       "also": []
     }
   ]
