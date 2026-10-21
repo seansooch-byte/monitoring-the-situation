@@ -1922,3 +1922,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: updated_at only in watch.json and open.json (every pulse id already on watch).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T02:50Z
+- Captures read: 0203Z (0059Z was read last pass; 0103Z was a log-only commit). Last read: 0203Z.
+- X's check: 0203Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 34 items (4 new, 2 dropped past 36 hours: Pelissero, Colts). New: ScottPresler Paxton vote post (politics), Shams on Lakers waiving Knecht (sports), Guille_GAG Nikki in Fortnite with DiscussingFilm in also (gaming), DeepSeek DeepInfer (ai). The build holds two posts off the front page (PopBase 1, Polymarket 1).
+- Added: none. Updated: none. I found no confirmation outside X for the Knecht waiver (web results only speculated before the roster deadline), so no story. NBA opening night (LeBron's Sixers debut at MSG, Brunson's ring, GTA VI spot on the broadcast) is a lead for a later story pass; the posts are small so far.
+- Left out: hasibiro_maga and greg16676935420 Kim Jong Un death posts (unconfirmed claim about a real person); Ballon d'Or vote promo and Netflix FROM post (advertisements); Dillon Brooks Kalshi ad; other Musk posts (account already placed); private_individual-flagged posts.
+- Requests: watch.json updated (new pulse ids added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
