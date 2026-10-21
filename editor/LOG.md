@@ -1932,3 +1932,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (new pulse ids added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T03:30Z
+- Captures read: 0308Z (0203Z was read last pass; 0208Z was a log-only commit). Last read: 0308Z.
+- X's check: 0308Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 35 items (2 new, 1 dropped past 36 hours: HYPEX). New: Cover Corp notice in Japanese (entertainment; the line says I did not read the notice), OpenAI on acquiring Orchestra Bio (ai). The build holds two posts off the front page (PopBase 1, Polymarket 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); Elon Musk Paxton post and SpaceX Q3 results post (accounts already placed); WNBA posts from EnesFreedom and CollinRugg (dispute over named people, sports already full); atrupar Trump posts (politics full); Schefter Hurts/NFLPA, Sleeper_Hoops and live NBA brawl posts (sports full, small); outsoldnation DWTS post (small); The_Pequod_ and JeremyDBoreing posts (point unclear, reply to a private person); WatcherGuru Musk post (markets, small, unchecked).
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: yes, commit a03e5b8, live audit clean (log added in a follow-up commit, which changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
