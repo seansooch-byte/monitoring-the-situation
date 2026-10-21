@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T14:40:00Z",
-  "capture": "2026-10-21T1402Z",
+  "updated_at": "2026-10-21T15:40:00Z",
+  "capture": "2026-10-21T1500Z",
   "items": [
     {
       "id": "2112401161940529303",
@@ -10,12 +10,6 @@
       "also": [
         "2112016006331945286"
       ]
-    },
-    {
-      "id": "2112380534089252933",
-      "desk": "sports",
-      "line": "MLB posts that the World Series matchup is set and that either the Brewers or the Rays will win their first championship.",
-      "also": []
     },
     {
       "id": "2112451712870953105",
@@ -54,14 +48,6 @@
       "desk": "entertainment",
       "line": "DiscussingFilm posts that the trailer for the film Logan was released 10 years ago today. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2112378472823763384",
-      "desk": "sports",
-      "line": "FC Barcelona posts the words \"We are not afraid.\" and nothing else. Fabrizio Romano later posts that Paris Saint-Germain have made it four against Barcelona, Barcelona's first defeat of the season. The Barcelona post does not say what it refers to.",
-      "also": [
-        "2112649648641065013"
-      ]
     },
     {
       "id": "2112533057991262562",
