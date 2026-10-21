@@ -2022,3 +2022,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T12:40Z
+- Captures read: 1204Z (1107Z was read last pass). Last read: 1204Z.
+- X's check: 1204Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0804Z mismatch (2112755758106611943, ATEEZofficial) and the 1103Z mismatch (2112357292444385405, KDA_MUSIC) are unchanged and not cited.
+- Pulse: 36 items (4 new, 2 dropped past 36 hours: Daugherty Europe, Zitron Amazon GPUs). New: FabrizioRomano All Time Ballon d'Or nominees (sports), Watcher.Guru on Musk and money (markets, line says not checked), Lara Seligman on the WSJ Starlink slowdown report (defense, line says not checked; Musk is involved, no xAI or Anthropic), International Cyber Digest on eMudhra certificate keys (tech, line says not checked). The build holds one post off the front page (SpaceX 1). Quiet: internet, ideas, medicine.
+- Added: none. Updated: none (pulse pass).
+- Left out: hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); ballondor prize poll and EnesFreedom WNBA (bait); Musk video call, USB-C, Bach, Great Replacement, UK/Spain and SpaceX $1T posts (account already placed); SumitM_X and n4vyist Victorious clip (point unclear from words); stoneoreye, KaleiRenay, viewsceo, FearedBuck, wcdispatch, allchronology, knafaesque, its_The_Dr, TimesNow child video, visegrad24 (private_individual); rawsalerts Virginia duct tape post (accused private person); BBCWorld Mississippi shooting of a one-year-old (a minor); atrupar Trump reporter clips, nytimes Bloomberg donation, RahulGandhi RSS post, Kvaratskhelia ACL (desks already have three or more); unusual_whales GTA VI claim and stats_feed migrant ranking (unchecked claims); Dylan Sprouse TMZ post.
+- Requests: watch.json updated (4 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Note for a story pass: the WSJ Starlink slowdown report (Ukraine) has no story yet.
