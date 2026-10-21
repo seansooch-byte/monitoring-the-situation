@@ -2102,3 +2102,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T21:30Z
+- Captures read: 2107Z (2008Z was read last pass). Last read: 2107Z.
+- X's check: 2107Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 37 items (2 new, 0 dropped): AG Uthmeier on the Kissimmee mayor arrest (justice), Claude Duet preview (ai, line says not checked and discloses Anthropic). Header moved to 2107Z. The build holds one post off the front page (SpaceX 1).
+- Added: 2026-10-21-kissimmee-mayor-espinosa-arrest (politics, justice). Updated: none; I did not re-check older live stories this pass beyond the new capture.
+- Left out: a Claude Duet story (no source outside X found, pulse line only); Kvaratskhelia ACL (Romano already placed); Ramaswamy ad posts (private_individual); Talarico posts (Musk account placed, claims about a real person unchecked); fousey, Cover Corp, Dexerto Ash Dykes (unchecked).
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the grabber labelled the Uthmeier arrest post sports; filed under justice. Sources disagree on the Florida Ethics Commission outcome (censure vs dismissal); the story gives none. The message that started me had no instructions beyond the contract.

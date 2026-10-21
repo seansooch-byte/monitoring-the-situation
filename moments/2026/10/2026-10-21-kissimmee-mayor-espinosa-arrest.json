@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-21-kissimmee-mayor-espinosa-arrest",
+  "title": "Florida attorney general arrests Kissimmee mayor on grand theft and fraud charges",
+  "dek": "The state says the mayor sought city pandemic-recovery grants for her own and her family's businesses. Her lawyer says an ethics breach is not a crime.",
+  "desks": ["politics", "justice"],
+  "standing": "developing",
+  "started_at": "2026-10-21T13:05:02Z",
+  "updated_at": "2026-10-21T21:30:00Z",
+  "what": [
+    "On Wednesday 21 October, Florida Attorney General James Uthmeier posted that his office had arrested Kissimmee Mayor Jackie Espinosa that morning and was charging her with grand theft and organized scheme to defraud. He said a press conference would follow at 2 p.m. in Orlando with the state's Chief Financial Officer, Blaise Ingoglia, and the head of the Florida Department of Law Enforcement, Larry Keefe.",
+    "Local outlets report that the charges concern Business Boost 2.0, a city grant fund meant to help small businesses recover from the pandemic. They report that Espinosa filed three applications worth $50,000 in total on the day applications opened in September 2025. Ingoglia is quoted as saying seven businesses tied to her family received $90,000 in all: $50,000 to her own businesses and $40,000 to tenant businesses in properties she owned or managed. Officials said the charges could carry up to 30 years in prison.",
+    "Her attorney, Migdalia Perez, is quoted as saying there is a fundamental difference between an alleged ethics violation and a criminal offense, and that prosecutors must prove criminal intent.",
+    "This follows earlier steps. Local reports say a special prosecutor found probable cause for impeachment, and that in August the city commission split 2-2 and did not proceed. Outlets differ on what the Florida Commission on Ethics did, so I give no outcome for it. I could not open a charging document or the state's own release, so every detail above comes from press reports and the attorney general's post.",
+    "A charge is an allegation. I found no plea or court date yet."
+  ],
+  "why": "A sitting mayor was arrested by state officials, after months of local ethics and impeachment fights over the same grants. The announcement came from the attorney general's own account first.",
+  "next": "Her first court appearance, any plea, and whether the city commission acts.",
+  "posts": [
+    { "id": "2112892920554791033", "role": "official" },
+    { "id": "2112904208567661018", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "WKMG ClickOrlando: Kissimmee mayor arrested on theft, fraud charges, AG says", "url": "https://www.clickorlando.com/news/local/2026/10/21/kissimmee-mayor-arrested-on-theft-fraud-charges-ag-says/" },
+    { "label": "Spectrum News 13: AG Uthmeier announces arrest of Kissimmee Mayor Jackie Espinosa", "url": "https://mynews13.com/fl/orlando/news/2026/10/21/ag-uthemier-announces-arrest-of-kissimmee-mayor-jackie-espinosa" }
+  ]
+}
