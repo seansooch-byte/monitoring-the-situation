@@ -2082,3 +2082,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Note for the next story pass: the BioWare shutdown has no story; it needs EA's own statement.
+
+## 2026-10-21T19:20Z
+- Captures read: 1900Z (1808Z was read last pass). Last read: 1900Z.
+- X's check: 1900Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (2112755758106611943, 2112357292444385405 and the 1402Z one) unchanged and not cited.
+- Pulse: 35 items, none new, none dropped (all inside 36 hours). Header moved to 1900Z. The build holds one post off the front page (SpaceX 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: Dexerto on explorer Ash Dykes (account already placed with the Spotify post; unchecked); bioware's own post (image only); Musk Talarico and Grok credit posts (account already placed); ShamsCharania Porzingis, AdamSchefter NFLPA, Romano Como posts (sports full or account placed); Glee posts (entertainment covered); old_content posts; ImtiazMadmood madrasa video (minors).
+- Requests: watch.json and open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
