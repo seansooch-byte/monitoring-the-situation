@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-21-cashman-yankees-new-contract",
+  "title": "Yankees general manager Brian Cashman says he has agreed to a new contract",
+  "dek": "Cashman has run the team's baseball operations since 1998. The terms are not final.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-21T14:47:04Z",
+  "updated_at": "2026-10-21T16:30:00Z",
+  "what": [
+    "On a conference call on Wednesday 21 October, New York Yankees general manager Brian Cashman said he has agreed to a new contract. Reporters Jack Curry and Jon Heyman posted his words as he spoke.",
+    "ESPN reports that the final details were still being worked out and that Cashman described the team as \"locked and loaded.\" ESPN also reports that Cashman has been general manager for 29 seasons, that manager Aaron Boone was kept for another season, and that the Yankees went 93-68 this year before losing the division series to the Tampa Bay Rays.",
+    "Other outlets give different lengths for the new deal. I could not confirm a length or a salary from the team, so I give none."
+  ],
+  "why": "Cashman is the longest-serving general manager in the team's history, and his future was open after the early playoff exit. Fans are reading the news as a sign that the front office stays as it is.",
+  "next": "A team announcement with the length and terms of the deal.",
+  "posts": [
+    {
+      "id": "2112918597555118318",
+      "role": "origin"
+    },
+    {
+      "id": "2112918703134130263",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ESPN: Cashman, longest-running Yankees GM, agrees to new contract",
+      "url": "https://www.espn.com/mlb/story/_/id/50238406/yankees-gm-brian-cashman-agree-new-contract"
+    }
+  ]
+}

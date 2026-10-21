@@ -2062,3 +2062,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only (every pulse post is already on watch).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T16:30Z
+- Captures read: 1604Z (1500Z was read last pass). Last read: 1604Z.
+- X's check: 1604Z 24 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches (2112755758106611943, 2112357292444385405 and the 1402Z one) unchanged and not cited.
+- Pulse: 36 items, none new, none dropped (all inside 36 hours). Header moved to 1604Z. The build holds one post off the front page (SpaceX 1).
+- Added: 2026-10-21-maryland-fires-locksley (sports), 2026-10-21-cashman-yankees-new-contract (sports, developing). Updated: none. I did not re-check the older live stories this pass (time), only added the two new ones.
+- Left out: Titans gun report from MySportsUpdate and AdamSchefter (unconfirmed claim about real people); hasibiro_maga Kim Jong Un death post; Obama post on Omar (the 2026-10-14 Omar story is live, not re-checked); ClayTravis Netflix claim (unchecked); private_individual posts as before.
+- Requests: watch.json updated (5 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Note: sources disagree on Locksley's career record and buyout, and on the length of Cashman's deal; the stories give none. The WSJ Starlink slowdown report still has no new story.

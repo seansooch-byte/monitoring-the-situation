@@ -1,0 +1,43 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-21-maryland-fires-locksley",
+  "title": "Maryland fires football coach Mike Locksley with five games left",
+  "dek": "The Terrapins are 2-5 after a home loss to Rutgers. An interim coach takes over and the coaching search begins.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-21T15:18:33Z",
+  "updated_at": "2026-10-21T16:30:00Z",
+  "what": [
+    "ESPN's Pete Thamel reported on Wednesday 21 October that Maryland had dismissed head football coach Mike Locksley. On3 reported the same within minutes. The Diamondback, the campus paper, and Sports Illustrated's Maryland site both report the firing as done.",
+    "Maryland is 2-5 this season and 0-4 in the Big Ten. It lost 37-30 at home to Rutgers on Saturday, on homecoming. Both outlets say Aazaar Abdul-Rahim will be interim head coach for the rest of the season. The team has a bye this week.",
+    "Locksley was hired in 2019. Reports differ on his overall record and on the size of the contract buyout, so I give neither. I did not find a statement from the school that I could open, so the details above come from press reports."
+  ],
+  "why": "A coach is rarely fired in the middle of a season, and a list of possible successors went up within the hour. Fans of other Big Ten teams are watching which jobs open next.",
+  "next": "Who Maryland names as its next head coach, and whether the school issues its own statement.",
+  "posts": [
+    {
+      "id": "2112926519173800114",
+      "role": "origin"
+    },
+    {
+      "id": "2112926976415559968",
+      "role": "voice"
+    },
+    {
+      "id": "2112930717365920182",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Diamondback: Maryland football coach Michael Locksley fired midway through eighth season",
+      "url": "https://dbknews.com/2026/10/21/maryland-football-michael-locksley-fired"
+    },
+    {
+      "label": "Sports Illustrated: Maryland fires head coach Mike Locksley",
+      "url": "https://www.si.com/college/maryland/football/breaking-maryland-fires-head-coach-mike-locksley-01m3n7cf3750"
+    }
+  ]
+}
