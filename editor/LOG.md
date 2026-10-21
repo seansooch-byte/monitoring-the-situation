@@ -2052,3 +2052,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T15:40Z
+- Captures read: 1500Z (1402Z was read last pass). Last read: 1500Z.
+- X's check: 1500Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier mismatches (2112755758106611943, 2112357292444385405 and the 1402Z one) are unchanged and not cited.
+- Pulse: 36 items (0 new, 2 dropped past 36 hours: MLB World Series post, FC Barcelona). Header moved to 1500Z. The build holds one post off the front page (SpaceX 1). Nothing new in 1500Z beat what is on the page: Glee revival (PopBase already holds music; DEADLINE would be a fourth entertainment account), Ronaldo to Kvaratskhelia (FabrizioRomano already placed).
+- Added: none. Updated: none (pulse pass).
+- Left out: hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); yashar Habba pardon post (unchecked claim about real people); Witkoff-to-Putin clip, BBCWorld Alberta, atrupar Hegseth Starlink clip (small, desks full or covered by the Seligman post); instablog9ja, LilithBlack25, Rakgadi_EM (private_individual); ballondor, EnesFreedom (bait); MySportsUpdate Titans gun report (unconfirmed claim about real people); Musk video call, Bach, Great Replacement, UK/Spain and SpaceX $1T posts (account already placed).
+- Requests: watch.json and open.json updated_at only (every pulse post is already on watch).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
