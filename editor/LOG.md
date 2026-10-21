@@ -1902,3 +1902,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (new pulse id added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T00:30Z
+- Captures read: 0006Z (2258Z was read last pass). Last read: 0006Z.
+- X's check: 0006Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 32 items (2 new, 1 dropped past 36 hours: RepBrianFitz, so defense is quiet). New: Sky News on a government report on antisemitism in English schools (world), Dexerto on Spotify Family plan checks (tech). The build holds two posts off the front page (PopBase 1, Polymarket 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: EagleCorp EAGLE-4 launch (ai, small, a company announcement not checked); ayywalker Cardi B post (insults a named person); danwootton France post (insults a group); RelatablewABS (opinion about a religious group); yabaleftonline (private person's appeal); miyarah_ Spanish post (point unclear); Elon Musk and ScottPresler Paxton posts (account already placed, politics full); atrupar Trump Q&A (politics full); the other large posts in the capture are older than 36 hours.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: yes, commit 4fe61ea, live audit clean (log added in a follow-up commit, which changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
