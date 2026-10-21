@@ -1972,3 +1972,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T07:20Z
+- Captures read: 0705Z (0559Z was read last pass). Last read: 0705Z.
+- X's check: 0705Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 33 items (1 new, 0 dropped; the oldest are at about 35h and go at the next pass: PopBase New Mexico, Burnham parking, Veradermics, Shams Lakers, Trump/Musk, Daugherty). New: edzitron on the Business Insider Amazon GPU report (tech, line says not checked). The build holds two posts off the front page (PopBase 1, Polymarket 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); ballondor Ronaldo poll (a vote with a ticket prize, sports full); NBA opening night, Wemby, Spurs and Fabregas posts (sports full); ThePatriotOasis Trump/France post (politics full); thsottiaux and OpenAIDevs prompt caching posts (vendor announcement, ai has enough); VisionQuest fan posts (small).
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

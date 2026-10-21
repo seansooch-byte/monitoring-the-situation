@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T06:10:00Z",
-  "capture": "2026-10-21T0559Z",
+  "updated_at": "2026-10-21T07:20:00Z",
+  "capture": "2026-10-21T0705Z",
   "items": [
     {
       "id": "2112273011504226337",
@@ -201,6 +201,12 @@
       "id": "2112572559325585704",
       "desk": "life",
       "line": "Auriel_zy posts a written dialogue between a wife who earns more and a husband who earns less, arguing over splitting household costs 50/50. It reads as a made-up scenario, and the post does not say it is a real couple.",
+      "also": []
+    },
+    {
+      "id": "2112336168784134484",
+      "desk": "tech",
+      "line": "Writer Ed Zitron says Business Insider confirms that Amazon has warehouses of GPUs it cannot yet install, and is buying them so far ahead that a supply chain team had no clear forecast for installing them. His post links the Business Insider article. Not checked here.",
       "also": []
     }
   ]
