@@ -1982,3 +1982,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T08:25Z
+- Captures read: 0804Z (0705Z was read last pass). Last read: 0804Z.
+- X's check: 0804Z 19 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2112755758106611943 (ATEEZofficial MV teaser, hashtag text differs); not cited. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 34 items (2 new, 1 dropped past 36 hours: PopBase New Mexico). New: foxweather on Super Typhoon Champi (disaster, line says not checked), Gottalovechaze cat-smell joke (internet). The build holds one post off the front page (Polymarket 1). Next to age out: Veradermics, Shams Lakers, Burnham parking, Trump/Musk thanks.
+- Added: none. Updated: none (pulse pass).
+- Left out: ATEEZ teaser (X mismatch); hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); allchronology and its_The_Dr posts (private_individual); jurgen_nauditt (insult-style take); nc_frey Citrini/Claude drug post (unclear who the account speaks for, ai has enough; Anthropic is involved, lead for a story pass); LeBron/Knicks, Fox/Chet, DWTS and Teyvat leak posts (desks full).
+- Requests: watch.json updated (2 added, 1 removed); open.json updated_at only.
+- Shipped: yes, commit 1d2d771, live audit clean (this log entry added in a follow-up commit, which changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
