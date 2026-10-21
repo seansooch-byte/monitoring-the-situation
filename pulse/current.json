@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T13:40:00Z",
-  "capture": "2026-10-21T1302Z",
+  "updated_at": "2026-10-21T14:40:00Z",
+  "capture": "2026-10-21T1402Z",
   "items": [
     {
       "id": "2112401161940529303",
@@ -220,6 +220,18 @@
       "id": "2112651162835185926",
       "desk": "tech",
       "line": "International Cyber Digest says Mozilla reports that the private keys of 8 certificates from the Indian certificate authority eMudhra were compromised, and that Firefox blocked them within 3 hours. It adds that one key was only 4 digits long. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112538789922894245",
+      "desk": "world",
+      "line": "Politics UK, an account that shares UK political clips, posts a 42-second video it says shows Robert Jenrick asking a Reform UK audience to stand up if they work. The post does not say when or where. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112487884917964806",
+      "desk": "internet",
+      "line": "A post in Japanese. The writer says that to overseas people who argue they have only pirated copies because they cannot get the real thing by legitimate means, all they can say is to give up. The post does not say what it is about.",
       "also": []
     }
   ]

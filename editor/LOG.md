@@ -2042,3 +2042,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only (every pulse post is already on watch).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T14:40Z
+- Captures read: 1402Z (1302Z was read last pass). Last read: 1402Z.
+- X's check: 1402Z 21 confirmed, 0 missing, 1 mismatched, 0 withheld. The mismatch id is not on the pulse (the earlier mismatches 2112755758106611943 and 2112357292444385405 are unchanged and not cited).
+- Pulse: 38 items (2 new, 0 dropped; the oldest, MLB and FC Barcelona, are about 36 hours old and go next pass). New: PolitlcsUK on a Jenrick clip (world, line says not checked), ben_1225 Japanese post on piracy (internet, line says the language). The build holds one post off the front page (SpaceX 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: MySportsUpdate Titans gun report (unconfirmed claim about real people); mico332 Shibuya photo (private_individual); SportsCenter, Dexerto, StateDept, DiscussingFilm Prestige, SenatorSlotkin, Tad Jude ad, nicksortor Omar (desks full or account already placed); Jihyo agency post (music has PopBase); bradlander IDF detention (small, unchecked claim about a real person); EagleCorp EAGLE-4 (promotion).
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
