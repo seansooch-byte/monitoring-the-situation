@@ -1942,3 +1942,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: yes, commit a03e5b8, live audit clean (log added in a follow-up commit, which changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T04:15Z
+- Captures read: 0403Z (0308Z was read last pass). Last read: 0403Z.
+- X's check: 0403Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 35 items (0 new, 0 dropped; all inside 36 hours, the oldest are Fousey at about 35.9h and Talarico at about 35.8h and go at the next pass). The 0403Z capture added only small NBA opening night posts, an Elon Musk Paxton post (account already placed) and posts already judged earlier.
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA opening night posts (LeBron/Sixers at MSG, Spurs-Thunder; sports full, small so far); rawsalerts Charlotte police post (accusation, unconfirmed); atrupar and EricLDaugh Trump/Nick Shirley posts (politics full); unusual_whales GTA VI economy claim (unchecked); Polymarket Musk "watts" post (small, unchecked); private_individual-flagged posts.
+- Requests: updated_at only in watch.json and open.json (every pulse id already on watch).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
