@@ -2122,3 +2122,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the OpenAI PHP vulnerability post may merit a story pass (needs a source outside X). The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T23:30Z
+- Captures read: 2301Z (2203Z was read last pass). Last read: 2301Z.
+- X's check: 2301Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 37 items (3 new, 3 dropped past 36 hours: A2O Lite "Neon", Cyberpunk REDstreams, ben_1225 Japanese post). New: Visegrad24 on Bukele's Haiti operation (world, Polymarket post attached), Variety on Kenan Thompson and Shane Gillis (entertainment), Scoble on GrokBot (ai, line discloses xAI). Header moved to 2301Z. The build holds one post off the front page (SpaceX 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: Fox News on Ilhan Omar (account already placed on politics); willchamberlain, EricLDaugh and GuntherEagleman posts on the Omar warrant (claims about a real person from partisan accounts, unchecked); Musk Talarico, SpaceX shares and Grok posts (account placed, or older than 36 hours); NYMag Robach/Holmes (private ex-spouses); PopBeeee Soobin rumor; fousey (older than 36 hours); old_content and private_individual posts as before.
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the Ilhan Omar search warrant (a name in a DDC scheduling order) and Bukele's Haiti operation may merit a story pass with sources outside X. The message that started me had no instructions beyond the contract.

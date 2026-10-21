@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T22:30:00Z",
-  "capture": "2026-10-21T2203Z",
+  "updated_at": "2026-10-21T23:30:00Z",
+  "capture": "2026-10-21T2301Z",
   "items": [
     {
       "id": "2112514626256884044",
@@ -98,12 +98,6 @@
       "also": []
     },
     {
-      "id": "2112491642552987698",
-      "desk": "music",
-      "line": "A fan account for the group A2O Lite posts a video of the group performing \"Neon\" as an encore at an event it calls THE SHOW.",
-      "also": []
-    },
-    {
       "id": "2112616840635773183",
       "desk": "world",
       "line": "HormuzReport, a news account, says the US is preparing to abandon Gulf countries and that Trump envoy Tom Barrack told Gulf allies in Doha that Washington cannot guarantee their security indefinitely. Not checked here.",
@@ -130,11 +124,6 @@
       "id": "2112638276389790102",
       "desk": "business",
       "line": "SpaceX posts its Q3 2026 highlights, saying revenue was $14.6 billion, up 161% year over year. It credits some growth to Grok, which is made by xAI, the company behind the model that gathers this page's posts. Not checked here."
-    },
-    {
-      "id": "2112499101312942227",
-      "desk": "gaming",
-      "line": "The official Cyberpunk 2077 account announces a REDstreams broadcast on Wednesday, October 21 at 5 PM CEST about the Edgerunners 2 Update (2.5). It says the stream will cover cyberware customization and a new dual-wielding playstyle."
     },
     {
       "id": "2112587890001674414",
@@ -183,12 +172,6 @@
       "also": []
     },
     {
-      "id": "2112487884917964806",
-      "desk": "internet",
-      "line": "A post in Japanese. The writer says that to overseas people who argue they have only pirated copies because they cannot get the real thing by legitimate means, all they can say is to give up. The post does not say what it is about.",
-      "also": []
-    },
-    {
       "id": "2112939813225849085",
       "desk": "internet",
       "line": "DogeDesigner posts a 65-second clip of Elon Musk saying that people who get their information from legacy media live in a different world from people who get it from X. Musk owns X and the company behind Grok, which gathers this page's posts. Not checked here.",
@@ -222,6 +205,24 @@
       "desk": "politics",
       "line": "PopBase says the administration of New York City mayor Zohran Mamdani has unveiled new sidewalk shed designs. It also says the number of sheds has fallen by 1,200 in 10 months, a drop of over 15%. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2113004231502520761",
+      "desk": "world",
+      "line": "Visegrad24, a news-alert account, says El Salvador President Nayib Bukele announced a military operation in Haiti against gangs, to free four Salvadoran citizens it says were kidnapped. It says Bukele threatened to eradicate the gangs if the men are hurt. Not checked here.",
+      "also": [
+        "2113005352631615652"
+      ]
+    },
+    {
+      "id": "2112987282856607839",
+      "desk": "entertainment",
+      "line": "Variety reports that SNL cast member Kenan Thompson says Shane Gillis' monologue \"overshadowed\" the whole episode. Thompson says he does not know Gillis to be a mean person and would talk with him if he returned. Variety says he spoke at the Axios Media Trends Live summit."
+    },
+    {
+      "id": "2112950764348014878",
+      "desk": "ai",
+      "line": "Tech writer Robert Scoble says he has been \"GrokBot pilled\", and that Grok knows him better than other bots because of his 300,000 posts. He says the bot can now read X lists. Grok, the model that gathers this page's posts, is made by xAI. Not checked here."
     }
   ]
 }
