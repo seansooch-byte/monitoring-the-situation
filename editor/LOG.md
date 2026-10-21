@@ -2012,3 +2012,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added, 3 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T11:45Z
+- Captures read: 1107Z (1007Z was read last pass). Last read: 1107Z.
+- X's check: 1107Z 26 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2112357292444385405 (KDA_MUSIC), unchanged, not cited. The 0804Z mismatch (2112755758106611943, ATEEZofficial) is unchanged and not cited.
+- Pulse: 34 items (1 new, 0 dropped; Daugherty and Zitron reach 36 hours at about 12:10Z). New: BBC Breaking on the Hubbard release (world). The build holds one post off the front page (SpaceX 1).
+- Added: 2026-10-21-russia-frees-stephen-hubbard (world, politics). Updated: none.
+- Left out: bennyjohnson Ilhan Omar TikTok post (claim about a real person, politics full; the 2026-10-14 Omar story is live, I found no new facts and did not update it); PeterDiamandis SpaceX prediction (opinion); TWICE Jihyo agency post (music has PopBase); flaneurdigital meme (sports full); the Polymarket Anthropic revenue post stays a pulse line only, no primary source found this pass (Anthropic is involved).
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

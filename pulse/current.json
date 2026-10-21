@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T10:13:17Z",
-  "capture": "2026-10-21T1007Z",
+  "updated_at": "2026-10-21T11:45:00Z",
+  "capture": "2026-10-21T1107Z",
   "items": [
     {
       "id": "2112401161940529303",
@@ -203,6 +203,12 @@
       "id": "2112708041988587904",
       "desk": "justice",
       "line": "Raw Alerts, a news-alert account, says three Charlotte police officers resigned after a Flock database allegedly showed a contest over who could arrest the most Black people. The post gives no source. Not checked here."
+    },
+    {
+      "id": "2112839193646735745",
+      "desk": "world",
+      "line": "BBC Breaking says Russia has released US citizen Stephen Hubbard, who was captured in Ukraine, citing state media, as a Trump envoy holds talks with Putin. The site has a story on it.",
+      "also": []
     }
   ]
 }
