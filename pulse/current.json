@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T04:15:00Z",
-  "capture": "2026-10-21T0403Z",
+  "updated_at": "2026-10-21T05:25:00Z",
+  "capture": "2026-10-21T0507Z",
   "items": [
     {
       "id": "2112273011504226337",
       "desk": "politics",
       "line": "PopBase posts that Donald Trump calls for New Mexico to be renamed to New America. The Washington Examiner reports Trump posted that the state should change its name \"immediately\"; a president cannot rename a state.",
-      "also": []
-    },
-    {
-      "id": "2112217914673959115",
-      "desk": "politics",
-      "line": "Elon Musk posts \"Talarico hates Texas\" with a link and no further explanation. Talarico is James Talarico, whom President Trump attacked in a separate post. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
       "also": []
     },
     {
@@ -24,53 +18,15 @@
       ]
     },
     {
-      "id": "2112216349393232083",
-      "desk": "internet",
-      "line": "Fousey posts a long account of two nights of binge eating five days before a bodybuilding show. The post says they are unsure whether to compete on Saturday or postpone to November, and will take breaks from social media and look at their relationship with food. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112220986795766059",
-      "desk": "music",
-      "line": "Cardi B tells people to go watch her Tiny Desk performance and asks what they think of it. The post links a video titled \"Cardi B: Tiny Desk Concert\". The video has not been watched here.",
-      "also": [
-        "2112218179279684032"
-      ]
-    },
-    {
-      "id": "2112222971142316531",
-      "desk": "gaming",
-      "line": "Daily Star Wars Games, a fan account, says a new rumour has Lucasfilm pushing hard for a Star Wars Battlefront 3, with DICE and Bungie both in talks. It is a rumour and it is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112232199177068907",
-      "desk": "sports",
-      "line": "Fabrizio Romano reports that Portugal's football federation has suspended Cristiano Ronaldo for 30 days and fined him €255 after he left the national team's camp in Denmark. He says Ronaldo had suggested a punishment himself after apologizing. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112293785472225568",
       "desk": "politics",
       "line": "President Trump thanks Elon Musk for what he calls his generosity in giving SpaceX stock to American children through Trump Accounts. Musk's own post on this is also on this page. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
       "also": []
     },
     {
-      "id": "2112230237010272645",
-      "desk": "life",
-      "line": "The Weather Channel posts, as a joke, that the sun will soon set at 4:30 pm and that people should prepare to eat dinner in the dark. It gives no place or date.",
-      "also": []
-    },
-    {
       "id": "2112295254598787433",
       "desk": "world",
       "line": "Politics UK reports that Andy Burnham has announced changes to car parking fines: a 5-minute grace period before parking, 10 minutes to leave, and a £20 maximum on appeal for minor mistakes. It says the £100 cap stays. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112223850696200226",
-      "desk": "entertainment",
-      "line": "Gulte, an Indian film news account, posts a 48-second video with words it attributes to the actor Yash. It says he asks viewers not to pick at small faults such as the effects in Ramayana, and to watch the film with an open mind. Not checked here.",
       "also": []
     },
     {
@@ -83,12 +39,6 @@
       "id": "2112451712870953105",
       "desk": "sports",
       "line": "The Touchline posts quotes it attributes to Erik ten Hag, Manchester United's former manager, saying Cristiano Ronaldo let the team down and was not training properly. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112225056478679118",
-      "desk": "world",
-      "line": "Ukrainian President Volodymyr Zelenskyy posts photos and says a Russian shahed drone struck people in a park near a cafe in the Kharkiv region, killing six, including children, and wounding 14. He asks allies to keep sanctions on Russia and to give Ukraine air defense. These are his figures. Not checked here.",
       "also": []
     },
     {
@@ -133,12 +83,6 @@
       "id": "2112281656266559956",
       "desk": "medicine",
       "line": "Polymarket reports that Veradermics says its experimental hair-loss pill significantly increased hair growth in over 500 men in a late-stage study, with no serious side effects. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112231064663887996",
-      "desk": "entertainment",
-      "line": "TMZ reports that Richard Riehle, an actor in \"Office Space\", has died at 78. It links its own story. Not checked here.",
       "also": []
     },
     {
@@ -221,6 +165,18 @@
       "id": "2112607347688583586",
       "desk": "ai",
       "line": "OpenAI announces it has acquired Orchestra Bio, a platform that helps biopharma teams coordinate drug development. It says it will build on Rosalind, its AI models and tools for life sciences research. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112593866461216942",
+      "desk": "politics",
+      "line": "Elon Musk says \"The fate of Texas and America is at stake\" and urges followers to vote for Ken Paxton today. The post quotes another pulse post on the same race. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112491642552987698",
+      "desk": "music",
+      "line": "A fan account for the group A2O Lite posts a video of the group performing \"Neon\" as an encore at an event it calls THE SHOW.",
       "also": []
     }
   ]
