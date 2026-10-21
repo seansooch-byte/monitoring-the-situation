@@ -2002,3 +2002,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: yes, commit 6fe6fae, live audit clean (this log entry added in a follow-up commit, which changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T10:30Z
+- Captures read: 1007Z (0906Z was read last pass). Last read: 1007Z.
+- X's check: 1007Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0804Z mismatch (2112755758106611943, ATEEZofficial) and the 1103Z mismatch (2112357292444385405, KDA_MUSIC) are unchanged and not cited.
+- Pulse: 33 items (2 new, 3 dropped past 36 hours: Trump/Musk thanks, Burnham parking, Gottalovechaze cat joke). New: Meloni on protest and security measures (world, Italian, line says not checked), Raw Alerts on Charlotte officers and Flock (justice, line says not checked). The build holds one post off the front page (SpaceX 1). Next to age out: MLB World Series, Daugherty.
+- Added: none. Updated: none (pulse pass).
+- Left out: hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); Musk video-call, USB-C, Great Replacement and SpaceX $1T posts (account already placed); SumitM_X (point unclear); stoneoreye, KaleiRenay, wcdispatch, viewsceo, FearedBuck (private_individual); rawsalerts Virginia duct tape post (accused private person); Kvaratskhelia ACL and Ballon d'Or nominee posts (FabrizioRomano already placed, sports full); EnesFreedom, ballondor (bait, prize poll); TMZ Sprouse, Husted, GTA VI economy claim (desks full or unchecked).
+- Requests: watch.json updated (2 added, 3 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

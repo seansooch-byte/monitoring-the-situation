@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T09:25:00Z",
-  "capture": "2026-10-21T0906Z",
+  "updated_at": "2026-10-21T10:13:17Z",
+  "capture": "2026-10-21T1007Z",
   "items": [
     {
       "id": "2112401161940529303",
@@ -10,18 +10,6 @@
       "also": [
         "2112016006331945286"
       ]
-    },
-    {
-      "id": "2112293785472225568",
-      "desk": "politics",
-      "line": "President Trump thanks Elon Musk for what he calls his generosity in giving SpaceX stock to American children through Trump Accounts. Musk's own post on this is also on this page. Musk's company xAI makes the model that gathers this page's posts. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112295254598787433",
-      "desk": "world",
-      "line": "Politics UK reports that Andy Burnham has announced changes to car parking fines: a 5-minute grace period before parking, 10 minutes to leave, and a £20 maximum on appeal for minor mistakes. It says the £100 cap stays. Not checked here.",
-      "also": []
     },
     {
       "id": "2112380534089252933",
@@ -197,11 +185,6 @@
       "line": "Fox Weather says Super Typhoon Champi has reached Category 5-equivalent strength with sustained winds of 185 mph, tying Super Typhoon Sinlaku as the strongest storm of 2026 by wind speed. It says the storm recently passed near Guam. Not checked here."
     },
     {
-      "id": "2112253657647599684",
-      "desk": "internet",
-      "line": "Gottalovechaze posts a joke that cats naturally smell like baby powder and vanilla, and dogs do not. It is a lighthearted post, and the claim is not checked here."
-    },
-    {
       "id": "2112638276389790102",
       "desk": "business",
       "line": "SpaceX posts its Q3 2026 highlights, saying revenue was $14.6 billion, up 161% year over year. It credits some growth to Grok, which is made by xAI, the company behind the model that gathers this page's posts. Not checked here."
@@ -210,6 +193,16 @@
       "id": "2112499101312942227",
       "desk": "gaming",
       "line": "The official Cyberpunk 2077 account announces a REDstreams broadcast on Wednesday, October 21 at 5 PM CEST about the Edgerunners 2 Update (2.5). It says the stream will cover cyberware customization and a new dual-wielding playstyle."
+    },
+    {
+      "id": "2112587890001674414",
+      "desk": "world",
+      "line": "Italian Prime Minister Giorgia Meloni posts a video with a caption in Italian. The caption says protest is a right and wrecking cities is not, and that the government has approved measures against violence and for citizens' safety. What the measures contain is not checked here."
+    },
+    {
+      "id": "2112708041988587904",
+      "desk": "justice",
+      "line": "Raw Alerts, a news-alert account, says three Charlotte police officers resigned after a Flock database allegedly showed a contest over who could arrest the most Black people. The post gives no source. Not checked here."
     }
   ]
 }
