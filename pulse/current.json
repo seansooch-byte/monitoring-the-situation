@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T07:20:00Z",
-  "capture": "2026-10-21T0705Z",
+  "updated_at": "2026-10-21T08:25:00Z",
+  "capture": "2026-10-21T0804Z",
   "items": [
-    {
-      "id": "2112273011504226337",
-      "desk": "politics",
-      "line": "PopBase posts that Donald Trump calls for New Mexico to be renamed to New America. The Washington Examiner reports Trump posted that the state should change its name \"immediately\"; a president cannot rename a state.",
-      "also": []
-    },
     {
       "id": "2112401161940529303",
       "desk": "gaming",
@@ -208,6 +202,16 @@
       "desk": "tech",
       "line": "Writer Ed Zitron says Business Insider confirms that Amazon has warehouses of GPUs it cannot yet install, and is buying them so far ahead that a supply chain team had no clear forecast for installing them. His post links the Business Insider article. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2112660966072590389",
+      "desk": "disaster",
+      "line": "Fox Weather says Super Typhoon Champi has reached Category 5-equivalent strength with sustained winds of 185 mph, tying Super Typhoon Sinlaku as the strongest storm of 2026 by wind speed. It says the storm recently passed near Guam. Not checked here."
+    },
+    {
+      "id": "2112253657647599684",
+      "desk": "internet",
+      "line": "Gottalovechaze posts a joke that cats naturally smell like baby powder and vanilla, and dogs do not. It is a lighthearted post, and the claim is not checked here."
     }
   ]
 }
