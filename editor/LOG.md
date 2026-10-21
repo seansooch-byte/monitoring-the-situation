@@ -2072,3 +2072,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (5 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Note: sources disagree on Locksley's career record and buyout, and on the length of Cashman's deal; the stories give none. The WSJ Starlink slowdown report still has no new story.
+
+## 2026-10-21T18:40Z
+- Captures read: 1808Z (1709Z was read last pass). Last read: 1808Z.
+- X's check: 1808Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (2112755758106611943, 2112357292444385405 and the 1402Z one) unchanged and not cited.
+- Pulse: 35 items (1 new, 1 dropped past 36 hours: PopBase Jay-Z halftime). New: jasonschreier on the Bloomberg report that EA is cutting 400 jobs and shutting down BioWare (gaming, line says not checked). Header moved to 1808Z. The build holds one post off the front page (SpaceX 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: bioware's own post (image only, no text or description to work from); DiscussingFilm BioWare (account already placed); TMZ Allen Bailey death (small, unchecked); RahulGandhi Epstein/Puri post (unchecked claim about real people); MarioNawfal Trump clip, GuntherEagleman fraud program (politics full, covered by FoxNews); Carrick posts (small); yirmiucderece, allchronology, godsoncatalina, dijoni, Ichanpyaari, blue_sapphire9 (private_individual); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Note for the next story pass: the BioWare shutdown has no story; it needs EA's own statement.

@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T17:35:00Z",
-  "capture": "2026-10-21T1709Z",
+  "updated_at": "2026-10-21T18:40:00Z",
+  "capture": "2026-10-21T1808Z",
   "items": [
     {
       "id": "2112451712870953105",
       "desk": "sports",
       "line": "The Touchline posts quotes it attributes to Erik ten Hag, Manchester United's former manager, saying Cristiano Ronaldo let the team down and was not training properly. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112427182631145953",
-      "desk": "music",
-      "line": "PopBase says Puck reports that Jay-Z has picked himself to headline the 2027 Super Bowl halftime show, and that Miley Cyrus and Justin Bieber were reportedly considered. The post links Puck's story. Not checked here.",
       "also": []
     },
     {
@@ -210,6 +204,12 @@
       "id": "2112939813225849085",
       "desk": "internet",
       "line": "DogeDesigner posts a 65-second clip of Elon Musk saying that people who get their information from legacy media live in a different world from people who get it from X. Musk owns X and the company behind Grok, which gathers this page's posts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112953336953770278",
+      "desk": "gaming",
+      "line": "Game journalist Jason Schreier posts a Bloomberg headline saying Electronic Arts is cutting 400 jobs and shutting down BioWare, the studio behind Dragon Age and Mass Effect. Not checked here.",
       "also": []
     }
   ]
