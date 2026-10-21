@@ -1952,3 +1952,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: updated_at only in watch.json and open.json (every pulse id already on watch).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T05:25Z
+- Captures read: 0507Z (0403Z was read last pass). Last read: 0507Z.
+- X's check: 0507Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 28 items (2 new, 9 dropped past 36 hours: Musk Talarico, Fousey, Cardi B, Star Wars Games, Romano, Weather Channel, TMZ, Gulte, Zelenskyy). New: Musk Paxton vote post (his older placed post aged out, so the account takes the place), A2O Lite "Neon" encore (music). The build holds two posts off the front page (PopBase 1, Polymarket 1). Internet, world and life are thin after the drops; nothing newer was large enough to replace them.
+- Added: none. Updated: none (pulse pass).
+- Left out: BBCWorld Mississippi shooting of a one-year-old (child victim, one headline, left out to be safe; lead for a story pass with the attorney general's own statement); hasibiro_maga Kim Jong Un death post (unconfirmed claim about a real person); CattardSlim and PopBase Ramaswamy/Acton posts (private_individual); X_Global, SarahisCensored, medianvotertx politics posts (politics full); TheePopCore and NBA posts (small, desks full).
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: yes, commit 4ecb251, live audit clean (this log entry added in a follow-up commit, which changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
