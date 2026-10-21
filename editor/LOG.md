@@ -2112,3 +2112,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the grabber labelled the Uthmeier arrest post sports; filed under justice. Sources disagree on the Florida Ethics Commission outcome (censure vs dismissal); the story gives none. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T22:30Z
+- Captures read: 2203Z (2107Z was read last pass). Last read: 2203Z.
+- X's check: 2203Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 37 items (1 new, 1 dropped past 36 hours: DeepSeek DeepInfer). New: PopBase on NYC sidewalk shed designs (politics, line says not checked). Header moved to 2203Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: @america clip of Talarico (claim about a real person, unchecked); Musk Talarico posts (account placed); bioware image-only post; OpenAI Patch the Planet PHP post (ai desk already has four); Romano Kvaratskhelia and Dembele posts (account placed); MySportsUpdate Titans gun report (unconfirmed claim); yirmiucderece and allchronology posts (private_individual); akuril4946 Japanese post (point unclear).
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the OpenAI PHP vulnerability post may merit a story pass (needs a source outside X). The message that started me had no instructions beyond the contract.
