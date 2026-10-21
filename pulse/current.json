@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T19:20:00Z",
-  "capture": "2026-10-21T1900Z",
+  "updated_at": "2026-10-21T20:20:00Z",
+  "capture": "2026-10-21T2008Z",
   "items": [
-    {
-      "id": "2112451712870953105",
-      "desk": "sports",
-      "line": "The Touchline posts quotes it attributes to Erik ten Hag, Manchester United's former manager, saying Cristiano Ronaldo let the team down and was not training properly. Not checked here.",
-      "also": []
-    },
     {
       "id": "2112514626256884044",
       "desk": "science",
@@ -211,6 +205,11 @@
       "desk": "gaming",
       "line": "Game journalist Jason Schreier posts a Bloomberg headline saying Electronic Arts is cutting 400 jobs and shutting down BioWare, the studio behind Dragon Age and Mass Effect. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2112637519342800987",
+      "desk": "politics",
+      "line": "Journalist Aaron Rupar posts a 4-minute video he calls a supercut of an Oval Office event. He says President Trump told reporters Ilhan Omar might \"go to jail\" and called Somalia \"a shit house\". His post uses sharp personal language about Trump. I did not check the clip or the quotes."
     }
   ]
 }

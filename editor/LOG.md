@@ -2092,3 +2092,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T20:20Z
+- Captures read: 2008Z (1900Z was read last pass). Last read: 2008Z.
+- X's check: 2008Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (2112755758106611943, 2112357292444385405 and the 1402Z one) unchanged and not cited.
+- Pulse: 35 items (1 new, 1 dropped past 36 hours: The Touchline ten Hag quotes). New: atrupar's supercut of the Trump Oval Office event (politics, line says not checked). Header moved to 2008Z. The build holds one post off the front page (SpaceX 1).
+- Added: none. Updated: none (pulse pass).
+- Left out: MySportsUpdate Titans gun report (unconfirmed claim about real people); notCloutbay Broner clip (claim about a real person); stagepopbr Slayyyter (posts from when she was 15); DiscussingFilm BioWare (covered by Schreier); Carrick and Kane posts (sports covered); old_content and private_individual posts as before.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
