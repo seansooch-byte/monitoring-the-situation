@@ -1912,3 +1912,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: yes, commit 4fe61ea, live audit clean (log added in a follow-up commit, which changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-21T01:10Z
+- Captures read: 0059Z (0006Z was read last pass). Last read: 0059Z.
+- X's check: 0059Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1103Z mismatch (2112357292444385405, KDA_MUSIC) is unchanged and not cited.
+- Pulse: 32 items (0 new, 0 dropped; all inside 36 hours, the oldest is the Colts post at about 35.9h and goes at the next pass). The 0059Z capture was a short re-read with nothing new that belongs.
+- Added: none. Updated: none (pulse pass).
+- Left out: rawsalerts duct-tape arrest (accusation against a private person); DWTS Ezra Frech posts (entertainment full, small); Elon Musk and ScottPresler Paxton posts (account already placed, politics full); allreactionvids, kantei, PressSec_JP, ForeignPolicy, moviebox247 (old content or private individual); MarieGentric, ThaisEscufon (private individuals); growing_daniel (religious group); the rest older than 36 hours.
+- Requests: updated_at only in watch.json and open.json (every pulse id already on watch).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
