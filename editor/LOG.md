@@ -2212,3 +2212,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T08:15Z
+- Captures read: 0800Z (0706Z was read last pass). Last read: 0800Z.
+- X's check: 0800Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 29 items (3 new, 4 dropped). Dropped: Polymarket on Anthropic's loss, Rupar supercut, PopBase on Mamdani sheds (all older than 36 hours); Scoble's post (now attached in `also` to Musk's quote of it). New: Musk "Try Grok @Bot" (ai, quotes Scoble), Talarico on a trillionaire buying a Senator (politics, which had no item left), Romano quoting Mbappé (sports). Corrected the Ty Jerome line to name TheDunkCentral, the real author. Header moved to 0800Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk "Talarico hates Texas", america and Acyn clips on Talarico and Trump (claims about real people unchecked, or a copy of a post already placed); willchamberlain, nicksortor and EricLDaugh on Ilhan Omar's warrant (claims about a real person unchecked); BazBombadil (point unclear); Railway "urgent notice" (point unclear); Rainmaker1973 K-9 clip (violence, unclear); basketball posts beyond the sports items already placed.
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
