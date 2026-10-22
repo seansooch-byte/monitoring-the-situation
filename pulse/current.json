@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T13:25:00Z",
-  "capture": "2026-10-22T1307Z",
+  "updated_at": "2026-10-22T14:30:00Z",
+  "capture": "2026-10-22T1409Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -175,12 +175,6 @@
       "also": []
     },
     {
-      "id": "2112726565100396987",
-      "desk": "politics",
-      "line": "Unusual Whales, a news-alert account, says the Trump administration is reportedly preparing to pursue wages and benefits of borrowers with defaulted federal student loans, citing Forbes. It says the Education Department and Treasury are working to hire private debt collectors. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112988488379273237",
       "desk": "world",
       "line": "State Department spokesperson Tommy Pigott says a report of ordered departures across Gulf embassies is inaccurate: the order covers non-emergency staff and families in Saudi Arabia only, citing Houthi attacks. The report was by Timour Azhari. Not checked here.",
@@ -198,6 +192,12 @@
       "id": "2113143887594475733",
       "desk": "internet",
       "line": "Streamer QTCinderella says people were late to her wedding and that it set the wedding back. She asks viewers to stop hating on someone on behalf of another streamer and says drama clippers have farmed it. The post does not name who she means.",
+      "also": []
+    },
+    {
+      "id": "2113074893688619285",
+      "desk": "sports",
+      "line": "Enes Kanter Freedom says he was kicked out of a WNBA game for the second time in a row, and says it was for supporting women. Not checked here.",
       "also": []
     }
   ]

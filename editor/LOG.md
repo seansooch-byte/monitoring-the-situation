@@ -2272,3 +2272,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T14:30Z
+- Captures read: 1409Z (1307Z was read last pass). Last read: 1409Z.
+- X's check: 1409Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 32 items (1 new, 1 dropped). Dropped: Unusual Whales on the Trump administration (older than 36 hours). New: Enes Kanter Freedom's own post on being removed from a WNBA game (sports, attributed, not checked). Header moved to 1409Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Benny Johnson and Jack Thompson posts on the same WNBA event (Kanter Freedom's own post placed instead); ChampionsLeague Kane goal kick (sports full, trivial); Ron Duguay obituary posts (small, death not confirmed outside X); Musk, Scobleizer, ScottPresler Texas posts (account placed or claims unchecked); Cultination1 foot-binding (history claim unchecked); PeakClipsMedia CCTV clip (private_individual); Papergames hashtag posts (tiny, harassment dispute); Janice Dean post on Megyn Kelly (claim about a private friendship, unchecked); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
