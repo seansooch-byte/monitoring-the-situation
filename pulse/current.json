@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T01:25:00Z",
-  "capture": "2026-10-22T0103Z",
+  "updated_at": "2026-10-22T02:35:00Z",
+  "capture": "2026-10-22T0206Z",
   "items": [
-    {
-      "id": "2112537441110475235",
-      "desk": "entertainment",
-      "line": "DiscussingFilm posts that the trailer for the film Logan was released 10 years ago today. Not checked here.",
-      "also": []
-    },
     {
       "id": "2112612774874325148",
       "desk": "politics",
@@ -108,12 +102,6 @@
       "also": []
     },
     {
-      "id": "2112538789922894245",
-      "desk": "world",
-      "line": "Politics UK, an account that shares UK political clips, posts a 42-second video it says shows Robert Jenrick asking a Reform UK audience to stand up if they work. The post does not say when or where. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112939813225849085",
       "desk": "internet",
       "line": "DogeDesigner posts a 65-second clip of Elon Musk saying that people who get their information from legacy media live in a different world from people who get it from X. Musk owns X and the company behind Grok, which gathers this page's posts. Not checked here.",
@@ -194,6 +182,24 @@
       "id": "2112564725112508834",
       "desk": "politics",
       "line": "Charles Booker, who says he is running for the US Senate in Kentucky, posts that he was two weeks old when Mitch McConnell was first elected and that in two weeks he will be replacing him. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113011737540641266",
+      "desk": "entertainment",
+      "line": "The account DunderMifflinAS posts a 2-minute clip it calls a banned Halloween cold open from The Office, and says it is not on Peacock or Netflix. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112981939984671090",
+      "desk": "tech",
+      "line": "The Hacker News posts an alert about a GitLab flaw rated CVSS 10.0 that it says affects 12 years of releases. The CVE number in the post differs from the one in GitLab's own notice; see the story.",
+      "also": []
+    },
+    {
+      "id": "2113068207443697692",
+      "desk": "sports",
+      "line": "TheHoopCentral posts a 34-second video it describes as Anthony Edwards and Giannis Antetokounmpo trading baskets.",
       "also": []
     }
   ]

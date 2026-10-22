@@ -2152,3 +2152,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json untouched.
 - Shipped: see report.
 - For the main editor: nothing new. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T02:40Z
+- Captures read: 0206Z (0103Z was read last pass). Last read: 0206Z.
+- X's check: 0206Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 34 items (3 new, 2 dropped past 36 hours: DiscussingFilm Logan, Politics UK clip). New: DunderMifflinAS Office cold open (entertainment, not checked), The Hacker News GitLab alert (tech, line flags CVE mismatch), TheHoopCentral Edwards and Giannis (sports). Header moved to 0206Z.
+- Added: 2026-10-21-claude-duet-research-preview (ai, discloses Anthropic), 2026-10-21-gitlab-cvss-10-patch (tech). Updated: none (searches found no newer facts on Hubbard, Kissimmee or the Europe remarks).
+- Left out: Omar search warrant and Bukele Haiti operation (web search returned nothing current beyond the 12 October home search already covered); FBI PHP advisory (ids unchecked); Talarico clips (claims about a real person); cat livestream clip (a girl, may be a private person or minor); Vanoss mansion rumor (unchecked); cannabis hippocampus post (health claim, not researched); old_content and private_individual posts.
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the message that started me had no instructions beyond the contract. Search results for events under a day old were thin.
