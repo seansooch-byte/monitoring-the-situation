@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T21:20:00Z",
-  "capture": "2026-10-22T2107Z",
+  "updated_at": "2026-10-22T22:06:40Z",
+  "capture": "2026-10-22T2201Z",
   "items": [
     {
       "id": "2113001073019662481",
       "desk": "science",
       "line": "Marathon Fusion, a fusion company, says it turned mercury into stable gold at ten times CERN's record rate and enriched isotopes in what it calls the most powerful plasma centrifuge. It says it is now building a fusion reactor in San Francisco. The post carries a video that was not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112839193646735745",
-      "desk": "world",
-      "line": "BBC Breaking says Russia has released US citizen Stephen Hubbard, who was captured in Ukraine, citing state media, as a Trump envoy holds talks with Putin. The site has a story on it.",
       "also": []
     },
     {
@@ -50,7 +44,8 @@
     {
       "id": "2112987282856607839",
       "desk": "entertainment",
-      "line": "Variety reports that SNL cast member Kenan Thompson says Shane Gillis' monologue \"overshadowed\" the whole episode. Thompson says he does not know Gillis to be a mean person and would talk with him if he returned. Variety says he spoke at the Axios Media Trends Live summit."
+      "line": "Variety reports that SNL cast member Kenan Thompson says Shane Gillis' monologue \"overshadowed\" the whole episode. Thompson says he does not know Gillis to be a mean person and would talk with him if he returned. Variety says he spoke at the Axios Media Trends Live summit.",
+      "also": []
     },
     {
       "id": "2112921648252719420",
@@ -236,6 +231,18 @@
       "id": "2113346272908415002",
       "desk": "entertainment",
       "line": "PopCrave reports that actor Tom Skerritt, known for ‘M*A*S*H’ and ‘Alien’, has died aged 93. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113251043173683683",
+      "desk": "ai",
+      "line": "Madison Mills, a reporter, posts an Axios scoop saying major US banks are detecting unauthorized third-party AI agents inside customer accounts. Axios says it is told this by unnamed bank and industry executives. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113175048433369137",
+      "desk": "business",
+      "line": "Sky News posts a breaking alert saying Barclays is cutting 5,000 jobs in an efficiency drive led by AI. The post links to Sky’s own report. Not checked here.",
       "also": []
     }
   ]
