@@ -2332,3 +2332,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only (every pulse post already listed).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidate for the next story pass: AIPAC dropping endorsements.
+
+## 2026-10-22T20:30Z
+- Captures read: 2007Z (1902Z was read last pass). Last read: 2007Z.
+- X's check: 2007Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 38 items (1 new, 0 dropped). New: PopCrave on the reported death of actor Tom Skerritt (entertainment, attributed, not checked). Header moved to 2007Z. BBC Breaking (Hubbard) is about 35 hours old and will age out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Variety and PopBase on Tom Skerritt (account already placed); Talarico and Paxton posts from Musk, america, Presler, Trump (account placed or politics full, claims unchecked); EricLDaugh and FearedBuck on LeBron (sports full, partisan framing); MarioNawfal "the war is not over" (point unclear); nntaleb on AI and jobs (opinion, small); kalaelizabeth Mass Effect leak (unchecked); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidate for the next story pass: Tom Skerritt obituary, LeBron anthem clip and the President's demand.

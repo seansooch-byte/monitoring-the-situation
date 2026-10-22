@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T20:00:00Z",
-  "capture": "2026-10-22T1902Z",
+  "updated_at": "2026-10-22T20:30:00Z",
+  "capture": "2026-10-22T2007Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -230,6 +230,12 @@
       "id": "2113327776027852930",
       "desk": "markets",
       "line": "The account unusual_whales says the stock with the ticker $MRNA is down 24% today to $187 and describes options-market price levels it calls support and resistance. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113346272908415002",
+      "desk": "entertainment",
+      "line": "PopCrave reports that actor Tom Skerritt, known for ‘M*A*S*H’ and ‘Alien’, has died aged 93. Not checked here.",
       "also": []
     }
   ]
