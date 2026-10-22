@@ -2182,3 +2182,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T05:20Z
+- Captures read: 0502Z (0408Z was read last pass). Last read: 0502Z.
+- X's check: 0502Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 33 items (2 new, 4 dropped). Dropped: RabbiJeffx Grok question, Meloni video, Dexerto Spotify (all older than 36 hours), TheHoopCentral Edwards and Giannis (replaced by a larger sports post). New: NBACentral on Ty Jerome's 45 points (sports, video not checked), WARDOGS ping cap and region locking (gaming, flagged not checked). Header moved to 0502Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn Collins clip (copy of the CNN post already placed); BBC Bush family and Talarico posts, Ted Cruz on El-Sayed, Musk Talarico posts (claims about real people unchecked, politics full); PHP explainer by fiveoutofnine (FBI and OpenAI posts already cover it); bioware post (no words or description); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: yes, commit d04a69c, live audit clean.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
