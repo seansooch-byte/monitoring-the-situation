@@ -2322,3 +2322,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Getty Images bankruptcy, Moderna share move.
+
+## 2026-10-22T20:00Z
+- Captures read: 1902Z (1804Z was read last pass). Last read: 1902Z.
+- X's check: 1902Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items (0 new, 0 dropped). Header moved to 1902Z. BBC Breaking (Hubbard) is 34 hours old and will age out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Bernie Sanders and AIPAC posts and Mario Nawfal on AIPAC endorsements (politics full, claims unchecked); Trump, Musk, Presler Texas vote posts (account placed or politics full); nicksortor on Ilhan Omar (claim about a real person, unchecked); bijan_todd on Anthony Davis (sports full, small account); heavensentl0ver (private_individual); #TrumpsCrimesOnYourDime campaign posts (small); old_content posts.
+- Requests: watch.json and open.json updated_at only (every pulse post already listed).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidate for the next story pass: AIPAC dropping endorsements.
