@@ -2202,3 +2202,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: yes, see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T07:40Z
+- Captures read: 0706Z (0607Z was read last pass). Last read: 0706Z.
+- X's check: 0706Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 30 items (1 new, 2 dropped). Dropped: Fox News on the anti-fraud commission and HormuzReport on the Gulf (both older than 36 hours). New: Marathon Fusion on gold from mercury and a fusion reactor (science, video not checked; science had no item). Header moved to 0706Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn Trump and Collins clip (copy of the CNN post already placed); Dexerto on Ash Dykes (claim about a real person, unchecked); libsoftiktok visa revocations (claim unchecked); Talarico posts (claims about a real person unchecked); eastdakota php2shell stats (FBI and OpenAI posts already cover it); ChuksEricE governor post (may show a private person); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
