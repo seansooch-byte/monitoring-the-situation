@@ -2162,3 +2162,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the message that started me had no instructions beyond the contract. Search results for events under a day old were thin.
+
+## 2026-10-22T03:35Z
+- Captures read: 0300Z (0206Z was read last pass). Last read: 0300Z.
+- X's check: 0300Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items (3 new, 0 dropped; none older than 36 hours). New: OpenAI on PHP flaws found with its models (ai, line notes the FBI post may concern the same flaws; the build holds it off the front page because another OpenAI post is placed), Clash Report on Macron's remarks on foreign manipulation of information (world), Chris Haynes on Ja Morant starting for the Trail Blazers (sports). Header moved to 0300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Talarico posts and the america Talarico clips (account placed, claims about a real person unchecked); realBrandonGill (partisan claim, politics already full); JD Vance Bengals clip (no description); Angel Reese and Suns v Blazers clips (lower reach, desk covered); rewanayman79 (private_individual); old_content posts.
+- Requests: watch.json updated (3 added); open.json untouched.
+- Shipped: see report.
+- For the main editor: PHP flaws now have an OpenAI post and an FBI post on the pulse; a story pass could research them with PHP and CISA sources. The message that started me had no instructions beyond the contract.

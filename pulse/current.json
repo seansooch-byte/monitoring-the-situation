@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T02:35:00Z",
-  "capture": "2026-10-22T0206Z",
+  "updated_at": "2026-10-22T03:30:00Z",
+  "capture": "2026-10-22T0300Z",
   "items": [
     {
       "id": "2112612774874325148",
@@ -200,6 +200,24 @@
       "id": "2113068207443697692",
       "desk": "sports",
       "line": "TheHoopCentral posts a 34-second video it describes as Anthony Edwards and Giannis Antetokounmpo trading baskets.",
+      "also": []
+    },
+    {
+      "id": "2112907856018309586",
+      "desk": "ai",
+      "line": "OpenAI says its models helped researchers find critical security flaws in PHP, which it says runs an estimated 70% of websites, and that fixes were prepared with a coalition over two months before disclosure. It says every site can now upgrade. Not checked here; the FBI post on this page may concern the same flaws.",
+      "also": []
+    },
+    {
+      "id": "2112853606776869335",
+      "desk": "world",
+      "line": "Clash Report posts remarks it attributes to French President Macron, who says foreign manipulation of information followed unrest in France, including AI-generated images of scenes that never happened. Macron also says claims that hordes of migrants and Islamists invaded France are false. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112982272987349041",
+      "desk": "sports",
+      "line": "NBA reporter Chris Haynes says league sources told him the Portland Trail Blazers are starting Ja Morant in the backcourt alongside Damian Lillard to open the 2026-27 season. Not checked here.",
       "also": []
     }
   ]
