@@ -2242,3 +2242,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T11:30Z
+- Captures read: 1107Z (1007Z was read last pass). Last read: 1107Z.
+- X's check: 1107Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 30 items (1 new, 0 dropped). New: ESPN on the Titans' release of Jordan Elliott (sports, attributed, not checked). Header moved to 1107Z.
+- Added: none. Updated: none. Rechecked the Hubbard and Kissimmee mayor stories by search; found nothing newer than what they say.
+- Left out: California man, ICE and murder charge (libsoftiktok, Dapper_Det: private person accused, unchecked); Clash Report "Trump Ocean" post (account already placed, unchecked); nic_carter California wealth tax thread (claims unchecked, a candidate for the next story pass); Bruno Fernandes after Como (could not confirm the match by search); Cultination1 foot-binding (history claim unchecked); Yaxel on Luka posts (game already placed); Halsey, dammiedammie35, lporiginalg (private or unclear); Musk Talarico posts (account already placed).
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. No new story passed research this pass; the Jordan Elliott release could not be confirmed by search.

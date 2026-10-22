@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T10:35:00Z",
-  "capture": "2026-10-22T1007Z",
+  "updated_at": "2026-10-22T11:30:00Z",
+  "capture": "2026-10-22T1107Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -109,6 +109,12 @@
       "id": "2113109889971032341",
       "desk": "sports",
       "line": "SportsCenter posts a 16-second video and says rookie Yaxel Lendeborg and Luka Doncic got into it during a Warriors-Lakers game. The video was not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112952314705162737",
+      "desk": "sports",
+      "line": "ESPN posts a link to Titans coach Robert Saleh's statement on the release of Jordan Elliott. ESPN's text says the release followed an attempt to retrieve a gun from his car after a spat with a Titans teammate. Not checked here.",
       "also": []
     },
     {
