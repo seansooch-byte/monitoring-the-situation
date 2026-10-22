@@ -2352,3 +2352,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Web search returned stale results for same-day news this pass.
+
+## 2026-10-22T22:10Z
+- Captures read: 2201Z (2107Z was read last pass). Last read: 2201Z.
+- X's check: 2201Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 39 items (2 new, 1 dropped). New: Madison Mills on the Axios scoop about unauthorized AI agents in bank accounts (ai, attributed to Axios sources); Sky News on Barclays cutting 5,000 jobs (business, attributed). Dropped: BBC Breaking (Hubbard), older than 36 hours. Header moved to 2201Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk, america and Presler Talarico posts (account placed or politics full, claims unchecked); AtlantaFalcons "New PFP" and bioware link-only post (point unclear from words alone); Jordan Elliott gun post, aisarcore bet post and the dashcam hijack clip (private people); Billie Eilish procedure claim (claim about a real person, unchecked); Kai Cenat clip (quotes a slur); FightStorage Sneako clip (private_individual); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Barclays job cuts, banks and unauthorized AI agents (Axios), AIPAC endorsements, Tom Skerritt.
