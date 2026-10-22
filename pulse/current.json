@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T03:30:00Z",
-  "capture": "2026-10-22T0300Z",
+  "updated_at": "2026-10-22T04:30:00Z",
+  "capture": "2026-10-22T0408Z",
   "items": [
     {
       "id": "2112612774874325148",
@@ -49,12 +49,6 @@
       "id": "2112582934498824194",
       "desk": "ai",
       "line": "RabbiJeffx asks the Grok chatbot what nationality Jesus would be if he were born in 2026, and tells it to answer with the nationality only. Grok is made by xAI, which also makes the model that gathers this page's posts.",
-      "also": []
-    },
-    {
-      "id": "2112572559325585704",
-      "desk": "life",
-      "line": "Auriel_zy posts a written dialogue between a wife who earns more and a husband who earns less, arguing over splitting household costs 50/50. It reads as a made-up scenario, and the post does not say it is a real couple.",
       "also": []
     },
     {
@@ -155,12 +149,6 @@
       "line": "Tech writer Robert Scoble says he has been \"GrokBot pilled\", and that Grok knows him better than other bots because of his 300,000 posts. He says the bot can now read X lists. Grok, the model that gathers this page's posts, is made by xAI. Not checked here."
     },
     {
-      "id": "2112925306663137395",
-      "desk": "sports",
-      "line": "The NBA account posts that Giannis Antetokounmpo and LaMelo Ball debut for their new teams, with Bam Adebayo and Anthony Edwards in the matchup, at 7:30pm ET on ESPN.",
-      "also": []
-    },
-    {
       "id": "2112921648252719420",
       "desk": "tech",
       "line": "The FBI Cyber Division posts that two critical vulnerabilities, which it numbers CVE-2026-109618 and CVE-2026-109619, have been found in PHP and could allow remote code execution. It urges organizations to update PHP and watch their servers. Not checked here.",
@@ -176,12 +164,6 @@
       "id": "2112998455383847332",
       "desk": "business",
       "line": "Tesla posts its Q3 shareholder update. It lists as highlights that FSD Supervised is attached to over 75% of new vehicle deliveries in North America, that the next-gen Roadster was unveiled, and that the Semi is in volume production. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112564725112508834",
-      "desk": "politics",
-      "line": "Charles Booker, who says he is running for the US Senate in Kentucky, posts that he was two weeks old when Mitch McConnell was first elected and that in two weeks he will be replacing him. Not checked here.",
       "also": []
     },
     {
@@ -218,6 +200,12 @@
       "id": "2112982272987349041",
       "desk": "sports",
       "line": "NBA reporter Chris Haynes says league sources told him the Portland Trail Blazers are starting Ja Morant in the backcourt alongside Damian Lillard to open the 2026-27 season. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113109889971032341",
+      "desk": "sports",
+      "line": "SportsCenter posts a 16-second video and says rookie Yaxel Lendeborg and Luka Doncic got into it during a Warriors-Lakers game. The video was not checked here.",
       "also": []
     }
   ]

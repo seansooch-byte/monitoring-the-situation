@@ -2172,3 +2172,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json untouched.
 - Shipped: see report.
 - For the main editor: PHP flaws now have an OpenAI post and an FBI post on the pulse; a story pass could research them with PHP and CISA sources. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T04:30Z
+- Captures read: 0408Z (0300Z was read last pass). Last read: 0408Z.
+- X's check: 0408Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 35 items (1 new, 3 dropped). Dropped: Booker and Auriel_zy (older than 36 hours), the NBA opening-night preview (those games have been played). New: SportsCenter on the Lendeborg and Doncic exchange (sports, video not checked). Header moved to 0408Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: nicksortor Omar post (claim about a real person, unchecked); Musk Talarico posts and america Talarico clip (account placed, claims unchecked); other Luka posts (desk covered by SportsCenter); jwdongkcwing (private_individual); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
