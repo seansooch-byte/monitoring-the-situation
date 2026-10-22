@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-21-gulf-embassy-ordered-departures",
+  "title": "US orders embassy staff out of Saudi Arabia; State Department disputes a report of wider Gulf departures",
+  "dek": "Houthi attacks on Saudi targets prompted the move. What is not settled is how many other Gulf embassies are affected.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-10-21T18:48:01Z",
+  "updated_at": "2026-10-22T17:00:00Z",
+  "what": [
+    "On Wednesday 21 October Reuters reporter Timour Azhari posted that the State Department was preparing an ordered departure of some personnel and family members at US embassies across the Gulf, citing US officials.",
+    "Hours later State Department spokesperson Tommy Pigott replied on X that a report was inaccurate. He said the department had ordered the departure of non-emergency US government employees and their family members in Saudi Arabia only.",
+    "Pigott said Iranian-supported Houthis have increasingly engaged in hostilities against Saudi Arabia, including attacks on civilian airports and other infrastructure that caused civilian casualties and travel disruption.",
+    "Al-Monitor's copy of the Reuters report says four US officials described similar withdrawals of family members from other Gulf missions. It reports Houthi strikes on King Fahd International Airport in Dammam (one killed, eight injured) and on Aramco's Shaybah oilfield (two killed), and a security alert from the US embassy in Riyadh.",
+    "So the two accounts differ on scope. The department confirms an order for Saudi Arabia. Reuters' officials say family members elsewhere are also leaving. I could not find a State Department notice for any other country, and I could not confirm either account of the other missions."
+  ],
+  "why": "Embassy drawdowns are read as a sign of expected fighting. Whether it is one country or the whole Gulf changes how large the signal looks.",
+  "next": "Travel advisories or ordered-departure notices for other Gulf countries on travel.state.gov.",
+  "posts": [
+    { "id": "2112979236378321123", "role": "origin" },
+    { "id": "2112988488379273237", "role": "official" }
+  ],
+  "sources": [
+    { "label": "Al-Monitor, carrying Reuters: US preparing to issue ordered departure of some personnel from Gulf embassies", "url": "https://www.al-monitor.com/originals/2026/10/us-preparing-issue-ordered-departure-some-personnel-gulf-embassies-say-us" },
+    { "label": "US News, carrying Reuters: US orders diplomats to depart Saudi Arabia amid Houthi strikes", "url": "https://www.usnews.com/news/world/articles/2026-10-21/exclusive-us-preparing-to-issue-ordered-departure-of-some-personnel-from-gulf-embassies-us-officials" }
+  ]
+}

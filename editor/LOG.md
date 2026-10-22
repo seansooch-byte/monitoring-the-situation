@@ -2292,3 +2292,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Lucas charges, Hegseth globe, Gulf embassy departure.
+
+## 2026-10-22T17:00Z
+- Captures read: 1612Z (1501Z was read last pass). Last read: 1612Z.
+- X's check: 1612Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. The grabber's note says 2113098076411892194 (Ty Jerome, on the pulse) came back Not Found there; X's check here confirmed it.
+- Pulse: 34 items (0 new, 0 dropped). Header moved to 1612Z.
+- Added: 2026-10-22-lucas-indicted-marijuana-racketeering (politics), 2026-10-21-gulf-embassy-ordered-departures (world). Updated: none.
+- Left out: Hegseth globe (I could not find any outlet report outside the post, so no story); James Bond finalists (PopBase already placed, one account one place; reports unchecked); Acyn and CubsWorld80 CNN Trump clips; Candace Owens rumor post (unclear claim); Dexerto BABYQUEEN (unchecked); Erika Kirk Halloween post (unchecked); fousey post (private health claim); old_content posts.
+- Requests: watch.json and open.json updated_at only (cited posts already listed).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

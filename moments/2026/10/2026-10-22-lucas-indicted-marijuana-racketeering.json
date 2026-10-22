@@ -1,0 +1,29 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-22-lucas-indicted-marijuana-racketeering",
+  "title": "Virginia state Sen. Louise Lucas is indicted on federal racketeering and marijuana charges",
+  "dek": "Lucas is one of the most powerful Democrats in Virginia. Her lawyers call the case political. The Justice Department says it is not.",
+  "desks": ["politics", "justice"],
+  "standing": "developing",
+  "started_at": "2026-10-22T14:18:26Z",
+  "updated_at": "2026-10-22T17:00:00Z",
+  "what": [
+    "On Thursday 22 October the Associated Press reported that Virginia state Sen. L. Louise Lucas was charged with drug trafficking and money laundering, citing the Justice Department.",
+    "The Justice Department's release says a federal indictment in the Eastern District of Virginia charges Lucas, 82, of Portsmouth, and six others in eight counts. It names marijuana distribution, money laundering, honest services fraud through bribery, maintaining drug-involved premises, possessing firearms in furtherance of drug trafficking, and wire fraud. Other reports add a racketeering conspiracy count.",
+    "Prosecutors allege Lucas led a criminal enterprise and arranged for the acquisition and distribution of 100 kilograms or more of marijuana. They allege she used her political position to shield it from scrutiny, and they put the money involved at about $4.5 million over five years. Some of the other defendants are members of her family. This story does not name them.",
+    "The Justice Department says: \"An indictment is merely an allegation. All defendants are presumed innocent until proven guilty beyond a reasonable doubt in a court of law.\"",
+    "WTOP reports Lucas said, \"I will not be intimidated. I will not be bullied. And I will not back down.\" It reports her legal team called the charges political persecution. Brian Woolfolk, chief counsel of her legal defense fund, said they would wait for more detail before answering the substance. WTOP quotes Attorney General Todd Blanche as saying, \"We don't do political paybacks.\"",
+    "The FBI searched Lucas's office and a cannabis shop in which she holds a stake on 6 May. She said then that it was intimidation. Earlier this year she led the Democrats' failed push to redraw Virginia's congressional map.",
+    "I could not read the indictment itself. Everything above about its contents comes from the Justice Department's release and press reports of it. I did not find any court ruling on the charges."
+  ],
+  "why": "Lucas is a senior state Senate leader and a prominent opponent of Trump, and she led a fight over congressional maps. Readers are asking whether this is a corruption case or a political one. The record so far is an indictment and a denial.",
+  "next": "Her first court appearance and plea, and whether the indictment is released in full.",
+  "posts": [
+    { "id": "2113273779086364923", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Justice Department: Virginia state senator indicted for leading criminal marijuana distribution enterprise", "url": "https://www.justice.gov/opa/pr/virginia-state-senator-indicted-leading-criminal-marijuana-distribution-enterprise" },
+    { "label": "WTOP: Virginia state Sen. L. Louise Lucas is charged with drug trafficking and money laundering, DOJ says", "url": "https://wtop.com/virginia/2026/10/virginia-state-sen-l-louise-lucas-is-charged-with-drug-trafficking-and-money-laundering-doj-says/" },
+    { "label": "CNN: Virginia state Sen. L. Louise Lucas indicted on drug and money laundering charges", "url": "https://www.cnn.com/2026/10/22/politics/va-senator-louise-lucas-indictment" }
+  ]
+}
