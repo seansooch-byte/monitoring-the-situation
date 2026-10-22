@@ -2132,3 +2132,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the Ilhan Omar search warrant (a name in a DDC scheduling order) and Bukele's Haiti operation may merit a story pass with sources outside X. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T00:10Z
+- Captures read: 0001Z (2301Z was read last pass). Last read: 0001Z.
+- X's check: 0001Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged and not cited.
+- Pulse: 37 items (2 new, 2 dropped past 36 hours: SpaceX rideshare, ESPN Hoopsday). New: NBA on the Giannis and LaMelo debuts (sports), FBI Cyber Division on two PHP vulnerabilities (tech, line says not checked). Header moved to 0001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Talarico posts and the America and RNCResearch Talarico clips (account placed, claims about a real person unchecked); EricLDaugh and GuntherEagleman Omar warrant posts (partisan, unchecked); gleeofficial, fuckyeats and ShitpostRock posts (point unclear); old_content and private_individual posts as before.
+- Requests: watch.json updated (2 added, 2 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the FBI PHP advisory (CVE ids as the post gives them) may merit a story pass with the PHP and CISA sources; I did not check the ids. The message that started me had no instructions beyond the contract.

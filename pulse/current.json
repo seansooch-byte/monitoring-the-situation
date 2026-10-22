@@ -1,22 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-21T23:30:00Z",
-  "capture": "2026-10-21T2301Z",
+  "updated_at": "2026-10-22T00:10:00Z",
+  "capture": "2026-10-22T0001Z",
   "items": [
-    {
-      "id": "2112514626256884044",
-      "desk": "science",
-      "line": "SpaceX posts that the rideshare deployment sequence has started. The post names no mission and no customers. An earlier SpaceX post says a Falcon 9 first stage landed on the droneship A Shortfall of Gravitas. Not checked here.",
-      "also": [
-        "2112502543947325773"
-      ]
-    },
-    {
-      "id": "2112514167961747931",
-      "desk": "sports",
-      "line": "ESPN posts a video with the words \"Hoopsday has arrived. NBA basketball is back.\" The post says nothing more about the games.",
-      "also": []
-    },
     {
       "id": "2112528840593387590",
       "desk": "politics",
@@ -223,6 +209,18 @@
       "id": "2112950764348014878",
       "desk": "ai",
       "line": "Tech writer Robert Scoble says he has been \"GrokBot pilled\", and that Grok knows him better than other bots because of his 300,000 posts. He says the bot can now read X lists. Grok, the model that gathers this page's posts, is made by xAI. Not checked here."
+    },
+    {
+      "id": "2112925306663137395",
+      "desk": "sports",
+      "line": "The NBA account posts that Giannis Antetokounmpo and LaMelo Ball debut for their new teams, with Bam Adebayo and Anthony Edwards in the matchup, at 7:30pm ET on ESPN.",
+      "also": []
+    },
+    {
+      "id": "2112921648252719420",
+      "desk": "tech",
+      "line": "The FBI Cyber Division posts that two critical vulnerabilities, which it numbers CVE-2026-109618 and CVE-2026-109619, have been found in PHP and could allow remote code execution. It urges organizations to update PHP and watch their servers. Not checked here.",
+      "also": []
     }
   ]
 }
