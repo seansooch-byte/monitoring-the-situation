@@ -1,8 +1,14 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T22:06:40Z",
-  "capture": "2026-10-22T2201Z",
+  "updated_at": "2026-10-22T23:16:00Z",
+  "capture": "2026-10-22T2307Z",
   "items": [
+    {
+      "id": "2113342518943179172",
+      "desk": "politics",
+      "line": "Vanity Fair posts an excerpt from Matthew Cole's book. Cole writes that a source told him in 2020 that the Dutch government had hacked Jared Kushner's phone and watched him use a Dubai bank account holding hundreds of millions of dollars. These are claims in the excerpt. Not checked here.",
+      "also": []
+    },
     {
       "id": "2113001073019662481",
       "desk": "science",
@@ -81,12 +87,6 @@
       "id": "2112907856018309586",
       "desk": "ai",
       "line": "OpenAI says its models helped researchers find critical security flaws in PHP, which it says runs an estimated 70% of websites, and that fixes were prepared with a coalition over two months before disclosure. It says every site can now upgrade. Not checked here; the FBI post on this page may concern the same flaws.",
-      "also": []
-    },
-    {
-      "id": "2112853606776869335",
-      "desk": "world",
-      "line": "Clash Report posts remarks it attributes to French President Macron, who says foreign manipulation of information followed unrest in France, including AI-generated images of scenes that never happened. Macron also says claims that hordes of migrants and Islamists invaded France are false. Not checked here.",
       "also": []
     },
     {
@@ -228,9 +228,9 @@
       "also": []
     },
     {
-      "id": "2113346272908415002",
+      "id": "2113342658584424823",
       "desk": "entertainment",
-      "line": "PopCrave reports that actor Tom Skerritt, known for ‘M*A*S*H’ and ‘Alien’, has died aged 93. Not checked here.",
+      "line": "The Hollywood Reporter reports that actor Tom Skerritt, a star of \"Picket Fences\" and \"Alien\", has died at 93. Not checked here.",
       "also": []
     },
     {

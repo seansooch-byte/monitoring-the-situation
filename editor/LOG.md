@@ -2362,3 +2362,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Barclays job cuts, banks and unauthorized AI agents (Axios), AIPAC endorsements, Tom Skerritt.
+
+## 2026-10-22T23:20Z
+- Captures read: 2307Z (2201Z was read last pass). Last read: 2307Z.
+- X's check: 2307Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 39 items (2 new, 1 dropped). New: Vanity Fair on the Matthew Cole excerpt about Jared Kushner's hacked phone (politics, attributed, not checked); The Hollywood Reporter on the death of Tom Skerritt (entertainment, replaces PopCrave as the origin; Variety was tried first but the build held it back because Variety already has a place). Dropped: Clash Report on Macron, older than 36 hours. Header moved to 2307Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Weiss, Grim and Megatron_ron on the Kushner story (claims stacked on an unchecked excerpt); CNN and Variety on Skerritt (one place for the story); Lindsey Graham escort posts (the grabber notes say one man was a minor); Trump Ohio and Arizona voting posts (politics full, advocacy); cnnbrk on the BBC lawsuit judge (politics full, not checked); Zelensky interview clip (not read closely); JasonDClinton security thread (point unclear without context); old_content posts.
+- Requests: watch.json updated (2 added, 2 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Vanity Fair Kushner excerpt (needs outside confirmation), Tom Skerritt obituary, Trump v BBC deposition ruling, Barclays job cuts.
