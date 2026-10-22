@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T18:00:00Z",
-  "capture": "2026-10-22T1706Z",
+  "updated_at": "2026-10-22T19:00:00Z",
+  "capture": "2026-10-22T1804Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -218,6 +218,18 @@
       "id": "2113109837382901905",
       "desk": "markets",
       "line": "Investor m. stanfield says an unnamed executive at a large property management company told him over dinner that the US apartment market is the worst that person has seen in 40 years. These are secondhand claims. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113292175727296561",
+      "desk": "business",
+      "line": "PopBase, an entertainment news account, says Getty Images has filed for bankruptcy amid mounting debt and competition from AI-generated images, and plans to restructure and become privately owned. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113327776027852930",
+      "desk": "markets",
+      "line": "The account unusual_whales says the stock with the ticker $MRNA is down 24% today to $187 and describes options-market price levels it calls support and resistance. Not checked here.",
       "also": []
     }
   ]

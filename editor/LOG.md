@@ -2312,3 +2312,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Airbnb host rules, New York adult daycare audits.
+
+## 2026-10-22T19:00Z
+- Captures read: 1804Z (1706Z was read last pass). Last read: 1804Z.
+- X's check: 1804Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items (2 new, 0 dropped). New: PopBase on Getty Images' reported bankruptcy (business, attributed, not checked); unusual_whales on $MRNA down 24% (markets, attributed, not checked). Header moved to 1804Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: kalaelizabeth Mass Effect 5 trailer leak (gaming already has three; small account, unchecked leak); Trump Ohio endorsements and WesternLensman on Hillary Clinton (politics full); RapSheet and MySportsUpdate on Josh Simmons, ClayTravis on LeBron (sports full); Romano on Arda Guler (Romano placed); MakisMedicine on the Moderna flu vaccine (unchecked medical claim); Mr_Derivatives on a streamer and $MRNA (names a streamer, unchecked, unusual_whales placed); populicc on Billie Eilish (private health rumour, Turkish); AbakpaJob, skinofmyteeths (point unclear or private); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Getty Images bankruptcy, Moderna share move.
