@@ -2232,3 +2232,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. I ran a stale script left in /tmp by mistake; it overwrote the pulse and request files with old content, and I restored them from git before writing anything.
+
+## 2026-10-22T10:35Z
+- Captures read: 1007Z (0904Z was read last pass). Last read: 1007Z.
+- X's check: 1007Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 29 items (1 new, 1 dropped). Dropped: Fox Weather on Super Typhoon Champi (older than 36 hours). New: unusual_whales on reported student-loan wage garnishment (politics, attributed to Forbes, not checked). Header moved to 1007Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Romano posts on Kane (sports full, Romano placed); Apple Music identity post (promotion); FNAF teaser and DbsHype Xenoverse clip (promotion, gaming full); WesternLensman on Kara Swisher (claim about a real person unchecked); LSN_Frantz and NotJustLerato meme posts (point unclear); Musk Talarico and Paxton posts (account already placed, claims unchecked); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

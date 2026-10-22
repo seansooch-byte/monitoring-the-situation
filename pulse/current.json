@@ -1,18 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T09:20:00Z",
-  "capture": "2026-10-22T0904Z",
+  "updated_at": "2026-10-22T10:35:00Z",
+  "capture": "2026-10-22T1007Z",
   "items": [
     {
       "id": "2113001073019662481",
       "desk": "science",
       "line": "Marathon Fusion, a fusion company, says it turned mercury into stable gold at ten times CERN's record rate and enriched isotopes in what it calls the most powerful plasma centrifuge. It says it is now building a fusion reactor in San Francisco. The post carries a video that was not checked here.",
       "also": []
-    },
-    {
-      "id": "2112660966072590389",
-      "desk": "disaster",
-      "line": "Fox Weather says Super Typhoon Champi has reached Category 5-equivalent strength with sustained winds of 185 mph, tying Super Typhoon Sinlaku as the strongest storm of 2026 by wind speed. It says the storm recently passed near Guam. Not checked here."
     },
     {
       "id": "2112708041988587904",
@@ -176,6 +171,12 @@
       "id": "2112755217418813909",
       "desk": "music",
       "line": "Fan news account PopBase says Jihyo of the K-pop group TWICE has left JYP Entertainment and set up her own company, called EMITHAUS. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112726565100396987",
+      "desk": "politics",
+      "line": "Unusual Whales, a news-alert account, says the Trump administration is reportedly preparing to pursue wages and benefits of borrowers with defaulted federal student loans, citing Forbes. It says the Education Department and Treasury are working to hire private debt collectors. Not checked here.",
       "also": []
     }
   ]
