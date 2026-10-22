@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T11:30:00Z",
-  "capture": "2026-10-22T1107Z",
+  "updated_at": "2026-10-22T12:20:00Z",
+  "capture": "2026-10-22T1201Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -184,6 +184,14 @@
       "desk": "politics",
       "line": "Unusual Whales, a news-alert account, says the Trump administration is reportedly preparing to pursue wages and benefits of borrowers with defaulted federal student loans, citing Forbes. It says the Education Department and Treasury are working to hire private debt collectors. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2112988488379273237",
+      "desk": "world",
+      "line": "State Department spokesperson Tommy Pigott says a report of ordered departures across Gulf embassies is inaccurate: the order covers non-emergency staff and families in Saudi Arabia only, citing Houthi attacks. The report was by Timour Azhari. Not checked here.",
+      "also": [
+        "2112979236378321123"
+      ]
     }
   ]
 }

@@ -2252,3 +2252,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. No new story passed research this pass; the Jordan Elliott release could not be confirmed by search.
+
+## 2026-10-22T12:20Z
+- Captures read: 1201Z (1107Z was read last pass). Last read: 1201Z.
+- X's check: 1201Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 31 items (1 new, 0 dropped). New: State Department spokesperson reply on the Gulf embassy ordered departure (world, attributed, not checked), with the Timour Azhari report attached. Header moved to 1201Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn clips of Trump and Collins (same story as the Collins item already placed); Romano posts on Fernandes, Rice and Mbappe (sports full, Romano placed); Musk, Scobleizer, ScottPresler Texas posts (account placed or claims unchecked); Cultination1 foot-binding (history claim unchecked); Macron on violence (French, days old); GMMTV and Papergames hashtag campaign posts (tiny, harassment dispute, unchecked); viafication (private_individual flag); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. The Gulf embassy departure (State Department vs press report) is a candidate for the next story pass.
