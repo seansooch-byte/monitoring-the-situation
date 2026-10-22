@@ -2262,3 +2262,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. The Gulf embassy departure (State Department vs press report) is a candidate for the next story pass.
+
+## 2026-10-22T13:25Z
+- Captures read: 1307Z (1201Z was read last pass). Last read: 1307Z.
+- X's check: 1307Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 32 items (2 new, 1 dropped). Dropped: Raw Alerts on Charlotte officers (older than 36 hours). New: HQNewsNow Trump clip (politics, attributed, not checked); QTCinderella on her wedding (internet, her own statement). Header moved to 1307Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: aisarcore DraftKings bet (names a private person, unchecked); Yaxel/Luka posts (game already placed); Musk "True" (no context); BrittanyinTexas "rare video" (point unclear); Talarico Pride post (names a child performer, private_individual flag); Ava Jendersee post (names a private person); desi0re ring post (private_individual); Ella88492836 tea, amitkilhor video, hayasaka_aryan, Palvin and One Direction meme posts (point unclear); Dapper_Det ICE murder charge (private person accused, unchecked); Doc Brown birthday posts (tiny); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

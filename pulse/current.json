@@ -1,18 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T12:20:00Z",
-  "capture": "2026-10-22T1201Z",
+  "updated_at": "2026-10-22T13:25:00Z",
+  "capture": "2026-10-22T1307Z",
   "items": [
     {
       "id": "2113001073019662481",
       "desk": "science",
       "line": "Marathon Fusion, a fusion company, says it turned mercury into stable gold at ten times CERN's record rate and enriched isotopes in what it calls the most powerful plasma centrifuge. It says it is now building a fusion reactor in San Francisco. The post carries a video that was not checked here.",
       "also": []
-    },
-    {
-      "id": "2112708041988587904",
-      "desk": "justice",
-      "line": "Raw Alerts, a news-alert account, says three Charlotte police officers resigned after a Flock database allegedly showed a contest over who could arrest the most Black people. The post gives no source. Not checked here."
     },
     {
       "id": "2112839193646735745",
@@ -192,6 +187,18 @@
       "also": [
         "2112979236378321123"
       ]
+    },
+    {
+      "id": "2113054759070392523",
+      "desk": "politics",
+      "line": "HQNewsNow posts a 15-second clip of President Trump saying \"I'd say 90% of the reason I took the governor--\" before he makes a loud noise. The clip does not show what he was answering. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113143887594475733",
+      "desk": "internet",
+      "line": "Streamer QTCinderella says people were late to her wedding and that it set the wedding back. She asks viewers to stop hating on someone on behalf of another streamer and says drama clippers have farmed it. The post does not name who she means.",
+      "also": []
     }
   ]
 }
