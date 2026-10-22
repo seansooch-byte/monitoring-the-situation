@@ -2222,3 +2222,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T09:20Z
+- Captures read: 0904Z (0800Z was read last pass). Last read: 0904Z.
+- X's check: 0904Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 29 items (3 new, 3 dropped). Dropped: SpaceX Q3 highlights, Lara Seligman on the Musk slowdown, International Cyber Digest on Mozilla keys (all older than 36 hours). New: Deadline on the Glee reboot (entertainment), DiscussingFilm on Star Wars: Battlefront 3 (gaming, flagged not checked), PopBase on Jihyo leaving JYP (music, which had no item; flagged not checked). Header moved to 0904Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Talarico posts and america Talarico clips (claims about a real person unchecked; account already placed); bioware post (no words or description); Cultination1 foot-binding posts (history claim unchecked); Shams on Porzingis and Romano posts (sports already full, Romano placed); Unitree H2-X (product promotion); ATEEZ teaser (promotion, X mismatch on record); yirmiucderece, dijoni, ItsKingSlime, okayaleiah (private_individual flag).
+- Requests: watch.json updated (3 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. I ran a stale script left in /tmp by mistake; it overwrote the pulse and request files with old content, and I restored them from git before writing anything.
