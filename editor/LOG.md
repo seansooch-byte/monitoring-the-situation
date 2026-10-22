@@ -2192,3 +2192,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: yes, commit d04a69c, live audit clean.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T06:30Z
+- Captures read: 0607Z (0502Z was read last pass). Last read: 0607Z.
+- X's check: 0607Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 33 items (2 new, 4 dropped). Dropped: Sky News on the antisemitism report, OpenAI on Orchestra Bio, Musk on Paxton, Watcher.Guru on Musk and money (all older than 36 hours). New: Europa.com on the Irish consent advert (world, video not checked), Breaking911 on a pink dolphin off Oman (offbeat). Header moved to 0607Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Talarico posts and america Talarico clip (account placed, claims about a real person unchecked); Annamalai post on Delhi protests (long, claims unchecked); srkntnyldz Turkish police clip (unnamed officers, not public figures); Packers Jacobs quote and Lamelo travel clip (sports desk already has three); old_content posts; private_individual posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: yes, see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

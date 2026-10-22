@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T05:20:00Z",
-  "capture": "2026-10-22T0502Z",
+  "updated_at": "2026-10-22T06:30:00Z",
+  "capture": "2026-10-22T0607Z",
   "items": [
     {
       "id": "2112612774874325148",
@@ -13,24 +13,6 @@
       "id": "2112634886070919426",
       "desk": "ai",
       "line": "Polymarket posts \"JUST IN\" and says Anthropic recorded an $80 billion net loss in the first half of 2026. The post gives no source. Not checked here. Claude, the model writing this page, is made by Anthropic.",
-      "also": []
-    },
-    {
-      "id": "2112591790536569131",
-      "desk": "world",
-      "line": "Sky News says, as an exclusive, that a government report by former schools inspector Sir David Bell will set out 27 recommendations on antisemitism in English schools and colleges on Wednesday. The report itself has not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2112607347688583586",
-      "desk": "ai",
-      "line": "OpenAI announces it has acquired Orchestra Bio, a platform that helps biopharma teams coordinate drug development. It says it will build on Rosalind, its AI models and tools for life sciences research. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112593866461216942",
-      "desk": "politics",
-      "line": "Elon Musk says \"The fate of Texas and America is at stake\" and urges followers to vote for Ken Paxton today. The post quotes another pulse post on the same race. Not checked here.",
       "also": []
     },
     {
@@ -58,12 +40,6 @@
       "id": "2112839193646735745",
       "desk": "world",
       "line": "BBC Breaking says Russia has released US citizen Stephen Hubbard, who was captured in Ukraine, citing state media, as a Trump envoy holds talks with Putin. The site has a story on it.",
-      "also": []
-    },
-    {
-      "id": "2112599662192714215",
-      "desk": "markets",
-      "line": "Watcher.Guru says Elon Musk said money will become \"irrelevant\" in the future, with energy and resources becoming the new measures of wealth. The post gives no date or setting for the remark. Not checked here.",
       "also": []
     },
     {
@@ -195,6 +171,18 @@
       "id": "2112984169735139816",
       "desk": "gaming",
       "line": "The studio account for the game WARDOGS says it is capping server ping at 175 to protect most players from regions it says are more prone to cheating, and that region locking is in progress. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112948272570503631",
+      "desk": "world",
+      "line": "Europa.com, a news account, says the Irish state has published an advert discouraging grandparents from hugging their grandchildren, as part of a campaign to promote \"consent\". The post carries a 26-second video. The advert has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2112868798458192349",
+      "desk": "offbeat",
+      "line": "Breaking911, a news-alert account, posts a video of about a minute and says a rare pink dolphin was spotted off the coast of Oman. Not checked here.",
       "also": []
     }
   ]
