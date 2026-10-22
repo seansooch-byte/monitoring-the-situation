@@ -2282,3 +2282,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T15:30Z
+- Captures read: 1501Z (1409Z was read last pass). Last read: 1501Z.
+- X's check: 1501Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 34 items (2 new, 0 dropped). New: AP on the charges against Virginia state Sen. L. Louise Lucas (politics, attributed to the Justice Department, not checked); Dan Lamothe's exclusive on Hegseth and the Eisenhower globe (defense, attributed, not checked). Header moved to 1501Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Lindsey Graham posts (allegations about a real person from unnamed men, unchecked; capture notes minors in some); Schefter on JJ Watt and Madison Mills on AI agents in bank accounts (sports and ai already full); WeaponScientist reply on the globe (commentary); Romano on Ronaldo (Romano placed); Musk, Scobleizer, ScottPresler Texas posts (account placed or claims unchecked); Cultination1 foot-binding (history claim unchecked); Macron on violence (French, days old); Cover Corp notice (Japanese, point not checkable); polo_kimanii (private_individual flag); Janice Dean on Megyn Kelly (private friendship claim, unchecked); aespa birthday posts (small); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Lucas charges, Hegseth globe, Gulf embassy departure.

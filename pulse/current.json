@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T14:30:00Z",
-  "capture": "2026-10-22T1409Z",
+  "updated_at": "2026-10-22T15:30:00Z",
+  "capture": "2026-10-22T1501Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -198,6 +198,18 @@
       "id": "2113074893688619285",
       "desk": "sports",
       "line": "Enes Kanter Freedom says he was kicked out of a WNBA game for the second time in a row, and says it was for supporting women. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113273779086364923",
+      "desk": "politics",
+      "line": "The Associated Press reports that Virginia state Sen. L. Louise Lucas is charged with drug trafficking and money laundering, citing the Justice Department. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113226701622681897",
+      "desk": "defense",
+      "line": "Reporter Dan Lamothe says in an exclusive that Pete Hegseth wanted Gen. Dwight Eisenhower's globe for his office and that Hegseth's staff broke it. He says he has photos. Not checked here.",
       "also": []
     }
   ]
