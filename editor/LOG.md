@@ -2342,3 +2342,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidate for the next story pass: Tom Skerritt obituary, LeBron anthem clip and the President's demand.
+
+## 2026-10-22T21:20Z
+- Captures read: 2107Z (2007Z was read last pass). Last read: 2107Z.
+- X's check: 2107Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 38 items (0 new, 0 dropped). Header moved to 2107Z. BBC Breaking (Hubbard) is about 35.7 hours old and will age out next pass.
+- Added: none. Updated: none. Story pass, but nothing new could be confirmed outside X: web search returned nothing for the EA/BioWare closure (only older layoffs), the Barclays 5,000 cuts (only the 2023 round) or the death of Tom Skerritt, and Sky News and BBC could not be fetched. Left them out rather than write from posts alone.
+- Left out: Iwo Jima statue at Quantico (posts name a private person; no outside source found); Cenk Uygur and Lindsey Graham claims (claim about a real person, unconfirmed); Talarico and Paxton posts (politics full, unchecked); LeBron anthem clip and the President's demand (not researched this pass).
+- Requests: updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Web search returned stale results for same-day news this pass.
