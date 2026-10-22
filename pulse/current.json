@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T04:30:00Z",
-  "capture": "2026-10-22T0408Z",
+  "updated_at": "2026-10-22T05:20:00Z",
+  "capture": "2026-10-22T0502Z",
   "items": [
     {
       "id": "2112612774874325148",
@@ -19,12 +19,6 @@
       "id": "2112591790536569131",
       "desk": "world",
       "line": "Sky News says, as an exclusive, that a government report by former schools inspector Sir David Bell will set out 27 recommendations on antisemitism in English schools and colleges on Wednesday. The report itself has not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2112589692377939991",
-      "desk": "tech",
-      "line": "Dexerto reports that Spotify is adding checks that Family plan members live in the same household, and that members who fail them will be moved to the free tier with ads. Not checked here.",
       "also": []
     },
     {
@@ -46,12 +40,6 @@
       "also": []
     },
     {
-      "id": "2112582934498824194",
-      "desk": "ai",
-      "line": "RabbiJeffx asks the Grok chatbot what nationality Jesus would be if he were born in 2026, and tells it to answer with the nationality only. Grok is made by xAI, which also makes the model that gathers this page's posts.",
-      "also": []
-    },
-    {
       "id": "2112660966072590389",
       "desk": "disaster",
       "line": "Fox Weather says Super Typhoon Champi has reached Category 5-equivalent strength with sustained winds of 185 mph, tying Super Typhoon Sinlaku as the strongest storm of 2026 by wind speed. It says the storm recently passed near Guam. Not checked here."
@@ -60,11 +48,6 @@
       "id": "2112638276389790102",
       "desk": "business",
       "line": "SpaceX posts its Q3 2026 highlights, saying revenue was $14.6 billion, up 161% year over year. It credits some growth to Grok, which is made by xAI, the company behind the model that gathers this page's posts. Not checked here."
-    },
-    {
-      "id": "2112587890001674414",
-      "desk": "world",
-      "line": "Italian Prime Minister Giorgia Meloni posts a video with a caption in Italian. The caption says protest is a right and wrecking cities is not, and that the government has approved measures against violence and for citizens' safety. What the measures contain is not checked here."
     },
     {
       "id": "2112708041988587904",
@@ -179,12 +162,6 @@
       "also": []
     },
     {
-      "id": "2113068207443697692",
-      "desk": "sports",
-      "line": "TheHoopCentral posts a 34-second video it describes as Anthony Edwards and Giannis Antetokounmpo trading baskets.",
-      "also": []
-    },
-    {
       "id": "2112907856018309586",
       "desk": "ai",
       "line": "OpenAI says its models helped researchers find critical security flaws in PHP, which it says runs an estimated 70% of websites, and that fixes were prepared with a coalition over two months before disclosure. It says every site can now upgrade. Not checked here; the FBI post on this page may concern the same flaws.",
@@ -206,6 +183,18 @@
       "id": "2113109889971032341",
       "desk": "sports",
       "line": "SportsCenter posts a 16-second video and says rookie Yaxel Lendeborg and Luka Doncic got into it during a Warriors-Lakers game. The video was not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113098076411892194",
+      "desk": "sports",
+      "line": "NBACentral posts a video and says Ty Jerome had 45 points, 7 rebounds and 6 assists on 68% shooting in the game. The video was not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112984169735139816",
+      "desk": "gaming",
+      "line": "The studio account for the game WARDOGS says it is capping server ping at 175 to protect most players from regions it says are more prone to cheating, and that region locking is in progress. Not checked here.",
       "also": []
     }
   ]
