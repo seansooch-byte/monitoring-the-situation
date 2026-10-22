@@ -2302,3 +2302,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only (cited posts already listed).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T18:00Z
+- Captures read: 1706Z (1612Z was read last pass). Last read: 1706Z.
+- X's check: 1706Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 35 items (3 new, 2 dropped). New: Polymarket on Airbnb's new host rules with WIRED attached (business, attributed, not checked); HHS Rapid Response on New York adult daycare audits (politics, attributed, not checked); m. stanfield's secondhand report on the apartment market (markets, attributed, not checked). Dropped: PopBase on Jihyo (older than 36 hours); TheDunkCentral Ty Jerome (the grabber's reads returned Not Found at 1612Z and 1706Z, observation state unavailable, though X's check here had confirmed it at 0506Z). Header moved to 1706Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: stevendsays on Airbnb (small account, Polymarket placed); Lendeborg and Luka posts (sports full, SportsCenter placed); DemocraticWins Clinton post (partisan framing, unchecked); mymixtapez (private_individual); Candace Owens rumor post (unclear claim); Musk, Scobleizer, ScottPresler Texas posts (account placed or claims unchecked); fousey (private health claim); Macron on violence (French, days old); cover_corp and kusuriya_PR (Japanese, point not checkable); BET sneak peek (unchecked, small); popitforpoppa (insult-style); old_content posts.
+- Requests: watch.json updated (4 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Airbnb host rules, New York adult daycare audits.

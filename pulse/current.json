@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T17:00:00Z",
-  "capture": "2026-10-22T1612Z",
+  "updated_at": "2026-10-22T18:00:00Z",
+  "capture": "2026-10-22T1706Z",
   "items": [
     {
       "id": "2113001073019662481",
@@ -113,12 +113,6 @@
       "also": []
     },
     {
-      "id": "2113098076411892194",
-      "desk": "sports",
-      "line": "TheDunkCentral posts a video and says Ty Jerome had 45 points, 7 rebounds and 6 assists on 68% shooting in the game. The video was not checked here.",
-      "also": []
-    },
-    {
       "id": "2112984169735139816",
       "desk": "gaming",
       "line": "The studio account for the game WARDOGS says it is capping server ping at 175 to protect most players from regions it says are more prone to cheating, and that region locking is in progress. Not checked here.",
@@ -169,12 +163,6 @@
       "also": []
     },
     {
-      "id": "2112755217418813909",
-      "desk": "music",
-      "line": "Fan news account PopBase says Jihyo of the K-pop group TWICE has left JYP Entertainment and set up her own company, called EMITHAUS. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112988488379273237",
       "desk": "world",
       "line": "State Department spokesperson Tommy Pigott says a report of ordered departures across Gulf embassies is inaccurate: the order covers non-emergency staff and families in Saudi Arabia only, citing Houthi attacks. The report was by Timour Azhari. Not checked here.",
@@ -210,6 +198,26 @@
       "id": "2113226701622681897",
       "desk": "defense",
       "line": "Reporter Dan Lamothe says in an exclusive that Pete Hegseth wanted Gen. Dwight Eisenhower's globe for his office and that Hegseth's staff broke it. He says he has photos. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112996634397409703",
+      "desk": "business",
+      "line": "Polymarket, a prediction-market account, says Airbnb has announced new rules banning hosts from requiring guests to wash dishes, do laundry, strip beds or take out garbage before checkout. WIRED reports hosts are upset about the policy. Not checked here.",
+      "also": [
+        "2113050256279535653"
+      ]
+    },
+    {
+      "id": "2112970599106744392",
+      "desk": "politics",
+      "line": "The HHS Rapid Response account says 15 of 15 New York adult daycares audited the day before showed no record of meals, activities or supervision, only attendance sheets, and calls it Medicaid fraud. The post carries a video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113109837382901905",
+      "desk": "markets",
+      "line": "Investor m. stanfield says an unnamed executive at a large property management company told him over dinner that the US apartment market is the worst that person has seen in 40 years. These are secondhand claims. Not checked here.",
       "also": []
     }
   ]
