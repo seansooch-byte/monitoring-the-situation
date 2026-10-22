@@ -2142,3 +2142,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added, 2 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the FBI PHP advisory (CVE ids as the post gives them) may merit a story pass with the PHP and CISA sources; I did not check the ids. The message that started me had no instructions beyond the contract.
+
+## 2026-10-22T01:25Z
+- Captures read: 0103Z (0001Z was read last pass). Last read: 0103Z.
+- X's check: 0103Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 33 items (3 new, 7 dropped past 36 hours: Balchunas, GOV.UK clocks, Daily Mail Applegate, Presler, Guille_GAG Fortnite, Cover Corp, Romano Ballon d'Or). New: Kaitlan Collins on Trump and the Hubbard release (world, clip not checked), Tesla Q3 update (business, grabber said science), Booker on the Kentucky Senate race (politics). Header moved to 0103Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Talarico, Grok and Tesla posts (account placed); america and RNCResearch Talarico clips (claim about a real person, unchecked); Railway "urgent notice" (point unclear); bioware image-only post; fousey (older than 36 hours); old_content posts.
+- Requests: watch.json updated (3 added); open.json untouched.
+- Shipped: see report.
+- For the main editor: nothing new. The message that started me had no instructions beyond the contract.

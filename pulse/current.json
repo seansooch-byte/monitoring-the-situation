@@ -1,30 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T00:10:00Z",
-  "capture": "2026-10-22T0001Z",
+  "updated_at": "2026-10-22T01:25:00Z",
+  "capture": "2026-10-22T0103Z",
   "items": [
-    {
-      "id": "2112528840593387590",
-      "desk": "politics",
-      "line": "Eric Balchunas says Trump Accounts may soon be expanded to anyone under 40. He credits Brad Gerstner, whom he describes as leading the effort, and a New York Post report. Not checked here.",
-      "also": []
-    },
     {
       "id": "2112537441110475235",
       "desk": "entertainment",
       "line": "DiscussingFilm posts that the trailer for the film Logan was released 10 years ago today. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112533057991262562",
-      "desk": "life",
-      "line": "The UK government's GOV.UK account says the clocks go back one hour at 2am on 25 October, so people gain an hour, and asks what they will do with the extra time.",
-      "also": []
-    },
-    {
-      "id": "2112528089297117401",
-      "desk": "entertainment",
-      "line": "The Daily Mail posts that actor Christina Applegate tearfully says she does not have MS and was misdiagnosed for years. It links its own story. Not checked here.",
       "also": []
     },
     {
@@ -49,26 +31,6 @@
       "id": "2112589692377939991",
       "desk": "tech",
       "line": "Dexerto reports that Spotify is adding checks that Family plan members live in the same household, and that members who fail them will be moved to the free tier with ads. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112523919282573650",
-      "desk": "politics",
-      "line": "Activist Scott Presler posts that today is a great day to vote early in person for Ken Paxton in Texas. The post gives no reason.",
-      "also": []
-    },
-    {
-      "id": "2112529983206019246",
-      "desk": "gaming",
-      "line": "Fortnite News account Guille_GAG posts a 9-second clip and says the character Nikki from Obsession arrives in Fortnite the day after the post.",
-      "also": [
-        "2112544044123402724"
-      ]
-    },
-    {
-      "id": "2112533162790395930",
-      "desk": "entertainment",
-      "line": "Cover Corp posts a notice in Japanese. The linked page is titled as a notice about how the company is responding to posts by talent under its management and to defamation and sexual harassment. I did not read the notice itself. Not checked here.",
       "also": []
     },
     {
@@ -125,12 +87,6 @@
       "id": "2112839193646735745",
       "desk": "world",
       "line": "BBC Breaking says Russia has released US citizen Stephen Hubbard, who was captured in Ukraine, citing state media, as a Trump envoy holds talks with Putin. The site has a story on it.",
-      "also": []
-    },
-    {
-      "id": "2112527584793670045",
-      "desk": "sports",
-      "line": "Fabrizio Romano posts what he calls the official list of All Time Ballon d’Or nominees: Alfredo Di Stefano, Lionel Messi, Cristiano Ronaldo, Marco Van Basten, Johann Cruyff, Karl-Heinz Rummenigge, Michel Platini, Ronaldo, Kevin Keegan and Franz Beckenbauer.",
       "also": []
     },
     {
@@ -220,6 +176,24 @@
       "id": "2112921648252719420",
       "desk": "tech",
       "line": "The FBI Cyber Division posts that two critical vulnerabilities, which it numbers CVE-2026-109618 and CVE-2026-109619, have been found in PHP and could allow remote code execution. It urges organizations to update PHP and watch their servers. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113014734421422501",
+      "desk": "world",
+      "line": "CNN's Kaitlan Collins posts a clip and says President Trump is tying the waiving of Russian sanctions to the release of the freed American Stephen Hubbard, despite denying he gave anything to Putin. The clip has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2112998455383847332",
+      "desk": "business",
+      "line": "Tesla posts its Q3 shareholder update. It lists as highlights that FSD Supervised is attached to over 75% of new vehicle deliveries in North America, that the next-gen Roadster was unveiled, and that the Semi is in volume production. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2112564725112508834",
+      "desk": "politics",
+      "line": "Charles Booker, who says he is running for the US Senate in Kentucky, posts that he was two weeks old when Mitch McConnell was first elected and that in two weeks he will be replacing him. Not checked here.",
       "also": []
     }
   ]
