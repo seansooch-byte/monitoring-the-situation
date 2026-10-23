@@ -2402,3 +2402,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed. The new stories cite posts already on watch.json.
 - Shipped: yes, commit 54809aae, live audit clean.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T03:35Z
+- Captures read: 0303Z (0205Z was read last pass). Last read: 0303Z.
+- X's check: 0303Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 36 items (1 new, 2 dropped). New: Dov Kleiman on the Bengals and JD Vance (sports, attributed, not checked). Dropped: FBI Cyber Division PHP post and OpenAI post, both older than 36 hours. Header moved to 0303Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Atrupar clip of Vance on his child (names a minor); EricLDaugh sledgehammer post (flagged private_individual); PopBase Atlantic Ocean post (unchecked claim); Talarico and Paxton posts from elonmusk and ScottPresler (account placed, advocacy); NBA Sixers posts (low reach, sports has places); jmilinovich "Black October" (not read closely); old_content posts.
+- Requests: watch.json updated (1 added, 2 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

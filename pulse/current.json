@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T02:35:00Z",
-  "capture": "2026-10-23T0205Z",
+  "updated_at": "2026-10-23T03:35:00Z",
+  "capture": "2026-10-23T0303Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -56,12 +56,6 @@
       "also": []
     },
     {
-      "id": "2112921648252719420",
-      "desk": "tech",
-      "line": "The FBI Cyber Division posts that two critical vulnerabilities, which it numbers CVE-2026-109618 and CVE-2026-109619, have been found in PHP and could allow remote code execution. It urges organizations to update PHP and watch their servers. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113014734421422501",
       "desk": "world",
       "line": "CNN's Kaitlan Collins posts a clip and says President Trump is tying the waiving of Russian sanctions to the release of the freed American Stephen Hubbard, despite denying he gave anything to Putin. The clip has not been checked here.",
@@ -83,12 +77,6 @@
       "id": "2112981939984671090",
       "desk": "tech",
       "line": "The Hacker News posts an alert about a GitLab flaw rated CVSS 10.0 that it says affects 12 years of releases. The CVE number in the post differs from the one in GitLab's own notice; see the story.",
-      "also": []
-    },
-    {
-      "id": "2112907856018309586",
-      "desk": "ai",
-      "line": "OpenAI says its models helped researchers find critical security flaws in PHP, which it says runs an estimated 70% of websites, and that fixes were prepared with a coalition over two months before disclosure. It says every site can now upgrade. Not checked here; the FBI post on this page may concern the same flaws.",
       "also": []
     },
     {
@@ -233,6 +221,12 @@
       "id": "2113175048433369137",
       "desk": "business",
       "line": "Sky News posts a breaking alert saying Barclays is cutting 5,000 jobs in an efficiency drive led by AI. The post links to Sky’s own report. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113073482728665404",
+      "desk": "sports",
+      "line": "NFL reporter Dov Kleiman says the Bengals are under heavy criticism online for not greeting Vice President JD Vance, and that many Republicans are calling for the NFL to fine them. He says most of the team did not shake Vance's hand. Not checked here.",
       "also": []
     }
   ]
