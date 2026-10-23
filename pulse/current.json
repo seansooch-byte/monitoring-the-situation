@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-22T23:16:00Z",
-  "capture": "2026-10-22T2307Z",
+  "updated_at": "2026-10-23T00:20:00Z",
+  "capture": "2026-10-23T0002Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -120,12 +120,6 @@
       "also": []
     },
     {
-      "id": "2112868798458192349",
-      "desk": "offbeat",
-      "line": "Breaking911, a news-alert account, posts a video of about a minute and says a rare pink dolphin was spotted off the coast of Oman. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113010364178964616",
       "desk": "ai",
       "line": "Elon Musk posts \"Try Grok @Bot, you will love it!\" in a quote of tech writer Robert Scoble, who says he has been \"GrokBot pilled\" and that the bot can now read X lists. Musk owns xAI, which makes Grok, the model that gathers this page's posts. Not checked here.",
@@ -143,12 +137,6 @@
       "id": "2113015398585020841",
       "desk": "sports",
       "line": "Football reporter Fabrizio Romano posts a photo and quotes Kylian Mbappé on a possible El Clásico followed by the Ballon d'Or ceremony: \"Let's go for it.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112876559833129386",
-      "desk": "entertainment",
-      "line": "Entertainment outlet Deadline reports that Disney+ and Hulu have given a series order to a reboot of the TV show Glee. It says co-creator Ryan Murphy has discussed a return for some time.",
       "also": []
     },
     {

@@ -2372,3 +2372,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added, 2 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Vanity Fair Kushner excerpt (needs outside confirmation), Tom Skerritt obituary, Trump v BBC deposition ruling, Barclays job cuts.
+
+## 2026-10-23T00:20Z
+- Captures read: 0002Z (2307Z was read last pass). Last read: 0002Z.
+- X's check: 0002Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items (0 new, 2 dropped). Dropped: Breaking911 video (offbeat) and Deadline on Disney+ and Hulu (entertainment), both older than 36 hours. Header moved to 0002Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Talarico posts from america and Elon Musk (politics full, account placed, advocacy); Scobleizer Grok post (Musk already holds the ai place with the quote); Mass Effect 5 trailer leak posts (unconfirmed leak, gaming has its places); Gaisford Detroit voter clip (shows a private person); Fabrizio Romano on Messi (account already placed); Schefter on Jonathan Taylor trade and Liz Wheeler on former officials (sports full, unchecked advocacy); Japanese manga post (not read closely); old_content posts.
+- Requests: watch.json updated (2 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Barclays job cuts, Tom Skerritt obituary, Kushner excerpt.
