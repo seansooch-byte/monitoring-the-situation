@@ -2512,3 +2512,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T14:20Z
+- Captures read: 1401Z (1303Z was read last pass). Last read: 1401Z.
+- X's check: 1401Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. (1303Z's mismatch, 2113570030965440995 IVEstarship, and 0403Z's, 2113357723362263057 PiersUncensored, still show as logged before.)
+- Pulse: 24 items (0 new, 1 dropped). Dropped, past 36 hours: eastdakota on #php2shell. Header moved to 1401Z. Under the 25 floor because nothing new was both safe and large enough to add.
+- Added: none. Updated: none (pulse pass).
+- Left out: Oleshky ceasefire posts (financialjuice, Osint613, RapidResponse47; small, White House claim not checked); notinregs Marine commandant clip (no media description, point unclear); __yoshi_life Tokyo rent post (non-English, no media description); FischerKing64 (politics already full, advocacy); nostalgiaa and yazzxv posts (point unclear, desks already full); RabbiJeffx (asks for the ethnicity of people in a crime clip); peleasclub (flagged private_individual); elonmusk Talarico post (account already placed); Friday greeting and Fat Albert posts.
+- Requests: watch.json updated (1 removed); open.json updated_at only.
+- Shipped: yes, commit 8ad86af2, live audit clean.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
