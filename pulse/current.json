@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T13:20:00Z",
-  "capture": "2026-10-23T1303Z",
+  "updated_at": "2026-10-23T14:20:00Z",
+  "capture": "2026-10-23T1401Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -137,12 +137,6 @@
       "id": "2113469919002067372",
       "desk": "sports",
       "line": "The NBA account posts that LeBron James had 17 points, 10 rebounds, 5 assists and 3 steals in his home debut in Philadelphia and says his team came back from 29 points down, the largest comeback of his 24-year career.",
-      "also": []
-    },
-    {
-      "id": "2113079352682570051",
-      "desk": "tech",
-      "line": "The account eastdakota gives attack figures for a PHP bug called #php2shell. It says Cloudflare saw thousands of exploit attempts before the announcement, tens of thousands in the first 45 minutes after, and now millions. These are the poster’s counts. Not checked here.",
       "also": []
     },
     {
