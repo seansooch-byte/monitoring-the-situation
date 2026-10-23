@@ -2412,3 +2412,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added, 2 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T04:35Z
+- Captures read: 0403Z (0303Z was read last pass). Last read: 0403Z.
+- X's check: 0403Z 27 confirmed, 1 mismatched (2113357723362263057, PiersUncensored), 0 missing, 0 withheld.
+- Pulse: 36 items, unchanged apart from the header (moved to 0403Z). Nothing new beat the current items or was free of the reasons below.
+- Added: none. Updated: none (pulse pass).
+- Left out: PiersUncensored post (X mismatch, cannot be cited); Michael Weiss post on the Kushner phone (stacks claims on an unchecked excerpt and differs from the Vanity Fair item already placed); FightStorage Sneako clip (flagged private_individual); NFL Patriots touchdown and Bears field-goal posts (sports full); ExpiredGrap3 South Park post (point unclear); DissidentWire Vivek clip (aggregator, advocacy); FischerKing64 and Trump California posts (advocacy); jeremyct airline post (unchecked complaint); AppleMusic promotion; old_content posts.
+- Requests: none changed; watch.json already lists every pulse post.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
