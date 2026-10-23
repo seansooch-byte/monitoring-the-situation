@@ -2562,3 +2562,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T20:30Z
+- Captures read: 2005Z (1905Z was read last pass). Last read: 2005Z.
+- X's check: 2005Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before: 0403Z 2113357723362263057 PiersUncensored, 1303Z 2113570030965440995 IVEstarship.)
+- Pulse: 26 items (0 new, 1 dropped). Dropped, past 36 hours: Sky News on Barclays (business). Header moved to 2005Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: EricLDaugh on Trump and Ilhan Omar (claim about a real person, not researched); Skye Blakely and Jesse Legree posts (sports already full, not among the largest); NYCMayor ICE guidance (reads as advice); Sneako and Ethan Klein posts (private_individual); Piers Morgan on Thomas Markle (opinion); PolitlcsUK HMRC post (nothing checked outside X); old and private_individual posts. For the next story pass: the Trump and Omar disqualification claim, HMRC bank-account powers at the Budget.
+- Requests: watch.json updated (1 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Chained shell commands that write files were held for approval, so I made edits with the file tools.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T19:30:00Z",
-  "capture": "2026-10-23T1905Z",
+  "updated_at": "2026-10-23T20:30:00Z",
+  "capture": "2026-10-23T2005Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -51,12 +51,6 @@
       "id": "2113251043173683683",
       "desk": "ai",
       "line": "Madison Mills, a reporter, posts an Axios scoop saying major US banks are detecting unauthorized third-party AI agents inside customer accounts. Axios says it is told this by unnamed bank and industry executives. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113175048433369137",
-      "desk": "business",
-      "line": "Sky News posts a breaking alert saying Barclays is cutting 5,000 jobs in an efficiency drive led by AI. The post links to Sky’s own report. Not checked here.",
       "also": []
     },
     {
