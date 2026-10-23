@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-23T16:50:00Z",
+  "updated_at": "2026-10-23T17:30:00Z",
   "requests": [
     {
       "id": "r-2026-10-15-01",
@@ -84,7 +84,7 @@
       "id": "r-2026-10-23-02",
       "kind": "search",
       "post": null,
-      "ask": "Posts from the Ukrainian president office, Ukrainian military in the south, or the Russian defence ministry on the Oleshky ceasefire starting 29 October (see post 2113632344376562077). Do not capture posts that show or name residents."
+      "ask": "Posts from the Ukrainian president office, Ukrainian military in the south, or the Russian defence ministry on the Oleshky ceasefire. The White House says it starts 29 October and Russian General Staff chief Gerasimov says 27 October (see posts 2113632344376562077 and 2113664679952482591). Look especially for a Ukrainian statement on the start date. Do not capture posts that show or name residents."
     }
   ]
 }

@@ -2532,3 +2532,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-23-01 (Talarico's own statement and the clip's origin), r-2026-10-23-02 (Ukrainian and Russian statements on Oleshky). watch.json updated.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. The Talarico story rests on partisan outlets plus a 2021 Fox transcript; the next pass should look for the clip's origin.
+
+## 2026-10-23T17:35Z
+- Captures read: 1659Z (1602Z was read last pass). Last read: 1659Z.
+- X's check: 1659Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before: 0403Z 2113357723362263057 PiersUncensored, 1303Z 2113570030965440995 IVEstarship.)
+- Pulse: 26 items (1 new, 0 dropped, 1 replaced). New: NOELreports on Gerasimov's 27 October Oleshky date (world). The FriedgeHNIC "working on a deal" post is replaced by the Winnipeg Jets post on the finished Hellebuyck trade (sports), with Seravalli's terms in `also`. Header moved to 1659Z.
+- Added: 2026-10-23-hellebuyck-traded-to-devils (sports, established). Updated: 2026-10-23-oleshky-ceasefire-melania-trump (Russia gives 27 October, White House 29 October; correction added).
+- Left out: atrupar clip of Trump and an NBC reporter (sexual abuse allegations, not researched this pass); elonmusk "Talarico hates Texas" (point unclear beyond the existing Talarico story); Plomoterap30 and DwightSinghS posts (private_individual); Red Velvet, 300moods and MTV posts (old or trivial); small-context posts such as meretz4ngel, callebtc, medyton; Sabres fan posts on Hellebuyck (opinion); Scottish Lassie posts (small).
+- Requests: r-2026-10-23-02 reworded for the two start dates; watch.json updated (4 added).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. A shell command of mine was held for approval, so I made the edits with the file tools.

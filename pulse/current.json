@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T16:50:00Z",
-  "capture": "2026-10-23T1602Z",
+  "updated_at": "2026-10-23T17:30:00Z",
+  "capture": "2026-10-23T1659Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -146,9 +146,15 @@
       "also": []
     },
     {
-      "id": "2113647926127845764",
+      "id": "2113669313064538182",
       "desk": "sports",
-      "line": "The account FriedgeHNIC posts that, per sources, New Jersey and Winnipeg are working on a deal for goaltender Connor Hellebuyck, and adds \"We will see what develops.\" Not checked here.",
+      "line": "The Winnipeg Jets post the players and picks they received in a trade that sends goaltender Connor Hellebuyck to New Jersey. The Devils' release and TSN report the same terms.",
+      "also": ["2113670031523389943"]
+    },
+    {
+      "id": "2113664679952482591",
+      "desk": "world",
+      "line": "NOELreports reports that Valery Gerasimov, chief of the Russian General Staff, says a local ceasefire around Oleshky will begin at 04:00 on 27 October. The White House statement gives 29 October; the dates do not match.",
       "also": []
     },
     {

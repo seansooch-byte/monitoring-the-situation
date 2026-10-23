@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-23-hellebuyck-traded-to-devils",
+  "title": "Winnipeg trades goalie Connor Hellebuyck to the New Jersey Devils",
+  "dek": "The star goalie asked for a trade in the spring and was suspended without pay in the fall. Both teams have now confirmed the terms.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-10-23T15:05:09Z",
+  "updated_at": "2026-10-23T17:30:00Z",
+  "what": [
+    "On Friday 23 October the New Jersey Devils announced that they had acquired goaltender Connor Hellebuyck from the Winnipeg Jets. General manager Sunny Mehta made the announcement.",
+    "Winnipeg gets forwards Dawson Mercer, Nick Bjugstad and Alexander Command, goaltender Nico Daws, a 2029 second-round pick and a 2027 seventh-round pick. The Jets' own post and the Devils' release agree on the players and picks. Reporter Frank Seravalli adds that Bjugstad is on long-term injured reserve.",
+    "TSN reports that Hellebuyck asked for a trade privately in April, said so publicly in August, and did not report to training camp in September. The Jets suspended him without pay for three weeks, and TSN says the trade came on the day the suspension ended. TSN also reports he has a full no-move clause through July 2027.",
+    "The Devils say Hellebuyck is 33, has won the Hart Trophy and three Vezina Trophies, and won Olympic gold with Team USA in 2026. He is in the third year of a seven-year contract worth $8.5 million a year, through 2030-31."
+  ],
+  "why": "A star goalie's open dispute with his club ran for six months. The trade was first reported by sources about an hour before either team confirmed it.",
+  "next": "The Devils are due in Winnipeg on 10 November, per TSN.",
+  "posts": [
+    { "id": "2113647926127845764", "role": "origin" },
+    { "id": "2113669313064538182", "role": "official" },
+    { "id": "2113669358421684305", "role": "voice" },
+    { "id": "2113670031523389943", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "New Jersey Devils: Hellebuyck acquired by Devils", "url": "https://www.nhl.com/devils/news/hellebuyck-acquired-by-devils-release-10-23-26" },
+    { "label": "TSN: Winnipeg Jets trading Connor Hellebuyck to Devils as saga comes to an end at last", "url": "https://www.tsn.ca/nhl/article/jets-trading-hellebuyck-to-devils-as-saga-comes-to-an-end-at-last/" }
+  ]
+}

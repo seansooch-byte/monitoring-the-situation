@@ -2,22 +2,26 @@
   "schema": "mts.moment/1",
   "id": "2026-10-23-oleshky-ceasefire-melania-trump",
   "title": "White House says Melania Trump brokered a local ceasefire in Russian-held Oleshky",
-  "dek": "About 1,700 to 2,000 people, mostly elderly, are left in the town. The deal is for aid and evacuation, and it starts on 29 October.",
+  "dek": "About 1,700 to 2,000 people, mostly elderly, are left in the town. The White House and the Russian army chief give different start dates for the pause.",
   "desks": ["world"],
   "standing": "developing",
   "started_at": "2026-10-23T13:53:31Z",
-  "updated_at": "2026-10-23T16:45:00Z",
+  "updated_at": "2026-10-23T17:30:00Z",
   "what": [
-    "On Friday 23 October the White House published a statement from the office of First Lady Melania Trump. It says Russia and Ukraine have agreed to a ceasefire limited to the town of Oleshky, in the Russian-occupied part of the Kherson region, starting on 29 October.",
+    "On Friday 23 October the White House published a statement from the office of First Lady Melania Trump. It says Russia and Ukraine have agreed to a ceasefire limited to the town of Oleshky, in the Russian-occupied part of the Kherson region, and that it will begin on 29 October.",
     "The statement says the pause is to let humanitarian aid in and to prepare a civilian evacuation along a safe route. It also lists demining, a visit by non-military civilian leaders from both countries to assess residents' needs, a choice for residents between Russia and Ukraine as a destination, and an American media organisation to document the process. It gives no length for the ceasefire. It names the First Lady as the \"Exclusive Intermediary\" and quotes her saying that without her intervention aid and evacuation of the elderly would be impossible.",
-    "The Kremlin confirmed the arrangement. Reuters reports spokesman Dmitry Peskov said Moscow welcomed the First Lady's efforts and that she had made a significant contribution to coordinating the humanitarian operation. Reuters also reports the two militaries were still working on the timing of the evacuation, which was expected to take at least several days. Ukraine's chief negotiator, Davyd Arakhamia, said on Telegram that a ceasefire would be set up in Oleshky soon, along with permanent humanitarian corridors.",
+    "The Kremlin confirmed the arrangement. Reuters reports spokesman Dmitry Peskov said Moscow welcomed the First Lady's efforts and that she had made a significant contribution to coordinating the humanitarian operation. Reuters also reports the two militaries were still working on the timing of the evacuation, which was expected to take at least several days. Ukraine's chief negotiator, Davyd Arakhamia, said on Telegram that a ceasefire would be set up in Oleshky soon, along with permanent humanitarian corridors. Later on Friday, Russian Chief of the General Staff Valery Gerasimov said Russian forces would stop firing in the Kherson sector from 4 a.m. Moscow time on 27 October, according to the Kurdistan24 report of the announcement. Posts on X carry the same date and attribute it to the General Staff and to Interfax.",
     "The White House puts Oleshky's population at about 24,000 before the war and 1,700 to 2,000 now. Residents have been reported short of food, medicine, power and water.",
-    "One widely shared post calls the ceasefire \"week-long\". The White House statement, as I read it, gives no length, so that detail is not established here.",
-    "I could not confirm anything beyond the statements of the three governments. No ceasefire has started yet. Whether it holds after 29 October, and how many people leave, is not known."
+    "One widely shared post calls the ceasefire \"week-long\". The White House statement, as I read it, gives no length, and the Gerasimov report I found gives none either, so that detail is not established here.",
+    "The two dates do not match: the White House says 29 October and Gerasimov says 27 October. I could not find a Ukrainian statement on either date. No ceasefire has started yet. Whether it holds, and how many people leave, is not known."
   ],
   "why": "A ceasefire of any kind in this war is news. It is also unusual that the announcement comes from the First Lady's office, and that Moscow and Kyiv have both said yes.",
-  "next": "Whether firing stops on 29 October, and whether the evacuation routes open.",
+  "next": "Which date the pause actually starts on, whether Kyiv confirms it, whether firing stops, and whether the evacuation routes open.",
+  "corrections": [
+    { "at": "2026-10-23T17:30:00Z", "text": "The dek and first paragraph gave 29 October as the start without qualification. The Russian army chief later gave 27 October. Both dates are now stated." }
+  ],
   "posts": [
+    { "id": "2113664679952482591", "role": "voice" },
     { "id": "2113632344376562077", "role": "origin" },
     { "id": "2113629897578922062", "role": "voice" },
     { "id": "2113633282017378445", "role": "voice" }
@@ -25,6 +29,7 @@
   "sources": [
     { "label": "White House: First Lady Melania Trump secures ceasefire between Russia and Ukraine, localized to Oleshky", "url": "https://www.whitehouse.gov/briefings-statements/2026/10/first-lady-melania-trump-secures-ceasefire-between-russia-and-ukraine-localized-to-oleshky/" },
     { "label": "Reuters via Investing.com: Kremlin confirms Oleshky ceasefire, says working with Ukraine on evacuation timing", "url": "https://www.investing.com/news/world-news/kremlin-confirms-oleshky-ceasefire-says-working-with-ukraine-on-evacuation-timing-4970045" },
+    { "label": "Kurdistan24: Russia announces Oleshky ceasefire to begin on Oct. 27", "url": "https://www.kurdistan24.net/en/story/948068/russia-announces-oleshky-ceasefire-to-begin-on-oct-27" },
     { "label": "Euronews: Melania Trump secures ceasefire in Russian-occupied Ukrainian city of Oleshky, White House says", "url": "https://www.euronews.com/2026/10/23/melania-trump-secures-ceasefire-in-russian-occupied-ukrainian-city-of-oleshky-white-house-" }
   ]
 }
