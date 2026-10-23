@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T17:30:00Z",
-  "capture": "2026-10-23T1659Z",
+  "updated_at": "2026-10-23T18:30:00Z",
+  "capture": "2026-10-23T1808Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -16,12 +16,6 @@
       "also": [
         "2113269146096124299"
       ]
-    },
-    {
-      "id": "2113143887594475733",
-      "desk": "internet",
-      "line": "Streamer QTCinderella says people were late to her wedding and that it set the wedding back. She asks viewers to stop hating on someone on behalf of another streamer and says drama clippers have farmed it. The post does not name who she means.",
-      "also": []
     },
     {
       "id": "2113273779086364923",
@@ -98,12 +92,6 @@
       ]
     },
     {
-      "id": "2113137207389352120",
-      "desk": "sports",
-      "line": "Anthony Slater posts a video and says Yaxel Lendeborg told reporters he \"lost all respect\" for Luka Doncic after facing him, because Doncic was \"complaining the entire game.\" Slater quotes Lendeborg adding \"I told him he sucks.\" Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113278038532096440",
       "desk": "entertainment",
       "line": "DiscussingFilm says Jack Lowden, Callum Turner and Josh O'Connor are among the actors in the mix to be the next James Bond and are doing final auditions. It credits Deadline. Not checked here.",
@@ -161,6 +149,12 @@
       "id": "2113616429257765174",
       "desk": "entertainment",
       "line": "Netflix posts that the third season of The Gentlemen is now in production.",
+      "also": []
+    },
+    {
+      "id": "2113649451697164594",
+      "desk": "defense",
+      "line": "The White House account posts a 19-second video captioned \"NEW UFO DROP\" and a link to war.gov/UFO, a page titled \"Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)\". What the page holds is not checked here.",
       "also": []
     }
   ]
