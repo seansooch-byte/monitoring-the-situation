@@ -2522,3 +2522,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 removed); open.json updated_at only.
 - Shipped: yes, commit 8ad86af2, live audit clean.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T16:50Z
+- Captures read: 1459Z, 1602Z (1401Z was read last). Last read: 1602Z.
+- X's check: 1459Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld; 1602Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before: 0403Z 2113357723362263057 PiersUncensored, 1303Z 2113570030965440995 IVEstarship.)
+- Pulse: 25 items (2 new, 2 dropped). New: FriedgeHNIC on a reported Hellebuyck deal (sports), Netflix on The Gentlemen season 3 (entertainment). Dropped, past 36 hours: Kalshi Threads post, resetbasis markets post. Header moved to 1602Z.
+- Added: 2026-10-23-oleshky-ceasefire-melania-trump (world, developing); 2026-10-22-talarico-voter-id-clip (politics, disputed). Updated: none. Checked Lucas and the Gulf embassy departures, no new reporting found.
+- Left out: Kompany collapse post (Fabrizio account already placed; one search found no confirming report); Hila and Ethan Klein posts (private-life claims, nothing outside X); Genshin Impact post (promotion); Britt McHenry drink post; non-English and private_individual posts.
+- Requests: added r-2026-10-23-01 (Talarico's own statement and the clip's origin), r-2026-10-23-02 (Ukrainian and Russian statements on Oleshky). watch.json updated.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. The Talarico story rests on partisan outlets plus a 2021 Fox transcript; the next pass should look for the clip's origin.

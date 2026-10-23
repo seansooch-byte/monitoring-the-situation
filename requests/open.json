@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-23T15:20:00Z",
+  "updated_at": "2026-10-23T16:50:00Z",
   "requests": [
     {
       "id": "r-2026-10-15-01",
@@ -73,6 +73,18 @@
       "kind": "search",
       "post": null,
       "ask": "Posts from SpaceX, the Treasury Department or the Trump Accounts program, or a named outlet quoting them, on how Musk's promised SpaceX shares would reach children and who is eligible (see post 2112089556615123114)."
+    },
+    {
+      "id": "r-2026-10-23-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from James Talarico or his campaign, or a named outlet quoting them, on voter ID and on the clip posted by account America (post 2113317694367748316). Also the original video or broadcast the clip comes from, with its date."
+    },
+    {
+      "id": "r-2026-10-23-02",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the Ukrainian president office, Ukrainian military in the south, or the Russian defence ministry on the Oleshky ceasefire starting 29 October (see post 2113632344376562077). Do not capture posts that show or name residents."
     }
   ]
 }

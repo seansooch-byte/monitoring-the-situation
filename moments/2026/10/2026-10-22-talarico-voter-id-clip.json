@@ -1,0 +1,31 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-22-talarico-voter-id-clip",
+  "title": "A viral clip says Texas Senate nominee Talarico \"hates Voter ID\". The words come from older remarks",
+  "dek": "Voter ID is a live issue in the Texas Senate race. The clip's phrase and a separate statement on voter ID were said at different times, and the sources I found disagree on where the phrase was said.",
+  "desks": ["politics"],
+  "standing": "disputed",
+  "started_at": "2026-10-22T17:12:56Z",
+  "updated_at": "2026-10-23T16:45:00Z",
+  "what": [
+    "On 22 October the account \"America\" posted a 45-second video. Its text says Democratic Senate nominee James Talarico \"hates Voter ID with every fiber of his being and calls it Anti-American\". Elon Musk then posted \"Talarico hates Texas and America\" over it. A political group had posted the same video in August.",
+    "Two separate statements by Talarico are on the record. In a Fox News interview with Pete Hegseth on 13 July 2021, Fox's transcript has him saying: \"I oppose voter ID – it's the law in Texas.\" He went on to say he opposed requiring a driver's license to vote, because hundreds of thousands of Texans lack one.",
+    "The phrase \"every fiber of my being\" is a different statement. The Daily Wire reports he used it about a 2021 Texas election bill that required ID numbers for mail-in voting, ended drive-through voting and widened poll watchers' powers. It dates the remark to a 2023 appearance on a show called Lone Star Left. A second outlet, American Thinker, says the clip is from 2021. I could not open the original video, so I do not know which is right.",
+    "So the post says he hates voter ID. The sources I could read show he said in 2021 that he opposes voter ID, and that he hated a broader election bill. I found no source with him saying both things about voter ID in one breath.",
+    "Hot Air reports that Talarico now says he supports \"fair voter ID\", with student IDs accepted, because he thinks Texas's current policies are discriminatory. Hot Air is a partisan outlet, and I did not find his own statement or his campaign's reply.",
+    "Everything I found on this comes from outlets that oppose Talarico, plus the 2021 Fox transcript. I found no reporting from a neutral outlet."
+  ],
+  "why": "The Senate race is on the ballot in November, and a short clip with a strong phrase travels far. The post gave the clip no date and no context.",
+  "next": "Talarico's own statement on voter ID, and the original recording and date of the \"every fiber\" remark.",
+  "posts": [
+    { "id": "2113317694367748316", "role": "origin" },
+    { "id": "2091596080429342855", "role": "voice" },
+    { "id": "2113319277092642942", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Fox News, 13 July 2021: Hegseth clashes with Texas Democrat who fled quorum to DC", "url": "https://noticias.foxnews.com/media/hegseth-clashes-texas-democrat-election-reform-bill.print" },
+    { "label": "Daily Wire: Talarico fears election won't be free and fair; here's how he's fought election safeguards", "url": "https://www.dailywire.com/news/talarico-fears-election-wont-be-free-and-fair-he-opposes-voter-id-and-poll-watchers" },
+    { "label": "American Thinker, August 2026: In Texas, Senate Democrat candidate James Talarico opposes voter ID", "url": "https://www.americanthinker.com/blog/2026/08/in-texas-senate-democrat-candidate-james-talarico-opposes-voter-id/" },
+    { "label": "Hot Air, 15 October 2026: More Talarico lying about the SAVE America Act and voter ID", "url": "https://hotair.com/ed-morrissey/2026/10/15/more-talarico-lying-about-the-save-america-act-and-voter-id-n3819965" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T15:20:00Z",
-  "capture": "2026-10-23T1459Z",
+  "updated_at": "2026-10-23T16:50:00Z",
+  "capture": "2026-10-23T1602Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -33,12 +33,6 @@
       "id": "2113226701622681897",
       "desk": "defense",
       "line": "Reporter Dan Lamothe says in an exclusive that Pete Hegseth wanted Gen. Dwight Eisenhower's globe for his office and that Hegseth's staff broke it. He says he has photos. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113109837382901905",
-      "desk": "markets",
-      "line": "Investor m. stanfield says an unnamed executive at a large property management company told him over dinner that the US apartment market is the worst that person has seen in 40 years. These are secondhand claims. Not checked here.",
       "also": []
     },
     {
@@ -146,15 +140,21 @@
       "also": []
     },
     {
-      "id": "2113017110536597504",
-      "desk": "tech",
-      "line": "Kalshi, a prediction market, posts a \"JUST IN\" saying Mark Zuckerberg says Threads has surpassed X in monthly active users. The post gives no source for the remark. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113314032778383848",
       "desk": "world",
       "line": "AnkurSingh posts a video of India's Piyush Goyal answering an EU official on climate change. The post says Goyal told her India has 17% of the world's population and under 3% of cumulative CO2 emissions, and Europe 3% and 18%. Those figures are the poster's account. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113647926127845764",
+      "desk": "sports",
+      "line": "The account FriedgeHNIC posts that, per sources, New Jersey and Winnipeg are working on a deal for goaltender Connor Hellebuyck, and adds \"We will see what develops.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113616429257765174",
+      "desk": "entertainment",
+      "line": "Netflix posts that the third season of The Gentlemen is now in production.",
       "also": []
     }
   ]
