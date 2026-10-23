@@ -2442,3 +2442,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added, 2 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T07:25Z
+- Captures read: 0707Z (0606Z was read last pass). Last read: 0707Z.
+- X's check: 0707Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 33 items (5 new, 6 dropped). New: America clip on Talarico and Voter ID (politics, attributed, not checked); SportsCenter LaMelo video (sports, replaces its smaller item); Anthony Slater on Lendeborg and Doncic (sports); fiveoutofnine list of security incidents (tech, attributed, not checked); DiscussingFilm on Bond auditions (entertainment, credits Deadline). Dropped: HHSResponse, TheHackersNews, ChrisBHaynes, claudeai and WARDOGS posts (older than 36 hours) and the earlier SportsCenter item. Header moved to 0707Z. Gaming has nothing left to show.
+- Added: none. Updated: none (pulse pass).
+- Left out: elonmusk Talarico and second Grok Bot posts (account already placed); TMZ Britt McHenry post (fan involved, claim unchecked); Dexerto AI K-pop post (sexual allegation); FightStorage Sneako clip (private_individual); VehicleTracker8 dashcam clip (point unclear); Kai Cenat post (slur); michaeldweiss Kushner post (as before); richardgaisford Detroit voter post (private person); Mass Effect leak posts (unverified leak, entertainment has places); non-English posts.
+- Requests: watch.json updated (5 added, 4 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: the media source of the America Voter ID clip (2091596080429342855) is not captured; a story pass may check what Talarico said. The message that started me had no instructions beyond the contract.
