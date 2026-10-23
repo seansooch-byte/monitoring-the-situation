@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-22-barclays-5000-jobs-ai",
+  "title": "Barclays says it will cut about 5,000 jobs, citing AI efficiency",
+  "dek": "A large bank links a headcount cut to AI in the same release as a profit rise. The figures come from the bank's own account as reported by outlets.",
+  "desks": ["business"],
+  "standing": "developing",
+  "started_at": "2026-10-22T07:46:07Z",
+  "updated_at": "2026-10-23T02:30:00Z",
+  "what": [
+    "On Thursday 22 October Sky News posted a breaking alert that Barclays is cutting 5,000 jobs in an efficiency drive led by AI.",
+    "Yahoo Finance UK reports that Barclays will remove about 5,000 positions, roughly 5% of its global workforce, by the end of 2026. It quotes the bank describing 'organisational simplification and technology change efficiency driven by AI'. It reports that about 60% of the losses are in support functions, including fewer developers because, in the bank's words, AI makes its people more productive.",
+    "The announcement came with third quarter results. Yahoo reports net profit of £1.65 billion, up 13% on a year earlier, and group income up 3% to £7.37 billion. It quotes chief executive C. S. Venkatakrishnan citing momentum in operational and financial performance.",
+    "I read the bank's account only through press reports. I did not open the Barclays results statement, so the timing and the split by function are as those reports give them."
+  ],
+  "why": "Cuts that a company ties to AI, announced beside rising profit, are being read as an early sign of what AI does to white-collar jobs. The alert repeats the bank's framing.",
+  "next": "The Barclays results statement and any detail on where the cuts fall.",
+  "posts": [
+    { "id": "2113175048433369137", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Yahoo Finance UK: Barclays bank to cut about 5,000 jobs amid AI drive", "url": "https://uk.finance.yahoo.com/news/barclays-bank-cut-5-000-091528947.html" }
+  ]
+}
