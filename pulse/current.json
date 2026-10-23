@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T04:35:00Z",
-  "capture": "2026-10-23T0403Z",
+  "updated_at": "2026-10-23T05:04:10Z",
+  "capture": "2026-10-23T0458Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -13,12 +13,6 @@
       "id": "2113001073019662481",
       "desk": "science",
       "line": "Marathon Fusion, a fusion company, says it turned mercury into stable gold at ten times CERN's record rate and enriched isotopes in what it calls the most powerful plasma centrifuge. It says it is now building a fusion reactor in San Francisco. The post carries a video that was not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112939813225849085",
-      "desk": "internet",
-      "line": "DogeDesigner posts a 65-second clip of Elon Musk saying that people who get their information from legacy media live in a different world from people who get it from X. Musk owns X and the company behind Grok, which gathers this page's posts. Not checked here.",
       "also": []
     },
     {
@@ -92,21 +86,9 @@
       "also": []
     },
     {
-      "id": "2112952314705162737",
-      "desk": "sports",
-      "line": "ESPN posts a link to Titans coach Robert Saleh's statement on the release of Jordan Elliott. ESPN's text says the release followed an attempt to retrieve a gun from his car after a spat with a Titans teammate. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2112984169735139816",
       "desk": "gaming",
       "line": "The studio account for the game WARDOGS says it is capping server ping at 175 to protect most players from regions it says are more prone to cheating, and that region locking is in progress. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112948272570503631",
-      "desk": "world",
-      "line": "Europa.com, a news account, says the Irish state has published an advert discouraging grandparents from hugging their grandchildren, as part of a campaign to promote \"consent\". The post carries a 26-second video. The advert has not been checked here.",
       "also": []
     },
     {
@@ -227,6 +209,18 @@
       "id": "2113073482728665404",
       "desk": "sports",
       "line": "NFL reporter Dov Kleiman says the Bengals are under heavy criticism online for not greeting Vice President JD Vance, and that many Republicans are calling for the NFL to fine them. He says most of the team did not shake Vance's hand. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113307885937553437",
+      "desk": "politics",
+      "line": "BBC Breaking reports that US President Donald Trump has been ordered to sit for a deposition by 11 December in his defamation case against the BBC. The post links to the BBC report. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113437710065311970",
+      "desk": "tech",
+      "line": "Andrew Curran says Quest Diagnostics has been hacked and patient data exposed, and that the company serves roughly half of US hospitals and physicians. He says an investigation is ongoing. Not checked here.",
       "also": []
     }
   ]

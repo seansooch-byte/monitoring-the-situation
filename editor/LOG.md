@@ -2422,3 +2422,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed; watch.json already lists every pulse post.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T05:10Z
+- Captures read: 0458Z (0403Z was read last pass). Last read: 0458Z.
+- X's check: 0458Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged last pass.)
+- Pulse: 35 items (2 new, 3 dropped). New: BBC Breaking on the Trump deposition order (politics); Andrew Curran on the Quest Diagnostics hack (tech, attributed, not checked). Dropped: cb_doge, europa and ESPN posts, all older than 36 hours. Header moved to 0458Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: SGA streak posts (low reach, sports has places); Grok Bot apps post (ai has places; would need the xAI note); Atrupar Trump clip (politics full, aggregator); akshaykumar and dhruv_rathee posts (not in English, point not worked out); old_content posts; MAGAVoice Bukele post (unchecked claim, advocacy).
+- Requests: watch.json updated (2 added, 3 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
