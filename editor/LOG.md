@@ -2392,3 +2392,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Barclays job cuts, Tom Skerritt obituary, Kushner excerpt.
+
+## 2026-10-23T02:40Z
+- Captures read: 0205Z (0059Z was read last pass). Last read: 0205Z.
+- X's check: 0205Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items, unchanged apart from the header (moved to 0205Z). The new capture held nothing that beat the current items or was not already placed, unchecked or off-limits.
+- Added: 2026-10-22-tom-skerritt-dies-at-93 (entertainment), 2026-10-22-barclays-5000-jobs-ai (business). Updated: none.
+- Left out: PHP flaws (FBI and OpenAI posts; no outside confirmation of the CVE numbers found); EA and BioWare closure (search showed only older layoff and downsizing reports); Kushner excerpt (no outside confirmation); Lindsey Graham escort posts (a minor is involved); fan-art post with a child (sexual framing).
+- Requests: none changed. The new stories cite posts already on watch.json.
+- Shipped: yes, commit 54809aae, live audit clean.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
