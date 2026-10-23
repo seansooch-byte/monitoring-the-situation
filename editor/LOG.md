@@ -2492,3 +2492,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (6 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: my shell asked for approval on mv, rm and file redirection inside the repo; I used git mv to fix a story filename. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T12:20Z
+- Captures read: 1200Z (1107Z was read last pass). Last read: 1200Z.
+- X's check: 1200Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 28 items (3 new, 3 dropped). New: eastdakota on #php2shell attack figures (tech), Dexerto on the AI K-pop group BABYQUEEN (music), kalaelizabeth on a reported Mass Effect 5 trailer leak (entertainment). Dropped, at or past 36 hours: HQNewsNow Trump clip, fiveoutofnine security list, Jim Sciutto Starlink. Header moved to 1200Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ Britt McHenry drink post (a named person's conduct and an unnamed fan, nothing outside X); michaeldweiss Kushner post (Vanity Fair item already covers it, and it adds opinion); Genshin Impact special program post (promotion); VehicleTracker8 post (point unclear); Kai Cenat post (slur); PopCrave Natalie Nunn costume and Natalie Nunn lookalike posts (trivial); elonmusk posts and aslater Grok Bot post (account already placed, or would need the xAI note); gaming fan-campaign posts (small, one-sided); non-English posts; private_individual posts.
+- Requests: watch.json updated (3 added, 3 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

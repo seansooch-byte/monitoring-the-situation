@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T11:40:00Z",
-  "capture": "2026-10-23T1107Z",
+  "updated_at": "2026-10-23T12:20:00Z",
+  "capture": "2026-10-23T1200Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -21,12 +21,6 @@
       "id": "2113061182265290843",
       "desk": "politics",
       "line": "James Talarico, the Democratic nominee for US Senate in Texas, says there is something deeply wrong with a political system that allows one trillionaire to buy his own personal US Senator. His post quotes another post. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113054759070392523",
-      "desk": "politics",
-      "line": "HQNewsNow posts a 15-second clip of President Trump saying \"I'd say 90% of the reason I took the governor--\" before he makes a loud noise. The clip does not show what he was answering. Not checked here.",
       "also": []
     },
     {
@@ -132,12 +126,6 @@
       "also": []
     },
     {
-      "id": "2113045722744717360",
-      "desk": "tech",
-      "line": "fiveoutofnine posts one long sentence listing security incidents said to have happened in a single day, led by two critical PHP bugs, with agencies in several countries telling people to take systems offline. These are the poster's claims. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113278038532096440",
       "desk": "entertainment",
       "line": "DiscussingFilm says Jack Lowden, Callum Turner and Josh O'Connor are among the actors in the mix to be the next James Bond and are doing final auditions. It credits Deadline. Not checked here.",
@@ -168,9 +156,21 @@
       "also": []
     },
     {
-      "id": "2113040026770485435",
-      "desk": "world",
-      "line": "Journalist Jim Sciutto says SpaceX investor Gerber Kawasaki told him he is \"disgusted\" by restrictions on Starlink in Ukraine and that they have given everyone a reason not to use Starlink. These are the investor's views, and the restrictions are not checked here.",
+      "id": "2113079352682570051",
+      "desk": "tech",
+      "line": "The account eastdakota gives attack figures for a PHP bug called #php2shell. It says Cloudflare saw thousands of exploit attempts before the announcement, tens of thousands in the first 45 minutes after, and now millions. These are the poster’s counts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113231476233744783",
+      "desk": "music",
+      "line": "Dexerto says the AI K-pop group BABYQUEEN is facing backlash after its creators \"impregnated\" one of its members. It says they did it to write her out of the group and manage fewer AI personalities. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113300791146790915",
+      "desk": "entertainment",
+      "line": "The poster kalaelizabeth says a BioWare developer leaked a Mass Effect 5 trailer on Reddit, called \"MASS EFFECT UNIVERSE\". The post carries a 2-minute video. The leak is not checked here.",
       "also": []
     }
   ]
