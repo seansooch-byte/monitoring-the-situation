@@ -2552,3 +2552,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 removed, 1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T19:30Z
+- Captures read: 1905Z (1808Z was read last pass). Last read: 1905Z.
+- X's check: 1905Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before: 0403Z 2113357723362263057 PiersUncensored, 1303Z 2113570030965440995 IVEstarship.)
+- Pulse: 27 items (2 new, 0 dropped). New: Anthropic on formal verification with Claude (ai, company disclosure added), Kimi.ai on Kimi K3.1 Pro (ai). Header moved to 1905Z. The Barclays post (business) ages out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Grok @Bot posts (promotion); NYCMayor ICE guidance (reads as advice); Clooney reply video and Hamilton quote (third-party accounts, nothing outside X); Musk Talarico and Economist posts (Talarico already has a story; Economist is opinion); Ethan Klein posts (private-life claims); private_individual and non-English posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
