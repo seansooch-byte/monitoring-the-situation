@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-23-doj-sues-alaska-senate-certification",
+  "title": "Justice Department sues to block Alaska Senate certification if Sen. Sullivan loses, citing a same-name rival",
+  "dek": "The suit asks a federal court to stop Alaska from certifying a Senate result in one narrow case, before any votes are counted. The race is close, and two candidates are named Dan Sullivan.",
+  "desks": ["politics"],
+  "standing": "developing",
+  "started_at": "2026-10-23T15:35:37Z",
+  "updated_at": "2026-10-23T21:45:00Z",
+  "what": [
+    "On 23 October the Associated Press reported that the Trump administration had sued to block certification of Alaska's Senate result if Republican Sen. Dan Sullivan loses. The suit points to another candidate on the ballot who shares his name.",
+    "NBC News reports the Justice Department filed in federal court in Alaska against Alaska election officials. NBC says the filing was signed by Associate Attorney General Stanley Woodward. It asks the court to bar certification if two things are true: Sen. Sullivan does not win, and he would have won had every vote cast for Daniel J. Sullivan been cast for him instead.",
+    "NBC quotes the filing as saying it is \"vital that Defendants not certify any election result that may be impacted by voter confusion.\"",
+    "NBC reports that Democratic nominee Mary Peltola called the suit \"the corruption AK is fed up with\" and said the senator was using \"DC allies to try to keep himself in power.\" Sen. Sullivan's office did not respond to NBC. Daniel J. Sullivan did not respond either; NBC says he has said before that he has \"every right to run.\"",
+    "NBC also reports that Alaska election officials found in August that the second Sullivan's candidacy was not in good faith, and that Alaska courts allowed him to stay on the ballot anyway.",
+    "Some posts say the second candidate was planted by Democrats. NBC's report, as I read it, gives that only as something Republicans contend, and I found no evidence for it. It is not treated as fact here. I read only the NBC report in full. I could not open CNN's, and I did not read the complaint itself."
+  ],
+  "why": "The Senate race is expected to be very close, the election is under two weeks away, and the suit asks a court to act on a result that does not yet exist. That makes it a story about the rules before it is a story about the count.",
+  "next": "The court's first ruling on the request, any filing by Alaska's election officials, and the certified result after the November election.",
+  "posts": [
+    { "id": "2113655590018753007", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "NBC News: Trump administration sues to block Alaska Senate certification if Republican Sen. Dan Sullivan loses in November", "url": "https://www.nbcnews.com/politics/2026-election/trump-justice-department-lawsuit-alaska-senate-rcna605229" }
+  ]
+}

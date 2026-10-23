@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T20:30:00Z",
-  "capture": "2026-10-23T2005Z",
+  "updated_at": "2026-10-23T21:30:00Z",
+  "capture": "2026-10-23T2107Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -161,6 +161,12 @@
       "id": "2113680701770068067",
       "desk": "ai",
       "line": "Kimi.ai announces Kimi K3.1 Pro, which it calls its most capable open-weight model, with a 1M-token context, 2.8T total and 104B active parameters, and multimodal input. These specifications are the company's own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113319277092642942",
+      "desk": "politics",
+      "line": "Elon Musk quotes the America account's video with the words \"Talarico hates Texas and America\". James Talarico is the Democratic nominee for US Senate in Texas. The post gives no reason beyond the quoted clip, which another story here checks.",
       "also": []
     }
   ]

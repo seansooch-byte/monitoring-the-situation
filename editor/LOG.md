@@ -2572,3 +2572,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Chained shell commands that write files were held for approval, so I made edits with the file tools.
+
+## 2026-10-23T21:50Z
+- Captures read: 2107Z (2005Z was read last pass). Last read: 2107Z.
+- X's check: 2107Z 28 confirmed, 0 missing, 1 mismatched (2113480974893998468 YGBABYMONSTER_, hashtag order differs; not cited). Earlier mismatches still show as logged before.
+- Pulse: 27 items (1 new, 0 dropped). New: Elon Musk "Talarico hates Texas and America" (politics). Header moved to 2107Z.
+- Added: 2026-10-23-doj-sues-alaska-senate-certification (politics, developing; NBC read in full, CNN would not open). Updated: none.
+- Left out: Musk Grok @Bot posts (promotion); Ethan Klein posts (private-life claims, private_individual); EricLDaugh "planted candidate" post (claim about a real person, not confirmed); Plomoterap30 and atrupar rally post (private_individual); non-English posts; small Bulls and Cleetus posts. Not researched: Trump and Omar claim, HMRC powers. Live stories were not re-checked for movement this pass beyond the new one.
+- Requests: watch.json updated (2 added); open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Shell commands that write files were held for approval, so I used the file tools.
