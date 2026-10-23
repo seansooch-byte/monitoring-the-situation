@@ -2432,3 +2432,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added, 3 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T06:15Z
+- Captures read: 0606Z (0458Z was read last pass). Last read: 0606Z.
+- X's check: 0606Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 34 items (1 new, 2 dropped). New: Rainmaker1973 on the IBM 7094 "Daisy Bell" clip (science, attributed, not checked). Dropped: Jason Schreier EA/BioWare post and DiscussingFilm Fortnite post, both older than 36 hours. Header moved to 0606Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: dhruv_rathee interview post (not in English); Maks_NAFO_FELLA pipe clip (unchecked claim, defense has a place); PGATUOR Trump golf post (advocacy); NFL, Savageboston, davebftv and other Bears-Patriots posts (sports full); geoffkeighley post (text is only a link); old_content posts.
+- Requests: watch.json updated (1 added, 2 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

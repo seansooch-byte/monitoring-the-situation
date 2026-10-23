@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T05:04:10Z",
-  "capture": "2026-10-23T0458Z",
+  "updated_at": "2026-10-23T06:12:08Z",
+  "capture": "2026-10-23T0606Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -13,12 +13,6 @@
       "id": "2113001073019662481",
       "desk": "science",
       "line": "Marathon Fusion, a fusion company, says it turned mercury into stable gold at ten times CERN's record rate and enriched isotopes in what it calls the most powerful plasma centrifuge. It says it is now building a fusion reactor in San Francisco. The post carries a video that was not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112953336953770278",
-      "desk": "gaming",
-      "line": "Game journalist Jason Schreier posts a Bloomberg headline saying Electronic Arts is cutting 400 jobs and shutting down BioWare, the studio behind Dragon Age and Mass Effect. Not checked here.",
       "also": []
     },
     {
@@ -109,12 +103,6 @@
       "id": "2113015398585020841",
       "desk": "sports",
       "line": "Football reporter Fabrizio Romano posts a photo and quotes Kylian Mbappé on a possible El Clásico followed by the Ballon d'Or ceremony: \"Let's go for it.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2112965425164411132",
-      "desk": "gaming",
-      "line": "Film news account DiscussingFilm says a third Star Wars: Battlefront game is in the works, with Respawn and DICE developing it together. It cites a source by link. Not checked here.",
       "also": []
     },
     {
@@ -221,6 +209,12 @@
       "id": "2113437710065311970",
       "desk": "tech",
       "line": "Andrew Curran says Quest Diagnostics has been hacked and patient data exposed, and that the company serves roughly half of US hospitals and physicians. He says an investigation is ongoing. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113234655927271793",
+      "desk": "science",
+      "line": "Massimo, an account that shares science and history clips, says the IBM 7094 became the first computer to sing a song in 1961, \"Daisy Bell\". The post carries a 38-second video. Not checked here.",
       "also": []
     }
   ]
