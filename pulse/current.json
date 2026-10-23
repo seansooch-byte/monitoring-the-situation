@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T10:04:00Z",
-  "capture": "2026-10-23T0959Z",
+  "updated_at": "2026-10-23T11:40:00Z",
+  "capture": "2026-10-23T1107Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -153,6 +153,24 @@
       "id": "2113105441613840769",
       "desk": "internet",
       "line": "La-Ndlovu posts a joke: there should be an app where people upload their bills and bored billionaires swipe right to pay them.",
+      "also": []
+    },
+    {
+      "id": "2113455120692195588",
+      "desk": "sports",
+      "line": "The Athletic reports, citing unnamed sources, that Knicks assistant coaches did not get championship rings on banner night and that many longtime Garden employees will not get rings. It also says a September \"free ring\" email to staff was a phishing test. Story linked.",
+      "also": []
+    },
+    {
+      "id": "2113469919002067372",
+      "desk": "sports",
+      "line": "The NBA account posts that LeBron James had 17 points, 10 rebounds, 5 assists and 3 steals in his home debut in Philadelphia and says his team came back from 29 points down, the largest comeback of his 24-year career.",
+      "also": []
+    },
+    {
+      "id": "2113040026770485435",
+      "desk": "world",
+      "line": "Journalist Jim Sciutto says SpaceX investor Gerber Kawasaki told him he is \"disgusted\" by restrictions on Starlink in Ukraine and that they have given everyone a reason not to use Starlink. These are the investor's views, and the restrictions are not checked here.",
       "also": []
     }
   ]

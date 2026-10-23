@@ -1,0 +1,32 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-23-knicks-assistant-coaches-no-rings",
+  "title": "Report: Knicks assistant coaches got no championship rings on banner night",
+  "dek": "The Athletic reports that coaches and longtime Garden staff were left out of the ring ceremony, and that a September \"free ring\" email to staff was a phishing test. The team has not been quoted.",
+  "desks": ["sports"],
+  "standing": "developing",
+  "started_at": "2026-10-23T02:19:01Z",
+  "updated_at": "2026-10-23T11:30:00Z",
+  "what": [
+    "The Athletic reports, citing league and team sources who spoke without being named, that the New York Knicks' assistant coaches did not receive their championship rings at the ceremony before Tuesday's season opener against Philadelphia, though they were handed ring boxes. It says many longtime Madison Square Garden employees will not get rings at all.",
+    "The report says the assistants learned earlier on Tuesday they would not get rings that night, and that they had not yet been fitted. Coverage of it says their reactions ranged from annoyance to anger.",
+    "The Athletic also reports that in late September staff received an email saying \"Congratulations, your Employee Championship Ring is here\", with two ring designs to choose from. It was a phishing test. Those who clicked were enrolled in a mandatory cybersecurity class, according to the report. Outlets summarising it say the team presented the test as a response to security concerns of owner James Dolan.",
+    "I could not find a statement from the Knicks or Madison Square Garden. The anonymous sourcing, the date the assistants will get rings, and the reason for the staff decision are not confirmed. I read the report through secondary coverage and did not open the full Athletic article."
+  ],
+  "why": "The Knicks' first title in decades is a happy story, and a report that the owner left staff out and tricked them in the weeks before has set fans and other accounts against the owner. The posts that carry it mostly add opinion of Dolan.",
+  "worlds": [
+    { "name": "Fans angry at the owner", "sees": "A title night soured by an owner who is petty with the people who helped win it.", "post": "2113461788603830415" },
+    { "name": "News reporters", "sees": "A sourced story about who got rings and a phishing test, with no team response yet.", "post": "2113455120692195588" }
+  ],
+  "common": "Established only that The Athletic published these claims from anonymous sources and that secondary outlets repeat them. Not established: the team's reason, whether assistants and staff will get rings later, and any intent behind the phishing test. Fan posts call Dolan reviled or petty; that is opinion and not part of the record.",
+  "next": "A Knicks or MSG statement, and whether the assistants receive rings.",
+  "posts": [
+    { "id": "2113455120692195588", "role": "origin" },
+    { "id": "2113461788603830415", "role": "quote" },
+    { "id": "2113480358943408456", "role": "quote" }
+  ],
+  "sources": [
+    { "label": "Basketnews: Knicks' dream banner night takes awkward turn as coaches, employees left ringless", "url": "https://basketnews.com/news-257953-knicks-dream-banner-night-takes-awkward-turn-as-coaches-employees-left-ringless.html" },
+    { "label": "The Big Lead: Knicks tricked employees with championship ring phishing test", "url": "https://www.thebiglead.com/knicks-tricked-employees-with-championship-ring-phishing-test/" }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-22-trump-ordered-deposition-bbc-suit",
+  "title": "Judge orders Trump to sit for a deposition in his BBC lawsuit by December 11",
+  "dek": "A sitting president is told to answer the defendant's lawyers under oath. The order is public court news, and the BBC is both the party in the case and the account that broke it.",
+  "desks": ["justice", "politics"],
+  "standing": "established",
+  "started_at": "2026-10-22T16:33:58Z",
+  "updated_at": "2026-10-23T11:30:00Z",
+  "what": [
+    "On Thursday 22 October a federal magistrate judge in Miami, Enjolique Lett, ordered President Donald Trump to sit for a deposition in his defamation lawsuit against the BBC. PBS and NBC News report that it must happen by 11 December.",
+    "Trump sued in December 2025 for $10 billion. The suit says the BBC defamed him with a documentary, \"Trump: A Second Chance\", that joined parts of his 6 January 2021 speech. The BBC says Trump suffered no damages and that the programme did not air in the United States, according to NBC News.",
+    "Trump had agreed to be deposed on 16 October and then cancelled, citing a matter of national importance. BBC lawyer Charles Tobin told the court it was a political event, according to NBC News. Trump's lawyers had asked to move the deposition to late January. The judge refused, and ordered it to be videotaped over Trump's objection.",
+    "Reports say discovery closes on 18 December, and that the case could be dismissed if the deposition does not happen by the deadline unless the discovery period is extended. Trump's legal team said in a statement that the suit holds the BBC accountable for defamation and election interference. That is their claim, not a finding.",
+    "The judge also ruled that the BBC may seek information on whether the documentary affected Trump's Mar-a-Lago membership applications and fees, which the judge found relevant to the damages he claims.",
+    "I read this through news reports. I did not open the court order."
+  ],
+  "why": "A court order naming a date for a president to testify is rare, and the case is about how a broadcaster edited his words. The first alert came from the BBC's own news account, which is the defendant.",
+  "next": "Whether the deposition takes place by 11 December, or the discovery period is extended past 18 December.",
+  "posts": [
+    { "id": "2113307885937553437", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "PBS NewsHour: Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11", "url": "https://www.pbs.org/newshour/politics/judge-orders-trump-to-sit-for-a-deposition-in-his-defamation-lawsuit-against-the-bbc-by-dec-11" },
+    { "label": "NBC News: Judge orders Trump to sit for deposition in his $10 billion lawsuit against the BBC", "url": "https://www.nbcnews.com/politics/donald-trump/trump-sit-deposition-10-billion-defamation-lawsuit-bbc-jan-6-rcna605034" },
+    { "label": "Al Jazeera: Trump ordered to sit for deposition in BBC defamation lawsuit", "url": "https://www.aljazeera.com/news/2026/10/22/trump-ordered-to-sit-for-deposition-in-bbc-defamation-lawsuit" }
+  ]
+}

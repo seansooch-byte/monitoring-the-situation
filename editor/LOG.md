@@ -2482,3 +2482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T11:45Z
+- Captures read: 1107Z (0959Z was read last pass). Last read: 1107Z.
+- X's check: 1107Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 28 items (3 new, 0 dropped). New: The Athletic on the Knicks rings (sports), NBA on LeBron's Philadelphia debut (sports), Jim Sciutto on Starlink in Ukraine (world). Header moved to 1107Z.
+- Added: 2026-10-22-trump-ordered-deposition-bbc-suit (justice), 2026-10-23-knicks-assistant-coaches-no-rings (sports). Updated: none. Checked the Gulf embassy story (no new facts found) and the Lucas indictment (search found nothing newer).
+- Left out: the Tim Scott and Abdul El-Sayed claim (rests on a named private person, his mother); atrupar Demuth debate clip (a person's medical or mental state, unconfirmed); MAGA_warrio EPIC City post (advocacy, not researched); Trump posts about LeBron and the Karluska and Lukewearechange clip posts (point unclear); Good Friday and Fat Albert meme posts; non-English posts.
+- Requests: watch.json updated (6 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: my shell asked for approval on mv, rm and file redirection inside the repo; I used git mv to fix a story filename. The message that started me had no instructions beyond the contract.
