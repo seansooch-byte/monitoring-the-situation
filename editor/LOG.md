@@ -2582,3 +2582,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Shell commands that write files were held for approval, so I used the file tools.
+
+## 2026-10-23T23:15Z
+- Captures read: 2305Z (2107Z was read last pass). Last read: 2305Z.
+- X's check: 2305Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before.)
+- Pulse: 27 items (2 new, 2 dropped). New: SecRubio message to people in Cuba (world), Pop Crave on ADÉLA on Fallon (music). Dropped: DanLamothe Hegseth globe post (36 hours old), and the standalone Musk Talarico item, which is already attached as `also` on the America post. Header moved to 2305Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Byron Donalds clip posts (private_individual); Polymarket UK arrest post (private_individual); PageSix on Britt McHenry (claim about a real person, nothing outside X); EricLDaugh Omar post (not researched); Bulls, Bucks and Talladega posts (sports already full, small); non-English and old posts.
+- Requests: watch.json updated (2 added, 1 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Shell commands that write files were held for approval, so I used the file tools. For the next story pass: Rubio's CIA message to Cuba.

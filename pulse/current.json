@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T21:30:00Z",
-  "capture": "2026-10-23T2107Z",
+  "updated_at": "2026-10-23T23:15:00Z",
+  "capture": "2026-10-23T2305Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -21,12 +21,6 @@
       "id": "2113273779086364923",
       "desk": "politics",
       "line": "The Associated Press reports that Virginia state Sen. L. Louise Lucas is charged with drug trafficking and money laundering, citing the Justice Department. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113226701622681897",
-      "desk": "defense",
-      "line": "Reporter Dan Lamothe says in an exclusive that Pete Hegseth wanted Gen. Dwight Eisenhower's globe for his office and that Hegseth's staff broke it. He says he has photos. Not checked here.",
       "also": []
     },
     {
@@ -164,9 +158,15 @@
       "also": []
     },
     {
-      "id": "2113319277092642942",
-      "desk": "politics",
-      "line": "Elon Musk quotes the America account's video with the words \"Talarico hates Texas and America\". James Talarico is the Democratic nominee for US Senate in Texas. The post gives no reason beyond the quoted clip, which another story here checks.",
+      "id": "2113731069518434519",
+      "desk": "world",
+      "line": "The account of Secretary of State Marco Rubio posts a message addressed to people in Cuba. It says now is the time to seek change and invites them to a \"discrete partnership with the CIA\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113488881014476838",
+      "desk": "music",
+      "line": "Pop Crave posts a video of the singer ADÉLA performing \"Nicole Kidman\" on The Tonight Show Starring Jimmy Fallon.",
       "also": []
     }
   ]
