@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T14:20:00Z",
-  "capture": "2026-10-23T1401Z",
+  "updated_at": "2026-10-23T15:20:00Z",
+  "capture": "2026-10-23T1459Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -122,12 +122,6 @@
       "also": []
     },
     {
-      "id": "2113105441613840769",
-      "desk": "internet",
-      "line": "La-Ndlovu posts a joke: there should be an app where people upload their bills and bored billionaires swipe right to pay them.",
-      "also": []
-    },
-    {
       "id": "2113455120692195588",
       "desk": "sports",
       "line": "The Athletic reports, citing unnamed sources, that Knicks assistant coaches did not get championship rings on banner night and that many longtime Garden employees will not get rings. It also says a September \"free ring\" email to staff was a phishing test. Story linked.",
@@ -149,6 +143,18 @@
       "id": "2113300791146790915",
       "desk": "entertainment",
       "line": "The poster kalaelizabeth says a BioWare developer leaked a Mass Effect 5 trailer on Reddit, called \"MASS EFFECT UNIVERSE\". The post carries a 2-minute video. The leak is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113017110536597504",
+      "desk": "tech",
+      "line": "Kalshi, a prediction market, posts a \"JUST IN\" saying Mark Zuckerberg says Threads has surpassed X in monthly active users. The post gives no source for the remark. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113314032778383848",
+      "desk": "world",
+      "line": "AnkurSingh posts a video of India's Piyush Goyal answering an EU official on climate change. The post says Goyal told her India has 17% of the world's population and under 3% of cumulative CO2 emissions, and Europe 3% and 18%. Those figures are the poster's account. Not checked here.",
       "also": []
     }
   ]
