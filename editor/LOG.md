@@ -2472,3 +2472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added, 5 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T10:05Z
+- Captures read: 0959Z (0905Z was read last pass). Last read: 0959Z.
+- X's check: 0959Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 25 items (1 new, 0 dropped). New: La-Ndlovu joke about an app for billionaires paying bills (internet). Nothing aged out. Header moved to 0959Z. 0959Z mostly re-reads older posts.
+- Added: none. Updated: none (pulse pass).
+- Left out: FmrRepMTG Lindsey Graham post (unconfirmed claim about a named person's private life); atrupar Vance clip (someone collapsing, unidentified person's medical event); TGLetter PHP and security list (many unchecked claims, tech has places); America/LoneStar_PAC Voter ID clips (already covered); elonmusk posts (account placed or older than 36 hours, Grok Bot needs the xAI note); Rainmaker1973 seal clip (older than 36 hours); IndianTechGuide fans post (suicide); VigilantFox Caleb Hammer clip (private person, profanity); old_content, Red Friday and non-English posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

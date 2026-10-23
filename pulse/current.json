@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T09:12:00Z",
-  "capture": "2026-10-23T0905Z",
+  "updated_at": "2026-10-23T10:04:00Z",
+  "capture": "2026-10-23T0959Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -147,6 +147,12 @@
       "id": "2113511487079678184",
       "desk": "sports",
       "line": "Fabrizio Romano quotes Harry Kane on the Ballon d’Or. Kane says he would like to know the result now, that his family is nervous, and that he understands France Football wants to keep it quiet so all the stars can attend.",
+      "also": []
+    },
+    {
+      "id": "2113105441613840769",
+      "desk": "internet",
+      "line": "La-Ndlovu posts a joke: there should be an app where people upload their bills and bored billionaires swipe right to pay them.",
       "also": []
     }
   ]
