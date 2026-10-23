@@ -2462,3 +2462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (6 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T09:15Z
+- Captures read: 0905Z (0801Z was read last pass). Last read: 0905Z.
+- X's check: 0905Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 24 items (1 new, 4 dropped). New: Fabrizio Romano quoting Harry Kane on the Ballon d'Or (sports, replaces his older item). Dropped, at or past 36 hours: Kaitlan Collins Russian sanctions clip, DunderMifflinAS cold open, elonmusk Try Grok @Bot (with its Scobleizer also), Romano's earlier item. Header moved to 0905Z. Below the 25 floor because nothing else new was showable.
+- Added: none. Updated: none (pulse pass).
+- Left out: viotubing Ethan Klein cheating post and JakedChinatown Hila Klein post (unconfirmed claim about real people, personal matter); HormuzReport Kushner post (Vanity Fair item already covers it); realmadrid clip (point unclear); Trump Georgia and Iowa vote posts (advocacy); elonmusk Grok @Bot and Talarico posts (account already placed or would need the xAI note); EricLDaugh Omar post (advocacy, unchecked); old_content posts; non-English posts.
+- Requests: watch.json updated (1 added, 5 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

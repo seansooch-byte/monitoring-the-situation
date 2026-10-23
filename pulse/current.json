@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T08:07:50Z",
-  "capture": "2026-10-23T0801Z",
+  "updated_at": "2026-10-23T09:12:00Z",
+  "capture": "2026-10-23T0905Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -18,35 +18,9 @@
       ]
     },
     {
-      "id": "2113014734421422501",
-      "desk": "world",
-      "line": "CNN's Kaitlan Collins posts a clip and says President Trump is tying the waiving of Russian sanctions to the release of the freed American Stephen Hubbard, despite denying he gave anything to Putin. The clip has not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2113011737540641266",
-      "desk": "entertainment",
-      "line": "The account DunderMifflinAS posts a 2-minute clip it calls a banned Halloween cold open from The Office, and says it is not on Peacock or Netflix. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113010364178964616",
-      "desk": "ai",
-      "line": "Elon Musk posts \"Try Grok @Bot, you will love it!\" in a quote of tech writer Robert Scoble, who says he has been \"GrokBot pilled\" and that the bot can now read X lists. Musk owns xAI, which makes Grok, the model that gathers this page's posts. Not checked here.",
-      "also": [
-        "2112950764348014878"
-      ]
-    },
-    {
       "id": "2113061182265290843",
       "desk": "politics",
       "line": "James Talarico, the Democratic nominee for US Senate in Texas, says there is something deeply wrong with a political system that allows one trillionaire to buy his own personal US Senator. His post quotes another post. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113015398585020841",
-      "desk": "sports",
-      "line": "Football reporter Fabrizio Romano posts a photo and quotes Kylian Mbappé on a possible El Clásico followed by the Ballon d'Or ceremony: \"Let's go for it.\" Not checked here.",
       "also": []
     },
     {
@@ -167,6 +141,12 @@
       "id": "2113278038532096440",
       "desk": "entertainment",
       "line": "DiscussingFilm says Jack Lowden, Callum Turner and Josh O'Connor are among the actors in the mix to be the next James Bond and are doing final auditions. It credits Deadline. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113511487079678184",
+      "desk": "sports",
+      "line": "Fabrizio Romano quotes Harry Kane on the Ballon d’Or. Kane says he would like to know the result now, that his family is nervous, and that he understands France Football wants to keep it quiet so all the stars can attend.",
       "also": []
     }
   ]
