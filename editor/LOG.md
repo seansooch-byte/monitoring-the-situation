@@ -2452,3 +2452,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (5 added, 4 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: the media source of the America Voter ID clip (2091596080429342855) is not captured; a story pass may check what Talarico said. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T08:10Z
+- Captures read: 0801Z (0707Z was read last pass). Last read: 0801Z.
+- X's check: 0801Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 27 items (0 new, 6 dropped). Dropped, all at or past 36 hours: Marathon Fusion, Visegrad24, Variety, Tesla, Polymarket and State Dept spokesperson posts. Header moved to 0801Z. Nothing in 0801Z was both new and showable: it mostly re-reads older posts. World, business and science are thin now.
+- Added: none. Updated: none (pulse pass).
+- Left out: Trump Texas and Iowa vote posts (advocacy, politics full); elonmusk Talarico and Grok Bot posts (account already placed); Scobleizer and aslater Grok Bot posts (would need the xAI note, ai has places); krougee (private_individual); VehicleTracker8 (point unclear); non-English posts.
+- Requests: watch.json updated (6 removed); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

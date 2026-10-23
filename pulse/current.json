@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T07:13:34Z",
-  "capture": "2026-10-23T0707Z",
+  "updated_at": "2026-10-23T08:07:50Z",
+  "capture": "2026-10-23T0801Z",
   "items": [
     {
       "id": "2113342518943179172",
       "desk": "politics",
       "line": "Vanity Fair posts an excerpt from Matthew Cole's book. Cole writes that a source told him in 2020 that the Dutch government had hacked Jared Kushner's phone and watched him use a Dubai bank account holding hundreds of millions of dollars. These are claims in the excerpt. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113001073019662481",
-      "desk": "science",
-      "line": "Marathon Fusion, a fusion company, says it turned mercury into stable gold at ten times CERN's record rate and enriched isotopes in what it calls the most powerful plasma centrifuge. It says it is now building a fusion reactor in San Francisco. The post carries a video that was not checked here.",
       "also": []
     },
     {
@@ -24,29 +18,9 @@
       ]
     },
     {
-      "id": "2113004231502520761",
-      "desk": "world",
-      "line": "Visegrad24, a news-alert account, says El Salvador President Nayib Bukele announced a military operation in Haiti against gangs, to free four Salvadoran citizens it says were kidnapped. It says Bukele threatened to eradicate the gangs if the men are hurt. Not checked here.",
-      "also": [
-        "2113005352631615652"
-      ]
-    },
-    {
-      "id": "2112987282856607839",
-      "desk": "entertainment",
-      "line": "Variety reports that SNL cast member Kenan Thompson says Shane Gillis' monologue \"overshadowed\" the whole episode. Thompson says he does not know Gillis to be a mean person and would talk with him if he returned. Variety says he spoke at the Axios Media Trends Live summit.",
-      "also": []
-    },
-    {
       "id": "2113014734421422501",
       "desk": "world",
       "line": "CNN's Kaitlan Collins posts a clip and says President Trump is tying the waiving of Russian sanctions to the release of the freed American Stephen Hubbard, despite denying he gave anything to Putin. The clip has not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2112998455383847332",
-      "desk": "business",
-      "line": "Tesla posts its Q3 shareholder update. It lists as highlights that FSD Supervised is attached to over 75% of new vehicle deliveries in North America, that the next-gen Roadster was unveiled, and that the Semi is in volume production. Not checked here.",
       "also": []
     },
     {
@@ -74,14 +48,6 @@
       "desk": "sports",
       "line": "Football reporter Fabrizio Romano posts a photo and quotes Kylian Mbappé on a possible El Clásico followed by the Ballon d'Or ceremony: \"Let's go for it.\" Not checked here.",
       "also": []
-    },
-    {
-      "id": "2112988488379273237",
-      "desk": "world",
-      "line": "State Department spokesperson Tommy Pigott says a report of ordered departures across Gulf embassies is inaccurate: the order covers non-emergency staff and families in Saudi Arabia only, citing Houthi attacks. The report was by Timour Azhari. Not checked here.",
-      "also": [
-        "2112979236378321123"
-      ]
     },
     {
       "id": "2113054759070392523",
@@ -112,14 +78,6 @@
       "desk": "defense",
       "line": "Reporter Dan Lamothe says in an exclusive that Pete Hegseth wanted Gen. Dwight Eisenhower's globe for his office and that Hegseth's staff broke it. He says he has photos. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2112996634397409703",
-      "desk": "business",
-      "line": "Polymarket, a prediction-market account, says Airbnb has announced new rules banning hosts from requiring guests to wash dishes, do laundry, strip beds or take out garbage before checkout. WIRED reports hosts are upset about the policy. Not checked here.",
-      "also": [
-        "2113050256279535653"
-      ]
     },
     {
       "id": "2113109837382901905",
