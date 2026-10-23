@@ -2502,3 +2502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (3 added, 3 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-23T13:20Z
+- Captures read: 1303Z (1200Z was read last pass). Last read: 1303Z.
+- X's check: 1303Z 26 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2113570030965440995 (IVEstarship, Korean-language video post; the record has an extra "#ive" hashtag that X's text lacks). Not cited. (0403Z still shows 1 mismatched, 2113357723362263057, PiersUncensored, as logged before.)
+- Pulse: 25 items (1 new, 4 dropped). New: Adam Schefter on Marshall Faulk's Parkinson's diagnosis (sports). Elon Musk's quote of the America Voter ID post attached in `also`. Dropped, at or past 36 hours: Talarico trillionaire post, Enes Kanter WNBA post, Dov Kleiman Bengals post, SportsCenter LaMelo clip. Header moved to 1303Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Dexerto Hila Klein post (claim about a named person's private life, nothing outside X; Dexerto also already placed); viotubing and JakedChinatown Klein posts (same); Shams Porzingis post (older than 36 hours); elonmusk Grok Bot post (needs the xAI note); ROBERTALINDON post (accusation of a crime against a named person, nothing outside X); IVEstarship post (X mismatch); constitustionx Kid Rock post (unclear point); realmuckraker posts (flagged private_individual); old_content, Red Friday and non-English posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

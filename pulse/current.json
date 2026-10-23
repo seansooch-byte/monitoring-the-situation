@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T12:20:00Z",
-  "capture": "2026-10-23T1200Z",
+  "updated_at": "2026-10-23T13:20:00Z",
+  "capture": "2026-10-23T1303Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -18,21 +18,9 @@
       ]
     },
     {
-      "id": "2113061182265290843",
-      "desk": "politics",
-      "line": "James Talarico, the Democratic nominee for US Senate in Texas, says there is something deeply wrong with a political system that allows one trillionaire to buy his own personal US Senator. His post quotes another post. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113143887594475733",
       "desk": "internet",
       "line": "Streamer QTCinderella says people were late to her wedding and that it set the wedding back. She asks viewers to stop hating on someone on behalf of another streamer and says drama clippers have farmed it. The post does not name who she means.",
-      "also": []
-    },
-    {
-      "id": "2113074893688619285",
-      "desk": "sports",
-      "line": "Enes Kanter Freedom says he was kicked out of a WNBA game for the second time in a row, and says it was for supporting women. Not checked here.",
       "also": []
     },
     {
@@ -84,9 +72,9 @@
       "also": []
     },
     {
-      "id": "2113073482728665404",
+      "id": "2113438192913588676",
       "desk": "sports",
-      "line": "NFL reporter Dov Kleiman says the Bengals are under heavy criticism online for not greeting Vice President JD Vance, and that many Republicans are calling for the NFL to fine them. He says most of the team did not shake Vance's hand. Not checked here.",
+      "line": "NFL reporter Adam Schefter posts that Pro Football Hall of Fame running back Marshall Faulk, who coaches at Southern University, has been diagnosed with Parkinson's disease. He credits ESPN's story, headlined \"Faulk, Hall of Famer and Southern coach, reveals Parkinson's diagnosis.\"",
       "also": []
     },
     {
@@ -111,13 +99,9 @@
       "id": "2113317694367748316",
       "desk": "politics",
       "line": "The account America posts a video clip. It says Texas Democratic Senate nominee James Talarico says he hates Voter ID and calls it anti-American, and it says 84% of Americans support Voter ID. The clip and both claims were not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113066230370214038",
-      "desk": "sports",
-      "line": "SportsCenter posts a video with the caption \"That's a travel.\" and asks how many steps LaMelo took. The video was not checked here.",
-      "also": []
+      "also": [
+        "2113319277092642942"
+      ]
     },
     {
       "id": "2113137207389352120",
