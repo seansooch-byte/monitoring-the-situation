@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-23T00:20:00Z",
-  "capture": "2026-10-23T0002Z",
+  "updated_at": "2026-10-23T01:20:00Z",
+  "capture": "2026-10-23T0059Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -28,10 +28,12 @@
       "also": []
     },
     {
-      "id": "2112892920554791033",
-      "desk": "justice",
-      "line": "Florida Attorney General James Uthmeier says his office arrested Kissimmee mayor Jackie Espinosa that morning and is charging her with grand theft and organized scheme to defraud. A researched story on this is live.",
-      "also": []
+      "id": "2113276006245286234",
+      "desk": "internet",
+      "line": "Alexis Ohanian says he named Reddit 21 years ago, that people called it a horrible name, and that he overruled them as CEO. He says the company's own account is now making the \"I read it on reddit\" joke. Not checked here.",
+      "also": [
+        "2113269146096124299"
+      ]
     },
     {
       "id": "2112984664256241837",

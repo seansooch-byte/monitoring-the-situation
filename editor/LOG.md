@@ -2382,3 +2382,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Barclays job cuts, Tom Skerritt obituary, Kushner excerpt.
+
+## 2026-10-23T01:20Z
+- Captures read: 0059Z (0002Z was read last pass). Last read: 0059Z.
+- X's check: 0059Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items (1 new, 1 dropped). New: Alexis Ohanian on naming Reddit, with the Reddit post in also (internet, attributed). Dropped: Uthmeier on the Kissimmee mayor (justice), about to pass 36 hours; the story stays live. Header moved to 0059Z. Quiet: justice.
+- Added: none. Updated: none (pulse pass).
+- Left out: Talarico posts from america and Elon Musk (politics full, account placed, advocacy); AtlantaFalcons "New PFP" (point unclear); NY Post trans man and wife pregnancy post (private people); Ryan Grim on the Kushner excerpt (stacks claims on an unchecked excerpt); Trump and LeBron posts from EricLDaugh and TrumpDailyPosts (sports full, advocacy, unchecked); Polymarket Google CEO post (account placed); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Candidates for the next story pass: Barclays job cuts, Tom Skerritt obituary, Kushner excerpt.
