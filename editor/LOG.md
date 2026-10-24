@@ -2632,3 +2632,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T04:30Z
+- Captures read: 0400Z (0303Z was read last pass). Last read: 0400Z.
+- X's check: 0400Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before.)
+- Pulse: 26 items (5 new, 3 dropped). New: Romano on Kompany (sports), Avengers: Doomsday teaser (entertainment), Musk on Ukraine (world), NYC mayor ICE video (politics), Hindi banana-worm post (offbeat). Dropped: PopBase Getty and kalaelizabeth Mass Effect (past 36 hours), Romano Kane (same account as Kompany; kept the larger). Header moved to 0400Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Klein affair posts (personal matter, pile-on, a third party); TMZ Britt McHenry drink post (claim about a named person, nothing outside X, a fan is involved); Pop Crave James Charles (same account as the ADÉLA item); Kanekoa Talarico clip (politics already has Talarico); Polymarket 15-year-old arrest, Plomoterap30 crack video, Iwo Jima statue post (minor, private person or graphic); Grok Bot promotions (advertising); MTG on Lindsey Graham (unconfirmed allegation).
+- Requests: watch.json updated (5 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

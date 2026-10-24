@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T03:30:00Z",
-  "capture": "2026-10-24T0303Z",
+  "updated_at": "2026-10-24T04:30:00Z",
+  "capture": "2026-10-24T0400Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -10,9 +10,33 @@
       "also": []
     },
     {
-      "id": "2113292175727296561",
-      "desk": "business",
-      "line": "PopBase, an entertainment news account, says Getty Images has filed for bankruptcy amid mounting debt and competition from AI-generated images, and plans to restructure and become privately owned. Not checked here.",
+      "id": "2113656547834487022",
+      "desk": "sports",
+      "line": "Fabrizio Romano says Vincent Kompany was taken to a Munich hospital by ambulance after he collapsed after training today, citing BILD and Sky. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113798038586282014",
+      "desk": "entertainment",
+      "line": "DiscussingFilm posts a new teaser video for \"Avengers: Doomsday\" and says the film is in theaters on December 18.",
+      "also": []
+    },
+    {
+      "id": "2113677835244044748",
+      "desk": "world",
+      "line": "Elon Musk posts his view that Ukraine's elites have grown rich off the hundreds of billions flowing to the country while the people's children are conscripted to die in trenches. This is his opinion and claim. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113636993179513337",
+      "desk": "politics",
+      "line": "The account of New York City's mayor posts a 96-second video under the words \"If you encounter ICE, here's what every New Yorker should know.\" What the video says is not described in the capture and is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113498867543245258",
+      "desk": "offbeat",
+      "line": "In Hindi, Ajit Yadav says he had heard bananas do not get worms, shows what he says is a large worm coming out of one, and asks Grok whether bananas get worms. Grok, which gathers this page's posts, is made by xAI. The worm claim is not checked here.",
       "also": []
     },
     {
@@ -54,12 +78,6 @@
       ]
     },
     {
-      "id": "2113511487079678184",
-      "desk": "sports",
-      "line": "Fabrizio Romano quotes Harry Kane on the Ballon d’Or. Kane says he would like to know the result now, that his family is nervous, and that he understands France Football wants to keep it quiet so all the stars can attend.",
-      "also": []
-    },
-    {
       "id": "2113455120692195588",
       "desk": "sports",
       "line": "The Athletic reports, citing unnamed sources, that Knicks assistant coaches did not get championship rings on banner night and that many longtime Garden employees will not get rings. It also says a September \"free ring\" email to staff was a phishing test. Story linked.",
@@ -69,12 +87,6 @@
       "id": "2113469919002067372",
       "desk": "sports",
       "line": "The NBA account posts that LeBron James had 17 points, 10 rebounds, 5 assists and 3 steals in his home debut in Philadelphia and says his team came back from 29 points down, the largest comeback of his 24-year career.",
-      "also": []
-    },
-    {
-      "id": "2113300791146790915",
-      "desk": "entertainment",
-      "line": "The poster kalaelizabeth says a BioWare developer leaked a Mass Effect 5 trailer on Reddit, called \"MASS EFFECT UNIVERSE\". The post carries a 2-minute video. The leak is not checked here.",
       "also": []
     },
     {
