@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-22-getty-images-chapter-11",
+  "title": "Getty Images files for Chapter 11 with a plan to go private",
+  "dek": "The photo agency says it will keep operating while it cuts more than $500 million of debt. The Getty family and Koch Equity Development would own all of it afterward.",
+  "desks": ["business"],
+  "standing": "established",
+  "started_at": "2026-10-22T15:31:32Z",
+  "updated_at": "2026-10-24T02:30:00Z",
+  "what": [
+    "Getty Images Holdings and six U.S. subsidiaries filed voluntary Chapter 11 petitions in the U.S. Bankruptcy Court for the District of Delaware on Wednesday 21 October. The filing is a prepackaged plan: creditors were asked to back it before the case began.",
+    "Trade reporting on the filing puts Getty's funded debt at about $1.46 billion and says the plan removes more than $500 million of it. It says all existing shares would be cancelled and that Getty family affiliates and Koch Equity Development would own 100 percent of the reorganised company. The company would stop reporting to the SEC. A confirmation hearing is set for 14 December, and Getty expects to finish by the end of the year.",
+    "Getty says it will keep operating in the ordinary course, with no effect on contributors, partners, customers, employees or vendors. Its chief executive, Craig Peters, is quoted calling the filing a procedural step to carry out the restructuring announced earlier.",
+    "The filing follows the collapse of Getty's planned merger with Shutterstock. Reporting says that deal was ended on 7 July after the UK competition regulator wanted Shutterstock's editorial business sold. Coverage also names competition from AI-generated images as a pressure on the company. Getty is also reported to license its library to AI companies.",
+    "The sources I read disagree on the size of the new equity: one says up to $533 million, another says about $433 million. I give neither as settled."
+  ],
+  "why": "A well-known name in the images that fill news sites is going through bankruptcy, and it lands in the argument over what AI-made pictures do to the businesses that sell photographs.",
+  "next": "Voting on the plan closes on 30 November, according to trade reporting, and the court hearing is set for 14 December.",
+  "posts": [
+    { "id": "2113292175727296561", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "PPC Land: Getty Images files Chapter 11 to cut more than $500M of debt", "url": "https://ppc.land/getty-images-files-chapter-11-to-cut-more-than-500m-of-debt/" },
+    { "label": "GV Wire: Getty Images files for US bankruptcy, advances restructuring plan", "url": "https://gvwire.com/2026/10/21/getty-images-files-for-us-bankruptcy-advances-restructuring-plan/" }  ]
+}
