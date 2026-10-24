@@ -2722,3 +2722,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the three new pulse posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T14:20Z
+- Captures read: 1307Z, 1404Z (1204Z was the last logged; the 1307Z pulse refresh was committed without a log entry). Last read: 1404Z.
+- X's check: 1307Z 20 confirmed, 0 missing, 1 mismatched (2113354752935522420, KalendarNews, text differs after the first 70 characters), 0 withheld. 1404Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 31 items (1 new, 1 dropped). New: NASA on Artemis III and IV (science). Dropped: Mario Nawfal on von der Leyen (world), past 36 hours. Header moved to 1404Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ScottFriedman3 StubHub post (names a private family and their tickets); Fabrizio Romano on Aston Villa v Man City (account already holds a place); HalfwayPost Trump quote (unsourced); ethanclynne Vivek/Acton post (centres on abuse allegations); Elon Musk "Hitler" post (account already placed); AkademiksTV and SeeRacists posts (flagged private_individual); old_content posts.
+- Requests: swapped the dropped post for the NASA post in watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
