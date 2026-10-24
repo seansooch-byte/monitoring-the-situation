@@ -2772,3 +2772,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json swapped the dropped post for the three new ones; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: two scratch files, .tmp_s.mjs and .tmp_t.mjs, were left in the repo root by this pass because rm needed approval; please delete them. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T21:30Z
+- Captures read: 2103Z. Last read: 2103Z.
+- X's check: 2103Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 39 items (3 new, 0 dropped). New: Aaron Rupar video of an Obama remark (politics, not checked), Pythagorean Theorem Day post (internet, arithmetic checked, "last in our lifetime" not), a 13M-view "Who he play for" clip (sports, content not described). Nothing past 36 hours. Header moved to 2103Z.
+- Added: none. Updated: none. Searches for the UFC 333 result and a Kompany update returned only older items, so nothing could be confirmed outside X.
+- Left out: UFC 333 Yan v Dvalishvili posts (small, no source found yet); bigmonkeong movie post (film unclear from words); iswiminnachos (private_individual); more Musk posts (account already placed).
+- Requests: added the three new pulse posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: two scratch files, .tmp_s.mjs and .tmp_t.mjs, from an earlier pass may still be in the repo root if not removed (they were not found in this checkout). The message that started me had no instructions beyond the contract.

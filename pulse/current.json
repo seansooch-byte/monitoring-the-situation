@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T20:40:00Z",
-  "capture": "2026-10-24T2007Z",
+  "updated_at": "2026-10-24T21:30:00Z",
+  "capture": "2026-10-24T2103Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -213,6 +213,24 @@
       "id": "2113881313489080523",
       "desk": "internet",
       "line": "SauravDassss jokes that the rent on their house is about to go from 12 lakhs a month to 24 lakhs a month, with a countdown and crying-laughing emojis.",
+      "also": []
+    },
+    {
+      "id": "2114072550426681781",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a video of former President Obama saying of the White House, \"He's got the White House looking like Saddam Hussein opened up a Cheesecake Factory.\" What the remark refers to is not described in the capture and is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113982676436992413",
+      "desk": "internet",
+      "line": "Anomali210830 says today, 10/24/26, is Pythagorean Theorem Day because 10² + 24² = 26², and says it is the last such date in our lifetime. The arithmetic adds up (100 + 576 = 676); the claim about the last date is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113498434431025427",
+      "desk": "sports",
+      "line": "An account posts a video it calls the greatest \"Who he play for\" of all time and asks Chuck not to retire. The clip is not described in the capture and what it shows is not checked here.",
       "also": []
     }
   ]
