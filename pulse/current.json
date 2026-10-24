@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T04:30:00Z",
-  "capture": "2026-10-24T0400Z",
+  "updated_at": "2026-10-24T05:30:00Z",
+  "capture": "2026-10-24T0507Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -58,24 +58,10 @@
       "also": []
     },
     {
-      "id": "2113307885937553437",
-      "desk": "politics",
-      "line": "BBC Breaking reports that US President Donald Trump has been ordered to sit for a deposition by 11 December in his defamation case against the BBC. The post links to the BBC report. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113437710065311970",
       "desk": "tech",
       "line": "Andrew Curran says Quest Diagnostics has been hacked and patient data exposed, and that the company serves roughly half of US hospitals and physicians. He says an investigation is ongoing. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2113317694367748316",
-      "desk": "politics",
-      "line": "The account America posts a video clip. It says Texas Democratic Senate nominee James Talarico says he hates Voter ID and calls it anti-American, and it says 84% of Americans support Voter ID. The clip and both claims were not checked here.",
-      "also": [
-        "2113319277092642942"
-      ]
     },
     {
       "id": "2113455120692195588",
@@ -87,12 +73,6 @@
       "id": "2113469919002067372",
       "desk": "sports",
       "line": "The NBA account posts that LeBron James had 17 points, 10 rebounds, 5 assists and 3 steals in his home debut in Philadelphia and says his team came back from 29 points down, the largest comeback of his 24-year career.",
-      "also": []
-    },
-    {
-      "id": "2113314032778383848",
-      "desk": "world",
-      "line": "AnkurSingh posts a video of India's Piyush Goyal answering an EU official on climate change. The post says Goyal told her India has 17% of the world's population and under 3% of cumulative CO2 emissions, and Europe 3% and 18%. Those figures are the poster's account. Not checked here.",
       "also": []
     },
     {
@@ -163,6 +143,12 @@
       "id": "2113707043840250341",
       "desk": "entertainment",
       "line": "Glitch Productions says its series Gameoverse is greenlit for full production, with an 8-episode season beginning in May 2027. The post carries a video. The announcement was not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113842920633848033",
+      "desk": "gaming",
+      "line": "The official Japanese account for Zenless Zone Zero posts a combat trailer for Sunbringer, a new agent arriving in version 3.4. The post is in Japanese. It says a crossover with Honkai: Star Rail is coming soon.",
       "also": []
     }
   ]

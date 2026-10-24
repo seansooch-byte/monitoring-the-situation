@@ -2642,3 +2642,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (5 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T05:30Z
+- Captures read: 0507Z (0400Z was read last pass). Last read: 0507Z.
+- X's check: 0507Z 29 confirmed, 0 missing, 0 mismatched, 1 withheld (1981776184561303645, theestallion, old_content, not on the pulse). (Earlier mismatches still show as logged before.)
+- Pulse: 24 items (1 new, 3 dropped). New: ZZZ_JP Sunbringer trailer (gaming, in Japanese). Dropped, past 36 hours: BBCBreaking (politics), AnkurSingh (world), america Talarico voter ID clip (politics). Header moved to 0507Z. Below the 25 floor because nothing else new was allowed and in window.
+- Added: none. Updated: none (pulse pass).
+- Left out: ChaosCrave_ Last of Us Part III "confirmed" (aggregator claim, nothing outside X); NoaDalzell Tatum clip (video undescribed, sports already full); HormuzLetter Kushner post (copy of the Vanity Fair item); hinduvision1 and miaaowing clips (point unclear); MrJohnJr21 Trump exchange (video undescribed); evanahh_ toy post (point unclear); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
