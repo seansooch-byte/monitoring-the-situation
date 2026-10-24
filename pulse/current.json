@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T15:10:46Z",
-  "capture": "2026-10-24T1505Z",
+  "updated_at": "2026-10-24T16:35:00Z",
+  "capture": "2026-10-24T1604Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -205,6 +205,11 @@
       "id": "2113999333431599119",
       "desk": "music",
       "line": "The Taylor Swift fan account taylornation13 marks #20YearsOfTaylorSwift with a message about the music, memories and eras fans grew up with."
+    },
+    {
+      "id": "2113697877298188733",
+      "desk": "life",
+      "line": "Technovangelist calls a new Airbnb policy \"bonkers\" and argues hosts should be allowed to ask guests to do things like load the dishwasher, take out the trash and strip the beds. The post does not describe the policy itself. Not checked here."
     }
   ]
 }

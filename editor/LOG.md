@@ -2742,3 +2742,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: swapped dropped posts for the five new ones in watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T16:40Z
+- Captures read: 1604Z. Last read: 1604Z.
+- X's check: 1604Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 35 items (1 new, 0 dropped). New: Technovangelist on an Airbnb host policy (life, not checked). Header moved to 1604Z.
+- Added: 2026-10-23-openai-dns-escape-training-resumed (ai, developing; the restart and red-team findings rest on OpenAI's own post). Updated: none (searched for Kompany news, found nothing newer than the story).
+- Left out: Hegseth Confucius Institutes post (could not confirm a designation, only a separate audit order for 30 institutions); World Series Game 1 (search results conflicted, not updated); UFC 333 Vagaev v Malkoun result (small); Peter Obi video (political claim, one side, unchecked); Talarico clips and more Musk posts (account already placed); Scott Friedman StubHub post (names a family's ticket case).
+- Requests: added the Airbnb and OpenAI posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
