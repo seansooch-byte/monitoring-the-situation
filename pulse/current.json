@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T17:35:00Z",
-  "capture": "2026-10-24T1700Z",
+  "updated_at": "2026-10-24T18:30:00Z",
+  "capture": "2026-10-24T1807Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -25,12 +25,6 @@
       "id": "2113636993179513337",
       "desk": "politics",
       "line": "The account of New York City's mayor posts a 96-second video under the words \"If you encounter ICE, here's what every New Yorker should know.\" What the video says is not described in the capture and is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113498867543245258",
-      "desk": "offbeat",
-      "line": "In Hindi, Ajit Yadav says he had heard bananas do not get worms, shows what he says is a large worm coming out of one, and asks Grok whether bananas get worms. Grok, which gathers this page's posts, is made by xAI. The worm claim is not checked here.",
       "also": []
     },
     {
@@ -108,14 +102,6 @@
       "desk": "world",
       "line": "AP reports that First lady Melania Trump helped broker a ceasefire in Russian-occupied Oleshky for humanitarian aid and evacuations, citing the White House. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2113498434431025427",
-      "desk": "sports",
-      "line": "ohnohedidnt24 calls a TV segment in which \"Chuck\" plays \"Who He Play For\" the greatest one of all time. Sam Vecenie says he was crying with laughter by the end. The video is not described in the capture.",
-      "also": [
-        "2113515750141141383"
-      ]
     },
     {
       "id": "2113849766861767034",
@@ -198,6 +184,12 @@
       "id": "2113697877298188733",
       "desk": "life",
       "line": "Technovangelist calls a new Airbnb policy \"bonkers\" and argues hosts should be allowed to ask guests to do things like load the dishwasher, take out the trash and strip the beds. The post does not describe the policy itself. Not checked here."
+    },
+    {
+      "id": "2114049584569737356",
+      "desk": "sports",
+      "line": "ESPN posts a video of Miami's Malachi Toney, which it says shows him taking a play 53 yards for a touchdown.",
+      "also": []
     }
   ]
 }
