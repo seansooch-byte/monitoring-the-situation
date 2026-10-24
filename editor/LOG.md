@@ -2692,3 +2692,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T10:30Z
+- Captures read: 1003Z (0905Z was read last pass). Last read: 1003Z.
+- X's check: 1003Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 28 items (0 new, 1 dropped). Dropped: AnthropicAI on the Theorem Labs proofs (ai), past 36 hours (written 2026-10-23T22:01Z). Header moved to 1003Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: WinsLFC Manchester City deduction post (sweeping claim with no source in the post); SauravDassss rent joke (nothing to say); Mayu Iwatani Marigold posts (small); spoiltkid Tinubu clip (video undescribed, quote unchecked); Elon Musk "Beautiful", "Cool" and "True" posts (account already holds a place); fforcejs 2113610780490997947 (flagged private_individual); old_content posts.
+- Requests: none changed.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
