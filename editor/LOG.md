@@ -2662,3 +2662,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (4 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T07:30Z
+- Captures read: 0704Z (0602Z was read last pass). Last read: 0704Z.
+- X's check: 0704Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before.)
+- Pulse: 25 items (1 new, 1 dropped). New: SportsCenter on the Amen Thompson block of Wembanyama (sports). Dropped, past 36 hours: ShiinaBR Epic AI MegaJam (gaming). Header moved to 0704Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: TheHoopCentral block clip (copy of the SportsCenter item); ManCity "best ever start" video (video undescribed, manager not named in the post); MarioNawfal rifle-throw clip (video undescribed, origin unknown); Mandy Patinkin El-Sayed post (campaign appeal); BulwarkClips, factpostnews and EcEssie posts (flagged private_individual); gwayupdates MCR clips (small, nothing to say beyond the caption); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
