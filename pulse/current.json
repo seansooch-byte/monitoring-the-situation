@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T12:30:00Z",
-  "capture": "2026-10-24T1204Z",
+  "updated_at": "2026-10-24T13:20:00Z",
+  "capture": "2026-10-24T1307Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -31,18 +31,6 @@
       "id": "2113498867543245258",
       "desk": "offbeat",
       "line": "In Hindi, Ajit Yadav says he had heard bananas do not get worms, shows what he says is a large worm coming out of one, and asks Grok whether bananas get worms. Grok, which gathers this page's posts, is made by xAI. The worm claim is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113438192913588676",
-      "desk": "sports",
-      "line": "NFL reporter Adam Schefter posts that Pro Football Hall of Fame running back Marshall Faulk, who coaches at Southern University, has been diagnosed with Parkinson's disease. He credits ESPN's story, headlined \"Faulk, Hall of Famer and Southern coach, reveals Parkinson's diagnosis.\"",
-      "also": []
-    },
-    {
-      "id": "2113437710065311970",
-      "desk": "tech",
-      "line": "Andrew Curran says Quest Diagnostics has been hacked and patient data exposed, and that the company serves roughly half of US hospitals and physicians. He says an investigation is ongoing. Not checked here.",
       "also": []
     },
     {
@@ -194,6 +182,16 @@
       "desk": "gaming",
       "line": "The Xbox account posts the launch trailer for Grand Theft Auto VI and says the game arrives on Xbox Series X|S on November 19. It names the trailer's music as \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard.",
       "also": []
+    },
+    {
+      "id": "2113750562042769432",
+      "desk": "gaming",
+      "line": "Pirat_Nation reports that Epic Games CEO Tim Sweeney is again criticizing Valve over Steam's rule that developers disclose their use of generative AI, and says he called it \"abhorrent\". Not checked here."
+    },
+    {
+      "id": "2113373777597997295",
+      "desk": "world",
+      "line": "Mario Nawfal says European Commission President Ursula von der Leyen has said Russia is using mass migration as a weapon against Europe and wants new emergency powers. The post adds its own commentary. The clip is not described and the quote was not checked here."
     }
   ]
 }
