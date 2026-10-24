@@ -2712,3 +2712,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the Eberl post to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: web search returned weak results for the Oleshky and Lucas stories, so those were not updated. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T12:30Z
+- Captures read: 1204Z (1105Z was read last pass). Last read: 1204Z.
+- X's check: 1204Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 31 items (3 new, 0 dropped). New: VoicesofWW2 on a WWII double agent (defense, line says not checked), LeadingReport on a reported Musk stake in the parent of CNN and CBS News (business, not checked), XBOX GTA VI launch trailer (gaming). Nothing past 36 hours. Header moved to 1204Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Talarico/voter ID posts and other big Musk posts (past 36 hours, or account already placed); Guehi posts (small); Hasan Piker/H3H3 gossip, Babylon Bee satire headline, mark_slapinski allegation post (insult- or unchecked-claim-driven); Fox News Ilhan Omar and PpollingNumbers donation posts (politics already has three items); 75secondes (flagged private_individual); #AlconMustStopPPGCollab posts (tiny, campaign); YouManiac fan posts (small); old_content posts.
+- Requests: added the three new pulse posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

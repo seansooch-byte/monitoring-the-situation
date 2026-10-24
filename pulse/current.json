@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T11:30:00Z",
-  "capture": "2026-10-24T1105Z",
+  "updated_at": "2026-10-24T12:30:00Z",
+  "capture": "2026-10-24T1204Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -175,6 +175,24 @@
       "id": "2113474211968659757",
       "desk": "entertainment",
       "line": "Perp338 posts a clip and a transcript of Emma Watson on the Jay Shetty podcast, answering J.K. Rowling saying she will never forgive the Harry Potter cast. The post says Watson says she can keep loving Rowling while disagreeing with her. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113796755837866482",
+      "desk": "defense",
+      "line": "VoicesofWW2 tells of a Spaniard who, it says, offered in 1941 to spy on the Nazis for the British embassy in Madrid, was turned down, then posed as a loyal fascist, was hired as a German spy, and planned to lie to the Germans for the rest of the war. The history is the post's account. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113675605451456873",
+      "desk": "business",
+      "line": "LeadingReport says Elon Musk reportedly invested $1 billion in the parent company of CNN and CBS News and now holds a stake in both networks. The post names no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113756498861944954",
+      "desk": "gaming",
+      "line": "The Xbox account posts the launch trailer for Grand Theft Auto VI and says the game arrives on Xbox Series X|S on November 19. It names the trailer's music as \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard.",
       "also": []
     }
   ]
