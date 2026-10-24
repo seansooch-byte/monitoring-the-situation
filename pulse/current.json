@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T21:30:00Z",
-  "capture": "2026-10-24T2103Z",
+  "updated_at": "2026-10-24T22:20:00Z",
+  "capture": "2026-10-24T2159Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -231,6 +231,18 @@
       "id": "2113498434431025427",
       "desk": "sports",
       "line": "An account posts a video it calls the greatest \"Who he play for\" of all time and asks Chuck not to retire. The clip is not described in the capture and what it shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114083967238275298",
+      "desk": "sports",
+      "line": "SportsCenter posts a video of crowds in Cincinnati and says the Bearcats beat No. 8 Texas Tech, its first regular season loss in over a year. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114101812676411873",
+      "desk": "sports",
+      "line": "The UFC on Paramount+ account posts a clip and says Alexander Volkanovski remains featherweight champion at UFC 333. The card was scheduled for today; I found no report of the result outside X. Not checked here.",
       "also": []
     }
   ]

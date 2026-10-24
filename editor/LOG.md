@@ -2782,3 +2782,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the three new pulse posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: two scratch files, .tmp_s.mjs and .tmp_t.mjs, from an earlier pass may still be in the repo root if not removed (they were not found in this checkout). The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T22:20Z
+- Captures read: 2159Z. Last read: 2159Z.
+- X's check: 2159Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 41 items (2 new, 0 dropped). New: SportsCenter on Cincinnati beating No. 8 Texas Tech, UFC on Paramount+ on Volkanovski at UFC 333 (both sports, not checked). Header moved to 2159Z.
+- Added: none. Updated: none. Searches for the UFC 333 result and the Cincinnati game found only older or pre-event items, so nothing could be confirmed outside X.
+- Left out: Talarico posts (story 2026-10-22-talarico-voter-id-clip already live; Musk account already placed); Michigan Senate clips (El-Sayed, Rogers, Obama: partisan, no source found); trpcharles (private_individual); Cover Corp notice (Japanese, point not worked out); old_content posts.
+- Requests: added the two new pulse posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
