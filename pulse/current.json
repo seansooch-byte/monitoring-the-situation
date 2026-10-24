@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T00:30:00Z",
-  "capture": "2026-10-24T0000Z",
+  "updated_at": "2026-10-24T01:30:00Z",
+  "capture": "2026-10-24T0103Z",
   "items": [
     {
       "id": "2113342518943179172",
@@ -39,12 +39,6 @@
       "id": "2113342658584424823",
       "desk": "entertainment",
       "line": "The Hollywood Reporter reports that actor Tom Skerritt, a star of \"Picket Fences\" and \"Alien\", has died at 93. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113251043173683683",
-      "desk": "ai",
-      "line": "Madison Mills, a reporter, posts an Axios scoop saying major US banks are detecting unauthorized third-party AI agents inside customer accounts. Axios says it is told this by unnamed bank and industry executives. Not checked here.",
       "also": []
     },
     {
@@ -118,10 +112,12 @@
       ]
     },
     {
-      "id": "2113664679952482591",
+      "id": "2113634423652450356",
       "desk": "world",
-      "line": "NOELreports reports that Valery Gerasimov, chief of the Russian General Staff, says a local ceasefire around Oleshky will begin at 04:00 on 27 October. The White House statement gives 29 October; the dates do not match.",
-      "also": []
+      "line": "Fox News reports that Melania Trump announces a local ceasefire at Oleshky, Ukraine, and that her office says Russia and Ukraine agreed to halt operations there. NOELreports says Gerasimov gives a start of 27 October and a White House statement 29 October. Not checked here.",
+      "also": [
+        "2113664679952482591"
+      ]
     },
     {
       "id": "2113616429257765174",
