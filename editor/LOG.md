@@ -2612,3 +2612,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added, 1 removed); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Shell commands that write files were held for approval, so I used the file tools.
+
+## 2026-10-24T02:30Z
+- Captures read: 0200Z (0103Z was read last pass). Last read: 0200Z.
+- X's check: 0200Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before.)
+- Pulse: 27 items, none new, none dropped (nothing large and allowed was new; all items inside 36 hours). Header moved to 0200Z.
+- Added: 2026-10-22-getty-images-chapter-11 (business). Updated: 2026-10-23-oleshky-ceasefire-melania-trump (Ukraine confirms 27 October start; correction added).
+- Left out: Quest Diagnostics hack (I could not find a source outside X for a 2026 breach, only the 2019 one); Rubio message to Cuba, OpenAI containment account, Paris demonstrations, Kushner/Vanity Fair excerpt (not researched this pass); Tatum/Knicks, WWE tag title and Mikal Bridges posts (small).
+- Requests: watch.json and open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Getty sources disagree on new equity ($533M vs $433M); the story gives neither.
