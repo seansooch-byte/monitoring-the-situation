@@ -2752,3 +2752,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the Airbnb and OpenAI posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T19:30Z
+- Captures read: 1700Z, 1807Z, 1907Z. Last read: 1907Z.
+- X's check: 1907Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. 1807Z 30 confirmed, 0 missing, 0 mismatched. 1700Z 27 confirmed, 1 mismatched (IVEstarship post 2113570030965440995, not on the pulse). (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 34 items (2 new, 0 dropped). New: SpaceX Starlink launch (tech, which had no item), LucAuffret Paris demonstration video (world, French, not checked). Header moved to 1907Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Caleb Williams fine (sports already full); more Fabrizio Romano and Musk posts (account already placed); Ray J, Scarlett and other private_individual posts; ScottFriedman3 StubHub post (names a family's ticket case); Fortnite, Tyrese and JoshNorris posts (point unclear from words).
+- Requests: added the two new posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

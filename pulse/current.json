@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T18:30:00Z",
-  "capture": "2026-10-24T1807Z",
+  "updated_at": "2026-10-24T19:30:00Z",
+  "capture": "2026-10-24T1907Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -189,6 +189,18 @@
       "id": "2114049584569737356",
       "desk": "sports",
       "line": "ESPN posts a video of Miami's Malachi Toney, which it says shows him taking a play 53 yards for a touchdown.",
+      "also": []
+    },
+    {
+      "id": "2113786051009696177",
+      "desk": "tech",
+      "line": "SpaceX says a Falcon 9 launched 27 Starlink satellites from California.",
+      "also": []
+    },
+    {
+      "id": "2113992264313675877",
+      "desk": "world",
+      "line": "Luc Auffret posts a 22-second video he calls impressive images of a demonstration in Paris. The post is in French and does not say what the protest is about. Not checked here.",
       "also": []
     }
   ]
