@@ -2652,3 +2652,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T06:30Z
+- Captures read: 0602Z (0507Z was read last pass). Last read: 0602Z.
+- X's check: 0602Z 25 confirmed, 1 missing (2113852731610009952, SandiSheinyvtq, a Scarlet Heart Thailand campaign post, not on the pulse), 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before.)
+- Pulse: 25 items (4 new, 3 dropped). New: Seung Min Kim on the Alaska Senate certification suit (politics), AP on the Oleshky ceasefire (world), the "Who He Play For" TV segment with Vecenie attached (sports), Epic AI MegaJam (gaming). Dropped, past 36 hours: Vanity Fair (politics), unusual_whales (markets), THR (entertainment). Markets now has no item. Header moved to 0602Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Talarico and Grok Bot posts (claim about a public figure with nothing outside X; advertising); Ethan Klein posts (personal matter, pile-on); Korean mosque posts (point at a religion); MLB Avengers preview (promotion); Tom Skerritt obituary (35 hours old); yoshi_life flat tour (private home); NFL handoff clip (undescribed); Weiss and Hormuz Kushner posts (same claim as the Vanity Fair item); old_content posts.
+- Requests: watch.json updated (4 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

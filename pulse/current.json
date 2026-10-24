@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T05:30:00Z",
-  "capture": "2026-10-24T0507Z",
+  "updated_at": "2026-10-24T06:30:00Z",
+  "capture": "2026-10-24T0602Z",
   "items": [
-    {
-      "id": "2113342518943179172",
-      "desk": "politics",
-      "line": "Vanity Fair posts an excerpt from Matthew Cole's book. Cole writes that a source told him in 2020 that the Dutch government had hacked Jared Kushner's phone and watched him use a Dubai bank account holding hundreds of millions of dollars. These are claims in the excerpt. Not checked here.",
-      "also": []
-    },
     {
       "id": "2113656547834487022",
       "desk": "sports",
@@ -37,18 +31,6 @@
       "id": "2113498867543245258",
       "desk": "offbeat",
       "line": "In Hindi, Ajit Yadav says he had heard bananas do not get worms, shows what he says is a large worm coming out of one, and asks Grok whether bananas get worms. Grok, which gathers this page's posts, is made by xAI. The worm claim is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113327776027852930",
-      "desk": "markets",
-      "line": "The account unusual_whales says the stock with the ticker $MRNA is down 24% today to $187 and describes options-market price levels it calls support and resistance. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113342658584424823",
-      "desk": "entertainment",
-      "line": "The Hollywood Reporter reports that actor Tom Skerritt, a star of \"Picket Fences\" and \"Alien\", has died at 93. Not checked here.",
       "also": []
     },
     {
@@ -149,6 +131,32 @@
       "id": "2113842920633848033",
       "desk": "gaming",
       "line": "The official Japanese account for Zenless Zone Zero posts a combat trailer for Sunbringer, a new agent arriving in version 3.4. The post is in Japanese. It says a crossover with Honkai: Star Rail is coming soon.",
+      "also": []
+    },
+    {
+      "id": "2113643543868633098",
+      "desk": "politics",
+      "line": "Seung Min Kim posts an AP report that the Trump administration is suing to block certification of the Alaska Senate race if Republican Sen. Dan Sullivan loses, citing confusion because another candidate shares his name. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113632344376562077",
+      "desk": "world",
+      "line": "AP reports that First lady Melania Trump helped broker a ceasefire in Russian-occupied Oleshky for humanitarian aid and evacuations, citing the White House. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113498434431025427",
+      "desk": "sports",
+      "line": "ohnohedidnt24 calls a TV segment in which \"Chuck\" plays \"Who He Play For\" the greatest one of all time. Sam Vecenie says he was crying with laughter by the end. The video is not described in the capture.",
+      "also": [
+        "2113515750141141383"
+      ]
+    },
+    {
+      "id": "2113350150215078008",
+      "desk": "gaming",
+      "line": "ShiinaBR says Epic Games has announced the \"Epic AI MegaJam 2026\", in which teams of up to four humans and unlimited AI agents make a game over four days, with cash prizes for the best teams. Not checked here.",
       "also": []
     }
   ]
