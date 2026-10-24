@@ -2682,3 +2682,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (2 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T09:30Z
+- Captures read: 0905Z (0804Z was read last pass). Last read: 0905Z.
+- X's check: 0905Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 29 items (2 new, 0 dropped). New: MLB on World Series Game 1 (sports), Hegseth's account on Confucius Institutes (politics, line says not checked). Nothing past 36 hours. Header moved to 0905Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA Amen Thompson post (the build holds one NBA post off the front already; SportsCenter item stays); Romano Rodri and Arteta posts and the OpenAI vulnerability post (account already placed); Neutral_OC (flagged private_individual); BrutalPulse hug clip (video undescribed); Obama governors post (campaign appeal); zundamotisuki (point at race); TrumpGirlLove Howard Hughes, FearedBuck Rock, Kovanartz, sosclabab, Ms_Addison267 and Vinod_r108 posts (unchecked claims or unclear point); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

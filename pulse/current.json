@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T08:30:00Z",
-  "capture": "2026-10-24T0804Z",
+  "updated_at": "2026-10-24T09:30:00Z",
+  "capture": "2026-10-24T0905Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -157,6 +157,18 @@
       "id": "2113849766861767034",
       "desk": "sports",
       "line": "SportsCenter posts a video and says 6'7\" Amen Thompson blocks 7'4\" Wemby at the rim for the win.",
+      "also": []
+    },
+    {
+      "id": "2113834492704043070",
+      "desk": "sports",
+      "line": "MLB posts that Game 1 of the World Series goes to the Brewers. A photo caption gives the final score as Rays 2, Brewers 3, with Milwaukee leading the series 1-0.",
+      "also": []
+    },
+    {
+      "id": "2113746559527727121",
+      "desk": "politics",
+      "line": "The account of Secretary of War Pete Hegseth posts that the War Department has designated Confucius Institutes as a threat to national security. Not checked here.",
       "also": []
     },
     {
