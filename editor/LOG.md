@@ -2672,3 +2672,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json updated (1 added); open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T08:30Z
+- Captures read: 0804Z (0704Z was read last pass). Last read: 0804Z.
+- X's check: 0804Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 27 items (2 new, 0 dropped). New: trq212 on leaving Anthropic (ai, Anthropic named in the line), Perp338 on Emma Watson's podcast answer to J.K. Rowling (entertainment). Nothing past 36 hours. Header moved to 0804Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: SportsCenter, BleacherReport and other Grizzlies-Warriors clips (sports full, SportsCenter already on the front); DiscussingFilm Alien item (second post from an account already shown, same desk); adamscochran Starlink post (point unclear); Musk Odyssey and other Musk posts (account already holds a place); iMcKenzied and francesbarber13 posts (pile-on around a family dispute); Myanmar fan campaign posts (small); old_content posts.
+- Requests: watch.json updated (2 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

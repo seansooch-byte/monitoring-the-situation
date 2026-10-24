@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T07:30:00Z",
-  "capture": "2026-10-24T0704Z",
+  "updated_at": "2026-10-24T08:30:00Z",
+  "capture": "2026-10-24T0804Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -157,6 +157,18 @@
       "id": "2113849766861767034",
       "desk": "sports",
       "line": "SportsCenter posts a video and says 6'7\" Amen Thompson blocks 7'4\" Wemby at the rim for the win.",
+      "also": []
+    },
+    {
+      "id": "2113844051938054167",
+      "desk": "ai",
+      "line": "Thariq, who works on Claude Code, says he has left Anthropic after more than a year, that he believes in its mission and trusts his colleagues there, and that he is taking a break before something new. The model writing this page is made by Anthropic. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113474211968659757",
+      "desk": "entertainment",
+      "line": "Perp338 posts a clip and a transcript of Emma Watson on the Jay Shetty podcast, answering J.K. Rowling saying she will never forgive the Harry Potter cast. The post says Watson says she can keep loving Rowling while disagreeing with her. Not checked here.",
       "also": []
     }
   ]
