@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T14:20:00Z",
-  "capture": "2026-10-24T1404Z",
+  "updated_at": "2026-10-24T15:10:46Z",
+  "capture": "2026-10-24T1505Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -31,18 +31,6 @@
       "id": "2113498867543245258",
       "desk": "offbeat",
       "line": "In Hindi, Ajit Yadav says he had heard bananas do not get worms, shows what he says is a large worm coming out of one, and asks Grok whether bananas get worms. Grok, which gathers this page's posts, is made by xAI. The worm claim is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113455120692195588",
-      "desk": "sports",
-      "line": "The Athletic reports, citing unnamed sources, that Knicks assistant coaches did not get championship rings on banner night and that many longtime Garden employees will not get rings. It also says a September \"free ring\" email to staff was a phishing test. Story linked.",
-      "also": []
-    },
-    {
-      "id": "2113469919002067372",
-      "desk": "sports",
-      "line": "The NBA account posts that LeBron James had 17 points, 10 rebounds, 5 assists and 3 steals in his home debut in Philadelphia and says his team came back from 29 points down, the largest comeback of his 24-year career.",
       "also": []
     },
     {
@@ -192,6 +180,31 @@
       "id": "2113776971603689874",
       "desk": "science",
       "line": "NASA says its Artemis III mission will send four astronauts to low Earth orbit next year to test systems needed for future lunar landings, and that it is speeding up work on Artemis IV. Not checked here."
+    },
+    {
+      "id": "2113882115104296989",
+      "desk": "world",
+      "line": "Rupert Lowe, a UK politician from the Restore Britain party, says the Telegraph has reported that Israel's prime minister ordered support for Argentina over the Falkland Islands, and argues Britain owes Israel no unconditional support. The Telegraph report has not been checked here."
+    },
+    {
+      "id": "2113840606393073808",
+      "desk": "world",
+      "line": "AF Post says the \"Eagle's Nest\" retreat in Bavaria has burned, that German police have detained a suspect in a possible arson, and that no injuries are reported. Not checked here."
+    },
+    {
+      "id": "2113839042479689769",
+      "desk": "sports",
+      "line": "Brandi Kruse says she was forcefully removed by stadium security from a Thorns FC game for wearing a t-shirt from xx_xyathletics, and that fans assaulted her group. She posts a 34-second video. Not checked here; the club has not been heard."
+    },
+    {
+      "id": "2113861020590710934",
+      "desk": "offbeat",
+      "line": "urfavedreaa says the next day is the last \"Pythagorean theorem day\" anyone alive will get, and that there have only been 12 of them. The claim is the poster's. Not checked here."
+    },
+    {
+      "id": "2113999333431599119",
+      "desk": "music",
+      "line": "The Taylor Swift fan account taylornation13 marks #20YearsOfTaylorSwift with a message about the music, memories and eras fans grew up with."
     }
   ]
 }

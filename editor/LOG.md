@@ -2732,3 +2732,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: swapped the dropped post for the NASA post in watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T15:30Z
+- Captures read: 1505Z. Last read: 1505Z.
+- X's check: 1505Z 23 confirmed, 0 missing, 1 mismatched (2113612097418658049, ITZYofficial, not on the pulse), 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 34 items (5 new, 2 dropped). New: Rupert Lowe on a reported Telegraph story about Israel and the Falklands (world, not checked), AFpost on the Eagle's Nest fire (world, not checked), Brandi Kruse on removal from a Thorns game (sports, one side only), a Pythagorean theorem day post (offbeat), taylornation13 on 20 years of Taylor Swift (music). Dropped: The Athletic and NBA posts, past 36 hours. Header moved to 1505Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Talarico/voter ID and other big Musk posts (past 36 hours); Mel Gibson/Ellen DeGeneres post (accusation about real people, unchecked); Laken Riley smartwatch post (names a crime victim, unchecked claim); lesbianlotuss and viewsceo posts (flagged private_individual); more Fabrizio Romano posts (account already holds a place); Schefter NFL Paris post (small, sports already full); UFC333 and MrFanboy posts (small); old_content posts.
+- Requests: swapped dropped posts for the five new ones in watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
