@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-23-kompany-collapses-bayern-training",
+  "title": "Bayern Munich coach Vincent Kompany collapses after training and is in hospital",
+  "dek": "The club says he is stable and will be away for weeks, not days. Posts from reporters spread the first report within minutes.",
+  "desks": ["sports"],
+  "standing": "developing",
+  "started_at": "2026-10-23T15:39:25Z",
+  "updated_at": "2026-10-24T11:30:00Z",
+  "what": [
+    "On Friday 23 October, Bayern Munich coach Vincent Kompany collapsed at the club's training ground and was taken to hospital in Munich. Fabrizio Romano's first post said BILD and Sky had reported the ambulance trip.",
+    "ESPN reports the club said Kompany \"is undergoing thorough examinations in hospital and will remain under medical care.\" ESPN says he collapsed during a training session for the club's reserve team.",
+    "Al Jazeera reports that sporting director Max Eberl said Kompany is in a stable condition and that \"we won't be talking about days but weeks\" of absence. Al Jazeera also reports that Kompany had been ill with a virus for about a week, and quotes him after Wednesday's Champions League match with Arsenal as saying he \"didn't listen to my body.\"",
+    "Assistant coach Aaron Danks is to lead the team in Sunday's Bundesliga match at Freiburg, per Al Jazeera. Bayern have not said what caused the collapse, and examinations were still going on when Eberl spoke. I could not find a medical statement from the club."
+  ],
+  "why": "A leading club's coach went down in public view, and the first word came from reporters before the club spoke.",
+  "next": "Bayern's next medical update, and who is on the bench for the Freiburg match on Sunday 25 October.",
+  "posts": [
+    { "id": "2113656547834487022", "role": "origin" },
+    { "id": "2113919586689032326", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "ESPN: Bayern Munich coach Vincent Kompany hospitalized after collapsing at training", "url": "https://www.espn.com/soccer/story/_/id/50258850/bayern-munich-coach-vincent-kompany-hospital-training" },
+    { "label": "Al Jazeera: Bayern say coach Kompany stable in hospital but will be out for weeks", "url": "https://www.aljazeera.com/sports/2026/10/24/bayern-say-coach-kompany-stable-in-hospital-but-will-be-out-for-weeks" }
+  ]
+}

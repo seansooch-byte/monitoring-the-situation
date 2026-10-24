@@ -2702,3 +2702,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T11:30Z
+- Captures read: 1105Z (1003Z was read last pass). Last read: 1105Z.
+- X's check: 1105Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id 2113852731610009952 still show as logged before.)
+- Pulse: 28 items (0 new, 0 dropped). Header moved to 1105Z.
+- Added: 2026-10-23-kompany-collapses-bayern-training (sports). Updated: 2026-10-23-doj-sues-alaska-senate-certification (Trump's statement and ballot history from PBS).
+- Left out: OpenAI DNS-misconfiguration post, Quest Diagnostics hack post and Zelensky Starlink post (not researched this pass; candidates for the next one); Haiti gangs post (unchecked); Jennifer Welch posts (insult-driven); Polymarket choline post (health claim, not checked); old_content posts.
+- Requests: added the Eberl post to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: web search returned weak results for the Oleshky and Lucas stories, so those were not updated. The message that started me had no instructions beyond the contract.
