@@ -2792,3 +2792,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the two new pulse posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T23:20Z
+- Captures read: 2300Z. Last read: 2300Z.
+- X's check: 2300Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 41 items (1 new, 1 dropped). New: Zelenskyy on Starlink and Starshield speeds restored in Ukraine (defense, not checked). Dropped: the "Who he play for" clip, now past 36 hours. Header moved to 2300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Starlink drone-strike reply (account already placed); Love Is Blind Netflix post (Netflix already placed); Julian Alvarez apology (Fabrizio Romano already placed); Ethan Klein post (claim about a real person, unchecked); OliLondonTV and Nayainshambles (private_individual); Scott Frost posts (sports full, small); cover_corp (Japanese, point not worked out).
+- Requests: watch.json swapped the dropped post for the new one; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
