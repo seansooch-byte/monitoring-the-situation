@@ -2622,3 +2622,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Getty sources disagree on new equity ($533M vs $433M); the story gives neither.
+
+## 2026-10-24T03:30Z
+- Captures read: 0303Z (0200Z was read last pass). Last read: 0303Z.
+- X's check: 0303Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches still show as logged before.)
+- Pulse: 24 items (1 new, 3 dropped). New: Glitch Productions on Gameoverse being greenlit (entertainment). Dropped, past 36 hours: AP (politics), alexisohanian (internet), DiscussingFilm (entertainment). Header moved to 0303Z. Below the 25 floor because nothing else new was allowed and in window.
+- Added: none. Updated: none (pulse pass).
+- Left out: elonmusk "take away your kids and transition them" (claim about a public figure, nothing outside X; the account is already attached on the Talarico item); TerryMoran Trump post (opinion, video not described); hourjinnie, sidoopa, meg_lynn_g (video points unclear, undescribed); NFL Santos kick (sports full); old_content posts.
+- Requests: watch.json updated (1 added); open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

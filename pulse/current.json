@@ -1,26 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T02:30:00Z",
-  "capture": "2026-10-24T0200Z",
+  "updated_at": "2026-10-24T03:30:00Z",
+  "capture": "2026-10-24T0303Z",
   "items": [
     {
       "id": "2113342518943179172",
       "desk": "politics",
       "line": "Vanity Fair posts an excerpt from Matthew Cole's book. Cole writes that a source told him in 2020 that the Dutch government had hacked Jared Kushner's phone and watched him use a Dubai bank account holding hundreds of millions of dollars. These are claims in the excerpt. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113276006245286234",
-      "desk": "internet",
-      "line": "Alexis Ohanian says he named Reddit 21 years ago, that people called it a horrible name, and that he overruled them as CEO. He says the company's own account is now making the \"I read it on reddit\" joke. Not checked here.",
-      "also": [
-        "2113269146096124299"
-      ]
-    },
-    {
-      "id": "2113273779086364923",
-      "desk": "politics",
-      "line": "The Associated Press reports that Virginia state Sen. L. Louise Lucas is charged with drug trafficking and money laundering, citing the Justice Department. Not checked here.",
       "also": []
     },
     {
@@ -66,12 +52,6 @@
       "also": [
         "2113319277092642942"
       ]
-    },
-    {
-      "id": "2113278038532096440",
-      "desk": "entertainment",
-      "line": "DiscussingFilm says Jack Lowden, Callum Turner and Josh O'Connor are among the actors in the mix to be the next James Bond and are doing final auditions. It credits Deadline. Not checked here.",
-      "also": []
     },
     {
       "id": "2113511487079678184",
@@ -165,6 +145,12 @@
       "id": "2113697902916751661",
       "desk": "ai",
       "line": "The account jack announces Dessa, which it calls the most authentic full-duplex speech model ever built, and says talking with it feels like talking with a person. The post links to a page on block.xyz. The claim is the account's own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113707043840250341",
+      "desk": "entertainment",
+      "line": "Glitch Productions says its series Gameoverse is greenlit for full production, with an 8-episode season beginning in May 2027. The post carries a video. The announcement was not checked here.",
       "also": []
     }
   ]
