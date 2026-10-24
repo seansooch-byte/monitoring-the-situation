@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T19:30:00Z",
-  "capture": "2026-10-24T1907Z",
+  "updated_at": "2026-10-24T20:40:00Z",
+  "capture": "2026-10-24T2007Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -110,12 +110,6 @@
       "also": []
     },
     {
-      "id": "2113834492704043070",
-      "desk": "sports",
-      "line": "MLB posts that Game 1 of the World Series goes to the Brewers. A photo caption gives the final score as Rays 2, Brewers 3, with Milwaukee leading the series 1-0.",
-      "also": []
-    },
-    {
       "id": "2113746559527727121",
       "desk": "politics",
       "line": "The account of Secretary of War Pete Hegseth posts that the War Department has designated Confucius Institutes as a threat to national security. Not checked here.",
@@ -201,6 +195,24 @@
       "id": "2113992264313675877",
       "desk": "world",
       "line": "Luc Auffret posts a 22-second video he calls impressive images of a demonstration in Paris. The post is in French and does not say what the protest is about. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113772307663458640",
+      "desk": "sports",
+      "line": "MLB shares a clip from FOX Sports and says Junior Caminero hit a ball in batting practice so far that it hit the FOX Sports set behind the stadium.",
+      "also": []
+    },
+    {
+      "id": "2113730012633321482",
+      "desk": "medicine",
+      "line": "Polymarket posts \"JUST IN\" that a major new study found children whose mothers took choline supplements in pregnancy scored 8 IQ points higher at age 4 than a placebo group. The post names no study. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113881313489080523",
+      "desk": "internet",
+      "line": "SauravDassss jokes that the rent on their house is about to go from 12 lakhs a month to 24 lakhs a month, with a countdown and crying-laughing emojis.",
       "also": []
     }
   ]

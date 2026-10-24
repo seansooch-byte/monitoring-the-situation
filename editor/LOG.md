@@ -2762,3 +2762,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the two new posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-24T20:40Z
+- Captures read: 2007Z. Last read: 2007Z.
+- X's check: 2007Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 36 items (3 new, 1 dropped). New: Polymarket on a choline and IQ study (medicine, which had no item; not checked), SauravDassss rent joke (internet, which had no item), MLB clip of Junior Caminero's batting practice hit (sports, replaces the MLB World Series Game 1 post: same account, smaller). Nothing past 36 hours. Header moved to 2007Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: PopBase and Dexerto posts on Ethan Klein (claim about real people's private life, unchecked); kingkapoor72 London post (claim about a religious group, unchecked); dezmondOliver coworker post (private person, unchecked); Ivan Toney penalty clips (sports already full); more Musk and Fabrizio Romano posts (account already placed); Scarlett, Ray J, Neutral_OC and other private_individual posts; Laken Riley smartwatch post (names a crime victim); ScottFriedman3 StubHub post. No justice, disaster, markets or ideas post worth showing in the last 36 hours.
+- Requests: watch.json swapped the dropped post for the three new ones; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: two scratch files, .tmp_s.mjs and .tmp_t.mjs, were left in the repo root by this pass because rm needed approval; please delete them. The message that started me had no instructions beyond the contract.
