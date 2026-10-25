@@ -2932,3 +2932,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the three dropped posts (none cited by a story), added the three new ones; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T13:40Z
+- Captures read: 1301Z. Last read: 1301Z.
+- X's check: 1301Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 34 items (1 new, 4 dropped). New: Disclose.tv on Obama's remark about Iran's strategic position (world, claim attributed, not checked). Dropped, past 36 hours: DiscussingFilm Avengers teaser, VoicesofWW2, Dexerto (Just Eat), BBC Politics (storm advice). Header moved to 1301Z. The build holds one Musk and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: iswiminnachos, AkademiksTV, 75secondes, viewsceo, dudeitsokay, PinkiPragya, DwightSinghS (private_individual); Bulvarpress, Fortnite, Netflix, japan_sseul, deoksu_kr, RedLadyin92676 (no description or point not worked out); realmelanieking, GuntherEagleman, SussedSponge (claims about named people, unchecked); RadioGenoa (characterises protesters); Marvel Studios and the Musk Starlink promo (advertisements); SenSanders tax post (figures unchecked, politics already full); Romano on Bruno Fernandes (account placed); other Musk, Romano, Acyn, atrupar posts (account placed). For the next story pass: Obama on Iran; Man United v Bournemouth team news; El Clasico; Texas early vote.
+- Requests: watch.json: removed the four dropped posts (none cited by a story), added the Disclose.tv post; open.json updated_at only.
+- Shipped: yes, see report for commit and audit.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

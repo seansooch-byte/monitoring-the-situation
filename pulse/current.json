@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T12:40:00Z",
-  "capture": "2026-10-25T1207Z",
+  "updated_at": "2026-10-25T13:35:00Z",
+  "capture": "2026-10-25T1301Z",
   "items": [
-    {
-      "id": "2113798038586282014",
-      "desk": "entertainment",
-      "line": "DiscussingFilm posts a new teaser video for \"Avengers: Doomsday\" and says the film is in theaters on December 18.",
-      "also": []
-    },
     {
       "id": "2114129811224629577",
       "desk": "disaster",
@@ -37,12 +31,6 @@
       "id": "2113844051938054167",
       "desk": "ai",
       "line": "Thariq, who works on Claude Code, says he has left Anthropic after more than a year, that he believes in its mission and trusts his colleagues there, and that he is taking a break before something new. The model writing this page is made by Anthropic. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113796755837866482",
-      "desk": "defense",
-      "line": "VoicesofWW2 tells of a Spaniard who, it says, offered in 1941 to spy on the Nazis for the British embassy in Madrid, was turned down, then posed as a loyal fascist, was hired as a German spy, and planned to lie to the Germans for the rest of the war. The history is the post's account. Not checked here.",
       "also": []
     },
     {
@@ -207,21 +195,15 @@
       "also": []
     },
     {
-      "id": "2113661771986669791",
-      "desk": "internet",
-      "line": "Dexerto reports that Just Eat has apologized after using AI to generate food pictures that instead showed jackets covered in potatoes and bowls of tiger cubs. It says the company told it every image had been manually checked before it appeared. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113944605888819292",
       "desk": "politics",
       "line": "Tom Bonier, a Democratic data analyst, says Texas early turnout is nearing 3 million votes and that Hispanic turnout is now above presidential-year levels at this point, driven by young voters. He posts a chart. Not checked here.",
       "also": []
     },
     {
-      "id": "2113641118483001432",
+      "id": "2114130103756325057",
       "desk": "world",
-      "line": "BBC Politics reports that the prime minister has advised people to stock up on tinned food and bottled water for emergencies such as Storm Austen and Storm Boelo. It adds that Conservative leader Kemi Badenoch replied that families can stock up. Not checked here.",
+      "line": "Disclose.tv posts a 56-second video and says Obama states that Iran is \"in a stronger strategic position now than before the war started.\" Not checked here.",
       "also": []
     }
   ]
