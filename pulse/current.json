@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T05:20:00Z",
-  "capture": "2026-10-25T0501Z",
+  "updated_at": "2026-10-25T06:25:00Z",
+  "capture": "2026-10-25T0605Z",
   "items": [
     {
       "id": "2113798038586282014",
       "desk": "entertainment",
       "line": "DiscussingFilm posts a new teaser video for \"Avengers: Doomsday\" and says the film is in theaters on December 18.",
-      "also": []
-    },
-    {
-      "id": "2113680701770068067",
-      "desk": "ai",
-      "line": "Kimi.ai announces Kimi K3.1 Pro, which it calls its most capable open-weight model, with a 1M-token context, 2.8T total and 104B active parameters, and multimodal input. These specifications are the company's own. Not checked here.",
       "also": []
     },
     {
@@ -223,6 +217,12 @@
       "id": "2114042449287168149",
       "desk": "sports",
       "line": "Fabrizio Romano quotes Mikel Arteta saying he will put sensors on the touchline, that some managers leave it dozens of times without a yellow card, and that he is clipping all of it.",
+      "also": []
+    },
+    {
+      "id": "2114115124395196886",
+      "desk": "sports",
+      "line": "The Formula 1 account posts a photo and says Kimi Antonelli is on pole for the United States Grand Prix in Texas. Not checked here.",
       "also": []
     }
   ]

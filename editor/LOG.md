@@ -2862,3 +2862,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the two new pulse posts and varifrank's post to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T06:25Z
+- Captures read: 0605Z. Last read: 0605Z.
+- X's check: 0605Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 38 items (1 new, 1 dropped). New: Formula 1 on Kimi Antonelli's pole at the US Grand Prix (sports, not checked). Dropped, past 36 hours: Kimi.ai on Kimi K3.1 Pro. Header moved to 0605Z. The build holds one SportsCenter post off the front page. The jack and Technovangelist posts (18:23Z Oct 23) age out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Marvel Studios ticket promo (advertisement); RedLadyin92676 film post (no description); SussedSponge, Ethan Klein posts, GTA 6 actress post, Gunther Eagleman Talarico numbers (claims about real people, unchecked); ChuksEricE (private_individual); Romano on Alvarez, Acyn on gas prices, ESPN on South Carolina, MLB Brewers posts, Musk posts (account placed); sircalebhammer (promotion).
+- Requests: removed the dropped post and added the new one in watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
