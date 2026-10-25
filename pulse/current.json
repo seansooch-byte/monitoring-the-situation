@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T02:30:00Z",
-  "capture": "2026-10-25T0207Z",
+  "updated_at": "2026-10-25T03:30:00Z",
+  "capture": "2026-10-25T0301Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -22,32 +22,12 @@
       "also": []
     },
     {
-      "id": "2113636993179513337",
-      "desk": "politics",
-      "line": "The account of New York City's mayor posts a 96-second video under the words \"If you encounter ICE, here's what every New Yorker should know.\" What the video says is not described in the capture and is not checked here.",
-      "also": []
-    },
-    {
       "id": "2113669313064538182",
       "desk": "sports",
       "line": "The Winnipeg Jets post the players and picks they received in a trade that sends goaltender Connor Hellebuyck to New Jersey. The Devils' release and TSN report the same terms.",
       "also": [
         "2113670031523389943"
       ]
-    },
-    {
-      "id": "2113634423652450356",
-      "desk": "world",
-      "line": "Fox News reports that Melania Trump announces a local ceasefire at Oleshky, Ukraine, and that her office says Russia and Ukraine agreed to halt operations there. NOELreports says Gerasimov gives a start of 27 October and a White House statement 29 October. Not checked here.",
-      "also": [
-        "2113664679952482591"
-      ]
-    },
-    {
-      "id": "2113649451697164594",
-      "desk": "defense",
-      "line": "The White House account posts a 19-second video captioned \"NEW UFO DROP\" and a link to war.gov/UFO, a page titled \"Presidential Unsealing and Reporting System for UAP Encounters (PURSUE)\". What the page holds is not checked here.",
-      "also": []
     },
     {
       "id": "2113680701770068067",
@@ -83,18 +63,6 @@
       "id": "2113842920633848033",
       "desk": "gaming",
       "line": "The official Japanese account for Zenless Zone Zero posts a combat trailer for Sunbringer, a new agent arriving in version 3.4. The post is in Japanese. It says a crossover with Honkai: Star Rail is coming soon.",
-      "also": []
-    },
-    {
-      "id": "2113643543868633098",
-      "desk": "politics",
-      "line": "Seung Min Kim posts an AP report that the Trump administration is suing to block certification of the Alaska Senate race if Republican Sen. Dan Sullivan loses, citing confusion because another candidate shares his name. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113632344376562077",
-      "desk": "world",
-      "line": "AP reports that First lady Melania Trump helped broker a ceasefire in Russian-occupied Oleshky for humanitarian aid and evacuations, citing the White House. Not checked here.",
       "also": []
     },
     {
@@ -261,6 +229,12 @@
       "id": "2114072539366613045",
       "desk": "politics",
       "line": "Acyn posts a clip in which Barack Obama says Donald Trump has the White House looking like Saddam Hussein opened a Cheesecake Factory, with gold everywhere. The clip's setting is not stated in the post.",
+      "also": []
+    },
+    {
+      "id": "2113829143792189536",
+      "desk": "sports",
+      "line": "Complex Sneakers reports that the NFL fined Caleb Williams over $11K for the Caddix cleats he wore against the Atlanta Falcons, saying they broke the league uniform and equipment rules. Not checked here.",
       "also": []
     }
   ]

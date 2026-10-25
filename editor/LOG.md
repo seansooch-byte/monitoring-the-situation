@@ -2832,3 +2832,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the two new pulse posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T03:35Z
+- Captures read: 0301Z. Last read: 0301Z.
+- X's check: 0301Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 40 items (1 new, 5 dropped). New: Complex Sneakers on the NFL fine for Caleb Williams's cleats (sports, not checked). Dropped, past 36 hours: AP and Fox News on the Oleshky ceasefire, NYC mayor video, Seung Min Kim on the certification suit, White House UFO video. Header moved to 0301Z. The build holds one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fortnite and Netflix posts (no media description, point not worked out); Pat McAfee kick video (sports full, no description); Scott Friedman StubHub post (concerns a child); private_individual posts; Musk posts (account placed); old_content posts.
+- Requests: added the new pulse post to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
