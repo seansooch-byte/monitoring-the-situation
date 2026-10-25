@@ -2872,3 +2872,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed the dropped post and added the new one in watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T07:35Z
+- Captures read: 0704Z. Last read: 0704Z.
+- X's check: 0704Z 23 confirmed, 0 missing, 0 mismatched, 1 withheld. Withheld: 2111883248767017182 (Exclusiivevault, not cited). Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 36 items (1 new, 3 dropped). New: Elon Musk on long press on like to send $1 via X Money (tech, a different desk from his Starlink post). Dropped, past 36 hours: jack on Dessa, Technovangelist on Airbnb, Glitch Productions on Gameoverse. Header moved to 0704Z. The build holds one Musk post and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: its__Scarlettt, iswiminnachos, AkademiksTV, 75secondes (private_individual); Fortnite, Netflix, DirectorZyno, Pat McAfee kick video, japan_sseul, RedLadyin92676 (no description or point not worked out); SussedSponge, realmelanieking on Ethan Klein, dezmondOliver, GuntherEagleman, NicHulscher on Gates (claims about real people, unchecked); kingkapoor72 (insults about a religion); Marvel Studios (advertisement); other Musk, Romano, Acyn posts (account placed).
+- Requests: removed the three dropped posts from watch.json (none is cited by a story) and added the new one; open.json updated_at only.
+- Shipped: yes, commit 32f68d54, live audit clean.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
