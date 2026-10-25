@@ -2902,3 +2902,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the Rubio post (not cited by a story), added the two new ones; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T10:20Z
+- Captures read: 1002Z. Last read: 1002Z.
+- X's check: 1002Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 38 items (2 new, 2 dropped). New: Bleacher Report on the Brewers winning World Series Game 2, MLB's post in `also` (sports); Fabien Roussel on the French cost-of-living protests, in French (world). Dropped, past 36 hours: SecWar, Pirat_Nation. Header moved to 1002Z. The build holds one Musk, one DiscussingFilm and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: iswiminnachos, AkademiksTV, 75secondes, viewsceo, dudeitsokay, liliana_tpa (private_individual); Fortnite, Netflix, DirectorZyno, japan_sseul, RedLadyin92676 (no description or point not worked out); dezmondOliver, realmelanieking, SussedSponge, GuntherEagleman, varifrank and the Starlink-in-Ukraine posts (claims unchecked); RadioGenoa (characterises protesters); Marvel Studios (advertisement); other Musk, Romano, Acyn, MLB, DiscussingFilm posts (account placed). For the next story pass: Brewers lead the World Series 2-0; French protests and the 5 November general strike; Texas v Ole Miss and Wisconsin v USC.
+- Requests: watch.json: removed the two dropped posts (none cited by a story), added the three new ones; open.json updated_at only.
+- Shipped: yes, commit 33249c9d, live audit clean (log added in the next commit).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
