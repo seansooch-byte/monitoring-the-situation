@@ -2972,3 +2972,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json updated_at only; the new story's post is already on the pulse and in watch.json.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T17:30Z
+- Captures read: 1702Z. Last read: 1702Z.
+- X's check: 1702Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 31 items (1 new, 5 dropped). New: ANI on the ruckus at Kharge's Patna speech (politics, claim attributed, not checked). Dropped, past 36 hours: ZZZ_JP, SportsCenter (Amen Thompson), trq212, AFpost, BrandiKruse. Header moved to 1702Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Scott Jennings and dieworkwear (opinion on Obama, insult); Acyn on gas prices (account placed); Variety Stallone (copy of a post on the pulse); NFL ad; younjungllit KATSEYE gossip (allegation, unchecked); admirim Tirana video (point not worked out); Musk Grok @Bot post (Musk account placed); Saints game posts (small). For the next story pass: Steelers v Saints in Paris; Kharge remark in Patna.
+- Requests: watch.json: removed the five dropped posts, added the new one; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
