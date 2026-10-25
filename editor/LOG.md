@@ -3002,3 +3002,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the two dropped posts, added the two new ones; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T20:30Z
+- Captures read: 2003Z. Last read: 2003Z.
+- X's check: 2003Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 32 items (1 new, 0 dropped). New: PopBase International Artist Day prompt (entertainment). Nothing is past 36 hours yet; tbonier (10:44Z on the 24th) goes in the next pass. Header moved to 2003Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Steelers photo post (point not clear); Awk20000 on QTCinderella, melanie king and nedfulmer on Ethan Klein (allegations about named people, unchecked); Acyn, Polymarket BC, Fabrizio Romano, Musk posts (account placed); GenghisMFKhan (about its own view count); Marvel and Wuthering Waves trailers, DONJAZZY, Starlink (promotion); CR7Siuuuuuuuuyy, PinkiPragya, momshiedivine (private individual flags); RPLNews goal clip, Underdog, NFL (sports full at 9). For the next story pass: Ethan Klein and QTCinderella allegations; Israeli election Tuesday; BC election result.
+- Requests: watch.json: added the new post; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

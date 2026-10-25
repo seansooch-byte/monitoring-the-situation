@@ -1,8 +1,14 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T19:15:00Z",
-  "capture": "2026-10-25T1904Z",
+  "updated_at": "2026-10-25T20:30:00Z",
+  "capture": "2026-10-25T2003Z",
   "items": [
+    {
+      "id": "2114211348384997862",
+      "desk": "entertainment",
+      "line": "PopBase, an entertainment news account, posts a prompt for International Artist Day asking people to name an artist who changed their life.",
+      "also": []
+    },
     {
       "id": "2114129811224629577",
       "desk": "disaster",
