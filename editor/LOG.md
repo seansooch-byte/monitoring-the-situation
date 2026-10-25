@@ -2952,3 +2952,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: added the new post; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T15:30Z
+- Captures read: 1505Z. Last read: 1505Z.
+- X's check: 1505Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 35 items (1 new, 1 dropped). New: The New York Times on the Archdiocese of New York settlement (justice, claim attributed, not checked). Dropped, past 36 hours: Complex Sneakers on Caleb Williams. Header moved to 1505Z. The build holds one Musk and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Talarico voter ID posts (america, Musk, LoneStar_PAC: claim about a named politician, unchecked; Musk account placed; LoneStar_PAC old content); RedWavePress (long quote of a TV exchange, politics already full); WhiteHouse tax post (claims unchecked); Tobielobba (point not worked out); wherescupid (small, no point); fayl1ze, Movie_genz, victorope01 (grabber's exclusions); Davidgcore (private). For the next story pass: Texas Senate race and voter ID; Archdiocese settlement; Obama on Iran.
+- Requests: watch.json: swapped the dropped post for the new one; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
