@@ -2892,3 +2892,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed three dropped posts, kept the OpenAI post (cited by a live story), added the five new ones; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T09:15Z
+- Captures read: 0903Z. Last read: 0903Z.
+- X's check: 0903Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 38 items (2 new, 1 dropped). New: AJ English on the train and fallen crane in Sao Paulo (disaster, which had nothing before); Angie Nixon on Obama backing her Senate campaign (politics). Dropped, past 36 hours: Rubio message to people in Cuba. Header moved to 0903Z. The build holds one Musk, one DiscussingFilm and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: iswiminnachos, AkademiksTV, 75secondes, Itzbaby60, dudeitsokay (private_individual); Fortnite, Netflix, DirectorZyno, japan_sseul, RedLadyin92676, techdroider iPhone crease (no description or point not worked out); dezmondOliver, realmelanieking, SussedSponge, GuntherEagleman, MikeLevin on Forbes, JayinKyiv (claims about real people, unchecked); RadioGenoa Rome post (characterises protesters, unchecked); Marvel Studios, sircalebhammer (advertisement); other Musk, Romano, Acyn, MLB, DiscussingFilm posts (account placed). For the next story pass: Brazil crane collision; Texas v Ole Miss and Wisconsin v USC.
+- Requests: watch.json: removed the Rubio post (not cited by a story), added the two new ones; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

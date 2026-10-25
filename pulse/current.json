@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T08:30:00Z",
-  "capture": "2026-10-25T0800Z",
+  "updated_at": "2026-10-25T09:15:00Z",
+  "capture": "2026-10-25T0903Z",
   "items": [
     {
       "id": "2113798038586282014",
@@ -10,9 +10,15 @@
       "also": []
     },
     {
-      "id": "2113731069518434519",
-      "desk": "world",
-      "line": "The account of Secretary of State Marco Rubio posts a message addressed to people in Cuba. It says now is the time to seek change and invites them to a \"discrete partnership with the CIA\". Not checked here.",
+      "id": "2114129811224629577",
+      "desk": "disaster",
+      "line": "AJ English posts a video and says a train hit a crane that had fallen onto the tracks in Brazil, and that the wreckage then dropped into a busy street in Sao Paulo. It says the crane operator was injured. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114029066349093173",
+      "desk": "politics",
+      "line": "Angie Nixon says former President Obama is supporting her campaign for the U.S. Senate and posts a 62-second video. Her hashtag names Florida. Not checked here.",
       "also": []
     },
     {
