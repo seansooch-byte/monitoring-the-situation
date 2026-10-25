@@ -3012,3 +3012,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: added the new post; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T21:50Z
+- Captures read: 2108Z. Last read: 2108Z.
+- X's check: 2108Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 31 items (0 new, 0 dropped). Nothing is past 36 hours yet; tbonier goes next pass. Header moved to 2108Z. DiscussingFilm Wildwood post not added (build holds it off: account already placed).
+- Added: 2026-10-25-giants-beat-texans-overtime-mccarthy (sports). Updated: none; Kompany, Alaska, Oleshky, OpenAI and archdiocese stories: my searches found nothing newer than their text, so left as is.
+- Left out: Brazil runoff (count still in progress when searched, voting hours extended by a court order; no usable post, revisit next pass); Falcons v 49ers and the Clasico (searches returned conflicting or older-season results, could not confirm); Kharge remark, Forbes report on Trump, Ethan Klein and QTCinderella allegations (unchecked claims about named people); Israeli election and BC result (not researched this pass).
+- Requests: watch.json added the four Giants post ids; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

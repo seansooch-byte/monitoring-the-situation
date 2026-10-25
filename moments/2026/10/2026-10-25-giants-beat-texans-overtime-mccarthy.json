@@ -1,0 +1,43 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-25-giants-beat-texans-overtime-mccarthy",
+  "title": "Giants beat the Texans 27-21 in overtime in J.J. McCarthy's first start for New York",
+  "dek": "J.J. McCarthy won his first start as the Giants quarterback, and a 30-yard run ended the game in overtime.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-25T20:21:43Z",
+  "updated_at": "2026-10-25T21:45:00Z",
+  "what": [
+    "On Sunday 25 October the New York Giants beat the Houston Texans 27-21 in overtime in Houston, according to Sports Illustrated's Giants site. The result took the Giants to 4-2-1 after seven games.",
+    "Sports Illustrated says J.J. McCarthy completed 20 of 28 passes for 252 yards in his first start for the Giants. It says running back Cam Skattebo carried 17 times for 124 yards and scored a touchdown, and that Devin Singletary ended the game with a 30-yard touchdown run in overtime.",
+    "The NFL and the Giants both posted video of the winning run within minutes of it. Adam Schefter posted that McCarthy \"gets a win in his first start as the Giants QB.\" Earlier in the day, the reporter behind the RapSheet account posted that Skattebo was expected to resume his role as lead back. The score and the statistics above come from the Sports Illustrated report; I did not open a second game report."
+  ],
+  "why": "A first start and an overtime finish, with a short highlight clip that fits in a post.",
+  "next": "The Giants' next game.",
+  "posts": [
+    {
+      "id": "2114452368632803490",
+      "role": "origin"
+    },
+    {
+      "id": "2114452582722646279",
+      "role": "official"
+    },
+    {
+      "id": "2114455735538987220",
+      "role": "voice"
+    },
+    {
+      "id": "2114313023636856844",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Sports Illustrated: Giants ride Cam Skattebo's 124 rushing yards to a 27-21 OT win over Texans",
+      "url": "https://www.si.com/nfl/giants/onsi/giants-ride-cam-skattebo-s-124-rushing-yards-to-a-27-21-ot-win-over-texans-01m5sywr2mw2"
+    }
+  ]
+}
