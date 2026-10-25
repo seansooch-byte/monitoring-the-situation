@@ -2852,3 +2852,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed the dropped post and added the new one in watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T05:20Z
+- Captures read: 0501Z. Last read: 0501Z.
+- X's check: 0501Z 26 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2114199914494181692 (Hayesfawcett3, college football list; X's text carries an extra character; not cited). Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 38 items (2 new, 4 dropped). New: Elon Musk on Starlink, Starshield and Ukraine with varifrank's post attached (defense; his Ukraine-elites post aged out, freeing his place); Fabrizio Romano quoting Arteta on touchline sensors (sports). Dropped, past 36 hours: Musk on Ukraine's elites, Winnipeg Jets trade, LeadingReport on CNN, Kanekoa clip of Talarico. Header moved to 0501Z. The build holds one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fortnite, Netflix, DirectorZyno hoof video, Pat McAfee kick video, japan_sseul (no media description, point not worked out); Ethan Klein post, SussedSponge, dezmondOliver, HalfwayPost (claims about real people, unchecked); kingkapoor72 (insults about a religion); RadioGenoa Colosseum clip (unchecked, one source); private_individual and old_content posts; other Musk posts (account placed).
+- Requests: added the two new pulse posts and varifrank's post to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,27 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T04:10:00Z",
-  "capture": "2026-10-25T0400Z",
+  "updated_at": "2026-10-25T05:20:00Z",
+  "capture": "2026-10-25T0501Z",
   "items": [
     {
       "id": "2113798038586282014",
       "desk": "entertainment",
       "line": "DiscussingFilm posts a new teaser video for \"Avengers: Doomsday\" and says the film is in theaters on December 18.",
       "also": []
-    },
-    {
-      "id": "2113677835244044748",
-      "desk": "world",
-      "line": "Elon Musk posts his view that Ukraine's elites have grown rich off the hundreds of billions flowing to the country while the people's children are conscripted to die in trenches. This is his opinion and claim. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113669313064538182",
-      "desk": "sports",
-      "line": "The Winnipeg Jets post the players and picks they received in a trade that sends goaltender Connor Hellebuyck to New Jersey. The Devils' release and TSN report the same terms.",
-      "also": [
-        "2113670031523389943"
-      ]
     },
     {
       "id": "2113680701770068067",
@@ -81,12 +67,6 @@
       "id": "2113796755837866482",
       "desk": "defense",
       "line": "VoicesofWW2 tells of a Spaniard who, it says, offered in 1941 to spy on the Nazis for the British embassy in Madrid, was turned down, then posed as a loyal fascist, was hired as a German spy, and planned to lie to the Germans for the rest of the war. The history is the post's account. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113675605451456873",
-      "desk": "business",
-      "line": "LeadingReport says Elon Musk reportedly invested $1 billion in the parent company of CNN and CBS News and now holds a stake in both networks. The post names no source. Not checked here.",
       "also": []
     },
     {
@@ -202,12 +182,6 @@
       "also": []
     },
     {
-      "id": "2113667772211421244",
-      "desk": "politics",
-      "line": "Kanekoa The Great posts a 17-second clip of Texas Senate nominee James Talarico speaking of border walls and bathroom bills. The post says he voted against border security nine times and against the bathroom bill. Those claims are the poster's. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113762242327892456",
       "desk": "tech",
       "line": "log4j says that a Samsung TV without a microphone will look for a connected device that has one, such as a soundbar or a Bluetooth device, and that the audio is then sent to Bixby. The poster calls this evil and clever. Not checked here.",
@@ -235,6 +209,20 @@
       "id": "2113723222843691122",
       "desk": "sports",
       "line": "Thmanyah Sports, a Saudi sports outlet, posts a video of Ivan Toney taking a penalty in Al-Ahli against Al-Khaleej in the Saudi Pro League. The caption is in Arabic; as I read it, it says the penalty ends the match with a fourth goal.",
+      "also": []
+    },
+    {
+      "id": "2114063986744275011",
+      "desk": "defense",
+      "line": "Elon Musk, answering a post by varifrank, says Starlink has never been allowed for offensive drone strikes, that Starshield is a separate system controlled by the US government, and that a loophole was closed last week. He also says Ukraine's front line would collapse if Starlink were turned off. Not checked here.",
+      "also": [
+        "2113997959117561902"
+      ]
+    },
+    {
+      "id": "2114042449287168149",
+      "desk": "sports",
+      "line": "Fabrizio Romano quotes Mikel Arteta saying he will put sensors on the touchline, that some managers leave it dozens of times without a yellow card, and that he is clipping all of it.",
       "also": []
     }
   ]
