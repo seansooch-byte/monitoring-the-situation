@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T10:20:00Z",
-  "capture": "2026-10-25T1002Z",
+  "updated_at": "2026-10-25T11:25:00Z",
+  "capture": "2026-10-25T1107Z",
   "items": [
     {
       "id": "2113798038586282014",
@@ -43,12 +43,6 @@
       "id": "2113796755837866482",
       "desk": "defense",
       "line": "VoicesofWW2 tells of a Spaniard who, it says, offered in 1941 to spy on the Nazis for the British embassy in Madrid, was turned down, then posed as a loyal fascist, was hired as a German spy, and planned to lie to the Germans for the rest of the war. The history is the post's account. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113756498861944954",
-      "desk": "gaming",
-      "line": "The Xbox account posts the launch trailer for Grand Theft Auto VI and says the game arrives on Xbox Series X|S on November 19. It names the trailer's music as \"Flower in a Hurricane\" by Justice with Tame Impala, SZA and King Gizzard & The Lizard Wizard.",
       "also": []
     },
     {
@@ -142,12 +136,6 @@
       "also": []
     },
     {
-      "id": "2113762242327892456",
-      "desk": "tech",
-      "line": "log4j says that a Samsung TV without a microphone will look for a connected device that has one, such as a soundbar or a Bluetooth device, and that the audio is then sent to Bixby. The poster calls this evil and clever. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114072539366613045",
       "desk": "politics",
       "line": "Acyn posts a clip in which Barack Obama says Donald Trump has the White House looking like Saddam Hussein opened a Cheesecake Factory, with gold everywhere. The clip's setting is not stated in the post.",
@@ -227,6 +215,12 @@
       "id": "2114026298825674781",
       "desk": "world",
       "line": "Fabien Roussel posts a 16-second video in French and says there was a human tide against the cost of living and in defence of democracy, and that the protests continue until a general strike on 5 November. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114294862120104201",
+      "desk": "sports",
+      "line": "Real Madrid's official account posts, in Spanish, \"Courtois, baja de última hora\" (Courtois, late absence) with a link to the club's own news page. The post does not say why. Not checked here.",
       "also": []
     }
   ]
