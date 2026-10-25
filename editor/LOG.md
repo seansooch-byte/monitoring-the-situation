@@ -3022,3 +3022,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json added the four Giants post ids; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T23:30Z
+- Captures read: 2203Z, 2308Z. Last read: 2308Z.
+- X's check: 2308Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 31 items (0 new, 1 dropped). Dropped, past 36 hours: tbonier. Header moved to 2308Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix "no one's cooler than her" (video not described, point not clear); HQNewsNow Trump remark on Nicki Minaj (crude, unchecked); Ethan Klein and QTCinderella allegations (unchecked claims about named people); Talarico posts by Musk, America and Eagleman (account placed or unchecked claims); Fabrizio Romano, Musk, Acyn, DiscussingFilm posts (account placed); iswiminnachos, MenAreMid_, kisslandcrush, CR7Siuuuuuuuuyy, rotrazz (private individual flags). For the next story pass: Ethan Klein and QTCinderella allegations; Israeli election Tuesday; BC election result.
+- Requests: watch.json removed the dropped post; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
