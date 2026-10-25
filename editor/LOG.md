@@ -2922,3 +2922,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the two dropped posts (none cited by a story), added the Real Madrid post; open.json updated_at only.
 - Shipped: yes, commit 47ad664e, live audit clean (log added in the next commit).
 - For the main editor: web search returned mostly stale results this pass, which limited story research. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T12:40Z
+- Captures read: 1207Z. Last read: 1207Z.
+- X's check: 1207Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 37 items (3 new, 3 dropped). New: Dexerto on Just Eat's AI food pictures (internet); Tom Bonier on Texas early turnout (politics); BBC Politics on the prime minister's advice to stock up for storms (world). Dropped, past 36 hours: NASA on Artemis III, SpaceX, MLB. Header moved to 1207Z. The build holds one Musk, one DiscussingFilm and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Housebots (claim about a real person, unchecked); Texas_Twins_Dad (setup instructions, small account, involves Grok); LiveLawIndia (claim about a named judge, unchecked); TheJoeySwoll and liz_churchill10 (claims about named people, unchecked); F1 grid post (account placed); Bladerunner campaign posts (small, no description); other Musk posts (account placed). For the next story pass: UK storm advice (Austen, Boelo); Texas early vote; El Clasico.
+- Requests: watch.json: removed the three dropped posts (none cited by a story), added the three new ones; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

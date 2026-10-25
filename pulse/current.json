@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T11:25:00Z",
-  "capture": "2026-10-25T1107Z",
+  "updated_at": "2026-10-25T12:40:00Z",
+  "capture": "2026-10-25T1207Z",
   "items": [
     {
       "id": "2113798038586282014",
@@ -46,11 +46,6 @@
       "also": []
     },
     {
-      "id": "2113776971603689874",
-      "desk": "science",
-      "line": "NASA says its Artemis III mission will send four astronauts to low Earth orbit next year to test systems needed for future lunar landings, and that it is speeding up work on Artemis IV. Not checked here."
-    },
-    {
       "id": "2113882115104296989",
       "desk": "world",
       "line": "Rupert Lowe, a UK politician from the Restore Britain party, says the Telegraph has reported that Israel's prime minister ordered support for Argentina over the Falkland Islands, and argues Britain owes Israel no unconditional support. The Telegraph report has not been checked here."
@@ -82,21 +77,9 @@
       "also": []
     },
     {
-      "id": "2113786051009696177",
-      "desk": "tech",
-      "line": "SpaceX says a Falcon 9 launched 27 Starlink satellites from California.",
-      "also": []
-    },
-    {
       "id": "2113992264313675877",
       "desk": "world",
       "line": "Luc Auffret posts a 22-second video he calls impressive images of a demonstration in Paris. The post is in French and does not say what the protest is about. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113772307663458640",
-      "desk": "sports",
-      "line": "MLB shares a clip from FOX Sports and says Junior Caminero hit a ball in batting practice so far that it hit the FOX Sports set behind the stadium.",
       "also": []
     },
     {
@@ -221,6 +204,24 @@
       "id": "2114294862120104201",
       "desk": "sports",
       "line": "Real Madrid's official account posts, in Spanish, \"Courtois, baja de última hora\" (Courtois, late absence) with a link to the club's own news page. The post does not say why. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113661771986669791",
+      "desk": "internet",
+      "line": "Dexerto reports that Just Eat has apologized after using AI to generate food pictures that instead showed jackets covered in potatoes and bowls of tiger cubs. It says the company told it every image had been manually checked before it appeared. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113944605888819292",
+      "desk": "politics",
+      "line": "Tom Bonier, a Democratic data analyst, says Texas early turnout is nearing 3 million votes and that Hispanic turnout is now above presidential-year levels at this point, driven by young voters. He posts a chart. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113641118483001432",
+      "desk": "world",
+      "line": "BBC Politics reports that the prime minister has advised people to stock up on tinned food and bottled water for emergencies such as Storm Austen and Storm Boelo. It adds that Conservative leader Kemi Badenoch replied that families can stock up. Not checked here.",
       "also": []
     }
   ]
