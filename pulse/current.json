@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T21:45:00Z",
-  "capture": "2026-10-25T2108Z",
+  "updated_at": "2026-10-25T22:20:00Z",
+  "capture": "2026-10-25T2203Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -196,6 +196,12 @@
       "id": "2114004969435136445",
       "desk": "politics",
       "line": "C3 posts a year-by-year list saying that from 2017 to 2023 Democrats and the media called Elon Musk great, and that after he endorsed Trump they called him a racist, then a Nazi, then a fascist. This is the poster's own account of it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114296536922529937",
+      "desk": "defense",
+      "line": "Fox News Politics says documents reviewed by Fox News Digital show the Pentagon is preparing major U.S. bases to run 90 days without outside power, fuel or water, and quotes Pentagon spokesperson Sean Parnell saying \"Power is combat now.\" Not checked here.",
       "also": []
     }
   ]
