@@ -2842,3 +2842,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the new pulse post to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T04:15Z
+- Captures read: 0400Z. Last read: 0400Z.
+- X's check: 0400Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 40 items (1 new, 1 dropped). New: Thmanyah Sports video of Ivan Toney's penalty for Al-Ahli (sports, Arabic, caption read as ending the match with a fourth goal). Dropped, past 36 hours: Fabrizio Romano on Kompany. Header moved to 0400Z. The build holds one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: SussedSponge Tim Burton claim and Ethan Klein post (claims about real people, unchecked); Pat McAfee kick video (no description); ChuksEricE and HappyPunch (private_individual); Brandi Kruse politics post and Musk posts (account placed); Fabien_Roussel (same Paris march as LucAuffret, already on the pulse); Romano's Eberl update (account would hold two places on one desk, noted for the next story pass).
+- Requests: removed the dropped post and added the new one in watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

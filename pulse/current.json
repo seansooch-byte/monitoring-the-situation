@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T03:30:00Z",
-  "capture": "2026-10-25T0301Z",
+  "updated_at": "2026-10-25T04:10:00Z",
+  "capture": "2026-10-25T0400Z",
   "items": [
-    {
-      "id": "2113656547834487022",
-      "desk": "sports",
-      "line": "Fabrizio Romano says Vincent Kompany was taken to a Munich hospital by ambulance after he collapsed after training today, citing BILD and Sky. Not checked here.",
-      "also": []
-    },
     {
       "id": "2113798038586282014",
       "desk": "entertainment",
@@ -235,6 +229,12 @@
       "id": "2113829143792189536",
       "desk": "sports",
       "line": "Complex Sneakers reports that the NFL fined Caleb Williams over $11K for the Caddix cleats he wore against the Atlanta Falcons, saying they broke the league uniform and equipment rules. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113723222843691122",
+      "desk": "sports",
+      "line": "Thmanyah Sports, a Saudi sports outlet, posts a video of Ivan Toney taking a penalty in Al-Ahli against Al-Khaleej in the Saudi Pro League. The caption is in Arabic; as I read it, it says the penalty ends the match with a fourth goal.",
       "also": []
     }
   ]
