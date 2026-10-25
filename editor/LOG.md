@@ -2912,3 +2912,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the two dropped posts (none cited by a story), added the three new ones; open.json updated_at only.
 - Shipped: yes, commit 33249c9d, live audit clean (log added in the next commit).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T11:25Z
+- Captures read: 1107Z. Last read: 1107Z.
+- X's check: 1107Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 37 items (1 new, 2 dropped). New: Real Madrid's own post on Courtois being a late absence from tonight's match, in Spanish, reason not stated (sports). Dropped, past 36 hours: Xbox on the GTA VI trailer, log4j on the Samsung TV. Header moved to 1107Z. The build holds one Musk, one DiscussingFilm and one SportsCenter post off the front page.
+- Added: none. Updated: none (story pass, nothing confirmable).
+- Left out: Courtois reason (Real Madrid's page would not load and search found only older stories, so no cause and no story); Barcelona incidents (3CatInfo in Catalan says shops closed at Placa Catalunya; search found only 2019 and 2025 coverage, nothing for today); Obama and the Cheesecake Factory remark (setting not confirmed outside X); Real_JFK_Jr_ (private_individual); Fortnite posts (no description); other Acyn and Musk posts (account placed). For the next story pass: Courtois and the El Clasico result; Barcelona; context for the Obama remark; Brewers v Rays World Series.
+- Requests: watch.json: removed the two dropped posts (none cited by a story), added the Real Madrid post; open.json updated_at only.
+- Shipped: yes, commit 47ad664e, live audit clean (log added in the next commit).
+- For the main editor: web search returned mostly stale results this pass, which limited story research. The message that started me had no instructions beyond the contract.
