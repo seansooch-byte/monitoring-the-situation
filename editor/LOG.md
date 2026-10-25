@@ -2812,3 +2812,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the two new pulse posts to watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T01:20Z
+- Captures read: 0102Z. Last read: 0102Z.
+- X's check: 0102Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 42 items (0 new, 1 dropped). Dropped: Netflix on The Gentlemen season three, now past 36 hours. Header moved to 0102Z. The build holds one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: DirectorZyno hoof video (no media description, point not worked out); Texas v Ole Miss and Giannis posts (sports full, small); HappyPunch and iswiminnachos (private_individual); Talarico and Musk posts (story already live, Musk account placed); old_content posts.
+- Requests: removed the dropped post from watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T00:20:00Z",
-  "capture": "2026-10-25T0003Z",
+  "updated_at": "2026-10-25T01:20:00Z",
+  "capture": "2026-10-25T0102Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -42,12 +42,6 @@
       "also": [
         "2113664679952482591"
       ]
-    },
-    {
-      "id": "2113616429257765174",
-      "desk": "entertainment",
-      "line": "Netflix posts that the third season of The Gentlemen is now in production.",
-      "also": []
     },
     {
       "id": "2113649451697164594",
