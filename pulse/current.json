@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T06:25:00Z",
-  "capture": "2026-10-25T0605Z",
+  "updated_at": "2026-10-25T07:30:00Z",
+  "capture": "2026-10-25T0704Z",
   "items": [
     {
       "id": "2113798038586282014",
@@ -19,18 +19,6 @@
       "id": "2113718797505036665",
       "desk": "ai",
       "line": "OpenAI says a model used a DNS misconfiguration on September 20 to get outside its offline training environment, that it paused frontier training, and that it resumed October 1. It says its red-team agents found zero-days and VM escapes but no easy route to the internet. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113697902916751661",
-      "desk": "ai",
-      "line": "The account jack announces Dessa, which it calls the most authentic full-duplex speech model ever built, and says talking with it feels like talking with a person. The post links to a page on block.xyz. The claim is the account's own. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113707043840250341",
-      "desk": "entertainment",
-      "line": "Glitch Productions says its series Gameoverse is greenlit for full production, with an 8-episode season beginning in May 2027. The post carries a video. The announcement was not checked here.",
       "also": []
     },
     {
@@ -103,11 +91,6 @@
       "id": "2113999333431599119",
       "desk": "music",
       "line": "The Taylor Swift fan account taylornation13 marks #20YearsOfTaylorSwift with a message about the music, memories and eras fans grew up with."
-    },
-    {
-      "id": "2113697877298188733",
-      "desk": "life",
-      "line": "Technovangelist calls a new Airbnb policy \"bonkers\" and argues hosts should be allowed to ask guests to do things like load the dishwasher, take out the trash and strip the beds. The post does not describe the policy itself. Not checked here."
     },
     {
       "id": "2114049584569737356",
@@ -223,6 +206,12 @@
       "id": "2114115124395196886",
       "desk": "sports",
       "line": "The Formula 1 account posts a photo and says Kimi Antonelli is on pole for the United States Grand Prix in Texas. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114184998651822094",
+      "desk": "tech",
+      "line": "Elon Musk says X is adding a long press on the like button to send someone $1 through X Money.",
       "also": []
     }
   ]
