@@ -2822,3 +2822,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed the dropped post from watch.json; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T02:35Z
+- Captures read: 0207Z. Last read: 0207Z.
+- X's check: 0207Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 44 items (2 new, 0 dropped). New: Sanders on climate deaths in Europe (politics, not checked), Acyn clip of Obama on the White House decor (politics). Header moved to 0207Z. Most large posts in the capture are older than 36 hours or from accounts already placed.
+- Added: none. Updated: 2026-10-14-starshield-speed-limit-ukraine (WSJ report via ARY News that Musk ordered the cap; Rubio and Hegseth quotes; Telegraph account via The Next Web; I did not open the WSJ or Telegraph texts).
+- Left out: Ethan Klein post (claim about a real person, unchecked); Julian Alvarez apology (Fabrizio Romano placed); Musk Talarico posts (account placed); private_individual posts; cover_corp (Japanese, point not worked out). No new story: nothing new had a source I could open beyond what is live.
+- Requests: added the two new pulse posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

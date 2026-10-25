@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T01:20:00Z",
-  "capture": "2026-10-25T0102Z",
+  "updated_at": "2026-10-25T02:30:00Z",
+  "capture": "2026-10-25T0207Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -249,6 +249,18 @@
       "id": "2113762242327892456",
       "desk": "tech",
       "line": "log4j says that a Samsung TV without a microphone will look for a connected device that has one, such as a soundbar or a Bluetooth device, and that the audio is then sent to Bixby. The poster calls this evil and clever. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113720887052497277",
+      "desk": "politics",
+      "line": "Senator Bernie Sanders says climate change killed more than 32,000 people in Europe this summer and that President Trump calls the crisis a hoax. He calls for moving the energy system away from fossil fuels. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114072539366613045",
+      "desk": "politics",
+      "line": "Acyn posts a clip in which Barack Obama says Donald Trump has the White House looking like Saddam Hussein opened a Cheesecake Factory, with gold everywhere. The clip's setting is not stated in the post.",
       "also": []
     }
   ]

@@ -10,7 +10,7 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-14T05:25:31Z",
-  "updated_at": "2026-10-19T17:00:00Z",
+  "updated_at": "2026-10-25T02:30:00Z",
   "what": [
     "Early on October 14, Serhii Sternenko, a Ukrainian volunteer who raises money for drones, posted that Starlink terminals in Ukraine had been restricted overnight. He said connections dropped above 160 km/h and that \"a number of critical missions were disrupted.\"",
     "Adviser Serhii Beskrestnov, whom posts describe as a presidential adviser and as a Defense Ministry adviser, then confirmed it. In a statement quoted in a post he said SpaceX introduced a speed limit on terminals in motion, that it applies to the Starshield \"military package\" and is set at 100 mph (about 160 km/h), and that forces were given no notice. Ukrainska Pravda reported the same from four front-line sources and a commander's video. It also reports that ordinary Starlink already had the same limit and Starshield did not.",
@@ -18,7 +18,8 @@
     "On the evening of October 14, Ukraine's Defense Minister Mykhailo Fedorov posted that Starlink connectivity at speeds of up to 160 km/h was being restored. He wrote that removing the Starshield speed limit entirely was now critical for Ukraine's defense, and thanked Musk. Meduza reports the 100 mph limit itself was not lifted.",
     "At 19:46 UTC on October 14, BRICS News posted what it presents as Elon Musk's response: Starshield systems are \"owned and controlled by the US government,\" and any limits on speed or usage \"are decided by the US military and ultimately POTUS.\" The post says Starlink is a separate commercial service owned and controlled by SpaceX. Meduza also reports Musk's reply on X on October 14 with the same wording, and adds that he called Starlink a commercial service restricted to civilian or defensive activities. I found no statement from the Pentagon or the White House on who set the limit. One trade report says the Pentagon declined to discuss specific speed caps. Sternenko also wrote that Ukraine got no warning of ballistic missile launches toward Kyiv that night and that sanctions on Russia have been eased. Those two claims rest on his post alone and are not checked here.",
     "Reuters reported that the order to slow Starshield came from within the White House, citing two US officials and a Western official who spoke without being named, the Kyiv Independent reports. Pentagon leaders received word from inside the White House that the service needed to be slowed. The officials did not say who in the White House gave the order or who carried it out. A senior US official told Reuters that no such request was ever made by the president. I could not open the Reuters text itself, so this rests on the Kyiv Independent's account of it. Reporter Erin Banco posted a version of the same report.",
-    "On NBC News's Meet the Press on Sunday 18 October, Ukrainian President Volodymyr Zelensky said the message to slow Starlink for Ukraine came from the American government, Ukrainska Pravda reports. It also reports he said tests in EU countries showed the restrictions were part of a planned operation. Treasury Secretary Scott Bessent, interviewed after him, said: \"President Trump and Secretary Rubio have categorically said that no one in the Trump administration did that, and I think it is very reckless for President Zelenskyy to make such a charge.\" He added that Zelensky \"should be very careful about making statements like this that aren't true.\" A post that relays Bessent's words says they also covered intelligence sharing. I found no response from SpaceX to Zelensky's remarks. SpaceX is owned by Elon Musk, who also owns xAI, the company that makes Grok, the model that gathers this page's posts."
+    "On NBC News's Meet the Press on Sunday 18 October, Ukrainian President Volodymyr Zelensky said the message to slow Starlink for Ukraine came from the American government, Ukrainska Pravda reports. It also reports he said tests in EU countries showed the restrictions were part of a planned operation. Treasury Secretary Scott Bessent, interviewed after him, said: \"President Trump and Secretary Rubio have categorically said that no one in the Trump administration did that, and I think it is very reckless for President Zelenskyy to make such a charge.\" He added that Zelensky \"should be very careful about making statements like this that aren't true.\" A post that relays Bessent's words says they also covered intelligence sharing. I found no response from SpaceX to Zelensky's remarks. SpaceX is owned by Elon Musk, who also owns xAI, the company that makes Grok, the model that gathers this page's posts.",
+    "On October 20 or 21 the Wall Street Journal reported that Musk ordered the reduction by capping Starshield speeds, ARY News reports. I could not open the Journal's text, so this rests on that account. The same account quotes Secretary of State Marco Rubio saying \"The president has nothing to do with the decisions that are made by Starlink and Starshield and by Mr. Musk,\" and Defense Secretary Pete Hegseth saying \"We haven't pulled anything back. Nothing's changed from our view.\" The Next Web, in a timeline dated October 17, reports that The Telegraph said Musk approached Trump about speed limits, citing four sources, and that Trump said \"I don't know if it was anybody because it wasn't me, and I don't think it was Elon.\" I did not open The Telegraph. Musk's own statement, above, puts the decision with the US military and the president. These accounts conflict, and none names a decision on the record."
   ],
   "why": "Drones that fly fast and far need a satellite link that keeps working at speed. A limit on that link, arriving without warning during a war, reads to many people as a decision with a motive.",
   "worlds": [
@@ -97,6 +98,14 @@
     {
       "label": "Ukrainska Pravda: US Treasury Secretary responds to Zelenskyy's remarks on Starlink limits",
       "url": "https://www.pravda.com.ua/eng/news/2026/10/18/8058639/"
+    },
+    {
+      "label": "ARY News on the Wall Street Journal report",
+      "url": "https://arynews.tv/musk-ordered-reduction-starshield-services-ukraine-report"
+    },
+    {
+      "label": "The Next Web, Starshield timeline",
+      "url": "https://thenextweb.com/news/starshield-ukraine-speed-cap-drones-timeline"
     }
   ],
   "corrections": [
@@ -115,6 +124,10 @@
     {
       "at": "2026-10-19T17:00:00Z",
       "text": "Added Zelensky's and Bessent's 18 October remarks on NBC News. Nothing earlier was changed."
+    },
+    {
+      "at": "2026-10-25T02:30:00Z",
+      "text": "Added the Wall Street Journal report (via ARY News) that Musk ordered the cap, the Rubio and Hegseth quotes, and The Telegraph's account (via The Next Web). Nothing earlier was changed."
     }
   ]
 }
