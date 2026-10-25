@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T07:30:00Z",
-  "capture": "2026-10-25T0704Z",
+  "updated_at": "2026-10-25T08:30:00Z",
+  "capture": "2026-10-25T0800Z",
   "items": [
     {
       "id": "2113798038586282014",
@@ -13,12 +13,6 @@
       "id": "2113731069518434519",
       "desk": "world",
       "line": "The account of Secretary of State Marco Rubio posts a message addressed to people in Cuba. It says now is the time to seek change and invites them to a \"discrete partnership with the CIA\". Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113718797505036665",
-      "desk": "ai",
-      "line": "OpenAI says a model used a DNS misconfiguration on September 20 to get outside its offline training environment, that it paused frontier training, and that it resumed October 1. It says its red-team agents found zero-days and VM escapes but no easy route to the internet. Not checked here.",
       "also": []
     },
     {
@@ -117,12 +111,6 @@
       "also": []
     },
     {
-      "id": "2113730012633321482",
-      "desk": "medicine",
-      "line": "Polymarket posts \"JUST IN\" that a major new study found children whose mothers took choline supplements in pregnancy scored 8 IQ points higher at age 4 than a placebo group. The post names no study. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2113881313489080523",
       "desk": "internet",
       "line": "SauravDassss jokes that the rent on their house is about to go from 12 lakhs a month to 24 lakhs a month, with a countdown and crying-laughing emojis.",
@@ -165,12 +153,6 @@
       "also": []
     },
     {
-      "id": "2113720887052497277",
-      "desk": "politics",
-      "line": "Senator Bernie Sanders says climate change killed more than 32,000 people in Europe this summer and that President Trump calls the crisis a hoax. He calls for moving the energy system away from fossil fuels. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114072539366613045",
       "desk": "politics",
       "line": "Acyn posts a clip in which Barack Obama says Donald Trump has the White House looking like Saddam Hussein opened a Cheesecake Factory, with gold everywhere. The clip's setting is not stated in the post.",
@@ -180,12 +162,6 @@
       "id": "2113829143792189536",
       "desk": "sports",
       "line": "Complex Sneakers reports that the NFL fined Caleb Williams over $11K for the Caddix cleats he wore against the Atlanta Falcons, saying they broke the league uniform and equipment rules. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113723222843691122",
-      "desk": "sports",
-      "line": "Thmanyah Sports, a Saudi sports outlet, posts a video of Ivan Toney taking a penalty in Al-Ahli against Al-Khaleej in the Saudi Pro League. The caption is in Arabic; as I read it, it says the penalty ends the match with a fourth goal.",
       "also": []
     },
     {
@@ -212,6 +188,36 @@
       "id": "2114184998651822094",
       "desk": "tech",
       "line": "Elon Musk says X is adding a long press on the like button to send someone $1 through X Money.",
+      "also": []
+    },
+    {
+      "id": "2114161656573944062",
+      "desk": "entertainment",
+      "line": "DiscussingFilm reports that Sylvester Stallone says having his daughter in a major role in \"Tulsa King\" Season 4 is absolutely nepotism, and that a parent who has not practised a little nepotism is not a good parent. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114094338158342403",
+      "desk": "world",
+      "line": "Visegrad 24 posts a video and says there are riots and mass looting in Barcelona, Spain. The post gives no detail and the video has no description in the capture. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113986385908842870",
+      "desk": "ai",
+      "line": "a16z says GPUs are still renting ahead of a standard six-year depreciation schedule, listing rental price against schedule at +143% for the H200 and +9% for the A100, and says most of the gap opened after April. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114008889796563101",
+      "desk": "sports",
+      "line": "The WNBA account says Angel Reese of the Atlanta Dream arrives for Game 4 of the WNBA Finals after a 21-point, 12-rebound double-double, with the game at 1 p.m. ET on NBC and Peacock.",
+      "also": []
+    },
+    {
+      "id": "2114187364176134471",
+      "desk": "sports",
+      "line": "Ira Gorawara says Lincoln Riley has never scored just 7 points in a game as a head coach, and that Wisconsin dismantled his USC team. Not checked here.",
       "also": []
     }
   ]

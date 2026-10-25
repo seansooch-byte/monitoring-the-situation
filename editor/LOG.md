@@ -2882,3 +2882,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed the three dropped posts from watch.json (none is cited by a story) and added the new one; open.json updated_at only.
 - Shipped: yes, commit 32f68d54, live audit clean.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T08:30Z
+- Captures read: 0800Z. Last read: 0800Z.
+- X's check: 0800Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 37 items (5 new, 4 dropped). New: DiscussingFilm on Stallone and Tulsa King (entertainment); Visegrad 24 on Barcelona (world, not checked); a16z on GPU rental prices (ai); WNBA on Angel Reese before Game 4 (sports); Ira Gorawara on Lincoln Riley and USC (sports). Dropped, past 36 hours: OpenAI on the DNS escape, Sanders on Europe, Thmanyah on Toney's penalty, Polymarket on choline (medicine now quiet). Header moved to 0800Z. The build holds one Musk, one DiscussingFilm and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: iswiminnachos, Itzbaby60 (private_individual); Musk Starlink ad, "True" and "Cool" (account placed, advertisement); JeremyDBoreing on Vivek Ramaswamy (claim about a real person, unchecked); realDonaldTrump link-only post (no text or media description); thsottiaux (recruiting post); Hayesfawcett3 (mismatch earlier); ESPN Ole Miss posts (account placed); MeidasTouch supercut (video not described); Jokic and Pelicans posts (sports already full). For the next story pass: Texas beating Ole Miss and USC losing to Wisconsin; Barcelona unrest if it is confirmed.
+- Requests: watch.json: removed three dropped posts, kept the OpenAI post (cited by a live story), added the five new ones; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
