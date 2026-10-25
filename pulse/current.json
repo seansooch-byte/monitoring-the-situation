@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T18:35:00Z",
-  "capture": "2026-10-25T1804Z",
+  "updated_at": "2026-10-25T19:15:00Z",
+  "capture": "2026-10-25T1904Z",
   "items": [
     {
       "id": "2114129811224629577",
@@ -14,11 +14,6 @@
       "desk": "politics",
       "line": "Angie Nixon says former President Obama is supporting her campaign for the U.S. Senate and posts a 62-second video. Her hashtag names Florida. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2113882115104296989",
-      "desk": "world",
-      "line": "Rupert Lowe, a UK politician from the Restore Britain party, says the Telegraph has reported that Israel's prime minister ordered support for Argentina over the Falkland Islands, and argues Britain owes Israel no unconditional support. The Telegraph report has not been checked here."
     },
     {
       "id": "2113999333431599119",
@@ -35,12 +30,6 @@
       "id": "2113992264313675877",
       "desk": "world",
       "line": "Luc Auffret posts a 22-second video he calls impressive images of a demonstration in Paris. The post is in French and does not say what the protest is about. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113881313489080523",
-      "desk": "internet",
-      "line": "SauravDassss jokes that the rent on their house is about to go from 12 lakhs a month to 24 lakhs a month, with a countdown and crying-laughing emojis.",
       "also": []
     },
     {
@@ -189,6 +178,18 @@
       "id": "2114338298818908594",
       "desk": "world",
       "line": "Amit Shah posts in Hindi and says Congress president Mallikarjun Kharge made an indecent remark in Patna today about Modi's father. He says Congress has abused Modi and his family before. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114303439819747717",
+      "desk": "world",
+      "line": "Polymarket, a prediction market, says former IDF chief Gadi Eizenkot is projected to become Israel's prime minister after Tuesday's election, replacing Netanyahu, at a 52% chance on its market. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114004969435136445",
+      "desk": "politics",
+      "line": "C3 posts a year-by-year list saying that from 2017 to 2023 Democrats and the media called Elon Musk great, and that after he endorsed Trump they called him a racist, then a Nazi, then a fascist. This is the poster's own account of it. Not checked here.",
       "also": []
     }
   ]

@@ -2992,3 +2992,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the dropped post, added the new one; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T19:15Z
+- Captures read: 1904Z. Last read: 1904Z.
+- X's check: 1904Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 31 items (2 new, 2 dropped). New: Polymarket on Eizenkot as projected Israeli prime minister (world, market claim attributed, not checked); C3's list on how Democrats and media described Musk (politics, poster's own account, not checked). Dropped, past 36 hours: Rupert Lowe, SauravDassss. Header moved to 1904Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Steven Cheung's Nicki Minaj video post (video not described, point not clear); Polymarket British Columbia post (second post from an account already placed); EZorreras Spanish video (no description, point not clear); Fabrizio Romano on Kompany (account placed); CR7Siuuuuuuuuyy and momshiedivine (private individual flags); GamesNosh HIV claim and John Goodman transformation (health claims, unchecked); DLoesch Tarrant County and HalfwayPost Trump pardon (unchecked claims); Musk posts (account placed); small NFL and Bengals posts (sports full). For the next story pass: Israeli election Tuesday and Eizenkot polling; BC election result.
+- Requests: watch.json: removed the two dropped posts, added the two new ones; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
