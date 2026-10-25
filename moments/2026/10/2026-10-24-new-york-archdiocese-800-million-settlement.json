@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-24-new-york-archdiocese-800-million-settlement",
+  "title": "Abuse survivors approve $800 million settlement with the Archdiocese of New York",
+  "dek": "About 1,300 people who say priests and church staff abused them as minors have agreed to a deal that keeps the archdiocese out of bankruptcy. It is not final until it is signed.",
+  "desks": ["justice"],
+  "standing": "developing",
+  "started_at": "2026-10-24T20:05:04Z",
+  "updated_at": "2026-10-25T16:30:00Z",
+  "what": [
+    "On Saturday 24 October, lawyers for survivors announced that the claimants had approved an $800 million settlement with the Archdiocese of New York. The New York Times reported the same day that the archdiocese will pay more than $800 million to settle the claims of 1,300 people.",
+    "The claims were brought under New York's Child Victims Act, which opened a one-year window for civil suits that the statute of limitations would otherwise have barred. Reuters and CNN describe the people as saying they were abused as minors by priests and lay staff.",
+    "The archdiocese first proposed the $800 million figure in May. Reporting from then says each claimant would receive at least $250,000, that $615 million would be paid first and the other $185 million within 15 months, and that survivors' lawyers urged clients to accept because the archdiocese would most likely otherwise file for bankruptcy. Reporting says the deal also lets survivors pursue the archdiocese's insurers for more, and that the archdiocese will publish documents about offenders and keep a list of credibly accused clergy.",
+    "Coverage describes it as second only to an $880 million deal reached by the Archdiocese of Los Angeles in 2024.",
+    "The agreement is not final. Reporting says the parties are to sign it in the week of 6 November. I could not open the full text of the agreement, so the terms above come from news reports and not from the document."
+  ],
+  "why": "It is one of the largest payouts in the wave of clergy abuse suits across the country, and it ends five years of litigation in the nation's biggest media market without a bankruptcy.",
+  "next": "The parties are due to sign the agreement in the week of 6 November, according to news reports.",
+  "posts": [
+    { "id": "2114085789139140865", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "CNN: New York's archdiocese and survivors of clergy abuse agree to $800 million legal settlement", "url": "https://www.cnn.com/2026/10/24/us/new-york-archdiocese-abuse-settlement" },
+    { "label": "U.S. News (Reuters): Abuse survivors approve $800 million settlement with Archdiocese of New York", "url": "https://www.usnews.com/news/world/articles/2026-10-24/abuse-survivors-approve-800-million-settlement-with-archdiocese-of-new-york" },
+    { "label": "NPR: Archdiocese of New York agrees to $800 million settlement over sexual abuse claims", "url": "https://www.npr.org/2026/10/24/nx-s1-6015522/new-york-archdiocese-settlement-agreement" },
+    { "label": "America magazine: Archdiocese of New York proposes $800 million settlement for abuse claims", "url": "https://www.americamagazine.org/news/2026/05/01/archdiocese-of-new-york-proposes-800-million-settlement-for-abuse-claims/" }
+  ]
+}

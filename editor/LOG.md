@@ -2962,3 +2962,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: swapped the dropped post for the new one; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T16:30Z
+- Captures read: 1606Z. Last read: 1606Z.
+- X's check: 1606Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 35 items, no change in membership; nothing past 36 hours and nothing new that passes the rules. Header moved to 1606Z. The build holds one Musk and one SportsCenter post off the front page.
+- Added: 2026-10-24-new-york-archdiocese-800-million-settlement (justice). Updated: none (I did not recheck every older live story this pass).
+- Left out: Obama on Iran and Hegseth (remarks known only from posts and a blog; I found no news report to confirm the wording); Eagle's Nest fire and arrest, Barcelona riots, Paris protest, Brazil crane video (web search found nothing); Texas Senate race and voter ID (claims about a named politician, covered by the live Talarico story).
+- Requests: watch.json and open.json updated_at only; the new story's post is already on the pulse and in watch.json.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
