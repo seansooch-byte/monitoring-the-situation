@@ -2942,3 +2942,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the four dropped posts (none cited by a story), added the Disclose.tv post; open.json updated_at only.
 - Shipped: yes, see report for commit and audit.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T14:30Z
+- Captures read: 1404Z. Last read: 1404Z.
+- X's check: 1404Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 35 items (1 new, 0 dropped). New: adaenechi on SNL UK's Nollywood Wicked sketch (entertainment, claim attributed, not checked). Nothing past 36 hours. Header moved to 1404Z. The build holds one Musk and one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: lordaemond and vonzoxo (sexual, grabber's exclusions); iswiminnachos (private_individual); Bulvarpress, Fortnite, Netflix, japan_sseul, deoksu_kr, JoshNorris (no description or point not worked out); ScottFriedman3 (StubHub story centres on a child); realmelanieking and GuntherEagleman (claims about named people, unchecked); Musk Starlink promo (advertisement); other Musk, Romano, Acyn, atrupar posts (account placed). For the next story pass: Obama on Iran; El Clasico; Texas early vote; Steelers v Saints in Paris.
+- Requests: watch.json: added the new post; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

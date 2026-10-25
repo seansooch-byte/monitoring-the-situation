@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T13:35:00Z",
-  "capture": "2026-10-25T1301Z",
+  "updated_at": "2026-10-25T14:30:00Z",
+  "capture": "2026-10-25T1404Z",
   "items": [
     {
       "id": "2114129811224629577",
@@ -204,6 +204,12 @@
       "id": "2114130103756325057",
       "desk": "world",
       "line": "Disclose.tv posts a 56-second video and says Obama states that Iran is \"in a stronger strategic position now than before the war started.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114130963085000934",
+      "desk": "entertainment",
+      "line": "The account adaenechi says SNL UK doing a Nollywood version of Wicked with Cynthia Erivo is the funniest thing the show has done, and posts a clip of almost three minutes. Not checked here.",
       "also": []
     }
   ]
