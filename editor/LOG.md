@@ -2802,3 +2802,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json swapped the dropped post for the new one; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T00:20Z
+- Captures read: 0003Z. Last read: 0003Z.
+- X's check: 0003Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. (Earlier mismatches and the 0602Z missing id still show as logged before.)
+- Pulse: 43 items (2 new, 0 dropped). New: Kanekoa The Great clip post on Talarico (politics, claims not checked), log4j on Samsung TVs sending audio from a connected device to Bixby (tech, not checked). Nothing past 36 hours; Netflix item passes it within the hour. Header moved to 0003Z. The build holds one SportsCenter post off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: South Carolina v Tennessee posts (ESPN already placed; Bleacher Report small, sports full); Eric Daugh post on Trump and Musk (Musk account already placed); Stella Parton voting machine post (election claim, nothing to check it against); Kyedae and Eric Chuks posts (private person or relationship drama); Elden Ring budget (DiscussingFilm already placed); old_content posts.
+- Requests: added the two new pulse posts to watch.json; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

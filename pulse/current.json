@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-24T23:20:00Z",
-  "capture": "2026-10-24T2300Z",
+  "updated_at": "2026-10-25T00:20:00Z",
+  "capture": "2026-10-25T0003Z",
   "items": [
     {
       "id": "2113656547834487022",
@@ -243,6 +243,18 @@
       "id": "2113990281322221932",
       "desk": "defense",
       "line": "Ukrainian President Volodymyr Zelenskyy says Starlink and Starshield speeds in Ukraine are back to what they were before the restrictions, restored overnight, and thanks Americans, members of Congress and the State Department. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113667772211421244",
+      "desk": "politics",
+      "line": "Kanekoa The Great posts a 17-second clip of Texas Senate nominee James Talarico speaking of border walls and bathroom bills. The post says he voted against border security nine times and against the bathroom bill. Those claims are the poster's. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2113762242327892456",
+      "desk": "tech",
+      "line": "log4j says that a Samsung TV without a microphone will look for a connected device that has one, such as a soundbar or a Bluetooth device, and that the audio is then sent to Bixby. The poster calls this evil and clever. Not checked here.",
       "also": []
     }
   ]
