@@ -2982,3 +2982,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json: removed the five dropped posts, added the new one; open.json updated_at only.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-25T18:35Z
+- Captures read: 1804Z. Last read: 1804Z.
+- X's check: 1804Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 31 items (1 new, 1 dropped). New: Amit Shah on Kharge's Patna remark (world, claim attributed, not checked). Dropped, past 36 hours: urfavedreaa. ANI refiled from politics to world (Indian politics). Header moved to 1804Z. Rupert Lowe and SauravDassss are at 36 hours and go next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Awk20000 on QTCinderella DMCA notices (allegation about a named person, unchecked); MikeLevin on a Forbes report on Trump (claim about a named person, not opened here); MrWhiplash_ Butler bodycam (claim, unchecked); steelers photo post (point not clear from its words); Grok Bot posts (promotion); cb_doge Starlink on Aer Lingus (promotional); BlackDumpling (speculation); mehdirhasan (insult); small NFL posts (sports full). For the next story pass: Forbes report on Trump crypto income; Kharge remark in Patna.
+- Requests: watch.json: removed the dropped post, added the new one; open.json updated_at only.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-25T17:30:00Z",
-  "capture": "2026-10-25T1702Z",
+  "updated_at": "2026-10-25T18:35:00Z",
+  "capture": "2026-10-25T1804Z",
   "items": [
     {
       "id": "2114129811224629577",
@@ -19,11 +19,6 @@
       "id": "2113882115104296989",
       "desk": "world",
       "line": "Rupert Lowe, a UK politician from the Restore Britain party, says the Telegraph has reported that Israel's prime minister ordered support for Argentina over the Falkland Islands, and argues Britain owes Israel no unconditional support. The Telegraph report has not been checked here."
-    },
-    {
-      "id": "2113861020590710934",
-      "desk": "offbeat",
-      "line": "urfavedreaa says the next day is the last \"Pythagorean theorem day\" anyone alive will get, and that there have only been 12 of them. The claim is the poster's. Not checked here."
     },
     {
       "id": "2113999333431599119",
@@ -186,8 +181,14 @@
     },
     {
       "id": "2114307258507235338",
-      "desk": "politics",
+      "desk": "world",
       "line": "ANI, an Indian news agency, says a ruckus broke out during Congress president Mallikarjun Kharge's speech in Patna, Bihar. It says a person in the crowd said PM Modi would not go anywhere, and Kharge answered with a remark about Modi. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114338298818908594",
+      "desk": "world",
+      "line": "Amit Shah posts in Hindi and says Congress president Mallikarjun Kharge made an indecent remark in Patna today about Modi's father. He says Congress has abused Modi and his family before. Not checked here.",
       "also": []
     }
   ]
