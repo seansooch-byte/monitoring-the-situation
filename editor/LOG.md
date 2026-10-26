@@ -3142,3 +3142,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the UFC and F1 posts and gains the four new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T12:10Z
+- Captures read: 1106Z. Last read: 1106Z.
+- X's check: 1106Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 26 items on the front page, 27 in the file (3 dropped, 3 new, Chamath attached to Musk's post). Dropped, past 36 hours: AJ English on the Brazil crane, Disclose.tv on Obama and Iran, adaenechi on SNL UK. New: Marvel Studios on Avengers: Doomsday (entertainment), BABYMONSTER clip (music), GTA 6 actress on Instagram (gaming). Quiet: disaster, justice, markets, business, medicine, internet, life, offbeat, ideas.
+- Added: 2026-10-25-wnba-finals-game-6-venue (sports). Updated: none.
+- Left out: Eric Bauza's death (a web search found nothing confirming it and its summary said he is alive; not confirmed outside X, so no story and the pulse line stays attributed); Pentagon 90-day bases claim (the Fox article would not open here, and the Daily Wire piece on the Sept. 30 FORTRESS America announcement has no 90-day figure); Israeli election, Jalen Williams injury, Trump and Minaj rally, Mbappe Ballon d'Or, Ryanair Glasgow notice (not researched this pass); Brazil fraud claims (unchecked); thereelestt, dave__emma, magataotao, yoxics (private_individual); Awk20000 on QTCinderella (accusation about a person, unchecked); older Musk and Talarico posts (account placed before).
+- Requests: watch.json drops the three aged-out posts and gains the Marvel, BABYMONSTER, GTA, Chamath and WNBA posts; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

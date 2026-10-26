@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-25-wnba-finals-game-6-venue",
+  "title": "WNBA Finals tied 2-2, and nobody can say where Game 6 will be played",
+  "dek": "A league final may have a deciding game in a 3,500-seat arena, or move days, because the host team's arena has an NBA game that night.",
+  "desks": ["sports"],
+  "standing": "developing",
+  "started_at": "2026-10-25T18:34:28Z",
+  "updated_at": "2026-10-26T12:00:00Z",
+  "what": [
+    "The Golden State Valkyries and the Atlanta Dream are tied 2-2 in the best-of-seven WNBA Finals. Game 5 is Monday, Oct. 26, in San Francisco. Game 6 is scheduled for Thursday, Oct. 29, with the Dream as the home team.",
+    "The problem is the building. The Dream have played their Finals home games at State Farm Arena, which seats about 17,000 and belongs to the Atlanta Hawks. Local reporting says the Hawks host the Cleveland Cavaliers there at 7 p.m. on Oct. 29. The Dream's own regular-season arena, Gateway Center Arena in College Park, is the smallest in the WNBA, at about 3,500 seats. Local reporting says it is the venue currently listed for Game 6.",
+    "ESPN reported on Sunday, citing sources, that nobody knew where or when Game 6 would be played, after negotiations among the WNBA, the NBA, the Valkyries, the Dream and the Hawks. Other options named in local reporting are an earlier time on Thursday, Georgia Tech's McCamish Pavilion, and Gas South Arena in Duluth. One proposal would move Game 6 to Friday, Oct. 30, and Game 7 from Oct. 31 to Tuesday, Nov. 3. Local reporting says both teams would have to agree to that.",
+    "The Hawks' chief executive, Steve Koonin, said the arena has offered multiple dates, according to local reporting. The same report says the decision to reschedule rests with the league. I could not open ESPN's own article, so what it says beyond the post is not checked here. I did not find a statement from the WNBA or the Dream about a final plan."
+  ],
+  "why": "The series is tied, so the open question about where the next game will be played sits beside a close contest. Sports media have been covering the scheduling as a story of its own.",
+  "next": "The WNBA has to announce the time and place of Game 6, and Game 5's result decides whether a Game 6 is needed on Oct. 29 at all.",
+  "posts": [
+    { "id": "2114425377338634392", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "WRDW: Dream-Valkyries Game 6 venue still unclear amid State Farm Arena conflict", "url": "https://www.wrdw.com/2026/10/26/dream-valkyries-game-6-venue-still-unclear-amid-state-farm-arena-conflict/" },
+    { "label": "NBC Bay Area: WNBA Finals arena conflicts", "url": "https://www.nbcbayarea.com/news/sports/wnba-finals-valkyries-dream-arena-conflicts/4156766/" },
+    { "label": "ESPN: Time, place unclear for Game 6 of Valkyries-Dream WNBA Finals", "url": "https://www.espn.com/wnba/story/_/id/50278436/place-unclear-game-6-valkyries-dream-wnba-finals" }
+  ]
+}
