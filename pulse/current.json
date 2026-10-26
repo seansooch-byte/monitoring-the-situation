@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T19:08:36Z",
-  "capture": "2026-10-26T1902Z",
+  "updated_at": "2026-10-26T20:20:00Z",
+  "capture": "2026-10-26T2005Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -256,6 +256,18 @@
       "id": "2114763990467330357",
       "desk": "entertainment",
       "line": "Netflix posts a 49-second video revealing the official choreography for \"How It's Done!\" by HUNTR/X.",
+      "also": []
+    },
+    {
+      "id": "2114745896315359305",
+      "desk": "business",
+      "line": "The Kobeissi Letter, a markets newsletter, says Microsoft is offering buyouts to 60,000 workers, citing Bloomberg. It says vice presidents and below in the US, Canada, India and the UK are eligible, about 27% of the workforce. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114789039434039302",
+      "desk": "sports",
+      "line": "The Ballon d'Or account posts its men's ranking from 30th to 11th place as the 2026 ceremony begins at the London Palladium.",
       "also": []
     }
   ]

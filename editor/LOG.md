@@ -3232,3 +3232,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the ESPN post, gains the new ids and attachments; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T20:20Z
+- Captures read: 2005Z. Last read: 2005Z.
+- X's check: 2005Z 31 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not cited). Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 42 items in the file (2 new, 0 dropped; none past 36 hours). New: Kobeissi Letter on Microsoft buyouts (business), the Ballon d'Or account's 30th to 11th ranking (sports). Header moved to 2005Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: 60 Minutes post (names a minor); Amanda_Goodall, LayoffAI, elliotrades (Microsoft already shown, speculation); PSGINT_ Kane wins and TouchlineX "website deleting articles" (ceremony claims unchecked, fan or rumor posts); ballondor Burna Boy and Women's finalists (same account); Musk Europe and Talarico posts (same account); BBC Lula's Army (world full, smaller); zombihime, Momooclip (private_individual); Mr_Whitehard (explicit, old). For the next story pass: Ballon d'Or result (check the official winners list); Microsoft buyouts (read Bloomberg or Microsoft); Comey ruling; Koenig death; Lula result; Anthropic S-1.
+- Requests: watch.json gains the two new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
