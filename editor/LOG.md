@@ -3072,3 +3072,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the ESPN post; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T04:20Z
+- Captures read: 0408Z. Last read: 0408Z.
+- X's check: 0408Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 28 items in the file, 26 on the page (1 new, 2 dropped). Dropped, past 36 hours: Fabien Roussel, Angie Nixon. New: ToonHive on the death of voice actor Eric Bauza (DiscussingFilm attached). Header moved to 0408Z. Next to age out: Fabrizio Romano on Arteta (about 17:12Z Oct 24).
+- Added: none. Updated: none (pulse pass).
+- Left out: CNschedules Bauza post (bare, small account; the other two carry it); older Talarico, Musk, Paxton posts (account placed or considered before); dave__emma and DetroitWilliam (private individual flags); Mcflyyp4 and LCUncens0red (allegations about private people). For the next story pass: confirm Eric Bauza's death outside X (family statement); Brazil result and Flavio Bolsonaro response; Israeli election Tuesday.
+- Requests: watch.json gains the two Bauza posts; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

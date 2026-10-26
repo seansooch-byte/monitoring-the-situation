@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T03:30:00Z",
-  "capture": "2026-10-26T0306Z",
+  "updated_at": "2026-10-26T04:20:00Z",
+  "capture": "2026-10-26T0408Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -13,12 +13,6 @@
       "id": "2114129811224629577",
       "desk": "disaster",
       "line": "AJ English posts a video and says a train hit a crane that had fallen onto the tracks in Brazil, and that the wreckage then dropped into a busy street in Sao Paulo. It says the crane operator was injured. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114029066349093173",
-      "desk": "politics",
-      "line": "Angie Nixon says former President Obama is supporting her campaign for the U.S. Senate and posts a 62-second video. Her hashtag names Florida. Not checked here.",
       "also": []
     },
     {
@@ -116,12 +110,6 @@
       ]
     },
     {
-      "id": "2114026298825674781",
-      "desk": "world",
-      "line": "Fabien Roussel posts a 16-second video in French and says there was a human tide against the cost of living and in defence of democracy, and that the protests continue until a general strike on 5 November. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114294862120104201",
       "desk": "sports",
       "line": "Real Madrid's official account posts, in Spanish, \"Courtois, baja de última hora\" (Courtois, late absence) with a link to the club's own news page. The post does not say why. Not checked here.",
@@ -183,6 +171,14 @@
       "line": "The Hoop Central says Jalen Williams has suffered a serious ankle injury and that a stretcher was brought out. Another post describes it as a leg injury. The extent is not confirmed here.",
       "also": [
         "2114527122308161757"
+      ]
+    },
+    {
+      "id": "2114560278147076501",
+      "desk": "entertainment",
+      "line": "ToonHive, an entertainment news account, says voice actor Eric Bauza has died at 46 and that his family confirms it in a new Instagram post. DiscussingFilm says he was the modern voice of Bugs Bunny and Daffy Duck. Not checked here.",
+      "also": [
+        "2114561950071853408"
       ]
     }
   ]
