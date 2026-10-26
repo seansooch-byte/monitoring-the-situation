@@ -3262,3 +3262,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the two Comey ids and drops the four dropped pulse ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T23:20Z
+- Captures read: 2302Z. Last read: 2302Z.
+- X's check: 2302Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 39 items in the file (2 swapped, 2 dropped). Swapped: Shams Charania on the Thunder injuries replaces The Hoop Central's earlier injury post (origin over aggregator, extent now reported); the Ballon d'Or account's Putellas winner post replaces its 30th to 11th ranking. Dropped as older than 36 hours: ANI Kharge ruckus, Polymarket Israel election. Header moved to 2302Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Pulisic Milan post (Romano already holds his place); TouchlineX and UTDTrey men's Ballon d'Or posts (ceremony claims, fan posts); LamineRoIe Putellas post (insult, unverified); lisssa046 Epstein image claim (unchecked); Talarico voter ID posts (campaign posts); private_individual posts. For the next story pass: Ballon d'Or men's winner (official list); Thunder injuries (team or ESPN); Comey charge; Microsoft buyouts; Lula result; Anthropic S-1.
+- Requests: watch.json gains the two new ids and drops five replaced or dropped pulse ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

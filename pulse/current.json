@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T22:20:00Z",
-  "capture": "2026-10-26T2204Z",
+  "updated_at": "2026-10-26T23:20:00Z",
+  "capture": "2026-10-26T2302Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -10,21 +10,9 @@
       "also": []
     },
     {
-      "id": "2114307258507235338",
-      "desk": "world",
-      "line": "ANI, an Indian news agency, says a ruckus broke out during Congress president Mallikarjun Kharge's speech in Patna, Bihar. It says a person in the crowd said PM Modi would not go anywhere, and Kharge answered with a remark about Modi. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114338298818908594",
       "desk": "world",
       "line": "Amit Shah posts in Hindi and says Congress president Mallikarjun Kharge made an indecent remark in Patna today about Modi's father. He says Congress has abused Modi and his family before. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114303439819747717",
-      "desk": "world",
-      "line": "Polymarket, a prediction market, says former IDF chief Gadi Eizenkot is projected to become Israel's prime minister after Tuesday's election, replacing Netanyahu, at a 52% chance on its market. Not checked here.",
       "also": []
     },
     {
@@ -42,12 +30,10 @@
       "also": []
     },
     {
-      "id": "2114528126877499579",
+      "id": "2114839265448521986",
       "desk": "sports",
-      "line": "The Hoop Central says Jalen Williams has suffered a serious ankle injury and that a stretcher was brought out. Another post describes it as a leg injury. The extent is not confirmed here.",
-      "also": [
-        "2114527122308161757"
-      ]
+      "line": "NBA reporter Shams Charania says Oklahoma City's Jalen Williams has a dislocated left ankle and a fractured fibula, and Cason Wallace a torn labrum in his left shoulder. He says both will have surgery and miss several months, most or all of the season.",
+      "also": []
     },
     {
       "id": "2114560278147076501",
@@ -241,9 +227,9 @@
       "also": []
     },
     {
-      "id": "2114789039434039302",
+      "id": "2114848376135004363",
       "desk": "sports",
-      "line": "The Ballon d'Or account posts its men's ranking from 30th to 11th place as the 2026 ceremony begins at the London Palladium.",
+      "line": "The Ballon d'Or account posts that Alexia Putellas is its 2026 Ballon d'Or winner, in what it says is her third.",
       "also": []
     },
     {
