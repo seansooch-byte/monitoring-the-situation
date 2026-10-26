@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T08:20:00Z",
-  "capture": "2026-10-26T0800Z",
+  "updated_at": "2026-10-26T09:25:00Z",
+  "capture": "2026-10-26T0906Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -19,12 +19,6 @@
       "id": "2114101812676411873",
       "desk": "sports",
       "line": "The UFC on Paramount+ account posts a clip and says Alexander Volkanovski remains featherweight champion at UFC 333. The card was scheduled for today; I found no report of the result outside X. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114085789139140865",
-      "desk": "justice",
-      "line": "The New York Times reports that the Archdiocese of New York will pay more than $800 million to settle the sexual abuse claims of 1,300 people. Not checked here.",
       "also": []
     },
     {
@@ -51,12 +45,6 @@
       "id": "2114161656573944062",
       "desk": "entertainment",
       "line": "DiscussingFilm reports that Sylvester Stallone says having his daughter in a major role in \"Tulsa King\" Season 4 is absolutely nepotism, and that a parent who has not practised a little nepotism is not a good parent. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114094338158342403",
-      "desk": "world",
-      "line": "Visegrad 24 posts a video and says there are riots and mass looting in Barcelona, Spain. The post gives no detail and the video has no description in the capture. Not checked here.",
       "also": []
     },
     {
@@ -161,6 +149,24 @@
       "id": "2114379262878728671",
       "desk": "world",
       "line": "María Corina Machado posts, in Spanish, \"Estoy aquí. Con ustedes\", which means \"I am here. With you.\" The post gives no context, and what prompted it was not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114582856978907401",
+      "desk": "world",
+      "line": "Narendra Modi, India's prime minister, congratulates Lula on what he calls his re-election victory in Brazil and says he looks forward to deepening the India-Brazil partnership. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114507747983302667",
+      "desk": "sports",
+      "line": "The NBA account says Luka Doncic scored 52 points in a Lakers road win and became the first Lakers player with 50 points, 10 assists, 5 rebounds and 5 threes in one game. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114605445822443729",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Kylian Mbappe will travel to London for the Ballon d'Or ceremony today, with Harry Kane and Lamine Yamal also attending. Not checked here.",
       "also": []
     }
   ]

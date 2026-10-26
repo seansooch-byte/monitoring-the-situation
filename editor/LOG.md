@@ -3122,3 +3122,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the Bearcats post; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T09:25Z
+- Captures read: 0906Z. Last read: 0906Z.
+- X's check: 0906Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 26 items in the file and on the page (3 new, 2 dropped). Dropped, past 36 hours: The New York Times on the Archdiocese of New York, Visegrad 24 on Barcelona. The justice desk is now empty. New: Narendra Modi congratulating Lula (world), the NBA account on Luka Doncic's 52 points (sports), Fabrizio Romano on Mbappe and the Ballon d'Or (sports). Header moved to 0906Z. Next to age out: Disclose.tv on Obama and Iran, adaenechi on SNL UK (about 23:00Z Oct 24).
+- Added: none. Updated: none (pulse pass).
+- Left out: EricLDaugh, TrumpDailyPosts, emd_worldwide, zerohedge on the Brazil vote (unchecked claims of fraud or irregularity); TheWyteRabbit1 on Kushner (unchecked claim); itamarbengvir cake post (Hebrew, point not sure); wakana493 (private_individual); Poxy_Boxy and other Komanche posts (small, about a suicide); older Talarico and Musk posts (account placed or considered before). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; WNBA Finals Game 6 venue; the Pentagon 90-day supplies claim; Komanche's death.
+- Requests: watch.json gains the Modi, NBA and Romano posts and drops the NYT and Visegrad 24 posts; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
