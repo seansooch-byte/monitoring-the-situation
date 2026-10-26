@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T12:30:00Z",
-  "capture": "2026-10-26T1204Z",
+  "updated_at": "2026-10-26T13:35:00Z",
+  "capture": "2026-10-26T1313Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -21,12 +21,6 @@
       "id": "2114184998651822094",
       "desk": "tech",
       "line": "Elon Musk says X is adding a long press on the like button to send someone $1 through X Money.",
-      "also": []
-    },
-    {
-      "id": "2114161656573944062",
-      "desk": "entertainment",
-      "line": "DiscussingFilm reports that Sylvester Stallone says having his daughter in a major role in \"Tulsa King\" Season 4 is absolutely nepotism, and that a parent who has not practised a little nepotism is not a good parent. Not checked here.",
       "also": []
     },
     {
@@ -148,24 +142,12 @@
       ]
     },
     {
-      "id": "2114153893248803088",
-      "desk": "politics",
-      "line": "Acyn posts words he attributes to Trump on high gas prices: \"We're making money like we've never made before.\" He quotes Trump as saying he does not care that critics will call it bragging. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114168277882581486",
       "desk": "ai",
       "line": "Elon Musk, replying to another user, says he thinks there will be a lot of stranded compute in partially complete data centers. Chamath Palihapitiya, an investor, quotes it with a longer post making a similar forecast for 2027. Not checked here.",
       "also": [
         "2114389987563381004"
       ]
-    },
-    {
-      "id": "2114147974167060557",
-      "desk": "entertainment",
-      "line": "Tokyo, an account, posts a 58-second video and says Eddie Murphy objected to Jerry Seinfeld naming Bernie Mac the best comedian he had seen. Murphy is quoted saying he loves Bernie but questioned putting him on comedy's Mount Rushmore. Not checked here.",
-      "also": []
     },
     {
       "id": "2114394551158722793",
@@ -177,6 +159,30 @@
       "id": "2114286107793948906",
       "desk": "music",
       "line": "The account ChqCnny posts a clip and says the group BABYMONSTER sang \"Pretty Savage\" by Blackpink live on the show maejeomgayo. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114416823902814471",
+      "desk": "entertainment",
+      "line": "DiscussingFilm reports that actress Annie Potts says Jim Parsons returning as Sheldon in the \"Young Sheldon\" finale broke her heart. It quotes her saying the closing scene \"gave me a stomach ache\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114584641290293757",
+      "desk": "entertainment",
+      "line": "Netflix Thailand posts, in Thai, a question asking which pairing people would like to see if Netflix made a Y (boys' love) series.",
+      "also": []
+    },
+    {
+      "id": "2114220274904371345",
+      "desk": "gaming",
+      "line": "Badboy1B posts an 84-second video titled \"The Evolution of Nukes in Call of Duty\".",
+      "also": []
+    },
+    {
+      "id": "2114366265191977303",
+      "desk": "politics",
+      "line": "America, a political account, posts a 52-second video of four statements it attributes to Democratic Texas Senate candidate James Talarico, and says he does not represent Texas. The quotes have not been checked here.",
       "also": []
     }
   ]

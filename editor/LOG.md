@@ -3162,3 +3162,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the Marvel and GTA posts and gains the Tokyo and White House posts; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T13:35Z
+- Captures read: 1313Z. Last read: 1313Z.
+- X's check: 1313Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 28 items in the file, 27 on the front page (4 new, 3 dropped). Dropped, past 36 hours: DiscussingFilm on Stallone, Acyn on Trump and gas prices, Tokyo on Eddie Murphy and Jerry Seinfeld. New: DiscussingFilm on Annie Potts and "Young Sheldon" (entertainment), Netflix Thailand question in Thai (entertainment), Badboy1B Call of Duty nukes video (gaming), America on Talarico statements (politics). Header moved to 1313Z. Gaming is back on the page.
+- Added: none. Updated: none (pulse pass).
+- Left out: ShowCaseShabazz "Dude what the fuck" (video not described, point not clear); GPAPassenger Ryanair diversion notice and IainWATP reply (unchecked); TheWyteRabbit1 on Kushner (unchecked claim about a real person); GuntherEagleman on Talarico (unchecked claim about a person); VladTheInflator, LookAtMyMeat1, nedfulmer (insults or point unclear); thereelestt, dave__emma, magataotao, RoyIsThaTruth, yoxics, CR7Siuuuuuuuuyy (private_individual); Elon Musk's other posts (account placed before); HormuzLetter (aggregator of the Fox Pentagon story). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; the Pentagon 90-day supplies claim; the Trump and Nicki Minaj rally; Talarico statements; the Ryanair Glasgow notice.
+- Requests: watch.json drops the three aged-out posts and gains the four new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
