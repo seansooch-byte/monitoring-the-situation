@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T09:25:00Z",
-  "capture": "2026-10-26T0906Z",
+  "updated_at": "2026-10-26T10:35:00Z",
+  "capture": "2026-10-26T1007Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -16,24 +16,12 @@
       "also": []
     },
     {
-      "id": "2114101812676411873",
-      "desk": "sports",
-      "line": "The UFC on Paramount+ account posts a clip and says Alexander Volkanovski remains featherweight champion at UFC 333. The card was scheduled for today; I found no report of the result outside X. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114556978462912585",
       "desk": "sports",
       "line": "The NFL account posts a photo and says the defending champion Seahawks won decisively on Sunday Night Football. ESPN says Kansas City lost its first game of the year. Not checked here.",
       "also": [
         "2114558483739660471"
       ]
-    },
-    {
-      "id": "2114115124395196886",
-      "desk": "sports",
-      "line": "The Formula 1 account posts a photo and says Kimi Antonelli is on pole for the United States Grand Prix in Texas. Not checked here.",
-      "also": []
     },
     {
       "id": "2114184998651822094",
@@ -167,6 +155,26 @@
       "id": "2114605445822443729",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Kylian Mbappe will travel to London for the Ballon d'Or ceremony today, with Harry Kane and Lamine Yamal also attending. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114455995304784345",
+      "desk": "politics",
+      "line": "HQNewsNow posts a 38-second video and says President Trump, at a rally, made a remark about the singer Nicki Minaj's body and asked her to stand up. PopBase places the rally in Port Huron, Michigan. A second post carries Minaj's own words from the stage.",
+      "also": [
+        "2114483639031394798"
+      ]
+    },
+    {
+      "id": "2114153893248803088",
+      "desk": "politics",
+      "line": "Acyn posts words he attributes to Trump on high gas prices: \"We're making money like we've never made before.\" He quotes Trump as saying he does not care that critics will call it bragging. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114168277882581486",
+      "desk": "ai",
+      "line": "Elon Musk, replying to another user's post, says he thinks there will be a lot of stranded compute in partially complete data centers.",
       "also": []
     }
   ]

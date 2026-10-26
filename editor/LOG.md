@@ -3132,3 +3132,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the Modi, NBA and Romano posts and drops the NYT and Visegrad 24 posts; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T10:35Z
+- Captures read: 1007Z. Last read: 1007Z.
+- X's check: 1007Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 27 items in the file, 26 on the front page (3 new, 2 dropped). Dropped, past 36 hours: UFC on Paramount+ (Volkanovski), Formula 1 (Antonelli pole). New: HQNewsNow on Trump's remark to Nicki Minaj at the Michigan rally, with PopBase's post of her speech attached (politics); Acyn on Trump and gas prices (politics); Elon Musk on stranded compute (ai, held off the front page as his second post, it stands on the ai desk). Header moved to 1007Z. Politics and ai desks are back on the page. Next to age out: AJ English on the Brazil crane, Disclose.tv, adaenechi (about 23:00Z to 00:00Z Oct 24-25).
+- Added: none. Updated: none (pulse pass).
+- Left out: GPAPassenger Ryanair Glasgow diversion (point unclear, unchecked); MasterC2222 Netflix meme and broiledink TikTok comment (point not clear from words); RPLNews_eng goalkeeper goal (sports full); yoxics, dave__emma, magataotao (private_individual); EkpoIruoghene8 date story (private person); Corpfessions (anonymous, unverifiable); EricLDaugh, emd_worldwide, zerohedge, TrumpDailyPosts on Brazil (unchecked fraud claims); BraddrofliT on Minaj (claims about private people); older Talarico and Musk posts (account placed before). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; WNBA Finals Game 6 venue; the Pentagon 90-day supplies claim; the Trump and Nicki Minaj rally; the Ryanair Glasgow notice.
+- Requests: watch.json drops the UFC and F1 posts and gains the four new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
