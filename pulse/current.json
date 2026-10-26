@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T20:20:00Z",
-  "capture": "2026-10-26T2005Z",
+  "updated_at": "2026-10-26T21:30:00Z",
+  "capture": "2026-10-26T2105Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -268,6 +268,18 @@
       "id": "2114789039434039302",
       "desk": "sports",
       "line": "The Ballon d'Or account posts its men's ranking from 30th to 11th place as the 2026 ceremony begins at the London Palladium.",
+      "also": []
+    },
+    {
+      "id": "2114808903540298141",
+      "desk": "sports",
+      "line": "The Dunk Central passes on remarks it credits to @Scalabrine on SiriusXM. He says that, as he understands it, Jaylen Brown went to the Celtics with a list of demands and wanted to be traded to Milwaukee. Brown is not heard in the post. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114549828537495944",
+      "desk": "sports",
+      "line": "The official F1 account says Max Verstappen is out of contention for the Drivers’ Championship for the first time since 2020, after the United States Grand Prix.",
       "also": []
     }
   ]
