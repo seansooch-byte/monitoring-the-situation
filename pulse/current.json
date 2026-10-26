@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T17:45:00Z",
-  "capture": "2026-10-26T1705Z",
+  "updated_at": "2026-10-26T18:45:00Z",
+  "capture": "2026-10-26T1800Z",
   "items": [
     {
       "id": "2114425377338634392",
@@ -216,6 +216,18 @@
       "id": "2114499491575279795",
       "desk": "sports",
       "line": "The NFL account posts a 9-second clip of Jahmyr Gibbs getting a first down and sliding short of the end zone in the Packers and Lions game.",
+      "also": []
+    },
+    {
+      "id": "2114772843997351993",
+      "desk": "ai",
+      "line": "Elon Musk says a Grok assistant called \"Grok @Bot\" is like hiring an incredibly competent chief of staff. Musk owns xAI, which makes Grok, the model that gathers this page's posts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114760720466292743",
+      "desk": "ai",
+      "line": "Peter St Onge, an economist, says he has gone \"full Grokbot\": it checks his email, DMs, mentions and LinkedIn every hour, drafts replies and drops the rest. He says it feels like a personal secretary two days in. Grok is made by xAI, which makes the model that gathers this page's posts. Not checked here.",
       "also": []
     }
   ]

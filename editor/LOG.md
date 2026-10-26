@@ -3212,3 +3212,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the three aged-out posts and the Seahawks attachment, gains the five new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T18:45Z
+- Captures read: 1800Z. Last read: 1800Z.
+- X's check: 1800Z 28 confirmed, 0 missing, 0 mismatched, 1 withheld (1864903571332026741, twicemvfile, old post, not cited). Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 36 items in the file (2 new, 0 dropped; none past 36 hours). New, both ai: Elon Musk on "Grok @Bot" and Peter St Onge on his Grokbot; each line says xAI makes Grok, the model gathering this page's posts. The build holds the Musk ai item off the front page (one account, one place); it stands on the ai desk. Header moved to 1800Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Starlink and "Soon Moon" posts (same account, smaller); cb_doge Starlink airlines (promotion); von der Leyen on Lula (world already full); ballondor, Coach_Yac, gmgnai/justphoenix_7/TomiXweb3 (small or ads); dollfacedfishy, manifestinaa, TRIGGERHAPPYV1, Dexerto 3-year-old, lalovestrump (private_individual); TheBHentel (slur-heavy); EricLDaugh Lula posts and Geiger_Capital (unchecked election claims). For the next story pass: Lula result and the vote-extension claim; Anthropic S-1 (read the filing); Comey ruling; Koenig death.
+- Requests: watch.json gains the two new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
