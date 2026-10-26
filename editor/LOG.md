@@ -3092,3 +3092,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the two NFL/ESPN posts and drops the Arteta post; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T06:20Z
+- Captures read: 0602Z. Last read: 0602Z.
+- X's check: 0602Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 28 items in the file, 27 on the page (1 new, 1 dropped). Dropped, past 36 hours: ESPN on Malachi Toney. New: Bill Ackman on Israel's next government (world). Header moved to 0602Z. Next to age out: Elon Musk on Starlink (about 18:38Z Oct 24).
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix "no one's cooler than her" (video not described); UEFA Ballon d'Or teaser (no content, sports desk full); EricLDaugh and TrumpDailyPosts Brazil posts (unchecked claims of invalid results); BrukeFasil, alanaruberry, piloevilo (private individual flags); MasterC2222 (meme point unclear); older Talarico and Musk posts (account placed or considered before). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; WNBA Finals Game 6 venue.
+- Requests: watch.json gains the Ackman post and drops the Toney post; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

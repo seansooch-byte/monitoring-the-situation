@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T05:20:00Z",
-  "capture": "2026-10-26T0502Z",
+  "updated_at": "2026-10-26T06:20:00Z",
+  "capture": "2026-10-26T0602Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -13,12 +13,6 @@
       "id": "2114129811224629577",
       "desk": "disaster",
       "line": "AJ English posts a video and says a train hit a crane that had fallen onto the tracks in Brazil, and that the wreckage then dropped into a busy street in Sao Paulo. It says the crane operator was injured. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114049584569737356",
-      "desk": "sports",
-      "line": "ESPN posts a video of Miami's Malachi Toney, which it says shows him taking a play 53 yards for a touchdown.",
       "also": []
     },
     {
@@ -182,6 +176,12 @@
       "also": [
         "2114561950071853408"
       ]
+    },
+    {
+      "id": "2114284565581734185",
+      "desk": "world",
+      "line": "Bill Ackman, an investor, says Itamar Ben-Gvir and Bezalel Smotrich have damaged Israel's reputation abroad. He says a government formed without them would signal that Israel is turning a new page and would help rebuild its credibility and widen the Abraham Accords.",
+      "also": []
     }
   ]
 }
