@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T21:30:00Z",
-  "capture": "2026-10-26T2105Z",
+  "updated_at": "2026-10-26T22:20:00Z",
+  "capture": "2026-10-26T2204Z",
   "items": [
     {
       "id": "2114774134848970868",
       "desk": "sports",
       "line": "ESPN reporter Ramona Shelburne says, citing sources, that Game 6 of the WNBA Finals will be played Thursday at 12:30 pm at State Farm Arena in Atlanta, with the Hawks-Cavaliers game that night moved back to 8 pm. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114294862120104201",
-      "desk": "sports",
-      "line": "Real Madrid's official account posts, in Spanish, \"Courtois, baja de última hora\" (Courtois, late absence) with a link to the club's own news page. The post does not say why. Not checked here.",
       "also": []
     },
     {
@@ -31,12 +25,6 @@
       "id": "2114303439819747717",
       "desk": "world",
       "line": "Polymarket, a prediction market, says former IDF chief Gadi Eizenkot is projected to become Israel's prime minister after Tuesday's election, replacing Netanyahu, at a 52% chance on its market. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114296536922529937",
-      "desk": "defense",
-      "line": "Fox News Politics says documents reviewed by Fox News Digital show the Pentagon is preparing major U.S. bases to run 90 days without outside power, fuel or water, and quotes Pentagon spokesperson Sean Parnell saying \"Power is combat now.\" Not checked here.",
       "also": []
     },
     {
@@ -68,12 +56,6 @@
       "also": [
         "2114561950071853408"
       ]
-    },
-    {
-      "id": "2114284565581734185",
-      "desk": "world",
-      "line": "Bill Ackman, an investor, says Itamar Ben-Gvir and Bezalel Smotrich have damaged Israel's reputation abroad. He says a government formed without them would signal that Israel is turning a new page and would help rebuild its credibility and widen the Abraham Accords.",
-      "also": []
     },
     {
       "id": "2114379262878728671",
@@ -140,12 +122,6 @@
       "id": "2114394551158722793",
       "desk": "politics",
       "line": "The White House account says the illegal immigrant population is \"collapsing\" and is down more than 2.3 million since President Trump took office. The post's text gives no source for the figure. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114286107793948906",
-      "desk": "music",
-      "line": "The account ChqCnny posts a clip and says the group BABYMONSTER sang \"Pretty Savage\" by Blackpink live on the show maejeomgayo. Not checked here.",
       "also": []
     },
     {
@@ -281,6 +257,14 @@
       "desk": "sports",
       "line": "The official F1 account says Max Verstappen is out of contention for the Drivers’ Championship for the first time since 2020, after the United States Grand Prix.",
       "also": []
+    },
+    {
+      "id": "2114828494081499200",
+      "desk": "justice",
+      "line": "CNN's Kaitlan Collins posts that James Comey, the former FBI director, has been charged again, and links a federal court filing in United States v. Comey. BNO News says the charge is leaking national defense information to a reporter in 2016. Not checked here.",
+      "also": [
+        "2114829411090657334"
+      ]
     }
   ]
 }

@@ -3252,3 +3252,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the new pulse and story ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. For the next pass: Ballon d'Or result, Terra benchmarks, Comey ruling, Lula result.
+
+## 2026-10-26T22:20Z
+- Captures read: 2204Z. Last read: 2204Z.
+- X's check: 2204Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 41 items in the file (1 new, 4 dropped). New: Kaitlan Collins on the new Comey charge, with BNO News attached (justice). Dropped as older than 36 hours: Real Madrid, Fox News Politics Pentagon, Bill Ackman, ChqCnny. Header moved to 2204Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Unai Simon goalkeeper award posts (ballondor and Romano already hold their sports places); Padilla voter-roll posts (one-sided, unchecked); Talarico voter ID posts (campaign posts); 3-year-old soccer post (private_individual); old_content posts. For the next story pass: Comey charge (read the court filing and DOJ); Ballon d'Or winners list; Microsoft buyouts; Lula result; Anthropic S-1.
+- Requests: watch.json gains the two Comey ids and drops the four dropped pulse ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
