@@ -3062,3 +3062,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-26-01 (Flávio Bolsonaro statement, legal challenge, court declaration). watch.json updated.
 - Shipped: see report.
 - For the main editor: the NPR page on the Brazil result timed out twice; the story relies on PBS and the Rio Times. An earlier commit in this pass briefly dropped a "Requests" line from the 0004Z entry; restored here. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T03:30Z
+- Captures read: 0306Z. Last read: 0306Z.
+- X's check: 0306Z 31 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 29 items in the file, 27 on the page (1 new, 3 dropped). Dropped, past 36 hours: taylornation13, WNBA Reese Game 4, C3. New: ESPN on the WNBA Finals Game 6 venue (the build holds it off the front page because another ESPN post outranks it). Header moved to 0306Z. Next to age out: Roussel, Angie Nixon (about 16:10Z Oct 24).
+- Added: none. Updated: none (pulse pass).
+- Left out: HQNewsNow and PopBase Nicki Minaj posts (crude, unchecked); DeRozan dark-room post (point unclear); MarioNawfal Brazil "fishy" post (unchecked claim); magataotao and yoxics (private individual flags); GPAPassenger flight notice (local); Musk posts (account placed). For the next story pass: WNBA Finals Game 6 venue dispute; Brazil result and Flavio Bolsonaro response (r-2026-10-26-01 open); Israeli election Tuesday.
+- Requests: watch.json gains the ESPN post; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

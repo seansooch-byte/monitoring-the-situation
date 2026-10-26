@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T02:35:00Z",
-  "capture": "2026-10-26T0208Z",
+  "updated_at": "2026-10-26T03:30:00Z",
+  "capture": "2026-10-26T0306Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -20,11 +20,6 @@
       "desk": "politics",
       "line": "Angie Nixon says former President Obama is supporting her campaign for the U.S. Senate and posts a 62-second video. Her hashtag names Florida. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2113999333431599119",
-      "desk": "music",
-      "line": "The Taylor Swift fan account taylornation13 marks #20YearsOfTaylorSwift with a message about the music, memories and eras fans grew up with."
     },
     {
       "id": "2114049584569737356",
@@ -101,9 +96,9 @@
       "also": []
     },
     {
-      "id": "2114008889796563101",
+      "id": "2114425377338634392",
       "desk": "sports",
-      "line": "The WNBA account says Angel Reese of the Atlanta Dream arrives for Game 4 of the WNBA Finals after a 21-point, 12-rebound double-double, with the game at 1 p.m. ET on NBC and Peacock.",
+      "line": "ESPN reports, citing sources, that nobody knows where or when Game 6 of the WNBA Finals will be played, after negotiations among the WNBA, NBA, Valkyries, Dream and Atlanta Hawks ran into Sunday. The linked story says the Dream's Finals venue is in doubt. Not checked here.",
       "also": []
     },
     {
@@ -160,12 +155,6 @@
       "id": "2114303439819747717",
       "desk": "world",
       "line": "Polymarket, a prediction market, says former IDF chief Gadi Eizenkot is projected to become Israel's prime minister after Tuesday's election, replacing Netanyahu, at a 52% chance on its market. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114004969435136445",
-      "desk": "politics",
-      "line": "C3 posts a year-by-year list saying that from 2017 to 2023 Democrats and the media called Elon Musk great, and that after he endorsed Trump they called him a racist, then a Nazi, then a fascist. This is the poster's own account of it. Not checked here.",
       "also": []
     },
     {
