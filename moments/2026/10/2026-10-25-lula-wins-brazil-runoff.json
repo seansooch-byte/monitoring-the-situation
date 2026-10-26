@@ -1,0 +1,57 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-25-lula-wins-brazil-runoff",
+  "title": "Lula wins Brazil's presidential runoff over Flávio Bolsonaro after a day of voting problems",
+  "dek": "Brazil's president won a fourth term by about 4.4 million votes. Posts from the right already say the vote was stolen. The count so far does not show that.",
+  "desks": [
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-25T23:58:00Z",
+  "updated_at": "2026-10-26T02:30:00Z",
+  "what": [
+    "Luiz Inácio Lula da Silva won Brazil's presidential runoff on Sunday 25 October, according to PBS and the Rio Times. The Rio Times reports that with 99.98 percent of polling stations counted, Lula had 51.78 percent of valid votes and Flávio Bolsonaro, a senator and the son of former president Jair Bolsonaro, had 48.22 percent. That is a lead of about 4.4 million votes. PBS says the electoral court had counted 100 percent when the result was announced.",
+    "Voting ran late. The Rio Times reports that a justice of the Supreme Federal Court ordered polls kept open until 6 p.m. Eastern time, two hours past the planned close, because of problems with voting machines. It says the electoral court swapped about 900 of its 499,248 machines by noon. It says Lula's coalition blamed transport failures and Flávio Bolsonaro's team blamed storms and power cuts. PBS reports that the evening was marked by chaos at some polling places and that the Bolsonaro side may take legal action over the extension.",
+    "I could not find a statement from Flávio Bolsonaro on the result. The Rio Times reported that no ruling on any challenge had been made as of its last update, and I found no filed challenge. The electoral court's formal declaration of the winner had not been reported when I checked.",
+    "A post by a Trump-themed account at 11:04 p.m. UTC, before the result was called, says communists are trying to steal the election. It gives no evidence. I found no report in the sources above of fraud in the count. The machine failures and the extended hours are on the record; whether they changed the outcome is not."
+  ],
+  "why": "It is a large election in the Americas that Donald Trump's supporters and Lula's supporters read as a win or a loss for their side. The outcome landed late on a Sunday night in the US, as the voting-problem story was still moving.",
+  "worlds": [
+    {
+      "name": "Lula's supporters",
+      "sees": "A clear win for Lula, celebrated by allies abroad. Bernie Sanders congratulated him on what he called an extraordinary reelection victory.",
+      "post": "2114515422863040653"
+    },
+    {
+      "name": "Bolsonaro's supporters",
+      "sees": "A contest the left is taking by improper means. One Trump-themed account says communists are again trying to steal the election in Brazil against Bolsonaro.",
+      "post": "2114493377823818040"
+    }
+  ],
+  "common": "Established by PBS and the Rio Times: Lula won by roughly 4.4 million votes with the count essentially complete. Also established: voting machines failed in places and a Supreme Federal Court justice extended voting hours. Not established: that any of this changed the result, or that fraud occurred. The theft claim in the second world rests on a post that cites nothing. I found no sourced report of a filed challenge or of Flávio Bolsonaro's position.",
+  "next": "The electoral court's formal declaration of the result, Flávio Bolsonaro's statement, and any legal challenge over the voting extension.",
+  "posts": [
+    {
+      "id": "2114506908128428090",
+      "role": "origin"
+    },
+    {
+      "id": "2114515422863040653",
+      "role": "voice"
+    },
+    {
+      "id": "2114493377823818040",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "PBS NewsHour: Lula beats Bolsonaro in Brazil runoff, securing fourth presidential term",
+      "url": "https://www.pbs.org/newshour/world/brazil-votes-in-a-tense-lula-vs-bolsonaro-runoff-with-u-s-influence-over-latin-america-at-stake"
+    },
+    {
+      "label": "The Rio Times: Lula Wins Brazil Runoff With 51.78%",
+      "url": "https://www.riotimesonline.com/brazil-runoff-live-count-who-leads-2026/"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T01:10:00Z",
-  "capture": "2026-10-26T0102Z",
+  "updated_at": "2026-10-26T02:35:00Z",
+  "capture": "2026-10-26T0208Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -33,21 +33,9 @@
       "also": []
     },
     {
-      "id": "2113992264313675877",
-      "desk": "world",
-      "line": "Luc Auffret posts a 22-second video he calls impressive images of a demonstration in Paris. The post is in French and does not say what the protest is about. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114072550426681781",
       "desk": "politics",
       "line": "Aaron Rupar posts a video of former President Obama saying of the White House, \"He's got the White House looking like Saddam Hussein opened up a Cheesecake Factory.\" What the remark refers to is not described in the capture and is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113982676436992413",
-      "desk": "internet",
-      "line": "Anomali210830 says today, 10/24/26, is Pythagorean Theorem Day because 10² + 24² = 26², and says it is the last such date in our lifetime. The arithmetic adds up (100 + 576 = 676); the claim about the last date is not checked here.",
       "also": []
     },
     {
@@ -60,12 +48,6 @@
       "id": "2114101812676411873",
       "desk": "sports",
       "line": "The UFC on Paramount+ account posts a clip and says Alexander Volkanovski remains featherweight champion at UFC 333. The card was scheduled for today; I found no report of the result outside X. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113990281322221932",
-      "desk": "defense",
-      "line": "Ukrainian President Volodymyr Zelenskyy says Starlink and Starshield speeds in Ukraine are back to what they were before the restrictions, restored overnight, and thanks Americans, members of Congress and the State Department. Not checked here.",
       "also": []
     },
     {
@@ -116,12 +98,6 @@
       "id": "2114094338158342403",
       "desk": "world",
       "line": "Visegrad 24 posts a video and says there are riots and mass looting in Barcelona, Spain. The post gives no detail and the video has no description in the capture. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2113986385908842870",
-      "desk": "ai",
-      "line": "a16z says GPUs are still renting ahead of a standard six-year depreciation schedule, listing rental price against schedule at +143% for the H200 and +9% for the A100, and says most of the gap opened after April. Not checked here.",
       "also": []
     },
     {
@@ -197,6 +173,28 @@
       "desk": "defense",
       "line": "Fox News Politics says documents reviewed by Fox News Digital show the Pentagon is preparing major U.S. bases to run 90 days without outside power, fuel or water, and quotes Pentagon spokesperson Sean Parnell saying \"Power is combat now.\" Not checked here.",
       "also": []
+    },
+    {
+      "id": "2114506908128428090",
+      "desk": "world",
+      "line": "BRICSinfo, an account that covers the BRICS bloc, says Lula da Silva has won Brazil's presidential election, defeating Flavio Bolsonaro. Bernie Sanders congratulates Lula in the attached post.",
+      "also": [
+        "2114515422863040653"
+      ]
+    },
+    {
+      "id": "2114444137067844004",
+      "desk": "science",
+      "line": "SpaceX posts video of a full-duration static fire of all 33 engines on the Super Heavy booster, which it says is preparing for Flight 15.",
+      "also": []
+    },
+    {
+      "id": "2114528126877499579",
+      "desk": "sports",
+      "line": "The Hoop Central says Jalen Williams has suffered a serious ankle injury and that a stretcher was brought out. Another post describes it as a leg injury. The extent is not confirmed here.",
+      "also": [
+        "2114527122308161757"
+      ]
     }
   ]
 }

@@ -3038,8 +3038,7 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - X's check: 0004Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
 - Pulse: 32 items in the file, 31 on the page (0 new, 0 dropped). Nothing is past 36 hours yet; LucAuffret, Anomali210830 and a16z (about 35 hours) go in the next pass. Header moved to 0004Z.
 - Added: none. Updated: none (pulse pass).
-- Left out: Lions-Packers kicker and fourth-down posts (small); Musk Talarico and voter-ID posts (account placed); Mayemusk "no ID" voting post (claim about voting rules, unchecked); HQNewsNow Nicki Minaj posts (crude, unchecked); Pedro Pascal #BoraLula (fan photo post, point is thin); TRobinsonNewEra judge post (claim about a named judge, unchecked). For the next story pass: Brazil runoff result (Lula projected winner per the grabber's trend note, not researched); Israeli election Tuesday; Ethan Klein and QTCinderella allegations.
-- Requests: none changed.
+- Left out: Lions-Packers kicker and fourth-down posts (small); Musk Talarico and voter-ID posts (account placed); Mayemusk "no ID" voting post (claim about voting rules, unchecked); HQNewsNow Nicki Minaj posts (crude, unchecked); Pedro Pascal #BoraLula (fan photo post, point is thin); TRobinsonNewEra judge post (claim about a named judge, unchecked). For the next story pass: Brazil runoff result (Lula projected winner per the grabber's trend note, not researched); Israeli election Tuesday; Ethan Klein and QTCinderella allegations.- Requests: none changed.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
 
