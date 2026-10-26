@@ -3222,3 +3222,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the two new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T19:25Z
+- Captures read: 1902Z. Last read: 1902Z.
+- X's check: 1902Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 40 items in the file (4 new, 0 dropped; none past 36 hours). New: OpenAI on GPT-6.1 Terra and Cohere on a Qwen sandbox incident (ai), Breaking911 on the Jet2 runway excursion (world), Netflix HUNTR/X choreography (entertainment). Changed: the WNBA item now carries Ramona Shelburne's Game 6 venue and time (replaces the ESPN "nobody knows" post, facts moved); Romano's Mbappe item gains his Ballon d'Or top 10 post; Variety's Koenig item gains the AP post. Header moved to 1902Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Pau Cubarsi and Bellingham Ballon d'Or posts (Romano and ballondor, one account one place or smaller); mattxiv on Brazil and Nicki Minaj (opinion); UnkleAyo/Dayo Israel (video deleted, no point); 5starbarber_1 and AnnUdoh5 (opinion, religious claim); itswingwhenirun (no point); macropaperr (duplicate of the Fox Pentagon item); NYT Comey (CNN and AP already there); sunsequel2, 1oflayy, rebslie (private_individual); old_content posts. For the next story pass: WNBA Game 6 schedule; Ballon d'Or result; Cohere report (read it); Comey ruling; Koenig death; Lula result; Anthropic S-1.
+- Requests: watch.json drops the ESPN post, gains the new ids and attachments; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
