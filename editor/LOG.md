@@ -3102,3 +3102,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the Ackman post and drops the Toney post; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T07:20Z
+- Captures read: 0709Z. Last read: 0709Z.
+- X's check: 0709Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 26 items in the file and on the page (1 new, 3 dropped). Dropped, past 36 hours: Aaron Rupar and Acyn on the Obama remark, Elon Musk on Starlink. New: Maria Corina Machado, "Estoy aqui. Con ustedes" (world, the post gives no context). Header moved to 0709Z. Next to age out: SportsCenter Bearcats (about 19:57Z Oct 24).
+- Added: none. Updated: none (pulse pass).
+- Left out: beinsports_FR NFL Paris game (sports desk full); ElliotKaufman6 on Orban and the UN (WSJ claim, not opened here); JoeyMannarino on Brazil and TheWyteRabbit1 on Kushner (unchecked claims); BronTooTuff and other Jalen Williams copies (injury already carried); DuelCentral (private_individual); Komanche posts (small, bait copies); older Talarico and Musk posts (account placed or considered before). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; WNBA Finals Game 6 venue; what prompted Machado's post.
+- Requests: watch.json gains the Machado post; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

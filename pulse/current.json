@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T06:20:00Z",
-  "capture": "2026-10-26T0602Z",
+  "updated_at": "2026-10-26T07:20:00Z",
+  "capture": "2026-10-26T0709Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -13,12 +13,6 @@
       "id": "2114129811224629577",
       "desk": "disaster",
       "line": "AJ English posts a video and says a train hit a crane that had fallen onto the tracks in Brazil, and that the wreckage then dropped into a busy street in Sao Paulo. It says the crane operator was injured. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114072550426681781",
-      "desk": "politics",
-      "line": "Aaron Rupar posts a video of former President Obama saying of the White House, \"He's got the White House looking like Saddam Hussein opened up a Cheesecake Factory.\" What the remark refers to is not described in the capture and is not checked here.",
       "also": []
     },
     {
@@ -34,24 +28,10 @@
       "also": []
     },
     {
-      "id": "2114072539366613045",
-      "desk": "politics",
-      "line": "Acyn posts a clip in which Barack Obama says Donald Trump has the White House looking like Saddam Hussein opened a Cheesecake Factory, with gold everywhere. The clip's setting is not stated in the post.",
-      "also": []
-    },
-    {
       "id": "2114085789139140865",
       "desk": "justice",
       "line": "The New York Times reports that the Archdiocese of New York will pay more than $800 million to settle the sexual abuse claims of 1,300 people. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2114063986744275011",
-      "desk": "defense",
-      "line": "Elon Musk, answering a post by varifrank, says Starlink has never been allowed for offensive drone strikes, that Starshield is a separate system controlled by the US government, and that a loophole was closed last week. He also says Ukraine's front line would collapse if Starlink were turned off. Not checked here.",
-      "also": [
-        "2113997959117561902"
-      ]
     },
     {
       "id": "2114556978462912585",
@@ -181,6 +161,12 @@
       "id": "2114284565581734185",
       "desk": "world",
       "line": "Bill Ackman, an investor, says Itamar Ben-Gvir and Bezalel Smotrich have damaged Israel's reputation abroad. He says a government formed without them would signal that Israel is turning a new page and would help rebuild its credibility and widen the Abraham Accords.",
+      "also": []
+    },
+    {
+      "id": "2114379262878728671",
+      "desk": "world",
+      "line": "María Corina Machado posts, in Spanish, \"Estoy aquí. Con ustedes\", which means \"I am here. With you.\" The post gives no context, and what prompted it was not checked here.",
       "also": []
     }
   ]
