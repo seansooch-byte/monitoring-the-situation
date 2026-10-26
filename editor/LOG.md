@@ -3202,3 +3202,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the three new ids and drops the Brewers post; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: web search often returns stale or mixed-year results for current events (older Brazil coverage appeared for 2026 queries), and some news sites (Sky, Guardian) refuse fetches. Not a fix request, only a limit on research.
+
+## 2026-10-26T17:45Z
+- Captures read: 1705Z. Last read: 1705Z.
+- X's check: 1705Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 34 items (4 new, 3 dropped). Dropped: PopBase Artist Day and Badboy1B Call of Duty (past 36 hours), and the NFL Seahawks item (replaced by the NFL account's larger Gibbs clip, one account one place). New: CNN Breaking on the Maurene Comey ruling with the AP post attached (justice), Variety on Walter Koenig's death (entertainment), MadridXtra on the Mbappe meme quote (internet), NFL Gibbs clip (sports). Header moved to 1705Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: BolsonaroSP Brazil video and BJP4India (unchecked political claims); HormuzLetter Netanyahu and Iran (world already full, unchecked); GiantsReport1 clip (video not described); minakimes, CadesAttorney, 3randyn (no point or opinion); LindseyThiry, UseFastlane (only seen in quote streams, ad); RiellaGabbie (private_individual). For the next story pass: Comey ruling (read the court opinion); Koenig death (confirm outside X); Brazil result; Israeli election Tuesday; Anthropic S-1 (read the filing).
+- Requests: watch.json drops the three aged-out posts and the Seahawks attachment, gains the five new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

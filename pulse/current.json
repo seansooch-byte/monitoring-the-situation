@@ -1,22 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T16:40:00Z",
-  "capture": "2026-10-26T1606Z",
+  "updated_at": "2026-10-26T17:45:00Z",
+  "capture": "2026-10-26T1705Z",
   "items": [
-    {
-      "id": "2114211348384997862",
-      "desk": "entertainment",
-      "line": "PopBase, an entertainment news account, posts a prompt for International Artist Day asking people to name an artist who changed their life.",
-      "also": []
-    },
-    {
-      "id": "2114556978462912585",
-      "desk": "sports",
-      "line": "The NFL account posts a photo and says the defending champion Seahawks won decisively on Sunday Night Football. ESPN says Kansas City lost its first game of the year. Not checked here.",
-      "also": [
-        "2114558483739660471"
-      ]
-    },
     {
       "id": "2114425377338634392",
       "desk": "sports",
@@ -173,12 +159,6 @@
       "also": []
     },
     {
-      "id": "2114220274904371345",
-      "desk": "gaming",
-      "line": "Badboy1B posts an 84-second video titled \"The Evolution of Nukes in Call of Duty\".",
-      "also": []
-    },
-    {
       "id": "2114366265191977303",
       "desk": "politics",
       "line": "America, a political account, posts a 52-second video of four statements it attributes to Democratic Texas Senate candidate James Talarico, and says he does not represent Texas. The quotes have not been checked here.",
@@ -211,6 +191,32 @@
       "id": "2114713219411660978",
       "desk": "tech",
       "line": "The Robotaxi account posts \"Houston, we have liftoff\" and says a bigger service area is now live. Not checked here."
+    },
+    {
+      "id": "2114754760859422823",
+      "desk": "justice",
+      "line": "CNN Breaking reports that a judge found the Justice Department’s firing of Maurene Comey, a federal prosecutor in cases involving Jeffrey Epstein and Sean Combs, was unconstitutional. The AP says she was unlawfully fired by the Trump administration. Not checked here.",
+      "also": [
+        "2114750301085241842"
+      ]
+    },
+    {
+      "id": "2114760030818058481",
+      "desk": "entertainment",
+      "line": "Variety reports that Walter Koenig, who played Chekov in the original Star Trek series and seven Star Trek films, has died at 90. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114708561196372415",
+      "desk": "internet",
+      "line": "MadridXtra, a Real Madrid fan account, posts a quote it attributes to Kylian Mbappe: his favorite meme of himself puts his face on Mao Zedong, and he sends it to friends. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114499491575279795",
+      "desk": "sports",
+      "line": "The NFL account posts a 9-second clip of Jahmyr Gibbs getting a first down and sliding short of the end zone in the Packers and Lions game.",
+      "also": []
     }
   ]
 }
