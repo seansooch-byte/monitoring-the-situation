@@ -3152,3 +3152,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the three aged-out posts and gains the Marvel, BABYMONSTER, GTA, Chamath and WNBA posts; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T12:30Z
+- Captures read: 1204Z. Last read: 1204Z.
+- X's check: 1204Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 27 items in the file, 26 on the front page (2 new, 2 dropped). Dropped, past 36 hours: Marvel Studios on Avengers: Doomsday, GTAVI_Countdown on the GTA 6 actress. New: Tokyo on Eddie Murphy and Jerry Seinfeld (entertainment), the White House on the illegal immigrant population (politics). Header moved to 1204Z. Gaming is now quiet.
+- Added: none. Updated: none (pulse pass).
+- Left out: luffyiologys Bellingham clip (video not described); MAGA_warrio flag-burning claim and nicksortor Brazil posts (unchecked claims); nickshirleyy reply to sneako and Wild_Horse "Donald's handler" (point not clear); RoyIsThaTruth and LongTimeHistory (private_individual, a minor); keonho and Blade Runner hashtag posts (small fan campaigns). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; the Pentagon 90-day supplies claim; the Trump and Nicki Minaj rally; the White House immigrant population figure.
+- Requests: watch.json drops the Marvel and GTA posts and gains the Tokyo and White House posts; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

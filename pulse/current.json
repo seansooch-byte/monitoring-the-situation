@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T12:05:00Z",
-  "capture": "2026-10-26T1106Z",
+  "updated_at": "2026-10-26T12:30:00Z",
+  "capture": "2026-10-26T1204Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -162,21 +162,21 @@
       ]
     },
     {
-      "id": "2114144918448840873",
+      "id": "2114147974167060557",
       "desk": "entertainment",
-      "line": "Marvel Studios posts a 30-second video with the words \"Stand together\" and says Avengers: Doomsday arrives in theaters on December 18. The post links to ticket sales.",
+      "line": "Tokyo, an account, posts a 58-second video and says Eddie Murphy objected to Jerry Seinfeld naming Bernie Mac the best comedian he had seen. Murphy is quoted saying he loves Bernie but questioned putting him on comedy's Mount Rushmore. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114394551158722793",
+      "desk": "politics",
+      "line": "The White House account says the illegal immigrant population is \"collapsing\" and is down more than 2.3 million since President Trump took office. The post's text gives no source for the figure. Not checked here.",
       "also": []
     },
     {
       "id": "2114286107793948906",
       "desk": "music",
       "line": "The account ChqCnny posts a clip and says the group BABYMONSTER sang \"Pretty Savage\" by Blackpink live on the show maejeomgayo. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114133349178515939",
-      "desk": "gaming",
-      "line": "GTAVI_Countdown, a fan account, says Manni Perez, whom it names as the actress playing Lucia in GTA 6, went live on Instagram for the first time. It says she could not discuss the role because of an NDA. Not checked here.",
       "also": []
     }
   ]
