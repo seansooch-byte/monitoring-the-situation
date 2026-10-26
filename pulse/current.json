@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T04:20:00Z",
-  "capture": "2026-10-26T0408Z",
+  "updated_at": "2026-10-26T05:20:00Z",
+  "capture": "2026-10-26T0502Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -60,10 +60,12 @@
       ]
     },
     {
-      "id": "2114042449287168149",
+      "id": "2114556978462912585",
       "desk": "sports",
-      "line": "Fabrizio Romano quotes Mikel Arteta saying he will put sensors on the touchline, that some managers leave it dozens of times without a yellow card, and that he is clipping all of it.",
-      "also": []
+      "line": "The NFL account posts a photo and says the defending champion Seahawks won decisively on Sunday Night Football. ESPN says Kansas City lost its first game of the year. Not checked here.",
+      "also": [
+        "2114558483739660471"
+      ]
     },
     {
       "id": "2114115124395196886",

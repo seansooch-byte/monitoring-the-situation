@@ -3082,3 +3082,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the two Bauza posts; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T05:20Z
+- Captures read: 0502Z. Last read: 0502Z.
+- X's check: 0502Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 28 items in the file (1 new, 1 dropped). Dropped, past 36 hours: Fabrizio Romano on Arteta. New: NFL on the Seahawks win on Sunday Night Football (ESPN's post on the Chiefs loss attached). Header moved to 0502Z. Next to age out: Malachi Toney, SportsCenter Bearcats (about 17:41Z Oct 24).
+- Added: none. Updated: none (pulse pass).
+- Left out: SMHighlights1 (claim about a named player's conduct, unchecked); NFLMemes, NFLSTATISTIC, geoffschwartz (commentary on a player, smaller); TheBHentel and nicksortor (Trump remark on Nicki Minaj, crude, unchecked); elkelk, EkpoIruoghene8 (private individuals); older Talarico and Musk posts (account placed or considered before). For the next story pass: WNBA Finals Game 6 venue; Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X.
+- Requests: watch.json gains the two NFL/ESPN posts and drops the Arteta post; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
