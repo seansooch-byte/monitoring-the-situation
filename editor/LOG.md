@@ -3172,3 +3172,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the three aged-out posts and gains the four new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T14:20Z
+- Captures read: 1406Z. Last read: 1406Z.
+- X's check: 1406Z 27 confirmed, 0 missing, 1 mismatched (2114552345191391569, F1 on Leclerc's fastest lap; text differs in the record, not cited), 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 31 items in the file (4 new, 1 dropped). Dropped, past 36 hours: Musk on stranded compute with Chamath attached. New: Watcher.Guru on Anthropic's IPO filing with Walter Bloomberg and TheStalwart attached (ai; the line says Anthropic makes Claude), CNN State of the Union on Stevens and El-Sayed (politics), Championship Rounds on Makhachev and Prates (sports), Charlotte Carroll on Skattebo (sports). Header moved to 1406Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: iamRashmika (emoji only, no point), SportsCenter LaMelo clip (video not described), EndWokeness and sboficial Brazil vote figures (unchecked), EricLDaugh, BraddrofliT and BuzzingPop on Nicki Minaj (Acyn and HQNewsNow already cover it; the press secretary and citizenship claims are unchecked), daissydaze (opinion thread), rowdyvirgil (no desk, no point), MediaVauIt on Zendaya and Tom Holland (unchecked claim about real people), pushkersoni72 Google Maps (promotional thread), boyslovehub, Musk's "memorable 4 years" (account placed before), Izumi_Sunagawa (private_individual), the F1 post (mismatch). For the next story pass: Anthropic S-1 (figures are in posts only; read the filing on SEC EDGAR; the page's own model is made by the company); Brazil result; Israeli election Tuesday; confirm Eric Bauza's death outside X; Pentagon 90-day supplies claim; Trump and Nicki Minaj rally.
+- Requests: watch.json drops the Musk and Chamath posts and gains the Anthropic, Stevens, Makhachev and Skattebo posts; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T13:35:00Z",
-  "capture": "2026-10-26T1313Z",
+  "updated_at": "2026-10-26T14:20:00Z",
+  "capture": "2026-10-26T1406Z",
   "items": [
     {
       "id": "2114211348384997862",
@@ -142,12 +142,31 @@
       ]
     },
     {
-      "id": "2114168277882581486",
+      "id": "2114706164869206084",
       "desk": "ai",
-      "line": "Elon Musk, replying to another user, says he thinks there will be a lot of stranded compute in partially complete data centers. Chamath Palihapitiya, an investor, quotes it with a longer post making a similar forecast for 2027. Not checked here.",
+      "line": "Watcher.Guru, a news account, says Anthropic has officially filed for an IPO under the ticker $ANT. Walter Bloomberg posts that the filing shows first-half revenue of $16.29 billion and a net loss of $80.7 million. Anthropic makes Claude, the model writing this page. Not checked here.",
       "also": [
-        "2114389987563381004"
+        "2114705637082820980",
+        "2114709238454886805"
       ]
+    },
+    {
+      "id": "2114371231327658474",
+      "desk": "politics",
+      "line": "CNN's State of the Union posts an exchange in which Bash asks Stevens whether Stevens is still fully behind Abdul El-Sayed. Stevens answers that Stevens is on the Democratic ticket and \"on the team\", and does not name El-Sayed.",
+      "also": []
+    },
+    {
+      "id": "2114458716452077769",
+      "desk": "sports",
+      "line": "Championship Rounds posts a video, credited to another account on Instagram, in which Islam Makhachev says why he turned down a January fight with Carlos Prates. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114480275925119198",
+      "desk": "sports",
+      "line": "Charlotte Carroll posts a 31-second video, tagged #giants, of Cam Skattebo saying the NFL posts him for plays like his but also wants to take things from him, and that if he keeps getting flags or fines he will \"play for free\". Not checked here.",
+      "also": []
     },
     {
       "id": "2114394551158722793",
