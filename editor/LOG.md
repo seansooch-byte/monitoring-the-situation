@@ -3042,3 +3042,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none changed.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T01:10Z
+- Captures read: 0102Z. Last read: 0102Z.
+- X's check: 0102Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 32 items in the file, 31 on the page (0 new, 0 dropped). Nothing is past 36 hours yet (earliest: Anomali210830 at 13:15Z and a16z at 13:30Z on Oct 24); both go in the next pass. Header moved to 0102Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix "no one's cooler than her" (point not clear); Steelers "By order of the Peaky Blinders" (photos with no description); GPAPassenger Ryanair flight notice (small account, local notice); IsraelIDFend French police clip (unchecked claim, unclear scene); Eagle's Nest fire posts (arrest claim unchecked, considered before); Ethan Klein and QTCinderella allegations; Talarico and Nicki Minaj posts (as before); Musk, Fabrizio Romano, Acyn posts (account placed). For the next story pass: Brazil runoff result; Israeli election Tuesday; Eagle's Nest fire (check German reporting); Ethan Klein and QTCinderella allegations.
+- Requests: none changed.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
