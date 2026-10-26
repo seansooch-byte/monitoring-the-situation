@@ -3192,3 +3192,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the two aged-out posts and gains the new ones; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T16:45Z
+- Captures read: 1606Z. Last read: 1606Z.
+- X's check: 1606Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (including the 1406Z F1 post) and the 0602Z missing id still show as logged before.
+- Pulse: 33 items in the file (2 new, 1 dropped). Dropped, past 36 hours: Bleacher Report on the Brewers. New: Mamdani congratulating Lula (world), the Robotaxi account on a bigger service area (tech, marked not checked). The Anthropic item now mentions the new story.
+- Added: 2026-10-26-anthropic-files-s1-ipo (ai, markets; from Anthropic's own announcement and EDGAR; the filing itself not read). Updated: none; I found no new confirmed facts for the Lula, WNBA or other live stories.
+- Left out: Chris Brown sentencing (only Sky's post; I could not open Sky, the Guardian or another report); Brazil $200B market-loss claim and the Trump investigation claim (search results mixed in older coverage, nothing sourced); Odyssey box office claim (unchecked); Eric Bauza death (not confirmed outside X); Pentagon 90-day supplies, Israeli election, Nicki Minaj rally (not researched this pass); iPad mini (Apple page not opened); private_individual posts (tayla_moves, Samuela__2, _lamar__1, MercedesBbn); the mosque and pork BBQ post (insults about a religion).
+- Requests: watch.json gains the three new ids and drops the Brewers post; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: web search often returns stale or mixed-year results for current events (older Brazil coverage appeared for 2026 queries), and some news sites (Sky, Guardian) refuse fetches. Not a fix request, only a limit on research.
