@@ -3112,3 +3112,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the Machado post; open.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-26T08:20Z
+- Captures read: 0800Z. Last read: 0800Z.
+- X's check: 0800Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and the 0602Z missing id still show as logged before.
+- Pulse: 25 items in the file and on the page (0 new, 1 dropped). Dropped, past 36 hours: SportsCenter on the Bearcats. Header moved to 0800Z. Next to age out: The New York Times on the Archdiocese of New York (about 20:00Z Oct 24), which would leave the justice desk empty.
+- Added: none. Updated: none (pulse pass).
+- Left out: VivekGRamaswamy "Ohio's next First Lady" (the post does not say who); yoxics on Kai Cenat (video not described); georgedmadgwick on poppies and Wetherspoons, defense_civil25 and HealthRanger on base stockpiles (unchecked claims); KevOnStage, dom_lucre, DailyLoud (private_individual, a minor); TheBHentel Nicki Minaj post (as before); older Talarico and Musk posts (account placed or considered before). For the next story pass: Brazil result and Flavio Bolsonaro response; Israeli election Tuesday; confirm Eric Bauza's death outside X; WNBA Finals Game 6 venue; the Pentagon 90-day supplies claim.
+- Requests: watch.json drops the Bearcats post; open.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
