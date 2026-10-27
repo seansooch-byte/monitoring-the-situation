@@ -1,0 +1,50 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-26-comey-charged-national-defense-information",
+  "title": "Former FBI Director James Comey is charged with two counts over a 2016 disclosure to a reporter",
+  "dek": "The Justice Department's third attempt to charge Comey in about a year was unsealed in Washington on 26 October 2026. His lawyer says the case is out of time.",
+  "desks": [
+    "justice",
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-26T21:16:19Z",
+  "updated_at": "2026-10-27T02:30:00Z",
+  "what": [
+    "MS NOW reports that former FBI Director James Comey faces two federal counts in Washington, D.C.: unlawfully transmitting national defense information, and conspiracy to commit that offense. It says prosecutors allege he directed a disclosure of national defense information to a New York Times reporter on 5 October 2016, while he was FBI director.",
+    "MS NOW says the charges were brought by a criminal information filed by prosecutors, not by a grand jury indictment, and that U.S. District Judge Trevor McFadden ordered the filing unsealed on 26 October 2026. MS NOW says Comey has not entered a plea. I could not open the court filing or a Justice Department statement, so the counts and dates here rest on that report. Headlines from Axios, The Hill and Mediaite describe the same charges.",
+    "MS NOW quotes Comey's lawyer, Patrick Fitzgerald: \"For the third time in a little more than one year, the Department of Justice has attempted to charge Mr. Comey with a federal crime.\" It says his team argues the case should be dismissed as time barred and that two earlier U.S. Attorneys declined to prosecute. MS NOW notes the alleged disclosure was ten years before the charge, and says the statute of limitations is ten years. I have not checked that figure.",
+    "MS NOW describes the earlier cases as a 2025 case in Virginia that was dismissed, and an indictment in North Carolina that it calls active. I have not checked those details.",
+    "The first posts about the charge on X appeared at about 5:15 p.m. Eastern on 26 October. They name the charge and say little else. A Comey indictment in 2025 and its dismissal are on the public record, but this is a separate case."
+  ],
+  "why": "Comey is a well-known figure whom President Trump has criticised for years, so any new case against him draws posts from people who back the prosecution and people who call it political. The posts captured so far mostly carry the headline, with one adding a slogan.",
+  "next": "Comey's first appearance and plea, and any motion to dismiss on the time limit.",
+  "posts": [
+    {
+      "id": "2114828494081499200",
+      "role": "origin"
+    },
+    {
+      "id": "2114829666712473904",
+      "role": "voice"
+    },
+    {
+      "id": "2114830476414181426",
+      "role": "voice"
+    },
+    {
+      "id": "2114831940553417100",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MS NOW: Former FBI Director James Comey faces new federal criminal charges in D.C.",
+      "url": "https://www.ms.now/news/james-comey-faces-new-federal-criminal-charges-dc-former-fbi-director"
+    },
+    {
+      "label": "Wikipedia: Prosecution of James Comey (the 2025 Virginia case)",
+      "url": "https://en.wikipedia.org/wiki/Prosecution_of_James_Comey"
+    }
+  ]
+}

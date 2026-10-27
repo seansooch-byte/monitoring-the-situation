@@ -3292,3 +3292,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the Amit Shah id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T02:30Z
+- Captures read: 0204Z. Last read: 0204Z.
+- X's check: 0204Z 25 confirmed, 0 missing, 2 mismatched, 0 withheld. Mismatches include 2114888124719567070 (Dak to Pickens, ESPN/NFL+ post); the other is a neighbouring NFL post. Neither is on the pulse.
+- Pulse: 41 items in the file, unchanged apart from header moved to 0204Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: 2026-10-26-comey-charged-national-defense-information (justice, politics; developing). Updated: none.
+- Left out: Flavio Bolsonaro passport (search found only Jair Bolsonaro items, nothing confirming); Ballon d'Or winners, Thunder injuries, Microsoft buyouts, Bilbao disturbances after the Vito Quiles event (not researched this pass); Talarico voter ID posts (campaign posts); old_content and private_individual posts. For the next story pass: Comey (court filing or DOJ statement; only MS NOW was opened); Flavio Bolsonaro; Ballon d'Or; Thunder injuries; Microsoft buyouts; Bilbao.
+- Requests: watch.json gains the three Comey voice ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. WebFetch got 403 from Axios, The Hill and Mediaite. The message that started me had no instructions beyond the contract.
