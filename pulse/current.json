@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T07:14:13Z",
-  "capture": "2026-10-27T0708Z",
+  "updated_at": "2026-10-27T08:20:00Z",
+  "capture": "2026-10-27T0800Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -16,12 +16,6 @@
       "also": [
         "2114515422863040653"
       ]
-    },
-    {
-      "id": "2114444137067844004",
-      "desk": "science",
-      "line": "SpaceX posts video of a full-duration static fire of all 33 engines on the Super Heavy booster, which it says is preparing for Flight 15.",
-      "also": []
     },
     {
       "id": "2114839265448521986",
@@ -191,10 +185,13 @@
       "also": []
     },
     {
-      "id": "2114848376135004363",
+      "id": "2114858773101601042",
       "desk": "sports",
-      "line": "The Ballon d'Or account posts that Alexia Putellas is its 2026 Ballon d'Or winner, in what it says is her third.",
-      "also": []
+      "line": "The Ballon d'Or account posts a 76-second video announcing Harry Kane as its 2026 Ballon d'Or. Its earlier post named Alexia Putellas as a winner, and Kane posted a message of his own after.",
+      "also": [
+        "2114848376135004363",
+        "2114858516406051189"
+      ]
     },
     {
       "id": "2114808903540298141",
@@ -261,6 +258,18 @@
       "also": [
         "2114948446499279112"
       ]
+    },
+    {
+      "id": "2114805509031416266",
+      "desk": "politics",
+      "also": [],
+      "line": "The White House account posts a photo quoting President Trump saying anyone reporting voter fraud in past elections or the 2026 midterms \"will be paid $1,000,000 upon the arrest and conviction\" of those who created it. Not checked here."
+    },
+    {
+      "id": "2114896388496719913",
+      "desk": "sports",
+      "also": [],
+      "line": "MLB posts a 15-second video saying Jackson Chourio is 4-for-4 with two hits in one inning, and that the Brewers lead 10-0."
     }
   ]
 }
