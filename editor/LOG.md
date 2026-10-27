@@ -3312,3 +3312,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json swaps the two dropped ids for the two new ones; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T05:30Z
+- Captures read: 0502Z. Last read: 0502Z.
+- X's check: 0502Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 41 items in the file (0 new, 1 dropped). Dropped as older than 36 hours: White House on the illegal immigrant population. Header moved to 0502Z. The build holds one Musk item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Bernie Sanders on Lula (world already has two Lula items); Fabrizio Romano's Ballon d'Or top ten and Harry Kane's "Wow" (Romano already holds a place; the Kane post has no words to describe); Yaxel Lendeborg and Brewers Game 3 posts (small, sports full); Talarico and Paxton campaign posts; old_content, likely-paid and sexual posts. For the next story pass: Ballon d'Or; Flavio Bolsonaro passport order; Microsoft buyouts; Padilla's post; Ripple approval.
+- Requests: watch.json drops the White House id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
