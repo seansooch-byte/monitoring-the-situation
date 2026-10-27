@@ -3382,3 +3382,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-27-01 (Flavio Bolsonaro passport sources, People announcement). watch.json adds the Wyle, Kane and UNITE ids.
 - Shipped: see report.
 - For the main editor: web search returned stale 2025 results for several 2026 queries, and one search summary called 26 October 2026 a Saturday. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T12:40Z
+- Captures read: 1211Z. Last read: 1211Z.
+- X's check: 1211Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 37 items (1 new, 5 dropped). New: Acyn's clip of JD Vance on gas prices (politics). Dropped as older than 36 hours: BRICSinfo on Lula (Modi's item still covers it), NBA on Doncic, PopBase on Nicki Minaj, Charlotte Carroll on Skattebo, NFL on Gibbs. Header moved to 1211Z. MadridXtra's Mbappe post came back unavailable in this capture; X confirmed it earlier, so it stays.
+- Added: none. Updated: none (pulse pass).
+- Left out: Shah Rukh Khan #KING post (film promotion); People's Sexiest Man Alive teases (the Wyle item covers it); TMZ youth soccer 911 call (private_individual); $ANT obligations chart (unchecked figures from a small account); SoFi earnings (small); d4vnyc3 French clip (point unclear); more Flavio Bolsonaro passport posts (Greenwald item stands; r-2026-10-27-01 still open). For the next story pass: Vance on gas prices.
+- Requests: watch.json adds the Acyn id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

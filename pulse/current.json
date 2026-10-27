@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T11:35:00Z",
-  "capture": "2026-10-27T1102Z",
+  "updated_at": "2026-10-27T12:40:00Z",
+  "capture": "2026-10-27T1211Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -14,14 +14,6 @@
       "desk": "sports",
       "line": "ESPN reporter Ramona Shelburne says, citing sources, that Game 6 of the WNBA Finals will be played Thursday at 12:30 pm at State Farm Arena in Atlanta, with the Hawks-Cavaliers game that night moved back to 8 pm. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2114506908128428090",
-      "desk": "world",
-      "line": "BRICSinfo, an account that covers the BRICS bloc, says Lula da Silva has won Brazil's presidential election, defeating Flavio Bolsonaro. Bernie Sanders congratulates Lula in the attached post.",
-      "also": [
-        "2114515422863040653"
-      ]
     },
     {
       "id": "2114839265448521986",
@@ -56,25 +48,11 @@
       "also": []
     },
     {
-      "id": "2114507747983302667",
-      "desk": "sports",
-      "line": "The NBA account says Luka Doncic scored 52 points in a Lakers road win and became the first Lakers player with 50 points, 10 assists, 5 rebounds and 5 threes in one game. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114605445822443729",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Kylian Mbappe will travel to London for the Ballon d'Or ceremony today. A later post of his lists what he calls the official top 10, in no particular order, with Mbappe, Kane and Yamal among them. Not checked here.",
       "also": [
         "2114790427563855956"
-      ]
-    },
-    {
-      "id": "2114483639031394798",
-      "desk": "politics",
-      "line": "PopBase posts a 17-second video of the singer Nicki Minaj speaking at a Trump rally in Michigan, and quotes her as saying she does not want children \"bombarded with sex changes.\" HQNewsNow says President Trump, at the same rally, made a remark about her body.",
-      "also": [
-        "2114455995304784345"
       ]
     },
     {
@@ -85,12 +63,6 @@
         "2114705637082820980",
         "2114709238454886805"
       ]
-    },
-    {
-      "id": "2114480275925119198",
-      "desk": "sports",
-      "line": "Charlotte Carroll posts a 31-second video, tagged #giants, of Cam Skattebo saying the NFL posts him for plays like his but also wants to take things from him, and that if he keeps getting flags or fines he will \"play for free\". Not checked here.",
-      "also": []
     },
     {
       "id": "2114584641290293757",
@@ -140,12 +112,6 @@
       "id": "2114708561196372415",
       "desk": "internet",
       "line": "MadridXtra, a Real Madrid fan account, posts a quote it attributes to Kylian Mbappe: his favorite meme of himself puts his face on Mao Zedong, and he sends it to friends. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114499491575279795",
-      "desk": "sports",
-      "line": "The NFL account posts a 9-second clip of Jahmyr Gibbs getting a first down and sliding short of the end zone in the Packers and Lions game.",
       "also": []
     },
     {
@@ -275,6 +241,12 @@
       "id": "2115023562717216943",
       "desk": "entertainment",
       "line": "PopCrave, a pop culture account, says Noah Wyle has been named People Magazine's Sexiest Man Alive for 2026. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114796628674822432",
+      "desk": "politics",
+      "line": "Acyn, an account that posts political clips, shares a video of JD Vance saying gas prices skyrocket \"every time some tinpot dictator decides to throw a tantrum.\" Vance also says the Democrats' answer is to \"whine and build a few windmills.\" Not checked here.",
       "also": []
     }
   ]
