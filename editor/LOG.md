@@ -3332,3 +3332,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json swaps the Rubio id for the new one; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T07:15Z
+- Captures read: 0708Z. Last read: 0708Z.
+- X's check: 0708Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 39 items in the file (1 new, 3 dropped). New: Serebii.net on Pokémon UNITE's end of service, with its follow-up post (gaming, which had no item). Dropped as older than 36 hours: DiscussingFilm on Annie Potts, Breaking911 on the Jet2 runway, Musk on debt markets and neoclouds. Header moved to 0708Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: re-reads of old Talarico, Musk and Tesla posts (older than 36 hours or flagged old_content); PopBase on Antonoff and Ed Sheeran (gossip thread, not checked); rrwilliams on an OpenAI model and ETH (ai already has five items; for the next story pass); ESPNFC and Romano Yamal posts (Ballon d'Or already covered, little to describe); CollinRugg, dave__emma, TheBestqueenx (private_individual); the People "Sexiest Man Alive" promotion (advertisement).
+- Requests: watch.json drops the three dropped ids and adds the two Serebii ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

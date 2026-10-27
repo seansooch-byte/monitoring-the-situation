@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T06:20:00Z",
-  "capture": "2026-10-27T0607Z",
+  "updated_at": "2026-10-27T07:14:13Z",
+  "capture": "2026-10-27T0708Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -99,21 +99,9 @@
       "also": []
     },
     {
-      "id": "2114416823902814471",
-      "desk": "entertainment",
-      "line": "DiscussingFilm reports that actress Annie Potts says Jim Parsons returning as Sheldon in the \"Young Sheldon\" finale broke her heart. It quotes her saying the closing scene \"gave me a stomach ache\". Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114584641290293757",
       "desk": "entertainment",
       "line": "Netflix Thailand posts, in Thai, a question asking which pairing people would like to see if Netflix made a Y (boys' love) series.",
-      "also": []
-    },
-    {
-      "id": "2114434646914068862",
-      "desk": "tech",
-      "line": "Elon Musk says debt markets have almost entirely shut off money to companies without substantial revenue apart from AI data centers, that SpaceX closed $40B of debt for GPUs, and that many of the 200+ neoclouds will die or consolidate. Not checked here.",
       "also": []
     },
     {
@@ -191,12 +179,6 @@
       "also": []
     },
     {
-      "id": "2114428848893047067",
-      "desk": "world",
-      "line": "Breaking911 says a Jet2 Boeing 737-800 veered off the runway while landing at Birmingham Airport. The post carries a 39-second video and does not say whether anyone was hurt. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114763990467330357",
       "desk": "entertainment",
       "line": "Netflix posts a 49-second video revealing the official choreography for \"How It's Done!\" by HUNTR/X.",
@@ -271,6 +253,14 @@
       "desk": "internet",
       "line": "World of Statistics posts the arithmetic expression \"6 ÷ 2 (1 + 2) =\" with no answer given. The post states no result.",
       "also": []
+    },
+    {
+      "id": "2114945572528415015",
+      "desk": "gaming",
+      "line": "Serebii.net, a Pokémon news site, says Pokémon UNITE will reach end of service on March 23, 2027, on both mobile and Nintendo Switch. A second post says the game will then enter a library mode, for viewing what players own and for Practice Mode.",
+      "also": [
+        "2114948446499279112"
+      ]
     }
   ]
 }
