@@ -3422,3 +3422,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the Madrid Zone, Dexerto, Fox News and Golden Joysticks ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T16:50Z
+- Captures read: 1604Z. Last read: 1604Z.
+- X's check: 1604Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 38 items (1 new, 0 dropped). New: Variety on the death of Susan Saint James (entertainment); the build holds it off the front page behind Variety's Koenig item. Header moved to 1604Z.
+- Added: 2026-10-27-susan-saint-james-dies-80 (entertainment), 2026-10-27-fbi-searches-cloobeck-mansion-swalwell (justice, developing; the link to Swalwell rests on AP sources). Updated: none.
+- Left out: CNN Breaking on Maurene Comey's firing (I could only find an April ruling letting her suit proceed, not a ruling that the firing was unlawful; not confirmed); Mbappe sponsor losses, Ripple approval, Microsoft buyouts, Chris Brown sentence (not researched this pass, for the next one); Talarico clips (older than 36 hours); private_individual and old_content posts.
+- Requests: watch.json adds the five ids of the two new stories; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

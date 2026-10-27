@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T15:40:00Z",
-  "capture": "2026-10-27T1503Z",
+  "updated_at": "2026-10-27T16:45:00Z",
+  "capture": "2026-10-27T1604Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -248,6 +248,12 @@
       "id": "2114718742558974326",
       "desk": "gaming",
       "line": "The Golden Joysticks awards account posts the nominees for Ultimate Game of the Year, with a 73-second video, and says voting closes on Friday 30 October.",
+      "also": []
+    },
+    {
+      "id": "2115076997298659768",
+      "desk": "entertainment",
+      "line": "Variety reports that Susan Saint James, the Emmy-winning actress who starred in \"McMillan & Wife\" and \"Kate & Allie,\" has died at 80.",
       "also": []
     }
   ]

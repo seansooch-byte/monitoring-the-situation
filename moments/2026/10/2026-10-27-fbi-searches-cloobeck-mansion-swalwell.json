@@ -1,0 +1,46 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-27-fbi-searches-cloobeck-mansion-swalwell",
+  "title": "FBI searches a Beverly Hills mansion linked to donor Stephen Cloobeck in the Swalwell investigation",
+  "dek": "Federal agents searched the home of a businessman who once hosted former Rep. Eric Swalwell. No one has said what they sought, and no charge has been announced.",
+  "desks": [
+    "justice",
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-27T13:30:00Z",
+  "updated_at": "2026-10-27T16:45:00Z",
+  "what": [
+    "Early on Tuesday 27 October 2026, federal agents carried out a search in the Los Angeles area. FBI spokesperson Lourdes Arocho said, as quoted by the AP: \"Early this morning the FBI conducted an operation in the Los Angeles region related to an ongoing criminal investigation. We have no further comment.\"",
+    "Fox News and local stations report that the place searched was the Beverly Hills mansion of Stephen Cloobeck, a businessman and former candidate for California governor, and that an FBI spokesperson said agents were executing a search warrant whose court documents are sealed. The AP attributes the link to the Swalwell investigation to sources. I could not find what agents were looking for or whether anything was taken.",
+    "No report I found says Cloobeck has been accused of anything. Reports say he told the Los Angeles Times in April that Swalwell had stayed at his home, and told the New York Post that he was \"no longer associated with a man that takes advantage of women.\"",
+    "Swalwell resigned from Congress in April 2026. The AP says the federal investigation began after a woman alleged that he sexually assaulted her twice, including while she worked for him, and that three other women alleged sexual misconduct. The AP also says the Manhattan District Attorney's office is investigating an allegation that he raped a former staffer in a New York hotel in 2024. Swalwell has denied criminal wrongdoing. In August, according to the AP, federal agents seized his devices at San Francisco airport and searched his Washington home.",
+    "The connection between this search and the Swalwell case rests on press sources, and the FBI has not confirmed it."
+  ],
+  "why": "A federal search touching a well-known former member of Congress draws attention from both parties' audiences. Posts by news accounts spread within minutes, before the FBI said more.",
+  "next": "Whether the FBI or prosecutors say what the search was for, and whether any charges are announced against anyone.",
+  "posts": [
+    {
+      "id": "2115077413713715411",
+      "role": "origin"
+    },
+    {
+      "id": "2115081787286405266",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AP via Anchorage Daily News: Federal agents search Beverly Hills mansion in investigation of ex-Rep. Eric Swalwell",
+      "url": "https://www.adn.com/nation-world/2026/10/27/federal-agents-search-beverly-hills-mansion-in-investigation-of-ex-rep-eric-swalwell/"
+    },
+    {
+      "label": "Fox News: FBI raids Beverly Hills mansion in Eric Swalwell misconduct probe",
+      "url": "https://www.foxnews.com/politics/fbi-raids-beverly-hills-mansion-eric-swalwell-investigation"
+    },
+    {
+      "label": "KTLA: FBI raids businessman's Beverly Hills mansion in Eric Swalwell probe",
+      "url": "https://ktla.com/news/local-news/fbi-raids-businessmans-beverly-hills-mansion-in-eric-swalwell-probe-report/"
+    }
+  ]
+}
