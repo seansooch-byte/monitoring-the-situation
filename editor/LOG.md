@@ -3302,3 +3302,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the three Comey voice ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. WebFetch got 403 from Axios, The Hill and Mediaite. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T04:30Z
+- Captures read: 0302Z, 0405Z. Last read: 0405Z.
+- X's check: 0302Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. 0405Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 41 items in the file (2 new, 2 dropped). New: Senator Padilla's "INVESTIGATE ELON MUSK." (politics, no context in the post), Watcher.Guru on Ripple's trust bank approval (business). Dropped as older than 36 hours: Machado "Estoy aqui", America on Talarico. Header moved to 0405Z. The build holds one Musk item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk reply to Padilla (an insult, and Musk already holds a place); new WhiteHouse, SportsCenter, HQNewsNow and Fabrizio Romano posts (account already on the pulse); WWE and Brewers posts (small, sports full); Talarico and Musk campaign posts. For the next story pass: what Padilla's post refers to; Ripple approval (OCC or company source); Flavio Bolsonaro passport order; Microsoft buyouts; Ballon d'Or.
+- Requests: watch.json swaps the two dropped ids for the two new ones; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

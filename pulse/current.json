@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T03:30:00Z",
-  "capture": "2026-10-27T0302Z",
+  "updated_at": "2026-10-27T04:30:00Z",
+  "capture": "2026-10-27T0405Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -38,9 +38,15 @@
       ]
     },
     {
-      "id": "2114379262878728671",
-      "desk": "world",
-      "line": "María Corina Machado posts, in Spanish, \"Estoy aquí. Con ustedes\", which means \"I am here. With you.\" The post gives no context, and what prompted it was not checked here.",
+      "id": "2114798781778862589",
+      "desk": "politics",
+      "line": "Senator Alex Padilla posts \"INVESTIGATE ELON MUSK.\" in capital letters. The post gives no reason, and what prompted it was not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114863126864904674",
+      "desk": "business",
+      "line": "Watcher.Guru, a markets news account, says Ripple has received full US regulatory approval to operate as a national trust bank. Not checked here.",
       "also": []
     },
     {
@@ -108,12 +114,6 @@
       "id": "2114584641290293757",
       "desk": "entertainment",
       "line": "Netflix Thailand posts, in Thai, a question asking which pairing people would like to see if Netflix made a Y (boys' love) series.",
-      "also": []
-    },
-    {
-      "id": "2114366265191977303",
-      "desk": "politics",
-      "line": "America, a political account, posts a 52-second video of four statements it attributes to Democratic Texas Senate candidate James Talarico, and says he does not represent Texas. The quotes have not been checked here.",
       "also": []
     },
     {
