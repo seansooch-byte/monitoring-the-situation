@@ -3272,3 +3272,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the two new ids and drops five replaced or dropped pulse ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T00:30Z
+- Captures read: 0011Z. Last read: 0011Z.
+- X's check: 0011Z 28 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch: 2114696123541856479 (@Eagles, "Under the lights"; the record has "@toyota" in the text, X does not). Not on the pulse.
+- Pulse: 42 items in the file (3 new, 0 dropped). New: Greenwald on the Flavio Bolsonaro passport (world, with Sam Pancher's Portuguese post attached), Rubio on Machado and the Venezuela talks (world), KDKA on the death of Donnie Iris (music, with Randy Baumann's post attached). Header moved to 0011Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Talarico voter ID posts (campaign posts); Mbappe meme quote (aggregator, MadridXtra already holds internet); Meleek Thomas and Reimer posts (small); other Musk posts (one account, one place); private_individual posts (khasidragkhasi, iWomansplainer, maaaddiiii__, bri_anax). For the next story pass: Flavio Bolsonaro passport order (court or federal police source); Comey charge; Donnie Iris obituary; Ballon d'Or men's winner; Microsoft buyouts; Anthropic S-1.
+- Requests: watch.json gains the five new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

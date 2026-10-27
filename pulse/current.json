@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-26T23:20:00Z",
-  "capture": "2026-10-26T2302Z",
+  "updated_at": "2026-10-27T00:30:00Z",
+  "capture": "2026-10-27T0011Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -250,6 +250,28 @@
       "line": "CNN's Kaitlan Collins posts that James Comey, the former FBI director, has been charged again, and links a federal court filing in United States v. Comey. BNO News says the charge is leaking national defense information to a reporter in 2016. Not checked here.",
       "also": [
         "2114829411090657334"
+      ]
+    },
+    {
+      "id": "2114815471816253803",
+      "desk": "world",
+      "line": "Glenn Greenwald says Sen. Flavio Bolsonaro had his passport seized by federal police sent by Judge Alexandre de Moraes, a day after Lula was declared Brazil's winner, and he criticises the judge. The quoted post, in Portuguese, has Bolsonaro saying police ordered him to hand over his passports. Not checked here.",
+      "also": [
+        "2114809069533794559"
+      ]
+    },
+    {
+      "id": "2114414501629964390",
+      "desk": "world",
+      "line": "Secretary Marco Rubio says the conditions for María Corina Machado's safe return to Venezuela are the result of US-supported reconciliation talks, which he says have seen hundreds of political prisoners freed. He says the US expects all political actors to support the talks. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114858510928240967",
+      "desk": "music",
+      "line": "KDKA reports that Donnie Iris, the Pittsburgh musician behind \"Ah! Leah!,\" has died, according to a former bandmate. Not checked here.",
+      "also": [
+        "2114849576041750638"
       ]
     }
   ]
