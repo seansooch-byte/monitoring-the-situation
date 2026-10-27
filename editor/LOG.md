@@ -3402,3 +3402,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the Styles id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T14:30Z
+- Captures read: 1416Z. Last read: 1416Z.
+- X's check: 1416Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 38 items (0 new, 0 dropped). Header moved to 1416Z. Nothing is older than 36 hours. MadridXtra's Mbappe post came back unavailable for a third run; X confirmed it earlier, so it stays.
+- Added: none. Updated: none (pulse pass).
+- Left out: SpaceX Starlink launch post (well below the pulse's smallest items); a thread by a small account claiming Claude Code proved phone apps listen through the microphone (unverified sweeping claim, gives advice, and involves Claude; the next story pass could check it); Shawn Hatosy fan posts (small).
+- Requests: watch.json and open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
