@@ -3282,3 +3282,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json gains the five new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T01:30Z
+- Captures read: 0105Z. Last read: 0105Z.
+- X's check: 0105Z 25 confirmed, 0 missing, 4 mismatched, 0 withheld. Mismatches: 2113480534764683596 (@ATEEZofficial, hashtag order differs between the record and X), 2114856860214087694, 2114876977790525522, 2114882026939564534 (all @NFL Cowboys-Eagles posts; X has an extra superscript zero after "ESPN"). None on the pulse. The 0011Z Eagles mismatch (2114696123541856479) also stands.
+- Pulse: 41 items in the file (0 new, 1 dropped). Dropped as older than 36 hours: Amit Shah on Kharge. Header moved to 0105Z. The build holds the Musk ai item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Chandler Simpson catch posts (small, sports already full); NFL Saquon and McKee posts (mismatched); old Talarico reposts (campaign posts); private_individual posts (Kyks5o7y, mawd2x, Maximuspadd, fool2theworld); the SaksLikely killing video (graphic). For the next story pass: Comey charge; Flavio Bolsonaro passport order; Ballon d'Or men's winner; Microsoft buyouts; Anthropic S-1.
+- Requests: watch.json drops the Amit Shah id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
