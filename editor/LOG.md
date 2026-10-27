@@ -3322,3 +3322,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the White House id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T06:20Z
+- Captures read: 0607Z. Last read: 0607Z.
+- X's check: 0607Z 25 confirmed, 0 missing, 0 mismatched, 1 withheld.
+- Pulse: 41 items in the file (1 new, 1 dropped). New: World of Statistics arithmetic expression post (internet). Dropped as older than 36 hours: Secretary Rubio on Machado. Header moved to 0607Z. The build holds one Musk item off the front page (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Harry Kane Ballon d'Or posts (the account already holds a place; the Kane account posts have no words to describe); Bieber link-only post; Turkish dog trainer clip and Zelensky euro figure (aggregators, unchecked); private_individual posts; Pat McAfee/Utah and Rodgers posts (commentary accounts, not researched). For the next story pass: Ballon d'Or; Flavio Bolsonaro passport order; Microsoft buyouts; Padilla's post; Ripple approval.
+- Requests: watch.json swaps the Rubio id for the new one; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

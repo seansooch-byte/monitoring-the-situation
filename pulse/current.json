@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T05:30:00Z",
-  "capture": "2026-10-27T0502Z",
+  "updated_at": "2026-10-27T06:20:00Z",
+  "capture": "2026-10-27T0607Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -243,12 +243,6 @@
       ]
     },
     {
-      "id": "2114414501629964390",
-      "desk": "world",
-      "line": "Secretary Marco Rubio says the conditions for María Corina Machado's safe return to Venezuela are the result of US-supported reconciliation talks, which he says have seen hundreds of political prisoners freed. He says the US expects all political actors to support the talks. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114858510928240967",
       "desk": "music",
       "line": "KDKA reports that Donnie Iris, the Pittsburgh musician behind \"Ah! Leah!,\" has died, according to a former bandmate. Not checked here.",
@@ -271,6 +265,12 @@
       "also": [
         "2114900859058557147"
       ]
+    },
+    {
+      "id": "2114642316824854960",
+      "desk": "internet",
+      "line": "World of Statistics posts the arithmetic expression \"6 ÷ 2 (1 + 2) =\" with no answer given. The post states no result.",
+      "also": []
     }
   ]
 }
