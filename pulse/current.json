@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T17:50:00Z",
-  "capture": "2026-10-27T1705Z",
+  "updated_at": "2026-10-27T18:50:00Z",
+  "capture": "2026-10-27T1800Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -49,12 +49,6 @@
         "2114705637082820980",
         "2114709238454886805"
       ]
-    },
-    {
-      "id": "2114584641290293757",
-      "desk": "entertainment",
-      "line": "Netflix Thailand posts, in Thai, a question asking which pairing people would like to see if Netflix made a Y (boys' love) series.",
-      "also": []
     },
     {
       "id": "2114693795887395287",
@@ -254,6 +248,20 @@
       "id": "2115120099505905765",
       "desk": "sports",
       "line": "NFL reporter Adam Schefter says, with Ian Rapoport, that the Colts have agreed to trade guard Quenton Nelson to the Seattle Seahawks. He says Nelson is on an expiring contract and the Colts want draft picks back before he can leave in free agency.",
+      "also": []
+    },
+    {
+      "id": "2115114028338962672",
+      "desk": "ai",
+      "line": "Google DeepMind says Genie 4 is its most realistic and interactive world model yet, one where people in a scene move, react and speak in real time. Sundar Pichai, Google's chief executive, says it is rolling out as a research preview to trusted testers.",
+      "also": [
+        "2115115252690145519"
+      ]
+    },
+    {
+      "id": "2115116465942614045",
+      "desk": "world",
+      "line": "Melania Trump's account posts that a ceasefire between Ukraine and Russia took effect at 4:00 a.m. Moscow time on October 27, two days early, and says General Valery Gerasimov has confirmed it. Not checked here.",
       "also": []
     }
   ]
