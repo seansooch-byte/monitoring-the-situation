@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T19:20:00Z",
-  "capture": "2026-10-27T1905Z",
+  "updated_at": "2026-10-27T20:35:00Z",
+  "capture": "2026-10-27T2002Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -175,12 +175,6 @@
       ]
     },
     {
-      "id": "2114642316824854960",
-      "desk": "internet",
-      "line": "World of Statistics posts the arithmetic expression \"6 ÷ 2 (1 + 2) =\" with no answer given. The post states no result.",
-      "also": []
-    },
-    {
       "id": "2114945572528415015",
       "desk": "gaming",
       "line": "Serebii.net, a Pokémon news site, says Pokémon UNITE will reach end of service on March 23, 2027, on both mobile and Nintendo Switch. A second post says the game will then enter a library mode, for viewing what players own and for Practice Mode.",
@@ -273,6 +267,14 @@
       "desk": "gaming",
       "line": "The account PlaystationSize says Grand Theft Auto VI will be a 210 GB download, with a $79.99 standard edition, pre-load from November 12 and release at midnight on November 19. Other accounts repeat it as the PS5 size. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2115129465705476336",
+      "desk": "world",
+      "line": "Eric Daugh posts words he attributes to US Ambassador Mike Waltz at the UN, telling a Cuban official to \"sit down\" and saying \"This isn't Havana\". Daugh says the official tried to intimidate Waltz. The attached post carries a video of the exchange. What happened in the room is not checked here.",
+      "also": [
+        "2115132802631168497"
+      ]
     }
   ]
 }
