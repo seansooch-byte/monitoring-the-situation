@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T16:45:00Z",
-  "capture": "2026-10-27T1604Z",
+  "updated_at": "2026-10-27T17:50:00Z",
+  "capture": "2026-10-27T1705Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -31,12 +31,6 @@
       "id": "2114863126864904674",
       "desk": "business",
       "line": "Watcher.Guru, a markets news account, says Ripple has received full US regulatory approval to operate as a national trust bank. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114582856978907401",
-      "desk": "world",
-      "line": "Narendra Modi, India's prime minister, congratulates Lula on what he calls his re-election victory in Brazil and says he looks forward to deepening the India-Brazil partnership. Not checked here.",
       "also": []
     },
     {
@@ -254,6 +248,12 @@
       "id": "2115076997298659768",
       "desk": "entertainment",
       "line": "Variety reports that Susan Saint James, the Emmy-winning actress who starred in \"McMillan & Wife\" and \"Kate & Allie,\" has died at 80.",
+      "also": []
+    },
+    {
+      "id": "2115120099505905765",
+      "desk": "sports",
+      "line": "NFL reporter Adam Schefter says, with Ian Rapoport, that the Colts have agreed to trade guard Quenton Nelson to the Seattle Seahawks. He says Nelson is on an expiring contract and the Colts want draft picks back before he can leave in free agency.",
       "also": []
     }
   ]

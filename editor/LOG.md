@@ -3432,3 +3432,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the five ids of the two new stories; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T17:50Z
+- Captures read: 1705Z. Last read: 1705Z.
+- X's check: 1705Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Older full re-check lines unchanged.
+- Pulse: 38 items (1 new, 1 dropped). New: Adam Schefter on the Colts trading Quenton Nelson to the Seahawks (sports). Dropped as older than 36 hours: Modi on Lula. Header moved to 1705Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Pete Thamel on Mississippi State QB injury and the Dune Part Three trailer posts (sports and entertainment already full); RapSheet, Pelissero and Schultz posts on the same Colts trade (copies of Schefter's); Talarico and Elon posts (older than 36 hours); old_content, private_individual and sexual posts.
+- Requests: watch.json adds the Schefter id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
