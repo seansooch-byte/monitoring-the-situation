@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-27-pokemon-unite-end-of-service",
+  "title": "Pokémon UNITE will shut down on 23 March 2027",
+  "dek": "The team battle game on phones and Nintendo Switch is ending service, and its shop has already stopped selling gems.",
+  "desks": [
+    "gaming"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-27T05:01:32Z",
+  "updated_at": "2026-10-27T11:30:00Z",
+  "what": [
+    "Pokémon UNITE's official site carries a notice titled \"Pokémon UNITE End of Service\", dated 26 October 2026. It says: \"service for Pokémon UNITE will end on Tuesday, March 23, 2027, at 00:00 UTC.\" The Pokémon news site Serebii.net posted the same date on X, and says it applies to both mobile and Nintendo Switch.",
+    "The notice says sales of Aeos gems stopped on Tuesday 27 October 2026 at 05:00 UTC. It says new UNITE Club memberships stopped on that date, and that existing members keep their benefits for the period they paid for. It lists a final update on 12 November 2026 with a special event and rewards.",
+    "After the end date, the notice says, players cannot log in or battle. A library feature, with records and content, stays available to players who download it before the shutdown. I read this on the official page through a fetch tool that summarises pages, and could not read the full text myself.",
+    "The notice gives no reason for the shutdown, and I found no refund terms in it. A separate official item from 15 July 2026 says UNITE will not be part of the 2027 Pokémon World Championships and will hold its own tournament, Pokémon UNITE Aeos Crown 2027 Tokyo. I did not find what happens to that event now."
+  ],
+  "why": "A fixed end date, with spending closed on the day it was announced, matters to people who play the game and to people who follow how long live-service games last.",
+  "next": "The final update on 12 November 2026, and any official word on the Aeos Crown 2027 Tokyo tournament.",
+  "posts": [
+    {
+      "id": "2114945572528415015",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pokémon UNITE: End of Service notice (official)",
+      "url": "https://unite.pokemon.com/en-us/news/unite-end-of-service/"
+    },
+    {
+      "label": "Pokémon UNITE: news page (official)",
+      "url": "https://unite.pokemon.com/en-us/news/"
+    }
+  ]
+}

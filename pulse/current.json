@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T10:20:00Z",
-  "capture": "2026-10-27T1004Z",
+  "updated_at": "2026-10-27T11:35:00Z",
+  "capture": "2026-10-27T1102Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -270,6 +270,12 @@
       "desk": "sports",
       "also": [],
       "line": "MLB posts a 15-second video saying Jackson Chourio is 4-for-4 with two hits in one inning, and that the Brewers lead 10-0."
+    },
+    {
+      "id": "2115023562717216943",
+      "desk": "entertainment",
+      "line": "PopCrave, a pop culture account, says Noah Wyle has been named People Magazine's Sexiest Man Alive for 2026. Not checked here.",
+      "also": []
     }
   ]
 }

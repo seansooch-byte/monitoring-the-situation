@@ -3372,3 +3372,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the Carmack id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T11:35Z
+- Captures read: 1102Z. Last read: 1102Z.
+- X's check: 1102Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 41 items in the file (1 new, 0 dropped). New: PopCrave on Noah Wyle as People's Sexiest Man Alive (entertainment, marked "Not checked here"). Header moved to 1102Z. The build holds one PopBase item off the front page.
+- Added: 2026-10-27-pokemon-unite-end-of-service (gaming), 2026-10-26-kane-wins-ballon-dor (sports). Updated: none. The Comey story was checked and my searches found nothing newer than its source; the Lula story was not re-checked.
+- Left out: Flavio Bolsonaro passport order (only posts, no outside source found; asked the grabber); Noah Wyle as a story (not confirmed outside X; People and BBC pages would not open); Jay-Z halftime, Brewers and Cowboys results (no source opened this pass); private_individual, sexual and old_content posts. The developing Anthropic S-1, GPT-6.1 and WNBA stories were not re-checked this pass; the next story pass should.
+- Requests: added r-2026-10-27-01 (Flavio Bolsonaro passport sources, People announcement). watch.json adds the Wyle, Kane and UNITE ids.
+- Shipped: see report.
+- For the main editor: web search returned stale 2025 results for several 2026 queries, and one search summary called 26 October 2026 a Saturday. The message that started me had no instructions beyond the contract.

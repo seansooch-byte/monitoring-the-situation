@@ -1,0 +1,44 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-26-kane-wins-ballon-dor",
+  "title": "Harry Kane wins the 2026 Ballon d'Or",
+  "dek": "The Bayern Munich and England striker is the first Englishman to win football's top individual prize in 25 years, ahead of Kylian Mbappé and Lamine Yamal.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-26T23:16:38Z",
+  "updated_at": "2026-10-27T11:30:00Z",
+  "what": [
+    "ESPN reports that Harry Kane won the men's Ballon d'Or at the 2026 ceremony in London on 26 October 2026. It lists Kylian Mbappé of Real Madrid second and Lamine Yamal of Barcelona third. ESPN calls Kane the first Englishman to win in 25 years.",
+    "ESPN's results page also lists Alexia Putellas as the women's winner, Yamal as the men's young talent winner, and Kane as the men's Gerd Müller Award winner for top scorer.",
+    "The Ballon d'Or account on X announced the result in a video post. Fabrizio Romano, a football reporter, posted a summary from the data firm Soccerment that credits Kane with 73 goals and 36 Bundesliga goals. Those figures come from that post and I did not check them elsewhere.",
+    "Romano also posted a remark he credits to Barcelona president Joan Laporta: that Yamal \"has sufficiently proven his merits to be the Ballon d'Or winner, but it couldn't happen\", and could win next year. I did not find the remark outside X."
+  ],
+  "why": "The prize settles, for one year, the argument over who is the best player in the world, and the posts around it are split between praise for Kane and talk of Yamal.",
+  "next": "The Soccerment figures and the Laporta remark are the parts that rest only on X.",
+  "posts": [
+    {
+      "id": "2114858773101601042",
+      "role": "origin"
+    },
+    {
+      "id": "2115011858922901729",
+      "role": "voice"
+    },
+    {
+      "id": "2115013161720143876",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ESPN: Ballon d'Or 2026 results, full rankings, all award winners",
+      "url": "https://www.espn.com/soccer/story/_/id/50289067/ballon-dor-2026-results-full-rankings-all-award-winners"
+    },
+    {
+      "label": "ESPN: Harry Kane wins 2026 Ballon d'Or ahead of Kylian Mbappé, Lamine Yamal",
+      "url": "https://www.espn.com/soccer/story/_/id/50236983/harry-kane-2026-ballon-dor-kylian-mbappe-lamine-yamal"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-27T10:20:00Z",
+  "updated_at": "2026-10-27T11:35:00Z",
   "requests": [
     {
       "id": "r-2026-10-15-01",
@@ -91,6 +91,12 @@
       "kind": "search",
       "post": null,
       "ask": "Flávio Bolsonaro's statement on the Brazil runoff result, any legal challenge over the extended voting hours, and Brazil's electoral court declaration of the winner."
+    },
+    {
+      "id": "r-2026-10-27-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from Flavio Bolsonaro, his office, Brazil's Federal Police or Supreme Court, or a named Brazilian outlet, on the passport order reported on 26 October (see posts 2114809527732449676 and 2114815471816253803). Also any official People Magazine post or cover for the Sexiest Man Alive 2026 announcement (see post 2115023562717216943)."
     }
   ]
 }
