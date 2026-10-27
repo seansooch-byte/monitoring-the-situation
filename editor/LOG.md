@@ -3442,3 +3442,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the Schefter id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T19:20Z
+- Captures read: 1800Z, 1905Z. Last read: 1905Z.
+- X's check: 1800Z 28 confirmed, 0 missing, 1 mismatched (2098381525574131985, @ballondor, hashtag order differs; not on the pulse). 1905Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Older mismatches in the full re-check unchanged.
+- Pulse: 41 items (3 new, 1 dropped). New: Romano on Carrick staying at Manchester United (sports), Dexerto on Discord messages becoming searchable on Google (tech), PlaystationSize on the GTA VI download size (gaming). Dropped as older than 36 hours: Romano on Mbappe travelling to the ceremony. Header moved to 1905Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ post on a rape accusation against a named person (claim about a real person, not checked outside X; for the next story pass if it grows); Trump's Kansas voting post and Bernie Sanders on Musk (politics already holds three); Fowler and Schefter follow-ups on the Nelson trade (copies of the Schefter item); #DrenchGang posts (small); TMZ anonymous celebrity item (no identifiable subject); old_content, private_individual and sexual posts.
+- Requests: watch.json adds the three new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

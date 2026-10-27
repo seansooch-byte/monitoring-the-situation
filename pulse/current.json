@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T18:50:00Z",
-  "capture": "2026-10-27T1800Z",
+  "updated_at": "2026-10-27T19:20:00Z",
+  "capture": "2026-10-27T1905Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -32,14 +32,6 @@
       "desk": "business",
       "line": "Watcher.Guru, a markets news account, says Ripple has received full US regulatory approval to operate as a national trust bank. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2114605445822443729",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, says Kylian Mbappe will travel to London for the Ballon d'Or ceremony today. A later post of his lists what he calls the official top 10, in no particular order, with Mbappe, Kane and Yamal among them. Not checked here.",
-      "also": [
-        "2114790427563855956"
-      ]
     },
     {
       "id": "2114705042817110293",
@@ -262,6 +254,24 @@
       "id": "2115116465942614045",
       "desk": "world",
       "line": "Melania Trump's account posts that a ceasefire between Ukraine and Russia took effect at 4:00 a.m. Moscow time on October 27, two days early, and says General Valery Gerasimov has confirmed it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115076116834607121",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Manchester United have decided to keep Michael Carrick as head coach despite the defeats to Bournemouth and Como. He says Carrick will be in charge for Saturday's match against Chelsea. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115142405464699089",
+      "desk": "tech",
+      "line": "Dexerto, a gaming and entertainment news outlet, says Discord will soon make public server messages searchable on Google. It says the feature will be on by default for US adults, who can opt out in their privacy settings. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115129198851522905",
+      "desk": "gaming",
+      "line": "The account PlaystationSize says Grand Theft Auto VI will be a 210 GB download, with a $79.99 standard edition, pre-load from November 12 and release at midnight on November 19. Other accounts repeat it as the PS5 size. Not checked here.",
       "also": []
     }
   ]
