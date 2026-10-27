@@ -3472,3 +3472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the two new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T22:20Z
+- Captures read: 2206Z. Last read: 2206Z.
+- X's check: 2206Z 26 confirmed, 0 missing, 1 mismatched (2115194840405483852, @jamiegangel, text differs from the record; not used), 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor) unchanged, not on the pulse.
+- Pulse: 46 items (3 new, 0 dropped). New: Washington Post on a grand jury declining to indict Cassidy Hutchinson (justice), Sky Sports Football on Max Dowman's red card with a second post in `also` (sports), Liquid AI on LFM3 (ai). Header moved to 2206Z. The build holds back two items over the one-per-account rule (PopCrave, Variety).
+- Added: none. Updated: none (pulse pass).
+- Left out: camhigby post (sexual content involving a child); Matt Walsh on Trump renaming AI and the RapidResponse47 image post (point not clear from the words); ChinaSelect on Mbappe and Mao (the controversy is not visible in the capture); the Mandela effect post (unchecked claim); WestsideLAGuy and ewkewpid (private_individual); old_content posts.
+- Requests: watch.json adds the four new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
