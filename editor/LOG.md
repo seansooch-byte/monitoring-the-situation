@@ -3362,3 +3362,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the Makhachev id and adds the PopBase and HQNewsNow ids; open.json unchanged apart from updated_at.
 - Shipped: yes, see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T10:20Z
+- Captures read: 1004Z. Last read: 1004Z.
+- X's check: 1004Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 40 items in the file (1 new, 0 dropped). New: John Carmack on robots and a jack-o-lantern (science, which had no item). Nothing is older than 36 hours. Header moved to 1004Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Variety on Taylor Swift and Lula (headline claim, unchecked; the account already holds a place); RepAOC on Lula (nothing to add to the Lula items); more Comey charge posts (Kaitlan Collins' item covers it); EricLDaugh on Bolsonaro (partisan framing, the Greenwald item covers the passport order); DataRepublican "Well." (nothing to describe); the Pokemon UNITE official post (Serebii's item covers it); private_individual, old_content and sexual posts. For the next story pass: Comey new charges; Lula win and Flavio Bolsonaro passport order.
+- Requests: watch.json adds the Carmack id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

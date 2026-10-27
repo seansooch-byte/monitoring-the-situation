@@ -1,8 +1,14 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T09:25:00Z",
-  "capture": "2026-10-27T0905Z",
+  "updated_at": "2026-10-27T10:20:00Z",
+  "capture": "2026-10-27T1004Z",
   "items": [
+    {
+      "id": "2114897771001974921",
+      "desk": "science",
+      "line": "John Carmack, a programmer, says that despite flashy robot demos, no robot in the world can change the batteries in a jack-o-lantern. He says that is a reality check on fears of a robot apocalypse. Not checked here.",
+      "also": []
+    },
     {
       "id": "2114774134848970868",
       "desk": "sports",
