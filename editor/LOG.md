@@ -3412,3 +3412,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json and open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T15:40Z
+- Captures read: 1503Z. Last read: 1503Z.
+- X's check: 1503Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 37 items (2 new, 3 dropped, 1 swapped). New: Fox News on an FBI raid in Beverly Hills tied to an investigation of Eric Swalwell (justice); Golden Joysticks nominees for Ultimate Game of the Year (gaming). Swapped: MadridXtra's Mbappe post, unavailable for four runs, replaced by The Madrid Zone's post of the same quote (live), with Dexerto's report of sponsors dropping him attached. Dropped as older than 36 hours: ToonHive on Eric Bauza, Mamdani on Lula, F1 on Verstappen. Header moved to 1503Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Mbappe's own photo post (text is a bare link, point unclear); Romano on Carrick and on Kvaratskhelia (Romano already holds a sports place); Cooper Flagg block (sports is full); OpenAI maths discoveries (ai is full); DCUCrave accusation against a named actor (claim about a real person, unchecked); private_individual and old_content posts. For the next story pass: the Swalwell raid and the Mbappe sponsor losses in China, both only on posts so far.
+- Requests: watch.json adds the Madrid Zone, Dexerto, Fox News and Golden Joysticks ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T14:30:00Z",
-  "capture": "2026-10-27T1416Z",
+  "updated_at": "2026-10-27T15:40:00Z",
+  "capture": "2026-10-27T1503Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -20,14 +20,6 @@
       "desk": "sports",
       "line": "NBA reporter Shams Charania says Oklahoma City's Jalen Williams has a dislocated left ankle and a fractured fibula, and Cason Wallace a torn labrum in his left shoulder. He says both will have surgery and miss several months, most or all of the season.",
       "also": []
-    },
-    {
-      "id": "2114560278147076501",
-      "desk": "entertainment",
-      "line": "ToonHive, an entertainment news account, says voice actor Eric Bauza has died at 46 and that his family confirms it in a new Instagram post. DiscussingFilm says he was the modern voice of Bugs Bunny and Daffy Duck. Not checked here.",
-      "also": [
-        "2114561950071853408"
-      ]
     },
     {
       "id": "2114798781778862589",
@@ -83,11 +75,6 @@
       "also": []
     },
     {
-      "id": "2114557320558477384",
-      "desk": "world",
-      "line": "New York City Mayor Zohran Mamdani posts \"The people united will never be defeated!\" and congratulates Lula, whom he calls President."
-    },
-    {
       "id": "2114713219411660978",
       "desk": "tech",
       "line": "The Robotaxi account posts \"Houston, we have liftoff\" and says a bigger service area is now live. Not checked here."
@@ -109,10 +96,12 @@
       ]
     },
     {
-      "id": "2114708561196372415",
+      "id": "2114708299644023175",
       "desk": "internet",
-      "line": "MadridXtra, a Real Madrid fan account, posts a quote it attributes to Kylian Mbappe: his favorite meme of himself puts his face on Mao Zedong, and he sends it to friends. Not checked here.",
-      "also": []
+      "line": "The Madrid Zone, a Real Madrid news account, posts a quote it attributes to Kylian Mbappe: his favorite meme of himself puts his face on Mao Zedong, whom he calls a Chinese dictator, and he sends it to friends. Dexerto, attached, says Chinese sponsors have dropped him over it. Not checked here.",
+      "also": [
+        "2115035849133846717"
+      ]
     },
     {
       "id": "2114772843997351993",
@@ -163,12 +152,6 @@
       "id": "2114808903540298141",
       "desk": "sports",
       "line": "The Dunk Central passes on remarks it credits to @Scalabrine on SiriusXM. He says that, as he understands it, Jaylen Brown went to the Celtics with a list of demands and wanted to be traded to Milwaukee. Brown is not heard in the post. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114549828537495944",
-      "desk": "sports",
-      "line": "The official F1 account says Max Verstappen is out of contention for the Drivers’ Championship for the first time since 2020, after the United States Grand Prix.",
       "also": []
     },
     {
@@ -253,6 +236,18 @@
       "id": "2114753170106933363",
       "desk": "music",
       "line": "PopCrave, a pop culture account, says Harry Styles has released the “Coming Up Roses” music video. The post carries a 14-second clip.",
+      "also": []
+    },
+    {
+      "id": "2115077413713715411",
+      "desk": "justice",
+      "line": "Fox News reports, in a 27-second video post, that the FBI has raided a Beverly Hills mansion as part of an investigation into Eric Swalwell. The post gives no further detail. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114718742558974326",
+      "desk": "gaming",
+      "line": "The Golden Joysticks awards account posts the nominees for Ultimate Game of the Year, with a 73-second video, and says voting closes on Friday 30 October.",
       "also": []
     }
   ]
