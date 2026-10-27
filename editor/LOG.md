@@ -3342,3 +3342,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the three dropped ids and adds the two Serebii ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T08:20Z
+- Captures read: 0800Z. Last read: 0800Z.
+- X's check: 0800Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check also lists 0105Z with 4 mismatched and 0204Z with 2 mismatched; those are older runs and I did not act on them.
+- Pulse: 40 items in the file (3 new, 2 gone). New: White House quoting Trump on a $1,000,000 voter fraud reward (politics, marked "Not checked here"); MLB on Chourio and the Brewers' 10-0 lead (sports). Ballon d'Or: the ballondor account's Kane post replaces its Putellas post as the item (it is the account's larger post), with the Putellas post and Kane's own post in `also`. Dropped as older than 36 hours: SpaceX 33-engine static fire. Header moved to 0800Z. The build holds one Musk item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Harry Kane's own post as its own item (attached in `also`); IranObserver0 on the Iran, Saudi, Turkey, Pakistan meeting (aggregator, unchecked); Katie Miller on Padilla (attack on a public figure, not checked; for the next story pass with the Padilla post); Musk "Cute" and "He's right" posts (nothing to describe); SNEAKO, Myron Gaines and nickshirleyy posts (insults, slurs, pile-on); mymixtapez and Bloseptnew (private_individual); small Brewers clips; sexual and old_content posts.
+- Requests: watch.json drops the SpaceX id and adds the Kane, Kane-own, White House and MLB ids; open.json unchanged apart from updated_at.
+- Shipped: yes, commit e7648269, live audit clean.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
