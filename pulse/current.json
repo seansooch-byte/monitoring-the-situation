@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T08:20:00Z",
-  "capture": "2026-10-27T0800Z",
+  "updated_at": "2026-10-27T09:25:00Z",
+  "capture": "2026-10-27T0905Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -64,11 +64,11 @@
       ]
     },
     {
-      "id": "2114455995304784345",
+      "id": "2114483639031394798",
       "desk": "politics",
-      "line": "HQNewsNow posts a 38-second video and says President Trump, at a rally, made a remark about the singer Nicki Minaj's body and asked her to stand up. PopBase places the rally in Port Huron, Michigan. A second post carries Minaj's own words from the stage.",
+      "line": "PopBase posts a 17-second video of the singer Nicki Minaj speaking at a Trump rally in Michigan, and quotes her as saying she does not want children \"bombarded with sex changes.\" HQNewsNow says President Trump, at the same rally, made a remark about her body.",
       "also": [
-        "2114483639031394798"
+        "2114455995304784345"
       ]
     },
     {
@@ -79,12 +79,6 @@
         "2114705637082820980",
         "2114709238454886805"
       ]
-    },
-    {
-      "id": "2114458716452077769",
-      "desk": "sports",
-      "line": "Championship Rounds posts a video, credited to another account on Instagram, in which Islam Makhachev says why he turned down a January fight with Carlos Prates. Not checked here.",
-      "also": []
     },
     {
       "id": "2114480275925119198",

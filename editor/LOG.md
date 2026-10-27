@@ -3352,3 +3352,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json drops the SpaceX id and adds the Kane, Kane-own, White House and MLB ids; open.json unchanged apart from updated_at.
 - Shipped: yes, commit e7648269, live audit clean.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T09:25Z
+- Captures read: 0905Z. Last read: 0905Z.
+- X's check: 0905Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 39 items in the file (0 new, 2 dropped, 1 swapped). Header moved to 0905Z. Dropped as older than 36 hours: HQNewsNow on Trump and Nicki Minaj (the PopBase post of her words replaces it as the item, with HQNewsNow's post in `also`); Championship Rounds on Makhachev. The build holds one PopBase item off the front page (one account, one place; the Jay-Z item stands on the music desk).
+- Added: none. Updated: none (pulse pass).
+- Left out: Firefox campaign video (advertisement); Apple Music halftime teaser (nothing to describe); Fabrizio Romano's Yamal TikTok post (the account already holds places); yoxics streamer clip (may show a private person); the Bieber link-only post; private_individual, sexual and old_content posts.
+- Requests: watch.json drops the Makhachev id and adds the PopBase and HQNewsNow ids; open.json unchanged apart from updated_at.
+- Shipped: yes, see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
