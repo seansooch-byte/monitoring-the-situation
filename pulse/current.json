@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T02:30:00Z",
-  "capture": "2026-10-27T0204Z",
+  "updated_at": "2026-10-27T03:30:00Z",
+  "capture": "2026-10-27T0302Z",
   "items": [
     {
       "id": "2114774134848970868",
@@ -79,12 +79,6 @@
         "2114705637082820980",
         "2114709238454886805"
       ]
-    },
-    {
-      "id": "2114371231327658474",
-      "desk": "politics",
-      "line": "CNN's State of the Union posts an exchange in which Bash asks Stevens whether Stevens is still fully behind Abdul El-Sayed. Stevens answers that Stevens is on the Democratic ticket and \"on the team\", and does not name El-Sayed.",
-      "also": []
     },
     {
       "id": "2114458716452077769",
@@ -266,6 +260,22 @@
       "line": "KDKA reports that Donnie Iris, the Pittsburgh musician behind \"Ah! Leah!,\" has died, according to a former bandmate. Not checked here.",
       "also": [
         "2114849576041750638"
+      ]
+    },
+    {
+      "id": "2114899105504006381",
+      "desk": "music",
+      "line": "Pop Base posts a 15-second video and says Jay-Z has been announced as the headliner of the Super Bowl halftime show. Ari Meirov posts that it is for Super Bowl LXI on Feb. 14, 2027, at SoFi Stadium in Los Angeles. Not checked here.",
+      "also": [
+        "2114897790232908256"
+      ]
+    },
+    {
+      "id": "2114886470020571588",
+      "desk": "sports",
+      "line": "SportsCenter posts a 12-second video captioned \"Giannis poster on Daniel Gafford\". Legion Hoops, in the attached post, says the Miami Heat are now 0-4 in the Giannis era. Not checked here.",
+      "also": [
+        "2114900859058557147"
       ]
     }
   ]
