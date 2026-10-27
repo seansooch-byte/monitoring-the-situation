@@ -3392,3 +3392,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the Acyn id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T13:20Z
+- Captures read: 1259Z. Last read: 1259Z.
+- X's check: 1259Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. The full re-check still lists 0011Z, 0105Z and 0204Z with mismatches; older runs, I did not act on them.
+- Pulse: 38 items (1 new, 0 dropped). New: PopCrave on the Harry Styles "Coming Up Roses" video (music). Nothing is older than 36 hours. Header moved to 1259Z. The build holds that item off the front page because PopCrave's other item is a different post; it stands on the music desk. MadridXtra's Mbappe post is unavailable for a second run; X confirmed it earlier, so it stays.
+- Added: none. Updated: none (pulse pass).
+- Left out: Paul Pierce finances (TMZ, a claim about a real person, unchecked); Kane, Prince William and Yamal posts by Romano and Sky (the Kane item covers it); Blade Runner / PPG hashtag campaign posts (small accounts, one fan campaign); Talarico voter ID posts and Trump on Nicki Minaj (older than 36 hours); private_individual, old_content posts.
+- Requests: watch.json adds the Styles id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

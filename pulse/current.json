@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T12:40:00Z",
-  "capture": "2026-10-27T1211Z",
+  "updated_at": "2026-10-27T13:20:00Z",
+  "capture": "2026-10-27T1259Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -247,6 +247,12 @@
       "id": "2114796628674822432",
       "desk": "politics",
       "line": "Acyn, an account that posts political clips, shares a video of JD Vance saying gas prices skyrocket \"every time some tinpot dictator decides to throw a tantrum.\" Vance also says the Democrats' answer is to \"whine and build a few windmills.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114753170106933363",
+      "desk": "music",
+      "line": "PopCrave, a pop culture account, says Harry Styles has released the “Coming Up Roses” music video. The post carries a 14-second clip.",
       "also": []
     }
   ]
