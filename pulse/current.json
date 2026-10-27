@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T20:35:00Z",
-  "capture": "2026-10-27T2002Z",
+  "updated_at": "2026-10-27T21:40:00Z",
+  "capture": "2026-10-27T2106Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -275,6 +275,18 @@
       "also": [
         "2115132802631168497"
       ]
+    },
+    {
+      "id": "2115159961240211787",
+      "desk": "politics",
+      "line": "Barack Obama posts that it is one week to Election Day and urges Ohio voters to vote early or make a plan for November 3rd. He names Sherrod Brown and Amy Acton as the candidates he backs there.",
+      "also": []
+    },
+    {
+      "id": "2115127436513849568",
+      "desk": "politics",
+      "line": "Secretary of State Marco Rubio posts a map image with the words \"Private island of corrupt regime in Cuba\". The post gives no further detail. It is part of the US-Cuba exchange at the UN. Not checked here.",
+      "also": []
     }
   ]
 }

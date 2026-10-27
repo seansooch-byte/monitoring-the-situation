@@ -3462,3 +3462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the two Waltz ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T21:40Z
+- Captures read: 2106Z. Last read: 2106Z.
+- X's check: 2106Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor) unchanged, not on the pulse.
+- Pulse: 43 items (2 new, 0 dropped). New: Barack Obama on early voting in Ohio (politics), Marco Rubio's "private island" post on Cuba (politics). Header moved to 2106Z.
+- Added: none. Updated: none. Story research this pass was limited to two web checks; the live developing stories were not re-checked against their sources.
+- Left out: Kyle Cheney's post on a Judge Reyes injunction over the East Potomac golf course (web search found only the October 14 order, not the new ruling; for the next story pass); the Hindi post claiming an Eisenkot election win (posted before Israeli polls closed, unchecked); WhaleNewsDaily stockpile list (unchecked claims); Schefter's Buckner trade and fan posts (same account as the Nelson item); Paris Hilton, Rubin AI film, Cheesecake Factory posts (not checked or ad-like); old_content, private_individual and sexual posts.
+- Requests: watch.json adds the two new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
