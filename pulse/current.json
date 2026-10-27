@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T22:20:00Z",
-  "capture": "2026-10-27T2206Z",
+  "updated_at": "2026-10-27T23:20:00Z",
+  "capture": "2026-10-27T2300Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -306,6 +306,20 @@
       "id": "2115128329003303107",
       "desk": "ai",
       "line": "Liquid AI announces LFM3, a new family of its Liquid Foundation Models, with what it calls a tri-hybrid architecture and six model instances across text, audio, vision and omni modalities. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115204705978548468",
+      "desk": "sports",
+      "line": "Fleetwood Town, the League Two club, posts that it has knocked Arsenal out of the League Cup. A second post, from football reporter Fabrizio Romano, says Arsenal were eliminated from the Carabao Cup by Fleetwood.",
+      "also": [
+        "2115204228654526739"
+      ]
+    },
+    {
+      "id": "2115092173729230955",
+      "desk": "politics",
+      "line": "Senator Bernie Sanders lists what he says has happened since Trump's election, including that Elon Musk became the first trillionaire, and says Musk is spending $442 million to keep Republicans in control of Congress. Not checked here.",
       "also": []
     }
   ]

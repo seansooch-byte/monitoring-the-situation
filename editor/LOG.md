@@ -3482,3 +3482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the four new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-27T23:20Z
+- Captures read: 2300Z. Last read: 2300Z.
+- X's check: 2300Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor) and 2206Z mismatch (2115194840405483852, @jamiegangel) unchanged, not on the pulse.
+- Pulse: 48 items listed (2 new, 0 dropped). New: Fleetwood Town on knocking Arsenal out of the League Cup with Fabrizio Romano's post in `also` (sports), Bernie Sanders on Musk and the midterms (politics, claims not checked). Header moved to 2300Z. The build holds back two items over the one-per-account rule (PopCrave, Variety).
+- Added: none. Updated: none (pulse pass).
+- Left out: factpostnews Trump clip (aggregator, point unclear); ABC7Chicago, Outkick, shahafban, tonedeafandh0t (private_individual); old_content posts; Talarico/Elon posts (older than 36 hours).
+- Requests: watch.json adds the three new ids; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
