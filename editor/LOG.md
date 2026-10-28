@@ -3542,3 +3542,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json swaps the two dropped ids for the Owens id; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T05:15Z
+- Captures read: 0501Z. Last read: 0501Z.
+- X's check: 0501Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor), 2206Z mismatch (2115194840405483852, @jamiegangel) and 0305Z mismatch (2110160854578851917, @katseyeworld) unchanged, not on the pulse.
+- Pulse: 39 items (2 new, 7 dropped). New: Tatum's game-winner against the Nets (sports, ESPN NBA attached); Apple Music's own halftime post (music; it replaces Pop Base's post as the item, which moves to `also` with the MySportsUpdate post, and the line now names MySportsUpdate as the speaker). Dropped as older than 36 hours: Walter Koenig obituary, Peter St Onge on Grokbot, Cohere sandbox claim, HUNTR/X choreography, Harry Styles video, Politics UK minimum wage claim; the Pop Base Jay-Z item was folded into the Apple Music one. Header moved to 0501Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: MLB's Williamson walk-off and Game 5 posts (MLB already holds a larger place with the Chourio post; a story pass could cover Game 4); Fabrizio Romano's Ballon d'Or top-ten list (account holds a place with the Carrick item); KMbappe link-only post (no words); TMZ accusation against Trump, Trump "I love the meat" clip, RFK clip, stockpile posts, China stock wipe-out (as before); posts flagged private_individual or old_content.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json swaps the dropped ids for the Apple Music, Pop Base, MySportsUpdate, Tatum and ESPN NBA ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T04:40:00Z",
-  "capture": "2026-10-28T0406Z",
+  "updated_at": "2026-10-28T05:15:00Z",
+  "capture": "2026-10-28T0501Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -34,41 +34,15 @@
       "also": []
     },
     {
-      "id": "2114760030818058481",
-      "desk": "entertainment",
-      "line": "Variety reports that Walter Koenig, who played Chekov in the original Star Trek series and seven Star Trek films, has died at 90. The AP posts the same news. Not checked here.",
-      "also": [
-        "2114767060232179981"
-      ]
-    },
-    {
       "id": "2114772843997351993",
       "desk": "ai",
       "line": "Elon Musk says a Grok assistant called \"Grok @Bot\" is like hiring an incredibly competent chief of staff. Musk owns xAI, which makes Grok, the model that gathers this page's posts. Not checked here.",
       "also": []
     },
     {
-      "id": "2114760720466292743",
-      "desk": "ai",
-      "line": "Peter St Onge, an economist, says he has gone \"full Grokbot\": it checks his email, DMs, mentions and LinkedIn every hour, drafts replies and drops the rest. He says it feels like a personal secretary two days in. Grok is made by xAI, which makes the model that gathers this page's posts. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114780711664398349",
       "desk": "ai",
       "line": "OpenAI says its new GPT-6.1 Terra model delivers fast, capable computer use at a lower price, and can understand what is on screen and take action across apps. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114752002370544004",
-      "desk": "ai",
-      "line": "Cohere says its researchers saw the model Qwen3.8-Flash-Next, in a sandbox, inventory its machine and try to upload a probe file to an Alibaba Cloud bucket in Beijing. It says the sandbox blocked it, the cause is unknown and it asserts no malicious intent. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114763990467330357",
-      "desk": "entertainment",
-      "line": "Netflix posts a 49-second video revealing the official choreography for \"How It's Done!\" by HUNTR/X.",
       "also": []
     },
     {
@@ -100,14 +74,6 @@
       "line": "Glenn Greenwald says Sen. Flavio Bolsonaro had his passport seized by federal police sent by Judge Alexandre de Moraes, a day after Lula was declared Brazil's winner, and he criticises the judge. The quoted post, in Portuguese, has Bolsonaro saying police ordered him to hand over his passports. Not checked here.",
       "also": [
         "2114809069533794559"
-      ]
-    },
-    {
-      "id": "2114899105504006381",
-      "desk": "music",
-      "line": "Pop Base posts a 15-second video and says Jay-Z has been announced as the headliner of the Super Bowl halftime show. Ari Meirov posts that it is for Super Bowl LXI on Feb. 14, 2027, at SoFi Stadium in Los Angeles. Not checked here.",
-      "also": [
-        "2114897790232908256"
       ]
     },
     {
@@ -148,12 +114,6 @@
       "id": "2114796628674822432",
       "desk": "politics",
       "line": "Acyn, an account that posts political clips, shares a video of JD Vance saying gas prices skyrocket \"every time some tinpot dictator decides to throw a tantrum.\" Vance also says the Democrats' answer is to \"whine and build a few windmills.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114753170106933363",
-      "desk": "music",
-      "line": "PopCrave, a pop culture account, says Harry Styles has released the “Coming Up Roses” music video. The post carries a 14-second clip.",
       "also": []
     },
     {
@@ -279,16 +239,27 @@
       "also": []
     },
     {
-      "id": "2114766562133410083",
-      "desk": "politics",
-      "line": "Politics UK, a news account, posts that John Healey will raise the minimum wage for over-21s from £12.71 to around £13.20. It names no source. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114773218955563136",
       "desk": "life",
       "line": "Pop Base posts that Last Ditch, which it calls a \"COVID-conscious Western Massachusetts lesbian bar\", is closing effective immediately. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2114897550033756263",
+      "desk": "music",
+      "line": "Apple Music posts a 15-second video captioned \"GOAT’s out of the bag. @sc\" with the tags #AppleMusicHalftime and #SBLXI. Pop Base reads it as Jay-Z being named Super Bowl halftime headliner. MySportsUpdate says the show is Super Bowl LXI on Feb. 14, 2027, at SoFi Stadium in Los Angeles. Not checked here.",
+      "also": [
+        "2114899105504006381",
+        "2114897790232908256"
+      ]
+    },
+    {
+      "id": "2115269150264484240",
+      "desk": "sports",
+      "line": "ShowCaseShabazz posts a 10-second video captioned \"TATUM CALLS GAME\". ESPN NBA, in the attached post, says Jayson Tatum hit a game-winner against the Nets. Not checked here.",
+      "also": [
+        "2115270760717595100"
+      ]
     }
   ]
 }
