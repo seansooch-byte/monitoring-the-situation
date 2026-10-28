@@ -6,11 +6,12 @@
 //
 // Words come from moments/ (the editor). Numbers come from capture/ (the grabber). The build
 // only joins them: it never writes a sentence about a story and never makes up a figure.
-import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, rmSync, statSync, writeFileSync } from 'node:fs';
+import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { deskTrace, magnitude, placesPerAccount, seriesByPost, storyNumbers } from './lib/metrics.mjs';
 import { ZONE_LABEL, clockTime, dateOf, dayOf } from './lib/clock.mjs';
+import { walk } from './lib/files.mjs';
 
 const REPO = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DEMO = process.argv.includes('--demo');
@@ -31,16 +32,6 @@ const inWords = (n) => WORDS[n] ?? String(n);
 const DESK_COUNT = inWords(DESKS.desks.length);
 // site.json holds the site's own words. Where they give the number of desks they say {desks}.
 const SITE = JSON.parse(readFileSync(join(REPO, 'site.json'), 'utf8').replaceAll('{desks}', DESK_COUNT));
-
-function walk(dir, test, out = []) {
-  if (!existsSync(dir)) return out;
-  for (const name of readdirSync(dir).sort()) {
-    const p = join(dir, name);
-    if (statSync(p).isDirectory()) walk(p, test, out);
-    else if (test(name)) out.push(p);
-  }
-  return out;
-}
 
 // ---------- load
 

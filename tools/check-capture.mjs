@@ -7,7 +7,8 @@
 //
 // Prints PASS or the list of errors, and exits 1 on any error. Warnings never fail a run.
 // No dependencies, Node 18 or later.
-import { readFileSync, readdirSync, statSync } from 'node:fs';
+import { readFileSync } from 'node:fs';
+import { walk } from './lib/files.mjs';
 import { basename, dirname, join, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -332,18 +333,12 @@ export function knownIdsBefore(filePath) {
   let root = dirname(target);
   for (let i = 0; i < 3; i++) root = dirname(root); // capture/YYYY/MM/DD/file -> capture
   const ids = new Set();
-  const walk = (dir) => {
-    for (const name of readdirSync(dir).sort()) {
-      const p = join(dir, name);
-      if (statSync(p).isDirectory()) walk(p);
-      else if (/^\d{4}Z\.json$/.test(name) && p < target) {
-        try {
-          for (const post of JSON.parse(readFileSync(p, 'utf8')).posts ?? []) if (post && isId(post.id)) ids.add(post.id);
-        } catch { /* an unreadable earlier file contributes nothing */ }
-      }
-    }
-  };
-  try { walk(root); } catch { /* first capture: nothing earlier */ }
+  for (const p of walk(root, (name) => /^\d{4}Z\.json$/.test(name))) {
+    if (!(p < target)) continue;
+    try {
+      for (const post of JSON.parse(readFileSync(p, 'utf8')).posts ?? []) if (post && isId(post.id)) ids.add(post.id);
+    } catch { /* an unreadable earlier file contributes nothing */ }
+  }
   return ids;
 }
 

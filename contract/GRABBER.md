@@ -46,20 +46,20 @@ Run them in this order. Use the ids exactly as written.
 
 | Sweep id | What to do | Size |
 |---|---|---|
-| `watch` | Re-read the numbers of the posts on the re-read list (see Re-reads, below). Observations only; no new records unless one changed. | up to 400 |
+| `watch` | Re-read the numbers of the posts on the re-read list (see Re-reads, below). Observations only; no new records unless one changed. | up to 800 by day, 400 overnight |
 | `trends.us`, `trends.ww` | X's trending list for the United States and worldwide, as shown, in rank order. For the top ten United States names, the posts driving the trend go in its `post_ids`. | top 20 each |
 | `viral.global` | The most viewed posts created in the last 24 hours, any subject, English first, from all five sources in Finding posts. | up to 40 new |
 | `rising.global` | Posts under 6 hours old gaining fastest: the repost stream and the quote stream, sampled with no desk terms. | up to 30 new |
 | `sensors.<group>` | The newest posts of one desk group's sensor accounts, and the posts they point at. | up to 15 new per group |
 | `desk.<desk>` | The most viewed and fastest posts of the last 24 hours for one desk. Sweep every desk that is due (see The desks, below). | up to 10 new per desk |
 | `context.top` | For the 3 biggest posts that are new this run, and every open `context` request: the most liked replies and quote posts (see Context on request). | up to 10 per post |
-| `volume.<desk>` | Hourly post counts for the desk's standing query (see Volume). No posts. | 3 or 4 desks a run |
+| `volume.<desk>` | Hourly post counts for the desk's standing query (see Volume). No posts. | 5 desks a run, in a fixed rotation |
 | `request.<id>` | One sweep per open request in `requests/open.json`. Answer it in `answers`. | as asked |
 
 ## Re-reads
 
-One file per run, always. The re-read list for a run is built in this order and stops at 400 posts
-(four calls):
+One file per run, always. The re-read list for a run is built in this order and stops at 800 posts
+(eight calls) in the 12:00 to 05:00 UTC band and at 400 (four calls) overnight:
 
 1. Every id in `requests/watch.json`. These are the posts in published stories and are never dropped.
 2. Every post first captured in the last 6 hours.
@@ -70,6 +70,12 @@ One file per run, always. The re-read list for a run is built in this order and 
 A post older than 24 hours is re-read only while it is in `watch.json`. A post X no longer returns
 gets one observation with `state` `unavailable` and all numbers `null`, and then leaves the list.
 X does not say whether a missing post was deleted, so `deleted` is not used.
+
+A post that has gone flat, under 2 percent gained in views across its last six readings, is
+re-read every sixth run instead of every run, whichever list put it there. A story-cited post is
+never dropped, only slowed the same way. A regular slower cadence is not a gap; a missed run is.
+Say in `capture/NOTES.md` how many posts the list held and how many it left out, and which of
+those were story-cited: the target is none.
 
 ## Finding posts
 
@@ -140,7 +146,10 @@ X will count the posts matching a query for each hour of the last week
 - **Desks.** Each desk has one standing query, listed in `capture/CAPABILITIES.md`. It must not
   change from day to day; when one has to change, say so in `capture/NOTES.md`. Record its hourly
   counts in `volume` with key `desk.<desk>` and the query itself. Because one read returns the
-  whole week, a desk needs a read only every six hours: three or four desks a run, in rotation.
+  whole week, read five desks a run in a fixed rotation (list the rotation in
+  `capture/CAPABILITIES.md`), so that every desk is read every four hours and no desk's week of
+  counts is more than four hours old: 120 reads a day. This is the signal behind the site's
+  baselines and is never cut.
   Leave out the partial first and last hours.
 - **Trends.** The top five United States trends each run, key `trend.us.<name>`.
 - **Posts.** If X will count reposts, quote posts and replies of one post by the hour
@@ -182,14 +191,21 @@ window only returns the late part of itself and is not worth its read.
 
 The limit is 1,000 reads a day, shared with the daily briefing. Stay under 850.
 
+Spend it. The budget exists to be used: a daytime run that spends under 30 reads while desks are
+due is a failure, reported as `partial` with that reason, and a day should end between 600 and
+850 reads. `run.status` is `ok` only when every due desk was swept and the re-read list was read
+in full. The day is **short** when the reads left are fewer than 30 times the hours left before
+00:00 UTC; only then does the cut order (Schedule and budget, below) apply.
+
 | Hours (UTC) | United States time | Reads per run |
 |---|---|---|
 | 12:00 to 05:00 | morning through late evening | up to 42 |
-| 06:00 to 11:00 | overnight | up to 20: re-reads, trends, both global sweeps, the hourly desks |
+| 06:00 to 11:00 | overnight | up to 20: re-reads, trends, both global sweeps, the hourly desks, five desks' counts |
 
-Inside a run, spend roughly: re-reads 4, trends 2, global repost and quote stream 5, trend names 5,
-desks due 10, sensors 3, story clusters 3, volume 4, screening by id 3, context and requests 3.
-If the day is running short, the cut order below still applies.
+Inside a daytime run, spend roughly: re-reads 8, trends 2, global repost and quote stream 5,
+trend names 3, desks due 10, sensors 3, story clusters 1, volume 5, screening by id 3, context
+and requests 3. When `requests/plan.json` exists (Requests from the editor, below), it replaces
+this split for that run. If the day is short, the cut order below applies.
 
 **A daily scoreboard.** In the last run before 00:00 UTC, append one line to `capture/NOTES.md`
 for the day just ended, counted over all of that day's captures with duplicates removed: reads
@@ -309,7 +325,9 @@ git push origin main                                           # on rejection: p
 
 - One run every hour. A run should finish inside ten minutes.
 - Stay inside the read budget above.
-- If you are short on quota, time or budget, cut in this order: desk sweeps first (drop the
+- When `requests/plan.json` exists, it is the run's read list: execute it in order, record what
+  you did, and let the standing orders fill only what it leaves open.
+- If the day is short (The read budget says when), or X refuses reads, cut in this order: desk sweeps first (drop the
   four-hour desks, then the two-hour desks, and keep the hourly ones longest), then `rising.global`,
   then `context.top`, then `viral.global`, then `trends`. Never cut `watch`: a gap in the time
   series cannot be repaired later. Record every sweep you dropped as `skipped` with the reason.
@@ -320,6 +338,10 @@ git push origin main                                           # on rejection: p
 Read `requests/open.json` and `requests/watch.json` at the start of every run (after `git pull`).
 
 - `watch.json` lists post ids to re-read every run until they are removed.
+- `plan.json`, when present, lists the next run's reads in order with a budget line for each:
+  re-reads by id in batches of 100, desks due, counts due, the open requests, totalled against
+  the reads left in the day. It is written by a tool, not a person, and it replaces your own cut
+  order for that run. (Not written yet; see `PROGRAM.md`, phase 0.)
 - `open.json` lists asks: look up a post, find the origin of something, pull the replies to a post,
   run a specific search. Answer each in `answers` with the request's `id`. A request stays open
   until the editor removes it; answer it once and then ignore it.

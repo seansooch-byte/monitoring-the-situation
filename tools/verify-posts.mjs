@@ -11,7 +11,8 @@
 // will not show it without a login), with the time of the check and the run that recorded the post.
 // X's public embed endpoint is used; it needs no account and returns 404 for a post that
 // does not exist.
-import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { walk } from './lib/files.mjs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -62,16 +63,6 @@ export async function askX(url) {
   if (r.status === 403) return WITHHELD;
   if (!r.ok) throw new Error(`X answered ${r.status}`);
   return r.json();
-}
-
-function walk(dir, test, out = []) {
-  if (!existsSync(dir)) return out;
-  for (const name of readdirSync(dir).sort()) {
-    const p = join(dir, name);
-    if (statSync(p).isDirectory()) walk(p, test, out);
-    else if (test(name)) out.push(p);
-  }
-  return out;
 }
 
 export function loadLedger() { return existsSync(LEDGER) ? JSON.parse(readFileSync(LEDGER, 'utf8')) : {}; }

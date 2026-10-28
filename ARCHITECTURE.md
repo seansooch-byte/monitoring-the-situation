@@ -4,13 +4,15 @@ Monitoring the Situation is a static website about what the internet is paying a
 with X as its main instrument. This repository is the whole system: it is the handoff between the
 two agents that make the site, the record of everything they produced, and the source of the site.
 
-Status of each part is marked **Built** or **Planned**. Nothing marked Planned exists yet.
+Status of each part is marked **Built** or **Planned**. Nothing marked Planned exists yet. A
+part becomes Built when its done test in `PROGRAM.md` has passed, not when its code lands.
 
 ## The pieces
 
 ```mermaid
 flowchart LR
   X[(X)] -->|reads| G["Grabber<br/>Grok, through grokbot"]
+  PL["Read planner<br/>tools/plan-reads.mjs"] -.->|"requests/plan.json"| G
   G -->|"capture/YYYY/MM/DD/HHMMZ.json"| C1{"Gate 1: structure<br/>tools/check-capture.mjs"}
   C1 -->|passes| CAP[("capture/")]
   CAP --> V{"Gate 2: existence<br/>tools/verify-posts.mjs asks X"}
@@ -22,12 +24,20 @@ flowchart LR
   E -->|"requests/open.json, watch.json"| G
   ED --> B["Build"]
   CAP -->|numbers, for confirmed posts only| B
+  CAP -.->|reads left, posts moving| PL
   NOTES["capture/NOTES.md and CAPABILITIES.md"] -.->|read by| E
   G -.-> NOTES
   B --> D["dist/"] --> CF["Cloudflare Worker<br/>static files"] --> R((Reader))
+  CAP -.->|"phase 1: POST /ingest replaces the push"| ST[("Store<br/>D1 and R2, deletion sweep")]
+  ST -.-> SP["Spike detector"] -.-> CF
+  ST -.-> DI["Divide Index<br/>tools/divide.mjs"] -.-> CF
+  ST -.-> W["Wire<br/>/v1 and /mcp"] -.-> A((Agent))
+  classDef planned stroke-dasharray: 5 5
+  class PL,ST,SP,DI,W,A planned
 ```
 
 Every arrow is a real dependency: the node at its head reads what the node at its tail wrote.
+Dashed nodes and arrows are Planned; the phase that builds each is in `PROGRAM.md`.
 
 | Node | Job | Reads | Writes | How it fails |
 |---|---|---|---|---|
@@ -37,6 +47,11 @@ Every arrow is a real dependency: the node at its head reads what the node at it
 | Editor | Group posts into stories, research them, write every word | confirmed posts, reporting on the web | `moments/`, `briefs/`, `requests/` | A story it cannot stand behind is not written. |
 | Build (**Built**: `tools/build.mjs`) | Render the site | `moments/`, `capture/`, `verified/posts.json`, `contract/desks.json`, `site.json` | `dist/` | Refuses to build if a story cites a post that no capture recorded or that Gate 2 has not confirmed. Desk traces and totals use confirmed posts only. `--demo` reads `fixtures/demo` and skips the ledger. |
 | Cloudflare (**Built**: `wrangler.jsonc`, `tools/ship.sh`) | Serve `dist/` at situation.seansooch.dev | `dist/` | the public site | The previous version stays live. `tools/ship.sh` refuses a dirty tree, failing tests or a demo build, and compares the live page with the build afterwards. |
+| Read planner (**Planned**, phase 0: `tools/plan-reads.mjs`) | Turn the day's remaining budget into the next run's read list | the latest captures, `requests/watch.json` and `open.json`, `contract/desks.json` | `requests/plan.json`: reads in order, a budget line each | A plan over budget is not written; the grabber falls back to the standing orders and says so in `run.reason`. |
+| Store (**Planned**, phase 1) | Hold the record where a deletion can be honoured within 24 hours | `POST /ingest` from the grabber; X's oEmbed endpoint for the sweep | D1 rows and R2 raw files; purges recorded in the ledger | A capture failing Gate 1 is refused with its errors. A post X answers 404 for loses its words within 24 hours, or the nightly store test fails. |
+| Wire (**Planned**, phase 2) | Answer agents with ids, numbers and the editor's words | the store, the editor's files | HTTP and MCP responses, an aggregated query log, `/status` | Never a post's text; a test walks every endpoint. Over the limit: `429`. |
+| Spike detector (**Planned**, phase 3) | Say when a desk is above its normal hour of the week | `volume` in the store | `signals/spikes.json`, an alert, the desk card | Under two weeks of counts: no number, and the card says so. |
+| Divide Index (**Planned**, phase 5: `tools/divide.mjs`) | One number a day for how little the day's audiences overlap | the store's `sides` sweeps | the index per desk and day, the bridging posts | Under the floor of posts or accounts the number is withheld and n is shown. |
 
 Two rules hold the design together:
 
@@ -67,16 +82,41 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
    the day are sums over every post X has confirmed on that desk, including posts flagged as
    showing private people, which are counted and never shown.
 
+## The program
+
+`PROGRAM.md` is the plan for what comes next: seven phases, from spending the whole read budget
+to charging for the wire, each with a done test Sean can read in twenty minutes. Three
+constraints shape every part of it and are repeated here because they shape the architecture:
+
+- **X is read only through grokbot's existing access.** 1,000 reads a day, 30 a minute, shared
+  with the daily briefing; the contract says stay under 850. The grabber spent about 480 a day in
+  the week to 2026-10-27 and ended days with about 500 unused. Every phase states its cost in
+  reads, and the planner (phase 0) is how the budget is spent on purpose.
+- **grokbot stays the grabber.** Nothing replaces it. What moves is the decision of which reads
+  to make: from Grok's own cut order to `requests/plan.json`, written by a tool and readable by
+  Sean.
+- **The editor runs on the subscription.** About 24 passes a day at $11 to $13 a day at API
+  rates, logged by grokbot in `capture/EDITOR-RUNS.md`, billed as usage of Sean's Claude plan.
+  Cash cost today is the Cloudflare plan.
+
+What leaves the system is bounded by X's developer policy: ids and links may be passed on, copies
+of posts may not, and a post deleted on X must be gone from here within 24 hours. So the wire
+never returns a post's words, the store (phase 1) purges on deletion, and what is sold is the
+editor's words and the engine's numbers.
+
 ## Directory map
 
 | Path | Owner | What it is |
 |---|---|---|
+| `PROGRAM.md` | Editor | The charter: seven phases with a done test each, the constraints, what is sold and never sold, the open decisions, a weekly log. **Built** as a document; each phase is Planned until its test passes. |
 | `contract/` | Editor | The grabber's standing orders (`GRABBER.md`), the capture format (`CAPTURE.md`), the desks (`desks.json`), a checked example. **Built.** |
 | `tools/check-capture.mjs` | Editor | Gate 1, and the definition of a valid capture. **Built.** |
 | `tests/` | Editor | The contract as tests. **Built.** |
-| `requests/` | Editor | What the editor wants from the next run: lookups, searches, and the list of posts to keep re-reading. **Built** (format); the grabber starts reading it with its first run. |
-| `capture/` | Grabber | One file per run, append only (`YYYY/MM/DD/HHMMZ.json`). Beside them, the grabber's own papers, which the contract asks for and the editor reads: `CAPABILITIES.md` (what X actually returns, and the standing query per desk), `RUNBOOK.md` (its hourly procedure), `SENSORS.md` (accounts it reads), `NOTES.md` (its channel back to the editor), and `handover/` (the old briefing's method and the old feed Worker's source, secrets removed). |
-| `contract/KICKOFF.md`, `REPLY-01.md` to `REPLY-03.md` | Editor | The messages Sean pasted to grokbot, kept on record. |
+| `requests/` | Editor | What the editor wants from the next run: lookups, searches, and the list of posts to keep re-reading. **Built**; the grabber reads it every run. `plan.json`, the next run's read list with a budget line each, is **Planned** (phase 0) and written by `tools/plan-reads.mjs`, not by hand. |
+| `capture/` | Grabber | One file per run, append only (`YYYY/MM/DD/HHMMZ.json`), until phase 1 moves delivery to the store. Beside them, the grabber's own papers, which the contract asks for and the editor reads: `CAPABILITIES.md` (what X actually returns, and the standing query per desk), `RUNBOOK.md` (its hourly procedure), `SENSORS.md` (accounts it reads), `NOTES.md` (its channel back to the editor), `EDITOR-RUNS.md` (every editor pass with its duration and cost at API rates), `RANKING.md` (its reading of X's open-sourced ranking code), `TALLY.json` (origins seen in the global streams, by run), and `handover/` (the old briefing's method and the old feed Worker's source, secrets removed). |
+| `contract/KICKOFF.md`, `REPLY-01.md` to `REPLY-05.md` | Editor | The messages Sean pasted to grokbot, kept on record. `REPLY-05.md` (2026-10-27) carries phase 0's contract changes and two questions for later phases. |
+| `tools/plan-reads.mjs`, `tools/budget-report.mjs` | Editor | The read planner, and the day's report that is phase 0's done test. **Planned.** |
+| `signals/`, `live/`, `METHOD.md`, `health/` | Editor | Spikes (phase 3), crisis timelines (phase 4), the Divide Index's method (phase 5), the health edition (phase 6). **Planned.** |
 | `contract/EDITOR.md`, `EDITOR-BRIEF-PULSE.md`, `EDITOR-BRIEF.md` | Editor | The procedure, and the two word-for-word briefs (pulse pass, story pass). **Built.** |
 | `editor/LOG.md` | Editor | One entry per pass: what was read, what X confirmed, what was added, updated and left out. **Built.** |
 | `wrangler.jsonc`, `tools/ship.sh`, `tools/refresh.sh`, `tools/audit-live.mjs` | Editor | Where the files are served, the only way they are shipped, the hourly no-model refresh, and the comparison of live with built. **Built.** |
@@ -89,6 +129,7 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 | `site/` | Editor | The stylesheet, the page script and the icon. Page templates live in `tools/build.mjs`. **Built.** |
 | `tools/lib/metrics.mjs` | Editor | Arithmetic on readings: magnitude, a story's totals and trend, a desk's trace. **Built.** |
 | `tools/lib/clock.mjs` | Editor | The site's clock: turns a stored UTC instant into the Eastern time a reader sees. The only place a time zone is named. **Built.** |
+| `tools/lib/files.mjs` | Editor | The one directory walk, used by the build, Gate 1 and Gate 2: regular files only, never a symlink (the grabber's scratch has held links that loop on a case-insensitive disk). **Built.** |
 | `tools/make-demo.mjs`, `tools/demo-stories.mjs` | Editor | An invented day in the real file formats, for design work. A build from it is marked on every page and leaves a `DEMO` file so it is never deployed. **Built.** |
 | `.github/workflows/check.yml` | Editor | Runs the tests and Gate 1 on every push, and fails a capture commit that touches anything outside `capture/`. **Built.** |
 
@@ -96,9 +137,10 @@ proof is a new file under `capture/` each hour, and a missing hour means it did 
 
 - **The grabber** runs hourly on grokbot's scheduler and pushes one capture.
 - **A pulse pass** is a Claude agent that grokbot's routine starts after each hourly capture
-  (**Planned**: specified, waiting on grokbot's trial pass; the first pulse was written by the
-  main editor). Brief: `contract/EDITOR-BRIEF-PULSE.md`, passed word for word. It checks new
-  posts with X, rewrites `pulse/current.json`, and ships.
+  (**Built**: running hourly; each pass is logged with its duration and its cost at API rates in
+  `capture/EDITOR-RUNS.md`, about 24 a day at $11 to $13 a day in the week to 2026-10-27).
+  Brief: `contract/EDITOR-BRIEF-PULSE.md`, passed word for word. It checks new posts with X,
+  rewrites `pulse/current.json`, and ships.
 - **A story pass** runs four times a day in place of the pulse pass (brief:
   `contract/EDITOR-BRIEF.md`). It does the pulse too, then researches and writes stories.
 - **`tools/refresh.sh`** is the fallback when a pass fails or is skipped. No model: it asks X
@@ -151,7 +193,8 @@ none of which trust the grabber's own word:
 
 ## The site
 
-One static build, no server and no database. `node tools/build.mjs` writes `dist/`:
+One static build, no server and no database, until phase 1 of `PROGRAM.md` moves the record to a
+store; the pages stay as they are. `node tools/build.mjs` writes `dist/`:
 
 - `/` the nameplate with the site's line and the pinned post; the largest post on the pulse on
   its own; a card per desk (24 bars for the last 24 hours) that is also the switch for the
@@ -190,7 +233,8 @@ Fonts come from Google Fonts. No other third party is contacted. Every page is `
 (a header and `robots.txt`) until Sean opens the site to search engines.
 
 Not built yet: a daily brief, bars drawn from `volume`, click-to-load embeds of posts, a dark
-variant of the page.
+variant of the page. The program's phases (the planner, the store, the wire, spikes, crisis mode,
+the Divide Index, the two editions) are listed in `PROGRAM.md` and not repeated here.
 
 ## What this replaced
 

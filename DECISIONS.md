@@ -497,3 +497,163 @@ each desk and is left as it is.
 
 **Supersedes** the sentence in the entry above that the build "keeps each account's most
 viewed post" without saying of which list.
+
+## 2026-10-27: The program: a wire on a free instrument
+
+**Context.** Sean wants the engine to become a months-long, enterprise-grade program: a wire for
+AI agents, spike detection, crisis mode, a Divide Index, a health early-warning edition and a
+said-versus-voted edition, with a way to charge agents and organizations. `PROGRAM.md` is the
+charter. The first question was what to do about X, since every one of those parts reads it.
+
+**Alternatives.** (a) Pay-per-use X API on our own key: the hourly re-read of 400 to 800 posts
+alone is roughly 10,000 to 20,000 post reads a day, which at the reported half a cent a post is
+$1,500 to $3,000 a month, four to eight times the editor's cost. (b) X Enterprise, reported from
+about $42,000 a month. (c) A code grabber on our own key, replacing Grok. (d) Keep grokbot's
+existing access (1,000 reads a day, free to Sean) and spend the half of it that goes unused.
+
+**Decision.** (d). No paid X API; grokbot stays the grabber; the read budget is the design
+constraint of every phase and each phase states its cost in reads. Sean set this: "I'm not paying
+for an x api. i already have grokbot."
+
+**Why.** The input is capped and free; the output (the site, the wire) is uncapped. The
+program's cost base is therefore the editor's usage of Sean's subscription ($11 to $13 a day at
+API rates) and a Cloudflare plan, and every dollar past that is margin. The risk accepted is a
+single point of failure: grokbot's X access. The store and the wire carry a `source` field on
+every row so a second instrument can be added later without a redesign; none is built now.
+
+**Also decided here.** Health early warning and said-versus-voted are editions of one platform,
+not tracks of their own: the same store, planner, wire and checks, configured for a different
+audience. A one-person program ships five things by building one and configuring it twice.
+
+## 2026-10-27: Code plans the reads; Grok makes them; Claude judges
+
+**Context.** Every run from 2026-10-10 to 2026-10-27 is `partial`. The grabber spends 18 to 23
+reads of a daytime allowance of 42 and skips fifteen of nineteen desks with "non-hourly desk
+skipped after cut order". Item 3 of REPLY-04 (2026-10-10) said so in prose, and seventeen days
+later nothing had changed. The cut order lives in Grok's judgement, run by run.
+
+**Alternatives.** (a) A stricter prose contract: tried, without effect. (b) A code grabber: ruled
+out above. (c) A tool in this repository writes each hour's read list, in order, with a budget
+line each, and the grabber executes it.
+
+**Decision.** (c). `tools/plan-reads.mjs` writes `requests/plan.json` from the latest captures,
+`watch.json`, `open.json`, `desks.json` and the reads left in the UTC day. When the file exists
+the grabber executes it and records what it did; the standing orders fill only what it leaves
+open. Until the tool exists, `GRABBER.md` is the plan and now says that a run which underspends
+while desks are due is a failure.
+
+**Why.** A plan a tool wrote is deterministic, testable and readable by Sean; a cut order a model
+applied is none of those. It keeps grokbot exactly where it is, reading X and recording what X
+said, and moves only the decision of what to read. Crisis mode (phase 4) is a `mode` in the same
+file, so the mechanism that fixes today's underspending is the one that later reallocates the
+budget in an emergency.
+
+## 2026-10-27: Re-reads follow movement, and counts cover every desk
+
+**Context.** The re-read list stopped at 400 posts (four reads) by our own contract, not X's
+limit, and left out 70 to 95 posts a run, up to 24 of them cited in stories. `volume`, the hourly
+counts behind the site's baselines, was absent from most runs. The checker allows 1,500
+observations and 60 volume series a file, so neither cap was the constraint.
+
+**Alternatives.** (a) Raise the cap and keep re-reading every post every hour. (b) Counts for
+every desk every two hours: nineteen reads at even hours, which pushes those runs past the
+42-read band cap. (c) Re-read in proportion to movement, and read counts in a rotation.
+
+**Decision.** (c). Up to 800 re-reads (eight reads) by day and 400 overnight; a post flat for six
+readings (under 2 percent gained) is re-read every sixth run; a story-cited post is never dropped,
+only slowed. Counts: five desks a run in a fixed rotation, so every desk every four hours, 120
+reads a day; a desk above twice its baseline gets its counts hourly through the plan (phase 3).
+`GRABBER.md` changed in this commit. **Supersedes** "stops at 400 posts (four calls)" and "three
+or four desks a run, in rotation" there.
+
+**Why.** A flat post re-read hourly is a read spent on a number that will not change; the same
+read on a desk that has not been swept in seventeen days is information. A regular slower
+cadence is not a gap in the series. The rotation keeps every run under the band cap while giving
+the spike detector a baseline no more than four hours stale, and the planner can tighten it to an
+hour where it matters.
+
+## 2026-10-27: The record leaves git before the first paid reader
+
+**Context.** X's developer policy requires stored content to be deleted or modified within 24
+hours of its deletion or modification on X. The pulse already honours this (the editor swapped
+out a MadridXtra post the hour X stopped returning it), but git keeps every capture's text in
+its history forever. Harmless while the repository is private and unread; not once a third party
+reads the record through the wire.
+
+**Alternatives.** (a) Redaction commits: the history keeps the text. (b) Keep the repository
+private and accept it: not tenable once the wire exists. (c) Rewrite history on every deletion:
+breaks grokbot's hourly clone. (d) Move captures to a store (D1 rows, R2 raw files) with an hourly
+deletion sweep against X's oEmbed endpoint, import the history first, and rewrite git once at the
+cutover.
+
+**Decision.** (d), as phase 1 of `PROGRAM.md`, before any paid reader. The grabber's delivery
+becomes a `POST /ingest` with a bearer token; Gate 1 runs on ingest; a 404 from X purges a post's
+words, author name, media descriptions and link, keeping its id and its numbers. The one
+force-push in the program happens at the cutover, with Sean's approval and grokbot recloning.
+
+**Why.** Git is the right home for the contract, the tools, the editor's files and the site, all
+of which are ours to keep forever. It is the wrong home for a record that someone else may order
+us to change. The done test is the policy as a test: no `missing` post has words anywhere, and
+the newest one was purged within 24 hours.
+
+## 2026-10-27: What is sold and what is never sold
+
+**Decision.** Sold or given away: the editor's lines and stories; scores, indices, baselines,
+alerts and timelines; post ids, handles and links; hourly counts per desk; the method behind every
+number. Never: the words of a post; media from a post; anything about a post X no longer returns
+beyond its id and numbers; per-caller query logs; X content as training data. The site may
+display a post (its own public display, kept current); the wire may not copy one.
+
+**Why.** X's policy lets post ids reach third parties (1,500,000 a month) and not copies of
+posts. The editor's words and the engine's numbers were the valuable part anyway: they are what
+the site is for, and the constraint only says so out loud. "Never" is written down so that no
+phase can trade it for a feature.
+
+## 2026-10-27: Everything runs on Cloudflare
+
+**Context.** The program needs a database, object storage, a queue or cron for the sweep, an
+HTTP API, an MCP server, and a way to answer `402`. The site is already a Cloudflare Worker.
+
+**Alternatives.** Supabase (used for AA; its trap list is long), Render (the handoff tracker), a
+VPS. Each adds a vendor, a bill and an operations surface.
+
+**Decision.** D1, R2, Cron Triggers, Queues and the Agents SDK on the existing Worker. The paid
+endpoints use the `402` helpers there; whether the rail is x402 or Stripe's Machine Payments
+Protocol is decided in phase 7 when the first customer's wallet is known.
+
+**Why.** One vendor, one bill, one person can run it. The Worker already serves the site and
+holds the custom domain, so every phase is an addition to it, not a migration.
+
+## 2026-10-27: Built means the done test passed
+
+**Context.** `ARCHITECTURE.md` marked the pulse pass **Planned** while it had been running 24
+times a day for weeks (fixed in this commit). Code landing and a thing working are different
+events, and the file only recorded the first.
+
+**Decision.** A part is **Built** when its done test in `PROGRAM.md` has passed. Until then it is
+Planned, whatever is in the repository. The done test lives in `tests/` where it can, else as a
+tool that prints PASS or FAIL, so Sean can run it in the weekly twenty-minute review.
+
+**Why.** The program is months long and run mostly by agents. The one thing Sean must be able
+to trust without reading code is the word Built.
+
+## 2026-10-27: The tools never follow a symlink
+
+**Context.** The grabber's scratch committed on 2026-10-17 (`capture/work/2026-10-17T2308Z/`)
+holds `trend_georgia.txt -> trend_Georgia.txt` and four more links. On Linux those are two
+names; on a Mac, whose disk ignores case, the link is its own target. Three tools walked
+`capture/` with `stat()` and looped (ELOOP), so `npm test` and the build failed here, and the
+checkout showed four files changed that nobody changed, which `tools/ship.sh` refuses.
+
+**Alternatives.** (a) Skip `capture/work/` by name. (b) Ask grokbot to remove the links and
+wait. (c) Exclude the scratch from this clone and change nothing. (d) One shared walk that
+never follows a link, plus (b) and (c) as the interim.
+
+**Decision.** (d). `tools/lib/files.mjs` is the one walk, used by the build, Gate 1 and Gate 2:
+`lstat`, symlinks skipped, regular files only, with `tests/files.test.mjs` pinning it. This clone
+excludes `capture/work/` through a sparse checkout (`git sparse-checkout disable` undoes it)
+until grokbot deletes the links (REPLY-05, item 6), and the contract now forbids symlinks and
+case-only duplicate names anywhere in the repository.
+
+**Why.** A walk looking for `HHMMZ.json` has no business following links, whatever the disk.
+The scratch is the grabber's to keep; the editor's tools should not be able to be broken by it.
