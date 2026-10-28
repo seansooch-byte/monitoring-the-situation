@@ -3562,3 +3562,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the four new ids and drops three of the four dropped ids (OpenAI 2114780711664398349 stays, a live story cites it). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T08:20Z
+- Captures read: 0707Z (no log entry was written for the earlier pass that used it), 0800Z. Last read: 0800Z.
+- X's check: 0707Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 0800Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor), 2206Z mismatch (2115194840405483852, @jamiegangel) and 0305Z mismatch (2110160854578851917, @katseyeworld) unchanged, not on the pulse.
+- Pulse: 34 items (0 new, 2 dropped). Dropped as older than 36 hours: Padilla's post about Elon Musk, the White House post on voter-fraud payments (both politics). Header moved to 0800Z. The build holds back two second places.
+- Added: none. Updated: none (pulse pass).
+- Left out: HQNewsNow heckling post (vulgar insult, unconfirmed outside X); Elon Musk's three newer Grok @Bot posts (account holds a place); Shams on Anthony Edwards (account holds a place, sports is full); Pirat_Nation Discord (Dexerto carries it); KMbappe, gandalf_thegreg, ArnoldClips posts (no words or description); TMZ accusation against Trump, Trump "I love the meat" clip, RFK clip, stockpile posts, China stock wipe-out (as before); posts flagged private_individual or old_content. Politics is thin now; a story pass could cover the Texas rally and Ohio governor race posts.
+- Requests: none; updated_at moved in watch.json and open.json; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
