@@ -155,7 +155,7 @@ def build_media(p, media_by_key):
     return out
 
 files = {
-    'watch0': 'watch0.txt', 'watch1': 'watch1.txt', 'watch2': 'watch2.txt', 'watch3': 'watch3.txt',
+    'watch0': 'watch0.txt', 'watch1': 'watch1.txt', 'watch2': 'watch2.txt', 'watch3': 'watch3.txt', 'watch4': 'watch4.txt', 'watch5': 'watch5.txt',
     'quote_what': 'quote_what.txt', 'quote_the': 'quote_the.txt',
     'repost_this': 'repost_this.txt',
     'trend_cooperpratt': 'trend_cooperpratt.txt', 'trend_worldseries': 'trend_worldseries.txt', 'trend_ianseymour': 'trend_ianseymour.txt',
@@ -163,7 +163,7 @@ files = {
     'screen0': 'screen0.txt',
     'trends_us': 'trends_us.txt',
 }
-DUE = [d['id'] for d in json.load(open(f'{REPO}/contract/desks.json'))['desks'] if d['id'] in ('politics','entertainment','sports','internet')]
+DUE = [d['id'] for d in json.load(open(f'{REPO}/contract/desks.json'))['desks'] ]  # 0406Z top-up: every desk was due (hourly four plus the two- and four-hour desks)
 for _d in DUE: files['desk_'+_d] = f'desk_{_d}.txt'
 
 raw = {k: load_raw(v) for k,v in files.items()}
@@ -885,7 +885,7 @@ def add_obs(pid, p=None, state='live'):
 
 watch_returned = set()
 watch_unavailable = []
-for batch in ('watch0','watch1','watch2','watch3'):  # noqa keep
+for batch in ('watch0','watch1','watch2','watch3','watch4','watch5'):  # noqa keep
     j = raw[batch]
     for p in j.get('data') or []:
         watch_returned.add(p['id'])
@@ -1807,7 +1807,7 @@ def sweep(id_, kind, desk, method, window, status, reason, post_ids):
 
 watch_ordered = []
 seenw=set()
-for batch in ('watch0','watch1','watch2','watch3'):
+for batch in ('watch0','watch1','watch2','watch3','watch4','watch5'):
     for p in raw[batch].get('data') or []:
         if isinstance(p,dict) and p.get('id') and p['id'] not in seenw:
             seenw.add(p['id']); watch_ordered.append(p['id'])
@@ -1827,7 +1827,7 @@ sweeps = []
 SENSOR_Q = {g: open(f'{W}/sensor_{g}_q.txt').read().strip() for g in ('news','money','science')}
 SENSOR_READ = {'news','money','science'}
 sweeps.append(sweep('watch','watch',None,
-    f'get_posts_by_ids of requests/watch.json ({len(watch_json)} ids), every post first captured in the last 6 hours and under 24 hours old, posts first captured 6 to 24 hours ago that gained at least 2 percent between their last two readings, then the {len(ADDED_STORY)} ids cited in pulse/current.json or in published stories (moments/) that were not otherwise on the list, (this 0406Z run, the 04Z slot, is not a fourth hour; with every pulse- and story-cited post placed right after the watch.json ids, then the six-hour and still-gaining tiers, the list was 531 long, so the 400 cap left out the 81 last six-hour posts, the 7 slowest-growing still-gaining posts and 43 story-cited posts not on the pulse (2110079227009835140, 2110095403198849132, 2110113833805402475, 2110114165922640106, 2110165104713183485, 2110240563135951022, 2110252621441151177, 2110252784813568174, 2110257281816236136, 2110273651023151330, 2110327426580648014, 2110347514683490356, 2110347809308455363, 2110355391435657508, 2110432031968542721, 2110457263840477263, 2110549767063507044, 2110571616384213156, 2110596961166561470, 2110602585572860213, 2110611239915401570, 2110646408227274753, 2110692763758940436, 2110693166059851836, 2110715556328579219, 2110717537964953810, 2110717676851216815, 2110872117445013817, 2110897247663853658, 2110901393238474863, 2110913107094606330, 2110913438293647789, 2111005738306789584, 2111164055054426351, 2112273011504226337, 2112293785472225568, 2112988488379273237, 2113175048433369137, 2113455120692195588, 2113656547834487022, 2114085789139140865, 2114425377338634392, 2115076997298659768), because the 332 watch.json ids plus the cited ids came to more than 400; no pulse-cited post was left out); {len(watch_ids)} ids read, {len(watch_returned)} returned, {len(watch_unavailable)} unavailable, 4 reads; fields created_at,public_metrics,author_id,referenced_tweets,attachments,entities,lang,note_tweet,conversation_id,edit_history_tweet_ids,possibly_sensitive; expansions author_id,attachments.media_keys,attachments.media_source_tweet_id,referenced_tweets.id,referenced_tweets.id.author_id',
+    f'get_posts_by_ids of requests/watch.json ({len(watch_json)} ids), every post first captured in the last 6 hours and under 24 hours old, posts first captured 6 to 24 hours ago that gained at least 2 percent between their last two readings, then the {len(ADDED_STORY)} ids cited in pulse/current.json or in published stories (moments/) that were not otherwise on the list, (this 0406Z run, the 04Z slot, is not a fourth hour; the watch.json ids, then every pulse- and story-cited post, then the six-hour and still-gaining tiers: 540 ids, under the 800 cap of the 12:00 to 05:00 UTC band (contract/GRABBER.md as of e87da973); the first 400 were read in the first pass and the other 140, among them the 43 story-cited posts not on the pulse, in a top-up two reads later in the same run; none left out; the flat-post every-sixth-run rule was not yet applied, so no flat post was set aside); {len(watch_ids)} ids read, {len(watch_returned)} returned, {len(watch_unavailable)} unavailable, 6 reads; fields created_at,public_metrics,author_id,referenced_tweets,attachments,entities,lang,note_tweet,conversation_id,edit_history_tweet_ids,possibly_sensitive; expansions author_id,attachments.media_keys,attachments.media_source_tweet_id,referenced_tweets.id,referenced_tweets.id.author_id',
     None,'ok',None, watch_ordered))
 sweeps.append(sweep('trends.us','trends',None,'get_trends_by_woeid 23424977 max 20',None,'ok',None,[]))
 sweeps.append(sweep('trends.ww','trends',None,'get_trends_by_woeid 1 max 20: not read this run (budget)',None,'skipped','not read this run to keep to about 20 reads; last read in 2026-10-23T0002Z',[]))
@@ -1858,6 +1858,15 @@ for d in all_desks:
     else:
         reason = 'four-hour desk due since 07:08Z on 2026-10-20 (last ok 2026-10-20T0308Z) but cut for the one hundred and eighty-seventh run (kept to about 20 reads to pace the daily budget in the 12:00-05:00 UTC band, up to 42; four-hour desks are cut first)' if d in ('defense','disaster','business','science','ideas','life') else 'two-hour desk due since 06:00Z (last ok 2026-10-20T0400Z) but cut for the one hundred and ninetieth run (kept to about 20 reads to pace the daily budget in the 12:00-05:00 UTC band, up to 42)'
         sweeps.append(sweep(f'desk.{d}','desk',d, DESK_Q.get(d) or d, 24,'skipped', reason, []))
+VOL_DESKS = ['politics','world','defense','justice','disaster']
+volume = []
+for _d in VOL_DESKS:
+    _vj = load_raw(f'volume_{_d}.txt')
+    _pts = [{'start': x['start'].replace('.000Z','Z'), 'count': int(x['tweet_count'])} for x in (_vj.get('data') or [])]
+    _pts.sort(key=lambda x: x['start'])
+    assert sum(x['count'] for x in _pts) == _vj['meta']['total_tweet_count'], _d
+    volume.append({'key': 'desk.'+_d, 'desk': _d, 'query': DESK_Q[_d].replace(' is:retweet -is:reply',''), 'granularity': 'hour', 'points': _pts})
+sweeps.append(sweep('volume.desks','volume',None,'get_posts_counts_recent granularity hour, query "<standing query> lang:en", start_time 2026-10-21T05:00:00Z, end_time 2026-10-28T04:00:00Z, one read per desk for 5 desks this run (rotation slot 0 of 4 in capture/CAPABILITIES.md: politics, world, defense, justice, disaster); each series is the 167 full hours 2026-10-21T05:00Z to 2026-10-28T03:00Z, and each read was checked against meta.total_tweet_count',None,'ok',None,[]))
 sweeps.append(sweep('context.top','context',None,'cut for the read budget (kept to about 20 reads to pace the daily budget in the 12:00-05:00 UTC band, up to 42)',None,'skipped','cut for the read budget',[]))
 open_reqs = json.load(open(f'{REPO}/requests/open.json'))['requests']
 REQ_Q = {
@@ -1932,14 +1941,14 @@ capture = {
         'finished_at': FINISHED,
         'status': 'partial',
         'reason': (
-            f'Night run (12:06 AM ET Oct 28 / 04:06 UTC Oct 28, the 04Z slot; 12:00-05:00 UTC band, up to 42; kept to about 19 to pace the day): {READS_USED} X reads this run ({READS_BEFORE} to {READS_AFTER} left today; 0305Z ended at 915), parallel batches of up to 13, no 429 refusals. '
-            f'Watch {len(watch_returned)} of {len(watch_ids)} ({len(watch_unavailable)} unavailable; 04Z is not a fourth hour: the watch.json ids, then every post cited on the pulse or in a published story, then the six-hour and still-gaining tiers; 531 ids, so the 400 cap left out the 81 last six-hour posts, the 7 slowest-growing still-gaining posts and 43 story-cited posts not on the pulse (2110079227009835140, 2110095403198849132, 2110113833805402475, 2110114165922640106, 2110165104713183485, 2110240563135951022, 2110252621441151177, 2110252784813568174, 2110257281816236136, 2110273651023151330, 2110327426580648014, 2110347514683490356, 2110347809308455363, 2110355391435657508, 2110432031968542721, 2110457263840477263, 2110549767063507044, 2110571616384213156, 2110596961166561470, 2110602585572860213, 2110611239915401570, 2110646408227274753, 2110692763758940436, 2110693166059851836, 2110715556328579219, 2110717537964953810, 2110717676851216815, 2110872117445013817, 2110897247663853658, 2110901393238474863, 2110913107094606330, 2110913438293647789, 2111005738306789584, 2111164055054426351, 2112273011504226337, 2112293785472225568, 2112988488379273237, 2113175048433369137, 2113455120692195588, 2113656547834487022, 2114085789139140865, 2114425377338634392, 2115076997298659768); no pulse-cited post was left out; 4 reads); trends US (1 read; worldwide not read for the budget); '
+            f'Night run (12:06 AM ET Oct 28 / 04:06 UTC Oct 28, the 04Z slot; 12:00-05:00 UTC band): {READS_USED} X reads this run ({READS_BEFORE} to {READS_AFTER} left today; 0305Z ended at 915), parallel batches of up to 15, no 429 refusals. The first pass followed the old pacing (about 20 reads, 400 re-reads, desks and volume cut); contract/GRABBER.md changed at e87da973 (800 re-reads by day, every due desk swept, five desks of volume, under 30 reads with desks due is a failure), so a top-up in the same run read the 15 due two- and four-hour desks, the other 140 re-read ids and five volume series, 25 more reads, two over the band\'s 42. '
+            f'Watch {len(watch_returned)} of {len(watch_ids)} ({len(watch_unavailable)} unavailable; 04Z is not a fourth hour: the watch.json ids, then every post cited on the pulse or in a published story, then the six-hour and still-gaining tiers; 540 ids, all read, none left out by the 800 cap; 6 reads); trends US (1 read; worldwide not read for the budget); '
             f'trend names "Cooper Pratt", "#WorldSeries" and "Ian Seymour" ("<name> lang:en is:retweet", newest first, 25 each; the top-ten US names with no posts attached in the previous run: "Cooper Pratt" (first), "#WorldSeries" (third), "Ian Seymour" (eighth) and "Brewers" (ninth) are one event, Brewers rookie Cooper Pratt’s extra-inning home run off the Rays’ Ian Seymour in World Series Game 4 (one game with "David Hamilton", attached in 0159Z), so "Brewers" was not read for the budget; "Nets" (tenth) is the Celtics-Nets game attached in 0305Z through "Jayson Tatum" and "Mikel Brown"; "#dwts" and "Tatyana" (second, fourth and fifth) were attached in 0101Z) (3 reads); '
             f'quote/repost words what/the + this (3 reads, each word quoted; 0305Z used it/that + just); sensors news/money/science (3 reads; culture/sports/online read 0305Z, so news/money/science were next in rotation); '
-            f'4 desk reads: hourly politics, entertainment, sports, internet; the two-hour desks (last ok 2026-10-20T0400Z, due 06:00Z) cut for the one hundred and ninetieth run and the four-hour desks (last ok 2026-10-20T0308Z, due since 2026-10-20T07:08Z) cut for the one hundred and eighty-seventh run, both for the budget; '
+            f'19 desk reads, every desk in desks.json order: the hourly politics, entertainment, sports and internet in the first pass, then world, defense, justice, disaster, markets, business, ai, tech, science, medicine, music, gaming, ideas, life and offbeat in the top-up (the two-hour desks last ok 2026-10-20T0400Z and the four-hour desks last ok 2026-10-20T0308Z, cut every run since for the old pacing); the top-up desk streams\' reposted origins were screened from their includes, and their further references were not read (no screening read left in the band); volume.desks: five series this run (rotation slot 0 of 4: politics, world, defense, justice, disaster); '
             f'one screening read by id: 82 unread referenced, reply-parent and media-source posts, most pointed-at first (82 returned; 2108062331095908717 Not Found again in its includes); no further-hop post left unread; in watch, 2111373522711060505 and 2113098076411892194 came back Not Found and 2111821497434046875 Authorization Error, as in 2026-10-26T1204Z through 2026-10-28T0305Z, and 2114708561196372415 (MadridXtra post of Mbappé naming his favourite meme, in watch.json; not cited on the pulse) came back Not Found for the seventeenth run running; story clusters (search_news) not read for the budget. '
             f'No new request: r-2026-10-27-01 was answered in 1211Z, r-2026-10-26-01 in 0306Z, r-2026-10-23-02 in 1659Z and 1808Z and r-2026-10-23-01 in 1659Z; earlier requests were answered in earlier captures; none was read again. '
-            f'Not read: culture/sports/online sensors, worldwide trends, story clusters, volume, context.top, media descriptions (budget). '
+            f'Not read: culture/sports/online sensors, worldwide trends, story clusters, context.top, media descriptions (budget). '
             f'{EXTRA_NOTE} '
             f'{LEFT_OUT_NOTE}Skipped sexual or graphic ids are in exclude_ids.json in the work folder.'
         ),
@@ -1956,6 +1965,7 @@ capture = {
     'observations': obs_ids_order,
     'context': [],
     'answers': ANSWERS,
+    'volume': volume,
 }
 
 out_path = os.environ.get('OUT') or f'{REPO}/capture/2026/10/28/0406Z.json'

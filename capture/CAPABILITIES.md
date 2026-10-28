@@ -245,3 +245,19 @@ Other facts seen this run:
   without their author in `includes.users` and were left out.
 - 2026-10-15T0708Z: X rejects the bare common word `and` as a search term ("Ambiguous use of and as a keyword. Use a space to logically join two clauses, or \"and\" to find occurrences of and in text (at position 1)"), and the rejected read still counts. Quote it: `"and" lang:en is:quote -is:retweet`.
 - 2026-10-21T1007Z: search_posts_all refused `and lang:en is:quote -is:retweet` with 400 Invalid Request: "Ambiguous use of and as a keyword. Use a space to logically join two clauses, or \"and\" to find occurrences of and in text". The bare word "and" cannot be the rotation word; use `"and"` in quotes or skip it.
+
+## Volume rotation (from 2026-10-28T0406Z)
+
+contract/GRABBER.md asks for five desks' hourly counts a run, in a fixed rotation. One
+`get_posts_counts_recent` read per desk, granularity hour, query "<standing query> lang:en", the
+167 full hours ending at the run's last whole hour. The slot is the run's UTC hour mod 4:
+
+| Slot | Desks |
+|---|---|
+| 0 | politics, world, defense, justice, disaster |
+| 1 | markets, business, ai, tech, science |
+| 2 | medicine, entertainment, music, gaming, ideas |
+| 3 | sports, internet, life, offbeat, politics |
+
+Every desk is counted at least once every four hours; politics twice.
+
