@@ -3502,3 +3502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T01:40Z
+- Captures read: 0101Z. Last read: 0101Z.
+- X's check: 0101Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor) and 2206Z mismatch (2115194840405483852, @jamiegangel) unchanged, not on the pulse.
+- Pulse: 45 items (1 new, 1 dropped). New: Harry Kane's "Work hard in silence" post (sports). Dropped: Variety on Susan Saint James (smallest on the pulse). Header moved to 0101Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Shams on Muggsy Bogues (same account and desk as the Jalen Williams item); lirishfwanime on Jokic (fan opinion, no claim to describe); AbdulElSayed "OUR 44th president" (point not clear from the words); Kotaku AI headline (gaming desk already has three items); old_content posts and posts older than 36 hours.
+- Requests: watch.json swaps Saint James for the Kane id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
