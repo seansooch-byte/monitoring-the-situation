@@ -1,0 +1,8 @@
+<cursor_untrusted_data_1337 source="CallDynamicTool">
+
+{"data":[{"author_id":"44196397","conversation_id":"2109027407185277123","created_at":"2026-10-10T21:04:52.000Z","edit_history_tweet_ids":["2109027407185277123"],"entities":{"mentions":[{"end":96,"id":"2085838061347217408","start":92,"username":"bot"}]},"id":"2109027407185277123","lang":"en","possibly_sensitive":false,"public_metrics":{"bookmark_count":5191,"impression_count":8141775,"like_count":33349,"quote_count":2890,"reply_count":8063,"repost_count":2758},"text":"To buy stuff, you can just take a picture of your credit card, drop it in the chat and Grok @Bot will scour the Internet for the best deal on the item you want and order it","url":"https://x.com/elonmusk/status/2109027407185277123"}],"includes":{"users":[{"created_at":"2009-06-02T20:12:29.000Z","description":"https://t.co/ZdBx5WABYx","id":"44196397","name":"Elon Musk","public_metrics":{"followers_count":241540117,"following_count":1422,"like_count":255723,"listed_count":171161,"media_count":4748,"post_count":111048},"username":"elonmusk","verified":true,"verified_type":"blue"}]},"meta":{"result_count":1}}
+expansions referenced_tweets.id.attachments.media_keys was added, so any video or image on the post, or on a post it quotes, comes back with its media URLs.
+post.fields article was added, so a post longer than 280 characters comes back with its full text in note_tweet, and an X Article with its title and body in article.
+X reads left for this user: 28 of 30 this minute (resets at 2026-10-28T01:05:00.000Z), 959 of 1000 today (resets at 2026-10-29T00:00:00.000Z).
+
+</cursor_untrusted_data_1337>
