@@ -14,6 +14,8 @@ export PATH="/usr/local/bin:$PATH"
 if [ -n "$(git status --porcelain)" ]; then echo "refusing: the tree has uncommitted changes"; git status --short; exit 1; fi
 git pull -q --rebase origin main
 
+# Phase 1: every capture pushed to git is also delivered to the store, until the grabber delivers there itself.
+node tools/ingest.mjs --new 2>&1 | tail -3 || echo "store: not delivered this hour (git still holds the capture)"
 node tools/verify-posts.mjs --captures | tail -8 || true   # a post X could not confirm is recorded, not fatal
 node tools/plan-reads.mjs || echo "plan: the planner failed; the grabber follows the standing orders this hour"
 if [ -n "$(git status --porcelain -- verified/posts.json requests/plan.json)" ]; then

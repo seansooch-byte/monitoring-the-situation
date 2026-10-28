@@ -323,6 +323,12 @@ git push origin main                                           # on rejection: p
 - One file per run. Never rewrite a file that has been pushed; a correction goes in the next run.
 - Every run records `run.reads`, `run.reads_left` and `run.plan` (`contract/CAPTURE.md`). The
   reads are the API's own numbers, not an estimate.
+- **The store** (`PROGRAM.md`, phase 1). Once Sean has given you its token, deliver the same file
+  there too, after the push: `POST https://situation.seansooch.dev/ingest` with
+  `Authorization: Bearer <token>` and the capture as the JSON body. The answer is Gate 1's
+  verdict: `200` with counts, `422` with the errors, `409` if a different file for that run is
+  already there (a pushed capture is never rewritten). Until the editor says the cutover is done,
+  the git push stays the delivery of record and the editor mirrors anything you did not deliver.
 - No em dashes in anything you write yourself. Verbatim text is exempt and must not be altered.
 
 ## Schedule and budget

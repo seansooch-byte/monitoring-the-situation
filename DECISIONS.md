@@ -722,3 +722,32 @@ written on our side is on the record beside the capture that followed it, which 
 "did the grabber do what it was asked" a question with an answer. The first real plan asks for
 42 reads where the grabber was spending 21: nineteen desks, five desks' counts, 264 re-reads in
 three reads with 221 flat posts waiting, then discovery.
+
+## 2026-10-28: The store is D1 alone, and the gates are pure functions
+
+**Context.** Phase 1 of `PROGRAM.md`. The charter had the store as D1 rows beside raw files in
+R2. R2 is not enabled on the account (the API answers code 10042, "enable R2 through the
+dashboard"), which is Sean's to do. Gate 1 and Gate 2 lived in command-line files that read the
+desks and the ledger from disk, so neither could run inside a Worker.
+
+**Alternatives.** (a) Wait for R2. (b) KV for the raw files: a thousand writes a day on the free
+plan, which the import of the history would spend in an hour. (c) D1 for everything: the rows,
+and a gzipped copy of each capture file in a `captures` table, 60 KB each against a 1 MB row
+limit. For the gates: (d) copy the checks into the Worker; (e) move each gate's rules into a
+pure library the Worker and the command line both import.
+
+**Decision.** (c) and (e). `worker/index.mjs` runs `POST /ingest` (Gate 1 from
+`tools/lib/capture-check.mjs`, with the desks passed in and the known ids read from D1), the
+`/api/*` reads, and an hourly deletion sweep (Gate 2 from `tools/lib/gate2.mjs`) that purges a
+post X answers 404 for from its row and from every stored file that holds it (`tools/lib/
+store-rows.mjs`), keeping its id and its numbers. One token, a Worker secret, guards every
+route in phase 1; it lives in a git-ignored file at the root of Sean's checkout and reaches
+grokbot by Sean's hand. `tools/refresh.sh` mirrors every capture pushed to git into the store
+until the grabber delivers there itself; the git push stays the delivery of record until the
+cutover. `tools/check-capture.mjs` and `tools/verify-posts.mjs` keep every export they had.
+
+**Why.** One binding, one bill, one place to purge. A gzipped capture in a row costs the same
+to serve as a file from R2 and is rewritten by a purge the same way. A gate that is a pure
+function is the same gate everywhere, which is the only way "the Worker runs Gate 1" can be a
+true sentence rather than a copy that drifts. If R2 is enabled later, moving the files there is
+one column's worth of change and no change to the readers.

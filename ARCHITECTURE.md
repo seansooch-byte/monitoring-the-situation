@@ -28,7 +28,7 @@ flowchart LR
   NOTES["capture/NOTES.md and CAPABILITIES.md"] -.->|read by| E
   G -.-> NOTES
   B --> D["dist/"] --> CF["Cloudflare Worker<br/>static files"] --> R((Reader))
-  CAP -.->|"phase 1: POST /ingest replaces the push"| ST[("Store<br/>D1 and R2, deletion sweep")]
+  CAP -.->|"phase 1: POST /ingest replaces the push"| ST[("Store<br/>D1: rows and the files, deletion sweep")]
   ST -.-> SP["Spike detector"] -.-> CF
   ST -.-> DI["Divide Index<br/>tools/divide.mjs"] -.-> CF
   ST -.-> W["Wire<br/>/v1 and /mcp"] -.-> A((Agent))
@@ -50,7 +50,7 @@ Dashed nodes and arrows are Planned; the phase that builds each is in `PROGRAM.m
 | Cloudflare (**Built**: `wrangler.jsonc`, `tools/ship.sh`) | Serve `dist/` at situation.seansooch.dev | `dist/` | the public site | The previous version stays live. `tools/ship.sh` refuses a dirty tree, failing tests or a demo build, and compares the live page with the build afterwards. |
 | Read planner (**Planned** until phase 0's done test passes; code landed 2026-10-28: `tools/plan-reads.mjs`, `tools/lib/plan.mjs`) | Turn the day's remaining budget into the next run's read list, in the contract's order | the last three days of captures, `requests/watch.json` and `open.json`, `contract/desks.json`, `contract/budget.json` | `requests/plan.json` (`contract/PLAN.md`): reads in order, a budget line each | A day that cannot afford the list is cut in `budget.json`'s order, never the re-read list or the counts; a plan still over budget says so. A missing or stale plan sends the grabber back to the standing orders, which it says in `run.reason`. A planner error never stops the refresh. |
 | Budget report (**Planned** until it passes; code landed 2026-10-28: `tools/budget-report.mjs`, `tools/lib/budget.mjs`) | Say, for each UTC day, whether the grabber did what the contract asks | `capture/`, `contract/desks.json`, `contract/budget.json`, `moments/`, `pulse/current.json`, the ledger | one verdict line a day and what fell short; exit 1 on any failing full day | A run short for our own reasons, reads outside 600 to 850, a desk under its cadence, counts over four hours apart, or a story-cited post left off a re-read list, each fails the day by name. |
-| Store (**Planned**, phase 1) | Hold the record where a deletion can be honoured within 24 hours | `POST /ingest` from the grabber; X's oEmbed endpoint for the sweep | D1 rows and R2 raw files; purges recorded in the ledger | A capture failing Gate 1 is refused with its errors. A post X answers 404 for loses its words within 24 hours, or the nightly store test fails. |
+| Store (**Planned** until phase 1's done test passes; code landed 2026-10-28: `worker/index.mjs`, `worker/schema.sql`) | Hold the record where a deletion can be honoured within 24 hours | `POST /ingest` from the grabber (mirrored by `tools/refresh.sh` until then); X's oEmbed endpoint for the hourly sweep | D1: a row per run, post, observation, sweep, count, trend, context and answer, a gzipped copy of each capture, the `checks` ledger, a sweep log; the `/api/*` reads | A capture failing Gate 1 is refused with its errors (`422`); a different file for a run already held is refused (`409`). A post X answers 404 for loses its words from its row and from every file that holds it, or the nightly store test fails. |
 | Weekly poll (**Planned**, phase 1b: `tools/poll-platforms.mjs`) | Once a week, the week's stories on six other platforms, under 100 ScrapeCreators credits, never re-read | the week's top stories and the medicine desk's claims; ScrapeCreators; Bluesky's public API | rows in the store with `source`, the credit count, `/week/` | Over 100 credits the poll stops and says so. A platform with no existence check is shown "as read on" the poll's date. A scraper going dark costs the Sunday page, never the pulse. |
 | Wire (**Planned**, phase 2) | Answer agents with ids, numbers and the editor's words | the store, the editor's files | HTTP and MCP responses, an aggregated query log, `/status` | Never a post's text; a test walks every endpoint. Over the limit: `429`. |
 | Spike detector (**Planned**, phase 3) | Say when a desk is above its normal hour of the week | `volume` in the store | `signals/spikes.json`, an alert, the desk card | Under two weeks of counts: no number, and the card says so. |
@@ -118,7 +118,10 @@ editor's words and the engine's numbers.
 |---|---|---|
 | `PROGRAM.md` | Editor | The charter: seven phases with a done test each, the constraints, what is sold and never sold, the open decisions, a weekly log. **Built** as a document; each phase is Planned until its test passes. |
 | `contract/` | Editor | The grabber's standing orders (`GRABBER.md`), the capture format (`CAPTURE.md`), the desks (`desks.json`), the read budget in numbers (`budget.json`, the one place a number is changed), the plan format (`PLAN.md`), a checked example. **Built.** |
-| `tools/check-capture.mjs` | Editor | Gate 1, and the definition of a valid capture. **Built.** |
+| `tools/check-capture.mjs`, `tools/lib/capture-check.mjs` | Editor | Gate 1: the definition of a valid capture as a pure function (`lib/`, which the Worker's `/ingest` runs too) and its command line. **Built.** |
+| `tools/verify-posts.mjs`, `tools/lib/gate2.mjs` | Editor | Gate 2: the comparison with what X says as pure functions (`lib/`, which the Worker's sweep runs too) and the command line that keeps `verified/posts.json`. **Built.** |
+| `worker/` | Editor | The Worker script (`index.mjs`: the store's routes and the deletion sweep; everything else falls through to the static files) and the store's schema (`schema.sql`, applied with `wrangler d1 execute`). Code landed 2026-10-28; **Planned** until phase 1's test passes. |
+| `tools/ingest.mjs`, `tools/lib/store.mjs`, `tools/lib/store-rows.mjs` | Editor | Delivery of capture files to the store, the store's client (token from `MTS_TOKEN` or the git-ignored `store.local.token`), and the pure mapping of a capture to rows and of a record to its purged form. Code landed 2026-10-28. |
 | `tests/` | Editor | The contract as tests. **Built.** |
 | `requests/` | Editor | What the editor wants from the next run: lookups, searches, the list of posts to keep re-reading, and `plan.json`, the next run's read list with a budget line each, written by `tools/plan-reads.mjs` after every capture and every editor pass, never by hand. **Built**; the grabber reads all three every run. |
 | `capture/` | Grabber | One file per run, append only (`YYYY/MM/DD/HHMMZ.json`), until phase 1 moves delivery to the store. Beside them, the grabber's own papers, which the contract asks for and the editor reads: `CAPABILITIES.md` (what X actually returns, and the standing query per desk), `RUNBOOK.md` (its hourly procedure), `SENSORS.md` (accounts it reads), `NOTES.md` (its channel back to the editor), `EDITOR-RUNS.md` (every editor pass with its duration and cost at API rates), `RANKING.md` (its reading of X's open-sourced ranking code), `TALLY.json` (origins seen in the global streams, by run), and `handover/` (the old briefing's method and the old feed Worker's source, secrets removed). |
@@ -153,8 +156,10 @@ editor's words and the engine's numbers.
 - **A story pass** runs four times a day in place of the pulse pass (brief:
   `contract/EDITOR-BRIEF.md`). It does the pulse too, then researches and writes stories.
 - **`tools/refresh.sh`** runs after every capture and is the fallback when a pass fails or is
-  skipped. No model: it asks X about posts not yet checked, writes the next run's plan, commits
-  the ledger and the plan, and ships (**Built**).
+  skipped. No model: it delivers any capture the store does not yet hold, asks X about posts not
+  yet checked, writes the next run's plan, commits the ledger and the plan, and ships (**Built**).
+- **The Worker's cron** runs the deletion sweep on the hour (`worker/index.mjs`; code landed
+  2026-10-28).
 - For every pass the procedure is `contract/EDITOR.md`, which the agent reads from the repository
   itself. grokbot runs the clock and supplies no instruction about content. A pass may write only
   `pulse/`, `moments/`, `requests/`, `verified/posts.json` and `editor/LOG.md`; CI fails a

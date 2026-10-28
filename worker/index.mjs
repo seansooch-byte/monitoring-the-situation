@@ -51,7 +51,8 @@ function inserts(db, table, cols, rows, mode = 'INSERT OR IGNORE', onConflict = 
   const picks = cols.map((c) => `json_extract(value, '$.${c}')`).join(', ');
   const out = [];
   for (let i = 0; i < rows.length; i += ROWS_PER_STATEMENT) {
-    out.push(db.prepare(`${mode} INTO ${table} (${cols.join(', ')}) SELECT ${picks} FROM json_each(?1) ${onConflict}`).bind(JSON.stringify(rows.slice(i, i + ROWS_PER_STATEMENT))));
+    // "WHERE true" is SQLite's documented way to keep an INSERT ... SELECT from reading the upsert clause's ON as a join.
+    out.push(db.prepare(`${mode} INTO ${table} (${cols.join(', ')}) SELECT ${picks} FROM json_each(?1) WHERE true ${onConflict}`).bind(JSON.stringify(rows.slice(i, i + ROWS_PER_STATEMENT))));
   }
   return out;
 }

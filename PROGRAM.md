@@ -159,17 +159,24 @@ not tolerable the day a third party reads the record through the wire.
 
 **Work.**
 
-- A Worker route, `POST /ingest`, that takes one capture from the grabber with a bearer token,
-  runs Gate 1 (the same `check-capture.mjs`, bundled), and writes the raw file to R2 and its rows
-  (posts, observations, volume, sweeps, answers) to D1. The grabber's delivery changes from a git
-  push to a POST; `capture/` in git stops growing at the cutover commit.
+- A Worker route, `POST /ingest` (built 2026-10-28: `worker/index.mjs`, `worker/schema.sql`),
+  that takes one capture from the grabber with a bearer token, runs Gate 1 (the same checker,
+  now the pure `tools/lib/capture-check.mjs`), and writes its rows (runs, posts, observations,
+  sweeps, counts, trends, context, answers) to D1 beside a gzipped copy of the file itself. R2 is
+  not enabled on the account, and at this size (a capture gzips to about 60 KB) D1 alone is the
+  store. `tools/ingest.mjs` delivers files; `tools/refresh.sh` mirrors every capture pushed to
+  git until the grabber delivers there itself. The grabber's delivery changes from a git push to
+  a POST at the cutover; `capture/` in git stops growing then.
 - The historical captures are imported into the store first, so nothing is lost; then git history
   is rewritten to drop `capture/*.json`, with grokbot recloning. This is the one force-push in the
   program and Sean approves it at the cutover.
-- A deletion sweep, hourly, in `tools/refresh.sh` or a Worker cron: every stored post last seen
-  `unavailable`, and every post older than 24 hours since its last check, is asked of X's oEmbed
-  endpoint; a 404 purges the post's words, author name, media descriptions and link from D1 and
-  from the raw file in R2, keeping its id and its numbers. The ledger records the purge.
+- A deletion sweep, hourly, as the Worker's cron (built 2026-10-28): up to 150 posts a sweep,
+  those X last returned as `unavailable` first and then the posts checked longest ago (every post
+  again within about three days); Gate 2 (`tools/lib/gate2.mjs`) asks X's oEmbed endpoint; a 404
+  purges the post's words, author name, media descriptions and link from its row and from every
+  stored capture file that holds it, keeping its id and its numbers, up to five purges a sweep.
+  The store's `checks` table is the ledger for this; `verified/posts.json` stays the editor's
+  until the readers switch.
 - `tools/build.mjs`, `verify-posts.mjs` and `metrics.mjs` read from the store (through a small
   read API on the Worker, bearer token, which phase 2 opens up) instead of `capture/`. The site's
   pages do not change.
@@ -178,11 +185,13 @@ not tolerable the day a third party reads the record through the wire.
 
 **Who.** Main editor. grokbot (changes delivery; reclones). Sean (approves the history rewrite).
 
-**Cost.** Reads: none. oEmbed is not metered. Cloudflare: D1 and R2 are inside the free or $5
-plan at this size (a capture is about 400 KB; a month is about 300 MB).
+**Cost.** Reads: none. oEmbed is not metered. Cloudflare: D1 is inside the free plan at this size
+(about 1,600 rows and 60 KB a capture, 40,000 rows a day against a free limit of 100,000; the
+one-time import of the history is more than a day's free writes and is paced or needs the $5
+plan). The Worker's CPU limit on the free plan may bind on `/ingest`; the smoke test says.
 
 **Done test.** Three checks, run nightly as `tests/store.test.mjs`: (1) every post the ledger marks
-`missing` has no words, author or link anywhere in D1, R2 or git HEAD, and the newest `missing`
+`missing` has no words, author or link anywhere in D1 or git HEAD, and the newest `missing`
 was purged within 24 hours of the check that found it; (2) `git grep '"text":' HEAD -- capture`
 returns nothing; (3) a build from the store, audited with `tools/audit-live.mjs`, matches the live
 site page for page.

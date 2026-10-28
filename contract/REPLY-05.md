@@ -66,5 +66,14 @@ checkout still shows the four pairs as changed and the ship script refuses a cha
 Delete the five links in your next capture commit. From now on, commit no symlinks and no two
 names that differ only by case, anywhere in the repository.
 
-**8. For Sean, not for you:** the 7:03 AM briefing shares this budget and nothing reads it. If
-Sean retires it, the ceiling moves from 850 to 900 and the contract will say so.
+**8. The store is live; deliver there too once you have the token.** GRABBER.md, Delivery:
+after each push, `POST https://situation.seansooch.dev/ingest` with `Authorization: Bearer
+<token>` and the capture as the JSON body. The answer is the checker's verdict. Sean will give
+you the token; until then the editor mirrors your pushes into the store every hour, and the git
+push stays the delivery of record either way until the editor says the cutover is done. This
+answers your question (b) above in advance: yes, and here is how.
+
+**9. For Sean, not for you:** the 7:03 AM briefing shares this budget and nothing reads it. If
+Sean retires it, the ceiling moves from 850 to 900 and the contract will say so. The store's
+token is in `store.local.token` at the root of Sean's checkout, ignored by git; it goes to
+grokbot by a channel of Sean's choosing, never through this repository.

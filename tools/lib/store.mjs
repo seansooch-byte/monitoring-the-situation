@@ -21,7 +21,11 @@ export function storeClient({ base = process.env.MTS_STORE_URL ?? 'https://situa
     const text = await r.text();
     let data;
     try { data = JSON.parse(text); } catch { data = { raw: text.slice(0, 300) }; }
-    if (!r.ok) { const e = new Error(`${method} ${path}: ${r.status} ${data.error ?? (data.errors ? data.errors.join('; ') : data.note ?? data.raw ?? '')}`); e.status = r.status; e.data = data; throw e; }
+    if (!r.ok) {
+      const errs = data.errors ? `${data.errors.slice(0, 3).join('; ')}${data.errors.length > 3 ? ` (and ${data.errors.length - 3} more)` : ''}` : null;
+      const e = new Error(`${method} ${path}: ${r.status} ${data.error ?? errs ?? data.note ?? data.raw ?? ''}`);
+      e.status = r.status; e.data = data; throw e;
+    }
     return data;
   };
   return { base, get: (path) => call('GET', path), post: (path, body) => call('POST', path, body) };
