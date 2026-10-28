@@ -3552,3 +3552,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json swaps the dropped ids for the Apple Music, Pop Base, MySportsUpdate, Tatum and ESPN NBA ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T06:25Z
+- Captures read: 0608Z. Last read: 0608Z.
+- X's check: 0608Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor), 2206Z mismatch (2115194840405483852, @jamiegangel) and 0305Z mismatch (2110160854578851917, @katseyeworld) unchanged, not on the pulse.
+- Pulse: 38 items (3 new, 4 dropped). New: Pop Base on Noah Wyle named People's Sexiest Man Alive (entertainment); Elon Musk on new features in Grok @Bot, with matt palmer's video in `also` (ai, xAI noted; Musk's place was free after his older post aged out); a question post about napping in prison (justice). Dropped as older than 36 hours: Ramona Shelburne on WNBA Finals Game 6 (sports), Elon Musk on Grok @Bot as chief of staff (ai), OpenAI on GPT-6.1 Terra (ai), Pop Base on Last Ditch (life). Header moved to 0608Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Pirat_Nation's Discord search post (Dexerto already carries it); ArnoldClips pool video and gandalf_thegreg clip (no description of what they show); ABC7Chicago salon video and shahafban (flagged private_individual); Edenlife9 (insults about a religion); Eric Schmitt, unusual_whales and Joaquin Castro posts on Brazil/Bolsonaro (small; a story pass could cover Flavio Bolsonaro's US entry); Kylian Mbappe's photo-only post (no words or description); Shams on Anthony Edwards (account holds a place); TMZ accusation against Trump, Trump "I love the meat" clip, RFK clip, stockpile posts, China stock wipe-out (as before).
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the four new ids and drops three of the four dropped ids (OpenAI 2114780711664398349 stays, a live story cites it). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T05:15:00Z",
-  "capture": "2026-10-28T0501Z",
+  "updated_at": "2026-10-28T06:25:00Z",
+  "capture": "2026-10-28T0608Z",
   "items": [
     {
       "id": "2114897771001974921",
       "desk": "science",
       "line": "John Carmack, a programmer, says that despite flashy robot demos, no robot in the world can change the batteries in a jack-o-lantern. He says that is a reality check on fears of a robot apocalypse. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114774134848970868",
-      "desk": "sports",
-      "line": "ESPN reporter Ramona Shelburne says, citing sources, that Game 6 of the WNBA Finals will be played Thursday at 12:30 pm at State Farm Arena in Atlanta, with the Hawks-Cavaliers game that night moved back to 8 pm. Not checked here.",
       "also": []
     },
     {
@@ -31,18 +25,6 @@
       "id": "2114863126864904674",
       "desk": "business",
       "line": "Watcher.Guru, a markets news account, says Ripple has received full US regulatory approval to operate as a national trust bank. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114772843997351993",
-      "desk": "ai",
-      "line": "Elon Musk says a Grok assistant called \"Grok @Bot\" is like hiring an incredibly competent chief of staff. Musk owns xAI, which makes Grok, the model that gathers this page's posts. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114780711664398349",
-      "desk": "ai",
-      "line": "OpenAI says its new GPT-6.1 Terra model delivers fast, capable computer use at a lower price, and can understand what is on screen and take action across apps. Not checked here.",
       "also": []
     },
     {
@@ -239,12 +221,6 @@
       "also": []
     },
     {
-      "id": "2114773218955563136",
-      "desk": "life",
-      "line": "Pop Base posts that Last Ditch, which it calls a \"COVID-conscious Western Massachusetts lesbian bar\", is closing effective immediately. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2114897550033756263",
       "desk": "music",
       "line": "Apple Music posts a 15-second video captioned \"GOAT’s out of the bag. @sc\" with the tags #AppleMusicHalftime and #SBLXI. Pop Base reads it as Jay-Z being named Super Bowl halftime headliner. MySportsUpdate says the show is Super Bowl LXI on Feb. 14, 2027, at SoFi Stadium in Los Angeles. Not checked here.",
@@ -260,6 +236,26 @@
       "also": [
         "2115270760717595100"
       ]
+    },
+    {
+      "id": "2115027390334386543",
+      "desk": "entertainment",
+      "line": "Pop Base, an entertainment news account, posts that Noah Wyle has been named People magazine's Sexiest Man Alive of 2026.",
+      "also": []
+    },
+    {
+      "id": "2115119252785303813",
+      "desk": "ai",
+      "line": "Elon Musk posts a link announcing new features in Grok @Bot. The video it quotes, from matt palmer, lists them: pages, a vault, 1Password and Apple integrations, video making, new bot characters and X Spaces. Musk owns xAI, which makes Grok, the model that gathers this page's posts.",
+      "also": [
+        "2115111897397628974"
+      ]
+    },
+    {
+      "id": "2115135919774949588",
+      "desk": "justice",
+      "line": "A post asks whether someone in prison who gets sleepy around 1 p.m. is allowed to take a nap. It is a question, and the post gives no answer.",
+      "also": []
     }
   ]
 }
