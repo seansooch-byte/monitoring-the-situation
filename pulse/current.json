@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T02:40:00Z",
-  "capture": "2026-10-28T0159Z",
+  "updated_at": "2026-10-28T03:40:00Z",
+  "capture": "2026-10-28T0305Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -169,12 +169,6 @@
       "also": []
     },
     {
-      "id": "2114718742558974326",
-      "desk": "gaming",
-      "line": "The Golden Joysticks awards account posts the nominees for Ultimate Game of the Year, with a 73-second video, and says voting closes on Friday 30 October.",
-      "also": []
-    },
-    {
       "id": "2114858516406051189",
       "desk": "sports",
       "line": "Football striker Harry Kane posts the message \"Work hard in silence. Let success be your noise.\" with a trophy emoji. It carries no other claim.",
@@ -247,12 +241,6 @@
       ]
     },
     {
-      "id": "2115128329003303107",
-      "desk": "ai",
-      "line": "Liquid AI announces LFM3, a new family of its Liquid Foundation Models, with what it calls a tri-hybrid architecture and six model instances across text, audio, vision and omni modalities. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2115204705978548468",
       "desk": "sports",
       "line": "Fleetwood Town, the League Two club, posts that it has knocked Arsenal out of the League Cup. A second post, from football reporter Fabrizio Romano, says Arsenal were eliminated from the Carabao Cup by Fleetwood.",
@@ -264,6 +252,48 @@
       "id": "2115092173729230955",
       "desk": "politics",
       "line": "Senator Bernie Sanders lists what he says has happened since Trump's election, including that Elon Musk became the first trillionaire, and says Musk is spending $442 million to keep Republicans in control of Congress. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114741342517547441",
+      "desk": "entertainment",
+      "line": "The official BLEACH anime account posts, in Japanese, a special ending video for the final episode of \"Thousand-Year Blood War\". It says the TV anime BLEACH is now complete, about 22 years after it began in 2004.",
+      "also": []
+    },
+    {
+      "id": "2114937785664844282",
+      "desk": "entertainment",
+      "line": "Shah Rukh Khan, the actor, posts a photo and a line in Hindi, in Latin letters, for his film KING, which he says opens in cinemas on 24 December 2026.",
+      "also": []
+    },
+    {
+      "id": "2114909559899005028",
+      "desk": "gaming",
+      "line": "KreekCraft, a Roblox creator, posts a 98-second video and says PlayStation games are now on Roblox. He credits the clip to SirDapper. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114793685359661231",
+      "desk": "world",
+      "line": "The Spanish outlet elDiario.es posts a 7-second video, in Spanish, that it says shows cars burning in a Bilbao street during disturbances after Vito Quiles called off an event. Its linked story says he cancelled after two protests and the closure of Deusto University. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115141485062737922",
+      "desk": "world",
+      "line": "A user posts that Benjamin Netanyahu has officially lost the Israeli election and asks Grok to confirm it. Grok is made by xAI, the company behind the model that gathers the posts on this page. The claim is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114766562133410083",
+      "desk": "politics",
+      "line": "Politics UK, a news account, posts that John Healey will raise the minimum wage for over-21s from £12.71 to around £13.20. It names no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2114773218955563136",
+      "desk": "life",
+      "line": "Pop Base posts that Last Ditch, which it calls a \"COVID-conscious Western Massachusetts lesbian bar\", is closing effective immediately. Not checked here.",
       "also": []
     }
   ]

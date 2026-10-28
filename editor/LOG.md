@@ -3522,3 +3522,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T03:40Z
+- Captures read: 0305Z. Last read: 0305Z.
+- X's check: 0305Z 29 confirmed, 0 missing, 1 mismatched (2110160854578851917, @katseyeworld, text differs only in spacing or an invisible character; not on the pulse), 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor) and 2206Z mismatch (2115194840405483852, @jamiegangel) unchanged, not on the pulse.
+- Pulse: 45 items (7 new, 2 dropped). New: BLEACH finale ending (entertainment), Shah Rukh Khan's KING post (entertainment), KreekCraft on PlayStation games in Roblox (gaming), elDiario.es on Bilbao disturbances (world), Netanyahu election claim asking Grok (world, xAI noted), Politics UK minimum wage claim (politics), Last Ditch bar closing (life). Dropped: Golden Joysticks nominees (older than 36 hours), Liquid AI LFM3 (smallest on the pulse). Header moved to 0305Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: RFK "five hundred million Arabs" clip (generalisation about a people; note for the next story pass); TMZ accusation against Trump (allegation about a real person, unconfirmed outside X); Bongino, WhaleNewsDaily and JeebsTX stockpile posts (second-hand claim, unchecked; a story pass could research it); FactPost "I love the meat" clip (no setting given); dailycultures 16-year-old fire device (a minor, unchecked); posts flagged private_individual; extra posts from Elon Musk, Fabrizio Romano and WhiteHouse (account already holds a place).
+- Requests: none; updated_at moved in watch.json and open.json; watch.json swapped the two dropped ids for the seven new ones.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
