@@ -3652,3 +3652,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the five new ids and drops the two Serebii ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T18:30Z
+- Captures read: 1807Z. Last read: 1807Z.
+- X's check: 1807Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 38 items (4 new, 0 dropped). New: Sundar Pichai on Gemini 4 Carbon (ai); Tim Cook on touch for the Mac (tech); Kellen Browning's Alaska Senate scoop (politics); ANI on the Jio Platforms debut (markets). The Artificial Analysis line now says Google later claimed first place. Header moved to 1807Z. Nothing is yet 36 hours old.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot and other posts (account holds a place); TMZ, isisilomilo, old_content posts (as before); Polymarket and CollinRugg Alaska posts (Browning's scoop is the origin); Gemini posts from Logan Kilpatrick and GoogleDeepMind (Pichai's is the origin); AndreJanonesMG (unclear without context). The Gemini 4 Carbon, Alaska and Tommy Robinson items need a check at the next story pass.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the four new ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
