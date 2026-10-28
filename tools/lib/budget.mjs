@@ -78,7 +78,8 @@ export function summarizeDay(captures, { desks, budget, cited = [], ledger = {},
     const w = (c.sweeps ?? []).find((s) => s.id === 'watch');
     if (!w || !Array.isArray(w.post_ids)) continue;
     const have = new Set(w.post_ids);
-    const missing = cited.filter((id) => { const first = ledger[id]?.first_run; return first && first < c.run.id && !have.has(id); });
+    // The ledger remembers each post's first run under `run` (tools/verify-posts.mjs).
+    const missing = cited.filter((id) => { const first = ledger[id]?.run ?? ledger[id]?.first_run; return first && first < c.run.id && !have.has(id); });
     if (missing.length > watch.max_left_out) Object.assign(watch, { max_left_out: missing.length, worst_run: c.run.id, left_out_ids: missing });
   }
 

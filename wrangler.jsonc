@@ -1,15 +1,23 @@
-// Cloudflare: a Worker that serves dist/ as static files, on its own hostname.
-// No script runs at the edge; this file only says where the files are and where they answer.
+// Cloudflare: one Worker on its own hostname. It serves dist/ as static files, and since phase 1
+// (PROGRAM.md) it is also the store: POST /ingest and GET /api/* run the script (worker/index.mjs)
+// against the D1 database; every other path is a static file. The deletion sweep runs on the hour.
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "monitoring-the-situation",
+  "main": "worker/index.mjs",
   "compatibility_date": "2026-10-01",
   "workers_dev": false,
   "preview_urls": false,
   "assets": {
     "directory": "./dist",
+    "binding": "ASSETS",
     "not_found_handling": "404-page",
-    "html_handling": "auto-trailing-slash"
+    "html_handling": "auto-trailing-slash",
+    "run_worker_first": ["/ingest", "/api/*"]
   },
+  "d1_databases": [
+    { "binding": "DB", "database_name": "mts-store", "database_id": "8794a05b-fa09-444a-94e9-3eb5ababa870" }
+  ],
+  "triggers": { "crons": ["23 * * * *"] },
   "routes": [{ "pattern": "situation.seansooch.dev", "custom_domain": true }]
 }

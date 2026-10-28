@@ -43,7 +43,7 @@ function cap(hour, over = {}) {
 }
 
 const goodDay = () => Array.from({ length: 24 }, (_, h) => cap(h));
-const ledger = Object.fromEntries(CITED.map((id) => [id, { result: 'ok', first_run: '2026-10-20T0005Z' }]));
+const ledger = Object.fromEntries(CITED.map((id) => [id, { result: 'ok', run: '2026-10-20T0005Z' }]));   // the ledger's own shape
 const summarize = (caps, over = {}) => summarizeDay(caps, { desks: DESKS, budget: BUDGET, cited: CITED, ledger, ...over });
 
 test('reads come from run.reads, and from the reason sentence only when the field is missing', () => {
@@ -113,7 +113,7 @@ test('a story-cited post left off the re-read list is counted, and only once it 
   assert.deepEqual(s.watch.left_out_ids, [CITED[1]]);
   assert.equal(s.checks.watch, false);
   // A post first recorded after the run cannot have been on its list.
-  const later = summarize(goodDay().map((c, h) => (h === 9 ? cap(h, { watch: [CITED[0]] }) : c)), { ledger: { ...ledger, [CITED[1]]: { result: 'ok', first_run: '2026-10-27T1105Z' } } });
+  const later = summarize(goodDay().map((c, h) => (h === 9 ? cap(h, { watch: [CITED[0]] }) : c)), { ledger: { ...ledger, [CITED[1]]: { result: 'ok', run: '2026-10-27T1105Z' } } });
   assert.equal(later.watch.max_left_out, 0);
 });
 
