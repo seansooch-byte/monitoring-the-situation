@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T17:40:00Z",
-  "capture": "2026-10-28T1702Z",
+  "updated_at": "2026-10-28T18:30:00Z",
+  "capture": "2026-10-28T1807Z",
   "items": [
     {
       "id": "2115023562717216943",
@@ -170,7 +170,7 @@
     {
       "id": "2115265133467635877",
       "desk": "ai",
-      "line": "Artificial Analysis, an AI benchmarking firm, announces version 5 of its Intelligence Index. It says Claude Opus 5.5 leads, ahead of two OpenAI models, and that Anthropic and OpenAI hold the top five places. These are its results and are not checked here. Claude, the model writing this page, is made by Anthropic."
+      "line": "Artificial Analysis, an AI benchmarking firm, announces version 5 of its Intelligence Index. It says Claude Opus 5.5 leads and that Anthropic and OpenAI hold the top five places. Google later claimed first place. Not checked here. Claude, the model writing this page, is made by Anthropic."
     },
     {
       "id": "2115473073256157360",
@@ -199,6 +199,26 @@
       "id": "2115475395265077754",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Selena Gomez and Demi Lovato recreate the poster of \"Princess Protection Program\" for Rare Beauty. Not checked here."
+    },
+    {
+      "id": "2115489219804352921",
+      "desk": "ai",
+      "line": "Google chief executive Sundar Pichai announces Gemini 4 Carbon, its next frontier model. He says it ranks first on version 5.0 of the Artificial Analysis Intelligence Index at 59 and leads on cybersecurity tests, and that access begins this week for trusted cyber defenders. These are his figures; not checked here."
+    },
+    {
+      "id": "2115494289488953462",
+      "desk": "tech",
+      "line": "Apple chief executive Tim Cook posts a video and says Apple has brought touch to the Mac, with a MacBook Pro that has a touch display. The post gives no price or date."
+    },
+    {
+      "id": "2115453762911494326",
+      "desk": "politics",
+      "line": "Kellen Browning, a reporter, says in a scoop that aides to Mary Peltola's campaign and the DSCC were part of a monthslong plan to recruit the second Dan Sullivan on Alaska's Senate ballot. He gives the details in a linked story. Not checked here."
+    },
+    {
+      "id": "2115347637407023319",
+      "desk": "markets",
+      "line": "ANI, an Indian news agency, reports that the Ambani family visited the Shree Siddhivinayak Temple in Mumbai after the stock market debut of Jio Platforms on the National Stock Exchange of India. Not checked here."
     }
   ]
 }
