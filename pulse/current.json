@@ -1,21 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T12:40:00Z",
-  "capture": "2026-10-28T1212Z",
+  "updated_at": "2026-10-28T13:15:00Z",
+  "capture": "2026-10-28T1301Z",
   "items": [
     {
       "id": "2114897771001974921",
       "desk": "science",
       "line": "John Carmack, a programmer, says that despite flashy robot demos, no robot in the world can change the batteries in a jack-o-lantern. He says that is a reality check on fears of a robot apocalypse. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2114886470020571588",
-      "desk": "sports",
-      "line": "SportsCenter posts a 12-second video captioned \"Giannis poster on Daniel Gafford\". Legion Hoops, in the attached post, says the Miami Heat are now 0-4 in the Giannis era. Not checked here.",
-      "also": [
-        "2114900859058557147"
-      ]
     },
     {
       "id": "2114945572528415015",
@@ -218,6 +210,12 @@
       "id": "2115042209661911112",
       "desk": "markets",
       "line": "Shay Boloor, a markets commentator, posts a chart image and a list of figures he says are SoFi’s third-quarter results and its guidance for the next two years, against analyst estimates. The figures are his; not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115411232023011746",
+      "desk": "world",
+      "line": "India’s prime minister, Narendra Modi, says elections for MLC seats were held in 28 seats across Uttar Pradesh, Maharashtra, Bihar and Karnataka, using ballot papers. He asks how many seats Congress won and does not give the result in the post. Not checked here.",
       "also": []
     }
   ]
