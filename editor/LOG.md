@@ -3632,3 +3632,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json drops the KreekCraft id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T16:45Z
+- Captures read: 1611Z. Last read: 1611Z.
+- X's check: 1611Z 43 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 31 items (1 new, 2 dropped). New: CNN on the death of Dolores Huerta (politics). Dropped as older than 36 hours: Shah Rukh Khan (entertainment), Uday on Microsoft layoffs (business). Header moved to 1611Z.
+- Added: 2026-10-28-dolores-huerta-dies-at-96 (politics). Updated: 2026-10-28-toledo-ave-iryo-collision (toll at least 68 per El Español, 64 per regional government; cause per El Español; correction added).
+- Left out: Tucker/Chiefs and Nelson trade stories (web search found no reporting beyond the posts; pulse lines cover them); FOMC (decision due 2 p.m. ET, after this pass); Elon Musk Grok @Bot and Tesla posts (account holds a place); isisilomilo, TheChiefNerd 98-year-old and Eagleman vet posts (private_individual); old_content posts; Talarico posts (already a live story). Comey, Anthropic S-1, Cloobeck and Lula stories were not rechecked this pass; they still need a check.
+- Requests: none; watch.json adds the CNN and NBC Huerta ids and drops the two dropped ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Fetching NPR timed out, so I did not cite it. Web search returned stale or empty results for several current items.

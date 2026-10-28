@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T15:30:00Z",
-  "capture": "2026-10-28T1511Z",
+  "updated_at": "2026-10-28T16:40:00Z",
+  "capture": "2026-10-28T1611Z",
   "items": [
     {
       "id": "2114945572528415015",
@@ -110,12 +110,6 @@
       "also": []
     },
     {
-      "id": "2114937785664844282",
-      "desk": "entertainment",
-      "line": "Shah Rukh Khan, the actor, posts a photo and a line in Hindi, in Latin letters, for his film KING, which he says opens in cinemas on 24 December 2026.",
-      "also": []
-    },
-    {
       "id": "2115141485062737922",
       "desk": "world",
       "line": "A user posts that Benjamin Netanyahu has officially lost the Israeli election and asks Grok to confirm it. Grok is made by xAI, the company behind the model that gathers the posts on this page. The claim is not checked here.",
@@ -147,12 +141,6 @@
       "id": "2115135919774949588",
       "desk": "justice",
       "line": "A post asks whether someone in prison who gets sleepy around 1 p.m. is allowed to take a nap. It is a question, and the post gives no answer.",
-      "also": []
-    },
-    {
-      "id": "2114934690440458257",
-      "desk": "business",
-      "line": "Uday, a coder, tells Microsoft his idea for layoffs: search YouTube for \"Day in the life of a Microsoft Engineer\" and lay off the people who he says only eat and do not work in the office. It is his view of the videos; Microsoft is not heard in the post. Not checked here.",
       "also": []
     },
     {
@@ -212,6 +200,11 @@
       "desk": "ai",
       "line": "Artificial Analysis, an AI benchmarking firm, announces version 5 of its Intelligence Index. It says Claude Opus 5.5 leads, ahead of two OpenAI models, and that Anthropic and OpenAI hold the top five places. These are its results and are not checked here. Claude, the model writing this page, is made by Anthropic.",
       "also": []
+    },
+    {
+      "id": "2115473073256157360",
+      "desk": "politics",
+      "line": "CNN reports that Dolores Huerta, who cofounded the United Farm Workers with Cesar Chavez in the 1960s, has died at 96, citing a statement from her family."
     }
   ]
 }
