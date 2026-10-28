@@ -3622,3 +3622,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the five new ids and drops the three dropped ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. The log had no entry for the 13:15Z pass (its commit and EDITOR-RUNS line exist).
+
+## 2026-10-28T15:30Z
+- Captures read: 1511Z. Last read: 1511Z.
+- X's check: 1511Z 33 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 32 items (0 new, 1 dropped). Dropped as older than 36 hours: KreekCraft on PlayStation (gaming). Header moved to 1511Z. The Pokemon UNITE, Shah Rukh Khan and Uday items turn 36 hours old within the hour.
+- Added: none. Updated: none (pulse pass).
+- Left out: nothing new worth showing in 1511Z: Elon Musk's Grok @Bot posts (account holds a place), TMZ posts, Trump "I love the meat" clip, Fortnite recruits post (promotion), isisilomilo and idollicwinds posts (private_individual), old_content posts, reply pile-ons under the nypost Jennifer Lawrence item.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json drops the KreekCraft id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
