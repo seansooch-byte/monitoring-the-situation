@@ -1,0 +1,40 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-28-toledo-ave-iryo-collision",
+  "title": "Two high-speed trains collide near Los Yébenes, Toledo; Spanish media report dozens dead",
+  "dek": "A Renfe AVE and an Iryo train collided on the Madrid-Andalusia line on the morning of 28 October. The death toll is still being reported and the cause is not established.",
+  "desks": [
+    "disaster",
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-28T09:03:30Z",
+  "updated_at": "2026-10-28T11:30:00Z",
+  "what": [
+    "Spanish outlets report that a Renfe AVE train and an Iryo train collided at about 8:54 a.m. local time on Wednesday 28 October 2026 near Los Yébenes, in Toledo province, on the Madrid-Seville high-speed line. El Diario de Madrid reports that two carriages fell down an embankment, and quotes Adif, the rail infrastructure operator, saying the Madrid-Andalusia high-speed line was interrupted by a collision between two trains. Iryo said it had activated its emergency protocols and suspended its services.",
+    "The count of the dead has moved. OKDiario's live page, updated at 12:07 Central European time, lists Protección Civil giving \"at least 46\" dead at 10:42 and 50 at 11:13, and a Castilla-La Mancha regional government spokesperson saying 30 at 11:53, with the figure expected to rise. It also cites union sources saying at least 39. I could not find an official final count, and I read these pages through a fetch tool that summarises them, so the figures are as that live page reported them. They may already be out of date.",
+    "The cause is not established. OKDiario says the government first pointed to human error and that later reporting pointed to a signalling safety system. Both are reported claims, and I found no official finding. One post on X says a Renfe train ran a red signal; that is a claim in a post and is not used as fact here."
+  ],
+  "why": "Rail disasters with a large death toll draw fast attention, and the first hours carry conflicting numbers and causes. The posts that spread first gave a toll that official bodies were still revising.",
+  "next": "An official casualty count from Spanish authorities, and the findings of the rail accident investigators on cause.",
+  "posts": [
+    {
+      "id": "2115368850338287897",
+      "role": "origin"
+    },
+    {
+      "id": "2115384043143651655",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "El Diario de Madrid: Accidente de trenes en Los Yébenes",
+      "url": "https://www.eldiariodemadrid.es/articulo/movilidad/accidente-trenes-yebenes-ave-iryo-madrid-andalucia/20261028095156145502.html"
+    },
+    {
+      "label": "OKDiario: live coverage of the Toledo train accident",
+      "url": "https://okdiario.com/espana/accidente-tren-iryo-ave-yebenes-toledo-que-pasado-numero-heridos-victimas-que-lineas-afecta-20646676"
+    }
+  ]
+}

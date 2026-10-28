@@ -3592,3 +3592,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the Edwards id and drops the Williams id. plan.json rebuilt.
 - Shipped: yes, commit 69effb98, live audit clean (120 files match).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T11:30Z
+- Captures read: 1104Z. Last read: 1104Z.
+- X's check: 1104Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 34 items on the page (2 new, 0 dropped). New: Open Source Intel on the Toledo train collision (disaster), Joaquin Castro on Flavio Bolsonaro's asylum (politics). Header moved to 1104Z.
+- Added: 2026-10-28-toledo-ave-iryo-collision (disaster, world; developing). Updated: none. The Spanish toll was read through a summarising fetch tool and rests on two Spanish outlets; I found no official page.
+- Left out: Osint613 "red signal" post (cause claim, unconfirmed); Elon Musk's Grok @Bot posts (account holds a place); Fenerbahce/Kuyt and Bayern/Kane items (sports full); TMZ items, Trump "I love the meat" clip, Bongino, RFK, stockpile and China stock posts (as before); CollinRugg soccer post (private_individual); Pirat_Nation Discord.
+- Requests: none; watch.json adds the two train post ids and the Castro id; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. This pass did not re-check older live stories; a later pass should look at Comey, Anthropic S-1 and Cloobeck.

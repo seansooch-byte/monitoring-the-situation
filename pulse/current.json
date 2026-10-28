@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T10:30:00Z",
-  "capture": "2026-10-28T1006Z",
+  "updated_at": "2026-10-28T11:30:00Z",
+  "capture": "2026-10-28T1104Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -215,6 +215,18 @@
       "id": "2115213582023671851",
       "desk": "sports",
       "line": "NBA reporter Shams Charania says, citing sources to ESPN, that Minnesota Timberwolves star Anthony Edwards will have an arthroscopic procedure on his right knee and miss up to two months.",
+      "also": []
+    },
+    {
+      "id": "2115384043143651655",
+      "desk": "disaster",
+      "line": "Open Source Intel, a news-sharing account, says at least 46 are dead and 179 injured after an Iryo train and a Renfe train collided near Toledo, Spain. These are the post's figures; Spanish outlets were still revising theirs. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115197464676307217",
+      "desk": "politics",
+      "line": "Rep. Joaquin Castro says that losing an election is not grounds for asylum, and that the Trump administration is giving Flavio Bolsonaro safe haven. Not checked here.",
       "also": []
     }
   ]
