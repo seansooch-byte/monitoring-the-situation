@@ -7,7 +7,10 @@
     "test": "node --test",
     "check": "node tools/check-capture.mjs",
     "build": "node tools/build.mjs",
-    "demo": "node tools/make-demo.mjs && node tools/build.mjs --demo"
+    "demo": "node tools/make-demo.mjs && node tools/build.mjs --demo",
+    "store-test": "MTS_LIVE=1 node --test tests/store.test.mjs"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

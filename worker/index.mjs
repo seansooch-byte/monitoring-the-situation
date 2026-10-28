@@ -119,6 +119,17 @@ async function read(url, env) {
     const { results } = await db.prepare(`SELECT * FROM posts WHERE id IN (${place(want.length)})`).bind(...want).all();
     return json({ posts: results.map(recordOf) });
   }
+  const one = /^\/api\/post\/(\d{15,20})$/.exec(path);
+  if (one) {
+    const row = await db.prepare('SELECT * FROM posts WHERE id = ?1').bind(one[1]).first();
+    if (!row) return json({ error: 'no such post' }, 404);
+    const [runs, obs, check] = await Promise.all([
+      db.prepare('SELECT run_id FROM post_runs WHERE post_id = ?1 ORDER BY run_id').bind(one[1]).all(),
+      db.prepare('SELECT count(*) AS n, min(at) AS first, max(at) AS last FROM observations WHERE post_id = ?1').bind(one[1]).first(),
+      db.prepare('SELECT result, detail, checked_at, run, purged_at FROM checks WHERE post_id = ?1').bind(one[1]).first(),
+    ]);
+    return json({ post: recordOf(row), runs: runs.results.map((r) => r.run_id), observations: obs, check: check ?? null });
+  }
   if (path === '/api/observations') {
     const want = ids(url);
     const since = url.searchParams.get('since'), until = url.searchParams.get('until') ?? '9999';
@@ -140,6 +151,12 @@ async function read(url, env) {
   }
   if (path === '/api/checks') {
     const want = ids(url);
+    const result = url.searchParams.get('result');
+    if (!want.length && result) {
+      const limit = Math.min(Number(url.searchParams.get('limit') ?? 200), 2000);
+      const { results } = await db.prepare('SELECT * FROM checks WHERE result = ?1 ORDER BY checked_at DESC LIMIT ?2').bind(result, limit).all();
+      return json({ checks: Object.fromEntries(results.map((r) => [r.post_id, { result: r.result, detail: r.detail, checked_at: r.checked_at, handle: r.handle, run: r.run, purged_at: r.purged_at }])) });
+    }
     if (!want.length) return json({ checks: {} });
     const { results } = await db.prepare(`SELECT * FROM checks WHERE post_id IN (${place(want.length)})`).bind(...want).all();
     return json({ checks: Object.fromEntries(results.map((r) => [r.post_id, { result: r.result, detail: r.detail, checked_at: r.checked_at, handle: r.handle, run: r.run, purged_at: r.purged_at }])) });

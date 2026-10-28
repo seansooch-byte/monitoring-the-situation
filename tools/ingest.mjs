@@ -47,6 +47,7 @@ for (const f of files) {
     failed++;
     console.log(`FAIL  ${f}  ${e.message}`);
     if (e.status === 422 && e.data?.errors) for (const err of e.data.errors.slice(0, 5)) console.log(`        ${err}`);
+    if (/limit|quota|exceeded|too many|overloaded/i.test(e.message)) { console.log('stopping: the store refused for a limit; run again later, it resumes where it stopped'); break; }
   }
 }
 console.log(`delivered ${delivered}, failed ${failed}`);
