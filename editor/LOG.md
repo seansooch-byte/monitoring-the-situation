@@ -3672,3 +3672,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the seven new ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T23:20Z
+- Captures read: 2004Z, 2300Z. Last read: 2300Z. (The log has no entry for a 2004Z pass; the pulse header was already at 2004Z.)
+- X's check: 2300Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. 2004Z 25 confirmed, 0 missing, 1 mismatched (not on the pulse; the grabber's record). Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 43 items (3 new, 2 dropped). New: Netanyahu's account posting a Likud statement in Hebrew that alleges the election was stolen by Arab parties (world; attributed, not checked); DerrickEvans4WV on iPhone Live Listen (tech; not checked); GTAVI_Countdown on the Justice track from the GTA 6 Score Album (music). Dropped as older than 36 hours: PopCrave and PopBase on Noah Wyle (entertainment). Header moved to 2300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot and other posts (account holds a place); old_content posts (LoneStar_PAC, FoxNews, Macron, Fousey and others); isisilomilo, beyoncegarden (private_individual); Mbappe/DongPeng posts and the Chiba obituary (over 36 hours); Google earnings posts (markets already has three); Fofana/Charlie Kirk statue joke posts (parody, unclear); Trump Arnold Palmer clip and Kenyatta (politics already has six); coolerwave Claude Code phone-photos post (unconfirmed); Mozay_PT, antrofrog_, theoywon (point unclear). The Likud allegation, the Live Listen claim and the Google earnings need a check at the next story pass.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the three new ids and drops the two Noah Wyle ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
