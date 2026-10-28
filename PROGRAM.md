@@ -461,3 +461,10 @@ One line a week, newest last: date, phase in progress, state, done test result.
   three run fields; the first plan written and committed; the sixteen answered requests pruned.
   Report over 10-21 to 10-27: 0 of 7 days pass. Done test: not yet; it needs seven days after
   grokbot starts executing the plan (REPLY-05 not yet pasted).
+- 2026-10-28: phase 1 built and live: the Worker's `/ingest`, `/api/*` and hourly sweep on D1
+  (R2 not enabled); Gate 1 and Gate 2 as pure libraries; 385 runs, 11,898 posts and 145,798
+  observations imported; X's deleted MadridXtra post purged end to end from its row and three
+  files, numbers kept; `npm run store-test` passes 3 of 3. Left: the readers switch to the store,
+  grokbot delivers there itself (needs the token from Sean), the cutover and the history rewrite
+  (needs Sean's approval). Until grokbot has the token, new captures reach the store only when
+  `node tools/ingest.mjs --new` runs from Sean's Mac.
