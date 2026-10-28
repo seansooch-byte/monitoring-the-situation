@@ -17,6 +17,8 @@ The program builds on that engine in seven phases, in this order:
 
 0. **Spend the budget.** The grabber uses half the X reads it is allowed. Use them all.
 1. **The record leaves git.** Captures go to a store that can honour a deletion within 24 hours.
+   - **1b. The other platforms, once a week.** TikTok, Instagram, YouTube, Reddit, Threads and
+     Bluesky, polled on Sundays for the week's stories, under 100 ScrapeCreators credits.
 2. **The wire.** A public API and an MCP server, so any AI agent can ask what is happening.
 3. **Spikes.** Each desk learns its normal hour and says when it is above it.
 4. **Crisis mode.** When a desk spikes far past normal, the engine turns to it.
@@ -86,6 +88,9 @@ flowchart LR
   P1 --> SV["6b Said versus voted"]
   P2 --> P7["7 Money"]
   P1 --> P7
+  P1 --> P1b["1b Other platforms, weekly"]
+  P1b --> P5
+  P1b --> H
 ```
 
 ### Phase 0: Spend the budget
@@ -174,6 +179,51 @@ plan at this size (a capture is about 400 KB; a month is about 300 MB).
 was purged within 24 hours of the check that found it; (2) `git grep '"text":' HEAD -- capture`
 returns nothing; (3) a build from the store, audited with `tools/audit-live.mjs`, matches the live
 site page for page.
+
+### Phase 1b: The other platforms, once a week
+
+**Goal.** Once a week, the week's stories as they ran on TikTok, Instagram, YouTube, Reddit,
+Threads and Bluesky: a cross-section beside X's hourly record, for under 100 ScrapeCreators
+credits.
+
+**The decision (DECISIONS.md, 2026-10-27).** X drives the pulse and the stories. The other
+platforms are polled once a week and never re-read, so there is no second time series to keep
+honest and the program's cost base does not move: Sean already holds ScrapeCreators credits, and
+one poll a week is a few hundred credits a month.
+
+**Work.**
+
+- `tools/poll-platforms.mjs`, run by a Worker cron on Sunday at 06:00 UTC once the store exists.
+  The key is a Worker secret Sean sets himself (`wrangler secret put`); it is never in the
+  repository. For each of the week's ten biggest X stories: one keyword search per platform
+  (TikTok, Instagram, YouTube, Reddit and Threads through ScrapeCreators; Bluesky through its own
+  public API, which needs no key), keeping the largest results with their counts. Three trending
+  feeds (TikTok, YouTube Shorts, Instagram Reels) for what went big elsewhere that X did not
+  carry. For the medicine desk: one search per health claim the week's sheet will cover, on
+  TikTok and Instagram. Transcripts for the videos the editor will write about, up to ten. The
+  credits spent are written into the poll's own record. Budget: 100 a week; over it, the poll
+  stops and says so.
+- Each platform's existence check, measured when built and written into ARCHITECTURE.md.
+  Measured 2026-10-27: YouTube's oEmbed answers 200 with the title for a real video and 400 for
+  a fake one; Bluesky's embed endpoint answers 404 for a fake post; TikTok's oEmbed answers 200
+  for any id, so TikTok needs another check; Reddit's blocks unauthenticated calls and needs the
+  official API; Instagram's and Threads' need a Meta token. A platform with no working check
+  shows its posts as links with their numbers "as read on" the poll's date, and the page says so.
+- `/week/`: the Sunday page. For each of the week's top stories, the largest post about it on
+  each platform, by id, link and numbers, under one editor's line on how that platform's version
+  differed; then what went big elsewhere. The words are the editor's; no post's text.
+- The poll's rows carry `source` like everything else in the store, so phase 5 can compare
+  platforms and phase 6a's sheet can cite them.
+
+**Who.** Main editor (the tool, the page). Sean (sets the secret). The weekly story pass writes
+the page.
+
+**Cost.** Credits: under 100 a week. Reads on X: none. Passes: one story pass a week.
+
+**Done test.** `tests/platforms.test.mjs`: four consecutive weekly polls in the store, each with
+its credit count under 100; every post shown on `/week/` from a platform with a check was
+confirmed by it, and every one from a platform without a check is marked "as read on" its date;
+no `text` field anywhere on the page or in the wire's `/v1/week`.
 
 ### Phase 2: The wire
 
@@ -361,10 +411,11 @@ showing revenue beside cost (editor usage at API rates plus Cloudflare).
 - **One writer per file.** The grabber writes captures (to the store from phase 1). Scheduled
   passes write `pulse/`, `moments/`, `requests/`, `verified/posts.json`, `editor/LOG.md`, and
   from phase 4 `live/`. The main editor writes everything else. CI enforces what it can.
-- **A second source is designed for, not built.** grokbot's X access is the single point of
-  failure for the whole program. The store (phase 1) and the wire (phase 2) carry a `source`
-  field on every post and count so that a second instrument (Bluesky's public firehose is the
-  obvious first) can be added without a redesign. No phase here builds one.
+- **X is the instrument; the other platforms are a weekly cross-section.** grokbot's X access is
+  the single point of failure for the hourly pulse, and nothing here replaces it. The store
+  (phase 1) and the wire (phase 2) carry a `source` field on every post and count. The one other
+  instrument is the weekly poll (phase 1b), deliberately small: one poll a week, under 100
+  credits, no re-reads, so a scraper going dark costs a Sunday page and never the pulse.
 - **No em dashes** in anything the program writes, including this file.
 
 ## Open decisions for Sean
@@ -388,3 +439,5 @@ One line a week, newest last: date, phase in progress, state, done test result.
 - 2026-10-27: phase 0 begun. Contract changed (re-reads to 800, counts for every desk every four
   hours in rotation, a run that underspends is a failure). REPLY-05 written for Sean to paste. Planner and report not yet
   built. Done test: not yet run.
+- 2026-10-27: phase 1b added on Sean's decision: the other six platforms once a week through
+  ScrapeCreators, under 100 credits, X stays the instrument. Not begun.

@@ -657,3 +657,35 @@ case-only duplicate names anywhere in the repository.
 
 **Why.** A walk looking for `HHMMZ.json` has no business following links, whatever the disk.
 The scratch is the grabber's to keep; the editor's tools should not be able to be broken by it.
+
+## 2026-10-27: The other platforms are polled once a week; X stays the instrument
+
+**Context.** Sean holds ScrapeCreators credits from another of his bots. ScrapeCreators is a
+scraping API, not an official one: one credit a request for most endpoints ($47 for 25,000,
+$497 for 500,000), covering TikTok, Instagram, YouTube, Reddit, Threads, Bluesky, X and more,
+with keyword search, trending feeds, comments and video transcripts; its terms put platform-rules
+risk on the user. The first entry of this date said a second source is designed for, not built.
+Measured today: YouTube's oEmbed answers 200 with the title for a real video and 400 for a fake;
+Bluesky's embed endpoint answers 404 for a fake post; TikTok's oEmbed answers 200 for any id;
+Reddit's blocks unauthenticated calls; Instagram's redirects to the Graph API, which needs a
+token.
+
+**Alternatives.** (a) Hourly on six platforms with re-reads, as X is read: about 2,000 credits a
+day, $60 to $120 a month, and a second time series to keep honest. (b) Nothing until the program
+is further along. (c) One poll a week, no re-reads, under 100 credits, keyed to the week's X
+stories and the medicine desk's claims. (d) X through ScrapeCreators as well.
+
+**Decision.** (c), as phase 1b of `PROGRAM.md`. Sean: "use the scrape creators credits but
+incredibly limited with X driving the main discussion. We can run like 1 poll a week for the 6
+other sites to save credits." Not (d): paying for scraped X data is against X's rules and the
+first constraint in spirit. A Worker cron on Sundays once the store exists; the key is a Worker
+secret Sean sets himself; the poll stops at 100 credits and says so. **Supersedes** the sentence
+"A second source is designed for, not built" in the first entry of this date; the rule that every
+row carries `source` stands.
+
+**Why.** The hourly pulse is X's. The question the other platforms answer is a weekly one: where
+else did this week's stories go, and what went big that X did not carry. A weekly cross-section
+answers it for a few hundred credits a month, so the cost base does not move, and the one new
+failure mode, a scraper going dark, costs a Sunday page and never the pulse. The health edition
+gains the most: health rumors spread on TikTok and Instagram more than on X, and the transcript
+endpoints let an editor that cannot watch a video read what it says.

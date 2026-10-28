@@ -32,8 +32,9 @@ flowchart LR
   ST -.-> SP["Spike detector"] -.-> CF
   ST -.-> DI["Divide Index<br/>tools/divide.mjs"] -.-> CF
   ST -.-> W["Wire<br/>/v1 and /mcp"] -.-> A((Agent))
+  SC[("ScrapeCreators, Bluesky's API")] -.->|"phase 1b: one poll a week"| WK["Weekly poll<br/>tools/poll-platforms.mjs"] -.-> ST
   classDef planned stroke-dasharray: 5 5
-  class PL,ST,SP,DI,W,A planned
+  class PL,ST,SP,DI,W,A,SC,WK planned
 ```
 
 Every arrow is a real dependency: the node at its head reads what the node at its tail wrote.
@@ -49,6 +50,7 @@ Dashed nodes and arrows are Planned; the phase that builds each is in `PROGRAM.m
 | Cloudflare (**Built**: `wrangler.jsonc`, `tools/ship.sh`) | Serve `dist/` at situation.seansooch.dev | `dist/` | the public site | The previous version stays live. `tools/ship.sh` refuses a dirty tree, failing tests or a demo build, and compares the live page with the build afterwards. |
 | Read planner (**Planned**, phase 0: `tools/plan-reads.mjs`) | Turn the day's remaining budget into the next run's read list | the latest captures, `requests/watch.json` and `open.json`, `contract/desks.json` | `requests/plan.json`: reads in order, a budget line each | A plan over budget is not written; the grabber falls back to the standing orders and says so in `run.reason`. |
 | Store (**Planned**, phase 1) | Hold the record where a deletion can be honoured within 24 hours | `POST /ingest` from the grabber; X's oEmbed endpoint for the sweep | D1 rows and R2 raw files; purges recorded in the ledger | A capture failing Gate 1 is refused with its errors. A post X answers 404 for loses its words within 24 hours, or the nightly store test fails. |
+| Weekly poll (**Planned**, phase 1b: `tools/poll-platforms.mjs`) | Once a week, the week's stories on six other platforms, under 100 ScrapeCreators credits, never re-read | the week's top stories and the medicine desk's claims; ScrapeCreators; Bluesky's public API | rows in the store with `source`, the credit count, `/week/` | Over 100 credits the poll stops and says so. A platform with no existence check is shown "as read on" the poll's date. A scraper going dark costs the Sunday page, never the pulse. |
 | Wire (**Planned**, phase 2) | Answer agents with ids, numbers and the editor's words | the store, the editor's files | HTTP and MCP responses, an aggregated query log, `/status` | Never a post's text; a test walks every endpoint. Over the limit: `429`. |
 | Spike detector (**Planned**, phase 3) | Say when a desk is above its normal hour of the week | `volume` in the store | `signals/spikes.json`, an alert, the desk card | Under two weeks of counts: no number, and the card says so. |
 | Divide Index (**Planned**, phase 5: `tools/divide.mjs`) | One number a day for how little the day's audiences overlap | the store's `sides` sweeps | the index per desk and day, the bridging posts | Under the floor of posts or accounts the number is withheld and n is shown. |
@@ -98,6 +100,11 @@ constraints shape every part of it and are repeated here because they shape the 
 - **The editor runs on the subscription.** About 24 passes a day at $11 to $13 a day at API
   rates, logged by grokbot in `capture/EDITOR-RUNS.md`, billed as usage of Sean's Claude plan.
   Cash cost today is the Cloudflare plan.
+- **X is the instrument; the other platforms are a weekly cross-section.** TikTok, Instagram,
+  YouTube, Reddit, Threads and Bluesky are polled once a week (phase 1b) through ScrapeCreators
+  credits Sean already holds, under 100 a week, never re-read. Measured 2026-10-27: YouTube's
+  oEmbed and Bluesky's embed endpoint confirm a post for free; TikTok's oEmbed answers 200 for
+  any id; Reddit's needs the official API; Instagram's and Threads' need a Meta token.
 
 What leaves the system is bounded by X's developer policy: ids and links may be passed on, copies
 of posts may not, and a post deleted on X must be gone from here within 24 hours. So the wire
@@ -116,6 +123,7 @@ editor's words and the engine's numbers.
 | `capture/` | Grabber | One file per run, append only (`YYYY/MM/DD/HHMMZ.json`), until phase 1 moves delivery to the store. Beside them, the grabber's own papers, which the contract asks for and the editor reads: `CAPABILITIES.md` (what X actually returns, and the standing query per desk), `RUNBOOK.md` (its hourly procedure), `SENSORS.md` (accounts it reads), `NOTES.md` (its channel back to the editor), `EDITOR-RUNS.md` (every editor pass with its duration and cost at API rates), `RANKING.md` (its reading of X's open-sourced ranking code), `TALLY.json` (origins seen in the global streams, by run), and `handover/` (the old briefing's method and the old feed Worker's source, secrets removed). |
 | `contract/KICKOFF.md`, `REPLY-01.md` to `REPLY-05.md` | Editor | The messages Sean pasted to grokbot, kept on record. `REPLY-05.md` (2026-10-27) carries phase 0's contract changes and two questions for later phases. |
 | `tools/plan-reads.mjs`, `tools/budget-report.mjs` | Editor | The read planner, and the day's report that is phase 0's done test. **Planned.** |
+| `tools/poll-platforms.mjs` | Editor | The Sunday poll of the other six platforms (phase 1b), run by a Worker cron with the ScrapeCreators key as a Worker secret. **Planned.** |
 | `signals/`, `live/`, `METHOD.md`, `health/` | Editor | Spikes (phase 3), crisis timelines (phase 4), the Divide Index's method (phase 5), the health edition (phase 6). **Planned.** |
 | `contract/EDITOR.md`, `EDITOR-BRIEF-PULSE.md`, `EDITOR-BRIEF.md` | Editor | The procedure, and the two word-for-word briefs (pulse pass, story pass). **Built.** |
 | `editor/LOG.md` | Editor | One entry per pass: what was read, what X confirmed, what was added, updated and left out. **Built.** |
