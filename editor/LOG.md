@@ -3572,3 +3572,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T09:30Z
+- Captures read: 0907Z. Last read: 0907Z.
+- X's check: 0907Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor), 2206Z mismatch (2115194840405483852, @jamiegangel) and 0305Z mismatch (2110160854578851917, @katseyeworld) unchanged, not on the pulse.
+- Pulse: 32 items (1 new, 3 dropped). New: Uday's Microsoft layoffs idea (business). Dropped as older than 36 hours: The Dunk Central on Jaylen Brown (sports), Kaitlan Collins on the Comey charge (justice; the story that cites it stays), Glenn Greenwald on Flavio Bolsonaro's passport (world). Header moved to 0907Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ items on an anonymous celebrity and on the accusation against Trump; Trump "I love the meat" clip; Bongino preparedness post; Mandela Effect post (claim about timelines, no point to check); AbdulElSayed video (no media description); Elon Musk's newer Grok @Bot posts (account holds a place); KMbappe, gandalf_thegreg, ArnoldClips posts (no words or description); posts flagged private_individual. Shams on Anthony Edwards is next in line once his older item ages out.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the Uday id and drops the Dunk Central and Greenwald ids (the Comey one stays, a live story cites it). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

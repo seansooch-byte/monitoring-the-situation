@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T08:20:00Z",
-  "capture": "2026-10-28T0800Z",
+  "updated_at": "2026-10-28T09:30:00Z",
+  "capture": "2026-10-28T0907Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -28,28 +28,6 @@
       "also": [
         "2114848376135004363",
         "2114858516406051189"
-      ]
-    },
-    {
-      "id": "2114808903540298141",
-      "desk": "sports",
-      "line": "The Dunk Central passes on remarks it credits to @Scalabrine on SiriusXM. He says that, as he understands it, Jaylen Brown went to the Celtics with a list of demands and wanted to be traded to Milwaukee. Brown is not heard in the post. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114828494081499200",
-      "desk": "justice",
-      "line": "CNN's Kaitlan Collins posts that James Comey, the former FBI director, has been charged again, and links a federal court filing in United States v. Comey. BNO News says the charge is leaking national defense information to a reporter in 2016. Not checked here.",
-      "also": [
-        "2114829411090657334"
-      ]
-    },
-    {
-      "id": "2114815471816253803",
-      "desk": "world",
-      "line": "Glenn Greenwald says Sen. Flavio Bolsonaro had his passport seized by federal police sent by Judge Alexandre de Moraes, a day after Lula was declared Brazil's winner, and he criticises the judge. The quoted post, in Portuguese, has Bolsonaro saying police ordered him to hand over his passports. Not checked here.",
-      "also": [
-        "2114809069533794559"
       ]
     },
     {
@@ -231,6 +209,12 @@
       "id": "2115135919774949588",
       "desk": "justice",
       "line": "A post asks whether someone in prison who gets sleepy around 1 p.m. is allowed to take a nap. It is a question, and the post gives no answer.",
+      "also": []
+    },
+    {
+      "id": "2114934690440458257",
+      "desk": "business",
+      "line": "Uday, a coder, tells Microsoft his idea for layoffs: search YouTube for \"Day in the life of a Microsoft Engineer\" and lay off the people who he says only eat and do not work in the office. It is his view of the videos; Microsoft is not heard in the post. Not checked here.",
       "also": []
     }
   ]
