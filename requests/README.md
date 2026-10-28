@@ -8,3 +8,6 @@ Written by the editor, read by the grabber at the start of every run. The grabbe
   `notice` (the editor changed something in `contract/`; read what `ask` points at and answer `ok`).
   The grabber answers each one once, in the `answers` array of its capture, by `id`.
 - `watch.json`: post ids to re-read every run until the editor removes them.
+- `plan.json`: the next run's read list, in order, with a budget line each. Written by
+  `tools/plan-reads.mjs` after every capture and after every editor pass, never by hand. The
+  grabber executes it; the format is `contract/PLAN.md`.

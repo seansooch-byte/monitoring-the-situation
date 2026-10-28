@@ -7,9 +7,9 @@ the editor) and asks two questions for later phases of `PROGRAM.md`. The durable
 
 ---
 
-Pull, then re-read four parts of `contract/GRABBER.md`: Re-reads, Volume, The read budget, and
-Schedule and budget. `PROGRAM.md` at the root is new and says where this is going; it is for
-reading, not orders.
+Pull, then read `contract/PLAN.md` (new) and re-read four parts of `contract/GRABBER.md`:
+Re-reads, Volume, The read budget, and Schedule and budget. `PROGRAM.md` at the root is new and
+says where this is going; it is for reading, not orders.
 
 **1. The budget is there to be spent.** From your own captures, 2026-10-21 to 2026-10-27: every
 run `partial`; 18 to 23 reads a run against a daytime allowance of 42; days ending with about
@@ -33,19 +33,32 @@ were story-cited; the target is none.
 old. One read each, 120 a day. This is the signal behind the site's baselines, and it is never
 cut.
 
-**4. Coming: `requests/plan.json`.** The editor is building a tool that writes the next run's
-read list, in order, with a budget line for each read (re-reads by id in batches of 100, desks
-due, counts due, the open requests), totalled against the reads left in the day. When the file
-exists, execute it in order and record what you did; the standing orders fill only what it
-leaves open. Nothing to build now; expect it.
+**4. `requests/plan.json` is live: execute it.** From your next run, after `git pull`, read
+`requests/plan.json` (format and how to execute it: `contract/PLAN.md`). It is the run's read
+list in order with a budget line for each read: the re-read ids in batches of 100, the desks
+due, the five desks whose counts are due, the open requests, then discovery. A tool writes it
+after every capture from your own captures, the editor's requests and `contract/budget.json`,
+and cuts it to what the day can afford, so the cut order is no longer yours to apply. Execute it
+top to bottom and record what you did; the standing orders fill only what it leaves open; never
+edit it. If its `for_run` is not the hour you are running, say so in `run.reason` and follow the
+standing orders. The first plan, for 05Z on 28 October, asks for 42 reads: all nineteen desks
+(fifteen have not been swept since 10 October), five desks' counts, 264 re-reads in three reads
+with 221 flat posts waiting for their sixth run, then discovery. The sixteen requests in
+`open.json` were all answered once and have been removed; the request sweeps stop with them.
 
-**5. Two questions, answered in `capture/NOTES.md`.** (a) Can your scheduler run a ten-minute
+**5. Three numbers in every run from now on.** `run.reads` (the reads this run spent),
+`run.reads_left` (the reads left in the UTC day after it, as the API reports them) and
+`run.plan` (the plan's `for_run` you executed, or `null`). The checker warns when the first two
+are missing today and refuses the file from 4 November. The budget is a number in the record,
+not a sentence.
+
+**6. Two questions, answered in `capture/NOTES.md`.** (a) Can your scheduler run a ten-minute
 trigger while `requests/plan.json` says `mode: crisis`, for a few hours at a time? If not, what
 is the shortest regular interval it can run? (b) When the editor is ready, can the hourly run
 deliver a capture by `POST` with a bearer token to a URL on situation.seansooch.dev instead of
 a git push, and keep pushing `NOTES.md`, `CAPABILITIES.md` and the rest as now?
 
-**6. Five symlinks in your scratch break the Mac checkout.** `capture/work/2026-10-17T2308Z/`
+**7. Five symlinks in your scratch break the Mac checkout.** `capture/work/2026-10-17T2308Z/`
 holds `trend_georgia.txt -> trend_Georgia.txt`, the same for Gunner, Michigan and Tennessee, and
 `trend_rocco.txt`. On Sean's Mac the disk ignores case, so each of those links points at itself
 and anything that walks `capture/` loops. The editor's tools no longer follow links, but the
@@ -53,5 +66,5 @@ checkout still shows the four pairs as changed and the ship script refuses a cha
 Delete the five links in your next capture commit. From now on, commit no symlinks and no two
 names that differ only by case, anywhere in the repository.
 
-**7. For Sean, not for you:** the 7:03 AM briefing shares this budget and nothing reads it. If
+**8. For Sean, not for you:** the 7:03 AM briefing shares this budget and nothing reads it. If
 Sean retires it, the ceiling moves from 850 to 900 and the contract will say so.

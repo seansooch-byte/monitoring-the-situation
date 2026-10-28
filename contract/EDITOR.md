@@ -34,7 +34,7 @@ The site has two layers, and the brief that started you says which pass this is.
 | You may write | You may not touch |
 |---|---|
 | `moments/` (stories), `pulse/current.json` | `capture/` (the grabber's) |
-| `requests/open.json`, `requests/watch.json` | `contract/`, `tools/`, `site/`, `tests/`, `site.json`, `wrangler.jsonc` |
+| `requests/open.json`, `requests/watch.json`, `requests/plan.json` (only through `node tools/plan-reads.mjs`) | `contract/`, `tools/`, `site/`, `tests/`, `site.json`, `wrangler.jsonc` |
 | `verified/posts.json` (only by running the tool) | `.github/` |
 | `editor/LOG.md` (append only) | anything outside this repository |
 
@@ -71,9 +71,12 @@ under "For the main editor" and carry on with what you can do.
 7. **Write the story** as a file in `moments/YYYY/MM/` (format below).
 8. **Steer the grabber.** `requests/watch.json` should list every post on the pulse, every post
    cited by a story started in the last 48 hours, and the pinned post in `site.json`. In `requests/open.json`, remove
-   requests that have been answered and add what you need: the origin of a clip, the reaction to
-   a post (`context`), the other side of a story where the capture holds only one. Set
-   `updated_at` in both.
+   requests that have been answered (a request's answer is in some capture's `answers` under its
+   id; the planner counts an unanswered request over three days old as stale and stops asking it)
+   and add what you need: the origin of a clip, the reaction to a post (`context`), the other side
+   of a story where the capture holds only one. Set `updated_at` in both. Then run
+   `node tools/plan-reads.mjs` so `requests/plan.json` is for the new watch list, and commit it
+   with your requests.
 9. **Check your own work.** `node tools/verify-posts.mjs --moments`, `npm test`,
    `node tools/build.mjs`. Then read every story you wrote against the checklist at the end of
    this file. The build refuses a story that cites a post X has not confirmed; do not work around

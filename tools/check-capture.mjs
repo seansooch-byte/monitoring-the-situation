@@ -128,6 +128,12 @@ export function checkCapture(doc, opts = {}) {
   own('run.grabber.model', g.model);
   own('run.grabber.method', g.method, { required: true });
   if (run.requests_rev != null && !isStr(run.requests_rev)) err('run.requests_rev', 'must be a string or null');
+  // The budget is a number in the record, not a sentence: reads this run spent, reads left in the UTC day after it.
+  for (const k of ['reads', 'reads_left']) {
+    if (run[k] == null) warn(`run.${k}`, 'is missing: record the reads this run spent and the reads left in the day as whole numbers (contract/CAPTURE.md, run)');
+    else if (!Number.isInteger(run[k]) || run[k] < 0) err(`run.${k}`, 'must be a whole number of reads');
+  }
+  if (run.plan != null && !isStr(run.plan)) err('run.plan', 'must be a string or null: the for_run of the requests/plan.json this run executed');
 
   if (opts.filePath && isStr(run.id)) {
     // capture/2026/10/09/0600Z.json  <->  2026-10-09T0600Z

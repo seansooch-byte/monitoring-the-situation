@@ -61,8 +61,12 @@ capture and may be left out.
 | `grabber.model` | The model that ran it, or `null`. |
 | `grabber.method` | How X was read this run (the tool or API by name). |
 | `requests_rev` | The git commit of `requests/` that this run read, or `null`. |
+| `reads` | Whole number: the X reads this run spent. The budget is a number in the record, not a sentence. |
+| `reads_left` | Whole number: the reads left in the UTC day after this run, as the API reports them. |
+| `plan` | The `for_run` of the `requests/plan.json` this run executed (`contract/PLAN.md`), or `null`. |
 
 A `down` run has empty arrays and is still a valid file. It is how a failure is recorded as data.
+The checker warns when `reads` or `reads_left` is missing; from 2026-11-04 it refuses the file.
 
 ## sweeps[]
 

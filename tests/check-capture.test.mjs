@@ -324,6 +324,25 @@ function runAt(doc, startMs) {
   return { doc, opts: { now: new Date(startMs + 300000) } };
 }
 
+test('a run records the reads it spent and the reads left in the day as whole numbers; leaving them out is a warning', () => {
+  const doc = capture();
+  doc.run.reads = 21; doc.run.reads_left = 915; doc.run.plan = '2026-10-09T06Z';
+  assert.deepEqual(errs(doc), []);
+  const r = checkCapture(doc, { now: NOW });
+  assert.ok(!r.warnings.some((w) => /run\.reads/.test(w)));
+  doc.run.reads = -1;
+  assert.ok(has(errs(doc), /run\.reads: must be a whole number/));
+  doc.run.reads = 21; doc.run.reads_left = 'many';
+  assert.ok(has(errs(doc), /run\.reads_left: must be a whole number/));
+  doc.run.reads_left = 915; doc.run.plan = 7;
+  assert.ok(has(errs(doc), /run\.plan: must be a string or null/));
+  const bare = capture();
+  const b = checkCapture(bare, { now: NOW });
+  assert.deepEqual(b.errors, []);
+  assert.ok(b.warnings.some((w) => /run\.reads: is missing/.test(w)), 'an old-style run still passes, with a warning');
+  assert.ok(b.warnings.some((w) => /run\.reads_left: is missing/.test(w)));
+});
+
 test('crypto is retired: it is not a watched desk, and the record still knows what it was', () => {
   assert.ok(!DESKS.includes('crypto'), 'crypto is not swept, labelled or drawn');
   assert.ok(RETIRED.crypto, 'and it is listed as retired, with the time it stopped');

@@ -116,16 +116,23 @@ reports a 429.
   when every due desk was swept. Done in this commit.
 - `contract/REPLY-05.md`: the message Sean pastes to grokbot, saying the above and asking two
   questions (below). Done in this commit.
-- `tools/plan-reads.mjs` (**Planned**): the read planner. Each hour, from the latest captures,
-  `requests/watch.json` and `contract/desks.json`, it writes `requests/plan.json`: the ordered
-  list of reads for the next run with a budget line for each (re-reads by id, in batches of 100;
-  desks due; counts due; searches from `open.json`), totalled against the reads left in the UTC
-  day and the hours left in it. The grabber executes the plan and records what it did. The cut
-  order moves from Grok's judgement to a tool Sean can read. Until the planner exists, the
-  standing orders in `GRABBER.md` are the plan.
-- `tools/budget-report.mjs` (**Planned**): prints, for a day, reads spent, runs by status, each
-  desk's sweeps against its cadence, the re-read list's size and what it left out, and which
-  hours have counts for every desk. This is the done test.
+- `tools/plan-reads.mjs` (built 2026-10-28; `tools/lib/plan.mjs`, `tests/plan.test.mjs`, format
+  in `contract/PLAN.md`, numbers in `contract/budget.json`): the read planner. After every
+  capture (`tools/refresh.sh`) and every editor pass, from the last three days of captures,
+  `requests/watch.json`, `open.json` and `contract/desks.json`, it writes `requests/plan.json`:
+  the ordered list of reads for the next run with a budget line for each (re-reads by id, in
+  batches of 100; desks due; the five stalest desks' counts; unanswered requests; discovery),
+  totalled against the reads left in the UTC day and the runs left in it, and cut in the
+  contract's order when the day is short. The grabber executes the plan and records what it did.
+  The cut order moved from Grok's judgement to a tool Sean can read.
+- `tools/budget-report.mjs` (built 2026-10-28; `tools/lib/budget.mjs`, `tests/budget.test.mjs`):
+  prints, for each day, the verdict and what fell short: runs by status, reads spent, each desk's
+  sweeps against its cadence, each desk's longest gap between counts, and any story-cited post a
+  run's re-read list left out. This is the done test. Over 2026-10-21 to 2026-10-27 it reads
+  0 of 7 days pass: reads 462 to 488, 4 of 19 desks at cadence, counts for none.
+- `run.reads`, `run.reads_left` and `run.plan` in every capture (`contract/CAPTURE.md`): the
+  budget is a number in the record. The checker warns when they are missing and refuses the file
+  from 2026-11-04.
 - The 7:03 AM briefing shares the budget and nothing reads it. Retiring it is Sean's decision and
   grokbot's to do. If it goes, the contract's ceiling moves from 850 to 900.
 
@@ -441,3 +448,7 @@ One line a week, newest last: date, phase in progress, state, done test result.
   built. Done test: not yet run.
 - 2026-10-27: phase 1b added on Sean's decision: the other six platforms once a week through
   ScrapeCreators, under 100 credits, X stays the instrument. Not begun.
+- 2026-10-28: phase 0 built: `contract/budget.json`, the planner, the report, `PLAN.md`, the
+  three run fields; the first plan written and committed; the sixteen answered requests pruned.
+  Report over 10-21 to 10-27: 0 of 7 days pass. Done test: not yet; it needs seven days after
+  grokbot starts executing the plan (REPLY-05 not yet pasted).

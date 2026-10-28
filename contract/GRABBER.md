@@ -189,7 +189,9 @@ window only returns the late part of itself and is not worth its read.
 
 ## The read budget
 
-The limit is 1,000 reads a day, shared with the daily briefing. Stay under 850.
+The limit is 1,000 reads a day, shared with the daily briefing. Stay under 850. The numbers on
+this page live in `contract/budget.json`; this page says them in words, and the plan and the
+day's report are computed from the file.
 
 Spend it. The budget exists to be used: a daytime run that spends under 30 reads while desks are
 due is a failure, reported as `partial` with that reason, and a day should end between 600 and
@@ -319,6 +321,8 @@ git push origin main                                           # on rejection: p
 - If the checker fails, fix the file. If you cannot make it pass, replace it with a `down` run that
   says why, and push that. Never push a file that fails the checker.
 - One file per run. Never rewrite a file that has been pushed; a correction goes in the next run.
+- Every run records `run.reads`, `run.reads_left` and `run.plan` (`contract/CAPTURE.md`). The
+  reads are the API's own numbers, not an estimate.
 - No em dashes in anything you write yourself. Verbatim text is exempt and must not be altered.
 
 ## Schedule and budget
@@ -338,10 +342,10 @@ git push origin main                                           # on rejection: p
 Read `requests/open.json` and `requests/watch.json` at the start of every run (after `git pull`).
 
 - `watch.json` lists post ids to re-read every run until they are removed.
-- `plan.json`, when present, lists the next run's reads in order with a budget line for each:
-  re-reads by id in batches of 100, desks due, counts due, the open requests, totalled against
-  the reads left in the day. It is written by a tool, not a person, and it replaces your own cut
-  order for that run. (Not written yet; see `PROGRAM.md`, phase 0.)
+- `plan.json` lists the next run's reads in order with a budget line for each: re-reads by id
+  in batches of 100, desks due, counts due, the open requests, then discovery, totalled against
+  the reads left in the day. It is written by a tool after every capture, not by a person, and it
+  replaces your own cut order for that run. The format and how to execute it: `contract/PLAN.md`.
 - `open.json` lists asks: look up a post, find the origin of something, pull the replies to a post,
   run a specific search. Answer each in `answers` with the request's `id`. A request stays open
   until the editor removes it; answer it once and then ignore it.

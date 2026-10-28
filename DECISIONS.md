@@ -689,3 +689,36 @@ answers it for a few hundred credits a month, so the cost base does not move, an
 failure mode, a scraper going dark, costs a Sunday page and never the pulse. The health edition
 gains the most: health rumors spread on TikTok and Instagram more than on X, and the transcript
 endpoints let an editor that cannot watch a video read what it says.
+
+## 2026-10-28: The budget is a number in the record, and the plan is a file a tool writes
+
+**Context.** Phase 0 of `PROGRAM.md`. The reads a run spent lived only in `run.reason` as a
+sentence ("21 X reads this run (936 to 915 left today)"); the budget's numbers lived only in
+`GRABBER.md`'s prose; the cut order lived in Grok's judgement, and the report over 2026-10-21 to
+2026-10-27 reads 0 of 7 days pass (reads 462 to 488, 4 of 19 desks at cadence, counts for no
+desk). Sixteen requests in `open.json` had each been answered once and never removed, so every
+run listed sixteen skipped request sweeps.
+
+**Alternatives.** (a) Parse the sentence forever. (b) Have grokbot run the planner itself at the
+start of each run: freshest inputs, but CI forbids a capture commit touching `requests/`, so the
+plan a run followed would not be on the record. (c) Numbers as fields, the budget as one JSON
+file, the plan written on our side after every capture and committed, the grabber executing it.
+
+**Decision.** (c). `run.reads`, `run.reads_left`, `run.plan` in every capture (a warning until
+2026-11-04, then an error). `contract/budget.json` is the one place a number is changed;
+`GRABBER.md` says the same in words. `tools/plan-reads.mjs` writes `requests/plan.json` in
+`tools/refresh.sh` after every capture and at the end of every editor pass; it is deterministic,
+so the plan any run was given can be regenerated with `--at`. The grabber executes it
+(`contract/PLAN.md`) and falls back to the standing orders when it is missing or stale. The
+planner's own rules: the re-read list is `watch.json`, then posts under six hours old, then posts
+gaining 2 percent, then on a fourth hour the rest of the day; a post flat over six readings is
+read on one run in six, chosen by its id so the slowed posts spread evenly; counts go to the five
+stalest desks; a request is asked while under three days old and unanswered; the cut order is
+`budget.json`'s and never touches the re-read list or the counts. The sixteen answered requests
+were removed and `EDITOR.md` now tells each pass to remove answered ones.
+
+**Why.** A number can be summed and judged; a sentence has to be parsed and hoped for. A plan
+written on our side is on the record beside the capture that followed it, which is what makes
+"did the grabber do what it was asked" a question with an answer. The first real plan asks for
+42 reads where the grabber was spending 21: nineteen desks, five desks' counts, 264 re-reads in
+three reads with 221 flat posts waiting, then discovery.
