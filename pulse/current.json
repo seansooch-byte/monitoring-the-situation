@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T01:40:00Z",
-  "capture": "2026-10-28T0101Z",
+  "updated_at": "2026-10-28T02:40:00Z",
+  "capture": "2026-10-28T0159Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -34,45 +34,11 @@
       "also": []
     },
     {
-      "id": "2114705042817110293",
-      "desk": "ai",
-      "line": "Anthropic says it has filed an S-1 registration statement with the SEC for its proposed IPO. Anthropic makes Claude, the model writing this page. A story on the filing is on the site.",
-      "also": [
-        "2114705637082820980",
-        "2114709238454886805"
-      ]
-    },
-    {
-      "id": "2114693795887395287",
-      "desk": "justice",
-      "line": "Sky News reports that Chris Brown has been sentenced to eight months in prison, suspended for 12 months, so he avoids jail time. It says he pleaded guilty to affray over a confrontation at a London nightclub in 2023. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114715528648405437",
-      "desk": "tech",
-      "line": "Tech reviewer MKBHD lists the new OLED iPad mini, which he says starts at $699, with an 8.5-inch OLED display and A20 Pro chip, and says he could not find any mention of 120Hz.",
-      "also": []
-    },
-    {
-      "id": "2114713219411660978",
-      "desk": "tech",
-      "line": "The Robotaxi account posts \"Houston, we have liftoff\" and says a bigger service area is now live. Not checked here."
-    },
-    {
       "id": "2114760030818058481",
       "desk": "entertainment",
       "line": "Variety reports that Walter Koenig, who played Chekov in the original Star Trek series and seven Star Trek films, has died at 90. The AP posts the same news. Not checked here.",
       "also": [
         "2114767060232179981"
-      ]
-    },
-    {
-      "id": "2114708299644023175",
-      "desk": "internet",
-      "line": "The Madrid Zone, a Real Madrid news account, posts a quote it attributes to Kylian Mbappe: his favorite meme of himself puts his face on Mao Zedong, whom he calls a Chinese dictator, and he sends it to friends. Dexerto, attached, says Chinese sponsors have dropped him over it. Not checked here.",
-      "also": [
-        "2115035849133846717"
       ]
     },
     {
