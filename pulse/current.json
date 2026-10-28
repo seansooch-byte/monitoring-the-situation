@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T09:30:00Z",
-  "capture": "2026-10-28T0907Z",
+  "updated_at": "2026-10-28T10:30:00Z",
+  "capture": "2026-10-28T1006Z",
   "items": [
     {
       "id": "2114897771001974921",
       "desk": "science",
       "line": "John Carmack, a programmer, says that despite flashy robot demos, no robot in the world can change the batteries in a jack-o-lantern. He says that is a reality check on fears of a robot apocalypse. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114839265448521986",
-      "desk": "sports",
-      "line": "NBA reporter Shams Charania says Oklahoma City's Jalen Williams has a dislocated left ankle and a fractured fibula, and Cason Wallace a torn labrum in his left shoulder. He says both will have surgery and miss several months, most or all of the season.",
       "also": []
     },
     {
@@ -215,6 +209,12 @@
       "id": "2114934690440458257",
       "desk": "business",
       "line": "Uday, a coder, tells Microsoft his idea for layoffs: search YouTube for \"Day in the life of a Microsoft Engineer\" and lay off the people who he says only eat and do not work in the office. It is his view of the videos; Microsoft is not heard in the post. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115213582023671851",
+      "desk": "sports",
+      "line": "NBA reporter Shams Charania says, citing sources to ESPN, that Minnesota Timberwolves star Anthony Edwards will have an arthroscopic procedure on his right knee and miss up to two months.",
       "also": []
     }
   ]
