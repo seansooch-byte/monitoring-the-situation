@@ -3642,3 +3642,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds the CNN and NBC Huerta ids and drops the two dropped ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Fetching NPR timed out, so I did not cite it. Web search returned stale or empty results for several current items.
+
+## 2026-10-28T17:40Z
+- Captures read: 1702Z. Last read: 1702Z.
+- X's check: 1702Z 39 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 34 items (4 new, 1 dropped). New: PlayStation Prism Collection (gaming); Jeremy Fowler on Josh Downs asking for a trade (sports); Mukhtar on the Tommy Robinson verdict, with Rupert Lowe's post in also (justice; verdict and charges not confirmed here, and Eric Daugh's post says two harassment counts, so the line does not repeat the charges); DiscussingFilm on Selena Gomez and Demi Lovato's Rare Beauty poster (entertainment; PopBase already holds the desk's front place). Dropped as older than 36 hours: Serebii on Pokemon UNITE (gaming). Header moved to 1702Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot, Tesla and other posts (account holds a place); TMZ, Trump "I love the meat", Calvin Klein, Cinesthetic, Bongino, stockpile, Pirat_Nation and Brock Riddick posts (as before); isisilomilo, v1renff family argument, TheChiefNerd and Eagleman vet posts (private_individual); Edenlife9 Trump post (insult-driven religious content); DailyIranNews Epstein/Jesus post (unverified comparison, asks a bot to verify); FOMC posts (decision due 2 p.m. ET, small); old_content posts. The Tommy Robinson verdict needs a check at the next story pass.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the five new ids and drops the two Serebii ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
