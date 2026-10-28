@@ -1,28 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T11:30:00Z",
-  "capture": "2026-10-28T1104Z",
+  "updated_at": "2026-10-28T12:40:00Z",
+  "capture": "2026-10-28T1212Z",
   "items": [
     {
       "id": "2114897771001974921",
       "desk": "science",
       "line": "John Carmack, a programmer, says that despite flashy robot demos, no robot in the world can change the batteries in a jack-o-lantern. He says that is a reality check on fears of a robot apocalypse. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2114863126864904674",
-      "desk": "business",
-      "line": "Watcher.Guru, a markets news account, says Ripple has received full US regulatory approval to operate as a national trust bank. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114858773101601042",
-      "desk": "sports",
-      "line": "The Ballon d'Or account posts a 76-second video announcing Harry Kane as its 2026 Ballon d'Or. Its earlier post named Alexia Putellas as a winner, and Kane posted a message of his own after.",
-      "also": [
-        "2114848376135004363",
-        "2114858516406051189"
-      ]
     },
     {
       "id": "2114886470020571588",
@@ -56,12 +41,6 @@
       "id": "2115077413713715411",
       "desk": "justice",
       "line": "Fox News reports, in a 27-second video post, that the FBI has raided a Beverly Hills mansion as part of an investigation into Eric Swalwell. The post gives no further detail. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2114858516406051189",
-      "desk": "sports",
-      "line": "Football striker Harry Kane posts the message \"Work hard in silence. Let success be your noise.\" with a trophy emoji. It carries no other claim.",
       "also": []
     },
     {
@@ -227,6 +206,18 @@
       "id": "2115197464676307217",
       "desk": "politics",
       "line": "Rep. Joaquin Castro says that losing an election is not grounds for asylum, and that the Trump administration is giving Flavio Bolsonaro safe haven. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115281151870804027",
+      "desk": "world",
+      "line": "The Washington Post reports that a Brazilian Supreme Court justice has ordered a police investigation into alleged ties between a donor network co-founded by Vice President JD Vance and Flávio Bolsonaro’s presidential campaign, ahead of Sunday’s election. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115042209661911112",
+      "desk": "markets",
+      "line": "Shay Boloor, a markets commentator, posts a chart image and a list of figures he says are SoFi’s third-quarter results and its guidance for the next two years, against analyst estimates. The figures are his; not checked here.",
       "also": []
     }
   ]

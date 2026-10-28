@@ -3602,3 +3602,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds the two train post ids and the Castro id; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. This pass did not re-check older live stories; a later pass should look at Comey, Anthropic S-1 and Cloobeck.
+
+## 2026-10-28T12:40Z
+- Captures read: 1212Z. Last read: 1212Z.
+- X's check: 1212Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 33 items (2 new, 3 dropped). New: Washington Post on the Brazilian court order about a donor network and the Bolsonaro campaign (world), Shay Boloor's SoFi results list (markets; figures his, not checked). Dropped as older than 36 hours: Watcher.Guru on Ripple (business), Ballon d'Or on Harry Kane (sports) and Kane's own post (sports). Header moved to 1212Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: profstonge Grokbot post, Elon Musk SpaceX shares post and Starlink Brazil (older than 36 hours); Elon Musk's other Grok @Bot posts (account holds a place); Buckner trade, CoD MW4 and Valve Steam posts (desks full or small); Trump Corpus Christi post (characterises his speech); Alex Pretti father clip (not checked); Talarico clip (no media description); AJEnglish train toll (the Osint613 item covers it); KMbappe and Mcuquerella posts (no words or description); sexual and likely-paid posts as the grabber noted.
+- Requests: none; updated_at moved; watch.json adds the WaPo and SoFi ids and drops the Watcher.Guru, Kane and Ballon d'Or ids except 2114858773101601042, which the live Kane story cites. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Older live stories (Comey, Anthropic S-1, Cloobeck) still need a story-pass check.
