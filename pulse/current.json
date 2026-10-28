@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T20:30:00Z",
-  "capture": "2026-10-28T2004Z",
+  "updated_at": "2026-10-28T23:20:00Z",
+  "capture": "2026-10-28T2300Z",
   "items": [
-    {
-      "id": "2115023562717216943",
-      "desk": "entertainment",
-      "line": "PopCrave, a pop culture account, says Noah Wyle has been named People Magazine's Sexiest Man Alive for 2026. Not checked here."
-    },
     {
       "id": "2115077413713715411",
       "desk": "justice",
@@ -102,11 +97,6 @@
       "also": [
         "2115270760717595100"
       ]
-    },
-    {
-      "id": "2115027390334386543",
-      "desk": "entertainment",
-      "line": "Pop Base, an entertainment news account, posts that Noah Wyle has been named People magazine's Sexiest Man Alive of 2026."
     },
     {
       "id": "2115119252785303813",
@@ -247,6 +237,21 @@
       "id": "2115261092863893558",
       "desk": "defense",
       "line": "BRICS News, an aggregator account, says the Wall Street Journal reports that the US has told Gulf states it plans military action after the midterms. The post names no detail and links no report. Not checked here."
+    },
+    {
+      "id": "2115479434169868618",
+      "desk": "world",
+      "line": "Benjamin Netanyahu's account posts, in Hebrew, a statement headed \"Likud\" saying Arab parties stole the Israeli election through bribery, threats, violence and forgery. It says Likud is giving police, the Shin Bet and the election committee evidence and demands an investigation. Not checked here."
+    },
+    {
+      "id": "2115482148803412332",
+      "desk": "tech",
+      "line": "The account DerrickEvans4WV tells iPhone users to turn off Live Listen under Accessibility settings and says the setting keeps transcripts. Not checked here."
+    },
+    {
+      "id": "2115422816342540600",
+      "desk": "music",
+      "line": "GTAVI_Countdown, a fan account, shares the full track \"Pusher (feat. Gesaffelstein)\" by Justice from the GTA 6 Score Album. It says the album has 50 tracks and comes out on December 11th. Not checked here."
     }
   ]
 }
