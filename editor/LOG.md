@@ -3492,3 +3492,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: watch.json adds the three new ids; open.json unchanged apart from updated_at.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T00:40Z
+- Captures read: 0011Z. Last read: 0011Z.
+- X's check: 0011Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. 1800Z mismatch (2098381525574131985, @ballondor) and 2206Z mismatch (2115194840405483852, @jamiegangel) unchanged, not on the pulse.
+- Pulse: 45 items (0 new, 3 dropped). Dropped to stay inside 25 to 45 and because they are no longer among the largest: Donnie Iris death (music), Maurene Comey ruling (justice), Hutchinson grand jury (justice). Header moved to 0011Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: PopBase Noah Wyle post (same news as the PopCrave item already shown); Bongino 30-day preparedness post (second-hand "JUST IN" account, claim unchecked); Schefter Taylor post (same account as the Colts item); NFL Buckner trade (not re-checked); old_content posts.
+- Requests: none; updated_at moved in watch.json and open.json.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

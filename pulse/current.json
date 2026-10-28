@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-27T23:20:00Z",
-  "capture": "2026-10-27T2300Z",
+  "updated_at": "2026-10-28T00:40:00Z",
+  "capture": "2026-10-28T0011Z",
   "items": [
     {
       "id": "2114897771001974921",
@@ -58,14 +58,6 @@
       "id": "2114713219411660978",
       "desk": "tech",
       "line": "The Robotaxi account posts \"Houston, we have liftoff\" and says a bigger service area is now live. Not checked here."
-    },
-    {
-      "id": "2114754760859422823",
-      "desk": "justice",
-      "line": "CNN Breaking reports that a judge found the Justice Department’s firing of Maurene Comey, a federal prosecutor in cases involving Jeffrey Epstein and Sean Combs, was unconstitutional. The AP says she was unlawfully fired by the Trump administration. Not checked here.",
-      "also": [
-        "2114750301085241842"
-      ]
     },
     {
       "id": "2114760030818058481",
@@ -148,14 +140,6 @@
       "line": "Glenn Greenwald says Sen. Flavio Bolsonaro had his passport seized by federal police sent by Judge Alexandre de Moraes, a day after Lula was declared Brazil's winner, and he criticises the judge. The quoted post, in Portuguese, has Bolsonaro saying police ordered him to hand over his passports. Not checked here.",
       "also": [
         "2114809069533794559"
-      ]
-    },
-    {
-      "id": "2114858510928240967",
-      "desk": "music",
-      "line": "KDKA reports that Donnie Iris, the Pittsburgh musician behind \"Ah! Leah!,\" has died, according to a former bandmate. Not checked here.",
-      "also": [
-        "2114849576041750638"
       ]
     },
     {
@@ -286,12 +270,6 @@
       "id": "2115127436513849568",
       "desk": "politics",
       "line": "Secretary of State Marco Rubio posts a map image with the words \"Private island of corrupt regime in Cuba\". The post gives no further detail. It is part of the US-Cuba exchange at the UN. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2115195593744085030",
-      "desk": "justice",
-      "line": "The Washington Post reports, citing people familiar with the matter, that a grand jury rejected the Justice Department’s attempt to indict former White House aide Cassidy Hutchinson over the account she gave lawmakers about President Trump on January 6. Not checked here.",
       "also": []
     },
     {
