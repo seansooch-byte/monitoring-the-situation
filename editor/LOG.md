@@ -3662,3 +3662,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the four new ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T19:20Z
+- Captures read: 1904Z. Last read: 1904Z.
+- X's check: 1904Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 41 items (3 new, 0 dropped). New: TurnerSportsEJ "It's time" with ESPN and Bleacher Report in also (Ernie Johnson's final season on Inside the NBA, entertainment as labelled); Kobeissi Letter on Warsh's plan to change the FOMC meeting schedule (markets); Ken Bensinger on the O'Keefe and Higby charges in Minnesota, with Sortor's and Krassenstein's posts in also (justice). Header moved to 1904Z. Nothing is yet 36 hours old.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot and other posts (account holds a place); FabrizioRomano Ronaldo Ballon d'Or post and ShamsCharania Haliburton post (each account holds a sports place); Bill Melugin Alaska post (Browning's is the origin); AP Bolsonaro landing in Miami (politics already has posts on it); johnternus (no words, point unclear); TMZ, isisilomilo, CBS bodycam, idollicwinds, Emilio2763 (private_individual or as before); old_content posts (HQNewsNow, camhigby, BasilTheGreat). The O'Keefe and Higby charges, the Warsh schedule change and Ernie Johnson's announcement need a check at the next story pass.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the seven new ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

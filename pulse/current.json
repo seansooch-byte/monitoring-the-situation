@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T18:30:00Z",
-  "capture": "2026-10-28T1807Z",
+  "updated_at": "2026-10-28T19:20:00Z",
+  "capture": "2026-10-28T1904Z",
   "items": [
     {
       "id": "2115023562717216943",
@@ -219,6 +219,23 @@
       "id": "2115347637407023319",
       "desk": "markets",
       "line": "ANI, an Indian news agency, reports that the Ambani family visited the Shree Siddhivinayak Temple in Mumbai after the stock market debut of Jio Platforms on the National Stock Exchange of India. Not checked here."
+    },
+    {
+      "id": "2115503871342809258",
+      "desk": "entertainment",
+      "line": "The account @TurnerSportsEJ posts a video captioned \"It's time.\" The attached ESPN and Bleacher Report posts say it is Ernie Johnson announcing that this is his final season on Inside the NBA. Not checked here.",
+      "also": ["2115507143461752859", "2115505534510235820"]
+    },
+    {
+      "id": "2115514210830389611",
+      "desk": "markets",
+      "line": "The Kobeissi Letter, a markets newsletter account, says Fed Chair Kevin Warsh announced plans to change the Fed's meeting schedule from fall 2027, with one of eight yearly meetings given to long-term strategy instead of a rate vote. Not checked here."
+    },
+    {
+      "id": "2115470223847633037",
+      "desk": "justice",
+      "line": "Ken Bensinger reports that James O'Keefe and Cam Higby have been charged in Minnesota with identity theft and unlawful voting over hidden-camera videos made in August. The two attached posts describe the charges in opposite terms. Not checked here.",
+      "also": ["2115478975870898546", "2115484149695868994"]
     }
   ]
 }
