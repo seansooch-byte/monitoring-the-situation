@@ -3612,3 +3612,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved; watch.json adds the WaPo and SoFi ids and drops the Watcher.Guru, Kane and Ballon d'Or ids except 2114858773101601042, which the live Kane story cites. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Older live stories (Comey, Anthropic S-1, Cloobeck) still need a story-pass check.
+
+## 2026-10-28T14:25Z
+- Captures read: 1406Z. Last read: 1406Z.
+- X's check: 1406Z 29 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z) unchanged, not on the pulse.
+- Pulse: 33 items (3 new, 3 dropped). New: Sam McDowell on the Chiefs signing Justin Tucker, with Schefter's post in also (sports); MLB's Rays walk-off, with Jeff Passan's final score in also (sports); Artificial Analysis Intelligence Index v5 (ai; line names Anthropic as the maker of the model writing the page). Dropped as older than 36 hours: Carmack on robots (science), MLB Chourio video (sports), Apple Music video (music). Science and music now have no item; nothing newer on either was worth showing. Header moved to 1406Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kim Jong Un readiness post (aggregator, no source); Trump Texas rally methane post (politics already full; his claims are not checked); FOMC and bitcoin whale posts (small); Elon Musk's Grok @Bot posts (account holds a place); KMbappe, TMZ, Calvin Klein, Cinesthetic and Brock Riddick posts, Trump "I love the meat" clip, Bongino, stockpile and China stock posts, Pirat_Nation Discord (as before); isisilomilo clip (private_individual).
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the five new ids and drops the three dropped ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. The log had no entry for the 13:15Z pass (its commit and EDITOR-RUNS line exist).

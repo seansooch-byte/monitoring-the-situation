@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-28T13:15:00Z",
-  "capture": "2026-10-28T1301Z",
+  "updated_at": "2026-10-28T14:25:00Z",
+  "capture": "2026-10-28T1406Z",
   "items": [
-    {
-      "id": "2114897771001974921",
-      "desk": "science",
-      "line": "John Carmack, a programmer, says that despite flashy robot demos, no robot in the world can change the batteries in a jack-o-lantern. He says that is a reality check on fears of a robot apocalypse. Not checked here.",
-      "also": []
-    },
     {
       "id": "2114945572528415015",
       "desk": "gaming",
@@ -16,12 +10,6 @@
       "also": [
         "2114948446499279112"
       ]
-    },
-    {
-      "id": "2114896388496719913",
-      "desk": "sports",
-      "also": [],
-      "line": "MLB posts a 15-second video saying Jackson Chourio is 4-for-4 with two hits in one inning, and that the Brewers lead 10-0."
     },
     {
       "id": "2115023562717216943",
@@ -140,15 +128,6 @@
       "also": []
     },
     {
-      "id": "2114897550033756263",
-      "desk": "music",
-      "line": "Apple Music posts a 15-second video captioned \"GOAT’s out of the bag. @sc\" with the tags #AppleMusicHalftime and #SBLXI. Pop Base reads it as Jay-Z being named Super Bowl halftime headliner. MySportsUpdate says the show is Super Bowl LXI on Feb. 14, 2027, at SoFi Stadium in Los Angeles. Not checked here.",
-      "also": [
-        "2114899105504006381",
-        "2114897790232908256"
-      ]
-    },
-    {
       "id": "2115269150264484240",
       "desk": "sports",
       "line": "ShowCaseShabazz posts a 10-second video captioned \"TATUM CALLS GAME\". ESPN NBA, in the attached post, says Jayson Tatum hit a game-winner against the Nets. Not checked here.",
@@ -216,6 +195,28 @@
       "id": "2115411232023011746",
       "desk": "world",
       "line": "India’s prime minister, Narendra Modi, says elections for MLC seats were held in 28 seats across Uttar Pradesh, Maharashtra, Bihar and Karnataka, using ballot papers. He asks how many seats Congress won and does not give the result in the post. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115424755318694082",
+      "desk": "sports",
+      "line": "Sam McDowell, a reporter for The Kansas City Star, says the Chiefs are signing kicker Justin Tucker to the practice squad, citing a source. ESPN’s Adam Schefter repeats it and adds that Tucker has not kicked in the NFL since 2024, after a personal-conduct violation following allegations of sexual misconduct.",
+      "also": [
+        "2115427568237363306"
+      ]
+    },
+    {
+      "id": "2115299962787418555",
+      "desk": "sports",
+      "line": "MLB posts a 12-second video captioned “Ben Williamson walk-off, Rays survive.” Reporter Jeff Passan says the Rays beat the Brewers 4-3 in 12 innings after trailing, so the World Series continues.",
+      "also": [
+        "2115300079104041164"
+      ]
+    },
+    {
+      "id": "2115265133467635877",
+      "desk": "ai",
+      "line": "Artificial Analysis, an AI benchmarking firm, announces version 5 of its Intelligence Index. It says Claude Opus 5.5 leads, ahead of two OpenAI models, and that Anthropic and OpenAI hold the top five places. These are its results and are not checked here. Claude, the model writing this page, is made by Anthropic.",
       "also": []
     }
   ]
