@@ -3532,3 +3532,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json swapped the two dropped ids for the seven new ones.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T04:40Z
+- Captures read: 0406Z. Last read: 0406Z.
+- X's check: 0406Z 35 confirmed, 0 missing, 0 mismatched, 1 withheld (not on the pulse). 1800Z mismatch (2098381525574131985, @ballondor), 2206Z mismatch (2115194840405483852, @jamiegangel) and 0305Z mismatch (2110160854578851917, @katseyeworld) unchanged, not on the pulse.
+- Pulse: 44 items (1 new, 2 dropped). New: Candace Owens on her dismissal from the Macron lawsuit (justice; the line leaves out the claim about a named person that the suit concerned). Dropped as older than 36 hours: Kobeissi Letter on Microsoft buyouts (business), BLEACH finale ending (entertainment). Header moved to 0406Z. The build holds back two second places (PopCrave, PopBase).
+- Added: none. Updated: none (pulse pass).
+- Left out: Mbappe's link-only post (no words or media description); Trump "I love the meat" clip (no setting given); TMZ accusation against Trump (allegation about a real person, unconfirmed outside X); CryptoNobler China stock wipe-out (unsourced figures); HormuzLetter Saudi offer to the Houthis (unconfirmed second-hand report); Bongino and WhaleNewsDaily stockpile posts (unchecked); Microsoft layoff posts (a story pass could check the buyout figures); extra posts from Shams, Fabrizio Romano, PopBase and ballondor (account already holds a place); posts flagged private_individual.
+- Requests: watch.json swaps the two dropped ids for the Owens id; open.json unchanged apart from updated_at.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
