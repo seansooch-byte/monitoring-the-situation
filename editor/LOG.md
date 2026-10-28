@@ -3582,3 +3582,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the Uday id and drops the Dunk Central and Greenwald ids (the Comey one stays, a live story cites it). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-28T10:30Z
+- Captures read: 1006Z. Last read: 1006Z.
+- X's check: 1006Z 27 confirmed, 0 missing, 1 mismatched (2115105872687079815, @irislovesdeals: X has "@spacexsi" where the record has "@spacexai"; not on the pulse), 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z) unchanged, not on the pulse.
+- Pulse: 32 items (1 new, 1 dropped). New: Shams Charania on Anthony Edwards' knee procedure (sports; his place was free after the older post aged out). Dropped as older than 36 hours: Shams Charania on Jalen Williams and Cason Wallace (sports). Header moved to 1006Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Brock Riddick hornets clip (no media description); TMZ items on an anonymous celebrity and on the accusation against Trump; Trump "I love the meat" clip; Bongino preparedness post; KMbappe, Calvin Klein, TheCinesthetic and gandalf_thegreg posts (no words or description); Elon Musk's newer Grok @Bot posts (account holds a place); Pirat_Nation Discord (Dexerto carries it); profane Arteta clip; tonedeafandh0t (private_individual); China stock wipe-out, RFK clip, stockpile posts (as before). Grabber left out three likely-paid posts in 1006Z.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the Edwards id and drops the Williams id. plan.json rebuilt.
+- Shipped: yes, commit 69effb98, live audit clean (120 files match).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
