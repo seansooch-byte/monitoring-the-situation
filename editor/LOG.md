@@ -3731,3 +3731,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds seven ids and drops four. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T05:20Z
+- Captures read: 0504Z. Last read: 0504Z.
+- X's check: 0504Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 44 items (5 new, 6 dropped). New: Anthropic's drug discovery post (ai; the line notes Anthropic makes the model writing the page); Trump on early voting in Kansas (politics); DTCC Tokenization Service post (markets; not checked); ChipGotIt_ on the streamer Lacy's QR code (internet; not checked); a fan clip post on Wonyoung and Jiwon (music; not checked). Dropped as older than 36 hours: Schefter Colts trade, Melania Trump ceasefire post, PlaystationSize on GTA VI size, Eric Daugh on Waltz (with its attached reply), Rubio map post, Musk Grok @Bot features post (with its attached video). Header moved to 0504Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot posts (promotion of his own company's product; xAI makes the model gathering the posts); Dexerto cruise post (Dexerto holds a place, the build held it back); Cameron Diaz 1995 clip (cannot be described fairly in a line); RT grocery worker, TheChiefNerd 98-year-old man, idollicwinds (private persons); twinkpummeler ChatGPT death claim (unclear, possibly a private person); capitalradiob Spanish rail accident (unconfirmed, for the story pass); Nicki Minaj on Hochul and the El-Sayed quote (insults); Fortnite and Madden movie (promotion); old_content posts. For the story pass: the Dexerto cruise and the Anthropic drug research post.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the new ids and drops the dropped ones. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
