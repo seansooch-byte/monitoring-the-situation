@@ -3791,3 +3791,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved; watch.json adds three ids and drops two. plan.json rebuilt.
 - Shipped: yes, commit d8873250 pushed; ship result in report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T14:35Z
+- Captures read: 1259Z, 1406Z. Last read: 1406Z.
+- X's check: 1406Z 31 confirmed, 0 missing, 0 mismatched, 1 withheld (not on the pulse). 1259Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items (3 new, 3 dropped). New: NYT on DoorDash buying Instacart (business); DeItaone on US Q3 GDP (markets; not checked); DiscussingFilm on GTA 6 gameplay in South Park (gaming, where the grabber had entertainment; not checked). Dropped: the Tatum game-winner (with its ESPN attachment), the Artificial Analysis index post and the BRICS News post (all older than 36 hours). Cristiano Ronaldo's thanks attached to the Romano Ballon d'Or item. Header moved to 1406Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot posts (promotion; xAI makes the model gathering the posts); more Fabrizio Romano posts (account already holds a place); thatstarwarsgrl and TheChiefNerd 98-year-old driver (private_individual flags); Kobeissi PCE post (smaller than the GDP post, same release); 00Keloo (a child); Haliburton hamstring (sports full); good-morning posts. For the story pass: the US Q3 GDP and September PCE release and DoorDash-Instacart.
+- Requests: none; updated_at moved; watch.json adds four ids and drops four. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

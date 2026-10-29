@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T13:20:00Z",
-  "capture": "2026-10-29T1259Z",
+  "updated_at": "2026-10-29T14:30:00Z",
+  "capture": "2026-10-29T1406Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -9,14 +9,6 @@
       "line": "The account mikefreemanNFL posts that 93.5 percent of 396 deceased NFL players examined from 2008 to 2023 had CTE, a brain disease. Reporter Adam Schefter posts a lower estimate, 75 percent, from a new study. Neither post names it in its text. Not checked here.",
       "also": [
         "2115745361973420399"
-      ]
-    },
-    {
-      "id": "2115269150264484240",
-      "desk": "sports",
-      "line": "ShowCaseShabazz posts a 10-second video captioned \"TATUM CALLS GAME\". ESPN NBA, in the attached post, says Jayson Tatum hit a game-winner against the Nets. Not checked here.",
-      "also": [
-        "2115270760717595100"
       ]
     },
     {
@@ -56,11 +48,6 @@
         "2115560504630317269",
         "2115560036131102985"
       ]
-    },
-    {
-      "id": "2115265133467635877",
-      "desk": "ai",
-      "line": "Artificial Analysis, an AI benchmarking firm, announces version 5 of its Intelligence Index. It says Claude Opus 5.5 leads and that Anthropic and OpenAI hold the top five places. Google later claimed first place. Not checked here. Claude, the model writing this page, is made by Anthropic."
     },
     {
       "id": "2115459064981512662",
@@ -119,11 +106,6 @@
       ]
     },
     {
-      "id": "2115261092863893558",
-      "desk": "defense",
-      "line": "BRICS News, an aggregator account, says the Wall Street Journal reports that the US has told Gulf states it plans military action after the midterms. The post names no detail and links no report. Not checked here."
-    },
-    {
       "id": "2115479434169868618",
       "desk": "world",
       "line": "Benjamin Netanyahu's account posts, in Hebrew, a statement headed \"Likud\" saying Arab parties stole the Israeli election through bribery, threats, violence and forgery. It says Likud is giving police, the Shin Bet and the election committee evidence and demands an investigation. Not checked here."
@@ -151,7 +133,10 @@
     {
       "id": "2115509418276376791",
       "desk": "sports",
-      "line": "Football reporter Fabrizio Romano posts that the Ballon d’Or has announced Cristiano Ronaldo’s 2008 award as the best Ballon d’Or of all time. The post carries an image and no further detail. Not checked here."
+      "line": "Football reporter Fabrizio Romano posts that the Ballon d’Or has announced Cristiano Ronaldo’s 2008 award as the best Ballon d’Or of all time. Ronaldo posts his thanks to fans, calling it their award too. Not checked here.",
+      "also": [
+        "2115797314434695516"
+      ]
     },
     {
       "id": "2115291395733049422",
@@ -257,6 +242,21 @@
       "id": "2115542209785446488",
       "desk": "gaming",
       "line": "VRChat, the virtual-world platform, says it asked its community for feedback on AI in VRChat and links a post of takeaways and next steps. The linked post is titled \"Where we're landing on AI in VRChat\". Not checked here."
+    },
+    {
+      "id": "2115773331886452820",
+      "desk": "business",
+      "line": "The New York Times reports that DoorDash has agreed to buy Instacart for $17 billion, combining the largest restaurant delivery and online grocery services. Not checked here."
+    },
+    {
+      "id": "2115784383755870411",
+      "desk": "markets",
+      "line": "The account DeItaone, which posts market news, says US third-quarter GDP grew 3.4 percent annualized against a forecast of 3.2 percent, up from 2.2 percent in the second quarter, as inflation accelerated. Not checked here."
+    },
+    {
+      "id": "2115643120864170071",
+      "desk": "gaming",
+      "line": "DiscussingFilm, a film news account, says new GTA 6 gameplay was shown in the latest episode of South Park. Not checked here."
     }
   ]
 }
