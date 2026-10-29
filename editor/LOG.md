@@ -3801,3 +3801,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved; watch.json adds four ids and drops four. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T15:20Z
+- Captures read: 1501Z. Last read: 1501Z.
+- X's check: 1501Z 29 confirmed, 0 missing, 1 mismatched (2115208066069352642, TREX_TAL, not on the pulse; the words differ from the record only in spacing or punctuation), 0 withheld.
+- Pulse: 45 items (1 new, 1 dropped). New: Adam Schefter on the Titans trading Jeffery Simmons to the Bears, with Tom Pelissero's first report attached (sports; not checked). Dropped: the Washington Post item on the Brazilian court and the Vance donor network (36 hours old, smallest). Header moved to 1501Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: bennyjohnson post asking to find a grocery store worker (private_individual); Mary Peltola "second Dan Sullivan" posts (claim about a real person, unconfirmed); more Simmons trade posts (one item covers it); old_content posts.
+- Requests: none; updated_at moved; watch.json drops one id and adds the trade posts. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

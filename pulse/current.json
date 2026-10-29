@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T14:30:00Z",
-  "capture": "2026-10-29T1406Z",
+  "updated_at": "2026-10-29T15:20:00Z",
+  "capture": "2026-10-29T1501Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -10,11 +10,6 @@
       "also": [
         "2115745361973420399"
       ]
-    },
-    {
-      "id": "2115281151870804027",
-      "desk": "world",
-      "line": "The Washington Post reports that a Brazilian Supreme Court justice has ordered a police investigation into alleged ties between a donor network co-founded by Vice President JD Vance and Flávio Bolsonaro’s presidential campaign, ahead of Sunday’s election. Not checked here."
     },
     {
       "id": "2115411232023011746",
@@ -257,6 +252,14 @@
       "id": "2115643120864170071",
       "desk": "gaming",
       "line": "DiscussingFilm, a film news account, says new GTA 6 gameplay was shown in the latest episode of South Park. Not checked here."
+    },
+    {
+      "id": "2115813435543826449",
+      "desk": "sports",
+      "line": "NFL reporter Adam Schefter says, citing sources, that the Titans are trading defensive tackle Jeffery Simmons to the Bears for 2027 and 2028 first-round picks and a 2027 fourth-round pick, with the Bears also getting a 2028 fifth-round pick. Tom Pelissero reported the trade first. Not checked here.",
+      "also": [
+        "2115811294951710978"
+      ]
     }
   ]
 }
