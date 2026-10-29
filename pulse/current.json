@@ -1,33 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T09:20:00Z",
-  "capture": "2026-10-29T0908Z",
+  "updated_at": "2026-10-29T10:14:13Z",
+  "capture": "2026-10-29T1009Z",
   "items": [
     {
       "id": "2115539516530573789",
       "desk": "medicine",
       "line": "The account mikefreemanNFL posts that 396 deceased NFL players were examined from 2008 to 2023 and that 93.5 percent had CTE, a degenerative brain condition. The post carries a link and does not name the study in its text. Not checked here."
-    },
-    {
-      "id": "2115199328545337367",
-      "desk": "sports",
-      "line": "Sky Sports Football posts a 40-second video and says Arsenal’s Max Dowman has been shown a red card. A second post says it was against Fleetwood in the Carabao Cup.",
-      "also": [
-        "2115199825708830792"
-      ]
-    },
-    {
-      "id": "2115204705978548468",
-      "desk": "sports",
-      "line": "Fleetwood Town, the League Two club, posts that it has knocked Arsenal out of the League Cup. A second post, from football reporter Fabrizio Romano, says Arsenal were eliminated from the Carabao Cup by Fleetwood.",
-      "also": [
-        "2115204228654526739"
-      ]
-    },
-    {
-      "id": "2115205265561674117",
-      "desk": "justice",
-      "line": "Commentator Candace Owens says she was personally dismissed from the lawsuit French President Emmanuel Macron filed against her in Delaware. She says reporters misdescribed what the suit was about and gives her own account of it. Not checked here."
     },
     {
       "id": "2115269150264484240",
@@ -46,11 +25,6 @@
       "id": "2115384043143651655",
       "desk": "disaster",
       "line": "Open Source Intel, a news-sharing account, says at least 46 are dead and 179 injured after an Iryo train and a Renfe train collided near Toledo, Spain. These are the post's figures; Spanish outlets were still revising theirs. Not checked here."
-    },
-    {
-      "id": "2115197464676307217",
-      "desk": "politics",
-      "line": "Rep. Joaquin Castro says that losing an election is not grounds for asylum, and that the Trump administration is giving Flavio Bolsonaro safe haven. Not checked here."
     },
     {
       "id": "2115281151870804027",
@@ -260,6 +234,11 @@
       "id": "2115553607034769539",
       "desk": "world",
       "line": "European Commission President Ursula von der Leyen says she has landed in Montréal for a summit and that the EU wants Canada as an Associate Member, with an 'Alliance for the Future'. The video is five seconds long. Not checked here."
+    },
+    {
+      "id": "2115443563655754171",
+      "desk": "business",
+      "line": "Dexerto reports that passengers have been removed from an \"endless\" cruise on the Villa Vie Odyssey, and that the operator blames a jump in fuel costs. It says some had paid $120,000 for residency and were left in Cambodia. Not checked here."
     }
   ]
 }
