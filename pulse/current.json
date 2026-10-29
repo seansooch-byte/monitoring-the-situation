@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T21:45:00Z",
-  "capture": "2026-10-29T2109Z",
+  "updated_at": "2026-10-29T22:40:00Z",
+  "capture": "2026-10-29T2203Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -229,11 +229,6 @@
       "line": "VRChat, the virtual-world platform, says it asked its community for feedback on AI in VRChat and links a post of takeaways and next steps. The linked post is titled \"Where we're landing on AI in VRChat\". Not checked here."
     },
     {
-      "id": "2115773331886452820",
-      "desk": "business",
-      "line": "The New York Times reports that DoorDash has agreed to buy Instacart for $17 billion, combining the largest restaurant delivery and online grocery services. Not checked here."
-    },
-    {
       "id": "2115643120864170071",
       "desk": "gaming",
       "line": "DiscussingFilm, a film news account, says new GTA 6 gameplay was shown in the latest episode of South Park. Not checked here."
@@ -255,10 +250,11 @@
       ]
     },
     {
-      "id": "2115891473162104890",
+      "id": "2115891266131300517",
       "desk": "entertainment",
-      "line": "The Hollywood Reporter posts that actor Patrick Stewart, known for Star Trek and X-Men, has died at 86. Sky News posts the same news. Not checked here.",
+      "line": "The verified account of actor Patrick Stewart posts that, in lieu of flowers, memorial contributions may be made to the Johns Hopkins Alzheimer’s Disease Research Center Fund and the Alzheimer’s Foundation of America. The Hollywood Reporter and Sky News post that he has died at 86. Not checked here.",
       "also": [
+        "2115891473162104890",
         "2115895616433701184"
       ]
     },
@@ -267,6 +263,14 @@
       "desk": "entertainment",
       "line": "KillaKreww posts a clip in which Raven-Symoné says she never denied that That’s So Raven centred on a Black family, and that its appeal went beyond race. The post says she is clarifying earlier comments. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2115915423174853077",
+      "desk": "markets",
+      "line": "Changpeng Zhao, who says he no longer manages Binance.com, posts that it does look like a hack on Binance, that user funds are safe, and that he expects them to be fully covered. Tree News posts that Tether froze $971 million in likely connection. Not checked here.",
+      "also": [
+        "2115912923432227128"
+      ]
     }
   ]
 }

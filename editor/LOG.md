@@ -3851,3 +3851,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds two ids, drops one. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T22:40Z
+- Captures read: 2203Z. Last read: 2203Z.
+- X's check: 2203Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (2115208066069352642, 2100872456282259555) unchanged, not on the pulse.
+- Pulse: 45 items (1 new, 1 dropped, 1 swapped). New: cz_binance on the reported Binance hack (markets, Tree News attached; not checked). Swapped: the Hollywood Reporter item for Patrick Stewart's own account post (THR and Sky attached). Dropped: the New York Times DoorDash item (smallest kept; the story still cites it, so it stays on the watch list). Header moved to 2203Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Chris Murphy's post on a reported Iran war plan (politics holds three; unconfirmed claim); NY Post ChatGPT medication death (private individual); Ernie Johnson clip (sports full); Jennifer Lawrence, McAfee and Morse code posts (older than 36 hours); WatcherGuru Binance figures (unconfirmed $5.6 billion number); old_content posts. For the story pass: the Binance hack needs a source beyond posts (Binance statement, Tether, Circle).
+- Requests: none; watch.json updated, plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
