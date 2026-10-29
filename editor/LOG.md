@@ -3831,3 +3831,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; plan.json rebuilt.
 - Shipped: yes, commit 5ce7d720, live audit clean (125 files match).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T18:20Z
+- Captures read: 1802Z. Last read: 1802Z.
+- X's check: 1802Z 31 confirmed, 0 missing, 1 mismatched (2100872456282259555, closeyoureyes_7, not on the pulse; the words differ only in spacing or punctuation), 0 withheld. The 1501Z mismatch (2115208066069352642, TREX_TAL) is unchanged and not on the pulse.
+- Pulse: 45 items (0 new, 0 dropped). Nothing is older than 36 hours and nothing in the new capture (WNBA Finals and NHL posts, all small) beats the smallest kept items. Header moved to 1802Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DDG stream post (shows a minor); grocery worker clips and other private_individual posts; the Google sign-in warning (advice, not checked); old_content posts.
+- Requests: none; no open requests, watch list unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
