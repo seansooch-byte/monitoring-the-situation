@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T03:30:00Z",
-  "capture": "2026-10-29T0307Z",
+  "updated_at": "2026-10-29T04:20:00Z",
+  "capture": "2026-10-29T0401Z",
   "items": [
     {
       "id": "2115120099505905765",
@@ -9,12 +9,9 @@
       "line": "NFL reporter Adam Schefter says, with Ian Rapoport, that the Colts have agreed to trade guard Quenton Nelson to the Seattle Seahawks. He says Nelson is on an expiring contract and the Colts want draft picks back before he can leave in free agency."
     },
     {
-      "id": "2115114028338962672",
-      "desk": "ai",
-      "line": "Google DeepMind says Genie 4 is its most realistic and interactive world model yet, one where people in a scene move, react and speak in real time. Sundar Pichai, Google's chief executive, says it is rolling out as a research preview to trusted testers.",
-      "also": [
-        "2115115252690145519"
-      ]
+      "id": "2115539516530573789",
+      "desk": "medicine",
+      "line": "The account mikefreemanNFL posts that 396 deceased NFL players were examined from 2008 to 2023 and that 93.5 percent had CTE, a degenerative brain condition. The post carries a link and does not name the study in its text. Not checked here."
     },
     {
       "id": "2115116465942614045",
@@ -119,7 +116,10 @@
     {
       "id": "2115411232023011746",
       "desk": "world",
-      "line": "India’s prime minister, Narendra Modi, says elections for MLC seats were held in 28 seats across Uttar Pradesh, Maharashtra, Bihar and Karnataka, using ballot papers. He asks how many seats Congress won and does not give the result in the post. Not checked here."
+      "line": "India’s prime minister, Narendra Modi, says MLC elections for 28 seats in four states used ballot papers, and asks how many Congress won. Dhruv Rathee replies that the fraud is on voter lists and that Modi lost his own constituency, Varanasi. Not checked here.",
+      "also": [
+        "2115444013364826346"
+      ]
     },
     {
       "id": "2115424755318694082",
@@ -130,11 +130,20 @@
       ]
     },
     {
-      "id": "2115299962787418555",
+      "id": "2115643107601428888",
       "desk": "sports",
-      "line": "MLB posts a 12-second video captioned “Ben Williamson walk-off, Rays survive.” Reporter Jeff Passan says the Rays beat the Brewers 4-3 in 12 innings after trailing, so the World Series continues.",
+      "line": "The Milwaukee Brewers post a photo and say the World Series championship belongs to Milwaukee, Wisconsin. MLB posts that the Brewers are 2026 World Series champions.",
       "also": [
-        "2115300079104041164"
+        "2115643108608061510"
+      ]
+    },
+    {
+      "id": "2115557099891761437",
+      "desk": "tech",
+      "line": "United Airlines posts that 44% of its Starlink installations are complete, and adds \"44 out of every 100 if you're reading this, Dan Orlovsky.\" Orlovsky replies asking how many there actually are. Pat McAfee's show answers with laughing emojis.",
+      "also": [
+        "2115560504630317269",
+        "2115560036131102985"
       ]
     },
     {

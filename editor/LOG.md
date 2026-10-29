@@ -3721,3 +3721,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the two new ids and drops the two dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T04:20Z
+- Captures read: 0401Z. Last read: 0401Z.
+- X's check: 0401Z 40 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 45 items (3 new, 2 dropped). New: the Brewers' World Series title post with MLB's post attached (sports); United Airlines' Starlink post with Orlovsky's and Pat McAfee's replies attached (tech); the CTE figures post from mikefreemanNFL (medicine, refiled from sports; attributed, not checked). Dropped: Google DeepMind Genie 4 (ai, older than 36 hours) and MLB's Rays walk-off (sports, replaced: the series has ended). Dhruv Rathee's reply attached to the Modi item. Header moved to 0401Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot posts and "True" (account holds a place); the IShowSpeed prize post (names a private person, a student); TMZ (private_individual); Ramaswamy via Acyn and the Harvard enrollment aggregator post (politics already has five, claims unchecked); NYPD contract post (justice has four, aggregator); Rihanna/Fenty (promotion); phalloplasty reply (insults); Cameron Diaz 1995 clip (cannot be described fairly in a line); old_content posts. For the story pass: the Brewers title and the CTE figures.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds seven ids and drops four. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
