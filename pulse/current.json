@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T11:40:00Z",
-  "capture": "2026-10-29T1102Z",
+  "updated_at": "2026-10-29T12:30:00Z",
+  "capture": "2026-10-29T1206Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -18,11 +18,6 @@
       "also": [
         "2115270760717595100"
       ]
-    },
-    {
-      "id": "2115384043143651655",
-      "desk": "disaster",
-      "line": "Open Source Intel, a news-sharing account, says at least 46 are dead and 179 injured after an Iryo train and a Renfe train collided near Toledo, Spain. These are the post's figures; Spanish outlets were still revising theirs. Not checked here."
     },
     {
       "id": "2115281151870804027",
@@ -118,11 +113,6 @@
         "2115507143461752859",
         "2115505534510235820"
       ]
-    },
-    {
-      "id": "2115514210830389611",
-      "desk": "markets",
-      "line": "The Kobeissi Letter, a markets newsletter account, says Fed Chair Kevin Warsh announced plans to change the Fed's meeting schedule from fall 2027, with one of eight yearly meetings given to long-term strategy instead of a rate vote. Not checked here."
     },
     {
       "id": "2115470223847633037",
@@ -244,11 +234,6 @@
       "line": "Former President Barack Obama posts that this election is the last chance to rein in what he calls the foolishness of the Trump administration, and urges votes for Keisha Lance Bottoms for Georgia governor and Jon Ossoff for the Senate. The opinion is his."
     },
     {
-      "id": "2114772404463337693",
-      "desk": "tech",
-      "line": "Elon Musk posts that supervised FSD, Tesla’s driver-assistance software, has been approved in Latvia. Not checked here."
-    },
-    {
       "id": "2115706912633401349",
       "desk": "internet",
       "line": "The fan fiction archive Archive of Our Own posts through its status account that the site is down for maintenance and points to its status page for updates."
@@ -257,6 +242,21 @@
       "id": "2115655111834001680",
       "desk": "offbeat",
       "line": "PopCrave, a pop culture news account, posts a short line saying that today is National Cat Day, with an attached image."
+    },
+    {
+      "id": "2115746242491723810",
+      "desk": "world",
+      "line": "Christine Lagarde, president of the European Central Bank, posts that she has told her colleagues she will step down as ECB President on 7 February 2027, and thanks those who supported her over seven years. Not checked here."
+    },
+    {
+      "id": "2115463733895889319",
+      "desk": "disaster",
+      "line": "BBC Breaking News reports that Spanish Prime Minister Pedro Sánchez, at the site of the train crash, says \"the whole of Spain is grieving\", and that the death toll has risen to 68. The toll was still changing."
+    },
+    {
+      "id": "2115450000587051338",
+      "desk": "politics",
+      "line": "Marco Foster posts a 103-second video and quotes Abdul El-Sayed saying Donald Trump is \"an idiot\" who bullied to get attention. The opinion is the speaker's. Not checked here."
     }
   ]
 }
