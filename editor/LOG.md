@@ -3711,3 +3711,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the new id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T03:35Z
+- Captures read: 0307Z. Last read: 0307Z.
+- X's check: 0307Z 45 confirmed, 0 missing, 0 mismatched, 1 withheld (not on the pulse). Earlier mismatches unchanged, not on the pulse.
+- Pulse: 44 items (2 new, 2 dropped). New: Rahul Gandhi on Tata (business; attributed, not checked); JerryRigEverything's "Trump Phone" durability test video (tech; video not watched, not checked). Dropped as older than 36 hours: Sanders (politics) and Brock Riddick (offbeat). Header moved to 0307Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot posts (account holds a place); Pacers, Barkley and other Ernie Johnson posts (sports full, covered); capitalradiob Spanish rail accident (unconfirmed, for the story pass); AnthropicAI research post (ai has four; Anthropic makes the model writing the page, for the story pass); isisilomilo, idollicwinds, Emilio2763 (private_individual); RT grocery worker clip, remarks, Karnes (private person or claims unchecked); old_content posts.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the two new ids and drops the two dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

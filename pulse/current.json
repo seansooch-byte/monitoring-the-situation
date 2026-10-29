@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T02:15:00Z",
-  "capture": "2026-10-29T0159Z",
+  "updated_at": "2026-10-29T03:30:00Z",
+  "capture": "2026-10-29T0307Z",
   "items": [
     {
       "id": "2115120099505905765",
@@ -64,11 +64,6 @@
       "also": [
         "2115204228654526739"
       ]
-    },
-    {
-      "id": "2115092173729230955",
-      "desk": "politics",
-      "line": "Senator Bernie Sanders lists what he says has happened since Trump's election, including that Elon Musk became the first trillionaire, and says Musk is spending $442 million to keep Republicans in control of Congress. Not checked here."
     },
     {
       "id": "2115205265561674117",
@@ -249,14 +244,19 @@
       "line": "Flávio Bolsonaro’s account posts three images headed “Carta à nação brasileira” (Letter to the Brazilian nation), dated 28 October 2026. The post is in Portuguese. What the letter says is in the images, and I have not read it here. Not checked here."
     },
     {
-      "id": "2115095118734569890",
-      "desk": "offbeat",
-      "line": "Brock Riddick, an account that shares viral clips, posts a 76-second video with the words “These hornets attacked his Bee hive. Now he is waiting for them on the outside.” The post does not say where or when it was filmed."
-    },
-    {
       "id": "2115509418276376791",
       "desk": "sports",
       "line": "Football reporter Fabrizio Romano posts that the Ballon d’Or has announced Cristiano Ronaldo’s 2008 award as the best Ballon d’Or of all time. The post carries an image and no further detail. Not checked here."
+    },
+    {
+      "id": "2115291395733049422",
+      "desk": "business",
+      "line": "Rahul Gandhi, an Indian opposition leader, says Tata is being \"criminally destroyed\" and that no business leader dares speak. He says Indian business is not \"Modi and Shah’s plaything\". The post gives no detail of what happened to the company. Not checked here."
+    },
+    {
+      "id": "2115542298847297548",
+      "desk": "tech",
+      "line": "JerryRigEverything, a channel that stress-tests phones, posts a video of a durability test of the \"Trump Phone\" and says the result is \"worse than we thought\". The video was not watched here. Not checked here."
     }
   ]
 }
