@@ -3841,3 +3841,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; no open requests, watch list unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T20:20Z
+- Captures read: 1906Z, 2001Z. Last read: 2001Z. (The log had no entry for 1906Z; the pulse header was already at 1906Z.)
+- X's check: 1906Z 33 confirmed, 0 missing, 1 mismatched (2100872456282259555, closeyoureyes_7, as logged at 1802Z, not on the pulse); 2001Z 40 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items (1 new, 1 dropped). New: The Hollywood Reporter on the death of Patrick Stewart, with Sky News attached (entertainment; not checked). Dropped: DeItaone (smallest kept item). Header moved to 2001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Candace Owens post on the Macron lawsuit (claims about a real person, not confirmed here; for the story pass, check the Delaware docket); Richard Allen interrogation post (case involving named private people); Mario Kart Tour leak; DDG stream post (shows a minor); grocery worker and other private_individual posts; old_content posts.
+- Requests: none; watch.json adds two ids, drops one. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

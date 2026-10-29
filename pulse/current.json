@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T19:20:00Z",
-  "capture": "2026-10-29T1906Z",
+  "updated_at": "2026-10-29T20:20:00Z",
+  "capture": "2026-10-29T2001Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -239,11 +239,6 @@
       "line": "The New York Times reports that DoorDash has agreed to buy Instacart for $17 billion, combining the largest restaurant delivery and online grocery services. Not checked here."
     },
     {
-      "id": "2115784383755870411",
-      "desk": "markets",
-      "line": "The account DeItaone, which posts market news, says US third-quarter GDP grew 3.4 percent annualized against a forecast of 3.2 percent, up from 2.2 percent in the second quarter, as inflation accelerated. Not checked here."
-    },
-    {
       "id": "2115643120864170071",
       "desk": "gaming",
       "line": "DiscussingFilm, a film news account, says new GTA 6 gameplay was shown in the latest episode of South Park. Not checked here."
@@ -262,6 +257,14 @@
       "line": "Stan Druckenmiller, an investor, posts that he is an investor in trade(xyz) as it partners with ICE to bring 24/7 perpetual futures on Hyperliquid to the United States, and that he looks forward to using the product. Elon Musk quotes the post with one word, \"Interesting\". Not checked here.",
       "also": [
         "2115823011399938182"
+      ]
+    },
+    {
+      "id": "2115891473162104890",
+      "desk": "entertainment",
+      "line": "The Hollywood Reporter posts that actor Patrick Stewart, known for Star Trek and X-Men, has died at 86. Sky News posts the same news. Not checked here.",
+      "also": [
+        "2115895616433701184"
       ]
     }
   ]
