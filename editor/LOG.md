@@ -3682,3 +3682,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the three new ids and drops the two Noah Wyle ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T00:20Z
+- Captures read: 0001Z. Last read: 0001Z.
+- X's check: 0001Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (@ballondor 1800Z, @jamiegangel 2206Z, @katseyeworld 0305Z, @irislovesdeals 1006Z, one in 2004Z) unchanged, not on the pulse.
+- Pulse: 43 items (1 new, 1 dropped). New: SpaceX on the Ship 42 static fires before Starship Flight 15 (science, attributed, not checked). Dropped as older than 36 hours: StockSavvyShay (markets). Header moved to 0001Z. The Swalwell raid post (justice) turns 36 hours old at about 0145Z and will drop next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot and other posts (account holds a place); AJ Dybantsa debut posts (ShamsCharania holds the sports place for that account; the others are small); SportsCenter and other Ernie Johnson reaction posts (already covered by TurnerSportsEJ); Mason Williams posts (small); Nicki Minaj on Hochul, micsolana, glennbeck, C_3C_3 (politics already has six, or claims unchecked); old_content posts (uncanny4484, _fluxfeeds, ElonClipsX); fuckaeter (slur).
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the SpaceX id and drops the StockSavvyShay id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
