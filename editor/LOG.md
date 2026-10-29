@@ -3701,3 +3701,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the two new ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T02:15Z
+- Captures read: 0159Z. Last read: 0159Z.
+- X's check: 0159Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches (THE_JOJO_WORLD in 0102Z and the older ones) and the 0102Z withheld post unchanged, not on the pulse.
+- Pulse: 44 items (1 new, 2 dropped). New: Fabrizio Romano's post saying the Ballon d'Or has named Cristiano Ronaldo's 2008 award the best of all time (sports; attributed, not checked). Dropped as older than 36 hours: FoxNews on the Swalwell raid (justice) and an earlier Romano transfer post (sports). Header moved to 0159Z. The Sanders item turns 36 hours old at about 0245Z, so it drops next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Grok @Bot posts (account holds a place); AP on the Bolsonaro family landing in Miami (world already has seven items); Shams on Haliburton (account holds a place); AnthropicAI drug research post (ai already has four; Anthropic makes the model writing the page, so look at it in the next story pass); isisilomilo, idollicwinds, Emilio2763 (private_individual); Fleetwood/Arsenal posts (sports already full); Spanish rail accident post (capitalradiob, unconfirmed, for the story pass); Karnes, remarks, RT and similar (claims unchecked or pile-on).
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the new id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
