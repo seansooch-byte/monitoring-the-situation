@@ -1,0 +1,30 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-brewers-win-world-series",
+  "title": "Milwaukee Brewers win the World Series in five games",
+  "dek": "The Brewers beat the Tampa Bay Rays 4-1 in Game 5 for the first championship in the club's history.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-10-29T03:13:18Z",
+  "updated_at": "2026-10-29T11:30:00Z",
+  "what": [
+    "NBC Sports and MLB.com report that the Milwaukee Brewers beat the Tampa Bay Rays 4-1 in Game 5 on Wednesday night, 28 October 2026, to win the World Series four games to one. It is the first World Series title in the club's history.",
+    "NBC Sports reports that catcher William Contreras was named World Series MVP, that starter Jacob Misiorowski pitched 5 and two-thirds scoreless innings, and that rookie shortstop Cooper Pratt drove in two runs. Yahoo Sports and others describe Game 4 as a walk-off win for the Rays.",
+    "MLB's account on X posted a photo declaring the Brewers champions, and the Brewers' own account posted a photo saying the title belongs to Milwaukee, Wisconsin. Both match the reporting."
+  ],
+  "why": "A small-market club won its first title, and the posts around it are mostly from fans of Milwaukee and of the sport marking the end of a long wait.",
+  "posts": [
+    { "id": "2115643108608061510", "role": "origin" },
+    { "id": "2115643107601428888", "role": "official" }
+  ],
+  "sources": [
+    {
+      "label": "NBC Sports: Brewers earn first World Series title in franchise history with 4-1 win over Rays in Game 5",
+      "url": "https://www.nbcsports.com/mlb/news/brewers-earn-first-world-series-title-in-franchise-history-with-4-1-win-over-rays-in-game-5"
+    },
+    {
+      "label": "MLB.com: Brewers beat Rays in Game 5 to win first World Series in franchise history",
+      "url": "https://www.mlb.com/news/brewers-beat-rays-game-5-win-2026-world-series"
+    }
+  ]
+}

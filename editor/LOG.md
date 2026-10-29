@@ -3771,3 +3771,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the new ids and drops the dropped ones. plan.json rebuilt.
 - Shipped: yes, commit d29e7021, live audit clean (122 files match).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T11:45Z
+- Captures read: 1009Z, 1102Z. Last read: 1102Z.
+- X's check: 1102Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 45 items (4 new, 1 dropped). New: Obama on the Georgia and Senate races (politics); Musk on supervised FSD in Latvia (tech; not checked); AO3 maintenance (internet); National Cat Day via PopCrave (offbeat). Dropped: Shams Charania on Edwards (older than 36 hours). Schefter's 75 percent CTE post attached to the Freeman item, whose line now notes the two figures differ.
+- Added: 2026-10-29-brewers-win-world-series (sports). Updated: 2026-10-28-toledo-ave-iryo-collision (El Español now says at least 69 dead; cause still not official).
+- Left out: Typhoon Champi (the foxweather post is days old and searches gave mixed dates); the CTE study as a story (I could not find the study behind the 75 percent figure); Trump cognitive test remarks; Jada Smith post (private_individual flag, unconfirmed gossip); MidnightLeaksHQ Biden body double claim (unconfirmed claim about a real person); 00Keloo (a child); old_content posts. Searches for the Toledo crash mostly returned the January Adamuz crash, so I used only El Español for the new count.
+- Requests: none; updated_at moved; watch.json adds seven ids and drops one. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

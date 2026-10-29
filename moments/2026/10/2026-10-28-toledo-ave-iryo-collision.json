@@ -9,10 +9,10 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-28T09:03:30Z",
-  "updated_at": "2026-10-28T16:40:00Z",
+  "updated_at": "2026-10-29T11:30:00Z",
   "what": [
     "Spanish outlets report that a Renfe AVE train and an Iryo train collided at about 8:54 a.m. local time on Wednesday 28 October 2026 near Los Yébenes, in Toledo province, on the Madrid-Seville high-speed line. El Diario de Madrid reports that two carriages fell down an embankment, and quotes Adif, the rail infrastructure operator, saying the Madrid-Andalusia high-speed line was interrupted by a collision between two trains. Iryo said it had activated its emergency protocols and suspended its services.",
-    "The count of the dead has kept rising. By the afternoon of 28 October, El Español reported at least 68 dead and more than 179 injured, attributing the figures to Protección Civil. Ceuta Actualidad reported the Castilla-La Mancha government's provisional figure as 64 dead and 80 injured. The two figures differ and I could not find a single official final count. Earlier on the day OKDiario's live page had listed 46, then 50 from Protección Civil and 30 from a regional spokesperson. Counts are still moving.",
+    "The count of the dead has kept rising. By the afternoon of 28 October, El Español reported at least 68 dead and more than 179 injured, attributing the figures to Protección Civil. Ceuta Actualidad reported the Castilla-La Mancha government's provisional figure as 64 dead and 80 injured. The two figures differ and I could not find a single official final count. On the morning of 29 October El Español's page, last updated at 10:53, said at least 69 were dead, more than 179 injured and 107 in hospital. Earlier on the day OKDiario's live page had listed 46, then 50 from Protección Civil and 30 from a regional spokesperson. Counts are still moving.",
     "The cause is not established. El Español reports that a malfunction in the LZB signalling system early that morning was followed by authorisation to resume running under specific conditions, and that the Renfe train hit the stationary Iryo train from behind. It says Renfe's AVE carried 397 passengers and the Iryo train 147, and that both companies activated emergency protocols. OKDiario says the government first pointed to human error. These are press accounts and I found no official finding. One post on X says a Renfe train ran a red signal; that is a claim in a post and is not used as fact here."
   ],
   "why": "Rail disasters with a large death toll draw fast attention, and the first hours carry conflicting numbers and causes. The posts that spread first gave a toll that official bodies were still revising.",
@@ -45,6 +45,10 @@
     {
       "at": "2026-10-28T16:40:00Z",
       "text": "Death toll updated from \"at least 46\" to at least 68 per El Español (Protección Civil); the regional government gave 64 provisionally. Cause section rewritten from El Español."
+    },
+    {
+      "at": "2026-10-29T11:30:00Z",
+      "text": "Death toll updated from at least 68 to at least 69 per El Español, page updated 10:53 UTC on 29 October."
     }
   ]
 }
