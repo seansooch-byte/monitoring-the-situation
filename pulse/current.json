@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T20:20:00Z",
-  "capture": "2026-10-29T2001Z",
+  "updated_at": "2026-10-29T21:45:00Z",
+  "capture": "2026-10-29T2109Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -76,11 +76,6 @@
       "id": "2115453762911494326",
       "desk": "politics",
       "line": "Kellen Browning, a reporter, says in a scoop that aides to Mary Peltola's campaign and the DSCC were part of a monthslong plan to recruit the second Dan Sullivan on Alaska's Senate ballot. He gives the details in a linked story. Not checked here."
-    },
-    {
-      "id": "2115347637407023319",
-      "desk": "markets",
-      "line": "ANI, an Indian news agency, reports that the Ambani family visited the Shree Siddhivinayak Temple in Mumbai after the stock market debut of Jio Platforms on the National Stock Exchange of India. Not checked here."
     },
     {
       "id": "2115503871342809258",
@@ -266,6 +261,12 @@
       "also": [
         "2115895616433701184"
       ]
+    },
+    {
+      "id": "2115781256642252830",
+      "desk": "entertainment",
+      "line": "KillaKreww posts a clip in which Raven-Symoné says she never denied that That’s So Raven centred on a Black family, and that its appeal went beyond race. The post says she is clarifying earlier comments. Not checked here.",
+      "also": []
     }
   ]
 }

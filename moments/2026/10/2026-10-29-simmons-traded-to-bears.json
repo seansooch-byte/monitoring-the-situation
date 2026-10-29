@@ -1,0 +1,32 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-simmons-traded-to-bears",
+  "title": "Titans trade defensive tackle Jeffery Simmons to the Bears for two first-round picks",
+  "dek": "A 1-6 team sends its best-known defender to a 5-2 team. The price is Chicago's next two first-round picks.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-29T14:30:07Z",
+  "updated_at": "2026-10-29T21:45:00Z",
+  "what": [
+    "The reporter Adam Schefter posted the terms on X on 29 October 2026, citing sources. The Bears receive defensive tackle Jeffery Simmons and a 2028 fifth-round pick. The Titans receive first-round picks in 2027 and 2028 and a fourth-round pick in 2027.",
+    "NFL.com reports that Tom Pelissero of The Ringer first reported the trade, and lists the same terms. It says Simmons signed a three-year, $105.8 million extension with Tennessee in June 2025, with $100 million guaranteed, and that the Bears are 5-2 and the Titans 1-6.",
+    "NFL.com quotes Titans owner Amy Adams Strunk: \"There are few people like Jeff Simmons. We are forever grateful for all he has given this team and this city.\"",
+    "Posts in the capture compare the price with other recent defensive trades. I did not find reporting that confirms those comparisons, so they are not part of this story."
+  ],
+  "why": "The price in first-round picks is large, and the two teams are at opposite ends of the standings. Fans of both are weighing what each side gave up.",
+  "next": "Simmons' first game for Chicago.",
+  "posts": [
+    {
+      "id": "2115813435543826449",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "NFL.com: Bears acquire DT Jeffery Simmons from Titans in blockbuster trade",
+      "url": "https://www.nfl.com/news/jeffery-simmons-bears-titans-trade"
+    }
+  ]
+}

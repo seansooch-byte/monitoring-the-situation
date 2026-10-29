@@ -1,0 +1,31 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-ao3-down-two-to-four-weeks",
+  "title": "Archive of Our Own says it will be down for about two weeks, possibly four",
+  "dek": "The fan fiction archive went offline for maintenance on 29 October. Its readers and writers now face a long wait, and no cause has been given.",
+  "desks": [
+    "internet"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-29T17:54:48Z",
+  "updated_at": "2026-10-29T21:45:00Z",
+  "what": [
+    "The Archive of Our Own, known as AO3, said from its status account on 29 October 2026 that it was down for maintenance. Nerdist reports that the first estimate was at least 12 hours.",
+    "AO3 then posted: \"We estimate that service restoration for #AO3 will take around 2 weeks but it could be up to 4 weeks. We are hopeful that we will be able to bring the site back up in a degraded state sooner.\"",
+    "Nerdist says neither AO3 nor its parent, the Organization for Transformative Works, has given a cause. I could not find one either, and I could not confirm what a degraded state would mean for readers and writers."
+  ],
+  "why": "People read and publish fan works there for free, and a multi-week outage with no stated cause leaves its users to guess.",
+  "next": "Updates on AO3's status page and status account, including any date for a partial return.",
+  "posts": [
+    {
+      "id": "2115864946093305955",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Nerdist: AO3 Is Down for Two to Four Weeks",
+      "url": "https://nerdist.com/article/ao3-archive-of-our-own-down-for-two-to-four-weeks/"
+    }
+  ]
+}
