@@ -3761,3 +3761,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the Starlink id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T09:20Z
+- Captures read: 0908Z. Last read: 0908Z.
+- X's check: 0908Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 45 items (3 new, 2 dropped). New: PopBase on Selena Gomez and Demi Lovato recreating a poster (entertainment; not checked); Neuralink speech restoration data (tech; not checked); von der Leyen on the Montréal summit (world, where the grabber had sports; not checked). Dropped: the AnthropicAI drug discovery post (older than 36 hours) and CNN (smallest item, to stay within 45). Header moved to 0908Z. Next pass: the Sky Sports and Fleetwood items reach 36 hours.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fox News Trump rally dance (politics is full); FabrizioRomano's other posts (the account already holds a place); rajgupta7813589 "never sign in with Google" (point unclear); MarioNawfal Pentagon 90-day order (opinion framing, unchecked); raphousetv2 streamer bill (private person); Beatrice Keul allegation posts (an unconfirmed allegation about a real person); Elon Musk's Grok @Bot (promotion; xAI makes the model gathering the posts); old_content posts. For the story pass: the all-time Ballon d'Or vote and the Montréal Canada-EU summit.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the new ids and drops the dropped ones. plan.json rebuilt.
+- Shipped: yes, commit d29e7021, live audit clean (122 files match).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
