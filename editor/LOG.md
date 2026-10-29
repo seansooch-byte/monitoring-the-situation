@@ -3751,3 +3751,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the four new ids and drops the five dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T08:10Z
+- Captures read: 0759Z. Last read: 0759Z.
+- X's check: 0759Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 44 items (1 new, 0 dropped). New: Starlink's post on free Starlink Mobile connectivity for Orange and Telefonica customers after the Spain train collision (tech; not checked). Nothing is older than 36 hours yet; the Anthropic drug discovery post (20:27Z Oct 27) goes next pass. Header moved to 0759Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: posts older than 36 hours or old_content; Elon Musk's Grok @Bot posts (promotion; xAI makes the model gathering the posts); RT grocery worker and BlGGESTHATER (private persons); ChampaHue73824 H3H3 clips (cannot be fairly described in a line); Buttigieg Waffle House post (politics already has several, claim unchecked); reesupremacy and honkaistarrail (film opinion, trailer promotion).
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the Starlink id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
