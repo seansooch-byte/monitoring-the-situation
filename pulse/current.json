@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T15:20:00Z",
-  "capture": "2026-10-29T1501Z",
+  "updated_at": "2026-10-29T16:30:00Z",
+  "capture": "2026-10-29T1607Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -134,11 +134,6 @@
       ]
     },
     {
-      "id": "2115291395733049422",
-      "desk": "business",
-      "line": "Rahul Gandhi, an Indian opposition leader, says Tata is being \"criminally destroyed\" and that no business leader dares speak. He says Indian business is not \"Modi and Shah’s plaything\". The post gives no detail of what happened to the company. Not checked here."
-    },
-    {
       "id": "2115542298847297548",
       "desk": "tech",
       "line": "JerryRigEverything, a channel that stress-tests phones, posts a video of a durability test of the \"Trump Phone\" and says the result is \"worse than we thought\". The video was not watched here. Not checked here."
@@ -216,7 +211,7 @@
     {
       "id": "2115746242491723810",
       "desk": "world",
-      "line": "Christine Lagarde, president of the European Central Bank, posts that she has told her colleagues she will step down as ECB President on 7 February 2027, and thanks those who supported her over seven years. Not checked here."
+      "line": "Christine Lagarde, president of the European Central Bank, posts that she has told her colleagues she will step down as ECB President on 7 February 2027, and thanks those who supported her over seven years. The date is confirmed in published reports."
     },
     {
       "id": "2115463733895889319",
@@ -259,6 +254,14 @@
       "line": "NFL reporter Adam Schefter says, citing sources, that the Titans are trading defensive tackle Jeffery Simmons to the Bears for 2027 and 2028 first-round picks and a 2027 fourth-round pick, with the Bears also getting a 2028 fifth-round pick. Tom Pelissero reported the trade first. Not checked here.",
       "also": [
         "2115811294951710978"
+      ]
+    },
+    {
+      "id": "2115777839622689036",
+      "desk": "markets",
+      "line": "Stan Druckenmiller, an investor, posts that he is an investor in trade(xyz) as it partners with ICE to bring 24/7 perpetual futures on Hyperliquid to the United States, and that he looks forward to using the product. Elon Musk quotes the post with one word, \"Interesting\". Not checked here.",
+      "also": [
+        "2115823011399938182"
       ]
     }
   ]

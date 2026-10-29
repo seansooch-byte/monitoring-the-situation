@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-doordash-to-buy-instacart",
+  "title": "DoorDash agrees to buy Instacart for about $17 billion",
+  "dek": "The largest US restaurant delivery app and the largest online grocery app would become one company. The deal is not expected to close until late 2027 or early 2028.",
+  "desks": [
+    "business"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-29T11:50:46Z",
+  "updated_at": "2026-10-29T16:30:00Z",
+  "what": [
+    "DoorDash announced on 29 October 2026 that it will acquire Instacart for $65.00 per share, an equity value of about $17 billion. DoorDash's filing with the US Securities and Exchange Commission says that is a 26 percent premium to Instacart's closing price on 22 October. The New York Times reported the deal as combining the largest restaurant delivery and online grocery services.",
+    "The filing says at least 75 percent of the price is cash. Instacart stockholders can choose cash, DoorDash stock or a mix, with stock capped at 25 percent. DoorDash says it will use cash on hand and debt, including a 364-day bridge loan from JPMorgan Chase, and that the deal has no financing condition.",
+    "Instacart's board approved the deal unanimously. Holders of about 19 percent of its shares have committed to vote for it. Closing needs a vote of Instacart stockholders, US antitrust clearance under the Hart-Scott-Rodino Act, and approvals in Canada and Israel. DoorDash expects it to close in late 2027 or early 2028.",
+    "DoorDash chief executive Tony Xu said the combination could give stores of every size more tools for grocery delivery. Instacart chief executive Chris Rogers said it would speed up innovation in the grocery industry. I found no regulator's statement on the deal. Reports of talks had appeared on 26 October."
+  ],
+  "why": "Two of the best-known delivery apps would join, which raises questions about competition, prices and fees. The deal was reported as talks three days before it was announced.",
+  "next": "The Instacart stockholder vote and the antitrust review.",
+  "posts": [
+    {
+      "id": "2115773331886452820",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "DoorDash press release, SEC Form 8-K exhibit 99.1",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001792789/000114036126041111/ef20084547_ex99-1.htm"
+    },
+    {
+      "label": "BNN Bloomberg: DoorDash in talks to buy Instacart (26 October)",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/10/26/doordash-in-talks-to-buy-instacart-in-roughly-us17b-deal-source-says/"
+    }
+  ]
+}

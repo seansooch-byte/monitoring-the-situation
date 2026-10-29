@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-lagarde-to-step-down-ecb",
+  "title": "Christine Lagarde says she will step down as ECB President on 7 February 2027",
+  "dek": "She leaves about nine months before her term ends. EU leaders now choose who runs the central bank for the euro, ahead of French elections next spring.",
+  "desks": [
+    "world",
+    "markets"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-29T10:03:07Z",
+  "updated_at": "2026-10-29T16:30:00Z",
+  "what": [
+    "Christine Lagarde posted on X on 29 October 2026 that she has told her colleagues she will step down as President of the European Central Bank on 7 February 2027. Her term was due to end in October 2027. France 24 reports that she said she wants the freedom to speak on matters that are not monetary policy.",
+    "France 24 reports that European Council President António Costa said the process to find a successor starts immediately. It reports that EU leaders aim to fill the post by their summit on 17 and 18 December, possibly earlier. Emmanuel Macron, Friedrich Merz and Ursula von der Leyen each thanked her publicly, according to the same report.",
+    "An early departure had been reported for months. Earlier reports said she might leave early so that Macron and Merz could pick her successor before the French presidential election in spring 2027, which some fear could favour the far right. An ECB spokesperson had said she had taken no decision, and in an earlier interview she said she expected to finish her term. Her post does not say why the date was chosen.",
+    "Reuters, as relayed by news sites, names former Dutch central bank chief Klaas Knot and Pablo Hernández de Cos, head of the Bank for International Settlements, as leading contenders. These are press reports. No candidate has been named by EU leaders."
+  ],
+  "why": "The ECB sets interest rates for the countries that use the euro, so who runs it matters to markets, and the timing is tied to French politics. The announcement ended months of speculation.",
+  "next": "The EU summit on 17 and 18 December, where leaders aim to settle a successor.",
+  "posts": [
+    {
+      "id": "2115746242491723810",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "France 24: ECB chief Lagarde to step down early, triggering succession race",
+      "url": "https://www.france24.com/en/live-news/20261029-ecb-chief-lagarde-to-step-down-early-triggering-succession-race"
+    },
+    {
+      "label": "CNN: Christine Lagarde resigns as ECB President after months of speculation",
+      "url": "https://www.cnn.com/2026/10/29/business/christine-lagarde-ecb-president-resigns-intl"
+    },
+    {
+      "label": "Irish Examiner: Christine Lagarde set to step down as ECB president early",
+      "url": "https://www.irishexaminer.com/business/economy/arid-41795750.html"
+    }
+  ]
+}

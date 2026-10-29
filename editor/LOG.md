@@ -3811,3 +3811,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved; watch.json drops one id and adds the trade posts. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T16:35Z
+- Captures read: 1607Z. Last read: 1607Z.
+- X's check: 1607Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1501Z mismatch (2115208066069352642, TREX_TAL) is unchanged and not on the pulse.
+- Pulse: 45 items (1 new, 1 dropped). New: Stan Druckenmiller on trade(xyz), ICE and Hyperliquid futures, with Musk's quote attached (markets; not checked). Dropped: Rahul Gandhi on Tata (36 hours old). Lagarde line no longer says "not checked". Header moved to 1607Z.
+- Added: 2026-10-29-lagarde-to-step-down-ecb (world), 2026-10-29-doordash-to-buy-instacart (business). Updated: none.
+- Left out: Simmons trade as a story (searches found only old trade speculation, no report of the trade); Hyperliquid and NYSE/ICE as a story (I found no report of today's announcement); US Q3 GDP (not researched this pass); CTE study (study still not found); Logan Melgar memorial post (claims about named people, not needed); Mary Peltola "rigging" post (unconfirmed claim about a real person); rae_chloe133 post (private_individual); old_content posts; Talarico posts (about 7 days old).
+- Requests: none; updated_at moved; watch.json adds four ids and drops one. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
