@@ -3821,3 +3821,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved; watch.json adds four ids and drops one. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T17:30Z
+- Captures read: 1707Z. Last read: 1707Z.
+- X's check: 1707Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. The 1501Z mismatch (2115208066069352642, TREX_TAL) is unchanged and not on the pulse.
+- Pulse: 45 items (0 new, 0 dropped). Nothing is older than 36 hours and nothing new beats the smallest kept items. Header moved to 1707Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: factpostnews clip of a rally attendee on Fox (shows a private person; clip not checked); Trump's Alvarado endorsement (politics already holds three); Red Baron worker and fight clip posts (private_individual); Chillicothe video and other sexual or graphic posts; old_content posts; getLanista Hyperliquid post (advertisement). For the story pass: Simmons trade comparisons (Parsons, Mack, Ramsey) once a report beyond the posts is found.
+- Requests: none; plan.json rebuilt.
+- Shipped: yes, commit 5ce7d720, live audit clean (125 files match).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
