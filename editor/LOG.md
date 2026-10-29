@@ -3741,3 +3741,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved in watch.json and open.json; watch.json adds the new ids and drops the dropped ones. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T07:30Z
+- Captures read: 0705Z. Last read: 0705Z. (No 06Z capture: that run failed, per the grabber's note.)
+- X's check: 0705Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 43 items (4 new, 5 dropped). New: Pacers' Slawson block clip (sports; no media description); White House Artemis III crew photos (science); unusual_whales on an FAA notice over the Savannah River Site (disaster; a search found no report; not checked); bts_bighit's São Paulo tour post (music; Korean and English tags). Dropped as older than 36 hours: bbywestern, Dexerto on Discord, malangdr8 on Netanyahu, Trump on Kansas, Obama. Header moved to 0705Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 00Keloo (a child, DDG's son); FoxNews softball brawl and Dexerto IShowSpeed (private persons); Ernie Johnson posts from SportsCenter and others (story already on the pulse); Elon Musk's "Hmm", "True" and Grok Bot posts (unclear or promotion; xAI makes the model gathering the posts); South Park GTA VI clip, daviddunn177 video, notcapnamerica SNAP claim (point or claim cannot be judged from the words); Nicki Minaj, Ramaswamy via Acyn, Harvard enrollment, seigfried_fc Fofana claim (insults, unchecked claims or likely not genuine); old_content posts. For the story pass: the Savannah River Site notice, if anything is published.
+- Requests: none; updated_at moved in watch.json and open.json; watch.json adds the four new ids and drops the five dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
