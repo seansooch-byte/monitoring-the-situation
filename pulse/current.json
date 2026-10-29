@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T00:20:00Z",
-  "capture": "2026-10-29T0001Z",
+  "updated_at": "2026-10-29T01:20:00Z",
+  "capture": "2026-10-29T0102Z",
   "items": [
     {
       "id": "2115077413713715411",
@@ -252,6 +252,16 @@
       "id": "2115476295169814978",
       "desk": "science",
       "line": "SpaceX says Ship 42, the Starship preparing for Flight 15, finished its static fires: a full duration, six-engine burn, and a single Raptor engine firing to simulate a deorbit burn. Not checked here."
+    },
+    {
+      "id": "2115544562219315474",
+      "desk": "world",
+      "line": "Flávio Bolsonaro’s account posts three images headed “Carta à nação brasileira” (Letter to the Brazilian nation), dated 28 October 2026. The post is in Portuguese. What the letter says is in the images, and I have not read it here. Not checked here."
+    },
+    {
+      "id": "2115095118734569890",
+      "desk": "offbeat",
+      "line": "Brock Riddick, an account that shares viral clips, posts a 76-second video with the words “These hornets attacked his Bee hive. Now he is waiting for them on the outside.” The post does not say where or when it was filmed."
     }
   ]
 }
