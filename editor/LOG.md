@@ -3781,3 +3781,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; updated_at moved; watch.json adds seven ids and drops one. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-29T12:30Z
+- Captures read: 1206Z. Last read: 1206Z.
+- X's check: 1206Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches and withheld posts unchanged, not on the pulse.
+- Pulse: 45 items (3 new, 3 dropped). New: Lagarde on stepping down as ECB President (world; not checked); BBC Breaking on the Spain crash toll of 68 (disaster, replacing the Open Source Intel 46-dead post, which the Toledo story still cites); an Abdul El-Sayed clip posted by Marco Foster (politics; not checked). Dropped: Musk on FSD in Latvia (about 67 hours old, it should have gone earlier) and the Kobeissi Letter item (smallest). Header moved to 1206Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kaitlan Collins on Obama's Cheesecake Factory remarks (Obama already holds the politics line); RabbiJeffx Spain crash post (links the crash to Israel, unconfirmed); Rian Johnson camera app, Ernie Johnson, Carrick and Fernandes (tech and sports already full); Zhane_Star family photo (private_individual); Chinese-language gaming hashtag posts (tiny, point unclear); posts older than 36 hours or old_content. For the story pass: Lagarde's departure and the ECB succession.
+- Requests: none; updated_at moved; watch.json adds three ids and drops two. plan.json rebuilt.
+- Shipped: yes, commit d8873250 pushed; ship result in report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
