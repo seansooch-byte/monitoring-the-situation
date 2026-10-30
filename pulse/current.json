@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T22:15:00Z",
-  "capture": "2026-10-30T2202Z",
+  "updated_at": "2026-10-30T23:10:10Z",
+  "capture": "2026-10-30T2301Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -90,14 +90,6 @@
       "id": "2115793711032676693",
       "desk": "entertainment",
       "line": "The film news account DiscussingFilm posts a photo and calls it a first look at the popcorn bucket for the film Dune: Part 3."
-    },
-    {
-      "id": "2115765128687923608",
-      "desk": "business",
-      "line": "The DoorDash account The Dashboard announces DoorDash's intent to acquire Instacart, saying the two will keep operating as separate, independent companies until closing. The New York Times posts that DoorDash agreed to buy Instacart for $17 billion. Not checked here.",
-      "also": [
-        "2115773331886452820"
-      ]
     },
     {
       "id": "2115809671151751545",
