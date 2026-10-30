@@ -4001,3 +4001,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 4 ids plus their related ids and adds 3. plan.json rebuilt.
 - Shipped: yes, commit c1d524c7, live audit clean (130 files match).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T16:45Z
+- Captures read: 1608Z. Last read: 1608Z.
+- X's check: 1608Z 33 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches 2116107855095054823 (bts_bighit) and 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 30 items (2 new, 0 dropped). New: Rahul Gandhi on Cyclone Arnab (disaster); AP on Trump's Kansas and Iowa rallies being back on, with Fox News attached (politics). Header moved to 1608Z. Medicine has no item.
+- Added: 2026-10-29-cyclone-arnab-andhra-odisha (disaster), 2026-10-30-trump-kansas-iowa-rallies-back-on (politics). Updated: none. Binance and AO3 checked, nothing new found, left as is.
+- Left out: GregJaffe on Lt. Gen. Brett Sylvia's dismissal (could not confirm outside X; searches found nothing, worth a look next pass); EricLDaugh on Spanberger's cabinet and Musk's reply (claim about real people, unconfirmed); Musk "end democracy" posts (opinion on real people); JamieBonkiewicz rally post (insult, speculation); Jesse Rowe Griffin model clips (claim unchecked); Caddix/Caleb Williams fine (sports has four accounts); Wuornos and Floris posts (real people, unconfirmed or crude).
+- Requests: none; watch.json adds 3 ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: Cyclone Arnab toll: I could not open the outlets reporting 5 to 9 deaths (one returned 403), so the story gives only the figures I read. The message that started me had no instructions beyond the contract.

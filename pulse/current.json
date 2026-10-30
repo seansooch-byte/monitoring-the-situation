@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T15:20:00Z",
-  "capture": "2026-10-30T1507Z",
+  "updated_at": "2026-10-30T16:45:00Z",
+  "capture": "2026-10-30T1608Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -166,6 +166,19 @@
       "id": "2116171811985428887",
       "desk": "sports",
       "line": "ESPN reporter Jeremy Fowler says, citing sources, that the Panthers are letting go of defensive coordinator Ejiro Evero."
+    },
+    {
+      "id": "2115853127215874208",
+      "desk": "disaster",
+      "line": "Indian politician Rahul Gandhi posts that he is deeply concerned by the devastation from Cyclone Arnab in Andhra Pradesh and the heavy rain and flooding in Odisha. He offers condolences and urges the governments to ensure swift relief for affected families."
+    },
+    {
+      "id": "2116177055029039446",
+      "desk": "politics",
+      "line": "The Associated Press says, citing a source, that President Trump will now hold rallies in Kansas and Iowa on Sunday after initially cancelling them. Fox News posts the same, citing a source.",
+      "also": [
+        "2116170543116468406"
+      ]
     }
   ]
 }

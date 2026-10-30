@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-30-trump-kansas-iowa-rallies-back-on",
+  "title": "Trump's Kansas and Iowa rallies are back on after being cancelled a day earlier",
+  "dek": "The midterm elections are days away. The reason given for the change is a scheduling one, and I could not confirm more.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-30T14:09:08Z",
+  "updated_at": "2026-10-30T16:45:00Z",
+  "what": [
+    "On Friday 30 October 2026, Fox News and the Associated Press each posted, citing a source, that President Trump will hold in-person rallies in Kansas and Iowa on Sunday 1 November, after the events had been cancelled.",
+    "NBC News reports that on 29 October the Republican National Committee said the cancellations were about maximizing chances for Trump to speak to voters across the country, through nearly 20 tele-rallies. NBC quotes Trump, asked about Kansas, as saying he thinks the candidate there is doing well and that a tele-rally would be held instead.",
+    "NBC reports that less than a day later the rallies were rescheduled, with Iowa moved from Dubuque to Cedar Rapids. The Kansas stop is Salina. A White House source told NBC the rallies were rearranged for scheduling reasons to fit the extra tele-rallies. NBC also quotes a source saying the White House feels bullish about both states and wants to give people what they want.",
+    "I could not confirm why the rallies were first cancelled beyond the RNC's statement, or what changed. Posts on X offer other readings of the cancellation. Those are the posters' own and are not checked here."
+  ],
+  "why": "A president's travel in the last days before an election is read as a signal about which races are close. The reversal gave people on both sides something to read into.",
+  "next": "Whether the rallies take place in Salina, Kansas, and Cedar Rapids, Iowa, on Sunday 1 November.",
+  "posts": [
+    {
+      "id": "2116177055029039446",
+      "role": "official"
+    },
+    {
+      "id": "2116170543116468406",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "NBC News: Trump uncancels weekend rallies in Iowa and Kansas with Senate control at stake",
+      "url": "https://www.nbcnews.com/politics/2026-election/trump-cancels-weekend-rallies-iowa-kansas-favor-holding-numerous-teler-rcna606487"
+    }
+  ]
+}

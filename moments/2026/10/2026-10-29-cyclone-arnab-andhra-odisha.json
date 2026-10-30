@@ -1,0 +1,37 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-cyclone-arnab-andhra-odisha",
+  "title": "Cyclone Arnab hits Andhra Pradesh, with floods in Odisha and a death toll still unsettled",
+  "dek": "More than 180,000 people were moved out of the path of a very severe cyclone on India's east coast. Reports of how many died differ.",
+  "desks": [
+    "disaster",
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-29T17:07:50Z",
+  "updated_at": "2026-10-30T16:45:00Z",
+  "what": [
+    "Al Jazeera reports that Cyclone Arnab made landfall on the Andhra Pradesh coast in the early hours of Wednesday 28 October 2026, with winds of up to 135 km/h. NBC News reports that India's weather department rated it a very severe cyclonic storm, the third-highest category, and that it suspended flights at three Andhra Pradesh airports.",
+    "Both outlets report that about 180,000 people were evacuated from Andhra Pradesh and Odisha before landfall. Al Jazeera reports that at least 180 houses were destroyed and 220 trees brought down in Andhra Pradesh, and that power, flights and trains were disrupted.",
+    "The death toll was reported differently as the storm came ashore. Al Jazeera quotes a National Disaster Response Force official, Narendra Singh Bundela, saying three people died and that Andhra Pradesh was the worst hit. NBC's earlier report said no deaths had been reported. Search results for other outlets showed higher figures, between five and nine, and heavy rain and flooding in parts of southern Odisha. I did not open those reports, and I could not find one official figure that reconciles them.",
+    "On 29 October the Indian politician Rahul Gandhi posted that he was deeply concerned by the devastation in Andhra Pradesh and the heavy rain and flooding in Odisha. He offered condolences and urged the governments to ensure swift relief and rehabilitation. The post is a statement of concern. It gives no figures."
+  ],
+  "why": "A large storm hit two states with many people in its path, and the toll was still being counted. Public figures in India are responding to the damage and the relief effort.",
+  "next": "An official, single toll from the Andhra Pradesh and Odisha governments or the National Disaster Response Force, and the state of the flooding in Odisha.",
+  "posts": [
+    {
+      "id": "2115853127215874208",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Al Jazeera: Cyclone Arnab makes landfall in India's Andhra Pradesh",
+      "url": "https://www.aljazeera.com/news/2026/10/28/cyclone-arnab-makes-landfall-in-indias-andhra-pradesh"
+    },
+    {
+      "label": "NBC News: India evacuates more than 180,000 as Cyclone Arnab hits coast",
+      "url": "https://www.nbcnews.com/world/asia/india-evacuates-180000-cyclone-arnab-hits-coast-rcna606057"
+    }
+  ]
+}
