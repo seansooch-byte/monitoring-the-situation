@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T04:25:00Z",
-  "capture": "2026-10-30T0405Z",
+  "updated_at": "2026-10-30T05:20:00Z",
+  "capture": "2026-10-30T0505Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -29,16 +29,6 @@
       ]
     },
     {
-      "id": "2115477603469631911",
-      "desk": "sports",
-      "line": "ESPN reporter Jeremy Fowler says, citing sources, that Colts wide receiver Josh Downs is requesting a trade from Indianapolis. Not checked here."
-    },
-    {
-      "id": "2115489219804352921",
-      "desk": "ai",
-      "line": "Google chief executive Sundar Pichai announces Gemini 4 Carbon, its next frontier model. He says it ranks first on version 5.0 of the Artificial Analysis Intelligence Index at 59 and leads on cybersecurity tests, and that access begins this week for trusted cyber defenders. These are his figures; not checked here."
-    },
-    {
       "id": "2115494289488953462",
       "desk": "tech",
       "line": "Apple chief executive Tim Cook posts a video and says Apple has brought touch to the Mac, with a MacBook Pro that has a touch display. The post gives no price or date."
@@ -51,21 +41,6 @@
         "2115507143461752859",
         "2115505534510235820"
       ]
-    },
-    {
-      "id": "2115479434169868618",
-      "desk": "world",
-      "line": "Benjamin Netanyahu's account posts, in Hebrew, a statement headed \"Likud\" saying Arab parties stole the Israeli election through bribery, threats, violence and forgery. It says Likud is giving police, the Shin Bet and the election committee evidence and demands an investigation. Not checked here."
-    },
-    {
-      "id": "2115482148803412332",
-      "desk": "tech",
-      "line": "The account DerrickEvans4WV tells iPhone users to turn off Live Listen under Accessibility settings and says the setting keeps transcripts. Not checked here."
-    },
-    {
-      "id": "2115476295169814978",
-      "desk": "science",
-      "line": "SpaceX says Ship 42, the Starship preparing for Flight 15, finished its static fires: a full duration, six-engine burn, and a single Raptor engine firing to simulate a deorbit burn. Not checked here."
     },
     {
       "id": "2115544562219315474",
@@ -94,11 +69,6 @@
       "id": "2115531924923949371",
       "desk": "science",
       "line": "The White House account posts two photos with the words \"Welcome to the Oval Office, Artemis III Crew!\" The capture holds no description of the photos."
-    },
-    {
-      "id": "2115603989995917335",
-      "desk": "disaster",
-      "line": "The account unusual_whales says the FAA has shut down airspace over the Department of Energy's Savannah River Site, with a notice calling it a \"US Government Nuclear Incident,\" per SRS. I found no report of this. Not checked here."
     },
     {
       "id": "2115635075455013266",
@@ -212,9 +182,34 @@
       "line": "Journalist Aaron Rupar posts a video of Vice President JD Vance answering a question about young families and the price of homes. The post quotes Vance saying he has only been asked one question about Jon Husted. The video is not described beyond that."
     },
     {
-      "id": "2115077994561847635",
-      "desk": "entertainment",
-      "line": "The film account TheCinesthetic posts two photos and says they show Jennifer Lawrence photographed for The Cut. Not checked here."
+      "id": "2115847903696527589",
+      "desk": "tech",
+      "line": "The account youhatefive says a post’s device type can be told from a code after a question mark in its link: s=46 for iPhone, s=20 for a browser, s=19 for Android. It invites readers to try it on the post. Not checked here."
+    },
+    {
+      "id": "2115912451602645133",
+      "desk": "defense",
+      "line": "The account clashreport posts a video and says it shows the moment an Italian military CH-47 Chinook helicopter crashed in Bosnia and Herzegovina on Thursday. Not checked here."
+    },
+    {
+      "id": "2115779934136545373",
+      "desk": "ai",
+      "line": "The account unusual_whales says employers worldwide are pulling back on AI because of errors and low-quality work, citing the Guardian. Not checked here."
+    },
+    {
+      "id": "2115779686697697557",
+      "desk": "ai",
+      "line": "XFreeze, a fan account, posts a chart-style image and says Grok Bot daily users rose for 16 days in a row, from under 100,000 in early September to over 600,000 by October 26. Grok is made by xAI, the company behind the model gathering this page’s posts. Not checked here."
+    },
+    {
+      "id": "2115805894336536741",
+      "desk": "gaming",
+      "line": "The account for The Duskbloods says the game is in final adjustment and that it is moving the launch window to 2027. It apologises to players who have been waiting."
+    },
+    {
+      "id": "2115442964574908902",
+      "desk": "science",
+      "line": "OcanaSantero says an AI agent performed brain surgery on a mouse with epilepsy, choosing the drug and brain region itself from 19 gene therapy options. The post is cut off in the capture. Not checked here."
     }
   ]
 }

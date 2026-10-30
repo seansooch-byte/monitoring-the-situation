@@ -3901,3 +3901,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 5 ids, adds 3. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T05:25Z
+- Captures read: 0505Z. Last read: 0505Z.
+- X's check: 0505Z 34 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 35 items (6 new, 7 dropped). New: youhatefive device-code claim (tech; not checked), clashreport Chinook crash video (defense; not checked), unusual_whales on employers pulling back on AI (ai; not checked), XFreeze on Grok Bot users (ai; xAI disclosure; not checked), The Duskbloods delay to 2027 (gaming), OcanaSantero mouse surgery claim (science; not checked). Dropped as older than 36 hours: Fowler on Colts, Pichai Gemini, Netanyahu, DerrickEvans4WV, SpaceX Ship 42, TheCinesthetic Jennifer Lawrence (its id dates to 2026-10-27, so the last pass kept it too long). Also dropped the unusual_whales FAA item (unconfirmed, not seen since 0109Z, and one account holds one place). Header moved to 0505Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: RT_com grocery worker clip and Red Baron, banks-hacked replies (private individuals); _moteelolah, PatMcAfee, rajgupta (no words or unexplained); factpostnews rally attendee (private person); USronaldcarter banks hack thread (unconfirmed claim); Chris Pratt and Hugh Jackman posts (entertainment already has three); old_content posts.
+- Requests: none; watch.json drops 7 ids, adds 6. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
