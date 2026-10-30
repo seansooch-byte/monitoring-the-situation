@@ -1,0 +1,3 @@
+skip_nsfw |= {'2115892608769966334','2115986595069514239','2116033515141660951','2116085557097124238'}  # 1906Z: likely promoted (IND__Sweety coffee-bag craft video, 4,069 likes on 5.6M views; MrBuckBuckNBA Ja Morant warm-up post, 75 likes on 744K views; thepercsgotme link-only post, 88 likes on 404K views; moreauluvrr link-only post, 7 likes on 174K views)
+skip_nsfw |= {'2116004056510394607'}  # 1906Z: missboytoy sexual text
+EXTRA_PRIVATE |= {'2116158076160000085','2116147038777757887'}  # 1906Z: nnatusucks video of a bullied boy who is chased (private people, a minor); AlessandraRdlv post on the arrest of an alleged 'mata perros' (private person)
