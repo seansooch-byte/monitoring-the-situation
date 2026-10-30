@@ -3881,3 +3881,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list already holds every cited post. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: web search returned little for events of the last 24 hours; the Binance story rests on trade outlets and should be upgraded when a primary statement exists. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T03:45Z
+- Captures read: 0305Z. Last read: 0305Z.
+- X's check: 0305Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 36 items (1 new, 8 dropped, 1 rewritten). New: Kaitlan Collins quoting Obama's Cheesecake Factory remarks (politics; not checked). Rewritten: the Binance item now also carries Binance's own post on its initial investigation. Dropped as older than 36 hours at 0305Z: PlayStation Prism, Mukhtar on Tommy Robinson, Kellen Browning, GTAVI countdown, Dexerto, Marco Foster, AP, Rian Johnson. Business and music stay thin (no confirmed, unflagged replacement among the largest). Header moved to 0305Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Ian McKellen and Shatner Stewart tributes (entertainment full, Stewart already covered); Kobeissi and WatcherGuru Binance figures (unconfirmed numbers); Trump rally attendee clip (private person's remark); Peltola/DSCC scoop, Tucker Carlson West Bank video, Chris Murphy Iran plan (unconfirmed claims about real people); jwmares European hiring rules (unchecked claim). For the story pass: Binance's own post (2115993361517891592) is a primary statement the Binance story could cite.
+- Requests: none; watch.json adds 2 ids, drops 9. plan.json rebuilt.
+- Shipped: yes, commit ba7f2021, live audit clean (this log entry was committed after the ship and changes no site file).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
