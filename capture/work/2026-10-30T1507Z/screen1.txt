@@ -1,8 +1,0 @@
-<cursor_untrusted_data_1337 source="CallDynamicTool">
-
-{"errors":[{"detail":"Could not find post with ids: [2115918542306730218].","parameter":"ids","resource_id":"2115918542306730218","resource_type":"post","title":"Not Found Error","type":"https://api.x.com/2/problems/resource-not-found","value":"2115918542306730218"}],"meta":{"result_count":0}}
-expansions referenced_tweets.id.attachments.media_keys was added, so any video or image on the post, or on a post it quotes, comes back with its media URLs.
-post.fields article was added, so a post longer than 280 characters comes back with its full text in note_tweet, and an X Article with its title and body in article.
-X reads left for this user: 25 of 30 this minute (resets at 2026-10-30T15:11:00.000Z), 564 of 1000 today (resets at 2026-10-31T00:00:00.000Z).
-
-</cursor_untrusted_data_1337>

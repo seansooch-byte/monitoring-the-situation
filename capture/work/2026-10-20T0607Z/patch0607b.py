@@ -1,8 +1,0 @@
-s=open('build_capture.py').read()
-a="skip_nsfw |= {'2099893251192861149','2111972966699512306','2112176047156564186'}  # 0501Z"
-assert a in s
-s=s.replace(a,"skip_nsfw |= {'1847821204347851053','2086189593473294825'}  # 0607Z: likely paid (pcyroludo 2024 concert clip: 929 likes and 20 replies on 17.3M views; Forcabarca_a link-only video: 132 likes and 7 replies on 3.3M views)\n"+a,1)
-b="EXTRA_PRIVATE |= {'2112177541859738008','2111136722998501763','2112014034308636969'}  # 0501Z"
-assert b in s
-s=s.replace(b,"EXTRA_PRIVATE |= {'2079207083405439455','2030661522364481751','2112200357636137073'}  # 0607Z: Aslam_rt_17 video of a couple on a boat (private people); opsylojay1 video of an old man on a plane (private person); metronaija post on a video of a child being flogged (a minor)\nDESK_OVERRIDE_RUN.update({'1965129615841919211':'sports','2097536989729816627':'sports','2112356322364858763':'sports','2112367568031797527':'sports','2112323157143290081':'sports','2112223398491283679':'sports','2112122016723812701':'music','2112302051481018521':'music','2112109209105883240':'world','2112234803793953186':'world','2112138969819324736':'entertainment','2079207083405439455':'offbeat','2030661522364481751':'offbeat','1875807611473555845':'offbeat','2112200357636137073':'internet'})  # 0607Z desk fixes: TDISportsClips Dwayne Rudd clips, Angel Reese, WWE Roman Reigns, Hansi Flick and Lane Johnson posts to sports; kpop twt post and BNXN post to music; Lagos governor dinner and Albania court fire posts to world; Avatar post to entertainment; boat, plane and village-cooking clips to offbeat; Maraji parenting post to internet\n"+b,1)
-open('build_capture.py','w').write(s); print('ok')

@@ -1,7 +1,0 @@
-wrote /workspace/monitoring-the-situation/capture/2026/10/11/0301Z.json posts 40 obs 180 sweeps 38
-viral 39 rising 20
-top posts [('2002028222926434631', 'MittRomney', 5907427, 'internet'), ('2108928070216208390', 'Dexerto', 2132786, 'internet'), ('2109055486368665764', 'MarioNawfal', 989277, 'sports'), ('2108934261982036125', 'mattvanswol', 892594, 'internet'), ('2109032659095793860', 'Wearethrones1', 670815, 'internet'), ('2109068876667552158', 'PopBase', 611587, 'internet'), ('2108963794223530270', 'NewsMatrixIND', 444036, 'entertainment'), ('2108964960705597874', 'Acyn', 437222, 'world'), ('2109063025210626200', 'NBA', 390029, 'sports'), ('2109069466449351166', 'DiscussingFilm', 381702, 'entertainment')]
-press_ids []
-author drops {'mlb': 2, 'discussingfilm': 1, 'marionawfal': 9}
-skipped_sensitive 3
-tally runs ['2026-10-10T2200Z', '2026-10-10T2306Z', '2026-10-11T0005Z', '2026-10-11T0101Z', '2026-10-11T0202Z', '2026-10-11T0301Z'] origins 52

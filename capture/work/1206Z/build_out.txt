@@ -1,7 +1,0 @@
-wrote /workspace/monitoring-the-situation/capture/2026/10/11/1206Z.json posts 40 obs 232 sweeps 38
-viral 40 rising 2
-top posts [('2024898302035067174', 'XFreeze', 39942072, 'internet'), ('2108589450716688796', '19scartoon', 5341678, 'internet'), ('2108948402033524979', 'aaronburnett', 4111703, 'internet'), ('2109100353497317716', 'FearedBuck', 3859030, 'internet'), ('2108993426025021479', 'Mike_Pence', 3339631, 'world'), ('2109155867983786382', 'elonmusk', 2975635, 'ai'), ('2109159995975807043', 'abhijeet_dipke', 2566794, 'internet'), ('2109045220411351517', 'thsottiaux', 1861629, 'internet'), ('2108964817730158697', 'RapidResponse47', 1431507, 'world'), ('2109132465784930785', 'elonmusk', 1403552, 'ai')]
-press_ids ['2108373275613200857', '2109227004075589849']
-author drops {'elonmusk': 8, 'nba': 3, 'cryptorover': 1}
-skipped_sensitive 1
-tally runs ['2026-10-11T0704Z', '2026-10-11T0802Z', '2026-10-11T0900Z', '2026-10-11T1008Z', '2026-10-11T1105Z', '2026-10-11T1206Z'] origins 55

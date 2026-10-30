@@ -1,1 +1,0 @@
-and lang:en is:quote -is:retweet => {"detail":"One or more parameters to your request was invalid.","errors":[{"message":"There were errors processing your request: Ambiguous use of and as a keyword. Use a space to logically join two clauses, or \"and\" to find occurrences of and in text (at position 1)"}],"title":"Invalid Request"}
