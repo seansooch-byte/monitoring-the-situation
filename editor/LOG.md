@@ -3931,3 +3931,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 2 ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T09:25Z
+- Captures read: 0910Z. Last read: 0910Z.
+- X's check: 0910Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 25 items (0 new, 4 dropped). Dropped as older than 36 hours at 0910Z: mikefreemanNFL CTE post (medicine, with its `also`), FlavioBolsonaro (world), ZacksJerryRig (tech), VRChat (gaming). The build holds back DiscussingFilm's second item (one account, one place). Header moved to 0910Z. Medicine now has no item; nothing new that was checkable was large enough to replace it.
+- Added: none. Updated: none (pulse pass).
+- Left out: philarekt and cryptoblaney Binance figures, _JackMcDonald_ Ripple claim (unconfirmed); Zyron5m Hamed claim (unconfirmed about real people); LoveBeyondCo1or rally speculation; JesseBWatters Texas mother (private individual); 00Keloo, SarahisCensored, CollinRugg Red Baron, factpostnews (private individuals); tslaming Terafab (unchecked); xghana_ and wattpad (point unclear); Acyn El-Sayed (politics has three); DiscussingFilm film post and Nintendo Japan sale (gaming already placed); elonmusk Starship 42 (his tech post holds his place).
+- Requests: none; watch.json drops 5 ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

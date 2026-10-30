@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T08:25:00Z",
-  "capture": "2026-10-30T0805Z",
+  "updated_at": "2026-10-30T09:25:00Z",
+  "capture": "2026-10-30T0910Z",
   "items": [
-    {
-      "id": "2115539516530573789",
-      "desk": "medicine",
-      "line": "The account mikefreemanNFL posts that 93.5 percent of 396 deceased NFL players examined from 2008 to 2023 had CTE, a brain disease. Reporter Adam Schefter posts a lower estimate, 75 percent, from a new study. Neither post names it in its text. Not checked here.",
-      "also": [
-        "2115745361973420399"
-      ]
-    },
     {
       "id": "2115643107601428888",
       "desk": "sports",
@@ -29,22 +21,12 @@
       ]
     },
     {
-      "id": "2115544562219315474",
-      "desk": "world",
-      "line": "Flávio Bolsonaro’s account posts three images headed “Carta à nação brasileira” (Letter to the Brazilian nation), dated 28 October 2026. The post is in Portuguese. What the letter says is in the images, and I have not read it here. Not checked here."
-    },
-    {
       "id": "2115797314434695516",
       "desk": "sports",
       "line": "Footballer Cristiano Ronaldo posts a photo and thanks fans around the world, saying football belongs to them and that the “Ballon D’Or of All Time” is theirs too. Reporter Fabrizio Romano posts that the Ballon d’Or announced Ronaldo’s 2008 award as the best of all time. Not checked here.",
       "also": [
         "2115509418276376791"
       ]
-    },
-    {
-      "id": "2115542298847297548",
-      "desk": "tech",
-      "line": "JerryRigEverything, a channel that stress-tests phones, posts a video of a durability test of the \"Trump Phone\" and says the result is \"worse than we thought\". The video was not watched here. Not checked here."
     },
     {
       "id": "2115593262799151111",
@@ -85,11 +67,6 @@
       "id": "2115640651517939785",
       "desk": "tech",
       "line": "Elon Musk posts that breakthroughs in everything are accelerating exponentially, and that an exponential always starts off looking small. It is a general remark with no named example. Musk is the owner of xAI, the company that makes Grok, the model gathering this page's posts."
-    },
-    {
-      "id": "2115542209785446488",
-      "desk": "gaming",
-      "line": "VRChat, the virtual-world platform, says it asked its community for feedback on AI in VRChat and links a post of takeaways and next steps. The linked post is titled \"Where we're landing on AI in VRChat\". Not checked here."
     },
     {
       "id": "2115643120864170071",
