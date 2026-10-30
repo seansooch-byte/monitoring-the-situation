@@ -4011,3 +4011,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 3 ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: Cyclone Arnab toll: I could not open the outlets reporting 5 to 9 deaths (one returned 403), so the story gives only the figures I read. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T19:25Z
+- Captures read: 1906Z (1709Z and 1803Z were read by earlier pulse passes that left no entry here). Last read: 1906Z.
+- X's check: 1906Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 1709Z and 1803Z unchanged, not on the pulse.
+- Pulse: 32 items (1 new, 0 dropped). New: Pubity's clip of Sam Altman on DRAM in personal computers (ai; not checked; OpenAI is not Anthropic or xAI). Nothing older than 36 hours. Header moved to 1906Z. The build holds back DiscussingFilm's second item (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: CBS News on Lt. Gen. Brett Sylvia's firing (anonymous official's misconduct claim about a named person, not confirmed outside X; for the story pass); KobeissiLetter Binance figures (unconfirmed); wattpad (point unclear); paramountplus (advertisement); elonmusk 2028 post (opinion on real people); factpostnews and AkademiksTV (crude claims about real people); old_content posts.
+- Requests: none; watch.json adds 1 id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
