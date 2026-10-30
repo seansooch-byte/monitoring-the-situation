@@ -3961,3 +3961,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 1 id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T12:40Z
+- Captures read: 1209Z. Last read: 1209Z.
+- X's check: 1209Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches 2116107855095054823 (bts_bighit) and 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 28 items (2 new, 3 dropped). New: Dexerto on ItalianBach and thumbnails (internet); Chris Pratt's first-role account (entertainment). Dropped as older than 36 hours: Pacers block clip (sports), Starlink Mobile in Spain (tech), m_goes_distance medical results (medicine, which has no item again). The build holds back DiscussingFilm's second item (one account, one place). Header moved to 1209Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 00Keloo, factpostnews rally attendee, nypost drowning, Red Baron posts, fwkingsomie, AsakyGRN (private individuals); wattpad (point unclear); KobeissiLetter, WatcherGuru, paoloardoino Binance figures (unconfirmed; the story covers it); HormuzLetter and LoveBeyondCo1or rally cancellations (unconfirmed); TuckerCarlson beating video, milezxbt Richard Allen, LongTimeHistory police video (real people, claims unconfirmed or possibly graphic); MLFootball Watson ambulance (injury of a real person); IanMcKellen, PopBase, IGN Stewart posts (the Stewart item already holds two in `also`); RealHughJackman tribute (entertainment has four); elonmusk other posts (his tech post holds his place).
+- Requests: none; watch.json drops 3 ids and adds 2. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

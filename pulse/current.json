@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T11:45:00Z",
-  "capture": "2026-10-30T1106Z",
+  "updated_at": "2026-10-30T12:35:00Z",
+  "capture": "2026-10-30T1209Z",
   "items": [
     {
       "id": "2115643107601428888",
@@ -20,19 +20,9 @@
       ]
     },
     {
-      "id": "2115593262799151111",
-      "desk": "sports",
-      "line": "The Pacers' account posts a short video captioned \"Jalen Slawson chasedown block.\" The capture holds no description of the clip."
-    },
-    {
       "id": "2115635075455013266",
       "desk": "music",
       "line": "The account bts_bighit posts a daily update in Korean and English tags that dates the BTS world tour \"Arirang\" stop in São Paulo as 261028. The post says nothing more in words."
-    },
-    {
-      "id": "2115588901196984822",
-      "desk": "tech",
-      "line": "Starlink says its Starlink Mobile service is giving free connectivity to Orange and Telefónica customers affected by a train collision in Spain, for compatible LTE phones through apps and texts. Not checked here."
     },
     {
       "id": "2115651916780720573",
@@ -171,10 +161,14 @@
       "also": []
     },
     {
-      "id": "2115111611652276717",
-      "desk": "medicine",
-      "line": "The account m_goes_distance lists ten medical results it says appeared in press releases in six months, such as a pill doubling survival in pancreatic cancer and a pig kidney working 271 days. It says it does not work at a drug lab. Not checked here.",
-      "also": []
+      "id": "2115813444083490867",
+      "desk": "internet",
+      "line": "Dexerto reports that YouTuber ItalianBach wants custom thumbnails removed and replaced with a random frame from the video. The post quotes him saying it would end clickbait and let viewers \"know exactly what you’re going to be seeing\". Not checked here."
+    },
+    {
+      "id": "2115848262481768576",
+      "desk": "entertainment",
+      "line": "Actor Chris Pratt posts a long account of how he got his first film role while waiting tables in Hawaii, after a movie star he met there offered him a part. The story is his own. Not checked here."
     }
   ]
 }
