@@ -4041,3 +4041,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-10-30-01 (government and president side on the Tribunal). watch.json adds 3 ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T23:10Z
+- Captures read: 2202Z (already on the pulse header, no log entry for it), 2301Z. Last read: 2301Z.
+- X's check: 2202Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld; 2301Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 37 items (0 new, 1 dropped from 38). Dropped: The Dashboard on DoorDash and Instacart (older than 36 hours). Header moved to 2301Z. The build holds back DiscussingFilm's second item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kucherov trade request posts (sports, small and young; the desk already has four items; for the story pass); Inevitablewest and JoeyMannarino Poland "coup" posts (contested claims, nothing outside X); w_zurek Polish post (the Poland story covers it); SawyerMerritt Neuralink video (small); Lagarde post (older than 36 hours); Clav0Updates, FadeHubb, JewelsJonesLive, KWESIARTHUR_ (private individuals); elonmusk 2028 and California posts (opinion on real people); Talarico posts and HQNewsNow (partisan, speaker unclear); paramountplus (advertisement); old_content posts.
+- Requests: none; watch.json already holds every pulse id, plan.json unchanged.
+- Shipped: yes, commit e8ad0ac2, live audit clean.
+- For the main editor: the 2202Z note says r-2026-10-30-01 was written with answers: [], so the planner kept listing it; 2301Z answered it with six official Polish posts, for the next story pass. The message that started me had no instructions beyond the contract.
