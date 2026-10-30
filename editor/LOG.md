@@ -3991,3 +3991,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 1 id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T15:20Z
+- Captures read: 1507Z. Last read: 1507Z.
+- X's check: 1507Z 34 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches 2116107855095054823 (bts_bighit) and 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 28 items (3 new, 4 dropped). New: Cursor on a modified Claude Code extension (ai; line says Anthropic, maker of the model writing the page, is in it); Pirat_Nation on Faliszek and Sweeney over Steam AI disclosures (gaming; not checked); Jeremy Fowler on the Panthers letting go of Ejiro Evero (sports). Dropped as older than 36 hours: Brewers champions, bts_bighit, Musk tech post, DiscussingFilm GTA. The build holds back DiscussingFilm's second item (one account, one place). Header moved to 1507Z. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: wattpad (point unclear); EricLDaugh on Amy Acton and BigMickey_02 on Caitlyn Jenner (claims about real people, unconfirmed); elonmusk 2028 post (opinion on real people); KobeissiLetter and Binance figures (unconfirmed; the story covers it); paramountplus (advertisement); Jojosdojo BBC clip (point unclear); Yormark and Caleb Williams fine (sports has four accounts); IrishUnity RIP post (Stewart item covers it); ByRyanWood Watson injury (injury of a real person).
+- Requests: none; watch.json drops 4 ids plus their related ids and adds 3. plan.json rebuilt.
+- Shipped: yes, commit c1d524c7, live audit clean (130 files match).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
