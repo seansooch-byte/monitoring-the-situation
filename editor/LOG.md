@@ -3911,3 +3911,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 7 ids, adds 6. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T07:25Z
+- Captures read: 0701Z. Last read: 0701Z. (No LOG entry exists for the 0604Z pass; its pulse commit is 0c0b6b55.)
+- X's check: 0701Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 31 items (1 new, 2 dropped). New: Cristiano Ronaldo's own post on the Ballon D'Or of All Time (sports; replaces Fabrizio Romano's post as the lead, which moves to `also`; not checked). Dropped as older than 36 hours: TMZ on Lacy's restaurant tab. The build holds back DiscussingFilm's second item (one account, one place). Header moved to 0701Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: AO3_Status second post (same account); Patrick Stewart death posts by PopBase and DiscussingFilm (entertainment has his own post; DiscussingFilm already placed); wattpad "difficult time" post (point unclear); RT_com and SarahisCensored grocery worker clips (private individual); Rothmus on Lula and ProudSocialist on an actress (unconfirmed claims about real people); factpostnews rally attendee (private person); Red Baron post (private individual); old_content posts.
+- Requests: none; watch.json drops 1 id (TMZ). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
