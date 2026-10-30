@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T12:35:00Z",
-  "capture": "2026-10-30T1209Z",
+  "updated_at": "2026-10-30T13:14:44Z",
+  "capture": "2026-10-30T1305Z",
   "items": [
     {
       "id": "2115643107601428888",
@@ -95,11 +95,6 @@
       ]
     },
     {
-      "id": "2115604910515331293",
-      "desk": "politics",
-      "line": "Journalist Kaitlan Collins posts what she says are Obama’s remarks on his Cheesecake Factory line. He says the White House mobilized a response to a joke and not to inflation. The remarks are his. Not checked here."
-    },
-    {
       "id": "2115979102465266023",
       "desk": "politics",
       "line": "Journalist Aaron Rupar posts a video of Vice President JD Vance answering a question about young families and the price of homes. The post quotes Vance saying he has only been asked one question about Jon Husted. The video is not described beyond that."
@@ -169,6 +164,11 @@
       "id": "2115848262481768576",
       "desk": "entertainment",
       "line": "Actor Chris Pratt posts a long account of how he got his first film role while waiting tables in Hawaii, after a movie star he met there offered him a part. The story is his own. Not checked here."
+    },
+    {
+      "id": "2115915319134855447",
+      "desk": "world",
+      "line": "Salvadoran President Nayib Bukele posts a message in Haitian Creole to the Haitian people. He says El Salvador has almost finished deploying its soldiers and equipment in Haiti, that this is not an invasion, that it is aimed at gangs, and that El Salvador pays about 90% of the cost. Not checked here."
     }
   ]
 }

@@ -3971,3 +3971,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 3 ids and adds 2. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T13:20Z
+- Captures read: 1305Z. Last read: 1305Z.
+- X's check: 1305Z 35 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches 2116107855095054823 (bts_bighit) and 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 28 items (1 new, 1 dropped). New: Nayib Bukele's message in Haitian Creole on El Salvador's deployment in Haiti (world; claims not checked). Dropped as older than 36 hours: Kaitlan Collins on Obama's remarks (politics). The build holds back DiscussingFilm's second item (one account, one place). Header moved to 1305Z. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: RT_com grocery worker, SarahisCensored, factpostnews rally attendee, redbaronpizza (private individuals); wattpad (point unclear); old_content posts; AryePulliNFL Watson ambulance (injury of a real person); mikefreemanNFL CTE figure (sports has four accounts; not checked); Kobeissi, WatcherGuru, binance figures (unconfirmed; the Binance story covers it); elonmusk 2028 Democrats post (opinion on real people; his tech post holds his place); KarinaLMariani Die Linke claim (real people, unconfirmed); Red Friday greeting posts (no point to report).
+- Requests: none; watch.json drops 1 id and adds 1. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
