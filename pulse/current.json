@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T02:30:00Z",
-  "capture": "2026-10-30T0208Z",
+  "updated_at": "2026-10-30T03:40:00Z",
+  "capture": "2026-10-30T0305Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -29,22 +29,9 @@
       ]
     },
     {
-      "id": "2115459064981512662",
-      "desk": "gaming",
-      "line": "PlayStation announces a transparent Prism Collection of PS5 accessories, launching February 4, in Flare Orange, Emerald Green and Graphite Gray. The post links to first details on the DualSense controllers."
-    },
-    {
       "id": "2115477603469631911",
       "desk": "sports",
       "line": "ESPN reporter Jeremy Fowler says, citing sources, that Colts wide receiver Josh Downs is requesting a trade from Indianapolis. Not checked here."
-    },
-    {
-      "id": "2115454242471203140",
-      "desk": "justice",
-      "line": "Mukhtar, a commentator, says Tommy Robinson has been found guilty of all charges. A second post, from MP Rupert Lowe, says Robinson was found guilty and calls it unfair treatment. I could not confirm the verdict or the charges. Not checked here.",
-      "also": [
-        "2115456145808580793"
-      ]
     },
     {
       "id": "2115489219804352921",
@@ -55,11 +42,6 @@
       "id": "2115494289488953462",
       "desk": "tech",
       "line": "Apple chief executive Tim Cook posts a video and says Apple has brought touch to the Mac, with a MacBook Pro that has a touch display. The post gives no price or date."
-    },
-    {
-      "id": "2115453762911494326",
-      "desk": "politics",
-      "line": "Kellen Browning, a reporter, says in a scoop that aides to Mary Peltola's campaign and the DSCC were part of a monthslong plan to recruit the second Dan Sullivan on Alaska's Senate ballot. He gives the details in a linked story. Not checked here."
     },
     {
       "id": "2115503871342809258",
@@ -88,11 +70,6 @@
       "id": "2115482148803412332",
       "desk": "tech",
       "line": "The account DerrickEvans4WV tells iPhone users to turn off Live Listen under Accessibility settings and says the setting keeps transcripts. Not checked here."
-    },
-    {
-      "id": "2115422816342540600",
-      "desk": "music",
-      "line": "GTAVI_Countdown, a fan account, shares the full track \"Pusher (feat. Gesaffelstein)\" by Justice from the GTA 6 Score Album. It says the album has 50 tracks and comes out on December 11th. Not checked here."
     },
     {
       "id": "2115476295169814978",
@@ -153,11 +130,6 @@
       "line": "Neuralink says its brain implant is enabling speech to text and voice at conversational rates in participants with ALS. It says one participant reached 75 words a minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. Not checked here."
     },
     {
-      "id": "2115443563655754171",
-      "desk": "business",
-      "line": "Dexerto reports that passengers have been removed from an \"endless\" cruise on the Villa Vie Odyssey, and that the operator blames a jump in fuel costs. It says some had paid $120,000 for residency and were left in Cambodia. Not checked here."
-    },
-    {
       "id": "2115651916780720573",
       "desk": "politics",
       "line": "Former President Barack Obama posts that this election is the last chance to rein in what he calls the foolishness of the Trump administration, and urges votes for Keisha Lance Bottoms for Georgia governor and Jon Ossoff for the Senate. The opinion is his."
@@ -181,11 +153,6 @@
       "id": "2115463733895889319",
       "desk": "disaster",
       "line": "BBC Breaking News reports that Spanish Prime Minister Pedro Sánchez, at the site of the train crash, says \"the whole of Spain is grieving\", and that the death toll has risen to 68. The toll was still changing."
-    },
-    {
-      "id": "2115450000587051338",
-      "desk": "politics",
-      "line": "Marco Foster posts a 103-second video and quotes Abdul El-Sayed saying Donald Trump is \"an idiot\" who bullied to get attention. The opinion is the speaker's. Not checked here."
     },
     {
       "id": "2115640651517939785",
@@ -236,8 +203,9 @@
     {
       "id": "2115915423174853077",
       "desk": "markets",
-      "line": "Changpeng Zhao, who says he no longer manages Binance.com, posts that it does look like a hack on Binance, that user funds are safe, and that he expects them to be fully covered. Tree News posts that Tether froze $971 million in likely connection. Not checked here.",
+      "line": "Changpeng Zhao, who says he no longer manages Binance.com, posts that it looks like a hack and that he expects user funds to be fully covered. Binance posts that its initial look suggests a compromised engineer’s laptop gave an attacker access. Not checked here.",
       "also": [
+        "2115993361517891592",
         "2115912923432227128"
       ]
     },
@@ -248,16 +216,9 @@
       "also": []
     },
     {
-      "id": "2115448243454652623",
-      "desk": "world",
-      "line": "The Associated Press reports that Flávio Bolsonaro, a defeated Brazilian presidential candidate, and his family have landed in Miami after leaving Brazil, a day after the Trump administration granted them US visas. The post carries a 49-second video.",
-      "also": []
-    },
-    {
-      "id": "2115436064458621189",
-      "desk": "tech",
-      "line": "Film director Rian Johnson says he pushed his cinematographer, Steve Yedlin, to make a still-photo app for the iPhone. He says it shoots RAW and uses the image processing the two use on their films. The post links to the App Store listing. Not checked here.",
-      "also": []
+      "id": "2115604910515331293",
+      "desk": "politics",
+      "line": "Journalist Kaitlan Collins posts what she says are Obama’s remarks on his Cheesecake Factory line. He says the White House mobilized a response to a joke and not to inflation. The remarks are his. Not checked here."
     }
   ]
 }
