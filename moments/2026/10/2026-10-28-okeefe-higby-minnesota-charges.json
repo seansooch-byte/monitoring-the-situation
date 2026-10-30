@@ -1,0 +1,58 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-28-okeefe-higby-minnesota-charges",
+  "title": "James O'Keefe and Cam Higby charged in Minnesota over hidden-camera voter registration video",
+  "dek": "Two conservative video makers face felony counts over a stunt meant to show a weakness in how Minnesota registers voters. The two sides describe the same facts in opposite terms.",
+  "desks": [
+    "justice",
+    "politics"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-28T19:00:00Z",
+  "updated_at": "2026-10-30T02:30:00Z",
+  "what": [
+    "On 28 October 2026, Hennepin County Attorney Mary Moriarty announced felony charges of unlawful voting and identity theft against James O'Keefe, 42, and Cam Higby, 26, according to the Associated Press. The charges concern the 11 August primary in Minneapolis.",
+    "Prosecutors say the two used the names of registered voters, without those voters' permission, while starting the \"vouching\" process at Minneapolis polling places. Vouching lets a registered voter confirm the address of someone registering on election day. They recorded the exchanges with hidden cameras for a video. Poll workers noticed and reported it. Other reports say the pair did not cast votes. I did not confirm that detail in the AP text I opened.",
+    "O'Keefe said in a written statement, as quoted by the AP: \"We didn't apply for a ballot; we were there talking to election clerks.\" David Becker of the Center for Election Innovation and Research told the AP that impersonating another voter is a very serious crime.",
+    "Other reports say the two were charged by summons and are due in court in November. Neither has entered a plea."
+  ],
+  "why": "It touches two live arguments at once: whether voter registration rules are easy to abuse, and whether charging people who film such tests is fair. Both camps posted within minutes of the first report.",
+  "worlds": [
+    {
+      "name": "Supporters of O'Keefe",
+      "sees": "Journalists exposed a gap in Minnesota's election rules and are being punished for it with felony charges, which they call lawfare.",
+      "post": "2115478975870898546"
+    },
+    {
+      "name": "Critics of O'Keefe",
+      "sees": "Provocateurs impersonated real voters to try to manufacture an election fraud story, and the charges follow from that.",
+      "post": "2115484149695868994"
+    }
+  ],
+  "common": "Established by the AP: the charges are unlawful voting and identity theft, the Hennepin County Attorney announced them, and they concern an August primary in Minneapolis. Not yet decided: whether the conduct meets the legal definitions, which only a court can settle. Neither defendant has pleaded. The record does not settle whether the pair are journalists, which one side asserts and the other disputes, or whether the video shows a real weakness in vouching.",
+  "next": "The November court date and the defendants' pleas.",
+  "posts": [
+    {
+      "id": "2115470223847633037",
+      "role": "origin"
+    },
+    {
+      "id": "2115478975870898546",
+      "role": "voice"
+    },
+    {
+      "id": "2115484149695868994",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Associated Press via NY1: Conservative activists O'Keefe, Higby charged with unlawful voting in Minnesota",
+      "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/10/28/conservative-activists-okeefe-higby-charged-with-unlawful-voting-in-minnesota"
+    },
+    {
+      "label": "NBC News: James O'Keefe charged with unlawful voting and identity theft in Minnesota",
+      "url": "https://www.nbcnews.com/politics/2026-election/james-okeefe-minnesota-unlawful-voting-identity-theft-charges-rcna606142"
+    }
+  ]
+}

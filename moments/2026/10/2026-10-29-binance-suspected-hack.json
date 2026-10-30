@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-29-binance-suspected-hack",
+  "title": "Billions leave Binance wallets; co-founder says it looks like a hack, Binance says it is investigating",
+  "dek": "Binance is the world's largest crypto exchange. Tether and Circle are reported to have frozen part of the money, and Binance has not confirmed a breach or a total.",
+  "desks": [
+    "markets"
+  ],
+  "standing": "developing",
+  "started_at": "2026-10-29T21:00:00Z",
+  "updated_at": "2026-10-30T02:30:00Z",
+  "what": [
+    "On the evening of 29 October 2026, trade outlets reported that billions of dollars in crypto left wallets linked to Binance across several blockchains. Invezz put the first large moves at about 20:24 UTC on 29 October. Amounts differ between outlets. InvestingLive reported about $2.77 billion moved; Invezz said later tallies ran far higher. I could not find an on-chain or company figure to confirm any of them.",
+    "Changpeng Zhao, a Binance co-founder who says he no longer runs the exchange, wrote on X that it does look like a hack on Binance and that user funds are safe. He said that, as a shareholder, he expects users to be fully covered. That is his view, not a Binance pledge.",
+    "Binance's own statement, as quoted by InvestingLive and Invezz, says its teams are aware of reports of a potential security issue and are investigating, and that user funds are safe. The outlets I read say Binance had not confirmed a breach, a cause or a total loss.",
+    "Tether and Circle, the companies behind the USDT and USDC stablecoins, are reported to have frozen funds. Reports put the freeze at about $971 million of USDT and $823 million of USDC, roughly $1.8 billion together. One report quotes Tether chief executive Paolo Ardoino as saying more than $1.57 billion in USDT linked to the incident was frozen. Those numbers do not agree, and I found no statement from Tether or Circle that I could open. Ether and other assets cannot be frozen the same way, and reports say about 167,000 ETH moved.",
+    "Prices fell. InvestingLive reported Bitcoin down about 2 percent and BNB down about 6 percent, with about $620 million in liquidations in one hour. Those figures are as reported on the night and are out of date."
+  ],
+  "why": "Binance holds a large share of the world's crypto trading, so any sign that its wallets were drained moves prices and worries its customers within minutes. The first word came from an exchange co-founder on X and from a news feed, ahead of any detailed company statement.",
+  "next": "A fuller statement from Binance on what happened and the amount, and statements from Tether and Circle on what they froze.",
+  "posts": [
+    {
+      "id": "2115915423174853077",
+      "role": "voice"
+    },
+    {
+      "id": "2115912923432227128",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "InvestingLive: Binance appears hacked, CZ says, as Tether and Circle freeze $1.79B in stablecoins",
+      "url": "https://investinglive.com/cryptocurrency/binance-appears-hacked-cz-says-as-tether-and-circle-freeze-1-79b-in-stablecoins/"
+    },
+    {
+      "label": "Invezz: Is Binance being hacked? Billions leave hot wallets as Tether and Circle freeze funds",
+      "url": "https://invezz.com/news/2026/10/29/is-binance-being-hacked-billions-leave-hot-wallets-as-tether-and-circle-freeze-funds/"
+    }
+  ]
+}

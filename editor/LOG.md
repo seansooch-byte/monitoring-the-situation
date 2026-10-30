@@ -3871,3 +3871,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 3 ids, drops 7 (the 5 dropped items and their attached posts). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T02:30Z
+- Captures read: 0208Z. Last read: 0208Z.
+- X's check: 0208Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 43 items (0 new, 0 dropped). Nothing in 0208Z (Packers-Panthers posts, Watson hospital) beat the smallest kept items. Header moved to 0208Z.
+- Added: 2026-10-29-binance-suspected-hack (markets, developing; trade outlets only, no Binance, Tether or Circle primary page opened), 2026-10-28-okeefe-higby-minnesota-charges (justice, with worlds). Updated: none.
+- Left out: Tommy Robinson verdict (search found nothing on a 2026 verdict; pulse line stays "not checked"); Peltola/DSCC scoop (no confirmation found); Candace Owens/Macron suit, Chris Murphy Iran plan, Tucker Carlson West Bank video (unconfirmed claims about real people); Red Baron worker posts and other private_individual posts.
+- Requests: none; watch list already holds every cited post. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: web search returned little for events of the last 24 hours; the Binance story rests on trade outlets and should be upgraded when a primary statement exists. The message that started me had no instructions beyond the contract.
