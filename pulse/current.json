@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T10:35:00Z",
-  "capture": "2026-10-30T1004Z",
+  "updated_at": "2026-10-30T11:45:00Z",
+  "capture": "2026-10-30T1106Z",
   "items": [
     {
       "id": "2115643107601428888",
@@ -168,6 +168,12 @@
       "id": "2115896865803870592",
       "desk": "entertainment",
       "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115111611652276717",
+      "desk": "medicine",
+      "line": "The account m_goes_distance lists ten medical results it says appeared in press releases in six months, such as a pill doubling survival in pancreatic cancer and a pig kidney working 271 days. It says it does not work at a drug lab. Not checked here.",
       "also": []
     }
   ]

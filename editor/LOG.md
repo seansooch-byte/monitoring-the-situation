@@ -3951,3 +3951,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 3 ids and adds 5. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T11:50Z
+- Captures read: 1106Z. Last read: 1106Z.
+- X's check: 1106Z 24 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch 2116107855095054823 (bts_bighit): hashtags differ between the record and X; not on the pulse. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged.
+- Pulse: 29 items (1 new, 0 dropped). New: m_goes_distance's list of recent medical results (medicine, which had no item; claims not checked). The build holds back DiscussingFilm's second item (one account, one place). Header moved to 1106Z.
+- Added: none. Updated: 2026-10-29-binance-suspected-hack (about $6.3 billion, about $3 billion frozen, Binance's laptop statement and the TRM and Chainalysis North Korea attribution, all via SecurityWeek; correction added). AO3 story not changed: I found no newer status.
+- Left out: Binance posts by WatcherGuru, spectatorindex, Kobeissi, Simba_crpt, AshCrypto (figures and attributions from posts only; the story covers the news); CantEverDie "donald trump has died" (claim about a real person, unsupported); RT_com grocery worker (private individual); MLFootball Watson post (injury of a real person); wattpad (point unclear); Shatner (entertainment has four); old_content posts.
+- Requests: none; watch.json adds 1 id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
