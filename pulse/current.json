@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T05:20:00Z",
-  "capture": "2026-10-30T0505Z",
+  "updated_at": "2026-10-30T06:20:00Z",
+  "capture": "2026-10-30T0604Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -26,20 +26,6 @@
       "also": [
         "2115560504630317269",
         "2115560036131102985"
-      ]
-    },
-    {
-      "id": "2115494289488953462",
-      "desk": "tech",
-      "line": "Apple chief executive Tim Cook posts a video and says Apple has brought touch to the Mac, with a MacBook Pro that has a touch display. The post gives no price or date."
-    },
-    {
-      "id": "2115503871342809258",
-      "desk": "entertainment",
-      "line": "The account @TurnerSportsEJ posts a video captioned \"It's time.\" The attached ESPN and Bleacher Report posts say it is Ernie Johnson announcing that this is his final season on Inside the NBA. Not checked here.",
-      "also": [
-        "2115507143461752859",
-        "2115505534510235820"
       ]
     },
     {
@@ -161,12 +147,6 @@
       ]
     },
     {
-      "id": "2115497882790875386",
-      "desk": "sports",
-      "line": "NBA reporter Shams Charania says, citing sources, that Indiana Pacers guard Tyrese Haliburton has a left hamstring strain and will miss time. He says the team doctors and Haliburton are working out a timeline.",
-      "also": []
-    },
-    {
       "id": "2115604910515331293",
       "desk": "politics",
       "line": "Journalist Kaitlan Collins posts what she says are Obama’s remarks on his Cheesecake Factory line. He says the White House mobilized a response to a joke and not to inflation. The remarks are his. Not checked here."
@@ -207,9 +187,9 @@
       "line": "The account for The Duskbloods says the game is in final adjustment and that it is moving the launch window to 2027. It apologises to players who have been waiting."
     },
     {
-      "id": "2115442964574908902",
-      "desk": "science",
-      "line": "OcanaSantero says an AI agent performed brain surgery on a mouse with epilepsy, choosing the drug and brain region itself from 19 gene therapy options. The post is cut off in the capture. Not checked here."
+      "id": "2115793711032676693",
+      "desk": "entertainment",
+      "line": "The film news account DiscussingFilm posts a photo and calls it a first look at the popcorn bucket for the film Dune: Part 3."
     }
   ]
 }
