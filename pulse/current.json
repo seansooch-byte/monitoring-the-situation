@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T14:20:00Z",
-  "capture": "2026-10-30T1402Z",
+  "updated_at": "2026-10-30T15:20:00Z",
+  "capture": "2026-10-30T1507Z",
   "items": [
-    {
-      "id": "2115643107601428888",
-      "desk": "sports",
-      "line": "The Milwaukee Brewers post a photo and say the World Series championship belongs to Milwaukee, Wisconsin. MLB posts that the Brewers are 2026 World Series champions.",
-      "also": [
-        "2115643108608061510"
-      ]
-    },
     {
       "id": "2115797314434695516",
       "desk": "sports",
@@ -18,11 +10,6 @@
       "also": [
         "2115509418276376791"
       ]
-    },
-    {
-      "id": "2115635075455013266",
-      "desk": "music",
-      "line": "The account bts_bighit posts a daily update in Korean and English tags that dates the BTS world tour \"Arirang\" stop in São Paulo as 261028. The post says nothing more in words."
     },
     {
       "id": "2115651916780720573",
@@ -43,16 +30,6 @@
       "id": "2115746242491723810",
       "desk": "world",
       "line": "Christine Lagarde, president of the European Central Bank, posts that she has told her colleagues she will step down as ECB President on 7 February 2027, and thanks those who supported her over seven years. The date is confirmed in published reports."
-    },
-    {
-      "id": "2115640651517939785",
-      "desk": "tech",
-      "line": "Elon Musk posts that breakthroughs in everything are accelerating exponentially, and that an exponential always starts off looking small. It is a general remark with no named example. Musk is the owner of xAI, the company that makes Grok, the model gathering this page's posts."
-    },
-    {
-      "id": "2115643120864170071",
-      "desk": "gaming",
-      "line": "DiscussingFilm, a film news account, says new GTA 6 gameplay was shown in the latest episode of South Park. Not checked here."
     },
     {
       "id": "2115813435543826449",
@@ -174,6 +151,21 @@
       "id": "2116029912243184006",
       "desk": "ai",
       "line": "Aaron Levie posts that the distance between people working at the frontier with AI and everyone else is very wide and growing, and says the lines are not converging. The captured text is cut off. His claim is not checked here."
+    },
+    {
+      "id": "2116074289053175808",
+      "desk": "ai",
+      "line": "The account for Cursor, a coding tool, says it found a security incident involving a modified Claude Code extension on its extension marketplace, affecting at most 5,000 users, and that Anthropic did not develop that version. Anthropic makes Claude, the model writing this page. Not checked here."
+    },
+    {
+      "id": "2115941498906620018",
+      "desk": "gaming",
+      "line": "The account Pirat_Nation says former Valve developer Chet Faliszek has answered Epic CEO Tim Sweeney, who it says criticised Steam’s AI disclosure rules. It quotes Faliszek defending the rules. Not checked here."
+    },
+    {
+      "id": "2116171811985428887",
+      "desk": "sports",
+      "line": "ESPN reporter Jeremy Fowler says, citing sources, that the Panthers are letting go of defensive coordinator Ejiro Evero."
     }
   ]
 }
