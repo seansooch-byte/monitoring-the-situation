@@ -3891,3 +3891,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 2 ids, drops 9. plan.json rebuilt.
 - Shipped: yes, commit ba7f2021, live audit clean (this log entry was committed after the ship and changes no site file).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T04:30Z
+- Captures read: 0405Z. Last read: 0405Z.
+- X's check: 0405Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 36 items (3 new, 3 dropped). New: TMZ on a streamer's $12,000 restaurant tab (internet; not checked), Aaron Rupar's video of JD Vance (politics), TheCinesthetic Jennifer Lawrence photos (entertainment; not checked). Dropped as older than 36 hours at 0405Z: Ken Bensinger on O'Keefe and Higby (story covers it), PopBase Selena Gomez and Demi Lovato, BBC Breaking on Sanchez. Header moved to 0405Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: _moteelolah, PatMcAfee and pahrduve clips (no words or media description to tell what they are); rajgupta "never sign in with Google" (unexplained claim); Kobeissi tech stock figures (unconfirmed numbers); Josh Jacobs touchdown posts (one alleges an arrest, an unconfirmed claim about a real person); Red Baron and DDG posts (private individuals); old_content posts.
+- Requests: none; watch.json drops 5 ids, adds 3. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

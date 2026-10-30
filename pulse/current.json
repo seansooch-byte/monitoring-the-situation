@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T03:40:00Z",
-  "capture": "2026-10-30T0305Z",
+  "updated_at": "2026-10-30T04:25:00Z",
+  "capture": "2026-10-30T0405Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -50,15 +50,6 @@
       "also": [
         "2115507143461752859",
         "2115505534510235820"
-      ]
-    },
-    {
-      "id": "2115470223847633037",
-      "desk": "justice",
-      "line": "Ken Bensinger reports that James O'Keefe and Cam Higby have been charged in Minnesota with identity theft and unlawful voting over hidden-camera videos made in August. The two attached posts describe the charges in opposite terms. Not checked here.",
-      "also": [
-        "2115478975870898546",
-        "2115484149695868994"
       ]
     },
     {
@@ -120,11 +111,6 @@
       "line": "Starlink says its Starlink Mobile service is giving free connectivity to Orange and Telefónica customers affected by a train collision in Spain, for compatible LTE phones through apps and texts. Not checked here."
     },
     {
-      "id": "2115470255023861944",
-      "desk": "entertainment",
-      "line": "PopBase posts two photos and says Selena Gomez and Demi Lovato have recreated the poster for the film 'Princess Protection Program'. Not checked here."
-    },
-    {
       "id": "2115534593147187397",
       "desk": "tech",
       "line": "Neuralink says its brain implant is enabling speech to text and voice at conversational rates in participants with ALS. It says one participant reached 75 words a minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. Not checked here."
@@ -148,11 +134,6 @@
       "id": "2115746242491723810",
       "desk": "world",
       "line": "Christine Lagarde, president of the European Central Bank, posts that she has told her colleagues she will step down as ECB President on 7 February 2027, and thanks those who supported her over seven years. The date is confirmed in published reports."
-    },
-    {
-      "id": "2115463733895889319",
-      "desk": "disaster",
-      "line": "BBC Breaking News reports that Spanish Prime Minister Pedro Sánchez, at the site of the train crash, says \"the whole of Spain is grieving\", and that the death toll has risen to 68. The toll was still changing."
     },
     {
       "id": "2115640651517939785",
@@ -219,6 +200,21 @@
       "id": "2115604910515331293",
       "desk": "politics",
       "line": "Journalist Kaitlan Collins posts what she says are Obama’s remarks on his Cheesecake Factory line. He says the White House mobilized a response to a joke and not to inflation. The remarks are his. Not checked here."
+    },
+    {
+      "id": "2115522862131941553",
+      "desk": "internet",
+      "line": "TMZ posts a video and says the streamer Lacy was hit with a $12,000 restaurant bill after viewers on his livestream spotted a QR code at the restaurant and ordered food on his tab. Not checked here."
+    },
+    {
+      "id": "2115979102465266023",
+      "desk": "politics",
+      "line": "Journalist Aaron Rupar posts a video of Vice President JD Vance answering a question about young families and the price of homes. The post quotes Vance saying he has only been asked one question about Jon Husted. The video is not described beyond that."
+    },
+    {
+      "id": "2115077994561847635",
+      "desk": "entertainment",
+      "line": "The film account TheCinesthetic posts two photos and says they show Jennifer Lawrence photographed for The Cut. Not checked here."
     }
   ]
 }
