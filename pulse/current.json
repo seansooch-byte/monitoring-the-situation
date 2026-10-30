@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T09:25:00Z",
-  "capture": "2026-10-30T0910Z",
+  "updated_at": "2026-10-30T10:35:00Z",
+  "capture": "2026-10-30T1004Z",
   "items": [
     {
       "id": "2115643107601428888",
@@ -9,15 +9,6 @@
       "line": "The Milwaukee Brewers post a photo and say the World Series championship belongs to Milwaukee, Wisconsin. MLB posts that the Brewers are 2026 World Series champions.",
       "also": [
         "2115643108608061510"
-      ]
-    },
-    {
-      "id": "2115557099891761437",
-      "desk": "tech",
-      "line": "United Airlines posts that 44% of its Starlink installations are complete, and adds \"44 out of every 100 if you're reading this, Dan Orlovsky.\" Orlovsky replies asking how many there actually are. Pat McAfee's show answers with laughing emojis.",
-      "also": [
-        "2115560504630317269",
-        "2115560036131102985"
       ]
     },
     {
@@ -152,6 +143,32 @@
       "id": "2115793711032676693",
       "desk": "entertainment",
       "line": "The film news account DiscussingFilm posts a photo and calls it a first look at the popcorn bucket for the film Dune: Part 3."
+    },
+    {
+      "id": "2115765128687923608",
+      "desk": "business",
+      "line": "The DoorDash account The Dashboard announces DoorDash's intent to acquire Instacart, saying the two will keep operating as separate, independent companies until closing. The New York Times posts that DoorDash agreed to buy Instacart for $17 billion. Not checked here.",
+      "also": [
+        "2115773331886452820"
+      ]
+    },
+    {
+      "id": "2115809671151751545",
+      "desk": "world",
+      "line": "Senator Chris Murphy posts a video saying Trump is reportedly planning to restart war with Iran after the election. He says he has been briefed on the plan, cannot give details, and calls it insane. The report and his view of the plan are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115907748164759702",
+      "desk": "sports",
+      "line": "Reporter Fabrizio Romano posts that AC Milan and Inter have unveiled a new stadium, to be called the Generali Stadium from the 2031/32 season, and that San Siro will be demolished under the current plan. He says Generali bought the naming rights until 2052 for €650M. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2115896865803870592",
+      "desk": "entertainment",
+      "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here.",
+      "also": []
     }
   ]
 }

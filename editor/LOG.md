@@ -3941,3 +3941,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 5 ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T10:35Z
+- Captures read: 1004Z. Last read: 1004Z.
+- X's check: 1004Z 29 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 28 items (4 new, 1 dropped). New: DoorDash's announcement on Instacart with the Times post in `also` (business); Chris Murphy on Iran (world); Fabrizio Romano on the Milan stadium (sports); Marvel Studios on Patrick Stewart (entertainment). Dropped as older than 36 hours: United Airlines Starlink post with its `also`. The build holds back DiscussingFilm's second item (one account, one place). Header moved to 1004Z. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: 00Keloo, SarahisCensored, factpostnews rally attendee, Red Baron posts, nypost drowning (private individuals); wattpad (point unclear); Kobeissi, WatcherGuru Binance figures (unconfirmed); TuckerCarlson beating video (claim about real people, possibly graphic); Neuralink participant hackathon (may show a private person); MLFootball Watson ambulance (injury of a real person); milezxbt Richard Allen (claim about a real person); elonmusk other posts (his tech post holds his place).
+- Requests: none; watch.json drops 3 ids and adds 5. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
