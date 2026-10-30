@@ -1,0 +1,15 @@
+import fs from 'fs';
+const R = '/workspace/mts-editor/';
+const w = JSON.parse(fs.readFileSync(R + 'requests/watch.json'));
+const drop = new Set(['2115593262799151111', '2115588901196984822', '2115111611652276717']);
+const pulse = JSON.parse(fs.readFileSync(R + 'pulse/current.json'));
+const need = pulse.items.flatMap(i => [i.id, ...(i.also || [])]);
+need.push('2024917454301065480');
+w.post_ids = w.post_ids.filter(i => !drop.has(i) || need.includes(i));
+for (const i of need) if (!w.post_ids.includes(i)) w.post_ids.push(i);
+w.updated_at = '2026-10-30T12:35:00Z';
+fs.writeFileSync(R + 'requests/watch.json', JSON.stringify(w, null, 2) + '\n');
+const o = JSON.parse(fs.readFileSync(R + 'requests/open.json'));
+o.updated_at = w.updated_at;
+fs.writeFileSync(R + 'requests/open.json', JSON.stringify(o, null, 2) + '\n');
+console.log(w.post_ids.length, (o.requests || o.open || []).length);
