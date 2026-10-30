@@ -3,26 +3,55 @@
   "id": "2026-10-21-russia-frees-stephen-hubbard",
   "title": "Russia frees Stephen Hubbard, the last American the US called wrongfully detained there",
   "dek": "The release came during a Trump envoy's talks with Putin. Trump says the US gave nothing in return. That part rests on his word.",
-  "desks": ["world", "politics"],
+  "desks": [
+    "world",
+    "politics"
+  ],
   "standing": "developing",
   "started_at": "2026-10-21T09:31:33Z",
-  "updated_at": "2026-10-21T11:40:00Z",
+  "updated_at": "2026-10-30T21:30:00Z",
   "what": [
     "On Wednesday 21 October, BBC Breaking posted that Russia had released US citizen Stephen Hubbard, citing state media, while Trump envoy Steve Witkoff held talks with Vladimir Putin.",
     "Russian state media outlet Vesti reported, as relayed by the Kyiv Independent, that Putin announced the release during the meeting and said Hubbard had already been taken to the airport. NBC News reports that President Trump then said on Truth Social that Hubbard was on his way home.",
     "Hubbard is 74. A Moscow court sentenced him in October 2024 to six years and ten months for what Russia called mercenary service with Ukraine's forces. NBC News says he denies the charge and that the State Department had designated him wrongfully detained. The Kyiv Independent reports Trump said he had asked Putin for the release in a phone call. NBC quotes Trump as saying the US was not required to give anything in return.",
     "I could not confirm whether Russia received anything. No outlet I opened reports a swap or a stated condition, and Trump's statement is the only account of the terms. The Kyiv Independent notes the release follows Trump's waiver of new Russia sanctions and a diesel purchase deal, which this site covers in a separate story. None of the outlets I opened says the events are linked.",
-    "I did not confirm from a US government or Russian government document that Hubbard has left Russian territory. Reports say he is in transit."
+    "I did not confirm from a US government or Russian government document that Hubbard has left Russian territory. Reports say he is in transit.",
+    "On Friday 30 October, a Fox News post said Trump met Hubbard at the White House and vowed to work on the release of other Americans held in Russia, and that Trump estimates as many as eight may still be held. Two other posts that day, from accounts that back Trump, describe the Oval Office meeting. I found no written report of it, so those details rest on posts. The 21 October statement that nothing was given in return is still Trump's word alone."
   ],
   "why": "A release of a US prisoner during talks about the war in Ukraine is news in its own right. It also arrives days after the sanctions waiver, so many readers are asking what Russia got.",
   "next": "Whether the State Department or Hubbard's family confirms his arrival, and whether either government describes any terms.",
   "posts": [
-    { "id": "2112839193646735745", "role": "origin" },
-    { "id": "2112845675780092315", "role": "voice" }
+    {
+      "id": "2112839193646735745",
+      "role": "origin"
+    },
+    {
+      "id": "2112845675780092315",
+      "role": "voice"
+    },
+    {
+      "id": "2116262095507321298",
+      "role": "voice"
+    }
   ],
   "sources": [
-    { "label": "NBC News: Russia says it freed American Stephen Hubbard, 74, as Trump envoy meets with Putin", "url": "https://www.nbcnews.com/world/russia/russia-released-american-stephen-hubbard-trump-putin-ukraine-war-talks-rcna604730" },
-    { "label": "Kyiv Independent: Russia releases US prisoner Stephen Hubbard during Witkoff visit", "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/" },
-    { "label": "NBC News: Russian court jails US citizen for nearly seven years (October 2024)", "url": "https://www.nbcnews.com/news/world/russian-court-jails-us-citizen-nearly-seven-years-ukraine-mercenary-rcna174236" }
+    {
+      "label": "NBC News: Russia says it freed American Stephen Hubbard, 74, as Trump envoy meets with Putin",
+      "url": "https://www.nbcnews.com/world/russia/russia-released-american-stephen-hubbard-trump-putin-ukraine-war-talks-rcna604730"
+    },
+    {
+      "label": "Kyiv Independent: Russia releases US prisoner Stephen Hubbard during Witkoff visit",
+      "url": "https://kyivindependent.com/russia-releases-us-prisoner-stephen-hubbard-during-witkoff-visit/"
+    },
+    {
+      "label": "NBC News: Russian court jails US citizen for nearly seven years (October 2024)",
+      "url": "https://www.nbcnews.com/news/world/russian-court-jails-us-citizen-nearly-seven-years-ukraine-mercenary-rcna174236"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-10-30T21:30:00Z",
+      "text": "Added the 30 October White House meeting, which so far rests on posts."
+    }
   ]
 }

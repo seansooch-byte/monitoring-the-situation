@@ -1,5 +1,12 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-10-30T20:40:00Z",
-  "requests": []
+  "updated_at": "2026-10-30T21:30:00Z",
+  "requests": [
+    {
+      "id": "r-2026-10-30-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from Donald Tusk, his office, Poland's Justice Minister or Prosecutor General, Judge Anna Korwin-Piotrowska, or President Nawrocki's office about the police at the Constitutional Tribunal in Warsaw on 30 October (see posts 2116218785778569286 and 2116230491439342066). The story holds only the Tribunal president's side so far; I need the government's and the president's own words."
+    }
+  ]
 }

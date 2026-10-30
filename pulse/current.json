@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T20:40:00Z",
-  "capture": "2026-10-30T2006Z",
+  "updated_at": "2026-10-30T21:30:00Z",
+  "capture": "2026-10-30T2102Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -212,7 +212,13 @@
     {
       "id": "2116025216795312542",
       "desk": "disaster",
-      "line": "The account surajit_ghosh2 posts a 75-second video and says a 7.7 magnitude earthquake has struck Panama and the ground splits apart. The post gives no source for the magnitude or the footage. Not checked here."
+      "line": "The account surajit_ghosh2 posts a 75-second video, dated 30 October, and says a 7.7 magnitude earthquake has struck Panama and the ground splits apart. The USGS recorded a 7.7 quake there on 9 October; I could not tell whether this video is from that day. Not checked here."
+    },
+    {
+      "id": "2116218785778569286",
+      "desk": "world",
+      "line": "The Polish-language account PanP23929 says police are storming Poland's Constitutional Tribunal on Donald Tusk's orders and calls it a coup. Polish outlets report police outside the building on written requests from a prosecutor and a judge; the story has the rest.",
+      "also": []
     }
   ]
 }

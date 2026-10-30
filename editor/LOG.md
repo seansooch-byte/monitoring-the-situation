@@ -4031,3 +4031,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 4 ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: Poland and the Constitutional Tribunal is worth a check in the next story pass. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T21:30Z
+- Captures read: 2102Z. Last read: 2102Z.
+- X's check: 2102Z 31 confirmed, 0 missing, 0 mismatched, 1 withheld. No new mismatches.
+- Pulse: 37 items (1 new, 0 dropped). New: PanP23929 on police at Poland's Constitutional Tribunal (world; Polish; story linked). Changed: surajit_ghosh2 Panama quake line now says the USGS recorded a 7.7 quake on 9 October and that I could not tell whether the video is from then. Header moved to 2102Z. The build holds back DiscussingFilm's second item.
+- Added: 2026-10-30-poland-constitutional-tribunal-police (world, justice; developing; rests on rp.pl, TVN24, Notes from Poland; government and president words not found). Updated: 2026-10-21-russia-frees-stephen-hubbard (30 October White House meeting, rests on a Fox post; correction added).
+- Left out: Lt. Gen. Brett Sylvia firing (searched again, nothing outside X and CBS's anonymous official); Sun Goddess Breeders' Cup (small); Trump-supporter accounts on Hubbard (Fox covers it); Bryce Hall TMZ clip (assault video of a named person, no outside source); elonmusk 2028 post, wattpad, paramountplus, RT grocery clip, SarahisCensored (as before); Ballon d'Or post (older than 36 hours).
+- Requests: added r-2026-10-30-01 (government and president side on the Tribunal). watch.json adds 3 ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
