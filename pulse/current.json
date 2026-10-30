@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T07:25:00Z",
-  "capture": "2026-10-30T0701Z",
+  "updated_at": "2026-10-30T08:25:00Z",
+  "capture": "2026-10-30T0805Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -52,11 +52,6 @@
       "line": "The Pacers' account posts a short video captioned \"Jalen Slawson chasedown block.\" The capture holds no description of the clip."
     },
     {
-      "id": "2115531924923949371",
-      "desk": "science",
-      "line": "The White House account posts two photos with the words \"Welcome to the Oval Office, Artemis III Crew!\" The capture holds no description of the photos."
-    },
-    {
       "id": "2115635075455013266",
       "desk": "music",
       "line": "The account bts_bighit posts a daily update in Korean and English tags that dates the BTS world tour \"Arirang\" stop in São Paulo as 261028. The post says nothing more in words."
@@ -65,11 +60,6 @@
       "id": "2115588901196984822",
       "desk": "tech",
       "line": "Starlink says its Starlink Mobile service is giving free connectivity to Orange and Telefónica customers affected by a train collision in Spain, for compatible LTE phones through apps and texts. Not checked here."
-    },
-    {
-      "id": "2115534593147187397",
-      "desk": "tech",
-      "line": "Neuralink says its brain implant is enabling speech to text and voice at conversational rates in participants with ALS. It says one participant reached 75 words a minute at a 5.8% word error rate on a 125,000-word vocabulary in their first week. Not checked here."
     },
     {
       "id": "2115651916780720573",

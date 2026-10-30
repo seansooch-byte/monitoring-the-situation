@@ -3921,3 +3921,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 1 id (TMZ). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T08:25Z
+- Captures read: 0805Z. Last read: 0805Z.
+- X's check: 0805Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 29 items (0 new, 2 dropped). Dropped as older than 36 hours at 0805Z: Neuralink speech implant (tech), White House Artemis III crew photos (science). Binance's own post is already in the cz_binance item's `also`. Header moved to 0805Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 00Keloo DDG clip, SarahisCensored clip, factpostnews rally attendee (private individuals or a minor); PopBase Stewart (his own post is placed); AO3_Status second post (same account); wattpad (point unclear); Kobeissi, cryptoblaney, WatcherGuru Binance posts (unconfirmed figures, opinion); ProudSocialist (unconfirmed claim about a real person); MySportsUpdate Watson ambulance (injury of a real person); realgekkox Nike claim (unchecked); NFL and MLB Brewers posts (sports has four); Elon Musk politics posts (his tech post holds his place).
+- Requests: none; watch.json drops 2 ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
