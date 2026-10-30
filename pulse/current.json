@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T21:30:00Z",
-  "capture": "2026-10-30T2102Z",
+  "updated_at": "2026-10-30T22:15:00Z",
+  "capture": "2026-10-30T2202Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -15,11 +15,6 @@
       "id": "2115864946093305955",
       "desk": "internet",
       "line": "The fan fiction archive Archive of Our Own posts through its status account that it estimates restoring the site will take around two weeks, possibly up to four, and that it hopes to bring the site back in a degraded state sooner."
-    },
-    {
-      "id": "2115746242491723810",
-      "desk": "world",
-      "line": "Christine Lagarde, president of the European Central Bank, posts that she has told her colleagues she will step down as ECB President on 7 February 2027, and thanks those who supported her over seven years. The date is confirmed in published reports."
     },
     {
       "id": "2115813435543826449",
@@ -218,6 +213,18 @@
       "id": "2116218785778569286",
       "desk": "world",
       "line": "The Polish-language account PanP23929 says police are storming Poland's Constitutional Tribunal on Donald Tusk's orders and calls it a coup. Polish outlets report police outside the building on written requests from a prosecutor and a judge; the story has the rest.",
+      "also": []
+    },
+    {
+      "id": "2116216763582972069",
+      "desk": "world",
+      "line": "Polish President Karol Nawrocki posts, in Polish, that the president must be in Poland at such a moment and that he is breaking off his flight to Senegal to return. Outlets report the trip was cut short as police stood outside the Constitutional Tribunal; the story has the rest.",
+      "also": []
+    },
+    {
+      "id": "2116238502027464938",
+      "desk": "world",
+      "line": "Polish Prime Minister Donald Tusk posts, in Polish, that restoring the rule of law is a duty, that after years of lawlessness under the previous government it is hard and sometimes painful, and that there is no other way. The post does not name the Tribunal. Not checked here.",
       "also": []
     }
   ]
