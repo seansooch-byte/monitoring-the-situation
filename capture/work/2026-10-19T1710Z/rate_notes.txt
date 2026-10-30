@@ -1,0 +1,2 @@
+17:13Z first search batch: 11 of 11 search_posts_all calls drew HTTP 429 (shared access), no reads used
+17:14Z: 'and lang:en is:quote -is:retweet' rejected 400 Invalid Request: Ambiguous use of and as a keyword (counted 1 read)

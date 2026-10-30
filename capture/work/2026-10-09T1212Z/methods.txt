@@ -1,0 +1,4 @@
+sensors.news: (from:atrupar OR ... Gerashchenko_en) -is:reply recency 25
+sensors.money: (from:unusual_whales ... GrantCardone) -is:reply recency 25
+sensors.science: (from:AndrewCurran_ ... CDCgov) -is:reply recency 25
+rising/viral quote page1: just lang:en is:quote -is:retweet

@@ -1,0 +1,8 @@
+s=open('build_capture.py').read()
+a="skip_nsfw |= {'2089379181767323767','1688691894786646016'}  # 0400Z"
+assert a in s
+s=s.replace(a,"skip_nsfw |= {'2099893251192861149','2111972966699512306','2112176047156564186'}  # 0501Z: pornographic text (VIXEMAINE, Sept 15 origin); media not returned, could not be screened (dojaclouds 'that walk' post); likely paid (sangeiji escalator clip: 2,972 likes and 0 replies on 2.1M views)\n"+a,1)
+b="EXTRA_PRIVATE |= {'2071655688405987677','2112092642020655155','2111854258588959211'}  # 0400Z"
+assert b in s
+s=s.replace(b,"EXTRA_PRIVATE |= {'2112177541859738008','2111136722998501763','2112014034308636969'}  # 0501Z: Jizhengguang video of a group of youths beating a girl (private people, possibly minors); CHOCOLATE_6840 video of two young women in Osaka (private people); SeeRacists video of a woman in blackface on TikTok (pile-on on a person not named as a public figure)\nDESK_OVERRIDE_RUN.update({'2112177541859738008':'world','2111136722998501763':'world','2112080505600368998':'world','2066087031009067467':'offbeat','2067246943634329813':'offbeat','2028279728592007656':'offbeat','2069266716551508221':'sports','2112120461312045136':'internet','2112151357096428015':'internet','2112129810260791804':'life','2112373713937084809':'tech'})  # 0501Z desk fixes: China bullying video, Osaka video and Nigeria tax clip to world; orangutan and lion-hippo clips to offbeat; Shams Giannis trade post to sports; parent-quote memes to internet; Victoria's Secret show video to life; Musk timeline-ranking post to tech\n"+b,1)
+open('build_capture.py','w').write(s); print('ok')

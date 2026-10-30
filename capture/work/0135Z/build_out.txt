@@ -1,0 +1,13 @@
+wrote /workspace/monitoring-the-situation/capture/2026/10/10/0135Z.json
+posts 120 obs 353 sweeps 35 x_stories 80
+pace_kept 35
+source metrics:
+  references: reads=0 cand=337 kept=93 largest=39941913 median=645377 age=30.68
+  sensors: reads=3 cand=70 kept=5 largest=8887990 median=220888 age=1.87
+  trend_names: reads=5 cand=96 kept=6 largest=8260442 median=426159 age=8635.93
+  quote_stream: reads=2 cand=32 kept=2 largest=905811 median=557160 age=4.33
+  repost_stream: reads=1 cand=20 kept=0 largest=0 median=0 age=None
+  story_clusters: reads=5 cand=50 kept=42 largest=9074009 median=653428 age=34.34
+  desk_repost_streams: reads=4 cand=86 kept=6 largest=1015039 median=383122 age=8.88
+fastest pace ('2108724872855588938', 55985, 0.6383333333333333, 87704)
+skipped sexual 2
