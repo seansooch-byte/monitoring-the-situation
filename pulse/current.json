@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T19:25:00Z",
-  "capture": "2026-10-30T1906Z",
+  "updated_at": "2026-10-30T20:40:00Z",
+  "capture": "2026-10-30T2006Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -193,6 +193,26 @@
       "id": "2116213541304746415",
       "desk": "ai",
       "line": "Pubity posts a clip of OpenAI CEO Sam Altman saying it is “quite terrible”, from a global allocation view, for people to hold so much of the world’s limited DRAM in their own computers. Not checked here."
+    },
+    {
+      "id": "2116214866444943853",
+      "desk": "science",
+      "line": "Google CEO Sundar Pichai says Project Suncatcher, a prototype satellite launched a few weeks ago, has now received a command, booted its TPU chip, run a prompt and sent back a first full response, a haiku. Google is the speaker; not checked here."
+    },
+    {
+      "id": "2116173868326846654",
+      "desk": "science",
+      "line": "NASA posts that it mourns the passing of Patrick Stewart, who it says inspired countless people at the agency and beyond. The actor's death is also reported in other posts on this page."
+    },
+    {
+      "id": "2116220869479428500",
+      "desk": "ai",
+      "line": "Claude's own account announces that its Max 5x plan becomes Max and Max 20x becomes Ultra, at the same prices, and says the 5-hour limit is removed for verified Ultra accounts. Anthropic, which makes the model writing this page, is the speaker."
+    },
+    {
+      "id": "2116025216795312542",
+      "desk": "disaster",
+      "line": "The account surajit_ghosh2 posts a 75-second video and says a 7.7 magnitude earthquake has struck Panama and the ground splits apart. The post gives no source for the magnitude or the footage. Not checked here."
     }
   ]
 }

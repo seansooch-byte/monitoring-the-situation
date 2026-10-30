@@ -4021,3 +4021,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 1 id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T20:40Z
+- Captures read: 2006Z. Last read: 2006Z.
+- X's check: 2006Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. No new mismatches.
+- Pulse: 36 items (4 new, 0 dropped). New: Pichai on Project Suncatcher's first response from orbit (science; Google speaking); NASA mourning Patrick Stewart (science); Claude's account on renaming Max plans (ai; line says Anthropic, maker of the model writing the page, is the speaker); surajit_ghosh2 on a 7.7 earthquake in Panama (disaster; not checked, no source in the post). Nothing older than 36 hours. Header moved to 2006Z. The build holds back DiscussingFilm's second item (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: DeMarcus Henry commitment posts (a high school recruit, a minor); RT grocery clip and 00Keloo DDG clip (private_individual); SarahisCensored "find this man" (private person, point unclear); factpostnews rally-attendee clip (crude remark about real people); Poland "coup" posts by MarioBojic, Seawater_21, BowesChay (contested claim about a named leader, nothing outside X; for the story pass); cryptorover $940B crash (unconfirmed); Ja Morant injury (injury of a real person); elonmusk posts (opinion on real people); wattpad, paramountplus, old_content posts.
+- Requests: none; watch.json adds 4 ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: Poland and the Constitutional Tribunal is worth a check in the next story pass. The message that started me had no instructions beyond the contract.
