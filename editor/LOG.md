@@ -3981,3 +3981,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 1 id and adds 1. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T14:20Z
+- Captures read: 1402Z. Last read: 1402Z.
+- X's check: 1402Z 38 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches 2116107855095054823 (bts_bighit) and 2115820960037429339 (BIGHIT_MUSIC) unchanged, not on the pulse.
+- Pulse: 29 items (1 new, 0 dropped). New: Aaron Levie on the AI frontier gap (ai; the grabber filed it under science; claim not checked, captured text is cut off). Nothing is older than 36 hours yet; Brewers, bts_bighit, Musk tech and DiscussingFilm GTA items are within an hour of it. The build holds back DiscussingFilm's second item (one account, one place). Header moved to 1402Z. Medicine has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: RT_com grocery worker (private individual); wattpad (point unclear); antrofrog_ and Hennepin posts (older than 36 hours); elonmusk 2028 and early-voting posts (his tech post holds his place; the first is opinion on real people); Binance, WatcherGuru, CryptoNobler figures (unconfirmed; the Binance story covers it); LongTimeHistory police video (real people, unconfirmed); DeSantis Polk County post (claims not checked, smaller); old_content posts; Halloween Eve greetings (no point to report).
+- Requests: none; watch.json adds 1 id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

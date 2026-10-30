@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T13:14:44Z",
-  "capture": "2026-10-30T1305Z",
+  "updated_at": "2026-10-30T14:20:00Z",
+  "capture": "2026-10-30T1402Z",
   "items": [
     {
       "id": "2115643107601428888",
@@ -169,6 +169,11 @@
       "id": "2115915319134855447",
       "desk": "world",
       "line": "Salvadoran President Nayib Bukele posts a message in Haitian Creole to the Haitian people. He says El Salvador has almost finished deploying its soldiers and equipment in Haiti, that this is not an invasion, that it is aimed at gangs, and that El Salvador pays about 90% of the cost. Not checked here."
+    },
+    {
+      "id": "2116029912243184006",
+      "desk": "ai",
+      "line": "Aaron Levie posts that the distance between people working at the frontier with AI and everyone else is very wide and growing, and says the lines are not converging. The captured text is cut off. His claim is not checked here."
     }
   ]
 }
