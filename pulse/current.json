@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-29T22:40:00Z",
-  "capture": "2026-10-29T2203Z",
+  "updated_at": "2026-10-30T01:35:00Z",
+  "capture": "2026-10-30T0109Z",
   "items": [
     {
       "id": "2115539516530573789",
@@ -9,22 +9,6 @@
       "line": "The account mikefreemanNFL posts that 93.5 percent of 396 deceased NFL players examined from 2008 to 2023 had CTE, a brain disease. Reporter Adam Schefter posts a lower estimate, 75 percent, from a new study. Neither post names it in its text. Not checked here.",
       "also": [
         "2115745361973420399"
-      ]
-    },
-    {
-      "id": "2115411232023011746",
-      "desk": "world",
-      "line": "India’s prime minister, Narendra Modi, says MLC elections for 28 seats in four states used ballot papers, and asks how many Congress won. Dhruv Rathee replies that the fraud is on voter lists and that Modi lost his own constituency, Varanasi. Not checked here.",
-      "also": [
-        "2115444013364826346"
-      ]
-    },
-    {
-      "id": "2115424755318694082",
-      "desk": "sports",
-      "line": "Sam McDowell, a reporter for The Kansas City Star, says the Chiefs are signing kicker Justin Tucker to the practice squad, citing a source. ESPN’s Adam Schefter repeats it and adds that Tucker has not kicked in the NFL since 2024, after a personal-conduct violation following allegations of sexual misconduct.",
-      "also": [
-        "2115427568237363306"
       ]
     },
     {
@@ -132,21 +116,6 @@
       "id": "2115542298847297548",
       "desk": "tech",
       "line": "JerryRigEverything, a channel that stress-tests phones, posts a video of a durability test of the \"Trump Phone\" and says the result is \"worse than we thought\". The video was not watched here. Not checked here."
-    },
-    {
-      "id": "2115421101010374767",
-      "desk": "markets",
-      "line": "The Depository Trust & Clearing Corporation, a US market infrastructure company, says its Tokenization Service is now live and that this is only the beginning. The post has a 35-second video and a link. Not checked here."
-    },
-    {
-      "id": "2115397320292663758",
-      "desk": "internet",
-      "line": "ChipGotIt_, an account that shares streamer clips, says the streamer Lacy's first Japan stream went wrong when he accidentally showed a restaurant's QR code. It says viewers then ordered over 500,000 yen of food and drinks. Not checked here."
-    },
-    {
-      "id": "2115423937299697713",
-      "desk": "music",
-      "line": "A fan account posts an 18-second clip and says Wonyoung told Jiwon to go in the middle, adding that the CEO of Bvlgari was there. The capture has no description of the clip. Not checked here."
     },
     {
       "id": "2115593262799151111",
@@ -271,6 +240,24 @@
       "also": [
         "2115912923432227128"
       ]
+    },
+    {
+      "id": "2115497882790875386",
+      "desk": "sports",
+      "line": "NBA reporter Shams Charania says, citing sources, that Indiana Pacers guard Tyrese Haliburton has a left hamstring strain and will miss time. He says the team doctors and Haliburton are working out a timeline.",
+      "also": []
+    },
+    {
+      "id": "2115448243454652623",
+      "desk": "world",
+      "line": "The Associated Press reports that Flávio Bolsonaro, a defeated Brazilian presidential candidate, and his family have landed in Miami after leaving Brazil, a day after the Trump administration granted them US visas. The post carries a 49-second video.",
+      "also": []
+    },
+    {
+      "id": "2115436064458621189",
+      "desk": "tech",
+      "line": "Film director Rian Johnson says he pushed his cinematographer, Steve Yedlin, to make a still-photo app for the iPhone. He says it shoots RAW and uses the image processing the two use on their films. The post links to the App Store listing. Not checked here.",
+      "also": []
     }
   ]
 }

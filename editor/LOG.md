@@ -3861,3 +3861,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json updated, plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-30T01:40Z
+- Captures read: 0109Z. Last read: 0109Z. (No 2303Z or 0003Z capture exists; the grabber's notes say those runs did not happen.)
+- X's check: 0109Z 40 confirmed, 0 missing, 1 mismatched (2115820960037429339, BIGHIT_MUSIC, not on the pulse; the record and X differ in hashtags), 0 withheld. Earlier mismatches unchanged, not on the pulse.
+- Pulse: 43 items (3 new, 5 dropped). New: Shams Charania on Haliburton's hamstring strain (sports), AP on the Bolsonaro family landing in Miami (world), Rian Johnson on a camera app (tech; not checked). Dropped as older than 36 hours: Modi MLC elections, lizrocknroll Wonyoung clip, ChipGotIt_ streamer clip, SamMcDowell11 Justin Tucker, DTCC tokenization. Header moved to 0109Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Trump rally attendee clip (a private person's remark); IShowSpeed fan prize (names a private person); Tucker Carlson video on a beating in the West Bank (unconfirmed claim about real people; for the story pass); Hisomtheboat Tom Holland relationship post (unconfirmed claim about real people); DDG stream post (shows a minor); private_individual posts; old_content posts.
+- Requests: none; watch.json adds 3 ids, drops 7 (the 5 dropped items and their attached posts). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
