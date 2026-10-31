@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T12:20:00Z",
-  "capture": "2026-10-31T1208Z",
+  "updated_at": "2026-10-31T13:25:00Z",
+  "capture": "2026-10-31T1303Z",
   "items": [
     {
       "id": "2115979102465266023",
@@ -190,6 +190,16 @@
       "id": "2116220914593640468",
       "desk": "entertainment",
       "line": "Pop Crave posts two photos it says show the model Alex Consani dressed as a Thumb-Thumb from the film 'Spy Kids' for Halloween."
+    },
+    {
+      "id": "2116489136496365588",
+      "desk": "sports",
+      "line": "ESPN reporter Adam Schefter says, with Ian Rapoport, citing sources, that the Indianapolis Colts are open to trading running back Jonathan Taylor and that several teams have called about him. Not checked here."
+    },
+    {
+      "id": "2116094944666407243",
+      "desk": "music",
+      "line": "The Pop Base account posts two photos and says the singer Lily Allen dressed as a Ticketmaster seat map for Halloween, with her caption \"Never beating the allegations #bluedotfever\". The photos are not described in the capture."
     }
   ]
 }
