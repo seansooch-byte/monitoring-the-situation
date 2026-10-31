@@ -4201,3 +4201,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2 ids. plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T16:50Z
+- Captures read: 1602Z. Last read: 1602Z.
+- X's check: 1602Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 38 items (1 new, 0 dropped). New: Changpeng Zhao's reply to Elon Musk about Binance's SPCX shares (markets, his claims, not checked here). Nothing reached 36 hours. The internet desk still has no item. Header moved to 1602Z.
+- Added: none. Updated: none. The Poland Tribunal story was rechecked against its listed sources and is current; web searches on Binance and Ja Morant came back thin, so those were not changed.
+- Left out: TMZ Bryce Hall, Mangaaposts, aooni_official, 63rvssell, hobifIwr (private person, unclear or promotion); choblin29 Cisco post (names a 27-year-old engineer); Ja Morant hamstring (Shams, single X source, account already on the pulse); $940B crash post (figure only on X); WatcherGuru North Korea Binance posts (CNN not opened; the story already says so); further elonmusk, Talarico and Haley posts (one account, advocacy).
+- Requests: none; watch list adds 1 id. plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. For a longer pass: Binance (attribution, recovery), Ja Morant injury and the Cisco/Fortune AI-code story need real research; search results this pass were thin.
