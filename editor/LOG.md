@@ -4251,3 +4251,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2 ids. plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T21:50Z
+- Captures read: 2100Z. Last read: 2100Z.
+- X's check: 2100Z 67 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 46 items listed (3 new, 2 dropped); the build shows 45, holding one AP post off as a second item from one account. New: Polymarket on Johannesburg water (world); Krassenstein on the WSJ dismissal (justice); AP on California voter rolls (politics, not checked here). Dropped, at 36 hours: a markets item and a music item. Header moved to 2100Z.
+- Added: 2026-10-31-trump-wsj-epstein-suit-dismissed (justice), 2026-10-31-johannesburg-water-crisis (world). Updated: none. Poland story not changed: a search found nothing newer than it already says.
+- Left out: Mamdani/Trump visa post (centres on a murdered child's family); Taika Waititi review claim (unchecked); Kane Ballon d'Or (story exists, sports desk full); Tel Aviv march (small, no second source); Halloween unrest in France (no source opened); Florida QB benching and other college football (sports desk full); TrumpDailyPosts, Tironianae (partisan, unchecked).
+- Requests: none; watch list adds 4 ids and drops 2. plan.json rebuilt for 22Z.
+- Shipped: yes, commit 8fea4063, live audit clean (log added in a following commit).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Fewer than ten stories are live against the aim of ten to sixteen; I added two because few other claims could be confirmed in this pass.
