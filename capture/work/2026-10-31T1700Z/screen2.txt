@@ -1,0 +1,8 @@
+<cursor_untrusted_data_1337 source="CallDynamicTool">
+
+{"errors":[{"detail":"Sorry, you are not authorized to see the post with ids: [2116132052269744396].","parameter":"ids","resource_id":"2116132052269744396","resource_type":"post","section":"data","title":"Authorization Error","type":"https://api.x.com/2/problems/not-authorized-for-resource","value":"2116132052269744396"},{"detail":"Could not find post with ids: [2116220130179055696].","parameter":"ids","resource_id":"2116220130179055696","resource_type":"post","title":"Not Found Error","type":"https://api.x.com/2/problems/resource-not-found","value":"2116220130179055696"},{"detail":"Could not find post with ids: [2060339087798661321].","parameter":"ids","resource_id":"2060339087798661321","resource_type":"post","title":"Not Found Error","type":"https://api.x.com/2/problems/resource-not-found","value":"2060339087798661321"}],"meta":{"result_count":0}}
+expansions referenced_tweets.id.attachments.media_keys was added, so any video or image on the post, or on a post it quotes, comes back with its media URLs.
+post.fields article was added, so a post longer than 280 characters comes back with its full text in note_tweet, and an X Article with its title and body in article.
+X reads left for this user: 27 of 30 this minute (resets at 2026-10-31T17:05:00.000Z), 462 of 1000 today (resets at 2026-11-01T00:00:00.000Z).
+
+</cursor_untrusted_data_1337>
