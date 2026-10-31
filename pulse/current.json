@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T19:30:00Z",
-  "capture": "2026-10-31T1909Z",
+  "updated_at": "2026-10-31T20:30:00Z",
+  "capture": "2026-10-31T2000Z",
   "items": [
     {
       "id": "2116171811985428887",
@@ -231,6 +231,16 @@
       "id": "2116137323054403669",
       "desk": "internet",
       "line": "The account DisTurB____ posts that some people do not care about GTA missions and just want to be unnecessarily wicked, quoting another GTA post in Japanese. A joke about how people play the game."
+    },
+    {
+      "id": "2116399240880480429",
+      "desk": "tech",
+      "line": "Tesla fan account Sawyer Merritt says Tesla is marking Halloween by sending a Cybercab, its self-driving car, around Austin with skeletons inside, and posts a short video. Not checked here."
+    },
+    {
+      "id": "2116574052903251969",
+      "desk": "gaming",
+      "line": "Gaming poster SkyRaiderG7 says a leaked video of what looks like an internal presentation is \"too good to fake\", pointing to interface details and debug text in it. The leak and its source have not been checked here."
     }
   ]
 }

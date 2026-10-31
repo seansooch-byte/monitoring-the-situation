@@ -4241,3 +4241,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 4 ids and drops Cursor. plan.json rebuilt for 20Z.
 - Shipped: yes, commit f633cc9b, live audit clean (log added in a following commit).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. The build held off one post as a second item from one account (popbase).
+
+## 2026-10-31T20:30Z
+- Captures read: 2000Z. Last read: 2000Z.
+- X's check: 2000Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 45 items (2 new, 0 dropped). New: Sawyer Merritt's Cybercab Halloween video (tech, claim not checked here); SkyRaiderG7 on the leaked presentation video (gaming, not checked here). Nothing reached 36 hours. Header moved to 2000Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: NYCMayor post about a murdered child's mother's visa (names a minor and a private family); WatcherGuru North Korea Binance hack (crypto desk retired, figure unchecked); Zelenskyy World Central Kitchen thanks (world desk already has four); Syracuse/SMU and Michigan/Rutgers posts (sports desk full); gannwyck crash post (prediction, financial); further elonmusk posts (one account); gapjilreborn, nujhayhne_, FadeHubb (private_individual); old_content posts; Nicki Minaj reply posts (pile-on replies).
+- Requests: none; watch list adds 2 ids. plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
