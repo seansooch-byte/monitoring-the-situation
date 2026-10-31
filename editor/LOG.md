@@ -4181,3 +4181,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list drops 4 ids and adds 2. plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T13:25Z
+- Captures read: 1303Z. Last read: 1303Z.
+- X's check: 1303Z 32 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 37 items (2 new, 0 dropped). New: Adam Schefter on the Colts open to trading Jonathan Taylor (sports, sourced report, not checked here); Pop Base on Lily Allen's Ticketmaster seat map costume (music; Pop Base's other item is on entertainment, so the build holds this one off the front page). Header moved to 1303Z. The Rupar/Vance item (posted 01:28Z on 30 Oct) reaches 36 hours at 13:28Z and should go next pass. The internet desk still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: kellytheboss7 cafe story (private people, influencer not a public figure); Campbell4TN First Lady post (advocacy); HBO Max IT special (PopBase item covers it); Nawrocki inside the Tribunal reposts (covered); Barstool, NBA Curry, MLB parade clips (sports desk full); Lenovo F1 promo (advertisement); TMZ Bryce Hall, gapjilreborn, mtracey, Clav0Updates (private_individual or real people); old_content posts; 63rvssell, aooni_official, Mangaaposts (unverifiable, promotion, unclear).
+- Requests: none; watch list adds 2 ids. plan.json rebuilt for 14Z.
+- Shipped: yes, commit b1be0eb1, live audit clean (log added in a following commit; site unchanged by it).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
