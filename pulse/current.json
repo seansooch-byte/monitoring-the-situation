@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T14:20:00Z",
-  "capture": "2026-10-31T1400Z",
+  "updated_at": "2026-10-31T15:20:00Z",
+  "capture": "2026-10-31T1500Z",
   "items": [
     {
       "id": "2116029912243184006",
@@ -177,11 +177,6 @@
       "line": "The account PopBase posts that ‘IT: Welcome To Derry’ has surprise dropped a new episode, titled ‘A Story of Derry’, for Halloween. The post carries a video that is not described. Not checked here."
     },
     {
-      "id": "2115993361517891592",
-      "desk": "markets",
-      "line": "Binance's official account says its first look points to a compromised DevOps engineer's laptop, and that it found no evidence of a wallet private key leak. It puts the total impact near $6.3B and says it will cover all losses. These are the company's own claims. Not checked here."
-    },
-    {
       "id": "2116220914593640468",
       "desk": "entertainment",
       "line": "Pop Crave posts two photos it says show the model Alex Consani dressed as a Thumb-Thumb from the film 'Spy Kids' for Halloween."
@@ -205,6 +200,16 @@
       "id": "2116170360571748411",
       "desk": "justice",
       "line": "The Metropolitan Police says anyone planning to attend a demonstration in support of Palestine Action near the US Embassy on Saturday 31 October will face arrest. It says support for the group is an offence under the Terrorism Act since its ban in June 2025, upheld by the Court of Appeal."
+    },
+    {
+      "id": "2116379133672612201",
+      "desk": "sports",
+      "line": "The Golden State Warriors post a short video they call a three-point masterclass from Stephen, and credit NBA on Prime. The capture has no description of the video."
+    },
+    {
+      "id": "2116534734763458792",
+      "desk": "sports",
+      "line": "Fabrizio Romano posts that Manchester United have gone nine games without a win, and says their only two wins this season in all competitions came against Sabah and Ipswich Town. Not checked here."
     }
   ]
 }

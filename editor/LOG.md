@@ -4191,3 +4191,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2 ids. plan.json rebuilt for 14Z.
 - Shipped: yes, commit b1be0eb1, live audit clean (log added in a following commit; site unchanged by it).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T15:25Z
+- Captures read: 1400Z, 1500Z. Last read: 1500Z.
+- X's check: 1500Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 37 items (2 new, 1 dropped). New: Golden State Warriors Curry three-point video (sports); Fabrizio Romano on Manchester United's winless run (sports, claim not checked here). Dropped, older than 36 hours: Binance's own post. Header moved to 1500Z. The internet desk still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ Bryce Hall, 63rvssell, Mangaaposts, aooni_official, hobifIwr (private person, unclear or promotion); further elonmusk posts (one account); Talarico and Haley campaign posts (advocacy); Morgan Rogers clip (small, young); old_content and private_individual posts.
+- Requests: none; watch list adds 2 ids. plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
