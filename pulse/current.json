@@ -1,17 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T07:20:00Z",
-  "capture": "2026-10-31T0700Z",
+  "updated_at": "2026-10-31T08:25:00Z",
+  "capture": "2026-10-31T0800Z",
   "items": [
-    {
-      "id": "2115891266131300517",
-      "desk": "entertainment",
-      "line": "The verified account of actor Patrick Stewart posts that, in lieu of flowers, memorial contributions may be made to the Johns Hopkins Alzheimer’s Disease Research Center Fund and the Alzheimer’s Foundation of America. The Hollywood Reporter and Sky News post that he has died at 86. Not checked here.",
-      "also": [
-        "2115891473162104890",
-        "2115895616433701184"
-      ]
-    },
     {
       "id": "2115915423174853077",
       "desk": "markets",
@@ -35,11 +26,6 @@
       "id": "2115907748164759702",
       "desk": "sports",
       "line": "Reporter Fabrizio Romano posts that AC Milan and Inter have unveiled a new stadium, to be called the Generali Stadium from the 2031/32 season, and that San Siro will be demolished under the current plan. He says Generali bought the naming rights until 2052 for €650M. Not checked here."
-    },
-    {
-      "id": "2115896865803870592",
-      "desk": "entertainment",
-      "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here."
     },
     {
       "id": "2115915319134855447",
@@ -218,6 +204,11 @@
       "desk": "sports",
       "line": "NBA reporter Shams Charania posts that Oklahoma City Thunder player Chet Holmgren had treatment on Friday for a small patellar tendon tear and is expected back in 8 to 10 weeks. This is his report, not checked here.",
       "also": []
+    },
+    {
+      "id": "2116247027335966934",
+      "desk": "tech",
+      "line": "The account ns123abc posts that Google’s Project Suncatcher satellite, launched on a SpaceX rocket with four TPUs, ran Gemma inference in orbit and sent the answer to Earth. The post says SpaceX will fly NVIDIA GPUs on Starship in late 2027. Not checked here."
     }
   ]
 }

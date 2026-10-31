@@ -4131,3 +4131,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json rebuilt from the pulse, its attached posts and stories from the last 48 hours. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T08:28Z
+- Captures read: 0800Z. Last read: 0800Z.
+- X's check: 0800Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 38 items (1 new, 2 dropped). New: ns123abc on Google's Project Suncatcher satellite running Gemma in orbit (tech; the poster's claim, not checked). Dropped, older than 36 hours: Patrick Stewart family post (with its two attached posts), Marvel Studios tribute. Header moved to 0800Z. The internet desk still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: DefiantLs clip (who "she" is cannot be worked out from the post); elonmusk Talarico post (one account already on the pulse); cz_binance Elon post (account already on the pulse); gmannVOLS recruit post (likely a minor); gapjilreborn (private_individual); TMZ Bryce Hall; WatcherGuru stock post (unconfirmed); Tesla and robotaxi posts (promotion); NBA clips (sports full); old_content posts.
+- Requests: none; watch.json drops 3 ids and adds 1. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: the Patrick Stewart death reports went off the pulse at 36 hours; a story pass could check them against a primary source. The message that started me had no instructions beyond the contract.
