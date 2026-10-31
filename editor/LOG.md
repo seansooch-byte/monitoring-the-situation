@@ -4141,3 +4141,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 3 ids and adds 1. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: the Patrick Stewart death reports went off the pulse at 36 hours; a story pass could check them against a primary source. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T09:36Z
+- Captures read: 0900Z. Last read: 0900Z.
+- X's check: 0900Z 28 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 35 items (2 new, 5 dropped). New: Mario Nawfal summary of Bobby Jones on Navy minesweepers and Iranian mines (defense; reported, not checked); PopBase on the surprise "IT: Welcome To Derry" episode (entertainment). Dropped, older than 36 hours: cz_binance hack post (with its two attached posts), clashreport Chinook crash video, Fabrizio Romano San Siro stadium, Bukele Haiti message, Carmack. Header moved to 0900Z. The internet desk still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: elonmusk posts (Neuralink, 2028 opinion; account already on the pulse); AO3, Wattpad, Schefter, Ballon d'Or posts (older than 36 hours); TMZ Bryce Hall (excluded earlier); Mangaaposts clip (point not clear from its words); jacobreynolds, VigilantFox, ZeekArkham, spencerpratt (opinion); ShaykhSulaiman Trump Iran cost post (claim only on X); lu9jcg, AusLobby (unclear or promotion); NBA/sports clips (sports full).
+- Requests: none; watch.json drops dropped items not cited by stories and adds 2 ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: the Binance hack post left the pulse at 36 hours; the 2026-10-29-binance-suspected-hack story covers it. The message that started me had no instructions beyond the contract.
