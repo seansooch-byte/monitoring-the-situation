@@ -4151,3 +4151,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops dropped items not cited by stories and adds 2 ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: the Binance hack post left the pulse at 36 hours; the 2026-10-29-binance-suspected-hack story covers it. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T10:17Z
+- Captures read: 0959Z. Last read: 0959Z.
+- X's check: 0959Z 15 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs in the tally show mismatches at 0003Z, 0102Z and 0400Z (none on the pulse).
+- Pulse: 35 items (0 new, 0 dropped). The 0959Z capture was a 20-read overnight run and brought no post that belongs on the pulse. Header moved to 0959Z. The internet desk still has no item. The oldest item (Pirat_Nation, 22:59Z on 29 Oct) reaches 36 hours at 10:59Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Paramount+ Dexter post (advertisement); 63rvssell fanfic Drive link (unverifiable link, copyright doubt); itsriyapal "s=46" device tip (claim only on X); aooni_official VTuber stream (promotion); elonmusk posts (one account); TMZ Bryce Hall, mtracey, gapjilreborn (private_individual or real people); AshCrypto/cryptorover US-Iran breakthrough posts (small, unconfirmed); old_content posts.
+- Requests: none; watch list unchanged. plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
