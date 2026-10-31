@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T03:30:00Z",
-  "capture": "2026-10-31T0300Z",
+  "updated_at": "2026-10-31T04:20:00Z",
+  "capture": "2026-10-31T0400Z",
   "items": [
     {
       "id": "2115864946093305955",
@@ -163,11 +163,6 @@
       "line": "SpaceX president Gwynne Shotwell says she and her husband are giving over 2 million shares of SpaceX stock to children’s Trump accounts, to be distributed in December, first to 11 to 17-year-olds in lower-income zip codes. Not checked here."
     },
     {
-      "id": "2115837312714109277",
-      "desk": "offbeat",
-      "line": "The news account NEXTA posts a 19-second video of a kitten trying for several minutes to feed its favorite toy some of its own food, which it says an automatic feeder captured."
-    },
-    {
       "id": "2116289989914787912",
       "desk": "tech",
       "line": "Elon Musk posts that users can now find out if any reach limitations have been applied to their account. He quotes X Open Source, which says its Under the Hood page now lists the specific posts that got a visibility-limiting label, when fewer than 5% of a user’s posts in the report period have one. Not checked here.",
@@ -209,6 +204,16 @@
       "id": "2116252407957164375",
       "desk": "sports",
       "line": "The account named Makhachev Islam posts that his next fight is one of the last in his career, and that he wants to face the best, not the opponents he says are called too dangerous or too good for him. Not checked here."
+    },
+    {
+      "id": "2116277485524717825",
+      "desk": "medicine",
+      "line": "Bill Gates posts that Alzheimer’s science is finally catching up to the disease, but that the breakthroughs are moving faster than the system built to deliver them, so many patients are not yet seeing the benefits. He calls fixing that the next big frontier. His view, not checked here."
+    },
+    {
+      "id": "2116351830963945828",
+      "desk": "music",
+      "line": "The official BTS account posts a daily tour update, dated 30 October, for the São Paulo show of its 'ARIRANG' world tour. The text is hashtags in Korean and English, with a link to media I could not see."
     }
   ]
 }

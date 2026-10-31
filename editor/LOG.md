@@ -4091,3 +4091,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 4 ids and adds 2; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T04:20Z
+- Captures read: 0400Z. Last read: 0400Z.
+- X's check: 0400Z 35 confirmed, 0 missing, 1 mismatched (2112921864406229367, BIGHIT_MUSIC; old_content, not on the pulse), 1 withheld (2114305381535187268, wonbin_lee_; not on the pulse).
+- Pulse: 39 items (2 new, 1 dropped). New: Bill Gates on Alzheimer's delivery (medicine; his view, not checked); BTS tour update for São Paulo (music). Dropped, older than 36 hours: NEXTA kitten video. Header moved to 0400Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: elonmusk posts (Gates short-position claim about a real person; 2028 opinion; one account); nicksortor DOJ fraud post and WhiteHouse Scooby-Doo post (name real people, claims only on X); cryptorover and WatcherGuru market-wipeout posts (unconfirmed); tiyora__ and Ryniacz (animal abuse); ExtraSauce_ (point unclear without the media); VIDITGAUR11 (Grok location question); MikeNellis Paxton rumour (real person, unconfirmed); RT_com, nypost, MAGACult2 (private_individual); paramountplus, wattpad, old_content posts; NBA Lakers-Warriors posts (sports already full).
+- Requests: none; watch.json drops 1 id and adds 2. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
