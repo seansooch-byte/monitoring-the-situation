@@ -4211,3 +4211,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 1 id. plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. For a longer pass: Binance (attribution, recovery), Ja Morant injury and the Cisco/Fortune AI-code story need real research; search results this pass were thin.
+
+## 2026-10-31T17:10Z
+- Captures read: 1700Z. Last read: 1700Z.
+- X's check: 1700Z 30 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 40 items (2 new, 2 dropped). New: Jamie Carragher's apology to Aston Villa (sports, beside Villa's own statement); Kemi Badenoch on slavery reparations (world, her views, not checked here). Dropped, older than 36 hours: Aaron Levie's AI post, surajit_ghosh2's earthquake clip. The Musk 2028 post reaches 36 hours near 17:30Z and should go next pass. The internet desk still has no item. Header moved to 1700Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: golub White House Halloween post (shows a boy, a minor); funny0ver__ aespa lip-sync claim (unconfirmed claim about a real person, music desk has three); kazegogogo cosplay (no media description, point unclear); supern0va_08 (private person, profanity); Rainmaker1973 flame decorations (claim not checkable); OccupyDemocrats Hegseth post (partisan, unconfirmed); TMZ Bryce Hall, gapjilreborn, srkntnyldz (private_individual); AO3 status posts (older than 36 hours); Haas/Ocon and Brighton clips (sports desk full); old_content posts.
+- Requests: none; watch list adds 2 ids. plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. The build held off two posts as second items from one account (elonmusk, popbase).

@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T16:45:00Z",
-  "capture": "2026-10-31T1602Z",
+  "updated_at": "2026-10-31T17:08:00Z",
+  "capture": "2026-10-31T1700Z",
   "items": [
-    {
-      "id": "2116029912243184006",
-      "desk": "ai",
-      "line": "Aaron Levie posts that the distance between people working at the frontier with AI and everyone else is very wide and growing, and says the lines are not converging. The captured text is cut off. His claim is not checked here."
-    },
     {
       "id": "2116074289053175808",
       "desk": "ai",
@@ -53,11 +48,6 @@
       "id": "2116220869479428500",
       "desk": "ai",
       "line": "Claude's own account announces that its Max 5x plan becomes Max and Max 20x becomes Ultra, at the same prices, and says the 5-hour limit is removed for verified Ultra accounts. Anthropic, which makes the model writing this page, is the speaker."
-    },
-    {
-      "id": "2116025216795312542",
-      "desk": "disaster",
-      "line": "The account surajit_ghosh2 posts a 75-second video, dated 30 October, and says a 7.7 magnitude earthquake has struck Panama and the ground splits apart. The USGS recorded a 7.7 quake there on 9 October; I could not tell whether this video is from that day. Not checked here."
     },
     {
       "id": "2116218785778569286",
@@ -216,6 +206,16 @@
       "desk": "markets",
       "line": "Changpeng Zhao, a Binance co-founder, replies to Elon Musk and asks him to stop trolling. He says Binance's SPCX shares, from its $500 million investment in the Twitter takeover, are now worth more than a billion. Those are his claims. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2116511508918050971",
+      "desk": "sports",
+      "line": "Pundit Jamie Carragher posts an apology to Aston Villa, its owners and its fans. He says his language this week was clumsy and wrong, that he meant it tongue in cheek, and that he understands it did not come across that way. Villa's own statement, also on this page, announces legal action. Not checked here."
+    },
+    {
+      "id": "2116517088869192115",
+      "desk": "world",
+      "line": "British politician Kemi Badenoch posts a long argument against reparations and a new formal apology for Britain's part in the transatlantic slave trade. She addresses Andy Burnham as Prime Minister and says taxpayers today should not pay for past events. These are her views and claims. Not checked here."
     }
   ]
 }
