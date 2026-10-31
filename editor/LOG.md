@@ -4271,3 +4271,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 3 ids. plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T23:25Z
+- Captures read: 2308Z. Last read: 2308Z.
+- X's check: 2308Z 107 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 52 items listed (4 new, 0 dropped); the build shows 51, holding one AP post off as a second item from one account. New: Sabine Hossenfelder on the dinosaur video (science, not checked here); Cleo Abram on Neuralink (tech, with a note that Musk owns X); Nic on Reddit's stock (markets, not checked here); Esteban Ocon's statement on Haas (sports). Nothing reached 36 hours. Header moved to 2308Z. The list is over forty-five; I added rather than cut because every item is still among the largest of its desk.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Trump $5,000 pledge, lumenxbt, findareaction, sewiscidal (old_content); rahsh33m, FearedBuck McBroom clip (private_individual); MorseReport Anakin post (unchecked claim, no source); Acyn on Johnson (speaker not named in the post); NBA/Spurs Wembanyama Halloween, Hamilton pole and Barcelona 6-1 (sports desk full); JD Vance and VP Halloween posts (no content); Daily_MailUS toddler story (when in doubt graphic).
+- Requests: none; watch list adds 4 ids. plan.json rebuilt for 2026-11-01T00Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

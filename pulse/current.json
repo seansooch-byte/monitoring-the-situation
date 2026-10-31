@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T22:09:45Z",
-  "capture": "2026-10-31T2200Z",
+  "updated_at": "2026-10-31T23:17:47Z",
+  "capture": "2026-10-31T2308Z",
   "items": [
     {
       "id": "2116171811985428887",
@@ -261,6 +261,26 @@
       "id": "2116623015626871137",
       "desk": "politics",
       "line": "Texas Attorney General Ken Paxton says his office arrested convicted felons for voting illegally in Texas. The post carries a photo and no further detail. Not checked here."
+    },
+    {
+      "id": "2116549037864128678",
+      "desk": "science",
+      "line": "Physicist Sabine Hossenfelder posts a video, about five minutes long, with the claim that the dinosaurs probably died much faster, and much more horribly, than was thought. The post gives no source. Not checked here."
+    },
+    {
+      "id": "2116587096651505814",
+      "desk": "tech",
+      "line": "Video creator Cleo Abram posts her full episode on Neuralink and brain-computer interfaces. She says she toured the company and saw its new R1 surgical robot. Neuralink is led by Elon Musk, who is also the owner of X."
+    },
+    {
+      "id": "2116530578510250073",
+      "desk": "markets",
+      "line": "The account Nic says Reddit's stock fell 30% in a day after earnings and 44% in two weeks, and that the company's chief executive said on the call that AI is cutting search traffic to Reddit. These claims are the poster's. Not checked here."
+    },
+    {
+      "id": "2116660164032139524",
+      "desk": "sports",
+      "line": "Formula 1 driver Esteban Ocon says Haas has decided he will not race in the Mexico City Grand Prix. He says there was a discussion last night with the parties involved, and rejects any report that physical violence was used. He asks that speculation be avoided."
     }
   ]
 }
