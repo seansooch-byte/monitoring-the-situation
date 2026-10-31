@@ -4081,3 +4081,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 3 ids and drops 2. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T03:30Z
+- Captures read: 0300Z. Last read: 0300Z.
+- X's check: 0300Z 32 confirmed, 0 missing, 0 mismatched, 1 withheld (2116340976817959323, TheNBACentel; not on the pulse).
+- Pulse: 38 items (2 new, 3 dropped). New: Ian McKellen's tribute to Patrick Stewart (entertainment); Makhachev Islam on his next fight (sports; his words, not checked). Dropped, older than 36 hours: Adam Schefter trade terms (with its also), Chris Murphy on Iran, Dexerto ItalianBach. Header moved to 0300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Lagarde ECB post and second AO3 status post (older than 36 hours); Ja Morant and Chet Holmgren injuries (real people); TMZ Ilhan Omar item (rumour about a real person); BrickCenter Brunson clip (private_individual flag); Bryce Hall beating (as before); elonmusk 2028 and other posts (opinion, one account); paramountplus, wattpad, Binance copies, redbaronpizza, servcunty (as before); Hugh Jackman and PopBase/DiscussingFilm Stewart copies (Stewart already carried by several items).
+- Requests: none; watch.json drops 4 ids and adds 2; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

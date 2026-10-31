@@ -1,20 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T02:30:00Z",
-  "capture": "2026-10-31T0202Z",
+  "updated_at": "2026-10-31T03:30:00Z",
+  "capture": "2026-10-31T0300Z",
   "items": [
     {
       "id": "2115864946093305955",
       "desk": "internet",
       "line": "The fan fiction archive Archive of Our Own posts through its status account that it estimates restoring the site will take around two weeks, possibly up to four, and that it hopes to bring the site back in a degraded state sooner."
-    },
-    {
-      "id": "2115813435543826449",
-      "desk": "sports",
-      "line": "NFL reporter Adam Schefter says, citing sources, that the Titans are trading defensive tackle Jeffery Simmons to the Bears for 2027 and 2028 first-round picks and a 2027 fourth-round pick, with the Bears also getting a 2028 fifth-round pick. Tom Pelissero reported the trade first. Not checked here.",
-      "also": [
-        "2115811294951710978"
-      ]
     },
     {
       "id": "2115891266131300517",
@@ -50,11 +42,6 @@
       "line": "The account clashreport posts a video and says it shows the moment an Italian military CH-47 Chinook helicopter crashed in Bosnia and Herzegovina on Thursday. Not checked here."
     },
     {
-      "id": "2115809671151751545",
-      "desk": "world",
-      "line": "Senator Chris Murphy posts a video saying Trump is reportedly planning to restart war with Iran after the election. He says he has been briefed on the plan, cannot give details, and calls it insane. The report and his view of the plan are not checked here."
-    },
-    {
       "id": "2115907748164759702",
       "desk": "sports",
       "line": "Reporter Fabrizio Romano posts that AC Milan and Inter have unveiled a new stadium, to be called the Generali Stadium from the 2031/32 season, and that San Siro will be demolished under the current plan. He says Generali bought the naming rights until 2052 for €650M. Not checked here."
@@ -63,11 +50,6 @@
       "id": "2115896865803870592",
       "desk": "entertainment",
       "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here."
-    },
-    {
-      "id": "2115813444083490867",
-      "desk": "internet",
-      "line": "Dexerto reports that YouTuber ItalianBach wants custom thumbnails removed and replaced with a random frame from the video. The post quotes him saying it would end clickbait and let viewers \"know exactly what you’re going to be seeing\". Not checked here."
     },
     {
       "id": "2115848262481768576",
@@ -217,6 +199,16 @@
       "id": "2116138907343417681",
       "desk": "politics",
       "line": "The account PpollingNumbers posts a Texas poll it attributes to Quantus Insights, taken 28 October among likely voters: Ken Paxton 49 and James Talarico 48 for Senate, Greg Abbott 52 and Gina Hinojosa 46 for governor. Not checked here."
+    },
+    {
+      "id": "2115961299729596647",
+      "desk": "entertainment",
+      "line": "Ian McKellen posts a tribute to Patrick Stewart, writing that they met as young actors with the Royal Shakespeare Company and that Stewart was proud of his Yorkshire roots. Not checked here."
+    },
+    {
+      "id": "2116252407957164375",
+      "desk": "sports",
+      "line": "The account named Makhachev Islam posts that his next fight is one of the last in his career, and that he wants to face the best, not the opponents he says are called too dangerous or too good for him. Not checked here."
     }
   ]
 }
