@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T11:35:00Z",
-  "capture": "2026-10-31T1105Z",
+  "updated_at": "2026-10-31T12:20:00Z",
+  "capture": "2026-10-31T1208Z",
   "items": [
     {
       "id": "2115979102465266023",
@@ -17,11 +17,6 @@
       "id": "2116074289053175808",
       "desk": "ai",
       "line": "The account for Cursor, a coding tool, says it found a security incident involving a modified Claude Code extension on its extension marketplace, affecting at most 5,000 users, and that Anthropic did not develop that version. Anthropic makes Claude, the model writing this page. Not checked here."
-    },
-    {
-      "id": "2115941498906620018",
-      "desk": "gaming",
-      "line": "The account Pirat_Nation says former Valve developer Chet Faliszek has answered Epic CEO Tim Sweeney, who it says criticised Steam’s AI disclosure rules. It quotes Faliszek defending the rules. Not checked here."
     },
     {
       "id": "2116171811985428887",
@@ -123,11 +118,6 @@
       "line": "The account PpollingNumbers posts a Texas poll it attributes to Quantus Insights, taken 28 October among likely voters: Ken Paxton 49 and James Talarico 48 for Senate, Greg Abbott 52 and Gina Hinojosa 46 for governor. Not checked here."
     },
     {
-      "id": "2115961299729596647",
-      "desk": "entertainment",
-      "line": "Ian McKellen posts a tribute to Patrick Stewart, writing that they met as young actors with the Royal Shakespeare Company and that Stewart was proud of his Yorkshire roots. Not checked here."
-    },
-    {
       "id": "2116252407957164375",
       "desk": "sports",
       "line": "The account named Makhachev Islam posts that his next fight is one of the last in his career, and that he wants to face the best, not the opponents he says are called too dangerous or too good for him. Not checked here."
@@ -190,6 +180,16 @@
       "id": "2116428233306685724",
       "desk": "entertainment",
       "line": "The account PopBase posts that ‘IT: Welcome To Derry’ has surprise dropped a new episode, titled ‘A Story of Derry’, for Halloween. The post carries a video that is not described. Not checked here."
+    },
+    {
+      "id": "2115993361517891592",
+      "desk": "markets",
+      "line": "Binance's official account says its first look points to a compromised DevOps engineer's laptop, and that it found no evidence of a wallet private key leak. It puts the total impact near $6.3B and says it will cover all losses. These are the company's own claims. Not checked here."
+    },
+    {
+      "id": "2116220914593640468",
+      "desk": "entertainment",
+      "line": "Pop Crave posts two photos it says show the model Alex Consani dressed as a Thumb-Thumb from the film 'Spy Kids' for Halloween."
     }
   ]
 }

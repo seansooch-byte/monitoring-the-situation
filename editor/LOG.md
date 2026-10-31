@@ -4171,3 +4171,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged. plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: the message that started me had no instructions beyond the contract. Several developing stories were not rechecked this pass; a longer story pass should.
+
+## 2026-10-31T12:25Z
+- Captures read: 1208Z. Last read: 1208Z.
+- X's check: 1208Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 35 items (2 new, 2 dropped). New: Binance's own post on its investigation (markets; company claims, not checked); Pop Crave on Alex Consani's Halloween costume (entertainment). Dropped, older than 36 hours: Pirat_Nation Faliszek/Sweeney post, Ian McKellen tribute. Header moved to 1208Z. The internet desk still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: elonmusk posts (one account); TMZ Bryce Hall, mtracey, gapjilreborn, Clav0Updates (private_individual or real people); Mangaaposts, 63rvssell, aooni_official (unclear, unverifiable or promotion); Talarico and Haley campaign posts (opinion, advocacy); WatcherGuru $1.8T post (figure only on X); IsraelMilitaryX Vance claim (grok reply says no credible source confirms it); sexual and graphic posts named in the grabber notes.
+- Requests: none; watch list drops 4 ids and adds 2. plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
