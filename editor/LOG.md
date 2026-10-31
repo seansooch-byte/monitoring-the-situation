@@ -4261,3 +4261,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 4 ids and drops 2. plan.json rebuilt for 22Z.
 - Shipped: yes, commit 8fea4063, live audit clean (log added in a following commit).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Fewer than ten stories are live against the aim of ten to sixteen; I added two because few other claims could be confirmed in this pass.
+
+## 2026-10-31T22:30Z
+- Captures read: 2200Z. Last read: 2200Z.
+- X's check: 2200Z 123 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 48 items listed (2 new, 0 dropped); the build shows 47, holding one AP post off as a second item from one account. New: levelsio on European taxes, with the Polymarket post it quotes attached (ai, not checked here); Ken Paxton on voter arrests (politics, not checked here). Nothing reached 36 hours. Header moved to 2200Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: WatcherGuru FBI/Binance attribution (unchecked); EmmyWss Nvidia video (investment boast, no description); Poland posts from BRICSinfo, claudiaaict, juneslater17 (Poland already on the pulse); elonmusk posts without context; sports posts (desk full); evansolott (profanity); Kgadi_yaMoloto (opinion); dog and TikTok videos (no media description).
+- Requests: none; watch list adds 3 ids. plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

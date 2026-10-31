@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T21:45:00Z",
-  "capture": "2026-10-31T2100Z",
+  "updated_at": "2026-10-31T22:09:45Z",
+  "capture": "2026-10-31T2200Z",
   "items": [
     {
       "id": "2116171811985428887",
@@ -248,6 +248,19 @@
       "id": "2116612123937718702",
       "desk": "politics",
       "line": "AP says more than 4 in 10 names flagged as possible noncitizen voters in California cannot be found on voter rolls, according to a legal filing. The post links its own story. Not checked here."
+    },
+    {
+      "id": "2116485229779058954",
+      "desk": "ai",
+      "line": "The account levelsio says France announced a tax of 0.055 euros per GB on internet traffic and Germany is now considering taxing AI-generated revenue, and argues European countries are clawing money from foreign companies. He quotes a Polymarket post saying a German minister proposed the AI tax. Not checked here.",
+      "also": [
+        "2116436761945489524"
+      ]
+    },
+    {
+      "id": "2116623015626871137",
+      "desk": "politics",
+      "line": "Texas Attorney General Ken Paxton says his office arrested convicted felons for voting illegally in Texas. The post carries a photo and no further detail. Not checked here."
     }
   ]
 }
