@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T13:25:00Z",
-  "capture": "2026-10-31T1303Z",
+  "updated_at": "2026-10-31T14:20:00Z",
+  "capture": "2026-10-31T1400Z",
   "items": [
-    {
-      "id": "2115979102465266023",
-      "desk": "politics",
-      "line": "Journalist Aaron Rupar posts a video of Vice President JD Vance answering a question about young families and the price of homes. The post quotes Vance saying he has only been asked one question about Jon Husted. The video is not described beyond that."
-    },
     {
       "id": "2116029912243184006",
       "desk": "ai",
@@ -200,6 +195,16 @@
       "id": "2116094944666407243",
       "desk": "music",
       "line": "The Pop Base account posts two photos and says the singer Lily Allen dressed as a Ticketmaster seat map for Halloween, with her caption \"Never beating the allegations #bluedotfever\". The photos are not described in the capture."
+    },
+    {
+      "id": "2116039632743702637",
+      "desk": "politics",
+      "line": "Elon Musk posts that his biggest concern is a Democratic sweep of the House, Senate and Presidency in 2028, which he says would mean statehood for DC and Puerto Rico, open borders and a larger Supreme Court. He urges votes for Republican senators this election. Not checked here."
+    },
+    {
+      "id": "2116170360571748411",
+      "desk": "justice",
+      "line": "The Metropolitan Police says anyone planning to attend a demonstration in support of Palestine Action near the US Embassy on Saturday 31 October will face arrest. It says support for the group is an offence under the Terrorism Act since its ban in June 2025, upheld by the Court of Appeal."
     }
   ]
 }
