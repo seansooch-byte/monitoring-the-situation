@@ -4061,3 +4061,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed r-2026-10-30-01 (answered in 2301Z). watch.json adds 3 ids; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: the Binance hack and Poland's official posts from 2301Z are worth a story pass. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T01:40Z
+- Captures read: 0102Z. Last read: 0102Z.
+- X's check: 0102Z 25 confirmed, 0 missing, 1 mismatched (2115514407283568979, SiriusXMNBA, Barkley quote; not on the pulse), 0 withheld.
+- Pulse: 39 items (3 new, 3 dropped). New: Elon Musk on the Under the Hood reach-limit view, with X Open Source's post in also (tech); pj_sekai transfer-ID notice (gaming; Japanese); HoopsCrave Jada Pinkett Smith Halloween photos (life; not checked). Dropped, older than 36 hours: KillaKreww Raven-Symone clip, unusual_whales on employers, XFreeze Grok bot chart. Header moved to 0102Z. The build holds back DiscussingFilm's second item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Daron Payne injury, Ja Morant (injuries of real people); other elonmusk posts (Lilly, 2028; opinion, one account); IGN and unusual_whales Altman RAM posts (Pubity already carries it); Talarico, McMorrow and Trump daycare clips (partisan, one account already on the desk); NYT/Athletic Chiefs piece (claim about a named franchise, nothing outside X); Achille Lauro hijack posts (old event framed as news, unchecked); MegOfficiall CEO typo (private person); paramountplus (advertisement); RT grocery clip, SarahisCensored, FadeHubb, redbaronpizza, Raindropsmedia1, MAGAVoice, terrawrist985 (private individuals); cryptorover crash (unconfirmed); iFightForKids (slur); old_content posts.
+- Requests: none; watch.json adds 4 ids and drops 3. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

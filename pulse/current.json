@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T00:20:00Z",
-  "capture": "2026-10-31T0003Z",
+  "updated_at": "2026-10-31T01:40:00Z",
+  "capture": "2026-10-31T0102Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -34,11 +34,6 @@
       ]
     },
     {
-      "id": "2115781256642252830",
-      "desk": "entertainment",
-      "line": "KillaKreww posts a clip in which Raven-Symoné says she never denied that That’s So Raven centred on a Black family, and that its appeal went beyond race. The post says she is clarifying earlier comments. Not checked here."
-    },
-    {
       "id": "2115915423174853077",
       "desk": "markets",
       "line": "Changpeng Zhao, who says he no longer manages Binance.com, posts that it looks like a hack and that he expects user funds to be fully covered. Binance posts that its initial look suggests a compromised engineer’s laptop gave an attacker access. Not checked here.",
@@ -61,16 +56,6 @@
       "id": "2115912451602645133",
       "desk": "defense",
       "line": "The account clashreport posts a video and says it shows the moment an Italian military CH-47 Chinook helicopter crashed in Bosnia and Herzegovina on Thursday. Not checked here."
-    },
-    {
-      "id": "2115779934136545373",
-      "desk": "ai",
-      "line": "The account unusual_whales says employers worldwide are pulling back on AI because of errors and low-quality work, citing the Guardian. Not checked here."
-    },
-    {
-      "id": "2115779686697697557",
-      "desk": "ai",
-      "line": "XFreeze, a fan account, posts a chart-style image and says Grok Bot daily users rose for 16 days in a row, from under 100,000 in early September to over 600,000 by October 26. Grok is made by xAI, the company behind the model gathering this page’s posts. Not checked here."
     },
     {
       "id": "2115805894336536741",
@@ -217,6 +202,24 @@
       "id": "2115837312714109277",
       "desk": "offbeat",
       "line": "The news account NEXTA posts a 19-second video of a kitten trying for several minutes to feed its favorite toy some of its own food, which it says an automatic feeder captured."
+    },
+    {
+      "id": "2116289989914787912",
+      "desk": "tech",
+      "line": "Elon Musk posts that users can now find out if any reach limitations have been applied to their account. He quotes X Open Source, which says its Under the Hood page now lists the specific posts that got a visibility-limiting label, when fewer than 5% of a user’s posts in the report period have one. Not checked here.",
+      "also": [
+        "2116262141745565826"
+      ]
+    },
+    {
+      "id": "2116165917382255047",
+      "desk": "gaming",
+      "line": "The account pj_sekai posts a notice in Japanese. It says that around 22:30 on 30 October it changed transfer by password: a transfer ID now stops working 24 hours after it is issued, including IDs issued earlier. Players with only a transfer ID are told to contact support."
+    },
+    {
+      "id": "2116212312000602258",
+      "desk": "life",
+      "line": "The account HoopsCrave posts two photos and says Jada Pinkett Smith dressed up as Tupac for Halloween. Not checked here."
     }
   ]
 }
