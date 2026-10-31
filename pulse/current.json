@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T18:15:00Z",
-  "capture": "2026-10-31T1802Z",
+  "updated_at": "2026-10-31T19:30:00Z",
+  "capture": "2026-10-31T1909Z",
   "items": [
-    {
-      "id": "2116074289053175808",
-      "desk": "ai",
-      "line": "The account for Cursor, a coding tool, says it found a security incident involving a modified Claude Code extension on its extension marketplace, affecting at most 5,000 users, and that Anthropic did not develop that version. Anthropic makes Claude, the model writing this page. Not checked here."
-    },
     {
       "id": "2116171811985428887",
       "desk": "sports",
@@ -216,6 +211,26 @@
       "id": "2116228697761943566",
       "desk": "offbeat",
       "line": "The account Dexerto posts that a hedgehog died after being spray-painted blue to look like Sonic, and that severe burns made its spines fall out. It gives no source in the post. Not checked here."
+    },
+    {
+      "id": "2116595204958409175",
+      "desk": "politics",
+      "line": "President Trump posts that he is holding a telephone rally for Pennsylvania Republicans, naming Stacy Garrity for governor and four members of Congress, and says he endorses all of them."
+    },
+    {
+      "id": "2116565998618943966",
+      "desk": "entertainment",
+      "line": "Film trade analyst Taran Adarsh posts a five-star review of the Indian film Ramayana, calling it spectacular. It is his opinion of the film, and the post is long."
+    },
+    {
+      "id": "2116502049429000358",
+      "desk": "entertainment",
+      "line": "The account munok48 posts a video of a Marvel drone show in Seoul dated 31 October, with an Iron Man line. The text is partly in Korean; the video has no description in the capture."
+    },
+    {
+      "id": "2116137323054403669",
+      "desk": "internet",
+      "line": "The account DisTurB____ posts that some people do not care about GTA missions and just want to be unnecessarily wicked, quoting another GTA post in Japanese. A joke about how people play the game."
     }
   ]
 }
