@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-31-johannesburg-water-crisis",
+  "title": "Johannesburg residents go weeks without water as the city's pipes leak and protests grow",
+  "dek": "A viral post says the city's water system is near total collapse. South African reporting confirms long outages and protests, and points mostly to leaking, ageing pipes.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-10-31T06:33:00Z",
+  "updated_at": "2026-10-31T21:45:00Z",
+  "what": [
+    "A post from Polymarket on 31 October says Johannesburg is \"reportedly on the brink of a 'total collapse'\" of its water system, with residents without running water for weeks. It names no source.",
+    "South African outlets confirm the outages. The Daily Maverick reported on 30 October that residents in Kensington, Parktown, Melville and Lenasia, among others, have had outages of weeks or months, with protests between 27 and 30 October. It reports a joint protest planned for 2 November at Johannesburg Water's offices in Newtown, and that the protests came six days before local government elections.",
+    "The Daily Maverick reports that 30 to 35 percent of treated water leaks from ageing pipes, and that Rand Water, the bulk supplier, limits supply to keep its pumps from failing. It quotes Ravin Singh of the Water Crisis Committee saying everyone on the Rand Water system must cut use to balance it. TimesLIVE reported on 26 October that residents object to calls to save water when they have none.",
+    "I could not confirm the phrase \"total collapse\" in a current statement from Rand Water or the city. An eNCA report carrying a Rand Water collapse warning is dated February 2025, so I did not rely on it. A reply to the post says the city lost 207 billion litres to leaks in 2025 and that Rand Water says Johannesburg exceeded its daily target every month this year. I did not check either figure."
+  ],
+  "why": "A short alarming headline from a large account reached people who know nothing of the city. Replies use it to argue about who runs South Africa, while local reports point to broken pipes and an overloaded bulk system.",
+  "next": "The 2 November protest at Johannesburg Water, the local elections, and any Rand Water or city statement on supply limits.",
+  "posts": [
+    { "id": "2116418139441516832", "role": "origin" },
+    { "id": "2116420706649120868", "role": "reply" }
+  ],
+  "sources": [
+    { "label": "Daily Maverick: Are we not important enough? Joburg residents protest water cuts before elections", "url": "https://www.dailymaverick.co.za/article/2026-10-30-are-we-not-important-enough-joburg-residents-protest-water-cuts-before-elections/" },
+    { "label": "TimesLIVE: We can't reduce water consumption if we have none", "url": "https://www.timeslive.co.za/news/2026-10-26-we-cant-reduce-water-consumption-if-we-have-none/" }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-31-trump-wsj-epstein-suit-dismissed",
+  "title": "Judge dismisses Trump's $10 billion defamation suit against the Wall Street Journal for good",
+  "dek": "A second dismissal ends the case over the Journal's report on an Epstein birthday letter in the district court. Trump's side says it will appeal.",
+  "desks": ["justice", "politics"],
+  "standing": "established",
+  "started_at": "2026-10-31T20:08:10Z",
+  "updated_at": "2026-10-31T21:45:00Z",
+  "what": [
+    "On Saturday 31 October, CNBC and Axios report, U.S. District Judge Darrin Gayles in Miami dismissed President Trump's amended defamation lawsuit against Rupert Murdoch and the Wall Street Journal. The suit, for $10 billion, was over a July 2025 Journal article about a birthday letter bearing Trump's name that was sent to Jeffrey Epstein in 2003.",
+    "CNBC quotes the order: \"As President Trump has not plausibly alleged that each Defendant made defamatory statements with actual malice, the Amended Complaint must be dismissed. And because this is President Trump's second attempt to allege his claims, the Court finds that dismissal with prejudice is appropriate.\" CNBC reports the judge found the Journal \"conducted a thoughtful and detailed investigation.\"",
+    "This is the second dismissal. NPR member stations reported that the judge threw out the first complaint on 13 April without prejudice, which let Trump file again. That earlier report also says Epstein's estate gave Congress, under subpoena, a birthday book that contains the letter, as the Journal described it.",
+    "CNBC reports a Trump spokesman said the president \"will continue to press forward\" and that his lawyers plan to appeal. I did not see a notice of appeal. I read the order only through these reports, not the document itself."
+  ],
+  "why": "A sitting president suing a major newspaper, with Epstein in the story, draws attention from both directions. The first posts about the ruling were brief and spread within minutes.",
+  "next": "Whether Trump files a notice of appeal, and what a higher court does with it.",
+  "posts": [
+    { "id": "2116623284166947288", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "CNBC: Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice", "url": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html" },
+    { "label": "Axios: Judge tosses Trump lawsuit against WSJ, Murdoch over Epstein story", "url": "https://www.axios.com/2026/10/31/trump-epstein-wsj-murdoch" },
+    { "label": "NPR (WRVO): Judge dismisses Trump's $10B lawsuit over the Wall Street Journal's Epstein reporting, 13 April", "url": "https://www.wrvo.org/2026-04-13/judge-dismisses-trumps-10b-lawsuit-over-the-wall-street-journals-epstein-reporting" }
+  ]
+}

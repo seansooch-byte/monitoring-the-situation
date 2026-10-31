@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T20:30:00Z",
-  "capture": "2026-10-31T2000Z",
+  "updated_at": "2026-10-31T21:45:00Z",
+  "capture": "2026-10-31T2100Z",
   "items": [
     {
       "id": "2116171811985428887",
@@ -172,11 +172,6 @@
       "line": "ESPN reporter Adam Schefter says, with Ian Rapoport, citing sources, that the Indianapolis Colts are open to trading running back Jonathan Taylor and that several teams have called about him. Not checked here."
     },
     {
-      "id": "2116094944666407243",
-      "desk": "music",
-      "line": "The Pop Base account posts two photos and says the singer Lily Allen dressed as a Ticketmaster seat map for Halloween, with her caption \"Never beating the allegations #bluedotfever\". The photos are not described in the capture."
-    },
-    {
       "id": "2116170360571748411",
       "desk": "justice",
       "line": "The Metropolitan Police says anyone planning to attend a demonstration in support of Palestine Action near the US Embassy on Saturday 31 October will face arrest. It says support for the group is an offence under the Terrorism Act since its ban in June 2025, upheld by the Court of Appeal."
@@ -190,12 +185,6 @@
       "id": "2116534734763458792",
       "desk": "sports",
       "line": "Fabrizio Romano posts that Manchester United have gone nine games without a win, and says their only two wins this season in all competitions came against Sabah and Ipswich Town. Not checked here."
-    },
-    {
-      "id": "2116097554882728341",
-      "desk": "markets",
-      "line": "Changpeng Zhao, a Binance co-founder, replies to Elon Musk and asks him to stop trolling. He says Binance's SPCX shares, from its $500 million investment in the Twitter takeover, are now worth more than a billion. Those are his claims. Not checked here.",
-      "also": []
     },
     {
       "id": "2116511508918050971",
@@ -241,6 +230,24 @@
       "id": "2116574052903251969",
       "desk": "gaming",
       "line": "Gaming poster SkyRaiderG7 says a leaked video of what looks like an internal presentation is \"too good to fake\", pointing to interface details and debug text in it. The leak and its source have not been checked here."
+    },
+    {
+      "id": "2116418139441516832",
+      "desk": "world",
+      "line": "Polymarket says Johannesburg is reportedly close to a total collapse of its water system, with residents without running water for weeks. It names no source; South African reporting on the outages is in our story.",
+      "also": [
+        "2116420706649120868"
+      ]
+    },
+    {
+      "id": "2116623284166947288",
+      "desk": "justice",
+      "line": "Brian Krassenstein says a federal judge has dismissed Trump's defamation lawsuit against the Wall Street Journal over the Epstein birthday-letter story. CNBC and Axios report the dismissal, with prejudice."
+    },
+    {
+      "id": "2116612123937718702",
+      "desk": "politics",
+      "line": "AP says more than 4 in 10 names flagged as possible noncitizen voters in California cannot be found on voter rolls, according to a legal filing. The post links its own story. Not checked here."
     }
   ]
 }
