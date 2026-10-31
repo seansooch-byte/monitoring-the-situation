@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T04:20:00Z",
-  "capture": "2026-10-31T0400Z",
+  "updated_at": "2026-10-31T05:06:00Z",
+  "capture": "2026-10-31T0500Z",
   "items": [
     {
       "id": "2115864946093305955",
@@ -32,11 +32,6 @@
       "line": "Journalist Aaron Rupar posts a video of Vice President JD Vance answering a question about young families and the price of homes. The post quotes Vance saying he has only been asked one question about Jon Husted. The video is not described beyond that."
     },
     {
-      "id": "2115847903696527589",
-      "desk": "tech",
-      "line": "The account youhatefive says a post’s device type can be told from a code after a question mark in its link: s=46 for iPhone, s=20 for a browser, s=19 for Android. It invites readers to try it on the post. Not checked here."
-    },
-    {
       "id": "2115912451602645133",
       "desk": "defense",
       "line": "The account clashreport posts a video and says it shows the moment an Italian military CH-47 Chinook helicopter crashed in Bosnia and Herzegovina on Thursday. Not checked here."
@@ -50,11 +45,6 @@
       "id": "2115896865803870592",
       "desk": "entertainment",
       "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here."
-    },
-    {
-      "id": "2115848262481768576",
-      "desk": "entertainment",
-      "line": "Actor Chris Pratt posts a long account of how he got his first film role while waiting tables in Hawaii, after a movie star he met there offered him a part. The story is his own. Not checked here."
     },
     {
       "id": "2115915319134855447",
@@ -214,6 +204,11 @@
       "id": "2116351830963945828",
       "desk": "music",
       "line": "The official BTS account posts a daily tour update, dated 30 October, for the São Paulo show of its 'ARIRANG' world tour. The text is hashtags in Korean and English, with a link to media I could not see."
+    },
+    {
+      "id": "2116293295278285299",
+      "desk": "sports",
+      "line": "Aston Villa football club posts a statement, signed by its chairman Nassef Sawiris, saying the club will start legal action against the pundit Jamie Carragher over what it calls unacceptable insults about the club and its fans. Not checked here."
     }
   ]
 }

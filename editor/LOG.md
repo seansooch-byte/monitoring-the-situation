@@ -4101,3 +4101,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json drops 1 id and adds 2. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T05:10Z
+- Captures read: 0500Z. Last read: 0500Z.
+- X's check: 0500Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 38 items (1 new, 2 dropped). New: Aston Villa statement on legal action against Jamie Carragher (sports; the club's claim, not checked). Dropped, older than 36 hours: youhatefive device-code post, Chris Pratt first-role post. Header moved to 0500Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: mtracey Ohio murders post and mattvanswol footage (private_individual flags); jacobreynolds election post (opinion); the0nlygirl (point unclear); archiveforJK (fan notice, BTS already carried); Romano Ballon d'Or vote post (one account already on the pulse); NBA Curry clips and Lakers-Warriors reaction posts (sports already full).
+- Requests: none; watch.json drops 2 ids and adds 1. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
