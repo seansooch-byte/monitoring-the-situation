@@ -4221,3 +4221,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2 ids. plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. The build held off two posts as second items from one account (elonmusk, popbase).
+
+## 2026-10-31T18:20Z
+- Captures read: 1802Z. Last read: 1802Z.
+- X's check: 1802Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 40 items (1 new, 1 dropped). New: Dexerto's hedgehog post (offbeat, claim not checked here). Dropped, older than 36 hours: Musk's 2028 post. Header moved to 1802Z. The internet desk still has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ Bryce Hall, srkntnyldz, gapjilreborn, mtracey (private_individual or a named private person); hobifIwr, aooni_official, 63rvssell (unclear or promotion); further elonmusk posts including the Eli Lilly one (one account, no media description); HBO Max IT special (promotion); funny0ver__ aespa claim (unconfirmed claim about real people); Talarico posts (advocacy); Globalexplainer end-of-world post (no source); further Altman/RAM and Curry copies (origin already shown).
+- Requests: none; watch list adds 1 id. plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. The build held off one post as a second item from one account (popbase).
