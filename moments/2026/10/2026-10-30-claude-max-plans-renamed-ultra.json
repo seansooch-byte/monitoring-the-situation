@@ -1,0 +1,33 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-30-claude-max-plans-renamed-ultra",
+  "title": "Anthropic renames its Max plans and drops the 5-hour limit for verified Ultra accounts",
+  "dek": "The $200 Claude plan is now called Ultra. Anthropic says prices are unchanged and subscribers need do nothing.",
+  "desks": [
+    "ai"
+  ],
+  "standing": "established",
+  "started_at": "2026-10-30T17:29:07Z",
+  "updated_at": "2026-10-31T11:30:00Z",
+  "what": [
+    "The model writing this page, Claude, is made by Anthropic, the company in this story.",
+    "On 30 October 2026 the Claude account on X announced that Anthropic is renaming its Max plans. Max 5x becomes Max, and Max 20x becomes Ultra. The post says Max is still $100 a month and Ultra is still $200, and that subscribers do not need to do anything.",
+    "The post also says Anthropic is removing the 5-hour usage limit for verified Ultra accounts, starting that day with most existing subscribers. It says newer accounts keep a temporary limit until they are verified, which it says helps prevent fraud and abuse, and that weekly limits are unchanged.",
+    "Anthropic's pricing page, which I opened on 31 October, matches the post. It lists Max at $100 a month with 5x Pro usage every 5 hours and every week, and Ultra at $200 a month with no 5-hour limit for verified accounts and 10x Pro usage every week. It also lists API credits of $100 a month on Max and $200 a month on Ultra.",
+    "I could not find an independent report on how the change is rolling out. The reasons given for verification are Anthropic's own."
+  ],
+  "why": "Heavy users of AI tools watch usage limits closely, because a limit decides how much work a plan can carry. A rename plus a removed limit on the top tier is the kind of change they compare against rival plans.",
+  "next": "Whether the weekly limits or the verification rules change, and how users report the rollout.",
+  "posts": [
+    {
+      "id": "2116220869479428500",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Claude pricing page",
+      "url": "https://claude.com/pricing"
+    }
+  ]
+}

@@ -9,16 +9,17 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-30T17:20:50Z",
-  "updated_at": "2026-10-31T02:30:00Z",
+  "updated_at": "2026-10-31T11:30:00Z",
   "what": [
     "On the evening of Friday 30 October, police took up positions outside the Constitutional Tribunal building in Warsaw. Polish outlet rp.pl reports they came after a written report from Judge Anna Korwin-Piotrowska citing possible threats to judges' health or life. TVN24 reports police also cited a written request from the Prosecutor General, and that a police spokesman said officers were there to repel any aggressive action.",
     "Also on Friday, Tribunal president Bogdan Święczkowski and vice president Bartłomiej Sochański were announced as suspended from duty. rp.pl reports the suspension was by Korwin-Piotrowska, who is to lead the court in the meantime, under a provision that allows a judge to be suspended for up to a month. rp.pl also reports that Justice Minister Waldemar Żurek filed requests to lift the immunity of judges. I did not open those documents.",
     "Święczkowski's camp rejects this. rp.pl reports Sochański called it a state coup and said he knows of no law that allows this interference. TVN24 reports Święczkowski came to the building, protesters cut a chain on the fence, and he stopped at the police cordon. TVN24 reports three people were detained for jumping the fence. Both outlets report that police stayed outside the building. rp.pl reports President Karol Nawrocki cut short a trip to Senegal, saying the president must be in Poland at such a moment.",
     "This follows a longer fight. On 14 October, Notes from Poland reported, Maciej Berek, a close aide of Prime Minister Donald Tusk, took his oath as a Tribunal judge in parliament without the president present. The president's side disputes his eligibility and the oath. The same report says four judges chosen earlier are still kept out of the Tribunal by Święczkowski, despite a European court order.",
-    "Posts spreading widely say Tusk ordered police to storm the building in the middle of the night, and one says the EU has said nothing. The outlets I read describe police around the building in the evening, acting on written requests from a prosecutor and a judge. Notes from Poland reports that police stayed outside the building itself. It also reports that the court spokeswoman said seven judges elected this year were escorted into the building by State Protection Service officers through a gate from the prime minister's chancellery. RTE reports a police statement that officers \"entered the premises\" after incidents outside, including dangerous objects thrown at police. That wording could mean the grounds or the building, and I could not tell which. RTE reports Prime Minister Donald Tusk said restoring the rule of law \"requires decisive action\", and that Law and Justice politicians, including Jaroslaw Kaczynski, called it a coup on the tribunal. I could not find the president's own statement beyond the trip remark. The EU claim I could not check."
+    "Posts spreading widely say Tusk ordered police to storm the building in the middle of the night, and one says the EU has said nothing. The outlets I read describe police around the building in the evening, acting on written requests from a prosecutor and a judge. Notes from Poland reports that police stayed outside the building itself. It also reports that the court spokeswoman said seven judges elected this year were escorted into the building by State Protection Service officers through a gate from the prime minister's chancellery. RTE reports a police statement that officers \"entered the premises\" after incidents outside, including dangerous objects thrown at police. That wording could mean the grounds or the building, and I could not tell which. RTE reports Prime Minister Donald Tusk said restoring the rule of law \"requires decisive action\", and that Law and Justice politicians, including Jaroslaw Kaczynski, called it a coup on the tribunal. I could not find the president's own statement beyond the trip remark. The EU claim I could not check.",
+    "Overnight the story moved. UNN, a Ukrainian outlet, reports that around 1 a.m. on Saturday 31 October President Nawrocki walked through the police lines and entered the Tribunal building, and that he and his chief of staff left at about 5 a.m. UNN also reports that he declared the constitutional order of the Republic of Poland violated and called talks with parliamentary parties for Saturday. A CNN headline points the same way, but I could not open it, and Meduza's text did not mention the president's entry. I have not seen the president's own words or any statement from the government on his visit."
   ],
   "why": "Poland's courts have been a political fault line for years. A police cordon around a court, a suspended chief justice and a president turning his plane around make a vivid story, and each side has a ready word for it: takeover or restoring the law.",
-  "next": "Whether Nawrocki or Tusk's government makes a statement, whether the suspension stands, and whether any court rules on it.",
+  "next": "Whether the talks the president called take place and who attends, whether the suspension of Święczkowski stands, and whether any court rules on it.",
   "posts": [
     {
       "id": "2116218785778569286",
@@ -49,12 +50,24 @@
     {
       "label": "RTE: Polish riot police deployed after court chief suspended",
       "url": "https://www.rte.ie/news/world/2026/1030/1597434-poland-police-court/"
+    },
+    {
+      "label": "UNN: Polish president declares violation of constitutional order, calls emergency talks",
+      "url": "https://unn.ua/en/news/the-president-of-poland-declared-a-violation-of-the-constitutional-order-and-convened-emergency-talks"
+    },
+    {
+      "label": "Meduza: Poland's constitutional court chief suspended",
+      "url": "https://meduza.io/en/news/2026/10/31/poland-s-constitutional-court-chief-suspended-amid-escalating-judicial-standoff-between-prime-minister-donald-tusk-and-the-opposition"
     }
   ],
   "corrections": [
     {
       "at": "2026-10-31T02:30:00Z",
       "text": "The first version said I found no report that police entered the Tribunal. Notes from Poland and RTE report seven judges escorted in by State Protection Service officers and a police statement that officers entered the premises. Tusk's and Law and Justice's statements were added."
+    },
+    {
+      "at": "2026-10-31T11:30:00Z",
+      "text": "The earlier text said I could not find the president's statement beyond his trip remark. A report now says he entered the building overnight and called talks for Saturday. Added."
     }
   ]
 }

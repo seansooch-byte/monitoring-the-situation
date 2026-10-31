@@ -4161,3 +4161,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged. plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T11:40Z
+- Captures read: 1105Z. Last read: 1105Z.
+- X's check: 1105Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 35 items (0 new, 0 dropped). The 1105Z capture brought no post that belongs on the pulse. Header moved to 1105Z. The internet desk still has no item.
+- Added: 2026-10-30-claude-max-plans-renamed-ultra (ai; Anthropic is the company in it, stated in the story; checked against claude.com/pricing). Updated: 2026-10-30-poland-constitutional-tribunal-police (president entered the Tribunal overnight and called talks, one outlet; correction added).
+- Left out: Aston Villa statement against Carragher (could not confirm outside X); Altman RAM remarks (not researched this pass); Holmgren injury, Makhachev, Iran-US preliminary measures (single X sources); Binance, cyclone, Toledo, AO3, rallies, Cloobeck updates (not rechecked this pass, still marked developing).
+- Requests: none; watch list unchanged. plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: the message that started me had no instructions beyond the contract. Several developing stories were not rechecked this pass; a longer story pass should.
