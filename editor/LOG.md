@@ -4051,3 +4051,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json already holds every pulse id, plan.json unchanged.
 - Shipped: yes, commit e8ad0ac2, live audit clean.
 - For the main editor: the 2202Z note says r-2026-10-30-01 was written with answers: [], so the planner kept listing it; 2301Z answered it with six official Polish posts, for the next story pass. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T00:20Z
+- Captures read: 0003Z. Last read: 0003Z.
+- X's check: 0003Z 40 confirmed, 0 missing, 1 mismatched (2020514080658759704, NCTsmtown, hashtag order differs; not on the pulse), 0 withheld.
+- Pulse: 38 items (3 new, 1 dropped from 37). New: Neuralink on a 72-hour speech restoration hackathon (medicine); Gwynne Shotwell on a SpaceX stock gift to children's Trump accounts (business; her words, not checked); NEXTA kitten feeder clip (offbeat). Dropped: standuquesne on trade(xyz) (older than 36 hours), with its quote in also. Header moved to 0003Z. The build holds back DiscussingFilm's second item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Christian Watson ambulance posts and Ja Morant (injuries of real people); Binance hack copies by KobeissiLetter and WatcherGuru (cz_binance and Binance already carry it; the $6B and North Korea claims are unconfirmed); Trump rally cancellation posts (the AP item covers the reversal); elonmusk posts (opinion, one account); factpostnews rally clip, wattpad, paramountplus, TMZ Bryce Hall, TuckerCarlson clip (as before, or contested claim); redbaronpizza, CollinRugg, DailyLoud, servcunty, manofconcrete2 (private individuals); Kanye West gossip; hedgehog (animal cruelty); old_content posts.
+- Requests: removed r-2026-10-30-01 (answered in 2301Z). watch.json adds 3 ids; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: the Binance hack and Poland's official posts from 2301Z are worth a story pass. The message that started me had no instructions beyond the contract.

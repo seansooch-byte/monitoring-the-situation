@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-30T23:10:10Z",
-  "capture": "2026-10-30T2301Z",
+  "updated_at": "2026-10-31T00:20:00Z",
+  "capture": "2026-10-31T0003Z",
   "items": [
     {
       "id": "2115797314434695516",
@@ -25,14 +25,6 @@
       ]
     },
     {
-      "id": "2115777839622689036",
-      "desk": "markets",
-      "line": "Stan Druckenmiller, an investor, posts that he is an investor in trade(xyz) as it partners with ICE to bring 24/7 perpetual futures on Hyperliquid to the United States, and that he looks forward to using the product. Elon Musk quotes the post with one word, \"Interesting\". Not checked here.",
-      "also": [
-        "2115823011399938182"
-      ]
-    },
-    {
       "id": "2115891266131300517",
       "desk": "entertainment",
       "line": "The verified account of actor Patrick Stewart posts that, in lieu of flowers, memorial contributions may be made to the Johns Hopkins Alzheimer’s Disease Research Center Fund and the Alzheimer’s Foundation of America. The Hollywood Reporter and Sky News post that he has died at 86. Not checked here.",
@@ -44,8 +36,7 @@
     {
       "id": "2115781256642252830",
       "desk": "entertainment",
-      "line": "KillaKreww posts a clip in which Raven-Symoné says she never denied that That’s So Raven centred on a Black family, and that its appeal went beyond race. The post says she is clarifying earlier comments. Not checked here.",
-      "also": []
+      "line": "KillaKreww posts a clip in which Raven-Symoné says she never denied that That’s So Raven centred on a Black family, and that its appeal went beyond race. The post says she is clarifying earlier comments. Not checked here."
     },
     {
       "id": "2115915423174853077",
@@ -94,20 +85,17 @@
     {
       "id": "2115809671151751545",
       "desk": "world",
-      "line": "Senator Chris Murphy posts a video saying Trump is reportedly planning to restart war with Iran after the election. He says he has been briefed on the plan, cannot give details, and calls it insane. The report and his view of the plan are not checked here.",
-      "also": []
+      "line": "Senator Chris Murphy posts a video saying Trump is reportedly planning to restart war with Iran after the election. He says he has been briefed on the plan, cannot give details, and calls it insane. The report and his view of the plan are not checked here."
     },
     {
       "id": "2115907748164759702",
       "desk": "sports",
-      "line": "Reporter Fabrizio Romano posts that AC Milan and Inter have unveiled a new stadium, to be called the Generali Stadium from the 2031/32 season, and that San Siro will be demolished under the current plan. He says Generali bought the naming rights until 2052 for €650M. Not checked here.",
-      "also": []
+      "line": "Reporter Fabrizio Romano posts that AC Milan and Inter have unveiled a new stadium, to be called the Generali Stadium from the 2031/32 season, and that San Siro will be demolished under the current plan. He says Generali bought the naming rights until 2052 for €650M. Not checked here."
     },
     {
       "id": "2115896865803870592",
       "desk": "entertainment",
-      "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here.",
-      "also": []
+      "line": "Marvel Studios posts a statement saying it is deeply saddened by the passing of Sir Patrick Stewart, and recalls his role as Professor Charles Xavier. Not checked here."
     },
     {
       "id": "2115813444083490867",
@@ -173,8 +161,7 @@
     {
       "id": "2115868676092269044",
       "desk": "politics",
-      "line": "Andrew Curran says the ranking members of two House committees asked Trump if he sought Grok's advice for his duties and to keep prompts sent to chatbots such as Claude. Not checked here. Claude, which writes this page, is made by Anthropic; Grok, which gathers its posts, by xAI.",
-      "also": []
+      "line": "Andrew Curran says the ranking members of two House committees asked Trump if he sought Grok's advice for his duties and to keep prompts sent to chatbots such as Claude. Not checked here. Claude, which writes this page, is made by Anthropic; Grok, which gathers its posts, by xAI."
     },
     {
       "id": "2116213541304746415",
@@ -204,20 +191,32 @@
     {
       "id": "2116218785778569286",
       "desk": "world",
-      "line": "The Polish-language account PanP23929 says police are storming Poland's Constitutional Tribunal on Donald Tusk's orders and calls it a coup. Polish outlets report police outside the building on written requests from a prosecutor and a judge; the story has the rest.",
-      "also": []
+      "line": "The Polish-language account PanP23929 says police are storming Poland's Constitutional Tribunal on Donald Tusk's orders and calls it a coup. Polish outlets report police outside the building on written requests from a prosecutor and a judge; the story has the rest."
     },
     {
       "id": "2116216763582972069",
       "desk": "world",
-      "line": "Polish President Karol Nawrocki posts, in Polish, that the president must be in Poland at such a moment and that he is breaking off his flight to Senegal to return. Outlets report the trip was cut short as police stood outside the Constitutional Tribunal; the story has the rest.",
-      "also": []
+      "line": "Polish President Karol Nawrocki posts, in Polish, that the president must be in Poland at such a moment and that he is breaking off his flight to Senegal to return. Outlets report the trip was cut short as police stood outside the Constitutional Tribunal; the story has the rest."
     },
     {
       "id": "2116238502027464938",
       "desk": "world",
-      "line": "Polish Prime Minister Donald Tusk posts, in Polish, that restoring the rule of law is a duty, that after years of lawlessness under the previous government it is hard and sometimes painful, and that there is no other way. The post does not name the Tribunal. Not checked here.",
-      "also": []
+      "line": "Polish Prime Minister Donald Tusk posts, in Polish, that restoring the rule of law is a duty, that after years of lawlessness under the previous government it is hard and sometimes painful, and that there is no other way. The post does not name the Tribunal. Not checked here."
+    },
+    {
+      "id": "2115878416423784939",
+      "desk": "medicine",
+      "line": "Neuralink, the brain implant company, says its engineers spent 72 hours with a participant in its speech restoration study, building features to improve how he or she communicates with thought, and starts a thread listing them. Not checked here."
+    },
+    {
+      "id": "2116266502533902586",
+      "desk": "business",
+      "line": "SpaceX president Gwynne Shotwell says she and her husband are giving over 2 million shares of SpaceX stock to children’s Trump accounts, to be distributed in December, first to 11 to 17-year-olds in lower-income zip codes. Not checked here."
+    },
+    {
+      "id": "2115837312714109277",
+      "desk": "offbeat",
+      "line": "The news account NEXTA posts a 19-second video of a kitten trying for several minutes to feed its favorite toy some of its own food, which it says an automatic feeder captured."
     }
   ]
 }
