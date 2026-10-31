@@ -4071,3 +4071,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch.json adds 4 ids and drops 3. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-10-31T02:35Z
+- Captures read: 0202Z. Last read: 0202Z.
+- X's check: 0202Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 39 items (3 new, 3 dropped). New: Variety on Harry Styles as Elvis at MSG (music); F1 Verstappen and Lawson contact in Mexico practice (sports); Texas Senate and governor poll posted by PpollingNumbers (politics; not checked). Dropped, older than 36 hours: Ronaldo (with Romano in also), Duskbloods, DiscussingFilm first-look photo. Header moved to 0202Z.
+- Added: none. Updated: 2026-10-30-poland-constitutional-tribunal-police (Notes from Poland and RTE: judges escorted in by State Protection Service, police statement on entering the premises, Tusk and PiS statements; correction added). Binance story: searched, found no newer source than the one cited, unchanged.
+- Left out: barandbench Madras High Court plea on a named journalist's background (real person, claim only on X); WatcherGuru $850B and Netanyahu election posts (unconfirmed); LongTimeHistory taser post (unnamed man, nothing outside X); Dexerto hedgehog (animal cruelty); FadeHubb, mmahokei2, JonesSirdiamond (private individuals); paramountplus, wattpad, elonmusk 2028 post, old_content posts.
+- Requests: none; watch.json adds 3 ids and drops 2. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

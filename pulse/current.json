@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-10-31T01:40:00Z",
-  "capture": "2026-10-31T0102Z",
+  "updated_at": "2026-10-31T02:30:00Z",
+  "capture": "2026-10-31T0202Z",
   "items": [
-    {
-      "id": "2115797314434695516",
-      "desk": "sports",
-      "line": "Footballer Cristiano Ronaldo posts a photo and thanks fans around the world, saying football belongs to them and that the “Ballon D’Or of All Time” is theirs too. Reporter Fabrizio Romano posts that the Ballon d’Or announced Ronaldo’s 2008 award as the best of all time. Not checked here.",
-      "also": [
-        "2115509418276376791"
-      ]
-    },
     {
       "id": "2115864946093305955",
       "desk": "internet",
@@ -56,16 +48,6 @@
       "id": "2115912451602645133",
       "desk": "defense",
       "line": "The account clashreport posts a video and says it shows the moment an Italian military CH-47 Chinook helicopter crashed in Bosnia and Herzegovina on Thursday. Not checked here."
-    },
-    {
-      "id": "2115805894336536741",
-      "desk": "gaming",
-      "line": "The account for The Duskbloods says the game is in final adjustment and that it is moving the launch window to 2027. It apologises to players who have been waiting."
-    },
-    {
-      "id": "2115793711032676693",
-      "desk": "entertainment",
-      "line": "The film news account DiscussingFilm posts a photo and calls it a first look at the popcorn bucket for the film Dune: Part 3."
     },
     {
       "id": "2115809671151751545",
@@ -220,6 +202,21 @@
       "id": "2116212312000602258",
       "desk": "life",
       "line": "The account HoopsCrave posts two photos and says Jada Pinkett Smith dressed up as Tupac for Halloween. Not checked here."
+    },
+    {
+      "id": "2116337633475666373",
+      "desk": "music",
+      "line": "Variety reports that Harry Styles dressed as Elvis for the first night of his Halloween shows at Madison Square Garden."
+    },
+    {
+      "id": "2116293643107754101",
+      "desk": "sports",
+      "line": "The Formula 1 account posts a clip it says shows Max Verstappen and Liam Lawson going wheel to wheel and making contact in second practice at the Mexico Grand Prix."
+    },
+    {
+      "id": "2116138907343417681",
+      "desk": "politics",
+      "line": "The account PpollingNumbers posts a Texas poll it attributes to Quantus Insights, taken 28 October among likely voters: Ken Paxton 49 and James Talarico 48 for Senate, Greg Abbott 52 and Gina Hinojosa 46 for governor. Not checked here."
     }
   ]
 }
