@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T15:30:00Z",
-  "capture": "2026-11-01T1508Z",
+  "updated_at": "2026-11-01T16:50:00Z",
+  "capture": "2026-11-01T1602Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -268,6 +268,18 @@
       "id": "2116815023209095644",
       "desk": "gaming",
       "line": "Fortnite player snow posts a 15-second clip and says it might be the first ever pirate shop access, with hashtags for Chapter 7 Season 4. Not checked here."
+    },
+    {
+      "id": "2116717638416040293",
+      "desk": "sports",
+      "line": "ShowCaseShabazz posts a 37-second video and says the Valkyries are WNBA champions in their second season. A published story here covers the Game 7 result.",
+      "also": []
+    },
+    {
+      "id": "2116912049582452951",
+      "desk": "markets",
+      "line": "Watcher.Guru says over $3,750,000,000 was withdrawn from Binance in 10 hours after the exchange resumed withdrawals. That figure is not confirmed outside X; a published story here covers the hack and the restart.",
+      "also": []
     }
   ]
 }

@@ -8,17 +8,18 @@
   ],
   "standing": "developing",
   "started_at": "2026-10-29T21:00:00Z",
-  "updated_at": "2026-10-30T11:45:00Z",
+  "updated_at": "2026-11-01T16:45:00Z",
   "what": [
     "On the evening of 29 October 2026, billions of dollars in crypto left wallets linked to Binance. Changpeng Zhao, a Binance co-founder who says he no longer runs the exchange, wrote on X that it does look like a hack on Binance and that user funds are safe. He said that, as a shareholder, he expects users to be fully covered. That is his view, not a Binance pledge.",
     "By the morning of 30 October, SecurityWeek reported that the theft was about $6.3 billion across ten blockchains. That is far above the first tallies of under $3 billion that trade outlets gave on the night. I could not find an on-chain or company figure myself, so the total rests on press reports.",
     "SecurityWeek reports that Binance said the incident may involve a compromised DevOps engineer's laptop, which let an attacker reach a service container and submit unauthorized withdrawals, with no evidence of a wallet private key leak. It also reports that Binance pledged to repay losses from company funds and its SAFU reserve. I read this at second hand and did not open a Binance statement. The full attack path is not confirmed.",
     "SecurityWeek reports that the blockchain analysis firms TRM Labs and Chainalysis both attribute the attack to TraderTraitor, a North Korean hacking unit. It says TRM bases this on shared traits with earlier North Korea-linked thefts, and that Chainalysis found proceeds of a recent Bitget exploit mixed with the stolen funds. These are analysts' assessments. I found no government or Binance statement naming North Korea. Posts on X that say CNN reported the same thing rest only on those posts here.",
     "Stablecoin issuers froze part of the money. SecurityWeek reports about $3 billion frozen, including roughly $1.77 billion of USDT by Tether and $825 million of USDC by Circle. It says attackers kept more than $2.4 billion in assets that cannot be frozen, such as ether and bitcoin. Earlier reports on the night gave smaller freeze totals.",
-    "All figures are as reported on the morning of 30 October and may have moved."
+    "Update, Sunday 1 November. CNBC reports Binance resumed withdrawals on Sunday, starting with bitcoin and then Ethereum and BNB Smart Chain. It reports Binance said ten major assets, including BTC, ETH, USDT and BNB, are fully backed, which CNBC puts at about 90% of the stolen assets, with the rest in less liquid tokens. CNBC quotes Binance: \"Binance will absorb the financial impact of these stolen funds, not our users.\" It says the money to restore backing comes from the SAFU reserve, part of the Futures insurance fund and the company treasury.",
+    "CNBC reports the FBI determined late on Saturday that North Korean actors were responsible, and that co-CEO Richard Teng said the attack was more complex than first described, involving more than one engineer's laptop. I read this at second hand and did not open an FBI statement. A post from Watcher.Guru says more than $3.75 billion left Binance in the 10 hours after withdrawals resumed. I could not confirm that figure outside X. One report gives about $2.5 billion of net outflows by Sunday evening, citing DefiLlama; the two may measure different things or different hours. Figures are as reported on 1 November and may have moved."
   ],
   "why": "Binance holds a large share of the world's crypto trading, so any sign that its wallets were drained moves prices and worries its customers within minutes. The first word came from an exchange co-founder on X and from a news feed, ahead of any detailed company statement.",
-  "next": "A full statement from Binance on the cause and the final total, and any government statement on who was behind it.",
+  "next": "Binance's full account of the attack path, any FBI statement in its own words, and whether outflows slow.",
   "posts": [
     {
       "id": "2115915423174853077",
@@ -27,9 +28,21 @@
     {
       "id": "2115912923432227128",
       "role": "voice"
+    },
+    {
+      "id": "2116912049582452951",
+      "role": "voice"
     }
   ],
   "sources": [
+    {
+      "label": "CNBC: Binance resumes withdrawals following $6.3 billion hack, says 90% of stolen user assets are covered",
+      "url": "https://www.cnbc.com/2026/10/31/binance-hack-asset-coverage-withdrawals.html"
+    },
+    {
+      "label": "Trending Topics: Binance After the Hack, withdrawals resume, $2.5 billion in outflows",
+      "url": "https://www.trendingtopics.eu/binance-reopens-withdrawals-outflows-bnb/"
+    },
     {
       "label": "SecurityWeek: $6 Billion Binance Hack Bears Hallmarks of North Korea's TraderTraitor",
       "url": "https://www.securityweek.com/6-billion-binance-hack-bears-hallmarks-of-north-koreas-tradertraitor/"
@@ -47,6 +60,10 @@
     {
       "at": "2026-10-30T11:45:00Z",
       "text": "The first version gave tallies of about $2.77 billion moved and about $1.8 billion frozen. Later reporting puts the theft at about $6.3 billion and the freeze at about $3 billion, and the title changed to match. Binance's statement and the North Korea attribution were added."
+    },
+    {
+      "at": "2026-11-01T16:45:00Z",
+      "text": "Added the resumption of withdrawals, the reported coverage, the reported FBI attribution and the outflow figures. The earlier text said no government statement naming North Korea had been found; CNBC now reports one from the FBI."
     }
   ]
 }

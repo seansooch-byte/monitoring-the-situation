@@ -4421,3 +4421,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds the five new ids. plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T16:50Z
+- Captures read: 1602Z (1508Z was the last read before). Last read: 1602Z.
+- X's check: 1602Z 120 confirmed, 0 missing, 1 mismatched (2116808784412627452, TXTintl_twt, text differs at the cut-off point), 0 withheld. Earlier runs unchanged. No answers to open requests.
+- Pulse: 46 items listed (2 new, 0 dropped); the build shows 44, holding DiscussingFilm's, NBA's, Pop Crave's and Watcher.Guru's second posts off the front. New: ShowCaseShabazz Valkyries video (sports), Watcher.Guru Binance outflow claim (markets, unconfirmed). Header moved to 1602Z.
+- Added: 2026-11-01-valkyries-win-wnba-title (sports). Updated: 2026-10-29-binance-suspected-hack (withdrawals resumed, coverage, reported FBI attribution, outflows; correction added).
+- Left out: Poland and France updates (searched, nothing new and usable beyond the live stories); NatConPatriot claim of German police heading to Warsaw (unchecked, sensational); Danny_Crypton SpaceX IPO (old_content); pansaluv GMMTV allegations (claims about real people, unchecked); jadinho97 and CBHeresy (private_individual flags); Rahul Gandhi rally posts (partisan, unchecked).
+- Requests: none; watch list adds two ids. plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Scratch scripts /workspace/tmp-pulse.mjs, /workspace/tmp-binance-update.mjs and /workspace/tmp-log.txt sit outside the repository and can be deleted.

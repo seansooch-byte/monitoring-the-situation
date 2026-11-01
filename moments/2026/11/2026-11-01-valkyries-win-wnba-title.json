@@ -1,0 +1,29 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-01-valkyries-win-wnba-title",
+  "title": "Golden State Valkyries win the WNBA title in Game 7, their second season",
+  "dek": "The expansion team beat the Atlanta Dream in the first Game 7 in WNBA Finals history.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-01T02:23:06Z",
+  "updated_at": "2026-11-01T16:45:00Z",
+  "what": [
+    "The Golden State Valkyries beat the Atlanta Dream 68-63 in Game 7 of the WNBA Finals on Saturday 31 October, in San Francisco. ESPN reports it was the first Game 7 in the history of the WNBA Finals, and that the Valkyries won the series 4-3.",
+    "ESPN reports Gabby Williams was named Finals MVP after scoring 30 points, 28 of them in the second half, with four blocks. It reports the Valkyries are the third franchise across the NBA, BAA and WNBA to win a title within its first two seasons.",
+    "Neither team had won a WNBA title before, so the result gave the league a first-time champion. An earlier story here covered the argument over where Game 6 would be played."
+  ],
+  "why": "A new team winning so fast, in a series that went the full seven games, gave fans of the league an easy thing to share. The post cited here is a short video from the night.",
+  "posts": [
+    { "id": "2116717638416040293", "role": "voice" }
+  ],
+  "sources": [
+    {
+      "label": "ESPN: Led by MVP Williams, Valkyries outlast Dream, secure first WNBA title",
+      "url": "https://www.espn.com/wnba/story/_/id/50343701/golden-state-valkyries-win-game-7-secure-first-wnba-title"
+    },
+    {
+      "label": "Yahoo Sports: Valkyries Beat Dream 68-63 in Game 7",
+      "url": "https://sports.yahoo.com/articles/valkyries-beat-dream-68-63-033836423.html"
+    }
+  ]
+}
