@@ -4281,3 +4281,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 4 ids. plan.json rebuilt for 2026-11-01T00Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T00:25Z
+- Captures read: 0001Z. Last read: 0001Z.
+- X's check: 0001Z 124 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 52 items listed (4 new, 2 dropped); the build shows 53 after holding one AP post as a second item from one account. New: Fox News on the Paris protests (world); Prakash Raj's Delhi protest invitation (world, purpose not stated in the post); Rock History on the New York "Thriller" Halloween gathering (music, not checked here); NEXTA cat checkpoint (offbeat, not checked here). Dropped at 36 hours: PpollingNumbers Texas poll (politics) and DisTurB____ GTA joke (internet, desk now empty). Header moved to 0001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: KushPatil Moscow embassy warning (unchecked, asks Grok to confirm); TMZ influencer death (named person, unchecked); Y2kSamurai cartoon reveal (no media description); realMaalouf (generalisation about a religion); GuntherEagleman Paris firebomb (graphic); Ron_Watkins and BrimsCr7 Poland (already covered); soigomaa data centre and multiplanet1 Flint (unchecked claims); malinborderland (profanity); sports, politics and music posts (desks full).
+- Requests: none; watch list adds 4 ids and drops 2. plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
