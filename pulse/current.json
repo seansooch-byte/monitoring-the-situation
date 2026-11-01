@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T02:25:00Z",
-  "capture": "2026-11-01T0204Z",
+  "updated_at": "2026-11-01T03:25:00Z",
+  "capture": "2026-11-01T0308Z",
   "items": [
     {
       "id": "2116213541304746415",
@@ -283,6 +283,14 @@
       "id": "2116583228005818687",
       "desk": "world",
       "line": "Representative Robert Garcia, a Democrat, says Flávio Bolsonaro gets a US visa while families are being detained, that he should return to Brazil to face justice, and that ICE acts as the president's police force."
+    },
+    {
+      "id": "2116718402815541360",
+      "desk": "sports",
+      "line": "The NBA account posts that the Golden State Valkyries are WNBA champions, in just their second season as a franchise. SportsCenter posts a video of the moment they won. Neither post has a description of its video.",
+      "also": [
+        "2116718623389569122"
+      ]
     }
   ]
 }
