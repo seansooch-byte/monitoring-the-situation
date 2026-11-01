@@ -4381,3 +4381,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list drops 3 ids, adds 1. plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T11:45Z
+- Captures read: 1104Z (1002Z was the last read before). Last read: 1104Z.
+- X's check: 1104Z 36 confirmed, 0 missing, 0 mismatched, 1 withheld. No answers to open requests.
+- Pulse: 40 items listed (0 new, 0 dropped; nothing older than 36 hours); the build shows 37, holding DiscussingFilm's, Pop Crave's and NBA's second posts off the front. Header moved to 1104Z. The 1104Z capture held nothing new at pulse size that could be shown.
+- Added: none. Updated: none. I searched for a Binance hack follow-up and for the Valkyries' title and Finals MVP and found nothing usable outside X, so no story was written or changed.
+- Left out: Stormy Daniels claim about Trump (sorennxbt, allegation about a real person, unchecked); MarioNawfal on Fort Bragg burial drills (aggregator, speculative, unchecked); UnderdogWNBA Finals MVP post (not confirmed outside X; sports full); Marta Kostyuk post (point not clear); 1104Z Good Sunday greetings and small celebrity-costume posts.
+- Requests: none; watch list unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
