@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T14:40:00Z",
-  "capture": "2026-11-01T1400Z",
+  "updated_at": "2026-11-01T15:30:00Z",
+  "capture": "2026-11-01T1508Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -247,6 +247,27 @@
       "desk": "justice",
       "line": "FOX 4 News reports that at least nine people were shot, and four are dead, after multiple shootings in Dallas’ Deep Ellum district early Sunday morning. The post links to its own story. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2116863071796814048",
+      "desk": "entertainment",
+      "line": "In Japanese, the official account of the anime Bocchi the Rock! posts a teaser image and announces a film, Hoshi no Ashiato (Starry Footprints), for 2027. It names the director, character designer, writer and the studio CloverWorks. Not checked here.",
+      "also": [
+        "2116864716702114202"
+      ]
+    },
+    {
+      "id": "2116493598078173583",
+      "desk": "life",
+      "line": "Catholic Sat posts a 32-second video of Pope Leo XIV, who says he heard \"Go Irish!\" growing up on the south side of Chicago, that Prevost graduated from Villanova, and that the pope does not take sides. Not checked here.",
+      "also": [
+        "2116520271922237669"
+      ]
+    },
+    {
+      "id": "2116815023209095644",
+      "desk": "gaming",
+      "line": "Fortnite player snow posts a 15-second clip and says it might be the first ever pirate shop access, with hashtags for Chapter 7 Season 4. Not checked here."
     }
   ]
 }
