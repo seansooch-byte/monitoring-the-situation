@@ -4401,3 +4401,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged. plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T13:45Z
+- Captures read: 1300Z (1201Z was the last read before). Last read: 1300Z.
+- X's check: 1300Z 87 confirmed, 0 missing, 0 mismatched, 2 withheld. Earlier runs unchanged. No answers to open requests.
+- Pulse: 41 items listed (1 new, 0 dropped; nothing near 36 hours); the build shows 38, holding DiscussingFilm's, Pop Crave's and NBA's second posts off the front. New: Gadi Eisenkot's Hebrew statement on forming a government (politics, not checked here). Header moved to 1300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: huchupick, BrianAtlas, WEdwarda, disstressednora (private_individual flags); skynewsagra on Indonesia's president (allegation about real people, unchecked); XFreeze and ShaykhSulaiman (argument posts, the latter old_content); TheOnlyDSC, sneako, devilfishD2, weeniehutjrs98 (point not clear from words and media); ChrisNTrevino USC field rush (sports full, no media description); Dogetothemoon Haldeman photo (needs a source); old_content posts; small 1300Z posts.
+- Requests: none; watch list adds 2116586741289148433. plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
