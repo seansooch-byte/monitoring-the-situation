@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T18:25:00Z",
-  "capture": "2026-11-01T1808Z",
+  "updated_at": "2026-11-01T19:15:00Z",
+  "capture": "2026-11-01T1902Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -248,12 +248,6 @@
       "also": []
     },
     {
-      "id": "2116418139441516832",
-      "desk": "world",
-      "line": "Polymarket says Johannesburg is reportedly on the brink of a \"total collapse\" of its water system, with residents without running water for weeks. The post names no source. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2116536327219109941",
       "desk": "politics",
       "line": "Marsha Blackburn, on the account VoteMarsha, says that as governor she will protect Tennessee from “Sharia law and the spread of Islamization.” Not checked here.",
@@ -329,7 +323,25 @@
       "id": "2116945962706862397",
       "desk": "politics",
       "line": "Democratic U.S. Rep. Haley Stevens posts a 98-second video and says she is endorsing Republican Mike Rogers for the U.S. Senate. Reporter Sam Robinson's earlier video shows the two together at a Detroit church. Neither video has a description here.",
-      "also": ["2116928084528218269"]
+      "also": [
+        "2116928084528218269"
+      ]
+    },
+    {
+      "id": "2116958085248160199",
+      "desk": "sports",
+      "line": "NFL on CBS posts a video and says Ravens quarterback Lamar Jackson heads to the locker room after his first pass attempt with an apparent hand injury. The Ravens account later posts that he is out.",
+      "also": [
+        "2116961835714822470"
+      ]
+    },
+    {
+      "id": "2116939605417382105",
+      "desk": "entertainment",
+      "line": "Pop Base says Martha Stewart shared a photo in which she seemed to be dressed as a homeless person for Halloween, and that she deleted it. In a later post it quotes her statement to Page Six that the costume was meant to raise awareness of homelessness and that she is distressed it offended people.",
+      "also": [
+        "2116947938001973293"
+      ]
     }
   ]
 }
