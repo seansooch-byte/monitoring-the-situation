@@ -4341,3 +4341,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 3 ids. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T07:20Z
+- Captures read: 0700Z (0601Z was the last read before). Last read: 0700Z.
+- X's check: 0700Z 37 confirmed, 0 missing, 0 mismatched, 1 withheld (2116744700170547524 theestallion; not on the pulse). No answers to open requests.
+- Pulse: 40 items listed (5 new, 0 dropped; nothing older than 36 hours); the build shows 36, holding Elon Musk's, DiscussingFilm's, Pop Crave's and NBA's second posts off the front. New: Aston Villa's legal threat against Jamie Carragher with Carragher's apology attached (sports); Adam Schefter on the Colts and Jonathan Taylor (sports, not checked here); Kemi Badenoch on slavery apologies and reparations (politics, not checked here); Polymarket on Johannesburg's water system (world, not checked here); Elon Musk on Eli Lilly (medicine, not checked here). The 0700Z capture held almost nothing new at that size; these five were large posts from earlier captures that had been left off.
+- Added: none. Updated: none (pulse pass).
+- Left out: gapjilreborn, mtracey, DRESPITFACTS, FastGuy90, theValkiriya, barstoolsports ACL post (private individual flags); zackdfilms1 and hobifIwr videos (no description, point not clear); Warriors and TheHoopCentral Curry clips (NBA already on the pulse); Shams on Chet Holmgren (sports already full); the Texas Children's Hospital clinic post (unchecked, needs a story pass); small 0700Z posts (Culkin, Doctor Doom, Fortnite, PopBase).
+- Requests: none; watch list adds 5 ids, now 64. plan.json rebuilt for 08Z.
+- Shipped: yes, commit 790ded9b, live audit clean (log entry added in a following commit).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
