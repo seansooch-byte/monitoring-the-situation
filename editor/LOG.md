@@ -4371,3 +4371,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 1 id. plan.json rebuilt for 10Z (it had lagged an hour at the 0904Z run).
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T10:35Z
+- Captures read: 1002Z (0904Z was the last read before). Last read: 1002Z.
+- X's check: 1002Z 43 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier runs unchanged (0204Z 2, 0405Z 3, 0500Z 1 mismatched were in the tally before). No answers to open requests.
+- Pulse: 39 items listed (1 new, 2 dropped); the build shows 37, holding DiscussingFilm's, Pop Crave's and NBA's second posts off the front. New: jun_song on an anonymous group's offer to buy exploit-data training (ai, not checked here). Dropped at 36 hours: Aston Villa's legal threat against Carragher with the apology, and Elon Musk on Eli Lilly (medicine is now quiet). Header moved to 1002Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: FundaAI on Anthropic's inference costs (speculation about a company's finances, unchecked; involves Anthropic); CNN on the WSJ dismissal (Krassenstein's post already carries it); F1's Hamilton pole post (the pole is already on the pulse); ClipXClipX and AP4Liberty (private_individual flags); Acyn, igorsushko, visegrad24, AssalRad (unchecked or insult-driven, politics and world full); stoolpresidente, theo (point not clear); small 1002Z posts.
+- Requests: none; watch list drops 3 ids, adds 1. plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
