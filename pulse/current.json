@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T04:20:00Z",
-  "capture": "2026-11-01T0405Z",
+  "updated_at": "2026-11-01T05:30:00Z",
+  "capture": "2026-11-01T0500Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -181,6 +181,12 @@
       "id": "2116624563530289306",
       "desk": "offbeat",
       "line": "In French, the news agency CLPRESS posts a video of about two minutes and says dozens of people gathered for Halloween at the foot of the Eiffel Tower and took up the dance from Michael Jackson’s “Thriller”. Not checked here."
+    },
+    {
+      "id": "2116719614432543071",
+      "desk": "entertainment",
+      "line": "The Hollywood Reporter posts a video of Heidi Klum posing on the carpet at her annual Halloween party in New York City. The video has no description here, so her costume is not described.",
+      "also": []
     }
   ]
 }

@@ -4321,3 +4321,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed r-2026-11-01-01, -02, -03 (answered in 0308Z). None added. Watch list: 22 ids added, 54 dropped (older than 48 hours and off the pulse). plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T05:30Z
+- Captures read: 0500Z (0405Z was the last read before). Last read: 0500Z.
+- X's check: 0500Z 107 confirmed, 0 missing, 1 mismatched (2116726938412662860 BEFIRSTofficial; not on the pulse or in a story), 0 withheld. Earlier mismatches at 0003Z, 0102Z, 0204Z and 0405Z.
+- Pulse: 32 items listed (1 new, 0 dropped; nothing is older than 36 hours); the build shows 30, holding NBA's and Pop Crave's second posts off the front. New: The Hollywood Reporter's video of Heidi Klum at her Halloween party (entertainment, no media description). Header moved to 0500Z. The 0500Z capture held almost nothing new: most of its posts were reposts of old content.
+- Added: none. Updated: none (pulse pass).
+- Left out: jaxoncoder's Prime and Amazon bot post (reads as a joke, point and truth unclear); khiashater, evristainted (no description, point not clear); HappyPunch family fight, Cait_Cavell, rahsh33m, FastGuy90, ItsKingSlime, ghoulpoet666 (private individuals); TMZ influencer death (named person, unchecked); Elon Musk's second and third posts and JDVance's Halloween post (account already on the front page).
+- Requests: none; watch list adds 1 id. plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
