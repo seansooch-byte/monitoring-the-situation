@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T13:40:00Z",
-  "capture": "2026-11-01T1300Z",
+  "updated_at": "2026-11-01T14:40:00Z",
+  "capture": "2026-11-01T1400Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -232,6 +232,20 @@
       "id": "2116586741289148433",
       "desk": "politics",
       "line": "In Hebrew, Israeli politician Gadi Eisenkot posts a long statement. He says the vote count is over and the results are clear, says a majority of Israelis voted for change, and says he will work to form a broad government on four principles he lists. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2116728061765034338",
+      "desk": "business",
+      "line": "Binance, the crypto exchange, says in an update that it has already covered $6B of the impacted amount of the hacked loss. The post links to its announcement, which has no description here. Not checked here.",
+      "also": [
+        "2116538196259684457"
+      ]
+    },
+    {
+      "id": "2116861785651261742",
+      "desk": "justice",
+      "line": "FOX 4 News reports that at least nine people were shot, and four are dead, after multiple shootings in Dallas’ Deep Ellum district early Sunday morning. The post links to its own story. Not checked here.",
       "also": []
     }
   ]
