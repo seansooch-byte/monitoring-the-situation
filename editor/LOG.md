@@ -4351,3 +4351,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 5 ids, now 64. plan.json rebuilt for 08Z.
 - Shipped: yes, commit 790ded9b, live audit clean (log entry added in a following commit).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T08:25Z
+- Captures read: 0808Z (0700Z was the last read before). Last read: 0808Z.
+- X's check: 0808Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. No answers to open requests.
+- Pulse: 40 items listed (0 new, 0 dropped; nothing older than 36 hours, though Aston Villa's and Elon Musk's Eli Lilly posts reach 36 hours by the next pass); the build shows 36, holding Elon Musk's, DiscussingFilm's, Pop Crave's and NBA's second posts off the front. Header moved to 0808Z. The 0808Z capture held almost nothing new at pulse size.
+- Added: none. Updated: none (pulse pass).
+- Left out: NewsHour on counting midterm results (politics already has four accounts); UK_REPT on Trump and a Gulf war date (aggregator, unchecked); Reuters on Binance withdrawals (Reuters already on the front; the Binance story needs an update at the next story pass); Gerashchenko_en on the Lukoil refinery (small, unchecked); _FORAB's Halloween joke; Petyniaarts (old post); small F1, NBA, WNBA and MCR posts (desks already full or small).
+- Requests: none; watch list unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
