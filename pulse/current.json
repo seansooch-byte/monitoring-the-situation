@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T05:30:00Z",
-  "capture": "2026-11-01T0500Z",
+  "updated_at": "2026-11-01T06:15:00Z",
+  "capture": "2026-11-01T0601Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -185,8 +185,22 @@
     {
       "id": "2116719614432543071",
       "desk": "entertainment",
-      "line": "The Hollywood Reporter posts a video of Heidi Klum posing on the carpet at her annual Halloween party in New York City. The video has no description here, so her costume is not described.",
-      "also": []
+      "line": "The Hollywood Reporter posts a video of Heidi Klum posing on the carpet at her annual Halloween party in New York City. The video has no description here, so her costume is not described."
+    },
+    {
+      "id": "2116571973979668494",
+      "desk": "internet",
+      "line": "DiscussingFilm posts two photos and says the streamer Speed dressed as Miles Morales for Halloween. The photos have no description here. Not checked here."
+    },
+    {
+      "id": "2116739554518421777",
+      "desk": "tech",
+      "line": "Reuters reports that Malaysia Airlines says customers may be affected by a breach at Amadeus, a travel-booking technology company. The post is a headline and link only. Not checked here."
+    },
+    {
+      "id": "2116734971440464103",
+      "desk": "world",
+      "line": "The account BullTheory says Iran reports talks with Qatari mediators on a plan to reopen the Strait of Hormuz within 48 hours if the US accepts Iran’s conditions, and lists six conditions it attributes to Iran’s foreign minister, including lifting sanctions and ending the war on all fronts. Not checked here."
     }
   ]
 }

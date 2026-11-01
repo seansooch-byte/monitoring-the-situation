@@ -4331,3 +4331,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 1 id. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T06:15Z
+- Captures read: 0601Z (0500Z was the last read before). Last read: 0601Z.
+- X's check: 0601Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches at 0003Z, 0102Z, 0204Z, 0405Z and 0500Z (none on the pulse or in a story).
+- Pulse: 35 items listed (3 new, 0 dropped; nothing older than 36 hours); the build shows 32, holding DiscussingFilm's, Pop Crave's and NBA's second posts off the front. New: DiscussingFilm's photos of Speed as Miles Morales (internet, stands on its desk page); Reuters on Malaysia Airlines and the Amadeus breach (tech, not checked here); BullTheory on Iran's Hormuz conditions via Qatari mediators (world, not checked here). Header moved to 0601Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Delaware campus shooting post (unconfirmed, no source); MeidasTouch on Fox's panel and the Sullivan logo post (partisan, no sourced story); GTA 6 release post (date claim unchecked); Reuters and F1 Hamilton posts (F1 already on the pulse); the Ghana Tinder post and cybelethebest reply (private individuals); Binance withdrawals posts (Watcher.Guru already holds the markets place; the Binance story of 29 October needs an update at the next story pass: withdrawals reported to resume 06:00 to 09:00 UTC, unchecked).
+- Requests: none; watch list adds 3 ids. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
