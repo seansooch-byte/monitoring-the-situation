@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T16:50:00Z",
-  "capture": "2026-11-01T1602Z",
+  "updated_at": "2026-11-01T17:35:00Z",
+  "capture": "2026-11-01T1701Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -14,57 +14,68 @@
     {
       "id": "2116583228005818687",
       "desk": "world",
-      "line": "Representative Robert Garcia, a Democrat, says Flávio Bolsonaro gets a US visa while families are being detained, that he should return to Brazil to face justice, and that ICE acts as the president's police force."
+      "line": "Representative Robert Garcia, a Democrat, says Flávio Bolsonaro gets a US visa while families are being detained, that he should return to Brazil to face justice, and that ICE acts as the president's police force.",
+      "also": []
     },
     {
       "id": "2116574052903251969",
       "desk": "gaming",
-      "line": "Gaming poster SkyRaiderG7 says a leaked video of what looks like an internal presentation is \"too good to fake\", pointing to interface details and debug text in it. The leak and its source have not been checked here."
+      "line": "Gaming poster SkyRaiderG7 says a leaked video of what looks like an internal presentation is \"too good to fake\", pointing to interface details and debug text in it. The leak and its source have not been checked here.",
+      "also": []
     },
     {
       "id": "2116680845461229927",
       "desk": "gaming",
-      "line": "The official League of Legends esports account posts the knockout stage bracket for the 2026 World Championship as an image and notes that match order is still to be decided."
+      "line": "The official League of Legends esports account posts the knockout stage bracket for the 2026 World Championship as an image and notes that match order is still to be decided.",
+      "also": []
     },
     {
       "id": "2116587096651505814",
       "desk": "tech",
-      "line": "Video creator Cleo Abram posts her full episode on Neuralink and brain-computer interfaces. She says she toured the company and saw its new R1 surgical robot. Neuralink is led by Elon Musk, who is also the owner of X."
+      "line": "Video creator Cleo Abram posts her full episode on Neuralink and brain-computer interfaces. She says she toured the company and saw its new R1 surgical robot. Neuralink is led by Elon Musk, who is also the owner of X.",
+      "also": []
     },
     {
       "id": "2116617221841522928",
       "desk": "music",
-      "line": "The account Rock History says New York's Halloween \"Thriller\" gathering, which it calls the 53rd edition, takes place tonight on Sixth Avenue from 7 p.m. Not checked here."
+      "line": "The account Rock History says New York's Halloween \"Thriller\" gathering, which it calls the 53rd edition, takes place tonight on Sixth Avenue from 7 p.m. Not checked here.",
+      "also": []
     },
     {
       "id": "2116612123937718702",
       "desk": "politics",
-      "line": "AP says more than 4 in 10 names flagged as possible noncitizen voters in California cannot be found on voter rolls, according to a legal filing. The post links its own story. Not checked here."
+      "line": "AP says more than 4 in 10 names flagged as possible noncitizen voters in California cannot be found on voter rolls, according to a legal filing. The post links its own story. Not checked here.",
+      "also": []
     },
     {
       "id": "2116595204958409175",
       "desk": "politics",
-      "line": "President Trump posts that he is holding a telephone rally for Pennsylvania Republicans, naming Stacy Garrity for governor and four members of Congress, and says he endorses all of them."
+      "line": "President Trump posts that he is holding a telephone rally for Pennsylvania Republicans, naming Stacy Garrity for governor and four members of Congress, and says he endorses all of them.",
+      "also": []
     },
     {
       "id": "2116623015626871137",
       "desk": "politics",
-      "line": "Texas Attorney General Ken Paxton says his office arrested convicted felons for voting illegally in Texas. The post carries a photo and no further detail. Not checked here."
+      "line": "Texas Attorney General Ken Paxton says his office arrested convicted felons for voting illegally in Texas. The post carries a photo and no further detail. Not checked here.",
+      "also": []
     },
     {
       "id": "2116623284166947288",
       "desk": "justice",
-      "line": "Brian Krassenstein says a federal judge has dismissed Trump's defamation lawsuit against the Wall Street Journal over the Epstein birthday-letter story. CNBC and Axios report the dismissal, with prejudice."
+      "line": "Brian Krassenstein says a federal judge has dismissed Trump's defamation lawsuit against the Wall Street Journal over the Epstein birthday-letter story. CNBC and Axios report the dismissal, with prejudice.",
+      "also": []
     },
     {
       "id": "2116679364918001912",
       "desk": "life",
-      "line": "Pop Crave posts a photo and says clocks move back one hour at 2 a.m. tonight, ending Daylight Saving Time."
+      "line": "Pop Crave posts a photo and says clocks move back one hour at 2 a.m. tonight, ending Daylight Saving Time.",
+      "also": []
     },
     {
       "id": "2116660164032139524",
       "desk": "sports",
-      "line": "Formula 1 driver Esteban Ocon says Haas has decided he will not race in the Mexico City Grand Prix. He says there was a discussion last night with the parties involved, and rejects any report that physical violence was used. He asks that speculation be avoided."
+      "line": "Formula 1 driver Esteban Ocon says Haas has decided he will not race in the Mexico City Grand Prix. He says there was a discussion last night with the parties involved, and rejects any report that physical violence was used. He asks that speculation be avoided.",
+      "also": []
     },
     {
       "id": "2116718402815541360",
@@ -77,7 +88,8 @@
     {
       "id": "2116565998618943966",
       "desk": "entertainment",
-      "line": "Film trade analyst Taran Adarsh posts a five-star review of the Indian film Ramayana, calling it spectacular. It is his opinion of the film, and the post is long."
+      "line": "Film trade analyst Taran Adarsh posts a five-star review of the Indian film Ramayana, calling it spectacular. It is his opinion of the film, and the post is long.",
+      "also": []
     },
     {
       "id": "2116582554803581258",
@@ -106,7 +118,8 @@
     {
       "id": "2116709724011868311",
       "desk": "sports",
-      "line": "The account wok posts a 19-second video with the words “Mark Bowman owns the Ohio State defense”. The video has no description here, and the game is not named in the post."
+      "line": "The account wok posts a 19-second video with the words “Mark Bowman owns the Ohio State defense”. The video has no description here, and the game is not named in the post.",
+      "also": []
     },
     {
       "id": "2116585315892711830",
@@ -119,32 +132,38 @@
     {
       "id": "2116653928829919455",
       "desk": "sports",
-      "line": "The Formula 1 account says Lewis Hamilton is on pole position for the Mexican Grand Prix, quickest by 0.009 seconds."
+      "line": "The Formula 1 account says Lewis Hamilton is on pole position for the Mexican Grand Prix, quickest by 0.009 seconds.",
+      "also": []
     },
     {
       "id": "2116576272016892083",
       "desk": "entertainment",
-      "line": "DiscussingFilm says Marvel held a drone show in Korea for ‘Avengers: Doomsday’ that moved from an Iron Man shape to Doctor Doom. The post carries a video of just under two minutes, with no description here. Not checked here."
+      "line": "DiscussingFilm says Marvel held a drone show in Korea for ‘Avengers: Doomsday’ that moved from an Iron Man shape to Doctor Doom. The post carries a video of just under two minutes, with no description here. Not checked here.",
+      "also": []
     },
     {
       "id": "2116573003396063628",
       "desk": "entertainment",
-      "line": "The account americanreqiuem posts two photos and says Selena Gomez dressed as Morticia Addams for Halloween. The photos have no description here. Not checked here."
+      "line": "The account americanreqiuem posts two photos and says Selena Gomez dressed as Morticia Addams for Halloween. The photos have no description here. Not checked here.",
+      "also": []
     },
     {
       "id": "2116615638605025400",
       "desk": "entertainment",
-      "line": "Pop Crave posts two photos and says Zendaya dressed as Halle Berry’s 2000 ‘X-Men’ premiere look for Halloween. The photos have no description here. Not checked here."
+      "line": "Pop Crave posts two photos and says Zendaya dressed as Halle Berry’s 2000 ‘X-Men’ premiere look for Halloween. The photos have no description here. Not checked here.",
+      "also": []
     },
     {
       "id": "2116728195668177165",
       "desk": "music",
-      "line": "BTS’s official account posts a daily update dated 261031 with the title BTS World Tour ‘Arirang’ in São Paulo, plus hashtags. The post is in Korean and English and the attached media has no description here."
+      "line": "BTS’s official account posts a daily update dated 261031 with the title BTS World Tour ‘Arirang’ in São Paulo, plus hashtags. The post is in Korean and English and the attached media has no description here.",
+      "also": []
     },
     {
       "id": "2116653698306744386",
       "desk": "politics",
-      "line": "Vice President JD Vance’s official account posts a photo with the words “Happy Halloween from the Second Family!” The photo has no description here."
+      "line": "Vice President JD Vance’s official account posts a photo with the words “Happy Halloween from the Second Family!” The photo has no description here.",
+      "also": []
     },
     {
       "id": "2116617926472016007",
@@ -157,17 +176,20 @@
     {
       "id": "2116631993081381350",
       "desk": "science",
-      "line": "Anil Menon, on the handle astro_anil, posts a 16-second video with the words “Happy Halloween!” The video has no description here."
+      "line": "Anil Menon, on the handle astro_anil, posts a 16-second video with the words “Happy Halloween!” The video has no description here.",
+      "also": []
     },
     {
       "id": "2116627718347591988",
       "desk": "science",
-      "line": "François Chollet says dopamine spikes highest at reward prediction error, not for guaranteed rewards, and that people who want fun in life should stop avoiding risk and uncertainty. Not checked here."
+      "line": "François Chollet says dopamine spikes highest at reward prediction error, not for guaranteed rewards, and that people who want fun in life should stop avoiding risk and uncertainty. Not checked here.",
+      "also": []
     },
     {
       "id": "2116682632763424820",
       "desk": "defense",
-      "line": "The Hormuz Letter posts that, per i24NEWS, Israel has finished military preparations for a joint US-Israeli operation against Iran and is at its highest alert, ready to enter combat within hours if ordered. Not checked here."
+      "line": "The Hormuz Letter posts that, per i24NEWS, Israel has finished military preparations for a joint US-Israeli operation against Iran and is at its highest alert, ready to enter combat within hours if ordered. Not checked here.",
+      "also": []
     },
     {
       "id": "2116644116872519909",
@@ -180,47 +202,56 @@
     {
       "id": "2116624563530289306",
       "desk": "offbeat",
-      "line": "In French, the news agency CLPRESS posts a video of about two minutes and says dozens of people gathered for Halloween at the foot of the Eiffel Tower and took up the dance from Michael Jackson’s “Thriller”. Not checked here."
+      "line": "In French, the news agency CLPRESS posts a video of about two minutes and says dozens of people gathered for Halloween at the foot of the Eiffel Tower and took up the dance from Michael Jackson’s “Thriller”. Not checked here.",
+      "also": []
     },
     {
       "id": "2116719614432543071",
       "desk": "entertainment",
-      "line": "The Hollywood Reporter posts a video of Heidi Klum posing on the carpet at her annual Halloween party in New York City. The video has no description here, so her costume is not described."
+      "line": "The Hollywood Reporter posts a video of Heidi Klum posing on the carpet at her annual Halloween party in New York City. The video has no description here, so her costume is not described.",
+      "also": []
     },
     {
       "id": "2116571973979668494",
       "desk": "internet",
-      "line": "DiscussingFilm posts two photos and says the streamer Speed dressed as Miles Morales for Halloween. The photos have no description here. Not checked here."
+      "line": "DiscussingFilm posts two photos and says the streamer Speed dressed as Miles Morales for Halloween. The photos have no description here. Not checked here.",
+      "also": []
     },
     {
       "id": "2116739554518421777",
       "desk": "tech",
-      "line": "Reuters reports that Malaysia Airlines says customers may be affected by a breach at Amadeus, a travel-booking technology company. The post is a headline and link only. Not checked here."
+      "line": "Reuters reports that Malaysia Airlines says customers may be affected by a breach at Amadeus, a travel-booking technology company. The post is a headline and link only. Not checked here.",
+      "also": []
     },
     {
       "id": "2116734971440464103",
       "desk": "world",
-      "line": "The account BullTheory says Iran reports talks with Qatari mediators on a plan to reopen the Strait of Hormuz within 48 hours if the US accepts Iran’s conditions, and lists six conditions it attributes to Iran’s foreign minister, including lifting sanctions and ending the war on all fronts. Not checked here."
+      "line": "The account BullTheory says Iran reports talks with Qatari mediators on a plan to reopen the Strait of Hormuz within 48 hours if the US accepts Iran’s conditions, and lists six conditions it attributes to Iran’s foreign minister, including lifting sanctions and ending the war on all fronts. Not checked here.",
+      "also": []
     },
     {
       "id": "2116717099402096682",
       "desk": "ai",
-      "line": "The poster jun_song says an anonymous group offered a very large sum to post-train open-weight AI models on exploit data, claims the group holds more attack data than he has ever seen, and says he turned it down. Not checked here."
+      "line": "The poster jun_song says an anonymous group offered a very large sum to post-train open-weight AI models on exploit data, claims the group holds more attack data than he has ever seen, and says he turned it down. Not checked here.",
+      "also": []
     },
     {
       "id": "2116489136496365588",
       "desk": "sports",
-      "line": "Adam Schefter reports, citing sources, that the Indianapolis Colts are open to trading running back Jonathan Taylor and that several teams have called about him. He says the talks are active. Not checked here."
+      "line": "Adam Schefter reports, citing sources, that the Indianapolis Colts are open to trading running back Jonathan Taylor and that several teams have called about him. He says the talks are active. Not checked here.",
+      "also": []
     },
     {
       "id": "2116517088869192115",
       "desk": "politics",
-      "line": "UK Conservative leader Kemi Badenoch writes a long post arguing against a new formal British apology and against reparations for the slave trade. She names Andy Burnham as Prime Minister and criticises his stance. Not checked here."
+      "line": "UK Conservative leader Kemi Badenoch writes a long post arguing against a new formal British apology and against reparations for the slave trade. She names Andy Burnham as Prime Minister and criticises his stance. Not checked here.",
+      "also": []
     },
     {
       "id": "2116418139441516832",
       "desk": "world",
-      "line": "Polymarket says Johannesburg is reportedly on the brink of a \"total collapse\" of its water system, with residents without running water for weeks. The post names no source. Not checked here."
+      "line": "Polymarket says Johannesburg is reportedly on the brink of a \"total collapse\" of its water system, with residents without running water for weeks. The post names no source. Not checked here.",
+      "also": []
     },
     {
       "id": "2116536327219109941",
@@ -267,7 +298,8 @@
     {
       "id": "2116815023209095644",
       "desk": "gaming",
-      "line": "Fortnite player snow posts a 15-second clip and says it might be the first ever pirate shop access, with hashtags for Chapter 7 Season 4. Not checked here."
+      "line": "Fortnite player snow posts a 15-second clip and says it might be the first ever pirate shop access, with hashtags for Chapter 7 Season 4. Not checked here.",
+      "also": []
     },
     {
       "id": "2116717638416040293",
@@ -279,6 +311,24 @@
       "id": "2116912049582452951",
       "desk": "markets",
       "line": "Watcher.Guru says over $3,750,000,000 was withdrawn from Binance in 10 hours after the exchange resumed withdrawals. That figure is not confirmed outside X; a published story here covers the hack and the restart.",
+      "also": []
+    },
+    {
+      "id": "2116740910230774034",
+      "desk": "entertainment",
+      "line": "Nexus Point News posts a 9-second video and says it shows Robert Downey Jr. as Reed Richards and Pedro Pascal as Doctor Doom for Halloween. The video has no description here. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2116735605053038904",
+      "desk": "sports",
+      "line": "Sports reporter Nicole Shearin posts a 54-second video and says things seem to have gotten heated as Lincoln Riley walked off the field after upsetting the Buckeyes, 30-18. The video has no description here.",
+      "also": []
+    },
+    {
+      "id": "2116928084528218269",
+      "desk": "politics",
+      "line": "Reporter Sam Robinson posts a 39-second video of Republican Senate nominee Mike Rogers appearing with Democratic U.S. Rep. Haley Stevens at Perfecting Church in Detroit. The video has no description here.",
       "also": []
     }
   ]
