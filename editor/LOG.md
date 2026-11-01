@@ -4411,3 +4411,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2116586741289148433. plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T15:30Z
+- Captures read: 1400Z, 1508Z (1300Z was the last read before). Last read: 1508Z.
+- X's check: 1400Z 117 confirmed, 0 missing, 0 mismatched, 0 withheld; 1508Z 96 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged. No answers to open requests.
+- Pulse: 44 items listed (3 new, 0 dropped; oldest is 10-31T06:33Z, inside 36 hours); the build shows 43 on the front, holding DiscussingFilm's, NBA's and Pop Crave's second posts. New: Bocchi the Rock! film announcement in Japanese (entertainment, AnimeTV post in also), Pope Leo XIV's Villanova and Notre Dame joke (life, Christopher Hale's post in also), a Fortnite "pirate shop" clip (gaming). Header moved to 1508Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: real_MAGAFOX "bomb in the White House" (sensational, text cut off, unchecked); Polymarket Talarico odds (Polymarket already holds a place); elonmusk posts (account already placed); RabbiJeffx Anne Frank and Barnea posts (prompts to Grok, claims unchecked); DrakeOgovo (private_individual); CrawlzTheThird (insults about a religion); Alex Jones post (unchecked claim about named people); Ocampos goal and NFL trade posts (sports full, Colts already there); AnnieAgar joke; old_content posts.
+- Requests: none; watch list adds the five new ids. plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
