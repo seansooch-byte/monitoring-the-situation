@@ -1,0 +1,30 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-01-palm-beach-learjet-crash",
+  "title": "A Learjet carrying nine people crashed in a Palm Beach County neighborhood",
+  "dek": "The FAA says the jet left Austin for the Bahamas and went down near homes. Video spread within the hour, and so did guesses about the cause that no agency has backed.",
+  "desks": ["disaster"],
+  "standing": "developing",
+  "started_at": "2026-11-01T19:09:34Z",
+  "updated_at": "2026-11-01T21:30:00Z",
+  "what": [
+    "The Federal Aviation Administration says a Learjet 60 crashed at about 12:50 p.m. Eastern on Sunday 1 November in a residential area near Cresthaven, Palm Beach County, Florida. WFLX, citing the FAA, reports that the jet had left Austin-Bergstrom International Airport in Texas bound for North Eleuthera Airport in the Bahamas, with nine people aboard. Palm Beach County Fire Rescue said Military Trail was closed between Cresthaven Boulevard and 10th Avenue North. Video from the scene shows flames, thick black smoke and debris across the road.",
+    "The FAA and the National Transportation Safety Board are investigating, and the NTSB leads. The FAA called its details preliminary and subject to change. In the reports I opened, the FAA had not said what caused the crash, who was aboard, or whether anyone on the ground was hurt.",
+    "A post from the account SecDuffy, which tags the FAA and the Department of Transportation, says all nine people on board were killed and repeats the FAA's route and time. I could not find a news report I could open that confirms the number of dead, so that figure rests on the post until the NTSB or local officials say it. Breaking911 and Fox News posts say there were no survivors, and Fox News says the jet fell steeply and came down miles from Mar-a-Lago. Those details are from the posts. I did not check them.",
+    "Some posts tie the crash to Mar-a-Lago, which is in Palm Beach. Secular Talk host Kyle Kulinski asks in a post whether the administration shot down a business jet. The post gives no evidence. I found no statement from the FAA, the NTSB or the military about any such thing, and the FAA names no cause."
+  ],
+  "why": "The video is short, close and dramatic, the jet fell near homes, and the site is near a place that is often the subject of airspace rumours. Accounts that collect breaking news posted it first, and claims about the cause followed.",
+  "next": "The NTSB's preliminary report, and local officials' word on the number of dead and any injuries on the ground.",
+  "posts": [
+    { "id": "2116970924608258165", "role": "origin" },
+    { "id": "2116983249016905917", "role": "voice" },
+    { "id": "2116996729962721424", "role": "official" },
+    { "id": "2116993512680083563", "role": "voice" },
+    { "id": "2116987306577924515", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "WFLX: Learjet headed to Bahamas crashes in Palm Beach County with 9 people on board", "url": "https://www.wflx.com/2026/11/01/learjet-headed-bahamas-crashes-palm-beach-county-with-9-people-board/" },
+    { "label": "FOX 4: Private jet with 9 aboard crashes in Palm Beach County, FAA says", "url": "https://www.fox4news.com/news/9-board-after-private-jet-bound-bahamas-crashes-florida" },
+    { "label": "CBS Miami: Jet from Texas carrying 9 people crashes near homes in Palm Beach, FAA says", "url": "https://www.cbsnews.com/miami/news/texas-jet-florida-crash-11-1-2026/" }
+  ]
+}

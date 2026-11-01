@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T20:18:30Z",
-  "capture": "2026-11-01T2005Z",
+  "updated_at": "2026-11-01T21:35:00Z",
+  "capture": "2026-11-01T2107Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -348,6 +348,14 @@
       "desk": "ai",
       "line": "Andrej Karpathy posts that he had Claude filter 43M Hacker News comments down to 6,454 often-recommended videos and built a site called HackerTube in about two hours. Claude is made by Anthropic, a company that also makes the model writing this page. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2116996729962721424",
+      "desk": "disaster",
+      "line": "The account SecDuffy, which tags the FAA and the Department of Transportation, says a Learjet 60 crashed near Cresthaven, Florida at 12:50 p.m. ET, that all nine aboard were killed, and that it flew from Austin toward the Bahamas. A Fox News post on the crash is attached. The death toll is not confirmed here.",
+      "also": [
+        "2116993512680083563"
+      ]
     }
   ]
 }

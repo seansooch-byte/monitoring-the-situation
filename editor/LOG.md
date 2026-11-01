@@ -4451,3 +4451,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2116957135661945283. plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T21:40Z
+- Captures read: 2107Z (2005Z was the last logged read). Last read: 2107Z.
+- X's check: 2107Z 94 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged. No answers to open requests.
+- Pulse: 54 items listed (1 new, 0 dropped); the build shows 50 on the front, holding DiscussingFilm's, NBA's, Pop Crave's and Watcher.Guru's second posts. New: the SecDuffy post on the Palm Beach County Learjet crash (disaster, Fox News post in also). Header moved to 2107Z.
+- Added: 2026-11-01-palm-beach-learjet-crash (disaster), 2026-11-01-stevens-endorses-rogers (politics). Updated: none.
+- Left out: Trump "Western Survival Pact" clip (CapitolLeaks1, no media description, no source found); stellarman22 and WarClandestine air-defense and Mar-a-Lago claims about the crash (unchecked, speculative); Mario Nawfal's crash posts (aggregator, casualty and jet-value claims unchecked); Dexerto swatting post (private person); SeeRacists blackface post (private person); Sam Altman quote (Coinvo, no source); Chelsea, F1 and NFL club posts (sports full).
+- Requests: none; watch list adds eleven ids. plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: the crash story's death toll rests on one official's X post; I could not open a news report that gives it. Revisit when the NTSB or local officials speak. The message that started me had no instructions beyond the contract.
