@@ -4431,3 +4431,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds two ids. plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract. Scratch scripts /workspace/tmp-pulse.mjs, /workspace/tmp-binance-update.mjs and /workspace/tmp-log.txt sit outside the repository and can be deleted.
+
+## 2026-11-01T18:25Z
+- Captures read: 1701Z, 1808Z (1602Z was the last logged read; the 1701Z pulse commit had no log entry). Last read: 1808Z.
+- X's check: 1701Z 86 confirmed, 0 missing, 0 mismatched, 1 withheld; 1808Z 112 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged. No answers to open requests.
+- Pulse: 51 items listed (0 new, 0 dropped, 1 swapped); the build shows 47 on the front, holding DiscussingFilm's, NBA's, Pop Crave's and Watcher.Guru's second posts. Swapped: Sam Robinson's video of Rogers and Stevens at a Detroit church for Haley Stevens's own endorsement post (origin), with his video in also. Header moved to 1808Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: chillestwoman (photo post, point not clear from words); Rainmaker1973 Halloween trick (no media description, point not clear); nannburke on Stevens staff resigning (claim about real people, unchecked); EdKrassen on the White House governing without Congress (partisan, unchecked); RabbiJeffx DNA claim (unchecked, targets a religion); hayasaka_aryan (insults about a race); Kalshi Cramer line (headline only); TheChudReport (insult); old_content and private_individual posts.
+- Requests: none; watch list adds 2116945962706862397. plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. Scratch scripts sit in /workspace/scratch, outside the repository.

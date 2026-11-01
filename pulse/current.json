@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T17:35:00Z",
-  "capture": "2026-11-01T1701Z",
+  "updated_at": "2026-11-01T18:25:00Z",
+  "capture": "2026-11-01T1808Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -326,10 +326,10 @@
       "also": []
     },
     {
-      "id": "2116928084528218269",
+      "id": "2116945962706862397",
       "desk": "politics",
-      "line": "Reporter Sam Robinson posts a 39-second video of Republican Senate nominee Mike Rogers appearing with Democratic U.S. Rep. Haley Stevens at Perfecting Church in Detroit. The video has no description here.",
-      "also": []
+      "line": "Democratic U.S. Rep. Haley Stevens posts a 98-second video and says she is endorsing Republican Mike Rogers for the U.S. Senate. Reporter Sam Robinson's earlier video shows the two together at a Detroit church. Neither video has a description here.",
+      "also": ["2116928084528218269"]
     }
   ]
 }
