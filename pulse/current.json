@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T08:25:00Z",
-  "capture": "2026-11-01T0808Z",
+  "updated_at": "2026-11-01T09:25:00Z",
+  "capture": "2026-11-01T0904Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -229,6 +229,12 @@
       "id": "2116296438942765394",
       "desk": "medicine",
       "line": "Elon Musk says Eli Lilly has \"some banger drugs coming out\" in a post that quotes another post. He names no drug. Not checked here."
+    },
+    {
+      "id": "2116536327219109941",
+      "desk": "politics",
+      "line": "Marsha Blackburn, on the account VoteMarsha, says that as governor she will protect Tennessee from “Sharia law and the spread of Islamization.” Not checked here.",
+      "also": []
     }
   ]
 }

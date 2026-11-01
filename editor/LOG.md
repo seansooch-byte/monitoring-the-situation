@@ -4361,3 +4361,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T09:30Z
+- Captures read: 0904Z (0808Z was the last read before). Last read: 0904Z.
+- X's check: 0904Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld. No answers to open requests.
+- Pulse: 41 items listed (1 new, 0 dropped; nothing older than 36 hours, though Aston Villa's and Elon Musk's Eli Lilly posts reach 36 hours at the next pass); the build shows 37, holding four second posts off the front. New: Marsha Blackburn's post on Sharia law and Islamization (politics, not checked here). Header moved to 0904Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DailyLoud's clip of a former UFC fighter and six family members (unchecked, relatives may be private individuals); Moviesca3 movie post (point not clear); tbonier early-vote count (unchecked, politics full); FabrizioRomano quotes and small 0904Z sports posts (sports full); ScottPresler and HubPointless (private individual flags); AzPetrich (unsourced allegation against a named person); MarioNawfal war posts (unchecked).
+- Requests: none; watch list adds 1 id. plan.json rebuilt for 10Z (it had lagged an hour at the 0904Z run).
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
