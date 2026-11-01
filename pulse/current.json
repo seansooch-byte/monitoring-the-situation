@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T00:20:00Z",
-  "capture": "2026-11-01T0001Z",
+  "updated_at": "2026-11-01T01:45:00Z",
+  "capture": "2026-11-01T0106Z",
   "items": [
     {
       "id": "2116171811985428887",
@@ -71,11 +71,6 @@
       "also": [
         "2116262141745565826"
       ]
-    },
-    {
-      "id": "2116165917382255047",
-      "desk": "gaming",
-      "line": "The account pj_sekai posts a notice in Japanese. It says that around 22:30 on 30 October it changed transfer by password: a transfer ID now stops working 24 hours after it is issued, including IDs issued earlier. Players with only a transfer ID are told to contact support."
     },
     {
       "id": "2116212312000602258",
@@ -273,11 +268,6 @@
       "line": "Formula 1 driver Esteban Ocon says Haas has decided he will not race in the Mexico City Grand Prix. He says there was a discussion last night with the parties involved, and rejects any report that physical violence was used. He asks that speculation be avoided."
     },
     {
-      "id": "2116571996246978664",
-      "desk": "world",
-      "line": "Fox News says protesters are on the streets of Paris as France braces for another day of nationwide demonstrations against President Macron's government, and that authorities have deployed 70,000 police officers."
-    },
-    {
       "id": "2116391855432819169",
       "desk": "world",
       "line": "Prakash Raj posts a two-minute video inviting people to join a protest in Delhi \"tomorrow\" to \"save our Democracy\", with the hashtags #Scrapsir and #justasking. The post does not say what is being protested. Not checked here."
@@ -291,6 +281,24 @@
       "id": "2116326788133458158",
       "desk": "offbeat",
       "line": "The news account NEXTA posts that soldiers have set up a special entrance for cats at a checkpoint, and that they measured the cats before cutting the openings. It does not say where. Not checked here."
+    },
+    {
+      "id": "2116570381003690453",
+      "desk": "world",
+      "line": "In French, LucAuffret posts a video and says it shows Molotov cocktails thrown at police at Porte de Charenton, Paris, and calls the situation very tense. Fox News says protesters are out in Paris against President Macron. The video has no description here. Not checked here.",
+      "also": [
+        "2116571996246978664"
+      ]
+    },
+    {
+      "id": "2116679364918001912",
+      "desk": "life",
+      "line": "Pop Crave posts a photo and says clocks move back one hour at 2 a.m. tonight, ending Daylight Saving Time."
+    },
+    {
+      "id": "2116680845461229927",
+      "desk": "gaming",
+      "line": "The official League of Legends esports account posts the knockout stage bracket for the 2026 World Championship as an image and notes that match order is still to be decided."
     }
   ]
 }

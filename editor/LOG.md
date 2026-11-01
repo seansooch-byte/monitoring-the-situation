@@ -4291,3 +4291,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 4 ids and drops 2. plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T01:45Z
+- Captures read: 0106Z. Last read: 0106Z.
+- X's check: 0106Z 119 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatches at 0003Z, 0102Z and 0400Z (none on the pulse or in a story).
+- Pulse: 55 items listed (3 new, 1 dropped, 1 folded); the build shows 53, holding AP and Pop Crave's second post off the front (the Pop Crave daylight saving post stands on the life desk). New: LucAuffret on Molotov cocktails in Paris (world, in French, no media description, not checked here; the Fox News Paris item is now attached to it in `also`); Pop Crave on clocks going back (life); the League of Legends esports account's Worlds bracket (gaming). Dropped at 36 hours: pj_sekai transfer notice (gaming). Header moved to 0106Z. Over forty-five, as in earlier passes, because every item is still among the largest of its desk.
+- Added: none. Updated: none (pulse pass).
+- Left out: buildwithdylan icon photo (point not clear, no description); astrrals (insults about children); LockheedMartin teaser (advertisement); esjesjesj (quotes a post not captured); robbystarbuck SAT claim, Theveripost undersea data centre, Bill Ackman data centres (unchecked claims); Acyn clip of Trump on El-Sayed (politics full; clip has no description, a remark about a candidate worth a story pass); Daily_MailUS, TheEnglishPat, curious_X_, _emeryww, CBHeresy (private_individual); old_content reposts; sports, music and entertainment posts (desks full).
+- Requests: none; watch list adds 3 ids and drops 1. plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
