@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-31-ap-iran-strikes-us-bases-analysis",
+  "title": "AP analysis: Iran hit air defenses first, then aircraft and buildings, on more than two dozen US-linked sites",
+  "dek": "Satellite images and regional officials show more damage than the Pentagon has described, AP says. The Pentagon says US forces are well protected.",
+  "desks": ["defense", "world"],
+  "standing": "established",
+  "started_at": "2026-10-31T14:31:14Z",
+  "updated_at": "2026-11-01T02:20:00Z",
+  "what": [
+    "On Saturday 31 October, the Associated Press published an analysis of Iran's attacks on US military sites in the Middle East. AP says it checked damage with satellite images from several providers and spoke to four regional officials who were briefed on, or saw, what was hit.",
+    "AP counts more than 115 drone or missile strikes, claimed by Iran or Iranian-backed militias between February and August 2026, that damaged or destroyed structures at 26 military bases and other sites where US forces are present. It lists sites in Bahrain, Iraq, Jordan, Oman, Qatar, Saudi Arabia, Kuwait and the United Arab Emirates, with most strikes in Kuwait.",
+    "AP says Iran first went after aircraft hangars and the systems that detect incoming strikes, then widened its targets. It reports that a radar destroyed in Jordan was one of 13 of its kind in the world, each costing about $500 million. It reports at least 30 strikes on Ali Salem Air Base in Kuwait and damage to a Boeing E-3 Sentry surveillance aircraft at Prince Sultan Air Base. It cites the Congressional Research Service as counting 15 US aircraft damaged. AP says the damage ran to billions of dollars, with no total given.",
+    "AP quotes Pentagon spokesman Sean Parnell: \"U.S. forces and bases are well protected and America's military is stronger than ever.\" AP says he declined to give details of the damage. AP also says the war began in late February 2026 with no stated endgame, and that both sides indicate fighting could resume.",
+    "I read the analysis as syndicated on a local news site, not the AP original, and I did not check its figures against satellite images myself."
+  ],
+  "why": "It puts numbers and place names on a war whose damage the Pentagon, by AP's account, would not detail. The post is AP's own headline and link.",
+  "next": "Whether the Pentagon gives its own count of damaged sites and aircraft.",
+  "posts": [
+    { "id": "2116538492696056135", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "AP via KRMG: Iran targeted US air defenses then hit aircraft and buildings on Mideast bases, AP analysis finds", "url": "https://krmg.com/2026/10/31/iran-targeted-us-air-defenses-then-hit-aircraft-and-buildings-on-mideast-bases-ap-analysis-finds/" }
+  ]
+}

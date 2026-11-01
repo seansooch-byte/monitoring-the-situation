@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-31-france-halloween-protests-spread",
+  "title": "Third weekend of youth-led protests in France ends in clashes in Paris, and marches reach other European countries",
+  "dek": "Officials count 320,000 marchers across France on Halloween. Posts say a police officer was set alight in Paris and that riots reached Switzerland and Germany. Some of that is not yet confirmed.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-10-31T16:33:35Z",
+  "updated_at": "2026-11-01T02:20:00Z",
+  "what": [
+    "On Saturday 31 October, PBS NewsHour reports, France's government estimated 320,000 people marched nationwide, down from 550,000 on 17 October and 410,000 on 24 October. PBS says the protests began with high school students angry about neglected school buildings, teacher shortages and the university admissions system, and that unions and opponents of President Emmanuel Macron joined. It says marchers also cite living costs.",
+    "PBS reports that about 70,000 police and gendarmes were deployed, that the Paris march was largely peaceful, and that violence broke out near Porte de Charenton where it ended. It says protesters threw glass bottles and fireworks, and police answered with stun grenades and tear gas. PBS reports more than 560 arrests by Saturday night, a night-time ban on entry to some Paris neighbourhoods and separate curfews for unaccompanied minors. PBS also reports youth-led protests in Germany, Portugal, Italy and Spain.",
+    "Posts add detail that I could not confirm. A French news account says, citing BFMTV, that a police officer caught fire after being hit by an incendiary device in Paris. CNews, a French channel, posts video of what it calls a new homemade incendiary bomb exploding at an officer's feet at Porte de Charenton. Neither video comes with a description, and I found no report from a news outlet or the police on an officer burned.",
+    "A Swiss alert account says, citing the Swiss outlet 20 Minuten, that Zurich expected a night of tension over rearmament and inequality, with bins on fire and glass bottles thrown at emergency services. Visegrad24, an English-language news account, calls the scenes in Switzerland riots with barricades and fires, and calls a Stuttgart protest, which it puts in quotation marks as \"student protests\", one that \"devolved into riots\". I found no outlet report on Zurich or Stuttgart. The French posts are in French."
+  ],
+  "why": "Fire, police and Halloween make striking video, and each account labels the same night differently: protest, riot, or youth movement.",
+  "next": "Police and prosecutors' accounts of Saturday night in Paris, including whether any officer was injured, and official counts from Zurich and Stuttgart.",
+  "posts": [
+    { "id": "2116569280900706479", "role": "voice" },
+    { "id": "2116573678485827760", "role": "voice" },
+    { "id": "2116662524028371290", "role": "voice" },
+    { "id": "2116678769289142300", "role": "voice" },
+    { "id": "2116658304541675959", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "PBS NewsHour: A third weekend of protests in France as youth-led rallies sweep Europe", "url": "https://www.pbs.org/newshour/world/a-third-weekend-of-protests-in-france-as-youth-led-rallies-sweep-europe" }
+  ]
+}

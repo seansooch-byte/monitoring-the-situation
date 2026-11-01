@@ -1,0 +1,38 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-31-flavio-bolsonaro-us-visa",
+  "title": "Flávio Bolsonaro is in the US after losing Brazil's runoff, and the two sides read it differently",
+  "dek": "He left Brazil past a court deadline to hand over his passports. Posts from the American right call it protection from persecution. A Democratic congressman calls it favouritism.",
+  "desks": ["world", "politics"],
+  "standing": "developing",
+  "started_at": "2026-10-31T17:29:00Z",
+  "updated_at": "2026-11-01T02:20:00Z",
+  "what": [
+    "Flávio Bolsonaro lost Brazil's 25 October runoff to Luiz Inácio Lula da Silva by more than 4.4 million votes, Al Jazeera reports. Al Jazeera says Brazil's Supreme Court ordered him to surrender his passports in a money laundering investigation, and that a senior US State Department official said the US would issue visas to him and his family. AP reports he missed the passport deadline, which ran out at noon on Tuesday 27 October, and landed in Miami with his family on Wednesday 28 October.",
+    "Al Jazeera reports that Lula called the departure shameful and said that someone who sneaks out of the country must have something to hide, and that Representative Joaquin Castro questioned whether the administration helped him leave. AP says Bolsonaro is under investigation by the Supreme Court in two cases involving alleged corruption, money laundering and tax evasion. I did not find his own account of why he left.",
+    "On 31 October, Representative Robert Garcia, a Democrat, posted that Bolsonaro gets a US visa while families are being arrested and detained, that he should go back to Brazil to face justice, and that ICE is acting as the president's personal police force. In the early hours of 1 November UTC, the account EricLDaugh posted a video that he says shows President Trump announcing Bolsonaro can stay as long as he wants and will not be handed over. The clip has no description, and I found no news report of those remarks, so I cannot say what Trump said. The words attributed to Trump in the post are \"The election was a DISGRACE\" and \"He can stay here as long as he want\", cut off at the end of the visible text."
+  ],
+  "why": "It joins two live American arguments, over who gets a visa and over whether a lost election abroad was fair, and each side's posts take the other as proof of its view.",
+  "worlds": [
+    {
+      "name": "Critics of the administration",
+      "sees": "Favouritism. A man under investigation in Brazil is let in while ordinary immigrants are detained, and ICE is being used at the president's pleasure.",
+      "post": "2116583228005818687"
+    },
+    {
+      "name": "Trump's supporters",
+      "sees": "Protection of a political ally from what they call tyrants at home. The post says the president will not turn him over and calls the election a disgrace.",
+      "post": "2116691861892985138"
+    }
+  ],
+  "common": "Established by Al Jazeera and AP: Lula won by about 4.4 million votes; Brazil's Supreme Court ordered the passports surrendered and the deadline passed; the State Department said it would issue visas; Bolsonaro landed in Miami on 28 October; he is under investigation in two Supreme Court cases. Not established: that the election was a disgrace, as the second post quotes Trump saying. I found no sourced report of fraud in the count (see the story on the runoff). Not established either: whether Brazil has asked for his return, since I found no request, or what was said in the clip, since I found no report of it. The first post's claim that ICE is detaining others in contrast is a comparison, not a fact about him, and I did not check it.",
+  "next": "Whether Brazil's Supreme Court asks the US for his return and how the State Department answers.",
+  "posts": [
+    { "id": "2116583228005818687", "role": "voice" },
+    { "id": "2116691861892985138", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Al Jazeera: Flavio Bolsonaro flees Brazil after election loss, US says will grant visa", "url": "https://www.aljazeera.com/news/2026/10/27/flavio-bolsonaro-flees-brazil-after-election-loss-us-says-will-grant-visa" },
+    { "label": "AP via KY3: Defeated presidential candidate Flávio Bolsonaro and his family land in Miami after leaving Brazil", "url": "https://www.ky3.com/2026/10/28/defeated-presidential-candidate-flvio-bolsonaro-his-family-land-miami-after-leaving-brazil/" }
+  ]
+}

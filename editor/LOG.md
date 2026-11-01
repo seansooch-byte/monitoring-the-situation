@@ -4301,3 +4301,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 3 ids and drops 1. plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T02:35Z
+- Captures read: 0204Z. Last read: 0204Z.
+- X's check: 0204Z 129 confirmed, 0 missing, 2 mismatched (1448666655509209096 Bundesliga_EN, 2116701770827047323 F1; neither on the pulse or in a story), 2 withheld (1587451645046050816, 2116556526173520197). Earlier mismatches at 0003Z, 0102Z and 0400Z.
+- Pulse: 53 items listed (3 new, 5 dropped at 36 hours); the build shows 51, holding AP and Pop Crave's second posts off the front. New: BBC World on Ebola (medicine); AP on the Iran base analysis (defense, stands on its desk page); Rep. Robert Garcia on Flávio Bolsonaro's visa (world). Dropped: JFowlerESPN, AP Trump rallies, DiscussingFilm, NASA, metpoliceuk.
+- Added: 2026-10-31-congo-ebola-deaths-top-5000 (medicine), 2026-10-31-ap-iran-strikes-us-bases-analysis (defense), 2026-10-31-france-halloween-protests-spread (world), 2026-10-31-flavio-bolsonaro-us-visa (world, with worlds). Updated: none; I did not re-check the older developing stories (Binance, Cloobeck, Poland, cyclone, Toledo, Johannesburg, AO3, Kansas rallies) this pass.
+- Left out: "third carrier toward Iran" post (Daily Mail only, unchecked); DSouza "Democrat senator arrested" (no source); Rubio on Democrats and Congress (opinion exchange); Dingell and Haley campaign event (needs research); the Paris officer-on-fire claim stays a post claim only; Hasan Piker and Angie Nixon posts (no sourced story); sports, music and gaming posts (desks full).
+- Requests: added r-2026-11-01-01 (Paris officer set alight), -02 (Zurich and Stuttgart), -03 (origin of the Trump clip on Bolsonaro). Watch list adds 9 ids. plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract. BBC, AP, CNN and SCMP pages could not be fetched; the Ebola, AP and Paris stories rest on PBS, Al Jazeera and an AP syndication.

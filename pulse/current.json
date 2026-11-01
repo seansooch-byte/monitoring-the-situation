@@ -1,29 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T01:45:00Z",
-  "capture": "2026-11-01T0106Z",
+  "updated_at": "2026-11-01T02:25:00Z",
+  "capture": "2026-11-01T0204Z",
   "items": [
-    {
-      "id": "2116171811985428887",
-      "desk": "sports",
-      "line": "ESPN reporter Jeremy Fowler says, citing sources, that the Panthers are letting go of defensive coordinator Ejiro Evero."
-    },
-    {
-      "id": "2116177055029039446",
-      "desk": "politics",
-      "line": "The Associated Press says, citing a source, that President Trump will now hold rallies in Kansas and Iowa on Sunday after initially cancelling them. Fox News posts the same, citing a source.",
-      "also": [
-        "2116170543116468406"
-      ]
-    },
-    {
-      "id": "2116172460907204797",
-      "desk": "gaming",
-      "line": "The film news account DiscussingFilm posts, linking a Bloomberg newsletter, that development on Star Wars: Battlefront 3 has not begun and that EA chose it over a new Mass Effect game and shut down BioWare as a result. IGN's post says \"reportedly\". Not checked here.",
-      "also": [
-        "2116177814214824118"
-      ]
-    },
     {
       "id": "2116213541304746415",
       "desk": "ai",
@@ -33,11 +12,6 @@
       "id": "2116214866444943853",
       "desk": "science",
       "line": "Google CEO Sundar Pichai says Project Suncatcher, a prototype satellite launched a few weeks ago, has now received a command, booted its TPU chip, run a prompt and sent back a first full response, a haiku. Google is the speaker; not checked here."
-    },
-    {
-      "id": "2116173868326846654",
-      "desk": "science",
-      "line": "NASA posts that it mourns the passing of Patrick Stewart, who it says inspired countless people at the agency and beyond. The actor's death is also reported in other posts on this page."
     },
     {
       "id": "2116220869479428500",
@@ -160,11 +134,6 @@
       "id": "2116489136496365588",
       "desk": "sports",
       "line": "ESPN reporter Adam Schefter says, with Ian Rapoport, citing sources, that the Indianapolis Colts are open to trading running back Jonathan Taylor and that several teams have called about him. Not checked here."
-    },
-    {
-      "id": "2116170360571748411",
-      "desk": "justice",
-      "line": "The Metropolitan Police says anyone planning to attend a demonstration in support of Palestine Action near the US Embassy on Saturday 31 October will face arrest. It says support for the group is an offence under the Terrorism Act since its ban in June 2025, upheld by the Court of Appeal."
     },
     {
       "id": "2116379133672612201",
@@ -299,6 +268,21 @@
       "id": "2116680845461229927",
       "desk": "gaming",
       "line": "The official League of Legends esports account posts the knockout stage bracket for the 2026 World Championship as an image and notes that match order is still to be decided."
+    },
+    {
+      "id": "2116543604495651147",
+      "desk": "medicine",
+      "line": "BBC World posts a headline and link saying more than 5,000 have died of Ebola in the Democratic Republic of Congo's deadliest outbreak. PBS and Al Jazeera put the government count at 5,026 deaths out of 10,351 infections."
+    },
+    {
+      "id": "2116538492696056135",
+      "desk": "defense",
+      "line": "The Associated Press says its analysis finds Iran's strikes damaged or destroyed US air defenses, aircraft and buildings on more than two dozen Middle East bases. AP bases this on satellite images and four regional officials."
+    },
+    {
+      "id": "2116583228005818687",
+      "desk": "world",
+      "line": "Representative Robert Garcia, a Democrat, says Flávio Bolsonaro gets a US visa while families are being detained, that he should return to Brazil to face justice, and that ICE acts as the president's police force."
     }
   ]
 }

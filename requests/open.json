@@ -1,5 +1,24 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-11-01T01:45:00Z",
-  "requests": []
+  "updated_at": "2026-11-01T02:30:00Z",
+  "requests": [
+    {
+      "id": "r-2026-11-01-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from news outlets or French police and prosecutors about a police officer set alight by an incendiary device at the 31 October protest in Paris (Porte de Charenton), and replies to https://x.com/i/status/2116569280900706479."
+    },
+    {
+      "id": "r-2026-11-01-02",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from Swiss and German outlets or police (20 Minuten, Blick, Stuttgart police) about the night of 31 October in Zurich and Stuttgart: arrests, injuries, what the protests were for."
+    },
+    {
+      "id": "r-2026-11-01-03",
+      "kind": "context",
+      "post": "https://x.com/i/status/2116691861892985138",
+      "ask": "Where and when did President Trump say Flavio Bolsonaro can stay in the US? Find the origin of this clip and any news account of the remarks."
+    }
+  ]
 }

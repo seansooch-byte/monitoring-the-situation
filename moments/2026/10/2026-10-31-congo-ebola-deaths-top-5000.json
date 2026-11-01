@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-10-31-congo-ebola-deaths-top-5000",
+  "title": "Ebola deaths in Congo pass 5,000 in the second-largest outbreak on record",
+  "dek": "Government figures put the toll at 5,026 dead out of 10,351 infected, with cases now in three other African countries. There is no approved vaccine or treatment for this strain.",
+  "desks": ["medicine", "world"],
+  "standing": "developing",
+  "started_at": "2026-10-31T14:51:33Z",
+  "updated_at": "2026-11-01T02:20:00Z",
+  "what": [
+    "On Saturday 31 October, Congo's government data showed 5,026 deaths out of 10,351 infections in the Ebola outbreak, according to PBS NewsHour. BBC News and Al Jazeera also report that deaths have passed 5,000. The figures are the government's count, as reported by those outlets.",
+    "PBS reports the outbreak is caused by the Bundibugyo virus and was declared in mid-May 2026. It says there are no approved treatments or vaccines for this strain. It says cases have been recorded in 67 of Congo's 178 health zones across 8 of its 26 provinces, with Ituri and North Kivu in the east holding 9,782 cases and 4,792 deaths.",
+    "Cases have also been reported outside Congo. Al Jazeera and PBS name Kenya, Uganda and Nigeria. Al Jazeera calls Nigeria the fourth African country to report a case, and says Saudi Arabia suspended travel to and from Kenya and visas for Kenyan travellers. I did not look for Saudi Arabia's own announcement.",
+    "PBS reports that about one third of deaths happen outside treatment centres, before testing, and that about 80 percent of new cases trace to unknown chains of transmission. It lists armed conflict, health worker strikes over unpaid wages, community mistrust, attacks on health facilities and a lack of fuel and funds as obstacles. Both outlets call it the second-largest Ebola outbreak on record, after the 2014 to 2016 outbreak in West Africa, which infected more than 28,600 people and killed more than 11,000.",
+    "The BBC post is a headline and link only. I did not read the BBC article itself, so every figure above comes from PBS and Al Jazeera."
+  ],
+  "why": "A death toll crossing a round number is easy to share, and the spread to a fourth country in West Africa makes it a story for readers far from Congo.",
+  "next": "The next government count of cases and deaths, and any new country reporting a case.",
+  "posts": [
+    { "id": "2116543604495651147", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "PBS NewsHour: Congo's Ebola deaths top 5,000 as fear of continent-wide spread mounts", "url": "https://www.pbs.org/newshour/world/congos-ebola-deaths-top-5000-as-fear-of-continent-wide-spread-mounts" },
+    { "label": "Al Jazeera: Ebola death toll in DR Congo passes 5,000", "url": "https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000" }
+  ]
+}
