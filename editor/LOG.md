@@ -4461,3 +4461,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds eleven ids. plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: the crash story's death toll rests on one official's X post; I could not open a news report that gives it. Revisit when the NTSB or local officials speak. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T22:20Z
+- Captures read: 2203Z (2107Z was the last logged read). Last read: 2203Z.
+- X's check: 2203Z 138 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged. No open requests.
+- Pulse: 55 items listed (1 new, 0 dropped); the build shows 51 on the front, holding DiscussingFilm's, NBA's, Pop Crave's and Watcher.Guru's second posts. New: Chuck Schumer's post on Stevens and the Michigan Senate race (politics). Header moved to 2203Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Learjet crash dashcam and audio posts (AZ_Intel_, Breaking911, heatedreports, ScopeReport_; no media descriptions, locations and details differ between posts, unchecked); Mario Nawfal crash post (aggregator); elonmusk posts (account already placed); Kalshi hedge fund line (headline only, unchecked); Jack Campbell injury posts (sports full, health claim about a named player); Wizarab10 NHS post (point not clear); old_content and private_individual posts.
+- Requests: none; watch list adds 2116969707425468536. plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

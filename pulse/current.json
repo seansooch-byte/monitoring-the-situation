@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T21:35:00Z",
-  "capture": "2026-11-01T2107Z",
+  "updated_at": "2026-11-01T22:20:00Z",
+  "capture": "2026-11-01T2203Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -356,6 +356,12 @@
       "also": [
         "2116993512680083563"
       ]
+    },
+    {
+      "id": "2116969707425468536",
+      "desk": "politics",
+      "line": "Senator Chuck Schumer calls Representative Haley Stevens's endorsement of Mike Rogers a \"despicable betrayal\" and says Senate Democrats are united behind Abdul El-Sayed. He says Rogers is a tool of Donald Trump and billionaire donors.",
+      "also": []
     }
   ]
 }
