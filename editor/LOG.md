@@ -4391,3 +4391,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-01T12:35Z
+- Captures read: 1201Z (1104Z was the last read before). Last read: 1201Z.
+- X's check: 1201Z 115 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged. No answers to open requests.
+- Pulse: 40 items listed (0 new, 0 dropped; nothing older than 36 hours); the build shows 37, holding DiscussingFilm's, Pop Crave's and NBA's second posts off the front. Header moved to 1201Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: gracebh4t's cat video (no media description, so its point cannot be worked out, and the text is a good-luck chain); rtenews on the death of runner Ciara Mageean (small, not confirmed outside X; sports full); harrytwips "rank these fighter jets" to Grok (a prompt, involves xAI, point thin); AlwaysRamCharan and iamsrk promotional posts; afcstuff (old_content flag); posts the grabber flagged private_individual or sexual.
+- Requests: none; watch list unchanged. plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
