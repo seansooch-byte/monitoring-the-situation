@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T22:20:00Z",
-  "capture": "2026-11-01T2203Z",
+  "updated_at": "2026-11-01T23:15:00Z",
+  "capture": "2026-11-01T2305Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -330,9 +330,10 @@
     {
       "id": "2116958085248160199",
       "desk": "sports",
-      "line": "NFL on CBS posts a video and says Ravens quarterback Lamar Jackson heads to the locker room after his first pass attempt with an apparent hand injury. The Ravens account later posts that he is out.",
+      "line": "NFL on CBS posts a video and says Ravens quarterback Lamar Jackson heads to the locker room after his first pass attempt with an apparent hand injury. Reporter Tom Pelissero later posts that the coach told reporters Jackson needs thumb surgery and will go on injured reserve.",
       "also": [
-        "2116961835714822470"
+        "2116961835714822470",
+        "2117007200640016665"
       ]
     },
     {
@@ -361,6 +362,18 @@
       "id": "2116969707425468536",
       "desk": "politics",
       "line": "Senator Chuck Schumer calls Representative Haley Stevens's endorsement of Mike Rogers a \"despicable betrayal\" and says Senate Democrats are united behind Abdul El-Sayed. He says Rogers is a tool of Donald Trump and billionaire donors.",
+      "also": []
+    },
+    {
+      "id": "2117020120413261837",
+      "desk": "sports",
+      "line": "The Mercedes Formula 1 team posts a video and says Kimi Antonelli is the Formula 1 world champion. The F1 account makes the same announcement.",
+      "also": []
+    },
+    {
+      "id": "2116690774830305426",
+      "desk": "offbeat",
+      "line": "The poster theluckyplant shares four photos of shoebills, the large African wading birds, and says people only see the photos where they look evil. The photos have no description here.",
       "also": []
     }
   ]
