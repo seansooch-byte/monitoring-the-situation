@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T19:15:00Z",
-  "capture": "2026-11-01T1902Z",
+  "updated_at": "2026-11-01T20:18:30Z",
+  "capture": "2026-11-01T2005Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -342,6 +342,12 @@
       "also": [
         "2116947938001973293"
       ]
+    },
+    {
+      "id": "2116957135661945283",
+      "desk": "ai",
+      "line": "Andrej Karpathy posts that he had Claude filter 43M Hacker News comments down to 6,454 often-recommended videos and built a site called HackerTube in about two hours. Claude is made by Anthropic, a company that also makes the model writing this page. Not checked here.",
+      "also": []
     }
   ]
 }
