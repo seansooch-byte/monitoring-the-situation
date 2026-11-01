@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-01T06:15:00Z",
-  "capture": "2026-11-01T0601Z",
+  "updated_at": "2026-11-01T07:20:00Z",
+  "capture": "2026-11-01T0700Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -201,6 +201,34 @@
       "id": "2116734971440464103",
       "desk": "world",
       "line": "The account BullTheory says Iran reports talks with Qatari mediators on a plan to reopen the Strait of Hormuz within 48 hours if the US accepts Iran’s conditions, and lists six conditions it attributes to Iran’s foreign minister, including lifting sanctions and ending the war on all fronts. Not checked here."
+    },
+    {
+      "id": "2116293295278285299",
+      "desk": "sports",
+      "line": "Aston Villa says it will start legal action against pundit Jamie Carragher over what it calls unacceptable insults about the club and its fans. The statement is signed by chairman Nassef Sawiris. Carragher later posted an apology, saying his language was clumsy and meant as tongue in cheek.",
+      "also": [
+        "2116511508918050971"
+      ]
+    },
+    {
+      "id": "2116489136496365588",
+      "desk": "sports",
+      "line": "Adam Schefter reports, citing sources, that the Indianapolis Colts are open to trading running back Jonathan Taylor and that several teams have called about him. He says the talks are active. Not checked here."
+    },
+    {
+      "id": "2116517088869192115",
+      "desk": "politics",
+      "line": "UK Conservative leader Kemi Badenoch writes a long post arguing against a new formal British apology and against reparations for the slave trade. She names Andy Burnham as Prime Minister and criticises his stance. Not checked here."
+    },
+    {
+      "id": "2116418139441516832",
+      "desk": "world",
+      "line": "Polymarket says Johannesburg is reportedly on the brink of a \"total collapse\" of its water system, with residents without running water for weeks. The post names no source. Not checked here."
+    },
+    {
+      "id": "2116296438942765394",
+      "desk": "medicine",
+      "line": "Elon Musk says Eli Lilly has \"some banger drugs coming out\" in a post that quotes another post. He names no drug. Not checked here."
     }
   ]
 }
