@@ -1,22 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-02T03:35:00Z",
-  "capture": "2026-11-02T0306Z",
+  "updated_at": "2026-11-02T04:30:00Z",
+  "capture": "2026-11-02T0407Z",
   "items": [
-    {
-      "id": "2116570381003690453",
-      "desk": "world",
-      "line": "In French, LucAuffret posts a video and says it shows Molotov cocktails thrown at police at Porte de Charenton, Paris, and calls the situation very tense. Fox News says protesters are out in Paris against President Macron. The video has no description here. Not checked here.",
-      "also": [
-        "2116571996246978664"
-      ]
-    },
-    {
-      "id": "2116574052903251969",
-      "desk": "gaming",
-      "line": "Gaming poster SkyRaiderG7 says a leaked video of what looks like an internal presentation is \"too good to fake\", pointing to interface details and debug text in it. The leak and its source have not been checked here.",
-      "also": []
-    },
     {
       "id": "2116680845461229927",
       "desk": "gaming",
@@ -139,12 +125,6 @@
       "id": "2116719614432543071",
       "desk": "entertainment",
       "line": "The Hollywood Reporter posts a video of Heidi Klum posing on the carpet at her annual Halloween party in New York City. The video has no description here, so her costume is not described.",
-      "also": []
-    },
-    {
-      "id": "2116571973979668494",
-      "desk": "internet",
-      "line": "DiscussingFilm posts two photos and says the streamer Speed dressed as Miles Morales for Halloween. The photos have no description here. Not checked here.",
       "also": []
     },
     {
@@ -302,6 +282,11 @@
       "desk": "internet",
       "line": "A user jokes that protein bars carry names like \"marshmallow cookies and cream surprise\" but taste like \"boiled uncle\". A joke post with no claim to check.",
       "also": []
+    },
+    {
+      "id": "2116983249016905917",
+      "desk": "disaster",
+      "line": "The news aggregator AZ_Intel_ posts a 14-second video and says it shows the aircraft crash in Greenacres, Florida, and that preliminary information suggests the aircraft was a business jet. The post gives no description of the footage. Not checked here."
     }
   ]
 }
