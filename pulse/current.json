@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-02T02:35:00Z",
-  "capture": "2026-11-02T0202Z",
+  "updated_at": "2026-11-02T03:35:00Z",
+  "capture": "2026-11-02T0306Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -289,6 +289,18 @@
       "id": "2117046054247952671",
       "desk": "sports",
       "line": "The Detroit Lions account says Jack Campbell is resting and will stay in a local hospital tonight for continued evaluation and monitoring. The team says it will give updates. It does not say what the injury is.",
+      "also": []
+    },
+    {
+      "id": "2117030949573525590",
+      "desk": "politics",
+      "line": "Fox News posts a 27-second video and says House Speaker Mike Johnson joked about President Trump's late-night calls, quoting him as saying Trump calls \"at, like, 1:00 in the morning and also at 5 a.m.\" The clip has no media description here.",
+      "also": []
+    },
+    {
+      "id": "2116978134822322494",
+      "desk": "internet",
+      "line": "A user jokes that protein bars carry names like \"marshmallow cookies and cream surprise\" but taste like \"boiled uncle\". A joke post with no claim to check.",
       "also": []
     }
   ]
