@@ -1831,3 +1831,7 @@ Night (12:00-05:00 UTC band; ~12:06 AM ET Oct 28, the 04Z slot): 44 X reads (915
 ## 2026-11-02T1201Z
 
 2026-11-02T1201Z (6:01 AM CST Nov 2, day band, allowance 42): requests/plan.json was still for 2026-11-02T08Z, so the standing orders were followed (run.plan null); read list from node tools/plan-reads.mjs --print --at 2026-11-02T11:40:00Z (cuts screen and desk.life), nothing written to requests/. 42 reads, 620 left. Watch 800 read, 799 returned (2117110917376913609 Not Found, not cited). No cited post changed words; 1 cited truncation-only diff. 133 posts (117 kept, 6 trend, 10 context), 933 observations. Left out: 4 sexual, 3 ads. 7 private_individual flags. No account hit the 3-post cap. Lesson: by-id outputs put referenced posts under includes.posts, search outputs under includes.tweets; read both.
+
+## 2026-11-02T1307Z
+
+2026-11-02T1307Z (7:07 AM CST Nov 2, day band, allowance 42): requests/plan.json was still for 2026-11-02T08Z, so the standing orders were followed (run.plan null); read list from node tools/plan-reads.mjs --print --at 2026-11-02T12:40:00Z (33 reads, nothing cut), nothing written to requests/. 33 reads, 587 left. Watch 800/800 returned, no cited post missing or changed. context.top: the biggest new post (Ruivlzx 2117024789483450738) returned 0 replies and 0 quotes in its first 20 minutes, so the two screen reads went to the next biggest (On3 AP poll); worth checking whether search misses posts with no lang. 83 posts, 883 observations; checker PASS partial.
