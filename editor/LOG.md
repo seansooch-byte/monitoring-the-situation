@@ -4481,3 +4481,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds three ids. plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-02T00:20Z
+- Captures read: 0001Z (2305Z was the last logged read). Last read: 0001Z.
+- X's check: 0001Z 125 confirmed, 0 missing, 1 mismatched (2000491019394289733, VivaOnePH, an old post, text differs in a few characters), 1 withheld. Earlier runs unchanged. No open requests.
+- Pulse: 39 items listed (1 new, 19 dropped); the build shows 37 on the front, holding DiscussingFilm's and Watcher.Guru's second posts. New: WBC24News video of the Greenacres jet crash (disaster, no media description, flagged as unchecked). Dropped: AdamSchefter and CatholicSat (older than 36 hours), and 17 others cut back to the rule (dozen largest plus three per desk; the list had grown to 57, over the 25 to 45 the contract sets), keeping the Lamar Jackson, Antonelli and Schumer items for pace and their stories. Header moved to 0001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: KillaKreww and FearedBuck Keith Lee posts (private_individual on one, a named reviewer's dispute, not checked); camhigby, DylanPatel4_ (private_individual); LiveStormChaser, SoveyX and Mario Nawfal crash-data posts (unchecked); Lindseysfallguy Campbell death rumour (unconfirmed claim about a named person); AWAKENPATRuu Spain post (unconfirmed, no media description); F1 Verstappen post (account already placed); elonmusk Grok promo (advertisement, account placed); shimabu_it and Motion_Viz posts (product opinion, point not clear); old_content posts.
+- Requests: none; watch list adds 2116983818896744508. plan.json rebuilt for 01Z.
+- Shipped: yes, commit 7031b8fd, live audit clean (log entry added in a follow-up commit).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
