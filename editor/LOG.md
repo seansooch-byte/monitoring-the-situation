@@ -4521,3 +4521,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds 2117075900575477855. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-02T06:20Z
+- Captures read: 0603Z (0506Z was the last logged read). Last read: 0603Z.
+- X's check: 0603Z 26 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged.
+- Pulse: 45 items listed (3 new, 2 dropped); the build shows 44 on the front, holding Watcher.Guru's second post. New: DiscussingFilm on the Gilded Age cameo (entertainment), Guillermo Rauch on local models (ai), NWCS_Standings on Denny Hamlin's title (sports, marked not checked). Dropped: Cleo Abram's Neuralink episode and Russia Army's Iran post (older than 36 hours). Header moved to 0603Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Eric Daugherty's Trump quote (calls a named candidate a jihadist); thescottbarber write-in post (voting advice); unusual_whales and Tucker Carlson nuclear-strike claim (unchecked); AshCrypto Bitcoin and Fed posts (price and liquidity claims unchecked); WinnaFC Messi poll (aggregator, unchecked); venom1s (private_individual); posts from accounts already placed.
+- Requests: none; watch list adds three ids. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

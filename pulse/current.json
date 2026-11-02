@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-02T05:20:00Z",
-  "capture": "2026-11-02T0506Z",
+  "updated_at": "2026-11-02T06:20:00Z",
+  "capture": "2026-11-02T0603Z",
   "items": [
     {
       "id": "2116680845461229927",
       "desk": "gaming",
       "line": "The official League of Legends esports account posts the knockout stage bracket for the 2026 World Championship as an image and notes that match order is still to be decided.",
-      "also": []
-    },
-    {
-      "id": "2116587096651505814",
-      "desk": "tech",
-      "line": "Video creator Cleo Abram posts her full episode on Neuralink and brain-computer interfaces. She says she toured the company and saw its new R1 surgical robot. Neuralink is led by Elon Musk, who is also the owner of X.",
       "also": []
     },
     {
@@ -32,14 +26,6 @@
       "desk": "life",
       "line": "Pop Crave posts a photo and says clocks move back one hour at 2 a.m. tonight, ending Daylight Saving Time.",
       "also": []
-    },
-    {
-      "id": "2116582554803581258",
-      "desk": "world",
-      "also": [
-        "2116582667797877145"
-      ],
-      "line": "Russia Army posts that war has officially begun and that Iran’s Supreme Leader ordered forces to bring US and Israeli assets within range, and asks Grok to confirm. Grok, which gathers this page’s posts and is made by xAI, replies that war has not “officially begun”. Not checked here."
     },
     {
       "id": "2116622848399700327",
@@ -286,6 +272,24 @@
       "id": "2117075900575477855",
       "desk": "ai",
       "line": "SemiAnalysis, a research and analysis firm, says it is releasing GDPx, a benchmark for measuring agentic capabilities across the most valuable domains. It says even the best model scores just 12%. That is its own claim and has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2117114980252451171",
+      "desk": "entertainment",
+      "line": "The account DiscussingFilm says David Letterman and Matt Damon made a cameo in the Season 4 premiere of The Gilded Age. It links a Vulture article on the appearance.",
+      "also": []
+    },
+    {
+      "id": "2117000819623243925",
+      "desk": "ai",
+      "line": "Guillermo Rauch argues that people should \"own your intelligence\", saying local models need to keep spreading and that people should own their agents, data and tools and embrace open source.",
+      "also": []
+    },
+    {
+      "id": "2117023769248022540",
+      "desk": "sports",
+      "line": "The account NWCS_Standings, which tracks NASCAR standings, posts an 18-second video and says Denny Hamlin becomes a Winston Cup champion in his 21st full-time season. Not checked here.",
       "also": []
     }
   ]
