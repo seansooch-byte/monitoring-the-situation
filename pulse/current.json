@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-02T04:30:00Z",
-  "capture": "2026-11-02T0407Z",
+  "updated_at": "2026-11-02T05:20:00Z",
+  "capture": "2026-11-02T0506Z",
   "items": [
     {
       "id": "2116680845461229927",
@@ -61,12 +61,6 @@
       "id": "2116709724011868311",
       "desk": "sports",
       "line": "The account wok posts a 19-second video with the words “Mark Bowman owns the Ohio State defense”. The video has no description here, and the game is not named in the post.",
-      "also": []
-    },
-    {
-      "id": "2116576272016892083",
-      "desk": "entertainment",
-      "line": "DiscussingFilm says Marvel held a drone show in Korea for ‘Avengers: Doomsday’ that moved from an Iron Man shape to Doctor Doom. The post carries a video of just under two minutes, with no description here. Not checked here.",
       "also": []
     },
     {
@@ -287,6 +281,12 @@
       "id": "2116983249016905917",
       "desk": "disaster",
       "line": "The news aggregator AZ_Intel_ posts a 14-second video and says it shows the aircraft crash in Greenacres, Florida, and that preliminary information suggests the aircraft was a business jet. The post gives no description of the footage. Not checked here."
+    },
+    {
+      "id": "2117075900575477855",
+      "desk": "ai",
+      "line": "SemiAnalysis, a research and analysis firm, says it is releasing GDPx, a benchmark for measuring agentic capabilities across the most valuable domains. It says even the best model scores just 12%. That is its own claim and has not been checked here.",
+      "also": []
     }
   ]
 }

@@ -4511,3 +4511,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list adds two ids. plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-02T05:20Z
+- Captures read: 0407Z (no log entry from the previous pass, whose pulse header was already at 0407Z) and 0506Z. Last read: 0506Z.
+- X's check: 0407Z 112 confirmed, 0 missing, 1 mismatched (grabber's record, not cited). 0506Z 57 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 44 items listed (1 new, 1 dropped); the build shows 43 on the front, holding Watcher.Guru's second post. New: SemiAnalysis on its GDPx benchmark (ai, its own claim marked unchecked). Dropped: DiscussingFilm's Avengers drone show (older than 36 hours). Header moved to 0506Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Adam Schefter's Eagles loss (sports already holds seven items); SoCalMafia1 Roquan Smith accusation post; vancemurphy and FmrRepMTG nuclear-strike posts (rest on Tucker Carlson's unchecked claim); the Alencia Johnson and Scott Jennings clip (posted by a parody account); T.I. clip (aggregator); posts flagged private_individual.
+- Requests: none; watch list adds 2117075900575477855. plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
