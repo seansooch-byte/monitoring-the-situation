@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-02T00:20:00Z",
-  "capture": "2026-11-02T0001Z",
+  "updated_at": "2026-11-02T01:20:00Z",
+  "capture": "2026-11-02T0102Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -166,12 +166,6 @@
       "also": []
     },
     {
-      "id": "2116517088869192115",
-      "desk": "politics",
-      "line": "UK Conservative leader Kemi Badenoch writes a long post arguing against a new formal British apology and against reparations for the slave trade. She names Andy Burnham as Prime Minister and criticises his stance. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2116728061765034338",
       "desk": "business",
       "line": "Binance, the crypto exchange, says in an update that it has already covered $6B of the impacted amount of the hacked loss. The post links to its announcement, which has no description here. Not checked here.",
@@ -258,6 +252,26 @@
       "id": "2116983818896744508",
       "desk": "disaster",
       "line": "The news account WBC24News posts a video and says it shows a business jet crash in Greenacres, near West Palm Beach, Florida. The post gives no description of the footage, and what it shows has not been checked here."
+    },
+    {
+      "id": "2117053454883627170",
+      "desk": "sports",
+      "line": "The NFL account posts an 11-second video headed \"BRONCOS WIN\". The video has no description here. The Broncos account posts \"We #BeatTheChiefs!\" with its own video.",
+      "also": [
+        "2117053650619269226"
+      ]
+    },
+    {
+      "id": "2116957113410891937",
+      "desk": "internet",
+      "line": "The account StreetFashion01, which posts as Outlander Magazine, shares four photos and says new Willem Dafoe poses have dropped, in the \"Babe, wake up\" phrasing. The photos have no description here.",
+      "also": []
+    },
+    {
+      "id": "2116802421657833527",
+      "desk": "internet",
+      "line": "The poster imfat says it took 29 years to realize that the cheat code to life is having delusional confidence. It is a one-line joke or aphorism with no media.",
+      "also": []
     }
   ]
 }
