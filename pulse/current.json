@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-02T01:20:00Z",
-  "capture": "2026-11-02T0102Z",
+  "updated_at": "2026-11-02T02:35:00Z",
+  "capture": "2026-11-02T0202Z",
   "items": [
     {
       "id": "2116570381003690453",
@@ -271,6 +271,24 @@
       "id": "2116802421657833527",
       "desk": "internet",
       "line": "The poster imfat says it took 29 years to realize that the cheat code to life is having delusional confidence. It is a one-line joke or aphorism with no media.",
+      "also": []
+    },
+    {
+      "id": "2117058821231112701",
+      "desk": "politics",
+      "line": "Nate Cohn posts that the final Times/Siena polls of the campaign find Democrats ahead in all seven of the states likeliest to decide the Senate. The post carries a link. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117020340815819262",
+      "desk": "markets",
+      "line": "The BTCPay Server account says it is receiving reports of hot wallets on BTCPay Server instances being swept by unauthorized attackers, and tells operators to shut their instances down. The cause and the scale are the account's early word. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117046054247952671",
+      "desk": "sports",
+      "line": "The Detroit Lions account says Jack Campbell is resting and will stay in a local hospital tonight for continued evaluation and monitoring. The team says it will give updates. It does not say what the injury is.",
       "also": []
     }
   ]
