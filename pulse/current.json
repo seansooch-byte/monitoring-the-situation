@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-03T19:20:51Z",
-  "capture": "2026-11-03T1907Z",
+  "updated_at": "2026-11-03T20:10:23Z",
+  "capture": "2026-11-03T2001Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -198,6 +198,12 @@
       "id": "2117461232324358615",
       "desk": "internet",
       "line": "yoxic says Kai Cenat showed his TikTok revenue after a 30-minute stream, in a 37-second video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117647206123503620",
+      "desk": "world",
+      "line": "TMZ reports that Donald Trump says he will move to Israel to become prime minister if the U.S. turns on him. The post links TMZ's story. Not checked here.",
       "also": []
     }
   ]
