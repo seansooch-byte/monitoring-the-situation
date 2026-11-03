@@ -1,0 +1,44 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-02-jesus-de-miguel-tenerife-dies",
+  "title": "CD Tenerife striker Jesús de Miguel dies a day after a collision in a match",
+  "dek": "The club says the 30-year-old died on Tuesday morning. Video of the challenge spread worldwide in Spanish and English before the club's statement.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-02T22:00:00Z",
+  "updated_at": "2026-11-03T21:30:00Z",
+  "what": [
+    "CD Tenerife announced in Spanish that its player Jesús de Miguel Alameda died on Tuesday 3 November at 8:00 a.m. The club asked for respect for his family.",
+    "La Nación and Infobae report that the collision came in stoppage time of Tenerife's second division match against FC Andorra on Monday evening, 2 November. Both say Andorra's goalkeeper, Jesús Owono, left his area and struck de Miguel in the chest with his knee while both went for a long ball. They say de Miguel collapsed in cardiorespiratory arrest and was resuscitated on the pitch for more than five minutes. He was taken to the Hospital Universitario Nuestra Señora de Candelaria in Tenerife. They say his condition then worsened in intensive care.",
+    "Both outlets report that the referee sent the goalkeeper off for using excessive force with a raised leg, and that the match was stopped before the end. La Nación reports that FC Andorra sent condolences and that the Spanish football federation suspended Tuesday's Copa del Rey matches. It also reports that Spain's National Police opened a judicial investigation. I found that last point in La Nación only and did not confirm it elsewhere. The cause of death has not been given in anything I read.",
+    "Infobae reports that the play has raised debate over legal responsibility beyond sporting sanctions. No court or prosecutor has been quoted in the reports I read."
+  ],
+  "why": "The challenge was filmed from several angles and a clip of it spread widely while he was still in hospital. His death was then announced by the club in an emotional statement that was passed on in many languages.",
+  "next": "The club's and the hospital's account of the cause of death, any decision by Spanish prosecutors, and the football federation's ruling on the match.",
+  "posts": [
+    {
+      "id": "2117535211948757002",
+      "role": "official"
+    },
+    {
+      "id": "2117272602523684948",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "La Nación: Murió el futbolista de Tenerife Jesús de Miguel tras chocar contra el arquero de otro equipo",
+      "url": "https://www.lanacion.com.ar/deportes/futbol/murio-el-futbolista-de-tenerife-jesus-de-miguel-tras-chocar-contra-el-arquero-de-otro-equipo-nid03112026/"
+    },
+    {
+      "label": "Infobae: Dolor en el deporte por la muerte de Jesús de Miguel",
+      "url": "https://www.infobae.com/deportes/2026/11/03/el-video-del-duro-golpe-que-sufrio-jesus-de-miguel-el-futbolista-que-murio-tras-descompensarse-en-un-partido-del-ascenso-en-espana/"
+    },
+    {
+      "label": "El Comercio: Muere Jesús de Miguel, jugador del CD Tenerife",
+      "url": "https://elcomercio.pe/deporte-total/espana/muere-jesus-de-miguel-jugador-del-cd-tenerife-tras-sufrir-fuerte-golpe-en-partido-de-futbol-andorra-jesus-owono-noticia/"
+    }
+  ]
+}

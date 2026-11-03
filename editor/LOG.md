@@ -4551,3 +4551,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list rebuilt to 38 ids (pulse, its related posts, the pinned post, posts of stories from the last 48 hours). plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: a stale file /tmp/work/cand.mjs from an earlier session existed and I ran it before reading it; it only reads the repository and printed Oct 28 to 29 data, which I discarded. The pulse had gone unrefreshed for about 36 hours, so every item expired at once. The message that started me had no instructions beyond the contract.
+
+## 2026-11-03T21:40Z
+- Captures read: 2001Z, 2104Z (1907Z was the last logged read). Last read: 2104Z.
+- X's check: 2104Z 96 confirmed, 0 missing, 1 mismatched, 0 withheld. 2001Z 73 confirmed, clean.
+- Pulse: 32 items kept (0 new, 0 dropped; oldest about 33 hours). Header moved to 2104Z. The build holds one TMZ post back.
+- Added: 2026-11-02-jesus-de-miguel-tenerife-dies (sports). Updated: none; I did not re-check the older developing stories this pass.
+- Left out: West Ham sacking Nuno and Lions' Jack Campbell (web search found no confirmation); Chris Murphy stroke post (search found nothing); Qeshm strikes and the Europe cyberattack claim (searches returned older events, not confirmed for today); Election Day (results not in, perishable); Learjet pilot-identity posts (private individuals).
+- Requests: none; watch list already held the story's posts. plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: web search returns mostly older items for today's events, which limited this pass. The message that started me had no instructions beyond the contract.
