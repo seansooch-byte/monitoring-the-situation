@@ -4541,3 +4541,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged. plan.json rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-03T19:30Z
+- Captures read: every capture from 2026-11-02T0708Z to 2026-11-03T1907Z (the log's last entry was 0708Z on Nov 2; the pulse had not been refreshed since). Last read: 1907Z.
+- X's check: 1907Z 117 confirmed, 0 missing, 0 mismatched, 0 withheld. Over the span, missing: 0505Z 1, 1005Z 1, 1208Z 2; mismatched: 0701Z 1, 0802Z 1, 0904Z 3, 1005Z 2, 1559Z 1 (the grabber's record, ids in the tool output, none cited here).
+- Pulse: 31 items on 17 desks (all new; all 44 earlier items were past 36 hours and dropped). The build holds none back. Quiet: defense, justice, life, ideas, business.
+- Added: none. Updated: none (pulse pass).
+- Left out: posts flagged private_individual (Learjet co-pilot posts, Glenn Diesen, others); Alex Jones and Mario Nawfal nuclear and sewer posts (unchecked); Cardi B statement (names another person in a dispute); Villanueva quote (sexual remark); Josh Jacobs abuse allegation (unconfirmed claim about a real person); Netflix, Gucci, Hunger Games, Call of Duty (advertisements); Haley for MI and Wilbon posts (no words or media description); Polymarket Haiti post (account already placed, unchecked).
+- Requests: none; watch list rebuilt to 38 ids (pulse, its related posts, the pinned post, posts of stories from the last 48 hours). plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: a stale file /tmp/work/cand.mjs from an earlier session existed and I ran it before reading it; it only reads the repository and printed Oct 28 to 29 data, which I discarded. The pulse had gone unrefreshed for about 36 hours, so every item expired at once. The message that started me had no instructions beyond the contract.
