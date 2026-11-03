@@ -43,8 +43,25 @@ const series = seriesByPost(captures);
 const NOW = captures.length ? Math.max(...captures.map((c) => Date.parse(c.run.finished_at))) : Date.now();
 const FROM = NOW - 24 * HOUR;
 
-// Gate 2's ledger: what X answered about each captured post.
-const LEDGER = !DEMO && existsSync(join(REPO, 'verified', 'posts.json')) ? readJSON(join(REPO, 'verified', 'posts.json')) : {};
+// Gate 2's ledger: what X answered about each captured post. MTS_LEDGER points the build at another
+// copy of it (a test, a dry run); given with --demo it makes the demo build check its posts too.
+const LEDGER_FILE = process.env.MTS_LEDGER || join(REPO, 'verified', 'posts.json');
+const CHECKED = !DEMO || Boolean(process.env.MTS_LEDGER);
+if (process.env.MTS_LEDGER && !existsSync(LEDGER_FILE)) throw new Error(`MTS_LEDGER names ${LEDGER_FILE}, which does not exist`);
+const LEDGER = CHECKED && existsSync(LEDGER_FILE) ? readJSON(LEDGER_FILE) : {};
+
+// What X said about a post decides what the build does with it. ok: it is shown. mismatch: X shows
+// other words or another author than the record, so the record is wrong and the build stops.
+// withheld, missing, or not yet asked: it is not shown and counts for nothing, the build says so
+// in its log, and the rest of the site is built.
+function withX(id) {
+  if (!CHECKED) return 'ok';
+  const r = LEDGER[id]?.result;
+  return ['ok', 'mismatch', 'withheld', 'missing'].includes(r) ? r : 'unverified';
+}
+const WHY_UNSHOWN = { withheld: 'withheld by X (no embed without a login)', missing: 'missing on X (no post with this id)', unverified: 'not confirmed by X yet' };
+let unshown = 0;
+const warn = (s) => { unshown++; console.warn(`warning: ${s}`); };
 
 // ---------- small helpers
 
@@ -82,24 +99,31 @@ const TREND = { rising: 'rising', fading: 'fading', steady: 'steady', new: 'new'
 
 // ---------- stories: the editor's words joined to the grabber's numbers
 
-function resolvePost(ref) {
+// A post X does not confirm comes back as { id, role, unavailable } and carries nothing from the
+// record: no words, no author, no numbers.
+function resolvePost(ref, who = 'story') {
   const rec = records.get(ref.id);
-  if (!rec) throw new Error(`story cites post ${ref.id}, which no capture has recorded`);
-  // A real build refuses a story citing a post X has not confirmed.
-  if (!DEMO && LEDGER[ref.id]?.result !== 'ok') throw new Error(`story cites post ${ref.id}, which X has not confirmed; run node tools/verify-posts.mjs --moments`);
+  if (!rec) throw new Error(`${who} cites post ${ref.id}, which no capture has recorded`);
+  const x = withX(ref.id);
+  if (x === 'mismatch') throw new Error(`${who} cites post ${ref.id}, which X shows differently from the record (${LEDGER[ref.id].detail ?? 'mismatch'}); change it, do not work around it`);
+  if (x !== 'ok') return { id: ref.id, role: ref.role, unavailable: x };
   const list = series.get(ref.id) ?? [];
   const live = [...list].reverse().find((o) => Number.isFinite(o.views)) ?? list[list.length - 1] ?? null;
   return { ...rec, role: ref.role, now: live, readings: list, created: Date.parse(rec.created_at) };
 }
 
 const stories = moments.map((m) => {
-  const posts = m.posts.map(resolvePost);
+  // `cited` is every post the story names, in its order; `posts` only those X confirms, which are
+  // the ones shown in full and counted.
+  const cited = m.posts.map((ref) => resolvePost(ref, `story ${m.id}`));
+  for (const p of cited) if (p.unavailable) warn(`story ${m.id} cites post ${p.id}, ${WHY_UNSHOWN[p.unavailable]}: shown as unavailable, counted for nothing`);
+  const posts = cited.filter((p) => !p.unavailable);
   const n = storyNumbers(posts.map((p) => p.id), series, NOW);
-  const byId = new Map(posts.map((p) => [p.id, p]));
+  const byId = new Map(cited.map((p) => [p.id, p]));
   return {
-    ...m, posts, n,
+    ...m, posts, cited, n,
     started: Date.parse(m.started_at),
-    origin: posts.find((p) => p.role === 'origin') ?? posts[0],
+    origin: posts.find((p) => p.role === 'origin') ?? posts[0] ?? null,
     worlds: (m.worlds ?? []).map((w) => ({ ...w, post: byId.get(w.post) ?? null })),
     home: deskById.get(m.desks[0]),
   };
@@ -118,28 +142,36 @@ const PULSE = existsSync(pulseFile) ? readJSON(pulseFile) : { items: [] };
 const storyOf = new Map();
 for (const s of stories) for (const p of s.posts) if (!storyOf.has(p.id)) storyOf.set(p.id, s);
 
-function pulsePost(id, what) {
+// A post on the pulse: an item, or a related post of the item `parent`.
+function pulsePost(id, parent = null) {
+  const what = parent ? `related post ${id} of pulse item ${parent}` : `pulse item ${id}`;
   const rec = records.get(id);
-  if (!rec) throw new Error(`pulse ${what} ${id} is not in any capture`);
+  if (!rec) throw new Error(`${what} is not in any capture`);
   const bad = (rec.flags ?? []).filter((f) => NEVER_SHOWN.includes(f));
   // A hard stop in code: whatever the editor wrote, a flagged post is never rendered.
-  if (bad.length) throw new Error(`pulse ${what} ${id} is flagged ${bad.join(', ')} by the grabber and cannot be shown`);
-  if (!DEMO && LEDGER[id]?.result !== 'ok') throw new Error(`pulse ${what} ${id} has not been confirmed by X; run node tools/verify-posts.mjs --captures`);
-  return resolvePost({ id, role: null });
+  if (bad.length) throw new Error(`${what} is flagged ${bad.join(', ')} by the grabber and cannot be shown`);
+  // A mismatch stops the build in resolvePost; a post X does not confirm is left out (null).
+  const post = resolvePost({ id, role: null }, parent ? `pulse item ${parent}` : 'the pulse');
+  if (!post.unavailable) return post;
+  warn(`${what} is ${WHY_UNSHOWN[post.unavailable]}: left off the pulse`);
+  return null;
 }
 
 const passed = (PULSE.items ?? []).map((it) => {
-  const post = pulsePost(it.id, 'item');
+  const post = pulsePost(it.id);
+  // The related posts are checked even when the item is left out, so a flag or a mismatch still stops the build.
+  const also = (it.also ?? []).map((id) => pulsePost(id, it.id)).filter(Boolean);
+  if (!post) return null;
   const n = storyNumbers([it.id], series, NOW);
   const ageH = Math.max((NOW - post.created) / HOUR, 0.05);
   return {
     ...it, post, n, ageH,
     pace: n.perHour ?? (n.views != null ? Math.round(n.views / ageH) : null), measured: n.perHour != null,
-    also: (it.also ?? []).map((id) => pulsePost(id, 'related post')),
+    also,
     story: storyOf.get(it.id) ?? null,
     deskInfo: deskById.get(it.desk) ?? deskById.get(post.desk),
   };
-}).filter((it) => it.n.views != null).sort((a, b) => b.n.views - a.n.views);
+}).filter((it) => it && it.n.views != null).sort((a, b) => b.n.views - a.n.views);
 
 // The pulse is every corner of the internet, so no one account may fill it. Of the posts the
 // editor passed, an account keeps its largest; the build says which others it held back.
@@ -154,7 +186,7 @@ const { kept: pulse, held } = onePlace(passed);
 const level = (perHour) => Math.max(0, Math.min(1, (Math.log10(Math.max(perHour, 1)) - 3) / 4));
 
 // Only posts X has confirmed feed a trace or a total. A post Gate 2 could not confirm counts for nothing.
-const confirmed = (id) => DEMO || LEDGER[id]?.result === 'ok';
+const confirmed = (id) => withX(id) === 'ok';
 
 const desks = DESKS.desks.map((d) => {
   const own = [...records.values()].filter((p) => p.desk === d.id && confirmed(p.id)).map((p) => ({ id: p.id, created: Date.parse(p.created_at) }));
@@ -204,6 +236,22 @@ function postFigure(p, { compact = false } = {}) {
   <figcaption class="by">${p.role && !compact ? `<span class="role">${ROLE[p.role] ?? esc(p.role)}</span>` : ''}${who(p)}<span>@${esc(p.author.handle)} · ${clock(p)}</span>${counts(p.now, ['views', 'likes', 'reposts', 'replies'])}${xLink(p, 'Open on X', 'open')}</figcaption>
 </figure>`;
 }
+
+// A cited post X does not confirm, in its place: the note and the id, and nothing from the record.
+// A post X has no answer for gets no link, since there is nothing at the other end.
+const UNAVAILABLE = {
+  withheld: 'X will not show this post without a login, so it is not shown here and its numbers are not counted.',
+  missing: 'X has no post with this id now, so it is not shown here and its numbers are not counted.',
+  unverified: 'This post has not been confirmed with X yet, so it is not shown here and its numbers are not counted.',
+};
+function unavailableFigure(p, { compact = false } = {}) {
+  const link = p.unavailable === 'missing' ? `<span>Post ${esc(p.id)}</span>` : `<a class="open" href="https://x.com/i/status/${esc(p.id)}" rel="noopener noreferrer" target="_blank">Post ${esc(p.id)} on X</a>`;
+  return `<figure class="post post-gone${compact ? ' post-compact' : ''}" data-unavailable="${esc(p.unavailable)}">
+  <p class="post-note"><span class="lab">Unavailable on X</span> ${UNAVAILABLE[p.unavailable]}</p>
+  <figcaption class="by">${p.role && !compact ? `<span class="role">${ROLE[p.role] ?? esc(p.role)}</span>` : ''}${link}</figcaption>
+</figure>`;
+}
+const citedFigure = (p, opts) => (p.unavailable ? unavailableFigure(p, opts) : postFigure(p, opts));
 
 // How a related post stands to the one it is shown under, read from the grabber's own links.
 function relation(main, p) {
@@ -289,6 +337,7 @@ function deskCard(d, { link = false } = {}) {
 }
 
 function spark(s, w = 200, h = 44) {
+  if (!s.posts.length) return `<p class="spark-wait">No reading yet.</p>`;
   const pts = [];
   for (const p of s.posts) for (const o of p.readings) if (Number.isFinite(o.views)) pts.push(o.at);
   const born = Math.min(...s.posts.map((p) => p.created));
@@ -305,7 +354,7 @@ function worldsBlock(s, open) {
   const count = ['', 'one world', 'two worlds', 'three worlds', 'four worlds'][s.worlds.length] ?? `${s.worlds.length} worlds`;
   return `<details class="worlds"${open ? ' open' : ''}>
   <summary>Seen from ${count}</summary>
-  <div class="worlds-grid">${s.worlds.map((w) => `<div class="world"><h4>${esc(w.name)}</h4><p>${esc(w.sees)}</p>${w.post ? postFigure(w.post, { compact: true }) : ''}</div>`).join('')}</div>
+  <div class="worlds-grid">${s.worlds.map((w) => `<div class="world"><h4>${esc(w.name)}</h4><p>${esc(w.sees)}</p>${w.post ? citedFigure(w.post, { compact: true }) : ''}</div>`).join('')}</div>
   ${s.common ? `<div class="common"><h4>On the record</h4><p>${esc(s.common)}</p></div>` : ''}
 </details>`;
 }
@@ -326,7 +375,7 @@ function storyRow(s, i) {
     ${storyMeta(s)}
     <h3><a href="/story/${esc(s.id)}/">${esc(s.title)}</a></h3>
     <p class="dek">${esc(s.dek)}</p>
-    ${postFigure(s.origin)}
+    ${s.origin ? postFigure(s.origin) : ''}
     ${worldsBlock(s, i < 4)}
   </div>
   <aside class="story-side">
@@ -478,7 +527,7 @@ function storyPage(s) {
       <h2>Why it is spreading</h2><p>${esc(s.why)}</p>
       ${worldsBlock(s, true)}
       ${s.next ? `<h2>What to watch</h2><p>${esc(s.next)}</p>` : ''}
-      <h2>The posts</h2>${s.posts.map((p) => postFigure(p)).join('')}
+      <h2>The posts</h2>${s.cited.map((p) => citedFigure(p)).join('')}
       ${(s.corrections ?? []).length ? `<h2>Corrections</h2><ul class="sources">${s.corrections.map((c) => `<li><time datetime="${esc(c.at)}">${hhmm(Date.parse(c.at))} ${ZONE_LABEL}, ${day(Date.parse(c.at))}</time> ${esc(c.text)}</li>`).join('')}</ul>` : ''}
       ${(s.sources ?? []).length ? `<h2>Sources</h2><ul class="sources">${s.sources.map((x) => `<li><a href="${esc(x.url)}" rel="noopener noreferrer" target="_blank">${esc(x.label)}</a></li>`).join('')}</ul>` : ''}
     </div>
@@ -582,4 +631,5 @@ if (held.length) {
   for (const it of held) by.set(it.post.author.handle.toLowerCase(), (by.get(it.post.author.handle.toLowerCase()) ?? 0) + 1);
   console.log(`pulse: held back ${held.length} ${held.length === 1 ? 'post' : 'posts'} over ${inWords(PULSE_PER_ACCOUNT)} to an account (${[...by].map(([h, n]) => `${h} ${n}`).join(', ')})`);
 }
+if (unshown) console.warn(`warning: ${unshown} ${unshown === 1 ? 'post' : 'posts'} not shown because X has not confirmed ${unshown === 1 ? 'it' : 'them'} (listed above); the rest of the site is built`);
 console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${pulse.length} on the pulse, ${stories.length} stories (${live.length} current), ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);

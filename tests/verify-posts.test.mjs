@@ -2,7 +2,8 @@
 // X's answer is read and compared; the network call is one thin function around them.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { textFromEmbed, compareToX } from '../tools/verify-posts.mjs';
+import { textFromEmbed, compareToX, askX, WITHHELD } from '../tools/verify-posts.mjs';
+import { ASK_TIMEOUT_MS } from '../tools/lib/gate2.mjs';
 
 // A real answer from publish.x.com/oembed, fetched 2026-10-09 for post 2108047268167274883.
 const REUTERS = {
@@ -65,6 +66,28 @@ test('a post that is only media matches an embed that shows only its media link'
   const embed = { ...REUTERS, html: '<blockquote><p lang="zxx" dir="ltr"><a href="https://t.co/SBf83gzkaZ">pic.twitter.com/SBf83gzkaZ</a></p>&mdash; x</blockquote>' };
   assert.equal(compareToX(record({ text: 'https://t.co/SBf83gzkaZ https://t.co/09cZAeeIwn' }), embed).result, 'ok');
   assert.equal(compareToX(record({ text: '' }), embed).result, 'ok');
+});
+
+// ---- the question to X is bounded in time: a hang is an error, never a stall (2026-11-03)
+
+test('a question X does not answer in time fails with a clear error, so the pass records nothing and moves on', async () => {
+  // A fetch that never answers, and only gives up when it is aborted.
+  const hang = (url, { signal }) => new Promise((_, reject) => signal.addEventListener('abort', () => reject(signal.reason)));
+  // The abort timer does not hold the process open (a real fetch's socket does), so this one does.
+  const alive = setTimeout(() => {}, 5000);
+  const started = Date.now();
+  await assert.rejects(askX('https://x.com/a/status/1', { timeoutMs: 50, fetchImpl: hang }), /X did not answer within 0\.05 s/);
+  clearTimeout(alive);
+  assert.ok(Date.now() - started < 2000, 'it gives up at the limit');
+  assert.equal(ASK_TIMEOUT_MS, 15000);
+});
+
+test('X\'s answers are still read as before: 404 is no post, 403 is withheld, another status is an error', async () => {
+  const answer = (status, body = {}) => async () => new Response(JSON.stringify(body), { status });
+  assert.equal(await askX('u', { fetchImpl: answer(404) }), null);
+  assert.equal(await askX('u', { fetchImpl: answer(403) }), WITHHELD);
+  await assert.rejects(askX('u', { fetchImpl: answer(500) }), /X answered 500/);
+  assert.deepEqual(await askX('u', { fetchImpl: answer(200, { html: 'x' }) }), { html: 'x' });
 });
 
 test('the looser comparison still catches a record whose words are not what X shows', () => {

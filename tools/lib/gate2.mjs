@@ -39,10 +39,22 @@ export function compareToX(record, embed) {
 }
 
 // null: X has no such post. WITHHELD: X has it but will not show it without a login (sensitive
-// media, mostly). Anything else is an error and is not recorded.
+// media, mostly). Anything else is an error and is not recorded. X is given ASK_TIMEOUT_MS to
+// answer, the body included; a question that hangs is an error, so one stalled answer cannot hold
+// up a whole pass and the ship after it.
 export const WITHHELD = Symbol('withheld');
-export async function askX(url) {
-  const r = await fetch(ENDPOINT + encodeURIComponent(url), { redirect: 'follow' });
+export const ASK_TIMEOUT_MS = 15000;
+export async function askX(url, { timeoutMs = ASK_TIMEOUT_MS, fetchImpl = (...a) => fetch(...a) } = {}) {
+  const signal = AbortSignal.timeout(timeoutMs);
+  try {
+    return await ask(url, signal, fetchImpl);
+  } catch (e) {
+    if (signal.aborted) throw new Error(`X did not answer within ${timeoutMs / 1000} s`);
+    throw e;
+  }
+}
+async function ask(url, signal, fetchImpl) {
+  const r = await fetchImpl(ENDPOINT + encodeURIComponent(url), { redirect: 'follow', signal });
   if (r.status === 404) return null;
   if (r.status === 403) return WITHHELD;
   if (!r.ok) throw new Error(`X answered ${r.status}`);

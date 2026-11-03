@@ -229,6 +229,10 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
 .post-compact .post-q { font-size: 16px; }
 .post-media { font-size: 14px; line-height: 1.4; color: var(--ink-2); }
 .post-media span { margin-right: 8px; font: 700 11px/1 var(--face); letter-spacing: 0.11em; text-transform: uppercase; color: var(--ink); }
+/* a cited post X does not confirm: a note in its place, never its words */
+.post-gone { border-top-style: dashed; }
+.post-note { font-size: 14px; line-height: 1.4; color: var(--ink-2); }
+.post-note .lab { margin-right: 8px; color: var(--ink); }
 .role { align-self: center; padding: 3px 6px; background: var(--ink); color: var(--ground); font: 700 10.5px/1 var(--face); letter-spacing: 0.12em; text-transform: uppercase; }
 
 /* ---------- seen from two worlds, then what is on the record */

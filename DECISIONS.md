@@ -751,3 +751,32 @@ to serve as a file from R2 and is rewritten by a purge the same way. A gate that
 function is the same gate everywhere, which is the only way "the Worker runs Gate 1" can be a
 true sentence rather than a copy that drifts. If R2 is enabled later, moving the files there is
 one column's worth of change and no change to the readers.
+
+## 2026-11-03: A post X will not show costs its place, not the whole site
+
+**Context.** A story cited a post that Gate 2 had recorded as `withheld` (X shows it only after a
+login). The build refused the whole site for it, the tests failed with it, `tools/ship.sh`
+refused, and nothing on the site changed for about 35 hours. Separately, one question to X that
+never answered held `tools/verify-posts.mjs --captures`, and the ship behind it, for over ten
+minutes. Sean: "Don't let it break again."
+
+**Alternatives.** (a) Keep the refusal and rely on each pass to change the story. That is what
+broke: a post's standing with X can change after a story is written, and no pass may be running
+when it does. (b) Show a withheld post from the capture anyway. That breaks the rule that only
+what X confirms is shown. (c) Leave the post out and say so, everywhere it would have appeared.
+
+**Decision.** (c), for `withheld`, `missing`, and a post not yet in the ledger. In a story the
+post's place holds a note, "Unavailable on X", and the post's id (with a link by id unless X has
+no post for it); none of the record's words, author or numbers, and it counts for nothing. A
+world whose post is unavailable keeps its description over the note. A pulse item or related
+post is left off. The build prints a warning naming the story or item and the post, and builds
+the rest. A `mismatch` still stops the build, and so do a post no capture recorded and a post
+the grabber flagged: those say the record or the editor is wrong, and showing the rest of the
+story around them would be standing behind it. The question to X now gives up after 15 seconds
+and is reported as an error, not recorded. `tools/check-stale.mjs` reads the live page's as-of
+time, so a site that stops updating for any reason is caught by its age.
+
+**Why.** The rule was never "a story must have every post"; it was "nothing X has not confirmed
+is shown". Leaving the post out keeps that rule and stops one post from holding every other page
+hostage. A mismatch is different in kind: it says the record does not match what was said, which
+is the failure Gate 2 exists to catch.

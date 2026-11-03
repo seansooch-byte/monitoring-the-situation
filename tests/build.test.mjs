@@ -2,8 +2,10 @@
 // deployable, and the page carries no em dash.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { execFileSync } from 'node:child_process';
-import { existsSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
+import { execFileSync, spawnSync } from 'node:child_process';
+import { existsSync, mkdtempSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { stripEdge } from '../tools/audit-live.mjs';
 
@@ -275,4 +277,137 @@ test('a page that says how many desks there are takes the number from the list',
   for (const f of readdirSync(root + 'dist', { recursive: true }).filter((f) => f.endsWith('.html'))) assert.ok(!readFileSync(root + 'dist/' + f, 'utf8').includes('{desks}'), `${f} shows no placeholder`);
   assert.ok(!existsSync(root + 'dist/desk/crypto/index.html'), 'a retired desk has no page');
   assert.ok(!readFileSync(root + 'dist/index.html', 'utf8').includes('data-desk="crypto"'), 'and no card');
+});
+
+// ---- what X said decides what is shown, and only a mismatch stops the build
+//
+// The demo build checks nothing against X unless it is given a ledger (MTS_LEDGER). These tests
+// give it one in which every fixture post is confirmed, then change one answer at a time.
+
+const fixtureRecords = () => {
+  const out = new Map();
+  for (const f of captureFiles(root + 'fixtures/demo/capture')) for (const p of JSON.parse(readFileSync(f, 'utf8')).posts) out.set(p.id, p);
+  return out;
+};
+const story = (id) => JSON.parse(readFileSync(`${root}fixtures/demo/moments/${id}.json`, 'utf8'));
+// Build the demo against a ledger: every fixture post ok, then `over` (a result, or null to leave
+// the post out of the ledger). `edit` may change the fixture first.
+function buildWith(over, edit = () => {}) {
+  run('tools/make-demo.mjs');
+  edit();
+  const ledger = {};
+  for (const id of fixtureRecords().keys()) ledger[id] = { result: 'ok', detail: null };
+  for (const [id, result] of Object.entries(over)) {
+    if (result == null) delete ledger[id];
+    else ledger[id] = { result, detail: result === 'mismatch' ? 'text: the record begins "a", X begins "b"' : null };
+  }
+  const dir = mkdtempSync(join(tmpdir(), 'mts-ledger-'));
+  writeFileSync(join(dir, 'posts.json'), JSON.stringify(ledger));
+  const r = spawnSync('node', ['tools/build.mjs', '--demo'], { cwd: root, encoding: 'utf8', env: { ...process.env, MTS_LEDGER: join(dir, 'posts.json') } });
+  rmSync(dir, { recursive: true, force: true });
+  return r;
+}
+const read = (rel) => readFileSync(root + 'dist/' + rel, 'utf8');
+const escHtml = (s) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+// Nothing the grabber recorded about a post reaches the page: not its words, its link or its author.
+function assertNothingOf(page, rec) {
+  assert.ok(!page.includes(rec.url), `${rec.id}: its link from the record is not on the page`);
+  assert.ok(!page.includes(escHtml(rec.text.split('\n')[0].slice(0, 40))), `${rec.id}: its words are not on the page`);
+  assert.ok(!new RegExp(`@${rec.author.handle}[ <]`).test(page), `${rec.id}: its author is not on the page`);
+}
+
+const S = '2026-10-08-calendar-typo-moves-yields'; // three posts; worlds on the first two; its origin is on the pulse
+
+test('a cited post X withholds is shown as unavailable, the build says so, and the rest of the site is built', () => {
+  const pid = story(S).posts[0].id, rec = fixtureRecords().get(pid);
+  const r = buildWith({ [pid]: 'withheld' });
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stdout, /built DEMO site: \d+ on the pulse, 17 stories/);
+  assert.ok(r.stderr.includes(`warning: story ${S} cites post ${pid}, withheld by X`), r.stderr);
+  const page = read(`story/${S}/index.html`);
+  assert.match(page, /data-unavailable="withheld">\s*<p class="post-note"><span class="lab">Unavailable on X<\/span> X will not show this post without a login/);
+  assert.ok(page.includes(`href="https://x.com/i/status/${pid}"`), 'a withheld post keeps a link by its id');
+  assertNothingOf(page, rec);
+  // The world it carried keeps its description, with the note in place of the post.
+  const world = page.match(/<div class="world">[\s\S]*?<\/figure><\/div>/)[0];
+  assert.ok(world.includes(escHtml(story(S).worlds[0].sees)) && world.includes('data-unavailable="withheld"'));
+  assert.match(page, /<dt class="lab">Posts tracked<\/dt><dd>2<\/dd>/, 'and it counts for nothing');
+  assertNothingOf(read('index.html'), rec);
+  assertNothingOf(read('stories/index.html'), rec);
+});
+
+test('a cited post X has no answer for is shown as unavailable, with no link', () => {
+  const pid = story(S).posts[2].id;
+  const r = buildWith({ [pid]: 'missing' });
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(r.stderr.includes(`warning: story ${S} cites post ${pid}, missing on X`), r.stderr);
+  const page = read(`story/${S}/index.html`);
+  assert.match(page, /data-unavailable="missing"[\s\S]*?X has no post with this id now/);
+  assert.ok(!page.includes(`/status/${pid}"`), 'no link to a post that is not there');
+  assertNothingOf(page, fixtureRecords().get(pid));
+});
+
+test('a cited post X has not been asked about yet is shown as unavailable until it is confirmed', () => {
+  const pid = story(S).posts[1].id;
+  const r = buildWith({ [pid]: null });
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(r.stderr.includes(`warning: story ${S} cites post ${pid}, not confirmed by X yet`), r.stderr);
+  assert.match(read(`story/${S}/index.html`), /data-unavailable="unverified"[\s\S]*?has not been confirmed with X yet/);
+  assertNothingOf(read(`story/${S}/index.html`), fixtureRecords().get(pid));
+});
+
+test('a story that loses every post it cites still builds: its words, its worlds\' descriptions, and the notes', () => {
+  const s = story('2026-10-08-cold-plunge-vagus');
+  const r = buildWith(Object.fromEntries(s.posts.map((p) => [p.id, 'withheld'])));
+  assert.equal(r.status, 0, r.stderr);
+  assert.match(r.stderr, /posts not shown because X has not confirmed them/);
+  const page = read(`story/${s.id}/index.html`);
+  assert.equal((page.match(/data-unavailable="withheld"/g) ?? []).length, 4, 'two in the worlds and two in the list of posts');
+  for (const w of s.worlds) assert.ok(page.includes(escHtml(w.sees)));
+  assert.match(page, /<dt class="lab">Posts tracked<\/dt><dd>0<\/dd>/);
+  for (const p of s.posts) assertNothingOf(page, fixtureRecords().get(p.id));
+  assert.ok(read('stories/index.html').includes(`id="s-${s.id}"`), 'it stays on the list of stories');
+});
+
+test('a cited post whose words on X differ from the record still stops the build', () => {
+  const pid = story(S).posts[1].id;
+  const r = buildWith({ [pid]: 'mismatch' });
+  assert.notEqual(r.status, 0);
+  assert.ok(r.stderr.includes(`cites post ${pid}, which X shows differently from the record`), r.stderr);
+});
+
+test('on the pulse, a post X does not confirm is left out with a warning, and a mismatch still stops the build', () => {
+  run('tools/make-demo.mjs');
+  const pulse = JSON.parse(readFileSync(root + 'fixtures/demo/pulse/current.json', 'utf8'));
+  const [gone, keeps] = pulse.items.filter((it) => (it.also ?? []).length).slice(-2);
+  const r = buildWith({ [gone.id]: 'withheld', [keeps.also[0]]: 'missing' });
+  assert.equal(r.status, 0, r.stderr);
+  assert.ok(r.stderr.includes(`warning: pulse item ${gone.id} is withheld by X`), r.stderr);
+  assert.ok(r.stderr.includes(`warning: related post ${keeps.also[0]} of pulse item ${keeps.id} is missing on X`), r.stderr);
+  const data = JSON.parse(read('data/pulse.json')).pulse.map((it) => it.id);
+  assert.ok(!data.includes(gone.id) && data.includes(keeps.id), 'the withheld item is off the pulse, the other stays');
+  assert.ok(!read('index.html').includes(`id="p-${gone.id}"`) && !read(`desk/${gone.desk}/index.html`).includes(`id="p-${gone.id}"`));
+  assert.ok(!read('index.html').includes(`/status/${keeps.also[0]}"`), 'and a related post X has no answer for is dropped');
+  // With no story citing them, so that the stop comes from the pulse itself.
+  const noStories = () => { for (const f of readdirSync(root + 'fixtures/demo/moments')) rmSync(root + 'fixtures/demo/moments/' + f); };
+  const bad = buildWith({ [keeps.also[0]]: 'mismatch' }, noStories);
+  assert.notEqual(bad.status, 0);
+  assert.ok(bad.stderr.includes(`pulse item ${keeps.id} cites post ${keeps.also[0]}, which X shows differently from the record`), bad.stderr);
+  const worse = buildWith({ [gone.id]: 'mismatch' }, noStories);
+  assert.notEqual(worse.status, 0, 'a mismatched pulse item stops the build');
+  assert.ok(worse.stderr.includes(`the pulse cites post ${gone.id}, which X shows differently`), worse.stderr);
+  run('tools/make-demo.mjs');
+});
+
+test('with every post confirmed by the ledger, a flagged post on the pulse still stops the build', () => {
+  const file = root + 'fixtures/demo/pulse/current.json';
+  const r = buildWith({}, () => {
+    const pulse = JSON.parse(readFileSync(file, 'utf8'));
+    const flagged = JSON.parse(readFileSync(root + 'fixtures/demo/FLAGGED_POST', 'utf8'));
+    pulse.items.push({ id: flagged.id, desk: 'life', line: 'This post must never be shown.' });
+    writeFileSync(file, JSON.stringify(pulse));
+  });
+  assert.notEqual(r.status, 0);
+  assert.match(r.stderr, /flagged/);
+  run('tools/make-demo.mjs');
 });
