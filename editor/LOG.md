@@ -4561,3 +4561,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list already held the story's posts. plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: web search returns mostly older items for today's events, which limited this pass. The message that started me had no instructions beyond the contract.
+
+## 2026-11-03T22:20Z
+- Captures read: 2208Z (2104Z was the last logged read). Last read: 2208Z.
+- X's check: 2208Z 90 confirmed, 0 missing, 0 mismatched, 0 withheld. The earlier 2104Z mismatch remains the grabber's record.
+- Pulse: 32 items listed (0 new, 0 dropped; oldest about 34 hours). The build shows 31, holding one TMZ post back. Header moved to 2208Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Binance post with a bare link (no words or description); new election-day politics posts from accounts already placed or smaller than the desk's items; Man United comeback posts (sports desk full, accounts placed).
+- Requests: none; watch list unchanged. plan.json rebuilt for 23Z.
+- Shipped: yes, commit 27bff50f, live audit clean (144 files match).
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
