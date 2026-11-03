@@ -4571,3 +4571,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged. plan.json rebuilt for 23Z.
 - Shipped: yes, commit 27bff50f, live audit clean (144 files match).
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-03T23:15Z
+- Captures read: 2303Z (2208Z was the last logged read). Last read: 2303Z.
+- X's check: 2303Z 126 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 32 items listed (0 new, 0 dropped; oldest about 35 hours, the 12:08Z WarMonitor3 post goes next pass). The build shows 31, holding one TMZ post back. Header moved to 2303Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: new Man United and PSG posts from Fabrizio Romano (account already placed); Kalshi Paxton post (account already placed); poll-worker T-shirt post (speculation about a real person, unconfirmed); China and Israel nuclear post (unchecked claim); Minnesota "I voted" stickers post (names a death and blames ICE agents, unchecked); posts flagged private_individual or old_content.
+- Requests: none; watch list unchanged. plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
