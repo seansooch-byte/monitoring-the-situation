@@ -4741,3 +4741,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: four added, four dropped. plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T19:20Z
+- Captures read: 1906Z (1800Z was the last logged read). Last read: 1906Z.
+- X's check: 1906Z 97 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850), 1200Z 1 mismatch (2117904695465509097) and 2 withheld, 1301Z 1 mismatch (2117862747417567571), 1703Z 2 withheld, 1800Z 1 withheld; the grabber's record.
+- Pulse: 45 items (3 new: unusual_whales on Israel's certified results, remarks relaying CBS on Hegseth, PpollingNumbers exit poll; 3 dropped, among the smallest and uncited: Qualcomm, Kalshi, HYPEX). Header moved to 1906Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ValentinaForUSA (insults about a religion); Tetoberry (mockery); Billionairepolo (private couple); THEOGWHITEMAMBA (religion-linked accusation); GuntherEagleman, EWErickson, LauraLoomer (opinion, covered by existing election items); AdamSchefter Darnold/Lock and FabrizioRomano Romero (account already holds a place); shunnedmorlock (candidate claim, unconfirmed); OccupyDemocrats and HQWhiteRabbit (unconfirmed claims). For the next story pass: Netanyahu results (Times of Israel says the committee approved final results, bloc at 53 seats, short of 61) and the Hegseth report (I found no current CBS piece).
+- Requests: none. Watch list: three added, three dropped. plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

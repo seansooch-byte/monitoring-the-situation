@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T18:40:00Z",
-  "capture": "2026-11-04T1800Z",
+  "updated_at": "2026-11-04T19:15:00Z",
+  "capture": "2026-11-04T1906Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -267,21 +267,21 @@
       "also": []
     },
     {
-      "id": "2118015637889114392",
-      "desk": "markets",
-      "line": "Kalshi, a prediction market, says its favorite won 479 of 487 midterm races so far, or 98 percent, and that markets beat the polls and the models. The post links to a thread. Not checked here.",
+      "id": "2118035798666912030",
+      "desk": "world",
+      "line": "Unusual Whales, an aggregator, says Israel's Central Elections Committee has certified the results of last week's general election and that Netanyahu has lost his majority. The Times of Israel reports that the committee approved the final results; this line does not check the wording of the post.",
       "also": []
     },
     {
-      "id": "2117972701197598803",
-      "desk": "tech",
-      "line": "Qualcomm says SpaceX has selected its Dragonwing cellular infrastructure to support Starlink Mobile's nationwide terrestrial 5G network in the U.S. This is the company's own announcement. Not checked here.",
+      "id": "2118021944415236402",
+      "desk": "politics",
+      "line": "The account remarks says CBS reports that President Trump is considering firing Defense Secretary Pete Hegseth. This is a second-hand relay of the report. Not checked here.",
       "also": []
     },
     {
-      "id": "2117996796920111110",
-      "desk": "gaming",
-      "line": "HYPEX, a gaming news account, says Fortnite OG ends after Season X, and quotes a line that the next era of Fortnite OG arrives in late 2027. The post has a photo and no description. Not checked here.",
+      "id": "2117798981136736676",
+      "desk": "politics",
+      "line": "PpollingNumbers, a polling account, posts an NBC exit poll figure for Jewish voters: 67 percent Democrats, 32 percent Republicans. Not checked here.",
       "also": []
     }
   ]
