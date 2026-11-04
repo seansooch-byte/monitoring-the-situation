@@ -1,42 +1,84 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-04-ossoff-cooper-senate-calls",
-  "title": "Ossoff holds Georgia and Cooper flips North Carolina in early Senate calls",
-  "dek": "Election night is moving fast and the count is far from done. Two early Senate calls favour Democrats, and the posts about them read very differently depending on who is posting.",
-  "desks": ["politics"],
+  "title": "Democrats are projected to win both the House and the Senate",
+  "dek": "What began as two early Senate calls became a projected Democratic sweep of Congress overnight. Posters on each side read the same result differently.",
+  "desks": [
+    "politics"
+  ],
   "standing": "developing",
   "started_at": "2026-11-04T00:18:28Z",
-  "updated_at": "2026-11-04T02:30:00Z",
+  "updated_at": "2026-11-04T11:45:00Z",
   "what": [
-    "Decision Desk HQ, a results service, posted on X at 7:18 p.m. Eastern on Tuesday 3 November that it projects Democratic Senator Jon Ossoff wins the Georgia Senate race. CBS News reports that it also projected Ossoff the winner, over Republican Representative Mike Collins, and that the win keeps a Democratic seat and the party's hopes of a Senate majority alive. The outlets give different times for their calls, and I have not matched them to the minute.",
-    "The Associated Press projects, as reported by Yahoo News, that former governor Roy Cooper won North Carolina's Senate race over Republican Michael Whatley, flipping a seat held by Republicans. NPR and CNBC headline the same two results. The Cooper win is the first Democratic Senate win in North Carolina since 2008, a point also made by the aggregator PopBase in its post.",
-    "CNBC's election desk says the House is leaning Democratic, with at least 205 seats for Democrats and at least 160 for Republicans so far. It calls the Texas Senate race, between Democrat James Talarico and Republican Ken Paxton, \"leaning\" Democratic as of 9 p.m. Eastern, which is not a call. CNBC also notes that North Carolina's count was delayed by extended voting hours, that ballot scanning problems were reported in Westchester County, New York, and that an Alaska race is under a Justice Department investigation with results pending.",
-    "Control of the Senate and the House has not been decided. These are early projections on election night, and counts will change. I could not confirm any final totals."
+    "Decision Desk HQ posted at 7:18 p.m. Eastern on Tuesday 3 November that it projects Democratic Senator Jon Ossoff wins the Georgia Senate race. CBS News reports it also projected Ossoff the winner over Republican Representative Mike Collins. The Associated Press, as reported by Yahoo News, projected that former governor Roy Cooper won North Carolina over Republican Michael Whatley, flipping a Republican seat.",
+    "Later that night CNN projected that Democrats will retake both the House and the Senate. Fox News, CNBC and NBC Washington also report Democratic control of both chambers. NBC Washington lists Senate flips in North Carolina, South Carolina, Texas, Ohio, Kansas and Iowa, and says Democrat Troy Jackson beat Republican Susan Collins in Maine. It says Republicans entered the night ahead, 53 to 47 in the Senate.",
+    "Seat totals differ by outlet and by the hour. CNBC's election desk says Democrats are projected to hold at least 51 Senate seats and at least 245 House seats. Fox News says at least 54 Senate seats. One aggregator post puts it at 53 Senate seats and 220 House seats. I could not find a final count, and NBC Washington says races in Arizona, Nevada and Michigan were still undecided when it reported.",
+    "Fox News reports that Democrat Gina Hinojosa defeated Republican Governor Greg Abbott in Texas, Keisha Lance Bottoms won in Georgia, Amy Acton won in Ohio, and Aaron Ford defeated Governor Joe Lombardo in Nevada. Fox also reports Republican Byron Donalds won in Florida. Posts say Deb Haaland won the New Mexico governor's race. I did not find a news report of that result, so it rests on posts only.",
+    "NBC Washington quotes President Trump as saying: \"I wasn't on the Ballot and if I was, we would have won IN A LANDSLIDE!\""
   ],
-  "why": "The first calls came within minutes of polls closing and landed in a night when both parties' accounts were already posting about turnout and polling place problems. Winning posts are quick to share and easy to read in more than one way.",
+  "why": "Calls came in waves through the night, and each wave landed in feeds already built around one side. Winners share a result fast, and losers explain it fast.",
   "worlds": [
     {
-      "name": "Posters treating the calls as a Democratic wave",
-      "sees": "Georgia held and North Carolina flipped, so the Senate is in play. The post carries the Cooper news itself.",
-      "post": "2117790688012292148"
+      "name": "Democrats and their supporters",
+      "sees": "A projected win of both chambers that gives Democrats power to hold the White House to account for the last two years of Trump's term.",
+      "post": "2117835771113615390"
     },
     {
-      "name": "Posters alarmed by the calls",
-      "sees": "One poster calls the night \"a blue tsunami\" and \"horrifying\", although votes are still being counted.",
-      "post": "2117783217290068277"
+      "name": "Republicans looking for a cause",
+      "sees": "A loss with a fixable reason: they blame the Senate's handling of the SAVE America Act and its leader, John Thune.",
+      "post": "2117821691250294999"
     }
   ],
-  "common": "Established: Decision Desk HQ, CBS News and the Associated Press (as reported by Yahoo News) project Ossoff the winner in Georgia and Cooper the winner in North Carolina. Not established: who controls the Senate or the House, the Texas result, and any final margin. The \"blue tsunami\" post is one poster's judgement about a night that was not over when it was written; no outlet cited here says the outcome is settled.",
-  "next": "Remaining Senate calls, the Texas result, and the House count as later results arrive.",
+  "common": "Established: CNN, Fox News, CNBC and NBC Washington report Democratic control of both the House and the Senate, and Decision Desk HQ, CBS News and the Associated Press had called Georgia and North Carolina earlier. Not established: final seat counts, which differ by outlet, the undecided races NBC Washington names, and the New Mexico result outside posts. Why Republicans lost is not on the record here. The SAVE America Act claim is a poster's explanation, not a finding.",
+  "next": "Final seat counts, the undecided races in Arizona, Nevada and Michigan, and certified results.",
   "posts": [
-    { "id": "2117773436718137533", "role": "origin" },
-    { "id": "2117790688012292148", "role": "voice" },
-    { "id": "2117783217290068277", "role": "voice" }
+    {
+      "id": "2117773436718137533",
+      "role": "origin"
+    },
+    {
+      "id": "2117838428813283455",
+      "role": "official"
+    },
+    {
+      "id": "2117835771113615390",
+      "role": "voice"
+    },
+    {
+      "id": "2117821691250294999",
+      "role": "voice"
+    },
+    {
+      "id": "2117833460324933829",
+      "role": "voice"
+    }
   ],
   "sources": [
-    { "label": "CBS News: Jon Ossoff wins Georgia 2026 Senate election", "url": "https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/" },
-    { "label": "CNBC: Midterm elections 2026 live updates", "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html" },
-    { "label": "Yahoo News: Midterms 2026 election results and live updates", "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html" },
-    { "label": "NPR: As polls close, Democrats win Senate seats in Ga. and N.C.", "url": "https://www.npr.org/2026/11/03/nx-s1-5992757/election-day-live-updates-key-races" }
+    {
+      "label": "Fox News: Election Day results 11-3-2026",
+      "url": "https://www.foxnews.com/live-news/election-day-results-11-3-2026"
+    },
+    {
+      "label": "CNBC: Midterm elections 2026 live updates",
+      "url": "https://www.cnbc.com/2026/11/03/midterm-elections-2026-live-updates.html"
+    },
+    {
+      "label": "NBC Washington: Democrats win control of House, Senate in midterms",
+      "url": "https://www.nbcwashington.com/elections/election-day-2026-midterms-congress-results-live-updates/4175504/"
+    },
+    {
+      "label": "CBS News: Jon Ossoff wins Georgia 2026 Senate election",
+      "url": "https://www.cbsnews.com/news/georgia-2026-senate-ossoff-collins/"
+    },
+    {
+      "label": "Yahoo News: Midterms 2026 election results and live updates",
+      "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-11-04T11:45:00Z",
+      "text": "Rewritten as results came in. The story first covered only the Georgia and North Carolina Senate calls and now covers the projected Democratic win of both chambers. The earlier \"blue tsunami\" post and the Texas \"leaning\" note were removed."
+    }
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-04-save-act-thune-blame",
+  "title": "Republicans blame the Senate leader and the SAVE America Act for election losses",
+  "dek": "As Democrats are projected to win Congress, Republican posters are pointing at one unpassed bill and one senator. The record shows the bill did not pass. It does not show that this decided any race.",
+  "desks": ["politics"],
+  "standing": "developing",
+  "started_at": "2026-11-04T03:30:13Z",
+  "updated_at": "2026-11-04T11:45:00Z",
+  "what": [
+    "Overnight, posts from Republican-leaning accounts say the party lost because the Senate did not pass the SAVE America Act. Representative Nancy Mace posted that Republicans have Senate leader John Thune to thank for not passing the act and for not securing elections earlier. Others call on Thune to end the filibuster.",
+    "The act would require voter ID and proof of citizenship for federal elections. Fox News reported in March that Thune said the Senate did not have the votes to end the filibuster or to hold a talking filibuster. Democracy Docket reports that on 4 June the Senate rejected, 48 to 50, an amendment by Senator Lindsey Graham to attach it to a budget package, with Republicans Susan Collins, Lisa Murkowski, Mitch McConnell and Thom Tillis voting with all Democrats.",
+    "So the act has not become law. I found no polling or analysis showing it changed any result. CNN, Fox News and others project that Democrats won both chambers."
+  ],
+  "why": "A big loss invites a single explanation, and an unfinished promise to the party base is an easy one. The same posts also work as an attack on the Senate leader from inside the party.",
+  "common": "Established: the SAVE America Act has not passed the Senate, and Thune said in March the votes were not there for a filibuster change. Not established: that its failure caused any loss. That is the posters' view, and no source cited here tests it.",
+  "next": "Whether Thune or Senate Republicans respond, and whether the new Congress takes up the act.",
+  "posts": [
+    { "id": "2117821691250294999", "role": "origin" },
+    { "id": "2117862847443317166", "role": "voice" },
+    { "id": "2117854266404774064", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Fox News: Senate GOP eyes blame game as Trump-backed SAVE Act heads to defeat", "url": "https://www.foxnews.com/politics/senate-gop-eyes-blame-game-trump-backed-save-act-heads-defeat" },
+    { "label": "Democracy Docket: Senate rejects another GOP push to revive SAVE America Act", "url": "https://www.democracydocket.com/news-alerts/senate-rejects-another-gop-push-to-revive-save-america-act/" },
+    { "label": "Fox News: Election Day results 11-3-2026", "url": "https://www.foxnews.com/live-news/election-day-results-11-3-2026" }
+  ]
+}

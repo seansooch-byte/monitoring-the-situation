@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T10:30:00Z",
-  "capture": "2026-11-04T1006Z",
+  "updated_at": "2026-11-04T11:45:00Z",
+  "capture": "2026-11-04T1106Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -94,12 +94,6 @@
       "also": []
     },
     {
-      "id": "2117389862194303150",
-      "desk": "science",
-      "line": "Polymarket says scientists have found what appear to be fossilized red blood cells in the bones of a 115-million-year-old dinosaur. The post gives no source. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117461232324358615",
       "desk": "internet",
       "line": "yoxic says Kai Cenat showed his TikTok revenue after a 30-minute stream, in a 37-second video. Not checked here.",
@@ -177,12 +171,6 @@
       "id": "2117836993451147546",
       "desk": "gaming",
       "line": "IGN reports that Dead by Daylight developer Behavior Interactive has apologized again and removed free items from a streamer's account, after a community staff member allegedly gifted the streamer every in-game item. The allegation is IGN's and has not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2117403878752715224",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts the first trailer for \"One Last Order\", a documentary it describes as following a drive-thru worker on her last day after 34 years. It says the film comes to Netflix on November 24.",
       "also": []
     },
     {
@@ -286,6 +274,11 @@
       "desk": "politics",
       "line": "State Rep. Angie Nixon posts a message to supporters in Florida, saying the result was not the one she fought for, that the movement will continue, and that she is not going anywhere. The post does not name the race. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2117833460324933829",
+      "desk": "politics",
+      "line": "Pop Crave, an entertainment and news aggregator, says Democrat Deb Haaland has won the New Mexico governor race and will be the first Native American woman to be a governor. Not checked here."
     }
   ]
 }

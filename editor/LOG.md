@@ -4661,3 +4661,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list swapped the West Ham post for the two Tenerife posts. plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T11:45Z
+- Captures read: 1106Z (1006Z was the last logged read). Last read: 1106Z.
+- X's check: 1106Z 51 confirmed, 0 missing, 0 mismatched, 0 withheld. 1006Z still shows its 1 mismatch (2117897561835294850, ygtreasuremaker) and 0200Z its 1 missing (2117795421527707909, TheStalwart); both the grabber's record.
+- Pulse: 44 items listed (1 new: Pop Crave on Haaland in New Mexico, attributed and marked not checked; 2 dropped as older than 36 hours: Polymarket, DiscussingFilm). The build shows 43, holding one TMZ post back. Header moved to 1106Z.
+- Added: 2026-11-04-save-act-thune-blame (politics). Updated: 2026-11-04-ossoff-cooper-senate-calls (rewritten to the projected Democratic win of both chambers, with governors; correction added; title changed, id kept).
+- Left out: mark_slapinski claim about Trump (serious unconfirmed allegation about a real person); Netanyahu "Texas" post (point unclear); Fishburne post (sexual, private person); MarioNawfal, TheBabylonBee, MattBinder and other opinion or insult posts; Mississippi and Maine Senate races (posts only, sources partial). Governors folded into the Congress story.
+- Requests: none. Watch list refreshed. plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: web search was thin for this night. Seat counts differ by outlet (51, 53, 54) and I could not open CNN, Variety or Forbes (403 or paywall). A later pass should confirm final counts and the New Mexico result. The message that started me had no instructions beyond the contract.
