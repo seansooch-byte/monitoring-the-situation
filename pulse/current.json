@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T06:45:00Z",
-  "capture": "2026-11-04T0605Z",
+  "updated_at": "2026-11-04T07:30:00Z",
+  "capture": "2026-11-04T0701Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -35,12 +35,6 @@
       "id": "2117363299301908793",
       "desk": "politics",
       "line": "Barack Obama says people across the country are tired of what they see from politicians and that on Election Day voters have the power to vote for candidates who will bring change.",
-      "also": []
-    },
-    {
-      "id": "2117325892632621244",
-      "desk": "politics",
-      "line": "Kalshi, a prediction market, says James Talarico has reached a record high in the Texas Senate race, with a 76% chance of winning, one day before the election. The figure is the market's, not a poll.",
       "also": []
     },
     {
@@ -247,6 +241,30 @@
       "id": "2117835771113615390",
       "desk": "politics",
       "line": "Senator Bernie Sanders says Democrats will now control the House and Senate and be able to hold Trump accountable, and that \"we must aggressively fight for working families.\" The count of seats is his statement and has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2117861644160417985",
+      "desk": "politics",
+      "line": "The account nicksortor says it looks like Republicans will likely lose a U.S. Senate seat in Mississippi, with over 95% of votes reporting, and that the race is not over. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117607637072179243",
+      "desk": "politics",
+      "line": "The account infolibnews posts a video it says shows Mark Levin insisting he should not be blamed if Republicans lose the midterms and that the Iran war is not the reason. The capture has no description of the video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117846996228727005",
+      "desk": "sports",
+      "line": "The account FOS says former NFL sideline reporter Michele Tafoya lost her first political race, running as a Republican in Minnesota, and that several NFL team owners backed her. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117790110716404052",
+      "desk": "music",
+      "line": "The account kchartsmaster says JISOO will release an original song for 'The Angry Birds Movie 3'. The post links to a Hollywood Reporter article headed the same way; that has not been checked here.",
       "also": []
     }
   ]

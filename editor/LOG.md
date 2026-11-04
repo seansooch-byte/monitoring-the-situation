@@ -4621,3 +4621,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list dropped the 5 aged posts and gained the 4 new ones. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T07:30Z
+- Captures read: 0701Z (0605Z was the last logged read). Last read: 0701Z.
+- X's check: 0701Z 68 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0200Z run still shows its 1 missing (2117795421527707909, TheStalwart, the grabber's record).
+- Pulse: 42 items listed (4 new: nicksortor Mississippi Senate, infolibnews Levin clip, FOS Tafoya, kchartsmaster JISOO; 1 dropped as older than 36 hours: Kalshi Talarico). The build shows 41, holding one TMZ post back. Header moved to 0701Z. Music has one item again.
+- Added: none. Updated: none (pulse pass).
+- Left out: LauraLoomer "learning Arabic" and JoeyMannarino "ENJOY ISLAM" (aimed at a religion, no context); Haydenfreedom Melbourne/Texas claim and FearedBuck "Democrats won both chambers" (unconfirmed); alx on a Galloway remark about Musk (a violent charge about a real person, unchecked); KamalaHarris bare link; bohojham and Theiconiqueant Nicki Minaj posts (insults); Hasan Piker nudes post (sexual); yabaleftonline Peller clip (private people); WallStreetApes old_content post; more PopBase, Kalshi and Fabrizio Romano posts (accounts placed).
+- Requests: none; watch list dropped the Kalshi post and gained the 4 new ones. plan.json rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: the Mississippi Senate race was within 28 votes at 0701Z; a story pass could research it. The message that started me had no instructions beyond the contract.
