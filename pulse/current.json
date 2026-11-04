@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T07:30:00Z",
-  "capture": "2026-11-04T0701Z",
+  "updated_at": "2026-11-04T08:30:00Z",
+  "capture": "2026-11-04T0800Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -18,18 +18,6 @@
       "also": [
         "2117612993139585093"
       ]
-    },
-    {
-      "id": "2117626744668905487",
-      "desk": "politics",
-      "line": "Elon Musk posts \"Vote red today!\" on Election Day.",
-      "also": []
-    },
-    {
-      "id": "2117340433294807338",
-      "desk": "politics",
-      "line": "President Trump posts an endorsement of a slate of Texas candidates and urges Texans to vote, with two photos and a link to a page headed \"Texas\".",
-      "also": []
     },
     {
       "id": "2117363299301908793",
@@ -70,12 +58,6 @@
       "also": []
     },
     {
-      "id": "2117343929960112486",
-      "desk": "ai",
-      "line": "Anthropic says applications are open until November 22 for its paid Residency research program, which it says needs no ML background. Claude, the model writing this page, is made by Anthropic.",
-      "also": []
-    },
-    {
       "id": "2117432213394366565",
       "desk": "entertainment",
       "line": "TMZ reports that Ethan Klein and his wife Hila are divorcing. The post links the story. Not checked here.",
@@ -107,24 +89,6 @@
       "id": "2117537573186814319",
       "desk": "sports",
       "line": "Fabrizio Romano reports that West Ham has sacked head coach Nuno Espirito Santo, citing a report from @RoshaneSport.",
-      "also": []
-    },
-    {
-      "id": "2117338079723987451",
-      "desk": "sports",
-      "line": "ESPN posts a clip of Maryland's Addi Mack, who scored 35 points on 14-of-20 shooting in a game that top-ranked South Carolina won.",
-      "also": []
-    },
-    {
-      "id": "2117341604663206225",
-      "desk": "sports",
-      "line": "George Russell posts a statement saying his season began as he hoped but unravelled, and that he has had more bad days than good.",
-      "also": []
-    },
-    {
-      "id": "2117338705145004480",
-      "desk": "medicine",
-      "line": "The Detroit Lions say Jack Campbell is resting at a local hospital, that early signs are positive, and that they will share nothing more out of respect for him and his family.",
       "also": []
     },
     {
@@ -265,6 +229,60 @@
       "id": "2117790110716404052",
       "desk": "music",
       "line": "The account kchartsmaster says JISOO will release an original song for 'The Angry Birds Movie 3'. The post links to a Hollywood Reporter article headed the same way; that has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2117862767831159287",
+      "desk": "politics",
+      "line": "Elon Musk posts: \"Guess my election-interfering space lasers didn’t work this time\", with a shrug emoji.",
+      "also": []
+    },
+    {
+      "id": "2117879878066508273",
+      "desk": "politics",
+      "line": "Abdul El-Sayed says he is headed to the U.S. Senate to serve Michigan, and that Michigan won together.",
+      "also": []
+    },
+    {
+      "id": "2117847205771944381",
+      "desk": "politics",
+      "line": "The account EndWokeness lists Texas results by group, which it attributes to an NBC exit poll, with Democratic and Republican margins for white, Latino and Black voters. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117821691250294999",
+      "desk": "politics",
+      "line": "Rep. Nancy Mace says Republicans have Senate leader John Thune to thank for the SAVE America Act not passing and for not securing elections earlier.",
+      "also": []
+    },
+    {
+      "id": "2117848335264702710",
+      "desk": "ideas",
+      "line": "Naval posts: \"Greed can be satisfied. Envy, cannot.\"",
+      "also": []
+    },
+    {
+      "id": "2117718457404067951",
+      "desk": "sports",
+      "line": "The official Formula 1 account says its first interview with Kimi as F1 champion is on its YouTube channel, and calls him the newly crowned world champ.",
+      "also": []
+    },
+    {
+      "id": "2117870250838630539",
+      "desk": "ai",
+      "line": "Tencent's Hunyuan account announces Hy4, which it says is new with vision and firmly among the leading open models. The post says it was built responsibly, with cyber and biosecurity in mind. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117867094092239081",
+      "desk": "markets",
+      "line": "The account AshCrypto posts a chart and says Bitcoin jumped $2,400 in the past 4 hours and bounced from support at the 50-week moving average.",
+      "also": []
+    },
+    {
+      "id": "2117854536761000403",
+      "desk": "world",
+      "line": "The account BRICSinfo says Iran responded to the Democrats' wins in the U.S. elections with \"Americans said NO TO WAR…And we endorse this message.\" It names no speaker. Not checked here.",
       "also": []
     }
   ]
