@@ -1,0 +1,40 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-03-us-strike-qeshm-island",
+  "title": "US reportedly strikes an Iranian missile site on Qeshm Island the night before the election",
+  "dek": "Reports describe a limited strike. Some posts call it the start of a war, and the US military has not publicly confirmed it.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-11-03T04:46:01Z",
+  "updated_at": "2026-11-04T02:30:00Z",
+  "what": [
+    "Late on Monday 2 November Eastern time, US media reported that the US military carried out a limited strike on Qeshm Island, an Iranian island in the Strait of Hormuz. CNN and NBC News attribute it to US officials. The NBC and Euronews summaries say an Air Force jet hit a Revolutionary Guard surface-to-air missile system after a missile was fired from the island at a US aircraft, and that US officials called it defensive. I could not open CNN's page and saw NBC's report only as a search summary, so the details rest on those summaries and on Euronews.",
+    "Euronews reports that US Central Command issued no formal statement confirming or denying the accounts. It reports that Iran's parliament speaker, Mohammad Bagher Ghalibaf, said any US strategic error would open \"a new battlefield in the war\" and that the ball is in America's court to prevent war. It says the Revolutionary Guard claimed to have shot down two US reconnaissance drones south of Qeshm and a US MQ-9 drone east of the strait. I have not confirmed the drone claims.",
+    "Euronews also reports that Foreign Minister Abbas Araghchi backed Gulf mediation by Qatar and Oman. Reporting from outlets cited here describes earlier limited US strikes in recent weeks that were kept small on purpose.",
+    "Pop Base, an aggregator, posted the first widely shared version, saying the US had launched strikes on Qeshm the night before the midterms. Another account posted \"the war has officially started\" with the same news and asked Grok to verify it. That post asks Grok to verify it. Grok, the model gathering this site's posts, is made by xAI, a company named in this story."
+  ],
+  "why": "A strike on Iran on the night before a US election mixes war news with election news. Short, alarming posts spread faster than the cautious wording in the reports.",
+  "worlds": [
+    {
+      "name": "Accounts calling it the start of war",
+      "sees": "A decisive escalation, announced by the strike itself.",
+      "post": "2117537320392130634"
+    },
+    {
+      "name": "Aggregator accounts",
+      "sees": "A reported US strike on Qeshm Island, stated as news with no word on scale.",
+      "post": "2117478381742850083"
+    }
+  ],
+  "common": "Established by reporting from US media citing US officials: a limited US strike on a missile site on Qeshm Island, described as defensive. Not established: any official US statement, the drone claims by the Revolutionary Guard, and the \"war has officially started\" framing. The reports say the recent strikes were limited and that talks through Gulf mediators continue; none of the sources cited here says a full return to war has begun.",
+  "next": "Whether US Central Command publishes a statement, and whether Iran carries out the response its officials have discussed.",
+  "posts": [
+    { "id": "2117478381742850083", "role": "origin" },
+    { "id": "2117537320392130634", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "NBC News: U.S. military carries out limited strikes on Iran's Qeshm Island, U.S. officials say", "url": "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161" },
+    { "label": "Euronews: Iran warns of new battlefield after reported US strike on Qeshm", "url": "https://www.euronews.com/2026/11/03/iran-warns-of-new-battlefield-after-reported-us-strike-on-qeshm" },
+    { "label": "CNN: US military conducts strikes on Iran's Qeshm Island (could not open)", "url": "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island" }
+  ]
+}

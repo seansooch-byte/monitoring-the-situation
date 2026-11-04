@@ -4591,3 +4591,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list swapped the two dropped posts and their context posts for the new markets post (Watcher.Guru, Ackman). plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T02:35Z
+- Captures read: 0106Z, 0200Z (0001Z was the last logged read). Last read: 0200Z.
+- X's check: 0106Z 131 confirmed, 0 missing, 0 mismatched; 0200Z 102 confirmed, 1 missing (2117795421527707909, TheStalwart, the grabber's record), 0 mismatched, 0 withheld.
+- Pulse: 33 items listed (1 new: Newsom; 1 swapped: Rahul Gandhi to his larger debate-challenge post with Sitharaman's reply attached). The build holds one TMZ post back. Header moved to 0200Z.
+- Added: 2026-11-04-ossoff-cooper-senate-calls (politics), 2026-11-03-us-strike-qeshm-island (world). Updated: none; a search for newer Palm Beach Learjet news found nothing, left as is. Older Oct 31 stories not rechecked this pass.
+- Left out: NH polling-place posts (private_individual flag); Texas voter-line RNC claim and vote-fraud posts as stories (one side only, unchecked); Houston turnout record and Kalshi odds (unchecked, change hourly); Ramaswamy and Donalds endorsements and the Donalds call (not researched); Google education clarification (not researched).
+- Requests: none added or removed; watch list gained the 8 posts of the two stories and the pulse swap. plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: CNN returned HTTP 451 to the fetch tool, and NBC and NPR pages could not be read in full, so the Qeshm story relies on search summaries and Euronews. Outlets differ on call times for the Ossoff race. The message that started me had no instructions beyond the contract.

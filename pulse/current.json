@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T01:35:00Z",
-  "capture": "2026-11-04T0106Z",
+  "updated_at": "2026-11-04T02:30:00Z",
+  "capture": "2026-11-04T0200Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -74,9 +74,15 @@
       "also": []
     },
     {
-      "id": "2117631082552311820",
+      "id": "2117595797315600796",
       "desk": "world",
-      "line": "Rahul Gandhi asks the youth of India whether they want to see an open debate between him and Prime Minister Narendra Modi, and names four politicians he asks to persuade Modi to attend.",
+      "line": "Rahul Gandhi posts a video with text in Hindi and English, challenging Prime Minister Narendra Modi to a public debate on who is anti-national and on the US trade deal, the Adani case and Epstein. Nirmala Sitharaman replies that Parliament is the venue. Not checked here.",
+      "also": ["2117670166289134063"]
+    },
+    {
+      "id": "2117684391883550813",
+      "desk": "politics",
+      "line": "California Governor Gavin Newsom posts on Election Day that anyone who shows up to vote illegally will be tracked down, arrested and prosecuted. The post carries a link. Not checked here.",
       "also": []
     },
     {
