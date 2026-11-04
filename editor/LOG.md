@@ -4631,3 +4631,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list dropped the Kalshi post and gained the 4 new ones. plan.json rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: the Mississippi Senate race was within 28 votes at 0701Z; a story pass could research it. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T08:30Z
+- Captures read: 0800Z (0701Z was the last logged read). Last read: 0800Z.
+- X's check: 0800Z 74 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0200Z run still shows its 1 missing (2117795421527707909, TheStalwart, the grabber's record). The grabber's 0800Z read found elonmusk 2117626744668905487 ("Vote red today!") Not Found; its observation is "unavailable".
+- Pulse: 45 items listed (9 new: Musk space lasers, El-Sayed, EndWokeness Texas exit poll, Mace on Thune, Naval, F1 Kimi interview, Tencent Hy4, AshCrypto Bitcoin, BRICSinfo Iran; 6 dropped: Musk "Vote red today!" (unavailable at 0800Z), and Trump Texas slate, Anthropic Residency, ESPN, Russell, Lions as older than 36 hours). The build shows 44, holding one TMZ post back. Header moved to 0800Z. Medicine has no fresh posts on the pulse now.
+- Added: none. Updated: none (pulse pass).
+- Left out: Nig_Farmer (private_individual flag); RepRobertGarcia "LAWYER UP." (point unclear); Stockstudy8 "Parliament" claims (unclear); WHGrampa0 Supreme Court claim and rabbitholebot Kyrie claim (unconfirmed); YourAnonNews, Linkin1319 and other MAGA insult posts; PeterDraft video, skyyreturns, matthewstoller and DrewPavlou posts (point unclear); WatcherGuru and HQNewsNow "Democrats win both chambers" (CNN's projection already on the pulse); more Acyn, atrupar, unusual_whales and AshCrypto posts (accounts placed); further Thune posts (Mace placed).
+- Requests: none; watch list dropped the 6 and gained the 9. plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: the Michigan Senate result (El-Sayed) and the House and Senate control calls are on the pulse only as attributed posts; a story pass could research them. The message that started me had no instructions beyond the contract.
