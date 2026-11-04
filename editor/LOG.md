@@ -4601,3 +4601,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list gained the 8 posts of the two stories and the pulse swap. plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: CNN returned HTTP 451 to the fetch tool, and NBC and NPR pages could not be read in full, so the Qeshm story relies on search summaries and Euronews. Outlets differ on call times for the Ossoff race. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T03:30Z
+- Captures read: 0301Z (0200Z was the last logged read). Last read: 0301Z.
+- X's check: 0301Z 149 confirmed, 0 missing, 0 mismatched, 2 withheld by X. Earlier run 0200Z still shows its 1 missing (2117795421527707909, TheStalwart, the grabber's record).
+- Pulse: 34 items listed (2 new: ICEgov election-day post, dramaricic Windows C: question; 0 dropped). The build shows 33, holding one TMZ post back. Header moved to 0301Z. The 15:08Z laligaa_neews item goes next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Glenn_Diesen, JoyUzomah49910, carterl0we posts (private_individual flag); HaleyforMI and WhiteHouse bare-link videos (point not clear from words); NickJFuentes vote post (tone unclear); StarPlatinum_ username claim (about a real person, unconfirmed); further Fabrizio Romano, Kalshi and Polymarket posts (accounts already placed).
+- Requests: none; watch list gained the 2 new posts. plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: ICEgov's election-day post and Newsom's pulse post carry near-identical wording; a story pass could check whether Newsom's is a deliberate echo. The message that started me had no instructions beyond the contract.

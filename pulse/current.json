@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T02:30:00Z",
-  "capture": "2026-11-04T0200Z",
+  "updated_at": "2026-11-04T03:25:00Z",
+  "capture": "2026-11-04T0301Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -77,7 +77,9 @@
       "id": "2117595797315600796",
       "desk": "world",
       "line": "Rahul Gandhi posts a video with text in Hindi and English, challenging Prime Minister Narendra Modi to a public debate on who is anti-national and on the US trade deal, the Adani case and Epstein. Nirmala Sitharaman replies that Parliament is the venue. Not checked here.",
-      "also": ["2117670166289134063"]
+      "also": [
+        "2117670166289134063"
+      ]
     },
     {
       "id": "2117684391883550813",
@@ -203,6 +205,18 @@
       "id": "2117778418477732190",
       "desk": "sports",
       "line": "Adam Schefter reports, citing sources, that former Super Bowl champion quarterback Russell Wilson interviewed today for the head coaching job at North Carolina State, where he played three seasons. Schefter adds that Philip Rivers is also a prominent candidate. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117658716833194202",
+      "desk": "politics",
+      "line": "The U.S. Immigration and Customs Enforcement account posts on Election Day that anyone who votes illegally will be found, arrested and prosecuted, and that there will be no escape. The post makes the statement and gives no case. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117593116152943066",
+      "desk": "tech",
+      "line": "Dragan Maricic asks why the main Windows drive is called C: and what happened to A: and B:, calling it a dumb tech question. The post gives no answer.",
       "also": []
     }
   ]
