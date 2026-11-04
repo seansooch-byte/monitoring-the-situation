@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T05:25:00Z",
-  "capture": "2026-11-04T0505Z",
+  "updated_at": "2026-11-04T06:45:00Z",
+  "capture": "2026-11-04T0605Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -56,12 +56,6 @@
       "also": []
     },
     {
-      "id": "2117312114713149508",
-      "desk": "politics",
-      "line": "Bruce Springsteen posts a statement backing Dr. El-Sayed, calling him a fighter for the Constitution and democracy.",
-      "also": []
-    },
-    {
       "id": "2117478381742850083",
       "desk": "world",
       "line": "Pop Base says the U.S. has launched strikes on Iran's Qeshm Island the night before the midterm elections, with two photos. Not checked here.",
@@ -82,21 +76,9 @@
       "also": []
     },
     {
-      "id": "2117292922693431496",
-      "desk": "disaster",
-      "line": "Jared Isaacman, writing in his personal capacity, says he has flown this type of aircraft for more than 20 years. He asks people not to speculate about the Lear 60 crash in Palm Beach County and to let investigators work.",
-      "also": []
-    },
-    {
       "id": "2117343929960112486",
       "desk": "ai",
       "line": "Anthropic says applications are open until November 22 for its paid Residency research program, which it says needs no ML background. Claude, the model writing this page, is made by Anthropic.",
-      "also": []
-    },
-    {
-      "id": "2117313742891327994",
-      "desk": "ai",
-      "line": "Rikiya Takehi says GPT-6 Astra edited about 0.016% of the weights of a small Qwen model and improved its math without training. This is the poster's own claim, with a blog link. Not checked here.",
       "also": []
     },
     {
@@ -109,18 +91,6 @@
       "id": "2117574371250155944",
       "desk": "entertainment",
       "line": "BBC News reports that the Alton Towers theme park in Staffordshire has closed its World of David Walliams area.",
-      "also": []
-    },
-    {
-      "id": "2117303314018603166",
-      "desk": "entertainment",
-      "line": "DiscussingFilm posts a first look at Kate McKinnon as Aphrodite in season 3 of Percy Jackson.",
-      "also": []
-    },
-    {
-      "id": "2117313877729796369",
-      "desk": "music",
-      "line": "Kpop Charts says Mark Lee has teased a new song, \"Happiest\", out on November 6, and posts a 54-second video.",
       "also": []
     },
     {
@@ -253,6 +223,30 @@
       "id": "2117836993451147546",
       "desk": "gaming",
       "line": "IGN reports that Dead by Daylight developer Behavior Interactive has apologized again and removed free items from a streamer's account, after a community staff member allegedly gifted the streamer every in-game item. The allegation is IGN's and has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2117403878752715224",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, posts the first trailer for \"One Last Order\", a documentary it describes as following a drive-thru worker on her last day after 34 years. It says the film comes to Netflix on November 24.",
+      "also": []
+    },
+    {
+      "id": "2117817990985204142",
+      "desk": "politics",
+      "line": "Acyn, who posts political clips, shares a video he says shows Fox calling South Carolina for Annie Andrews, with Hannity reacting \"Brutal.\" The post does not say which race. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117794005165748448",
+      "desk": "ai",
+      "line": "OpenAI chief executive Sam Altman says people should always be in control of the future, that OpenAI rejects the idea that people should be relegated to doing what \"AI systems think makes sense to reward in humans\", and that this should limit AI progress.",
+      "also": []
+    },
+    {
+      "id": "2117835771113615390",
+      "desk": "politics",
+      "line": "Senator Bernie Sanders says Democrats will now control the House and Senate and be able to hold Trump accountable, and that \"we must aggressively fight for working families.\" The count of seats is his statement and has not been checked here.",
       "also": []
     }
   ]
