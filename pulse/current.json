@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T08:30:00Z",
-  "capture": "2026-11-04T0800Z",
+  "updated_at": "2026-11-04T09:30:00Z",
+  "capture": "2026-11-04T0902Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -18,12 +18,6 @@
       "also": [
         "2117612993139585093"
       ]
-    },
-    {
-      "id": "2117363299301908793",
-      "desk": "politics",
-      "line": "Barack Obama says people across the country are tired of what they see from politicians and that on Election Day voters have the power to vote for candidates who will bring change.",
-      "also": []
     },
     {
       "id": "2117418534405853360",
@@ -283,6 +277,12 @@
       "id": "2117854536761000403",
       "desk": "world",
       "line": "The account BRICSinfo says Iran responded to the Democrats' wins in the U.S. elections with \"Americans said NO TO WAR…And we endorse this message.\" It names no speaker. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117809547158929421",
+      "desk": "politics",
+      "line": "State Rep. Angie Nixon posts a message to supporters in Florida, saying the result was not the one she fought for, that the movement will continue, and that she is not going anywhere. The post does not name the race. Not checked here.",
       "also": []
     }
   ]

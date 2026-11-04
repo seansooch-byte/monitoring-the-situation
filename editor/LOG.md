@@ -4641,3 +4641,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list dropped the 6 and gained the 9. plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: the Michigan Senate result (El-Sayed) and the House and Senate control calls are on the pulse only as attributed posts; a story pass could research them. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T09:30Z
+- Captures read: 0902Z (0800Z was the last logged read). Last read: 0902Z.
+- X's check: 0902Z 44 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0200Z run still shows its 1 missing (2117795421527707909, TheStalwart, the grabber's record).
+- Pulse: 45 items listed (1 new: State Rep. Angie Nixon's Florida message; 1 dropped as older than 36 hours: Barack Obama). The build shows 44, holding one TMZ post back. Header moved to 0902Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: NFL route clip (old_content, 228 hours old); amjadt25 Dearborn poll worker post (private_individual flag, unconfirmed fraud claim); skyyreturns meme and femme4you2 film-ending post (point not clear); joekent16jan19 Israel aid claim and alifarhat79 Iran post (opinion or unconfirmed); choga_don actress clip (private person, unconfirmed); MIK3MCDANIEL, JoJoFromJerz and other Florida insult posts; MarioNawfal and PopBase election posts (accounts placed or repeating placed results); RightPulseNewss McCarran-Walter claim (unconfirmed); Hasan/Asmongold and Peller posts (private people or pile-on).
+- Requests: none; watch list dropped the aged post and gained the new one. plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
