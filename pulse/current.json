@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T20:20:00Z",
-  "capture": "2026-11-04T1959Z",
+  "updated_at": "2026-11-04T21:35:00Z",
+  "capture": "2026-11-04T2106Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -136,12 +136,6 @@
       "also": []
     },
     {
-      "id": "2117861644160417985",
-      "desk": "politics",
-      "line": "The account nicksortor says it looks like Republicans will likely lose a U.S. Senate seat in Mississippi, with over 95% of votes reporting, and that the race is not over. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117862767831159287",
       "desk": "politics",
       "line": "Elon Musk posts: \"Guess my election-interfering space lasers didn’t work this time\", with a shrug emoji.",
@@ -204,12 +198,6 @@
       "id": "2117855712722264198",
       "desk": "politics",
       "line": "Barack Obama posts a statement on the election results. He says voters want a politics that brings people together, thanks election officials and volunteers from both parties, and says the job now is to make changes where Democrats have the power and to prevent further damage.",
-      "also": []
-    },
-    {
-      "id": "2117807109693751588",
-      "desk": "politics",
-      "line": "NewsNation reporter Kellie Meyer posts what she says an unnamed White House official told her: the mood inside is \"defiant\", Trump was not on the ballot, and he will keep up his fight against the \"Radical Left\". The official is not identified. Not checked here.",
       "also": []
     },
     {
@@ -283,6 +271,16 @@
       "desk": "medicine",
       "line": "Dick Vitale says his oncologist gave him \"super news\": his monthly bloodwork reports came back well. The post does not name the cancer or the treatment.",
       "also": []
+    },
+    {
+      "id": "2118065507630772363",
+      "desk": "sports",
+      "line": "Liverpool's official account says the club suffered its first Champions League defeat of the season. The attached photo is captioned as a full-time score of Fenerbahce 3, Liverpool 2."
+    },
+    {
+      "id": "2117919394995003718",
+      "desk": "politics",
+      "line": "Historian and journalist Anne Applebaum writes that she wishes Elon Musk's $500 million had been spent on education, healthcare or the arts. The figure is hers and is not checked here."
     }
   ]
 }

@@ -4761,3 +4761,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: one added, one dropped. plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T21:40Z
+- Captures read: 2106Z (1959Z was the last logged read). Last read: 2106Z.
+- X's check: 2106Z 104 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged; the grabber's record.
+- Pulse: 45 items (2 new: Liverpool's first Champions League defeat, sports; Anne Applebaum on Musk's $500 million, politics; 2 dropped, among the smallest: nicksortor, Kellie Meyer). Header moved to 2106Z.
+- Added: none. Updated: 2026-11-04-ossoff-cooper-senate-calls (Fox now 54 Senate, about 228 House projected; only Alaska uncalled; correction added).
+- Left out: US Treasury sanctions post (Treasury release sb0681 confirms the action, but the post names a private foreign individual and his spouse; could be told without the post); Brissett to the Ravens (only a tool summary of an ESPN headline, no article opened); Schumer filibuster post (found no report); Kalshi quote of Iran's Supreme Leader (not checked); DeSantis clips (account already on pulse).
+- Requests: none. Watch list rebuilt (15 added, 5 dropped). plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: web search returns mostly old results for same-day news; Mississippi status could not be confirmed beyond Fox. The message that started me had no instructions beyond the contract.

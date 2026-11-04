@@ -8,11 +8,11 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-04T00:18:28Z",
-  "updated_at": "2026-11-04T16:40:00Z",
+  "updated_at": "2026-11-04T21:30:00Z",
   "what": [
     "Decision Desk HQ posted at 7:18 p.m. Eastern on Tuesday 3 November that it projects Democratic Senator Jon Ossoff wins the Georgia Senate race. CBS News reports it also projected Ossoff the winner over Republican Representative Mike Collins. The Associated Press, as reported by Yahoo News, projected that former governor Roy Cooper won North Carolina over Republican Michael Whatley, flipping a Republican seat.",
     "Later that night CNN projected that Democrats will retake both the House and the Senate. Fox News, CNBC and NBC Washington also report Democratic control of both chambers. NBC Washington lists Senate flips in North Carolina, South Carolina, Texas, Ohio, Kansas and Iowa, and says Democrat Troy Jackson beat Republican Susan Collins in Maine. It says Republicans entered the night ahead, 53 to 47 in the Senate.",
-    "Seat totals differ by outlet and by the hour. CNBC's election desk says Democrats are projected to hold at least 51 Senate seats and at least 245 House seats. Fox News says at least 54 Senate seats. One aggregator post puts it at 53 Senate seats and 220 House seats. I could not find a final count, and NBC Washington says races in Arizona, Nevada and Michigan were still undecided when it reported. At 11:14 a.m. Eastern on Wednesday, Fox News's results page said Democrats were projected at about 250 to 255 House seats and listed Michigan among Senate seats Democrats won. NBC Washington had earlier called Michigan undecided, so outlets still differ.",
+    "Seat totals differ by outlet and by the hour. CNBC's election desk says Democrats are projected to hold at least 51 Senate seats and at least 245 House seats. Fox News says at least 54 Senate seats. One aggregator post puts it at 53 Senate seats and 220 House seats. I could not find a final count, and NBC Washington says races in Arizona, Nevada and Michigan were still undecided when it reported. At 11:14 a.m. Eastern on Wednesday, Fox News's results page said Democrats were projected at about 250 to 255 House seats and listed Michigan among Senate seats Democrats won. NBC Washington had earlier called Michigan undecided, so outlets still differ. At about 4:30 p.m. Eastern on Wednesday, Fox News's results page put Democrats at 54 Senate seats and about 228 House seats projected, and listed only Alaska as too close to call in the Senate. It quotes House Democratic leader Hakeem Jeffries as predicting 255 House seats or more. A post from PopBase says Mississippi is also uncalled; I did not find that on the Fox page.",
     "Fox News reports that Democrat Gina Hinojosa defeated Republican Governor Greg Abbott in Texas, Keisha Lance Bottoms won in Georgia, Amy Acton won in Ohio, and Aaron Ford defeated Governor Joe Lombardo in Nevada. Fox also reports Republican Byron Donalds won in Florida. Posts say Deb Haaland won the New Mexico governor's race. I did not find a news report of that result, so it rests on posts only.",
     "NBC Washington quotes President Trump as saying: \"I wasn't on the Ballot and if I was, we would have won IN A LANDSLIDE!\""
   ],
@@ -30,7 +30,7 @@
     }
   ],
   "common": "Established: CNN, Fox News, CNBC and NBC Washington report Democratic control of both the House and the Senate, and Decision Desk HQ, CBS News and the Associated Press had called Georgia and North Carolina earlier. Not established: final seat counts, which differ by outlet, the undecided races NBC Washington names, and the New Mexico result outside posts. Why Republicans lost is not on the record here. The SAVE America Act claim is a poster's explanation, not a finding.",
-  "next": "Final seat counts, the undecided races in Arizona, Nevada and Michigan, and certified results.",
+  "next": "Final seat counts, the Alaska Senate race and any other uncalled races, and certified results.",
   "posts": [
     {
       "id": "2117773436718137533",
@@ -83,6 +83,10 @@
     {
       "at": "2026-11-04T16:40:00Z",
       "text": "Added Fox News's 11:14 a.m. Eastern House estimate and its listing of Michigan, which differs from the earlier NBC Washington note that Michigan was undecided."
+    },
+    {
+      "at": "2026-11-04T21:30:00Z",
+      "text": "Updated Senate and House projections from Fox News and the list of uncalled races. Earlier text said Arizona, Nevada and Michigan were undecided; Fox now lists only Alaska as too close to call."
     }
   ]
 }
