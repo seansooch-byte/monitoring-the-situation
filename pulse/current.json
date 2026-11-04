@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T00:20:00Z",
-  "capture": "2026-11-04T0001Z",
+  "updated_at": "2026-11-04T01:35:00Z",
+  "capture": "2026-11-04T0106Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -98,12 +98,6 @@
       "also": []
     },
     {
-      "id": "2117246002419958045",
-      "desk": "entertainment",
-      "line": "Pop Crave posts a 17-second video of Jude Bellingham in a Calvin Klein campaign, crediting PEOPLE for the first look.",
-      "also": []
-    },
-    {
       "id": "2117432213394366565",
       "desk": "entertainment",
       "line": "TMZ reports that Ethan Klein and his wife Hila are divorcing. The post links the story. Not checked here.",
@@ -180,12 +174,6 @@
       "also": []
     },
     {
-      "id": "2117246056895312287",
-      "desk": "offbeat",
-      "line": "Aaron Rupar posts an 87-second video of Bill Murray asking someone called Hassett to say \"My dog just died\" so he can watch the smile. The caption is a transcript.",
-      "also": []
-    },
-    {
       "id": "2117461232324358615",
       "desk": "internet",
       "line": "yoxic says Kai Cenat showed his TikTok revenue after a 30-minute stream, in a 37-second video. Not checked here.",
@@ -195,6 +183,20 @@
       "id": "2117647206123503620",
       "desk": "world",
       "line": "TMZ reports that Donald Trump says he will move to Israel to become prime minister if the U.S. turns on him. The post links TMZ's story. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117773436718137533",
+      "desk": "politics",
+      "line": "Decision Desk HQ projects that Jon Ossoff wins the Georgia U.S. Senate general election, calling it at 7:18 PM EST. NBC News also projects an Ossoff win. Projections are not official results.",
+      "also": [
+        "2117776820225315208"
+      ]
+    },
+    {
+      "id": "2117778418477732190",
+      "desk": "sports",
+      "line": "Adam Schefter reports, citing sources, that former Super Bowl champion quarterback Russell Wilson interviewed today for the head coaching job at North Carolina State, where he played three seasons. Schefter adds that Philip Rivers is also a prominent candidate. Not checked here.",
       "also": []
     }
   ]
