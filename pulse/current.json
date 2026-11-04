@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T04:25:00Z",
-  "capture": "2026-11-04T0406Z",
+  "updated_at": "2026-11-04T05:25:00Z",
+  "capture": "2026-11-04T0505Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -217,6 +217,42 @@
       "id": "2117691856708362496",
       "desk": "sports",
       "line": "Ian Rapoport reports, citing sources, that Arizona Cardinals running back Jeremiyah Love is headed to injured reserve with a high-ankle sprain that he says rules him out for four to five weeks. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117838428813283455",
+      "desk": "politics",
+      "line": "CNN Breaking News says CNN projects that Democrats will retake control of both the House and the Senate, giving them power to check the White House for the last two years of Trump's term. The projection is CNN's. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117816635016769647",
+      "desk": "politics",
+      "line": "The Democratic Party account says Virginia voters passed Question 2, repealing the 2006 same-sex marriage ban and codifying marriage equality. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117824591481495910",
+      "desk": "sports",
+      "line": "SportsCenter posts a clip of Christian Bale talking about his upcoming role as Al Davis in the film \"Madden\", quoting Davis's motto, \"Once a Raider always a Raider\".",
+      "also": []
+    },
+    {
+      "id": "2117813835952439708",
+      "desk": "sports",
+      "line": "The NHL says the Jets stormed back from a 4-0 deficit in Montreal in only 2:06. The post has a clip.",
+      "also": []
+    },
+    {
+      "id": "2117725388306513933",
+      "desk": "tech",
+      "line": "Mark Gurman says iOS 27.2 is so buggy that he is not sure 27.3 could be worse, so trying it might be worth it, adding \"Not a recommendation\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117836993451147546",
+      "desk": "gaming",
+      "line": "IGN reports that Dead by Daylight developer Behavior Interactive has apologized again and removed free items from a streamer's account, after a community staff member allegedly gifted the streamer every in-game item. The allegation is IGN's and has not been checked here.",
       "also": []
     }
   ]
