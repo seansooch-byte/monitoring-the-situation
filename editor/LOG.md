@@ -4721,3 +4721,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: seven added, four dropped. plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T17:20Z
+- Captures read: 1703Z (1609Z was the last logged read). Last read: 1703Z.
+- X's check: 1703Z 104 confirmed, 0 missing, 0 mismatched, 2 withheld (2117666396520013891 fall1nginto, 2118010955028119685 DiscussingFilm; neither on the pulse). Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850), 1200Z 1 mismatch (2117904695465509097) and 2 withheld, 1301Z 1 mismatch (2117862747417567571); the grabber's record.
+- Pulse: 45 items (2 new: JDVance on why Republicans lost, DiscussingFilm Gambit clip; 2 dropped: PopBase Qeshm post older than 36 hours, FOS among the smallest). Header moved to 1703Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: LauraLoomer "learning Arabic" (insult about a religion); SkyNews, spectatorindex, PopBase and Polymarket election posts and RepRobertGarcia "LAWYER UP." (account already holds a place, or point unclear); camhigby (accusation, point unclear); DrescottP, austindunn96, JoyUzomah49910, FraHarrelson, skinwaste (private_individual); newer FabrizioRomano Rodri post (account already holds a place); WhiteHouse "Thank you for your attention to this matter" (photo with no description). For the next story pass: the Vance post cites an unnamed pollster, so those claims rest on his post only.
+- Requests: none. Watch list: two added, one dropped (FOS; the Qeshm post stays because a story cites it). plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

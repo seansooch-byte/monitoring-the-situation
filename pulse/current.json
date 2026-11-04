@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T16:40:00Z",
-  "capture": "2026-11-04T1609Z",
+  "updated_at": "2026-11-04T17:20:00Z",
+  "capture": "2026-11-04T1703Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -15,12 +15,6 @@
       "id": "2117649237219705136",
       "desk": "politics",
       "line": "VoteHub posts results for the Guam non-voting delegate race with all precincts reported: Alicia Anne Garrido Limtiaco 51.0 percent, James Craig Moylan 48.8 percent. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117478381742850083",
-      "desk": "world",
-      "line": "Pop Base says the U.S. has launched strikes on Iran's Qeshm Island the night before the midterm elections, with two photos. Not checked here.",
       "also": []
     },
     {
@@ -160,12 +154,6 @@
       "also": []
     },
     {
-      "id": "2117846996228727005",
-      "desk": "sports",
-      "line": "The account FOS says former NFL sideline reporter Michele Tafoya lost her first political race, running as a Republican in Minnesota, and that several NFL team owners backed her. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117862767831159287",
       "desk": "politics",
       "line": "Elon Musk posts: \"Guess my election-interfering space lasers didn’t work this time\", with a shrug emoji.",
@@ -282,6 +270,18 @@
       "id": "2118007139641737264",
       "desk": "politics",
       "line": "Eric Daugh, a political commentator, posts a clip he says shows Vice President JD Vance saying Republicans lost because of the Iran war, with comments of his own. Fox News reports the same Vance quote.",
+      "also": []
+    },
+    {
+      "id": "2118004988433641835",
+      "desk": "politics",
+      "line": "Vice President JD Vance writes that Republicans lost because of the Iran war, citing an unnamed pollster who he says found that many 2024 Trump voters backed Democrats. These are his claims. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117935611139195053",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, posts a short clip that it says reveals Channing Tatum’s voice as Gambit in \"Avengers: Doomsday.\" Not checked here.",
       "also": []
     }
   ]
