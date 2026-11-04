@@ -4691,3 +4691,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: three added, the three dropped posts removed. plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T14:25Z
+- Captures read: 1359Z (1301Z was the last logged read). Last read: 1359Z.
+- X's check: 1359Z 119 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850), 1200Z 1 mismatch (2117904695465509097) and 2 withheld, 1301Z 1 mismatch (2117862747417567571); the grabber's record.
+- Pulse: 45 items listed (2 new: Obama election statement, Kellie Meyer White House official quote; 2 dropped: TMZ on Ethan Klein, older than 36 hours; IGN on Behavior, among the smallest). The build shows 45. Header moved to 1359Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: camhigby (accusation, point unclear); HormuzLetter (unconfirmed claim about aides); MattWalshBlog, DC_Draino, The__Comedian__ (opinion); IsraelForces_ Netanyahu (unconfirmed claim again); esjesjesj, matchakitty_, CaudilloXIV (point unclear); arianadotgov (joke); newer FoxNews and Acyn posts (account already holds a place); NewsWire_US Mississippi count (for the next story pass: race too close to call).
+- Requests: none. Watch list: two added, two dropped. plan.json rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

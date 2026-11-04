@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T13:20:00Z",
-  "capture": "2026-11-04T1301Z",
+  "updated_at": "2026-11-04T14:25:00Z",
+  "capture": "2026-11-04T1359Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -35,12 +35,6 @@
       "id": "2117684391883550813",
       "desk": "politics",
       "line": "California Governor Gavin Newsom posts on Election Day that anyone who shows up to vote illegally will be tracked down, arrested and prosecuted. The post carries a link. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117432213394366565",
-      "desk": "entertainment",
-      "line": "TMZ reports that Ethan Klein and his wife Hila are divorcing. The post links the story. Not checked here.",
       "also": []
     },
     {
@@ -151,12 +145,6 @@
       "id": "2117725388306513933",
       "desk": "tech",
       "line": "Mark Gurman says iOS 27.2 is so buggy that he is not sure 27.3 could be worse, so trying it might be worth it, adding \"Not a recommendation\". Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117836993451147546",
-      "desk": "gaming",
-      "line": "IGN reports that Dead by Daylight developer Behavior Interactive has apologized again and removed free items from a streamer's account, after a community staff member allegedly gifted the streamer every in-game item. The allegation is IGN's and has not been checked here.",
       "also": []
     },
     {
@@ -282,6 +270,18 @@
       "id": "2117796372196032865",
       "desk": "internet",
       "line": "Popstonox, an aggregator, says Hasan Piker's midterm election stream was the second most viewed broadcast in the country with 210,000 live viewers, behind only NBC's Steve Kornacki. Its two photos have no description. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117855712722264198",
+      "desk": "politics",
+      "line": "Barack Obama posts a statement on the election results. He says voters want a politics that brings people together, thanks election officials and volunteers from both parties, and says the job now is to make changes where Democrats have the power and to prevent further damage.",
+      "also": []
+    },
+    {
+      "id": "2117807109693751588",
+      "desk": "politics",
+      "line": "NewsNation reporter Kellie Meyer posts what she says an unnamed White House official told her: the mood inside is \"defiant\", Trump was not on the ballot, and he will keep up his fight against the \"Radical Left\". The official is not identified. Not checked here.",
       "also": []
     }
   ]
