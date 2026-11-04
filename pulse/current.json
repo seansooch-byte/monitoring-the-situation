@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-03T23:15:00Z",
-  "capture": "2026-11-03T2303Z",
+  "updated_at": "2026-11-04T00:20:00Z",
+  "capture": "2026-11-04T0001Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -78,15 +78,6 @@
       "desk": "world",
       "line": "Rahul Gandhi asks the youth of India whether they want to see an open debate between him and Prime Minister Narendra Modi, and names four politicians he asks to persuade Modi to attend.",
       "also": []
-    },
-    {
-      "id": "2117227376077676887",
-      "desk": "tech",
-      "line": "WarMonitor3 says Europe is under a widespread cyber attack, with supermarket refrigeration systems disrupted in countries including Sweden, Belgium and Finland, causing food to spoil. Other accounts repeat versions of it. Not checked here.",
-      "also": [
-        "2117257179061227800",
-        "2117242731600675103"
-      ]
     },
     {
       "id": "2117292922693431496",
@@ -177,9 +168,9 @@
       "also": []
     },
     {
-      "id": "2117229485829353951",
+      "id": "2117644000052322767",
       "desk": "markets",
-      "line": "unusual_whales says, citing the Economist, that 97% of U.S. homeowners with a mortgage now have a rate below the current market rate, up from 54% in 2022. Its added claim that this freezes the housing market is its own reading. Not checked here.",
+      "line": "Watcher.Guru, an aggregator, reports that investor Bill Ackman says the stock market has turned into a \"casino.\" Not checked here.",
       "also": []
     },
     {

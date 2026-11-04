@@ -4581,3 +4581,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list unchanged. plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T00:20Z
+- Captures read: 0001Z (2303Z was the last logged read). Last read: 0001Z.
+- X's check: 0001Z 89 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 32 items listed (1 new, 2 dropped as older than 36 hours: WarMonitor3 Europe cyberattack post, unusual_whales mortgage post). The build shows 30, holding one TMZ post back. Header moved to 0001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elder Scrolls and GTA 6 file-size posts from accounts or desks already placed; Binance bare-link post; Kalshi and Polymarket election-odds posts (accounts placed, odds change hourly); posts flagged private_individual.
+- Requests: none; watch list swapped the two dropped posts and their context posts for the new markets post (Watcher.Guru, Ackman). plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
