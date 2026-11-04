@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T22:30:00Z",
-  "capture": "2026-11-04T2206Z",
+  "updated_at": "2026-11-04T23:09:27Z",
+  "capture": "2026-11-04T2300Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -29,12 +29,6 @@
       "id": "2117684391883550813",
       "desk": "politics",
       "line": "California Governor Gavin Newsom posts on Election Day that anyone who shows up to vote illegally will be tracked down, arrested and prosecuted. The post carries a link. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117574371250155944",
-      "desk": "entertainment",
-      "line": "BBC News reports that the Alton Towers theme park in Staffordshire has closed its World of David Walliams area.",
       "also": []
     },
     {
@@ -132,21 +126,9 @@
       "also": []
     },
     {
-      "id": "2117821691250294999",
-      "desk": "politics",
-      "line": "Rep. Nancy Mace says Republicans have Senate leader John Thune to thank for the SAVE America Act not passing and for not securing elections earlier.",
-      "also": []
-    },
-    {
       "id": "2117848335264702710",
       "desk": "ideas",
       "line": "Naval posts: \"Greed can be satisfied. Envy, cannot.\"",
-      "also": []
-    },
-    {
-      "id": "2117809547158929421",
-      "desk": "politics",
-      "line": "State Rep. Angie Nixon posts a message to supporters in Florida, saying the result was not the one she fought for, that the movement will continue, and that she is not going anywhere. The post does not name the race. Not checked here.",
       "also": []
     },
     {
@@ -233,12 +215,6 @@
       "also": []
     },
     {
-      "id": "2118021944415236402",
-      "desk": "politics",
-      "line": "The account remarks says CBS reports that President Trump is considering firing Defense Secretary Pete Hegseth. This is a second-hand relay of the report. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117798981136736676",
       "desk": "politics",
       "line": "PpollingNumbers, a polling account, posts an NBC exit poll figure for Jewish voters: 67 percent Democrats, 32 percent Republicans. Not checked here.",
@@ -276,6 +252,30 @@
       "id": "2118011328220758484",
       "desk": "music",
       "line": "Vatican News says Pope Leo XIV met the American singer-songwriter Bob Dylan in a private audience on Wednesday, November 4. The post carries a photo.",
+      "also": []
+    },
+    {
+      "id": "2117870212427194728",
+      "desk": "politics",
+      "line": "Clash Report posts a 23-second video of Abdul El-Sayed, a Michigan Senate candidate, addressing JD Vance. He says it is ironic that Vance is constitutionally obliged to swear him in in January. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118000656757703031",
+      "desk": "offbeat",
+      "line": "Guinness World Records says Brenda Willison of the UK has been crowned holder of the world's loudest shout, at 105.9 dB. The post carries a video.",
+      "also": []
+    },
+    {
+      "id": "2117965092398780727",
+      "desk": "world",
+      "line": "Pope Leo XIV says he will travel to Uruguay, Argentina and Peru, starting on Friday, and asks for prayers for the journey.",
+      "also": []
+    },
+    {
+      "id": "2118017931896565840",
+      "desk": "entertainment",
+      "line": "HavocCrave, a small fan-news account, says Pokémon is reportedly developing a new anime series in which Ash Ketchum and Pikachu return. It names no source. Not checked here.",
       "also": []
     }
   ]
