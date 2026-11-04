@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T15:30:00Z",
-  "capture": "2026-11-04T1511Z",
+  "updated_at": "2026-11-04T16:40:00Z",
+  "capture": "2026-11-04T1609Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -74,12 +74,6 @@
       "also": []
     },
     {
-      "id": "2117461232324358615",
-      "desk": "internet",
-      "line": "yoxic says Kai Cenat showed his TikTok revenue after a 30-minute stream, in a 37-second video. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117647206123503620",
       "desk": "world",
       "line": "TMZ reports that Donald Trump says he will move to Israel to become prime minister if the U.S. turns on him. The post links TMZ's story. Not checked here.",
@@ -136,12 +130,6 @@
       "also": []
     },
     {
-      "id": "2117813835952439708",
-      "desk": "sports",
-      "line": "The NHL says the Jets stormed back from a 4-0 deficit in Montreal in only 2:06. The post has a clip.",
-      "also": []
-    },
-    {
       "id": "2117817990985204142",
       "desk": "politics",
       "line": "Acyn, who posts political clips, shares a video he says shows Fox calling South Carolina for Annie Andrews, with Hannity reacting \"Brutal.\" The post does not say which race. Not checked here.",
@@ -178,12 +166,6 @@
       "also": []
     },
     {
-      "id": "2117790110716404052",
-      "desk": "music",
-      "line": "The account kchartsmaster says JISOO will release an original song for 'The Angry Birds Movie 3'. The post links to a Hollywood Reporter article headed the same way; that has not been checked here.",
-      "also": []
-    },
-    {
       "id": "2117862767831159287",
       "desk": "politics",
       "line": "Elon Musk posts: \"Guess my election-interfering space lasers didn’t work this time\", with a shrug emoji.",
@@ -211,12 +193,6 @@
       "id": "2117848335264702710",
       "desk": "ideas",
       "line": "Naval posts: \"Greed can be satisfied. Envy, cannot.\"",
-      "also": []
-    },
-    {
-      "id": "2117718457404067951",
-      "desk": "sports",
-      "line": "The official Formula 1 account says its first interview with Kimi as F1 champion is on its YouTube channel, and calls him the newly crowned world champ.",
       "also": []
     },
     {
@@ -282,6 +258,30 @@
       "id": "2117918443655569461",
       "desk": "world",
       "line": "Nigerian President Bola Tinubu posts a long statement on education, saying his government has provided over ₦372 billion in student loans through NELFUND and reached a new agreement with the university staff union ASUU for a 40% increase in staff pay. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117736263377981516",
+      "desk": "politics",
+      "line": "The White House account posts the sentence \"America is for Americans.\" with no other text or media.",
+      "also": []
+    },
+    {
+      "id": "2117989202151576061",
+      "desk": "markets",
+      "line": "The Kobeissi Letter, a markets newsletter account, says the Dow Jones Industrial Average rose more than 1,100 points at the open, the first since the midterm elections, and that US stocks added over $1 trillion in market value. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117999666042417442",
+      "desk": "gaming",
+      "line": "Culture Crave, an entertainment aggregator, says a remake of \"The Legend of Zelda: Ocarina of Time\" has a score of 96 on Metacritic, the highest of any game in 2026. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118007139641737264",
+      "desk": "politics",
+      "line": "Eric Daugh, a political commentator, posts a clip he says shows Vice President JD Vance saying Republicans lost because of the Iran war, with comments of his own. Fox News reports the same Vance quote.",
       "also": []
     }
   ]

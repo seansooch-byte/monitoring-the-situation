@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-04-gop-aftermath-vance-iran-war",
+  "title": "After the midterm losses, Vance blames the Iran war and House Republicans pick new leaders",
+  "dek": "Republican leaders are explaining the losses and reshuffling the House team. Their explanations differ from the SAVE America Act account other Republicans gave overnight.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-04T15:47:00Z",
+  "updated_at": "2026-11-04T16:40:00Z",
+  "what": [
+    "Fox News's live results page, last updated at 11:14 a.m. Eastern on Wednesday 4 November, says Vice President JD Vance named the Iran war as the main reason Republicans lost. It quotes him: \"The reason we lost is the war. The president himself said so last night.\" A post carries the same quote and adds that he challenged anyone who thinks the war was worth losing the Senate to argue so. I could not find a full transcript or video outside X, so the wording beyond the quote rests on posts.",
+    "Fox News also quotes Florida Governor Ron DeSantis calling the losses \"close to an extinction level event\" for Republicans. A Fox News post carries a clip in which he says Florida will be the only one of the ten largest states under Republican control in January. That count is his claim and I did not check it.",
+    "Fox's page says House Speaker Mike Johnson declined to run for minority leader, and that Representatives Jim Jordan and Steve Scalise are both running for it. A post attributes the same news to Fox. Fox lists Representatives Tom Emmer and August Pfluger as competing for whip. I found no vote date.",
+    "This is separate from the explanation that Republicans lost because the SAVE America Act did not pass. Different Republicans are giving different reasons, and no source cited here tests either one."
+  ],
+  "why": "A loss this large starts an argument inside the losing party about its cause and its leaders. The explanations and the leadership news come from officials and quickly become clips.",
+  "common": "Established: Fox News reports Vance's quote on the war, DeSantis's \"extinction level event\" remark, and that Jordan and Scalise are running for House minority leader while Johnson is not. Not established: that the war, or any single issue, caused the losses. Those are the speakers' own views. Final seat counts are still moving; see the story on the Democratic win.",
+  "next": "A House Republican leadership vote and any date for it.",
+  "posts": [
+    {
+      "id": "2118007185548496923",
+      "role": "origin"
+    },
+    {
+      "id": "2117997682115453069",
+      "role": "voice"
+    },
+    {
+      "id": "2118007060247859229",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Fox News: Election Day results 11-3-2026 (live page, last updated 11:14 a.m. ET on 4 November)",
+      "url": "https://www.foxnews.com/live-news/election-day-results-11-3-2026"
+    }
+  ]
+}

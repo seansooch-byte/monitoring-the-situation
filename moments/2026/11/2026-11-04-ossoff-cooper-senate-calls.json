@@ -8,11 +8,11 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-04T00:18:28Z",
-  "updated_at": "2026-11-04T11:45:00Z",
+  "updated_at": "2026-11-04T16:40:00Z",
   "what": [
     "Decision Desk HQ posted at 7:18 p.m. Eastern on Tuesday 3 November that it projects Democratic Senator Jon Ossoff wins the Georgia Senate race. CBS News reports it also projected Ossoff the winner over Republican Representative Mike Collins. The Associated Press, as reported by Yahoo News, projected that former governor Roy Cooper won North Carolina over Republican Michael Whatley, flipping a Republican seat.",
     "Later that night CNN projected that Democrats will retake both the House and the Senate. Fox News, CNBC and NBC Washington also report Democratic control of both chambers. NBC Washington lists Senate flips in North Carolina, South Carolina, Texas, Ohio, Kansas and Iowa, and says Democrat Troy Jackson beat Republican Susan Collins in Maine. It says Republicans entered the night ahead, 53 to 47 in the Senate.",
-    "Seat totals differ by outlet and by the hour. CNBC's election desk says Democrats are projected to hold at least 51 Senate seats and at least 245 House seats. Fox News says at least 54 Senate seats. One aggregator post puts it at 53 Senate seats and 220 House seats. I could not find a final count, and NBC Washington says races in Arizona, Nevada and Michigan were still undecided when it reported.",
+    "Seat totals differ by outlet and by the hour. CNBC's election desk says Democrats are projected to hold at least 51 Senate seats and at least 245 House seats. Fox News says at least 54 Senate seats. One aggregator post puts it at 53 Senate seats and 220 House seats. I could not find a final count, and NBC Washington says races in Arizona, Nevada and Michigan were still undecided when it reported. At 11:14 a.m. Eastern on Wednesday, Fox News's results page said Democrats were projected at about 250 to 255 House seats and listed Michigan among Senate seats Democrats won. NBC Washington had earlier called Michigan undecided, so outlets still differ.",
     "Fox News reports that Democrat Gina Hinojosa defeated Republican Governor Greg Abbott in Texas, Keisha Lance Bottoms won in Georgia, Amy Acton won in Ohio, and Aaron Ford defeated Governor Joe Lombardo in Nevada. Fox also reports Republican Byron Donalds won in Florida. Posts say Deb Haaland won the New Mexico governor's race. I did not find a news report of that result, so it rests on posts only.",
     "NBC Washington quotes President Trump as saying: \"I wasn't on the Ballot and if I was, we would have won IN A LANDSLIDE!\""
   ],
@@ -79,6 +79,10 @@
     {
       "at": "2026-11-04T11:45:00Z",
       "text": "Rewritten as results came in. The story first covered only the Georgia and North Carolina Senate calls and now covers the projected Democratic win of both chambers. The earlier \"blue tsunami\" post and the Texas \"leaning\" note were removed."
+    },
+    {
+      "at": "2026-11-04T16:40:00Z",
+      "text": "Added Fox News's 11:14 a.m. Eastern House estimate and its listing of Michigan, which differs from the earlier NBC Washington note that Michigan was undecided."
     }
   ]
 }

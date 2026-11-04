@@ -4711,3 +4711,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: two added, two dropped. plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T16:45Z
+- Captures read: 1609Z (1511Z was the last logged read). Last read: 1609Z.
+- X's check: 1609Z 47 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850), 1200Z 1 mismatch (2117904695465509097) and 2 withheld, 1301Z 1 mismatch (2117862747417567571); the grabber's record.
+- Pulse: 45 items (4 new: WhiteHouse, Kobeissi Letter Dow post, Culture Crave Zelda score, Eric Daugh on Vance; 4 dropped: yoxics older than 36 hours, kchartsmaster, NHL and F1 among the smallest). Header moved to 1609Z.
+- Added: 2026-11-04-gop-aftermath-vance-iran-war (politics). Updated: 2026-11-04-ossoff-cooper-senate-calls (Fox 11:14 a.m. ET estimate; its Michigan listing differs from NBC Washington).
+- Left out: realMaalouf posts (insults about a religion); CalltoActivism and thugmajesty7 (point is mockery); GovChristie on Vance (context unclear); cb_doge Norway Starlink deal and Musk's Starlink/Qualcomm posts (nothing found outside X; Musk's account already holds a place); MeidasTouch LaCore win and TrumpWorld_QQ declassification claim (unconfirmed); BitcoinArchive Binance reserves (for the next story pass, ties to the 10-29 Binance story). My searches for the Dow move and the Zelda score found nothing current, so those two pulse lines say "Not checked here."
+- Requests: none. Watch list: seven added, four dropped. plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
