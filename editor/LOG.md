@@ -4671,3 +4671,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list refreshed. plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: web search was thin for this night. Seat counts differ by outlet (51, 53, 54) and I could not open CNN, Variety or Forbes (403 or paywall). A later pass should confirm final counts and the New Mexico result. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T12:15Z
+- Captures read: 1200Z (1106Z was the last logged read). Last read: 1200Z.
+- X's check: 1200Z 120 confirmed, 0 missing, 1 mismatched (2117904695465509097, A2O_SOUL, not on the pulse), 2 withheld (2117830893046005930 numetal_moment, 2117700821635002596 Luxxr5, not on the pulse). Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850, ygtreasuremaker); the grabber's record.
+- Pulse: 44 items listed (0 new, 0 dropped; nothing is older than 36 hours yet, the two oldest, NYCMayor and PpollingNumbers, pass it at about 12:45Z). The build shows 43, holding one TMZ post back. Header moved to 1200Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: burritoprophet Texas post (insult); IsraelForces_ Netanyahu "new Prime Minister" claim (unconfirmed); mattvanswol, ConnorEatsPants and other opinion posts; BuzzingPop "firsts" lists (unconfirmed, results not final); Vitalik Buterin post (old_content); radfemsiren (point unclear); A2O_SOUL (mismatch).
+- Requests: none. Watch list unchanged. plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
