@@ -4701,3 +4701,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: two added, two dropped. plan.json rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T15:30Z
+- Captures read: 1511Z (1359Z was the last logged read). Last read: 1511Z.
+- X's check: 1511Z 102 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850), 1200Z 1 mismatch (2117904695465509097) and 2 withheld, 1301Z 1 mismatch (2117862747417567571); the grabber's record.
+- Pulse: 45 items listed (2 new: HouseDemocrats "Let's get to work", Tinubu education statement; 2 dropped, among the smallest: AshCrypto, markgurman). Nothing is older than 36 hours. The build shows 45. Header moved to 1511Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: WhiteHouse "Thank you for your attention to this matter" (photo with no description, point unclear); PopBase Chucky post (account already holds a place); newer AdamSchefter and RapSheet posts (account already holds a place); GTA_VI_6_ Fonteno clip (unconfirmed claim about named people); Blond1n1, marklevinshow, MyronGainesX, Byron Donalds SAVE Act posts and other opinion or unconfirmed posts; Alzixx_ (private person); GenshinUniverse (no description); zundamotisuki and TheMeowCats (old_content).
+- Requests: none. Watch list: two added, two dropped. plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
