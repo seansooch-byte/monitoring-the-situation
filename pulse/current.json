@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T21:35:00Z",
-  "capture": "2026-11-04T2106Z",
+  "updated_at": "2026-11-04T22:30:00Z",
+  "capture": "2026-11-04T2206Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -46,22 +46,6 @@
       ]
     },
     {
-      "id": "2117535211948757002",
-      "desk": "sports",
-      "line": "CD Tenerife announces, in Spanish, the death of its player Jesús de Miguel Alameda on Tuesday at 8:00 and asks for respect for his family's privacy. A related earlier post from Laliga News, in Spanish, links a clip it describes as a heavy blow to him in the match against Andorra. The club's post gives no cause.",
-      "also": [
-        "2117272602523684948"
-      ]
-    },
-    {
-      "id": "2117539295615488109",
-      "desk": "sports",
-      "line": "Fabrizio Romano reports that Tenerife forward Jesus de Miguel has died from the consequences of an incident in the club's match against FC Andorra. WBC24 says the club confirmed it. Not checked here.",
-      "also": [
-        "2117542954919453121"
-      ]
-    },
-    {
       "id": "2117644000052322767",
       "desk": "markets",
       "line": "Watcher.Guru, an aggregator, reports that investor Bill Ackman says the stock market has turned into a \"casino.\" Not checked here.",
@@ -103,12 +87,6 @@
       "id": "2117691856708362496",
       "desk": "sports",
       "line": "Ian Rapoport reports, citing sources, that Arizona Cardinals running back Jeremiyah Love is headed to injured reserve with a high-ankle sprain that he says rules him out for four to five weeks. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117838428813283455",
-      "desk": "politics",
-      "line": "CNN Breaking News says CNN projects that Democrats will retake control of both the House and the Senate, giving them power to check the White House for the last two years of Trump's term. The projection is CNN's. Not checked here.",
       "also": []
     },
     {
@@ -281,6 +259,24 @@
       "id": "2117919394995003718",
       "desk": "politics",
       "line": "Historian and journalist Anne Applebaum writes that she wishes Elon Musk's $500 million had been spent on education, healthcare or the arts. The figure is hers and is not checked here."
+    },
+    {
+      "id": "2117950885292581143",
+      "desk": "sports",
+      "line": "Fabrizio Romano reports that Rodri has a hamstring injury and will be out for Barcelona and Spain for the next month, including Barcelona's game against Atlético this weekend. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117766605572645068",
+      "desk": "politics",
+      "line": "Sky News posts a video of Michigan Democratic Senate candidate Abdul El-Sayed confronting the Sky account @jamesmatthewsky. Sky says El-Sayed told him he would not answer his questions because he wants \"zero\" votes in the UK.",
+      "also": []
+    },
+    {
+      "id": "2118011328220758484",
+      "desk": "music",
+      "line": "Vatican News says Pope Leo XIV met the American singer-songwriter Bob Dylan in a private audience on Wednesday, November 4. The post carries a photo.",
+      "also": []
     }
   ]
 }

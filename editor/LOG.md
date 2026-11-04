@@ -4771,3 +4771,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list rebuilt (15 added, 5 dropped). plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: web search returns mostly old results for same-day news; Mississippi status could not be confirmed beyond Fox. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T22:35Z
+- Captures read: 2206Z (2106Z was the last logged read). Last read: 2206Z.
+- X's check: 2206Z 104 confirmed, 0 missing, 1 mismatched, 0 withheld. Mismatch (link text differs; not on the pulse): 2117949984251224150 (TWICE live DVD post). Earlier records unchanged; the grabber's record.
+- Pulse: 45 items (3 new: Fabrizio Romano on Rodri's hamstring, sports; Sky News video of Abdul El-Sayed confronting its reporter, politics; Vatican News on Pope Leo XIV meeting Bob Dylan, music; 3 dropped: CDTOficial and the older Romano post, both past 36 hours, and cnnbrk, the smallest). Header moved to 2206Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: PopBase on Alabama House District 25 (concerns a person's gender identity, unconfirmed here); LauraLoomer "learning Arabic" (religion-linked); IsraelForces_ Netanyahu posts (unconfirmed); Spectatorindex Kansas Senate (not checked); Hasanabi on Asmongold and Matt Walsh on Iran (mockery, opinion); WhiteHouse, Kalshi, Elon Musk and Schefter second posts (account already holds a place); MsMelChen pilot clip (unconfirmed). For the next story pass: Alabama HD25 result and the Kansas Senate call.
+- Requests: none. Watch list: three added, none dropped (cnnbrk stays, cited by a live story). plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
