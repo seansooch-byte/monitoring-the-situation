@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T17:20:00Z",
-  "capture": "2026-11-04T1703Z",
+  "updated_at": "2026-11-04T18:40:00Z",
+  "capture": "2026-11-04T1800Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -112,12 +112,6 @@
       "also": []
     },
     {
-      "id": "2117816635016769647",
-      "desk": "politics",
-      "line": "The Democratic Party account says Virginia voters passed Question 2, repealing the 2006 same-sex marriage ban and codifying marriage equality. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117824591481495910",
       "desk": "sports",
       "line": "SportsCenter posts a clip of Christian Bale talking about his upcoming role as Al Davis in the film \"Madden\", quoting Davis's motto, \"Once a Raider always a Raider\".",
@@ -181,18 +175,6 @@
       "id": "2117848335264702710",
       "desk": "ideas",
       "line": "Naval posts: \"Greed can be satisfied. Envy, cannot.\"",
-      "also": []
-    },
-    {
-      "id": "2117870250838630539",
-      "desk": "ai",
-      "line": "Tencent's Hunyuan account announces Hy4, which it says is new with vision and firmly among the leading open models. The post says it was built responsibly, with cyber and biosecurity in mind. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117854536761000403",
-      "desk": "world",
-      "line": "The account BRICSinfo says Iran responded to the Democrats' wins in the U.S. elections with \"Americans said NO TO WAR…And we endorse this message.\" It names no speaker. Not checked here.",
       "also": []
     },
     {
@@ -261,12 +243,6 @@
       "also": []
     },
     {
-      "id": "2117999666042417442",
-      "desk": "gaming",
-      "line": "Culture Crave, an entertainment aggregator, says a remake of \"The Legend of Zelda: Ocarina of Time\" has a score of 96 on Metacritic, the highest of any game in 2026. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2118007139641737264",
       "desk": "politics",
       "line": "Eric Daugh, a political commentator, posts a clip he says shows Vice President JD Vance saying Republicans lost because of the Iran war, with comments of his own. Fox News reports the same Vance quote.",
@@ -282,6 +258,30 @@
       "id": "2117935611139195053",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, posts a short clip that it says reveals Channing Tatum’s voice as Gambit in \"Avengers: Doomsday.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118028834515874112",
+      "desk": "ai",
+      "line": "Axiom, an AI maths company, says it is releasing a 16M-line formalization of the entire Stacks Project, a body of algebraic geometry, and that the code quality is optimized and the structure preserved. The post includes a video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118015637889114392",
+      "desk": "markets",
+      "line": "Kalshi, a prediction market, says its favorite won 479 of 487 midterm races so far, or 98 percent, and that markets beat the polls and the models. The post links to a thread. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117972701197598803",
+      "desk": "tech",
+      "line": "Qualcomm says SpaceX has selected its Dragonwing cellular infrastructure to support Starlink Mobile's nationwide terrestrial 5G network in the U.S. This is the company's own announcement. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117996796920111110",
+      "desk": "gaming",
+      "line": "HYPEX, a gaming news account, says Fortnite OG ends after Season X, and quotes a line that the next era of Fortnite OG arrives in late 2027. The post has a photo and no description. Not checked here.",
       "also": []
     }
   ]
