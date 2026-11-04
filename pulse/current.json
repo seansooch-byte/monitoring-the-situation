@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T09:30:00Z",
-  "capture": "2026-11-04T0902Z",
+  "updated_at": "2026-11-04T10:30:00Z",
+  "capture": "2026-11-04T1006Z",
   "items": [
     {
       "id": "2117417680097759384",
@@ -80,10 +80,12 @@
       ]
     },
     {
-      "id": "2117537573186814319",
+      "id": "2117539295615488109",
       "desk": "sports",
-      "line": "Fabrizio Romano reports that West Ham has sacked head coach Nuno Espirito Santo, citing a report from @RoshaneSport.",
-      "also": []
+      "line": "Fabrizio Romano reports that Tenerife forward Jesus de Miguel has died from the consequences of an incident in the club's match against FC Andorra. WBC24 says the club confirmed it. Not checked here.",
+      "also": [
+        "2117542954919453121"
+      ]
     },
     {
       "id": "2117644000052322767",

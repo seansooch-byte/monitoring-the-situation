@@ -4651,3 +4651,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none; watch list dropped the aged post and gained the new one. plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T10:30Z
+- Captures read: 1006Z (0902Z was the last logged read). Last read: 1006Z.
+- X's check: 1006Z 45 confirmed, 0 missing, 1 mismatched (2117897561835294850, ygtreasuremaker, hashtag text differs; the grabber's record, not on the pulse), 0 withheld. The 0200Z run still shows its 1 missing (2117795421527707909, TheStalwart).
+- Pulse: 45 items listed (1 swapped: Fabrizio Romano's Tenerife post, now his largest, replaces his West Ham post; WBC24 attached in `also`; 0 dropped as older than 36 hours). The build shows 44, holding one TMZ post back. Header moved to 1006Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Glenn_Diesen torture-chamber claim (private_individual flag, unconfirmed); WhiteHouse "Mark of a Good Crew" (no description); NickJFuentes and LauraLoomer posts (point unclear, religion); Garima video (no description); TomiLahren South Carolina post (unclear); SkyNews and alluarjun (modest, desks placed); knplko37 and Atlas6ia animal videos; Kalshi odds posts (stale or repeating placed results); Polymarket Texas governor projection (account placed).
+- Requests: none; watch list swapped the West Ham post for the two Tenerife posts. plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
