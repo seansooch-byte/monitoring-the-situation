@@ -4681,3 +4681,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T13:20Z
+- Captures read: 1301Z (1200Z was the last logged read). Last read: 1301Z.
+- X's check: 1301Z 100 confirmed, 0 missing, 1 mismatched (2117862747417567571, AnOrdinaryGal1, text differs in spacing; not on the pulse), 0 withheld. Earlier records unchanged: 0200Z 1 missing (2117795421527707909, TheStalwart), 1006Z 1 mismatch (2117897561835294850), 1200Z 1 mismatch (2117904695465509097) and 2 withheld; the grabber's record.
+- Pulse: 45 items listed (3 new: Thune, DeSantis, Popstonox; 2 dropped as older than 36 hours: NYCMayor with its `also`, PpollingNumbers). The build shows 44, holding one TMZ post back. Header moved to 1301Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: stanfordNYC (long opinion on Trump); tedcruz Texas post (campaign attack on a named candidate); YinzUp and ___eb__ (insults); Doc_Texas, Atrioc, Schaffrillas, montezology (jokes or result commentary with no stated fact); GenshinUniverse (no description); MengxuanLiart and scott_colom (old_content); newer Fabrizio Romano and Adam Schefter posts (account already holds a place).
+- Requests: none. Watch list: three added, the three dropped posts removed. plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

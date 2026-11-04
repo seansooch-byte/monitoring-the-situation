@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T12:15:00Z",
-  "capture": "2026-11-04T1200Z",
+  "updated_at": "2026-11-04T13:20:00Z",
+  "capture": "2026-11-04T1301Z",
   "items": [
-    {
-      "id": "2117417680097759384",
-      "desk": "politics",
-      "line": "The New York City mayor's account posts an 8-second video with no text, quoting Vice President JD Vance's \"We got your back, New York!\" photo post. The capture has no description of either, so what they show is not stated here.",
-      "also": [
-        "2117291241914470495"
-      ]
-    },
     {
       "id": "2117614269780918559",
       "desk": "politics",
@@ -18,12 +10,6 @@
       "also": [
         "2117612993139585093"
       ]
-    },
-    {
-      "id": "2117418534405853360",
-      "desk": "politics",
-      "line": "The account Political Polls lists new AtlasIntel Senate polls, among them Michigan with El-Sayed up 7 and Texas with Talarico up 6. It does not link the polls themselves. Not checked here.",
-      "also": []
     },
     {
       "id": "2117649237219705136",
@@ -279,6 +265,24 @@
       "id": "2117833460324933829",
       "desk": "politics",
       "line": "Pop Crave, an entertainment and news aggregator, says Democrat Deb Haaland has won the New Mexico governor race and will be the first Native American woman to be a governor. Not checked here."
+    },
+    {
+      "id": "2117851011347788243",
+      "desk": "politics",
+      "line": "Senate Majority Leader John Thune says Senate Republicans have a strong record of accomplishment and will work with President Trump to stop what he calls the worst impulses of Democrat extremism as 2027 begins. These are his claims. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117830475964154096",
+      "desk": "politics",
+      "line": "Florida Governor Ron DeSantis says that if Republicans lose the seats where prediction markets favor Democrats, Democrats would hold 55 Senate seats, and that the chance of confirming a successor to Justice Thomas or Alito this term is zero. These are his projections. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117796372196032865",
+      "desk": "internet",
+      "line": "Popstonox, an aggregator, says Hasan Piker's midterm election stream was the second most viewed broadcast in the country with 210,000 live viewers, behind only NBC's Steve Kornacki. Its two photos have no description. Not checked here.",
+      "also": []
     }
   ]
 }
