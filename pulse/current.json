@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T19:15:00Z",
-  "capture": "2026-11-04T1906Z",
+  "updated_at": "2026-11-04T20:20:00Z",
+  "capture": "2026-11-04T1959Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -142,12 +142,6 @@
       "also": []
     },
     {
-      "id": "2117607637072179243",
-      "desk": "politics",
-      "line": "The account infolibnews posts a video it says shows Mark Levin insisting he should not be blamed if Republicans lose the midterms and that the Iran war is not the reason. The capture has no description of the video. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117862767831159287",
       "desk": "politics",
       "line": "Elon Musk posts: \"Guess my election-interfering space lasers didn’t work this time\", with a shrug emoji.",
@@ -282,6 +276,12 @@
       "id": "2117798981136736676",
       "desk": "politics",
       "line": "PpollingNumbers, a polling account, posts an NBC exit poll figure for Jewish voters: 67 percent Democrats, 32 percent Republicans. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117998279669793071",
+      "desk": "medicine",
+      "line": "Dick Vitale says his oncologist gave him \"super news\": his monthly bloodwork reports came back well. The post does not name the cancer or the treatment.",
       "also": []
     }
   ]

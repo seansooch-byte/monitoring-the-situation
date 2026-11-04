@@ -4751,3 +4751,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: three added, three dropped. plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-04T20:20Z
+- Captures read: 1959Z (1906Z was the last logged read). Last read: 1959Z.
+- X's check: 1959Z 127 confirmed, 0 missing, 4 mismatched, 0 withheld. Mismatches (hashtag/link text differs; none on the pulse): 2117904796652855397 PUBG, 2117996694638121460, 2117996697062355441 and 2117996699243401566 BIGHIT_MUSIC. Earlier records unchanged (0200Z 1 missing, 1006Z, 1200Z, 1301Z mismatches, 1703Z and 1800Z withheld); the grabber's record.
+- Pulse: 45 items (1 new: Dick Vitale on his bloodwork, medicine; 1 dropped: infolibnews undescribed video, aggregator and 31 hours old). Header moved to 1959Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Eagles QB change (Schefter's account already holds a place; ESPN copy small); Elon "True" and Bernie Sanders second post (accounts already hold a place); RabbiJeffx, ewkewpid, brivael (claims or mockery about a person, unconfirmed); ThatMetroidGuy (old_content, from October); "Grok Bot can make phone calls" (self-promotion by the gathering account); Fabrizio Valverde/Nyoni (account already holds a place).
+- Requests: none. Watch list: one added, one dropped. plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
