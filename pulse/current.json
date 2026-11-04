@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T14:25:00Z",
-  "capture": "2026-11-04T1359Z",
+  "updated_at": "2026-11-04T15:30:00Z",
+  "capture": "2026-11-04T1511Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -142,12 +142,6 @@
       "also": []
     },
     {
-      "id": "2117725388306513933",
-      "desk": "tech",
-      "line": "Mark Gurman says iOS 27.2 is so buggy that he is not sure 27.3 could be worse, so trying it might be worth it, adding \"Not a recommendation\". Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117817990985204142",
       "desk": "politics",
       "line": "Acyn, who posts political clips, shares a video he says shows Fox calling South Carolina for Annie Andrews, with Hannity reacting \"Brutal.\" The post does not say which race. Not checked here.",
@@ -232,12 +226,6 @@
       "also": []
     },
     {
-      "id": "2117867094092239081",
-      "desk": "markets",
-      "line": "The account AshCrypto posts a chart and says Bitcoin jumped $2,400 in the past 4 hours and bounced from support at the 50-week moving average.",
-      "also": []
-    },
-    {
       "id": "2117854536761000403",
       "desk": "world",
       "line": "The account BRICSinfo says Iran responded to the Democrats' wins in the U.S. elections with \"Americans said NO TO WAR…And we endorse this message.\" It names no speaker. Not checked here.",
@@ -282,6 +270,18 @@
       "id": "2117807109693751588",
       "desk": "politics",
       "line": "NewsNation reporter Kellie Meyer posts what she says an unnamed White House official told her: the mood inside is \"defiant\", Trump was not on the ballot, and he will keep up his fight against the \"Radical Left\". The official is not identified. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117821565073326128",
+      "desk": "politics",
+      "line": "House Democrats post the words \"Let's get to work.\" with no other text or media.",
+      "also": []
+    },
+    {
+      "id": "2117918443655569461",
+      "desk": "world",
+      "line": "Nigerian President Bola Tinubu posts a long statement on education, saying his government has provided over ₦372 billion in student loans through NELFUND and reached a new agreement with the university staff union ASUU for a 40% increase in staff pay. Not checked here.",
       "also": []
     }
   ]
