@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-04T23:09:27Z",
-  "capture": "2026-11-04T2300Z",
+  "updated_at": "2026-11-05T01:20:07Z",
+  "capture": "2026-11-05T0110Z",
   "items": [
     {
       "id": "2117614269780918559",
@@ -9,20 +9,6 @@
       "line": "Fox News reports that President Trump said in a Fox & Friends interview that the U.S. will end about $4 billion a year in aid to Israel by the end of the year, and that Benjamin Netanyahu agreed. Not checked here.",
       "also": [
         "2117612993139585093"
-      ]
-    },
-    {
-      "id": "2117649237219705136",
-      "desk": "politics",
-      "line": "VoteHub posts results for the Guam non-voting delegate race with all precincts reported: Alicia Anne Garrido Limtiaco 51.0 percent, James Craig Moylan 48.8 percent. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117595797315600796",
-      "desk": "world",
-      "line": "Rahul Gandhi posts a video with text in Hindi and English, challenging Prime Minister Narendra Modi to a public debate on who is anti-national and on the US trade deal, the Adani case and Epstein. Nirmala Sitharaman replies that Parliament is the venue. Not checked here.",
-      "also": [
-        "2117670166289134063"
       ]
     },
     {
@@ -69,12 +55,6 @@
       "id": "2117658716833194202",
       "desk": "politics",
       "line": "The U.S. Immigration and Customs Enforcement account posts on Election Day that anyone who votes illegally will be found, arrested and prosecuted, and that there will be no escape. The post makes the statement and gives no case. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117593116152943066",
-      "desk": "tech",
-      "line": "Dragan Maricic asks why the main Windows drive is called C: and what happened to A: and B:, calling it a dumb tech question. The post gives no answer.",
       "also": []
     },
     {
@@ -134,7 +114,8 @@
     {
       "id": "2117833460324933829",
       "desk": "politics",
-      "line": "Pop Crave, an entertainment and news aggregator, says Democrat Deb Haaland has won the New Mexico governor race and will be the first Native American woman to be a governor. Not checked here."
+      "line": "Pop Crave, an entertainment and news aggregator, says Democrat Deb Haaland has won the New Mexico governor race and will be the first Native American woman to be a governor. Not checked here.",
+      "also": []
     },
     {
       "id": "2117851011347788243",
@@ -164,12 +145,6 @@
       "id": "2117821565073326128",
       "desk": "politics",
       "line": "House Democrats post the words \"Let's get to work.\" with no other text or media.",
-      "also": []
-    },
-    {
-      "id": "2117918443655569461",
-      "desk": "world",
-      "line": "Nigerian President Bola Tinubu posts a long statement on education, saying his government has provided over ₦372 billion in student loans through NELFUND and reached a new agreement with the university staff union ASUU for a 40% increase in staff pay. Not checked here.",
       "also": []
     },
     {
@@ -229,12 +204,14 @@
     {
       "id": "2118065507630772363",
       "desk": "sports",
-      "line": "Liverpool's official account says the club suffered its first Champions League defeat of the season. The attached photo is captioned as a full-time score of Fenerbahce 3, Liverpool 2."
+      "line": "Liverpool's official account says the club suffered its first Champions League defeat of the season. The attached photo is captioned as a full-time score of Fenerbahce 3, Liverpool 2.",
+      "also": []
     },
     {
       "id": "2117919394995003718",
       "desk": "politics",
-      "line": "Historian and journalist Anne Applebaum writes that she wishes Elon Musk's $500 million had been spent on education, healthcare or the arts. The figure is hers and is not checked here."
+      "line": "Historian and journalist Anne Applebaum writes that she wishes Elon Musk's $500 million had been spent on education, healthcare or the arts. The figure is hers and is not checked here.",
+      "also": []
     },
     {
       "id": "2117950885292581143",
@@ -276,6 +253,30 @@
       "id": "2118017931896565840",
       "desk": "entertainment",
       "line": "HavocCrave, a small fan-news account, says Pokémon is reportedly developing a new anime series in which Ash Ketchum and Pikachu return. It names no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117899754533490828",
+      "desk": "business",
+      "line": "ShwetaKukreja_ says Canva is laying off 22% of its workforce, which the post puts at 1271 employees, and posts a clip of what it says is the CEO speaking. The layoff and the clip have not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2117840712855113793",
+      "desk": "politics",
+      "line": "Politico posts video from its Elections Live show. It says President Trump took a call from its reporter and talked about the blue wave and working with incoming congressional Democrats, and quotes him: \"I don’t want to be just sitting there for two years vetoing everything.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117633046002225363",
+      "desk": "science",
+      "line": "NASA posts an image of the Cat’s Head Nebula, taken by its Webb space telescope. The image shows a pillar of white dust against rust-colored dust and distant stars and galaxies.",
+      "also": []
+    },
+    {
+      "id": "2118022591034081305",
+      "desk": "life",
+      "line": "The New York Post reports that a California city has made history by letting groups of three or more, such as throuples and foursomes, register legally as partners. Not checked here.",
       "also": []
     }
   ]
