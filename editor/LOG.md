@@ -4811,3 +4811,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: two added, two dropped (NASA, On3, uncited). plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-05T04:30Z
+- Captures read: 0405Z (0303Z was the last logged read). Last read: 0405Z.
+- X's check: 0405Z 79 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged; the grabber's record.
+- Pulse: 45 items (1 new: Rep. Ilhan Omar congratulating Abdul El-Sayed, politics; 1 dropped: HavocCrave Pokémon rumour, among the smallest). Header moved to 0405Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: MOSSADil and bringmethenews on El-Sayed and Flanagan not backing Schumer (aggregators, unchecked here; for the next story pass); bellissimuah (wishes a president dead); RobWong34, CameronCorduroy, TheDemocrats (small, unclear or partisan jokes); DojaMyLife (unverified clip, partisan caption); SportsCenter Sellers and NBA (account already holds a place, or small); Go__homeroger (insulting about a race); MAGAsFix on Nick Cho (unchecked claim about a named person).
+- Requests: none. Watch list: one swapped (HavocCrave out, Ilhan Omar in). plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
