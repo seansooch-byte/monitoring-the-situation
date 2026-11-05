@@ -4821,3 +4821,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: one swapped (HavocCrave out, Ilhan Omar in). plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-05T06:20Z
+- Captures read: 0503Z (mismatch check only; read by the previous pass), 0607Z. Last read: 0607Z.
+- X's check: 0607Z 42 confirmed, 0 missing, 0 mismatched, 0 withheld. 0503Z had 1 mismatched: 2117996702791852541 (not on the pulse or in a story); the grabber's record.
+- Pulse: 45 items (2 new: Mayor Mamdani's account "Good morning!", politics; Natasha Bertrand quoting CNN on Massie and Hegseth, politics; 2 dropped: Newsom Election Day post, nearly 36 hours old; Aaron Rupar clip, among the smallest politics items and redundant). Header moved to 0607Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: hoodlord_6 (old_content); BuzzingPop El-Sayed quote (attributed quote, unchecked); HappyPunch on Buckley and Strickland (alleged slur, claim about named people, unchecked); HormuzReport (aggregator relaying WSJ, below the cut); WatcherGuru on banning superintelligence (account holds a place; same subject as Rep. Ansari's post); elonmusk "Try Grok @Bot!" and Saboo_Shubham_ (product promotion; account holds a place); tparsi, Red_waveLFC, EricLDaugh and the Wemby posts (small, unclear, hyped, or sports already full). For the next story pass: Massie's Hegseth impeachment plan, now with a CNN link; Wemby's 52-point game.
+- Requests: none. Watch list: two added, two dropped. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

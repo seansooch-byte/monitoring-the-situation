@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-05T05:13:07Z",
-  "capture": "2026-11-05T0503Z",
+  "updated_at": "2026-11-05T06:20:00Z",
+  "capture": "2026-11-05T0607Z",
   "items": [
-    {
-      "id": "2117684391883550813",
-      "desk": "politics",
-      "line": "California Governor Gavin Newsom posts on Election Day that anyone who shows up to vote illegally will be tracked down, arrested and prosecuted. The post carries a link. Not checked here.",
-      "also": []
-    },
     {
       "id": "2117773436718137533",
       "desk": "politics",
@@ -238,12 +232,6 @@
       "line": "U.S. Representative Yassamin Ansari, a Democrat, writes that the first-day Democratic agenda should include a pause on advanced AI development, regulation of the industry and a ban on artificial superintelligence."
     },
     {
-      "id": "2118045945061310844",
-      "desk": "politics",
-      "line": "Aaron Rupar posts a 30-second video of President Trump saying that impeachment \"for no reason\" would destroy the Democratic Party, and that the country is more successful than at any time in history. The claims are Trump’s. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117932367587504589",
       "desk": "tech",
       "line": "Kalshi, a prediction market, posts that Google will invest $15 billion in data centers in Malaysia. The post gives no source. Not checked here.",
@@ -271,6 +259,18 @@
       "id": "2118149931072676092",
       "desk": "defense",
       "line": "BRICSinfo, an aggregator, posts that the US military is finalizing preparations to resume large-scale attacks on Iran, citing Axios. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117998092767396302",
+      "desk": "politics",
+      "line": "The account of New York City Mayor Zohran Mamdani posts \"Good morning!\" with no other text or media.",
+      "also": []
+    },
+    {
+      "id": "2118135945937527061",
+      "desk": "politics",
+      "line": "Journalist Natasha Bertrand quotes CNN, which reports that Rep. Thomas Massie told it he plans to force a vote to impeach Hegseth when Congress returns next week, and that multiple GOP sources expect it to pass. The post links the CNN story. Not checked here.",
       "also": []
     }
   ]
