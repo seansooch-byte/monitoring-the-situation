@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-05T02:25:00Z",
-  "capture": "2026-11-05T0202Z",
+  "updated_at": "2026-11-05T03:20:00Z",
+  "capture": "2026-11-05T0303Z",
   "items": [
     {
       "id": "2117684391883550813",
@@ -248,12 +248,6 @@
       "also": []
     },
     {
-      "id": "2117633046002225363",
-      "desk": "science",
-      "line": "NASA posts an image of the Cat’s Head Nebula, taken by its Webb space telescope. The image shows a pillar of white dust against rust-colored dust and distant stars and galaxies.",
-      "also": []
-    },
-    {
       "id": "2118022591034081305",
       "desk": "life",
       "line": "The New York Post reports that a California city has made history by letting groups of three or more, such as throuples and foursomes, register legally as partners. Not checked here.",
@@ -270,9 +264,16 @@
       "line": "U.S. Representative Yassamin Ansari, a Democrat, writes that the first-day Democratic agenda should include a pause on advanced AI development, regulation of the industry and a ban on artificial superintelligence."
     },
     {
-      "id": "2118063142659822074",
-      "desk": "sports",
-      "line": "On3, a college sports outlet, says Miami wide receiver Malachi Toney has an ankle injury and that his status for Saturday's game against Notre Dame is unknown, citing a report by Brett McMurphy."
+      "id": "2118045945061310844",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a 30-second video of President Trump saying that impeachment \"for no reason\" would destroy the Democratic Party, and that the country is more successful than at any time in history. The claims are Trump’s. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2117932367587504589",
+      "desk": "tech",
+      "line": "Kalshi, a prediction market, posts that Google will invest $15 billion in data centers in Malaysia. The post gives no source. Not checked here.",
+      "also": []
     }
   ]
 }
