@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-05T07:25:00Z",
-  "capture": "2026-11-05T0706Z",
+  "updated_at": "2026-11-05T08:50:00Z",
+  "capture": "2026-11-05T0811Z",
   "items": [
     {
       "id": "2117773436718137533",
@@ -54,21 +54,9 @@
       "also": []
     },
     {
-      "id": "2117847205771944381",
-      "desk": "politics",
-      "line": "The account EndWokeness lists Texas results by group, which it attributes to an NBC exit poll, with Democratic and Republican margins for white, Latino and Black voters. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2117848335264702710",
       "desk": "ideas",
       "line": "Naval posts: \"Greed can be satisfied. Envy, cannot.\"",
-      "also": []
-    },
-    {
-      "id": "2117833460324933829",
-      "desk": "politics",
-      "line": "Pop Crave, an entertainment and news aggregator, says Democrat Deb Haaland has won the New Mexico governor race and will be the first Native American woman to be a governor. Not checked here.",
       "also": []
     },
     {
@@ -271,6 +259,18 @@
       "id": "2118125881067487633",
       "desk": "politics",
       "line": "Senator Ted Cruz writes that 2026 was the most consequential midterm election of our lifetimes. He says history is sometimes to be celebrated and other times mourned, and that it must be reckoned with. The post is cut off in the capture.",
+      "also": []
+    },
+    {
+      "id": "2118161627577024922",
+      "desk": "politics",
+      "line": "Singer Nicki Minaj posts a video and a numbered list reacting to the midterm results. She says Trump is still president, that she does not vote but vetoes, and congratulates Reps. Luna and Donalds. She also says a billion dollars was spent on a losing campaign full of celebrities.",
+      "also": []
+    },
+    {
+      "id": "2118161631549010276",
+      "desk": "gaming",
+      "line": "Nintendo of America posts a photo with the line \"The Master Sword awaits...\" for the release of The Legend of Zelda: Ocarina of Time, with the hashtag #OcarinaOfTime.",
       "also": []
     }
   ]
