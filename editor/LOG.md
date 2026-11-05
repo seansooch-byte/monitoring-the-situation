@@ -4841,3 +4841,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: one added (Cruz), one dropped (Rapoport). plan.json rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-05T09:20Z
+- Captures read: 0811Z (the 0811Z pass left no log entry, so I read it now), 0903Z. Last read: 0903Z.
+- X's check: 0903Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld. 0811Z had 1 mismatched: 2117996702791852541 (not on the pulse or in a story; same id as the 0503Z mismatch); the grabber's record.
+- Pulse: 45 items, content unchanged (0 new, 0 dropped). Header moved to 0903Z. Nothing is older than 36 hours; the White House post is the oldest and ages out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: nickshirleyy "Learing Center" (claim about a named person, unchecked); Mark Ruffalo's petition for a new House speaker (politics already holds 23 items; for the next story pass); RealSprat on Alex Garland and lelijosbaltos (point unclear); FabrizioRomano Raphinha, Mourinho and Arteta posts (account holds a place); GlobeEyeNews Netanyahu majority post (aggregator, unchecked here); sashazsapphires (sexual content); PeggyDodson (election fraud claim, unchecked).
+- Requests: none. Watch list unchanged. plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
