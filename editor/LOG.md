@@ -4831,3 +4831,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: two added, two dropped. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-05T07:25Z
+- Captures read: 0706Z (0607Z was the last logged read). Last read: 0706Z.
+- X's check: 0706Z 44 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged; the grabber's record.
+- Pulse: 45 items (1 new: Sen. Ted Cruz on the midterms, politics; 1 dropped: Ian Rapoport on Jeremiyah Love, 36 hours old). Header moved to 0706Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Laura Loomer "learning Arabic" and the IsraelForces_ Netanyahu "dead" post (inflammatory or unchecked); Kyle Kulinski, OnlyInBOS (aggregated or unchecked political claims); Doja Cat lyric (small); Wemby 52 points and Klay Thompson game winner (sports already full, small); Ye fashion show posts (small); GuntherEagleman on Nick Shirley (claim about a named person, unchecked). For the next story pass: Wemby's 52-point game.
+- Requests: none. Watch list: one added (Cruz), one dropped (Rapoport). plan.json rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.

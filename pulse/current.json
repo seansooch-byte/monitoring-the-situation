@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-05T06:20:00Z",
-  "capture": "2026-11-05T0607Z",
+  "updated_at": "2026-11-05T07:25:00Z",
+  "capture": "2026-11-05T0706Z",
   "items": [
     {
       "id": "2117773436718137533",
@@ -15,12 +15,6 @@
       "id": "2117778418477732190",
       "desk": "sports",
       "line": "Adam Schefter reports, citing sources, that former Super Bowl champion quarterback Russell Wilson interviewed today for the head coaching job at North Carolina State, where he played three seasons. Schefter adds that Philip Rivers is also a prominent candidate. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117691856708362496",
-      "desk": "sports",
-      "line": "Ian Rapoport reports, citing sources, that Arizona Cardinals running back Jeremiyah Love is headed to injured reserve with a high-ankle sprain that he says rules him out for four to five weeks. Not checked here.",
       "also": []
     },
     {
@@ -271,6 +265,12 @@
       "id": "2118135945937527061",
       "desk": "politics",
       "line": "Journalist Natasha Bertrand quotes CNN, which reports that Rep. Thomas Massie told it he plans to force a vote to impeach Hegseth when Congress returns next week, and that multiple GOP sources expect it to pass. The post links the CNN story. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118125881067487633",
+      "desk": "politics",
+      "line": "Senator Ted Cruz writes that 2026 was the most consequential midterm election of our lifetimes. He says history is sometimes to be celebrated and other times mourned, and that it must be reckoned with. The post is cut off in the capture.",
       "also": []
     }
   ]
