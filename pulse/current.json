@@ -1,32 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-05T04:25:00Z",
-  "capture": "2026-11-05T0405Z",
+  "updated_at": "2026-11-05T05:13:07Z",
+  "capture": "2026-11-05T0503Z",
   "items": [
     {
       "id": "2117684391883550813",
       "desk": "politics",
       "line": "California Governor Gavin Newsom posts on Election Day that anyone who shows up to vote illegally will be tracked down, arrested and prosecuted. The post carries a link. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117636922243768698",
-      "desk": "gaming",
-      "line": "Bethesda posts a video for \"The Elder Scrolls VI: Sentinel\", inviting players to the next journey to Tamriel.",
-      "also": [
-        "2117635895520022833"
-      ]
-    },
-    {
-      "id": "2117644000052322767",
-      "desk": "markets",
-      "line": "Watcher.Guru, an aggregator, reports that investor Bill Ackman says the stock market has turned into a \"casino.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117647206123503620",
-      "desk": "world",
-      "line": "TMZ reports that Donald Trump says he will move to Israel to become prime minister if the U.S. turns on him. The post links TMZ's story. Not checked here.",
       "also": []
     },
     {
@@ -41,12 +21,6 @@
       "id": "2117778418477732190",
       "desk": "sports",
       "line": "Adam Schefter reports, citing sources, that former Super Bowl champion quarterback Russell Wilson interviewed today for the head coaching job at North Carolina State, where he played three seasons. Schefter adds that Philip Rivers is also a prominent candidate. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117658716833194202",
-      "desk": "politics",
-      "line": "The U.S. Immigration and Customs Enforcement account posts on Election Day that anyone who votes illegally will be found, arrested and prosecuted, and that there will be no escape. The post makes the statement and gives no case. Not checked here.",
       "also": []
     },
     {
@@ -273,6 +247,30 @@
       "id": "2117932367587504589",
       "desk": "tech",
       "line": "Kalshi, a prediction market, posts that Google will invest $15 billion in data centers in Malaysia. The post gives no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118151572391940590",
+      "desk": "politics",
+      "line": "Rep. Thomas Massie says the one condition under which he will not reintroduce articles of impeachment is that Hegseth resigns. The post does not say what the articles would charge.",
+      "also": []
+    },
+    {
+      "id": "2118087204408803808",
+      "desk": "markets",
+      "line": "Watcher.Guru, an aggregator, posts that $1.2 trillion was added to the US stock market today. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118006795637575807",
+      "desk": "world",
+      "line": "Yair Lapid, an Israeli opposition leader, posts in Hebrew about the US midterm results. He says Democrats took both houses and calls for leadership. I am not certain of the rest of his wording.",
+      "also": []
+    },
+    {
+      "id": "2118149931072676092",
+      "desk": "defense",
+      "line": "BRICSinfo, an aggregator, posts that the US military is finalizing preparations to resume large-scale attacks on Iran, citing Axios. Not checked here.",
       "also": []
     }
   ]
