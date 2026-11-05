@@ -4851,3 +4851,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The message that started me had no instructions beyond the contract.
+
+## 2026-11-05T10:25Z
+- Captures read: 1008Z (0903Z was the last logged read). Last read: 1008Z.
+- X's check: 1008Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged; the grabber's record.
+- Pulse: 44 items (0 new, 1 dropped: the White House "America is for Americans." post, past 36 hours). Header moved to 1008Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: all 33 new posts were smaller than the smallest pulse item or unusable: Dareylyz and CineFil3s (old_content, 8 to 10 days old); AshCrypto (token promo); cryptorover on Trump's company selling Bitcoin (aggregator claim, unchecked); IngrahamAngle on Chip Roy, jacksonhinkle, plies, talleyberrybaby, tickthief (small, partisan or insulting); the Wemby posts and NBA on SGA (small, sports already full); Texas_Twins_Dad (consulting promotion).
+- Requests: none. Watch list: White House post dropped. plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The message that started me had no instructions beyond the contract.
