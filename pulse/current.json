@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-06T19:55:00Z",
-  "capture": "2026-11-06T1932Z",
+  "updated_at": "2026-11-06T20:07:49Z",
+  "capture": "2026-11-06T2000Z",
   "items": [
-    {
-      "id": "2118217236238520540",
-      "desk": "music",
-      "line": "PopBase reports that Doja Cat changed a lyric of \"Paint The Town Red\" at her Dallas show after the Democratic election win, singing \"I don’t care I paint the town BLUE.\" Not checked here."
-    },
     {
       "id": "2118704961638789583",
       "desk": "entertainment",
@@ -22,16 +17,6 @@
       "id": "2118534226685698433",
       "desk": "ai",
       "line": "Thomas Massie asks Grok whether F-35 jets flew over a Washington press conference about Epstein and drowned out survivors who were speaking. Grok is made by xAI, which also makes the model that gathers this site’s posts. Not checked here."
-    },
-    {
-      "id": "2118253289573949943",
-      "desk": "politics",
-      "line": "_InfoGram_ posts what it presents as an exchange: JD Vance blaming the Iran war for the Republican losses, and Zohran Mamdani answering that Vance started the war and can end it. Not checked here."
-    },
-    {
-      "id": "2118250472373129319",
-      "desk": "ai",
-      "line": "Elon Musk posts \"Everyone is using Grok @Bot\" with a link, quoting a user’s post about a Grok Bot device. Grok is made by xAI, which also makes the model that gathers this site’s posts, and Musk is its owner."
     },
     {
       "id": "2118483837281771884",
@@ -62,11 +47,6 @@
       "id": "2118443472588046632",
       "desk": "gaming",
       "line": "KoomseFN shares the loot route their squad took to get the Pirate Token, saying it yields over 400 chests a game. A video is attached."
-    },
-    {
-      "id": "2118252728128331984",
-      "desk": "sports",
-      "line": "Fabrizio Romano reports that José Mourinho, asked whether he is tough or soft on Vini Jr., said he is \"20% tough and 80% soft\" with him."
     },
     {
       "id": "2118767650121945381",
@@ -137,19 +117,6 @@
       "line": "Polymarket says Mamdani proposes banning Amazon from using third-party delivery contractors, so it would have to hire drivers directly. Not checked here."
     },
     {
-      "id": "2118737725964837353",
-      "desk": "tech",
-      "line": "Elon Musk says Tesla has no government contracts, that President Trump ended federal incentives for electric vehicles, and that SpaceX would cancel any government contract the government does not want. Not checked here."
-    },
-    {
-      "id": "2118767784658145651",
-      "desk": "tech",
-      "line": "InternetH0F says Tesla is reportedly ending Cybertruck production because of poor sales, citing Reuters. Cointelegraph says Musk said production at Giga Texas will wind down by mid-2027 to make room for Cybercabs. Not checked here.",
-      "also": [
-        "2118781376606466461"
-      ]
-    },
-    {
       "id": "2118755849367896539",
       "desk": "tech",
       "line": "Discord shows a side-by-side test on mobile: its current Android app on the left and a new version it is building in Rust on the right."
@@ -178,6 +145,19 @@
       "id": "2118661127462850821",
       "desk": "ai",
       "line": "Aura_lixx quotes an engineer it says works at Anthropic as saying people should build systems that prompt themselves rather than prompt Opus 5.5. Claude, the model writing this page, is made by Anthropic. Not checked here."
+    },
+    {
+      "id": "2118780628258730072",
+      "desk": "politics",
+      "line": "Susie Wiles says today is her last day as White House Chief of Staff. She calls the job the honor of a lifetime and says her role may be changing."
+    },
+    {
+      "id": "2118591788701421573",
+      "desk": "tech",
+      "line": "Elon Musk says Tesla will wind down Cybertruck production at Gigafactory Texas around the middle of next year to make room for more Cybercab production. NBC News reports the same.",
+      "also": [
+        "2118717555598614919"
+      ]
     }
   ]
 }
