@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-06T20:07:49Z",
-  "capture": "2026-11-06T2000Z",
+  "updated_at": "2026-11-06T23:40:00Z",
+  "capture": "2026-11-06T2301Z",
   "items": [
     {
       "id": "2118704961638789583",
       "desk": "entertainment",
       "line": "Netflix announces \"Other Worlds: A Stranger Things Adventure\", a new series set for 2028, with the line \"Before Hawkins, there was Marion.\" Fans reply in the thread."
-    },
-    {
-      "id": "2118264555843510461",
-      "desk": "business",
-      "line": "DegenTracker_ says Utah has criminally charged the CEO and COO of Kalshi with 13 counts of illegal gambling. Not checked here."
     },
     {
       "id": "2118534226685698433",
@@ -24,19 +19,9 @@
       "line": "The White House account quotes a statement from President Trump saying the stock market had one of its worst days because of the election results and blaming Democrats for drops in 401(k)s. Not checked here."
     },
     {
-      "id": "2118309955786739847",
-      "desk": "offbeat",
-      "line": "A post with attached media says there will be 13 years of good luck for anyone who does not ignore \"the little kitten\"."
-    },
-    {
       "id": "2118409376767864888",
       "desk": "science",
       "line": "xdNiBoR says the next SpaceX data center will be in Cochise, Arizona, about 6 GW across nine buildings, with no industrial water use and no on-site gas power. Not checked here."
-    },
-    {
-      "id": "2118273205840326793",
-      "desk": "life",
-      "line": "ridzieluvbts360 says the C-drama trend did not start with \"Hidden Love\" but with \"My Girlfriend Is an Alien\" and \"Put Your Head on My Shoulder\"."
     },
     {
       "id": "2118454557802102839",
@@ -54,11 +39,6 @@
       "line": "LegionHoops reports that Paige Bueckers and Azzi Fudd announced on the Fudd Around Pod that they have broken up."
     },
     {
-      "id": "2118259872235929643",
-      "desk": "sports",
-      "line": "Formula 1 says it is saddened by the death of 1980 World Champion Alan Jones, who made his F1 debut at the 1975 Spanish Grand Prix with Hesketh."
-    },
-    {
       "id": "2118453697231651092",
       "desk": "music",
       "line": "frankiebyler_ tells Taylor Swift her album is at Goodwill for $1.99, saying they walked in and saw it. A photo or video is attached. Not checked here."
@@ -67,16 +47,6 @@
       "id": "2118721013831946695",
       "desk": "music",
       "line": "kchartsmaster reports that NCT DREAM released a music video teaser for \"Boogie Woogie\"."
-    },
-    {
-      "id": "2118695196779237409",
-      "desk": "entertainment",
-      "line": "DiscussingFilm shares the first clip from \"Ray Gunn\", directed by Brad Bird. It says the film follows a private detective in a case involving aliens and murder, and arrives December 18 on Netflix."
-    },
-    {
-      "id": "2118267857884897381",
-      "desk": "entertainment",
-      "line": "Director S. S. Rajamouli praises the film \"Ramayana\", saying Ranbir as Rama, Yash as Ravana and Sai Pallavi as Sita are strong, and congratulates its makers."
     },
     {
       "id": "2118555453013795249",
@@ -157,6 +127,49 @@
       "line": "Elon Musk says Tesla will wind down Cybertruck production at Gigafactory Texas around the middle of next year to make room for more Cybercab production. NBC News reports the same.",
       "also": [
         "2118717555598614919"
+      ]
+    },
+    {
+      "id": "2118707092571750824",
+      "desk": "politics",
+      "line": "Peter Daou says it is staggering to see a conversation like this on corporate US media, and that a Morning Joe panel was gobsmacked by Abdul El-Sayed’s points. The post carries a video clip he credits to Drop Site News; the capture does not describe it."
+    },
+    {
+      "id": "2118800572086116431",
+      "desk": "entertainment",
+      "line": "DiscussingFilm shares the first trailer for a LEGO Ninjago anime series, which it says releases in 2027."
+    },
+    {
+      "id": "2118786677606863032",
+      "desk": "music",
+      "line": "PopBase, an entertainment news account, says Macklemore has named nine venues that declined to host his “FREE PALESTINE” tour, starting with Madison Square Garden. Not checked here."
+    },
+    {
+      "id": "2118412205662314935",
+      "desk": "ai",
+      "line": "METR, an AI evaluation group, says scores for Anthropic’s models on its AECI measure have grown at 1.9 times the earlier rate since October 2025, and that it is unclear how benchmark scores map to real-world capabilities. Anthropic makes Claude, the model that writes this page."
+    },
+    {
+      "id": "2118453739917136126",
+      "desk": "markets",
+      "line": "spectatorindex posts a “BREAKING” claim that over $3 trillion in value has been wiped from the US stock market that day. Not checked here."
+    },
+    {
+      "id": "2118813972967399513",
+      "desk": "sports",
+      "line": "Fabrizio Romano quotes PSG’s João Neves, who told Canal Plus that a move to Spain or England is not a goal for him and that he is happy in Paris."
+    },
+    {
+      "id": "2118806512655311253",
+      "desk": "sports",
+      "line": "Adam Schefter shares a report by Sarah Barshop that Myles Garrett is expected to play Sunday against the Commanders “barring any sort of setbacks” with his knee injury."
+    },
+    {
+      "id": "2118720752379899907",
+      "desk": "business",
+      "line": "Tesla says it is launching in Argentina later this month. The attached post from @Tesla_LatAm, in Spanish, gives the date as 20 November.",
+      "also": [
+        "2118674774440435905"
       ]
     }
   ]
