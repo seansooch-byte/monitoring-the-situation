@@ -1,271 +1,183 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-05T10:25:00Z",
-  "capture": "2026-11-05T1008Z",
+  "updated_at": "2026-11-06T19:55:00Z",
+  "capture": "2026-11-06T1932Z",
   "items": [
     {
-      "id": "2117773436718137533",
+      "id": "2118217236238520540",
+      "desk": "music",
+      "line": "PopBase reports that Doja Cat changed a lyric of \"Paint The Town Red\" at her Dallas show after the Democratic election win, singing \"I don’t care I paint the town BLUE.\" Not checked here."
+    },
+    {
+      "id": "2118704961638789583",
+      "desk": "entertainment",
+      "line": "Netflix announces \"Other Worlds: A Stranger Things Adventure\", a new series set for 2028, with the line \"Before Hawkins, there was Marion.\" Fans reply in the thread."
+    },
+    {
+      "id": "2118264555843510461",
+      "desk": "business",
+      "line": "DegenTracker_ says Utah has criminally charged the CEO and COO of Kalshi with 13 counts of illegal gambling. Not checked here."
+    },
+    {
+      "id": "2118534226685698433",
+      "desk": "ai",
+      "line": "Thomas Massie asks Grok whether F-35 jets flew over a Washington press conference about Epstein and drowned out survivors who were speaking. Grok is made by xAI, which also makes the model that gathers this site’s posts. Not checked here."
+    },
+    {
+      "id": "2118253289573949943",
       "desk": "politics",
-      "line": "Decision Desk HQ projects that Jon Ossoff wins the Georgia U.S. Senate general election, calling it at 7:18 PM EST. NBC News also projects an Ossoff win. Projections are not official results.",
+      "line": "_InfoGram_ posts what it presents as an exchange: JD Vance blaming the Iran war for the Republican losses, and Zohran Mamdani answering that Vance started the war and can end it. Not checked here."
+    },
+    {
+      "id": "2118250472373129319",
+      "desk": "ai",
+      "line": "Elon Musk posts \"Everyone is using Grok @Bot\" with a link, quoting a user’s post about a Grok Bot device. Grok is made by xAI, which also makes the model that gathers this site’s posts, and Musk is its owner."
+    },
+    {
+      "id": "2118483837281771884",
+      "desk": "politics",
+      "line": "The White House account quotes a statement from President Trump saying the stock market had one of its worst days because of the election results and blaming Democrats for drops in 401(k)s. Not checked here."
+    },
+    {
+      "id": "2118309955786739847",
+      "desk": "offbeat",
+      "line": "A post with attached media says there will be 13 years of good luck for anyone who does not ignore \"the little kitten\"."
+    },
+    {
+      "id": "2118409376767864888",
+      "desk": "science",
+      "line": "xdNiBoR says the next SpaceX data center will be in Cochise, Arizona, about 6 GW across nine buildings, with no industrial water use and no on-site gas power. Not checked here."
+    },
+    {
+      "id": "2118273205840326793",
+      "desk": "life",
+      "line": "ridzieluvbts360 says the C-drama trend did not start with \"Hidden Love\" but with \"My Girlfriend Is an Alien\" and \"Put Your Head on My Shoulder\"."
+    },
+    {
+      "id": "2118454557802102839",
+      "desk": "life",
+      "line": "gloccnim says they did not realise how well their parents raised them until they were around other people. The post has attached media."
+    },
+    {
+      "id": "2118443472588046632",
+      "desk": "gaming",
+      "line": "KoomseFN shares the loot route their squad took to get the Pirate Token, saying it yields over 400 chests a game. A video is attached."
+    },
+    {
+      "id": "2118252728128331984",
+      "desk": "sports",
+      "line": "Fabrizio Romano reports that José Mourinho, asked whether he is tough or soft on Vini Jr., said he is \"20% tough and 80% soft\" with him."
+    },
+    {
+      "id": "2118767650121945381",
+      "desk": "sports",
+      "line": "LegionHoops reports that Paige Bueckers and Azzi Fudd announced on the Fudd Around Pod that they have broken up."
+    },
+    {
+      "id": "2118259872235929643",
+      "desk": "sports",
+      "line": "Formula 1 says it is saddened by the death of 1980 World Champion Alan Jones, who made his F1 debut at the 1975 Spanish Grand Prix with Hesketh."
+    },
+    {
+      "id": "2118453697231651092",
+      "desk": "music",
+      "line": "frankiebyler_ tells Taylor Swift her album is at Goodwill for $1.99, saying they walked in and saw it. A photo or video is attached. Not checked here."
+    },
+    {
+      "id": "2118721013831946695",
+      "desk": "music",
+      "line": "kchartsmaster reports that NCT DREAM released a music video teaser for \"Boogie Woogie\"."
+    },
+    {
+      "id": "2118695196779237409",
+      "desk": "entertainment",
+      "line": "DiscussingFilm shares the first clip from \"Ray Gunn\", directed by Brad Bird. It says the film follows a private detective in a case involving aliens and murder, and arrives December 18 on Netflix."
+    },
+    {
+      "id": "2118267857884897381",
+      "desk": "entertainment",
+      "line": "Director S. S. Rajamouli praises the film \"Ramayana\", saying Ranbir as Rama, Yash as Ravana and Sai Pallavi as Sita are strong, and congratulates its makers."
+    },
+    {
+      "id": "2118555453013795249",
+      "desk": "gaming",
+      "line": "Pubity reports that Eiji Aonuma, a Zelda developer since 1998, says Nintendo’s choice not to do mass layoffs helps it make great games because long-term staff can teach junior developers."
+    },
+    {
+      "id": "2118444682921615445",
+      "desk": "offbeat",
+      "line": "Gabriele_Corno posts attached media with the caption \"Sometimes all you need is an outside cat to show some love\"."
+    },
+    {
+      "id": "2118778719837757648",
+      "desk": "politics",
+      "line": "Kaitlan Collins reports that Trump announces Stephen Miller will become his chief of staff. The White House posts Trump’s statement: Miller starts Monday, November 9, and Susie Wiles moves to the Trump Political Operation.",
       "also": [
-        "2117776820225315208"
+        "2118781463382331432"
       ]
     },
     {
-      "id": "2117778418477732190",
-      "desk": "sports",
-      "line": "Adam Schefter reports, citing sources, that former Super Bowl champion quarterback Russell Wilson interviewed today for the head coaching job at North Carolina State, where he played three seasons. Schefter adds that Philip Rivers is also a prominent candidate. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117824591481495910",
-      "desk": "sports",
-      "line": "SportsCenter posts a clip of Christian Bale talking about his upcoming role as Al Davis in the film \"Madden\", quoting Davis's motto, \"Once a Raider always a Raider\".",
-      "also": []
-    },
-    {
-      "id": "2117817990985204142",
-      "desk": "politics",
-      "line": "Acyn, who posts political clips, shares a video he says shows Fox calling South Carolina for Annie Andrews, with Hannity reacting \"Brutal.\" The post does not say which race. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117794005165748448",
-      "desk": "ai",
-      "line": "OpenAI chief executive Sam Altman says people should always be in control of the future, that OpenAI rejects the idea that people should be relegated to doing what \"AI systems think makes sense to reward in humans\", and that this should limit AI progress.",
-      "also": []
-    },
-    {
-      "id": "2117835771113615390",
-      "desk": "politics",
-      "line": "Senator Bernie Sanders says Democrats will now control the House and Senate and be able to hold Trump accountable, and that \"we must aggressively fight for working families.\" The count of seats is his statement and has not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2117862767831159287",
-      "desk": "politics",
-      "line": "Elon Musk posts: \"Guess my election-interfering space lasers didn’t work this time\", with a shrug emoji.",
-      "also": []
-    },
-    {
-      "id": "2117879878066508273",
-      "desk": "politics",
-      "line": "Abdul El-Sayed says he is headed to the U.S. Senate to serve Michigan, and that Michigan won together.",
-      "also": []
-    },
-    {
-      "id": "2117848335264702710",
-      "desk": "ideas",
-      "line": "Naval posts: \"Greed can be satisfied. Envy, cannot.\"",
-      "also": []
-    },
-    {
-      "id": "2117851011347788243",
-      "desk": "politics",
-      "line": "Senate Majority Leader John Thune says Senate Republicans have a strong record of accomplishment and will work with President Trump to stop what he calls the worst impulses of Democrat extremism as 2027 begins. These are his claims. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117830475964154096",
-      "desk": "politics",
-      "line": "Florida Governor Ron DeSantis says that if Republicans lose the seats where prediction markets favor Democrats, Democrats would hold 55 Senate seats, and that the chance of confirming a successor to Justice Thomas or Alito this term is zero. These are his projections. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117796372196032865",
-      "desk": "internet",
-      "line": "Popstonox, an aggregator, says Hasan Piker's midterm election stream was the second most viewed broadcast in the country with 210,000 live viewers, behind only NBC's Steve Kornacki. Its two photos have no description. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117855712722264198",
-      "desk": "politics",
-      "line": "Barack Obama posts a statement on the election results. He says voters want a politics that brings people together, thanks election officials and volunteers from both parties, and says the job now is to make changes where Democrats have the power and to prevent further damage.",
-      "also": []
-    },
-    {
-      "id": "2117821565073326128",
-      "desk": "politics",
-      "line": "House Democrats post the words \"Let's get to work.\" with no other text or media.",
-      "also": []
-    },
-    {
-      "id": "2118007139641737264",
-      "desk": "politics",
-      "line": "Eric Daugh, a political commentator, posts a clip he says shows Vice President JD Vance saying Republicans lost because of the Iran war, with comments of his own. Fox News reports the same Vance quote.",
-      "also": []
-    },
-    {
-      "id": "2118004988433641835",
-      "desk": "politics",
-      "line": "Vice President JD Vance writes that Republicans lost because of the Iran war, citing an unnamed pollster who he says found that many 2024 Trump voters backed Democrats. These are his claims. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117935611139195053",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts a short clip that it says reveals Channing Tatum’s voice as Gambit in \"Avengers: Doomsday.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2118028834515874112",
-      "desk": "ai",
-      "line": "Axiom, an AI maths company, says it is releasing a 16M-line formalization of the entire Stacks Project, a body of algebraic geometry, and that the code quality is optimized and the structure preserved. The post includes a video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2118035798666912030",
+      "id": "2118745377188766101",
       "desk": "world",
-      "line": "Unusual Whales, an aggregator, says Israel's Central Elections Committee has certified the results of last week's general election and that Netanyahu has lost his majority. The Times of Israel reports that the committee approved the final results; this line does not check the wording of the post.",
-      "also": []
+      "line": "WarMonitor3 says Iran is starting to hand out iodine tablets to residents near nuclear sites, and reads it as a sign that large strikes could be coming. Not checked here."
     },
     {
-      "id": "2117798981136736676",
-      "desk": "politics",
-      "line": "PpollingNumbers, a polling account, posts an NBC exit poll figure for Jewish voters: 67 percent Democrats, 32 percent Republicans. Not checked here.",
-      "also": []
+      "id": "2118550192324493418",
+      "desk": "justice",
+      "line": "nicksortor says three police officers were shot just outside Denver, Colorado, and that their conditions were unknown when it posted early on November 6 (UTC). Not checked here."
     },
     {
-      "id": "2117998279669793071",
-      "desk": "medicine",
-      "line": "Dick Vitale says his oncologist gave him \"super news\": his monthly bloodwork reports came back well. The post does not name the cancer or the treatment.",
-      "also": []
-    },
-    {
-      "id": "2118065507630772363",
-      "desk": "sports",
-      "line": "Liverpool's official account says the club suffered its first Champions League defeat of the season. The attached photo is captioned as a full-time score of Fenerbahce 3, Liverpool 2.",
-      "also": []
-    },
-    {
-      "id": "2117919394995003718",
-      "desk": "politics",
-      "line": "Historian and journalist Anne Applebaum writes that she wishes Elon Musk's $500 million had been spent on education, healthcare or the arts. The figure is hers and is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117950885292581143",
-      "desk": "sports",
-      "line": "Fabrizio Romano reports that Rodri has a hamstring injury and will be out for Barcelona and Spain for the next month, including Barcelona's game against Atlético this weekend. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117766605572645068",
-      "desk": "politics",
-      "line": "Sky News posts a video of Michigan Democratic Senate candidate Abdul El-Sayed confronting the Sky account @jamesmatthewsky. Sky says El-Sayed told him he would not answer his questions because he wants \"zero\" votes in the UK.",
-      "also": []
-    },
-    {
-      "id": "2118011328220758484",
-      "desk": "music",
-      "line": "Vatican News says Pope Leo XIV met the American singer-songwriter Bob Dylan in a private audience on Wednesday, November 4. The post carries a photo.",
-      "also": []
-    },
-    {
-      "id": "2117870212427194728",
-      "desk": "politics",
-      "line": "Clash Report posts a 23-second video of Abdul El-Sayed, a Michigan Senate candidate, addressing JD Vance. He says it is ironic that Vance is constitutionally obliged to swear him in in January. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2118000656757703031",
-      "desk": "offbeat",
-      "line": "Guinness World Records says Brenda Willison of the UK has been crowned holder of the world's loudest shout, at 105.9 dB. The post carries a video.",
-      "also": []
-    },
-    {
-      "id": "2118109850366259557",
-      "desk": "politics",
-      "line": "Rep. Ilhan Omar congratulates Abdul El-Sayed and says there will now be 8 Muslims serving in Congress. His win and that count are as she describes them. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2117899754533490828",
-      "desk": "business",
-      "line": "ShwetaKukreja_ says Canva is laying off 22% of its workforce, which the post puts at 1271 employees, and posts a clip of what it says is the CEO speaking. The layoff and the clip have not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2117840712855113793",
-      "desk": "politics",
-      "line": "Politico posts video from its Elections Live show. It says President Trump took a call from its reporter and talked about the blue wave and working with incoming congressional Democrats, and quotes him: \"I don’t want to be just sitting there for two years vetoing everything.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2118022591034081305",
-      "desk": "life",
-      "line": "The New York Post reports that a California city has made history by letting groups of three or more, such as throuples and foursomes, register legally as partners. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2118119451401048497",
-      "desk": "ai",
-      "line": "OpenAI says its security researchers built an autonomous pipeline that finds, exploits and patches software flaws. It says one run with an upcoming cyber model validated and patched 948 local privilege escalation vulnerabilities in the Linux kernel, at a total API cost of $1.2 million. Not checked here."
-    },
-    {
-      "id": "2118054336077127797",
-      "desk": "ai",
-      "line": "U.S. Representative Yassamin Ansari, a Democrat, writes that the first-day Democratic agenda should include a pause on advanced AI development, regulation of the industry and a ban on artificial superintelligence."
-    },
-    {
-      "id": "2117932367587504589",
-      "desk": "tech",
-      "line": "Kalshi, a prediction market, posts that Google will invest $15 billion in data centers in Malaysia. The post gives no source. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2118151572391940590",
-      "desk": "politics",
-      "line": "Rep. Thomas Massie says the one condition under which he will not reintroduce articles of impeachment is that Hegseth resigns. The post does not say what the articles would charge.",
-      "also": []
-    },
-    {
-      "id": "2118087204408803808",
+      "id": "2118508896864424256",
       "desk": "markets",
-      "line": "Watcher.Guru, an aggregator, posts that $1.2 trillion was added to the US stock market today. Not checked here.",
-      "also": []
+      "line": "WatcherGuru says Japan’s Nikkei 225 has officially entered a bear market as stocks fall. Not checked here."
     },
     {
-      "id": "2118006795637575807",
-      "desk": "world",
-      "line": "Yair Lapid, an Israeli opposition leader, posts in Hebrew about the US midterm results. He says Democrats took both houses and calls for leadership. I am not certain of the rest of his wording.",
-      "also": []
+      "id": "2118760029910126911",
+      "desk": "business",
+      "line": "Polymarket says Mamdani proposes banning Amazon from using third-party delivery contractors, so it would have to hire drivers directly. Not checked here."
     },
     {
-      "id": "2118149931072676092",
-      "desk": "defense",
-      "line": "BRICSinfo, an aggregator, posts that the US military is finalizing preparations to resume large-scale attacks on Iran, citing Axios. Not checked here.",
-      "also": []
+      "id": "2118737725964837353",
+      "desk": "tech",
+      "line": "Elon Musk says Tesla has no government contracts, that President Trump ended federal incentives for electric vehicles, and that SpaceX would cancel any government contract the government does not want. Not checked here."
     },
     {
-      "id": "2117998092767396302",
-      "desk": "politics",
-      "line": "The account of New York City Mayor Zohran Mamdani posts \"Good morning!\" with no other text or media.",
-      "also": []
+      "id": "2118767784658145651",
+      "desk": "tech",
+      "line": "InternetH0F says Tesla is reportedly ending Cybertruck production because of poor sales, citing Reuters. Cointelegraph says Musk said production at Giga Texas will wind down by mid-2027 to make room for Cybercabs. Not checked here.",
+      "also": [
+        "2118781376606466461"
+      ]
     },
     {
-      "id": "2118135945937527061",
-      "desk": "politics",
-      "line": "Journalist Natasha Bertrand quotes CNN, which reports that Rep. Thomas Massie told it he plans to force a vote to impeach Hegseth when Congress returns next week, and that multiple GOP sources expect it to pass. The post links the CNN story. Not checked here.",
-      "also": []
+      "id": "2118755849367896539",
+      "desk": "tech",
+      "line": "Discord shows a side-by-side test on mobile: its current Android app on the left and a new version it is building in Rust on the right."
     },
     {
-      "id": "2118125881067487633",
-      "desk": "politics",
-      "line": "Senator Ted Cruz writes that 2026 was the most consequential midterm election of our lifetimes. He says history is sometimes to be celebrated and other times mourned, and that it must be reckoned with. The post is cut off in the capture.",
-      "also": []
+      "id": "2118761581001728290",
+      "desk": "tech",
+      "line": "Al Jazeera English reports that more than 100 activists broke into a Microsoft data centre construction site in Amsterdam and hung anti-AI banners, the start of two days of protests in 16 countries."
     },
     {
-      "id": "2118161627577024922",
-      "desk": "politics",
-      "line": "Singer Nicki Minaj posts a video and a numbered list reacting to the midterm results. She says Trump is still president, that she does not vote but vetoes, and congratulates Reps. Luna and Donalds. She also says a billion dollars was spent on a losing campaign full of celebrities.",
-      "also": []
+      "id": "2118761981037723848",
+      "desk": "science",
+      "line": "Elon Musk says SpaceX revenue this quarter alone will be substantially higher than NASA’s entire annual budget. Not checked here."
     },
     {
-      "id": "2118161631549010276",
-      "desk": "gaming",
-      "line": "Nintendo of America posts a photo with the line \"The Master Sword awaits...\" for the release of The Legend of Zelda: Ocarina of Time, with the hashtag #OcarinaOfTime.",
-      "also": []
+      "id": "2118779276547756448",
+      "desk": "science",
+      "line": "NASA shows the sunshade that will fly on NEO Surveyor, a spacecraft meant to spot nearby asteroids and comets that ground-based telescopes might miss."
+    },
+    {
+      "id": "2118782084953116843",
+      "desk": "medicine",
+      "line": "Igor Bobic reports that Chris Murphy is out of the hospital. Quoting Murphy, he says Murphy was diagnosed with a small bleed in the thalamus region of his brain and will spend several weeks at a rehabilitation center."
+    },
+    {
+      "id": "2118661127462850821",
+      "desk": "ai",
+      "line": "Aura_lixx quotes an engineer it says works at Anthropic as saying people should build systems that prompt themselves rather than prompt Opus 5.5. Claude, the model writing this page, is made by Anthropic. Not checked here."
     }
   ]
 }
