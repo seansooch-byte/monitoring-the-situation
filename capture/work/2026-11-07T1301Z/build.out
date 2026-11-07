@@ -1,0 +1,10 @@
+watch 800 missing []
+wrote /workspace/monitoring-the-situation/capture/2026/11/07/1301Z.json posts 75 obs 875
+watch 800 / 800 missing [] cited_missing []
+trunc 87 changed [] cited_changed []
+left_out [('2113275037192990740', 'ad'), ('2113421423150842205', 'ad'), ('2118787368509653421', 'sexual'), ('2118990589970760192', 'cap:MarioNawfal'), ('2119027080549765515', 'cap:MarioNawfal'), ('2119029436691456134', 'cap:MarioNawfal'), ('2119029601808838972', 'cap:MarioNawfal'), ('2119030855368851806', 'cap:MarioNawfal'), ('2119031564625719592', 'cap:AdamSchefter'), ('2119032113554915459', 'cap:MarioNawfal'), ('2119034630263456126', 'cap:MarioNawfal'), ('2119037158526685240', 'cap:MarioNawfal'), ('2119038405883334780', 'cap:MarioNawfal'), ('2119038410367348844', 'cap:AdamSchefter'), ('2119039663424065863', 'cap:MarioNawfal'), ('2119040921530769417', 'cap:MarioNawfal'), ('2119042180320764263', 'cap:MarioNawfal'), ('2119043438041817573', 'cap:MarioNawfal'), ('2119044696811159733', 'cap:MarioNawfal')] total 19
+volume points [167, 167, 167, 167, 167]
+desk kept {'politics': 5, 'entertainment': 4, 'ideas': 5, 'sports': 5, 'internet': 4, 'life': 5}
+viral 17 rising 0 sensors {'culture': 7, 'sports': 8, 'online': 5}
+ctx replies ['2118742406321332240', '2118742705731690563', '2118742404383875173', '2118742684911448171', '2118742460469772444'] quotes ['2118742048409088349', '2118740619757789629', '2118740532222714067', '2118740384675463459', '2118742706826424494']
+trend names {'Cavaliers vs 76ers': 23, 'Honduras y Panamá': 0, 'CEPANIM': 0}

@@ -1,0 +1,9 @@
+watch 798 missing ['2119010723057827902', '2118722154263138617']
+wrote /workspace/monitoring-the-situation/capture/2026/11/07/1208Z.json posts 145 obs 932
+watch 798 / 800 missing ['2119010723057827902', '2118722154263138617'] cited_missing ['2119010723057827902']
+trunc 13
+left_out sample [('2118819257945580004', 'sexual'), ('2118761981037723848', 'cap:elonmusk'), ('2118915236350816300', 'sexual'), ('2119009489391132699', 'cap:Reuters'), ('2119003199168303375', 'cap:Reuters'), ('2119009489391132699', 'cap:Reuters'), ('2119003199168303375', 'cap:Reuters'), ('2119014663945916597', 'cap:Cointelegraph'), ('2119007191281598590', 'cap:Cointelegraph'), ('2118990589710704785', 'cap:cryptorover'), ('2119014663945916597', 'cap:Cointelegraph'), ('2119007191281598590', 'cap:Cointelegraph'), ('2118990589710704785', 'cap:cryptorover'), ('2118923371232833815', 'sexual'), ('2118819257945580004', 'sexual'), ('2118761981037723848', 'cap:elonmusk'), ('2118761981037723848', 'cap:elonmusk'), ('2118761981037723848', 'cap:elonmusk')] total 18
+volume points [167, 167, 167, 167, 167]
+desk kept {'politics': 5, 'world': 5, 'defense': 5, 'justice': 5, 'disaster': 5, 'markets': 5, 'business': 5, 'ai': 5, 'tech': 5, 'science': 5, 'medicine': 5, 'entertainment': 5, 'music': 5, 'gaming': 5, 'sports': 5, 'internet': 4, 'offbeat': 5}
+viral 29 rising 4 sensors {'news': 6, 'money': 7, 'science': 5}
+ctx replies ['2118766716507558024', '2118766868538306611', '2118766787563266531', '2118767007181263176', '2118766905255133366'] quotes ['2118763750534860860', '2118766555764834591', '2118764942216360365', '2118764098267877738', '2118764092244803788']

@@ -1,0 +1,16 @@
+2026-11-07T09:08:34Z capture 2026-11-07T0901Z (UTC hour 09) -> pulse pass
+2026-11-07T09:08:35Z starting pulse pass (contract/EDITOR-BRIEF-PULSE.md, claude-sonnet-5-5, max-turns 100, timeout 15m) capture=2026-11-07T0901Z
+2026-11-07T09:12:31Z pulse pass: ok turns=22 cost=0.35 (claude exit 0)
+| 2026-11-07T0908Z | EDITOR-BRIEF-PULSE.md | ok | 22 | 3m54s | 0.35 | 40/8206/681690/32687 | none |
+
+1. **Captures and X's check:** I read the 0901Z capture, the only one after the last logged read at 0809Z. X confirmed 33 posts, 0 were missing, 1 was withheld, and 1 came back with different words. The mismatch is 2118731806174499291, a Thai fan-account post by WEofficialTH whose hashtags differ from X's text. I didn't use it.
+2. **Pulse:** Two items came off because they were past 36 hours: KoomseFN (gaming) and Gabriele_Corno (offbeat). Offbeat now has no item. Nothing new went on, since the 0901Z capture held nothing both large enough and safe to describe. The pulse has 45 items, 43 of them on the front page. No stories were added, updated or left out.
+3. **Requests:** I filed none. The watch list is 55 posts and `plan.json` is rebuilt for 10Z.
+4. **Shipped:** Yes, commit a8c9a9bb, and the live audit was clean with 149 files matching. The log entry didn't make that commit, so I pushed it separately as 85780513. That second push was log-only and I didn't ship it.
+5. **For Sean:**
+   - The build still warns that the story `2026-10-31-france-halloween-protests-spread` cites a post X withholds (2116569280900706479).
+   - Three more items pass 36 hours within the hour: gloccnim, frankiebyler_ and spectatorindex.
+   - For the next story pass: the claim that Texas bans data centers, if it stays large.
+   - The message that started me gave no instructions beyond the contract, so there was nothing to ignore.
+pulse freshness: FRESH: as of 2026-11-07T09:08:00Z (5 min old)
+2026-11-07T09:12:33Z stale check: FRESH: as of 2026-11-07T09:08:00Z (5 min old)

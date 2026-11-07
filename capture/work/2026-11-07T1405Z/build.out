@@ -1,0 +1,10 @@
+watch 799 missing ['2118729606891200921']
+wrote /workspace/monitoring-the-situation/capture/2026/11/07/1405Z.json posts 106 obs 906
+watch 799 / 800 missing ['2118729606891200921'] cited_missing []
+trunc 53 changed [] cited_changed []
+left_out [('2118855953302827509', 'sexual'), ('2118878484080578953', 'sexual'), ('2118948086810911063', 'sexual'), ('2118970177446404147', 'sexual'), ('2119037434419646975', 'cap:Cointelegraph'), ('2119044696525746425', 'cap:Cointelegraph'), ('2119044934095229424', 'cap:Cointelegraph'), ('2119049525247754264', 'cap:visegrad24'), ('2119050837821730834', 'cap:visegrad24')] total 9
+volume points [167, 167, 167, 167, 167]
+desk kept {'politics': 5, 'world': 5, 'justice': 5, 'markets': 5, 'ai': 5, 'tech': 5, 'medicine': 5, 'entertainment': 5, 'music': 5, 'gaming': 5, 'sports': 5, 'internet': 4, 'offbeat': 2}
+viral 24 rising 3 sensors {'news': 7, 'money': 9, 'science': 2}
+ctx replies ['2118768788778988019'] quotes []
+trend names {'GAME DAY': 25, 'Caturday': 25, 'Bogle': 25}
