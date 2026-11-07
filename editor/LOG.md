@@ -5051,3 +5051,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-11-07-01 (Polish police and outlet posts on Krakow). Watch list: three Krakow ids added. plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T17:35Z
+- Captures read: 1705Z (1603Z was the last logged read). Last read: 1705Z.
+- X's check: 1705Z 90 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none used). Earlier records unchanged.
+- Pulse: 47 items listed, 45 on the front (the build held back a second elonmusk post and a second popbase post). 1 new: CNN on the armed man arrested near the White House (justice, so the desk keeps an item). 2 dropped, past 36 hours: nicksortor Denver officers shot (justice), itsme_urstruly (science). Header moved to 1705Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: milkbarpl and other Krakow clips and claims (suspect and officer claims unconfirmed; Krakow is on the bulletin); EricLDaugh Trump midterm-votes post (insulting quote, unchecked); Kai Cenat post and notch/C418 exchange (claims about real people); Oregon lacrosse posts (a private person); NotPerfectedYet (joke, point unclear); TrollFootball free kick (video has no description).
+- Requests: none. Watch list: two removed, CNN added. plan.json rebuilt for 18Z.
+- Shipped: yes, see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.

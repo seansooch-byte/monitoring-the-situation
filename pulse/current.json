@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T16:30:00Z",
-  "capture": "2026-11-07T1603Z",
+  "updated_at": "2026-11-07T17:35:00Z",
+  "capture": "2026-11-07T1705Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -30,11 +30,6 @@
       "id": "2118745377188766101",
       "desk": "world",
       "line": "WarMonitor3 says Iran is starting to hand out iodine tablets to residents near nuclear sites, and reads it as a sign that large strikes could be coming. Not checked here."
-    },
-    {
-      "id": "2118550192324493418",
-      "desk": "justice",
-      "line": "nicksortor says three police officers were shot just outside Denver, Colorado, and that their conditions were unknown when it posted early on November 6 (UTC). Not checked here."
     },
     {
       "id": "2118760029910126911",
@@ -124,11 +119,6 @@
       "also": [
         "2118732082843435305"
       ]
-    },
-    {
-      "id": "2118559144848535920",
-      "desk": "science",
-      "line": "A post says a small dibbler named Steve at Perth Zoo helped save his endangered species without having young, by serving as the first male that females met in breeding trials. The post says this is according to the zoo. Not checked here."
     },
     {
       "id": "2118814753154064501",
@@ -249,19 +239,22 @@
     {
       "id": "2118797679606353980",
       "desk": "disaster",
-      "line": "TNHokkaido, an account posting Hokkaido weather, shares a short video dated 5:08 a.m. on Saturday 7 November in Sapporo with the hashtag for snow. The post is in Japanese and the video has no description. What it shows is not checked here.",
-      "also": []
+      "line": "TNHokkaido, an account posting Hokkaido weather, shares a short video dated 5:08 a.m. on Saturday 7 November in Sapporo with the hashtag for snow. The post is in Japanese and the video has no description. What it shows is not checked here."
     },
     {
       "id": "2118769983341617521",
       "desk": "internet",
-      "line": "outof1focus posts a video it says is from the time Nickelodeon was hijacked for 6 seconds in 2007. The video has no description. Not checked here.",
-      "also": []
+      "line": "outof1focus posts a video it says is from the time Nickelodeon was hijacked for 6 seconds in 2007. The video has no description. Not checked here."
     },
     {
       "id": "2119088902866690441",
       "desk": "world",
       "line": "BBC Breaking reports that Polish police say five people were killed and around a dozen injured in a shooting in Krakow's main square. Motive has not been stated; see the story."
+    },
+    {
+      "id": "2118871810225615067",
+      "desk": "justice",
+      "line": "CNN reports that the US Secret Service arrested a man near the White House on Thursday who allegedly had several guns in a stolen car and was threatening to kill President Trump. The post links to CNN's own story. Not checked here."
     }
   ]
 }
