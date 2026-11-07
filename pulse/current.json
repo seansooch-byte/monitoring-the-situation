@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T03:20:00Z",
-  "capture": "2026-11-07T0300Z",
+  "updated_at": "2026-11-07T04:40:00Z",
+  "capture": "2026-11-07T0406Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -165,11 +165,6 @@
       "line": "Fabrizio Romano quotes PSG’s João Neves, who told Canal Plus that a move to Spain or England is not a goal for him and that he is happy in Paris."
     },
     {
-      "id": "2118806512655311253",
-      "desk": "sports",
-      "line": "Adam Schefter shares a report by Sarah Barshop that Myles Garrett is expected to play Sunday against the Commanders “barring any sort of setbacks” with his knee injury."
-    },
-    {
       "id": "2118720752379899907",
       "desk": "business",
       "line": "Tesla says it is launching in Argentina later this month. The attached post from @Tesla_LatAm, in Spanish, gives the date as 20 November.",
@@ -242,6 +237,16 @@
       "id": "2118541184092209425",
       "desk": "world",
       "line": "spectatorindex posts a “BREAKING” claim that Paraguay’s president has resigned after a bank collapse left millions of people without access to their accounts. Not checked here."
+    },
+    {
+      "id": "2118819452313575707",
+      "desk": "sports",
+      "line": "ESPN reports that Kristaps Porzingis announced he is stepping away from basketball to put his health first. It says he told fans his body has not responded as he expected and that he will work with the Warriors on a solution. Not checked here."
+    },
+    {
+      "id": "2118893768984162668",
+      "desk": "gaming",
+      "line": "The official World of Warcraft account says its WoW: Forever launch was the biggest in the game’s history by peak concurrent players, with the most returning players ever. Not checked here."
     }
   ]
 }
