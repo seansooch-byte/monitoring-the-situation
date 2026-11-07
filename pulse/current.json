@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T00:25:00Z",
-  "capture": "2026-11-07T0001Z",
+  "updated_at": "2026-11-07T01:30:00Z",
+  "capture": "2026-11-07T0101Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -199,6 +199,26 @@
       "id": "2118830445915734194",
       "desk": "defense",
       "line": "An account that follows the Strait of Hormuz says a US fighter jet struck an Iranian surface-to-air missile launcher on Qeshm Island after an Iranian missile was launched at it, citing initial reports and Iranian state media. Not checked here."
+    },
+    {
+      "id": "2118757868883050641",
+      "desk": "politics",
+      "line": "Rep. Nancy Mace says \"we will NOT be putting pronouns in our bio or email signature.\""
+    },
+    {
+      "id": "2118607040352493767",
+      "desk": "life",
+      "line": "An account named duke asks whether it is illegal to walk into any random university and attend lectures."
+    },
+    {
+      "id": "2118830021863215410",
+      "desk": "sports",
+      "line": "Ian Rapoport reports, citing sources, that Seahawks guard Quenton Nelson will have knee surgery to clean out cartilage, with a timeline of a few weeks, and that the plan is to avoid Injured Reserve."
+    },
+    {
+      "id": "2118572876978909556",
+      "desk": "ai",
+      "line": "Slangtongue lists artists, musicians, coders, writers, managers and researchers who each say AI sucks, then adds a person who cannot do any of those things saying it is the best tool ever."
     }
   ]
 }

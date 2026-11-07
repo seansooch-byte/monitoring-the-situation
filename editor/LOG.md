@@ -4901,3 +4901,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list rebuilt: 42 ids (pulse, also, pinned post). plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T01:30Z
+- Captures read: 0101Z (0001Z was the last logged read). Last read: 0101Z.
+- X's check: 0101Z 87 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged.
+- Pulse: 41 items listed, 40 on the front (the build held back a second Elon Musk post). 4 new: Rep. Nancy Mace on pronouns (politics), duke on attending university lectures (life), Ian Rapoport on Quenton Nelson's knee surgery (sports), Slangtongue's AI joke (ai). 0 dropped (nothing past 36 hours). Quiet: disaster, ideas, internet. Header moved to 0101Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: C418 reply (calls a named person a rapist); venusiiaa (point unclear); FilCrow_ Pokemon video (point unclear, no media description); USAO_LosAngeles arrest (sexual-content charge); WarHorizon on Paraguay, GOP__Ls on a named operative, MarioNawfal on Flynn and nukes (unchecked claims); further WhiteHouse, DiscussingFilm, Romano and Schefter posts (accounts already hold a place); partisan Miller posts (politics full). For the next story pass: Miller as chief of staff, the Flynn remarks on nuclear use in Iran, the Paraguay unrest claim, the Qeshm Island strike report.
+- Requests: none. Watch list rebuilt: 46 ids (pulse, also, pinned post). plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
