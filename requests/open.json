@@ -1,12 +1,5 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-11-07T17:35:00Z",
-  "requests": [
-    {
-      "id": "r-2026-11-07-01",
-      "kind": "search",
-      "post": null,
-      "ask": "Posts from Polish police (Policja), the Interior Ministry, Donald Tusk and Polish outlets (TVP, PAP, Onet) about the 7 November shooting at the Main Market Square in Krakow: the suspect, the motive, the count of dead and injured, and whether any protest was nearby."
-    }
-  ]
+  "updated_at": "2026-11-07T19:35:00Z",
+  "requests": []
 }
