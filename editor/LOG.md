@@ -4951,3 +4951,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 55 ids (Miyamoto post added, Aonuma removed). plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T06:20Z
+- Captures read: 0604Z (0506Z was the last logged read). Last read: 0604Z.
+- X's check: 0604Z 36 confirmed, 0 missing, 0 mismatched, 0 withheld. Nothing to flag.
+- Pulse: 46 items listed, 44 on the front (the build held back a second elonmusk post and a second spectatorindex post). 0 new, 0 dropped. Nothing past 36 hours, but METR (ai) and xdNiBoR (science) reach 36 hours within the hour and drop next pass. Header moved to 0604Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the 0604Z capture was small (36 posts). LeadingReport on John D. Rockefeller IV (death report from an aggregator, unchecked, politics full); DiscussingFilm on Godzilla Minus Zero's CinemaScore (small, entertainment full); old_content posts (OxNalds, KateShemirani, DrNimoYadav); petros_studios on Kaley Cuoco (appearance gossip); literatureading (unclear, private people). For the next story pass: the Rockefeller report, Godzilla Minus Zero's opening.
+- Requests: none. Watch list unchanged (55 ids), plan.json not rebuilt.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
