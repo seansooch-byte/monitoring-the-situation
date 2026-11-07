@@ -4911,3 +4911,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list rebuilt: 46 ids (pulse, also, pinned post). plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T02:50Z
+- Captures read: 0201Z (0101Z was the last logged read). Last read: 0201Z.
+- X's check: 0201Z 129 confirmed, 0 missing, 0 mismatched, 3 withheld. None used. Earlier records unchanged; the 0001Z mismatch (GoodSmile_US) stands as the grabber's record.
+- Pulse: 42 items listed (the build held back a second elonmusk post and a second CENTCOM post, which stand on their desk pages). 4 new: Musk on Terafab (science, replacing his SpaceX revenue post), CENTCOM Rewards for Justice offer on Iran's nuclear program (world), Cash App's sponsorship statement (internet, marked not checked), tradingchik on midterm seat losses (politics, 2026 figure marked not checked). 1 dropped (Musk revenue, account holds one place per desk). Nothing past 36 hours. Header moved to 0201Z.
+- Added: 2026-11-06-miller-replaces-wiles-chief-of-staff (politics). Updated: 2026-11-03-us-strike-qeshm-island (Trump's 6 November description of a new limited strike, Rewards for Justice offer; correction line added).
+- Left out: the Cash App and Welch podcast story (reason for the sponsorship loss rests on posts; not researched); Houston mayor and ICE (one partisan post, unchecked); Tara Bull lacrosse shooting (names a young athlete); Collin Rugg on Miller's 2003 remarks (unchecked); JoJoFromJerz (insult); election-not-certified, California-results and rap-single claims (unchecked); fertility-doctor death claim (named person, unchecked). For the next story pass: Starship orbital launch and Terafab, Cash App and the Welch podcast, Houston and ICE, Qatar's bridge deal.
+- Requests: none. Watch list rebuilt: 52 ids (pulse, also, pinned post, posts cited by stories of the last 48 hours). plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. Standard-mode web search returned nothing on current events; extended mode found the reporting. The message that started me had no instructions beyond the contract.

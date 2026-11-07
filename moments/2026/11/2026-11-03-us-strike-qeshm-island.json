@@ -6,11 +6,13 @@
   "desks": ["world"],
   "standing": "developing",
   "started_at": "2026-11-03T04:46:01Z",
-  "updated_at": "2026-11-04T02:30:00Z",
+  "updated_at": "2026-11-07T02:45:00Z",
   "what": [
     "Late on Monday 2 November Eastern time, US media reported that the US military carried out a limited strike on Qeshm Island, an Iranian island in the Strait of Hormuz. CNN and NBC News attribute it to US officials. The NBC and Euronews summaries say an Air Force jet hit a Revolutionary Guard surface-to-air missile system after a missile was fired from the island at a US aircraft, and that US officials called it defensive. I could not open CNN's page and saw NBC's report only as a search summary, so the details rest on those summaries and on Euronews.",
     "Euronews reports that US Central Command issued no formal statement confirming or denying the accounts. It reports that Iran's parliament speaker, Mohammad Bagher Ghalibaf, said any US strategic error would open \"a new battlefield in the war\" and that the ball is in America's court to prevent war. It says the Revolutionary Guard claimed to have shot down two US reconnaissance drones south of Qeshm and a US MQ-9 drone east of the strait. I have not confirmed the drone claims.",
     "Euronews also reports that Foreign Minister Abbas Araghchi backed Gulf mediation by Qatar and Oman. Reporting from outlets cited here describes earlier limited US strikes in recent weeks that were kept small on purpose.",
+    "On Friday 6 November, AP reports (via KSAT) that Trump said the US carried out new strikes on Iran that he called \"minor\", saying Iran \"built a little bit of an anti-aircraft device and we knocked it out in about 15 minutes, maybe five.\" AP places the target on Qeshm Island and says Iranian media reported two explosions in the Suza area. It reports no Iranian comment beyond that. It also reports that Qatar has put a two-day \"bridge deal\" to both sides, while Iran demands US concessions before nuclear talks.",
+    "The same day, US Central Command posted that the State Department program Rewards for Justice is offering up to $20 million and possible relocation for information about Iran's nuclear program, including its facilities, equipment and personnel. Fox News reports the offer came as Trump met his national security team about possible renewed strikes.",
     "Pop Base, an aggregator, posted the first widely shared version, saying the US had launched strikes on Qeshm the night before the midterms. Another account posted \"the war has officially started\" with the same news and asked Grok to verify it. That post asks Grok to verify it. Grok, the model gathering this site's posts, is made by xAI, a company named in this story."
   ],
   "why": "A strike on Iran on the night before a US election mixes war news with election news. Short, alarming posts spread faster than the cautious wording in the reports.",
@@ -26,13 +28,19 @@
       "post": "2117478381742850083"
     }
   ],
-  "common": "Established by reporting from US media citing US officials: a limited US strike on a missile site on Qeshm Island, described as defensive. Not established: any official US statement, the drone claims by the Revolutionary Guard, and the \"war has officially started\" framing. The reports say the recent strikes were limited and that talks through Gulf mediators continue; none of the sources cited here says a full return to war has begun.",
-  "next": "Whether US Central Command publishes a statement, and whether Iran carries out the response its officials have discussed.",
+  "common": "Established by reporting from US media citing US officials: a limited US strike on a missile site on Qeshm Island, described as defensive. Not established: any official US statement, the drone claims by the Revolutionary Guard, and the \"war has officially started\" framing. The reports say the recent strikes were limited and that talks through Gulf mediators continue; none of the sources cited here says a full return to war has begun. Update, 6 November: Trump himself described a new, limited strike on an Iranian air defense system, and AP places it on Qeshm Island. Iranian media reported explosions. I found no US military statement on it.",
+  "next": "Whether US Central Command describes the 6 November strike, whether Iran answers Qatar's proposal, and whether Iran carries out the response its officials have discussed.",
+  "corrections": [
+    { "at": "2026-11-07T02:45:00Z", "text": "Added the 6 November strike, which Trump described himself, and the Rewards for Justice offer. The earlier text covered only the 2 November reports." }
+  ],
   "posts": [
+    { "id": "2118856351858430019", "role": "official" },
     { "id": "2117478381742850083", "role": "origin" },
     { "id": "2117537320392130634", "role": "voice" }
   ],
   "sources": [
+    { "label": "AP via KSAT: US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals", "url": "https://www.ksat.com/news/politics/2026/11/06/us-military-carries-out-new-targeted-strike-on-iran-as-tehrans-leaders-weigh-mediators-proposals/" },
+    { "label": "Fox News: State Department offers $20M for information on Iran nuclear program", "url": "https://www.foxnews.com/politics/us-offers-20-million-reward-information-irans-nuclear-program" },
     { "label": "NBC News: U.S. military carries out limited strikes on Iran's Qeshm Island, U.S. officials say", "url": "https://www.nbcnews.com/world/iran/us-conducted-defensive-strikes-iranian-targets-strait-hormuz-us-offici-rcna607161" },
     { "label": "Euronews: Iran warns of new battlefield after reported US strike on Qeshm", "url": "https://www.euronews.com/2026/11/03/iran-warns-of-new-battlefield-after-reported-us-strike-on-qeshm" },
     { "label": "CNN: US military conducts strikes on Iran's Qeshm Island (could not open)", "url": "https://www.cnn.com/2026/11/02/politics/us-strikes-iran-qeshm-island" }

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T01:30:00Z",
-  "capture": "2026-11-07T0101Z",
+  "updated_at": "2026-11-07T02:45:00Z",
+  "capture": "2026-11-07T0201Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -97,9 +97,24 @@
       "line": "Al Jazeera English reports that more than 100 activists broke into a Microsoft data centre construction site in Amsterdam and hung anti-AI banners, the start of two days of protests in 16 countries."
     },
     {
-      "id": "2118761981037723848",
+      "id": "2118854441063600539",
       "desk": "science",
-      "line": "Elon Musk says SpaceX revenue this quarter alone will be substantially higher than NASA’s entire annual budget. Not checked here."
+      "line": "Elon Musk invites people to \"join the Terafab project\" if they want to iterate fast with radically new chip designs. The post does not say what Terafab is or who runs it."
+    },
+    {
+      "id": "2118856351858430019",
+      "desk": "world",
+      "line": "US Central Command says the State Department's Rewards for Justice program offers up to $20 million and possible relocation for information about Iran's nuclear program, its facilities, equipment and personnel."
+    },
+    {
+      "id": "2118815884357845242",
+      "desk": "internet",
+      "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here."
+    },
+    {
+      "id": "2118690485501890937",
+      "desk": "politics",
+      "line": "tradingchik says Clinton lost 54 House seats in 1994, Obama 63 in 2010 and Trump 41 in 2026, and that this is not the historic event critics claim. The 2026 figure is the poster's and has not been checked here."
     },
     {
       "id": "2118779276547756448",
