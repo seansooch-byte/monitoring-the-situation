@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-06-musk-cybertruck-wind-down",
+  "title": "Musk says Tesla will wind down Cybertruck production by mid-2027",
+  "dek": "The company's chief executive says the Texas line will make way for more Cybercab production. Sales have run far below his earlier forecast.",
+  "desks": ["business"],
+  "standing": "established",
+  "started_at": "2026-11-06T06:30:18Z",
+  "updated_at": "2026-11-07T11:40:00Z",
+  "what": [
+    "On 6 November Elon Musk wrote on X that Tesla will be winding down production of the Cybertruck at Gigafactory Texas around the middle of next year, to make room for increased Cybercab production. CBS News and TechCrunch both report the statement.",
+    "CBS News reports Kelley Blue Book data showing Tesla sold 20,237 Cybertrucks in 2025 and 38,965 in 2024. Musk had earlier predicted 250,000 a year. Electrek, in its headline, puts sales at about a tenth of the plan.",
+    "CBS News reports the Cybercab, a two-seat vehicle with no steering wheel or pedals, began production at the Texas plant in April 2026. It also reports that Tesla's stock rose 4.7 percent after the announcement.",
+    "Musk's post gives no exact end date and no detail on what happens to existing orders. I could not find a Tesla statement that adds either."
+  ],
+  "why": "The Cybertruck was a heavily promoted product, and the chief executive announced its end himself in a single post. News outlets, including the BBC, picked it up within hours.",
+  "next": "Tesla's next earnings report and filings should show whether the mid-2027 date holds.",
+  "posts": [
+    { "id": "2118591788701421573", "role": "origin" },
+    { "id": "2118652451993587895", "role": "voice" }
+  ],
+  "sources": [
+    {
+      "label": "CBS News: Musk says Tesla will end Cybertruck production next year",
+      "url": "https://www.cbsnews.com/news/tesla-ending-cybertruck-production-next-year/"
+    },
+    {
+      "label": "TechCrunch: Tesla will stop making the Cybertruck in 2027",
+      "url": "https://techcrunch.com/2026/11/06/tesla-will-stop-making-the-cybertruck-in-2027/"
+    },
+    {
+      "label": "Electrek: Tesla to end Cybertruck production as sales stall at about 10% of plan",
+      "url": "https://electrek.co/2026/11/06/tesla-ending-cybertruck-production-sales-10-percent-plan/"
+    }
+  ]
+}

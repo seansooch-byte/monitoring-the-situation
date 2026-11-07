@@ -5001,3 +5001,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 53 ids (three dropped posts removed, El-Sayed post added). plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T11:50Z
+- Captures read: 1108Z (1008Z was the last logged read). Last read: 1108Z.
+- X's check: 1108Z 42 confirmed, 1 missing (2119010723057827902, an offbeat incense video, not used), 0 mismatched, 0 withheld. Earlier records unchanged.
+- Pulse: 43 items listed, 42 on the front (second elonmusk post held back). 0 new, 0 dropped; nothing past 36 hours. Header moved to 1108Z. The 1108Z capture held nothing larger than what the pulse already shows.
+- Added: 2026-11-06-musk-cybertruck-wind-down (business), 2026-11-06-porzingis-steps-away (sports). Updated: none (the Miller and Qeshm stories were last checked at 02:45Z; I did not re-research them this pass).
+- Left out: Paraguay president resignation claim (spectatorindex; searches found no confirmation); Tesla chip fab and Terafab (no source beyond Musk's posts found); Musk federal contracts letter (drafted by a third party); Oregon police shooting (names a private person's family); Nikkei bear market and Texas data centre claims (no confirming source found); El-Sayed remark (not researched).
+- Requests: none. Watch list unchanged (cited posts of both new stories are already on it). plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.

@@ -1,0 +1,31 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-06-porzingis-steps-away",
+  "title": "Warriors center Kristaps Porzingis says he is stepping away from basketball",
+  "dek": "He says his body did not respond as he expected while he prepared for the season. What he is dealing with has not been made public.",
+  "desks": ["sports"],
+  "standing": "developing",
+  "started_at": "2026-11-06T21:34:57Z",
+  "updated_at": "2026-11-07T11:40:00Z",
+  "what": [
+    "ESPN reports that Kristaps Porzingis, a center for the Golden State Warriors, announced on 6 November that he is stepping away from the game to prioritize his health. ESPN quotes his statement as saying he wants to show the utmost respect for the Warriors and work with them to find a solution that makes sense.",
+    "He also wrote that he is doing good but is not where he wants to be to perform at the level he expects of himself, and that his body did not respond as he anticipated as he ramped up.",
+    "ESPN reports the contract is a two-year, $40 million extension signed in late June, that the Warriors will not pay the $20 million salary for now, and that the contract will not be voided. It reports the salary can still be used in trades before the February deadline.",
+    "Neither Porzingis nor the team has said what the health problem is. ESPN did not include a statement from the Warriors. The details of the contract and any trade come from ESPN's reporting, not from the player."
+  ],
+  "why": "A player with a large contract leaving mid-preparation raises questions about his health and about what the team does next. The ESPN post was the first many people saw of it.",
+  "next": "Whether the Warriors trade him before the February deadline, and whether either side says more about his health.",
+  "posts": [
+    { "id": "2118819452313575707", "role": "origin" }
+  ],
+  "sources": [
+    {
+      "label": "ESPN: Warriors' Kristaps Porzingis to step away, prioritize health",
+      "url": "https://www.espn.com/nba/story/_/id/50402041/warriors-kristaps-porzingis-step-away-prioritize-health"
+    },
+    {
+      "label": "Hoops Rumors: Kristaps Porzingis announces he's stepping away from basketball",
+      "url": "https://www.hoopsrumors.com/2026/11/kristaps-porzingis-announces-hes-stepping-away-from-basketball.html"
+    }
+  ]
+}
