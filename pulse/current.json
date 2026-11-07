@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T20:20:00Z",
-  "capture": "2026-11-07T2003Z",
+  "updated_at": "2026-11-07T21:30:00Z",
+  "capture": "2026-11-07T2104Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -237,6 +237,21 @@
       "id": "2118871810225615067",
       "desk": "justice",
       "line": "CNN reports that the US Secret Service arrested a man near the White House on Thursday who allegedly had several guns in a stolen car and was threatening to kill President Trump. The post links to CNN's own story. Not checked here."
+    },
+    {
+      "id": "2119140142665609474",
+      "desk": "politics",
+      "line": "MarioNawfal posts that Trump wants UFC head Dana White as his next White House press secretary, with UFC fighters as assistants to defend the White House against the \"Lunatic Left\". It says Trump made the offer; other accounts post the same. I found no news report confirming it. Not checked here."
+    },
+    {
+      "id": "2119122862179066168",
+      "desk": "politics",
+      "line": "Disclose.tv says the Washington Post reports that Laura Loomer was paid by private clients \"to make political posts\" without publicly disclosing the payments. The Post report was not found here. Not checked here."
+    },
+    {
+      "id": "2118712858326302770",
+      "desk": "gaming",
+      "line": "Stinkysunstep posts a 39-second video of a tsunami in Minecraft, saying the game was rewritten from scratch in Rust and that they modded in the tsunami."
     }
   ]
 }

@@ -5091,3 +5091,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T21:35Z
+- Captures read: 2104Z (2003Z was the last logged read). Last read: 2104Z.
+- X's check: 2104Z 94 confirmed, 0 missing, 0 mismatched, 1 withheld by X (none used).
+- Pulse: 47 items listed, 46 on the front (the build held back a second popbase post). 3 new (Dana White press secretary claim, Loomer/WaPo claim, Minecraft tsunami mod), 0 dropped. Header moved to 2104Z.
+- Added: none. Updated: none.
+- Left out: Dana White press secretary and Loomer paid-posts as stories (searched; no report found confirming either, claims rest on posts only); InstantSunrise Texas/Kirk post (point unclear, unchecked); BoratOnStree and vendicul clips (private persons); the_det_times chemo clip (a child); elonmusk Texas post and Fabrizio Romano (account holds a place); canadafreezy video (no description).
+- Requests: none. Watch list: 3 added. plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
