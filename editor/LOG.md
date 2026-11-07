@@ -5021,3 +5021,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 61 ids (WatcherGuru removed, two added). plan.json rebuilt for 14Z.
 - Shipped: yes, commit 7be65635, live audit clean (151 files match).
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T14:40Z
+- Captures read: 1405Z (1301Z was the last logged read). Last read: 1405Z.
+- X's check: 1405Z 105 confirmed, 0 missing, 1 mismatched (2118765186375143872, PLUZZ899FM_, not used), 0 withheld. Earlier records unchanged.
+- Pulse: 44 items listed, 44 on the front (the build held back a second elonmusk post and a second popbase post). 1 new: narendramodi Diwali video (world; the video has no description, so the line says what is not checked). 1 dropped, at 36 hours: Thomas Massie question to Grok (ai). Header moved to 1405Z. Nothing else in 1405Z was larger than what the pulse holds.
+- Added: none. Updated: none (pulse pass).
+- Left out: FrontIntelX Iran-attacked-Dubai claim (unconfirmed); ImBreckWorsham and TruePatriotVox Trump clips (point not checked); MarioNawfal Brazilian doctors (aggregator, one post, unconfirmed); BackChannelQ and EricLDaugh claims (unconfirmed); DeletelawZ police shooting (claims about a named person, unconfirmed); itispsychomath Russell Brand post (accuses a real person, insulting); azmir_hndrxx and plxnetriri (crude or point unclear).
+- Requests: none. Watch list: Massie removed, Modi added. plan.json rebuilt for 15Z.
+- Shipped: yes, see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.

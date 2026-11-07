@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T13:40:00Z",
-  "capture": "2026-11-07T1301Z",
+  "updated_at": "2026-11-07T14:35:00Z",
+  "capture": "2026-11-07T1405Z",
   "items": [
     {
       "id": "2118704961638789583",
       "desk": "entertainment",
       "line": "Netflix announces \"Other Worlds: A Stranger Things Adventure\", a new series set for 2028, with the line \"Before Hawkins, there was Marion.\" Fans reply in the thread."
-    },
-    {
-      "id": "2118534226685698433",
-      "desk": "ai",
-      "line": "Thomas Massie asks Grok whether F-35 jets flew over a Washington press conference about Epstein and drowned out survivors who were speaking. Grok is made by xAI, which also makes the model that gathers this site’s posts. Not checked here."
     },
     {
       "id": "2118767650121945381",
@@ -250,6 +245,11 @@
       "id": "2118862906150601176",
       "desk": "gaming",
       "line": "scubaryan_ posts a one-minute video with the caption that Kai Cenat took a break from his GTA marathon and started playing the game in real life. I could not see the video described, so what it shows is not checked here."
+    },
+    {
+      "id": "2119029619341013080",
+      "desk": "world",
+      "line": "India’s prime minister Narendra Modi posts a video with the words “Have a great Diwali!” The video has no description, so what it shows is not checked here."
     }
   ]
 }
