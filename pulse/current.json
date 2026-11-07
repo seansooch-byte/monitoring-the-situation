@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T22:35:00Z",
-  "capture": "2026-11-07T2205Z",
+  "updated_at": "2026-11-07T23:05:52Z",
+  "capture": "2026-11-07T2300Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -141,11 +141,6 @@
       ]
     },
     {
-      "id": "2118652451993587895",
-      "desk": "business",
-      "line": "BBC News reports that Elon Musk appears to signal the end of the road for the Cybertruck, and links to its story."
-    },
-    {
       "id": "2118888594563596455",
       "desk": "sports",
       "line": "SportsCenter posts a video and says Valparaiso beat Purdue at the buzzer in double overtime."
@@ -272,6 +267,11 @@
       "id": "2119160575171383799",
       "desk": "politics",
       "line": "Senator Bernie Sanders posts a list of policies with a share of people he says want each, such as 66% for Medicare for All and 79% for a 10% credit card interest rate cap. He gives no source in the post. Not checked here."
+    },
+    {
+      "id": "2119164498280067230",
+      "desk": "sports",
+      "line": "The FIFA Women’s World Cup account posts that Nigeria are the Under-17 Women’s World Cup 2026 champions."
     }
   ]
 }
