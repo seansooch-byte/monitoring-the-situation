@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T14:35:00Z",
-  "capture": "2026-11-07T1405Z",
+  "updated_at": "2026-11-07T15:35:00Z",
+  "capture": "2026-11-07T1508Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -179,11 +179,6 @@
       "line": "SportsCenter posts a video and says Valparaiso beat Purdue at the buzzer in double overtime."
     },
     {
-      "id": "2118541184092209425",
-      "desk": "world",
-      "line": "spectatorindex posts a “BREAKING” claim that Paraguay’s president has resigned after a bank collapse left millions of people without access to their accounts. Not checked here."
-    },
-    {
       "id": "2118819452313575707",
       "desk": "sports",
       "line": "ESPN reports that Kristaps Porzingis announced he is stepping away from basketball to put his health first. It says he told fans his body has not responded as he expected and that he will work with the Warriors on a solution. Not checked here."
@@ -250,6 +245,18 @@
       "id": "2119029619341013080",
       "desk": "world",
       "line": "India’s prime minister Narendra Modi posts a video with the words “Have a great Diwali!” The video has no description, so what it shows is not checked here."
+    },
+    {
+      "id": "2118797679606353980",
+      "desk": "disaster",
+      "line": "TNHokkaido, an account posting Hokkaido weather, shares a short video dated 5:08 a.m. on Saturday 7 November in Sapporo with the hashtag for snow. The post is in Japanese and the video has no description. What it shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2118769983341617521",
+      "desk": "internet",
+      "line": "outof1focus posts a video it says is from the time Nickelodeon was hijacked for 6 seconds in 2007. The video has no description. Not checked here.",
+      "also": []
     }
   ]
 }

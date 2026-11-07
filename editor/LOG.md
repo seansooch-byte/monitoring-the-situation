@@ -5031,3 +5031,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: Massie removed, Modi added. plan.json rebuilt for 15Z.
 - Shipped: yes, see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T15:35Z
+- Captures read: 1508Z (1405Z was the last logged read). Last read: 1508Z.
+- X's check: 1508Z 121 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier records unchanged.
+- Pulse: 47 items listed. 2 new: TNHokkaido Sapporo snow video (disaster; Japanese, video has no description, line says so), outof1focus Nickelodeon 2007 clip (internet; marked not checked). 1 dropped, past 36 hours: a world item (2118541184092209425). Header moved to 1508Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ChrisRMcGuire and AsiaLens on Jensen Huang (claims about a real person, unconfirmed); MLFootball (names an athlete's spouse); wavecheckers (a child's birthday); HarmeetKDhillon (insults aimed at children); StevenxTCG, cybersnitch, Rose_Hughes7 (point not clear, no media description); Schefter Henry post (sports full, smaller); FoxNews Mamdani (politics full, account already on).
+- Requests: none. Watch list: one removed, two added. plan.json rebuilt for 16Z.
+- Shipped: yes, see report.
+- For the main editor: the message that started me had no instructions beyond the contract.
