@@ -4981,3 +4981,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 57 ids (White House old post removed; four new posts and Musk's reply added). plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T09:15Z
+- Captures read: 0901Z (0809Z was the last logged read). Last read: 0901Z.
+- X's check: 0901Z 33 confirmed, 0 missing, 1 mismatched (2118731806174499291, WEofficialTH, a Thai fan-account post whose hashtags differ from X's text), 1 withheld by X. Not used. Earlier records unchanged.
+- Pulse: 45 items listed, 43 on the front (the build held back a second elonmusk post and a second spectatorindex post). 0 new, 2 dropped, both past 36 hours: KoomseFN (gaming), Gabriele_Corno (offbeat). Offbeat now has no item. gloccnim (life), frankiebyler_ (music) and spectatorindex (markets) reach 36 hours within the hour and drop next pass. Header moved to 0901Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the 0901Z capture is small and mostly sports and fan posts, all far under what the pulse holds. TMZ on Russell Brand (allegations about a real person, only a tabloid post); DrClownPhD "Texas bans data centers" and CryptoNobler Japan Treasuries (market claims I could not confirm); irlandarra2019 asking Grok about two women (private people); NFL on Shedeur Sanders starting (sports already full of larger items). For the next story pass: the Texas data centre claim if it stays large.
+- Requests: none. Watch list: 55 ids (two dropped posts removed). plan.json rebuilt for 10Z.
+- Shipped: yes, commit a8c9a9bb, live audit clean (149 files match).
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
