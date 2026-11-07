@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T06:20:00Z",
-  "capture": "2026-11-07T0604Z",
+  "updated_at": "2026-11-07T07:40:00Z",
+  "capture": "2026-11-07T0708Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -17,11 +17,6 @@
       "id": "2118483837281771884",
       "desk": "politics",
       "line": "The White House account quotes a statement from President Trump saying the stock market had one of its worst days because of the election results and blaming Democrats for drops in 401(k)s. Not checked here."
-    },
-    {
-      "id": "2118409376767864888",
-      "desk": "science",
-      "line": "xdNiBoR says the next SpaceX data center will be in Cochise, Arizona, about 6 GW across nine buildings, with no industrial water use and no on-site gas power. Not checked here."
     },
     {
       "id": "2118454557802102839",
@@ -143,11 +138,6 @@
       "id": "2118786677606863032",
       "desk": "music",
       "line": "PopBase, an entertainment news account, says Macklemore has named nine venues that declined to host his “FREE PALESTINE” tour, starting with Madison Square Garden. Not checked here."
-    },
-    {
-      "id": "2118412205662314935",
-      "desk": "ai",
-      "line": "METR, an AI evaluation group, says scores for Anthropic’s models on its AECI measure have grown at 1.9 times the earlier rate since October 2025, and that it is unclear how benchmark scores map to real-world capabilities. Anthropic makes Claude, the model that writes this page."
     },
     {
       "id": "2118453739917136126",
