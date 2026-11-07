@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T07:40:00Z",
-  "capture": "2026-11-07T0708Z",
+  "updated_at": "2026-11-07T08:45:00Z",
+  "capture": "2026-11-07T0809Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -12,11 +12,6 @@
       "id": "2118534226685698433",
       "desk": "ai",
       "line": "Thomas Massie asks Grok whether F-35 jets flew over a Washington press conference about Epstein and drowned out survivors who were speaking. Grok is made by xAI, which also makes the model that gathers this site’s posts. Not checked here."
-    },
-    {
-      "id": "2118483837281771884",
-      "desk": "politics",
-      "line": "The White House account quotes a statement from President Trump saying the stock market had one of its worst days because of the election results and blaming Democrats for drops in 401(k)s. Not checked here."
     },
     {
       "id": "2118454557802102839",
@@ -237,6 +232,29 @@
       "id": "2118777069975015686",
       "desk": "gaming",
       "line": "GoNintendoTweet reports that Shigeru Miyamoto was absent from Nintendo's investor Q&A because of a \"sudden health issue\" and is in stable condition. Not checked here."
+    },
+    {
+      "id": "2118754078423486585",
+      "desk": "politics",
+      "line": "The White House account posts that it is the official policy of the United States government that there are only two genders, male and female."
+    },
+    {
+      "id": "2118799563565998548",
+      "desk": "tech",
+      "line": "The account XFreeze says Elon Musk revealed that Tesla is building a research chip fab at Gigafactory Texas that could cut chip development cycles from one year to one month. Not checked here."
+    },
+    {
+      "id": "2118718688748777545",
+      "desk": "politics",
+      "line": "WR4NYGov drafts a letter for Elon Musk to send, offering to cancel his companies’ federal contracts if Democrats list which ones. Musk replies \"Exactly\" and says Tesla has no government contracts and SpaceX’s are the best product at the lowest price. Not checked here.",
+      "also": [
+        "2118737725964837353"
+      ]
+    },
+    {
+      "id": "2118738060196155540",
+      "desk": "internet",
+      "line": "FilCrow_ posts a 25-second video titled \"Pokemon in the hood\" and says it was made with Higgsfield."
     }
   ]
 }

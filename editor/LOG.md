@@ -4971,3 +4971,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 53 ids (METR and xdNiBoR removed). plan.json rebuilt for 08Z.
 - Shipped: yes, commit d04b978b, live audit clean (149 files match).
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T08:45Z
+- Captures read: 0809Z (0708Z was the last logged read). Last read: 0809Z.
+- X's check: 0809Z 33 confirmed, 0 missing, 0 mismatched, 2 withheld by X. None used. Earlier records unchanged.
+- Pulse: 47 items listed, 45 on the front (the build held back a second elonmusk post and a second spectatorindex post). 4 new: XFreeze on Tesla's research chip fab (tech, marked not checked); WR4NYGov's Musk contracts letter with Musk's reply attached (politics); FilCrow_ "Pokemon in the hood" video (internet); the White House gender-policy post, which replaces the White House's older stock-market post (one account, one place). 1 dropped: that older post. Nothing past 36 hours. Header moved to 0809Z. Earlier passes had left several posts of several million views off the pulse; I checked every confirmed post under 36 hours and added only the ones I could describe from their own words.
+- Added: none. Updated: none (pulse pass).
+- Left out: CollinRugg and TaraBull on a named college athlete shot by police (private person); charlesmore25 on Mia Khalifa (private life gossip); vxdeo on Kai Cenat (uncheckable claim about a person); BakkenShale (racial rhetoric); notch and C418 exchange (C418's reply accuses a person, unchecked); PeteHegseth "Patriots in control." (point unclear); MorEdge_Insight Kennedy clip and nayibbukele (content not clear enough); DTruthsQ (graphic, minor); EndWokeness, colonelhogans (unconfirmed election claims); mtgreenee (Wiles already on the pulse); third elonmusk post on Raptor 4 (account has two places). For the next story pass: Tesla chip fab and Terafab, Musk's federal contracts offer, the Oregon police shooting (needs a source that does not name the family), Stephen Miller as chief of staff.
+- Requests: none. Watch list: 57 ids (White House old post removed; four new posts and Musk's reply added). plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
