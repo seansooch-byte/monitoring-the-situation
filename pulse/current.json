@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T15:35:00Z",
-  "capture": "2026-11-07T1508Z",
+  "updated_at": "2026-11-07T16:30:00Z",
+  "capture": "2026-11-07T1603Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -257,6 +257,11 @@
       "desk": "internet",
       "line": "outof1focus posts a video it says is from the time Nickelodeon was hijacked for 6 seconds in 2007. The video has no description. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2119088902866690441",
+      "desk": "world",
+      "line": "BBC Breaking reports that Polish police say five people were killed and around a dozen injured in a shooting in Krakow's main square. Motive has not been stated; see the story."
     }
   ]
 }

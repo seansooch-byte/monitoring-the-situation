@@ -5041,3 +5041,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: one removed, two added. plan.json rebuilt for 16Z.
 - Shipped: yes, see report.
 - For the main editor: the message that started me had no instructions beyond the contract.
+
+## 2026-11-07T16:35Z
+- Captures read: 1603Z (1508Z was the last logged read). Last read: 1603Z.
+- X's check: 1603Z 138 confirmed, 0 missing, 0 mismatched, 4 withheld by X (none used). Earlier records unchanged.
+- Pulse: 48 items listed, 46 on the front (the build held back a second elonmusk post and a second popbase post). 1 new: BBC Breaking on the Krakow shooting (world). 0 dropped. Header moved to 1603Z.
+- Added: 2026-11-07-krakow-main-square-shooting (world). Updated: none; Qeshm re-checked, nothing newer than the story. Other live stories not re-sourced this pass.
+- Left out: MarioBojic's protest and Brussels framing as fact (unconfirmed; the story names it as one post's claim); Oregon lacrosse player shot by police (a private person); Mia Khalifa post (tabloid claim about a real person); MLFootball (names an athlete's spouse).
+- Requests: added r-2026-11-07-01 (Polish police and outlet posts on Krakow). Watch list: three Krakow ids added. plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
