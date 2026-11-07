@@ -4931,3 +4931,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list rebuilt: 54 ids (pulse, also, pinned post, posts cited by stories of the last 48 hours). plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T04:45Z
+- Captures read: 0406Z (0300Z was the last logged read). Last read: 0406Z.
+- X's check: 0406Z 131 confirmed, 0 missing, 1 mismatched (2118704968924311574, TXT_bighit), 1 withheld (2118627564516426127, DirtyMomd). None used. Earlier records unchanged; the grabber's record.
+- Pulse: 46 items listed, 44 on the front (the build held back a second elonmusk post and a second spectatorindex post, which stand on their desk pages). 2 new: ESPN on Kristaps Porzingis stepping away from basketball (sports, marked not checked), the World of Warcraft account on the WoW: Forever launch (gaming, relabelled from science, marked not checked). 1 dropped: Adam Schefter on Myles Garrett (sports had five items; ESPN is larger). Nothing past 36 hours. Header moved to 0406Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: BackChannelQ on a plane crash in Northeast Philadelphia (one small account, nothing else confirms it, text describes wreckage); WatcherGuru on Jensen Huang and a Chinese spy (claim about a named person, unchecked); DiscussingFilm on Harry Styles and Bond (rumour); charlesmore25 on Mia Khalifa (private life); CollinRugg, TaraBull, DefiantLs on the Oregon police shooting (names a young athlete); USmilitaryupdt on a US nuclear strike (unchecked, alarming); AFpost on Wiles being kicked out (unchecked); XFreeze on Terafab and further Musk and Miller posts (accounts already hold a place). For the next story pass: Philadelphia plane crash report, Porzingis, the Oregon police shooting lawsuit (use a source that does not name the athlete), Nvidia and the FT report.
+- Requests: none. Watch list rebuilt: 55 ids. plan.json rebuilt for 05Z.
+- Shipped: yes, commit 5978abec, live audit clean (149 files match).
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract. The pulse commit went out before this log entry; the log follows in the next commit.
