@@ -5011,3 +5011,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged (cited posts of both new stories are already on it). plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T13:45Z
+- Captures read: 1301Z (1208Z was read by the previous pulse pass). Last read: 1301Z.
+- X's check: 1208Z 127 confirmed, 0 missing, 3 mismatched (2118800191235178669 F1, 2119006956253741198 and 2119009236638417393 TXT_bighit, all hashtag differences; none used), 5 withheld by X (none used). 1301Z 75 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 47 items listed, 44 on the front (the build held back a second elonmusk post and a second popbase post). 2 new: rarestofall_ on family grudges (life), scubaryan_ Kai Cenat GTA clip (gaming; the video has no description, so the line says what is not checked). 1 dropped, past 36 hours: WatcherGuru (markets). Header moved to 1301Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: plxnetriri 2118768621753430301 (point not clear from its words); Howlingmutant0 (crude insult, sports); Fabrizio Romano Bernardo Silva captain (account already on the pulse); Schefter and RapSheet trade posts (sports full); bennyjohnson, factpostnews, Turley, Kelly, tedlieu on Miller (politics full, story-pass lead); HindutvaDon_ Mumbai birth figures (communal claim, unconfirmed); GuntherEagleman Electoral College claim (unconfirmed); BlueBirdy_Asa (insults aimed at a couple, private people).
+- Requests: none. Watch list: 61 ids (WatcherGuru removed, two added). plan.json rebuilt for 14Z.
+- Shipped: yes, commit 7be65635, live audit clean (151 files match).
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
