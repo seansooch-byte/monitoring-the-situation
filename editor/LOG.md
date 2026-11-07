@@ -4921,3 +4921,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list rebuilt: 52 ids (pulse, also, pinned post, posts cited by stories of the last 48 hours). plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. Standard-mode web search returned nothing on current events; extended mode found the reporting. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T03:25Z
+- Captures read: 0300Z (0201Z was the last logged read). Last read: 0300Z.
+- X's check: 0300Z 75 confirmed, 0 missing, 1 mismatched (2118645423581864326, ygtreasuremaker), 1 withheld (2118783475121561873, TruKaitx). None used. Earlier records unchanged; the grabber's record.
+- Pulse: 45 items listed, 43 on the front (the build held back a second elonmusk post and a second spectatorindex post, which stand on their desk pages). 4 new: Borys Kit on Pattinson's James Bond screen test with the DiscussingFilm post in `also` (entertainment, marked not checked), BBC News on the Cybertruck (business), SportsCenter on Valparaiso beating Purdue (sports), spectatorindex on a reported Paraguay resignation (world, marked not checked). 3 dropped: AJEnglish (tech, lowest reach, desk has others), CENTCOM A-10C photo (defense, desk has HormuzLetter), Aura_lixx (ai, desk has others). Nothing past 36 hours. Header moved to 0300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: colonelhogans on Charlie Kirk and Texas (joke about a death, midterm claim unchecked); nayibbukele (Haitian Creole, point not clear); lenka87reads, F1 Leclerc clip, BrickCenter_ NBA clip (point not clear without a description); richtosho (prompt to Grok, engagement bait); dadstartingover, literatureading, OhCehnehdeh, TruKaitx (private people or unclear); WallStreetApes on election results (unchecked claim); MarioNawfal on Iran (unchecked); zerohedge on foreign-born workers (unchecked figure); 60 Minutes and further politics posts (politics full); Embiid, Ronaldo and Ravens posts (sports full). For the next story pass: Paraguay bank collapse and resignation claim, Pattinson and the Bond screen tests, Valpo over Purdue, the Cybertruck wind-down, Zenni and others pausing ads on the Welch podcast.
+- Requests: none. Watch list rebuilt: 54 ids (pulse, also, pinned post, posts cited by stories of the last 48 hours). plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
