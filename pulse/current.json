@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T17:35:00Z",
-  "capture": "2026-11-07T1705Z",
+  "updated_at": "2026-11-07T18:45:00Z",
+  "capture": "2026-11-07T1806Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -77,14 +77,6 @@
       "line": "Susie Wiles says today is her last day as White House Chief of Staff. She calls the job the honor of a lifetime and says her role may be changing."
     },
     {
-      "id": "2118591788701421573",
-      "desk": "tech",
-      "line": "Elon Musk says Tesla will wind down Cybertruck production at Gigafactory Texas around the middle of next year to make room for more Cybercab production. NBC News reports the same.",
-      "also": [
-        "2118717555598614919"
-      ]
-    },
-    {
       "id": "2118707092571750824",
       "desk": "politics",
       "line": "Peter Daou says it is staggering to see a conversation like this on corporate US media, and that a Morning Joe panel was gobsmacked by Abdul El-Sayed’s points. The post carries a video clip he credits to Drop Site News; the capture does not describe it."
@@ -144,11 +136,6 @@
       "id": "2118830021863215410",
       "desk": "sports",
       "line": "Ian Rapoport reports, citing sources, that Seahawks guard Quenton Nelson will have knee surgery to clean out cartilage, with a timeline of a few weeks, and that the plan is to avoid Injured Reserve."
-    },
-    {
-      "id": "2118572876978909556",
-      "desk": "ai",
-      "line": "Slangtongue lists artists, musicians, coders, writers, managers and researchers who each say AI sucks, then adds a person who cannot do any of those things saying it is the best tool ever."
     },
     {
       "id": "2118888656589238392",

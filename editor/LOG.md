@@ -5061,3 +5061,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: two removed, CNN added. plan.json rebuilt for 18Z.
 - Shipped: yes, see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T18:45Z
+- Captures read: 1806Z (1705Z was the last logged read). Last read: 1806Z.
+- X's check: 1806Z 85 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none used). Earlier records unchanged.
+- Pulse: 45 items listed, 44 on the front (the build held back a second popbase post). 0 new. 2 dropped, past 36 hours: elonmusk Cybertruck post (2118591788701421573, still cited by a live story, so it stays on the watch list) and Slangalangutang (ai). Header moved to 1806Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: new 1806Z posts were mostly old content or small; DiscussingFilm Bond finalists and further elonmusk posts (account already holds a place); RichardHanania on Erika Kirk (quoted claim about a real person, unchecked); earlier leave-outs unchanged.
+- Requests: none. Watch list: one removed. plan.json rebuilt for 19Z.
+- Shipped: yes, see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
