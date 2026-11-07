@@ -5111,3 +5111,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: Mario Dana White post replaced by Variety's, 4 added. plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T23:15Z
+- Captures read: 2300Z (2205Z was the last logged read). Last read: 2300Z.
+- X's check: 2300Z 79 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none used).
+- Pulse: 51 items listed, 50 on the front (the build held back a second popbase post). 1 new (FIFA Women's World Cup account: Nigeria U17 champions), 1 dropped (BBC News Cybertruck item, past 36 hours). Header moved to 2300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: LeadingReport Georgia memory card post (unchecked count claim); Oregon/Ohio State fake punt posts (live game, sports has places); F1 provisional pole post (F1 holds a place); Fabrizio Romano posts (account holds a place); Kraków gunman naming post (names a person, unconfirmed).
+- Requests: none. Watch list: Nigeria post added. plan.json rebuilt for 00Z.
+- Shipped: yes, commit d835033c, live audit clean.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
