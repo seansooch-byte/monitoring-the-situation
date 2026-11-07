@@ -4991,3 +4991,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 55 ids (two dropped posts removed). plan.json rebuilt for 10Z.
 - Shipped: yes, commit a8c9a9bb, live audit clean (149 files match).
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T10:30Z
+- Captures read: 1008Z (0901Z was the last logged read). Last read: 1008Z.
+- X's check: 1008Z 38 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier records unchanged.
+- Pulse: 43 items listed, 42 on the front (the build held back a second elonmusk post). 1 new: Fox News clip of Abdul El-Sayed saying Michigan is the "capital of Arab America" (politics). 3 dropped, all past 36 hours: gloccnim (life), frankiebyler_ (music), spectatorindex (markets). Header moved to 1008Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: spencerpratt on conservatives and liberals (opinion, politics already has many larger items); PopCrave Macklemore venues (PopBase already covers it); Schumer and Parkhomenko on Stephen Miller (politics full, story-pass lead); cryptorover Vance/Iran talks and Fed hike claims (market claims I could not confirm); the "Tech CEOs" meme, RapidResponse47 link-only post, XFreeze Grok anecdote (point unclear or unchecked); the two old_content posts (Musk 2024, Graham 2016); sports and entertainment posts under what each desk holds. For the next story pass: Stephen Miller as chief of staff, El-Sayed's remark and the reaction to it.
+- Requests: none. Watch list: 53 ids (three dropped posts removed, El-Sayed post added). plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.

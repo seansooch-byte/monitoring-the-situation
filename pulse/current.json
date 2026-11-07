@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T09:10:00Z",
-  "capture": "2026-11-07T0901Z",
+  "updated_at": "2026-11-07T10:30:00Z",
+  "capture": "2026-11-07T1008Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -14,19 +14,9 @@
       "line": "Thomas Massie asks Grok whether F-35 jets flew over a Washington press conference about Epstein and drowned out survivors who were speaking. Grok is made by xAI, which also makes the model that gathers this site’s posts. Not checked here."
     },
     {
-      "id": "2118454557802102839",
-      "desk": "life",
-      "line": "gloccnim says they did not realise how well their parents raised them until they were around other people. The post has attached media."
-    },
-    {
       "id": "2118767650121945381",
       "desk": "sports",
       "line": "LegionHoops reports that Paige Bueckers and Azzi Fudd announced on the Fudd Around Pod that they have broken up."
-    },
-    {
-      "id": "2118453697231651092",
-      "desk": "music",
-      "line": "frankiebyler_ tells Taylor Swift her album is at Goodwill for $1.99, saying they walked in and saw it. A photo or video is attached. Not checked here."
     },
     {
       "id": "2118721013831946695",
@@ -123,11 +113,6 @@
       "id": "2118786677606863032",
       "desk": "music",
       "line": "PopBase, an entertainment news account, says Macklemore has named nine venues that declined to host his “FREE PALESTINE” tour, starting with Madison Square Garden. Not checked here."
-    },
-    {
-      "id": "2118453739917136126",
-      "desk": "markets",
-      "line": "spectatorindex posts a “BREAKING” claim that over $3 trillion in value has been wiped from the US stock market that day. Not checked here."
     },
     {
       "id": "2118813972967399513",
@@ -245,6 +230,11 @@
       "id": "2118738060196155540",
       "desk": "internet",
       "line": "FilCrow_ posts a 25-second video titled \"Pokemon in the hood\" and says it was made with Higgsfield."
+    },
+    {
+      "id": "2118878848305484277",
+      "desk": "politics",
+      "line": "Fox News posts a 24-second clip of Senator-elect Abdul El-Sayed saying in Washington that \"Michigan is the capital of Arab America.\" Fox says he pointed to the state’s large Arab American population."
     }
   ]
 }
