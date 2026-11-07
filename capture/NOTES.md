@@ -58,6 +58,7 @@ express something you saw. The editor reads this file on every pass.
 - 2026-10-10: run 2026-10-10T0000Z evening (8:00 PM ET / 00 UTC): 17 X reads (1000 to 983 left today). Watch 273; trends US+WW; quote/repost word "the" (2+1); sensors news/money/science; hourly desks; trend stream Louisville; screen 36 by id. No volume/stories/context/media descriptions. Non-hourly desks skipped. SKIP/SKIP_ALL absent on pipeline. Finalized 2026-10-09 daily scoreboard.
 
 - 2026-11-07: run 2026-11-07T0604Z overnight (1:04 AM EST / 06:04 UTC): 18 X reads (785 to 767 left today). Watch 400/400; trends US+WW; sensors news/money/science; hourly desks politics/entertainment/sports/internet; volume world/sports/internet/life/offbeat. No rising/viral search/screen/context/trend-name streams (overnight plan cut). Excluded sexual/doubtful DevShinobu 2118873354106982558 and libsoftiktok 1986233829179158568. Account cap dropped elonmusk by 1. Media descriptions not filled (partial).
+- 2026-11-07: run 2026-11-07T0708Z overnight (2:08 AM EST / 07:08 UTC): 20 X reads (767 to 747 left today). Watch 400/400; trends US+WW; sensors culture/sports/online; hourly desks politics/entertainment/sports/internet; volume defense/justice/disaster/markets; trend-name streams Luka/Miller/Adou (viral.global). No rising/screen/context (overnight plan cut). Excluded sexual 2118690934972133669, 2118767399369338911. Account cap dropped MarioNawfal by 3, NBA by 1. Media descriptions not filled (partial).
 
 ## Daily scoreboard
 
