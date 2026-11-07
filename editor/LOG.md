@@ -5071,3 +5071,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: one removed. plan.json rebuilt for 19Z.
 - Shipped: yes, see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T19:40Z
+- Captures read: 1904Z (1806Z was the last logged read). Last read: 1904Z.
+- X's check: 1904Z 91 confirmed, 0 missing, 2 mismatched, 0 withheld by X. Mismatched: 2119134020160082084 (SportsCenter, record is an RT text, X has different words) and 2119142888437133763 (makostacks, record is an RT text); neither used. Earlier records unchanged.
+- Pulse: 44 items listed, 43 on the front (the build held back a second popbase post). 0 new. 1 dropped, past 36 hours: millersgft (life, 2118607040352493767). Header moved to 1904Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: new 1904Z posts were small or old content; Nebraska coordinator firing and Browns/Rams injury news (sports already full, accounts hold a place); earlier leave-outs unchanged.
+- Requests: removed r-2026-11-07-01 (answered in 1705Z). Watch list: millersgft removed. plan.json rebuilt for 20Z.
+- Shipped: yes, see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
