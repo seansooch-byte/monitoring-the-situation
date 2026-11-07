@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T11:45:00Z",
-  "capture": "2026-11-07T1108Z",
+  "updated_at": "2026-11-07T12:20:00Z",
+  "capture": "2026-11-07T1208Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -235,6 +235,16 @@
       "id": "2118878848305484277",
       "desk": "politics",
       "line": "Fox News posts a 24-second clip of Senator-elect Abdul El-Sayed saying in Washington that \"Michigan is the capital of Arab America.\" Fox says he pointed to the state’s large Arab American population."
+    },
+    {
+      "id": "2118771063815274729",
+      "desk": "offbeat",
+      "line": "NatureUnedited posts a video of a group of king penguin chicks chasing a feral cat in the Falkland Islands, as its caption describes it. Not checked here."
+    },
+    {
+      "id": "2118900845370875984",
+      "desk": "entertainment",
+      "line": "PopBase says the reported finalists for the new James Bond are Callum Turner, Jack Lowden, Josh O’Connor, Robert Pattinson and Nicholas Hoult, and links its source. Not checked here."
     }
   ]
 }
