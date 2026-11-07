@@ -5101,3 +5101,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 3 added. plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T22:40Z
+- Captures read: 2205Z (2104Z was the last logged read). Last read: 2205Z.
+- X's check: 2205Z 82 confirmed, 0 missing, 1 mismatched (2119052344738631837, NCT 127 video, not used), 2 withheld by X (none used).
+- Pulse: 51 items listed, 50 on the front (the build held back a second popbase post). 4 new (AP on Eisenkot, Unusual Whales on AI layoffs, F1 Brazil grid, Sanders poll list), 1 swapped (Dana White item now cites Variety, the post carrying the text, in place of MarioNawfal). 0 dropped. Header moved to 2205Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: SCNext UCLA clip (a 17-year-old); visegrad24 Krakow and Hormuz posts (breaking, unchecked, BBC item already covers Krakow); Reuters Houston/ICE and Gulf of Oman posts (small); Cointelegraph Anthropic IPO post (unchecked claim); WarClandestine fraud post (opinion on an unconfirmed claim); Elon Musk and Fabrizio Romano posts (account holds a place); Dr. Dre/Ice Cube clip (named private-life allegations, unchecked); Onlyfans/grok image posts (sexual, withheld).
+- Requests: none. Watch list: Mario Dana White post replaced by Variety's, 4 added. plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.

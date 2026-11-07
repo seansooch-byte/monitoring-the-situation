@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T21:30:00Z",
-  "capture": "2026-11-07T2104Z",
+  "updated_at": "2026-11-07T22:35:00Z",
+  "capture": "2026-11-07T2205Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -239,9 +239,9 @@
       "line": "CNN reports that the US Secret Service arrested a man near the White House on Thursday who allegedly had several guns in a stolen car and was threatening to kill President Trump. The post links to CNN's own story. Not checked here."
     },
     {
-      "id": "2119140142665609474",
+      "id": "2119165325698826436",
       "desk": "politics",
-      "line": "MarioNawfal posts that Trump wants UFC head Dana White as his next White House press secretary, with UFC fighters as assistants to defend the White House against the \"Lunatic Left\". It says Trump made the offer; other accounts post the same. I found no news report confirming it. Not checked here."
+      "line": "Variety posts what it says is President Trump's statement offering UFC head Dana White the White House press secretary job, with named fighters as assistants to \"defend us against the Lunatic Left\". I found no news report confirming it. Not checked here."
     },
     {
       "id": "2119122862179066168",
@@ -252,6 +252,26 @@
       "id": "2118712858326302770",
       "desk": "gaming",
       "line": "Stinkysunstep posts a 39-second video of a tsunami in Minecraft, saying the game was rewritten from scratch in Rust and that they modded in the tsunami."
+    },
+    {
+      "id": "2119157583533515245",
+      "desk": "world",
+      "line": "AP reports that Israel's president has picked opposition candidate Gadi Eisenkot to form a new government, which it calls a setback for Prime Minister Benjamin Netanyahu."
+    },
+    {
+      "id": "2119158194643644686",
+      "desk": "business",
+      "line": "Unusual Whales, a markets account, posts a summary it attributes to The Guardian, an Atlanta Fed working paper and Challenger, Gray & Christmas, saying companies that replaced workers with AI are cleaning up errors. Not checked here."
+    },
+    {
+      "id": "2119177160539910203",
+      "desk": "sports",
+      "line": "Formula 1's official account posts a photo of the starting grid for Sunday's Brazilian Grand Prix and calls it mixed up."
+    },
+    {
+      "id": "2119160575171383799",
+      "desk": "politics",
+      "line": "Senator Bernie Sanders posts a list of policies with a share of people he says want each, such as 66% for Medicare for All and 79% for a 10% credit card interest rate cap. He gives no source in the post. Not checked here."
     }
   ]
 }
