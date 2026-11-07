@@ -4961,3 +4961,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged (55 ids), plan.json not rebuilt.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T07:40Z
+- Captures read: 0708Z (0604Z was the last logged read). Last read: 0708Z.
+- X's check: 0708Z 41 confirmed, 0 missing, 0 mismatched, 1 withheld by X. None used. Earlier records unchanged.
+- Pulse: 44 items listed, 42 on the front (the build held back a second elonmusk post and a second spectatorindex post). 0 new, 2 dropped: METR (ai) and xdNiBoR (science), both past 36 hours. Header moved to 0708Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: most of 0708Z is Luka Doncic's 53-point game (SportsCenter, Bleacher Report, NBA, Lakers, Barstool); sports already has five items, all far larger. Arsenal head tennis, PopBase Medusa and the Netflix movie post (entertainment and sports full, older or smaller); actingliketommy (profanity, pile-on); OldeWorldOrder and PatriotKim_2026 (politics full). For the next story pass: Luka's game and the full-court shot if it stays large.
+- Requests: none. Watch list: 53 ids (METR and xdNiBoR removed). plan.json rebuilt for 08Z.
+- Shipped: yes, commit d04b978b, live audit clean (149 files match).
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
