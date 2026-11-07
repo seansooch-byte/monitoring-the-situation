@@ -5081,3 +5081,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: removed r-2026-11-07-01 (answered in 1705Z). Watch list: millersgft removed. plan.json rebuilt for 20Z.
 - Shipped: yes, see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-07T20:20Z
+- Captures read: 2003Z (1904Z was the last logged read). Last read: 2003Z.
+- X's check: 2003Z 115 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none used). Earlier records unchanged.
+- Pulse: 44 items listed, 43 on the front (the build held back a second popbase post). 0 new. 0 dropped, none past 36 hours. Header moved to 2003Z. The 2003Z capture shows 2118854441063600539 and 2118799563565998548 as unavailable at 2009Z, but the capture says they were not re-read (omitted from the plan); X confirmed both earlier, so they stay.
+- Added: none. Updated: none (pulse pass).
+- Left out: Man City / Delap posts (sports full, Romano holds a place); BullTheoryio Georgia memory card (unchecked count claim); cb_doge Alphabet SpaceX filing (unchecked); TheEmpireWatch Azov claim (graphic, unconfirmed); toby_akyn doctor clip (private person); Massie post (point unclear, politics full); earlier leave-outs unchanged.
+- Requests: none. Watch list unchanged. plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
