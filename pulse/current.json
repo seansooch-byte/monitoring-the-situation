@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T04:40:00Z",
-  "capture": "2026-11-07T0406Z",
+  "updated_at": "2026-11-07T05:40:00Z",
+  "capture": "2026-11-07T0506Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -47,11 +47,6 @@
       "id": "2118721013831946695",
       "desk": "music",
       "line": "kchartsmaster reports that NCT DREAM released a music video teaser for \"Boogie Woogie\"."
-    },
-    {
-      "id": "2118555453013795249",
-      "desk": "gaming",
-      "line": "Pubity reports that Eiji Aonuma, a Zelda developer since 1998, says Nintendo’s choice not to do mass layoffs helps it make great games because long-term staff can teach junior developers."
     },
     {
       "id": "2118444682921615445",
@@ -247,6 +242,11 @@
       "id": "2118893768984162668",
       "desk": "gaming",
       "line": "The official World of Warcraft account says its WoW: Forever launch was the biggest in the game’s history by peak concurrent players, with the most returning players ever. Not checked here."
+    },
+    {
+      "id": "2118777069975015686",
+      "desk": "gaming",
+      "line": "GoNintendoTweet reports that Shigeru Miyamoto was absent from Nintendo's investor Q&A because of a \"sudden health issue\" and is in stable condition. Not checked here."
     }
   ]
 }

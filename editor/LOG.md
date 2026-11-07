@@ -4941,3 +4941,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list rebuilt: 55 ids. plan.json rebuilt for 05Z.
 - Shipped: yes, commit 5978abec, live audit clean (149 files match).
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract. The pulse commit went out before this log entry; the log follows in the next commit.
+
+## 2026-11-07T05:45Z
+- Captures read: 0506Z (0406Z was the last logged read). Last read: 0506Z.
+- X's check: 0506Z 103 confirmed, 0 missing, 0 mismatched, 3 withheld by X. None used. Earlier records unchanged.
+- Pulse: 46 items listed, 44 on the front (the build held back a second elonmusk post and a second spectatorindex post, which stand on their desk pages). 1 new: GoNintendoTweet on Miyamoto missing from Nintendo's investor Q&A (gaming, marked not checked). 1 dropped: Pubity on Aonuma (gaming, lowest reach, desk is at three). Nothing past 36 hours. Header moved to 0506Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: little in 0506Z was both new and large; Luka Doncic full-court shot and other NBA clips (sports full); megapmb wedding post (private people); noonchaand (profanity, life already has items); Zamedyzamzam (accuses a named host, private people). For the next story pass: Miyamoto's health and any Nintendo statement.
+- Requests: none. Watch list: 55 ids (Miyamoto post added, Aonuma removed). plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
