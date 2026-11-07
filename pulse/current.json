@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T12:20:00Z",
-  "capture": "2026-11-07T1208Z",
+  "updated_at": "2026-11-07T13:40:00Z",
+  "capture": "2026-11-07T1301Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -40,11 +40,6 @@
       "id": "2118550192324493418",
       "desk": "justice",
       "line": "nicksortor says three police officers were shot just outside Denver, Colorado, and that their conditions were unknown when it posted early on November 6 (UTC). Not checked here."
-    },
-    {
-      "id": "2118508896864424256",
-      "desk": "markets",
-      "line": "WatcherGuru says Japan’s Nikkei 225 has officially entered a bear market as stocks fall. Not checked here."
     },
     {
       "id": "2118760029910126911",
@@ -245,6 +240,16 @@
       "id": "2118900845370875984",
       "desk": "entertainment",
       "line": "PopBase says the reported finalists for the new James Bond are Callum Turner, Jack Lowden, Josh O’Connor, Robert Pattinson and Nicholas Hoult, and links its source. Not checked here."
+    },
+    {
+      "id": "2118753131555131610",
+      "desk": "life",
+      "line": "rarestofall_ says people who hold grudges against family members and go years without speaking to them are \"not good ppl\". It is an opinion post."
+    },
+    {
+      "id": "2118862906150601176",
+      "desk": "gaming",
+      "line": "scubaryan_ posts a one-minute video with the caption that Kai Cenat took a break from his GTA marathon and started playing the game in real life. I could not see the video described, so what it shows is not checked here."
     }
   ]
 }
