@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T17:25:00Z",
-  "capture": "2026-11-08T1707Z",
+  "updated_at": "2026-11-08T18:40:00Z",
+  "capture": "2026-11-08T1806Z",
   "items": [
     {
       "id": "2119029619341013080",
@@ -197,6 +197,16 @@
       "id": "2119399953240092933",
       "desk": "sports",
       "line": "NFL reporter Ian Rapoport says Ravens quarterback Lamar Jackson has told teammates he plans to return later this season, with the message \"Just stay alive.\" The post links his story, which cites sources. Not checked here."
+    },
+    {
+      "id": "2119359269774799256",
+      "desk": "medicine",
+      "line": "Gianl1974 says ICE agents reportedly blocked the emergency entrance of a Los Angeles hospital for two hours and ambulances had to go elsewhere. The post gives no source for the report. Not checked here."
+    },
+    {
+      "id": "2119135968548589693",
+      "desk": "offbeat",
+      "line": "CJ posts a photo with the caption \"When you go to work and see your cat living the good life.\" The photo has no description, so what it shows is not checked here."
     }
   ]
 }

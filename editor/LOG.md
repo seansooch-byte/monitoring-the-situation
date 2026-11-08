@@ -5291,3 +5291,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 1 id added. plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. A stale script from an earlier pass sat in my scratch directory under the name I chose; it ran once, rewrote the pulse with old content, and I reverted it with git checkout and redid the edit. Nothing from it was committed. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T18:42Z
+- Captures read: 1806Z (1707Z was the last logged read). Last read: 1806Z.
+- X's check: 1806Z 117 confirmed, 0 missing, 1 mismatched (2119447300464619824, a Stray Kids release post; not used), 7 withheld by X (none used). Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched, 1305Z 1 mismatched).
+- Pulse: 38 items listed, 36 on the front (build held back a second variety and reuters post). 2 new (Gianl1974 on the reported ICE blockade of a Los Angeles hospital entrance, medicine; CJ_Pumpfun cat photo, offbeat), 0 dropped (none past 36 hours). Header 1806Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Dave Chappelle quote post (quote unchecked, tied to a murder victim); TMZ LeBron stalking arrest (accused is a private person); remarks Georgia memory card (LeadingReport already holds it); Elon Musk's newer posts (account already placed); Kraków attacker video and EndWokeness Poland post (graphic risk, religion framing); AndyL5cc Chinese AI post (describes a private friend); Russell Brand prison post (claim unchecked, tied to an accusation); old_content posts. Justice stays without an item.
+- Requests: none. Watch list 2 ids added. plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
