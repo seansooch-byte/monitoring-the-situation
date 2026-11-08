@@ -5261,3 +5261,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 5 ids added. plan.json rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T15:15Z
+- Captures read: 1504Z (1404Z was the last logged read). Last read: 1504Z.
+- X's check: 1504Z 61 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched, 1305Z 1 mismatched).
+- Pulse: 34 items listed, 32 on the front (build held back a second variety and reuters post). 1 new (Turbine Traveller on the LAX climb-out conflict), 2 dropped past 36 hours (PopBase James Bond finalists, Warcraft WoW: Forever). Header 1504Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DailyLoud lacrosse player shot by police (a private person at the centre, claim unchecked, for a story pass if at all); SamDave2023 Trump "broken down" clip (link to a clickbait site, claim unchecked); RepLuna Senate letter and the Jeffries petition post (claims unchecked, politics full); NHL Crosby, Schefter Milton and other sports posts (sports full, accounts already placed); DoomBlazer and kyoruyeye anime posts (point unclear); sanelenkosiii couple post (private people); old_content posts.
+- Requests: none. Watch list 1 id added. plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
