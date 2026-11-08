@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-07T23:05:52Z",
-  "capture": "2026-11-07T2300Z",
+  "updated_at": "2026-11-08T00:25:00Z",
+  "capture": "2026-11-08T0006Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -236,7 +236,11 @@
     {
       "id": "2119165325698826436",
       "desk": "politics",
-      "line": "Variety posts what it says is President Trump's statement offering UFC head Dana White the White House press secretary job, with named fighters as assistants to \"defend us against the Lunatic Left\". I found no news report confirming it. Not checked here."
+      "line": "Variety posts what it says is President Trump's statement offering UFC head Dana White the White House press secretary job. Reuters's post says Trump wants White for it; unusual_whales says, citing CNN, that White declines. Not checked here.",
+      "also": [
+        "2119208291603525764",
+        "2119196670043033897"
+      ]
     },
     {
       "id": "2119122862179066168",

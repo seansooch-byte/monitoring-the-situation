@@ -5121,3 +5121,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: Nigeria post added. plan.json rebuilt for 00Z.
 - Shipped: yes, commit d835033c, live audit clean.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T00:25Z
+- Captures read: 0006Z (2300Z was the last logged read). Last read: 0006Z.
+- X's check: 0006Z 54 confirmed, 1 missing (2119198645102731485, BitcoinArchive gold post, not used), 0 mismatched, 0 withheld by X.
+- Pulse: 51 items listed, 50 on the front (the build held back a second popbase post). 0 new, 0 dropped; Dana White item updated with Reuters and unusual_whales (CNN-sourced decline) as context, "no report found" wording removed. Header moved to 0006Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: new 0006Z posts all small beside the pulse; Hanania Erika Kirk post (mocks a named private grief, not used); Ohio State/Oregon game posts (live game); Krakow attacker description (describes a person, unconfirmed); Milajoy Schumer/OPEC post (unevidenced claim about a real person); F1 pole posts (F1 holds a place).
+- Requests: none. Watch list: 2 added (the Reuters and unusual_whales Dana White posts). plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
