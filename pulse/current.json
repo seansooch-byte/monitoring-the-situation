@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T19:20:00Z",
-  "capture": "2026-11-08T1908Z",
+  "updated_at": "2026-11-08T20:35:00Z",
+  "capture": "2026-11-08T2003Z",
   "items": [
     {
       "id": "2119029619341013080",
@@ -207,6 +207,11 @@
       "id": "2119135968548589693",
       "desk": "offbeat",
       "line": "CJ posts a photo with the caption \"When you go to work and see your cat living the good life.\" The photo has no description, so what it shows is not checked here."
+    },
+    {
+      "id": "2119505045846999253",
+      "desk": "entertainment",
+      "line": "Pop Base, a pop culture account, posts two photos and says Taylor Swift was at today’s Chiefs game with Karlie Kloss. The photos have no description, so what they show is not checked here."
     }
   ]
 }
