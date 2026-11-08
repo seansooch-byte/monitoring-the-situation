@@ -1,21 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T06:10:50Z",
-  "capture": "2026-11-08T0604Z",
+  "updated_at": "2026-11-08T07:11:51Z",
+  "capture": "2026-11-08T0705Z",
   "items": [
-    {
-      "id": "2118767650121945381",
-      "desk": "sports",
-      "line": "LegionHoops reports that Paige Bueckers and Azzi Fudd announced on the Fudd Around Pod that they have broken up."
-    },
-    {
-      "id": "2118778719837757648",
-      "desk": "politics",
-      "line": "Kaitlan Collins reports that Trump announces Stephen Miller will become his chief of staff. The White House posts Trump’s statement: Miller starts Monday, November 9, and Susie Wiles moves to the Trump Political Operation.",
-      "also": [
-        "2118781463382331432"
-      ]
-    },
     {
       "id": "2118854441063600539",
       "desk": "science",
@@ -29,22 +16,10 @@
     {
       "id": "2118815884357845242",
       "desk": "internet",
-      "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here."
-    },
-    {
-      "id": "2118779276547756448",
-      "desk": "science",
-      "line": "NASA shows the sunshade that will fly on NEO Surveyor, a spacecraft meant to spot nearby asteroids and comets that ground-based telescopes might miss."
-    },
-    {
-      "id": "2118782084953116843",
-      "desk": "medicine",
-      "line": "Igor Bobic reports that Chris Murphy is out of the hospital. Quoting Murphy, he says Murphy was diagnosed with a small bleed in the thalamus region of his brain and will spend several weeks at a rehabilitation center."
-    },
-    {
-      "id": "2118780628258730072",
-      "desk": "politics",
-      "line": "Susie Wiles says today is her last day as White House Chief of Staff. She calls the job the honor of a lifetime and says her role may be changing."
+      "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here.",
+      "also": [
+        "2119187662812909944"
+      ]
     },
     {
       "id": "2118800572086116431",
@@ -95,11 +70,6 @@
       "line": "ESPN reports that Kristaps Porzingis announced he is stepping away from basketball to put his health first. It says he told fans his body has not responded as he expected and that he will work with the Warriors on a solution. Not checked here."
     },
     {
-      "id": "2118777069975015686",
-      "desk": "gaming",
-      "line": "GoNintendoTweet reports that Shigeru Miyamoto was absent from Nintendo's investor Q&A because of a \"sudden health issue\" and is in stable condition. Not checked here."
-    },
-    {
       "id": "2118799563565998548",
       "desk": "tech",
       "line": "The account XFreeze says Elon Musk revealed that Tesla is building a research chip fab at Gigafactory Texas that could cut chip development cycles from one year to one month. Not checked here."
@@ -108,11 +78,6 @@
       "id": "2118878848305484277",
       "desk": "politics",
       "line": "Fox News posts a 24-second clip of Senator-elect Abdul El-Sayed saying in Washington that \"Michigan is the capital of Arab America.\" Fox says he pointed to the state’s large Arab American population."
-    },
-    {
-      "id": "2118771063815274729",
-      "desk": "offbeat",
-      "line": "NatureUnedited posts a video of a group of king penguin chicks chasing a feral cat in the Falkland Islands, as its caption describes it. Not checked here."
     },
     {
       "id": "2118900845370875984",
@@ -133,11 +98,6 @@
       "id": "2118797679606353980",
       "desk": "disaster",
       "line": "TNHokkaido, an account posting Hokkaido weather, shares a short video dated 5:08 a.m. on Saturday 7 November in Sapporo with the hashtag for snow. The post is in Japanese and the video has no description. What it shows is not checked here."
-    },
-    {
-      "id": "2118769983341617521",
-      "desk": "internet",
-      "line": "outof1focus posts a video it says is from the time Nickelodeon was hijacked for 6 seconds in 2007. The video has no description. Not checked here."
     },
     {
       "id": "2119088902866690441",
@@ -212,6 +172,26 @@
       "id": "2119138672536965426",
       "desk": "politics",
       "line": "Aaron Rupar posts what he presents as a Trump statement offering UFC head Dana White the job of Press Secretary and asking him to bring several fighters as assistants. A later post from unusual_whales says CNN reports White declined. Not checked here."
+    },
+    {
+      "id": "2118822680031879384",
+      "desk": "politics",
+      "line": "Rep. Thomas Massie posts: \"Republicans hit a wall because they kissed The Wall.\" The post does not say what wall he means."
+    },
+    {
+      "id": "2119051697301647700",
+      "desk": "politics",
+      "line": "Richard Hanania posts a video and quotes Erika Kirk as saying she misses Charlie when she sees his hot sauce on grocery shelves. He adds \"It's an instinct.\" The quote is not checked here."
+    },
+    {
+      "id": "2119043594984280069",
+      "desk": "sports",
+      "line": "Adam Schefter reports, with Ian Rapoport, that several NFL teams including the Colts are weighing trade offers before Tuesday's deadline, and links an ESPN story on it."
+    },
+    {
+      "id": "2119093662957060389",
+      "desk": "science",
+      "line": "SpaceX says Starship is preparing for a catch and that Flight 15 is targeting launch as early as Friday, November 13, pending regulatory approval."
     }
   ]
 }
