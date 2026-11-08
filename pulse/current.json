@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T02:30:00Z",
-  "capture": "2026-11-08T0200Z",
+  "updated_at": "2026-11-08T03:35:00Z",
+  "capture": "2026-11-08T0300Z",
   "items": [
     {
       "id": "2118767650121945381",
       "desk": "sports",
       "line": "LegionHoops reports that Paige Bueckers and Azzi Fudd announced on the Fudd Around Pod that they have broken up."
-    },
-    {
-      "id": "2118721013831946695",
-      "desk": "music",
-      "line": "kchartsmaster reports that NCT DREAM released a music video teaser for \"Boogie Woogie\"."
     },
     {
       "id": "2118778719837757648",
@@ -82,22 +77,6 @@
       "line": "Fabrizio Romano quotes PSG’s João Neves, who told Canal Plus that a move to Spain or England is not a goal for him and that he is happy in Paris."
     },
     {
-      "id": "2118720752379899907",
-      "desk": "business",
-      "line": "Tesla says it is launching in Argentina later this month. The attached post from @Tesla_LatAm, in Spanish, gives the date as 20 November.",
-      "also": [
-        "2118674774440435905"
-      ]
-    },
-    {
-      "id": "2118719281038770389",
-      "desk": "science",
-      "line": "SpaceX announces what it calls the first orbital Starship launch carrying advanced Starlink satellites, and points to a film, \"Go For Orbit\". Elon Musk's quote of it says the next flight will try to catch both the booster and Starship.",
-      "also": [
-        "2118732082843435305"
-      ]
-    },
-    {
       "id": "2118814753154064501",
       "desk": "ai",
       "line": "Anthropic announces an Engineering Blog post on how \"dreaming\" helps Claude organize what it has learned and correct its mistakes. Claude is made by Anthropic, which also makes the model that writes this page."
@@ -149,14 +128,6 @@
       "id": "2118799563565998548",
       "desk": "tech",
       "line": "The account XFreeze says Elon Musk revealed that Tesla is building a research chip fab at Gigafactory Texas that could cut chip development cycles from one year to one month. Not checked here."
-    },
-    {
-      "id": "2118718688748777545",
-      "desk": "politics",
-      "line": "WR4NYGov drafts a letter for Elon Musk to send, offering to cancel his companies’ federal contracts if Democrats list which ones. Musk replies \"Exactly\" and says Tesla has no government contracts and SpaceX’s are the best product at the lowest price. Not checked here.",
-      "also": [
-        "2118737725964837353"
-      ]
     },
     {
       "id": "2118738060196155540",
@@ -228,11 +199,6 @@
       "line": "Disclose.tv says the Washington Post reports that Laura Loomer was paid by private clients \"to make political posts\" without publicly disclosing the payments. The Post report was not found here. Not checked here."
     },
     {
-      "id": "2118712858326302770",
-      "desk": "gaming",
-      "line": "Stinkysunstep posts a 39-second video of a tsunami in Minecraft, saying the game was rewritten from scratch in Rust and that they modded in the tsunami."
-    },
-    {
       "id": "2119157583533515245",
       "desk": "world",
       "line": "AP reports that Israel's president has picked opposition candidate Gadi Eisenkot to form a new government, which it calls a setback for Prime Minister Benjamin Netanyahu."
@@ -266,6 +232,16 @@
       "id": "2119225920590328115",
       "desk": "tech",
       "line": "Reuters says it has found Apple's secret list of words the iPhone keyboard will not autocomplete, including \"Dictator Trump\" and \"Sleepy Joe\", and points to its podcast for the reasons. Apple's reply, per Reuters, is that the keyboard avoids suggesting offensive language."
+    },
+    {
+      "id": "2119029831497044188",
+      "desk": "world",
+      "line": "Nigerian opposition figure Peter Obi posts an open letter to the country's president. He says the president has spent over 260 days outside Nigeria and asks what became of the fuel subsidy savings and the borrowed money. These are Obi's claims. Not checked here."
+    },
+    {
+      "id": "2119170683435417708",
+      "desk": "sports",
+      "line": "Bare Knuckle FC posts a 14-second video and says Corey Chapman has scored another knockout at BKFC 96, live on its streaming service."
     }
   ]
 }

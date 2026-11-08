@@ -5141,3 +5141,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 7 added (Apple, Dana White, DOJ posts). plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. One WebSearch result dated the Krakow shooting 15 November, later than the capture clock; I used only the rp.pl article. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T03:40Z
+- Captures read: 0300Z (0200Z was the last logged read). Last read: 0300Z.
+- X's check: 0300Z 65 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none used).
+- Pulse: 46 items listed, 45 on the front (the build held back a second popbase post). 2 new (Peter Obi open letter, world; Bare Knuckle FC knockout, sports), 5 dropped (NCT Dream, Tesla Argentina, Starship, WR4NYGov letter, Minecraft tsunami: past 36 hours). Header moved to 0300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Chris McGuire Nvidia thread and WatcherGuru post (claims about a named real person, unconfirmed here); Collin Rugg and Tara Bull posts on the Oregon police shooting (a private person); LeadingReport Georgia memory card (unchecked count claim); Hanania Erika Kirk clip (mocks a named person's grief).
+- Requests: none. Watch list: 2 added (Obi, BKFC). plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
