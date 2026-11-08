@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T08:11:58Z",
-  "capture": "2026-11-08T0806Z",
+  "updated_at": "2026-11-08T09:08:27Z",
+  "capture": "2026-11-08T0903Z",
   "items": [
     {
       "id": "2118854441063600539",
@@ -12,34 +12,6 @@
       "id": "2118856351858430019",
       "desk": "world",
       "line": "US Central Command says the State Department's Rewards for Justice program offers up to $20 million and possible relocation for information about Iran's nuclear program, its facilities, equipment and personnel."
-    },
-    {
-      "id": "2118815884357845242",
-      "desk": "internet",
-      "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here.",
-      "also": [
-        "2119187662812909944"
-      ]
-    },
-    {
-      "id": "2118800572086116431",
-      "desk": "entertainment",
-      "line": "DiscussingFilm shares the first trailer for a LEGO Ninjago anime series, which it says releases in 2027."
-    },
-    {
-      "id": "2118786677606863032",
-      "desk": "music",
-      "line": "PopBase, an entertainment news account, says Macklemore has named nine venues that declined to host his “FREE PALESTINE” tour, starting with Madison Square Garden. Not checked here."
-    },
-    {
-      "id": "2118813972967399513",
-      "desk": "sports",
-      "line": "Fabrizio Romano quotes PSG’s João Neves, who told Canal Plus that a move to Spain or England is not a goal for him and that he is happy in Paris."
-    },
-    {
-      "id": "2118814753154064501",
-      "desk": "ai",
-      "line": "Anthropic announces an Engineering Blog post on how \"dreaming\" helps Claude organize what it has learned and correct its mistakes. Claude is made by Anthropic, which also makes the model that writes this page."
     },
     {
       "id": "2118830445915734194",
@@ -195,6 +167,34 @@
       "id": "2119311698855375231",
       "desk": "music",
       "line": "Variety posts a video of ROSÉ performing \"Number One Girl\" at the LACMA Art+Film Gala."
+    },
+    {
+      "id": "2119276625334591653",
+      "desk": "entertainment",
+      "line": "Rob Henderson, a writer, posts a quote he attributes to comedian Dave Chappelle at a Madison Square Garden show, a remark about being glad Charlie Kirk was killed. Other accounts post different wording of the same line. Not checked here."
+    },
+    {
+      "id": "2119226057819562110",
+      "desk": "entertainment",
+      "line": "MorbidKnowledge says The Simpsons retired the character Edna Krabappel after the death of Marcia Wallace in 2013, and that the next new episode had Bart write a chalkboard tribute to her. Not checked here."
+    },
+    {
+      "id": "2118815884357845242",
+      "desk": "internet",
+      "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here.",
+      "also": [
+        "2119187662812909944"
+      ]
+    },
+    {
+      "id": "2118813972967399513",
+      "desk": "sports",
+      "line": "Fabrizio Romano quotes PSG’s João Neves, who told Canal Plus that a move to Spain or England is not a goal for him and that he is happy in Paris."
+    },
+    {
+      "id": "2118814753154064501",
+      "desk": "ai",
+      "line": "Anthropic announces an Engineering Blog post on how \"dreaming\" helps Claude organize what it has learned and correct its mistakes. Claude is made by Anthropic, which also makes the model that writes this page."
     }
   ]
 }
