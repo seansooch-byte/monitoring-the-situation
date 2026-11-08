@@ -5331,3 +5331,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 7 ids added. plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Two new story ids are dated by the event, not the origin post (the Nasdaq story's origin post is 6 November, the Bloomington story's 8 November): the shell would not let me rename files, so the ids and file names stand. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T22:35Z
+- Captures read: 2202Z (2106Z was the last logged read). Last read: 2202Z.
+- X's check: 2202Z 93 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none used). Older runs unchanged (2106Z 1 missing 2119538001894367671, 1 mismatched 2119052302904603008; earlier ones as before).
+- Pulse: 41 items listed. 1 new (TheStalwart quoting Bloomberg on Nvidia's board and Jensen Huang, business), 0 dropped (none past 36 hours). Header 2202Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Josh O'Connor Bond casting post (entertainment already holds four, source unnamed); NFL and Browns game clips (sports already holds five); White House Iran post (photo with no description, world already holds five); Sanders Medicare post (politics already holds six accounts); unusual_whales Anthropic quantum post (account already placed); CollinRugg Huang post (same topic); the streamer gun video and the Halverson post (private persons); KalshiFC goal post (no desk, promotional account).
+- Requests: none. Watch list 1 id added. plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The Huang item rests on a post quoting Bloomberg; a story pass could check it. The starting message had no instructions beyond the contract.

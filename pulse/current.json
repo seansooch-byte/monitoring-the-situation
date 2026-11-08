@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T21:30:00Z",
-  "capture": "2026-11-08T2106Z",
+  "updated_at": "2026-11-08T22:35:00Z",
+  "capture": "2026-11-08T2202Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -217,6 +217,11 @@
       "id": "2119505045846999253",
       "desk": "entertainment",
       "line": "Pop Base, a pop culture account, posts two photos and says Taylor Swift was at today’s Chiefs game with Karlie Kloss. The photos have no description, so what they show is not checked here."
+    },
+    {
+      "id": "2119523898366496990",
+      "desk": "business",
+      "line": "The Stalwart quotes a Bloomberg report that Nvidia’s board is investigating whether chief executive Jensen Huang was targeted by a foreign espionage plot, after he told employees he was unfaithful to his wife. Not checked here."
     }
   ]
 }
