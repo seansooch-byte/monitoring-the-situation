@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T09:08:27Z",
-  "capture": "2026-11-08T0903Z",
+  "updated_at": "2026-11-08T10:08:16Z",
+  "capture": "2026-11-08T1001Z",
   "items": [
     {
       "id": "2118854441063600539",
@@ -35,11 +35,6 @@
       "id": "2118888594563596455",
       "desk": "sports",
       "line": "SportsCenter posts a video and says Valparaiso beat Purdue at the buzzer in double overtime."
-    },
-    {
-      "id": "2118819452313575707",
-      "desk": "sports",
-      "line": "ESPN reports that Kristaps Porzingis announced he is stepping away from basketball to put his health first. It says he told fans his body has not responded as he expected and that he will work with the Warriors on a solution. Not checked here."
     },
     {
       "id": "2118878848305484277",
@@ -136,11 +131,6 @@
       "line": "Aaron Rupar posts what he presents as a Trump statement offering UFC head Dana White the job of Press Secretary and asking him to bring several fighters as assistants. A later post from unusual_whales says CNN reports White declined. Not checked here."
     },
     {
-      "id": "2118822680031879384",
-      "desk": "politics",
-      "line": "Rep. Thomas Massie posts: \"Republicans hit a wall because they kissed The Wall.\" The post does not say what wall he means."
-    },
-    {
       "id": "2119051697301647700",
       "desk": "politics",
       "line": "Richard Hanania posts a video and quotes Erika Kirk as saying she misses Charlie when she sees his hot sauce on grocery shelves. He adds \"It's an instinct.\" The quote is not checked here."
@@ -158,9 +148,10 @@
     {
       "id": "2119303935743705097",
       "desk": "world",
-      "line": "Reuters reports loud booms in Riyadh, the Saudi capital, after an early warning alert was issued. The post gives no cause. A second post says Reuters reported that Civil Defense later said the danger had passed. Not checked here.",
+      "line": "Reuters reports loud booms in Riyadh, the Saudi capital, after an early warning alert. A second post says Reuters reported that Civil Defense later said the danger had passed. A third says the Energy Ministry reported no casualties after missile debris hit an Aramco building. Not checked here.",
       "also": [
-        "2119309593239011715"
+        "2119309593239011715",
+        "2119351671251968297"
       ]
     },
     {
@@ -177,24 +168,6 @@
       "id": "2119226057819562110",
       "desk": "entertainment",
       "line": "MorbidKnowledge says The Simpsons retired the character Edna Krabappel after the death of Marcia Wallace in 2013, and that the next new episode had Bart write a chalkboard tribute to her. Not checked here."
-    },
-    {
-      "id": "2118815884357845242",
-      "desk": "internet",
-      "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here.",
-      "also": [
-        "2119187662812909944"
-      ]
-    },
-    {
-      "id": "2118813972967399513",
-      "desk": "sports",
-      "line": "Fabrizio Romano quotes PSG’s João Neves, who told Canal Plus that a move to Spain or England is not a goal for him and that he is happy in Paris."
-    },
-    {
-      "id": "2118814753154064501",
-      "desk": "ai",
-      "line": "Anthropic announces an Engineering Blog post on how \"dreaming\" helps Claude organize what it has learned and correct its mistakes. Claude is made by Anthropic, which also makes the model that writes this page."
     }
   ]
 }
