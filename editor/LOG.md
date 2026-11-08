@@ -5191,3 +5191,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 68 to 65 ids. plan.json rebuilt for 08Z.
 - Shipped: yes, see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T08:15Z
+- Captures read: 0806Z (0705Z was the last logged read). Last read: 0806Z.
+- X's check: 0806Z 33 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not used).
+- Pulse: 36 items listed, 33 on the front (the build held back a second popbase, variety and reuters post). 2 new (Reuters Riyadh booms on world, with the Osint613 post in `also`; Variety ROSÉ at LACMA gala on music), 2 dropped past 36 hours (TNHokkaido Sapporo snow, XFreeze Tesla fab). Header moved to 0806Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: choeshow Seattle Diwali post (names two activists, claim unconfirmed); LeadingReport and BullTheory Georgia memory card posts (I found no confirmation outside X); defaultclipz DDG clip (sexual remark about a streamer); Cointelegraph and cryptorover posts (crypto is retired); UNLV-Wyoming posts (small); F1 Kimi post (F1 already holds its place); MeidasTouch Talarico SNL (small, unchecked). Next story pass: the Georgia memory card claim and the Riyadh alert deserve research.
+- Requests: none. Watch list: 2 removed, 3 added. plan.json rebuilt for 09Z.
+- Shipped: yes, see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
