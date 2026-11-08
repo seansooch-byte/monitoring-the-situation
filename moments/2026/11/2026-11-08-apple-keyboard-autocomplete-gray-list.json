@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-08-apple-keyboard-autocomplete-gray-list",
+  "title": "Researcher finds Apple's iPhone keyboard will not suggest about 100,000 words and phrases, some political",
+  "dek": "Reuters reports on a hidden list. Apple says it avoids suggesting offensive language and that users can still type anything.",
+  "desks": [
+    "tech"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-08T00:30:00Z",
+  "updated_at": "2026-11-08T02:30:00Z",
+  "what": [
+    "On 6 November a researcher published a website documenting a multilingual \"gray list\" in the iPhone keyboard: tens of thousands of words and phrases that it will not autocomplete or offer by swipe typing. Reuters reports the researcher puts the number at about 100,000, not counting Chinese characters.",
+    "Reuters reports that most entries are vulgar, offensive or about drugs, sex or violence. Some are political, among them \"Dictator Trump\", \"Sleepy Joe\", \"Right wing conspiracy\", \"Tibetan independence\" and \"United Ireland\". The list is not a ban: users can type any of it.",
+    "Apple told Reuters that the keyboard is meant to avoid suggesting potentially inappropriate or offensive language, and that people can always type a word or override a suggestion. Reuters says Apple did not directly address the size of the list or why certain political phrases are on it. I could not open the researcher's site, so the entries above come from Reuters."
+  ],
+  "why": "The list holds two phrases about named US politicians, so it was read at once as a political matter. Reuters reports that most of it is ordinary vulgar and sensitive language.",
+  "next": "Whether Apple explains or changes the political entries.",
+  "posts": [
+    {
+      "id": "2119225920590328115",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Reuters (via Euronext): Exclusive: Apple's autocomplete restrictions include 'Dictator Trump' and 'Sleepy Joe,' researcher finds",
+      "url": "https://live.euronext.com/en/financial-news/exclusive-apples-autocomplete-restrictions-include-dictator-trump-and-sleepy-joe"
+    },
+    {
+      "label": "TechCentral: Ducking hell: inside Apple's hidden list of words the iPhone won't suggest",
+      "url": "https://techcentral.co.za/apple-autocomplete-grey-list-iphone-keyboard/288130/"
+    }
+  ]
+}

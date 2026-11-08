@@ -5131,3 +5131,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 2 added (the Reuters and unusual_whales Dana White posts). plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T02:30Z
+- Captures read: 0100Z, 0200Z (0006Z was the last logged read). Last read: 0200Z.
+- X's check: 0100Z 78 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none used). 0200Z 75 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 49 items listed, 48 on the front (the build held back a second popbase post). 1 new (Reuters on Apple's autocomplete list), 2 dropped (Netflix Stranger Things, Peter Daou, past 36 hours). Header moved to 0200Z.
+- Added: 2026-11-07-trump-offers-dana-white-press-secretary (politics), 2026-11-07-trump-orders-doj-probe-democrats-threats (politics, justice), 2026-11-08-apple-keyboard-autocomplete-gray-list (tech). Updated: 2026-11-07-krakow-main-square-shooting (six dead, 15 wounded per Rzeczpospolita; correction added; suspect not named). Not re-checked this pass: Qeshm, Ossoff/Cooper, Palm Beach, De Miguel, Porzingis.
+- Left out: Tommy Robinson boxing-event scuffle (live, unchecked, names private people); Krakow suspect's name and family (identifies people, unconfirmed); Anthropic IPO odds and valuation posts (unchecked; Anthropic makes the model writing this page); Yemen airstrikes and Gulf of Oman vessel (Reuters, small, not researched); Lakers-Kings ejected fan's wife (private person).
+- Requests: none. Watch list: 7 added (Apple, Dana White, DOJ posts). plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. One WebSearch result dated the Krakow shooting 15 November, later than the capture clock; I used only the rp.pl article. The message that started me had no instructions beyond the contract.

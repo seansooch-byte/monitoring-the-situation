@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T01:35:00Z",
-  "capture": "2026-11-08T0100Z",
+  "updated_at": "2026-11-08T02:30:00Z",
+  "capture": "2026-11-08T0200Z",
   "items": [
-    {
-      "id": "2118704961638789583",
-      "desk": "entertainment",
-      "line": "Netflix announces \"Other Worlds: A Stranger Things Adventure\", a new series set for 2028, with the line \"Before Hawkins, there was Marion.\" Fans reply in the thread."
-    },
     {
       "id": "2118767650121945381",
       "desk": "sports",
@@ -70,11 +65,6 @@
       "id": "2118780628258730072",
       "desk": "politics",
       "line": "Susie Wiles says today is her last day as White House Chief of Staff. She calls the job the honor of a lifetime and says her role may be changing."
-    },
-    {
-      "id": "2118707092571750824",
-      "desk": "politics",
-      "line": "Peter Daou says it is staggering to see a conversation like this on corporate US media, and that a Morning Joe panel was gobsmacked by Abdul El-Sayed’s points. The post carries a video clip he credits to Drop Site News; the capture does not describe it."
     },
     {
       "id": "2118800572086116431",
@@ -271,6 +261,11 @@
       "id": "2119202610322227327",
       "desk": "gaming",
       "line": "Fortnite Status publishes the drop rates for this season’s chest treasures after players asked. It says a weekly gold outfit is 1 in 1,562,500 per chest in a normal match, and lists boosted rates during Treasure Hours."
+    },
+    {
+      "id": "2119225920590328115",
+      "desk": "tech",
+      "line": "Reuters says it has found Apple's secret list of words the iPhone keyboard will not autocomplete, including \"Dictator Trump\" and \"Sleepy Joe\", and points to its podcast for the reasons. Apple's reply, per Reuters, is that the keyboard avoids suggesting offensive language."
     }
   ]
 }

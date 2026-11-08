@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-07-trump-orders-doj-probe-democrats-threats",
+  "title": "Trump orders Justice Department to look into Democrats' \"threats\" against his officials and donors",
+  "dek": "The president's post names Sen. Elissa Slotkin. It gives no details of the letters it describes, and the Justice Department had not confirmed an investigation.",
+  "desks": [
+    "politics",
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-07T17:40:00Z",
+  "updated_at": "2026-11-08T02:30:00Z",
+  "what": [
+    "On Saturday 7 November, Trump posted that Democrats are \"threatening a lot of people, including the Attorney General of the United States, and others, with Impeachment and many other forms of punishment.\" He called it \"extortion at the highest level\" and wrote: \"By copy of this statement, I am ordering the Department of Justice to look into this criminal act, immediately!\" He also said Democrats are threatening Republican donors with imprisonment. An account that shared the full text is cited here.",
+    "He named Sen. Elissa Slotkin of Michigan, saying she is going to go after young people who believe in Republican values. CNBC links that to a Slotkin speech about discouraging young people from joining the Trump administration. Trump wrote that \"Threatening letters have been sent to many people\". CNBC says the post does not say who sent them or who received them.",
+    "CNBC reports that the White House and Slotkin did not immediately respond. The reports I read say the Justice Department had not publicly confirmed a formal investigation as of Saturday. Fox News describes the order as an instruction to investigate Democrats over alleged threats against officials. One widely shared post called it an \"immediate criminal probe\". What is on the record is an order from the president and no confirmed probe.",
+    "Fox News says the order follows the midterms, in which Democrats took control of the House and Senate."
+  ],
+  "why": "A president directing the Justice Department at named political opponents is unusual, and it came days after the midterm result. The post is long and quotable, and accounts shared it with very different framing.",
+  "next": "Whether the Justice Department opens a matter, and whether anyone publishes the letters Trump describes.",
+  "posts": [
+    {
+      "id": "2119125830462828593",
+      "role": "origin"
+    },
+    {
+      "id": "2119146928436887774",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CNBC: Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+      "url": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html"
+    },
+    {
+      "label": "The Washington Post: Trump calls for Justice Department to investigate Democrats",
+      "url": "https://www.washingtonpost.com/politics/2026/11/07/trump-calls-justice-department-investigate-democrats/"
+    }
+  ]
+}

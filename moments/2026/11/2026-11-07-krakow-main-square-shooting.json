@@ -1,28 +1,57 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-07-krakow-main-square-shooting",
-  "title": "Five killed in shooting at Krakow's main square, Polish police say",
+  "title": "Six killed in shooting at Krakow's main square, Polish media report",
   "dek": "A gunman fired from a car in the centre of one of Poland's best known cities. Motive is not known, and posts are already giving it different names.",
-  "desks": ["world"],
+  "desks": [
+    "world"
+  ],
   "standing": "developing",
   "started_at": "2026-11-07T14:45:27Z",
-  "updated_at": "2026-11-07T16:30:00Z",
+  "updated_at": "2026-11-08T02:30:00Z",
   "what": [
-    "On the afternoon of 7 November, a gunman fired from a vehicle near Krakow's Main Market Square. The BBC reports that Polish police say five people were killed and around a dozen injured. CTV News gives 12 injured. JPost gives at least 10 injured, including police officers.",
-    "JPost reports that the suspect wore military-style clothing and used a long, military-type firearm, and that police shot him and detained him. It says he was taken to a hospital.",
-    "JPost reports that Prime Minister Donald Tusk posted that police were investigating a shooting and that he was being informed by the Interior Ministry.",
-    "I could not find any statement from police or the government on who the man is or why he did it. Some posts call it a terror attack. One post says it happened near a protest against the EU and Tusk and blames Brussels. None of the reports I opened mentions a protest, and I could not confirm one. Figures are as of the afternoon of 7 November and may change."
+    "On the afternoon of Saturday 7 November, a gunman fired from a car near Krakow's Main Market Square. The BBC first reported that Polish police said five people were killed and around a dozen injured. CTV News gave 12 injured. JPost reported that the suspect wore military-style clothing and used a long firearm, and that police shot him and detained him.",
+    "Later reporting raises the toll. The Polish daily Rzeczpospolita reports six dead and 15 wounded, including police officers, and says the suspect is a 24-year-old Polish citizen who held a firearms permit and was not known to police. It quotes officials saying he was not a soldier and had never served. It quotes Interior Minister Marcin Kierwinski saying shots were fired within three minutes of the call, which prevented a much larger massacre. I read the Rzeczpospolita report through a summary, not in full, and these figures have not been checked against a police statement.",
+    "I could not find an official statement on motive. Some posts call it a terror attack. One post says it happened near a protest against the EU and Tusk and blames Brussels. None of the reports I opened mentions a protest, and I could not confirm one. Posts also describe other bodies found elsewhere; I could not confirm that. This story does not name the suspect."
   ],
   "why": "A mass shooting in a historic city centre, where public shootings are rare, drew fast posting from news accounts before the facts were in. Early posts filled the gap on motive.",
-  "next": "Statements from Polish police or prosecutors on the suspect and motive, and the final count of dead and injured.",
+  "next": "Statements from Polish police or prosecutors on motive, and the final count of dead and injured.",
   "posts": [
-    { "id": "2119078784892621164", "role": "origin" },
-    { "id": "2119088902866690441", "role": "voice" },
-    { "id": "2119077871775793615", "role": "voice" }
+    {
+      "id": "2119078784892621164",
+      "role": "origin"
+    },
+    {
+      "id": "2119088902866690441",
+      "role": "voice"
+    },
+    {
+      "id": "2119077871775793615",
+      "role": "voice"
+    }
   ],
   "sources": [
-    { "label": "JPost: Five killed, almost a dozen injured in Krakow shooting", "url": "https://www.jpost.com/international/article-914135" },
-    { "label": "CTV News: Gunman opens fire in Polish city of Krakow, killing 5 people and injuring at least 12", "url": "https://www.ctvnews.ca/world/article/deaths-and-injuries-reported-after-shots-were-fired-in-a-market-square-in-krakow-poland/" },
-    { "label": "TVP World: Five dead and many injured amid shooting in Poland's Krakow", "url": "https://tvpworld.com/96358317/polandshotsfired-in-krakow-as-air-ambulance-deployed" }
+    {
+      "label": "JPost: Five killed, almost a dozen injured in Krakow shooting",
+      "url": "https://www.jpost.com/international/article-914135"
+    },
+    {
+      "label": "CTV News: Gunman opens fire in Polish city of Krakow, killing 5 people and injuring at least 12",
+      "url": "https://www.ctvnews.ca/world/article/deaths-and-injuries-reported-after-shots-were-fired-in-a-market-square-in-krakow-poland/"
+    },
+    {
+      "label": "TVP World: Five dead and many injured amid shooting in Poland's Krakow",
+      "url": "https://tvpworld.com/96358317/polandshotsfired-in-krakow-as-air-ambulance-deployed"
+    },
+    {
+      "label": "Rzeczpospolita: Szesc osob zginelo na Rynku Glownym w Krakowie, napastnik ranny i zatrzymany",
+      "url": "https://www.rp.pl/przestepczosc/art45459821-szesc-osob-zginelo-na-rynku-glownym-w-krakowie-napastnik-ranny-i-zatrzymany"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-11-08T02:30:00Z",
+      "text": "The toll was raised from five dead and about a dozen injured to six dead and 15 wounded, per Rzeczpospolita."
+    }
   ]
 }
