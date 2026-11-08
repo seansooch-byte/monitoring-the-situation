@@ -5181,3 +5181,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 4 removed. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T07:15Z
+- Captures read: 0705Z (0604Z was the last logged read). Last read: 0705Z.
+- X's check: 0705Z 31 confirmed, 0 missing, 0 mismatched, 0 withheld by X.
+- Pulse: 36 items listed, 35 on the front (the build held back a second popbase post). 4 new (Massie "The Wall", Hanania quoting Erika Kirk, Schefter trade deadline, SpaceX Starship Flight 15), 8 dropped past 36 hours (LegionHoops, Kaitlan Collins, NASA, igorbobic, SusieWiles47, GoNintendoTweet, NatureUnedited, outof1focus). Chewy's post naming the "I've Had It" podcast attached in `also` to the Cash App item. Header moved to 0705Z. Quiet: medicine, offbeat.
+- Added: none. Updated: none (pulse pass).
+- Left out: TBC_on_X "Blue Tsunami" video and MarioNawfal snake video (undescribed media, point unclear); MLFootball (a player's wife, private person); CultureCrave 17-year-old rescue (minor); shannonsharpeee Ole Miss post (names a private person); ChrisRMcGuire and WatcherGuru Nvidia posts (claim about a named person, unconfirmed); BakkenShale (insults about a race). Hanania's quote is passed on as his post, not checked here.
+- Requests: none. Watch list: 68 to 65 ids. plan.json rebuilt for 08Z.
+- Shipped: yes, see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
