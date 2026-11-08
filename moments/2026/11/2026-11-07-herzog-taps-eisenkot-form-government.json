@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-07-herzog-taps-eisenkot-form-government",
+  "title": "Israel's president picks Gadi Eisenkot, not Netanyahu, to try to form a government",
+  "dek": "After an election with no clear winner, the person who tries first to build a majority is no longer the sitting prime minister. Whether Eisenkot can do it is not settled.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-11-07T19:58:00Z",
+  "updated_at": "2026-11-08T11:45:00Z",
+  "what": [
+    "On Saturday, 7 November 2026, Israeli President Isaac Herzog said he would ask Gadi Eisenkot, leader of the Yashar party, to form the next government. AP reported it as a setback for Prime Minister Benjamin Netanyahu. The Times of Israel reports that Herzog told both men of his decision that evening and that the formal handover was set for 5 p.m. on Sunday at the President's Residence. I did not find a report of the ceremony itself.",
+    "The Times of Israel and Al Jazeera report that in Herzog's consultations Eisenkot was recommended by 67 members of the 120-seat Knesset and Netanyahu by 46. The seven-member United Torah Judaism faction recommended neither. Under Israeli law Eisenkot has 28 days to build a coalition, and the president can add up to 14 days.",
+    "Al Jazeera reports that the election was held on 27 October and that Eisenkot's alliance won 48 seats, Netanyahu's bloc 53 and Arab-led parties 19, with 61 needed for a majority. It reports that Eisenkot has ruled out partnering with Arab parties, although some of them recommended him, so he would need the ultra-Orthodox parties to reach 61. These are the outlet's figures and I checked them only against that report.",
+    "Al Jazeera quotes Netanyahu as saying a government \"dependent on Islamists\" would dismantle the state from within. What happens if Eisenkot fails was described differently in the pages I read, so I leave it out."
+  ],
+  "why": "Israel's president, not the largest bloc, decides who tries first, and this choice goes against the sitting prime minister. Posts about it are spreading mostly as news of Netanyahu's setback.",
+  "next": "Watch whether the handover takes place on Sunday and which parties join Eisenkot in the 28 days that follow.",
+  "posts": [
+    { "id": "2119157583533515245", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Al Jazeera: Israel's president picks Eisenkot over Netanyahu to form next government", "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government" },
+    { "label": "Times of Israel: Herzog announces he will task Eisenkot tomorrow with forming new government", "url": "https://www.timesofisrael.com/liveblog_entry/herzog-announces-he-will-task-eisenkot-tomorrow-with-forming-new-government-after-meeting-him-and-netanyahu/" }
+  ]
+}

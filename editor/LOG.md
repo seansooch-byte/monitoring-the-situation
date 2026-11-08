@@ -5221,3 +5221,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 63 ids. plan.json rebuilt for 11Z.
 - Shipped: yes, commit 45994b7b, live audit clean (155 files match).
 - For the main editor: build still warns story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T11:50Z
+- Captures read: 1100Z (1001Z was the last logged read). Last read: 1100Z.
+- X's check: 1100Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched).
+- Pulse: 30 items listed, 28 on the front (build held back a second variety and reuters post). 0 new, 1 dropped past 36 hours (Terafab). Header 1100Z.
+- Added: 2026-11-07-herzog-taps-eisenkot-form-government (world), 2026-11-08-riyadh-booms-aramco-tower-debris (world). Updated: none.
+- Left out: Georgia memory card claim (I found only 2020 reports of a similar card, nothing on this race); Jensen Huang intelligence claim (real person, no confirmation outside X); Russell Brand prison post (slur in the text). Krakow, Dana White and DOJ stories were not rechecked this pass.
+- Requests: none. Watch list unchanged (all cited posts already on it). plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.

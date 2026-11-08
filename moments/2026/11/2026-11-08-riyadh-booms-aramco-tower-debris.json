@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-08-riyadh-booms-aramco-tower-debris",
+  "title": "Explosions heard in Riyadh after an alert; Saudi ministry says debris hit an Aramco building",
+  "dek": "Saudi Arabia's capital was targeted again in the Houthi conflict. The ministry reports no casualties, and outlets differ on what kind of missile was involved.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-11-08T05:40:00Z",
+  "updated_at": "2026-11-08T11:45:00Z",
+  "what": [
+    "On Sunday, 8 November 2026, Reuters reported loud booms in Riyadh after Saudi civil defense issued an early-warning alert about a possible threat. Osint613, an account that relays news, passed on the Reuters report and says civil defense later said the danger had passed.",
+    "Reuters, in versions carried by other sites, reports that Saudi Arabia's Energy Ministry said an administrative building of the state oil company Aramco in Riyadh was damaged by falling debris after an attempted attack, with no injuries or deaths. A Reuters witness saw blown-out windows on several floors of the Aramco Tower in the King Abdullah Financial District. Osint613 posted the ministry's statement later in the morning.",
+    "The Saudi-led coalition said it intercepted missiles fired by Yemen's Iran-aligned Houthis. Al Jazeera quotes coalition spokesperson Turki al-Maliki saying forces destroyed several ballistic missiles, and two missiles and a drone in the south. The Times of Israel describes two cruise missiles. So the type and number of missiles differ by outlet. I could not find a Houthi statement about this attack.",
+    "Both outlets say the Houthis have stepped up strikes on Saudi Arabia since a ceasefire in Yemen collapsed in July. An earlier story on this site covers the October strike on Riyadh's airport."
+  ],
+  "why": "A strike area with offices, homes and a busy metro station is a visible escalation, and the first posts came from newswire accounts within minutes of the alert.",
+  "next": "Watch for a Houthi claim, a count of what was intercepted, and any further alerts in Riyadh.",
+  "posts": [
+    { "id": "2119303935743705097", "role": "origin" },
+    { "id": "2119309593239011715", "role": "voice" },
+    { "id": "2119351671251968297", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Al Jazeera: Saudi Aramco building in Riyadh damaged in attempted attack", "url": "https://www.aljazeera.com/news/2026/11/8/saudi-arabia-intercepts-houthi-missiles-targeting-riyadh-eastern-province" },
+    { "label": "Times of Israel: Houthis fire cruise missiles at Saudi Arabia; Riyadh's Aramco tower damaged by debris", "url": "https://www.timesofisrael.com/houthis-fire-cruise-missiles-at-saudi-arabia-riyadhs-aramco-tower-damaged-by-debris/" },
+    { "label": "Reuters via Investing.com: Saudi Aramco building in Riyadh damaged by falling debris after attempted attack", "url": "https://www.investing.com/news/commodities-news/saudi-aramco-building-in-riyadh-damaged-by-falling-debris-after-attempted-attack-ministry-says-5010175" }
+  ]
+}
