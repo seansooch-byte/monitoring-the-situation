@@ -5301,3 +5301,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 2 ids added. plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T19:22Z
+- Captures read: 1908Z (1806Z was the last logged read). Last read: 1908Z.
+- X's check: 1908Z 83 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched, 1305Z 1 mismatched, 1806Z 1 mismatched).
+- Pulse: 38 items listed, 36 on the front (build held back a second variety and reuters post). 0 new, 0 dropped (none past 36 hours). Header 1908Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: deltaozzi film post (sexual topic); MikeNellis hot sauce post (a bereaved private person); old_content posts (allurequinn, dykemedla, LFC, NoContextEPL, fentywhoree); Ossoff clip from ostonox and the Trump video from JKash000 (politics already holds six accounts, claims unchecked); F1 Sao Paulo race and Mercedes title posts (sports already holds five); Manchester United match posts (same).
+- Requests: none. Watch list unchanged.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
