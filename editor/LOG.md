@@ -5161,3 +5161,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 1 removed (the dropped post). plan.json rebuilt for 05Z.
 - Shipped: yes, commit e6097f4d, live audit clean (155 files match).
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T05:30Z
+- Captures read: 0509Z (0400Z was the last logged read). Last read: 0509Z.
+- X's check: 0509Z 77 confirmed, 0 missing, 2 mismatched (2024771020565909625 LNGSHOT4sho and 2119279135285813725 cortis_bighit: the record has a hashtag X's text lacks; neither used), 2 withheld by X (not used).
+- Pulse: 44 items listed, 43 on the front (the build held back a second popbase post). 1 new (Dana White press secretary offer, politics), 2 dropped (WarMonitor3 iodine, rarestofall_: past 36 hours). Header moved to 0509Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Chris McGuire and WatcherGuru Nvidia posts (claims about a named real person, unconfirmed); Tommy Robinson boxing-event posts (names private people, live and unchecked); Ohio State-Oregon and other game clips (not among the largest on sports); Russell Brand prison chant (quotes a slur).
+- Requests: none. Watch list: 1 added, 2 removed. plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.

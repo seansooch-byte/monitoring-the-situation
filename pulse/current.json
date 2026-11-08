@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T04:40:00Z",
-  "capture": "2026-11-08T0400Z",
+  "updated_at": "2026-11-08T05:25:00Z",
+  "capture": "2026-11-08T0509Z",
   "items": [
     {
       "id": "2118767650121945381",
@@ -15,11 +15,6 @@
       "also": [
         "2118781463382331432"
       ]
-    },
-    {
-      "id": "2118745377188766101",
-      "desk": "world",
-      "line": "WarMonitor3 says Iran is starting to hand out iodine tablets to residents near nuclear sites, and reads it as a sign that large strikes could be coming. Not checked here."
     },
     {
       "id": "2118760029910126911",
@@ -145,11 +140,6 @@
       "line": "PopBase says the reported finalists for the new James Bond are Callum Turner, Jack Lowden, Josh O’Connor, Robert Pattinson and Nicholas Hoult, and links its source. Not checked here."
     },
     {
-      "id": "2118753131555131610",
-      "desk": "life",
-      "line": "rarestofall_ says people who hold grudges against family members and go years without speaking to them are \"not good ppl\". It is an opinion post."
-    },
-    {
       "id": "2118862906150601176",
       "desk": "gaming",
       "line": "scubaryan_ posts a one-minute video with the caption that Kai Cenat took a break from his GTA marathon and started playing the game in real life. I could not see the video described, so what it shows is not checked here."
@@ -237,6 +227,11 @@
       "id": "2119170683435417708",
       "desk": "sports",
       "line": "Bare Knuckle FC posts a 14-second video and says Corey Chapman has scored another knockout at BKFC 96, live on its streaming service."
+    },
+    {
+      "id": "2119138672536965426",
+      "desk": "politics",
+      "line": "Aaron Rupar posts what he presents as a Trump statement offering UFC head Dana White the job of Press Secretary and asking him to bring several fighters as assistants. A later post from unusual_whales says CNN reports White declined. Not checked here."
     }
   ]
 }
