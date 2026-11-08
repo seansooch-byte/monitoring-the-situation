@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T15:10:46Z",
-  "capture": "2026-11-08T1504Z",
+  "updated_at": "2026-11-08T16:15:12Z",
+  "capture": "2026-11-08T1606Z",
   "items": [
     {
       "id": "2119029619341013080",
@@ -167,12 +167,6 @@
       "also": []
     },
     {
-      "id": "2118911252910997578",
-      "desk": "politics",
-      "line": "Sky News reporter Dominic Waghorn posts a short video of himself asking President Trump how it feels to be a loser. He says Trump chose not to answer. I could not see the video's contents here.",
-      "also": []
-    },
-    {
       "id": "2119071344075661320",
       "desk": "defense",
       "line": "Fox News reports that U.S. Central Command has formed Task Force Iron Gate, ordered by Adm. Brad Cooper, to stop the movement of weapons and sanctioned materials across Iran's borders. Not checked here.",
@@ -188,6 +182,16 @@
       "id": "2119304905642922169",
       "desk": "disaster",
       "line": "Turbine Traveller, an aviation account, says an Air France A350 and an American Airlines A321 turned onto conflicting paths after leaving Los Angeles airport on Saturday, and that controllers told both to turn away. It says they reportedly came within 400 feet vertically. Not checked here."
+    },
+    {
+      "id": "2119187662812909944",
+      "desk": "internet",
+      "line": "Chewy, the pet retailer, posts that it does not sponsor or support the \"I’ve Had It\" podcast and condemns violence in all forms. It says the hosts’ comments do not reflect its values. The post does not say what the hosts said. Not checked here."
+    },
+    {
+      "id": "2119138240993337537",
+      "desk": "politics",
+      "line": "Leading Report, an account that posts news items, says Georgia election officials found a memory card with 388 uncounted votes that flipped a state House race from a Democrat to a Republican. The post gives no source. Not checked here."
     }
   ]
 }

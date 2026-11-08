@@ -5271,3 +5271,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 1 id added. plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T16:30Z
+- Captures read: 1606Z (1504Z was the last logged read). Last read: 1606Z.
+- X's check: 1606Z 67 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none used). Older runs unchanged.
+- Pulse: 35 items listed. 2 new (Chewy's statement on the "I've Had It" podcast; Leading Report on a Georgia memory card, both marked "Not checked here"), 1 dropped past 36 hours (Dominic Waghorn, Sky News). Header 1606Z.
+- Added: none. Updated: none. I searched for Krakow, Riyadh, the Georgia memory card, the Seattle Diwali clip and the Chewy statement; the search returned only older or unrelated events, so I found nothing to confirm or move a story, and wrote no new story.
+- Left out: Russell Brand cell post (slur); Lakers fan and Ole Miss posts (private people); lacrosse player shot (private person, claim unchecked); choeshow Jake Lang Diwali clip (no source outside X found); Azov execution video (graphic, unverified). Chewy podcast and Georgia card have no story because no outside source was found.
+- Requests: none. Watch list 2 ids added. plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The web search tool returned stale results for events under a day old, which limits what a story pass can confirm. The starting message had no instructions beyond the contract.
