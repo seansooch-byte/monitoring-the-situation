@@ -5211,3 +5211,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 2 removed, 2 added. plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T10:15Z
+- Captures read: 1001Z (0903Z was the last logged read). Last read: 1001Z.
+- X's check: 1001Z 27 confirmed, 0 missing, 0 mismatched, 3 withheld by X (not used). Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched).
+- Pulse: 31 items listed, 29 on the front (build held back a second variety and reuters post). 0 new, 5 dropped past 36 hours (Porzingis, Massie, Cash App, Romano PSG, Anthropic dreaming). Riyadh item now carries the Osint613 Aramco post in also. Header 1001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: SaltyGoat17 (insults); PanasonicDX4500 Jefferies/Ojeda (point unclear); redhotnerd Miller post (unchecked claim); fandom posts (point unclear); NBA Butler (sports full); Sky News Brand (left to a story pass); Variety Talarico (small); EngLot posts (small); three adult posts. Next story pass: Riyadh strike reports, Reuters Pearl of Tavria.
+- Requests: none. Watch list 63 ids. plan.json rebuilt for 11Z.
+- Shipped: yes, commit 45994b7b, live audit clean (155 files match).
+- For the main editor: build still warns story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
