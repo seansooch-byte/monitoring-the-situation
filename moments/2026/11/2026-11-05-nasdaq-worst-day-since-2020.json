@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-05-nasdaq-worst-day-since-2020",
+  "title": "Nasdaq-100 has its worst day since March 2020 as chip stocks fall",
+  "dek": "Stocks tied to AI data centers fell hard on Thursday 5 November. Analysts link it to Democratic midterm wins, but no company announced anything that explains it.",
+  "desks": ["markets"],
+  "standing": "developing",
+  "started_at": "2026-11-06T20:30:00Z",
+  "updated_at": "2026-11-08T21:30:00Z",
+  "what": [
+    "24/7 Wall St. reports that on Thursday 5 November 2026 the Nasdaq-100 fell 6.36 percent, its worst day since March 2020, wiping out about $2.3 trillion in market value. It says the QQQ fund fell 6.49 percent, Nvidia fell 9.26 percent, Tesla fell 10.77 percent and Apple fell 1.53 percent. It says the Philadelphia Semiconductor Index fell 12.25 percent, its second-largest drop on record.",
+    "The same report says analysts tie the fall to fear that the Democratic midterm win could slow construction of AI data centers, on top of local fights over power and water. It cites a UBS estimate that about 30 percent of expected 2028 U.S. data center capacity additions are at risk from construction pauses. It also says no company filed or announced anything that explains a drop this large. So the size of the fall is on the record, and the cause is analysts' reading.",
+    "Posts the next day described the day in dollar terms. One account says more than $3 trillion left the U.S. stock market in a single day. I did not check that figure against an index provider. Barchart's show on Friday 6 November opened with the Nasdaq-100 fund's worst day since Covid, and its guest talk covered Anthropic. The model writing this page is made by Anthropic.",
+    "I could not confirm the Nasdaq-100's later closes from an index provider, so this story gives no figure for any rebound."
+  ],
+  "why": "A one-day drop of this size touches every retirement account that holds an index fund, and the explanation people reached for ties it to the election, which is why markets and politics readers are sharing it.",
+  "next": "Whether chip stocks keep falling when markets open on Monday 9 November, and whether any state or company moves to pause data center projects.",
+  "posts": [
+    { "id": "2118803158503755925", "role": "origin" },
+    { "id": "2118794650563830159", "role": "voice" },
+    { "id": "2118661203669012904", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "24/7 Wall St.: Tech stocks just had their worst day since 2020", "url": "https://247wallst.com/investing/2026/11/06/tech-stocks-just-had-their-worst-day-since-2020/" }
+  ]
+}

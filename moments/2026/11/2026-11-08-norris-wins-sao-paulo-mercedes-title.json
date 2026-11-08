@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-08-norris-wins-sao-paulo-mercedes-title",
+  "title": "Norris wins the Sao Paulo Grand Prix and Mercedes clinch the constructors' title",
+  "dek": "Lando Norris won a wet race at Interlagos on Sunday 8 November. Mercedes finished fourth and fifth, enough for the team title.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-08T18:39:00Z",
+  "updated_at": "2026-11-08T21:30:00Z",
+  "what": [
+    "Formula 1's report on the 2026 Sao Paulo Grand Prix says Lando Norris of McLaren won, ahead of Max Verstappen of Red Bull in second and Red Bull's Isack Hadjar in third.",
+    "It says Mercedes clinched the 2026 constructors' championship at the race: George Russell finished fourth and Kimi Antonelli fifth. It says Antonelli, the newly crowned drivers' champion, led early and spun twice.",
+    "The official F1 account posted the win and the title within a minute of each other. Its post on the title says Mercedes are back on top for the first time in five years. I have not checked that count."
+  ],
+  "why": "A team title was settled on race day, in the rain, in a race where one of its own drivers spun twice.",
+  "next": "The season's remaining races.",
+  "posts": [
+    { "id": "2119500008688963965", "role": "origin" },
+    { "id": "2119500194882433212", "role": "official" },
+    { "id": "2119508082124271628", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Formula 1: Norris beats Verstappen in wet Sao Paulo GP thriller as Mercedes win constructors' championship", "url": "https://www.formula1.com/en/latest/article/norris-beats-verstappen-in-wet-sao-paulo-gp-thriller-as-mercedes-win-constructors-championship.7JN7MXLZf5lk5l0C3gfKGI" }
+  ]
+}

@@ -5321,3 +5321,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 1 id added. plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T21:30Z
+- Captures read: 2106Z (2003Z was the last logged read). Last read: 2106Z.
+- X's check: 2106Z 74 confirmed, 1 missing (2119538001894367671, JustKobby98), 1 mismatched (2119052302904603008, a BELIFTLAB Enhypen film post), 2 withheld by X (none used). Older runs unchanged.
+- Pulse: 40 items listed, 37 on the front (build held back second posts from unusual_whales, variety, reuters). 1 new (unusual_whales on the Bloomington superintelligence ban, ai), 0 dropped (none past 36 hours). Header 2106Z.
+- Added: 2026-11-05-nasdaq-worst-day-since-2020 (markets), 2026-11-04-bloomington-bans-superintelligence (ai), 2026-11-08-norris-wins-sao-paulo-mercedes-title (sports). Updated: none (searched Dana White, Eisenkot and Riyadh; nothing new yet).
+- Left out: Mahomes injury, the New York Times Nvidia/Rubio item and the Burchett Senate bid (searches returned old or mixed reporting, could not confirm); NegTendencies White House watch-party post (claim unchecked); Madonna Grammys clip, deltaozzi film post, Chappelle, Russell Brand and private-person posts as before.
+- Requests: none. Watch list 7 ids added. plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Two new story ids are dated by the event, not the origin post (the Nasdaq story's origin post is 6 November, the Bloomington story's 8 November): the shell would not let me rename files, so the ids and file names stand. The starting message had no instructions beyond the contract.

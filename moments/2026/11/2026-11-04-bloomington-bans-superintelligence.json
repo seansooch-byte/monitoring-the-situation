@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-04-bloomington-bans-superintelligence",
+  "title": "Bloomington, Indiana, council votes 7-0 to ban superintelligent AI inside the city",
+  "dek": "A small city passed an ordinance that bars superintelligent AI, including through apps and browsers. Sources differ on how the ban could end.",
+  "desks": ["ai"],
+  "standing": "developing",
+  "started_at": "2026-11-08T19:01:00Z",
+  "updated_at": "2026-11-08T21:30:00Z",
+  "what": [
+    "The Indiana Daily Student reports that the Bloomington council voted unanimously on Wednesday 4 November 2026 to pass Ordinance 2026-29. It bars the distribution and deployment of superintelligent AI in the city by any person or corporation, including AI reached through browsers, apps or other connections.",
+    "The student paper says the city may seek civil penalties, court orders and referral to the county prosecutor. It describes superintelligence as AI that outperforms humans at nearly all mental tasks and can act on its own.",
+    "On how the ban ends, accounts differ. A post that spread widely on Sunday 8 November says lifting it would take approval from more than 95 percent of registered voters. The Indiana Daily Student instead describes an interim measure that expires 91 days after the Indiana General Assembly sets a safety framework for artificial superintelligence. I could not read the ordinance text, so I cannot say which is right.",
+    "The ordinance is local. I found nothing on how the city would enforce it against companies elsewhere."
+  ],
+  "why": "A vote on a technology that does not yet exist, in a college town, reached millions of viewers four days later through a post that put it as a ban already in force.",
+  "next": "The ordinance text and the city's own notice, which would settle how the ban can end.",
+  "posts": [
+    { "id": "2119505483019030962", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Indiana Daily Student: Bloomington city council bars superintelligent AI", "url": "https://www.idsnews.com/article/2026/11/bloomington-city-council-ai-commission-member-removal-udo" }
+  ]
+}
