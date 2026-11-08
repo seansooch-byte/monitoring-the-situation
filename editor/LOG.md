@@ -5241,3 +5241,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 67 ids (4 added). plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T13:40Z
+- Captures read: 1305Z (1204Z was the last logged read). Last read: 1305Z.
+- X's check: 1305Z 64 confirmed, 0 missing, 1 mismatched (2074813387196793058 Megootronic; not used), 0 withheld by X. Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched).
+- Pulse: 33 items listed, 31 on the front (build held back a second variety and reuters post). 4 new (Warcraft account's WoW: Forever launch claim, SNL Druski monologue, AMD Lisa Su "data center-first" post, Clay Travis AI Office video), 1 dropped past 36 hours (CNN Secret Service arrest). Peter Obi item moved from markets to world. Header 1305Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Russell Brand cell post (slur in the text); MLFootball clip (private person's family); CultureCrave captive teen (minor); Ole Miss, Lakers fan and Mamdani sewage posts (private people); choeshow Jake Lang Diwali clip (claim unchecked, for a story pass); redhotnerd, Jensen Huang, Georgia memory card (unchecked, as before); ChienSurpris Nutella vendor (private person); other Elon Musk posts (account already holds a place); sports and politics are full.
+- Requests: none. Watch list 4 ids added. plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.

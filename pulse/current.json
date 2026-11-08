@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T12:40:00Z",
-  "capture": "2026-11-08T1204Z",
+  "updated_at": "2026-11-08T13:40:00Z",
+  "capture": "2026-11-08T1305Z",
   "items": [
     {
       "id": "2118888656589238392",
@@ -35,11 +35,6 @@
       "id": "2119088902866690441",
       "desk": "world",
       "line": "BBC Breaking reports that Polish police say five people were killed and around a dozen injured in a shooting in Krakow's main square. Motive has not been stated; see the story."
-    },
-    {
-      "id": "2118871810225615067",
-      "desk": "justice",
-      "line": "CNN reports that the US Secret Service arrested a man near the White House on Thursday who allegedly had several guns in a stolen car and was threatening to kill President Trump. The post links to CNN's own story. Not checked here."
     },
     {
       "id": "2119165325698826436",
@@ -163,6 +158,30 @@
       "id": "2119113316308009416",
       "desk": "ai",
       "line": "Kola Unfiltered tags Grok and asks it to count exactly how many people are in the photo attached, \"if you're really the best AI\". Grok, the model that gathers this page's posts, is made by xAI, the company named in the post."
+    },
+    {
+      "id": "2118893768984162668",
+      "desk": "gaming",
+      "line": "The official World of Warcraft account says the game’s WoW: Forever launch is the biggest in its history by peak concurrent players, with the most returning players ever. These are the company’s claims. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2119293003340693687",
+      "desk": "entertainment",
+      "line": "NBC’s Saturday Night Live account posts a video of Druski’s monologue. The post says nothing more.",
+      "also": []
+    },
+    {
+      "id": "2119053001814098023",
+      "desk": "ai",
+      "line": "Pirat Nation says AMD’s chief executive Lisa Su called AMD “a data center-first company”, and that AMD’s gaming revenue fell 40% while total revenue hit a record. The figures are the post’s own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2119077538307645513",
+      "desk": "ai",
+      "line": "Clay Travis posts a 95-second video he calls an AI-made episode of The Office set after Democrats’ wins on Tuesday, and says it could have been real. Not checked here.",
+      "also": []
     }
   ]
 }
