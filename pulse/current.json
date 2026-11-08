@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T07:11:51Z",
-  "capture": "2026-11-08T0705Z",
+  "updated_at": "2026-11-08T08:11:58Z",
+  "capture": "2026-11-08T0806Z",
   "items": [
     {
       "id": "2118854441063600539",
@@ -70,11 +70,6 @@
       "line": "ESPN reports that Kristaps Porzingis announced he is stepping away from basketball to put his health first. It says he told fans his body has not responded as he expected and that he will work with the Warriors on a solution. Not checked here."
     },
     {
-      "id": "2118799563565998548",
-      "desk": "tech",
-      "line": "The account XFreeze says Elon Musk revealed that Tesla is building a research chip fab at Gigafactory Texas that could cut chip development cycles from one year to one month. Not checked here."
-    },
-    {
       "id": "2118878848305484277",
       "desk": "politics",
       "line": "Fox News posts a 24-second clip of Senator-elect Abdul El-Sayed saying in Washington that \"Michigan is the capital of Arab America.\" Fox says he pointed to the state’s large Arab American population."
@@ -93,11 +88,6 @@
       "id": "2119029619341013080",
       "desk": "world",
       "line": "India’s prime minister Narendra Modi posts a video with the words “Have a great Diwali!” The video has no description, so what it shows is not checked here."
-    },
-    {
-      "id": "2118797679606353980",
-      "desk": "disaster",
-      "line": "TNHokkaido, an account posting Hokkaido weather, shares a short video dated 5:08 a.m. on Saturday 7 November in Sapporo with the hashtag for snow. The post is in Japanese and the video has no description. What it shows is not checked here."
     },
     {
       "id": "2119088902866690441",
@@ -192,6 +182,19 @@
       "id": "2119093662957060389",
       "desk": "science",
       "line": "SpaceX says Starship is preparing for a catch and that Flight 15 is targeting launch as early as Friday, November 13, pending regulatory approval."
+    },
+    {
+      "id": "2119303935743705097",
+      "desk": "world",
+      "line": "Reuters reports loud booms in Riyadh, the Saudi capital, after an early warning alert was issued. The post gives no cause. A second post says Reuters reported that Civil Defense later said the danger had passed. Not checked here.",
+      "also": [
+        "2119309593239011715"
+      ]
+    },
+    {
+      "id": "2119311698855375231",
+      "desk": "music",
+      "line": "Variety posts a video of ROSÉ performing \"Number One Girl\" at the LACMA Art+Film Gala."
     }
   ]
 }
