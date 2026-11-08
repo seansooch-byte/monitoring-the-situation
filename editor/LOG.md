@@ -5311,3 +5311,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T20:35Z
+- Captures read: 2003Z (1908Z was the last logged read). Last read: 2003Z.
+- X's check: 2003Z 111 confirmed, 0 missing, 0 mismatched, 4 withheld by X (none used). Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched, 1305Z 1 mismatched, 1806Z 1 mismatched).
+- Pulse: 39 items listed, 37 on the front (build held back a second variety and reuters post). 1 new (PopBase on Taylor Swift at the Chiefs game, entertainment; the grabber's label gaming was wrong), 0 dropped (none past 36 hours). Header 2003Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: RapSheet and MySportsUpdate Mahomes injury videos (RapSheet already placed, injury footage); unusual_whales Bloomington AI ban (account already placed); Madonna Grammys clip (a week old); NYC mayor Diwali post (Modi already holds the topic); Sarah McBride post (politics already holds six accounts); Russell Brand, Chappelle, Azov, Krakow and private-person posts as in earlier passes.
+- Requests: none. Watch list 1 id added. plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
