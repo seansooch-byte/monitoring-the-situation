@@ -5251,3 +5251,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 4 ids added. plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T14:25Z
+- Captures read: 1404Z (1305Z was the last logged read). Last read: 1404Z.
+- X's check: 1404Z 73 confirmed, 0 missing, 0 mismatched, 4 withheld by X (none used). Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched, 1305Z 1 mismatched).
+- Pulse: 35 items listed, 33 on the front (build held back a second variety and reuters post). 5 new (Dexerto on a professor's Claude file deletion, with the Anthropic note; NASA Moon post; Dominic Waghorn's Sky News question; Fox News on CENTCOM Task Force Iron Gate; AshCrypto on Turkey's reserves), 3 dropped past 36 hours (Borys_Kit, SportsCenter, Fox El-Sayed post). Header 1404Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: LeBron stalking arrest (TMZ; the arrested man is a private person); Azov execution video (graphic, unverified); Kim Benabib Bannon livestream, calleymeans and Basil/MoDeen posts (claims unchecked or religion framing); Dexerto Pokemon line post and Kick streamer father post (private people); sciencegirl bird and MarioNawfal snake videos (point unclear); Russell Brand cell post (slur); Doja Cat post (sexual); Fox DOJ-probe post (story already live, account holds a place). Medicine, life, offbeat, ideas and internet have nothing I could use.
+- Requests: none. Watch list 5 ids added. plan.json rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
