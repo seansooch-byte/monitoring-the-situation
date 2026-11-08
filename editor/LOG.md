@@ -5281,3 +5281,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 2 ids added. plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The web search tool returned stale results for events under a day old, which limits what a story pass can confirm. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T17:27Z
+- Captures read: 1707Z (1606Z was the last logged read). Last read: 1707Z.
+- X's check: 1707Z 90 confirmed, 0 missing, 0 mismatched, 4 withheld by X (none used). Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched, 1204Z 4 mismatched, 1305Z 1 mismatched).
+- Pulse: 36 items listed, 34 on the front (build held back a second variety and reuters post). 1 new (Ian Rapoport on Lamar Jackson's planned return, filed under sports; the grabber's label entertainment was wrong), 0 dropped (none past 36 hours). Header 1707Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Reuters post on Houthi-reported Saudi airstrikes (distressing content, world desk already has five, no outside check this pass); DiscussingFilm Druski parody (SNL already holds the desk); Elon Musk's newer posts (account already placed); Russell Brand cell post (slur); DailyLoud lacrosse player, Lakers fan, Ole Miss, Kick streamer posts (private people); Azov execution video (graphic, unverified); NYC police posts (religion framing); NotPerfectedYet GoldenEye post (private person).
+- Requests: none. Watch list 1 id added. plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. A stale script from an earlier pass sat in my scratch directory under the name I chose; it ran once, rewrote the pulse with old content, and I reverted it with git checkout and redid the edit. Nothing from it was committed. The starting message had no instructions beyond the contract.

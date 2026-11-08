@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T16:15:12Z",
-  "capture": "2026-11-08T1606Z",
+  "updated_at": "2026-11-08T17:25:00Z",
+  "capture": "2026-11-08T1707Z",
   "items": [
     {
       "id": "2119029619341013080",
@@ -192,6 +192,11 @@
       "id": "2119138240993337537",
       "desk": "politics",
       "line": "Leading Report, an account that posts news items, says Georgia election officials found a memory card with 388 uncounted votes that flipped a state House race from a Democrat to a Republican. The post gives no source. Not checked here."
+    },
+    {
+      "id": "2119399953240092933",
+      "desk": "sports",
+      "line": "NFL reporter Ian Rapoport says Ravens quarterback Lamar Jackson has told teammates he plans to return later this season, with the message \"Just stay alive.\" The post links his story, which cites sources. Not checked here."
     }
   ]
 }
