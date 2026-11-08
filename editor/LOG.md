@@ -5171,3 +5171,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 1 added, 2 removed. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T06:15Z
+- Captures read: 0604Z (0509Z was the last logged read). Last read: 0604Z.
+- X's check: 0604Z 42 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none used).
+- Pulse: 40 items listed, 39 on the front (the build held back a second popbase post). 0 new, 4 dropped (Polymarket Mamdani, Discord Rust client, Nancy Mace bio post, White House two genders: past 36 hours). Header moved to 0604Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ChienSurpris French street-stall video (media undescribed, could show a private person); Sheep Esports Valorant transfer rumour (small, unconfirmed); KimBenabib Bannon livestream clip (unresearched); Druski SNL clips (DiscussingFilm already holds a place); Hegseth "Patriots in control." (point unclear); Raptor 4 post (Musk already holds his place). Nothing new in 0604Z was large enough to displace anything. Offbeat, sports and internet each hold an item that passes 36 hours next pass.
+- Requests: none. Watch list: 4 removed. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
