@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T00:25:00Z",
-  "capture": "2026-11-08T0006Z",
+  "updated_at": "2026-11-08T01:35:00Z",
+  "capture": "2026-11-08T0100Z",
   "items": [
     {
       "id": "2118704961638789583",
@@ -55,11 +55,6 @@
       "id": "2118815884357845242",
       "desk": "internet",
       "line": "Cash App replies to a user that it does not condone violence of any kind and is no longer a sponsor of \"this podcast\". The post does not name the podcast or say why. Not checked here."
-    },
-    {
-      "id": "2118690485501890937",
-      "desk": "politics",
-      "line": "tradingchik says Clinton lost 54 House seats in 1994, Obama 63 in 2010 and Trump 41 in 2026, and that this is not the historic event critics claim. The 2026 figure is the poster's and has not been checked here."
     },
     {
       "id": "2118779276547756448",
@@ -149,11 +144,6 @@
       "id": "2118819452313575707",
       "desk": "sports",
       "line": "ESPN reports that Kristaps Porzingis announced he is stepping away from basketball to put his health first. It says he told fans his body has not responded as he expected and that he will work with the Warriors on a solution. Not checked here."
-    },
-    {
-      "id": "2118893768984162668",
-      "desk": "gaming",
-      "line": "The official World of Warcraft account says its WoW: Forever launch was the biggest in the game’s history by peak concurrent players, with the most returning players ever. Not checked here."
     },
     {
       "id": "2118777069975015686",
@@ -276,6 +266,11 @@
       "id": "2119164498280067230",
       "desk": "sports",
       "line": "The FIFA Women’s World Cup account posts that Nigeria are the Under-17 Women’s World Cup 2026 champions."
+    },
+    {
+      "id": "2119202610322227327",
+      "desk": "gaming",
+      "line": "Fortnite Status publishes the drop rates for this season’s chest treasures after players asked. It says a weekly gold outfit is 1 in 1,562,500 per chest in a normal match, and lists boosted rates during Treasure Hours."
     }
   ]
 }
