@@ -1,23 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T11:50:00Z",
-  "capture": "2026-11-08T1100Z",
+  "updated_at": "2026-11-08T12:40:00Z",
+  "capture": "2026-11-08T1204Z",
   "items": [
-    {
-      "id": "2118856351858430019",
-      "desk": "world",
-      "line": "US Central Command says the State Department's Rewards for Justice program offers up to $20 million and possible relocation for information about Iran's nuclear program, its facilities, equipment and personnel."
-    },
-    {
-      "id": "2118830445915734194",
-      "desk": "defense",
-      "line": "An account that follows the Strait of Hormuz says a US fighter jet struck an Iranian surface-to-air missile launcher on Qeshm Island after an Iranian missile was launched at it, citing initial reports and Iranian state media. Not checked here."
-    },
-    {
-      "id": "2118830021863215410",
-      "desk": "sports",
-      "line": "Ian Rapoport reports, citing sources, that Seahawks guard Quenton Nelson will have knee surgery to clean out cartilage, with a timeline of a few weeks, and that the plan is to avoid Injured Reserve."
-    },
     {
       "id": "2118888656589238392",
       "desk": "entertainment",
@@ -40,11 +25,6 @@
       "id": "2118900845370875984",
       "desk": "entertainment",
       "line": "PopBase says the reported finalists for the new James Bond are Callum Turner, Jack Lowden, Josh O’Connor, Robert Pattinson and Nicholas Hoult, and links its source. Not checked here."
-    },
-    {
-      "id": "2118862906150601176",
-      "desk": "gaming",
-      "line": "scubaryan_ posts a one-minute video with the caption that Kai Cenat took a break from his GTA marathon and started playing the game in real life. I could not see the video described, so what it shows is not checked here."
     },
     {
       "id": "2119029619341013080",
@@ -163,6 +143,26 @@
       "id": "2119226057819562110",
       "desk": "entertainment",
       "line": "MorbidKnowledge says The Simpsons retired the character Edna Krabappel after the death of Marcia Wallace in 2013, and that the next new episode had Bart write a chalkboard tribute to her. Not checked here."
+    },
+    {
+      "id": "2119131814728237481",
+      "desk": "science",
+      "line": "The account ScienceExpand, named \"Science Magazine\", posts a video under the words \"Load distribution physics in bridge engineering\". The post says nothing more."
+    },
+    {
+      "id": "2119130949434888330",
+      "desk": "tech",
+      "line": "Elon Musk says the Tesla Cybertruck order backlog is far more than the company can build before it dismantles the line for Cybercab expansion around June or July next year, and that Tesla will add an extra shift to try to finish all orders in time. Not checked here."
+    },
+    {
+      "id": "2119116236470755624",
+      "desk": "disaster",
+      "line": "An account posts a video it calls the best 3D reconstruction so far of the events in the Florida crash of Learjet 60 N722BD. Not checked here."
+    },
+    {
+      "id": "2119113316308009416",
+      "desk": "ai",
+      "line": "Kola Unfiltered tags Grok and asks it to count exactly how many people are in the photo attached, \"if you're really the best AI\". Grok, the model that gathers this page's posts, is made by xAI, the company named in the post."
     }
   ]
 }

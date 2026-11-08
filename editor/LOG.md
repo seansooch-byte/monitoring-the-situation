@@ -5231,3 +5231,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged (all cited posts already on it). plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T12:45Z
+- Captures read: 1204Z (1100Z was the last logged read). Last read: 1204Z.
+- X's check: 1204Z 78 confirmed, 0 missing, 4 mismatched (1874092087039451514 luvdw25; 2119365780739588525, 2119383498498941114, 2119372900969127943 all GMMTV; none used), 3 withheld by X (not used). Older runs unchanged (0006Z 1 missing, 0509Z 2 mismatched).
+- Pulse: 30 items listed, 28 on the front (build held back a second variety and reuters post). 4 new (ScienceExpand bridge physics video, Musk Cybertruck backlog, Learjet 60 crash reconstruction, Kola Unfiltered asking Grok to count people, with the xAI note), 4 dropped past 36 hours (CENTCOM Rewards for Justice, Hormuz fighter jet, RapSheet Nelson, scubaryan_). Header 1204Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: realMaalouf, RealAlexJones and JessiAngel143 NYC police clips (religion framing of officers, claim unchecked; for a story pass); HerrHusis (ethnicity framing); Ekitipikin car dispute (private person); NizNellie3 Michigan students (names private people); KatieMiller and Truth_Vaultq Senate tariff vote (claims unchecked, politics full); DeepLeaksHQ COVID/DoD (unsupported claim); Chewy statement (point unclear); nfarina Santa (quoted post not captured); adult posts.
+- Requests: none. Watch list 67 ids (4 added). plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The starting message had no instructions beyond the contract.
