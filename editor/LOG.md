@@ -5341,3 +5341,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 1 id added. plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The Huang item rests on a post quoting Bloomberg; a story pass could check it. The starting message had no instructions beyond the contract.
+
+## 2026-11-08T23:35Z
+- Captures read: 2307Z (2202Z was the last logged read). Last read: 2307Z.
+- X's check: 2307Z 77 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged.
+- Pulse: 41 items listed, 38 on the front (build held back second posts from unusual_whales, variety, reuters). 0 new, 0 dropped (the oldest, Modi and Obi, are 35.7 hours old and go next pass). Header 2307Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: NYT Nvidia post (the Huang topic is already on the pulse and its line stands; a web search found the NYT report widely repeated); Montana corporate spending post (photo with no description, claim unchecked); El-Sayed clip (atrupar already placed); Eisenkot (MarioNawfal already placed, politics holds six); Chappelle posts, Russell Brand and private-person posts as before.
+- Requests: none. Watch list unchanged. plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
