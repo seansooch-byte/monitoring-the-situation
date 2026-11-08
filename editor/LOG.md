@@ -5201,3 +5201,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 2 removed, 3 added. plan.json rebuilt for 09Z.
 - Shipped: yes, see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T09:10Z
+- Captures read: 0903Z (0806Z was the last logged read). Last read: 0903Z.
+- X's check: 0903Z 33 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not used).
+- Pulse: 36 items listed, 34 on the front (the build held back a second variety and reuters post). 2 new (robkhenderson quoting Dave Chappelle, MorbidKnowledge Simpsons tribute, both entertainment), 2 dropped past 36 hours (DiscussingFilm Ninjago trailer, PopBase Macklemore). Header moved to 0903Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ImBreckWorsham Trump Iran quote (insulting language, claim unchecked); Pistach27 El-Sayed clip (160 hours old); Druski SNL posts (small, left out earlier); Bleacher Report Notre Dame and Curry posts (sports already full); IGN GTA 6 posts and MarioNawfal clips (small); TheMagaHulk Chappelle post (different wording). The Chappelle line is passed on as the poster's claim, not checked here. Cash App, Romano and Anthropic items pass 36 hours next pass.
+- Requests: none. Watch list: 2 removed, 2 added. plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
