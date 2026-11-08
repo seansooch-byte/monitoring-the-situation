@@ -5151,3 +5151,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list: 2 added (Obi, BKFC). plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
+
+## 2026-11-08T04:45Z
+- Captures read: 0400Z (0300Z was the last logged read). Last read: 0400Z.
+- X's check: 0400Z 37 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not used).
+- Pulse: 45 items listed, 44 on the front (the build held back a second popbase post). 0 new, 1 dropped (FilCrow_, past 36 hours). Header moved to 0400Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ post on a man arrested for stalking on LeBron James's property (an unnamed private person, his claim about family unconfirmed here); Fox News CENTCOM task force post (a copy of the CENTCOM item already shown); El Sayed "Arab America" posts (partisan framing, small, not researched); Cointelegraph on Meta and Microsoft and Claude (unchecked, and Anthropic makes the model writing this page); cryptorover 2028 odds (unevidenced).
+- Requests: none. Watch list: 1 removed (the dropped post). plan.json rebuilt for 05Z.
+- Shipped: yes, commit e6097f4d, live audit clean (155 files match).
+- For the main editor: the build still warns that story 2026-10-31-france-halloween-protests-spread cites 2116569280900706479, which X withholds. The message that started me had no instructions beyond the contract.
