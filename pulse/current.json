@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T15:40:00Z",
-  "capture": "2026-11-09T1501Z",
+  "updated_at": "2026-11-09T16:40:00Z",
+  "capture": "2026-11-09T1607Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -38,11 +38,6 @@
       "line": "Variety posts a video of ROSÉ performing \"Number One Girl\" at the LACMA Art+Film Gala."
     },
     {
-      "id": "2119276625334591653",
-      "desk": "entertainment",
-      "line": "Rob Henderson, a writer, posts a quote he attributes to comedian Dave Chappelle at a Madison Square Garden show, a remark about being glad Charlie Kirk was killed. Other accounts post different wording of the same line. Not checked here."
-    },
-    {
       "id": "2119293003340693687",
       "desk": "entertainment",
       "line": "NBC’s Saturday Night Live account posts a video of Druski’s monologue. The post says nothing more.",
@@ -69,11 +64,6 @@
       "line": "Pop Base, a pop culture account, posts two photos and says Taylor Swift was at today’s Chiefs game with Karlie Kloss. The photos have no description, so what they show is not checked here."
     },
     {
-      "id": "2119523898366496990",
-      "desk": "business",
-      "line": "The Stalwart quotes a Bloomberg report that Nvidia’s board is investigating whether chief executive Jensen Huang was targeted by a foreign espionage plot, after he told employees he was unfaithful to his wife. Not checked here."
-    },
-    {
       "id": "2119435741528772981",
       "desk": "politics",
       "line": "Aaron Rupar posts what he says is full footage of Attorney General Todd Blanche on CNN, and calls it a “crashout.” He says Blanche confirms he will investigate Democrats on Trump’s demand and leaves open trying to imprison them. I could not see the video here. Not checked here."
@@ -94,19 +84,9 @@
       "line": "Politics UK says the UK Government is set to ban under-16s from eBay, Vinted and Depop over fears that their messaging features let adults groom children. The post cites no source. Not checked here."
     },
     {
-      "id": "2119587209909006716",
-      "desk": "politics",
-      "line": "60 Minutes posts a clip of its question to President Trump about World Liberty Financial, his family's crypto company. In the interview CBS aired and published, Trump also says his deportation policy \"might be too tough\"."
-    },
-    {
       "id": "2119670655180476885",
       "desk": "sports",
       "line": "Fabrizio Romano posts a quote he attributes to Matheus Cunha after Manchester United conceded: \"We can’t concede goals like this, we need to play like Manchester United.\" The quote is Romano’s report and is not checked here."
-    },
-    {
-      "id": "2119655424169267600",
-      "desk": "sports",
-      "line": "ESPN says Alycia Baumgardner beat Elif Turhan by unanimous decision to become the new IBF women’s lightweight champion. The post carries the #MVPW07 tag. Not checked here."
     },
     {
       "id": "2119632049103675510",
@@ -124,11 +104,6 @@
       "desk": "tech",
       "line": "The Robotaxi account says robotaxi service will be available in San Antonio starting \"tomorrow, 5am.\" The photo has no description, and the post does not say who runs the service. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2119606964279824550",
-      "desk": "politics",
-      "line": "Benny Johnson, a commentator, posts what he says Republican senators told him in calls this weekend: they are furious with Senate leadership over the SAVE Act and insider trading bills. He says a shakeup is coming. The senators are unnamed. Not checked here."
     },
     {
       "id": "2119698616478487001",
@@ -155,6 +130,34 @@
       "id": "2119792290600239401",
       "desk": "gaming",
       "line": "Rockstar Games announces Grand Theft Auto VI: The Festival, a live event on November 21 at Mana Wynwood in Miami, with artists from the game and its soundtrack."
+    },
+    {
+      "id": "2119320412635144528",
+      "desk": "entertainment",
+      "line": "FreeThinkerFitness, an account, posts a video and a quote it attributes to comedian Dave Chappelle, a remark about feeling better since Charlie Kirk was murdered. Other accounts post different wording of the same line. The video has no description here. Not checked here."
+    },
+    {
+      "id": "2119522888067801560",
+      "desk": "business",
+      "line": "The New York Times reports that Nvidia opened an investigation into its chief executive, Jensen Huang, after he told the company’s board he had been intimate with a business executive whom U.S. intelligence determined to be a Chinese spy. Not checked here."
+    },
+    {
+      "id": "2119583603206021555",
+      "desk": "politics",
+      "line": "The CBS program 60 Minutes posts a video clip and says President Trump said his administration’s deportation policy was “too tough.” A second 60 Minutes post carries its question to him about World Liberty Financial, his family’s crypto company.",
+      "also": [
+        "2119587209909006716"
+      ]
+    },
+    {
+      "id": "2119586419983429731",
+      "desk": "politics",
+      "line": "AF Post says Trump endorses an amnesty deal with Democrats, calling immigration maximalists “pretty far right” and suggesting people who have been in the US 10 to 15 years should have a chance to stay. The video has no description here. Not checked here."
+    },
+    {
+      "id": "2119775874967056831",
+      "desk": "sports",
+      "line": "ESPN’s Adam Schefter says the Falcons are sending safety Jessie Bates to the Jaguars for a 2027 second-round pick and a 2028 fifth-round pick, citing sources. Not checked here."
     }
   ]
 }

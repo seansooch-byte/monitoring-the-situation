@@ -5502,3 +5502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list. plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: the Brand sentencing (conviction 5 Nov, sentence 9 Nov) deserves a researched look. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T16:40Z
+- Captures read: 1607Z (1501Z was the last logged read). Last read: 1607Z.
+- X's check: 1607Z 108 confirmed, 0 missing, 0 mismatched, 6 withheld by X. Older runs unchanged (0201Z, 0407Z and 1501Z each still show 1 mismatched; 1501Z is 2119761933159289140, BIGHIT_MUSIC).
+- Pulse: 29 items. 5 in, 5 out. In: FreeThinkerFitness Chappelle quote (entertainment), NYT on the Nvidia board investigation (business, replaces The Stalwart's small post), AF Post on Trump and an amnesty deal (politics), Schefter on the Jessie Bates trade (sports, replaces ESPN's boxing post), 60 Minutes "too tough" clip (politics; it is the account's largest post, so it takes the place and the World Liberty Financial post moves to `also`). Out: Rob Henderson (36 hours), Benny Johnson senators post (unnamed sources, politics already at four accounts). Rapoport moved from entertainment to sports. Header 1607Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Thefactsdude (a 15-year-old), 0xnikio7 and Kai Cenat via FearedBuck (private persons, aggregator), ProjectConstitu "must be canceled" (outrage framing, FreeThinkerFit carries the quote), ImBreckWorsham (point unclear), Zendaya gif (no description), Musk replies and Watcher Guru extras (account holds a place), RT Israeli tourists (mismatched, private persons), withheld adult posts.
+- Requests: none. Watch list set to the new pulse (105 ids). plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: the Chappelle remark (several versions of the quote in circulation) and the Nvidia CEO investigation (NYT, Bloomberg) are the largest unresearched stories. The starting message had no instructions beyond the contract.
