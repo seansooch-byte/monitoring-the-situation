@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T21:20:00Z",
-  "capture": "2026-11-09T2100Z",
+  "updated_at": "2026-11-09T22:30:00Z",
+  "capture": "2026-11-09T2207Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -87,9 +87,9 @@
       "line": "Joe Biden, the former President, says his memoir, Promise Me, America, comes out on November 17. He says he was diagnosed with cancer while writing it, that his doctors are encouraged by how he has responded to treatment, and that he will do fewer conversations about the book."
     },
     {
-      "id": "2119670655180476885",
+      "id": "2119824747454173268",
       "desk": "sports",
-      "line": "Fabrizio Romano posts a quote he attributes to Matheus Cunha after Manchester United conceded: \"We can’t concede goals like this, we need to play like Manchester United.\" The quote is Romano’s report and is not checked here."
+      "line": "Fabrizio Romano, a football transfer reporter, posts a photo and says FIFPRO has made its World Team of the Year 2026 official. The post names no players. Not checked here."
     },
     {
       "id": "2119632049103675510",
@@ -184,6 +184,11 @@
       "id": "2119825875755479344",
       "desk": "sports",
       "line": "ESPN says the College Football Playoff and ESPN have signed a five-year deal worth nearly $1.7 billion that expands the playoff to 24 teams in 2027, citing sources."
+    },
+    {
+      "id": "2119841301612957699",
+      "desk": "medicine",
+      "line": "CNN reports that the US health regulator on Monday told patients and healthcare providers of a potential increased risk of a serious eye condition linked to GLP-1 drugs used for weight loss and diabetes. The linked CNN story says the FDA ordered new warnings for Ozempic and Zepbound."
     }
   ]
 }

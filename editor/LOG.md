@@ -5562,3 +5562,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Four ids added to the watch list (the new stories' posts). plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: recheck the developing stories above, the Chappelle remark, Meta Muse Ember, and the Massie vote expected Wednesday. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T22:30Z
+- Captures read: 2207Z (2100Z was the last logged read). Last read: 2207Z.
+- X's check: 2207Z 95 confirmed, 0 missing, 0 mismatched, 4 withheld by X. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 35 items. 2 in, 1 out. In: Fabrizio Romano on FIFPRO's World Team of the Year (sports, replaces his smaller Cunha quote post, one account one place), CNN on the FDA eye-risk warning for GLP-1 drugs (medicine). Out: Romano's Cunha post (account holds one place). Nothing aged out (oldest about 32 hours). Header 2207Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Schefter's Jaguars-Eagles trade post (he holds a place with a larger post); Jensen Huang crude post (sexual joke); Calley Means thread (unconfirmed allegations about named people); Freedom Caucus roadmap, Ed Miliband on Gaza, Senate credit card cap (WatcherGuru holds a place), Eric Daugh midterms claim (aggregator, unconfirmed claim); onsomeswizzy (explicit, withheld).
+- Requests: none. Two ids added to the watch list. plan.json rebuilt for 23Z (planner says 0 reads left in the day budget).
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Jaguars-Eagles Jordan Davis trade, FDA GLP-1 eye warning, Calley Means and Susie Wiles lobbying claims, Fable 5.2 launch, Massie vote. The starting message had no instructions beyond the contract.
