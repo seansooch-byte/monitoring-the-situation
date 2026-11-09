@@ -5381,3 +5381,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 3 ids added. plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Running npm test and tools/build.mjs at the same time collides on dist (ENOTEMPTY); run them one after the other. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T04:35Z
+- Captures read: 0407Z (0303Z was the last logged read). Last read: 0407Z.
+- X's check: 0407Z 48 confirmed, 0 missing, 1 mismatched (2119556850811318669, RT_com post, not used), 2 withheld by X (old_content, not used). Older runs unchanged.
+- Pulse: 38 items listed. 1 new (Elon Musk on the Grok @Bot fixes, ai; the build holds it off the front because his Cybertruck item is larger, so it stands on the ai desk), 3 dropped (Clay Travis, NASA and SpaceX posts, past 36 hours). Header 0407Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn's transcript of the 60 Minutes interview (the 60 Minutes clip is already on the pulse); RT_com boat video (mismatch, private persons, nationality framing); Reuters, Bears and NFL game posts (accounts or desks full); Visegrad24 Iran strikes claim (unchecked, the Riyadh item already covers the region); old_content posts.
+- Requests: none. Watch list updated with the pulse ids. plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Visegrad24 reports US strikes near the Strait of Hormuz and Reuters reports a China tariff suspension; both could use a story pass. The starting message had no instructions beyond the contract.

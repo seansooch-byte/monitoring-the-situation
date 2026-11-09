@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T03:40:00Z",
-  "capture": "2026-11-09T0303Z",
+  "updated_at": "2026-11-09T04:30:00Z",
+  "capture": "2026-11-09T0407Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -78,11 +78,6 @@
       "line": "Bare Knuckle FC posts a 14-second video and says Corey Chapman has scored another knockout at BKFC 96, live on its streaming service."
     },
     {
-      "id": "2119093662957060389",
-      "desk": "science",
-      "line": "SpaceX says Starship is preparing for a catch and that Flight 15 is targeting launch as early as Friday, November 13, pending regulatory approval."
-    },
-    {
       "id": "2119303935743705097",
       "desk": "world",
       "line": "Reuters reports loud booms in Riyadh, the Saudi capital, after an early warning alert. A second post says Reuters reported that Civil Defense later said the danger had passed. A third says the Energy Ministry reported no casualties after missile debris hit an Aramco building. Not checked here.",
@@ -133,21 +128,9 @@
       "also": []
     },
     {
-      "id": "2119077538307645513",
-      "desk": "ai",
-      "line": "Clay Travis posts a 95-second video he calls an AI-made episode of The Office set after Democrats’ wins on Tuesday, and says it could have been real. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2119163038557446352",
       "desk": "ai",
       "line": "Dexerto reports that a University of Chicago law professor asked Claude to update page numbers in old lecture notes and that it deleted a year of notes and his syllabus, then apologized in the words quoted in the post. Not checked here. Claude is made by Anthropic, the company behind the model writing this page.",
-      "also": []
-    },
-    {
-      "id": "2119083432835764635",
-      "desk": "science",
-      "line": "NASA posts a video saying that under the President's leadership the United States is going back to the Moon, \"this time, to stay.\"",
       "also": []
     },
     {
@@ -214,6 +197,12 @@
       "id": "2119587209909006716",
       "desk": "politics",
       "line": "60 Minutes posts a clip of its question to President Trump about World Liberty Financial, his family's crypto company. In the interview CBS aired and published, Trump also says his deportation policy \"might be too tough\"."
+    },
+    {
+      "id": "2119617455102333206",
+      "desk": "ai",
+      "line": "Elon Musk says he held a round table review with the Grok @Bot engineering team, that fixes go in overnight, and that users should see a dramatic improvement by tomorrow. Grok, the model that gathers this page’s posts, is made by xAI, a company in this post. Not checked here.",
+      "also": []
     }
   ]
 }
