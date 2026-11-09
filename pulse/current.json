@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T09:10:00Z",
-  "capture": "2026-11-09T0901Z",
+  "updated_at": "2026-11-09T10:03:47Z",
+  "capture": "2026-11-09T1000Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -22,11 +22,6 @@
       "id": "2119339388463153524",
       "desk": "gaming",
       "line": "Pirat_Nation says former PlayStation boss Shawn Layden argues the PS6 does not need more power and that Sony should instead make a $300 console rather than one that could cost $1,200. Not checked here."
-    },
-    {
-      "id": "2119177160539910203",
-      "desk": "sports",
-      "line": "Formula 1's official account posts a photo of the starting grid for Sunday's Brazilian Grand Prix and calls it mixed up."
     },
     {
       "id": "2119202610322227327",
@@ -72,11 +67,6 @@
       "id": "2119304905642922169",
       "desk": "disaster",
       "line": "Turbine Traveller, an aviation account, says an Air France A350 and an American Airlines A321 turned onto conflicting paths after leaving Los Angeles airport on Saturday, and that controllers told both to turn away. It says they reportedly came within 400 feet vertically. Not checked here."
-    },
-    {
-      "id": "2119187662812909944",
-      "desk": "internet",
-      "line": "Chewy, the pet retailer, posts that it does not sponsor or support the \"I’ve Had It\" podcast and condemns violence in all forms. It says the hosts’ comments do not reflect its values. The post does not say what the hosts said. Not checked here."
     },
     {
       "id": "2119399953240092933",
@@ -143,6 +133,18 @@
       "id": "2119632049103675510",
       "desk": "world",
       "line": "Mario Nawfal relays an Iraqi paper, Al-Mada, on alleged US war scenarios, including US ground forces entering Iran through Iraq. The post itself says neither is independently confirmed and there is no evidence of an invasion order. Not checked here."
+    },
+    {
+      "id": "2119598353218732358",
+      "desk": "ai",
+      "line": "Fireside Alpha posts a 46-second video and says President Trump, asked why he is not worried that AI builders put a 10 percent chance on AI killing humanity, said the Justice Department warned the head of a major AI company to \"get ready to go to jail.\" The video has no description. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2119678179963187564",
+      "desk": "tech",
+      "line": "The Robotaxi account says robotaxi service will be available in San Antonio starting \"tomorrow, 5am.\" The photo has no description, and the post does not say who runs the service. Not checked here.",
+      "also": []
     }
   ]
 }
