@@ -5441,3 +5441,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four dropped ids removed from the watch list (Variety Dana White post stays, a live story cites it); new id added. plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T10:10Z
+- Captures read: 1000Z (0901Z was the last logged read). Last read: 1000Z.
+- X's check: 1000Z 42 confirmed, 0 missing, 0 mismatched, 2 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 27 items listed, 26 on the front (build held back a second Reuters post). 2 new (Fireside Alpha on Trump's DOJ remark about an AI company head, ai; the Robotaxi account on San Antonio, tech), 2 dropped (F1 photo, Chewy post, past 36 hours). Header 1000Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: drjohnny__ Chappelle show post (second-hand, unchecked claim about a named performer); IterIntellectus Musk customer service post (point depends on an unseen quoted post, no media description); jamesdouma and XFreeze posts (point unclear or small); Reuters Nvidia posts, Osint613, Cointelegraph, cryptorover, AshCrypto posts (small, unchecked, or account caps); EndWokeness, simonateba, secretsqrl123 posts on the 60 Minutes interview (small, unchecked claims); Zachary40495101 49ers fight clip (no description, people in the crowd); Lenovo F1 post (advertisement); NFL, film and K-pop posts (small).
+- Requests: none. Two dropped ids removed from the watch list, two new ids added. plan.json rebuilt for 11Z.
+- Shipped: yes, commit 9ac40a75, live audit clean (162 files match). This log entry was committed after the ship, as a log-only change.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Trump's 60 Minutes remarks on AI and the DOJ (2119598353218732358) are worth a researched look. The starting message had no instructions beyond the contract.
