@@ -5540,5 +5540,5 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Added: none. Updated: none (pulse pass).
 - Left out: Lafayette Square driver clips (no description, unclear what happened); JJ McCarthy clip (no description); DailyLoud 49ers-Raiders brawl (graphic, people unconscious); 0xAlbus and Emmy_362 (private persons); Thefactsdude (a minor); ProjectConstitu, ImBreckWorsham, otttttttotttttt (point unclear or outrage framing); Musk, Unusual Whales, Kobeissi and WatcherGuru extras (account holds a place); Shams NBA All-Star (small, sports full).
 - Requests: none. Five ids added to the watch list (114 listed). plan.json rebuilt for 20Z.
-- Shipped: see report.
+- Shipped: yes, commit 00615a38, live audit clean (162 files match).
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Chappelle remark (largest unresearched), Nvidia CEO investigation, Hegseth impeachment push, Gunn and Safran leaving DC Studios, Lafayette Square incident near the White House (posts only so far), Russell Brand sentencing. The starting message had no instructions beyond the contract.
