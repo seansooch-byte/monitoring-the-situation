@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T05:35:00Z",
-  "capture": "2026-11-09T0503Z",
+  "updated_at": "2026-11-09T06:20:00Z",
+  "capture": "2026-11-09T0608Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -31,11 +31,6 @@
         "2119208291603525764",
         "2119196670043033897"
       ]
-    },
-    {
-      "id": "2119122862179066168",
-      "desk": "politics",
-      "line": "Disclose.tv says the Washington Post reports that Laura Loomer was paid by private clients \"to make political posts\" without publicly disclosing the payments. The Post report was not found here. Not checked here."
     },
     {
       "id": "2119157583533515245",
@@ -105,11 +100,6 @@
       "id": "2119131814728237481",
       "desk": "science",
       "line": "The account ScienceExpand, named \"Science Magazine\", posts a video under the words \"Load distribution physics in bridge engineering\". The post says nothing more."
-    },
-    {
-      "id": "2119130949434888330",
-      "desk": "tech",
-      "line": "Elon Musk says the Tesla Cybertruck order backlog is far more than the company can build before it dismantles the line for Cybercab expansion around June or July next year, and that Tesla will add an extra shift to try to finish all orders in time. Not checked here."
     },
     {
       "id": "2119293003340693687",

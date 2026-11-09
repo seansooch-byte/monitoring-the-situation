@@ -5401,3 +5401,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list header updated. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Running npm test while the build or verify runs gives false test failures (dist collision). The starting message had no instructions beyond the contract.
+
+## 2026-11-09T06:20Z
+- Captures read: 0608Z (0503Z was the last logged read). Last read: 0608Z.
+- X's check: 0608Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged.
+- Pulse: 34 items listed, 31 on the front (build held back second posts from unusual_whales, variety, reuters). 0 new, 2 dropped (disclosetv and elonmusk tech posts, past 36 hours). Header 0608Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the new 0608Z posts (Elon Musk's three short posts, the account is already on the pulse with a larger item; Reuters, Cointelegraph and NFL posts, accounts or desks full or small; political posts under the pulse's size; WFLA Buccaneers post, small).
+- Requests: none. Two dropped ids removed from the watch list. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. verify-posts --moments takes over two minutes. The starting message had no instructions beyond the contract.
