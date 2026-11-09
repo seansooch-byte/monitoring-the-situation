@@ -5411,3 +5411,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two dropped ids removed from the watch list. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. verify-posts --moments takes over two minutes. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T07:25Z
+- Captures read: 0708Z (0608Z was the last logged read). Last read: 0708Z.
+- X's check: 0708Z 35 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged.
+- Pulse: 33 items listed, 30 on the front (build held back second posts from unusual_whales, variety, reuters). 2 new (Fabrizio Romano on the Cunha quote, ESPN on the Baumgardner title; both sports), 3 dropped (ScienceExpand, LeadingReport, CJ_Pumpfun, past 36 hours). Header 0708Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: FearedBuck punch and cheating posts (private persons); MarioNawfal Java kids post (minors); libsoftiktok brands post (small, unchecked); PopBase, PopCrave, Wuthering Waves posts (small); NFL, Bears, Barstool, F1, Redbull posts (accounts or desk full, or small); mike_daddino Jets post (point unclear); EricLDaugh Ukraine post (small, unchecked); the old_content post.
+- Requests: none. Watch list updated with the pulse ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. verify-posts --moments takes over two minutes. The starting message had no instructions beyond the contract.
