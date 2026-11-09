@@ -5361,3 +5361,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list 2 ids added. plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The Blanche clip and the crypto liquidations could use a story pass. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T02:40Z
+- Captures read: 0101Z, 0201Z (0005Z was the last logged read). Last read: 0201Z.
+- X's check: 0101Z 127 confirmed, 0 missing, 0 mismatched, 2 withheld by X. 0201Z 150 confirmed, 0 missing, 1 mismatched, 10 withheld by X (none used; the mismatched id was not on the pulse or in a story).
+- Pulse: 38 items listed. 1 new (60 Minutes clip of the World Liberty Financial question, politics), 2 dropped (Central Command task force and the Turkey gold post, past 36 hours). Header 0201Z.
+- Added: 2026-11-08-trump-60-minutes-deportation-too-tough (politics), 2026-11-08-nvidia-board-probes-huang-china-spy (business, politics). Updated: none.
+- Left out: the name of the woman in the Huang story (a private person accused in reports); the Dana White "only kidding" remark (not found in CBS material, so the existing Dana White story is not updated); school-stabbing and Hinge posts (private persons, minors); old_content posts.
+- Requests: none. Watch list 10 ids added. plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Trump's Dana White "just kidding" remark (post 2119572563374587988) and the Blanche clip could update the Dana White story next pass. The starting message had no instructions beyond the contract.

@@ -1,0 +1,33 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-08-nvidia-board-probes-huang-china-spy",
+  "title": "Nvidia's board opens an investigation after CEO Jensen Huang admits an affair with a woman U.S. officials reportedly see as a Chinese asset",
+  "dek": "Nvidia supplies the chips at the centre of the U.S.-China technology fight. Its board says it has no reason to think secrets were compromised and will investigate anyway.",
+  "desks": ["business", "politics"],
+  "standing": "developing",
+  "started_at": "2026-11-08T20:07:00Z",
+  "updated_at": "2026-11-09T02:30:00Z",
+  "what": [
+    "On Sunday, 8 November 2026, CNBC and Fox Business reported that Nvidia's board launched an independent investigation of chief executive Jensen Huang. The reports say Huang emailed staff: \"I was unfaithful to my wife. My actions hurt her\" and \"I am deeply sorry.\" WatcherGuru posted extracts of the email.",
+    "CNBC says the woman is tied to Megaspeed, a cloud company and Nvidia customer that has been investigated over whether it helped restricted Chinese firms get Nvidia chips. CNBC and others, citing The New York Times and the Financial Times, say U.S. intelligence agencies believe she passes information to Beijing. I could not see those original reports, and I found no statement from her. She is not named here.",
+    "Nvidia's board said it has \"no reason to believe that either national security or NVIDIA secrets were compromised.\" It said a committee of independent directors, helped by outside counsel, will examine all available information. A spokesperson said Huang remains committed to staying on as CEO. Gavin Baker, an investor, posted the board's statement.",
+    "Three House Republican committee chairs have asked Huang for a closed-door briefing on 18 November, according to CNBC and RedState. Cointelegraph posted that President Trump called Huang \"an honorable guy\" and wants to hear his side. I could not confirm that remark outside X.",
+    "Other posts, including a video from the account Nostre_damus, claim Huang leaked chip secrets. No source I found says so, and the board says it has no reason to believe it. That claim is not supported here."
+  ],
+  "why": "It joins a personal admission to the question of whether a chip maker's top executive was compromised, while Congress is already pressing Nvidia on exports to China.",
+  "next": "The board's investigation has no stated end date. The House chairs have asked for Huang's briefing on 18 November.",
+  "posts": [
+    { "id": "2119524963644276809", "role": "origin" },
+    { "id": "2119522315184583136", "role": "voice" },
+    { "id": "2119591047126982933", "role": "voice" },
+    { "id": "2119577504432501240", "role": "voice" },
+    { "id": "2119588473724104732", "role": "voice" },
+    { "id": "2119523308580511928", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "CNBC: Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy", "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html" },
+    { "label": "CNBC: Jensen Huang faces bipartisan congressional scrutiny over reported China spy link", "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html" },
+    { "label": "Fox Business: Nvidia board probes Jensen Huang over alleged Chinese spy relationship", "url": "https://www.foxbusiness.com/politics/nvidia-ceo-jensen-huang-apologizes-firm-probes-affair-alleged-spy" },
+    { "label": "RedState: GOP chairmen want answers from Nvidia's Jensen Huang", "url": "https://redstate.com/ben-smith/2026/11/05/gop-chairmen-want-answers-from-nvidias-jensen-huang-after-alleged-chinese-spy-plot-n2209092" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T01:20:00Z",
-  "capture": "2026-11-09T0101Z",
+  "updated_at": "2026-11-09T02:35:00Z",
+  "capture": "2026-11-09T0201Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -141,18 +141,6 @@
       "also": []
     },
     {
-      "id": "2119071344075661320",
-      "desk": "defense",
-      "line": "Fox News reports that U.S. Central Command has formed Task Force Iron Gate, ordered by Adm. Brad Cooper, to stop the movement of weapons and sanctioned materials across Iran's borders. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2119073619473248265",
-      "desk": "markets",
-      "line": "AshCrypto says Turkey has sold $36 billion in gold and foreign reserves this year to defend the lira, and posts a chart of the lira's fall. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2119304905642922169",
       "desk": "disaster",
       "line": "Turbine Traveller, an aviation account, says an Air France A350 and an American Airlines A321 turned onto conflicting paths after leaving Los Angeles airport on Saturday, and that controllers told both to turn away. It says they reportedly came within 400 feet vertically. Not checked here."
@@ -211,6 +199,11 @@
       "id": "2119327820941808067",
       "desk": "world",
       "line": "Politics UK says the UK Government is set to ban under-16s from eBay, Vinted and Depop over fears that their messaging features let adults groom children. The post cites no source. Not checked here."
+    },
+    {
+      "id": "2119587209909006716",
+      "desk": "politics",
+      "line": "60 Minutes posts a clip of its question to President Trump about World Liberty Financial, his family's crypto company. In the interview CBS aired and published, Trump also says his deportation policy \"might be too tough\"."
     }
   ]
 }
