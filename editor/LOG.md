@@ -5431,3 +5431,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Dropped Unusual Whales post removed from the watch list (the Eisenkot post stays, a live story cites it). plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. verify-posts --moments takes over two minutes. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T09:15Z
+- Captures read: 0901Z (0803Z was the last logged read). Last read: 0901Z.
+- X's check: 0901Z 17 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 27 items listed, 26 on the front (build held back a second Reuters post). 1 new (Mario Nawfal on Al-Mada's reported US war scenarios, world), 5 dropped (Variety Dana White, Sanders, FIFA WWC, Dexerto, Bare Knuckle FC, past 36 hours). Header 0901Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Lara Logan certify post (small, point depends on an unseen quoted post); NFL "true sportsmanship" and "knew his guy" clips (no description, point unclear); Barstool turf clip and Schefter concussion post (sports full, small); PopBase anniversaries, IGN, NoContextHumans, Mario Nawfal air-rifle clip (small or private person); SinClipd (private persons).
+- Requests: none. Four dropped ids removed from the watch list (Variety Dana White post stays, a live story cites it); new id added. plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
