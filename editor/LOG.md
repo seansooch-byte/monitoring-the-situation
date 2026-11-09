@@ -5522,3 +5522,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged (covers every pulse id). plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T18:15Z
+- Captures read: 1803Z (1703Z was the last logged read). Last read: 1803Z.
+- X's check: 1803Z 79 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 28 items. 4 in, 2 out. In: aespa and Eartha Kitt "Santa Baby" (music, replaces Variety's ROSÉ post, 36 hours), Kobeissi Letter on the Huang company email (business), DiscussingFilm on Gunn and Safran leaving DC Studios (entertainment), InternetH0F on the California creatine age-verification law (life). Out: Variety ROSÉ (age), Kalshi Film Bond odds (small, entertainment now at four accounts). Header 1803Z. FreeThinkerFitness (about 36 hours) drops next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Thefactsdude and libsoftiktok (minors), Bronny James fan clip (private person), 0xAlbus (private persons), NFL punt and other no-description sports clips, Hegseth impeachment posts (very new, small), Chappelle and Brand duplicates, Musk replies (account holds a place), WatcherGuru Huang letter (account holds a place).
+- Requests: none. Four ids added to the watch list (109 listed). plan.json rebuilt for 19Z.
+- Shipped: yes, commit 04255cb2, live audit clean (162 files match).
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Hegseth impeachment push and press conference (posts only so far), Gunn leaving DC Studios (Hollywood Reporter linked). The starting message had no instructions beyond the contract.
