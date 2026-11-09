@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T00:35:00Z",
-  "capture": "2026-11-09T0005Z",
+  "updated_at": "2026-11-09T01:20:00Z",
+  "capture": "2026-11-09T0101Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -68,16 +68,6 @@
       "line": "Bare Knuckle FC posts a 14-second video and says Corey Chapman has scored another knockout at BKFC 96, live on its streaming service."
     },
     {
-      "id": "2119051697301647700",
-      "desk": "politics",
-      "line": "Richard Hanania posts a video and quotes Erika Kirk as saying she misses Charlie when she sees his hot sauce on grocery shelves. He adds \"It's an instinct.\" The quote is not checked here."
-    },
-    {
-      "id": "2119043594984280069",
-      "desk": "sports",
-      "line": "Adam Schefter reports, with Ian Rapoport, that several NFL teams including the Colts are weighing trade offers before Tuesday's deadline, and links an ESPN story on it."
-    },
-    {
       "id": "2119093662957060389",
       "desk": "science",
       "line": "SpaceX says Starship is preparing for a catch and that Flight 15 is targeting launch as early as Friday, November 13, pending regulatory approval."
@@ -130,12 +120,6 @@
       "id": "2119293003340693687",
       "desk": "entertainment",
       "line": "NBC’s Saturday Night Live account posts a video of Druski’s monologue. The post says nothing more.",
-      "also": []
-    },
-    {
-      "id": "2119053001814098023",
-      "desk": "ai",
-      "line": "Pirat Nation says AMD’s chief executive Lisa Su called AMD “a data center-first company”, and that AMD’s gaming revenue fell 40% while total revenue hit a record. The figures are the post’s own. Not checked here.",
       "also": []
     },
     {
@@ -217,6 +201,16 @@
       "id": "2119551689523179764",
       "desk": "markets",
       "line": "Watcher Guru says $1 billion was liquidated from the crypto market in 10 minutes, with Bitcoin falling under $74,000 and Ether under $2,125. The four photos have no description. Not checked here."
+    },
+    {
+      "id": "2119566187986120705",
+      "desk": "medicine",
+      "line": "Joe Biden, the former President, says his memoir, Promise Me, America, comes out on November 17. He says he was diagnosed with cancer while writing it, that his doctors are encouraged by how he has responded to treatment, and that he will do fewer conversations about the book."
+    },
+    {
+      "id": "2119327820941808067",
+      "desk": "world",
+      "line": "Politics UK says the UK Government is set to ban under-16s from eBay, Vinted and Depop over fears that their messaging features let adults groom children. The post cites no source. Not checked here."
     }
   ]
 }
