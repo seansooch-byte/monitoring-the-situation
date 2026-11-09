@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T06:20:00Z",
-  "capture": "2026-11-09T0608Z",
+  "updated_at": "2026-11-09T07:25:00Z",
+  "capture": "2026-11-09T0708Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -97,11 +97,6 @@
       "line": "MorbidKnowledge says The Simpsons retired the character Edna Krabappel after the death of Marcia Wallace in 2013, and that the next new episode had Bart write a chalkboard tribute to her. Not checked here."
     },
     {
-      "id": "2119131814728237481",
-      "desk": "science",
-      "line": "The account ScienceExpand, named \"Science Magazine\", posts a video under the words \"Load distribution physics in bridge engineering\". The post says nothing more."
-    },
-    {
       "id": "2119293003340693687",
       "desk": "entertainment",
       "line": "NBC’s Saturday Night Live account posts a video of Druski’s monologue. The post says nothing more.",
@@ -124,11 +119,6 @@
       "line": "Chewy, the pet retailer, posts that it does not sponsor or support the \"I’ve Had It\" podcast and condemns violence in all forms. It says the hosts’ comments do not reflect its values. The post does not say what the hosts said. Not checked here."
     },
     {
-      "id": "2119138240993337537",
-      "desk": "politics",
-      "line": "Leading Report, an account that posts news items, says Georgia election officials found a memory card with 388 uncounted votes that flipped a state House race from a Democrat to a Republican. The post gives no source. Not checked here."
-    },
-    {
       "id": "2119399953240092933",
       "desk": "sports",
       "line": "NFL reporter Ian Rapoport says Ravens quarterback Lamar Jackson has told teammates he plans to return later this season, with the message \"Just stay alive.\" The post links his story, which cites sources. Not checked here."
@@ -137,11 +127,6 @@
       "id": "2119359269774799256",
       "desk": "medicine",
       "line": "Gianl1974 says ICE agents reportedly blocked the emergency entrance of a Los Angeles hospital for two hours and ambulances had to go elsewhere. The post gives no source for the report. Not checked here."
-    },
-    {
-      "id": "2119135968548589693",
-      "desk": "offbeat",
-      "line": "CJ posts a photo with the caption \"When you go to work and see your cat living the good life.\" The photo has no description, so what it shows is not checked here."
     },
     {
       "id": "2119505045846999253",
@@ -183,6 +168,16 @@
       "desk": "ai",
       "line": "Elon Musk says he held a round table review with the Grok @Bot engineering team, that fixes go in overnight, and that users should see a dramatic improvement by tomorrow. Grok, the model that gathers this page’s posts, is made by xAI, a company in this post. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2119670655180476885",
+      "desk": "sports",
+      "line": "Fabrizio Romano posts a quote he attributes to Matheus Cunha after Manchester United conceded: \"We can’t concede goals like this, we need to play like Manchester United.\" The quote is Romano’s report and is not checked here."
+    },
+    {
+      "id": "2119655424169267600",
+      "desk": "sports",
+      "line": "ESPN says Alycia Baumgardner beat Elif Turhan by unanimous decision to become the new IBF women’s lightweight champion. The post carries the #MVPW07 tag. Not checked here."
     }
   ]
 }
