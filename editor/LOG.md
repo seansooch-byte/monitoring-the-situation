@@ -5451,3 +5451,14 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two dropped ids removed from the watch list, two new ids added. plan.json rebuilt for 11Z.
 - Shipped: yes, commit 9ac40a75, live audit clean (162 files match). This log entry was committed after the ship, as a log-only change.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Trump's 60 Minutes remarks on AI and the DOJ (2119598353218732358) are worth a researched look. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T11:40Z
+- Captures read: 1104Z (1000Z was the last logged read). Last read: 1104Z.
+- X's check: 1104Z 36 confirmed, 0 missing, 0 mismatched, 3 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 26 items listed, 25 on the front (build held back a second Reuters post). 0 new, 1 dropped (Fortnite Status drop rates, past 36 hours). Fireside Alpha line now says the CBS transcript lacks the jail remark. Header 1104Z.
+- Added: none. Updated: 2026-11-08-trump-60-minutes-deportation-too-tough (AI passage: transcript has the 10% question and the China and guardrails answer; the DOJ "go to jail" claim rests only on a clip post, I did not find it in the transcript; stated as unconfirmed, no company named).
+- Left out: new 1104Z posts (small, sensor-level, ads, or private persons); AFpost and RupertLowe10 Trump "amnesty deal" posts (claim not checked against CBS material); the Arizona election fraud post (unconfirmed fraud claim, one source); Dave Chappelle posts (second-hand quotes about a named performer, unchecked); Russell Brand prison post (slur); 0xnikio7 custody post and Thefactsdude post (private persons, a minor).
+- Requests: none. Dropped Fortnite id removed from the watch list. plan.json rebuilt for 12Z.
+- Stories checked, not changed: Nvidia, Eisenkot/Herzog, Krakow. Searches found nothing clearly newer than each story's sources; the Krakow results mixed in other incidents, so I changed nothing.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract. Python and shell redirects were blocked in this sandbox; I edited with the file tools.

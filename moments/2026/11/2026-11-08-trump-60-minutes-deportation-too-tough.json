@@ -6,13 +6,14 @@
   "desks": ["politics"],
   "standing": "established",
   "started_at": "2026-11-08T20:40:00Z",
-  "updated_at": "2026-11-09T02:30:00Z",
+  "updated_at": "2026-11-09T11:30:00Z",
   "what": [
     "CBS News aired and published a 60 Minutes interview with President Trump on Sunday, 8 November 2026, conducted by Ross Douthat. CNN reported on 6 November that Trump would tape it after the Republican losses in the midterms.",
     "On deportations, CBS's transcript has Trump saying: \"I think it might be too tough, yeah.\" He pointed to long-time workers such as hotel cleaners and waitresses: \"all of a sudden, they're being taken outta the country, it's tough.\" CBS reports he said the policy both helped and hurt him politically. The account ZeroHedge posted a headline saying he told CBS the policy was, or might be, \"too tough\".",
     "On World Liberty Financial, the crypto company his family owns, CBS's transcript has Trump saying he knows nothing about it. Cointelegraph's post quotes him saying most of his money is given to \"the biggest firm on Wall Street to invest\" and that he has no idea what they are buying. 60 Minutes posted the clip of the question.",
     "On Vice President Vance, the transcript has Trump saying he did not disagree with Vance's social media analysis blaming the Iran war for the midterm losses, and that Vance asked him what he thought and he said, \"You write what you want.\" A post by Aaron Rupar carries a clip in which Trump says of Vance: \"A lot of people didn't like his comments.\" I could not find that line in the CBS material I read, so it rests on the clip.",
-    "CBS cites exit polling in which 58 percent said the administration's immigration actions went too far, and notes that Stephen Miller has replaced Susie Wiles as chief of staff. Trump's words are about past enforcement. I did not find an announced change in policy."
+    "CBS cites exit polling in which 58 percent said the administration's immigration actions went too far, and notes that Stephen Miller has replaced Susie Wiles as chief of staff. Trump's words are about past enforcement. I did not find an announced change in policy.",
+    "Douthat also asked about AI. The transcript has him citing AI leaders who say there is a 10% chance the technology kills humanity. CBS's text has Trump saying China will have AI if the US does not, and that he is open to guardrails but does not want the US in a deep second position. A post by Fireside Alpha carries a 46-second clip and says Trump told the interviewer the Justice Department warned the head of a major AI company to \"get ready to go to jail.\" I did not find the words \"jail\", \"prison\" or \"Justice Department\" in the CBS transcript I read. No company or person is named in the post. That claim rests only on the post and is not confirmed here."
   ],
   "why": "A president who has called for harder enforcement used the word \"tough\" about it days after a bad election, and clips of the interview were posted within hours of airing.",
   "next": "Watch whether the administration changes any enforcement practice, or says the remark was about particular cases.",
@@ -20,7 +21,8 @@
     { "id": "2119587209909006716", "role": "official" },
     { "id": "2119530419347656888", "role": "voice" },
     { "id": "2119591969207066654", "role": "voice" },
-    { "id": "2119574647448498685", "role": "voice" }
+    { "id": "2119574647448498685", "role": "voice" },
+    { "id": "2119598353218732358", "role": "voice" }
   ],
   "sources": [
     { "label": "CBS News: Trump says some of his immigration policies may have been too tough", "url": "https://cbsnews.com/news/trump-says-some-of-his-immigration-policies-may-have-been-too-tough-60-minutes" },
