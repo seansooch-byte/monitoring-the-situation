@@ -5552,3 +5552,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Six ids added to the watch list. plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Fable 5.2 and Mythos 5.2 launch (Anthropic makes Claude, so the disclosure applies), Massie's Hegseth impeachment, Trump's 60 Minutes interview (Israel costs, UFOs, Heaven), Meta Muse Ember, Chappelle remark. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T21:25Z
+- Captures read: 2100Z (2002Z was the last logged read). Last read: 2100Z.
+- X's check: 2100Z 121 confirmed, 0 missing, 0 mismatched, 3 withheld by X. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 34 items. 1 in, 1 out. In: ESPN on the College Football Playoff deal (sports). Out for age (about 36 hours): Gianl1974 hospital post (medicine). Header 2100Z.
+- Added: 2026-11-09-gunn-safran-leave-dc-studios (entertainment), 2026-11-09-russell-brand-sentenced (justice), 2026-11-09-cfp-espn-24-team-deal (sports), 2026-11-09-massie-reads-hegseth-impeachment (politics), 2026-11-09-claude-fable-mythos-5-2 (ai; Anthropic makes the model writing the page, stated in the story). Updated: none.
+- Left out: Lafayette Square incident (posts only, no description); Chappelle remark and Meta Muse Ember (not researched this pass); Tesla solar plant (no source opened); Kai Cenat/McDonald's post (a private person is involved). Not rechecked this pass: the Nvidia, Nasdaq, Eisenkot, Krakow, Qeshm and Riyadh stories.
+- Requests: none added or removed. Four ids added to the watch list (the new stories' posts). plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: recheck the developing stories above, the Chappelle remark, Meta Muse Ember, and the Massie vote expected Wednesday. The starting message had no instructions beyond the contract.

@@ -1,0 +1,28 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-09-gunn-safran-leave-dc-studios",
+  "title": "James Gunn and Peter Safran are leaving their jobs running DC Studios",
+  "dek": "The two people who rebooted DC's films and shows are stepping down as its heads. A Marvel veteran takes over, and fans are already arguing about what happens to the planned slate.",
+  "desks": ["entertainment"],
+  "standing": "established",
+  "started_at": "2026-11-09T17:15:55Z",
+  "updated_at": "2026-11-09T21:20:00Z",
+  "what": [
+    "On Monday, 9 November 2026, The Hollywood Reporter, Variety and TheWrap reported that James Gunn and Peter Safran will step down as co-heads of DC Studios. TheWrap reports that the change takes effect on 1 December. Jeremy Latcham, who worked at Marvel Studios in its early years, becomes president and chief creative officer.",
+    "TheWrap reports that Latcham will report to Dana Goldberg and Josh Greenstein, co-chairs of Skydance Motion Picture Group. It also reports that Gunn and Safran say they will return full time to creative work, including post-production on the Superman sequel \"Man of Tomorrow\". Trade outlets reported a joint statement from the two saying they were eager to see what Latcham brings to DC's next chapter.",
+    "Variety's headline describes the two as \"out\". The statement quoted by TheWrap describes a choice to return to creative work. I could not find a source that says which of these is the full picture.",
+    "Posts on X add a second claim: that the plan under Gunn included Batman in \"The Brave and the Bold\" in 2028 and a \"Justice League\" film later. One post attributes that to a reporter. I could not confirm it outside X, so it is not treated as established here."
+  ],
+  "why": "Gunn's DC slate was the main rival to Marvel's, and many fans had followed it closely since 2022. A sudden change of leadership, with a Marvel name in charge, reads to many people as a story about the whole slate and not only about two jobs.",
+  "next": "The change is due to take effect on 1 December. Which announced projects keep going has not been stated in the reports I read.",
+  "posts": [
+    { "id": "2119841425923702877", "role": "origin" },
+    { "id": "2119841627808440589", "role": "reply" },
+    { "id": "2119890585989583238", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "The Hollywood Reporter: DC Studios Shocker, James Gunn, Peter Safran Stepping Down", "url": "https://www.hollywoodreporter.com/movies/movie-news/dc-studios-shocker-james-gunn-peter-safran-stepping-1236750902/" },
+    { "label": "Variety: James Gunn, Peter Safran Out as Co-Chairmen, Jeremy Latcham to Lead DC", "url": "https://variety.com/2026/film/news/james-gunn-peter-safran-fired-dc-jeremy-latcham-1236943091/" },
+    { "label": "TheWrap: Gunn and Safran out at DC Studios, Latcham named president and chief creative officer", "url": "https://www.thewrap.com/culture-lifestyle/culture/james-gunn-and-peter-safran-out-at-dc-studios-jeremy-latcham-named-new-president-and-chief-creative-officer/" }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-09-massie-reads-hegseth-impeachment",
+  "title": "Rep. Massie reads eight articles of impeachment against Defense Secretary Hegseth on the House floor",
+  "dek": "A Republican congressman has forced the House toward a vote on removing the Pentagon's chief. A vote is expected this week.",
+  "desks": ["politics"],
+  "standing": "developing",
+  "started_at": "2026-11-09T19:08:56Z",
+  "updated_at": "2026-11-09T21:20:00Z",
+  "what": [
+    "On Monday, 9 November 2026, Rep. Thomas Massie, a Kentucky Republican, read articles of impeachment against Defense Secretary Pete Hegseth on the House floor. CBS News and CNN report the resolution runs 34 pages and has eight articles.",
+    "CBS reports that three articles say Hegseth waged war on Iran without congressional authorization. Others cover civilian casualties, boat strikes in the Caribbean, the capture of Venezuela's president, and Pentagon scrutiny of Sen. Mark Kelly over a video urging service members to refuse illegal orders. These are Massie's allegations.",
+    "CBS reports that Massie first introduced similar articles in September, and House Republican leaders put off action until November. It reports that because the resolution is privileged, leaders must schedule a vote within two legislative days. CNN's live coverage says a vote is expected on Wednesday.",
+    "CBS quotes Hegseth calling it political theater: \"Didn't work against President Trump, and it won't work with me.\" It reports that Rep. James Comer pointed to voter frustration over Iran policy and Rep. Don Bacon said he is \"wrestling\" with it, while Democrats largely support the effort. A local station report says Massie lost his primary and will not return to Congress next term. I did not confirm that elsewhere."
+  ],
+  "why": "It is rare for a member of the president's own party to force an impeachment vote on a cabinet officer, and it lands as Congress returns after the midterms with the Iran war unresolved.",
+  "next": "The House vote expected on Wednesday, 11 November.",
+  "posts": [
+    { "id": "2119869868564742545", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "CBS News: Massie introduces impeachment articles against Hegseth, teeing up vote this week", "url": "https://www.cbsnews.com/news/pete-hegseth-impeachment-vote-house-thomas-massie/" },
+    { "label": "CNN live updates, 9 November 2026", "url": "https://www.cnn.com/2026/11/09/politics/live-news/midterm-election-trump-congress" }
+  ]
+}

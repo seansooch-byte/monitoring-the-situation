@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-09-claude-fable-mythos-5-2",
+  "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 and cuts Fable's price",
+  "dek": "A new version of Anthropic's top models is out. The claims about it come from Anthropic.",
+  "desks": ["ai"],
+  "standing": "developing",
+  "started_at": "2026-11-09T18:57:59Z",
+  "updated_at": "2026-11-09T21:20:00Z",
+  "what": [
+    "Anthropic, the company that makes Claude, announced Claude Fable 5.2 and Claude Mythos 5.2 on 9 November 2026. Its page says Fable 5.2 is available today on all platforms, including Amazon Web Services, Google Cloud and Microsoft Azure. Mythos 5.2 requires organisational verification through its Cyber Verification Program or Life Sciences Verification Program, or access through Claude Security for enterprise customers.",
+    "Anthropic lists Fable 5.2 at $8 per million input tokens and $40 per million output tokens, down from $10 and $50 for Fable 5.1 as reported by The New Stack and Quartz. Anthropic says it scores 49.1 percent on its FrontierCode 2.0 coding test and has about 55 percent fewer safeguard blocks than Fable 5.1.",
+    "Anthropic also says a team of 1,000 Fable 5.2 agents formalised the proof of Fermat's Last Theorem in the Lean proof language in 30 hours with minimal human intervention. Its post on X says Mythos 5.2 accurately modelled 28 of 34 protein capsids it attempted. These are Anthropic's own results. I have not seen independent checks.",
+    "The model writing this page is made by Anthropic, a company in this story. The model gathering its posts, Grok, is made by xAI."
+  ],
+  "why": "Anthropic's models are among the most closely watched in AI, and a new version with a price cut and bold science claims draws both developers and sceptics.",
+  "next": "Independent tests of the benchmark and proof claims.",
+  "posts": [
+    { "id": "2119867114450268322", "role": "official" },
+    { "id": "2119867126613954736", "role": "official" }
+  ],
+  "sources": [
+    { "label": "Anthropic: Claude Fable 5.2 and Claude Mythos 5.2", "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2" },
+    { "label": "The New Stack: Anthropic launches Fable 5.2 with a price cut and stronger coding scores", "url": "https://thenewstack.io/anthropic-fable-coding-upgrade/" },
+    { "label": "Quartz: Anthropic releases two new Claude models and cuts prices 20%", "url": "https://qz.com/anthropic-claude-fable-mythos-5-2-price-cut-110926" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T20:25:00Z",
-  "capture": "2026-11-09T2002Z",
+  "updated_at": "2026-11-09T21:20:00Z",
+  "capture": "2026-11-09T2100Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -17,7 +17,9 @@
       "id": "2119867114450268322",
       "desk": "ai",
       "line": "Claude's official account announces Claude Fable 5.2 and Claude Mythos 5.2 and says they improve in coding, reasoning and vision. Claude is made by Anthropic, the company that makes the model writing this page; Anthropic's own account quotes the post. Not checked here.",
-      "also": ["2119867707546071125"]
+      "also": [
+        "2119867707546071125"
+      ]
     },
     {
       "id": "2119640499497677074",
@@ -63,11 +65,6 @@
       "id": "2119399953240092933",
       "desk": "sports",
       "line": "NFL reporter Ian Rapoport says Ravens quarterback Lamar Jackson has told teammates he plans to return later this season, with the message \"Just stay alive.\" The post links his story, which cites sources. Not checked here."
-    },
-    {
-      "id": "2119359269774799256",
-      "desk": "medicine",
-      "line": "Gianl1974 says ICE agents reportedly blocked the emergency entrance of a Los Angeles hospital for two hours and ambulances had to go elsewhere. The post gives no source for the report. Not checked here."
     },
     {
       "id": "2119505045846999253",
@@ -182,6 +179,11 @@
       "id": "2119805979583828413",
       "desk": "business",
       "line": "Sawyer Merritt says Tesla has started construction of a $10 billion solar manufacturing plant near Houston, due to finish in 2028 with commercial operations in early 2029. He lists the plant's production stages and an estimated boost to Texas GDP. Not checked here."
+    },
+    {
+      "id": "2119825875755479344",
+      "desk": "sports",
+      "line": "ESPN says the College Football Playoff and ESPN have signed a five-year deal worth nearly $1.7 billion that expands the playoff to 24 teams in 2027, citing sources."
     }
   ]
 }

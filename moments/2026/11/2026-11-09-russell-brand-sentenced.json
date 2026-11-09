@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-09-russell-brand-sentenced",
+  "title": "Russell Brand is sentenced to 10 years and six months for rape and sexual assault",
+  "dek": "A London court has sentenced the comedian and online commentator four days after a jury convicted him. He denied the charges.",
+  "desks": ["justice"],
+  "standing": "established",
+  "started_at": "2026-11-09T14:30:41Z",
+  "updated_at": "2026-11-09T21:20:00Z",
+  "what": [
+    "On Monday, 9 November 2026, Judge Joel Bennathan at Southwark Crown Court in London sentenced Russell Brand to 10 years and six months in prison. NPR and WRAL report that the sentence covers one count of rape and three counts of sexual assault, on which a jury convicted him on 5 November.",
+    "WRAL reports that the jury acquitted him on two other rape charges and one count of attempted indecent assault. It also reports that he maintained his innocence at trial, saying either that the incidents did not happen or that the women described consensual encounters as assaults.",
+    "NPR and WRAL quote the judge calling Brand \"a sexual predator\" with a \"casual, arrogant disregard\" for women's wishes. WRAL quotes him saying Brand's celebrity protected him until 2023.",
+    "Reports say Brand can be released on licence after serving two thirds of the sentence. I did not find a report of an appeal. The complainants are not named here."
+  ],
+  "why": "Brand built a large audience in comedy and then in online commentary, and a sentence is the point where a long-running case gets a fixed fact. BBC Breaking's alert on it drew a large audience on X.",
+  "next": "Watch for any appeal filed by Brand's lawyers.",
+  "posts": [
+    { "id": "2119799843107319946", "role": "official" }
+  ],
+  "sources": [
+    { "label": "NPR: British comedian Russell Brand sentenced to over 10 years for rape and sexual assault", "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced" },
+    { "label": "WRAL: Russell Brand sentenced to 10 1/2 years in prison for rape", "url": "https://www.wral.com/news/local/arts-russell-brand-sentencing/" }
+  ]
+}

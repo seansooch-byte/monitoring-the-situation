@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-09-cfp-espn-24-team-deal",
+  "title": "College Football Playoff and ESPN agree a deal to grow the field to 24 teams in 2027",
+  "dek": "The playoff will go from 12 teams to 24, with ESPN paying more to show the extra games. Some fans have objected to the size.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-09T16:14:07Z",
+  "updated_at": "2026-11-09T21:20:00Z",
+  "what": [
+    "On Monday, 9 November 2026, ESPN reported that the College Football Playoff and ESPN signed a five-year deal worth nearly $1.7 billion that expands the playoff to 24 teams from the 2027 season. ESPN's report cites sources. It also reports that the CFP management committee voted unanimously for it.",
+    "ESPN reports the field will be four Power Four conference champions, 19 at-large teams and the highest-ranked Group of Six team. The top eight get a first-round bye, and the first two rounds are played on the campus of the higher seed.",
+    "Other outlets give the money as about $345 million a year extra to ESPN, on top of the six-year, $7.8 billion contract signed in March 2024. I did not check that against a CFP document.",
+    "ESPN reports that no decision has been made on bowl games it owns and runs, and that arrangements for sublicensing some of the new games are not final. CFP executive director Rich Clark acknowledged fan sentiment against expansion, ESPN reports."
+  ],
+  "why": "The playoff is the top prize in college football, and its size decides how many teams and fans have something to play for. A bigger field means more games, more money and, for many fans, a change to what the regular season means.",
+  "next": "The fate of the bowl games and the way ESPN shares out the extra games are open.",
+  "posts": [
+    { "id": "2119825875755479344", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "ESPN: CFP, ESPN ink 5-year, $1.7B deal to expand field to 24 teams", "url": "https://www.espn.com/college-football/story/_/id/50433381/cfp-espn-ink-5-year-17b-deal-expand-field-sources-say" },
+    { "label": "Awful Announcing: ESPN, CFP officially announce expansion to 24 teams", "url": "https://awfulannouncing.com/espn/college-football-playoff-officially-expand-24-teams.html" }
+  ]
+}
