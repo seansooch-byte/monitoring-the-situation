@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-08T23:35:00Z",
-  "capture": "2026-11-08T2307Z",
+  "updated_at": "2026-11-09T00:35:00Z",
+  "capture": "2026-11-09T0005Z",
   "items": [
     {
       "id": "2119505483019030962",
       "desk": "ai",
       "line": "Unusual Whales says Bloomington, Indiana, has banned artificial superintelligence, with a 7-0 council vote, fines for violators, and a repeal bar of more than 95 percent of registered voters. A local paper confirms the vote but describes the ban's end differently; see the story."
-    },
-    {
-      "id": "2119029619341013080",
-      "desk": "world",
-      "line": "India’s prime minister Narendra Modi posts a video with the words “Have a great Diwali!” The video has no description, so what it shows is not checked here."
     },
     {
       "id": "2119088902866690441",
@@ -68,19 +63,9 @@
       "line": "Reuters says it has found Apple's secret list of words the iPhone keyboard will not autocomplete, including \"Dictator Trump\" and \"Sleepy Joe\", and points to its podcast for the reasons. Apple's reply, per Reuters, is that the keyboard avoids suggesting offensive language."
     },
     {
-      "id": "2119029831497044188",
-      "desk": "world",
-      "line": "Nigerian opposition figure Peter Obi posts an open letter to the country's president. He says the president has spent over 260 days outside Nigeria and asks what became of the fuel subsidy savings and the borrowed money. These are Obi's claims. Not checked here."
-    },
-    {
       "id": "2119170683435417708",
       "desk": "sports",
       "line": "Bare Knuckle FC posts a 14-second video and says Corey Chapman has scored another knockout at BKFC 96, live on its streaming service."
-    },
-    {
-      "id": "2119138672536965426",
-      "desk": "politics",
-      "line": "Aaron Rupar posts what he presents as a Trump statement offering UFC head Dana White the job of Press Secretary and asking him to bring several fighters as assistants. A later post from unusual_whales says CNN reports White declined. Not checked here."
     },
     {
       "id": "2119051697301647700",
@@ -222,6 +207,16 @@
       "id": "2119523898366496990",
       "desk": "business",
       "line": "The Stalwart quotes a Bloomberg report that Nvidia’s board is investigating whether chief executive Jensen Huang was targeted by a foreign espionage plot, after he told employees he was unfaithful to his wife. Not checked here."
+    },
+    {
+      "id": "2119435741528772981",
+      "desk": "politics",
+      "line": "Aaron Rupar posts what he says is full footage of Attorney General Todd Blanche on CNN, and calls it a “crashout.” He says Blanche confirms he will investigate Democrats on Trump’s demand and leaves open trying to imprison them. I could not see the video here. Not checked here."
+    },
+    {
+      "id": "2119551689523179764",
+      "desk": "markets",
+      "line": "Watcher Guru says $1 billion was liquidated from the crypto market in 10 minutes, with Bitcoin falling under $74,000 and Ether under $2,125. The four photos have no description. Not checked here."
     }
   ]
 }
