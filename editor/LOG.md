@@ -5542,3 +5542,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Five ids added to the watch list (114 listed). plan.json rebuilt for 20Z.
 - Shipped: yes, commit 00615a38, live audit clean (162 files match).
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Chappelle remark (largest unresearched), Nvidia CEO investigation, Hegseth impeachment push, Gunn and Safran leaving DC Studios, Lafayette Square incident near the White House (posts only so far), Russell Brand sentencing. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T20:25Z
+- Captures read: 2002Z (1907Z was the last logged read). Last read: 2002Z.
+- X's check: 2002Z 119 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 34 items. 5 in, 1 out. In: Claude's Fable 5.2 and Mythos 5.2 announcement (ai, Anthropic's quote in `also`; line says Anthropic makes the model writing the page), Hormuz Letter on Trump's 60 Minutes remark about Israel repaying Iran war costs (politics), Rep. Massie reading impeachment articles against Hegseth (politics), Zuckerberg on Meta's Muse Ember (ai), Franklin Graham on the Trump 60 Minutes interview (ideas). Out for age (about 36 hours): Pirat_Nation Layden PS6. Header 2002Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Rocket clip, venturetwins AI interviewer clip, SourceVI GTA statement (no description, point unclear); Stray Kids ticket post (advertisement); Chappelle open letter (unresearched, duplicates); Bruce Willis health post (Mario Nawfal holds a place, one source); Bank of England AI warning (WatcherGuru holds a place); Clayface first look (DiscussingFilm holds a place); Jensen Huang photos (alleged, private-person claims, no source); Polish police officer (named individual, aggregator).
+- Requests: none. Six ids added to the watch list. plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Fable 5.2 and Mythos 5.2 launch (Anthropic makes Claude, so the disclosure applies), Massie's Hegseth impeachment, Trump's 60 Minutes interview (Israel costs, UFOs, Heaven), Meta Muse Ember, Chappelle remark. The starting message had no instructions beyond the contract.

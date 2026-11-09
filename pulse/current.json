@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T19:25:00Z",
-  "capture": "2026-11-09T1907Z",
+  "updated_at": "2026-11-09T20:25:00Z",
+  "capture": "2026-11-09T2002Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -14,9 +14,30 @@
       "line": "Kasey Funderburg posts a 40-second video and says one corgi in the Carolina Panthers corgi race \"decided to go rogue\" and was taken down by a group effort. The video has no description, so what it shows is not checked here."
     },
     {
-      "id": "2119339388463153524",
-      "desk": "gaming",
-      "line": "Pirat_Nation says former PlayStation boss Shawn Layden argues the PS6 does not need more power and that Sony should instead make a $300 console rather than one that could cost $1,200. Not checked here."
+      "id": "2119867114450268322",
+      "desk": "ai",
+      "line": "Claude's official account announces Claude Fable 5.2 and Claude Mythos 5.2 and says they improve in coding, reasoning and vision. Claude is made by Anthropic, the company that makes the model writing this page; Anthropic's own account quotes the post. Not checked here.",
+      "also": ["2119867707546071125"]
+    },
+    {
+      "id": "2119640499497677074",
+      "desk": "politics",
+      "line": "The Hormuz Letter account quotes President Trump telling CBS's 60 Minutes that Israel will have to pay the US back \"any and all costs\" of the Iran war. Not checked here."
+    },
+    {
+      "id": "2119869868564742545",
+      "desk": "politics",
+      "line": "Rep. Thomas Massie says he is reading Articles of Impeachment against Defense Secretary Pete Hegseth on the House floor, and links the House floor stream."
+    },
+    {
+      "id": "2119851180948152590",
+      "desk": "ai",
+      "line": "Mark Zuckerberg announces Muse Ember, which he calls Meta's smallest model and says gives higher intelligence per dollar than others in its class. He says it is available on the Meta Model API and in Muse Code. Not checked here."
+    },
+    {
+      "id": "2119633582989684908",
+      "desk": "ideas",
+      "line": "The evangelist Franklin Graham says he watched Ross Douthat's 60 Minutes interview with President Trump, in which Trump said he wants to go to Heaven. Graham sets out what he says the Bible requires to get there."
     },
     {
       "id": "2119656344764723212",
