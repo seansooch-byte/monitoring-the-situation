@@ -5421,3 +5421,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list updated with the pulse ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. verify-posts --moments takes over two minutes. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T08:20Z
+- Captures read: 0803Z (0708Z was the last logged read). Last read: 0803Z.
+- X's check: 0803Z 23 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged.
+- Pulse: 31 items listed, 29 on the front (build held back second posts from variety, reuters). 0 new, 2 dropped (AP Eisenkot post and Unusual Whales AI-errors post, past 36 hours). Header 0803Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the new 0803Z posts (Fabrizio Romano's two and Elon Musk's two, accounts already on the pulse; Reuters, Cointelegraph, Osint613, AshCrypto, cryptorover posts, small, unchecked or account caps; EricLDaugh Thune post, small; DININTELNETWORK, small account, unchecked claim; GuntherEagleman, jukan05, cb_doge, small; SkyNews Brand sentencing, no large reach); the old_content post.
+- Requests: none. Dropped Unusual Whales post removed from the watch list (the Eisenkot post stays, a live story cites it). plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. verify-posts --moments takes over two minutes. The starting message had no instructions beyond the contract.
