@@ -5532,3 +5532,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list (109 listed). plan.json rebuilt for 19Z.
 - Shipped: yes, commit 04255cb2, live audit clean (162 files match).
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Hegseth impeachment push and press conference (posts only so far), Gunn leaving DC Studios (Hollywood Reporter linked). The starting message had no instructions beyond the contract.
+
+## 2026-11-09T19:25Z
+- Captures read: 1907Z (1803Z was the last logged read). Last read: 1907Z.
+- X's check: 1907Z 95 confirmed, 0 missing, 0 mismatched, 2 withheld by X. 1803Z settled at 79 confirmed. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 30 items. 4 in, 2 out. In: Sky Sports PL on the Unai Emery interview (sports, Polymarket's copy in `also`), Jared Kushner on the Abu Dhabi talks (world), Reuters on the Honduran migrant caravan (world), Sawyer Merritt on Tesla's Houston solar plant (business). Out for age (about 36 hours): PolitlcsUK under-16s ban, FreeThinkerFitness Chappelle quote. Header 1907Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Lafayette Square driver clips (no description, unclear what happened); JJ McCarthy clip (no description); DailyLoud 49ers-Raiders brawl (graphic, people unconscious); 0xAlbus and Emmy_362 (private persons); Thefactsdude (a minor); ProjectConstitu, ImBreckWorsham, otttttttotttttt (point unclear or outrage framing); Musk, Unusual Whales, Kobeissi and WatcherGuru extras (account holds a place); Shams NBA All-Star (small, sports full).
+- Requests: none. Five ids added to the watch list (114 listed). plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Chappelle remark (largest unresearched), Nvidia CEO investigation, Hegseth impeachment push, Gunn and Safran leaving DC Studios, Lafayette Square incident near the White House (posts only so far), Russell Brand sentencing. The starting message had no instructions beyond the contract.
