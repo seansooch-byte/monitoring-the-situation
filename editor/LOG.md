@@ -5512,3 +5512,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list set to the new pulse (105 ids). plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: the Chappelle remark (several versions of the quote in circulation) and the Nvidia CEO investigation (NYT, Bloomberg) are the largest unresearched stories. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T17:40Z
+- Captures read: 1703Z (1607Z was the last logged read). Last read: 1703Z.
+- X's check: 1703Z 37 confirmed, 0 missing, 0 mismatched, 4 withheld by X. 1607Z settled at 108 confirmed, 6 withheld. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 26 items. 0 new, 3 dropped for age (about 36 hours): SNL Druski monologue, Reuters Riyadh booms, Turbinetraveler LAX near miss. Header 1703Z. New posts since 1607Z came from accounts that already hold a place (Musk, Schefter, RapSheet, Romano, WatcherGuru) or were small.
+- Added: none. Updated: none (pulse pass).
+- Left out: NFL Braden Mann punt (video has no description, desk unlabelled); KalshiFC Greenwood goal (no description); Van Hollen/Schumer (small, one source, politics at four accounts); Polish police officer post (named individual, aggregator); Emmy_362 betting post (private person); other Brand posts (duplicates of BBC Breaking).
+- Requests: none. Watch list unchanged (covers every pulse id). plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
