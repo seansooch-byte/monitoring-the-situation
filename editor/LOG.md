@@ -5572,3 +5572,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list. plan.json rebuilt for 23Z (planner says 0 reads left in the day budget).
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Jaguars-Eagles Jordan Davis trade, FDA GLP-1 eye warning, Calley Means and Susie Wiles lobbying claims, Fable 5.2 launch, Massie vote. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T23:30Z
+- Captures read: 2301Z (2207Z was the last logged read). Last read: 2301Z.
+- X's check: 2301Z 108 confirmed, 0 missing, 0 mismatched, 7 withheld by X. Older mismatches unchanged (0201Z, 0407Z, 1501Z 2119761933159289140).
+- Pulse: 35 items, 0 in, 0 out. Nothing new was larger than the smallest item kept, and nothing is past 36 hours (oldest about 28). Header 2301Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Biden memoir excerpt (Appelbaum, no description, below the pulse floor); AJEnglish excavator clip (world already holds three); Jordan Davis trade, Eagles and other Schefter posts (sports full, Schefter holds a place); Rockstar GTA ad; Acyn Boebert result post (unresearched, unchecked claim).
+- Requests: none. Watch list unchanged. plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Jordan Davis trade, Biden memoir excerpt, Boebert race call, Shaanxi excavator. The starting message had no instructions beyond the contract.
