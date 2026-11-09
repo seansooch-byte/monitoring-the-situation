@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T13:40:00Z",
-  "capture": "2026-11-09T1305Z",
+  "updated_at": "2026-11-09T14:40:00Z",
+  "capture": "2026-11-09T1405Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -99,12 +99,6 @@
       "line": "60 Minutes posts a clip of its question to President Trump about World Liberty Financial, his family's crypto company. In the interview CBS aired and published, Trump also says his deportation policy \"might be too tough\"."
     },
     {
-      "id": "2119617455102333206",
-      "desk": "ai",
-      "line": "Elon Musk says he held a round table review with the Grok @Bot engineering team, that fixes go in overnight, and that users should see a dramatic improvement by tomorrow. Grok, the model that gathers this page’s posts, is made by xAI, a company in this post. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2119670655180476885",
       "desk": "sports",
       "line": "Fabrizio Romano posts a quote he attributes to Matheus Cunha after Manchester United conceded: \"We can’t concede goals like this, we need to play like Manchester United.\" The quote is Romano’s report and is not checked here."
@@ -140,6 +134,12 @@
       "id": "2119698616478487001",
       "desk": "gaming",
       "line": "The account gtasix_ posts a 59-second video and says it is the first listen to the GTA 6 main menu theme on PS5. The video has no description here, and the claim is not checked here."
+    },
+    {
+      "id": "2119629310969467053",
+      "desk": "tech",
+      "line": "Elon Musk posts \"Chinese 𝕏 is 牛逼\". The last word is Chinese slang, roughly \"awesome\". The post gives no more detail. X, the site it names, is owned by xAI, the company that makes Grok, the model that gathers this page’s posts.",
+      "also": []
     }
   ]
 }
