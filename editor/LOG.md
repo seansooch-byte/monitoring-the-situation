@@ -5462,3 +5462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Stories checked, not changed: Nvidia, Eisenkot/Herzog, Krakow. Searches found nothing clearly newer than each story's sources; the Krakow results mixed in other incidents, so I changed nothing.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract. Python and shell redirects were blocked in this sandbox; I edited with the file tools.
+
+## 2026-11-09T12:40Z
+- Captures read: 1201Z (1104Z was the last logged read). Last read: 1201Z.
+- X's check: 1201Z 120 confirmed, 0 missing, 0 mismatched, 5 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 26 items on 17 desks (2 new, 2 dropped). New: Benny Johnson on Republican senators (politics), gtasix_ GTA 6 menu theme video (gaming). Dropped: Reuters Apple keyword list and the Simpsons Edna post, both at 36 hours. Header 1201Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 0xnikio7 custody post and 0xdavincio post (private persons); nos_mtshali crawling clip (person in clip, no description); Elon Musk Cybertruck post (account already holds a larger place; claim unchecked); Russell Brand posts (accusation, unchecked); Nvidia CEO honeytrap and Walmart Hwang posts (claims about a named person, unchecked); BTS game notice (promotion); NFL Cairo Santos clip (no description, sports full); Watcher Guru Coinbase post (account holds a larger place); 60 Minutes, Salazar and amnesty posts (small or unchecked).
+- Requests: none. Simpsons id removed from the watch list (Apple id stays, a live story cites it); two new ids added. plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Musk says Cybertruck production ends in about 8 months in favour of Cybercab (2119691615774146614), worth a researched look. The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T11:30:00Z",
-  "capture": "2026-11-09T1104Z",
+  "updated_at": "2026-11-09T12:40:00Z",
+  "capture": "2026-11-09T1201Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -24,11 +24,6 @@
       "line": "Pirat_Nation says former PlayStation boss Shawn Layden argues the PS6 does not need more power and that Sony should instead make a $300 console rather than one that could cost $1,200. Not checked here."
     },
     {
-      "id": "2119225920590328115",
-      "desk": "tech",
-      "line": "Reuters says it has found Apple's secret list of words the iPhone keyboard will not autocomplete, including \"Dictator Trump\" and \"Sleepy Joe\", and points to its podcast for the reasons. Apple's reply, per Reuters, is that the keyboard avoids suggesting offensive language."
-    },
-    {
       "id": "2119303935743705097",
       "desk": "world",
       "line": "Reuters reports loud booms in Riyadh, the Saudi capital, after an early warning alert. A second post says Reuters reported that Civil Defense later said the danger had passed. A third says the Energy Ministry reported no casualties after missile debris hit an Aramco building. Not checked here.",
@@ -46,11 +41,6 @@
       "id": "2119276625334591653",
       "desk": "entertainment",
       "line": "Rob Henderson, a writer, posts a quote he attributes to comedian Dave Chappelle at a Madison Square Garden show, a remark about being glad Charlie Kirk was killed. Other accounts post different wording of the same line. Not checked here."
-    },
-    {
-      "id": "2119226057819562110",
-      "desk": "entertainment",
-      "line": "MorbidKnowledge says The Simpsons retired the character Edna Krabappel after the death of Marcia Wallace in 2013, and that the next new episode had Bart write a chalkboard tribute to her. Not checked here."
     },
     {
       "id": "2119293003340693687",
@@ -140,6 +130,16 @@
       "desk": "tech",
       "line": "The Robotaxi account says robotaxi service will be available in San Antonio starting \"tomorrow, 5am.\" The photo has no description, and the post does not say who runs the service. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2119606964279824550",
+      "desk": "politics",
+      "line": "Benny Johnson, a commentator, posts what he says Republican senators told him in calls this weekend: they are furious with Senate leadership over the SAVE Act and insider trading bills. He says a shakeup is coming. The senators are unnamed. Not checked here."
+    },
+    {
+      "id": "2119698616478487001",
+      "desk": "gaming",
+      "line": "The account gtasix_ posts a 59-second video and says it is the first listen to the GTA 6 main menu theme on PS5. The video has no description here, and the claim is not checked here."
     }
   ]
 }
