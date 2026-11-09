@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T14:40:00Z",
-  "capture": "2026-11-09T1405Z",
+  "updated_at": "2026-11-09T15:40:00Z",
+  "capture": "2026-11-09T1501Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -140,6 +140,21 @@
       "desk": "tech",
       "line": "Elon Musk posts \"Chinese 𝕏 is 牛逼\". The last word is Chinese slang, roughly \"awesome\". The post gives no more detail. X, the site it names, is owned by xAI, the company that makes Grok, the model that gathers this page’s posts.",
       "also": []
+    },
+    {
+      "id": "2119799843107319946",
+      "desk": "justice",
+      "line": "BBC Breaking, the BBC news alerts account, says Russell Brand has been sentenced to 10 years and six months in prison. Other news accounts post the same term. The sentence rests on these posts and has not been checked here against a court or BBC article."
+    },
+    {
+      "id": "2119531692918804552",
+      "desk": "internet",
+      "line": "RWTaylors asks what language a person born deaf thinks in, and tags @grok. Grok is made by xAI, a company that also makes the model gathering this page’s posts. The post does not show whether Grok replied."
+    },
+    {
+      "id": "2119792290600239401",
+      "desk": "gaming",
+      "line": "Rockstar Games announces Grand Theft Auto VI: The Festival, a live event on November 21 at Mana Wynwood in Miami, with artists from the game and its soundtrack."
     }
   ]
 }

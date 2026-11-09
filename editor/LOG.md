@@ -5492,3 +5492,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Round table id removed from the watch list, Musk id added. plan.json rebuilt for 15Z.
 - Shipped: yes, commit 5f0a0a9e, live audit clean.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T15:40Z
+- Captures read: 1501Z (1405Z was the last logged read). Last read: 1501Z.
+- X's check: 1501Z 67 confirmed, 1 mismatched (2119761933159289140, BIGHIT_MUSIC, hashtag spelling differs from X's text), 0 missing, 0 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 29 items. 3 new, 0 dropped (oldest is 35 hours; Rob Henderson and SNL drop next pass). New: BBC Breaking on the Russell Brand sentence (justice; the conviction shows in web results, the 10 years and six months term rests on posts and the line says so), RWTaylors deaf-thinking question tagging Grok (internet, xAI noted), Rockstar GTA VI Festival (gaming). Header 1501Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: BIGHIT TXT trailer (mismatched); Trump J-sixers quote clip and Blackburn post (politics at three accounts, unchecked); Kai Cenat via StreamersEra (aggregator); esjesjesj clip (no description); FreddyLA7 (private persons); stats_feed riddle; Kushner and Peter Obi posts (point not clear from text); RapSheet, Barstool and Mario Nawfal extras (account holds a place); DeepLeaksHQ Netanyahu tapes and ForbiddenLeaksQ executive order claims (unconfirmed); other Brand posts (duplicates).
+- Requests: none. Three ids added to the watch list. plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: the Brand sentencing (conviction 5 Nov, sentence 9 Nov) deserves a researched look. The starting message had no instructions beyond the contract.
