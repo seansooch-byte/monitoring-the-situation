@@ -5482,3 +5482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T14:40Z
+- Captures read: 1405Z (1305Z was the last logged read). Last read: 1405Z.
+- X's check: 1405Z 39 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 26 items. 1 replaced: Musk "Chinese X is 牛逼" (tech, the largest post of the day) takes the Musk place from his Grok @Bot round table post, since an account holds one place. 0 dropped for age (oldest is 34 hours). Header 1405Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: unusual_whales Fed wealth post (account already holds a larger place); Peter Obi airport post (concerns a girls' youth team, minors); antidiraken post (child abuse); F1 Verstappen (sports at three accounts); Sky News Turkey steel plant explosion and Reuters/Osint613 wire items (small, one source); cryptorover Qatar talks and Iran Hormuz items (unconfirmed claims); Nvidia CEO and Chappelle posts (claims about named people, unchecked); Detroit and custody posts (private persons).
+- Requests: none. Round table id removed from the watch list, Musk id added. plan.json rebuilt for 15Z.
+- Shipped: yes, commit 5f0a0a9e, live audit clean.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
