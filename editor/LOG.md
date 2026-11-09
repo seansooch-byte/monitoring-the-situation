@@ -5391,3 +5391,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list updated with the pulse ids. plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Visegrad24 reports US strikes near the Strait of Hormuz and Reuters reports a China tariff suspension; both could use a story pass. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T05:40Z
+- Captures read: 0503Z (0407Z was the last logged read). Last read: 0503Z.
+- X's check: 0503Z 109 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none used). Older runs unchanged.
+- Pulse: 36 items listed. 0 new, 2 dropped (KolaOnX AI post and the afg1911a1 disaster post, past 36 hours). Header 0503Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the 15-year-old's viral post and the mother-and-children custody post (a minor and private persons); Chappelle clip, Jeffries/DSA, Bennyjohnson Senate and atrupar Trump posts (desks or accounts already full, claims unchecked); old_content posts.
+- Requests: none. Watch list header updated. plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Running npm test while the build or verify runs gives false test failures (dist collision). The starting message had no instructions beyond the contract.
