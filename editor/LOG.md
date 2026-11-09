@@ -5472,3 +5472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Simpsons id removed from the watch list (Apple id stays, a live story cites it); two new ids added. plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Musk says Cybertruck production ends in about 8 months in favour of Cybercab (2119691615774146614), worth a researched look. The starting message had no instructions beyond the contract.
+
+## 2026-11-09T13:40Z
+- Captures read: 1305Z (1201Z was the last logged read). Last read: 1305Z.
+- X's check: 1305Z 81 confirmed, 0 missing, 0 mismatched, 4 withheld by X. Older runs unchanged (0201Z and 0407Z each still show 1 mismatched from before).
+- Pulse: 26 items, 0 new, 0 dropped (oldest is 34 hours). Header 1305Z. All 26 posts still live and confirmed.
+- Added: none. Updated: none (pulse pass).
+- Left out: Bronny James fan clip and Underdog copy (a fan in the clip, no description); dedene Nvidia CEO kiss cam clip (named person, unchecked); Schefter Herbert and Bates posts (sports already at three accounts); Netflix "Let us pray" (no description); Aaronbennett "pattern" post (point unclear); Mario Nawfal Trump and Iran posts (account holds a place); the voter fraud and Detroit posts (unchecked claims, private persons); withheld adult posts.
+- Requests: none. Watch list unchanged. plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
