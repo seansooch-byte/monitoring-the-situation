@@ -211476,6 +211476,13 @@
   "handle": "PopCrave",
   "run": "2026-11-09T1907Z"
  },
+ "2119865174786019619": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:24Z",
+  "handle": "PopBase",
+  "run": "2026-11-10T0704Z"
+ },
  "2119865184957436351": {
   "result": "ok",
   "detail": null,
@@ -212855,6 +212862,13 @@
   "handle": "WhiteHouse",
   "run": "2026-11-09T2301Z"
  },
+ "2119913307591344225": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:25Z",
+  "handle": "CollegeFBonX",
+  "run": "2026-11-10T0704Z"
+ },
  "2119913323957219405": {
   "result": "ok",
   "detail": null,
@@ -213239,6 +213253,13 @@
   "checked_at": "2026-11-09T23:08:09Z",
   "handle": "NFL",
   "run": "2026-11-09T2301Z"
+ },
+ "2119921653379682750": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:31Z",
+  "handle": "MarioNawfal",
+  "run": "2026-11-10T0704Z"
  },
  "2119921918791020679": {
   "result": "ok",
@@ -214100,6 +214121,13 @@
   "checked_at": "2026-11-10T02:09:21Z",
   "handle": "Reuters",
   "run": "2026-11-10T0203Z"
+ },
+ "2119968367834489165": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:25Z",
+  "handle": "MLB",
+  "run": "2026-11-10T0704Z"
  },
  "2119968707254595653": {
   "result": "ok",
@@ -214983,12 +215011,40 @@
   "handle": "Reuters",
   "run": "2026-11-10T0600Z"
  },
+ "2120013581190099001": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:25Z",
+  "handle": "NBA",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120013861625724936": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:29Z",
+  "handle": "NFL",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120014031683805338": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:30Z",
+  "handle": "NFL",
+  "run": "2026-11-10T0704Z"
+ },
  "2120016086410182804": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-10T06:03:55Z",
   "handle": "Cointelegraph",
   "run": "2026-11-10T0600Z"
+ },
+ "2120016100440092740": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:31Z",
+  "handle": "FearedBuck",
+  "run": "2026-11-10T0704Z"
  },
  "2120016110443483233": {
   "result": "ok",
@@ -215004,6 +215060,13 @@
   "handle": "unusual_whales",
   "run": "2026-11-10T0600Z"
  },
+ "2120018616791736362": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:30Z",
+  "handle": "FearedBuck",
+  "run": "2026-11-10T0704Z"
+ },
  "2120019029377347643": {
   "result": "ok",
   "detail": null,
@@ -215018,12 +215081,40 @@
   "handle": "AshCrypto",
   "run": "2026-11-10T0600Z"
  },
+ "2120019612398154098": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:29Z",
+  "handle": "BleacherReport",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120020221347963091": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:30Z",
+  "handle": "SportsCenter",
+  "run": "2026-11-10T0704Z"
+ },
  "2120021146154172832": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-10T06:03:51Z",
   "handle": "Reuters",
   "run": "2026-11-10T0600Z"
+ },
+ "2120021887283826945": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:28Z",
+  "handle": "FabrizioRomano",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120022881686163853": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:28Z",
+  "handle": "FabrizioRomano",
+  "run": "2026-11-10T0704Z"
  },
  "2120023082115162305": {
   "result": "ok",
@@ -215039,6 +215130,13 @@
   "handle": "WatcherGuru",
   "run": "2026-11-10T0600Z"
  },
+ "2120023455336722696": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:28Z",
+  "handle": "FabrizioRomano",
+  "run": "2026-11-10T0704Z"
+ },
  "2120023664858992963": {
   "result": "ok",
   "detail": null,
@@ -215053,12 +215151,103 @@
   "handle": "Osint613",
   "run": "2026-11-10T0600Z"
  },
+ "2120025526446498197": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:31Z",
+  "handle": "NFL",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120025698480029890": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:27Z",
+  "handle": "PopBase",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120026422106300739": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:27Z",
+  "handle": "IGN",
+  "run": "2026-11-10T0704Z"
+ },
  "2120028107113717986": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-10T06:03:53Z",
   "handle": "DiscussingFilm",
   "run": "2026-11-10T0600Z"
+ },
+ "2120029386657423804": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:29Z",
+  "handle": "FearedBuck",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120029736344977758": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:26Z",
+  "handle": "CultureCrave",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120029938338402368": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:26Z",
+  "handle": "PopBase",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120030196216541353": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:27Z",
+  "handle": "IGN",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120031384576356790": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:26Z",
+  "handle": "DiscussingFilm",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120031773392290230": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:31Z",
+  "handle": "MarioNawfal",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120033144166375791": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:32Z",
+  "handle": "MarioNawfal",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120033718098076142": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:32Z",
+  "handle": "NoContextHumans",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120034853064262136": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:32Z",
+  "handle": "kenyasgossips",
+  "run": "2026-11-10T0704Z"
+ },
+ "2120037882811588785": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T07:09:26Z",
+  "handle": "DiscussingFilm",
+  "run": "2026-11-10T0704Z"
  },
  "262658359117893632": {
   "result": "ok",
