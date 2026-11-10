@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-10-oil-below-85-trump-holds-off-iran",
+  "title": "US oil falls below $85 a barrel after Trump says he will hold off on new Iran strikes",
+  "dek": "Crude is at its lowest since 31 August. Analysts say the drop rests on Trump's tone, not on a deal.",
+  "desks": [
+    "markets"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-10T09:18:00Z",
+  "updated_at": "2026-11-10T16:40:00Z",
+  "what": [
+    "Reuters, in a version on Investing.com, reports that on 10 November 2026 Brent fell below $90 a barrel for the first time since 31 August, trading near $89.65, and US West Texas Intermediate traded near $84.52. The Kobeissi Letter's post says US oil fell below $85 for the first time since 31 August.",
+    "Arab News, citing Reuters, reports Trump said on Monday he would hold off on new military strikes on Iran for the time being after appeals from regional countries. It names Qatar's prime minister, who met Trump at the White House. It says the US naval blockade in the Strait of Hormuz continues.",
+    "Prices moved during the day. A later Arab News report had WTI near $86.07 and Brent near $91.88.",
+    "Eurasia Group's Gregory Brew is quoted by Arab News saying Iranian attacks on ships in the Strait of Hormuz keep shipping risk high. Reuters also reports an oil surplus of about 1.4 million barrels a day in October. The Kobeissi Letter's post says oil is down 19% since 30 October; I did not confirm that figure."
+  ],
+  "why": "Oil is the fastest public gauge of the Iran conflict, so a post tying a price level to one Trump remark travels quickly.",
+  "next": "Prices turn on whether the strike pause holds and whether shipping through Hormuz is attacked again.",
+  "posts": [
+    {
+      "id": "2120083569808699696",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Arab News: Oil falls as Trump downplays prospect of escalation with Iran",
+      "url": "https://www.arabnews.com/energy/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran-3010875"
+    },
+    {
+      "label": "Investing.com (Reuters): Oil falls as Trump downplays prospect of escalation with Iran",
+      "url": "https://www.investing.com/news/commodities-news/oil-falls-as-trump-downplays-prospect-of-escalation-with-iran-5013892"
+    }
+  ]
+}

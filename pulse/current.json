@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T15:15:00Z",
-  "capture": "2026-11-10T1500Z",
+  "updated_at": "2026-11-10T16:45:00Z",
+  "capture": "2026-11-10T1602Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -10,11 +10,6 @@
       "also": [
         "2119867707546071125"
       ]
-    },
-    {
-      "id": "2119640499497677074",
-      "desk": "politics",
-      "line": "The Hormuz Letter account quotes President Trump telling CBS's 60 Minutes that Israel will have to pay the US back \"any and all costs\" of the Iran war. Not checked here."
     },
     {
       "id": "2119795136003518716",
@@ -28,11 +23,6 @@
       "id": "2119851180948152590",
       "desk": "ai",
       "line": "Mark Zuckerberg announces Muse Ember, which he calls Meta's smallest model and says gives higher intelligence per dollar than others in its class. He says it is available on the Meta Model API and in Muse Code. Not checked here."
-    },
-    {
-      "id": "2119633582989684908",
-      "desk": "ideas",
-      "line": "The evangelist Franklin Graham says he watched Ross Douthat's 60 Minutes interview with President Trump, in which Trump said he wants to go to Heaven. Graham sets out what he says the Bible requires to get there."
     },
     {
       "id": "2119656344764723212",
@@ -60,26 +50,14 @@
       "line": "Fabrizio Romano, a football transfer reporter, posts a photo and says FIFPRO has made its World Team of the Year 2026 official. The post names no players. Not checked here."
     },
     {
-      "id": "2119632049103675510",
-      "desk": "world",
-      "line": "Mario Nawfal relays an Iraqi paper, Al-Mada, on alleged US war scenarios, including US ground forces entering Iran through Iraq. The post itself says neither is independently confirmed and there is no evidence of an invasion order. Not checked here."
-    },
-    {
       "id": "2119678179963187564",
       "desk": "tech",
-      "line": "The Robotaxi account says robotaxi service will be available in San Antonio starting \"tomorrow, 5am.\" The photo has no description, and the post does not say who runs the service. Not checked here.",
-      "also": []
+      "line": "The Robotaxi account says robotaxi service will be available in San Antonio starting \"tomorrow, 5am.\" The photo has no description, and the post does not say who runs the service. Not checked here."
     },
     {
       "id": "2119698616478487001",
       "desk": "gaming",
       "line": "The account gtasix_ posts a 59-second video and says it is the first listen to the GTA 6 main menu theme on PS5. The video has no description here, and the claim is not checked here."
-    },
-    {
-      "id": "2119629310969467053",
-      "desk": "tech",
-      "line": "Elon Musk posts \"Chinese 𝕏 is 牛逼\". The last word is Chinese slang, roughly \"awesome\". The post gives no more detail. X, the site it names, is owned by xAI, the company that makes Grok, the model that gathers this page’s posts.",
-      "also": []
     },
     {
       "id": "2119799843107319946",
@@ -130,11 +108,6 @@
       "id": "2119822325876961537",
       "desk": "entertainment",
       "line": "Universal Pictures UK posts the official trailer for CoComelon: The Movie, a 103-second video, and says it is in cinemas on February 12."
-    },
-    {
-      "id": "2119639631616471347",
-      "desk": "internet",
-      "line": "Annie_Modiba asks men whether they are really clueless when a woman is into them, or pretend not to know because the feeling is not mutual."
     },
     {
       "id": "2119871982946971659",
@@ -201,6 +174,16 @@
       "id": "2119888920615731326",
       "desk": "politics",
       "line": "Watcher.Guru, a news aggregator account, says Senate Democrats are preparing to impose a 10% cap on credit card interest rates. It gives no source. Not checked here."
+    },
+    {
+      "id": "2119979552248307779",
+      "desk": "internet",
+      "line": "The account kekatothepink quotes the post about making stickers from GIFs and says all you have to do is copy a GIF and paste it. The post carries a 12-second video."
+    },
+    {
+      "id": "2119799797385142274",
+      "desk": "politics",
+      "line": "Laura Weiss reports, citing a person familiar with his thinking, that Sen. Chris Van Hollen is open to a run against Senate Minority Leader Chuck Schumer for party leader, and that \"the door is not shut\". Not checked here."
     }
   ]
 }

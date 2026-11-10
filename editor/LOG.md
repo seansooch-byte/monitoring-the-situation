@@ -5682,3 +5682,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Six ids added to the watch list. plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Senate Democrats and a 10% credit card rate cap (no source found yet), the Jaguars and Eagles Jordan Davis trade, the Russell Brand sentencing, the Nintendo Switch update. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T16:50Z
+- Captures read: 1602Z (1500Z was the last logged read). Last read: 1602Z.
+- X's check: 1602Z 156 confirmed, 0 missing, 2 mismatched (2120139471798866363 BELIFTLAB, 2120154590381560039 NJDevils; hashtag differences only, neither used), 4 withheld by X. None of the withheld is on the pulse.
+- Pulse: 34 items, 2 in, 5 out. In: kekatothepink on pasting GIFs (internet), Laura Weiss on Van Hollen and Schumer (politics, unchecked). Out (older than 36 hours): HormuzLetter, Franklin Graham, Mario Nawfal (Iraqi paper), Elon Musk "Chinese X", Annie_Modiba. Header 1602Z.
+- Added: 2026-11-09-kirk-trial-set-june-2028 (justice), 2026-11-09-jaguars-trade-for-jordan-davis (sports), 2026-11-10-gta-vi-preload-opens (gaming), 2026-11-10-oil-below-85-trump-holds-off-iran (markets). Updated: none; the live stories' sources were not rechecked this pass.
+- Left out: Senate Democrats 10% credit card cap (only the 2025 Hawley and Sanders bill found, nothing for this week); Ole Miss doorbell video and RT gym clip (private people); FadeAwayMedia court-side clip (a fan on camera); StormFox47 Elon/Iran (aggregator); Artur Morański posts (injured officer, left to the Krakow story); Skims advent calendar and Roblox farting games (unchecked, small); Emmy_362 betting post and arealwigger layoff (private people).
+- Requests: none. Two ids added to the watch list (the rest were already there). plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: check live developing stories (Krakow, Qeshm, Nasdaq, Massie/Hegseth) against their sources, October CPI, Van Hollen and Schumer, the credit card cap claim. The starting message had no instructions beyond the contract.

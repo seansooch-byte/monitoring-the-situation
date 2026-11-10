@@ -1,0 +1,35 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-09-jaguars-trade-for-jordan-davis",
+  "title": "Jaguars trade a 2027 first and a 2029 second to the Eagles for Jordan Davis",
+  "dek": "ESPN's Adam Schefter broke a deal that sends a defensive tackle the Eagles signed to a big extension in March to a Jacksonville team buying defense.",
+  "desks": [
+    "sports"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-09T21:46:00Z",
+  "updated_at": "2026-11-10T16:40:00Z",
+  "what": [
+    "On 9 November 2026 ESPN's Adam Schefter reported, citing sources, that the Jacksonville Jaguars are sending a 2027 first-round pick and a 2029 second-round pick to the Philadelphia Eagles for defensive tackle Jordan Davis.",
+    "Yahoo Sports and NBC Sports report the trade as done. Yahoo says it was Jacksonville's third trade for a defensive player that day, after safety Jessie Bates and tackle Davon Godchaux.",
+    "Yahoo reports the Eagles signed Davis to a three-year, $78 million extension in March 2026, and that the Eagles were 2-7 after seven straight losses. Schefter says the Eagles now have 10 picks in the first two rounds of the next three drafts.",
+    "I did not find a statement from either team in the sources I opened."
+  ],
+  "why": "A first-round pick for a lineman is a large price, and the deal came on the same day as two other Jaguars defensive trades.",
+  "posts": [
+    {
+      "id": "2119909570646827482",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Yahoo Sports: Eagles trade Jordan Davis to Jaguars for first- and second-round picks",
+      "url": "https://sports.yahoo.com/articles/eagles-trade-jordan-davis-jaguars-215142030.html"
+    },
+    {
+      "label": "NBC Sports: Eagles trade DT Jordan Davis to Jaguars",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/eagles-trade-dt-jordan-davis-to-jaguars"
+    }
+  ]
+}
