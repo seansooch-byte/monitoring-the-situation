@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T05:20:00Z",
-  "capture": "2026-11-10T0503Z",
+  "updated_at": "2026-11-10T06:30:00Z",
+  "capture": "2026-11-10T0600Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -204,6 +204,11 @@
       "id": "2119916144144347422",
       "desk": "politics",
       "line": "Benny Johnson posts a clip and says President Trump confirmed there will be no amnesty for people in the country illegally, quoting him as saying \"my policy hasn't changed\". Not checked here."
+    },
+    {
+      "id": "2120003439962829014",
+      "desk": "sports",
+      "line": "The NBA account posts a 12-second video with the caption \"WEMBY, HOW???\" and says to look where he took off from. The video has no description, so what it shows is not checked here."
     }
   ]
 }
