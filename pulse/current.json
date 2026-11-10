@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T12:40:00Z",
-  "capture": "2026-11-10T1200Z",
+  "updated_at": "2026-11-10T13:20:00Z",
+  "capture": "2026-11-10T1302Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -17,9 +17,12 @@
       "line": "The Hormuz Letter account quotes President Trump telling CBS's 60 Minutes that Israel will have to pay the US back \"any and all costs\" of the Iran war. Not checked here."
     },
     {
-      "id": "2119869868564742545",
+      "id": "2119795136003518716",
       "desk": "politics",
-      "line": "Rep. Thomas Massie says he is reading Articles of Impeachment against Defense Secretary Pete Hegseth on the House floor, and links the House floor stream."
+      "line": "Rep. Thomas Massie says some colleagues call Defense Secretary Pete Hegseth effective and will vote not to impeach, but that the question is whether he committed impeachable acts, and that the answer is yes, eight times. He links the articles of impeachment. A later post says he is reading them on the House floor.",
+      "also": [
+        "2119869868564742545"
+      ]
     },
     {
       "id": "2119851180948152590",

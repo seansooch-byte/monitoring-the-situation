@@ -5652,3 +5652,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list. plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Juliana Stratton and the new Senate class, Nintendo ending Google/Apple sign-in (January 26, 2027, per its notice), Starlink software used for Grok training. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T13:20Z
+- Captures read: 1302Z (1200Z was the last logged read). Last read: 1302Z.
+- X's check: 1302Z 56 confirmed, 0 missing, 0 mismatched, 2 withheld by X. None of the withheld is on the pulse.
+- Pulse: 31 items, 0 in, 0 out; one swap. The Massie item now points at his larger post (the "eight times" post), with his floor-reading post attached in `also`. Nothing aged past 36 hours. Header 1302Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Ole Miss doorbell video (GMA, ABC; shows private students); AnthropicAI IPO roadshow post (below the smallest item kept and ai already holds four); Elon Musk Grok 4.8 post (account holds a place); WhiteHouse "One Nation Under God" (politics holds three, a bare statement); RT gym clip (private people); David Walliams posts (PopBase, superTV247: a named person accused, unchecked); Rabia Ahsan post (RT, unconfirmed claim about a death); Machinists union on Schumer (small).
+- Requests: none. One id added to the watch list. plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Anthropic IPO roadshow (anthropic.com/news/roadshow-launch; the model writing this page is made by that company), Machinists union and Schumer, Grok 4.8 status. The starting message had no instructions beyond the contract.
