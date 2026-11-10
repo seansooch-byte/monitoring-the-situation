@@ -1,18 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T06:30:00Z",
-  "capture": "2026-11-10T0600Z",
+  "updated_at": "2026-11-10T09:35:00Z",
+  "capture": "2026-11-10T0900Z",
   "items": [
-    {
-      "id": "2119505483019030962",
-      "desk": "ai",
-      "line": "Unusual Whales says Bloomington, Indiana, has banned artificial superintelligence, with a 7-0 council vote, fines for violators, and a repeal bar of more than 95 percent of registered voters. A local paper confirms the vote but describes the ban's end differently; see the story."
-    },
-    {
-      "id": "2119514946287423508",
-      "desk": "offbeat",
-      "line": "Kasey Funderburg posts a 40-second video and says one corgi in the Carolina Panthers corgi race \"decided to go rogue\" and was taken down by a group effort. The video has no description, so what it shows is not checked here."
-    },
     {
       "id": "2119867114450268322",
       "desk": "ai",
@@ -47,11 +37,6 @@
       "line": "The K-pop group aespa's official account announces \"Santa Baby\", a track with Eartha Kitt, for November 13 at 12 a.m. Eastern. The post is in English and Korean and carries an 18-second video with no description."
     },
     {
-      "id": "2119538027341164639",
-      "desk": "business",
-      "line": "The Kobeissi Letter says Nvidia chief executive Jensen Huang has sent a company-wide email about his recently reported relationship with a Chinese spy. The post does not give the email's text. Not checked here."
-    },
-    {
       "id": "2119841425923702877",
       "desk": "entertainment",
       "line": "DiscussingFilm says James Gunn and Peter Safran will no longer run DC Studios and that Jeremy Latcham, a former Marvel Studios producer, is taking over. It links a Hollywood Reporter article. Not checked here."
@@ -60,11 +45,6 @@
       "id": "2119686426811916717",
       "desk": "life",
       "line": "InternetH0F says California has passed a law requiring age verification to buy creatine starting January 1, 2027. The two photos have no description. Not checked here."
-    },
-    {
-      "id": "2119505045846999253",
-      "desk": "entertainment",
-      "line": "Pop Base, a pop culture account, posts two photos and says Taylor Swift was at today’s Chiefs game with Karlie Kloss. The photos have no description, so what they show is not checked here."
     },
     {
       "id": "2119551689523179764",
@@ -115,19 +95,9 @@
       "line": "BBC Breaking, the BBC news alerts account, says Russell Brand has been sentenced to 10 years and six months in prison. Other news accounts post the same term. The sentence rests on these posts and has not been checked here against a court or BBC article."
     },
     {
-      "id": "2119531692918804552",
-      "desk": "internet",
-      "line": "RWTaylors asks what language a person born deaf thinks in, and tags @grok. Grok is made by xAI, a company that also makes the model gathering this page’s posts. The post does not show whether Grok replied."
-    },
-    {
       "id": "2119792290600239401",
       "desk": "gaming",
       "line": "Rockstar Games announces Grand Theft Auto VI: The Festival, a live event on November 21 at Mana Wynwood in Miami, with artists from the game and its soundtrack."
-    },
-    {
-      "id": "2119522888067801560",
-      "desk": "business",
-      "line": "The New York Times reports that Nvidia opened an investigation into its chief executive, Jensen Huang, after he told the company’s board he had been intimate with a business executive whom U.S. intelligence determined to be a Chinese spy. Not checked here."
     },
     {
       "id": "2119583603206021555",
@@ -146,14 +116,6 @@
       "id": "2119775874967056831",
       "desk": "sports",
       "line": "ESPN’s Adam Schefter says the Falcons are sending safety Jessie Bates to the Jaguars for a 2027 second-round pick and a 2028 fifth-round pick, citing sources. Not checked here."
-    },
-    {
-      "id": "2119513151821512903",
-      "desk": "sports",
-      "line": "Sky Sports Premier League posts a video it calls an explosive interview with Unai Emery. Polymarket's post of the same clip says it follows a 96th-minute equaliser by Manchester United. The video has no description, so I could not tell what is said.",
-      "also": [
-        "2119513601828610199"
-      ]
     },
     {
       "id": "2119785717714854215",
@@ -209,6 +171,11 @@
       "id": "2120003439962829014",
       "desk": "sports",
       "line": "The NBA account posts a 12-second video with the caption \"WEMBY, HOW???\" and says to look where he took off from. The video has no description, so what it shows is not checked here."
+    },
+    {
+      "id": "2119788086490001906",
+      "desk": "tech",
+      "line": "Google's official account announces two new systems in its eighth-generation TPU portfolio, which it says are built for the agentic era, and says that brings the total to four eighth-generation TPU systems launched in one year. Not checked here."
     }
   ]
 }

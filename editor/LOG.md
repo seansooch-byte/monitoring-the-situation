@@ -5612,3 +5612,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Biden on Trump "good friends", Katie Miller and Stephen Miller recusal (The Atlantic), Fable 5.2 physics claim. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T09:35Z
+- Captures read: 0600Z, 0704Z, 0801Z, 0900Z (0503Z was the last logged read). Last read: 0900Z.
+- X's check: 0600Z 19 confirmed, 0704Z 27, 0801Z 19, 0900Z 15; 0 missing, 0 mismatched, 0 withheld in all four. Older mismatches (NFL, unusual_whales, 1024updates) unchanged; none is on the pulse or cited by a story.
+- Pulse: 33 items, 1 in, 7 out. In: Google's TPU announcement (tech). Out, all older than 36 hours: Bloomington superintelligence ban, corgi race, Nvidia email (Kobeissi), Nvidia investigation (NYT), Taylor Swift photos (Pop Base), RWTaylors deaf question, Emery interview (Sky Sports). Header 0900Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Maine ballots claim (GOP_is_Gutless, unconfirmed claim about a named official); Kai Cenat girlfriend post (personal dispute); ACTBrigitte personal account (cannot confirm identity); Daugh Burchett/Thune post (politics already holds five, unresearched); Gunn/Safran DC Studios posts (reported secondhand, no source opened); Cucurella, NBA and crypto posts (account holds a place or small).
+- Requests: none. One id added to the watch list. plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Gunn and Safran leaving DC Studios (several DiscussingFilm posts, cites Puck), Nvidia investigation and spy claim (Trump on Reuters), US CPI day, Burchett and Thune. The starting message had no instructions beyond the contract.
