@@ -209999,6 +209999,13 @@
   "handle": "marclou",
   "run": "2026-11-09T1803Z"
  },
+ "2119829398983414265": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:27Z",
+  "handle": "Gerashchenko_en",
+  "run": "2026-11-10T0801Z"
+ },
  "2119829432764686520": {
   "result": "ok",
   "detail": null,
@@ -215004,6 +215011,13 @@
   "handle": "billboard",
   "run": "2026-11-10T0503Z"
  },
+ "2120012235577672128": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:32Z",
+  "handle": "ESPNNBA",
+  "run": "2026-11-10T0801Z"
+ },
  "2120012340745654474": {
   "result": "ok",
   "detail": null,
@@ -215052,6 +215066,13 @@
   "checked_at": "2026-11-10T06:03:52Z",
   "handle": "Reuters",
   "run": "2026-11-10T0600Z"
+ },
+ "2120016790608658895": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:26Z",
+  "handle": "NBA",
+  "run": "2026-11-10T0801Z"
  },
  "2120017547974295617": {
   "result": "ok",
@@ -215165,6 +215186,13 @@
   "handle": "PopBase",
   "run": "2026-11-10T0704Z"
  },
+ "2120026350161441072": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:30Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-10T0801Z"
+ },
  "2120026422106300739": {
   "result": "ok",
   "detail": null,
@@ -215178,6 +215206,20 @@
   "checked_at": "2026-11-10T06:03:53Z",
   "handle": "DiscussingFilm",
   "run": "2026-11-10T0600Z"
+ },
+ "2120028162956406973": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:30Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120029207875223896": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:26Z",
+  "handle": "NBA",
+  "run": "2026-11-10T0801Z"
  },
  "2120029386657423804": {
   "result": "ok",
@@ -215235,6 +215277,20 @@
   "handle": "NoContextHumans",
   "run": "2026-11-10T0704Z"
  },
+ "2120033925892309063": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:31Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120034071392985188": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:30Z",
+  "handle": "cryptorover",
+  "run": "2026-11-10T0801Z"
+ },
  "2120034853064262136": {
   "result": "ok",
   "detail": null,
@@ -215248,6 +215304,83 @@
   "checked_at": "2026-11-10T07:09:26Z",
   "handle": "DiscussingFilm",
   "run": "2026-11-10T0704Z"
+ },
+ "2120038746506817734": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:31Z",
+  "handle": "Variety",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120050949943099663": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:27Z",
+  "handle": "Osint613",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120051339149377613": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:26Z",
+  "handle": "Reuters",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120053860471296060": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:27Z",
+  "handle": "Reuters",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120054385937883577": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:29Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120054853153997297": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:31Z",
+  "handle": "cryptorover",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120054896627974188": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:29Z",
+  "handle": "SkyNews",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120054998289486127": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:28Z",
+  "handle": "Osint613",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120056388642603065": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:27Z",
+  "handle": "Reuters",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120058410687205661": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:28Z",
+  "handle": "Osint613",
+  "run": "2026-11-10T0801Z"
+ },
+ "2120059713404510519": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-10T08:04:29Z",
+  "handle": "DiscussingFilm",
+  "run": "2026-11-10T0801Z"
  },
  "262658359117893632": {
   "result": "ok",
