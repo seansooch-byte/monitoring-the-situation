@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-09T23:30:00Z",
-  "capture": "2026-11-09T2301Z",
+  "updated_at": "2026-11-10T03:30:00Z",
+  "capture": "2026-11-10T0308Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -189,6 +189,21 @@
       "id": "2119841301612957699",
       "desk": "medicine",
       "line": "CNN reports that the US health regulator on Monday told patients and healthcare providers of a potential increased risk of a serious eye condition linked to GLP-1 drugs used for weight loss and diabetes. The linked CNN story says the FDA ordered new warnings for Ozempic and Zepbound."
+    },
+    {
+      "id": "2119777057102315680",
+      "desk": "music",
+      "line": "The K-pop group Stray Kids posts an additional show announcement for its \"RUN IT\" world tour. The text gives no dates or cities, and the post is partly in Korean."
+    },
+    {
+      "id": "2119822325876961537",
+      "desk": "entertainment",
+      "line": "Universal Pictures UK posts the official trailer for CoComelon: The Movie, a 103-second video, and says it is in cinemas on February 12."
+    },
+    {
+      "id": "2119639631616471347",
+      "desk": "internet",
+      "line": "Annie_Modiba asks men whether they are really clueless when a woman is into them, or pretend not to know because the feeling is not mutual."
     }
   ]
 }

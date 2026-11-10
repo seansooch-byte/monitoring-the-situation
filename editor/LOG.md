@@ -5582,3 +5582,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Jordan Davis trade, Biden memoir excerpt, Boebert race call, Shaanxi excavator. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T03:30Z
+- Captures read: 0003Z, 0102Z, 0203Z, 0308Z (2301Z was the last logged read). Last read: 0308Z. The 0007Z, 0107Z and 0209Z editor runs failed with API 429 errors, so no pass was logged for them.
+- X's check: 0003Z 69 confirmed, 0 missing, 1 mismatched; 0102Z 74 confirmed, 1 missing, 1 mismatched, 4 withheld; 0203Z 103 confirmed, 0 missing, 2 mismatched, 1 withheld; 0308Z 94 confirmed, 0 missing, 3 mismatched, 1 withheld. Missing: 2119949946438729770 (SportsCenter). Mismatched: 2119935993445077329 (unusual_whales), 2119950798255993228, 2119967035178549451, 2119981318826303578, 2119984278595641791, 2119986022213906603 (all NFL), 2113483243387527592 (1024updates). None is on the pulse or cited by a story.
+- Pulse: 38 items, 3 in, 0 out. In: Stray Kids tour announcement (music), Universal Pictures UK CoComelon trailer (entertainment, the origin of the trailer DiscussingFilm also posted), Annie_Modiba question to men (internet). Nothing aged out. Header 0308Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Turkish post "Hiç böyle düşünmemiştim" (point not clear from its words); "Oh it was PISSED" and the "every liberal family" clip (point not clear, the second may involve a minor); Dianna Russini affair post (personal allegations, not researched); Rupar's Massie and Trump briefing clips, Schefter's Cardinals post, DiscussingFilm GTA VI gold post (account holds a place or unchecked); Teddy Riner tax ruling (non-English, unresearched); NFL posts (mismatched).
+- Requests: none. Three ids added to the watch list. plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Dana White and the press secretary job, Trump on Massie and Hegseth, GTA VI gold, Russini. The starting message had no instructions beyond the contract.
