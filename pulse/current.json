@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T13:20:00Z",
-  "capture": "2026-11-10T1302Z",
+  "updated_at": "2026-11-10T14:25:00Z",
+  "capture": "2026-11-10T1407Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -63,12 +63,6 @@
       "id": "2119632049103675510",
       "desk": "world",
       "line": "Mario Nawfal relays an Iraqi paper, Al-Mada, on alleged US war scenarios, including US ground forces entering Iran through Iraq. The post itself says neither is independently confirmed and there is no evidence of an invasion order. Not checked here."
-    },
-    {
-      "id": "2119598353218732358",
-      "desk": "ai",
-      "line": "Fireside Alpha posts a 46-second video and says Trump, asked about AI builders putting a 10 percent chance on AI killing humanity, said the Justice Department warned the head of a major AI company to \"get ready to go to jail.\" The CBS transcript, as I read it, lacks that remark. Not checked here.",
-      "also": []
     },
     {
       "id": "2119678179963187564",
@@ -169,6 +163,19 @@
       "also": [
         "2119979552248307779"
       ]
+    },
+    {
+      "id": "2119912768413618647",
+      "desk": "justice",
+      "line": "Erika Kirk's account posts a Kirk family statement. It says today's decision to delay the trial of the man accused of murdering Charlie Kirk until at least June 2028 is deeply disappointing, and that each added day prolongs the family's pain. The date is the statement's account. Not checked here.",
+      "also": [
+        "2119924276933300282"
+      ]
+    },
+    {
+      "id": "2120083569808699696",
+      "desk": "markets",
+      "line": "The Kobeissi Letter says US oil prices fell below $85 a barrel for the first time since August 31, after President Trump suggested more strikes on Iran are not needed, and are down 19% since the October 30 high. Not checked here."
     }
   ]
 }

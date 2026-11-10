@@ -5662,3 +5662,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Anthropic IPO roadshow (anthropic.com/news/roadshow-launch; the model writing this page is made by that company), Machinists union and Schumer, Grok 4.8 status. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T14:25Z
+- Captures read: 1407Z (1302Z was the last logged read). Last read: 1407Z.
+- X's check: 1407Z 79 confirmed, 0 missing, 0 mismatched, 2 withheld by X. None of the withheld is on the pulse.
+- Pulse: 32 items, 2 in, 1 out. In: Erika Kirk's account posting the Kirk family statement on the trial delay (justice; TMZ post attached in `also`), Kobeissi Letter on oil below $85 (markets, moved from politics). Out: firesidealpha (37 hours old). Header 1407Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kobeissi and BullTheory CPI posts (BLS October CPI not yet posted in any source I could open; the Kobeissi account already holds a place); FearedBuck extradition hearing photo ("EDP" unexplained, point unclear, a named person accused); CultureCrave GTA 6 "gone gold" (aggregator, gaming holds two Rockstar-related items); David Walliams posts (named person accused, unchecked); Ryan Fournier Senate 73-25 (politics holds three); Elon Musk Opus/Grok reply (account holds a place); rodrigotuitta China clip (point unclear).
+- Requests: none. Three ids added to the watch list. plan.json rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: October CPI once BLS posts it (posts say 0.4% against 0.3% expected; unchecked), the Kirk trial date (family statement says June 2028; I found no report of the order yet), oil below $85 and Trump on Iran strikes. The starting message had no instructions beyond the contract.
