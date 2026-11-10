@@ -5632,3 +5632,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Trump company Bitcoin holdings disclosure, Ted Cruz on impeachments, Abu Dhabi talks. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T11:50Z
+- Captures read: 1101Z (1007Z was the last logged read). Last read: 1101Z.
+- X's check: 1101Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld. Older mismatches unchanged; none is on the pulse or cited by a story.
+- Pulse: 32 items, 0 in, 1 out. Out: medicine post (36.6 hours old). Nothing in 1101Z was both larger than the smallest item kept and fit to show. Header 1101Z.
+- Added: none. Updated: none. Checked the live developing stories (Nvidia/Huang, Riyadh/Aramco) against searches; nothing newer than the text. Fable 5.2 and Massie stories not changed.
+- Left out: Cruz on Hegseth (MarioNawfal; I could not find the quote outside X); US October CPI (BLS page still showed September, so no figures to cite); Trump Bitcoin holdings (disclosure found, but the capture posts are small and promotional); Omar IRS post (2019 claim, aggregator framing, about a named person); Nvidia TSMC orders (one Taiwanese report, unchecked).
+- Requests: none. Watch list unchanged. plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: October CPI once BLS posts it, Cruz and Hegseth. The starting message had no instructions beyond the contract.
