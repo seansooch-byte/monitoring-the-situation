@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T22:09:41Z",
-  "capture": "2026-11-10T2200Z",
+  "updated_at": "2026-11-10T23:20:00Z",
+  "capture": "2026-11-10T2303Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -124,6 +124,11 @@
       "id": "2119800678998835648",
       "desk": "entertainment",
       "line": "PopBase, a pop culture account, posts three new posters for HBO's Harry Potter series and says it premieres December 25 on HBO."
+    },
+    {
+      "id": "2120163794370367715",
+      "desk": "gaming",
+      "line": "IGN, a games news outlet, posts as breaking that Grand Theft Auto VI will run at 30 frames per second on all consoles, with PS5 Pro enhancements that improve ray tracing. The post gives no source in its text. Not checked here."
     },
     {
       "id": "2119963494963613873",
