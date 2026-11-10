@@ -5622,3 +5622,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Gunn and Safran leaving DC Studios (several DiscussingFilm posts, cites Puck), Nvidia investigation and spy claim (Trump on Reuters), US CPI day, Burchett and Thune. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T10:35Z
+- Captures read: 1007Z (0900Z was the last logged read). Last read: 1007Z.
+- X's check: 1007Z 35 confirmed, 0 missing, 1 mismatched, 2 withheld by X. Mismatched: 2120079032368722216 (WENDY_offcl, entertainment). Withheld: 2101517251006595280, 2119941183862628613. None is on the pulse or cited by a story.
+- Pulse: 33 items, 1 in, 1 out. In: Eva Fox on SpaceX's Mars Oasis origin (science, first item on that desk). Out: Watcher Guru crypto liquidation (36.5 hours old). Header 1007Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Cucurella posts by Romano and TouchlineX (account holds a place); DiscussingFilm Gunn follow-ups (account holds a place); Trump Bitcoin holdings posts (AshCrypto, cryptorover; small, promotional framing, unchecked); barbarismcrit Senate post (quoted post and target unclear); OfficialLoganK "Gemini" (one word, point not clear); NBA Warriors posts (account holds a place); Osint613 Abu Dhabi meeting (small).
+- Requests: none. One id added to the watch list. plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Trump company Bitcoin holdings disclosure, Ted Cruz on impeachments, Abu Dhabi talks. The starting message had no instructions beyond the contract.
