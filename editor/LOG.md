@@ -5722,3 +5722,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Claude Whiteboards/Sheets/Data (Anthropic makes the model writing this page), the NYT report of Trump's 2021 letter to Biden, Keenan Allen trade, Hegseth impeachment. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T20:12Z
+- Captures read: 2002Z (1901Z was the last logged read). Last read: 2002Z.
+- X's check: 2002Z 38 confirmed, 0 missing, 0 mismatched, 1 withheld by X. The withheld one is not on the pulse.
+- Pulse: 36 items, 4 in, 6 out. In: NFL on the Cousins trade (sports), Fox News on Jim Jordan as House minority leader (politics), SpaceX on Super Heavy Booster 22 (science), Visegrad24 on the Oviedo police shooting (justice, unchecked). Out: InternetH0F, Reuters migrants and gtasix (over 36 hours); Laura Weiss, Eva Fox and ESPN CFP deal (replaced by newer posts on their desks). The build holds the Watcher.Guru crypto item off the front page. Header 2002Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: PolitlcsUK Walliams posts (named person accused, unchecked); unusual_whales on Alice Huang and Nvidia (names a private person, unchecked); RabbiJeffx Netanyahu claim (unchecked claim about named leaders, invites Grok); BullTheoryio Claude Sheets stock drop and Broadcom deal (involve Anthropic, claims unchecked, left to a story pass); FilmUpdates You've Got Mail (entertainment full); Acyn CNN graphic (no media description); cryptorover advert; old and sexual posts.
+- Requests: none. Four ids added to the watch list. plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Jim Jordan elected minority leader and Speaker Johnson stepping aside, Claude Sheets/Whiteboards/Data and the reported Microsoft share move (Anthropic makes the model writing this page), Kirk Cousins trade, Oviedo shooting. The starting message had no instructions beyond the contract.

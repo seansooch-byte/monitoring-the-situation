@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T19:08:42Z",
-  "capture": "2026-11-10T1901Z",
+  "updated_at": "2026-11-10T20:09:49Z",
+  "capture": "2026-11-10T2002Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -35,24 +35,9 @@
       "line": "DiscussingFilm says James Gunn and Peter Safran will no longer run DC Studios and that Jeremy Latcham, a former Marvel Studios producer, is taking over. It links a Hollywood Reporter article. Not checked here."
     },
     {
-      "id": "2119686426811916717",
-      "desk": "life",
-      "line": "InternetH0F says California has passed a law requiring age verification to buy creatine starting January 1, 2027. The two photos have no description. Not checked here."
-    },
-    {
-      "id": "2119916944245629157",
-      "desk": "science",
-      "line": "Eva Fox says SpaceX began as a smaller idea: around 2001 Elon Musk looked for the date of NASA's Mars mission, found no plans to send people, and came up with Mars Oasis, a small greenhouse. The captured text is cut off by a link. Not checked here."
-    },
-    {
       "id": "2119824747454173268",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts a photo and says FIFPRO has made its World Team of the Year 2026 official. The post names no players. Not checked here."
-    },
-    {
-      "id": "2119698616478487001",
-      "desk": "gaming",
-      "line": "The account gtasix_ posts a 59-second video and says it is the first listen to the GTA 6 main menu theme on PS5. The video has no description here, and the claim is not checked here."
     },
     {
       "id": "2119799843107319946",
@@ -75,19 +60,9 @@
       "line": "Jared Kushner posts a statement saying President Trump is determined to end the war in Ukraine. He says he and a special envoy will meet European partners before two days of talks with Ukraine and Russia in Abu Dhabi, the first such trilateral talks since February."
     },
     {
-      "id": "2119691458093711418",
-      "desk": "world",
-      "line": "Reuters reports that hundreds of migrants, mostly Hondurans, left the Mexican border town of Metapa de Dominguez in a caravan and walked to Tapachula in Chiapas. It says they told Reuters they expect President Trump's anti-migrant policies to weaken after the midterm elections."
-    },
-    {
       "id": "2119805979583828413",
       "desk": "business",
       "line": "Sawyer Merritt says Tesla has started construction of a $10 billion solar manufacturing plant near Houston, due to finish in 2028 with commercial operations in early 2029. He lists the plant's production stages and an estimated boost to Texas GDP. Not checked here."
-    },
-    {
-      "id": "2119825875755479344",
-      "desk": "sports",
-      "line": "ESPN says the College Football Playoff and ESPN have signed a five-year deal worth nearly $1.7 billion that expands the playoff to 24 teams in 2027, citing sources."
     },
     {
       "id": "2119841301612957699",
@@ -176,11 +151,6 @@
       "line": "The account kekatothepink quotes the post about making stickers from GIFs and says all you have to do is copy a GIF and paste it. The post carries a 12-second video."
     },
     {
-      "id": "2119799797385142274",
-      "desk": "politics",
-      "line": "Laura Weiss reports, citing a person familiar with his thinking, that Sen. Chris Van Hollen is open to a run against Senate Minority Leader Chuck Schumer for party leader, and that \"the door is not shut\". Not checked here."
-    },
-    {
       "id": "2120185896469496180",
       "desk": "ai",
       "line": "Google CEO Sundar Pichai announces Gemini 4 Carbon, which he says is built for long tasks in software engineering, cybersecurity and science. He says it is rolling out today through the Gemini API, Gemini for business, and, for Ultra subscribers, the Gemini app and AI Mode in Search. Not checked here."
@@ -204,6 +174,30 @@
       "id": "2119954479193743395",
       "desk": "medicine",
       "line": "911NewsBreaks, a breaking-news aggregator, says the FDA has put a major warning on GLP-1 drugs such as Ozempic and Zepbound, because they can reduce blood flow to the optic nerve and raise the risk of vision loss. Not checked here."
+    },
+    {
+      "id": "2120240278523318567",
+      "desk": "sports",
+      "line": "The NFL account says the Raiders are trading quarterback Kirk Cousins to the Vikings for a 2027 third-round pick. It credits Adam Schefter, Ian Rapoport and Mike Garafolo. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120237299900240146",
+      "desk": "politics",
+      "line": "Fox News reports that Rep. Jim Jordan won the vote to become House Republican minority leader, and says Speaker Mike Johnson plans to step aside from leadership. The post carries a 26-second video.",
+      "also": []
+    },
+    {
+      "id": "2120220290219208884",
+      "desk": "science",
+      "line": "SpaceX says Super Heavy Booster 22 has moved to the launch pad at Starbase and went through catch-height testing on arrival. It says this is the first V3 booster planned to return to the launch site for a catch. Four photos.",
+      "also": []
+    },
+    {
+      "id": "2120093267396022458",
+      "desk": "justice",
+      "line": "Visegrad24, a news aggregator, says at least one police officer was killed and another seriously wounded after a shootout and explosion in Oviedo, Spain, and that a suspect is on the run. Not checked here.",
+      "also": []
     }
   ]
 }
