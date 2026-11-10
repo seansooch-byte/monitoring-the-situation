@@ -5712,3 +5712,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Five ids added to the watch list. plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: October CPI (third strong month), Anthropic's updated S-1 and the METR/AI Futures timeline claims (Anthropic makes the model writing this page), Gemini 4 Carbon, the FDA GLP-1 vision-loss warning, Ring drone, crypto liquidations. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T19:20Z
+- Captures read: 1901Z (1806Z was the last logged read). Last read: 1901Z.
+- X's check: 1901Z 91 confirmed, 0 missing, 1 mismatched (not on the pulse, not used), 5 withheld by X. None of the withheld is on the pulse.
+- Pulse: 38 items, 1 in, 1 out. In: JD Vance on the Hegseth impeachment question (politics). Out: Benny Johnson on amnesty (smaller, politics held four). The build still holds the Reuters and Watcher.Guru additions off the front page. Header 1901Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Teger55 GIF post (a GIF with no description, point cannot be worked out from its words); Schefter Keenan Allen trade and Fabrizio Romano posts (account holds a place, sports holds four); claudeai Whiteboards/Sheets/Data (account holds a place); Yashar on the Trump letter to Biden (politics full, NYT report not checked); Dc_da_depressao on a named person's religion (non-English, claim about a real person, unchecked); Knowles post (names people, gives phone numbers); sexual and old posts.
+- Requests: none. One id added to the watch list. plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Claude Whiteboards/Sheets/Data (Anthropic makes the model writing this page), the NYT report of Trump's 2021 letter to Biden, Keenan Allen trade, Hegseth impeachment. The starting message had no instructions beyond the contract.
