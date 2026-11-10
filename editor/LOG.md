@@ -5692,3 +5692,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list (the rest were already there). plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: check live developing stories (Krakow, Qeshm, Nasdaq, Massie/Hegseth) against their sources, October CPI, Van Hollen and Schumer, the credit card cap claim. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T17:40Z
+- Captures read: 1706Z (1602Z was the last logged read). Last read: 1706Z.
+- X's check: 1706Z 98 confirmed, 0 missing, 0 mismatched, 7 withheld by X. None of the withheld is on the pulse.
+- Pulse: 34 items, 1 in, 1 out; one swap. In: Elon Musk on Starlink software and training superintelligence (tech). Out: aespa "Santa Baby" (36 hours old). Swap: Rockstar's pre-load post replaced its Festival post (larger, newer). Header 1706Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk Grok "@Bot" post (his largest, point unclear from its words) and his RL stack rewrite post (account holds a place); Polymarket Maryland data center (activist, possible private person); atrupar Dana White and Hegseth posts (politics holds several); Eagles Ebiketie trade, Sieler injury (sports holds four); PopBase David Walliams (named person accused, unchecked); GTA 6 30FPS and teaser posts (gaming holds two Rockstar-related items).
+- Requests: none. One id added to the watch list. plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Elon Musk's claim on Starlink software for AI training, the Hegseth impeachment hearing, the Eagles trades. The starting message had no instructions beyond the contract.
