@@ -5592,3 +5592,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list. plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Dana White and the press secretary job, Trump on Massie and Hegseth, GTA VI gold, Russini. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T04:30Z
+- Captures read: 0404Z (0308Z was the last logged read). Last read: 0404Z.
+- X's check: 0404Z 93 confirmed, 0 missing, 1 mismatched, 3 withheld by X. Older mismatches unchanged. None of the mismatched posts is on the pulse or cited by a story.
+- Pulse: 38 items, 2 in, 2 out. In: Grok Bot on weekly limit reset (ai, with the xAI disclosure), Benny Johnson on Trump and amnesty (politics). Out: RapSheet (40 hours old), Rupar's Massie post (38 hours old). Header 0404Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Unusual Whales Nvidia suit (account holds a place); Rupar's Massie/McConnell clip (no description, point not clear); elonmusk "Grok" and irony posts (account holds a place, no point); Hinojosa private prisons post (unconfirmed claim); Rieseberg Fable 5.2 game test (ai desk full); Memphis mayor tax clip (unresearched claim).
+- Requests: none. Two ids added to the watch list. plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Nvidia shareholder suit, Memphis data center taxes, Trump on Iran and amnesty. The starting message had no instructions beyond the contract.

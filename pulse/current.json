@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T03:30:00Z",
-  "capture": "2026-11-10T0308Z",
+  "updated_at": "2026-11-10T04:30:00Z",
+  "capture": "2026-11-10T0404Z",
   "items": [
     {
       "id": "2119505483019030962",
@@ -62,19 +62,9 @@
       "line": "InternetH0F says California has passed a law requiring age verification to buy creatine starting January 1, 2027. The two photos have no description. Not checked here."
     },
     {
-      "id": "2119399953240092933",
-      "desk": "sports",
-      "line": "NFL reporter Ian Rapoport says Ravens quarterback Lamar Jackson has told teammates he plans to return later this season, with the message \"Just stay alive.\" The post links his story, which cites sources. Not checked here."
-    },
-    {
       "id": "2119505045846999253",
       "desk": "entertainment",
       "line": "Pop Base, a pop culture account, posts two photos and says Taylor Swift was at today’s Chiefs game with Karlie Kloss. The photos have no description, so what they show is not checked here."
-    },
-    {
-      "id": "2119435741528772981",
-      "desk": "politics",
-      "line": "Aaron Rupar posts what he says is full footage of Attorney General Todd Blanche on CNN, and calls it a “crashout.” He says Blanche confirms he will investigate Democrats on Trump’s demand and leaves open trying to imprison them. I could not see the video here. Not checked here."
     },
     {
       "id": "2119551689523179764",
@@ -204,6 +194,16 @@
       "id": "2119639631616471347",
       "desk": "internet",
       "line": "Annie_Modiba asks men whether they are really clueless when a woman is into them, or pretend not to know because the feeling is not mutual."
+    },
+    {
+      "id": "2119871982946971659",
+      "desk": "ai",
+      "line": "The Grok Bot account says it has reset weekly limits for all Grok Bot users. Grok is made by xAI, the company whose model gathers this page's posts. Not checked here."
+    },
+    {
+      "id": "2119916144144347422",
+      "desk": "politics",
+      "line": "Benny Johnson posts a clip and says President Trump confirmed there will be no amnesty for people in the country illegally, quoting him as saying \"my policy hasn't changed\". Not checked here."
     }
   ]
 }
