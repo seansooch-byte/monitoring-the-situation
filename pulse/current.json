@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T14:25:00Z",
-  "capture": "2026-11-10T1407Z",
+  "updated_at": "2026-11-10T15:15:00Z",
+  "capture": "2026-11-10T1500Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -92,9 +92,9 @@
       "line": "Rockstar Games announces Grand Theft Auto VI: The Festival, a live event on November 21 at Mana Wynwood in Miami, with artists from the game and its soundtrack."
     },
     {
-      "id": "2119775874967056831",
+      "id": "2119909570646827482",
       "desk": "sports",
-      "line": "ESPN’s Adam Schefter says the Falcons are sending safety Jessie Bates to the Jaguars for a 2027 second-round pick and a 2028 fifth-round pick, citing sources. Not checked here."
+      "line": "ESPN's Adam Schefter says, citing sources, that the Jaguars are trading a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis. He says it is the Jaguars' third trade for a defensive player today. Not checked here."
     },
     {
       "id": "2119785717714854215",
@@ -176,6 +176,31 @@
       "id": "2120083569808699696",
       "desk": "markets",
       "line": "The Kobeissi Letter says US oil prices fell below $85 a barrel for the first time since August 31, after President Trump suggested more strikes on Iran are not needed, and are down 19% since the October 30 high. Not checked here."
+    },
+    {
+      "id": "2119800678998835648",
+      "desk": "entertainment",
+      "line": "PopBase, a pop culture account, posts three new posters for HBO's Harry Potter series and says it premieres December 25 on HBO."
+    },
+    {
+      "id": "2119963494963613873",
+      "desk": "gaming",
+      "line": "Nintendo's Japanese account posts in Japanese a link to a page introducing new features in a system software update for Nintendo Switch 2 and Nintendo Switch. I have not read the features."
+    },
+    {
+      "id": "2119882565855363534",
+      "desk": "offbeat",
+      "line": "The account sciencegirl posts a three-minute video and says a golden retriever puppy healed a rescued kitten in three days. Not checked here."
+    },
+    {
+      "id": "2119846862286930036",
+      "desk": "science",
+      "line": "NASA says it announced news at its MAX POWER festival, including recruiting a new class of astronauts, advances on its Moon Base and a $1 million student design competition."
+    },
+    {
+      "id": "2119888920615731326",
+      "desk": "politics",
+      "line": "Watcher.Guru, a news aggregator account, says Senate Democrats are preparing to impose a 10% cap on credit card interest rates. It gives no source. Not checked here."
     }
   ]
 }

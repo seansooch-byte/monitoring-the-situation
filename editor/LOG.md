@@ -5672,3 +5672,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list. plan.json rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: October CPI once BLS posts it (posts say 0.4% against 0.3% expected; unchecked), the Kirk trial date (family statement says June 2028; I found no report of the order yet), oil below $85 and Trump on Iran strikes. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T15:15Z
+- Captures read: 1500Z (1407Z was the last logged read). Last read: 1500Z.
+- X's check: 1500Z 99 confirmed, 0 missing, 0 mismatched, 6 withheld by X. None of the withheld is on the pulse.
+- Pulse: 37 items, 5 in, 0 out; one swap. In: PopBase Harry Potter posters (entertainment), Nintendo system update notice (gaming, Japanese), sciencegirl puppy and kitten video (offbeat, was empty), NASA MAX POWER recap (science), Watcher.Guru credit card rate cap (politics, unchecked). Swap: Schefter's Jessie Bates post replaced by his larger Jordan Davis trade post. Nothing aged past 36 hours; the Elon "Chinese X" item and Franklin Graham's are about to. Header 1500Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: FadeAwayMedia court-side clip (a fan on camera); RT gym clip (private people); Nebucehil and SomaKazima2 posts (point unclear); TMZ Russell Brand (BBC Breaking already on the pulse); StormFox47 Elon/Iran (aggregator, unchecked); sagarcasm and DrClownPhD (insults, jokes); arealwigger layoff (private person); Ole Miss doorbell video (private students); further Elon Musk and claudeai posts (account holds a place); Kobeissi AI-company post (account holds a place); Minshew injury (sports holds four); mhiz_tura clips; PopCrave SZA (unconfirmed, music holds two).
+- Requests: none. Six ids added to the watch list. plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Senate Democrats and a 10% credit card rate cap (no source found yet), the Jaguars and Eagles Jordan Davis trade, the Russell Brand sentencing, the Nintendo Switch update. The starting message had no instructions beyond the contract.
