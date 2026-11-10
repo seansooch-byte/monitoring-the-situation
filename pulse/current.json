@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T21:09:53Z",
-  "capture": "2026-11-10T2103Z",
+  "updated_at": "2026-11-10T22:09:41Z",
+  "capture": "2026-11-10T2200Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -203,6 +203,11 @@
       "id": "2120182485015474372",
       "desk": "world",
       "line": "Nayib Bukele, the president of El Salvador, posts in Haitian Creole. He says \"we\" kept a promise and destroyed the home of Lanmò San Jou and the headquarters of the 400 Mawozo gang, and that most of them ran away without trying to fight. Not checked here."
+    },
+    {
+      "id": "2120233139997933977",
+      "desk": "world",
+      "line": "BBC Breaking, the BBC news alerts account, reports that UK counter-terror police have arrested a member of the US Army in an espionage investigation linked to Russia. It links the BBC report. Not checked here."
     }
   ]
 }

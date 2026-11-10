@@ -5742,3 +5742,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Bukele's Haiti claim, October CPI, Claude Whiteboards/Sheets/Data (Anthropic makes the model writing this page), Hegseth impeachment articles. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T22:35Z
+- Captures read: 2200Z (2103Z was the last logged read). Last read: 2200Z.
+- X's check: 2200Z 121 confirmed, 0 missing, 0 mismatched, 2 withheld by X. None of the withheld is on the pulse.
+- Pulse: 38 items, 1 in, 0 out. In: BBC Breaking on the arrest of a US Army member in a Russia-linked espionage inquiry (world, unchecked). Nothing past 36 hours. The build holds the BBC Breaking addition and the Watcher.Guru crypto item off the front page (second post from the account; the BBC one stands on the world page). Header 2200Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Claude Whiteboards/Sheets/Data (account holds a place); Schefter, RapSheet and NFL trade and Mendoza posts (accounts hold places, sports full); TPUSA flag-and-student posts (private person accused); Walliams posts (named person accused, unchecked); JoshDowns link-only post and GIF copies (point cannot be worked out); sexual and old posts.
+- Requests: none. One id added to the watch list. plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: the arrest of a US Army member in the UK, Claude Whiteboards/Sheets/Data (Anthropic makes the model writing this page), Kirk Cousins trade, Hegseth impeachment. The starting message had no instructions beyond the contract.
