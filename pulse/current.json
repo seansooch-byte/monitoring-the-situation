@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T17:35:00Z",
-  "capture": "2026-11-10T1706Z",
+  "updated_at": "2026-11-10T18:15:01Z",
+  "capture": "2026-11-10T1806Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -48,11 +48,6 @@
       "id": "2119824747454173268",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts a photo and says FIFPRO has made its World Team of the Year 2026 official. The post names no players. Not checked here."
-    },
-    {
-      "id": "2119678179963187564",
-      "desk": "tech",
-      "line": "The Robotaxi account says robotaxi service will be available in San Antonio starting \"tomorrow, 5am.\" The photo has no description, and the post does not say who runs the service. Not checked here."
     },
     {
       "id": "2119698616478487001",
@@ -184,6 +179,31 @@
       "id": "2119799797385142274",
       "desk": "politics",
       "line": "Laura Weiss reports, citing a person familiar with his thinking, that Sen. Chris Van Hollen is open to a run against Senate Minority Leader Chuck Schumer for party leader, and that \"the door is not shut\". Not checked here."
+    },
+    {
+      "id": "2120185896469496180",
+      "desk": "ai",
+      "line": "Google CEO Sundar Pichai announces Gemini 4 Carbon, which he says is built for long tasks in software engineering, cybersecurity and science. He says it is rolling out today through the Gemini API, Gemini for business, and, for Ultra subscribers, the Gemini app and AI Mode in Search. Not checked here."
+    },
+    {
+      "id": "2120180183626129783",
+      "desk": "tech",
+      "line": "Panos Panay of Amazon announces the Ring Drone Cam, which he describes as a flying indoor security camera that follows custom routes to spots a fixed camera cannot reach. The post carries a short video and a link to details."
+    },
+    {
+      "id": "2120209926370783463",
+      "desk": "markets",
+      "line": "Reuters reports that US consumer prices rose strongly for a third straight month in October. The post links its story."
+    },
+    {
+      "id": "2120202954867437952",
+      "desk": "markets",
+      "line": "Watcher.Guru, a news aggregator, says crypto is dropping, with Bitcoin under $73,000 and Ether under $2,015, and that $600 million in leveraged positions were liquidated in four hours. Not checked here."
+    },
+    {
+      "id": "2119954479193743395",
+      "desk": "medicine",
+      "line": "911NewsBreaks, a breaking-news aggregator, says the FDA has put a major warning on GLP-1 drugs such as Ozempic and Zepbound, because they can reduce blood flow to the optic nerve and raise the risk of vision loss. Not checked here."
     }
   ]
 }

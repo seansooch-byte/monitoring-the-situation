@@ -5702,3 +5702,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Elon Musk's claim on Starlink software for AI training, the Hegseth impeachment hearing, the Eagles trades. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T18:20Z
+- Captures read: 1806Z (1706Z was the last logged read). Last read: 1806Z.
+- X's check: 1806Z 100 confirmed, 0 missing, 3 mismatched (none on the pulse, none used), 6 withheld by X. None of the withheld is on the pulse.
+- Pulse: 38 items, 5 in, 1 out. In: Sundar Pichai on Gemini 4 Carbon (ai), Panos Panay on the Ring Drone Cam (tech), Reuters on October consumer prices (markets), Watcher.Guru crypto drop (markets, unchecked), 911NewsBreaks on the FDA GLP-1 warning (medicine, unchecked). Out: robotaxi post (36 hours old). The build holds the Reuters and Watcher.Guru additions off the front page (one place per account); they stand on the markets page. Header 1806Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DallasTexasTV vehicle video (no media description, cannot tell what it shows); de_fanso GIF post (copy of the kekatothepink item); itssthyherinme (private person); TONYxTWO gas price post and Slotkin DOJ post (politics holds four); AndrewCurran S-1 and DKokotajlo posts (small, involve Anthropic, left to a story pass); Ole Miss video (private people); Walliams (named person accused, unchecked).
+- Requests: none. Five ids added to the watch list. plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: October CPI (third strong month), Anthropic's updated S-1 and the METR/AI Futures timeline claims (Anthropic makes the model writing this page), Gemini 4 Carbon, the FDA GLP-1 vision-loss warning, Ring drone, crypto liquidations. The starting message had no instructions beyond the contract.
