@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T20:09:49Z",
-  "capture": "2026-11-10T2002Z",
+  "updated_at": "2026-11-10T21:09:53Z",
+  "capture": "2026-11-10T2103Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -198,6 +198,11 @@
       "desk": "justice",
       "line": "Visegrad24, a news aggregator, says at least one police officer was killed and another seriously wounded after a shootout and explosion in Oviedo, Spain, and that a suspect is on the run. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2120182485015474372",
+      "desk": "world",
+      "line": "Nayib Bukele, the president of El Salvador, posts in Haitian Creole. He says \"we\" kept a promise and destroyed the home of Lanmò San Jou and the headquarters of the 400 Mawozo gang, and that most of them ran away without trying to fight. Not checked here."
     }
   ]
 }
