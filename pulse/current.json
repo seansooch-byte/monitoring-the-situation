@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T11:45:00Z",
-  "capture": "2026-11-10T1101Z",
+  "updated_at": "2026-11-10T12:40:00Z",
+  "capture": "2026-11-10T1200Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -95,19 +95,6 @@
       "line": "Rockstar Games announces Grand Theft Auto VI: The Festival, a live event on November 21 at Mana Wynwood in Miami, with artists from the game and its soundtrack."
     },
     {
-      "id": "2119583603206021555",
-      "desk": "politics",
-      "line": "The CBS program 60 Minutes posts a video clip and says President Trump said his administration’s deportation policy was “too tough.” A second 60 Minutes post carries its question to him about World Liberty Financial, his family’s crypto company.",
-      "also": [
-        "2119587209909006716"
-      ]
-    },
-    {
-      "id": "2119586419983429731",
-      "desk": "politics",
-      "line": "AF Post says Trump endorses an amnesty deal with Democrats, calling immigration maximalists “pretty far right” and suggesting people who have been in the US 10 to 15 years should have a chance to stay. The video has no description here. Not checked here."
-    },
-    {
       "id": "2119775874967056831",
       "desk": "sports",
       "line": "ESPN’s Adam Schefter says the Falcons are sending safety Jessie Bates to the Jaguars for a 2027 second-round pick and a 2028 fifth-round pick, citing sources. Not checked here."
@@ -171,6 +158,14 @@
       "id": "2119788086490001906",
       "desk": "tech",
       "line": "Google's official account announces two new systems in its eighth-generation TPU portfolio, which it says are built for the agentic era, and says that brings the total to four eighth-generation TPU systems launched in one year. Not checked here."
+    },
+    {
+      "id": "2119869530327732250",
+      "desk": "internet",
+      "line": "A post in Spanish: the poster says they learned to make stickers from GIFs thanks to a TikTok tutorial and will now be unbearable about it. A quoting post in English says all you have to do is copy a GIF and paste it.",
+      "also": [
+        "2119979552248307779"
+      ]
     }
   ]
 }

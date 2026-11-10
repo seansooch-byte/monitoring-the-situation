@@ -5642,3 +5642,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged. plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: October CPI once BLS posts it, Cruz and Hegseth. The starting message had no instructions beyond the contract.
+
+## 2026-11-10T12:40Z
+- Captures read: 1200Z (1101Z was the last logged read). Last read: 1200Z.
+- X's check: 1200Z 154 confirmed, 0 missing, 2 mismatched, 7 withheld by X. Mismatched ids are in verified/posts.json for run 2026-11-10T1200Z; none is on the pulse or cited by a story.
+- Pulse: 31 items, 1 in, 2 out. In: miensha00 GIF sticker post (internet, Spanish; the quoting kekatothepink post attached in `also`). Out, both older than 36 hours: 60 Minutes clip, AF Post amnesty post. Header 1200Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: StormFox47 Elon/Iran "BREAKING" (aggregator wording, unchecked); IRanMediaco soldier suicide post (names a person, unconfirmed); JulianaStratton selfie (politics already holds three, no story on it); elonmusk Starlink/Grok posts (account holds a place); mhiz_tura clips (unidentified private people); Dwight Singh caste post (insults about a group); SharpFootball "is this AI" (no description, point unclear); Hegseth ceremony and Apple tax posts (aggregators, unchecked).
+- Requests: none. Two ids added to the watch list. plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Juliana Stratton and the new Senate class, Nintendo ending Google/Apple sign-in (January 26, 2027, per its notice), Starlink software used for Grok training. The starting message had no instructions beyond the contract.
