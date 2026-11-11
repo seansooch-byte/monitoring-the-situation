@@ -5812,3 +5812,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list already held every pulse id. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: House blocks Hegseth impeachment (Reuters), Senate minority leader vote, Anthropic IPO pricing (FT via Cointelegraph, unchecked). The starting message had no instructions beyond the contract.
+
+## 2026-11-11T09:35Z
+- Captures read: 0702Z, 0802Z, 0905Z (0559Z was the last logged read; the 0702Z and 0802Z pulse refreshes were committed without a log entry). Last read: 0905Z.
+- X's check: 0702Z 14 confirmed, 0802Z 30 confirmed, 0905Z 24 confirmed; 0 missing, 0 mismatched, 0 withheld by X in all three. Earlier mismatch 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 40 items, 0 in, 1 out. Out: Watcher.Guru on the credit card rate cap (markets), past 36 hours. Nothing in the three new captures beat what is listed or fills a desk that has room. The build holds the second Reuters item off the front page. Header 0905Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano on Manchester United (sports already full; transfer talk unchecked); QuantumGuard17 on Florida driver's licences (claim unchecked, politics full); Netflix The Body (promotion); PopBase Coachella posts (account holds a place); Thune and Jordan election posts (covered by the earlier bulletin).
+- Requests: none. Watch list already holds every pulse id; plan.json unchanged.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Pochettino and Manchester United, Florida licence law, Coachella 2027 lineup. The starting message had no instructions beyond the contract.
