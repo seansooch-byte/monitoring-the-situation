@@ -5792,3 +5792,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list. plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Gemini 4 Carbon and the run of model launches, Bessent NYT report, Trump v BBC ruling (Reuters), North Hollywood crash. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T05:45Z
+- Captures read: 0501Z (0406Z was the last logged read). Last read: 0501Z.
+- X's check: 0501Z 43 confirmed, 0 missing, 1 mismatched (2120222459966140602, F1; the two texts print identically, so likely a spacing or truncation difference; not on the pulse), 1 withheld by X. None of the withheld is on the pulse.
+- Pulse: 45 items, 3 in, 2 out. In: DiscussingFilm on Skydance and DC Studios (entertainment, unchecked); PolitlcsUK on UK under-16 platform ban proposals (world, unchecked); TMZ on the Usher and Chris Brown concert (music, unchecked). Out: DiscussingFilm and CNN items, both past 36 hours. The build holds the second Watcher.Guru and Reuters items off the front page. Header 0501Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Polymarket on a Maryland data center (list at the 45 cap; claim unchecked); Atrupar on the Dana White briefing (post characterises it in its own words); RT gym clip (private people); Claude Whiteboards post (account holds a place); Marvel binary post, GIF copies, StormFox Iran post (unchecked, truncated), Cousins and other trade posts (accounts hold places).
+- Requests: none. Three ids added to the watch list. plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Skydance and DC Studios, UK social media ban expansion, Maryland data center, Claude Whiteboards/Sheets/Data launch. The starting message had no instructions beyond the contract.

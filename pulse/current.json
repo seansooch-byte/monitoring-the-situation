@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T04:30:00Z",
-  "capture": "2026-11-11T0406Z",
+  "updated_at": "2026-11-11T05:40:00Z",
+  "capture": "2026-11-11T0501Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -22,11 +22,6 @@
       "line": "Elon Musk says the Starlink software built to move vast amounts of data through space and to the ground is also very well suited to training superintelligence. Not checked here."
     },
     {
-      "id": "2119841425923702877",
-      "desk": "entertainment",
-      "line": "DiscussingFilm says James Gunn and Peter Safran will no longer run DC Studios and that Jeremy Latcham, a former Marvel Studios producer, is taking over. It links a Hollywood Reporter article. Not checked here."
-    },
-    {
       "id": "2120154484244381738",
       "desk": "gaming",
       "line": "Rockstar Games says pre-loading of Grand Theft Auto VI is now available to everyone who has pre-ordered, and points others to pre-order ahead of November 19. The post carries a 30-second video with no description."
@@ -35,11 +30,6 @@
       "id": "2119909570646827482",
       "desk": "sports",
       "line": "ESPN's Adam Schefter says, citing sources, that the Jaguars are trading a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis. He says it is the Jaguars' third trade for a defensive player today. Not checked here."
-    },
-    {
-      "id": "2119841301612957699",
-      "desk": "medicine",
-      "line": "CNN reports that the US health regulator on Monday told patients and healthcare providers of a potential increased risk of a serious eye condition linked to GLP-1 drugs used for weight loss and diabetes. The linked CNN story says the FDA ordered new warnings for Ozempic and Zepbound."
     },
     {
       "id": "2119871982946971659",
@@ -239,6 +229,24 @@
       "id": "2120345194696491375",
       "desk": "justice",
       "line": "Mario Nawfal reports, citing the Los Angeles Fire Department, CBS LA and NBC4, that at least three people died when an SUV hit a food stand at a North Hollywood bus stop and three more are in critical condition. The post says the cause is not known. Not checked here."
+    },
+    {
+      "id": "2120037882811588785",
+      "desk": "entertainment",
+      "line": "DiscussingFilm says Skydance replaced James Gunn and Peter Safran as heads of DC Studios partly over box office, citing a 'Supergirl' flop and a 'Superman' total it did not find impressive. The post names a source and has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2120250830846665066",
+      "desk": "world",
+      "line": "PolitlcsUK says expanded UK Government proposals could ban under-16s from Spotify, Lego Play and YouTube Kids, widening the scope of the planned social media ban. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120325222310223899",
+      "desk": "music",
+      "line": "TMZ reports exclusively that a Los Angeles concert by Usher and Chris Brown has been canceled amid an ongoing feud between them. Not checked here.",
+      "also": []
     }
   ]
 }
