@@ -5882,3 +5882,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T19:40Z
+- Captures read: 1907Z (1803Z was the last logged read). Last read: 1907Z.
+- X's check: 1907Z 68 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: unchanged, 38 items (0 in, 0 out). All items are inside 36 hours and still live and confirmed; nothing in 1907Z is among the largest unlisted posts (its newest posts are under 1.3M). Header left at 1803Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: second Musk Starlink post (advertising-like, account holds a place); asallghn Persian GIF-tip post (third copy of the same tip, two already listed); Ole Miss, Megyn Doyle, Diddy, streamer, nurse and Walliams posts (private people, sexual content or unconfirmed allegations); Cybertruck backlog post (small, account holds a place).
+- Requests: none. Watch list already holds every pulse id and the pinned post; plan.json not rebuilt.
+- Shipped: no, the site did not change.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
