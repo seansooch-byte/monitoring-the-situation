@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T15:20:00Z",
-  "capture": "2026-11-11T1502Z",
+  "updated_at": "2026-11-11T17:25:00Z",
+  "capture": "2026-11-11T1708Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -17,11 +17,6 @@
       "id": "2120193867374907421",
       "desk": "politics",
       "line": "JD Vance says the idea that Pete Hegseth committed impeachable crimes is absurd and the answer is no. He says Congress uses impeachment as a show instead of legislating, and that the push is about Hegseth taking on the Pentagon bureaucracy. Not checked here."
-    },
-    {
-      "id": "2120003439962829014",
-      "desk": "sports",
-      "line": "The NBA account posts a 12-second video with the caption \"WEMBY, HOW???\" and says to look where he took off from. The video has no description, so what it shows is not checked here."
     },
     {
       "id": "2120083569808699696",
@@ -108,12 +103,9 @@
       "line": "The account ns123abc says the FCC has accepted SpaceX's application to acquire nationwide 800 MHz spectrum through a deal with Grain Management covering 546 paired licenses. It says the big US carriers refused SpaceX access to their networks. Not checked here."
     },
     {
-      "id": "2120080430388937046",
+      "id": "2120228174730575892",
       "desk": "internet",
-      "line": "The account de_fanso posts in Spanish, saying it did not know GIFs could be copied. A Persian-language post quoting it gives the same tip: hold a finger on a GIF and tap \"Copy Video Link\". The post carries a GIF.",
-      "also": [
-        "2120193145577115998"
-      ]
+      "line": "The account Dailymeoww1 shares a phone tip: press and hold on a GIF and tap “Copy Video Link” to copy it easily. The post is spreading in the quote and repost streams."
     },
     {
       "id": "2120196028259316193",

@@ -5862,3 +5862,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 16Z.
 - Shipped: yes, commit 6e4bf9f8, live audit clean (172 files match).
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: DR Congo death sentences for 66 soldiers (BBC), Starlink-for-training claim. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T17:25Z
+- Captures read: 1708Z (1502Z was the last logged read). Last read: 1708Z.
+- X's check: 1708Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. The grabber reports 2120080430388937046 (de_fanso, was on the pulse) as "not authorized to see the post" in 1708Z. Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 38 items, 0 in, 1 out, 1 swapped. Out: NBA "WEMBY, HOW???" (sports, past 36 hours). Swapped: the de_fanso GIF-tip post (now unavailable on X, dropped with its Persian quote) for Dailymeoww1, the post it spreads from. Nothing in 1708Z beat what is listed (largest new post is 1.1M, AFpost on a lobbying firm, unchecked). The build holds the second Reuters item off the front page. Header 1708Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: AFpost on Katie Wiles and Continental Strategy (figures unchecked, names a private-adjacent relative); Polymarket Maya settlement claim (small, unchecked); Gemini Robotics and AlphaGenome posts (small); second Musk Starlink post (account holds a place with the training post; the build keeps the larger, so the next pass may swap); aresthethird2 screenshot tip (same genre as the GIF tip).
+- Requests: none. Watch list unchanged (it still holds both swapped ids); plan.json not rebuilt.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Pulse post 2120080430388937046 became unauthorized on X between passes. The starting message had no instructions beyond the contract.
