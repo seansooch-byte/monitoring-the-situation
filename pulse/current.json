@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-10T23:20:00Z",
-  "capture": "2026-11-10T2303Z",
+  "updated_at": "2026-11-11T00:40:00Z",
+  "capture": "2026-11-11T0004Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -16,7 +16,8 @@
       "desk": "politics",
       "line": "Rep. Thomas Massie says some colleagues call Defense Secretary Pete Hegseth effective and will vote not to impeach, but that the question is whether he committed impeachable acts, and that the answer is yes, eight times. He links the articles of impeachment. A later post says he is reading them on the House floor.",
       "also": [
-        "2119869868564742545"
+        "2119869868564742545",
+        "2120295851230908918"
       ]
     },
     {
@@ -146,11 +147,6 @@
       "line": "NASA says it announced news at its MAX POWER festival, including recruiting a new class of astronauts, advances on its Moon Base and a $1 million student design competition."
     },
     {
-      "id": "2119888920615731326",
-      "desk": "politics",
-      "line": "Watcher.Guru, a news aggregator account, says Senate Democrats are preparing to impose a 10% cap on credit card interest rates. It gives no source. Not checked here."
-    },
-    {
       "id": "2119979552248307779",
       "desk": "internet",
       "line": "The account kekatothepink quotes the post about making stickers from GIFs and says all you have to do is copy a GIF and paste it. The post carries a 12-second video."
@@ -169,11 +165,6 @@
       "id": "2120209926370783463",
       "desk": "markets",
       "line": "Reuters reports that US consumer prices rose strongly for a third straight month in October. The post links its story."
-    },
-    {
-      "id": "2120202954867437952",
-      "desk": "markets",
-      "line": "Watcher.Guru, a news aggregator, says crypto is dropping, with Bitcoin under $73,000 and Ether under $2,015, and that $600 million in leveraged positions were liquidated in four hours. Not checked here."
     },
     {
       "id": "2119954479193743395",
@@ -213,6 +204,41 @@
       "id": "2120233139997933977",
       "desk": "world",
       "line": "BBC Breaking, the BBC news alerts account, reports that UK counter-terror police have arrested a member of the US Army in an espionage investigation linked to Russia. It links the BBC report. Not checked here."
+    },
+    {
+      "id": "2120173411594915933",
+      "desk": "politics",
+      "line": "Rep. Hakeem Jeffries, the House Democratic leader, says House Democrats have won 258 seats and counting, the largest majority any party has had this century. He says news of their demise was greatly exaggerated. Not checked here."
+    },
+    {
+      "id": "2120237897240432705",
+      "desk": "business",
+      "line": "The New York Times posts as breaking news that Nvidia has hired the law firm Wachtell Lipton to help lead an investigation into its CEO and co-founder, Jensen Huang. The post gives no reason. Not checked here."
+    },
+    {
+      "id": "2120218343139582161",
+      "desk": "world",
+      "line": "Reuters reports that Greta Thunberg arrived at COP31, her first time at the climate summit since 2021, and quotes her saying the talks could have life or death consequences for countless people."
+    },
+    {
+      "id": "2120275724657393985",
+      "desk": "world",
+      "line": "Breaking911, a news aggregator account, says Joe Biden was hit with milk cartons in Dublin, Ireland, and was rushed into an SUV while police struggled with protesters. The post carries a video with no description. Not checked here."
+    },
+    {
+      "id": "2120264216896753767",
+      "desk": "science",
+      "line": "The account ns123abc says the FCC has accepted SpaceX's application to acquire nationwide 800 MHz spectrum through a deal with Grain Management covering 546 paired licenses. It says the big US carriers refused SpaceX access to their networks. Not checked here."
+    },
+    {
+      "id": "2120228174730575892",
+      "desk": "internet",
+      "line": "The account Dailymeoww1 shares a phone tip: press and hold on a GIF and tap “Copy Video Link” to copy it easily. The post is spreading in the quote and repost streams."
+    },
+    {
+      "id": "2120196028259316193",
+      "desk": "ideas",
+      "line": "The account learnpaladin says Ireland's potato crop failed in 1845 and in the two years after, that one million people died and another million fled, and that ships kept leaving Irish ports loaded with food. Not checked here."
     }
   ]
 }
