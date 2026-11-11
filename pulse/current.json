@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T06:10:00Z",
-  "capture": "2026-11-11T0559Z",
+  "updated_at": "2026-11-11T07:35:00Z",
+  "capture": "2026-11-11T0702Z",
   "items": [
-    {
-      "id": "2119867114450268322",
-      "desk": "ai",
-      "line": "Claude's official account announces Claude Fable 5.2 and Claude Mythos 5.2 and says they improve in coding, reasoning and vision. Claude is made by Anthropic, the company that makes the model writing this page; Anthropic's own account quotes the post. Not checked here.",
-      "also": [
-        "2119867707546071125"
-      ]
-    },
     {
       "id": "2120102767624880364",
       "desk": "tech",
@@ -27,11 +19,6 @@
       "line": "ESPN's Adam Schefter says, citing sources, that the Jaguars are trading a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis. He says it is the Jaguars' third trade for a defensive player today. Not checked here."
     },
     {
-      "id": "2119871982946971659",
-      "desk": "ai",
-      "line": "The Grok Bot account says it has reset weekly limits for all Grok Bot users. Grok is made by xAI, the company whose model gathers this page's posts. Not checked here."
-    },
-    {
       "id": "2120193867374907421",
       "desk": "politics",
       "line": "JD Vance says the idea that Pete Hegseth committed impeachable crimes is absurd and the answer is no. He says Congress uses impeachment as a show instead of legislating, and that the push is about Hegseth taking on the Pentagon bureaucracy. Not checked here."
@@ -40,14 +27,6 @@
       "id": "2120003439962829014",
       "desk": "sports",
       "line": "The NBA account posts a 12-second video with the caption \"WEMBY, HOW???\" and says to look where he took off from. The video has no description, so what it shows is not checked here."
-    },
-    {
-      "id": "2119869530327732250",
-      "desk": "internet",
-      "line": "A post in Spanish: the poster says they learned to make stickers from GIFs thanks to a TikTok tutorial and will now be unbearable about it. A quoting post in English says all you have to do is copy a GIF and paste it.",
-      "also": [
-        "2119979552248307779"
-      ]
     },
     {
       "id": "2119912768413618647",
