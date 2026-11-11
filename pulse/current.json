@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T22:15:00Z",
-  "capture": "2026-11-11T2204Z",
+  "updated_at": "2026-11-11T23:35:00Z",
+  "capture": "2026-11-11T2307Z",
   "items": [
-    {
-      "id": "2120102767624880364",
-      "desk": "tech",
-      "line": "Elon Musk says the Starlink software built to move vast amounts of data through space and to the ground is also very well suited to training superintelligence. Not checked here."
-    },
     {
       "id": "2120154484244381738",
       "desk": "gaming",
@@ -209,6 +204,12 @@
       "id": "2120339380774883672",
       "desk": "entertainment",
       "line": "scarletwnews, a fan news account, says Elizabeth Olsen returned as Wanda Maximoff in the post-credit scene of the VisionQuest finale. It is a spoiler for a Marvel series. Not checked here."
+    },
+    {
+      "id": "2120640219871384044",
+      "desk": "politics",
+      "line": "Phil Lewis, a journalist, posts that Scott Colom has won the Mississippi Senate race, citing a CNN projection. The post carries a photo with no description. Not checked here.",
+      "also": []
     }
   ]
 }

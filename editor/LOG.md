@@ -5922,3 +5922,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list; plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings as above. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T23:35Z
+- Captures read: 2307Z (2204Z was the last logged read). Last read: 2307Z.
+- X's check: 2307Z 132 confirmed, 0 missing, 2 mismatched (2120516286610583927 and 2120522480838443315, both official_jo1, not on the pulse), 3 withheld by X (none on the pulse). Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 39 items, 1 in, 1 out. In: Phil Lewis post on the CNN projection in the Mississippi Senate race (2120640219871384044, politics; young and fast, claim not checked here). Out: Musk Starlink data post (2120102767624880364, tech), past 36 hours. Header 2307Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Starlink, Grok Bot and Megapack posts (account holds a place, promotional); asallghn and lawrencekitema tip posts (same genre as a listed item); ChampRDS Dvalishvili posts (aggregator, possible minor); clashreport Biden Dublin post (same event as the listed Breaking911 item); Alaina Kunes apology, Megyn Doyle, Diddy, streamer posts (private people, sexual content or unconfirmed allegations); Watters Epstein report post (claim unchecked, politics full).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings as above. The starting message had no instructions beyond the contract.
