@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T21:15:00Z",
-  "capture": "2026-11-11T2103Z",
+  "updated_at": "2026-11-11T22:15:00Z",
+  "capture": "2026-11-11T2204Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -17,11 +17,6 @@
       "id": "2120193867374907421",
       "desk": "politics",
       "line": "JD Vance says the idea that Pete Hegseth committed impeachable crimes is absurd and the answer is no. He says Congress uses impeachment as a show instead of legislating, and that the push is about Hegseth taking on the Pentagon bureaucracy. Not checked here."
-    },
-    {
-      "id": "2120083569808699696",
-      "desk": "markets",
-      "line": "The Kobeissi Letter says US oil prices fell below $85 a barrel for the first time since August 31, after President Trump suggested more strikes on Iran are not needed, and are down 19% since the October 30 high. Not checked here."
     },
     {
       "id": "2120163794370367715",
@@ -59,12 +54,6 @@
       "id": "2120220290219208884",
       "desk": "science",
       "line": "SpaceX says Super Heavy Booster 22 has moved to the launch pad at Starbase and went through catch-height testing on arrival. It says this is the first V3 booster planned to return to the launch site for a catch. Four photos.",
-      "also": []
-    },
-    {
-      "id": "2120093267396022458",
-      "desk": "justice",
-      "line": "Visegrad24, a news aggregator, says at least one police officer was killed and another seriously wounded after a shootout and explosion in Oviedo, Spain, and that a suspect is on the run. Not checked here.",
       "also": []
     },
     {
@@ -210,6 +199,16 @@
       "id": "2120582957782200586",
       "desk": "ai",
       "line": "The account Grok Bot announces Grok Bot 1.0, which it describes as AI teammates that work with a whole team in Slack, Teams and meetings. Grok, the model that gathers this page's posts, is made by xAI. I could not confirm here who runs this account."
+    },
+    {
+      "id": "2120344700032844000",
+      "desk": "sports",
+      "line": "GinoHard_, a hockey clips account, posts a clip and says Jakob Chychrun hit Nick Cousins hard and that Cousins was out cold. Not checked here."
+    },
+    {
+      "id": "2120339380774883672",
+      "desk": "entertainment",
+      "line": "scarletwnews, a fan news account, says Elizabeth Olsen returned as Wanda Maximoff in the post-credit scene of the VisionQuest finale. It is a spoiler for a Marvel series. Not checked here."
     }
   ]
 }
