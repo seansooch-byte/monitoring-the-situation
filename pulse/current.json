@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T13:12:17Z",
-  "capture": "2026-11-11T1304Z",
+  "updated_at": "2026-11-11T14:35:00Z",
+  "capture": "2026-11-11T1407Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -195,9 +195,22 @@
       "line": "ProudSocialist says Thomas Massie’s resolution to impeach Pete Hegseth failed in the House 211 to 204 and that 11 Democrats did not vote. Not checked here."
     },
     {
-      "id": "2120456046426911039",
+      "id": "2120430280205115441",
       "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, says Manchester United are set for a final internal meeting to go ahead with sacking Michael Carrick, and are working on Mauricio Pochettino’s release clause and contract terms. The post carries a video. Not checked here."
+      "line": "David Ornstein, a football reporter at The Athletic, says Manchester United are finalising a deal to appoint Mauricio Pochettino if they decide to replace Michael Carrick, and that terms are being agreed with his camp. Not checked here.",
+      "also": [
+        "2120456046426911039"
+      ]
+    },
+    {
+      "id": "2120216592395174382",
+      "desk": "ai",
+      "line": "OpenAI announces a beta of Businesses in ChatGPT, where a business can claim its listing, manage its information, see how people engage, and build a Business Agent to answer customers. The post carries a video."
+    },
+    {
+      "id": "2120237304552055274",
+      "desk": "offbeat",
+      "line": "A video post says that removing an ingrown feather feels good for the pigeon. The 39-second clip is captioned only with that line. Its source has not been checked."
     }
   ]
 }
