@@ -5832,3 +5832,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Pochettino and Manchester United, Kirk trial delay. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T13:15Z
+- Captures read: 1059Z, 1204Z, 1304Z (1004Z was the last logged read; the 1059Z and 1204Z pulse refreshes were committed without a log entry). Last read: 1304Z.
+- X's check: 1059Z 22 confirmed, 1204Z 43 confirmed, 1304Z 80 confirmed, 5 withheld by X (none on the pulse); 0 missing, 0 mismatched in all three.
+- Pulse: 37 items, 0 in, 2 out. Out: Nintendo Japan system update (gaming) and 911NewsBreaks on the GLP-1 warning (medicine), both past 36 hours. Nothing new in 1304Z beat what is listed. Medicine is now empty: the only candidates were a private person's child's seizure and a film joke. The build holds the second Reuters item off the front page. Header 1304Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Romano on Maatsen (account holds a place); MercedesAMGF1 Kimi (point unclear without context); Kushner and Witkoff to Moscow (Osint613, small, unchecked); MarioNawfal Trump v BBC and Lula posts (small, claims unchecked); DeItaone mortgage rates (small); IGN PS5 and Zelda posts (small).
+- Requests: none. open.json empty, no answers in 1304Z; watch list still holds every pulse id, plan.json unchanged.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Trump v BBC lawsuit ruling (MarioNawfal, unchecked), Kushner and Witkoff Moscow trip. The starting message had no instructions beyond the contract.
