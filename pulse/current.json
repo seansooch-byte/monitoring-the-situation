@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T05:40:00Z",
-  "capture": "2026-11-11T0501Z",
+  "updated_at": "2026-11-11T06:10:00Z",
+  "capture": "2026-11-11T0559Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -10,11 +10,6 @@
       "also": [
         "2119867707546071125"
       ]
-    },
-    {
-      "id": "2119851180948152590",
-      "desk": "ai",
-      "line": "Mark Zuckerberg announces Muse Ember, which he calls Meta's smallest model and says gives higher intelligence per dollar than others in its class. He says it is available on the Meta Model API and in Muse Code. Not checked here."
     },
     {
       "id": "2120102767624880364",
@@ -81,11 +76,6 @@
       "id": "2119882565855363534",
       "desk": "offbeat",
       "line": "The account sciencegirl posts a three-minute video and says a golden retriever puppy healed a rescued kitten in three days. Not checked here."
-    },
-    {
-      "id": "2119846862286930036",
-      "desk": "science",
-      "line": "NASA says it announced news at its MAX POWER festival, including recruiting a new class of astronauts, advances on its Moon Base and a $1 million student design competition."
     },
     {
       "id": "2119979552248307779",

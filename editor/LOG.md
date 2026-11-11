@@ -5802,3 +5802,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Skydance and DC Studios, UK social media ban expansion, Maryland data center, Claude Whiteboards/Sheets/Data launch. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T06:10Z
+- Captures read: 0559Z (0501Z was the last logged read). Last read: 0559Z.
+- X's check: 0559Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier mismatch 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 43 items, 0 in, 2 out. Out: Zuckerberg (ai) and NASA (science), both past 36 hours. Nothing in the 0559Z capture (all posts under 650k views) beat what is already listed. The build holds the second Watcher.Guru and Reuters items off the front page. Header 0559Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Chiefs/Downs trade (NFL account holds a place); Libs of TikTok, Fournier and Acyn politics posts (small, claims unchecked); Cointelegraph, AshCrypto, BullTheory and other markets posts (small, unchecked); Gerashchenko Simonyan quote (small, nationality-charged quote); Variety VisionQuest, MacRumors, AndrewCurran_ (small).
+- Requests: none. Watch list already held every pulse id. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: House blocks Hegseth impeachment (Reuters), Senate minority leader vote, Anthropic IPO pricing (FT via Cointelegraph, unchecked). The starting message had no instructions beyond the contract.
