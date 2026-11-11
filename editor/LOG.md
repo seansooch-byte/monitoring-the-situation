@@ -5782,3 +5782,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list. plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Cousins trade, Congress report on Epstein (Watters post), Bessent moved to a military base per NYT (EricLDaugh post, unchecked), Lanterns cancellation. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T04:30Z
+- Captures read: 0406Z (0307Z was the last logged read). Last read: 0406Z.
+- X's check: 0406Z 39 confirmed, 0 missing, 0 mismatched, 1 withheld by X. None of the withheld is on the pulse.
+- Pulse: 42 items, 4 in, 2 out. In: Google on Gemini 4 Carbon (ai); Watcher.Guru on the Ledger CEO (tech, unchecked); Pop Base on the Scarlet Witch in Avengers: Doomsday (entertainment, unchecked); Mario Nawfal on the North Hollywood crash (justice, citing LAFD and local news, unchecked). Out: two entertainment and sports items now just past 36 hours. The build holds the second Watcher.Guru and Reuters items off the front page. Header 0406Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Bessent on a military base (Collin Rugg, Eagleman, others: NYT report not checked, small); Dortmund and Nmecha (unchecked rumour about a named person); Ansari "lawfare" post (EricLDaugh, claim unchecked); wages post (markets full); old and sexual posts; Pope Leo, BBC lawsuit and Iran training centre Reuters posts (small, Reuters holds places).
+- Requests: none. Four ids added to the watch list. plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Gemini 4 Carbon and the run of model launches, Bessent NYT report, Trump v BBC ruling (Reuters), North Hollywood crash. The starting message had no instructions beyond the contract.

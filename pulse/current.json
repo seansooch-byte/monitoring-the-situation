@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T03:35:00Z",
-  "capture": "2026-11-11T0307Z",
+  "updated_at": "2026-11-11T04:30:00Z",
+  "capture": "2026-11-11T0406Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -27,11 +27,6 @@
       "line": "DiscussingFilm says James Gunn and Peter Safran will no longer run DC Studios and that Jeremy Latcham, a former Marvel Studios producer, is taking over. It links a Hollywood Reporter article. Not checked here."
     },
     {
-      "id": "2119824747454173268",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, posts a photo and says FIFPRO has made its World Team of the Year 2026 official. The post names no players. Not checked here."
-    },
-    {
       "id": "2120154484244381738",
       "desk": "gaming",
       "line": "Rockstar Games says pre-loading of Grand Theft Auto VI is now available to everyone who has pre-ordered, and points others to pre-order ahead of November 19. The post carries a 30-second video with no description."
@@ -45,11 +40,6 @@
       "id": "2119841301612957699",
       "desk": "medicine",
       "line": "CNN reports that the US health regulator on Monday told patients and healthcare providers of a potential increased risk of a serious eye condition linked to GLP-1 drugs used for weight loss and diabetes. The linked CNN story says the FDA ordered new warnings for Ozempic and Zepbound."
-    },
-    {
-      "id": "2119822325876961537",
-      "desk": "entertainment",
-      "line": "Universal Pictures UK posts the official trailer for CoComelon: The Movie, a 103-second video, and says it is in cinemas on February 12."
     },
     {
       "id": "2119871982946971659",
@@ -229,6 +219,26 @@
       "id": "2120325515148145040",
       "desk": "sports",
       "line": "ESPN NBA posts video of Jaylen Brown and Jayson Tatum before tipoff, credited to NBC."
+    },
+    {
+      "id": "2120186185423159331",
+      "desk": "ai",
+      "line": "Google announces Gemini 4 Carbon, which it calls its strongest model, built for long-horizon tasks and multi-step reasoning. It says Carbon is for the hardest problems and Argon for complex ones. Not checked here."
+    },
+    {
+      "id": "2120247972084506878",
+      "desk": "tech",
+      "line": "Watcher.Guru reports that the CEO of the crypto wallet company Ledger says \"everybody will be hacked at some point.\" The post carries a short video. Not checked here."
+    },
+    {
+      "id": "2120356628822155594",
+      "desk": "entertainment",
+      "line": "Pop Base says Wanda Maximoff, the Scarlet Witch, has been resurrected in the Marvel Cinematic Universe and returns in ‘Avengers: Doomsday’, in theatres December 18. Not checked here."
+    },
+    {
+      "id": "2120345194696491375",
+      "desk": "justice",
+      "line": "Mario Nawfal reports, citing the Los Angeles Fire Department, CBS LA and NBC4, that at least three people died when an SUV hit a food stand at a North Hollywood bus stop and three more are in critical condition. The post says the cause is not known. Not checked here."
     }
   ]
 }
