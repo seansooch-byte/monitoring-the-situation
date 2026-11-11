@@ -5892,3 +5892,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list already holds every pulse id and the pinned post; plan.json not rebuilt.
 - Shipped: no, the site did not change.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T20:45Z
+- Captures read: 2001Z (1907Z was the last logged read). Last read: 2001Z.
+- X's check: 2001Z 66 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not on the pulse). Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: unchanged, 38 items (0 in, 0 out). All items are inside 36 hours. I tried adding Merab Dvalishvili's own post about the hotel-lobby fight (2120548582487134666, sports); the build reported it withheld by X, so I took it out again. Header left at 1803Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ChampRDS posts on the Nurmagomedov/Dvalishvili footage (aggregator, and the fight post mentions a young friend who may be a minor); lawrencekitema screenshot-tip post (same genre as the listed aresthethird2 item); Chinese-language Kraven post, Paul George fan clip, EricLDaugh Polish march post (framing unchecked), Drake/Billboard post (small or unchecked). Next pass: if X lifts the withheld flag on the Dvalishvili post, it is a sports candidate.
+- Requests: none. Watch list and plan.json unchanged.
+- Shipped: no, the site did not change.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread (2116569280900706479) and 2026-11-08-nvidia-board-probes-huang-china-spy (2119523308580511928) citing posts withheld by X. The starting message had no instructions beyond the contract.
