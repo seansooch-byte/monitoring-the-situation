@@ -5852,3 +5852,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T15:25Z
+- Captures read: 1502Z (1407Z was the last logged read). Last read: 1502Z.
+- X's check: 1502Z 138 confirmed, 0 missing, 0 mismatched, 10 withheld by X (none on the pulse). Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 39 items, 1 in, 1 out, 1 swapped. In: Marvel Studios binary-code post (entertainment; decodes to a line of text, no context given). Out: kekatothepink GIF-sticker quote (past 36 hours). Swapped: the Dailymeoww1 GIF-tip copy for the Spanish post it spreads from (de_fanso), with the larger Persian quote (asallghn) in `also`. Header 1502Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: RT gym clip and the Ole Miss student post (private people); streamer death, nurse and Diddy posts (private people or sexual); Walliams posts (allegations about a person, unconfirmed); GinoHard_ NHL hit (sports already full, injury claim unchecked); BBCWorld DR Congo sentences (world already at five); second Musk Starlink post (account holds a place); scarletwnews, AvengersUpdated and DiscussingFilm GTA posts (covered by listed items).
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 16Z.
+- Shipped: yes, commit 6e4bf9f8, live audit clean (172 files match).
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: DR Congo death sentences for 66 soldiers (BBC), Starlink-for-training claim. The starting message had no instructions beyond the contract.
