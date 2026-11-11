@@ -5762,3 +5762,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list. plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Thune and Barrasso on judicial nominees, GTA VI performance report, Jensen Huang reports (unchecked). The starting message had no instructions beyond the contract.
+
+## 2026-11-11T02:45Z
+- Captures read: 0004Z, 0106Z, 0203Z. Last read: 0203Z.
+- X's check: 0004Z 69 confirmed, 0 missing, 0 mismatched, 3 withheld; 0106Z 54 confirmed, 0 missing, 0 mismatched; 0203Z 56 confirmed, 0 missing, 0 mismatched. None of the withheld is on the pulse.
+- Pulse: 42 items, 1 in, 3 out. In: Sen. Ron Johnson on skipping the Senate leadership vote (politics). Out: Massie post, Kushner statement, Google systems post (all past 36 hours). Header 0203Z.
+- Added: 2026-11-10-thune-jordan-lead-gop-in-minority (politics). Updated: 2026-11-09-massie-reads-hegseth-impeachment (House voted 211 to 204 to refer; now established; correction added).
+- Left out: SpaceX 800 MHz FCC acceptance (could not confirm the FCC step outside X); United flight hijack alert (no report found); credit card debt record (could not match the $1.29T figure to the NY Fed); Nvidia hiring Wachtell Lipton (only the NYT post, article not opened; Nvidia story not changed); Kirk Cousins and Colts trades (no confirming source found); Biden milk-carton post (unchecked); AIPAC-money posts on the 11 absent Democrats (unchecked claims about named people); MeidasTouch post on Jordan (allegation about a person, unchecked); Habba firing, Texas marijuana bills, Greta at COP31, Jeffries 258 seats (not researched this pass).
+- Requests: none filed, none open. Watch list gained 4 ids; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Web search results were thin and mixed years; several leads could not be confirmed. For the next story pass: SpaceX/Grain FCC filing, Wachtell and the Huang probe, Habba, NFL trade deadline moves. The starting message had no instructions beyond the contract.

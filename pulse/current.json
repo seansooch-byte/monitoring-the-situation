@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T01:25:00Z",
-  "capture": "2026-11-11T0106Z",
+  "updated_at": "2026-11-11T02:40:00Z",
+  "capture": "2026-11-11T0203Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -9,15 +9,6 @@
       "line": "Claude's official account announces Claude Fable 5.2 and Claude Mythos 5.2 and says they improve in coding, reasoning and vision. Claude is made by Anthropic, the company that makes the model writing this page; Anthropic's own account quotes the post. Not checked here.",
       "also": [
         "2119867707546071125"
-      ]
-    },
-    {
-      "id": "2119795136003518716",
-      "desk": "politics",
-      "line": "Rep. Thomas Massie says some colleagues call Defense Secretary Pete Hegseth effective and will vote not to impeach, but that the question is whether he committed impeachable acts, and that the answer is yes, eight times. He links the articles of impeachment. A later post says he is reading them on the House floor.",
-      "also": [
-        "2119869868564742545",
-        "2120295851230908918"
       ]
     },
     {
@@ -56,11 +47,6 @@
       "line": "ESPN's Adam Schefter says, citing sources, that the Jaguars are trading a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis. He says it is the Jaguars' third trade for a defensive player today. Not checked here."
     },
     {
-      "id": "2119785717714854215",
-      "desk": "world",
-      "line": "Jared Kushner posts a statement saying President Trump is determined to end the war in Ukraine. He says he and a special envoy will meet European partners before two days of talks with Ukraine and Russia in Abu Dhabi, the first such trilateral talks since February."
-    },
-    {
       "id": "2119805979583828413",
       "desk": "business",
       "line": "Sawyer Merritt says Tesla has started construction of a $10 billion solar manufacturing plant near Houston, due to finish in 2028 with commercial operations in early 2029. He lists the plant's production stages and an estimated boost to Texas GDP. Not checked here."
@@ -89,11 +75,6 @@
       "id": "2120003439962829014",
       "desk": "sports",
       "line": "The NBA account posts a 12-second video with the caption \"WEMBY, HOW???\" and says to look where he took off from. The video has no description, so what it shows is not checked here."
-    },
-    {
-      "id": "2119788086490001906",
-      "desk": "tech",
-      "line": "Google's official account announces two new systems in its eighth-generation TPU portfolio, which it says are built for the agentic era, and says that brings the total to four eighth-generation TPU systems launched in one year. Not checked here."
     },
     {
       "id": "2119869530327732250",
@@ -240,6 +221,14 @@
       "desk": "politics",
       "line": "Unusual Whales, a markets and politics news account, posts as breaking that Texas Democrats filed two bills to legalize recreational marijuana for adults 21 and over, with possession up to two ounces, home growing of 12 plants and licensed retail sales. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2120269152279728478",
+      "desk": "politics",
+      "line": "Sen. Ron Johnson of Wisconsin says he did not take part in the Senate Republican leadership election because a defeat of this magnitude demands serious reflection and change, and that a rushed election ignores the message voters sent.",
+      "also": [
+        "2120262074186051969"
+      ]
     }
   ]
 }

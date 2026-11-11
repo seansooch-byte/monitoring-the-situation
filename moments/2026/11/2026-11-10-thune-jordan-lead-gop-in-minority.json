@@ -1,0 +1,52 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-10-thune-jordan-lead-gop-in-minority",
+  "title": "Republicans keep Thune as Senate leader and pick Jim Jordan to lead the House minority",
+  "dek": "After the midterm losses, Republicans in both chambers chose leaders for the minority. One senator walked out of the Senate vote.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-10T19:28:59Z",
+  "updated_at": "2026-11-11T02:40:00Z",
+  "what": [
+    "On Tuesday, 10 November 2026, Senate Republicans re-elected John Thune of South Dakota as their leader. The Hill, Roll Call and PBS report that nobody stood against him. CBS News reports he was chosen by acclamation.",
+    "Sen. Ron Johnson of Wisconsin had asked to delay the vote. PBS reports that he circulated a letter asking for time for \"real soul-searching\" and walked out as voting began, while saying no one else was on the ballot. His post on X says he did not take part because a defeat of this magnitude demands serious reflection and change.",
+    "PBS reports Republicans lost at least seven Senate seats and the majority. It reports that President Trump called Thune \"a very fine man\" and said the election was up to the Senate.",
+    "The same day, House Republicans chose Rep. Jim Jordan of Ohio as minority leader. CBS reports the vote was 106 to 73 over Majority Leader Steve Scalise, and that Rep. Tom Emmer kept the whip job."
+  ],
+  "why": "Both chambers turn to Democrats next year, and the choice of who leads the losing side sets how Republicans will fight them. The open objection from Johnson shows the argument over whether to change course.",
+  "next": "Democrats take control of the House on 3 January 2027.",
+  "posts": [
+    {
+      "id": "2120262074186051969",
+      "role": "voice"
+    },
+    {
+      "id": "2120269152279728478",
+      "role": "voice"
+    },
+    {
+      "id": "2120237299900240146",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "PBS NewsHour: Senate Republicans vote to keep Thune as leader after election wipeout",
+      "url": "https://www.pbs.org/newshour/politics/senate-republicans-vote-to-keep-thune-as-leader-after-election-wipeout"
+    },
+    {
+      "label": "CBS News live updates: Congress leadership elections, 10 November 2026",
+      "url": "https://www.cbsnews.com/live-updates/congress-today-senate-house-leadership-elections/"
+    },
+    {
+      "label": "The Hill: John Thune wins re-election as Senate Republican leader",
+      "url": "https://thehill.com/homenews/senate/6211797-john-thune-senate-leader-reelected/"
+    },
+    {
+      "label": "Roll Call: Thune will lead Republicans through the minority",
+      "url": "https://rollcall.com/2026/11/10/thune-will-lead-republicans-through-the-minority"
+    }
+  ]
+}
