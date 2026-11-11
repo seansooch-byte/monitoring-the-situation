@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T14:35:00Z",
-  "capture": "2026-11-11T1407Z",
+  "updated_at": "2026-11-11T15:20:00Z",
+  "capture": "2026-11-11T1502Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -32,11 +32,6 @@
       "id": "2120163794370367715",
       "desk": "gaming",
       "line": "IGN, a games news outlet, posts as breaking that Grand Theft Auto VI will run at 30 frames per second on all consoles, with PS5 Pro enhancements that improve ray tracing. The post gives no source in its text. Not checked here."
-    },
-    {
-      "id": "2119979552248307779",
-      "desk": "internet",
-      "line": "The account kekatothepink quotes the post about making stickers from GIFs and says all you have to do is copy a GIF and paste it. The post carries a 12-second video."
     },
     {
       "id": "2120185896469496180",
@@ -113,9 +108,12 @@
       "line": "The account ns123abc says the FCC has accepted SpaceX's application to acquire nationwide 800 MHz spectrum through a deal with Grain Management covering 546 paired licenses. It says the big US carriers refused SpaceX access to their networks. Not checked here."
     },
     {
-      "id": "2120228174730575892",
+      "id": "2120080430388937046",
       "desk": "internet",
-      "line": "The account Dailymeoww1 shares a phone tip: press and hold on a GIF and tap “Copy Video Link” to copy it easily. The post is spreading in the quote and repost streams."
+      "line": "The account de_fanso posts in Spanish, saying it did not know GIFs could be copied. A Persian-language post quoting it gives the same tip: hold a finger on a GIF and tap \"Copy Video Link\". The post carries a GIF.",
+      "also": [
+        "2120193145577115998"
+      ]
     },
     {
       "id": "2120196028259316193",
@@ -211,6 +209,11 @@
       "id": "2120237304552055274",
       "desk": "offbeat",
       "line": "A video post says that removing an ingrown feather feels good for the pigeon. The 39-second clip is captioned only with that line. Its source has not been checked."
+    },
+    {
+      "id": "2120199917255664020",
+      "desk": "entertainment",
+      "line": "Marvel Studios posts a line in binary code that reads \"We could never truly leave each other, even if we tried.\" The post gives no context."
     }
   ]
 }
