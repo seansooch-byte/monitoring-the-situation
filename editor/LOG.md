@@ -5772,3 +5772,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none filed, none open. Watch list gained 4 ids; plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Web search results were thin and mixed years; several leads could not be confirmed. For the next story pass: SpaceX/Grain FCC filing, Wachtell and the Huang probe, Habba, NFL trade deadline moves. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T03:40Z
+- Captures read: 0307Z (0203Z was the last logged read). Last read: 0307Z.
+- X's check: 0307Z 105 confirmed, 0 missing, 0 mismatched, 11 withheld by X. None of the withheld is on the pulse.
+- Pulse: 41 items, 3 in, 3 out. In: Yashar Ali on the NYT report of Trump's 2021 letter to Biden (politics, unchecked); Watcher.Guru on a 10% credit card rate cap (markets, unchecked); ESPN NBA on Brown and Tatum before tipoff (sports). Out: BBC Breaking on Brand, PopBase Harry Potter posters, Sawyer Merritt on Tesla solar (all past 36 hours). The build holds the second Reuters item off the front page. Header 0307Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk Grok clip post (account holds a place; point not clear); Massie, Nvidia/Huang, Walliams, Ole Miss and Kodak Black posts (named people, unchecked or private); Cousins and other NFL trades (accounts hold places, sports full); StormFox Iran post (truncated, unchecked); Marvel binary, GIF copies and sexual posts.
+- Requests: none. Two ids added to the watch list. plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Cousins trade, Congress report on Epstein (Watters post), Bessent moved to a military base per NYT (EricLDaugh post, unchecked), Lanterns cancellation. The starting message had no instructions beyond the contract.
