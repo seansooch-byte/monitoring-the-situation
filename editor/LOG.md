@@ -5912,3 +5912,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread (2116569280900706479) and 2026-11-08-nvidia-board-probes-huang-china-spy (2119523308580511928) citing posts withheld by X. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T22:15Z
+- Captures read: 2204Z (2103Z was the last logged read). Last read: 2204Z.
+- X's check: 2204Z 72 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none on the pulse). Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 39 items, 2 in, 2 out. In: GinoHard_ hockey hit clip (2120344700032844000, sports), scarletwnews VisionQuest post-credit claim (2120339380774883672, entertainment). Out: Kobeissi oil post (2120083569808699696, markets) and Visegrad24 Oviedo shooting (2120093267396022458, justice), both past 36 hours. Header 2204Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Starlink, Grok Bot and Megapack posts (account holds a place, promotional); lawrencekitema and asallghn tip posts (same genre as listed items); ChampRDS Dvalishvili posts (aggregator, possible minor); Steph Curry clip (aggregator, sports full); Yella Beezy verdict post (small, unconfirmed outside X); Ole Miss, Megyn Doyle, Diddy, streamer posts (private people, sexual content or unconfirmed allegations).
+- Requests: none. Two ids added to the watch list; plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings as above. The starting message had no instructions beyond the contract.
