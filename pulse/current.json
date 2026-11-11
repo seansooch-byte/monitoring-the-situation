@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T00:40:00Z",
-  "capture": "2026-11-11T0004Z",
+  "updated_at": "2026-11-11T01:25:00Z",
+  "capture": "2026-11-11T0106Z",
   "items": [
     {
       "id": "2119867114450268322",
@@ -69,11 +69,6 @@
       "id": "2119841301612957699",
       "desk": "medicine",
       "line": "CNN reports that the US health regulator on Monday told patients and healthcare providers of a potential increased risk of a serious eye condition linked to GLP-1 drugs used for weight loss and diabetes. The linked CNN story says the FDA ordered new warnings for Ozempic and Zepbound."
-    },
-    {
-      "id": "2119777057102315680",
-      "desk": "music",
-      "line": "The K-pop group Stray Kids posts an additional show announcement for its \"RUN IT\" world tour. The text gives no dates or cities, and the post is partly in Korean."
     },
     {
       "id": "2119822325876961537",
@@ -239,6 +234,12 @@
       "id": "2120196028259316193",
       "desk": "ideas",
       "line": "The account learnpaladin says Ireland's potato crop failed in 1845 and in the two years after, that one million people died and another million fled, and that ships kept leaving Irish ports loaded with food. Not checked here."
+    },
+    {
+      "id": "2120200060029792691",
+      "desk": "politics",
+      "line": "Unusual Whales, a markets and politics news account, posts as breaking that Texas Democrats filed two bills to legalize recreational marijuana for adults 21 and over, with possession up to two ounces, home growing of 12 plants and licensed retail sales. Not checked here.",
+      "also": []
     }
   ]
 }
