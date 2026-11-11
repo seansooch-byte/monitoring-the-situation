@@ -5842,3 +5842,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. open.json empty, no answers in 1304Z; watch list still holds every pulse id, plan.json unchanged.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Trump v BBC lawsuit ruling (MarioNawfal, unchecked), Kushner and Witkoff Moscow trip. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T14:40Z
+- Captures read: 1407Z (1304Z was the last logged read). Last read: 1407Z.
+- X's check: 1407Z 99 confirmed, 0 missing, 1 mismatched (2120423420357980345, NHLFollowTrack, text differs; not on the pulse), 2 withheld by X (not on the pulse). Earlier mismatch 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 39 items, 3 in, 1 out. In: Ornstein on Pochettino and Manchester United (sports; replaces the Romano copy, which moves to `also`), OpenAI Businesses in ChatGPT (ai), the pigeon clip (offbeat). The build holds the second Reuters item off the front page. Header 1407Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Megyn Doyle video post (names a person who may be private); Hegseth impeachment Democrats list and El-Sayed Senate post (politics already full); Neil Stone vaccine post, attio, NatureUnedited (old content); LeBron injury clip, Corenswet and gif posts (point unclear).
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
