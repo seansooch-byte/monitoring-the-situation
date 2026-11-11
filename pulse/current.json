@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T17:25:00Z",
-  "capture": "2026-11-11T1708Z",
+  "updated_at": "2026-11-11T18:30:00Z",
+  "capture": "2026-11-11T1803Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -157,12 +157,6 @@
       "line": "Mario Nawfal reports, citing the Los Angeles Fire Department, CBS LA and NBC4, that at least three people died when an SUV hit a food stand at a North Hollywood bus stop and three more are in critical condition. The post says the cause is not known. Not checked here."
     },
     {
-      "id": "2120037882811588785",
-      "desk": "entertainment",
-      "line": "DiscussingFilm says Skydance replaced James Gunn and Peter Safran as heads of DC Studios partly over box office, citing a 'Supergirl' flop and a 'Superman' total it did not find impressive. The post names a source and has not been checked here.",
-      "also": []
-    },
-    {
       "id": "2120250830846665066",
       "desk": "world",
       "line": "PolitlcsUK says expanded UK Government proposals could ban under-16s from Spotify, Lego Play and YouTube Kids, widening the scope of the planned social media ban. Not checked here.",
@@ -206,6 +200,11 @@
       "id": "2120199917255664020",
       "desk": "entertainment",
       "line": "Marvel Studios posts a line in binary code that reads \"We could never truly leave each other, even if we tried.\" The post gives no context."
+    },
+    {
+      "id": "2120492357674316188",
+      "desk": "internet",
+      "line": "The account aresthethird2 says that after six years on X they just learned you can take a screenshot of a post directly from the copy link option. Not checked here."
     }
   ]
 }

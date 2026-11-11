@@ -5872,3 +5872,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged (it still holds both swapped ids); plan.json not rebuilt.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. Pulse post 2120080430388937046 became unauthorized on X between passes. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T18:35Z
+- Captures read: 1803Z (1708Z was the last logged read). Last read: 1803Z.
+- X's check: 1803Z 50 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not on the pulse). Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 38 items, 1 in, 1 out. In: aresthethird2 screenshot-tip post (internet; among the largest unlisted posts). Out: DiscussingFilm Skydance/DC Studios post (past 36 hours). Header 1803Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: second Musk Starlink post (account holds a place; it has no media description and its point is unclear); Tesla FSD Finland post (same account, same desk); GinoHard_ NHL hit (injury claim unchecked); Epstein report and Hegseth Democrats posts (politics already full); Ole Miss, Megyn Doyle, Diddy, streamer and Walliams posts (private people, sexual content or unconfirmed allegations).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. The starting message had no instructions beyond the contract.
