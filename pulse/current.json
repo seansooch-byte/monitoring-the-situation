@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T09:35:00Z",
-  "capture": "2026-11-11T0905Z",
+  "updated_at": "2026-11-11T10:20:00Z",
+  "capture": "2026-11-11T1004Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -14,11 +14,6 @@
       "line": "Rockstar Games says pre-loading of Grand Theft Auto VI is now available to everyone who has pre-ordered, and points others to pre-order ahead of November 19. The post carries a 30-second video with no description."
     },
     {
-      "id": "2119909570646827482",
-      "desk": "sports",
-      "line": "ESPN's Adam Schefter says, citing sources, that the Jaguars are trading a 2027 first-round pick and a 2029 second-round pick to the Eagles for defensive tackle Jordan Davis. He says it is the Jaguars' third trade for a defensive player today. Not checked here."
-    },
-    {
       "id": "2120193867374907421",
       "desk": "politics",
       "line": "JD Vance says the idea that Pete Hegseth committed impeachable crimes is absurd and the answer is no. He says Congress uses impeachment as a show instead of legislating, and that the push is about Hegseth taking on the Pentagon bureaucracy. Not checked here."
@@ -27,14 +22,6 @@
       "id": "2120003439962829014",
       "desk": "sports",
       "line": "The NBA account posts a 12-second video with the caption \"WEMBY, HOW???\" and says to look where he took off from. The video has no description, so what it shows is not checked here."
-    },
-    {
-      "id": "2119912768413618647",
-      "desk": "justice",
-      "line": "Erika Kirk's account posts a Kirk family statement. It says today's decision to delay the trial of the man accused of murdering Charlie Kirk until at least June 2028 is deeply disappointing, and that each added day prolongs the family's pain. The date is the statement's account. Not checked here.",
-      "also": [
-        "2119924276933300282"
-      ]
     },
     {
       "id": "2120083569808699696",
@@ -216,6 +203,11 @@
       "id": "2120302638860230794",
       "desk": "politics",
       "line": "ProudSocialist says Thomas Massie’s resolution to impeach Pete Hegseth failed in the House 211 to 204 and that 11 Democrats did not vote. Not checked here."
+    },
+    {
+      "id": "2120452057060769874",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Mauricio Pochettino is ready to become the new Manchester United head coach, with talks progressing. The post carries a video. Not checked here."
     }
   ]
 }

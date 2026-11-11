@@ -5822,3 +5822,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list already holds every pulse id; plan.json unchanged.
 - Shipped: see report.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Pochettino and Manchester United, Florida licence law, Coachella 2027 lineup. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T10:20Z
+- Captures read: 1004Z (0905Z was the last logged read). Last read: 1004Z.
+- X's check: 1004Z 20 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not on the pulse). Earlier mismatch 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 39 items, 1 in, 2 out. In: Fabrizio Romano on Pochettino and Manchester United (sports, unchecked). Out: Schefter on the Jordan Davis trade (sports) and the Erika Kirk statement (justice), both past 36 hours. The build holds the second Reuters item off the front page. Header 1004Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Jesse Watters on the Hegseth vote (small, already covered by listed items); MarioNawfal Iran posts (small, claims unchecked, account holds a place); NBA Lillard and Tatum clips (small, account holds a place); Dexerto NoZempic stream (small); IGN, Billboard and PopBase items (small).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread citing withheld post 2116569280900706479. For the next story pass: Pochettino and Manchester United, Kirk trial delay. The starting message had no instructions beyond the contract.
