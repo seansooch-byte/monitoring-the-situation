@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T18:30:00Z",
-  "capture": "2026-11-11T1803Z",
+  "updated_at": "2026-11-11T21:15:00Z",
+  "capture": "2026-11-11T2103Z",
   "items": [
     {
       "id": "2120102767624880364",
@@ -205,6 +205,11 @@
       "id": "2120492357674316188",
       "desk": "internet",
       "line": "The account aresthethird2 says that after six years on X they just learned you can take a screenshot of a post directly from the copy link option. Not checked here."
+    },
+    {
+      "id": "2120582957782200586",
+      "desk": "ai",
+      "line": "The account Grok Bot announces Grok Bot 1.0, which it describes as AI teammates that work with a whole team in Slack, Teams and meetings. Grok, the model that gathers this page's posts, is made by xAI. I could not confirm here who runs this account."
     }
   ]
 }

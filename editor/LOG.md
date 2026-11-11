@@ -5902,3 +5902,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list and plan.json unchanged.
 - Shipped: no, the site did not change.
 - For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread (2116569280900706479) and 2026-11-08-nvidia-board-probes-huang-china-spy (2119523308580511928) citing posts withheld by X. The starting message had no instructions beyond the contract.
+
+## 2026-11-11T21:15Z
+- Captures read: 2103Z (2001Z was the last logged read). Last read: 2103Z.
+- X's check: 2103Z 75 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches 2120423420357980345 (NHL) and 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 39 items, 1 in, 0 out. In: Grok Bot 1.0 launch post (2120582957782200586, ai; among the largest unlisted posts). The line says Grok, which gathers the page's posts, is made by xAI. Header 2103Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk "Hire Grok @Bot" post (same launch, account holds a place, promotional); Rupar Arlington guard clip and Massie Epstein petition post (politics already full; the clip's claim about laughter is unchecked); Dvalishvili fight posts (aggregator, possible minor); popfestmedia bare-link post (point unclear).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: the build still warns about 2026-10-31-france-halloween-protests-spread (2116569280900706479) and 2026-11-08-nvidia-board-probes-huang-china-spy (2119523308580511928) citing posts withheld by X. The starting message had no instructions beyond the contract.
