@@ -6002,3 +6002,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 08Z.
 - Shipped: yes, see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T08:35Z
+- Captures read: 0802Z (0707Z was the last logged read). Last read: 0802Z.
+- X's check: 0802Z 45 confirmed, 0 missing, 0 mismatched, 1 withheld by X (none on the pulse). Earlier mismatches unchanged, none on the pulse.
+- Pulse: 28 items, 1 in, 6 out. In: clashreport on the Witkoff and Kushner arrival in Moscow (world, line says not checked). Out, all past 36 hours: NFL (sports), FoxNews (politics), nytimes (business), GuGi263 (offbeat), WatcherGuru (tech), PolitlcsUK (world). Header 0802Z. The 0802Z capture held few large new posts; the pulse is near its floor of 25.
+- Added: none. Updated: none (pulse pass).
+- Left out: 9NewsMelb missing teenager (a minor); Tay_Travis11 and DeepLeaksHQ Epstein posts (unchecked allegations about real people); SStricklandMMA and clavloev brawl posts (insults, UFC aggregators); andrewc44104127 video and Chasing7thStars (point unclear); JakeSherman (vague); Mario Nawfal justice posts (not confirmed outside X).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
