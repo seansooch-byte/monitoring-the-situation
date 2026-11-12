@@ -6022,3 +6022,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T11:50Z
+- Captures read: 1103Z (1001Z was the last logged read). Last read: 1103Z.
+- X's check: 1103Z 56 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatches unchanged (ATINGlobalSoc 2117571790000275514 in 1001Z), none on the pulse.
+- Pulse: 30 items, 0 in, 0 out. Nothing was past 36 hours; no new post that may be shown was both large and not from an account already holding a place. Header 1103Z.
+- Added: none. Updated: none. Story pass, but I could not confirm outside X the two things that moved: Manchester United sacking Carrick (my searches found only older Carrick stories) and the reported WSJ and NYT items on Nvidia's board and Huang (found only the 8 November board statement, already in the live story). Fetches of BBC and Reuters were blocked here.
+- Left out: Netflix Tupac Tapes and DiscussingFilm Iron Boy trailer (promotion); 9NewsMelb missing teenager (a minor); EYakoby Gaza snakes and MBS oil posts (insults, unchecked); WatcherGuru, Polymarket, PopBase Huang affair posts (unchecked allegations about a real person); novvibee, Gabriele_Corno, iAnonPatriot (private people); Musk SpaceX solar post (account holds a place).
+- Requests: none. Watch list already covers the pulse and live stories.
+- Shipped: yes, commit 6c405d28, live audit clean (172 files match).
+- For the main editor: same two withheld-post warnings. Next story pass: the Carrick sacking, the Nvidia and Huang reports (WSJ, NYT, Taiwan supply chain) and the Grok Bot launch (involves xAI) need outside sources. The starting message had no instructions beyond the contract.
