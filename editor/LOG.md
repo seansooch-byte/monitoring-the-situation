@@ -6052,3 +6052,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Five ids added to the watch list; plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The Zelenskyy Starshield claim involves SpaceX and needs outside sourcing in a story pass. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T16:50Z
+- Captures read: 1608Z (1502Z was the last logged read). Last read: 1608Z.
+- X's check: 1608Z 51 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not on the pulse).
+- Pulse: 32 items, 0 in, 2 out (past 36 hours: an entertainment and an offbeat item). The Nvidia newsroom line now carries the SEC filing facts. Header 1608Z.
+- Added: none. Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (Huang resigned as CEO per the 11 November 8-K; Kress interim; correction added; title changed, id kept).
+- Left out: Polymarket and kimmonismus Nvidia copies (covered by the story); Trump-on-Iran and DC shooting posts (not confirmed outside X in this pass); Nasser Medical Complex post (claim not checked); OzraeliAvi arrest post (unchecked claim about a named person); WallStreetApes and waziot posts (old content); Cumwithmom (advertisement, sexual).
+- Requests: none. One id (Polymarket Nvidia post) added to the watch list; plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings. Next story pass: Trump's remark on an Iran deal, the Washington DC shooting and the Melbourne arrest claim need outside sources. The starting message had no instructions beyond the contract.

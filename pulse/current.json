@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T15:11:56Z",
-  "capture": "2026-11-12T1502Z",
+  "updated_at": "2026-11-12T16:20:15Z",
+  "capture": "2026-11-12T1608Z",
   "items": [
-    {
-      "id": "2120356628822155594",
-      "desk": "entertainment",
-      "line": "Pop Base says Wanda Maximoff, the Scarlet Witch, has been resurrected in the Marvel Cinematic Universe and returns in ‘Avengers: Doomsday’, in theatres December 18. Not checked here."
-    },
     {
       "id": "2120430280205115441",
       "desk": "sports",
@@ -111,12 +106,6 @@
       "also": []
     },
     {
-      "id": "2120366623219483049",
-      "desk": "offbeat",
-      "line": "The account jellyboytoy says pigeons were once a highly domesticated bird and that it is the worst timeline that they no longer are. The post quotes another post.",
-      "also": []
-    },
-    {
       "id": "2120812158363775311",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Manchester United have sacked Michael Carrick with immediate effect. Not checked here."
@@ -164,7 +153,7 @@
     {
       "id": "2120876571829662014",
       "desk": "business",
-      "line": "The Nvidia newsroom account announces a CEO transition and links the company release. The post does not say who is involved. Not checked here."
+      "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing of 11 November says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
     },
     {
       "id": "2120856756393857450",
