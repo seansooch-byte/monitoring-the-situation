@@ -6122,3 +6122,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Possible conflict for the story pass: the pulse item on Scott Colom's Mississippi Senate win (a CNN projection per Phil Lewis) sits beside a Hyde-Smith "Thank you, Mississippi" video; check the result against the state's election site. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T23:40Z
+- Captures read: 2306Z (2208Z was the last logged read). Last read: 2306Z.
+- X's check: 2306Z 103 confirmed, 0 missing, 1 mismatched (2120818898882977863, cortis_bighit, not on the pulse), 5 withheld by X. Earlier runs unchanged.
+- Pulse: 45 items listed (1 in, 1 out); the build holds one clashreport item off the front page. In: Olking07 on a reported Microsoft outage, asking Grok (tech, xAI disclosure, not checked). Out, smallest on the page: Wario64 on The Game Awards (gaming). Header 2306Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Ole Miss incident posts (students, private persons); Kylie Jenner and the anonymous chef (TMZ, a claim about a private person); Russell Brand documentary (promotion, allegations); DC shooting update (private persons); Marcus Smart suspension (sports full); Shaun King on Abdul El-Sayed (politics full); Trump Nvidia share sale posts (claim about a named person, unconfirmed here); Rohoza prison abuse thread (unchecked claims); Cobratate GTA6 (point unclear); posts flagged old_content.
+- Requests: none. One id added to the watch list; plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft Outlook outage on 12 November (TGLetter says 128,874 reports; no source opened here). The starting message had no instructions beyond the contract.

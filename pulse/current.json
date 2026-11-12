@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T22:30:00Z",
-  "capture": "2026-11-12T2208Z",
+  "updated_at": "2026-11-12T23:40:00Z",
+  "capture": "2026-11-12T2306Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -219,11 +219,6 @@
       "line": "Clash Report, a news aggregator account, quotes Hillary Clinton on what it calls the Jensen Huang spy scandal. Clinton predicts that Trump, on meeting Xi Jinping in a few weeks, will ask whether it is true and then accept Xi's denial. Not checked here."
     },
     {
-      "id": "2120924926278517131",
-      "desk": "gaming",
-      "line": "Wario64, a game deals and news account, says The Game Awards will air live on Disney+ as well as on the platforms where it already streams. Not checked here."
-    },
-    {
       "id": "2120955224810803419",
       "desk": "medicine",
       "line": "Rapid Response 47, a White House account, quotes the @DrOzCMS account on what it calls \"so-called Medicare for All\": socialized medicine, the quote says, makes a two-tier system in which rich people buy the care they want. A political argument, not checked here."
@@ -255,6 +250,11 @@
       "also": [
         "2120746428720988408"
       ]
+    },
+    {
+      "id": "2120972282096918904",
+      "desk": "tech",
+      "line": "Olking07 posts that Microsoft services are down worldwide and asks Grok what happened. The post gives no cause. Grok, the model that gathers this page's posts, is made by xAI. Not checked here."
     }
   ]
 }
