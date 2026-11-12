@@ -6112,3 +6112,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Five ids added to the watch list; plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T22:35Z
+- Captures read: 2208Z (2101Z was the last logged read). Last read: 2208Z.
+- X's check: 2208Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier runs unchanged (0605Z 3, 1001Z 1, 1359Z 2, 1708Z 1 mismatched; none on the pulse).
+- Pulse: 45 items listed (1 in, 0 out); the build holds one clashreport item off the front page. In: Robotaxi account on 24/7 service, with Elon Musk's quote in `also` (tech, not checked). Elon Musk's "Hire Grok Bot" quote attached to the Grok Bot item in `also`. Nvidia line reworded to "SEC filing, dated 11 November" (matches the 8-K file name; not reopened). Header 2208Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 9NewsMelb missing-teen rescue (a minor); Elon Musk Megapacks post (account already shown, point unclear without context); WatcherGuru, KobeissiLetter and PopBase Huang posts (allegations about named people, or subject already shown); Tay_Travis11 Epstein claim (unconfirmed claim about a named person); tobyfox vote result (the post it replies to is not captured, point unclear); Cindy Hyde-Smith "Thank you, Mississippi" video (no description, point unclear); Netflix Tupac interview (promotion).
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Possible conflict for the story pass: the pulse item on Scott Colom's Mississippi Senate win (a CNN projection per Phil Lewis) sits beside a Hyde-Smith "Thank you, Mississippi" video; check the result against the state's election site. The starting message had no instructions beyond the contract.

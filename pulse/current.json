@@ -1,12 +1,15 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T21:30:00Z",
-  "capture": "2026-11-12T2101Z",
+  "updated_at": "2026-11-12T22:30:00Z",
+  "capture": "2026-11-12T2208Z",
   "items": [
     {
       "id": "2120582957782200586",
       "desk": "ai",
-      "line": "The account Grok Bot announces Grok Bot 1.0, which it describes as AI teammates that work with a whole team in Slack, Teams and meetings. Grok, the model that gathers this page's posts, is made by xAI. I could not confirm here who runs this account."
+      "line": "The account Grok Bot announces Grok Bot 1.0, which it describes as AI teammates that work with a whole team in Slack, Teams and meetings. Elon Musk quotes it, telling people to hire Grok Bot as a colleague. Grok, the model that gathers this page's posts, is made by xAI. I could not confirm here who runs this account.",
+      "also": [
+        "2120584535423565889"
+      ]
     },
     {
       "id": "2120640219871384044",
@@ -119,7 +122,7 @@
     {
       "id": "2120876571829662014",
       "desk": "business",
-      "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing of 11 November says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
+      "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing, dated 11 November, says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
     },
     {
       "id": "2120856756393857450",
@@ -244,6 +247,14 @@
       "id": "2120979964535173612",
       "desk": "politics",
       "line": "Reuters reports that Trump says former Apple chief Tim Cook is \"a legend\" and should replace Jensen Huang at Nvidia. Not checked here."
+    },
+    {
+      "id": "2120736143566344324",
+      "desk": "tech",
+      "line": "The Robotaxi account says Robotaxi now runs 24/7 in every city where it is available, in a four-second video. Elon Musk quotes it, saying it works 168 hours a week. Not checked here.",
+      "also": [
+        "2120746428720988408"
+      ]
     }
   ]
 }
