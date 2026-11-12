@@ -5992,3 +5992,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T07:20Z
+- Captures read: 0707Z (0605Z was the last logged read). Last read: 0707Z.
+- X's check: 0707Z 45 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none on the pulse). Earlier mismatches unchanged, none on the pulse.
+- Pulse: 33 items, 1 in, 3 out. In: meyechelgossips on the Coachella 2027 line-up (music; the grabber filed it under sports). Out, all past 36 hours: Dailymeoww1 (internet), BBC Breaking (world), ns123abc Anthropic CEO clip (ai). Header 0707Z. Ai has one item left.
+- Added: none. Updated: none (pulse pass).
+- Left out: cumhuriyetgzt1 costume protest video (shows a private person, Turkish, claim unchecked); YaaMazz (quote of a post already shown, point unclear); CalltoActivism and mehdirhasan Mississippi posts (Phil Lewis already holds the Mississippi place); ScottPresler (politics full, claim about a dinner unchecked); AnarchyCrave Aaron Pierre rumour; TheNetDaily barber clip and fullonliplock (private people); DeepLeaksHQ Epstein file claims (unchecked allegations); UNWatch (old content); Hamilton post (PopBase already holds a place); Mario Nawfal and Yella Beezy justice posts (not confirmed outside X).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 08Z.
+- Shipped: yes, see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
