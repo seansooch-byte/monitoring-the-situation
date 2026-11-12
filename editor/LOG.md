@@ -6102,3 +6102,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The Nvidia newsroom pulse line cites an SEC filing dated 11 November while the posts are from 12 November; recheck in the next story pass. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T21:35Z
+- Captures read: 2101Z (2004Z was the last logged read). Last read: 2101Z.
+- X's check: 2101Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld by X. No new missing or mismatched ids.
+- Pulse: 44 items (4 in, 3 out). In: claudeai on Claude Meetings (ai, Anthropic disclosure); PopCrave on X's media limit (internet); BBC World on the UAE crash (disaster); Reuters on Trump and Tim Cook at Nvidia (politics). All not checked. Out, oldest: aresthethird2 (internet), Brave (tech), Helle Lyng (world). Header 2101Z.
+- Added: 2026-11-12-claude-meetings-beta (ai), 2026-11-12-interior-records-destruction-claim (politics, disputed). Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (Reuters second-employee and Trump-Cook posts, flagged as resting on posts).
+- Left out: UAE crash story (could not open BBC or find a second source); Outlook outage (search found no source for 12 November); Tesla and SpaceX merger talks and Trump caravan and tariff post (not researched); Alex Jones thread on Israeli marriage law (inflammatory); Hegseth post by Jeffries (old-content flag).
+- Requests: none added or removed. Five ids added to the watch list; plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-12-interior-records-destruction-claim",
+  "title": "Whistleblowers tell House Democrats Interior is destroying records on Trump building projects; Interior says \"100% false\"",
+  "dek": "Records laws decide what investigators can see later. The claim is unproven and the department denies it.",
+  "desks": ["politics"],
+  "standing": "disputed",
+  "started_at": "2026-11-12T18:24:00Z",
+  "updated_at": "2026-11-12T21:30:00Z",
+  "what": [
+    "CNN reported on 12 November that several whistleblowers told staff of the House Natural Resources Committee, in recent weeks, that the Interior Department is getting rid of records ahead of expected oversight, and that key documents may already be gone. Some also alleged officials used disappearing-message apps such as Signal in ways that may break federal records law. unusual_whales posted this summary.",
+    "Scripps News, carrying the report, lists the projects the records concern: the East Potomac golf course, a triumphal arch, Lafayette Square fencing, the Tidal Basin plan, the White House ballroom and the Garden of American Heroes. It says Rep. Jared Huffman, a California Democrat and the incoming committee chairman, planned preservation letters to Interior, the National Park Service, the Bureau of Land Management, the Agriculture Department and private companies.",
+    "Interior calls the claims \"100% false\" and says it follows federal records obligations. White House spokesman Davis Ingle called the allegations \"speculative and irresponsible reporting.\"",
+    "The whistleblowers are not named and I found no documents showing records were destroyed. Everything here about destruction rests on anonymous accounts relayed by Democrats."
+  ],
+  "why": "It is an early move in the oversight fight expected once Democrats take committee chairs, and records handling is a standard way such fights begin.",
+  "next": "Whether the preservation letters are sent and how Interior answers them.",
+  "posts": [
+    { "id": "2120945722959032358", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Scripps News: Whistleblowers tell Democrats documents linked to Trump's construction projects are being destroyed", "url": "https://www.scrippsnews.com/politics/political-scandals/whistleblowers-tell-democrats-documents-linked-to-trumps-construction-projects-are-being-destroyed" }
+  ]
+}
