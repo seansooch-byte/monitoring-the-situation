@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T13:06:55Z",
-  "capture": "2026-11-12T1259Z",
+  "updated_at": "2026-11-12T14:09:03Z",
+  "capture": "2026-11-12T1359Z",
   "items": [
-    {
-      "id": "2120325515148145040",
-      "desk": "sports",
-      "line": "ESPN NBA posts video of Jaylen Brown and Jayson Tatum before tipoff, credited to NBC."
-    },
     {
       "id": "2120356628822155594",
       "desk": "entertainment",
@@ -17,12 +12,6 @@
       "id": "2120345194696491375",
       "desk": "justice",
       "line": "Mario Nawfal reports, citing the Los Angeles Fire Department, CBS LA and NBC4, that at least three people died when an SUV hit a food stand at a North Hollywood bus stop and three more are in critical condition. The post says the cause is not known. Not checked here."
-    },
-    {
-      "id": "2120325222310223899",
-      "desk": "music",
-      "line": "TMZ reports exclusively that a Los Angeles concert by Usher and Chris Brown has been canceled amid an ongoing feud between them. Not checked here.",
-      "also": []
     },
     {
       "id": "2120430280205115441",
@@ -181,6 +170,21 @@
       "desk": "world",
       "line": "The New York Times reports that Indonesia's vice president is stepping down. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2120841731302154708",
+      "desk": "ai",
+      "line": "Anthropic announces its initial public offering, links a page about it, and says it has filed a registration statement with the SEC. The post says it is not an offer to sell securities. Claude, the model writing this page, is made by Anthropic. Not checked here."
+    },
+    {
+      "id": "2120876571829662014",
+      "desk": "business",
+      "line": "The Nvidia newsroom account announces a CEO transition and links the company release. The post does not say who is involved. Not checked here."
+    },
+    {
+      "id": "2120856756393857450",
+      "desk": "sports",
+      "line": "Crystal Palace says in a club statement that Pierre Sage has left his role as manager, and thanks him and his staff. Not checked here."
     }
   ]
 }
