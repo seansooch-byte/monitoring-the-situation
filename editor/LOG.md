@@ -6042,3 +6042,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list; plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T15:15Z
+- Captures read: 1359Z, 1502Z (1259Z was the last logged read; the 1409Z pulse commit has no entry here). Last read: 1502Z.
+- X's check: 1502Z 77 confirmed, 0 missing, 0 mismatched, 2 withheld by X (neither on the pulse). 1359Z 71 confirmed, 0 missing, 2 mismatched (elonmusk 2120795813123129831 and 2120798842451058773, reposts recorded with the "RT @" prefix; not on the pulse), 3 withheld by X (not on the pulse).
+- Pulse: 34 items, 4 in, 3 out. In: ZelenskyyUa on Starshield speed limits (world, not checked); SpaceX on the USSF-627 launch (science); billboard on KATSEYE's Megan (music, not checked); AdamSchefter on the Broncos-Chargers Henley trade, with his ESPN follow-up in `also` (sports, not checked). Out, past 36 hours: MarioNawfal North Hollywood (justice), GinoHard_ hockey clip (sports), scarletwnews (entertainment). Header 1502Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: philmartinjr DC police clip (a reply, no location in the post, shooter report unchecked); FoxNews Trump tariffs on Mexico (politics desk already full, unchecked); jk_rowling post (culture-war); narendramodi Diwali reply (point unclear); further FabrizioRomano and elonmusk posts and Nvidia CEO copies (account holds a place or copy of a shown post); ANI paediatric health post (advice).
+- Requests: none. Five ids added to the watch list; plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The Zelenskyy Starshield claim involves SpaceX and needs outside sourcing in a story pass. The starting message had no instructions beyond the contract.
