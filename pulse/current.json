@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T18:13:53Z",
-  "capture": "2026-11-12T1806Z",
+  "updated_at": "2026-11-12T19:15:00Z",
+  "capture": "2026-11-12T1902Z",
   "items": [
     {
       "id": "2120430280205115441",
@@ -76,11 +76,6 @@
       "desk": "world",
       "line": "The Hormuz Letter, an account that follows the Iran war, says the Wall Street Journal reports that Trump told Vance to restart talks with Iran. The post adds that Iran has ruled out talks unless its seven conditions are met. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120404398677672432",
-      "desk": "gaming",
-      "line": "Wario64, a game deals and news account, posts a headline saying The Legend of Zelda: Ocarina of Time for Nintendo Switch 2 has sold over 5.2 million units worldwide in its first four days. The post links its source. Not checked here."
     },
     {
       "id": "2120575009777430974",
@@ -222,6 +217,21 @@
       "id": "2120931356914151835",
       "desk": "music",
       "line": "The account PopBase posts a statement it attributes to Shawn Mendes, who says he is speaking out in support of Palestine and asks fellow artists to use their voices. The quoted text is cut off. Not checked here."
+    },
+    {
+      "id": "2120894716006879552",
+      "desk": "politics",
+      "line": "Polymarket, a prediction market account, says it has been revealed that Rep. Ro Khanna's family sold Nvidia stock one day after its all-time high in early October. It links a source. Not checked here."
+    },
+    {
+      "id": "2120946562620907823",
+      "desk": "tech",
+      "line": "The account FajrEMalik posts that Microsoft Outlook is down in the middle of the work day. Not checked here."
+    },
+    {
+      "id": "2120940601319260164",
+      "desk": "ai",
+      "line": "The Google Gemini account announces Gemini 4 Hydrogen, which it says brings cutting-edge intelligence to everyone, follows instructions more closely and calls the right tools. Not checked here."
     }
   ]
 }

@@ -6082,3 +6082,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Six ids added to the watch list; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). SpaceX's campus announcement and the Gemini and Altman claims need outside sources in a story pass. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T19:20Z
+- Captures read: 1902Z (1806Z was the last logged read). Last read: 1902Z.
+- X's check: 1902Z 75 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not on the pulse).
+- Pulse: 41 items, 3 in, 1 out. In: Polymarket on Rep. Ro Khanna's family selling Nvidia stock (politics, not checked); FajrEMalik on the Outlook outage (tech, not checked); Google Gemini account on Gemini 4 Hydrogen (ai, not checked). Out, past 36 hours: Wario64 Zelda (gaming). Header 1902Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Variety Outlook outage posts (account already holds a place; the outage is shown through FajrEMalik); Karoline Leavitt caravan post (quoted post not captured, point unclear); Khan_Fatimaa1 claim about Trump and Muslims in office, MikeLevin spa-company claim, KobeissiLetter Lutnick claim and unusual_whales Interior records claim (unconfirmed claims about named people, or account already shown); TheDunkCentral, TouchlineX, DiscussingFilm Pixar and CultureCrave posts (account or desk already shown); FishAudio (advertisement); kimmonismus Anthropic benchmark post (unchecked claim).
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Next story pass: Ro Khanna Nvidia sale, Outlook outage, Gemini 4 Hydrogen, Lutnick report and Interior records claim need outside sources. The starting message had no instructions beyond the contract.
