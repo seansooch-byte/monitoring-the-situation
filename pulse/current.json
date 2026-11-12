@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T19:15:00Z",
-  "capture": "2026-11-12T1902Z",
+  "updated_at": "2026-11-12T20:25:00Z",
+  "capture": "2026-11-12T2004Z",
   "items": [
-    {
-      "id": "2120430280205115441",
-      "desk": "sports",
-      "line": "David Ornstein, a football reporter at The Athletic, says Manchester United are finalising a deal to appoint Mauricio Pochettino if they decide to replace Michael Carrick, and that terms are being agreed with his camp. Not checked here.",
-      "also": [
-        "2120456046426911039"
-      ]
-    },
     {
       "id": "2120492357674316188",
       "desk": "internet",
@@ -41,11 +33,6 @@
       "id": "2120563631536459876",
       "desk": "tech",
       "line": "Brave, the browser company, says Google changed its search results to route through \"GOTO\" URLs to stop scrapers, that this caused a bot problem for Brave Search, and that it fixed it. Brave's claims are not checked here."
-    },
-    {
-      "id": "2120422487733182841",
-      "desk": "world",
-      "line": "Iran's president, Masoud Pezeshkian, says the US and Israel claimed to be stopping an Iranian nuclear weapon, then used the PrSM missile in Lamerd and now threaten Iran. His account of the strike is not checked here."
     },
     {
       "id": "2120671764779008481",
@@ -232,6 +219,21 @@
       "id": "2120940601319260164",
       "desk": "ai",
       "line": "The Google Gemini account announces Gemini 4 Hydrogen, which it says brings cutting-edge intelligence to everyone, follows instructions more closely and calls the right tools. Not checked here."
+    },
+    {
+      "id": "2120895501662859445",
+      "desk": "politics",
+      "line": "Clash Report, a news aggregator account, quotes Hillary Clinton on what it calls the Jensen Huang spy scandal. Clinton predicts that Trump, on meeting Xi Jinping in a few weeks, will ask whether it is true and then accept Xi's denial. Not checked here."
+    },
+    {
+      "id": "2120924926278517131",
+      "desk": "gaming",
+      "line": "Wario64, a game deals and news account, says The Game Awards will air live on Disney+ as well as on the platforms where it already streams. Not checked here."
+    },
+    {
+      "id": "2120955224810803419",
+      "desk": "medicine",
+      "line": "Rapid Response 47, a White House account, quotes the @DrOzCMS account on what it calls \"so-called Medicare for All\": socialized medicine, the quote says, makes a two-tier system in which rich people buy the care they want. A political argument, not checked here."
     }
   ]
 }

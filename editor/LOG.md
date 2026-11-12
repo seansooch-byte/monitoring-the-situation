@@ -6092,3 +6092,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Next story pass: Ro Khanna Nvidia sale, Outlook outage, Gemini 4 Hydrogen, Lutnick report and Interior records claim need outside sources. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T20:30Z
+- Captures read: 2004Z (1902Z was the last logged read). Last read: 2004Z.
+- X's check: 2004Z 59 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier runs in the check output show mismatches (0605Z 3, 1001Z 1, 1359Z 2, 1708Z 1); none is on the pulse.
+- Pulse: 42 items, 3 in, 2 out. In: clashreport on Hillary Clinton's remarks about the Huang spy scandal (politics, not checked; the account's world item stands on that desk's page and the build holds this one off the front); Wario64 on The Game Awards coming to Disney+ (gaming, grabber said internet, not checked); RapidResponse47 on Dr Oz and Medicare for All (medicine, a political argument, not checked). Out, past 36 hours: David_Ornstein (sports), drpezeshkian (world). Header 2004Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: GuntherEagleman race post (insulting framing); PopBase, MarioNawfal and WatcherGuru Huang affair posts (allegations about named people, unconfirmed); FinanceLancelot Nvidia successors post (speculation); ShamsCharania and Schefter posts (sports already full, or account already shown); SouthPark, Variety Star Wars and DiscussingFilm posts (desk or subject already shown); Dexerto fake PSA slabs (unchecked claim); itskikidanger DC shooting post (names a private person); FearedBuck Yella Beezy post (court claim about a named person, unconfirmed).
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The Nvidia newsroom pulse line cites an SEC filing dated 11 November while the posts are from 12 November; recheck in the next story pass. The starting message had no instructions beyond the contract.
