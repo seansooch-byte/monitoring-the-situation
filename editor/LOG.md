@@ -6062,3 +6062,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id (Polymarket Nvidia post) added to the watch list; plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings. Next story pass: Trump's remark on an Iran deal, the Washington DC shooting and the Melbourne arrest claim need outside sources. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T17:20Z
+- Captures read: 1708Z (1608Z was the last logged read). Last read: 1708Z.
+- X's check: 1708Z 105 confirmed, 0 missing, 1 mismatched (WENDY_offcl 2120894398607278120, text differs from X's; not on the pulse), 4 withheld by X (not on the pulse).
+- Pulse: 34 items, 3 in, 1 out. In: TMZ on the Yella Beezy conviction (justice, not checked); The Dunk Central on Steph Curry's remarks about his wife (sports, not checked); ChampRDS on the Nurmagomedov and Dvalishvili brawl, with its Topuria footage post in `also` (sports, not checked). Out, nearly past 36 hours: Tempo (world). Header 1708Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 9NewsMelb missing-teenager post (a minor, named); Tay_Travis11 Epstein claim about a named person (unconfirmed); EYakoby snakes post (insulting) and MBS oil claim (unchecked); urs_ellaa and ManishLife_Ty clips (private people); Palantir Karp post (politics already has three); tobyfox reply (point unclear); OmarAbcXyz Blue phone (advertisement); Elon Musk, FabrizioRomano and Nvidia copies (account holds a place or copy of a shown post); gameunlocked26 (fan post); Ariana Grande premiere video (skipped).
+- Requests: none. Four ids added to the watch list; plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

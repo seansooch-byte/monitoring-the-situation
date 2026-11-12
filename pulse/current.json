@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T16:20:15Z",
-  "capture": "2026-11-12T1608Z",
+  "updated_at": "2026-11-12T17:13:55Z",
+  "capture": "2026-11-12T1708Z",
   "items": [
     {
       "id": "2120430280205115441",
@@ -70,12 +70,6 @@
       "id": "2120591757981135223",
       "desk": "internet",
       "line": "IShowSpeed's account posts a video it says shows Serena Williams giving him a 6-0 head start and then winning eight straight points. Not checked here."
-    },
-    {
-      "id": "2120389203997663424",
-      "desk": "world",
-      "line": "Tempo, an Indonesian news outlet, says in Indonesian that police and soldiers visited several churches after clergy raised three fingers as a symbol of resistance to the government. Not checked here.",
-      "also": []
     },
     {
       "id": "2120612975018955227",
@@ -181,6 +175,24 @@
       "line": "Adam Schefter says the Broncos announced late Wednesday night that their trade to acquire Henley from the Los Angeles Chargers “will not be finalized”. Not checked here.",
       "also": [
         "2120798919059755181"
+      ]
+    },
+    {
+      "id": "2120637790329163833",
+      "desk": "justice",
+      "line": "TMZ reports that the rapper Yella Beezy was convicted of hiring a hitman to kill the rapper Mo3 and sentenced to life. Not checked here."
+    },
+    {
+      "id": "2120609856671416610",
+      "desk": "sports",
+      "line": "The Dunk Central account posts a video of Steph Curry saying that people talking about his wife, Ayesha Curry, should keep her name out of their mouths. It names Nick Young and Gilbert Arenas as two of them. What they said is not checked here."
+    },
+    {
+      "id": "2120576747062112408",
+      "desk": "sports",
+      "line": "ChampRDS, a combat sports account, posts video it says shows a brawl between the UFC fighters Usman Nurmagomedov and Merab Dvalishvili, credited to RedCorner_MMA. Its earlier post of footage from Ilia Topuria is attached. Not checked here.",
+      "also": [
+        "2120563801552761217"
       ]
     }
   ]
