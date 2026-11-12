@@ -5972,3 +5972,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list; plan.json rebuilt for 04Z.
 - Shipped: yes, commit 5bc9c4c6, live audit clean (172 files match).
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Next story pass: Reuters now reports Nvidia's board is meeting on whether to oust Huang; update the Nvidia story from primary sources. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T05:30Z
+- Captures read: 0403Z, 0508Z (the 0403Z pass changed the pulse but wrote no log entry). Last read: 0508Z.
+- X's check: 0403Z 65 confirmed, 0 missing, 0 mismatched, 2 withheld; 0508Z 44 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none on the pulse). Earlier mismatches unchanged, none on the pulse.
+- Pulse: 40 items, 2 in, 3 out. In: Wario64 on Zelda Ocarina of Time sales (gaming), Polymarket on the Maya settlement find (science). Out: learnpaladin (ideas), Unusual Whales (politics), Marvel Studios (entertainment), all past 36 hours. Header 0508Z. Ideas has nothing new to show. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Merab Dvalishvili's account of the UFC brawl (mentions an unnamed young friend; sports full); ChampRDS brawl posts (aggregator); BillMelugin cockpit arrest post (names a private person accused of a crime); Steph Curry, Diddy, Alaina Kunes, Megyn Doyle posts (private people or allegations); Yella Beezy and Rex Ryan posts (justice claims, not confirmed outside X); Musk Grok Bot, Starlink, Megapack, Tesla Finland posts (account holds a place, promotional); Hyde-Smith clip (Yashar Ali already holds a place); Netflix posts (promotion); EYakoby posts (unverified, inflammatory).
+- Requests: none. Two ids added to the watch list; plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
