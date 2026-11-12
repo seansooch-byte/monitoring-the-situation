@@ -1,25 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T07:20:00Z",
-  "capture": "2026-11-12T0707Z",
+  "updated_at": "2026-11-12T08:35:00Z",
+  "capture": "2026-11-12T0802Z",
   "items": [
-    {
-      "id": "2120240278523318567",
-      "desk": "sports",
-      "line": "The NFL account says the Raiders are trading quarterback Kirk Cousins to the Vikings for a 2027 third-round pick. It credits Adam Schefter, Ian Rapoport and Mike Garafolo. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2120237299900240146",
-      "desk": "politics",
-      "line": "Fox News reports that Rep. Jim Jordan won the vote to become House Republican minority leader, and says Speaker Mike Johnson plans to step aside from leadership. The post carries a 26-second video.",
-      "also": []
-    },
-    {
-      "id": "2120237897240432705",
-      "desk": "business",
-      "line": "The New York Times posts as breaking news that Nvidia has hired the law firm Wachtell Lipton to help lead an investigation into its CEO and co-founder, Jensen Huang. The post gives no reason. Not checked here."
-    },
     {
       "id": "2120275724657393985",
       "desk": "world",
@@ -44,11 +27,6 @@
       "line": "ESPN NBA posts video of Jaylen Brown and Jayson Tatum before tipoff, credited to NBC."
     },
     {
-      "id": "2120247972084506878",
-      "desk": "tech",
-      "line": "Watcher.Guru reports that the CEO of the crypto wallet company Ledger says \"everybody will be hacked at some point.\" The post carries a short video. Not checked here."
-    },
-    {
       "id": "2120356628822155594",
       "desk": "entertainment",
       "line": "Pop Base says Wanda Maximoff, the Scarlet Witch, has been resurrected in the Marvel Cinematic Universe and returns in ‘Avengers: Doomsday’, in theatres December 18. Not checked here."
@@ -57,12 +35,6 @@
       "id": "2120345194696491375",
       "desk": "justice",
       "line": "Mario Nawfal reports, citing the Los Angeles Fire Department, CBS LA and NBC4, that at least three people died when an SUV hit a food stand at a North Hollywood bus stop and three more are in critical condition. The post says the cause is not known. Not checked here."
-    },
-    {
-      "id": "2120250830846665066",
-      "desk": "world",
-      "line": "PolitlcsUK says expanded UK Government proposals could ban under-16s from Spotify, Lego Play and YouTube Kids, widening the scope of the planned social media ban. Not checked here.",
-      "also": []
     },
     {
       "id": "2120325222310223899",
@@ -82,11 +54,6 @@
       "also": [
         "2120456046426911039"
       ]
-    },
-    {
-      "id": "2120237304552055274",
-      "desk": "offbeat",
-      "line": "A video post says that removing an ingrown feather feels good for the pigeon. The 39-second clip is captioned only with that line. Its source has not been checked."
     },
     {
       "id": "2120492357674316188",
@@ -185,6 +152,11 @@
       "desk": "music",
       "line": "The account meyechelgossips says the Coachella 2027 line-up is bad. Its image sorts the artists by colour: red for unknown, yellow for artists to watch, green for known. The photo has no description.",
       "also": []
+    },
+    {
+      "id": "2120761428831293871",
+      "desk": "world",
+      "line": "Clash Report, a news aggregator account, posts a video and says US envoy Steve Witkoff and Jared Kushner have arrived in Moscow for peace talks. Not checked here."
     }
   ]
 }
