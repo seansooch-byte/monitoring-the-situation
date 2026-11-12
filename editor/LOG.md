@@ -5962,3 +5962,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Five ids added to the watch list; plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T03:50Z
+- Captures read: 0304Z (0204Z was the last logged read). Last read: 0304Z.
+- X's check: 0304Z 65 confirmed, 0 missing, 0 mismatched, 1 withheld by X (none on the pulse). Earlier mismatches (official_jo1 x2, LNGSHOT4sho, NHL, F1) unchanged, none on the pulse.
+- Pulse: 43 items, 2 in, 2 out. In: Musk reply to zerohedge on hiring Jensen Huang, with the zerohedge post and Reuters on the Nvidia board meeting in `also` (business); IShowSpeed video with Serena Williams (internet). Out: Panay (tech) and Jeffries (politics), both past 36 hours. Header 0304Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: WSJ, Polymarket, tradewithcong, jimmieX07, Kobeissi and Unusual Whales Nvidia posts on the reported affairs or a named woman (allegations about real people not confirmed outside X; the Musk line leans only on Reuters' board-meeting report and adds nothing on the affairs); Thiel post (claim about a real person, unchecked); professornez "Trump just posted this" (photo not described, point unclear); NatureNexus video (no text or description); Neutral_OC clip (racial generalisation); Tomb Guard clips (nypost, Mario; claims unchecked, politics full); Musk Starlink, Grok Bot and Megapack posts (account holds a place, promotional).
+- Requests: none. Four ids added to the watch list; plan.json rebuilt for 04Z.
+- Shipped: yes, commit 5bc9c4c6, live audit clean (172 files match).
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Next story pass: Reuters now reports Nvidia's board is meeting on whether to oust Huang; update the Nvidia story from primary sources. The starting message had no instructions beyond the contract.
