@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T14:09:03Z",
-  "capture": "2026-11-12T1359Z",
+  "updated_at": "2026-11-12T15:11:56Z",
+  "capture": "2026-11-12T1502Z",
   "items": [
     {
       "id": "2120356628822155594",
       "desk": "entertainment",
       "line": "Pop Base says Wanda Maximoff, the Scarlet Witch, has been resurrected in the Marvel Cinematic Universe and returns in ‘Avengers: Doomsday’, in theatres December 18. Not checked here."
-    },
-    {
-      "id": "2120345194696491375",
-      "desk": "justice",
-      "line": "Mario Nawfal reports, citing the Los Angeles Fire Department, CBS LA and NBC4, that at least three people died when an SUV hit a food stand at a North Hollywood bus stop and three more are in critical condition. The post says the cause is not known. Not checked here."
     },
     {
       "id": "2120430280205115441",
@@ -30,16 +25,6 @@
       "id": "2120582957782200586",
       "desk": "ai",
       "line": "The account Grok Bot announces Grok Bot 1.0, which it describes as AI teammates that work with a whole team in Slack, Teams and meetings. Grok, the model that gathers this page's posts, is made by xAI. I could not confirm here who runs this account."
-    },
-    {
-      "id": "2120344700032844000",
-      "desk": "sports",
-      "line": "GinoHard_, a hockey clips account, posts a clip and says Jakob Chychrun hit Nick Cousins hard and that Cousins was out cold. Not checked here."
-    },
-    {
-      "id": "2120339380774883672",
-      "desk": "entertainment",
-      "line": "scarletwnews, a fan news account, says Elizabeth Olsen returned as Wanda Maximoff in the post-credit scene of the VisionQuest finale. It is a spoiler for a Marvel series. Not checked here."
     },
     {
       "id": "2120640219871384044",
@@ -185,6 +170,29 @@
       "id": "2120856756393857450",
       "desk": "sports",
       "line": "Crystal Palace says in a club statement that Pierre Sage has left his role as manager, and thanks him and his staff. Not checked here."
+    },
+    {
+      "id": "2120804738031616095",
+      "desk": "world",
+      "line": "Ukraine’s president Zelenskyy says Ukrainian units have recorded systematic speed limits of 161 km/h on Starshield over Ukraine for several days, which he says hampers intercepting Russian jet-powered drones. He says Ukraine is raising it with the American side. Not checked here."
+    },
+    {
+      "id": "2120808224324510133",
+      "desk": "science",
+      "line": "SpaceX announces that a Falcon 9 launched USSF-627 to orbit from pad 4E in California."
+    },
+    {
+      "id": "2120805309757399534",
+      "desk": "music",
+      "line": "Billboard reports that Megan of KATSEYE did the “PINKY UP” dance break in Dallas, after staying seated at a previous stop to recover from a concussion. Not checked here."
+    },
+    {
+      "id": "2120797270341730587",
+      "desk": "sports",
+      "line": "Adam Schefter says the Broncos announced late Wednesday night that their trade to acquire Henley from the Los Angeles Chargers “will not be finalized”. Not checked here.",
+      "also": [
+        "2120798919059755181"
+      ]
     }
   ]
 }
