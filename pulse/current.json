@@ -1,18 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T03:50:00Z",
-  "capture": "2026-11-12T0304Z",
+  "updated_at": "2026-11-12T04:20:00Z",
+  "capture": "2026-11-12T0403Z",
   "items": [
-    {
-      "id": "2120193867374907421",
-      "desk": "politics",
-      "line": "JD Vance says the idea that Pete Hegseth committed impeachable crimes is absurd and the answer is no. He says Congress uses impeachment as a show instead of legislating, and that the push is about Hegseth taking on the Pentagon bureaucracy. Not checked here."
-    },
-    {
-      "id": "2120185896469496180",
-      "desk": "ai",
-      "line": "Google CEO Sundar Pichai announces Gemini 4 Carbon, which he says is built for long tasks in software engineering, cybersecurity and science. He says it is rolling out today through the Gemini API, Gemini for business, and, for Ultra subscribers, the Gemini app and AI Mode in Search. Not checked here."
-    },
     {
       "id": "2120209926370783463",
       "desk": "markets",
@@ -35,11 +25,6 @@
       "desk": "science",
       "line": "SpaceX says Super Heavy Booster 22 has moved to the launch pad at Starbase and went through catch-height testing on arrival. It says this is the first V3 booster planned to return to the launch site for a catch. Four photos.",
       "also": []
-    },
-    {
-      "id": "2120182485015474372",
-      "desk": "world",
-      "line": "Nayib Bukele, the president of El Salvador, posts in Haitian Creole. He says \"we\" kept a promise and destroyed the home of Lanmò San Jou and the headquarters of the 400 Mawozo gang, and that most of them ran away without trying to fight. Not checked here."
     },
     {
       "id": "2120233139997933977",
@@ -99,11 +84,6 @@
       "id": "2120325515148145040",
       "desk": "sports",
       "line": "ESPN NBA posts video of Jaylen Brown and Jayson Tatum before tipoff, credited to NBC."
-    },
-    {
-      "id": "2120186185423159331",
-      "desk": "ai",
-      "line": "Google announces Gemini 4 Carbon, which it calls its strongest model, built for long-horizon tasks and multi-step reasoning. It says Carbon is for the hardest problems and Argon for complex ones. Not checked here."
     },
     {
       "id": "2120247972084506878",
@@ -234,6 +214,18 @@
       "id": "2120591757981135223",
       "desk": "internet",
       "line": "IShowSpeed's account posts a video it says shows Serena Williams giving him a 6-0 head start and then winning eight straight points. Not checked here."
+    },
+    {
+      "id": "2120389203997663424",
+      "desk": "world",
+      "line": "Tempo, an Indonesian news outlet, says in Indonesian that police and soldiers visited several churches after clergy raised three fingers as a symbol of resistance to the government. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120612975018955227",
+      "desk": "world",
+      "line": "The Hormuz Letter, an account that follows the Iran war, says the Wall Street Journal reports that Trump told Vance to restart talks with Iran. The post adds that Iran has ruled out talks unless its seven conditions are met. Not checked here.",
+      "also": []
     }
   ]
 }
