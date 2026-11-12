@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T12:17:59Z",
-  "capture": "2026-11-12T1208Z",
+  "updated_at": "2026-11-12T13:06:55Z",
+  "capture": "2026-11-12T1259Z",
   "items": [
     {
       "id": "2120325515148145040",
@@ -120,11 +120,6 @@
       "line": "Wario64, a game deals and news account, posts a headline saying The Legend of Zelda: Ocarina of Time for Nintendo Switch 2 has sold over 5.2 million units worldwide in its first four days. The post links its source. Not checked here."
     },
     {
-      "id": "2120310443285565563",
-      "desk": "science",
-      "line": "Polymarket, a prediction market account, posts as breaking that a \"vibecoder\" with no archaeology experience found a previously unmapped ancient Maya settlement under the Mexican jungle, using 48 AI agents and NASA lidar data. Not checked here."
-    },
-    {
       "id": "2120575009777430974",
       "desk": "music",
       "line": "The account meyechelgossips says the Coachella 2027 line-up is bad. Its image sorts the artists by colour: red for unknown, yellow for artists to watch, green for known. The photo has no description.",
@@ -166,6 +161,26 @@
       "id": "2120662844287131896",
       "desk": "politics",
       "line": "Sky News says a video has emerged showing Pete Hegseth taking photos with his wife and others in front of the tomb of an unknown soldier, and that a soldier reprimanded the group when one member was heard laughing. Not checked here."
+    },
+    {
+      "id": "2120834237213593805",
+      "desk": "entertainment",
+      "line": "Footballer Cristiano Ronaldo announces that production has started on his first TV show, called Day 1s. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120834299868098637",
+      "desk": "sports",
+      "line": "Formula 1 announces that Racing Bulls keep Arvid Lindblad and Liam Lawson for 2027, and later posts that the team's 2027 line-up is confirmed. Not checked here.",
+      "also": [
+        "2120852861600809284"
+      ]
+    },
+    {
+      "id": "2120776451607715862",
+      "desk": "world",
+      "line": "The New York Times reports that Indonesia's vice president is stepping down. Not checked here.",
+      "also": []
     }
   ]
 }

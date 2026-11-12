@@ -6032,3 +6032,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list already covers the pulse and live stories.
 - Shipped: yes, commit 6c405d28, live audit clean (172 files match).
 - For the main editor: same two withheld-post warnings. Next story pass: the Carrick sacking, the Nvidia and Huang reports (WSJ, NYT, Taiwan supply chain) and the Grok Bot launch (involves xAI) need outside sources. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T13:20Z
+- Captures read: 1208Z, 1259Z (1103Z was the last logged read). Last read: 1259Z.
+- X's check: 1259Z 71 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not on the pulse). 1208Z 40 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 32 items, 3 in, 1 out. In: Cristiano on his first TV show (entertainment); F1 on the Racing Bulls 2027 line-up, with the later confirmation post in `also` (sports); nytimes on the Indonesian vice president stepping down (world). All lines say not checked. Out, past 36 hours: Polymarket (science). Header 1259Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: CollinRugg Ole Miss post (students named in a racial incident allegation); brittanyrennerr and Ohlala posts (private people); alangajoa (a minor's family); gameunlocked26 and MCUPerfectGifs (fan posts); FabrizioRomano Palace post and HormuzLetter second post (account holds a place); EricLDaugh (claim not confirmed).
+- Requests: none. Four ids added to the watch list; plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
