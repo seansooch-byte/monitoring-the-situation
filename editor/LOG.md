@@ -5982,3 +5982,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list; plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T06:40Z
+- Captures read: 0605Z (0508Z was the last logged read). Last read: 0605Z.
+- X's check: 0605Z 46 confirmed, 0 missing, 3 mismatched (GMMTV 2120452341711372293, XGOfficial_ 2120683573250584969, umamusume_eng 2120743641266168114; none on the pulse), 5 withheld by X (none on the pulse). Earlier mismatches unchanged, none on the pulse.
+- Pulse: 35 items, 1 in, 6 out. In: ns123abc on the Anthropic CEO's prediction clip (ai; the build holds it off the front page because ns123abc has another item, so it stands on the ai desk). Out, all past 36 hours: Reuters CPI (markets), ns123abc SpaceX spectrum post (science), Reuters world, yashar (politics), Claude Whiteboards (ai), OpenAI (ai). Header 0605Z. Markets has nothing new to show.
+- Added: none. Updated: none (pulse pass).
+- Left out: Schefter Cousins trade (claim unchecked, sports full); Merab/UFC brawl posts (aggregators, a private friend); Steph Curry, Diddy, Megyn Doyle posts (private people or allegations); Yella Beezy (justice claim, not confirmed outside X); Polymarket, cryptorover, jukan05 Nvidia posts (allegations or unchecked); lawrencekitema screenshot tip (internet full); Musk Grok Bot, Starlink, Megapack posts (account holds a place, promotional); EYakoby posts (unverified, inflammatory).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

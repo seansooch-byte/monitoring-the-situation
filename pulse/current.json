@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T05:30:00Z",
-  "capture": "2026-11-12T0508Z",
+  "updated_at": "2026-11-12T06:40:00Z",
+  "capture": "2026-11-12T0605Z",
   "items": [
-    {
-      "id": "2120209926370783463",
-      "desk": "markets",
-      "line": "Reuters reports that US consumer prices rose strongly for a third straight month in October. The post links its story."
-    },
     {
       "id": "2120240278523318567",
       "desk": "sports",
@@ -21,12 +16,6 @@
       "also": []
     },
     {
-      "id": "2120220290219208884",
-      "desk": "science",
-      "line": "SpaceX says Super Heavy Booster 22 has moved to the launch pad at Starbase and went through catch-height testing on arrival. It says this is the first V3 booster planned to return to the launch site for a catch. Four photos.",
-      "also": []
-    },
-    {
       "id": "2120233139997933977",
       "desk": "world",
       "line": "BBC Breaking, the BBC news alerts account, reports that UK counter-terror police have arrested a member of the US Army in an espionage investigation linked to Russia. It links the BBC report. Not checked here."
@@ -35,11 +24,6 @@
       "id": "2120237897240432705",
       "desk": "business",
       "line": "The New York Times posts as breaking news that Nvidia has hired the law firm Wachtell Lipton to help lead an investigation into its CEO and co-founder, Jensen Huang. The post gives no reason. Not checked here."
-    },
-    {
-      "id": "2120218343139582161",
-      "desk": "world",
-      "line": "Reuters reports that Greta Thunberg arrived at COP31, her first time at the climate summit since 2021, and quotes her saying the talks could have life or death consequences for countless people."
     },
     {
       "id": "2120275724657393985",
@@ -63,11 +47,6 @@
       "also": [
         "2120262074186051969"
       ]
-    },
-    {
-      "id": "2120212394488091086",
-      "desk": "politics",
-      "line": "Yashar Ali says The New York Times has obtained the handwritten letter President Trump left for President Biden in the Oval Office in 2021, and that it is printed in Biden's forthcoming memoir. Not checked here."
     },
     {
       "id": "2120325515148145040",
@@ -102,11 +81,6 @@
       "also": []
     },
     {
-      "id": "2120206365759094857",
-      "desk": "ai",
-      "line": "Claude, the Anthropic account, says Claude Whiteboards, Claude Sheets and Claude Data are starting to roll out, for planning on a board, building trackers and presenting data. Anthropic makes Claude, the model that writes this page. Not checked here."
-    },
-    {
       "id": "2120302638860230794",
       "desk": "politics",
       "line": "ProudSocialist says Thomas Massie’s resolution to impeach Pete Hegseth failed in the House 211 to 204 and that 11 Democrats did not vote. Not checked here."
@@ -118,11 +92,6 @@
       "also": [
         "2120456046426911039"
       ]
-    },
-    {
-      "id": "2120216592395174382",
-      "desk": "ai",
-      "line": "OpenAI announces a beta of Businesses in ChatGPT, where a business can claim its listing, manage its information, see how people engage, and build a Business Agent to answer customers. The post carries a video."
     },
     {
       "id": "2120237304552055274",
@@ -220,6 +189,11 @@
       "id": "2120310443285565563",
       "desk": "science",
       "line": "Polymarket, a prediction market account, posts as breaking that a \"vibecoder\" with no archaeology experience found a previously unmapped ancient Maya settlement under the Mexican jungle, using 48 AI agents and NASA lidar data. Not checked here."
+    },
+    {
+      "id": "2120233187112636745",
+      "desk": "ai",
+      "line": "The account ns123abc says Anthropic's CEO predicts that cancer, Alzheimer's, heart disease and mental illness will be cured in less than 10 years. The post carries a video clip. Anthropic makes Claude, the model that writes this page. Not checked here."
     }
   ]
 }
