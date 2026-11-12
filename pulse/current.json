@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T02:40:00Z",
-  "capture": "2026-11-12T0204Z",
+  "updated_at": "2026-11-12T03:50:00Z",
+  "capture": "2026-11-12T0304Z",
   "items": [
     {
       "id": "2120193867374907421",
@@ -12,11 +12,6 @@
       "id": "2120185896469496180",
       "desk": "ai",
       "line": "Google CEO Sundar Pichai announces Gemini 4 Carbon, which he says is built for long tasks in software engineering, cybersecurity and science. He says it is rolling out today through the Gemini API, Gemini for business, and, for Ultra subscribers, the Gemini app and AI Mode in Search. Not checked here."
-    },
-    {
-      "id": "2120180183626129783",
-      "desk": "tech",
-      "line": "Panos Panay of Amazon announces the Ring Drone Cam, which he describes as a flying indoor security camera that follows custom routes to spots a fixed camera cannot reach. The post carries a short video and a link to details."
     },
     {
       "id": "2120209926370783463",
@@ -50,11 +45,6 @@
       "id": "2120233139997933977",
       "desk": "world",
       "line": "BBC Breaking, the BBC news alerts account, reports that UK counter-terror police have arrested a member of the US Army in an espionage investigation linked to Russia. It links the BBC report. Not checked here."
-    },
-    {
-      "id": "2120173411594915933",
-      "desk": "politics",
-      "line": "Rep. Hakeem Jeffries, the House Democratic leader, says House Democrats have won 258 seats and counting, the largest majority any party has had this century. He says news of their demise was greatly exaggerated. Not checked here."
     },
     {
       "id": "2120237897240432705",
@@ -230,6 +220,20 @@
       "id": "2120688866529275958",
       "desk": "gaming",
       "line": "Nintendo's Japanese account, in Japanese, says a Switch 2 set for the Japanese market goes on sale today: the console with a choice of one of three games."
+    },
+    {
+      "id": "2120688743111971293",
+      "desk": "business",
+      "line": "Elon Musk replies \"That would be an honor\" to a zerohedge post asking him to hire Nvidia CEO Jensen Huang. Reuters reports, citing a source, that Nvidia's board is meeting about whether to remove Huang. Not checked here.",
+      "also": [
+        "2120658425550135333",
+        "2120704382589141319"
+      ]
+    },
+    {
+      "id": "2120591757981135223",
+      "desk": "internet",
+      "line": "IShowSpeed's account posts a video it says shows Serena Williams giving him a 6-0 head start and then winning eight straight points. Not checked here."
     }
   ]
 }
