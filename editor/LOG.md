@@ -5942,3 +5942,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T01:35Z
+- Captures read: 0103Z (0005Z was the last logged read). Last read: 0103Z.
+- X's check: 0103Z 130 confirmed, 0 missing, 0 mismatched, 2 withheld by X (none on the pulse). Earlier mismatches (official_jo1 x2, LNGSHOT4sho, NHL, F1) unchanged, none on the pulse.
+- Pulse: 40 items, 0 in, 0 out. Nothing new in the capture beat the posts already listed, and nothing is past 36 hours (the oldest, Rockstar, is at about 35.5). Header 0103Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Grok Bot, Starlink and Megapack posts (account holds a place, promotional); Netflix Tupac interview post (promotion); lawrencekitema tip post (same genre as a listed item); ChampRDS Dvalishvili posts (aggregator, possible minor); Steph Curry post (family gossip about a private person); Alaina Kunes, Megyn Doyle, Diddy posts (private people, sexual content or unconfirmed allegations); Rupar Arlington guard clip and Watters Epstein post (claims unchecked, politics full); Pochettino post (sports full).
+- Requests: none. Watch list unchanged; plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
