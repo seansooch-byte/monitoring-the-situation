@@ -6012,3 +6012,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T10:40Z
+- Captures read: 0901Z, 1001Z (0802Z was the last logged read). Last read: 1001Z.
+- X's check: 1001Z 52 confirmed, 0 missing, 1 mismatched (ATINGlobalSoc 2117571790000275514, not on the pulse), 1 withheld by X (not on the pulse). 0901Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 30 items, 3 in, 2 out. In: FabrizioRomano on Manchester United sacking Carrick (sports, line says not checked); HelleLyngSvends on a cancelled India visa (world, not checked); SindicatLloguer on the Barcelona housing march (world, Catalan, the figure is the union's own). Out, both past 36 hours: Breaking911 (world), Ron Johnson (politics). Header 1001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: urs_ellaa video (no media description, point unclear); tobyfox vote post (point unclear); droehny EU migration post (point unclear, not English); lawrencekitema and ChampRDS posts (copy of a shown post, brawl aggregator); Musk Cybertruck and Megapack posts (account holds a place); eurofounder Huang office photo (allegation context); kick GTA VI giveaway (advertisement).
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

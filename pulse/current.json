@@ -1,21 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T09:40:00Z",
-  "capture": "2026-11-12T0901Z",
+  "updated_at": "2026-11-12T10:40:00Z",
+  "capture": "2026-11-12T1001Z",
   "items": [
-    {
-      "id": "2120275724657393985",
-      "desk": "world",
-      "line": "Breaking911, a news aggregator account, says Joe Biden was hit with milk cartons in Dublin, Ireland, and was rushed into an SUV while police struggled with protesters. The post carries a video with no description. Not checked here."
-    },
-    {
-      "id": "2120269152279728478",
-      "desk": "politics",
-      "line": "Sen. Ron Johnson of Wisconsin says he did not take part in the Senate Republican leadership election because a defeat of this magnitude demands serious reflection and change, and that a rushed election ignores the message voters sent.",
-      "also": [
-        "2120262074186051969"
-      ]
-    },
     {
       "id": "2120325515148145040",
       "desk": "sports",
@@ -164,6 +151,21 @@
       "desk": "offbeat",
       "line": "The account jellyboytoy says pigeons were once a highly domesticated bird and that it is the worst timeline that they no longer are. The post quotes another post.",
       "also": []
+    },
+    {
+      "id": "2120812158363775311",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Manchester United have sacked Michael Carrick with immediate effect. Not checked here."
+    },
+    {
+      "id": "2120574710245146814",
+      "desk": "world",
+      "line": "Helle Lyng says in a video that she had a visa to India and was due to speak on press freedom at the Bharat Summit in Hyderabad, and that \"orders from above\" in the Ministry of Home Affairs cancelled it. The video is addressed to Amit Shah. Not checked here."
+    },
+    {
+      "id": "2120577453823533134",
+      "desk": "world",
+      "line": "Sindicat de Llogateres i Llogaters, a Catalan tenants' union, posts a video in Catalan and says 400,000 people are on the streets of Barcelona on Wednesday with the cry \"we want to live, not just survive\". The figure is the union's own. Not checked here."
     }
   ]
 }
