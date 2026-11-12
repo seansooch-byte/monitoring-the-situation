@@ -1,17 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T08:35:00Z",
-  "capture": "2026-11-12T0802Z",
+  "updated_at": "2026-11-12T09:40:00Z",
+  "capture": "2026-11-12T0901Z",
   "items": [
     {
       "id": "2120275724657393985",
       "desk": "world",
       "line": "Breaking911, a news aggregator account, says Joe Biden was hit with milk cartons in Dublin, Ireland, and was rushed into an SUV while police struggled with protesters. The post carries a video with no description. Not checked here."
-    },
-    {
-      "id": "2120264216896753767",
-      "desk": "science",
-      "line": "The account ns123abc says the FCC has accepted SpaceX's application to acquire nationwide 800 MHz spectrum through a deal with Grain Management covering 546 paired licenses. It says the big US carriers refused SpaceX access to their networks. Not checked here."
     },
     {
       "id": "2120269152279728478",
@@ -157,6 +152,18 @@
       "id": "2120761428831293871",
       "desk": "world",
       "line": "Clash Report, a news aggregator account, posts a video and says US envoy Steve Witkoff and Jared Kushner have arrived in Moscow for peace talks. Not checked here."
+    },
+    {
+      "id": "2120606353953587303",
+      "desk": "politics",
+      "line": "Aaron Rupar, a political commentator, posts a video and says it is CNN broadcast footage of an Arlington guard telling a group with Pete Hegseth to \"maintain silence\" and \"pay respect\" after someone in his party laughed at the Tomb of the Unknown Soldier. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120366623219483049",
+      "desk": "offbeat",
+      "line": "The account jellyboytoy says pigeons were once a highly domesticated bird and that it is the worst timeline that they no longer are. The post quotes another post.",
+      "also": []
     }
   ]
 }
