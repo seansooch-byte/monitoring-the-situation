@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T11:45:00Z",
-  "capture": "2026-11-12T1103Z",
+  "updated_at": "2026-11-12T12:17:59Z",
+  "capture": "2026-11-12T1208Z",
   "items": [
     {
       "id": "2120325515148145040",
@@ -23,11 +23,6 @@
       "desk": "music",
       "line": "TMZ reports exclusively that a Los Angeles concert by Usher and Chris Brown has been canceled amid an ongoing feud between them. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120302638860230794",
-      "desk": "politics",
-      "line": "ProudSocialist says Thomas Massie’s resolution to impeach Pete Hegseth failed in the House 211 to 204 and that 11 Democrats did not vote. Not checked here."
     },
     {
       "id": "2120430280205115441",
@@ -166,6 +161,11 @@
       "id": "2120577453823533134",
       "desk": "world",
       "line": "Sindicat de Llogateres i Llogaters, a Catalan tenants' union, posts a video in Catalan and says 400,000 people are on the streets of Barcelona on Wednesday with the cry \"we want to live, not just survive\". The figure is the union's own. Not checked here."
+    },
+    {
+      "id": "2120662844287131896",
+      "desk": "politics",
+      "line": "Sky News says a video has emerged showing Pete Hegseth taking photos with his wife and others in front of the tomb of an unknown soldier, and that a soldier reprimanded the group when one member was heard laughing. Not checked here."
     }
   ]
 }
