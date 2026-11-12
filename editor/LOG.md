@@ -6072,3 +6072,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list; plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T18:15Z
+- Captures read: 1806Z (1708Z was the last logged read). Last read: 1806Z.
+- X's check: 1806Z 39 confirmed, 0 missing, 0 mismatched, 0 withheld by X.
+- Pulse: 39 items, 5 in, 0 out. In: Sawyer Merritt on SpaceX's Arizona supercomputing campus, with his $74 billion follow-up in `also` (tech, not checked); Logan Kilpatrick on Gemini Decision 1 (ai, not checked); unusual_whales on Altman's remarks to Samsung (ai, Anthropic disclosure, not checked); DiscussingFilm Star Wars re-release poster (entertainment, not checked); PopBase on Shawn Mendes (music, not checked). Header 1806Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: atrupar Trump post on Vance and Iran (account holds a place; content unchecked); MarioNawfal DC police and Huang testimony posts (unconfirmed); RapSheet Wilson post (point unclear without context); BleacherReport Curry injury and TheDunkCentral Cousins post (subject or account already shown); Sonic short film and CultureCrave Doom posts (smaller copies); FearedBuck Sky Bri allegation (sexual, about named people); misterlana (old content).
+- Requests: none. Six ids added to the watch list; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). SpaceX's campus announcement and the Gemini and Altman claims need outside sources in a story pass. The starting message had no instructions beyond the contract.
