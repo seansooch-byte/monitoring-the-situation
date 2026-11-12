@@ -5932,3 +5932,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings as above. The starting message had no instructions beyond the contract.
+
+## 2026-11-12T00:35Z
+- Captures read: 0005Z (2307Z was the last logged read). Last read: 0005Z.
+- X's check: 0005Z 122 confirmed, 0 missing, 1 mismatched (2120516911934967969, LNGSHOT4sho, not on the pulse), 3 withheld by X (none on the pulse). Earlier mismatches 2120516286610583927 and 2120522480838443315 (official_jo1), 2120423420357980345 (NHL), 2120222459966140602 (F1) unchanged, not on the pulse.
+- Pulse: 40 items, 1 in, 0 out. In: CBS News post on the honor guard who collapsed at the Élysée Palace (2120614296451178761, world). Nothing aged past 36 hours. Header 0005Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Nvidia posts on a reported affair by the CEO (WatcherGuru, PopBase, Kobeissi, zerohedge; allegation about a real person not confirmed outside X, and WatcherGuru's "prepares to fire" WSJ claim is unchecked; for the next story pass, alongside 2026-11-08-nvidia-board-probes-huang-china-spy); PopBase Colom projection (same event as the listed Phil Lewis post); Massie Epstein petition post (politics full); Musk Starlink, Grok Bot and Megapack posts (account holds a place, promotional); lawrencekitema and jonghobeardies tip posts (same genre as a listed item); ChampRDS Dvalishvili posts (aggregator, possible minor); Steph Curry and Gilbert Arenas posts (family gossip about a private person); Yella Beezy verdict post (unconfirmed outside X); Alaina Kunes, Megyn Doyle, Diddy, streamer posts (private people, sexual content or unconfirmed allegations).
+- Requests: none. One id added to the watch list; plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-11T23:35:00Z",
-  "capture": "2026-11-11T2307Z",
+  "updated_at": "2026-11-12T00:35:00Z",
+  "capture": "2026-11-12T0005Z",
   "items": [
     {
       "id": "2120154484244381738",
@@ -210,6 +210,11 @@
       "desk": "politics",
       "line": "Phil Lewis, a journalist, posts that Scott Colom has won the Mississippi Senate race, citing a CNN projection. The post carries a photo with no description. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2120614296451178761",
+      "desk": "world",
+      "line": "CBS News reports that a member of the honor guard collapsed in Paris as Slovak President Peter Pellegrini arrived at the Élysée Palace, and that staff carried him away. It says the guard’s condition and the cause are not known. The post carries a 51-second video."
     }
   ]
 }
