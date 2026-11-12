@@ -5952,3 +5952,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged; plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-12T02:40Z
+- Captures read: 0204Z (0103Z was the last logged read). Last read: 0204Z.
+- X's check: 0204Z 86 confirmed, 0 missing, 0 mismatched, 4 withheld by X (none on the pulse). Earlier mismatches (official_jo1 x2, LNGSHOT4sho, NHL, F1) unchanged, none on the pulse.
+- Pulse: 43 items, 5 in, 2 out. In: Variety on Scarlett Johansson (entertainment), Brave on Google GOTO links (tech), Pezeshkian on the Lamerd strike (world, claim not checked here), MLB Schlittler Cy Young (sports), Nintendo Japan Switch 2 set (gaming, Japanese). Out: Rockstar and IGN GTA VI posts, past 36 hours (gaming now rests on Nintendo). Header 0204Z. The build holds the second Reuters item off the front page.
+- Added: none. Updated: none (pulse pass).
+- Left out: Polymarket post on a named Nvidia executive as a reported mistress (allegation about a real person not confirmed outside X; for the next story pass with the Nvidia story); VoteHub Colom projection (same event as the listed Phil Lewis post); Netflix Tupac post (promotion); Musk Grok Bot and Starlink posts (account holds a place, promotional); Hegseth guard clip, Scavino, DeSantis, Turley posts (politics full); EYakoby "masked Islamists" post (unverified claim, inflammatory); Variety Skydance post (account holds a place); Edmonton police clip, Houman Hemmati Tesla post (private people); Yella Beezy post (unconfirmed outside X).
+- Requests: none. Five ids added to the watch list; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

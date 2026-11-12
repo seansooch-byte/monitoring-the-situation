@@ -1,22 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T01:35:00Z",
-  "capture": "2026-11-12T0103Z",
+  "updated_at": "2026-11-12T02:40:00Z",
+  "capture": "2026-11-12T0204Z",
   "items": [
-    {
-      "id": "2120154484244381738",
-      "desk": "gaming",
-      "line": "Rockstar Games says pre-loading of Grand Theft Auto VI is now available to everyone who has pre-ordered, and points others to pre-order ahead of November 19. The post carries a 30-second video with no description."
-    },
     {
       "id": "2120193867374907421",
       "desk": "politics",
       "line": "JD Vance says the idea that Pete Hegseth committed impeachable crimes is absurd and the answer is no. He says Congress uses impeachment as a show instead of legislating, and that the push is about Hegseth taking on the Pentagon bureaucracy. Not checked here."
-    },
-    {
-      "id": "2120163794370367715",
-      "desk": "gaming",
-      "line": "IGN, a games news outlet, posts as breaking that Grand Theft Auto VI will run at 30 frames per second on all consoles, with PS5 Pro enhancements that improve ray tracing. The post gives no source in its text. Not checked here."
     },
     {
       "id": "2120185896469496180",
@@ -215,6 +205,31 @@
       "id": "2120614296451178761",
       "desk": "world",
       "line": "CBS News reports that a member of the honor guard collapsed in Paris as Slovak President Peter Pellegrini arrived at the Élysée Palace, and that staff carried him away. It says the guard’s condition and the cause are not known. The post carries a 51-second video."
+    },
+    {
+      "id": "2120642726483972483",
+      "desk": "entertainment",
+      "line": "Variety quotes Scarlett Johansson, via the Los Angeles Times, saying some studio movie offers she gets are so poor that she tells the studio it \"seems irresponsible to make this.\""
+    },
+    {
+      "id": "2120563631536459876",
+      "desk": "tech",
+      "line": "Brave, the browser company, says Google changed its search results to route through \"GOTO\" URLs to stop scrapers, that this caused a bot problem for Brave Search, and that it fixed it. Brave's claims are not checked here."
+    },
+    {
+      "id": "2120422487733182841",
+      "desk": "world",
+      "line": "Iran's president, Masoud Pezeshkian, says the US and Israel claimed to be stopping an Iranian nuclear weapon, then used the PrSM missile in Lamerd and now threaten Iran. His account of the strike is not checked here."
+    },
+    {
+      "id": "2120671764779008481",
+      "desk": "sports",
+      "line": "MLB announces that Cam Schlittler is the 2026 American League Cy Young Award winner."
+    },
+    {
+      "id": "2120688866529275958",
+      "desk": "gaming",
+      "line": "Nintendo's Japanese account, in Japanese, says a Switch 2 set for the Japanese market goes on sale today: the console with a choice of one of three games."
     }
   ]
 }
