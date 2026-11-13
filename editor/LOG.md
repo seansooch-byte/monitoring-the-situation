@@ -6222,3 +6222,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list; plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (Microsoft says no sign of cyberattack), Nvidia CEO succession, reported Iran claim about a Bahrain radar. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T09:25Z
+- Captures read: 0906Z (0808Z was the last logged read). Last read: 0906Z.
+- X's check: 0906Z 37 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged.
+- Pulse: 44 items listed (2 in, 0 out). In: nypost on Greta Thunberg and Fridays for Future (world), HYPEX on a Fortnite emote (gaming). None is older than 36 hours; TMZ, Phil Lewis and Variety reach 36 hours before the next pass. Header 0906Z. Nothing new in 0906Z was both large and safe to show.
+- Added: none. Updated: none (pulse pass).
+- Left out: 9NewsMelb missing-teenager rescue (a minor); GoneCrazyFights, fistfightreels, iluvmssy and Italotuita clips (private people); Tay_Travis11 Epstein post (unconfirmed claim about a named person); the Nvidia affair posts (claims about a named person); ClownWorld Ole Miss post (private students); reggiebblue El-Sayed clip (partisan framing, politics already holds six places); tobyfox and huntricx (point not clear from the post); posts flagged old_content.
+- Requests: none. Two ids added to the watch list; plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (Sky News says the fix is not going as expected), Nvidia CEO succession. The starting message had no instructions beyond the contract.
