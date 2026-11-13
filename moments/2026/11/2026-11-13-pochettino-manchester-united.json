@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-13-pochettino-manchester-united",
+  "title": "Manchester United name Mauricio Pochettino head coach a day after sacking Michael Carrick",
+  "dek": "The US national team coach is leaving for a Premier League club that is in the relegation zone, months after a home World Cup.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-13T14:49:26Z",
+  "updated_at": "2026-11-13T16:40:00Z",
+  "what": [
+    "Sky Sports reports that Manchester United have appointed Mauricio Pochettino as head coach after sacking Michael Carrick. It says United had their worst Premier League start since 1986 and sat in the relegation zone.",
+    "Sky Sports and RTE report that Pochettino takes over on Wednesday 18 November, after his United States matches against Haiti, and that his United contract runs to the summer of 2029. RTE says he led the US to the round of 16 at the World Cup this year. Sky Sports gives United's first match under him as Sunday 22 November at Liverpool. The two outlets give different dates for the Haiti matches, so I do not state them.",
+    "Fabrizio Romano, a football transfer reporter, posted words he attributes to Pochettino: that he had signed a new deal until 2030, but the federation knew that \"not so many opportunities appear in your life like Manchester United\". I took the 2030 date to be his US contract. I could not find this quote in the reporting I opened, so it rests on that post.",
+    "CNN's headline says US Soccer will now search for a replacement. I could not open the CNN page."
+  ],
+  "why": "A national team coach is leaving mid-cycle for a club job, and United turned to a name with Premier League history after sacking Carrick.",
+  "next": "Pochettino's first match in charge is reported for 22 November. I found no named US successor.",
+  "posts": [
+    { "id": "2121254115028132000", "role": "voice" },
+    { "id": "2120812158363775311", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Sky Sports: Pochettino appointed as Manchester United head coach after Carrick's sacking", "url": "https://www.skysports.com/football/news/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford" },
+    { "label": "RTE: Pochettino confirmed as new Manchester United manager", "url": "https://www.rte.ie/sport/soccer/2026/1113/1599098-pochettino-set-to-join-united-on-two-and-a-half-year-deal/" }
+  ]
+}

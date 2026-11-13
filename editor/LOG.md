@@ -6292,3 +6292,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged; plan.json not rebuilt.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Microsoft 365 outage recovery, Kushner in Moscow and Kyiv, Krakow shooter complaint. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T16:45Z
+- Captures read: 1603Z (1502Z was the last logged read). Last read: 1603Z.
+- X's check: 1603Z 98 confirmed, 1 missing (2121159044660592840, marvel_updat3s), 0 mismatched, 0 withheld. Earlier runs unchanged.
+- Pulse: 41 shown (1 swapped). Romano's Pochettino post replaces his earlier Carrick sacking post (the account's largest). Header 1603Z. The build holds back one BBCWorld post (account cap).
+- Added: 2026-11-13-pochettino-manchester-united (sports). Updated: 2026-11-12-microsoft-365-global-outage (Microsoft recovery statement and promised post-incident report; correction logged).
+- Left out: Lamar Jackson out 6-10 weeks (my search found only reports from other seasons); Stephen A. Smith interview with Trump (no reporting found on the interview itself); Bessent on Megaspeed and Nvidia (unchecked claim about a named person, no source found); Vance 2028 report (CNN not opened); Sam Hartman Bachelor (small); the $400 billion wipeout post (unchecked); Sanders amendment, Tarczynski and "depopulation" memo posts (unchecked claims); private-person posts.
+- Requests: none added or removed. Watch list gained the Pochettino post; plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Stephen A. Smith interview with Trump, Lamar Jackson injury, Bessent on Megaspeed. The starting message had no instructions beyond the contract.
