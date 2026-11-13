@@ -6272,3 +6272,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Three ids added to the watch list; plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Schwarzenegger on the Republican Party, El-Sayed interview, Microsoft 365 recovery. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T14:10Z
+- Captures read: 1359Z (1304Z was the last logged read). Last read: 1359Z.
+- X's check: 1359Z 45 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged (1001Z and 1304Z each 1 mismatched; none shown).
+- Pulse: 42 items listed (0 in, 0 out). Nothing is past 36 hours (oldest: robotaxi, 04:31Z on 12 November) and no new post beat what is shown. Header 1359Z. The build holds back one BBCWorld post (account cap).
+- Added: none. Updated: none (pulse pass).
+- Left out: mattvanswol kidnapping claim (a minor, unchecked); Fabrizio Romano's two Premier League monthly awards (account already holds a place); Schefter Bachelor casting (entertainment already has three accounts; Variety carries the same item small); Luna CECOT post via DeepLeaksHQ (claim about a policy, unchecked, smaller than shown politics items); Bitcoin/PPI crypto posts (small, market commentary, "rate hike confirmed" claims unchecked); old_content post.
+- Requests: none. Watch list unchanged; plan.json not rebuilt.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: US PPI and rate-hike odds, Van Hollen vs Schumer, Microsoft 365 recovery. The starting message had no instructions beyond the contract.
