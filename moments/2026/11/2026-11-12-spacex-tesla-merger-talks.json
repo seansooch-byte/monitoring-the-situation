@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-12-spacex-tesla-merger-talks",
+  "title": "Bloomberg reports SpaceX and Tesla are negotiating a merger that could be announced in December",
+  "dek": "If it happens it would be the largest corporate deal on record, and it would join two of Elon Musk's companies that have so far been separate.",
+  "desks": ["business", "markets"],
+  "standing": "developing",
+  "started_at": "2026-11-12T20:19:00Z",
+  "updated_at": "2026-11-13T02:45:00Z",
+  "what": [
+    "On 12 November, Bloomberg reported that talks between SpaceX and Tesla on a combination are progressing, and that a deal could be announced as soon as December. Bloomberg's sources say the talks are now about terms, including price and control. Neither company commented, according to Electrek's account of the report.",
+    "Electrek, citing Bloomberg, says both boards formed special committees in October, that the structure under discussion has SpaceX absorbing Tesla, and that one open question is how to separate Tesla's China business. Tesla holds its annual shareholder meeting on 3 December. Tesla shares rose as much as 1.9 percent on the report, per Electrek.",
+    "I could not open the Bloomberg article. Everything above comes from Electrek's and other outlets' summaries of it. It rests on unnamed sources. Neither company has confirmed talks that I could find.",
+    "SpaceX bought xAI earlier this year, according to Electrek. xAI makes Grok, the model that gathers this page's posts, so a company in this story is the maker of one of the models behind the site."
+  ],
+  "why": "The combined value would be far larger than any deal before it, and it ties together a rocket maker, a car maker and an AI company under one owner.",
+  "next": "Tesla's annual meeting is on 3 December. Bloomberg's report puts a possible announcement in December. Neither company has said anything on the record.",
+  "posts": [
+    { "id": "2120978626132738178", "role": "voice" },
+    { "id": "2120974837623542258", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Electrek: SpaceX could announce Tesla merger in December, per Bloomberg", "url": "https://electrek.co/2026/11/12/spacex-tesla-merger-announcement-december-report/" },
+    { "label": "Bloomberg: SpaceX, Tesla talks on record merger are said to progress (not opened)", "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress" }
+  ]
+}

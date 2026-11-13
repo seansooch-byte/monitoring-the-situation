@@ -6152,3 +6152,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list; plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T02:58Z
+- Captures read: 0200Z (0106Z was the last logged read). Last read: 0200Z.
+- X's check: 0200Z 105 confirmed, 0 missing, 0 mismatched, 8 withheld by X. Earlier runs unchanged.
+- Pulse: 45 items listed (2 in, 2 out). In: Will DePue on Chinese models and Blackwell chips (ai, Anthropic disclosure, not checked); Schumer on Nvidia (politics). Out, smallest on the page: Hormuz Letter (world) and unusual_whales on Altman and Samsung (ai). Header 0200Z.
+- Added: 2026-11-12-spacex-tesla-merger-talks (business), 2026-11-12-depue-chinese-models-blackwell (ai). Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (Trump names Tim Cook, Blanche on the DOJ, correction added).
+- Left out: Wes Moore private ICE detention ban (Maryland's law dates from February; I could not tie the post to a new act); Outlook outage (no source for 12 November found); DC Logan Circle shooting and Chris Bosh arson claim (private persons); Hegseth OSS post (not researched); Huang fourth-affair rumour (unsourced claim about a named person); posts flagged old_content. Other live stories were not re-checked this pass beyond Nvidia.
+- Requests: none. Four ids added to the watch list; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

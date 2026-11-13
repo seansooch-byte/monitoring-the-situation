@@ -6,18 +6,19 @@
   "desks": ["business", "politics"],
   "standing": "developing",
   "started_at": "2026-11-08T20:07:00Z",
-  "updated_at": "2026-11-12T21:30:00Z",
+  "updated_at": "2026-11-13T02:40:00Z",
   "what": [
     "Nvidia's filing with the SEC (a Form 8-K, event date 11 November 2026) says the board accepted Jen-Hsun (Jensen) Huang's resignation as president, chief executive and director, effective immediately. Chief financial officer Colette Kress is interim CEO while keeping her CFO role, and the board has begun a search for a permanent CEO, internal and external. Harvey Jones was named board chair. The filing gives no reason for the resignation and does not mention the investigation. Polymarket posted the news on 12 November.",
     "On Sunday, 8 November 2026, CNBC and Fox Business reported that Nvidia's board launched an independent investigation of chief executive Jensen Huang. The reports say Huang emailed staff: \"I was unfaithful to my wife. My actions hurt her\" and \"I am deeply sorry.\" WatcherGuru posted extracts of the email.",
     "CNBC says the woman is tied to Megaspeed, a cloud company and Nvidia customer that has been investigated over whether it helped restricted Chinese firms get Nvidia chips. CNBC and others, citing The New York Times and the Financial Times, say U.S. intelligence agencies believe she passes information to Beijing. I could not see those original reports, and I found no statement from her. She is not named here. The 8-K does not say whether the investigation has ended.",
     "Nvidia's board said it has \"no reason to believe that either national security or NVIDIA secrets were compromised.\" It said a committee of independent directors, helped by outside counsel, will examine all available information. On 8 November a spokesperson said Huang remained committed to staying on as CEO; the 11 November filing replaced that. Gavin Baker, an investor, posted the board's statement.",
     "Three House Republican committee chairs have asked Huang for a closed-door briefing on 18 November, according to CNBC and RedState. Cointelegraph posted that President Trump called Huang \"an honorable guy\" and wants to hear his side. I could not confirm that remark outside X.",
-    "On the evening of 12 November, posts quoting Reuters said Huang had a relationship with a second Nvidia employee, and that Trump said Tim Cook, the former Apple chief, should replace Huang. A Reuters headline post carries the Trump remark. I could not open either Reuters report, so both rest on posts here.",
+    "After the resignation, KTLA and Fox Business report that President Trump wrote on social media: \"there is only one man to take his place – TIM COOK of Apple. A Legend replaces a Legend!\" Cook announced in April that he would step down as Apple's chief executive and is now its executive chairman. I found no Nvidia comment on the idea.",
+    "CNN reports that media reports say Huang also had a relationship with a second Nvidia employee who reported to him. I could not open the original reports. On the evening of 12 November, Attorney General Todd Blanche told reporters the Justice Department has not yet reached a conclusion on whether the woman tied to Megaspeed was a Chinese spy, and that the FBI is looking into the reports, per Reuters via U.S. News. The same report says Beijing has denied she is a spy. On 13 November UTC, Cointelegraph posted that Kress will meet staff next Wednesday, the morning after Nvidia posts quarterly results. I found no outside source for that.",
     "Other posts, including a video from the account Nostre_damus, claim Huang leaked chip secrets. No source I found says so, and the board says it has no reason to believe it. That claim is not supported here."
   ],
   "why": "It joins a personal admission to the question of whether a chip maker's top executive was compromised, while Congress is already pressing Nvidia on exports to China.",
-  "next": "The board's search for a permanent CEO has no stated end date. The House chairs had asked for Huang's briefing on 18 November; I found no word on whether it still stands.",
+  "next": "The board's search for a permanent CEO has no stated end date. Nvidia's quarterly results and Kress's staff meeting are reported for next week. The House chairs had asked for Huang's briefing on 18 November; I found no word on whether it still stands. The Justice Department has not said whether it considers the woman a spy.",
   "posts": [
     { "id": "2119524963644276809", "role": "origin" },
     { "id": "2119522315184583136", "role": "voice" },
@@ -25,16 +26,23 @@
     { "id": "2119577504432501240", "role": "voice" },
     { "id": "2119588473724104732", "role": "voice" },
     { "id": "2119523308580511928", "role": "voice" },
-    { "id": "2120878186154139750", "role": "voice" }
+    { "id": "2120878186154139750", "role": "voice" },
+    { "id": "2120904564207677617", "role": "voice" },
+    { "id": "2121053698726178856", "role": "voice" }
   ],
   "corrections": [
-    { "at": "2026-11-12T16:40:00Z", "text": "The story said Huang was staying on as CEO. Nvidia's 8-K of 11 November says he resigned as CEO and director effective immediately; Colette Kress is interim CEO. Title and text updated." }
+    { "at": "2026-11-12T16:40:00Z", "text": "The story said Huang was staying on as CEO. Nvidia's 8-K of 11 November says he resigned as CEO and director effective immediately; Colette Kress is interim CEO. Title and text updated." },
+    { "at": "2026-11-13T02:40:00Z", "text": "Added Trump's post naming Tim Cook and Attorney General Blanche's statement that the Justice Department has not concluded whether the woman was a spy. The earlier text said the Cook remark rested on posts only." }
   ],
   "sources": [
     { "label": "Nvidia Form 8-K, CEO transition (SEC)", "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm" },
     { "label": "CNBC: Nvidia investigates CEO Jensen Huang's relationship with alleged Chinese spy", "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html" },
     { "label": "CNBC: Jensen Huang faces bipartisan congressional scrutiny over reported China spy link", "url": "https://www.cnbc.com/2026/11/08/jensen-huang-nvidia-china-spy-congress.html" },
     { "label": "Fox Business: Nvidia board probes Jensen Huang over alleged Chinese spy relationship", "url": "https://www.foxbusiness.com/politics/nvidia-ceo-jensen-huang-apologizes-firm-probes-affair-alleged-spy" },
-    { "label": "RedState: GOP chairmen want answers from Nvidia's Jensen Huang", "url": "https://redstate.com/ben-smith/2026/11/05/gop-chairmen-want-answers-from-nvidias-jensen-huang-after-alleged-chinese-spy-plot-n2209092" }
+    { "label": "RedState: GOP chairmen want answers from Nvidia's Jensen Huang", "url": "https://redstate.com/ben-smith/2026/11/05/gop-chairmen-want-answers-from-nvidias-jensen-huang-after-alleged-chinese-spy-plot-n2209092" },
+    { "label": "Fox Business: Trump floats Tim Cook as Nvidia successor", "url": "https://www.foxbusiness.com/markets/trump-jensen-huang-nvidia-ceo-replacement" },
+    { "label": "KTLA: Trump says Tim Cook should replace Jensen Huang as Nvidia CEO", "url": "https://ktla.com/news/nationworld/trump-tim-cook-replace-jensen-huang-nvidia-ceo/" },
+    { "label": "U.S. News (Reuters): Justice Department has not concluded the Megaspeed executive was a Chinese spy, Blanche says", "url": "https://www.usnews.com/news/top-news/articles/2026-11-12/us-justice-department-has-not-concluded-alice-huang-was-chinese-spy-blanche-says" },
+    { "label": "CNN: CFO Colette Kress to serve as interim leader after Huang resignation", "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns" }
   ]
 }

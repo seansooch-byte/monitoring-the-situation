@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-12-depue-chinese-models-blackwell",
+  "title": "A researcher says weight patterns show six Chinese AI models were started on banned Nvidia Blackwell chips",
+  "dek": "US export rules bar Blackwell chips from China. The claim lands the day Nvidia lost its chief executive, and it has no reply yet from Nvidia or the labs.",
+  "desks": ["ai", "world"],
+  "standing": "disputed",
+  "started_at": "2026-11-12T21:29:00Z",
+  "updated_at": "2026-11-13T02:45:00Z",
+  "what": [
+    "On 12 November, Will DePue, a former OpenAI researcher, posted a report under the name Unemployment Labs. He says the starting values of a model's weights form a pattern that depends on the GPU that set them, and that the pattern survives training. He says he searched more than six trillion combinations of chip layout and seed number and matched six open-weight Chinese models to Nvidia Blackwell systems. The models named in coverage are DeepSeek-V4-Flash and V4-Pro, Moonshot's Kimi K3 and K3.1-Pro, MiniMax-M3 and Ant Group's Ling-3.1-flash.",
+    "DePue says he reproduced two starting-weight sets on real hardware, and that the method matched 24 open models to the chips their developers said they used. He estimates 2,000 to 3,000 Blackwell GPUs for the largest runs, worth more than half a billion dollars. He says senior researchers at OpenAI and Anthropic verified the result. The report names no outside reviewers, and I could not confirm that from either company.",
+    "By his own account the method finds the hardware that set the starting weights, not every chip used later in training, and it does not show where the chips were or how they were obtained. He says it is not a finding that any law was broken. Startup Fortune and KuCoin report that Nvidia, DeepSeek, Moonshot, MiniMax and Ant Group had not commented. I found no independent expert check of the method.",
+    "Anthropic is named in the claim as a verifier, and Anthropic makes Claude, the model that writes this page. I could not confirm its role."
+  ],
+  "why": "It arrives the day Nvidia's chief executive resigned, when the chip maker already has the sector's attention. A claim that sounds checkable, with a seed number published, travels fast.",
+  "common": "Established: Blackwell chips are barred from export to China, and DePue published a report with this claim. Not established: that any lab used Blackwell chips, since no lab, Nvidia or independent expert has confirmed or rebutted it that I found. The report itself says it does not show how the chips were obtained or that a law was broken.",
+  "next": "Statements from Nvidia and the named labs, and independent attempts to reproduce the published seeds, would settle whether the method holds.",
+  "posts": [
+    { "id": "2120992457630326841", "role": "origin" },
+    { "id": "2121010361398936037", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Startup Fortune: researcher says six Chinese AI models carry the fingerprint of banned Nvidia chips", "url": "https://startupfortune.com/breaking-news-as-researcher-says-six-chinese-ai-models-carry-the-fingerprint-of-banned-nvidia-chips/" },
+    { "label": "KuCoin News: forensic analysis claims six Chinese AI models used banned Nvidia Blackwell chips", "url": "https://www.kucoin.com/news/flash/forensic-analysis-claims-six-chinese-ai-models-used-banned-nvidia-blackwell-chips" }
+  ]
+}

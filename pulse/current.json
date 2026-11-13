@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T01:14:32Z",
-  "capture": "2026-11-13T0106Z",
+  "updated_at": "2026-11-13T02:50:00Z",
+  "capture": "2026-11-13T0200Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -50,12 +50,6 @@
       "id": "2120591757981135223",
       "desk": "internet",
       "line": "IShowSpeed's account posts a video it says shows Serena Williams giving him a 6-0 head start and then winning eight straight points. Not checked here."
-    },
-    {
-      "id": "2120612975018955227",
-      "desk": "world",
-      "line": "The Hormuz Letter, an account that follows the Iran war, says the Wall Street Journal reports that Trump told Vance to restart talks with Iran. The post adds that Iran has ruled out talks unless its seven conditions are met. Not checked here.",
-      "also": []
     },
     {
       "id": "2120575009777430974",
@@ -179,11 +173,6 @@
       "line": "Logan Kilpatrick announces \"Gemini Decision 1\", which he calls a new frontier decision model in the Gemini API, at $0.10 per 1M input tokens and free to try in the API. Not checked here."
     },
     {
-      "id": "2120834239377854806",
-      "desk": "ai",
-      "line": "The account unusual_whales says, citing Korea's Financial News, that Sam Altman told Samsung executives on Oct 31 that AI demand has been \"double counted\" and that only OpenAI and Anthropic are driving major demand growth. Anthropic makes Claude, the model writing this page. Not checked here."
-    },
-    {
       "id": "2120879805042467174",
       "desk": "entertainment",
       "line": "The account DiscussingFilm posts what it calls the first poster for the 50th anniversary re-release of Star Wars, and says it will be a restoration of the original 1977 theatrical version. Not checked here."
@@ -259,6 +248,18 @@
       "also": [
         "2121023524567482716"
       ]
+    },
+    {
+      "id": "2120992457630326841",
+      "desk": "ai",
+      "line": "Will DePue, a former OpenAI researcher, says patterns in six Chinese AI models match Nvidia Blackwell chips, which cannot be exported to China. He says OpenAI and Anthropic researchers verified it. Anthropic makes Claude, the model writing this page. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120921049097187618",
+      "desk": "politics",
+      "line": "Senator Chuck Schumer says Congress must still demand answers from Jensen Huang and Nvidia on national security, and asks what the Trump administration did once it learned of Huang’s relationship with a suspected Chinese intelligence asset. Not checked here.",
+      "also": []
     }
   ]
 }
