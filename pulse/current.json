@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T20:13:13Z",
-  "capture": "2026-11-13T2004Z",
+  "updated_at": "2026-11-13T21:30:00Z",
+  "capture": "2026-11-13T2106Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -32,21 +32,6 @@
       "id": "2120876571829662014",
       "desk": "business",
       "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing, dated 11 November, says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
-    },
-    {
-      "id": "2120804738031616095",
-      "desk": "world",
-      "line": "Ukraine’s president Zelenskyy says Ukrainian units have recorded systematic speed limits of 161 km/h on Starshield over Ukraine for several days, which he says hampers intercepting Russian jet-powered drones. He says Ukraine is raising it with the American side. Not checked here."
-    },
-    {
-      "id": "2120808224324510133",
-      "desk": "science",
-      "line": "SpaceX announces that a Falcon 9 launched USSF-627 to orbit from pad 4E in California."
-    },
-    {
-      "id": "2120805309757399534",
-      "desk": "music",
-      "line": "Billboard reports that Megan of KATSEYE did the “PINKY UP” dance break in Dallas, after staying seated at a previous stop to recover from a concussion. Not checked here."
     },
     {
       "id": "2120864682026418629",
@@ -262,6 +247,18 @@
       "id": "2121329790942601427",
       "desk": "sports",
       "line": "Shams Charania of ESPN reports that New Orleans Pelicans guard Dejounte Murray wants a trade, and that his agent and team officials have started working on a resolution. He cites sources. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121341525678342451",
+      "desk": "disaster",
+      "line": "BBC Breaking reports a rescue operation after a cargo ship collided with a cruise ship in New Orleans. Outlets including ABC and CBS describe a tanker striking a docked river cruise ship; the cause is not known. See the story on this site.",
+      "also": []
+    },
+    {
+      "id": "2121092373526831501",
+      "desk": "politics",
+      "line": "Rep. Ro Khanna calls on every Democratic senator to back Chris Van Hollen for majority leader. He says Van Hollen will commit to ending funding for the Iran war, a Medicare for All vote and zero aid to Israel. Not checked here: the reports I read do not show Van Hollen making those commitments himself.",
       "also": []
     }
   ]

@@ -1,0 +1,54 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-13-van-hollen-challenges-schumer",
+  "title": "Chris Van Hollen is challenging Chuck Schumer to lead Senate Democrats",
+  "dek": "Whoever wins the December secret ballot sets how Democrats use their new Senate majority, including on the Iran war and party primaries.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-13T04:06:44Z",
+  "updated_at": "2026-11-13T21:30:00Z",
+  "what": [
+    "Maryland Senator Chris Van Hollen announced on Thursday, 12 November 2026, that he will run against Chuck Schumer for Senate Democratic leader, per CBS News. CBS says he said Democrats should \"unrig an economy rigged against working people & fueled by political corruption\".",
+    "CBS reports Van Hollen faulted Schumer for not taking a firm enough line on using funding deadlines to press the Trump administration over the Iran war, and for Schumer's involvement in Democratic primaries. Schumer said he welcomes a discussion about the caucus's future and that he has \"the votes to continue serving as Democratic Leader\", citing the party's Senate seats and midterm results. I could not check his vote count.",
+    "Bernie Sanders backed Van Hollen. Incoming senators Abdul El-Sayed and Peggy Flanagan did too, per ABC News. Jacky Rosen and Catherine Cortez Masto back Schumer. Angus King backed Schumer, asking \"Why would you fire the manager when you just won the World Series?\" Elissa Slotkin told CBS she is seeking change but has not named a candidate. ABC reports Van Hollen calls himself an underdog with support from at least 10 senators; that is his claim, not a count I could check.",
+    "Representative Ro Khanna posted that Van Hollen \"will commit to\" ending funding for the Iran war, allowing a vote on Medicare for All and zeroing out aid to Israel. CBS's report does not show Van Hollen making those three commitments himself, and I did not find them in his own words. They rest on Khanna's post.",
+    "The vote is a closed-door secret ballot expected in early December. ABC says a candidate needs 28 or 29 votes, depending on the Alaska result."
+  ],
+  "why": "The race pits a leader who just won a Senate majority against a challenger who says the party needs new leadership. Posts from each side have spread among their own followers.",
+  "worlds": [
+    {
+      "name": "Backers of a new leader",
+      "sees": "Voters asked for change, and Schumer has not used the power of the purse hard enough on the Iran war. A new leader should be chosen, and Van Hollen is that leader.",
+      "post": "2121092373526831501"
+    },
+    {
+      "name": "Backers of Schumer",
+      "sees": "Schumer helped flip Senate seats and win a historic majority, so he has earned the job again.",
+      "post": "2121068460428194287"
+    }
+  ],
+  "common": "On the record: Van Hollen has declared, Schumer says he has the votes, and the ballot is secret and set for early December. Not established: how many senators back either man. Both counts are the candidates' own claims. Khanna's list of Van Hollen's commitments is not shown in the reports I read. The Senate's seat count after the election is also not settled, since reports differ on whether Democrats hold 54 or 55 seats.",
+  "next": "The secret ballot in early December. Which of the undeclared senators, such as Slotkin, name a candidate before then.",
+  "posts": [
+    {
+      "id": "2121092373526831501",
+      "role": "origin"
+    },
+    {
+      "id": "2121068460428194287",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CBS News: Chris Van Hollen announces he will challenge Chuck Schumer for Senate majority leader",
+      "url": "https://www.cbsnews.com/news/chris-van-hollen-challenge-chuck-schumer-senate-majority-leader-democrat/"
+    },
+    {
+      "label": "ABC News: Schumer and Van Hollen are facing off for Senate majority leader",
+      "url": "https://abcnews.com/Politics/schumer-van-hollen-facing-off-senate-majority-leader/story?id=138111386"
+    }
+  ]
+}

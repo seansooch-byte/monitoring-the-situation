@@ -6342,3 +6342,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained four ids; plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Valuetainment Nvidia staff vote claim, Oltmann promised election report (unchecked). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T21:35Z
+- Captures read: 2106Z (2004Z was the last logged read). Last read: 2106Z.
+- X's check: 2106Z 107 confirmed, 0 missing, 0 mismatched, 0 withheld. The run before (2004Z) had 10 withheld, none shown.
+- Pulse: 44 items listed (2 in, 3 out). In: BBC Breaking on the New Orleans collision (disaster), Ro Khanna on Van Hollen (politics). Out, past 36 hours: three posts from 12 November 09Z. The build holds back one BBCWorld post (account cap). Header 2106Z.
+- Added: 2026-11-13-new-orleans-tanker-hits-cruise-ship (disaster), 2026-11-13-van-hollen-challenges-schumer (politics). Updated: none; the Nvidia story was not changed (no new facts found).
+- Left out: Brennan's son arrest post (claim about a named person, not checked); Cole Allen added terrorism charge (Fox post only, not checked); Kim Jong Un "no more" post (unchecked); Kansas truck "zero charges" post (unchecked); Alito, Warren, UN Palestine vote and Israeli daycare posts (no source opened); Nvidia Reuters "flowers" and WSJ posts (no source opened); old_content posts.
+- Requests: none added or removed. Watch list gained five ids; plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). WebFetch returned 451 for CNN. Reports differ on whether Democrats hold 54 or 55 Senate seats; the Van Hollen story says so. For the next story pass: Cole Allen terrorism charge, UN vote on Palestinian sovereignty, New Orleans casualty count. The starting message had no instructions beyond the contract.
