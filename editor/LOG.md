@@ -6352,3 +6352,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained five ids; plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). WebFetch returned 451 for CNN. Reports differ on whether Democrats hold 54 or 55 Senate seats; the Van Hollen story says so. For the next story pass: Cole Allen terrorism charge, UN vote on Palestinian sovereignty, New Orleans casualty count. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T22:25Z
+- Captures read: 2207Z (2106Z was the last logged read). Last read: 2207Z.
+- X's check: 2207Z 64 confirmed, 0 missing, 0 mismatched, 0 withheld.
+- Pulse: 45 items listed (3 in, 2 out). In: Fox News on the FAA nationwide ground stop with the PopBase post quoting CNN attached (disaster), Polymarket on the National Weather Service radar outage (tech), SpaceX on Starship propellant load (science). Out to keep to 45: unusual_whales and RapidResponse47, both among the smaller items. The build holds back one BBCWorld post (account cap). Header 2207Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ post on a named actor's death (claim about a named person, not checked); Stephen King aliens joke (profanity); Kirk Cousins, Eagles and Vikings posts (sports desk full, accounts already hold places); Salah and Lens posts (account already holds a place); Pentagon/FBI stockpile post (unchecked alarm claim); Bilzerian on Nvidia CEO candidates (unchecked, aimed at a nationality); Cole Allen terrorism charge and Kansas truck posts (unchecked); old_content posts.
+- Requests: none added or removed. Watch list gained four ids; plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: the FAA nationwide ground stop and NWS radar outage (no post states a cause; the Fox guest says there is no evidence they connect to the Microsoft outage). The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T21:30:00Z",
-  "capture": "2026-11-13T2106Z",
+  "updated_at": "2026-11-13T22:25:00Z",
+  "capture": "2026-11-13T2207Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -61,11 +61,6 @@
       "id": "2120895501662859445",
       "desk": "politics",
       "line": "Clash Report, a news aggregator account, quotes Hillary Clinton on what it calls the Jensen Huang spy scandal. Clinton predicts that Trump, on meeting Xi Jinping in a few weeks, will ask whether it is true and then accept Xi's denial. Not checked here."
-    },
-    {
-      "id": "2120955224810803419",
-      "desk": "medicine",
-      "line": "Rapid Response 47, a White House account, quotes the @DrOzCMS account on what it calls \"so-called Medicare for All\": socialized medicine, the quote says, makes a two-tier system in which rich people buy the care they want. A political argument, not checked here."
     },
     {
       "id": "2120973994191094179",
@@ -220,12 +215,6 @@
       "also": []
     },
     {
-      "id": "2121311382218187128",
-      "desk": "world",
-      "line": "Unusual Whales, an account that posts news and market items, says Axios reports that Israel is pressing President Trump to restart the war with Iran and that Mossad chief Roman Gofman is in Washington to make the case. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121064747625824279",
       "desk": "internet",
       "line": "A user says the Streamer Awards used a Fox News headline about Hasan, and calls the choice \"diabolical\". The post is a 12-second video; I could not see what it shows. Not checked here.",
@@ -259,6 +248,26 @@
       "id": "2121092373526831501",
       "desk": "politics",
       "line": "Rep. Ro Khanna calls on every Democratic senator to back Chris Van Hollen for majority leader. He says Van Hollen will commit to ending funding for the Iran war, a Medicare for All vote and zero aid to Israel. Not checked here: the reports I read do not show Van Hollen making those commitments himself.",
+      "also": []
+    },
+    {
+      "id": "2121351498181566589",
+      "desk": "disaster",
+      "line": "Fox News reports that the FAA has ordered all departing flights in the US to stay on the ground, and says this has happened only once before since 9/11. The post gives no cause. Not checked here.",
+      "also": [
+        "2121357965815108080"
+      ]
+    },
+    {
+      "id": "2121357117583995134",
+      "desk": "tech",
+      "line": "Polymarket, a prediction market, posts that the National Weather Service is investigating a nationwide radar outage. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121360601377374680",
+      "desk": "science",
+      "line": "SpaceX announces a go for propellant load and says teams will soon begin loading Starship with about 12 million pounds of liquid oxygen and liquid methane.",
       "also": []
     }
   ]
