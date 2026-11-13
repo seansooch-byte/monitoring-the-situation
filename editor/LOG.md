@@ -6362,3 +6362,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained four ids; plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: the FAA nationwide ground stop and NWS radar outage (no post states a cause; the Fox guest says there is no evidence they connect to the Microsoft outage). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T23:20Z
+- Captures read: 2301Z (2207Z was the last logged read). Last read: 2301Z.
+- X's check: 2301Z 54 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier runs that day still show 1603Z 1 missing and 1707Z 2 mismatched (already in the record).
+- Pulse: 42 items listed (0 in, 3 out). Out: Polymarket on the NWS radar outage (2121357117583995134, X returned it unavailable in 2301Z), Ronaldo "Day 1s" post and Formula 1 Racing Bulls post (both just past 36 hours). The build holds back one BBCWorld post (account cap). Header 2301Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: new FAA ground stop posts from WatcherGuru, unusual_whales and LeadingReport (DHS statements, small and young; the Fox item already covers the story, and they give differing causes, unchecked); Atrupar AI air traffic post (implies a cause, unchecked); BullTheory market post (unchecked figures); Eric Daugherty Rubio posts (account already holds a place); Rainmaker kitten clip (grabber filed it under justice, no fit); four posts the grabber left out as sexual or unsafe.
+- Requests: none added or removed. Watch list and plan.json unchanged.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA nationwide ground stop; posts attribute different causes to DHS (software update, AI traffic control system, cyberattack not ruled out), none checked here. The starting message had no instructions beyond the contract.

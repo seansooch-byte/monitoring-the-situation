@@ -1,27 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T22:25:00Z",
-  "capture": "2026-11-13T2207Z",
+  "updated_at": "2026-11-13T23:20:00Z",
+  "capture": "2026-11-13T2301Z",
   "items": [
     {
       "id": "2121254115028132000",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts words he attributes to Mauricio Pochettino about taking the Manchester United job despite a new deal until 2030: \"You can't turn it down\". Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120834237213593805",
-      "desk": "entertainment",
-      "line": "Footballer Cristiano Ronaldo announces that production has started on his first TV show, called Day 1s. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2120834299868098637",
-      "desk": "sports",
-      "line": "Formula 1 announces that Racing Bulls keep Arvid Lindblad and Liam Lawson for 2027, and later posts that the team's 2027 line-up is confirmed. Not checked here.",
-      "also": [
-        "2120852861600809284"
-      ]
     },
     {
       "id": "2120841731302154708",
@@ -257,12 +243,6 @@
       "also": [
         "2121357965815108080"
       ]
-    },
-    {
-      "id": "2121357117583995134",
-      "desk": "tech",
-      "line": "Polymarket, a prediction market, posts that the National Weather Service is investigating a nationwide radar outage. Not checked here.",
-      "also": []
     },
     {
       "id": "2121360601377374680",
