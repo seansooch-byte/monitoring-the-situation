@@ -1,18 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T07:12:00Z",
-  "capture": "2026-11-13T0702Z",
+  "updated_at": "2026-11-13T08:15:20Z",
+  "capture": "2026-11-13T0808Z",
   "items": [
     {
       "id": "2120640219871384044",
       "desk": "politics",
       "line": "Phil Lewis, a journalist, posts that Scott Colom has won the Mississippi Senate race, citing a CNN projection. The post carries a photo with no description. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120614296451178761",
-      "desk": "world",
-      "line": "CBS News reports that a member of the honor guard collapsed in Paris as Slovak President Peter Pellegrini arrived at the Élysée Palace, and that staff carried him away. It says the guard’s condition and the cause are not known. The post carries a 51-second video."
     },
     {
       "id": "2120642726483972483",
@@ -37,12 +32,6 @@
         "2120658425550135333",
         "2120704382589141319"
       ]
-    },
-    {
-      "id": "2120606353953587303",
-      "desk": "politics",
-      "line": "Aaron Rupar, a political commentator, posts a video and says it is CNN broadcast footage of an Arlington guard telling a group with Pete Hegseth to \"maintain silence\" and \"pay respect\" after someone in his party laughed at the Tomb of the Unknown Soldier. Not checked here.",
-      "also": []
     },
     {
       "id": "2120812158363775311",
@@ -116,11 +105,6 @@
       "id": "2120637790329163833",
       "desk": "justice",
       "line": "TMZ reports that the rapper Yella Beezy was convicted of hiring a hitman to kill the rapper Mo3 and sentenced to life. Not checked here."
-    },
-    {
-      "id": "2120609856671416610",
-      "desk": "sports",
-      "line": "The Dunk Central account posts a video of Steph Curry saying that people talking about his wife, Ayesha Curry, should keep her name out of their mouths. It names Nick Young and Gilbert Arenas as two of them. What they said is not checked here."
     },
     {
       "id": "2120879805042467174",
@@ -240,6 +224,30 @@
       "id": "2120946968403095906",
       "desk": "ai",
       "line": "The account Grok Bot announces that Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location and Contacts. Grok, the model that gathers this page’s posts, is made by xAI. I could not confirm here who runs this account.",
+      "also": []
+    },
+    {
+      "id": "2120856620708331791",
+      "desk": "entertainment",
+      "line": "The account Teasercon posts a video it titles the final trailer for Avengers: Doomsday (2026). The post has no other text, and I could not check here that the studio released it.",
+      "also": []
+    },
+    {
+      "id": "2121083956724408551",
+      "desk": "sports",
+      "line": "The NBA account posts that Detroit beat its opponent in double overtime and that Cade Cunningham scored 52 points with 11 assists and no turnovers. It says he is the first player to do that since 1977-78. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121105149644960133",
+      "desk": "offbeat",
+      "line": "SNY Giants posts a clip of Cam Skattebo saying a pretzel-wrapped hot dog before the game is why he threw up on the sideline in the first half. He says he felt good after.",
+      "also": []
+    },
+    {
+      "id": "2121023102452941188",
+      "desk": "world",
+      "line": "Rupert Lowe, a British politician, says Restore Britain scored 28% in the Hyndburn by-election and calls it an astonishing result. Not checked here.",
       "also": []
     }
   ]
