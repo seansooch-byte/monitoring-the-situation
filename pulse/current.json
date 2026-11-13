@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T16:40:00Z",
-  "capture": "2026-11-13T1603Z",
+  "updated_at": "2026-11-13T17:20:00Z",
+  "capture": "2026-11-13T1707Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -120,14 +120,6 @@
       "id": "2120924499637862414",
       "desk": "disaster",
       "line": "BBC World reports fourteen people dead after a truck lost control in a 23-vehicle crash in the UAE. Not checked here."
-    },
-    {
-      "id": "2120736143566344324",
-      "desk": "tech",
-      "line": "The Robotaxi account says Robotaxi now runs 24/7 in every city where it is available, in a four-second video. Elon Musk quotes it, saying it works 168 hours a week. Not checked here.",
-      "also": [
-        "2120746428720988408"
-      ]
     },
     {
       "id": "2120972282096918904",
@@ -250,6 +242,21 @@
       "id": "2120858260521529455",
       "desk": "politics",
       "line": "Reggie B., a commentator account, posts a video of Abdul El-Sayed, a Democratic politician, answering an interviewer. Asked about calling President Trump \"the dumbest effing guy who ever was president\", the post has him answer \"True\" and say the way to deal with a bully is to stand up to him. Not checked here."
+    },
+    {
+      "id": "2121250205806772283",
+      "desk": "science",
+      "line": "Elon Musk posts \"Starship 42 preparing for launch\" with a link. He quotes another post. Not checked here."
+    },
+    {
+      "id": "2120975264264171994",
+      "desk": "sports",
+      "line": "Lindsey Thiry, a reporter, says Jim Harbaugh said the Broncos wanted the Chargers to take less for Daiyan Henley because of Denver's pass/fail medical grading, and that he is frustrated they would take Henley for less but not at the agreed price. Not checked here."
+    },
+    {
+      "id": "2120945866462704106",
+      "desk": "politics",
+      "line": "DIN Intel Network, an account posting political clips, shares a video. Its text quotes Nancy Mace asking \"What is a woman?\" and Walz answering that he is the governor of Minnesota and is not there to be \"a prop for your obsession.\" The setting is not given. Not checked here."
     }
   ]
 }

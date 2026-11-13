@@ -6302,3 +6302,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the Pochettino post; plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Stephen A. Smith interview with Trump, Lamar Jackson injury, Bessent on Megaspeed. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T17:25Z
+- Captures read: 1707Z (1603Z was the last logged read). Last read: 1707Z.
+- X's check: 1707Z 89 confirmed, 0 missing, 2 mismatched (2121280505786110176 imodarressi, 2114665844580176313 4Dlabs_Official; neither shown), 0 withheld. 1603Z had 1 missing (2121159044660592840, marvel_updat3s), logged last pass.
+- Pulse: 44 items listed (3 in, 1 out). In: Elon Musk Starship 42 post (science), Lindsey Thiry on Harbaugh and Henley (sports), DIN Intel Network Mace/Walz clip (politics). Out, past 36 hours: the Robotaxi post with its Musk quote. The build holds back one BBCWorld post (account cap). Header 1707Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: imodarressi AI "mafia game" post (X shows it differently from the record, so it cannot be cited; I drafted a line and removed it); Musk "Hmm" post (point not clear); DiscussingFilm "Macca & Friends" (account already holds a larger place); Bilzerian post on Fuentes (insults about a religion); TMZ Kansas crash post (private person); Mandela statue video (unchecked claim, parody-style account name); Polymarket on Stephen Miller (second take on a shown item); old_content posts.
+- Requests: none. Watch list gained three ids; plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Harbaugh on Henley trade, Mace and Walz exchange, Starship 42. The starting message had no instructions beyond the contract.
