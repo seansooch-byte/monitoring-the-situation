@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T05:12:00Z",
-  "capture": "2026-11-13T0503Z",
+  "updated_at": "2026-11-13T06:12:00Z",
+  "capture": "2026-11-13T0559Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -52,12 +52,6 @@
       "line": "IShowSpeed's account posts a video it says shows Serena Williams giving him a 6-0 head start and then winning eight straight points. Not checked here."
     },
     {
-      "id": "2120575009777430974",
-      "desk": "music",
-      "line": "The account meyechelgossips says the Coachella 2027 line-up is bad. Its image sorts the artists by colour: red for unknown, yellow for artists to watch, green for known. The photo has no description.",
-      "also": []
-    },
-    {
       "id": "2120606353953587303",
       "desk": "politics",
       "line": "Aaron Rupar, a political commentator, posts a video and says it is CNN broadcast footage of an Arlington guard telling a group with Pete Hegseth to \"maintain silence\" and \"pay respect\" after someone in his party laughed at the Tomb of the Unknown Soldier. Not checked here.",
@@ -67,16 +61,6 @@
       "id": "2120812158363775311",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Manchester United have sacked Michael Carrick with immediate effect. Not checked here."
-    },
-    {
-      "id": "2120574710245146814",
-      "desk": "world",
-      "line": "Helle Lyng says in a video that she had a visa to India and was due to speak on press freedom at the Bharat Summit in Hyderabad, and that \"orders from above\" in the Ministry of Home Affairs cancelled it. The video is addressed to Amit Shah. Not checked here."
-    },
-    {
-      "id": "2120577453823533134",
-      "desk": "world",
-      "line": "Sindicat de Llogateres i Llogaters, a Catalan tenants' union, posts a video in Catalan and says 400,000 people are on the streets of Barcelona on Wednesday with the cry \"we want to live, not just survive\". The figure is the union's own. Not checked here."
     },
     {
       "id": "2120662844287131896",
@@ -150,14 +134,6 @@
       "id": "2120609856671416610",
       "desk": "sports",
       "line": "The Dunk Central account posts a video of Steph Curry saying that people talking about his wife, Ayesha Curry, should keep her name out of their mouths. It names Nick Young and Gilbert Arenas as two of them. What they said is not checked here."
-    },
-    {
-      "id": "2120576747062112408",
-      "desk": "sports",
-      "line": "ChampRDS, a combat sports account, posts video it says shows a brawl between the UFC fighters Usman Nurmagomedov and Merab Dvalishvili, credited to RedCorner_MMA. Its earlier post of footage from Ilia Topuria is attached. Not checked here.",
-      "also": [
-        "2120563801552761217"
-      ]
     },
     {
       "id": "2120581433639198885",

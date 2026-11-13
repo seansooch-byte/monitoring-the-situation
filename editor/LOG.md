@@ -6192,3 +6192,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: TSMC hack claim, Nvidia CEO succession. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T06:15Z
+- Captures read: 0559Z (0503Z was the last logged read). Last read: 0559Z.
+- X's check: 0559Z 46 confirmed, 0 missing, 0 mismatched, 4 withheld by X. Earlier runs unchanged.
+- Pulse: 41 items listed (0 in, 4 out). Out, older than 36 hours: meyechelgossips (music), HelleLyngSvends and SindicatLloguer (world), ChampRDS (sports). Nothing new in 0559Z was both large and safe to show. Header 0559Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: g_vgouvea (not in English, claim about a named person); David Sacks post on the Huang "spy narrative" (claim about a named person, unchecked); posts flagged old_content.
+- Requests: none. plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
