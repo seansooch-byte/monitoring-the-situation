@@ -1,22 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T12:40:00Z",
-  "capture": "2026-11-13T1206Z",
+  "updated_at": "2026-11-13T13:13:58Z",
+  "capture": "2026-11-13T1304Z",
   "items": [
-    {
-      "id": "2120688866529275958",
-      "desk": "gaming",
-      "line": "Nintendo's Japanese account, in Japanese, says a Switch 2 set for the Japanese market goes on sale today: the console with a choice of one of three games."
-    },
-    {
-      "id": "2120688743111971293",
-      "desk": "business",
-      "line": "Elon Musk replies \"That would be an honor\" to a zerohedge post asking him to hire Nvidia CEO Jensen Huang. Reuters reports, citing a source, that Nvidia's board is meeting about whether to remove Huang. Not checked here.",
-      "also": [
-        "2120658425550135333",
-        "2120704382589141319"
-      ]
-    },
     {
       "id": "2120812158363775311",
       "desk": "sports",
@@ -81,9 +67,10 @@
       ]
     },
     {
-      "id": "2120879805042467174",
+      "id": "2120864682026418629",
       "desk": "entertainment",
-      "line": "The account DiscussingFilm posts what it calls the first poster for the 50th anniversary re-release of Star Wars, and says it will be a restoration of the original 1977 theatrical version. Not checked here."
+      "line": "The account DiscussingFilm posts a new trailer for The Thomas Crown Affair, which it says Michael B. Jordan directs and stars in, and gives a release date of 5 March 2027. Not checked here.",
+      "also": []
     },
     {
       "id": "2120931356914151835",
@@ -225,20 +212,14 @@
       "also": []
     },
     {
-      "id": "2120683405205557628",
-      "desk": "gaming",
-      "line": "HYPEX, an account that tracks Fortnite, announces a Fortnite emote based on Kasane Teto. The post carries no media description.",
-      "also": []
-    },
-    {
       "id": "2121086493712134314",
       "desk": "tech",
       "line": "BBC News (World) reports that Microsoft says its attempts to fix the global outage are not going \"as expected\", and links to a live page."
     },
     {
-      "id": "2120951972706558431",
+      "id": "2120938282204688468",
       "desk": "tech",
-      "line": "The Microsoft 365 status account says it has begun redistributing connection traffic across its wider worldwide infrastructure to balance the load, and gives two incident codes for customers. A story on this site has the detail.",
+      "line": "The Microsoft 365 status account says it is investigating reports of users having trouble reaching Exchange Online mailboxes by several connection methods in the Americas, and points customers to incident code EX1550543. A story on this site has the detail.",
       "also": []
     },
     {
@@ -263,6 +244,11 @@
       "id": "2121138040508727707",
       "desk": "sports",
       "line": "Sky Sports Premier League reports that Manchester United captain Bruno Fernandes has rejected a second contract offer from the club, with his deal due to expire at the end of the season. Not checked here."
+    },
+    {
+      "id": "2120858260521529455",
+      "desk": "politics",
+      "line": "Reggie B., a commentator account, posts a video of Abdul El-Sayed, a Democratic politician, answering an interviewer. Asked about calling President Trump \"the dumbest effing guy who ever was president\", the post has him answer \"True\" and say the way to deal with a bully is to stand up to him. Not checked here."
     }
   ]
 }

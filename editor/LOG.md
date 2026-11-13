@@ -6262,3 +6262,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list updated; plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: D.C. gym shooting, Microsoft 365 outage recovery, Bitcoin at its 200-week average. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T13:25Z
+- Captures read: 1304Z (1206Z was the last logged read). Last read: 1304Z.
+- X's check: 1304Z 99 confirmed, 0 missing, 1 mismatched, 4 withheld by X (ids in the verifier's run output; none shown). Earlier runs unchanged.
+- Pulse: 42 items listed (1 in, 3 out, 2 swapped). In: Reggie B. clip of Abdul El-Sayed (politics). Out, 36 hours or older: Nintendo Japan Switch 2, Elon Musk reply to zerohedge, HYPEX Fortnite. Swapped to the account's largest post: MSFT365Status (Exchange Online investigation), DiscussingFilm (Thomas Crown Affair trailer replaces Star Wars poster). The build holds back one BBCWorld post (account cap). Header 1304Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: 9News clip of a missing 17-year-old (minor); iluvmssy "federal prison" post and fight clips (private people); Epstein/Trump blackmail post and Portuguese post on Trump (unchecked claims about a named person); Polymarket and Dexerto Nvidia posts (topic already covered); Schwarzenegger/Kimmel and Stephen A. Smith reposts (second takes on shown items); posts flagged old_content.
+- Requests: none. Three ids added to the watch list; plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Schwarzenegger on the Republican Party, El-Sayed interview, Microsoft 365 recovery. The starting message had no instructions beyond the contract.
