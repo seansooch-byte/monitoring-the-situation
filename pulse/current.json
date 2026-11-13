@@ -1,19 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T10:12:00Z",
-  "capture": "2026-11-13T1001Z",
+  "updated_at": "2026-11-13T11:50:00Z",
+  "capture": "2026-11-13T1106Z",
   "items": [
-    {
-      "id": "2120640219871384044",
-      "desk": "politics",
-      "line": "Phil Lewis, a journalist, posts that Scott Colom has won the Mississippi Senate race, citing a CNN projection. The post carries a photo with no description. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2120642726483972483",
-      "desk": "entertainment",
-      "line": "Variety quotes Scarlett Johansson, via the Los Angeles Times, saying some studio movie offers she gets are so poor that she tells the studio it \"seems irresponsible to make this.\""
-    },
     {
       "id": "2120671764779008481",
       "desk": "sports",
@@ -37,11 +26,6 @@
       "id": "2120812158363775311",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Manchester United have sacked Michael Carrick with immediate effect. Not checked here."
-    },
-    {
-      "id": "2120662844287131896",
-      "desk": "politics",
-      "line": "Sky News says a video has emerged showing Pete Hegseth taking photos with his wife and others in front of the tomb of an unknown soldier, and that a soldier reprimanded the group when one member was heard laughing. Not checked here."
     },
     {
       "id": "2120834237213593805",
@@ -202,12 +186,6 @@
       ]
     },
     {
-      "id": "2120995209261514827",
-      "desk": "tech",
-      "line": "Microsoft 365 Status, the service’s status account, says it is restarting and validating affected servers to return them to service, and is assessing whether reverting a few recent configuration updates would speed recovery. The post does not say what is affected. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121111560198426851",
       "desk": "internet",
       "line": "Jake Lucky, a streaming commentator, posts that IShowSpeed won Streamer of the Year at the Streamer Awards and gave his acceptance speech entirely in Indonesian. A reply from Overtime says the same of the speech.",
@@ -261,6 +239,30 @@
       "id": "2121086493712134314",
       "desk": "tech",
       "line": "BBC News (World) reports that Microsoft says its attempts to fix the global outage are not going \"as expected\", and links to a live page."
+    },
+    {
+      "id": "2120951972706558431",
+      "desk": "tech",
+      "line": "The Microsoft 365 status account says it has begun redistributing connection traffic across its wider worldwide infrastructure to balance the load, and gives two incident codes for customers. A story on this site has the detail.",
+      "also": []
+    },
+    {
+      "id": "2121069007159927248",
+      "desk": "internet",
+      "line": "Yoxics, an account covering streaming, says that for the first time in Streamer Awards history a nominee named SmallFryz invited his fellow nominees on stage to accept the Hidden Gem award with him. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2120909946623832213",
+      "desk": "politics",
+      "line": "Fox News Politics reports on a Mike Pence interview, his first since the midterms, in which it says Pence criticises President Trump on tariffs and the Iran war and disputes Vice President Vance's claim that the war alone cost Republicans Congress. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121046734751010930",
+      "desk": "politics",
+      "line": "Benny Johnson, a commentator, says in an \"exclusive\" that White House Chief of Staff Stephen Miller has banned unauthorized meetings between White House staff and lobbyists and special interests. Not checked here.",
+      "also": []
     }
   ]
 }

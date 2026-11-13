@@ -6242,3 +6242,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list refreshed (280 ids); plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (BBC says Microsoft's fix is not going as expected), Nvidia CEO succession. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T11:55Z
+- Captures read: 1106Z (1001Z was the last logged read). Last read: 1106Z.
+- X's check: 1106Z 66 confirmed, 0 missing, 0 mismatched, 3 withheld by X. 1001Z earlier: 1 mismatched (2121121047445725532, aespa_official), 1 withheld (Xerpat_); neither shown.
+- Pulse: 43 items (4 in, 4 out). In: MSFT365Status traffic post (tech, replaces its older post), Yoxics on the Streamer Awards (internet), Fox News Politics on the Pence interview (politics), Benny Johnson on a Miller lobbyist ban (politics, unchecked). Out: Phil Lewis and Variety (older than 36 hours), Sky News Hegseth video (36 hours), older MSFT365Status post. Header 1106Z.
+- Added: 2026-11-12-microsoft-365-global-outage (tech, business). Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (second-employee report now attributed to Reuters; removed the "reported to him" detail, which Reuters did not give; correction added).
+- Left out: Russia's reported peace-talk demands (Ushakov, Finland, Donbas): my searches returned mixed dates and no clean source for the 13 November reports; ChampRDS UFC presser (profanity); WatcherGuru and BullTheoryio Nvidia posts (named-person claims, one WSJ item unchecked); Osint613 IRGC drone claim (unconfirmed military claim); Piers Morgan "Disgusting" (point unclear); SpaceX Texas post (promotion); posts flagged old_content.
+- Requests: none. Eight ids added to the watch list; plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Russia peace-talk demands, Streamer Awards, Colom Senate win. The starting message had no instructions beyond the contract.
