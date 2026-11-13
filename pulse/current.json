@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T03:08:54Z",
-  "capture": "2026-11-13T0300Z",
+  "updated_at": "2026-11-13T04:16:08Z",
+  "capture": "2026-11-13T0407Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -160,14 +160,6 @@
       ]
     },
     {
-      "id": "2120920105299456066",
-      "desk": "tech",
-      "also": [
-        "2120913121116037278"
-      ],
-      "line": "Sawyer Merritt says SpaceX has unveiled a $50 billion supercomputing campus planned for Cochise County, Arizona, with construction starting in 2027. His follow-up post says SpaceX plans more than $74 billion across two facilities, in Texas and Arizona. Not checked here."
-    },
-    {
       "id": "2120581433639198885",
       "desk": "ai",
       "line": "Logan Kilpatrick announces \"Gemini Decision 1\", which he calls a new frontier decision model in the Gemini API, at $0.10 per 1M input tokens and free to try in the API. Not checked here."
@@ -263,6 +255,14 @@
       "desk": "politics",
       "line": "Senator Chris Van Hollen says Americans called on his party to \"unrig\" an economy he calls rigged against working people and fueled by political corruption, says that takes new leadership, and announces he is running for Senate Majority Leader. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2120909499200421900",
+      "desk": "gaming",
+      "line": "Rockstar Games says Grand Theft Auto VI is one week away, and that pre-orders and pre-loads are open and boxed copies are available now at retailers worldwide. A follow-up post from the publisher says \"See you in Leonida next week!\"",
+      "also": [
+        "2120909731963527300"
+      ]
     }
   ]
 }

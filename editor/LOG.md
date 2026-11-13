@@ -6172,3 +6172,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list; plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (status MO1550821, per MSFT365Status; no outside source opened here); Hegseth OSS memo. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T04:20Z
+- Captures read: 0407Z (0300Z was the last logged read). Last read: 0407Z.
+- X's check: 0407Z 49 confirmed, 0 missing, 0 mismatched, 1 withheld by X (2057777955976446315, old content, not used). Earlier run 2306Z carries 1 mismatch, 2120818898882977863 (cortis_bighit), not used.
+- Pulse: 45 items listed (1 in, 1 out). In: Rockstar Games on Grand Theft Auto VI being a week away (gaming), its follow-up post in `also`. Out, one of the smallest on the page: SawyerMerritt (tech). Header 0407Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Eric Daugh post on Trump saying Huang called him (claim about a named person, unchecked); Latin Grammys, MLB NL MVP and Streamer Awards posts (small); Popeyes post (advertisement); El Salvador Haiti stadium post (claim unchecked); posts flagged old_content.
+- Requests: none. Two ids added to the watch list; plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
