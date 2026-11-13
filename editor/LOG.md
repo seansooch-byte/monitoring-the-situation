@@ -6282,3 +6282,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list unchanged; plan.json not rebuilt.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: US PPI and rate-hike odds, Van Hollen vs Schumer, Microsoft 365 recovery. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T15:15Z
+- Captures read: 1502Z (1359Z was the last logged read). Last read: 1502Z.
+- X's check: 1502Z 46 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none shown). Earlier runs unchanged (1001Z and 1304Z each 1 mismatched; none shown).
+- Pulse: 42 items listed (0 in, 0 out). Nothing is past 36 hours (oldest: robotaxi, 04:31Z on 12 November) and no new post beat what is shown. Header 1502Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Ring camera prank thread (private individuals); "Send the flood" (point not clear from words or media); Sundar Pichai "Nice summary @grok" (quotes a post not captured, point not clear); remyclips police assist clip (private people in video); Schwarzenegger/Kimmel and Coons on Nvidia (second takes on shown topics); Iran missile and radar posts (unchecked claims, small); old_content posts.
+- Requests: none. Watch list unchanged; plan.json not rebuilt.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Microsoft 365 outage recovery, Kushner in Moscow and Kyiv, Krakow shooter complaint. The starting message had no instructions beyond the contract.
