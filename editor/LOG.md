@@ -6322,3 +6322,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the Microsoft post; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Bessent on Megaspeed and Nvidia export decisions, Philip Rivers named NC State head coach. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T19:35Z
+- Captures read: 1907Z (1801Z was the last logged read). Last read: 1907Z.
+- X's check: 1907Z 45 confirmed, 0 missing, 0 mismatched, 1 withheld by X (not shown). 1801Z had 3 withheld, logged last pass.
+- Pulse: 46 items listed (2 in, 1 out). In: BRICS News on a Russian mRNA cancer vaccine report (medicine), Unusual Whales on the Axios report about Israel, Mossad and Iran (world). Out, past 36 hours: NYT Indonesia post. The build holds back one BBCWorld post (account cap). Header 1907Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Unusual Whales on banned Nvidia chips and a named person (unchecked claim about a named person); Reuters on Bessent and Megaspeed (no source opened); SpaceX Flight 15 post (account already holds a place); MLB Alvarez clip (sports desk full, a child appears); Dexerto delivery driver and cat clip (private person); Touchline on City sanctions and Cointelegraph "wholesale inflation 6.5%" (unchecked, desk label looks wrong); Radio Genoa posts (insults about a nationality); old_content posts.
+- Requests: none added or removed. Watch list gained two ids; plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Russian mRNA vaccine claim, Israel pressing for renewed Iran strikes, Bessent on Megaspeed. The starting message had no instructions beyond the contract.

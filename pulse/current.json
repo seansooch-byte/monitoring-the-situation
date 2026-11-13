@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T18:08:51Z",
-  "capture": "2026-11-13T1801Z",
+  "updated_at": "2026-11-13T19:18:46Z",
+  "capture": "2026-11-13T1907Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -22,12 +22,6 @@
       "also": [
         "2120852861600809284"
       ]
-    },
-    {
-      "id": "2120776451607715862",
-      "desk": "world",
-      "line": "The New York Times reports that Indonesia's vice president is stepping down. Not checked here.",
-      "also": []
     },
     {
       "id": "2120841731302154708",
@@ -262,6 +256,18 @@
       "id": "2121282013600907325",
       "desk": "tech",
       "line": "Microsoft says it is deeply sorry for the outage and that service is broadly recovering. It says the cause was a network capacity upgrade followed by a network change, not a cyberattack or AI agents, and that it will publish a full post-incident report. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121293940909604988",
+      "desk": "medicine",
+      "line": "BRICS News, an aggregator account, says Russia reports that the first patient treated with a personalized mRNA cancer vaccine shows no signs of new tumors four months after treatment. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121311382218187128",
+      "desk": "world",
+      "line": "Unusual Whales, an account that posts news and market items, says Axios reports that Israel is pressing President Trump to restart the war with Iran and that Mossad chief Roman Gofman is in Washington to make the case. Not checked here.",
       "also": []
     }
   ]
