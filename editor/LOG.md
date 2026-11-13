@@ -6312,3 +6312,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Watch list gained three ids; plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Harbaugh on Henley trade, Mace and Walz exchange, Starship 42. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T18:10Z
+- Captures read: 1801Z (1707Z was the last logged read). Last read: 1801Z.
+- X's check: 1801Z 114 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none shown; two stories cite two of them, see below). 1707Z had 2 mismatched (2121280505786110176 imodarressi, 2114665844580176313 4Dlabs_Official), logged last pass.
+- Pulse: 45 items listed (1 in, 0 out). In: Microsoft's own outage statement (tech). Nothing is past 36 hours (oldest: NYT Indonesia post, 07:11Z on 12 November; it ages out next pass). The build holds back one BBCWorld post (account cap). Header 1801Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Stephen A. Smith clip repost by Dejisco29 (second take on a shown item); Bessent and Lutnick posts (Rupar, Geiger, CNN, Daugherty; unchecked claim about named people, no source opened); Rihanna magazine shoot (promotion); GTA 6 leak and "new footage" posts (unchecked); LibreOffice and Karl Sharro jokes (second takes on the outage); Streamer Awards "rigged" post (topic already shown); Passan on Bauers contract (sports desk full); Pakistan madrasa clip (private person, unchecked); non-English meme posts (point unclear); Lindell and Tarczynski clips (unchecked claims).
+- Requests: none added or removed. Watch list gained the Microsoft post; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Bessent on Megaspeed and Nvidia export decisions, Philip Rivers named NC State head coach. The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T17:20:00Z",
-  "capture": "2026-11-13T1707Z",
+  "updated_at": "2026-11-13T18:08:51Z",
+  "capture": "2026-11-13T1801Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -257,6 +257,12 @@
       "id": "2120945866462704106",
       "desk": "politics",
       "line": "DIN Intel Network, an account posting political clips, shares a video. Its text quotes Nancy Mace asking \"What is a woman?\" and Walz answering that he is the governor of Minnesota and is not there to be \"a prop for your obsession.\" The setting is not given. Not checked here."
+    },
+    {
+      "id": "2121282013600907325",
+      "desk": "tech",
+      "line": "Microsoft says it is deeply sorry for the outage and that service is broadly recovering. It says the cause was a network capacity upgrade followed by a network change, not a cyberattack or AI agents, and that it will publish a full post-incident report. Not checked here.",
+      "also": []
     }
   ]
 }
