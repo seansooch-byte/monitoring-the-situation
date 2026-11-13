@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T06:12:00Z",
-  "capture": "2026-11-13T0559Z",
+  "updated_at": "2026-11-13T07:12:00Z",
+  "capture": "2026-11-13T0702Z",
   "items": [
-    {
-      "id": "2120582957782200586",
-      "desk": "ai",
-      "line": "The account Grok Bot announces Grok Bot 1.0, which it describes as AI teammates that work with a whole team in Slack, Teams and meetings. Elon Musk quotes it, telling people to hire Grok Bot as a colleague. Grok, the model that gathers this page's posts, is made by xAI. I could not confirm here who runs this account.",
-      "also": [
-        "2120584535423565889"
-      ]
-    },
     {
       "id": "2120640219871384044",
       "desk": "politics",
@@ -45,11 +37,6 @@
         "2120658425550135333",
         "2120704382589141319"
       ]
-    },
-    {
-      "id": "2120591757981135223",
-      "desk": "internet",
-      "line": "IShowSpeed's account posts a video it says shows Serena Williams giving him a 6-0 head start and then winning eight straight points. Not checked here."
     },
     {
       "id": "2120606353953587303",
@@ -134,11 +121,6 @@
       "id": "2120609856671416610",
       "desk": "sports",
       "line": "The Dunk Central account posts a video of Steph Curry saying that people talking about his wife, Ayesha Curry, should keep her name out of their mouths. It names Nick Young and Gilbert Arenas as two of them. What they said is not checked here."
-    },
-    {
-      "id": "2120581433639198885",
-      "desk": "ai",
-      "line": "Logan Kilpatrick announces \"Gemini Decision 1\", which he calls a new frontier decision model in the Gemini API, at $0.10 per 1M input tokens and free to try in the API. Not checked here."
     },
     {
       "id": "2120879805042467174",
@@ -239,6 +221,26 @@
       "also": [
         "2120909731963527300"
       ]
+    },
+    {
+      "id": "2120995209261514827",
+      "desk": "tech",
+      "line": "Microsoft 365 Status, the service’s status account, says it is restarting and validating affected servers to return them to service, and is assessing whether reverting a few recent configuration updates would speed recovery. The post does not say what is affected. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121111560198426851",
+      "desk": "internet",
+      "line": "Jake Lucky, a streaming commentator, posts that IShowSpeed won Streamer of the Year at the Streamer Awards and gave his acceptance speech entirely in Indonesian. A reply from Overtime says the same of the speech.",
+      "also": [
+        "2121111756982636852"
+      ]
+    },
+    {
+      "id": "2120946968403095906",
+      "desk": "ai",
+      "line": "The account Grok Bot announces that Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location and Contacts. Grok, the model that gathers this page’s posts, is made by xAI. I could not confirm here who runs this account.",
+      "also": []
     }
   ]
 }

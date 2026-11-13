@@ -6202,3 +6202,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T07:15Z
+- Captures read: 0702Z (0559Z was the last logged read). Last read: 0702Z.
+- X's check: 0702Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged.
+- Pulse: 41 items listed (3 in, 3 out). In: MSFT365Status on its Microsoft 365 recovery (tech), JakeSucky on IShowSpeed at the Streamer Awards with Overtime's reply in `also` (internet), Grok Bot on Mac access (ai, largest remaining post from that account). Out, older than 36 hours: the earlier Grok Bot announcement (and its `also`), IShowSpeedHQ (internet), OfficialLoganK (ai). Header 0702Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk "Jensen" post (one word, flagged non_english, point unclear) and his Grok Bot posts (account already holds a place); Nvidia employee petition and crypto-crash-on-Huang posts (claims about a named person, unchecked); AyoMaff music promo; XSpranp and shezzzz_weird (point not clear from the post); ynlDestyni Nicki Minaj clip (old clip, no description); posts flagged old_content.
+- Requests: none. Four ids added to the watch list; plan.json rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage, Nvidia CEO succession. The starting message had no instructions beyond the contract.
