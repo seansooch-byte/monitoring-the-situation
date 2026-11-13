@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T00:50:00Z",
-  "capture": "2026-11-13T0004Z",
+  "updated_at": "2026-11-13T01:14:32Z",
+  "capture": "2026-11-13T0106Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -62,11 +62,6 @@
       "desk": "music",
       "line": "The account meyechelgossips says the Coachella 2027 line-up is bad. Its image sorts the artists by colour: red for unknown, yellow for artists to watch, green for known. The photo has no description.",
       "also": []
-    },
-    {
-      "id": "2120761428831293871",
-      "desk": "world",
-      "line": "Clash Report, a news aggregator account, posts a video and says US envoy Steve Witkoff and Jared Kushner have arrived in Moscow for peace talks. Not checked here."
     },
     {
       "id": "2120606353953587303",
@@ -256,6 +251,14 @@
       "desk": "business",
       "line": "The Kobeissi Letter says Bloomberg reports that SpaceX and Tesla could merge as soon as December, and that the boards and advisers are \"hammering out\" the terms. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121026615228440796",
+      "desk": "politics",
+      "line": "Stephen A. Smith, a commentator, says he sat down with President Trump for an exclusive White House interview and asked whether anyone can really be replaced. He links the video on YouTube. What Trump said has not been checked here.",
+      "also": [
+        "2121023524567482716"
+      ]
     }
   ]
 }

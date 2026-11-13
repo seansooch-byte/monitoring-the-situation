@@ -6142,3 +6142,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: SpaceX and Tesla merger talks (Bloomberg, per Kobeissi Letter; no outside source opened here). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T01:20Z
+- Captures read: 0106Z (0004Z was the last logged read). Last read: 0106Z.
+- X's check: 0106Z 47 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier runs unchanged.
+- Pulse: 45 items listed (1 in, 1 out). In: Stephen A. Smith on his White House interview with President Trump (politics), with his second post on the interview in `also`; what Trump said is not checked. Out, smallest on the page: Clash Report on Witkoff and Kushner in Moscow (world). Header 0106Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Greta Thunberg NY Post post (point unclear, pile-on replies); Jenner legal argument post (private-person case); F1 Tsolov, MLB AL MVP (sports full); MatPat return, Wolfenstein 3 (near the page floor); Khan_Fatimaa1 arrest post (a private person); Jensen Huang honeypot claims (allegation about a named person, unchecked); posts flagged old_content.
+- Requests: none. Two ids added to the watch list; plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
