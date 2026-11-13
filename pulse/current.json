@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T02:50:00Z",
-  "capture": "2026-11-13T0200Z",
+  "updated_at": "2026-11-13T03:08:54Z",
+  "capture": "2026-11-13T0300Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -190,7 +190,10 @@
     {
       "id": "2120946562620907823",
       "desk": "tech",
-      "line": "The account FajrEMalik posts that Microsoft Outlook is down in the middle of the work day. Not checked here."
+      "line": "The account FajrEMalik posts that Microsoft Outlook is down in the middle of the work day. The Microsoft 365 Status account, in a later post, says it has revised the list of affected services and is still working to isolate an issue affecting server availability.",
+      "also": [
+        "2121045804852945188"
+      ]
     },
     {
       "id": "2120940601319260164",
@@ -256,9 +259,9 @@
       "also": []
     },
     {
-      "id": "2120921049097187618",
+      "id": "2121061505160642660",
       "desk": "politics",
-      "line": "Senator Chuck Schumer says Congress must still demand answers from Jensen Huang and Nvidia on national security, and asks what the Trump administration did once it learned of Huang’s relationship with a suspected Chinese intelligence asset. Not checked here.",
+      "line": "Senator Chris Van Hollen says Americans called on his party to \"unrig\" an economy he calls rigged against working people and fueled by political corruption, says that takes new leadership, and announces he is running for Senate Majority Leader. Not checked here.",
       "also": []
     }
   ]

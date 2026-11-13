@@ -6162,3 +6162,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list; plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T03:10Z
+- Captures read: 0300Z (0200Z was the last logged read). Last read: 0300Z.
+- X's check: 0300Z 94 confirmed, 0 missing, 0 mismatched, 4 withheld by X. Earlier runs unchanged.
+- Pulse: 45 items listed (1 in, 1 out). In: Sen. Van Hollen announcing a run for Senate Majority Leader (politics). Out, smallest politics item: Schumer on Nvidia. The Microsoft 365 Status post on the outage is attached to the Outlook item. Header 0300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Bukele Haiti stadium post (not in English, claim about remains unchecked, outside the largest); 9News Melbourne missing teenager clip (a minor); Ole Miss incident posts (private persons); Greta Thunberg NY Post post (point unclear); Epstein tape and Huang affair claims (unconfirmed claims about named people); Netflix Tupac and Kick GTA giveaway (promotion); Hegseth OSS post (not researched); MLB AL MVP (account already shown, smaller than its Cy Young post).
+- Requests: none. Two ids added to the watch list; plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (status MO1550821, per MSFT365Status; no outside source opened here); Hegseth OSS memo. The starting message had no instructions beyond the contract.
