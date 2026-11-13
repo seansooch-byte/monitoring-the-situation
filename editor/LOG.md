@@ -6212,3 +6212,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Four ids added to the watch list; plan.json rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage, Nvidia CEO succession. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T08:20Z
+- Captures read: 0808Z (0702Z was the last logged read). Last read: 0808Z.
+- X's check: 0808Z 51 confirmed, 0 missing, 0 mismatched, 1 withheld by X. Earlier runs unchanged.
+- Pulse: 42 items listed (4 in, 3 out). In: Teasercon on the Avengers: Doomsday final trailer (entertainment), NBA on Cade Cunningham's night (sports), SNY Giants on Cam Skattebo's pregame hot dog (offbeat), Rupert Lowe on the Hyndburn by-election (world). Out, older than 36 hours: CBSNews (world), atrupar (politics), TheDunkCentral (sports). Header 0808Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: fistfightreels and Chrisean Rock clips (private people or fights, point unclear); TheEnglishPat, stickygoons, BannedVids, mom_agency_ clips (private people or no description); Osint613 on an Iranian claim of hitting a US radar in Bahrain (unconfirmed military claim, small); RickOceanMusic post on Huang (claim about a named person, unchecked); partisan political clip posts (unsourced framing); second posts from NBA, Fabrizio Romano, DiscussingFilm, MarioNawfal and IGN (account already holds a place, or small); posts flagged old_content.
+- Requests: none. Four ids added to the watch list; plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (Microsoft says no sign of cyberattack), Nvidia CEO succession, reported Iran claim about a Bahrain radar. The starting message had no instructions beyond the contract.
