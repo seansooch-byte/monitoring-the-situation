@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T19:18:46Z",
-  "capture": "2026-11-13T1907Z",
+  "updated_at": "2026-11-13T20:13:13Z",
+  "capture": "2026-11-13T2004Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -34,11 +34,6 @@
       "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing, dated 11 November, says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
     },
     {
-      "id": "2120856756393857450",
-      "desk": "sports",
-      "line": "Crystal Palace says in a club statement that Pierre Sage has left his role as manager, and thanks him and his staff. Not checked here."
-    },
-    {
       "id": "2120804738031616095",
       "desk": "world",
       "line": "Ukraine’s president Zelenskyy says Ukrainian units have recorded systematic speed limits of 161 km/h on Starshield over Ukraine for several days, which he says hampers intercepting Russian jet-powered drones. He says Ukraine is raising it with the American side. Not checked here."
@@ -54,14 +49,6 @@
       "line": "Billboard reports that Megan of KATSEYE did the “PINKY UP” dance break in Dallas, after staying seated at a previous stop to recover from a concussion. Not checked here."
     },
     {
-      "id": "2120797270341730587",
-      "desk": "sports",
-      "line": "Adam Schefter says the Broncos announced late Wednesday night that their trade to acquire Henley from the Los Angeles Chargers “will not be finalized”. Not checked here.",
-      "also": [
-        "2120798919059755181"
-      ]
-    },
-    {
       "id": "2120864682026418629",
       "desk": "entertainment",
       "line": "The account DiscussingFilm posts a new trailer for The Thomas Crown Affair, which it says Michael B. Jordan directs and stars in, and gives a release date of 5 March 2027. Not checked here.",
@@ -71,11 +58,6 @@
       "id": "2120931356914151835",
       "desk": "music",
       "line": "The account PopBase posts a statement it attributes to Shawn Mendes, who says he is speaking out in support of Palestine and asks fellow artists to use their voices. The quoted text is cut off. Not checked here."
-    },
-    {
-      "id": "2120894716006879552",
-      "desk": "politics",
-      "line": "Polymarket, a prediction market account, says it has been revealed that Rep. Ro Khanna's family sold Nvidia stock one day after its all-time high in early October. It links a source. Not checked here."
     },
     {
       "id": "2120946562620907823",
@@ -175,12 +157,6 @@
       "also": []
     },
     {
-      "id": "2121083956724408551",
-      "desk": "sports",
-      "line": "The NBA account posts that Detroit beat its opponent in double overtime and that Cade Cunningham scored 52 points with 11 assists and no turnovers. It says he is the first player to do that since 1977-78. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121105149644960133",
       "desk": "offbeat",
       "line": "SNY Giants posts a clip of Cam Skattebo saying a pretzel-wrapped hot dog before the game is why he threw up on the sideline in the first half. He says he felt good after.",
@@ -213,12 +189,6 @@
       "id": "2121069007159927248",
       "desk": "internet",
       "line": "Yoxics, an account covering streaming, says that for the first time in Streamer Awards history a nominee named SmallFryz invited his fellow nominees on stage to accept the Hidden Gem award with him. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2120909946623832213",
-      "desk": "politics",
-      "line": "Fox News Politics reports on a Mike Pence interview, his first since the midterms, in which it says Pence criticises President Trump on tariffs and the Iran war and disputes Vice President Vance's claim that the war alone cost Republicans Congress. Not checked here.",
       "also": []
     },
     {
@@ -268,6 +238,30 @@
       "id": "2121311382218187128",
       "desk": "world",
       "line": "Unusual Whales, an account that posts news and market items, says Axios reports that Israel is pressing President Trump to restart the war with Iran and that Mossad chief Roman Gofman is in Washington to make the case. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121064747625824279",
+      "desk": "internet",
+      "line": "A user says the Streamer Awards used a Fox News headline about Hasan, and calls the choice \"diabolical\". The post is a 12-second video; I could not see what it shows. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121095213829755333",
+      "desk": "sports",
+      "line": "The NFL account posts a short video captioned \"RASUL DOUGLAS CALLS GAME.\" The post does not say what the play was.",
+      "also": []
+    },
+    {
+      "id": "2121249638829466038",
+      "desk": "business",
+      "line": "Valuetainment, a media account, says 88% of Nvidia employees voted for Jensen Huang to stay as CEO. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121329790942601427",
+      "desk": "sports",
+      "line": "Shams Charania of ESPN reports that New Orleans Pelicans guard Dejounte Murray wants a trade, and that his agent and team officials have started working on a resolution. He cites sources. Not checked here.",
       "also": []
     }
   ]

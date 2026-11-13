@@ -6332,3 +6332,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained two ids; plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Russian mRNA vaccine claim, Israel pressing for renewed Iran strikes, Bessent on Megaspeed. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T20:25Z
+- Captures read: 2004Z (1907Z was the last logged read). Last read: 2004Z.
+- X's check: 2004Z 98 confirmed, 0 missing, 0 mismatched, 10 withheld by X (none shown; the Libs of TikTok bus post is among them).
+- Pulse: 45 items listed (4 in, 5 out). In: Streamer Awards and Hasan headline post (internet), NFL Rasul Douglas video (sports), Valuetainment on Nvidia staff vote for Huang (business), Shams Charania on Dejounte Murray trade request (sports; grabber had business). Out to keep to 45: Schefter (near 36 hours), CPFC, Polymarket, foxnewspolitics, NBA, all among the smaller items. The build holds back one BBCWorld post (account cap). Header 2004Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Vexo bracelet (advertisement); Stephanopoulos and Vance transcript (unchecked claim about named people); school bus video (withheld by X, minors); NYT Jensen biographer photo (point not clear); Musk "Try Grok @Bot" (point not clear); Diggs clips (what was said is not in the post); NFL McCarthy clip (account already holds a place); Fox News Stephen A. Smith (second take on a shown item); Oltmann election-fraud claims (unchecked); old_content and sexual posts.
+- Requests: none added or removed. Watch list gained four ids; plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Valuetainment Nvidia staff vote claim, Oltmann promised election report (unchecked). The starting message had no instructions beyond the contract.
