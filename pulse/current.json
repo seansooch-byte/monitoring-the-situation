@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T09:25:00Z",
-  "capture": "2026-11-13T0906Z",
+  "updated_at": "2026-11-13T10:12:00Z",
+  "capture": "2026-11-13T1001Z",
   "items": [
     {
       "id": "2120640219871384044",
@@ -100,11 +100,6 @@
       "also": [
         "2120798919059755181"
       ]
-    },
-    {
-      "id": "2120637790329163833",
-      "desk": "justice",
-      "line": "TMZ reports that the rapper Yella Beezy was convicted of hiring a hitman to kill the rapper Mo3 and sentenced to life. Not checked here."
     },
     {
       "id": "2120879805042467174",
@@ -261,6 +256,11 @@
       "desk": "gaming",
       "line": "HYPEX, an account that tracks Fortnite, announces a Fortnite emote based on Kasane Teto. The post carries no media description.",
       "also": []
+    },
+    {
+      "id": "2121086493712134314",
+      "desk": "tech",
+      "line": "BBC News (World) reports that Microsoft says its attempts to fix the global outage are not going \"as expected\", and links to a live page."
     }
   ]
 }

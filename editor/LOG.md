@@ -6232,3 +6232,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Two ids added to the watch list; plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (Sky News says the fix is not going as expected), Nvidia CEO succession. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T10:15Z
+- Captures read: 1001Z (0906Z was the last logged read). Last read: 1001Z.
+- X's check: 1001Z 61 confirmed, 0 missing, 1 mismatched (2121121047445725532, aespa_official, hashtag text differs from X's; not shown), 1 withheld by X (2120912419962986870, Xerpat_; not shown). Earlier runs unchanged.
+- Pulse: 44 items listed (1 in, 1 out). In: BBC News (World) on Microsoft saying its outage fix is not going as expected (tech; the account holds another place, so the front page holds this one back and it stands on the tech desk page). Out, older than 36 hours: TMZ on Yella Beezy (justice). Phil Lewis and Variety reach 36 hours before the next pass. Header 1001Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Forbes third-affair post and other Nvidia affair posts (claims about a named person, unchecked); NatureUnedited, kotckaq, nostalsokei videos (no description or non-English, point unclear); itstoz and YBCTooCold posts (generalising about a group); RT_Russia_ Rubik's clip (private people); jk_rowling and other old_content posts.
+- Requests: none. Watch list refreshed (280 ids); plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft 365 outage (BBC says Microsoft's fix is not going as expected), Nvidia CEO succession. The starting message had no instructions beyond the contract.
