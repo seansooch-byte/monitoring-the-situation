@@ -6252,3 +6252,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. Eight ids added to the watch list; plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Russia peace-talk demands, Streamer Awards, Colom Senate win. The starting message had no instructions beyond the contract.
+
+## 2026-11-13T12:45Z
+- Captures read: 1206Z (1106Z was the last logged read). Last read: 1206Z.
+- X's check: 1206Z 61 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier runs unchanged (1001Z: 1 mismatched, 2121121047445725532, aespa_official; not shown).
+- Pulse: 44 items listed (1 in, 1 out). In: Sky Sports Premier League on Bruno Fernandes rejecting a second contract offer (sports). Out, older than 36 hours: MLB on the Cy Young Award (sports). Nintendo, Elon Musk and HYPEX reach 36 hours before the next pass. Header 1206Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: EricLDaugh post naming the D.C. gym shooting suspect and the Fox News follow-up (claims about a named person, unchecked); WallStreetApes Scottsdale post (generalises about a religious group); second MSFT365Status post (account already holds a place); RadioGenoa Spain post (insults about a group); crypto posts (small, market commentary); old_content posts.
+- Requests: none. Watch list updated; plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: D.C. gym shooting, Microsoft 365 outage recovery, Bitcoin at its 200-week average. The starting message had no instructions beyond the contract.

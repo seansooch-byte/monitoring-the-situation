@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-13T11:50:00Z",
-  "capture": "2026-11-13T1106Z",
+  "updated_at": "2026-11-13T12:40:00Z",
+  "capture": "2026-11-13T1206Z",
   "items": [
-    {
-      "id": "2120671764779008481",
-      "desk": "sports",
-      "line": "MLB announces that Cam Schlittler is the 2026 American League Cy Young Award winner."
-    },
     {
       "id": "2120688866529275958",
       "desk": "gaming",
@@ -263,6 +258,11 @@
       "desk": "politics",
       "line": "Benny Johnson, a commentator, says in an \"exclusive\" that White House Chief of Staff Stephen Miller has banned unauthorized meetings between White House staff and lobbyists and special interests. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121138040508727707",
+      "desk": "sports",
+      "line": "Sky Sports Premier League reports that Manchester United captain Bruno Fernandes has rejected a second contract offer from the club, with his deal due to expire at the end of the season. Not checked here."
     }
   ]
 }
