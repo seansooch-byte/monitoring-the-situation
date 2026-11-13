@@ -6132,3 +6132,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none. One id added to the watch list; plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: Microsoft Outlook outage on 12 November (TGLetter says 128,874 reports; no source opened here). The starting message had no instructions beyond the contract.
+
+## 2026-11-13T00:50Z
+- Captures read: 0004Z (2306Z was the last logged read). Last read: 0004Z.
+- X's check: 0004Z 63 confirmed, 0 missing, 0 mismatched, 0 withheld by X. Earlier runs unchanged.
+- Pulse: 45 items listed (1 in, 1 out); the build holds one clashreport item off the front page. In: Kobeissi Letter on the reported SpaceX and Tesla merger talks (business, attributed to Bloomberg, not checked). Out, smallest on the page: Reuters on Trump and Tim Cook at Nvidia (politics). Header 0004Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Cobratate prison post (allegation about a named person, claims unchecked); Blanche relocation claim (HormuzLetter, unchecked claim about a named person); Elon Musk Cybertruck and Megapacks posts (account already shown); Epstein tape claims (Tay_Travis11, unconfirmed claim about a named person); Greta Thunberg clip (EricLDaugh, point unclear); Khan_Fatimaa1 arrest post (a private person); Netflix Tupac (promotion).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the story pass: SpaceX and Tesla merger talks (Bloomberg, per Kobeissi Letter; no outside source opened here). The starting message had no instructions beyond the contract.

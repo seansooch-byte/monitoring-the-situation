@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-12T23:40:00Z",
-  "capture": "2026-11-12T2306Z",
+  "updated_at": "2026-11-13T00:50:00Z",
+  "capture": "2026-11-13T0004Z",
   "items": [
     {
       "id": "2120582957782200586",
@@ -239,11 +239,6 @@
       "line": "BBC World reports fourteen people dead after a truck lost control in a 23-vehicle crash in the UAE. Not checked here."
     },
     {
-      "id": "2120979964535173612",
-      "desk": "politics",
-      "line": "Reuters reports that Trump says former Apple chief Tim Cook is \"a legend\" and should replace Jensen Huang at Nvidia. Not checked here."
-    },
-    {
       "id": "2120736143566344324",
       "desk": "tech",
       "line": "The Robotaxi account says Robotaxi now runs 24/7 in every city where it is available, in a four-second video. Elon Musk quotes it, saying it works 168 hours a week. Not checked here.",
@@ -255,6 +250,12 @@
       "id": "2120972282096918904",
       "desk": "tech",
       "line": "Olking07 posts that Microsoft services are down worldwide and asks Grok what happened. The post gives no cause. Grok, the model that gathers this page's posts, is made by xAI. Not checked here."
+    },
+    {
+      "id": "2120978626132738178",
+      "desk": "business",
+      "line": "The Kobeissi Letter says Bloomberg reports that SpaceX and Tesla could merge as soon as December, and that the boards and advisers are \"hammering out\" the terms. Not checked here.",
+      "also": []
     }
   ]
 }
