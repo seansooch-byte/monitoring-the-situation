@@ -6514,11 +6514,20 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
 
 ## 2026-11-14T19:20Z
-- Captures read: 1900Z (1801Z was the last logged read). Last read: 1900Z.
-- X's check: 1900Z 99 confirmed, 0 missing, 0 mismatched, 0 withheld. No missing or mismatched in this pass's runs.
+- Captures read: 1900Z (1801Z was the last logged read). Last read: 1900Z.- X's check: 1900Z 99 confirmed, 0 missing, 0 mismatched, 0 withheld. No missing or mismatched in this pass's runs.
 - Pulse: 30 items (0 in, 0 out). Nothing new in the 1900Z capture was among the largest posts that may be shown, and nothing on the pulse is past 36 hours. Header 1900Z.
 - Added: none. Updated: none (pulse pass).
 - Left out: Fetterman/Van Hollen post (small, story not re-checked); Texas "Confederate Heroes Day" bill post (small, unchecked); TMZ castration headline (conviction claim, no source); Genesis_Perry6 and nabulionee2 videos (point unclear); old_content posts; Bernie Sanders steps, Nuremberg trailer, Bachelor (as before).
 - Requests: none added or removed. No new watch ids; plan.json rebuilt for 20Z.
 - Shipped: yes, see report for the audit.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T20:40Z
+- Captures read: 2008Z (1900Z was the last logged read). Last read: 2008Z.
+- X's check: 2008Z 52 confirmed, 0 missing, 0 mismatched, 1 withheld. No missing or mismatched in this pass's runs.
+- Pulse: 30 items (1 in, 1 out). In: unusual_whales on Sam Altman and OpenAI robotics (ai, marked not checked). Out: Sky Sports on Bruno Fernandes (past 36 hours). Header 2008Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk and SpaceX Starship posts (account already placed); allchronology pilot clip (disaster already full, unchecked claim); Pirat_Nation Nvidia report and adamemedia Trump post (unchecked, no source); RadioGenoa shop post (religion pile-on); posts flagged private_individual (Belgium, Met Police custody, NYPD nurse); crypto promotion posts; small world, gaming and markets posts (well under the pulse's size).
+- Requests: none added or removed. One id added to the watch list (2121664710743597410); plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Board has no token here, so this report is not posted there. The starting message had no instructions beyond the contract.

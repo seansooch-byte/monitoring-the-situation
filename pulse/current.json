@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T19:20:00Z",
-  "capture": "2026-11-14T1900Z",
+  "updated_at": "2026-11-14T20:35:00Z",
+  "capture": "2026-11-14T2008Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -14,11 +14,6 @@
       "desk": "offbeat",
       "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
       "also": []
-    },
-    {
-      "id": "2121138040508727707",
-      "desk": "sports",
-      "line": "Sky Sports Premier League reports that Manchester United captain Bruno Fernandes has rejected a second contract offer from the club, with his deal due to expire at the end of the season. Not checked here."
     },
     {
       "id": "2121250205806772283",
@@ -184,6 +179,12 @@
       "id": "2121257756216934790",
       "desk": "entertainment",
       "line": "Rihanna posts photos from a shoot for Arena Homme+ issue 66, titled \"RIOT ROSE\", and credits the photographer, stylist, hair and production team.",
+      "also": []
+    },
+    {
+      "id": "2121664710743597410",
+      "desk": "ai",
+      "line": "The account unusual_whales posts that Sam Altman says OpenAI will aim its robotics program at building its own data centers, and that on a podcast he called self-replicating data centers \"within grasp\". Not checked here.",
       "also": []
     }
   ]
