@@ -6412,3 +6412,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA ground stop cause still unchecked; Huang spy scandal (Sacks says the AG sees no clear evidence; unchecked). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T04:25Z
+- Captures read: 0405Z (0302Z was the last logged read). Last read: 0405Z.
+- X's check: 0405Z 109 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none cited by the pulse). No missing or mismatched in recent runs.
+- Pulse: 42 items listed (2 in, 1 out). In: FAA news account statement on the telecommunications outage (disaster), Gavin Newsom on the airport stranding (politics). Out: Rockstar GTA VI one week away (past 36 hours). The build holds back one BBCWorld post (account cap). Header 0405Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: MikeBeauvais "new job at the FAA" post (joke or unclear, private person); Acyn Duffy clip (shows an unnamed reporter); Bedroom__Lord, BigBallerCam___, AsianDawn4, GirlScout27 posts (sexual, or private people); adonispara Microsoft post (insults about nationality); RabbiJeffx, Nostre_damus, CapitolLeaks1 (unchecked alarm claims); kapoorkhushi31 (private individuals); old_content posts.
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA statement cites a telecommunications outage, cause still unchecked; Nvidia investor letters (Atreides, Altimeter) on Huang's reinstatement. The starting message had no instructions beyond the contract.

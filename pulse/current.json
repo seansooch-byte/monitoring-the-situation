@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T03:20:00Z",
-  "capture": "2026-11-14T0302Z",
+  "updated_at": "2026-11-14T04:25:00Z",
+  "capture": "2026-11-14T0405Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -78,14 +78,6 @@
       "desk": "politics",
       "line": "Senator Chris Van Hollen says Americans called on his party to \"unrig\" an economy he calls rigged against working people and fueled by political corruption, says that takes new leadership, and announces he is running for Senate Majority Leader. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120909499200421900",
-      "desk": "gaming",
-      "line": "Rockstar Games says Grand Theft Auto VI is one week away, and that pre-orders and pre-loads are open and boxed copies are available now at retailers worldwide. A follow-up post from the publisher says \"See you in Leonida next week!\"",
-      "also": [
-        "2120909731963527300"
-      ]
     },
     {
       "id": "2121111560198426851",
@@ -252,6 +244,18 @@
       "id": "2121045067632922696",
       "desk": "ideas",
       "line": "The account of New York City Mayor Zohran Kwame Mamdani says some companies use personal data such as browsing history to charge different customers different prices, and that the city has banned the practice, which it calls surveillance pricing. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121363171361575176",
+      "desk": "disaster",
+      "line": "The FAA's news account says there has been a temporary telecommunications outage, that all flights have been halted out of an abundance of caution, and that every flight is accounted for. The post does not say what caused the outage.",
+      "also": []
+    },
+    {
+      "id": "2121428474816803089",
+      "desk": "politics",
+      "line": "Gavin Newsom says President Trump was \"MIA\" while 1.5 million Americans were stranded at airports at a scale not seen since 9/11, and says Trump does not care about them. The figure and the comparison are his claims. Not checked here.",
       "also": []
     }
   ]
