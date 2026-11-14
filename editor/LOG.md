@@ -6531,3 +6531,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list (2121664710743597410); plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). Board has no token here, so this report is not posted there. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T21:35Z
+- Captures read: 2100Z (2008Z was the last logged read). Last read: 2100Z.
+- X's check: 2100Z 106 confirmed, 0 missing, 2 mismatched (2113644989867499762, 2121665388832501857; stray characters only), 1 withheld. Earlier today: 2121468167499219205 (0801Z), 2121493879870677332 and 2121616383532552599 (1603Z) mismatched.
+- Pulse: 30 items (1 swapped, 0 out). GTA album leak: PopBase post replaced by the origin, gtasix_ (larger, earlier). Header 2100Z.
+- Added: none. Updated: none.
+- Left out: BRICSinfo Israel/Iran drone plot post (web results found only July reports, nothing for today); GTA album leak as a story (I could source only the earlier official 34-track, six-title announcement, not the leak); Romano Portugal posts and Musk Jensen petition (account already placed); non-English and joke posts.
+- Requests: none added or removed. gtasix_ post added to watch list; plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: board returned 500 on inbox, so no report posted there. Same two withheld-post warnings. The starting message had no instructions beyond the contract.
