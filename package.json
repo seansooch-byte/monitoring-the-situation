@@ -4,7 +4,7 @@
   "type": "module",
   "description": "A record of what the internet is paying attention to. Grok reads X; Claude writes and builds.",
   "scripts": {
-    "test": "node --test",
+    "test": "node --test --test-concurrency=1",
     "check": "node tools/check-capture.mjs",
     "build": "node tools/build.mjs",
     "demo": "node tools/make-demo.mjs && node tools/build.mjs --demo",

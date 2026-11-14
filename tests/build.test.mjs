@@ -13,17 +13,18 @@ const root = fileURLToPath(new URL('..', import.meta.url));
 const run = (...args) => execFileSync('node', args, { cwd: root, encoding: 'utf8' });
 const desks = JSON.parse(readFileSync(root + 'contract/desks.json', 'utf8')).desks;
 
-test('the demo build writes the pulse page, a page per desk and a page per story, and marks itself', () => {
+test('the demo build writes the paper, the wire, a page per desk and a page per story, and marks itself', () => {
   run('tools/make-demo.mjs');
   const out = run('tools/build.mjs', '--demo');
   assert.match(out, /built DEMO site: \d+ on the pulse, 17 stories \(16 current\)/);
   const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const wire = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   assert.ok(existsSync(root + 'dist/DEMO'), 'a demo build leaves a DEMO marker so it is never deployed');
   assert.match(home, /class="demo"/);
   assert.match(home, /name="robots" content="noindex"/);
   assert.match(home, /People live in different worlds/);
   for (const d of desks) {
-    assert.ok(home.includes(`data-desk="${d.id}"`), `${d.id} has a card on the front page`);
+    assert.ok(wire.includes(`data-desk="${d.id}"`), `${d.id} has a card on the wire`);
     assert.ok(existsSync(`${root}dist/desk/${d.id}/index.html`), `${d.id} has a page`);
   }
   // one invented story is more than 48 hours old: it keeps its page, leaves the bulletin, and is in the archive
@@ -32,13 +33,15 @@ test('the demo build writes the pulse page, a page per desk and a page per story
   assert.equal((all.match(/<li class="story"/g) ?? []).length, 16);
   assert.ok(!all.includes('lighthouse webcam') || all.includes('archive'), 'a story older than 48 hours is off the list of current stories');
   assert.equal((all.match(/<li class="story"[^>]*lighthouse/g) ?? []).length, 0);
-  const archive = readFileSync(root + 'dist/archive/index.html', 'utf8');
-  assert.ok(archive.includes('lighthouse webcam'), 'and listed in the archive');
+  const archive = readFileSync(root + 'dist/archive/index.html', 'utf8').split('id="past"')[1];
+  assert.ok(archive.includes('lighthouse webcam'), 'and listed in the back issues');
   assert.ok(!archive.includes('A dog walks onto a live weather forecast'), 'which does not repeat the bulletin');
   assert.ok(!home.includes(String.fromCharCode(0x2014)), 'no em dash on the page');
-  // every element the page script looks up by id exists in the markup
+  // every element the page script looks up by id exists in the markup: the stale notice on every page,
+  // the worlds picker on the wire
   const script = readFileSync(root + 'site/app.js', 'utf8');
-  for (const [, id] of script.matchAll(/getElementById\('([^']+)'\)/g)) assert.ok(home.includes(`id="${id}"`), `#${id} exists`);
+  for (const [, id] of script.matchAll(/getElementById\('([^']+)'\)/g)) assert.ok(wire.includes(`id="${id}"`), `#${id} exists on the wire`);
+  for (const id of ['asof', 'stale']) assert.ok(home.includes(`id="${id}"`), `#${id} exists on the front page`);
 });
 
 test('post text from X is escaped, never trusted as markup', () => {
@@ -78,10 +81,10 @@ test('the live audit removes only what Cloudflare adds, so a real difference sti
 
 // ---- Internet Pulse: the viral posts themselves, each passed and described by the editor
 
-test('the demo build shows the pulse above the stories: one row per item, ranked by views, with the editor\'s line', () => {
+test('the wire shows the pulse above the stories: one row per item, ranked by views, with the editor\'s line', () => {
   run('tools/make-demo.mjs');
   run('tools/build.mjs', '--demo');
-  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   // The largest post leads the page on its own; the rest follow in one list, still largest first.
   const lead = home.match(/<section class="lead"[^>]*data-views="(\d+)"/);
   assert.ok(lead, 'the largest post leads the page');
@@ -96,10 +99,10 @@ test('the demo build shows the pulse above the stories: one row per item, ranked
 
 // ---- Edition 2: the page as drawn. These pin what the stylesheet and the page script rely on.
 
-test('every desk has a card on the front page with one bar for each of the last 24 hours', () => {
+test('every desk has a card on the wire with one bar for each of the last 24 hours', () => {
   run('tools/make-demo.mjs');
   run('tools/build.mjs', '--demo');
-  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   for (const d of desks) {
     const card = home.match(new RegExp(`<button type="button" class="dk" data-desk="${d.id}"[\\s\\S]*?</button>`));
     assert.ok(card, `${d.id} has a card that can be picked`);
@@ -109,7 +112,7 @@ test('every desk has a card on the front page with one bar for each of the last 
 });
 
 test('the pulse list is tiered by position, so its only children are the items themselves', () => {
-  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   const list = home.match(/<ol class="pg" id="pulse-list">([\s\S]*?)<\/ol>/);
   assert.ok(list, 'the pulse list exists');
   const kids = list[1].split(/<\/li>\s*/).filter((s) => s.trim());
@@ -118,7 +121,7 @@ test('the pulse list is tiered by position, so its only children are the items t
 });
 
 test('a post on the pulse keeps its related posts and its link to X', () => {
-  const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   const fixture = JSON.parse(readFileSync(root + 'fixtures/demo/pulse/current.json', 'utf8'));
   const withRelated = fixture.items.filter((it) => (it.also ?? []).length).length;
   assert.ok(withRelated > 0, 'the fixture has related posts to show');
@@ -129,7 +132,7 @@ test('a post on the pulse keeps its related posts and its link to X', () => {
 });
 
 test('the page script only reaches for what the pages have, and the stylesheet is whole', () => {
-  const pages = readFileSync(root + 'dist/index.html', 'utf8') + readFileSync(root + 'dist/stories/index.html', 'utf8');
+  const pages = readFileSync(root + 'dist/pulse/index.html', 'utf8') + readFileSync(root + 'dist/stories/index.html', 'utf8');
   const script = readFileSync(root + 'site/app.js', 'utf8');
   const classes = new Set();
   // The script asks through querySelector or through its own all() helper; both are read here.
@@ -139,9 +142,17 @@ test('the page script only reaches for what the pages have, and the stylesheet i
   const css = readFileSync(root + 'site/styles.css', 'utf8');
   assert.equal((css.match(/{/g) ?? []).length, (css.match(/}/g) ?? []).length, 'every rule is closed');
   assert.equal((css.match(/\/\*/g) ?? []).length, (css.match(/\*\//g) ?? []).length, 'every comment is closed');
-  // One family is loaded, so the stylesheet may name no other web font.
-  assert.match(pages, /fonts\.googleapis\.com\/css2\?family=Schibsted\+Grotesk/);
-  for (const old of ['B612', 'STIX Two', 'Libre Franklin']) assert.ok(!css.includes(old) && !pages.includes(old.replace(/ /g, '+')), `${old} is gone`);
+  // The Broadsheet's four faces are loaded, each for one job, and the earlier editions' are gone.
+  for (const face of ['UnifrakturMaguntia', 'Playfair+Display', 'Libre+Caslon+Text', 'Libre+Franklin']) assert.ok(pages.includes(`family=${face}`), `${face} is loaded`);
+  for (const old of ['B612', 'STIX Two', 'Schibsted Grotesk']) assert.ok(!css.includes(old) && !pages.includes(old.replace(/ /g, '+')), `${old} is gone`);
+  // Every class on every page is styled by the sheet or read by the script: a class typed wrong shows here.
+  const known = css + script;
+  for (const f of readdirSync(root + 'dist', { recursive: true }).filter((f) => f.endsWith('.html'))) {
+    const html = readFileSync(root + 'dist/' + f, 'utf8');
+    for (const [, list] of html.matchAll(/\sclass="([^"]+)"/g)) {
+      for (const c of list.split(/\s+/)) assert.match(known, new RegExp(`\\.${c.replace(/[-]/g, '\\-')}(?![\\w-])`), `${f}: nothing styles or reads .${c}`);
+    }
+  }
 });
 
 test('the build refuses a pulse item whose post is flagged as showing a private person or a minor', () => {
@@ -159,6 +170,7 @@ test('every time a reader sees is Eastern time, and the machine-readable stamps 
   run('tools/make-demo.mjs');
   run('tools/build.mjs', '--demo');
   const home = readFileSync(root + 'dist/index.html', 'utf8');
+  const wire = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   const story = readFileSync(root + 'dist/story/2026-10-08-dog-walks-onto-forecast/index.html', 'utf8');
   const stories = readFileSync(root + 'dist/stories/index.html', 'utf8');
   // what a reader sees: the text of the pages, with the markup taken out
@@ -168,26 +180,26 @@ test('every time a reader sees is Eastern time, and the machine-readable stamps 
   assert.ok(asof, 'the as-of time reads HH:MM ET, then the day');
   assert.match(asof[1], /^\d{4}-\d\d-\d\dT[\d:.]+Z$/, 'and its datetime attribute is still the instant in UTC');
   assert.notEqual(asof[2], asof[1].slice(11, 16), 'the words are not the UTC clock');
-  assert.match(home, /<time datetime="[^"]+Z">\d\d:\d\d ET<\/time>/, 'a post gives its time in ET');
+  assert.match(wire, /<time datetime="[^"]+Z">\d\d:\d\d ET<\/time>/, 'a post gives its time in ET');
   assert.match(stories, /began \d\d:\d\d ET, /);
   assert.match(story, /Written up \d\d:\d\d ET, /);
 });
 
-test('a pulse of nothing, and a pulse of one, still build a whole front page', () => {
+test('a pulse of nothing, and a pulse of one, still build a whole wire', () => {
   run('tools/make-demo.mjs');
   const file = root + 'fixtures/demo/pulse/current.json';
   const pulse = JSON.parse(readFileSync(file, 'utf8'));
   // nothing passed yet: no lead, and the list says so instead of standing empty
   writeFileSync(file, JSON.stringify({ ...pulse, items: [] }));
   run('tools/build.mjs', '--demo');
-  let home = readFileSync(root + 'dist/index.html', 'utf8');
+  let home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   assert.ok(!home.includes('class="lead"') && !home.includes('<ol class="pg"'));
   assert.match(home, /The first pulse is being read\./);
   for (const d of desks) assert.ok(home.includes(`data-desk="${d.id}"`), `${d.id} still has its card`);
   // one post: it leads, and no empty list follows it
   writeFileSync(file, JSON.stringify({ ...pulse, items: pulse.items.slice(0, 1) }));
   run('tools/build.mjs', '--demo');
-  home = readFileSync(root + 'dist/index.html', 'utf8');
+  home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
   assert.ok(home.includes('class="lead"') && !home.includes('id="pulse"') && home.includes('id="stories"'));
   run('tools/make-demo.mjs');
 });
@@ -247,9 +259,9 @@ test('no account holds more than one place in a list: its largest post stays, an
   const after = JSON.parse(readFileSync(root + 'dist/data/pulse.json', 'utf8')).pulse.map((it) => it.id);
   const gone = [b.id, c.id];
   assert.deepEqual(after, before.map((it) => it.id).filter((id) => !gone.includes(id)), 'only that account\'s two smaller posts are gone, and everything else holds its order');
-  const home = readFileSync(root + 'dist/index.html', 'utf8');
-  assert.ok(home.includes(`id="p-${a.id}"`), 'its largest post is on the front page');
-  for (const id of gone) assert.ok(!home.includes(`id="p-${id}"`) && !home.includes(`/status/${id}"`), `${id} is not on the front page`);
+  const home = readFileSync(root + 'dist/pulse/index.html', 'utf8');
+  assert.ok(home.includes(`id="p-${a.id}"`), 'its largest post is on the wire');
+  for (const id of gone) assert.ok(!home.includes(`id="p-${id}"`) && !home.includes(`/status/${id}"`), `${id} is not on the wire`);
   assert.match(out, /held back 2 posts.*demo_loud/i, 'and the build names the account and the count');
   // Each desk's own list is cut the same way, from everything passed for that desk.
   const own = readFileSync(`${root}dist/desk/${a.desk}/index.html`, 'utf8');
@@ -276,7 +288,7 @@ test('a page that says how many desks there are takes the number from the list',
   assert.ok(readFileSync(root + 'dist/about/index.html', 'utf8').includes(`${right[0]} desks from politics`), 'the purpose gives the number in words');
   for (const f of readdirSync(root + 'dist', { recursive: true }).filter((f) => f.endsWith('.html'))) assert.ok(!readFileSync(root + 'dist/' + f, 'utf8').includes('{desks}'), `${f} shows no placeholder`);
   assert.ok(!existsSync(root + 'dist/desk/crypto/index.html'), 'a retired desk has no page');
-  assert.ok(!readFileSync(root + 'dist/index.html', 'utf8').includes('data-desk="crypto"'), 'and no card');
+  assert.ok(!readFileSync(root + 'dist/pulse/index.html', 'utf8').includes('data-desk="crypto"'), 'and no card');
 });
 
 // ---- what X said decides what is shown, and only a mismatch stops the build
@@ -333,6 +345,7 @@ test('a cited post X withholds is shown as unavailable, the build says so, and t
   assert.ok(world.includes(escHtml(story(S).worlds[0].sees)) && world.includes('data-unavailable="withheld"'));
   assert.match(page, /<dt class="lab">Posts tracked<\/dt><dd>2<\/dd>/, 'and it counts for nothing');
   assertNothingOf(read('index.html'), rec);
+  assertNothingOf(read('pulse/index.html'), rec);
   assertNothingOf(read('stories/index.html'), rec);
 });
 
@@ -386,8 +399,9 @@ test('on the pulse, a post X does not confirm is left out with a warning, and a 
   assert.ok(r.stderr.includes(`warning: related post ${keeps.also[0]} of pulse item ${keeps.id} is missing on X`), r.stderr);
   const data = JSON.parse(read('data/pulse.json')).pulse.map((it) => it.id);
   assert.ok(!data.includes(gone.id) && data.includes(keeps.id), 'the withheld item is off the pulse, the other stays');
-  assert.ok(!read('index.html').includes(`id="p-${gone.id}"`) && !read(`desk/${gone.desk}/index.html`).includes(`id="p-${gone.id}"`));
-  assert.ok(!read('index.html').includes(`/status/${keeps.also[0]}"`), 'and a related post X has no answer for is dropped');
+  assert.ok(!read('pulse/index.html').includes(`id="p-${gone.id}"`) && !read(`desk/${gone.desk}/index.html`).includes(`id="p-${gone.id}"`));
+  assert.ok(read('pulse/index.html').includes(`id="p-${keeps.id}"`), 'CONTROL: the item it hangs on is on the wire');
+  assert.ok(!read('pulse/index.html').includes(`/status/${keeps.also[0]}"`), 'and a related post X has no answer for is dropped');
   // With no story citing them, so that the stop comes from the pulse itself.
   const noStories = () => { for (const f of readdirSync(root + 'fixtures/demo/moments')) rmSync(root + 'fixtures/demo/moments/' + f); };
   const bad = buildWith({ [keeps.also[0]]: 'mismatch' }, noStories);

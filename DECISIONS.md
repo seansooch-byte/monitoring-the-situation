@@ -780,3 +780,69 @@ time, so a site that stops updating for any reason is caught by its age.
 is shown". Leaving the post out keeps that rule and stops one post from holding every other page
 hostage. A mismatch is different in kind: it says the record does not match what was said, which
 is the failure Gate 2 exists to catch.
+
+## 2026-11-14: The site becomes a newspaper of the record, with one opinion a day
+
+**Context.** Sean: "We already have monitoring the situation which is the biggest piece. We can use
+soochiebot to do an editorial. Let's combine it into a super news app. That's designed like a
+newspaper ... Goal is you open this app and you can learn what the heck is going on." Soochiebot is
+grokbot's persona, set to sound like Sean, which since 2026-11-13 wrote one post a day on
+seansooch.dev/notes/ ("Field Notes") from this site's record. He also asked whether the top story
+is "the highest hit on monitoring the situation".
+
+**Alternatives.** (a) Keep two products: the situation as the record, Field Notes as the daily read.
+That splits the one question a reader brings ("what is going on?") across two sites. (b) Let the
+writer choose the front page each day. Then the order is an opinion. (c) One paper: the record ranks
+the front page; the editor's words stay the news; Soochiebot writes one labelled editorial.
+
+**Decision.** (c). An edition is one Eastern day, a pure function of the record
+(`contract/PAPER.md`, `tools/lib/edition.mjs`). The front page is ranked by **the views a story's
+posts gained during the day**, not lifetime views and not the single biggest post: on 13 November
+the biggest single post was Microsoft's outage apology, which no story covered, while the largest
+story was the FAA ground stop, spread over four posts. Measured per post, a cat video would have led.
+Measured as views gained on the day, a story begun on the 8th (the Nvidia board probe) ranks when it
+moves again. Posts the editor described that no story cites are shown as "not yet a story" (news
+sections) or "what the internet watched" (the rest), so the gaps in the reporting are on the page.
+Soochiebot writes `opinion/<day>.json`: words only, no number of its own, citing only what the
+edition holds; a broken opinion refuses the edition. This relaxes, for one folder, the rule that the
+grabber's side writes no prose; it is Sean's call and it is fenced: the opinion is labelled as a
+program's, set apart from the news, and cannot add a fact.
+
+**Why.** "Learn what is going on" needs an order a reader can trust, and the only order nobody chose
+is the numbers. Views gained on the day answers "what moved yesterday" and is honest about stories
+that run for days. Keeping the opinion in its own lane keeps the news readable as news.
+
+**Found while building it.** Three of the ground stop's four posts were captured only as references for
+its story, with no desk, so they counted nowhere and the story fell to second. A post with no desk now
+takes the first desk of the story citing it. Separately, a later capture can carry a post again with no
+desk; the edition fills a field once and never overwrites it with a blank. `tools/build.mjs` lets the
+later copy win (line 41), which over 13 and 14 November cost 3 of 3,074 posts their desk (0.1%): noted,
+not changed.
+
+**Not decided.** Which of the three designs (Broadsheet, Wire, Record) the site wears; the name on the
+masthead; what becomes of seansooch.dev/notes/ (redirect to the paper's opinion page is the obvious
+end); the CI rule that lets grokbot commit `opinion/`.
+
+## 2026-11-14: Edition 3, The Broadsheet: the paper is the front page, the pulse becomes its wire
+
+**Context.** Three directions were drawn on a design canvas the same day with the record of 13
+November (A the Broadsheet, B the Wire, C the Record). Sean picked A.
+
+**Decision.** The whole site wears it, not only the front page: one head on every page (ears, the
+nameplate, the sections bar), newsprint and ink, four faces each with one job. The front page is the
+latest complete edition (`contract/PAPER.md`); every day keeps its front page at `/edition/<day>/`.
+Internet Pulse, which was the front page since 2026-10-09, moves to `/pulse/` as the paper's wire,
+unchanged in what it shows and how it is checked. Six section fronts (`/section/<group>/`) and an
+opinion page are added; the archive becomes back issues. The pinned post becomes the motto beside the
+nameplate on every page, so the reason the site exists stays in sight now that the front page is no
+longer the pulse.
+
+**Alternatives.** (a) Keep the pulse as `/` and add the paper beside it. Then a reader opening the
+site gets the instrument, not the answer to what is going on, which was the point of the change.
+(b) Restyle the old pages and add an edition page. That keeps Edition 2's vocabulary under a new
+skin; the edition was written from a blank sheet instead, keeping only the markup the tests and the
+page script rely on (the pulse list's items, the desk cards, the unavailable-post note).
+
+**Why.** "Open this app and learn what is going on" is a front page's job; the wire and the desks are
+how a curious reader goes deeper. Keeping every old address (stories, desks, story pages) means no
+link anyone has saved breaks.

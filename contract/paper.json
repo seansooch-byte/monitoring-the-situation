@@ -1,0 +1,9 @@
+{
+  "about": "Numbers for the paper's edition (contract/PAPER.md). The one place they live.",
+  "news_sections": ["news", "money", "science"],
+  "briefing": 5,
+  "unreported": 5,
+  "watched": 8,
+  "section_items": 3,
+  "never_shown": ["private_individual", "minor", "nsfw", "graphic"]
+}

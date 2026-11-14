@@ -23,6 +23,11 @@ flowchart LR
   E -->|"moments/ and briefs/"| ED[("the editor's files")]
   E -->|"requests/open.json, watch.json"| G
   ED --> B["Build"]
+  ED --> EDN["Edition<br/>tools/edition.mjs"]
+  LED --> EDN
+  CAP -->|"readings up to the day's end"| EDN
+  OP["Soochiebot<br/>(kept by grokbot)"] -.->|"opinion/DAY.json"| EDN
+  EDN -->|"one day, ranked: the paper's front page"| B
   CAP -->|numbers, for confirmed posts only| B
   CAP -.->|reads left, posts moving| PL
   NOTES["capture/NOTES.md and CAPABILITIES.md"] -.->|read by| E
@@ -34,7 +39,7 @@ flowchart LR
   ST -.-> W["Wire<br/>/v1 and /mcp"] -.-> A((Agent))
   SC[("ScrapeCreators, Bluesky's API")] -.->|"phase 1b: one poll a week"| WK["Weekly poll<br/>tools/poll-platforms.mjs"] -.-> ST
   classDef planned stroke-dasharray: 5 5
-  class PL,ST,SP,DI,W,A,SC,WK planned
+  class PL,ST,SP,DI,W,A,SC,WK,OP planned
 ```
 
 Every arrow is a real dependency: the node at its head reads what the node at its tail wrote.
@@ -46,6 +51,7 @@ Dashed nodes and arrows are Planned; the phase that builds each is in `PROGRAM.m
 | Gate 1, structure (**Built**) | Reject a malformed capture | one capture file, ids from earlier captures | PASS or a list of errors | Exit 1. The grabber fixes the file or replaces it with a `down` run. |
 | Gate 2, existence (**Built**: `tools/verify-posts.mjs`) | Confirm against X that each post exists and that its author and words match | `capture/`, `moments/` (to know which posts stories cite), X's public oEmbed endpoint | `verified/posts.json`: for each post `ok`, `mismatch`, `missing` or `withheld`, when it was checked, and the run that first recorded it; a count per run is printed | A post that is not `ok` is never published and counts for nothing in any total. First full pass, 2026-10-09: 272 confirmed, 0 missing, 0 mismatched, 2 withheld by X. |
 | Editor | Group posts into stories, research them, write every word | confirmed posts, reporting on the web | `moments/`, `briefs/`, `requests/` | A story it cannot stand behind is not written. |
+| Edition (**Built** 2026-11-14: `tools/lib/edition.mjs`, `tools/lib/opinion.mjs`, `tools/edition.mjs`; the build makes one for every day and the front page is the latest) | Turn one Eastern day of the record into the paper's edition: stories ranked by the views their posts gained that day, the lead, the briefing, posts not yet a story, posts watched, six sections, the day's opinion. Rules: `contract/PAPER.md`; numbers: `contract/paper.json` | `capture/`, `verified/posts.json`, `moments/`, the history of `pulse/current.json`, `contract/desks.json`, `opinion/<day>.json` | `<out>/<day>.json`, schema `mts.edition/1` | A broken opinion refuses the edition with every reason, exit 1. A post that does not count is left out of every list. Same record, same bytes. |
 | Build (**Built**: `tools/build.mjs`) | Render the site | `moments/`, `capture/`, `verified/posts.json`, `contract/desks.json`, `site.json` | `dist/` | Refuses to build if a story or the pulse cites a post that no capture recorded, that X shows with other words or another author (`mismatch`), or that the grabber flagged. A cited post X withholds, has no answer for, or has not been asked about yet is never shown and counts for nothing, and does not stop the build: a story shows a note ("Unavailable on X") and the post's id in its place, a pulse item or related post is left out, and the build prints a warning naming the story or item and the post (2026-11-03, DECISIONS.md). Desk traces and totals use confirmed posts only. `--demo` reads `fixtures/demo` and skips the ledger; `MTS_LEDGER` points the build at another copy of the ledger, and with `--demo` makes it check. |
 | Cloudflare (**Built**: `wrangler.jsonc`, `tools/ship.sh`) | Serve `dist/` at situation.seansooch.dev | `dist/` | the public site | The previous version stays live. `tools/ship.sh` refuses a dirty tree, failing tests or a demo build, and compares the live page with the build afterwards. |
 | Read planner (**Planned** until phase 0's done test passes; code landed 2026-10-28: `tools/plan-reads.mjs`, `tools/lib/plan.mjs`) | Turn the day's remaining budget into the next run's read list, in the contract's order | the last three days of captures, `requests/watch.json` and `open.json`, `contract/desks.json`, `contract/budget.json` | `requests/plan.json` (`contract/PLAN.md`): reads in order, a budget line each | A day that cannot afford the list is cut in `budget.json`'s order, never the re-read list or the counts; a plan still over budget says so. A missing or stale plan sends the grabber back to the standing orders, which it says in `run.reason`. A planner error never stops the refresh. |
@@ -216,36 +222,51 @@ none of which trust the grabber's own word:
 ## The site
 
 One static build, no server and no database, until phase 1 of `PROGRAM.md` moves the record to a
-store; the pages stay as they are. `node tools/build.mjs` writes `dist/`:
+store; the pages stay as they are. `node tools/build.mjs` writes `dist/`. Since 2026-11-14 the site is
+a newspaper of the record (Edition 3, "The Broadsheet"; DECISIONS.md 2026-11-14):
 
-- `/` the nameplate with the site's line and the pinned post; the largest post on the pulse on
-  its own; a card per desk (24 bars for the last 24 hours) that is also the switch for the
-  reader's own desks; then **Internet Pulse**: the rest of `pulse/current.json`, each under the
-  editor's line, in one list ranked by views, one place to an account; then the researched
-  stories, a line each.
-- `/stories/` the researched stories of the last 48 hours.
-- `/story/<id>/` one page per story, `/desk/<id>/` one per desk, `/desks/`, `/about/`, and
-  `/archive/` for stories that began more than 48 hours ago (they leave the bulletin and keep
-  their page).
-- `/data/pulse.json` the same numbers for machines.
+- `/` the front page: the latest complete Eastern day as an edition (`contract/PAPER.md`), with a
+  strip of today so far. The day in sixty seconds (the briefing), the lead story in columns with
+  what each world is seeing and what is on the record, a rail of posts that are big on X and not
+  yet a story and of the stories further down, the next three stories across the page, the
+  opinion (Soochiebot's, or a line saying there is none), what the internet watched, and the six
+  sections with their posts, views and hourly bars. On the record's first day, or after a day
+  with no story, the front page is today so far.
+- `/edition/<day>/` the front page of every day of the record, kept as the record stood at that
+  day's end; `/data/edition/<day>.json` the same edition as data.
+- `/section/<group>/` six section fronts: the day's numbers and hours, its stories in the
+  paper's order, its described posts, its desks, its recent stories.
+- `/pulse/` the wire: the largest post on the pulse on its own; a card per desk (24 bars) that is
+  also the switch for the reader's own desks; **Internet Pulse**, the rest of `pulse/current.json`
+  under the editor's lines, ranked by views, one place to an account; the researched stories.
+- `/opinion/` every editorial; `/archive/` back issues (every edition) and the stories that have
+  left the wire; `/stories/` the researched stories of the last 48 hours.
+- `/story/<id>/` one page per story, now with where it ran in the paper ("In the paper: Lead,
+  Fri 13 Nov"); `/desk/<id>/` one per desk; `/desks/`; `/about/`.
+- `/data/pulse.json` the pulse's numbers for machines.
 
 Purpose, which decides the design: people who read different things come away with different
-days (the pinned post). The site puts every desk on one sheet, and where groups describe one
-story differently it sets each description beside the post that carries it, then states what
-is established.
+days (the pinned post, which is now the paper's motto beside the nameplate on every page). The
+paper puts every desk on one sheet, ranks the day by what was seen rather than by anyone's
+choice, prints the gaps in its own reporting, and where groups describe one story differently it
+sets each description beside the post that carries it, then states what is established.
 
-How a number reaches the page: magnitude is the base ten log of views across a story's posts
-at their latest reading; a desk's 24 bars are views gained per hour by the posts the grabber
-labelled with that desk, spread over the time between readings. A desk's figure for the day
-counts posts written in the last 24 hours. The bars will be drawn from X's hourly post counts
-(`volume`) once a week of them is in for every desk (**Planned**).
+How a number reaches the page: on the front page and the editions, a story's reach is the views
+its posts gained during the day (`tools/lib/edition.mjs`); on the wire and a story's own page,
+magnitude is the base ten log of views across its posts at their latest reading; a desk's 24 bars
+are views gained per hour by the posts the grabber labelled with that desk, spread over the time
+between readings. The editor's lines for a past day come from the git history of
+`pulse/current.json` (`tools/lib/pulse-history.mjs`: one log and one cat-file, about half a second
+for the whole history).
 
-How the page is drawn (edition 2, see DECISIONS.md): size carries magnitude. The pulse list is
-one `<ol class="pg">` whose items each carry everything any size shows; `site/styles.css` sets
-the first three large, the next six a step down and the rest as a line each, by position. So
-`site/app.js` sorts by moving the items and never redraws one. `tests/build.test.mjs` pins the
-two things that rests on: the list's only children are the items, and the page script reaches
-for nothing the pages lack.
+How the page is drawn (Edition 3): newsprint and ink, no colour of its own; four faces, each with
+one job (blackletter for the nameplate only, Playfair Display for headlines, Libre Caslon Text to
+read, Libre Franklin for labels); rank is size. The wire's list is still one `<ol class="pg">` that
+`site/app.js` sorts by moving items. `tests/build.test.mjs` pins what the pages rest on, including
+that every class on every page is styled by the sheet or read by the script; `tests/paper.test.mjs`
+pins the paper (the front page is the edition, in the edition's order; every page wears the same
+head; a broken opinion stops the build). Test files run one at a time (`npm test`), since two of
+them rebuild the same demo.
 
 Every time on a page is Eastern time, labelled ET (`tools/lib/clock.mjs`). Captures, ids, file names
 and each `datetime` attribute stay in UTC.
@@ -254,9 +275,9 @@ The reader's own desks are kept in their browser only (`localStorage`); nothing 
 Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex`
 (a header and `robots.txt`) until Sean opens the site to search engines.
 
-Not built yet: a daily brief, bars drawn from `volume`, click-to-load embeds of posts, a dark
-variant of the page. The program's phases (the planner, the store, the wire, spikes, crisis mode,
-the Divide Index, the two editions) are listed in `PROGRAM.md` and not repeated here.
+Not built yet: opinions (Soochiebot has not written one; the CI rule that lets grokbot commit
+`opinion/` is not written), bars drawn from `volume`, click-to-load embeds of posts, a dark variant.
+The program's phases are listed in `PROGRAM.md` and not repeated here.
 
 ## What this replaced
 
