@@ -5,8 +5,11 @@
 //   node tools/ingest.mjs --new      deliver every capture file newer than the store's newest run
 //   node tools/ingest.mjs --all      deliver every capture file the store does not have (resumable)
 //
-// A file the store already holds is reported and skipped; a file Gate 1 refuses is reported with
-// its errors. Exits 1 if any delivery failed. Token and address: tools/lib/store.mjs.
+// Files go oldest first, because a capture may observe posts first recorded by an earlier one.
+// A 5xx or network error is retried with a backoff (Cloudflare answers a passing 503 under load);
+// any failure that remains stops the run, since every later file could depend on it. Run again to
+// resume. A file the store already holds is reported and skipped; a file Gate 1 refuses is reported
+// with its errors. Exits 1 if a delivery failed. Token and address: tools/lib/store.mjs.
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -35,19 +38,34 @@ if (args.includes('--all') || args.includes('--new')) {
   if (!files.length) { console.error('usage: node tools/ingest.mjs <capture file> [more] | --new | --all'); process.exit(2); }
 }
 
+files.sort((a, b) => (runIdOf(a) ?? a).localeCompare(runIdOf(b) ?? b));
+const RETRIES = [5, 20, 60];   // seconds to wait before each retry of a 5xx or network error
+const transient = (e) => !e.status || e.status >= 500;
+async function deliver(doc) {
+  for (let i = 0; ; i++) {
+    try { return await store.post('/ingest', doc); }
+    catch (e) {
+      if (!transient(e) || i >= RETRIES.length) throw e;
+      console.log(`RETRY ${doc.run?.id}  ${e.status ?? 'network'}; waiting ${RETRIES[i]} s`);
+      await new Promise((r) => setTimeout(r, RETRIES[i] * 1000));
+    }
+  }
+}
+
 let failed = 0, delivered = 0;
 for (const f of files) {
   let doc;
   try { doc = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { console.log(`FAIL  ${f}  not readable JSON: ${e.message}`); failed++; continue; }
   try {
-    const r = await store.post('/ingest', doc);
+    const r = await deliver(doc);
     if (r.duplicate) console.log(`HAVE  ${r.run}`);
     else { delivered++; console.log(`OK    ${r.run}  ${r.posts} posts, ${r.observations} observations, ${r.volume_points} counts, ${Math.round(r.bytes / 1024)} KB as ${Math.round(r.gzip / 1024)} KB${r.warnings?.length ? `, ${r.warnings.length} warning${r.warnings.length === 1 ? '' : 's'}` : ''}`); }
   } catch (e) {
     failed++;
-    console.log(`FAIL  ${f}  ${e.message}`);
+    console.log(`FAIL  ${f}  ${e.status && e.status >= 500 ? `${e.status} from the store` : e.message}`);
     if (e.status === 422 && e.data?.errors) for (const err of e.data.errors.slice(0, 5)) console.log(`        ${err}`);
-    if (/limit|quota|exceeded|too many|overloaded/i.test(e.message)) { console.log('stopping: the store refused for a limit; run again later, it resumes where it stopped'); break; }
+    console.log(`stopping: later files may depend on this one; run again to resume from ${runIdOf(f) ?? f}`);
+    break;
   }
 }
 console.log(`delivered ${delivered}, failed ${failed}`);
