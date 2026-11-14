@@ -1,18 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T01:30:00Z",
-  "capture": "2026-11-14T0105Z",
+  "updated_at": "2026-11-14T02:30:00Z",
+  "capture": "2026-11-14T0205Z",
   "items": [
     {
       "id": "2121254115028132000",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts words he attributes to Mauricio Pochettino about taking the Manchester United job despite a new deal until 2030: \"You can't turn it down\". Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120876571829662014",
-      "desk": "business",
-      "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing, dated 11 November, says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
     },
     {
       "id": "2120931356914151835",
@@ -232,6 +227,24 @@
       "id": "2121316300702056595",
       "desk": "science",
       "line": "SpaceX posts a link to watch Starship Flight 15.",
+      "also": []
+    },
+    {
+      "id": "2121351591106072679",
+      "desk": "disaster",
+      "line": "Transportation Secretary Sean Duffy says the FAA issued a nationwide ground stop for all US airports after a communication issue affecting all Air Route Traffic Control Centers, and that FAA technicians are investigating.",
+      "also": []
+    },
+    {
+      "id": "2121303523296211449",
+      "desk": "politics",
+      "line": "The White House account posts: \"English is the official language of the United States.\"",
+      "also": []
+    },
+    {
+      "id": "2121384435241402737",
+      "desk": "tech",
+      "line": "An account named robotaxi says select customers are now being invited to purchase Cybercab for personal use. Not checked here.",
       "also": []
     },
     {

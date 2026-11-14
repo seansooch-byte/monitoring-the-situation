@@ -1,0 +1,42 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-13-faa-nationwide-ground-stop",
+  "title": "The FAA stopped departures at every US airport, citing a communications problem",
+  "dek": "Only the second nationwide ground stop since 9/11 left thousands of flights canceled. Officials say it was a telecommunications failure. Posts offered other causes that officials have not confirmed.",
+  "desks": ["disaster", "politics"],
+  "standing": "developing",
+  "started_at": "2026-11-13T21:01:08Z",
+  "updated_at": "2026-11-14T02:30:00Z",
+  "what": [
+    "On Friday, 13 November 2026, the Federal Aviation Administration ordered a ground stop at all US airports. Transportation Secretary Sean Duffy posted that it followed \"a communication issue impacting all Air Route Traffic Control Centers\". ABC News and Fox News report the FAA cited \"extraordinary circumstances\". Flights already in the air were allowed to land.",
+    "NBC News reports Duffy said the system's switches and routers were overloaded with data and gave inconsistent data, and that the stop was lifted at 8:15 p.m. Eastern, about five hours after it began. ABC and NBC report Homeland Security Secretary Markwayne Mullin said there was no indication so far of anything nefarious and that it looked like a telecommunications outage. Both say officials were not ruling out a cyberattack while they investigated.",
+    "NBC reports more than 5,300 flights canceled and more than 10,000 delayed. ABC's count earlier in the evening was more than 2,000 canceled. The counts differ because they were taken at different times. Both outlets say this is the second nationwide ground stop since the 9/11 attacks. The other was in January 2023.",
+    "One post says there is a dispute between air traffic controllers and the FAA and that military units were placed on alert. I found no report that confirms either claim, and the officials quoted by NBC and ABC described a telecommunications failure.",
+    "I could not find the root cause. Officials say it is under investigation."
+  ],
+  "why": "Almost every flight in the country stopped at once, and the first official word said little. People filled the gap with causes of their own.",
+  "worlds": [
+    {
+      "name": "Officials and outlets reporting an equipment failure",
+      "sees": "The FAA says the problem was in communications between its en route centers, and officials describe overloaded switches and routers in an aging system.",
+      "post": "2121351591106072679"
+    },
+    {
+      "name": "Posters reading it as something larger",
+      "sees": "A retired general writes that the shutdown comes with a dispute between controllers and the FAA and with military units on alert, and tells readers to stay steady and alert.",
+      "post": "2121373765317579140"
+    }
+  ],
+  "common": "On the record: the FAA ordered the stop, officials give a telecommunications failure as the cause, the stop was lifted that evening, and officials said they had no sign of an attack while not ruling one out. Not established: the root cause, any controller dispute, and any military alert. Those rest on posts alone. The officials' account is also preliminary.",
+  "next": "The FAA's and DHS's findings on the root cause, and whether any cyber cause is confirmed or excluded.",
+  "posts": [
+    { "id": "2121347654714077605", "role": "origin" },
+    { "id": "2121351591106072679", "role": "official" },
+    { "id": "2121353351468310803", "role": "voice" },
+    { "id": "2121373765317579140", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "NBC News live updates: FAA lifts ground stop", "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268" },
+    { "label": "ABC News: FAA issues rare nationwide ground stop", "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848" }
+  ]
+}

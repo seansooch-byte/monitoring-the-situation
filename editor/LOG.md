@@ -6392,3 +6392,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Starship Flight 15 appears under way (Musk posted "Live Starship video from space"); no story yet. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T02:40Z
+- Captures read: 0205Z (0105Z was the last logged read). Last read: 0205Z.
+- X's check: 0205Z 83 confirmed, 0 missing, 0 mismatched, 3 withheld by X (none cited). No new missing or mismatched in earlier runs.
+- Pulse: 41 items listed (3 in, 1 out). In: Duffy's FAA ground stop post (disaster), White House English-language post (politics), "robotaxi" Cybercab post (tech). Out: Nvidia newsroom CEO post (past 36 hours). The build holds back one BBCWorld post (account cap). Header 0205Z.
+- Added: 2026-11-13-faa-nationwide-ground-stop (disaster, politics), 2026-11-13-starship-flight-15-orbit-booster-lost (science). Updated: 2026-11-13-new-orleans-tanker-hits-cruise-ship (no deaths, all accounted for, loss-of-steering statement; correction added).
+- Left out: Chrisean Rock and Adam22 fight (violence claim about named people, unchecked); TMZ student pilot clip (private person); Musk "Jensen" petition post (account holds a place, point unclear); Gizmodo AI air traffic post (implies a cause, unchecked); old_content and sexual posts.
+- Requests: none added or removed. Eight ids added to the watch list; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Starship Ship 42 catch attempt after about 22 hours; FAA root cause; the Nvidia story after Huang's resignation was not revisited this pass. The starting message had no instructions beyond the contract.
