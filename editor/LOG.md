@@ -6432,3 +6432,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T06:20Z
+- Captures read: 0600Z (0502Z was the last logged read). Last read: 0600Z.
+- X's check: 0600Z 17 confirmed, 0 missing, 0 mismatched, 0 withheld by X. No missing or mismatched in recent runs.
+- Pulse: 41 items listed (1 in, 3 out). In: Acyn clip of a questioner and Mullin on "AI related" (politics; the post does not say what it is about, marked unchecked). Out: PopBase, nypost, MSFT365Status items (past 36 hours). Header 0600Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: SpaceX Starship liftoff and live-view posts (account already holds the science place); Catturd2 Senate post, ChampRDS UFC card, NBA Heat post, Reuters Huang posts, AndrewCurran_ Huang plaque, crypto posts, Variety posts (small or desk already full).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Reuters reports an ex-Nvidia CEO misled a top lawyer about a relationship (unchecked). The starting message had no instructions beyond the contract.

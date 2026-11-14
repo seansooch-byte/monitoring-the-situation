@@ -1,18 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T05:25:00Z",
-  "capture": "2026-11-14T0502Z",
+  "updated_at": "2026-11-14T06:20:00Z",
+  "capture": "2026-11-14T0600Z",
   "items": [
     {
       "id": "2121254115028132000",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts words he attributes to Mauricio Pochettino about taking the Manchester United job despite a new deal until 2030: \"You can't turn it down\". Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120931356914151835",
-      "desk": "music",
-      "line": "The account PopBase posts a statement it attributes to Shawn Mendes, who says he is speaking out in support of Palestine and asks fellow artists to use their voices. The quoted text is cut off. Not checked here."
     },
     {
       "id": "2120946562620907823",
@@ -101,21 +96,9 @@
       "also": []
     },
     {
-      "id": "2120933533552103859",
-      "desk": "world",
-      "line": "The New York Post reports that Greta Thunberg laughed and said \"They still do that?\" when told that Fridays for Future, the climate group she founded, still protests. The post carries no media description. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121086493712134314",
       "desk": "tech",
       "line": "BBC News (World) reports that Microsoft says its attempts to fix the global outage are not going \"as expected\", and links to a live page."
-    },
-    {
-      "id": "2120938282204688468",
-      "desk": "tech",
-      "line": "The Microsoft 365 status account says it is investigating reports of users having trouble reaching Exchange Online mailboxes by several connection methods in the Americas, and points customers to incident code EX1550543. A story on this site has the detail.",
-      "also": []
     },
     {
       "id": "2121069007159927248",
@@ -257,6 +240,12 @@
       "id": "2121205602474979387",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Robert Pattinson was offered more money but only a three-film commitment for his audition deal to play James Bond, compared with the other finalists. It cites a source it does not name in the text. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121365035268386914",
+      "desk": "politics",
+      "line": "Acyn, who posts clips of political events, shares a 35-second video in which a questioner asks whether something \"could be AI related\" and Mullin answers \"We call it SI around here.\" The post does not say what the question is about. Not checked here.",
       "also": []
     }
   ]
