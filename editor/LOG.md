@@ -6402,3 +6402,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Eight ids added to the watch list; plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Starship Ship 42 catch attempt after about 22 hours; FAA root cause; the Nvidia story after Huang's resignation was not revisited this pass. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T03:25Z
+- Captures read: 0302Z (0205Z was the last logged read). Last read: 0302Z.
+- X's check: 0302Z 110 confirmed, 0 missing, 0 mismatched, 10 withheld by X (none on the pulse). No missing or mismatched in recent runs.
+- Pulse: 41 items listed (1 in, 1 out). In: Stephen King's joke about the ground stop (offbeat, a joke and labelled as one). Out: Clash Report quote of Hillary Clinton (past 36 hours). The build holds back one BBCWorld post (account cap). Header 0302Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Korean post insulting India and Indians (nationality insults); IsraelArmyX Kim Jong Un claim, GenFlynn and the_typical_lib ground stop claims, WWG1WGA_QQ stockpile post (unchecked alarm claims); Theveripost Bernie Sanders photo (unchecked); fistfightreels fight clip (violence); Chrisean Rock and Adam22 posts (violence claim about named people); Bachelor announcement (promotion); NatureUnedited, kotckaq, ArynneWexler, theweeknd, a16z (point not clear from text); omgsidewalks Microsoft joke (tech desk full); old_content and sexual posts.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA ground stop cause still unchecked; Huang spy scandal (Sacks says the AG sees no clear evidence; unchecked). The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T02:30:00Z",
-  "capture": "2026-11-14T0205Z",
+  "updated_at": "2026-11-14T03:20:00Z",
+  "capture": "2026-11-14T0302Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -28,9 +28,10 @@
       "line": "The Google Gemini account announces Gemini 4 Hydrogen, which it says brings cutting-edge intelligence to everyone, follows instructions more closely and calls the right tools. Not checked here."
     },
     {
-      "id": "2120895501662859445",
-      "desk": "politics",
-      "line": "Clash Report, a news aggregator account, quotes Hillary Clinton on what it calls the Jensen Huang spy scandal. Clinton predicts that Trump, on meeting Xi Jinping in a few weeks, will ask whether it is true and then accept Xi's denial. Not checked here."
+      "id": "2121360054330986967",
+      "desk": "offbeat",
+      "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
+      "also": []
     },
     {
       "id": "2120973994191094179",
