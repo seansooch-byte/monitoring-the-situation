@@ -6512,3 +6512,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T19:20Z
+- Captures read: 1900Z (1801Z was the last logged read). Last read: 1900Z.
+- X's check: 1900Z 99 confirmed, 0 missing, 0 mismatched, 0 withheld. No missing or mismatched in this pass's runs.
+- Pulse: 30 items (0 in, 0 out). Nothing new in the 1900Z capture was among the largest posts that may be shown, and nothing on the pulse is past 36 hours. Header 1900Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fetterman/Van Hollen post (small, story not re-checked); Texas "Confederate Heroes Day" bill post (small, unchecked); TMZ castration headline (conviction claim, no source); Genesis_Perry6 and nabulionee2 videos (point unclear); old_content posts; Bernie Sanders steps, Nuremberg trailer, Bachelor (as before).
+- Requests: none added or removed. No new watch ids; plan.json rebuilt for 20Z.
+- Shipped: yes, see report for the audit.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
