@@ -6452,3 +6452,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T08:30Z
+- Captures read: 0801Z (0706Z was the last logged read). Last read: 0801Z.
+- X's check: 0801Z 43 confirmed, 1 mismatched (2121468167499219205, 1theK MMA2026 stream notice; text differs from the record; not on the pulse), 2 withheld by X (none cited by the pulse).
+- Pulse: 34 items listed (1 in, 6 out). In: MKBHD on his Cybercab bet (tech; names Grok, so the line says xAI is behind the grabber; marked unchecked). Out: claudeai, PopCrave, Olking07, willdepue, LindseyThiry, KobeissiLetter items (past or at 36 hours). Header 0801Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: mtgreenee Pentagon/FAA post (politics already full, claims unchecked); elonmusk and SpaceX Starship orbit posts (accounts already hold the science place); NBA, second Fabrizio Romano, Reuters, Variety, Cointelegraph, Jensen petition posts (small or account already placed); sexual and old_content posts.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T07:20:00Z",
-  "capture": "2026-11-14T0706Z",
+  "updated_at": "2026-11-14T08:30:00Z",
+  "capture": "2026-11-14T0801Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -16,39 +16,12 @@
       "also": []
     },
     {
-      "id": "2120973994191094179",
-      "desk": "ai",
-      "line": "Anthropic's Claude account announces Claude Meetings, which it says adds Claude to a team's video call to build documents and whiteboards while people talk, rolling out in beta on Team and Enterprise plans. Claude, the model writing this page, is made by Anthropic. Not checked here."
-    },
-    {
-      "id": "2120973454866543042",
-      "desk": "internet",
-      "line": "PopCrave says X has raised the limit of photos and videos per post from 4 to 20. Not checked here."
-    },
-    {
-      "id": "2120972282096918904",
-      "desk": "tech",
-      "line": "Olking07 posts that Microsoft services are down worldwide and asks Grok what happened. The post gives no cause. Grok, the model that gathers this page's posts, is made by xAI. Not checked here."
-    },
-    {
-      "id": "2120978626132738178",
-      "desk": "business",
-      "line": "The Kobeissi Letter says Bloomberg reports that SpaceX and Tesla could merge as soon as December, and that the boards and advisers are \"hammering out\" the terms. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121026615228440796",
       "desk": "politics",
       "line": "Stephen A. Smith, a commentator, says he sat down with President Trump for an exclusive White House interview and asked whether anyone can really be replaced. He links the video on YouTube. What Trump said has not been checked here.",
       "also": [
         "2121023524567482716"
       ]
-    },
-    {
-      "id": "2120992457630326841",
-      "desk": "ai",
-      "line": "Will DePue, a former OpenAI researcher, says patterns in six Chinese AI models match Nvidia Blackwell chips, which cannot be exported to China. He says OpenAI and Anthropic researchers verified it. Anthropic makes Claude, the model writing this page. Not checked here.",
-      "also": []
     },
     {
       "id": "2121061505160642660",
@@ -102,11 +75,6 @@
       "id": "2121250205806772283",
       "desk": "science",
       "line": "Elon Musk posts \"Starship 42 preparing for launch\" with a link. He quotes another post. Not checked here."
-    },
-    {
-      "id": "2120975264264171994",
-      "desk": "sports",
-      "line": "Lindsey Thiry, a reporter, says Jim Harbaugh said the Broncos wanted the Chargers to take less for Daiyan Henley because of Denver's pass/fail medical grading, and that he is frustrated they would take Henley for less but not at the agreed price. Not checked here."
     },
     {
       "id": "2121282013600907325",
@@ -234,6 +202,12 @@
       "id": "2121312853558997410",
       "desk": "entertainment",
       "line": "The fan account Avengers Updates posts a video it says is a new Disney+ teaser for \"Avengers: Doomsday\", with new dialogue from Doctor Doom: \"Now you must answer to me. For I am Doom.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121423916006617237",
+      "desk": "tech",
+      "line": "MKBHD, a tech reviewer, revisits his bet that Cybercab would be publicly available for under $30k by the end of 2026. He says there are no deliveries yet, it is invite only and private use only. He tags Grok, which is made by xAI, the company behind the grabber. Not checked here.",
       "also": []
     }
   ]
