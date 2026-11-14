@@ -6422,3 +6422,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA statement cites a telecommunications outage, cause still unchecked; Nvidia investor letters (Atreides, Altimeter) on Huang's reinstatement. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T05:30Z
+- Captures read: 0502Z (0405Z was the last logged read). Last read: 0502Z.
+- X's check: 0502Z 90 confirmed, 0 missing, 0 mismatched, 6 withheld by X (none cited by the pulse). No missing or mismatched in recent runs.
+- Pulse: 43 items listed (1 in, 1 out). In: DiscussingFilm Pattinson Bond audition post (entertainment, which had no item; marked unchecked). Out: BBCWorld item (past 36 hours). Header 0502Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano Enzo Fernandez post (account already holds the sports place); VoteHub Peltola projection, Acyn Mamdani clips (small); RapidResponse47 (link only, point not clear); GTA6_Report Best Buy claim and Thatsthebad Emma Watson fall clip (unchecked, trivial); MarioNawfal Iran/FAA posts (speculation); sexual and old_content posts.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

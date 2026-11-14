@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T04:25:00Z",
-  "capture": "2026-11-14T0405Z",
+  "updated_at": "2026-11-14T05:25:00Z",
+  "capture": "2026-11-14T0502Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -42,11 +42,6 @@
       "id": "2120973454866543042",
       "desk": "internet",
       "line": "PopCrave says X has raised the limit of photos and videos per post from 4 to 20. Not checked here."
-    },
-    {
-      "id": "2120924499637862414",
-      "desk": "disaster",
-      "line": "BBC World reports fourteen people dead after a truck lost control in a 23-vehicle crash in the UAE. Not checked here."
     },
     {
       "id": "2120972282096918904",
@@ -256,6 +251,12 @@
       "id": "2121428474816803089",
       "desk": "politics",
       "line": "Gavin Newsom says President Trump was \"MIA\" while 1.5 million Americans were stranded at airports at a scale not seen since 9/11, and says Trump does not care about them. The figure and the comparison are his claims. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121205602474979387",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, says Robert Pattinson was offered more money but only a three-film commitment for his audition deal to play James Bond, compared with the other finalists. It cites a source it does not name in the text. Not checked here.",
       "also": []
     }
   ]
