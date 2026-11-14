@@ -6551,3 +6551,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list (the SpaceX catch, the Watcher Guru post); plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: board returned 500 on inbox, so no report posted there. Same two withheld-post warnings. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T23:40Z
+- Captures read: 2307Z (2206Z was the last logged read). Last read: 2307Z.
+- X's check: 2307Z 102 confirmed, 0 missing, 0 mismatched, 1 withheld. 2100Z still shows 2 mismatched (2113644989867499762, 2121665388832501857; stray characters only).
+- Pulse: 31 items (1 in, 1 out). In: League of Legends' Worlds 2026 account on its 2027 video (gaming, which had no item). Out: DiscussingFilm Bond post (36 hours old). Header 2307Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano's Portugal/Ronaldo tribute posts, Musk's Starship burn posts and SpaceX's polled-go post (account already placed); BRICSinfo and HormuzLetter Israel/Iran drone plot posts (unchecked, no source); Dexerto Pokemon post (text not in the latest captures, could not read it); Chris Watts and lilylovevibes posts (private-crime subject, sexual content); non-English and joke posts.
+- Requests: none added or removed. League of Legends post added to the watch list; plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: board returned 500 on inbox, so no report posted there. Same two withheld-post warnings. The starting message had no instructions beyond the contract.
