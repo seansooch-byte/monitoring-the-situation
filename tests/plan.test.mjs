@@ -88,18 +88,21 @@ test('the plan is for the next hour, in the day band, with the watch list first 
   for (const it of p.items) assert.ok(Number.isInteger(it.reads) && it.reads >= 1, `${it.sweep} has a read count`);
 });
 
-test('a flat post is re-read every sixth run, and the plan says how many it slowed', () => {
+test('a flat post is re-read every sixth run, and the plan says how many it slowed; a flat post in watch.json is read every run', () => {
   const { p, ids } = plan();
   const flatIn = p.items[0].ids.includes(ids.flat);
   assert.equal(p.left_out.rereads.slowed, flatIn ? 0 : 1);
-  // Over six consecutive hours the flat post is read exactly once.
-  let reads = 0;
+  // Over six consecutive hours a flat post outside watch.json is read exactly once; inside it, every time.
+  let reads = 0, watched = 0;
   for (let k = 0; k < 6; k++) {
     const { caps } = night();
-    const q = planReads({ captures: caps, watchIds: [ids.flat], openRequests: [], answered: new Set(), desks: DESKS, budget: BUDGET, now: NOW + k * H });
+    const q = planReads({ captures: caps, watchIds: [], openRequests: [], answered: new Set(), desks: DESKS, budget: BUDGET, now: NOW + k * H });
     if (q.items[0].ids.includes(ids.flat)) reads++;
+    const w = planReads({ captures: caps, watchIds: [ids.flat], openRequests: [], answered: new Set(), desks: DESKS, budget: BUDGET, now: NOW + k * H });
+    if (w.items[0].ids.includes(ids.flat)) watched++;
   }
   assert.equal(reads, 1);
+  assert.equal(watched, 6, 'GRABBER.md, Re-reads: every id in watch.json is read every run and never dropped');
 });
 
 test('only a fourth hour re-reads the rest of the last 24 hours, slowest last', () => {
@@ -168,6 +171,29 @@ test('overnight the cap is 20 and the re-read list stops at 400', () => {
   assert.equal(p.items[0].reads, 4);
   assert.equal(p.left_out.rereads.over_cap, 50);
   assert.ok(p.total_reads <= 20);
+});
+
+test('the cap and the slowing apply only outside watch.json: every watch id is read, first, even past the cap', () => {
+  // 14 Nov 06Z: 325 ids in watch.json, most of them flat; the plan kept 115 of them and slowed 216.
+  const t = Date.parse('2026-10-28T06:05:00Z');
+  const watch = Array.from({ length: 325 }, () => newId());
+  const others = Array.from({ length: 450 }, () => newId());
+  const caps = [];
+  for (let k = 0; k < 8; k++) caps.push(cap(t - (7 - k) * H, { obs: [...watch.map((id) => [id, 5_000_000]), ...others.map((id) => [id, 50_000 + k * 5_000])], reads: 18, reads_left: 900 }));
+  const p = planReads({ captures: caps, watchIds: watch, openRequests: [], answered: new Set(), desks: DESKS, budget: BUDGET, now: Date.parse('2026-10-28T07:40:00Z') });
+  const ids = p.items[0].ids;
+  assert.deepEqual(ids.slice(0, 325), watch, 'all of watch.json, in its order, before anything else');
+  assert.equal(ids.length, 400, 'the others fill what the cap leaves');
+  assert.equal(p.left_out.rereads.over_cap, 450 - 75);
+  // A watch list longer than the cap is still read in full; nothing else is.
+  const big = Array.from({ length: 450 }, () => newId());
+  const q = planReads({ captures: [cap(t, { obs: big.map((id) => [id, 1]), reads: 18, reads_left: 900 })], watchIds: big, openRequests: [], answered: new Set(), desks: DESKS, budget: BUDGET, now: Date.parse('2026-10-28T07:40:00Z') });
+  assert.equal(q.items[0].ids.length, 450);
+  assert.equal(q.items[0].reads, 5);
+  // A watch id X no longer returns is still read: that is how the record learns it came back.
+  const { caps: nightCaps, ids: n } = night();
+  const r = planReads({ captures: nightCaps, watchIds: [n.gone], openRequests: [], answered: new Set(), desks: DESKS, budget: BUDGET, now: NOW });
+  assert.ok(r.items[0].ids.includes(n.gone));
 });
 
 test('reads left come from the field, else from the sentence, and a new UTC day starts from the full budget', () => {

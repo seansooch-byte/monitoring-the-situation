@@ -52,24 +52,30 @@ export function planReads({ captures, watchIds = [], openRequests = [], answered
   const lastViews = (id) => withViews(id).at(-1)?.views ?? 0;
   const byGain = (a, b) => (gain(b, 1) ?? -1) - (gain(a, 1) ?? -1) || (a < b ? -1 : 1);
 
+  // watch.json is read in full, first, every run (GRABBER.md, Re-reads: "never dropped"): no slowing,
+  // no cap, not even for a post X stopped returning, since reading it is how the record learns it came
+  // back. The band's cap and the flat-post slowing ration only the other re-reads.
+  const watchSet = new Set(watchIds);
+  const ids = [...watchSet];
   const groups = [];
-  groups.push([...watchIds]);
   const recent = [...series.keys()].filter((id) => forRunMs - firstSeen(id) < 24 * H);
   groups.push(recent.filter((id) => forRunMs - firstSeen(id) < budget.rereads.fresh_hours * H).sort((a, b) => lastViews(b) - lastViews(a) || (a < b ? -1 : 1)));
   groups.push(recent.filter((id) => forRunMs - firstSeen(id) >= budget.rereads.fresh_hours * H && (gain(id, 1) ?? 0) >= budget.rereads.gain_min).sort(byGain));
   if (hour % budget.rereads.rest_every_hours === 0) groups.push(recent.sort(byGain));
 
   const left = { slowed: 0, over_cap: 0, unavailable: 0 };
-  const seen = new Set();
-  const ids = [];
+  const seen = new Set(watchSet);
+  const others = [];
   for (const g of groups) for (const id of g) {
     if (seen.has(id)) continue;
     seen.add(id);
     if (gone(id)) { left.unavailable++; continue; }
     if (flat(id) && !turn(id)) { left.slowed++; continue; }
-    ids.push(id);
+    others.push(id);
   }
-  if (ids.length > band.rereads) { left.over_cap = ids.length - band.rereads; ids.length = band.rereads; }
+  const room = Math.max(0, band.rereads - ids.length);
+  if (others.length > room) left.over_cap = others.length - room;
+  ids.push(...others.slice(0, room));
 
   // ---- what is due
   const lastSweep = (id) => { let t = null; for (const c of caps) if ((c.sweeps ?? []).some((s) => s.id === id && (s.status === 'ok' || s.status === 'partial'))) t = Date.parse(c.run.started_at); return t; };
@@ -90,7 +96,7 @@ export function planReads({ captures, watchIds = [], openRequests = [], answered
   // ---- the list
   const items = [];
   const push = (sweep, reads, extra = {}) => items.push({ sweep, reads, ...extra });
-  if (ids.length) push('watch', Math.ceil(ids.length / budget.ids_per_read), { ids, why: `${watchIds.length} from watch.json, then posts under ${budget.rereads.fresh_hours} h old, then posts gaining ${Math.round(budget.rereads.gain_min * 100)} percent${hour % budget.rereads.rest_every_hours === 0 ? ', then the rest of the last 24 h (a fourth hour)' : ''}; ${left.slowed} flat posts wait for their sixth run` });
+  if (ids.length) push('watch', Math.ceil(ids.length / budget.ids_per_read), { ids, why: `all ${watchSet.size} from watch.json, then posts under ${budget.rereads.fresh_hours} h old, then posts gaining ${Math.round(budget.rereads.gain_min * 100)} percent${hour % budget.rereads.rest_every_hours === 0 ? ', then the rest of the last 24 h (a fourth hour)' : ''}; ${left.slowed} flat posts outside watch.json wait for their sixth run` });
   for (const d of due) { const t = lastSweep(`desk.${d.id}`); push(`desk.${d.id}`, budget.reads.desk, { every: d.sweep_every_hours, why: t == null ? 'never swept' : `due: every ${d.sweep_every_hours} h, last ${iso(t)}` }); }
   for (const d of stale) push(`volume.${d.id}`, budget.reads.volume, { why: d.age === Infinity ? 'never counted' : `counts ${Math.round(d.age / H)} h old` });
   for (const id of waiting.slice(0, budget.requests_per_run)) push(`request.${id}`, budget.reads.request, { why: 'open in requests/open.json, not yet answered' });

@@ -27,7 +27,7 @@ the standing orders in `GRABBER.md` and say so in `run.reason`.
 | `over_budget` | `true` when even the re-read list and the counts exceed the allowance. Read them anyway; they are never cut. |
 | `items[]` | The reads, in order. Each has `n`, `sweep` (a sweep id from `GRABBER.md`), `reads` (how many reads it is allowed) and often `why`. The `watch` item carries `ids`, the re-read list in order: read it in batches of `ids_per_read`. `desk.<desk>` items carry `every`. |
 | `cut` | The sweeps cut to fit the allowance, in the order they were cut. |
-| `left_out` | `rereads.slowed` (flat posts waiting for their sixth run), `rereads.over_cap`, `rereads.unavailable`; `desks_not_due`; `requests_waiting` (unanswered but over this run's share); `requests_stale` (older than three days, the editor's to prune). |
+| `left_out` | `rereads.slowed` (flat posts waiting for their sixth run), `rereads.over_cap`, `rereads.unavailable`, all counting only posts outside `watch.json`, which is always in the `watch` item in full, first; `desks_not_due`; `requests_waiting` (unanswered but over this run's share); `requests_stale` (older than three days, the editor's to prune). |
 | `inputs` | How many captures the plan was computed from and which, and the sizes of the request files. |
 
 ## How to execute it
