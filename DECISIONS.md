@@ -846,3 +846,30 @@ page script rely on (the pulse list's items, the desk cards, the unavailable-pos
 **Why.** "Open this app and learn what is going on" is a front page's job; the wire and the desks are
 how a curious reader goes deeper. Keeping every old address (stories, desks, story pages) means no
 link anyone has saved breaks.
+
+## 2026-11-14: Soochiebot writes a newsletter, not an editorial; Field Notes moves in as the Newsletter
+
+**Context.** The same afternoon the paper shipped with an opinion band waiting for Soochiebot's first editorial,
+Sean: "Make Field notes a toggle on Monitoring the situation. It will be a handcrafted newsletter by soochiebot.
+Format it in a letter style Harvard grade. Change Field notes to Newsletter." Field Notes was seansooch.dev/notes/:
+one post a day by Soochiebot from this record, with its own format and checks in the site repo.
+
+**Decision.** One writing job for Soochiebot: a letter a day, `newsletter/<day>.json` (`contract/NEWSLETTER.md`,
+`tools/lib/letter.mjs`), the Field Notes format renamed and moved here. The site sets it as a letter (letterhead,
+date, Re: line, Dear reader, sections, the read, Yours, Soochiebot) with references in the Harvard style (Cite Them
+Right) written by the build from ids, so the writer types no reference and cannot misstate a title or an author. A
+switch under the nameplate turns every page between the Paper and the Newsletter. The Paper's opinion band prints
+the letter's read and links the letter. The opinion (`opinion/<day>.json`, `tools/lib/opinion.mjs`, `/opinion/`) is
+removed before any was written. The 12 November Field Notes post is Newsletter No. 1, its words unchanged.
+
+**Alternatives.** (a) Keep the opinion and add the newsletter: two daily pieces from one writer, saying the same day
+twice. (b) Keep Field Notes on seansooch.dev and link it from here: two sites, two builders, two sets of rules for one
+letter. (c) Let the writer type Harvard references: they would drift from the record and nothing could check them.
+
+**Found while building it.** A letter written the morning after cites posts the editor described that morning, which
+are not in the day's edition, so a cited post must be one X confirmed that the record may show; a cited story must be
+in the day's edition. And the 12 November edition led with a story begun on the 13th whose earlier post gained views
+on the 12th: a front page carried a headline from the next day. A story is now in the editions from the day it
+began, and a test holds that.
+
+"Harvard grade" is read as Harvard referencing in a letter of that standard; the house style for the words is unchanged.

@@ -4,7 +4,7 @@
 //   node tools/build.mjs            from this repository's capture/ and moments/
 //   node tools/build.mjs --demo     from fixtures/demo (invented data, marked on every page)
 //
-// Words come from moments/ (the editor) and opinion/ (Soochiebot). Numbers come from capture/ (the
+// Words come from moments/ (the editor) and newsletter/ (Soochiebot). Numbers come from capture/ (the
 // grabber). The build only joins them: it never writes a sentence about a story and never makes up a
 // figure. The front page is an edition (contract/PAPER.md): one Eastern day, ranked by the record.
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
@@ -236,8 +236,8 @@ const FIRST_DAY = captures.length ? dayKey(Math.min(...captures.map((c) => Date.
 const editions = [];
 for (let d = FIRST_DAY; d <= TODAY; d = nextDay(d)) {
   const [s, e] = dayBounds(d);
-  const opFile = join(DATA, 'opinion', `${d}.json`);
-  const ed = buildEdition({ day: d, desks: DESKS, paper: PAPER, posts: allPosts, observations, ledger: EDITION_LEDGER, moments, lines: linesFor(s, e), opinion: existsSync(opFile) ? readJSON(opFile) : null });
+  const letterFile = join(DATA, 'newsletter', `${d}.json`);
+  const ed = buildEdition({ day: d, desks: DESKS, paper: PAPER, posts: allPosts, observations, ledger: EDITION_LEDGER, moments, lines: linesFor(s, e), letter: existsSync(letterFile) ? readJSON(letterFile) : null });
   if (!ed.stories.length && !ed.counts.posts) continue;
   ed.partial = d === TODAY;
   editions.push(ed);
@@ -453,12 +453,14 @@ const sortBar = (keys) => `<div class="sort" role="group" aria-label="Order">${k
 // ---------- the page shell: ears, nameplate, dateline, sections
 
 const FONTS = 'https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@400..800&display=swap';
-const SECTIONS = [['/', 'Front'], ...DESKS.groups.map((g) => [`/section/${g.id}/`, g.name]), ['/opinion/', 'Opinion'], ['/pulse/', 'The Wire'], ['/stories/', 'Stories'], ['/desks/', 'Desks'], ['/archive/', 'Back issues'], ['/about/', 'About']];
+const SECTIONS = [['/', 'Front'], ...DESKS.groups.map((g) => [`/section/${g.id}/`, g.name]), ['/pulse/', 'The Wire'], ['/stories/', 'Stories'], ['/desks/', 'Desks'], ['/archive/', 'Back issues'], ['/about/', 'About']];
 
-function page({ title, description, path, body, current, edition = null, front = false }) {
+function page({ title, description, path, body, current, edition = null, front = false, mode = 'paper' }) {
+  const modes = [['paper', '/', 'The Paper'], ['newsletter', '/newsletter/', 'The Newsletter']]
+    .map(([key, href, label]) => `<a href="${href}"${key === mode ? ' aria-current="page"' : ''}>${label}</a>`).join('');
   const nav = SECTIONS.map(([href, label]) => `<a href="${href}"${current === href ? ' aria-current="page"' : ''}>${esc(label)}</a>`).join('');
   const asof = `<time id="asof" datetime="${new Date(NOW).toISOString()}">${hhmm(NOW)} ${ZONE_LABEL} · ${day(NOW)}</time>`;
-  const left = edition ? `${edition.partial ? 'Today, so far' : 'Morning edition'}<br>${edition.partial ? longDay(edition.edition.day) : `Published ${longDay(nextDay(edition.edition.day))}`}` : `Monitoring the Situation<br>${esc(SITE.line)}`;
+  const left = mode === 'newsletter' ? 'The Newsletter<br>A letter a day by Soochiebot' : edition ? `${edition.partial ? 'Today, so far' : 'Morning edition'}<br>${edition.partial ? longDay(edition.edition.day) : `Published ${longDay(nextDay(edition.edition.day))}`}` : `Monitoring the Situation<br>${esc(SITE.line)}`;
   const plate = front
     ? `<h1 class="plate"><a href="/"><span class="plate-name">Monitoring the Situation</span></a></h1>`
     : `<p class="plate plate-s"><a href="/"><span class="plate-name">Monitoring the Situation</span></a></p>`;
@@ -492,6 +494,7 @@ ${DEMO ? '<p class="demo">Design test. Every story and post below is invented. O
     <p class="ear ear-r">As of ${asof}<br>Read from X every hour</p>
   </div>
   ${plate}
+  <nav class="mode" aria-label="Read it as">${modes}</nav>
   <nav class="secnav" aria-label="Sections">${nav}</nav>
 </header>
 <p class="stale" id="stale" role="status" hidden></p>
@@ -499,7 +502,7 @@ ${DEMO ? '<p class="demo">Design test. Every story and post below is invented. O
 ${body}
 </main>
 <footer class="foot">
-  <div class="foot-method"><p class="lab">How this paper is made</p>${SITE.method.map((m) => `<p>${esc(m)}</p>`).join('')}<p>Soochiebot, a program set to sound like Sean Sooch, writes the one opinion a day. It reads this record and nothing else, and it is labelled where it appears.</p></div>
+  <div class="foot-method"><p class="lab">How this paper is made</p>${SITE.method.map((m) => `<p>${esc(m)}</p>`).join('')}<p>Soochiebot, a program set to sound like Sean Sooch, writes the Newsletter: one letter a day, from this record and nothing else, labelled where it appears.</p></div>
   <p class="foot-links"><a href="/about/">About the paper</a><a href="/archive/">Back issues</a><a href="https://seansooch.dev/">seansooch.dev</a></p>
 </footer>
 </div>
@@ -566,14 +569,12 @@ function editionBody(ed, { front = false } = {}) {
   const rest = further.length ? `<section class="rail-sec" aria-labelledby="rest-h"><h2 class="lab" id="rest-h">Further down the record</h2><ol class="rank-list">${further.map((e) => `<li><a href="/story/${esc(e.id)}/"><span class="t">${esc(story(e).title)}</span><span class="num">${num(e.reach)}</span><span class="meta">${ordinal(e.rank)} · ${esc(STANDING[e.standing] ?? e.standing)} · ${esc(e.sections.map(sectionName).join(', '))}</span></a></li>`).join('')}</ol></section>` : '';
   const three = ranked.slice(1, 4);
   const row = three.length ? `<section class="part" aria-label="The next stories"><div class="row3">${three.map((e) => `<article data-desks="${esc(story(e).desks.join(' '))}"><p class="kicker">${ordinal(e.rank)} · ${kicker(story(e))}</p><h3><a href="/story/${esc(e.id)}/">${esc(story(e).title)}</a></h3><p class="body">${esc(story(e).dek)}</p><p class="who">${num(e.reach)} views on the day · ${plural(e.posts.length, 'post', 'posts')}</p></article>`).join('')}</div></section>` : '';
-  const op = ed.opinion;
-  const known = new Map([...ed.stories.map((e) => [e.id, { href: `/story/${e.id}/`, label: story(e).title }]), ...[...ed.unreported, ...ed.watched].map((p) => [p.id, { href: xUrl(p.id), label: `@${p.handle}`, out: true }])]);
-  for (const e of ed.stories) for (const p of e.posts) if (!known.has(p.id)) known.set(p.id, { href: xUrl(p.id), label: `@${p.handle}`, out: true });
-  const opinion = `<section class="opinion" id="opinion" aria-labelledby="opinion-h">
-    <div><h2 class="lab" id="opinion-h">Opinion</h2><p class="opinion-name">The Read</p><p class="opinion-about">Soochiebot's editorial: one call on the day, written from this record and nothing else. A program, labelled as one, and kept apart from the news.</p></div>
-    <div class="opinion-body">${op
-    ? `<h3 class="opinion-h">${esc(op.head)}</h3>${op.text.map((t) => `<p class="op">${esc(t)}</p>`).join('')}<p class="who">Soochiebot (${esc(op.model)}) · rests on ${op.cites.map((c) => known.get(c)).filter(Boolean).map((k) => `<a href="${esc(k.href)}"${k.out ? ' rel="noopener noreferrer" target="_blank"' : ''}>${esc(k.label)}</a>`).join(', ')}</p>`
-    : `<p class="opinion-none">No editorial for this day. Soochiebot writes one each morning from the edition; on a day it does not, this space stays empty rather than filled.</p>`}</div>
+  const L = ed.letter;
+  const opinion = `<section class="opinion" id="newsletter" aria-labelledby="newsletter-h">
+    <div><h2 class="lab" id="newsletter-h">From the Newsletter</h2><p class="opinion-name">The read</p><p class="opinion-about">Soochiebot's letter on the day ends with one call on what it adds up to. A program, labelled as one, and kept apart from the news.</p></div>
+    <div class="opinion-body">${L
+    ? `<h3 class="opinion-h"><a href="/newsletter/${ed.edition.day}/">${esc(L.subject)}</a></h3>${L.read.text.map((t) => `<p class="op">${letterText(t, L)}</p>`).join('')}<p class="who">Soochiebot (${esc(L.model)}) · <a href="/newsletter/${ed.edition.day}/">Read the whole letter, with its references</a></p>`
+    : `<p class="opinion-none">No letter for this day. Soochiebot writes one each morning from the edition; on a day it does not, this space stays empty rather than filled.</p>`}</div>
   </section>`;
   const watched = ed.watched.length ? `<section class="part" aria-labelledby="watched-h"><div class="part-h"><h2 id="watched-h">What the internet watched</h2><p>The largest posts the editor described that no story covers, outside the news sections.</p></div><div class="items">${ed.watched.slice(0, 6).map((p) => itemBlock(p)).join('')}</div></section>` : '';
   const strip = `<section class="part" id="sections" aria-labelledby="sections-h"><div class="part-h"><h2 id="sections-h">The six sections</h2><p>Posts confirmed and views gained on the day, and when each section was posting, by Eastern hour.</p></div><div class="strip">${ed.sections.map((sec) => {
@@ -721,13 +722,100 @@ ${list || empty('Nothing here yet.', 'The record began on 9 October 2026. Storie
   return page({ title: `Back issues · ${SITE.name}`, description: 'Every day of the record as a front page, and every story that has left the wire, by day.', path: '/archive/', body, current: '/archive/' });
 }
 
-function opinionPage() {
-  const written = [...editions].reverse().filter((e) => e.opinion);
-  const body = `${head({ label: 'Opinion', title: 'The Read', dek: 'One editorial a day by Soochiebot, a program set to sound like Sean Sooch. It reads that day\'s edition and nothing else, cites what it rests on, and supplies no number of its own: the figures are in the paper beside it.' })}
-<section class="part-1">
-${written.length ? `<ol class="st-list">${written.map((e) => `<li><a class="st" href="/edition/${e.edition.day}/#opinion"><span class="st-mag">${esc(shortDay(e.edition.day))}</span><span class="st-title">${esc(e.opinion.head)}<span class="st-dek">${esc(e.opinion.text[0])}</span></span><span class="st-side"><span class="lab lab-quiet">${esc(e.opinion.model)}</span></span></a></li>`).join('')}</ol>` : empty('The first editorial has not been published.', 'Soochiebot writes one each morning from the edition, as opinion/DAY.json. Until then this page says so rather than filling it.')}
-</section>`;
-  return page({ title: `Opinion · ${SITE.name}`, description: 'The Read: one editorial a day by Soochiebot, from the record and nothing else.', path: '/opinion/', body, current: '/opinion/' });
+// ---------- the Newsletter: Soochiebot's letter for a day, set as a letter, referenced in the Harvard style
+//
+// A letter names its sources by id (contract/NEWSLETTER.md); everything a reference says is looked up here: a
+// story's title and the day it began, a post's author and the day it was written. Cite Them Right's Harvard
+// forms: Author (Year) Title. Available at: URL (Accessed: date). One author in one year more than once takes a,
+// b, c in the order of the list, which is alphabetical by author, then year, then title.
+
+const letters = editions.filter((e) => e.letter);
+const MONTH_DAY = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', day: 'numeric', month: 'long' });
+const FULL = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', day: 'numeric', month: 'long', year: 'numeric' });
+const ofDay = (d, f = FULL) => f.format(new Date(`${d}T12:00:00Z`));
+
+// A sentence of a letter on a page: escaped, **bold** as the one mark it may carry, each figure in its place.
+function letterText(t, L) {
+  return esc(t).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\{([a-z][a-z0-9_]*)\}/g, (_, k) => `<b class="fig">${esc(L.figures[k]?.value ?? '')}</b>`);
+}
+
+function references(L) {
+  const refs = Object.entries(L.sources).map(([key, src]) => {
+    if (src.story) {
+      const st = storyById.get(src.story);
+      return { key, author: SITE.name, year: st.started_at.slice(0, 4), title: st.title, href: `${SITE.url}/story/${st.id}/`, local: `/story/${st.id}/`, kind: 'story' };
+    }
+    const p = merged.get(src.post);
+    const created = p?.created_at ? dayKey(Date.parse(p.created_at)) : null;
+    const name = p?.author?.name ? fromX(p.author.name) : `@${src.handle}`;
+    return { key, author: name, handle: src.handle, year: created ? created.slice(0, 4) : 'n.d.', title: `Post on X${created ? `, ${ofDay(created, MONTH_DAY)}` : ''}`, href: xUrl(src.post), kind: 'post' };
+  });
+  refs.sort((a, b) => a.author.localeCompare(b.author, 'en', { sensitivity: 'base' }) || a.year.localeCompare(b.year) || a.title.localeCompare(b.title));
+  const many = new Map();
+  for (const r of refs) many.set(`${r.author}|${r.year}`, (many.get(`${r.author}|${r.year}`) ?? 0) + 1);
+  const next = new Map();
+  for (const r of refs) {
+    const k = `${r.author}|${r.year}`;
+    r.suffix = many.get(k) > 1 ? 'abcdefghijklmnopqrstuvwxyz'[(next.set(k, (next.get(k) ?? -1) + 1), next.get(k))] : '';
+    r.cite = `${r.author}, ${r.year}${r.suffix}`;
+  }
+  return refs;
+}
+
+function letterArticle(ed, { full = true } = {}) {
+  const L = ed.letter;
+  const refs = references(L);
+  const byKey = new Map(refs.map((r) => [r.key, r]));
+  const n = letters.indexOf(ed) + 1;
+  const cite = (keys) => {
+    const list = [...new Set(keys)].map((k) => byKey.get(k)).filter(Boolean);
+    return list.length ? ` <span class="cite">(${list.map((r) => `<a href="#ref-${esc(r.key)}">${esc(r.cite)}</a>`).join('; ')})</span>` : '';
+  };
+  const paras = (text, keys) => text.map((t, i) => `<p>${letterText(t, L)}${i === text.length - 1 ? cite(keys) : ''}</p>`).join('');
+  const published = ofDay(L.published);
+  const i = letters.indexOf(ed);
+  const turn = [letters[i - 1] ? `<a href="/newsletter/${letters[i - 1].edition.day}/">Earlier: ${esc(shortDay(letters[i - 1].edition.day))}</a>` : '',
+    letters[i + 1] ? `<a href="/newsletter/${letters[i + 1].edition.day}/">Later: ${esc(shortDay(letters[i + 1].edition.day))}</a>` : ''].filter(Boolean).join('');
+  return `<article class="letter" aria-labelledby="re-${ed.edition.day}">
+  <header class="letterhead">
+    <p class="lh-name">Monitoring the Situation</p>
+    <p class="lab lh-sub">The Newsletter · No. ${n}</p>
+  </header>
+  <p class="l-date"><time datetime="${esc(L.published)}">${esc(longDay(L.published))}</time></p>
+  <h2 class="l-re" id="re-${ed.edition.day}"><span class="lab">Re:</span> ${esc(L.subject)}</h2>
+  <p class="l-dear">Dear reader,</p>
+  <p class="l-summary">${esc(L.summary)}</p>
+  <section class="l-part"><h3>${esc(L.lead.head)}</h3>${paras(L.lead.text, L.lead.cites)}</section>
+  ${L.notes.map((nt) => `<section class="l-part"><p class="lab">${esc(deskName(nt.desk))}</p><h3>${esc(nt.head)}</h3>${paras([nt.text], nt.cites)}</section>`).join('\n  ')}
+  <section class="l-part l-read"><h3>The read</h3>${paras(L.read.text, L.read.cites)}</section>
+  <div class="l-sign">
+    <p>Yours,</p>
+    <p class="l-sig">Soochiebot</p>
+    <p class="l-sig-note">A program writing in Sean Sooch's voice, from the record of ${esc(SITE.name)} and nothing else (${esc(L.model)}). Written for ${esc(ed.edition.label)}; published ${esc(published)}. The numbers in this letter are the record's, and each is cited to its source.</p>
+  </div>
+  ${full ? `<section class="refs" aria-labelledby="refs-${ed.edition.day}">
+    <h3 id="refs-${ed.edition.day}">References</h3>
+    <ol class="ref-list">${refs.map((r) => `<li id="ref-${esc(r.key)}">${esc(r.author)}${r.handle ? ` [@${esc(r.handle)}]` : ''} (${esc(r.year)}${r.suffix}) ${r.kind === 'story' ? `<i>${esc(r.title)}</i>` : esc(r.title)}. Available at: <a href="${esc(r.href)}"${r.kind === 'post' ? ' rel="noopener noreferrer" target="_blank"' : ''}>${esc(r.href)}</a> (Accessed: ${esc(published)}).</li>`).join('')}</ol>
+  </section>
+  ${Object.keys(L.figures).length ? `<section class="refs" aria-labelledby="figs-${ed.edition.day}"><h3 id="figs-${ed.edition.day}">Figures</h3><dl class="fig-list">${Object.values(L.figures).map((f) => `<div><dt>${esc(f.value)}</dt><dd>${esc(f.of)} <span class="cite">(<a href="#ref-${esc(f.source)}">${esc(byKey.get(f.source)?.cite ?? '')}</a>)</span></dd></div>`).join('')}</dl></section>` : ''}
+  <p class="l-paper"><a href="/edition/${ed.edition.day}/">The Paper for ${esc(ed.edition.label)}</a></p>
+  ${turn ? `<nav class="l-turn" aria-label="Other letters">${turn}</nav>` : ''}` : ''}
+</article>`;
+}
+
+function letterPage(ed) {
+  const L = ed.letter;
+  return page({ title: `${L.subject} · The Newsletter · ${SITE.name}`, description: L.summary, path: `/newsletter/${ed.edition.day}/`, body: letterArticle(ed), mode: 'newsletter' });
+}
+
+function newsletterPage() {
+  const latest = letters.at(-1);
+  const earlier = [...letters].reverse().slice(1);
+  const body = latest
+    ? `${letterArticle(latest)}
+${earlier.length ? `<section class="part letters" aria-labelledby="earlier-h"><div class="part-h"><h2 id="earlier-h">Earlier letters</h2></div><ol class="st-list">${earlier.map((e) => `<li><a class="st" href="/newsletter/${e.edition.day}/"><span class="st-mag">${esc(shortDay(e.edition.day))}</span><span class="st-title">${esc(e.letter.subject)}<span class="st-dek">${esc(e.letter.summary)}</span></span><span class="st-side"><span class="lab lab-quiet">No. ${letters.indexOf(e) + 1}</span></span></a></li>`).join('')}</ol></section>` : ''}`
+    : `<article class="letter"><header class="letterhead"><p class="lh-name">Monitoring the Situation</p><p class="lab lh-sub">The Newsletter</p></header>${empty('The first letter has not been written.', 'Soochiebot writes one each morning from the day before. Until it does, this page says so rather than filling it.')}</article>`;
+  return page({ title: `The Newsletter · ${SITE.name}`, description: 'A letter a day by Soochiebot on what the internet paid attention to, from the record of Monitoring the Situation, with its references.', path: '/newsletter/', body, mode: 'newsletter' });
 }
 
 const pinDate = (p) => `<time datetime="${esc(p.created_at)}">${dateOf(Date.parse(p.created_at))}</time>`;
@@ -746,10 +834,11 @@ function aboutPage() {
     <li><h3>Each post is checked.</h3><p>A post's id carries the moment it was created, so a record whose date does not match its id is rejected. Before a post appears here, X is asked directly whether it exists and whether its author and text match.</p></li>
     <li><h3>Claude writes the news.</h3><p>It reads each post before it is shown, leaves out what should not be shown, and writes the sentence above it. For the larger things it reads the reporting and writes a story: what happened, why it is spreading, how each world is seeing it, and what is on the record. It supplies no numbers.</p></li>
     <li><h3>The record sets the front page.</h3><p>Each morning the day before becomes an edition. Its stories are ranked by the views their posts gained that day, so the lead is what the most people saw, and nobody chooses the order.</p></li>
-    <li><h3>Soochiebot writes the opinion.</h3><p>One editorial a day, from that edition and nothing else, labelled as a program's and set apart from the news. It cites what it rests on and types no number of its own.</p></li>
+    <li><h3>Soochiebot writes the Newsletter.</h3><p>One letter a day on the day before, from that edition and nothing else, labelled as a program's and set apart from the news. Every number in it is one of the record's, cited in the Harvard style to the story or post it came from.</p></li>
   </ol>
   <h2>How to read it</h2>
   <dl class="glossary">
+    <div><dt>The Paper and the Newsletter</dt><dd>Two ways to read the same record, switched under the nameplate. The Paper is the day as a front page, ranked by the numbers. The Newsletter is Soochiebot's letter on the same day: what moved, what it means, and one call at the end, with its references.</dd></div>
     <div><dt>Views on the day</dt><dd>What a post gained between midnight and midnight, Eastern: its last reading that day less its last reading the day before. A story's reach is the sum over its posts. A story that began earlier counts only what it gained that day, so a story that moves again rises again.</dd></div>
     <div><dt>Big on X, not yet a story</dt><dd>Posts in the news sections that drew more views than most stories and that no story covers yet. The gaps in the reporting are printed, not hidden.</dd></div>
     <div><dt>What the internet watched</dt><dd>The largest posts outside the news sections that no story covers: what people were passing around.</dd></div>
@@ -763,7 +852,7 @@ function aboutPage() {
   <h2>What is left out</h2>
   <p>Posts that show people who are not public figures, anything involving minors, pornography and gore, and private information of any kind. When one of these is at the centre of something large, the story is told without it.</p>
 </section>`;
-  return page({ title: `About · ${SITE.name}`, description: 'Why this paper exists and how it is made: Grok reads X, Claude writes the news, the record sets the front page, Soochiebot writes the opinion.', path: '/about/', body, current: '/about/' });
+  return page({ title: `About · ${SITE.name}`, description: 'Why this paper exists and how it is made: Grok reads X, Claude writes the news, the record sets the front page, Soochiebot writes the Newsletter.', path: '/about/', body, current: '/about/' });
 }
 
 // ---------- write
@@ -775,7 +864,8 @@ for (const ed of editions) { put(`edition/${ed.edition.day}/index.html`, edition
 put('pulse/index.html', wirePage());
 put('desks/index.html', desksPage());
 put('stories/index.html', storiesPage());
-put('opinion/index.html', opinionPage());
+put('newsletter/index.html', newsletterPage());
+for (const ed of letters) put(`newsletter/${ed.edition.day}/index.html`, letterPage(ed));
 put('about/index.html', aboutPage());
 put('archive/index.html', archivePage());
 for (const g of DESKS.groups) put(`section/${g.id}/index.html`, sectionPage(g));
@@ -797,4 +887,4 @@ if (held.length) {
 }
 if (unshown) console.warn(`warning: ${unshown} ${unshown === 1 ? 'post' : 'posts'} not shown because X has not confirmed ${unshown === 1 ? 'it' : 'them'} (listed above); the rest of the site is built`);
 console.log(`built ${DEMO ? 'DEMO ' : ''}site: ${pulse.length} on the pulse, ${stories.length} stories (${live.length} current), ${desks.filter((d) => d.posts).length}/${desks.length} desks active, ${records.size} posts, as of ${new Date(NOW).toISOString()}`);
-console.log(`built paper: ${editions.length} editions, front page ${frontEd ? `${frontEd.edition.day}${frontEd.partial ? ' (so far)' : ''}, lead ${frontEd.stories[0]?.id ?? 'none'}` : 'none'}, ${complete.filter((e) => e.opinion).length} with an opinion`);
+console.log(`built paper: ${editions.length} editions, front page ${frontEd ? `${frontEd.edition.day}${frontEd.partial ? ' (so far)' : ''}, lead ${frontEd.stories[0]?.id ?? 'none'}` : 'none'}, ${letters.length} with a letter`);

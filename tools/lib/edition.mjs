@@ -8,19 +8,20 @@
 //     is a desk in desks.json.
 //   - A post's views on the day are what it gained between the day's start and end; readings after
 //     the end are ignored, and a post whose last reading is unavailable gained nothing and is dropped.
-//   - Stories with views on the day, or begun that day, ranked by reach (the sum of their posts'
+//   - Stories begun by the day's end with views on the day, or begun that day, ranked by reach (the sum of their posts'
 //     views on the day). The first leads; the first five are the briefing.
 //   - Posts the editor described that no story cites are split into unreported (news sections) and
 //     watched (the rest), largest first, one per account.
 //   - No text from a post is ever copied into an edition.
-//   - An opinion for the day must pass checkOpinion, or the edition is refused with every reason.
+//   - The day's letter (the Newsletter, contract/NEWSLETTER.md) must pass checkLetter against this edition, or
+//     the edition is refused with every reason. It rides in the edition whole; the Paper prints its read.
 import { dayBounds, dayKey, hourET } from './clock.mjs';
-import { checkOpinion } from './opinion.mjs';
+import { checkLetter } from './letter.mjs';
 
-export const EDITION_SCHEMA = 'mts.edition/1';
+export const EDITION_SCHEMA = 'mts.edition/2';
 const DAYNAME = new Intl.DateTimeFormat('en-GB', { timeZone: 'UTC', weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 
-export function buildEdition({ day, desks, paper, posts, observations, ledger, moments, lines = {}, opinion = null }) {
+export function buildEdition({ day, desks, paper, posts, observations, ledger, moments, lines = {}, letter = null }) {
   const [start, end] = dayBounds(day);
   const groupOf = Object.fromEntries(desks.desks.map((d) => [d.id, d.group]));
   const never = new Set(paper.never_shown);
@@ -77,7 +78,9 @@ export function buildEdition({ day, desks, paper, posts, observations, ledger, m
       .map((p) => ({ ...p, handle: byId.get(p.id).author?.handle ?? null }))
       .sort((a, b) => b.views - a.views || a.id.localeCompare(b.id));
     const reach = ps.reduce((n, p) => n + p.views, 0);
-    if (!(reach > 0 || (began >= start && began < end))) continue;
+    // A story is in the editions from the day it began: a front page never carries a headline from a later day,
+    // whatever the story's earlier posts gained.
+    if (!(began < end) || !(reach > 0 || began >= start)) continue;
     const sections = [...new Set((m.desks ?? []).map((d) => groupOf[d]).filter(Boolean))];
     stories.push({ id: m.id, title: m.title, dek: m.dek, standing: m.standing, desks: m.desks ?? [], sections, started_at: m.started_at, reach, posts: ps });
   }
@@ -117,13 +120,14 @@ export function buildEdition({ day, desks, paper, posts, observations, ledger, m
     };
   });
 
-  // The opinion, if there is one, must stand on this edition.
-  let op = null;
-  if (opinion) {
-    const known = new Set([...stories.map((s) => s.id), ...stories.flatMap((s) => s.posts.map((p) => p.id)), ...described.map((p) => p.id)]);
-    const bad = checkOpinion(opinion, day, known);
-    if (bad.length) throw new Error(`opinion/${day}.json does not meet contract/PAPER.md: ${bad.join('; ')}`);
-    op = { head: opinion.head, text: opinion.text, cites: opinion.cites, model: opinion.model, published: opinion.published };
+  // The letter, if there is one, must stand on this edition: it may cite only what the edition holds.
+  if (letter) {
+    // A story must be in this edition; a post must be one X confirmed that the record may show (it counts), which
+    // takes in a post the editor described the morning after, as a letter written then will cite.
+    const inEdition = new Set(stories.map((s) => s.id));
+    const known = { story: (id) => inEdition.has(id), post: (id) => counts(id) };
+    const bad = checkLetter(letter, day, new Set(desks.desks.map((d) => d.id)), known);
+    if (bad.length) throw new Error(`newsletter/${day}.json does not meet contract/NEWSLETTER.md: ${bad.join('; ')}`);
   }
 
   return {
@@ -136,7 +140,7 @@ export function buildEdition({ day, desks, paper, posts, observations, ledger, m
     unreported,
     watched,
     sections,
-    opinion: op,
+    letter: letter ?? null,
   };
 }
 

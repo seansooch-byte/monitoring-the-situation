@@ -9,7 +9,6 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildEdition } from '../tools/lib/edition.mjs';
-import { checkOpinion } from '../tools/lib/opinion.mjs';
 import { dayBounds, dayKey, hourET } from '../tools/lib/clock.mjs';
 
 const root = fileURLToPath(new URL('..', import.meta.url));
@@ -72,7 +71,7 @@ function record() {
     p7: { desk: 'internet', line: 'A line about p7.' },
     p8: { desk: 'internet', line: 'A line about p8.' },
   };
-  return { day: DAY, desks, paper, posts, observations, ledger, moments, lines, opinion: null };
+  return { day: DAY, desks, paper, posts, observations, ledger, moments, lines, letter: null };
 }
 
 test('the Eastern day is midnight to midnight in New York, whatever the season', () => {
@@ -88,7 +87,7 @@ test('the Eastern day is midnight to midnight in New York, whatever the season',
 
 test('the largest story leads, ranked by the views its posts gained on the day', () => {
   const e = buildEdition(record());
-  assert.equal(e.schema, 'mts.edition/1');
+  assert.equal(e.schema, 'mts.edition/2');
   assert.equal(e.edition.day, DAY);
   assert.deepEqual(e.stories.map((s) => [s.id, s.reach]), [['2026-11-13-alpha', 5 * M], ['2026-11-12-beta', 1 * M], ['2026-11-13-gamma', 0]]);
   assert.equal(e.lead, '2026-11-13-alpha');
@@ -101,6 +100,15 @@ test('the largest story leads, ranked by the views its posts gained on the day',
 test('a story begun earlier counts only what it gained on the day', () => {
   const beta = buildEdition(record()).stories.find((s) => s.id === '2026-11-12-beta');
   assert.equal(beta.reach, 1 * M, 'six million at the end less five million at the start');
+});
+
+test('a story begun after the day is not in that day\'s edition, whatever its posts gained that day', () => {
+  const r = record();
+  r.moments.push({ id: '2026-11-14-later', title: 'Later', dek: 'A story begun the next day.', standing: 'developing', desks: ['internet'],
+    started_at: '2026-11-14T15:00:00Z', posts: [{ id: 'p3', role: 'origin' }] });
+  const e = buildEdition(r);
+  assert.ok(!e.stories.some((s) => s.id === '2026-11-14-later'), 'a front page carries no headline from a later day');
+  assert.ok(e.stories.some((s) => s.id === '2026-11-12-beta'), 'CONTROL: the story begun the day before is there');
 });
 
 test('a reading after the day ends never changes the edition', () => {
@@ -159,65 +167,45 @@ test('an edition holds no text from a post', () => {
   assert.ok(!JSON.stringify(buildEdition(r)).includes('THE WORDS OF THE POST'));
 });
 
-function opinion(over = {}) {
+function letter(over = {}) {
+  const pad = (t, n) => t + ' More words in the same plain voice.'.repeat(n);
   return {
-    schema: 'mts.opinion/1', date: DAY, published: '2026-11-14', model: 'Test Model',
-    head: 'The day the planes stood still',
-    text: ['The record shows one thing above the rest. ' + 'Plain words that make a case about the day. '.repeat(16),
-      'It was 2026, and GPT-5 and the F-35 both made the news in the 1990s sense. ' + 'More words in the same voice. '.repeat(8)],
-    cites: ['2026-11-13-alpha', 'p6'],
+    schema: 'mts.letter/1', date: DAY, published: '2026-11-14', model: 'Test Model',
+    subject: 'The day the alpha story led the record', summary: 'One sentence on what the day was about.',
+    lead: { desk: 'politics', head: 'Alpha leads', text: [pad('The alpha story drew {reach} views on the day.', 20)], cites: ['alpha'] },
+    notes: [
+      { desk: 'internet', head: 'Beta again', text: pad('The beta story moved again.', 6), cites: ['beta'] },
+      { desk: 'life', head: 'Alpha, seen again', text: pad('The alpha story, from the other side.', 6), cites: ['alpha'] },
+    ],
+    read: { text: [pad('What the day adds up to.', 8)], cites: ['alpha'] },
+    sources: { alpha: { story: '2026-11-13-alpha' }, beta: { story: '2026-11-12-beta' } },
+    figures: { reach: { value: '5M', of: 'views on the day', source: 'alpha' } },
     ...over,
   };
 }
 
-test('a good opinion rides in its edition', () => {
+test('a good letter rides in its edition, whole', () => {
   const r = record();
-  r.opinion = opinion();
+  r.letter = letter();
   const e = buildEdition(r);
-  assert.equal(e.opinion.head, 'The day the planes stood still');
-  assert.deepEqual(e.opinion.cites, ['2026-11-13-alpha', 'p6']);
+  assert.equal(e.letter.subject, 'The day the alpha story led the record');
+  assert.deepEqual(e.letter.read, r.letter.read);
+  assert.equal(buildEdition(record()).letter, null, 'CONTROL: no letter, none in the edition');
 });
 
-test('an opinion that breaks a rule stops the edition and names the rule', () => {
-  const em = String.fromCharCode(0x2014), en = String.fromCharCode(0x2013);
-  const para = (s) => ({ text: [opinion().text[0], s] });
-  const broken = {
-    'an em dash': [para(`One thing ${em} then another.`), 'dash'],
-    'an en dash': [{ head: `The day ${en} the planes stood still` }, 'dash'],
-    'a double hyphen': [para('One thing -- then another.'), 'dash'],
-    'a quotation mark': [para('He said "never" and left.'), 'quotation'],
-    'a curly quotation': [para('He said ' + String.fromCharCode(0x201C) + 'never' + String.fromCharCode(0x201D) + '.'), 'quotation'],
-    'a single quotation': [para("He said 'never' and left."), 'quotation'],
-    'a typed number': [para('It drew 22.6M views.'), '22.6M'],
-    'a typed share': [para('It rose 12% in a day.'), '12%'],
-    'a typed count': [para('More than 5,300 flights were canceled.'), '5,300'],
-    'a typed sum': [para('He asked for $50 billion.'), '$50'],
-    'an address': [para('Read it at example.com/x today.'), 'address'],
-    'a scheme': [para('Read it at https://example.com today.'), 'address'],
-    'an emoji': [para('Big day ' + String.fromCodePoint(0x1F680)), 'emoji'],
-    'a pictograph': [para('Big day ' + String.fromCodePoint(0x2B50)), 'emoji'],
-    'markup': [para('A <b>bold</b> claim.'), 'markup'],
-    'a dose': [para('They gave five mg at once.'), 'dose'],
-    'a key the format does not name': [{ mood: 'grim' }, 'mood'],
-    'a cite not in the edition': [{ cites: ['2026-11-13-alpha', 'nowhere'] }, 'nowhere'],
-    'no cite': [{ cites: [] }, 'cites'],
-    'a cite of an unconfirmed post': [{ cites: ['p4'] }, 'p4'],
-    'too few words': [{ text: ['Too short.'] }, '120'],
-    'too many words': [{ text: ['Word '.repeat(420)] }, '400'],
-    'five paragraphs': [{ text: Array(5).fill('Some words here. '.repeat(8)) }, 'paragraphs'],
-    'a short head': [{ head: 'Short' }, 'head'],
-    'another day': [{ date: '2026-11-12' }, 'date'],
-    'published before its day': [{ published: '2026-11-13' }, 'published'],
-    'a day that does not exist': [{ published: '2026-11-31' }, 'published'],
-    'another schema': [{ schema: 'mts.opinion/2' }, 'schema'],
-    'a paragraph that is not text': [{ text: [{ html: 'x' }] }, 'text'],
-  };
-  for (const [what, [change, names]] of Object.entries(broken)) {
+test('a letter that breaks a rule stops the edition and names its file', () => {
+  const em = String.fromCharCode(0x2014);
+  for (const [what, change, names] of [
+    ['an em dash', (l) => l.read.text.push(`One thing ${em} then another.`), 'dash'],
+    ['a typed number', (l) => l.read.text.push('It drew 22.6M views.'), '22.6M'],
+    ['a story not in the edition', (l) => { l.sources.beta.story = '2026-11-10-old'; }, 'not in this day'],
+    ['a key the format does not name', (l) => { l.mood = 'grim'; }, 'mood'],
+  ]) {
     const r = record();
-    r.opinion = opinion(change);
-    assert.throws(() => buildEdition(r), (err) => err.message.includes(`opinion/${DAY}.json`) && err.message.includes(names), what);
+    r.letter = letter();
+    change(r.letter);
+    assert.throws(() => buildEdition(r), (err) => err.message.includes(`newsletter/${DAY}.json`) && err.message.includes(names), what);
   }
-  assert.deepEqual(checkOpinion(opinion(), DAY, new Set(['2026-11-13-alpha', 'p6'])), [], 'CONTROL: the unbroken opinion has no problem');
 });
 
 test('the real 13 November edition leads with the ground stop and puts Microsoft among the unreported', () => {

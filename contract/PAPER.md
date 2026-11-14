@@ -3,7 +3,7 @@
 Monitoring the Situation is becoming a daily newspaper of the internet: you open it and learn what is
 going on. This document is the backbone every page of it is built on, whichever design it wears. It
 changes nothing about how the record is made (`GRABBER.md`, `EDITOR.md`); it says how a day of the
-record becomes an edition, and where the one opinion in it comes from.
+record becomes an edition, and where the one letter in it comes from.
 
 ## Who writes what
 
@@ -12,15 +12,15 @@ record becomes an edition, and where the one opinion in it comes from.
 | The numbers (views, counts, rank, sections) | Grok reads them from X; `tools/lib/edition.mjs` computes everything else | Nobody types a number. |
 | The news (stories, the pulse's lines) | Claude, the editor | Describes and attributes; never an opinion. Unchanged. |
 | The order of the front page | The edition builder, from the numbers | No hand ranks a story. The largest story leads. |
-| The opinion ("The Read") | Soochiebot, kept by grokbot | One editorial a day, `opinion/<day>.json`, labelled as a program's opinion, set apart from the news. |
+| The Newsletter (one letter a day; the Paper prints its read) | Soochiebot, kept by grokbot | `newsletter/<day>.json` to `contract/NEWSLETTER.md`, labelled as a program's, set apart from the news. |
 
 Soochiebot writes words, which the grabber does not: this is Sean's decision of 2026-11-14 and is
-held to one folder (`opinion/`) and the rules below.
+held to one folder (`newsletter/`) and the rules in `contract/NEWSLETTER.md`.
 
 ## An edition
 
 An edition is one Eastern day, midnight to midnight, published the next morning. It is a pure
-function of the record: the same captures, ledger, stories, pulse history and opinion give the same
+function of the record: the same captures, ledger, stories, pulse history and letter give the same
 edition, byte for byte. `tools/edition.mjs --day 2026-11-13` writes it; `tools/lib/edition.mjs`
 holds every rule and touches no file.
 
@@ -36,7 +36,9 @@ earlier, is measured from its first reading that day, which undercounts and neve
 reading after the day's end never changes the edition. A post whose last reading is `unavailable`
 gained nothing.
 
-**Stories.** Every story in `moments/` with views on the day, or begun that day. Its reach is the
+**Stories.** Every story in `moments/` begun by the day's end, with views on the day or begun that day. A
+story begun later is never in an earlier day's edition, whatever its earlier posts gained: a front page carries
+no headline from a later day. Its reach is the
 sum of its counted posts' views on the day. Stories are ranked by reach, largest first.
 
 - **The lead** is the first story. **The briefing** is the first five, in order.
@@ -50,41 +52,13 @@ sum of its counted posts' views on the day. Stories are ranked by reach, largest
 Sports, Life online). For each: posts created that day, views gained that day, its share of the day's
 views, posts per Eastern hour, its stories in rank order, and its three largest described posts.
 
-## The opinion
+## The letter
 
-`opinion/<day>.json`, one per day, written by Soochiebot from that day's edition and nothing else:
-
-```json
-{
-  "schema": "mts.opinion/1",
-  "date": "2026-11-13",
-  "published": "2026-11-14",
-  "model": "Grok Bot",
-  "head": "The editorial's headline, 20 to 100 characters",
-  "text": ["One to four paragraphs, 120 to 400 words in all."],
-  "cites": ["2026-11-13-faa-nationwide-ground-stop"]
-}
-```
-
-- `cites` names stories or posts that are in that day's edition, at least one. The page links them.
-- No number of its own: no digit except a year (`2026`, `the 1990s`) or in a name that starts with
-  a letter (`GPT-5`, `F-35`). The figures are on the page beside it, from the record.
-- No quotation marks, no em or en dash, no emoji or pictograph, no web address, no markup, nothing
-  that reads as a dose.
-- No financial, medical or legal advice. Nothing about a private person or a minor. On the news
-  sections it may argue about what a story means; it never adds a fact the story does not hold.
-- A key this page does not name is refused. A broken opinion stops the edition with a sentence
-  naming each rule it breaks; the edition is never published without saying so.
-
-## Writing and committing an opinion
-
-1. After the Eastern day ends, build its edition and read it: `node tools/edition.mjs --day <day> --out /tmp/edition`.
-   Its stories (and their posts), `unreported` and `watched` are everything the opinion may cite, by id.
-2. Write `opinion/<day>.json`. Run the same command again: it exits 1 and names every rule the opinion breaks,
-   and writes nothing. Fix the opinion, never the rules.
-3. Run `npm test`. The site's build reads every opinion, so a broken one would stop the hourly ship.
-4. Commit it alone, with a message that begins `opinion:`. CI refuses an `opinion:` commit that touches anything
-   but one `opinion/<day>.json`. An opinion is corrected by another `opinion:` commit to the same file.
+The day's letter is the Newsletter's (`contract/NEWSLETTER.md`): `newsletter/<day>.json`, written by Soochiebot from
+that day's edition. The edition checks it: a story it cites must be in the edition; a post must be one X confirmed
+that the record holds and may show (which takes in a post the editor described the morning after). A broken
+letter refuses the edition with every reason. The letter rides in the edition whole, and the Paper's band prints
+its read. Replaced the one-editorial-a-day opinion of the same morning, before any was written.
 
 ## What is left to the design
 

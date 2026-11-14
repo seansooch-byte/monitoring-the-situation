@@ -54,6 +54,12 @@ img { max-width: 100%; }
 .secnav { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 22px; padding: 8px 0; border-bottom: 1px solid var(--ink); font-size: 12px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
 .secnav a { text-decoration: none; padding: 4px 0; }
 .secnav a:hover, .secnav a[aria-current] { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .35em; }
+/* the switch between the two ways to read it: the Paper and the Newsletter */
+.mode { display: flex; justify-content: center; gap: 0; padding: 10px 0 8px; border-bottom: 1px solid var(--ink); }
+.mode a { font: 700 12.5px/1 var(--label); letter-spacing: .12em; text-transform: uppercase; text-decoration: none; padding: 9px 18px; border: 1px solid var(--ink); }
+.mode a + a { border-left: 0; }
+.mode a:hover { background: var(--paper-2); }
+.mode a[aria-current] { background: var(--ink); color: var(--paper); }
 .stale { margin-top: 12px; border: 1px solid var(--ink); padding: 10px 14px; font: 600 14px/1.45 var(--label); background: var(--paper-2); }
 
 /* parts of a page */
@@ -290,6 +296,42 @@ img { max-width: 100%; }
 .issues .t { font: 700 17px/1.25 var(--head); }
 .table-wrap { overflow-x: auto; }
 
+/* the Newsletter: a letter on a sheet laid on the newsprint, set to read, referenced in the Harvard style */
+.letter { max-width: 720px; margin: 28px auto 0; background: #fbf9f3; border: 1px solid var(--rule); box-shadow: 0 1px 0 var(--rule), 0 18px 40px -28px rgb(18 18 18 / .35); padding: clamp(24px, 5vw, 64px) clamp(20px, 6vw, 72px) clamp(28px, 5vw, 56px); }
+.letterhead { text-align: center; padding-bottom: 14px; border-bottom: 1px solid var(--ink); }
+.lh-name { font: 400 clamp(26px, 3.6vw, 40px)/1.1 var(--plate); }
+.lh-sub { margin-top: 6px; color: var(--ink-3); }
+.l-date { margin-top: 26px; text-align: right; font: italic 400 16px/1.5 var(--text); color: var(--ink-2); }
+.l-re { margin-top: 18px; font: 700 clamp(22px, 2.6vw, 30px)/1.2 var(--head); letter-spacing: -.01em; }
+.l-re .lab { margin-right: 6px; vertical-align: .25em; }
+.l-dear { margin-top: 22px; font: 400 18px/1.6 var(--text); }
+.l-summary { margin-top: 10px; font: italic 400 18px/1.6 var(--text); color: var(--ink-2); }
+.l-part { margin-top: 24px; }
+.l-part .lab { color: var(--ink-3); }
+.l-part h3 { font: 700 20px/1.25 var(--head); margin: 2px 0 6px; }
+.l-part p:not(.lab) { font: 400 17.5px/1.7 var(--text); text-align: justify; hyphens: auto; }
+.l-part p + p { margin-top: .75em; text-indent: 1.5em; }
+.l-read { border-top: 1px solid var(--rule); padding-top: 18px; }
+.l-read p:not(.lab) { font-style: italic; }
+.fig { font-weight: 700; font-variant-numeric: lining-nums; }
+.cite { font-style: normal; font-size: .92em; color: var(--ink-2); }
+.cite a { text-decoration-color: var(--rule); }
+.l-sign { margin-top: 30px; }
+.l-sign p { font: 400 17.5px/1.6 var(--text); }
+.l-sig { margin-top: 10px; font: italic 700 30px/1.1 var(--head) !important; }
+.l-sig-note { margin-top: 8px; font-size: 14px !important; line-height: 1.5 !important; color: var(--ink-3); max-width: 34em; }
+.refs { margin-top: 30px; padding-top: 14px; border-top: 4px double var(--ink); }
+.refs + .refs { border-top: 1px solid var(--rule); margin-top: 20px; }
+.refs h3 { font: 700 12px/1.5 var(--label); letter-spacing: .12em; text-transform: uppercase; }
+.ref-list li { margin-top: 10px; padding-left: 2em; text-indent: -2em; font: 400 15px/1.55 var(--text); overflow-wrap: anywhere; }
+.ref-list li:target { background: var(--paper-2); }
+.fig-list div { display: grid; grid-template-columns: 7em minmax(0, 1fr); gap: 12px; padding: 6px 0; border-top: 1px solid var(--rule); font-size: 15px; }
+.fig-list div:first-child { border-top: 0; }
+.fig-list dt { font: 700 15px/1.4 var(--head); }
+.l-paper { margin-top: 22px; font: 700 12px/1.5 var(--label); letter-spacing: .08em; text-transform: uppercase; }
+.l-turn { margin-top: 10px; display: flex; justify-content: space-between; gap: 12px; font: 700 12px/1.5 var(--label); letter-spacing: .08em; text-transform: uppercase; }
+.letters { max-width: 720px; margin-left: auto; margin-right: auto; }
+
 /* about */
 .about { max-width: 46em; padding-top: 22px; }
 .about > h1 { font: 900 clamp(32px, 4vw, 52px)/1.05 var(--head); }
@@ -337,6 +379,9 @@ img { max-width: 100%; }
   .st-side { grid-column: 2; justify-content: flex-start; }
   .foot-links { align-items: flex-start; }
   /* one line you can swipe, not four that push the paper down */
+  .mode a { padding: 12px 14px; }
+  .letter { margin-top: 16px; border-left: 0; border-right: 0; }
+  .l-part p:not(.lab) { text-align: left; hyphens: manual; }
   .secnav { flex-wrap: nowrap; justify-content: flex-start; gap: 18px; overflow-x: auto; scrollbar-width: none; }
   .secnav::-webkit-scrollbar { display: none; }
   .secnav a { padding: 10px 0; white-space: nowrap; }

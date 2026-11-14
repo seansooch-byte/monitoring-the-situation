@@ -26,7 +26,7 @@ flowchart LR
   ED --> EDN["Edition<br/>tools/edition.mjs"]
   LED --> EDN
   CAP -->|"readings up to the day's end"| EDN
-  OP["Soochiebot<br/>(kept by grokbot)"] -.->|"opinion/DAY.json"| EDN
+  OP["Soochiebot<br/>(kept by grokbot)"] -.->|"newsletter/DAY.json"| EDN
   EDN -->|"one day, ranked: the paper's front page"| B
   CAP -->|numbers, for confirmed posts only| B
   CAP -.->|reads left, posts moving| PL
@@ -51,7 +51,7 @@ Dashed nodes and arrows are Planned; the phase that builds each is in `PROGRAM.m
 | Gate 1, structure (**Built**) | Reject a malformed capture | one capture file, ids from earlier captures | PASS or a list of errors | Exit 1. The grabber fixes the file or replaces it with a `down` run. |
 | Gate 2, existence (**Built**: `tools/verify-posts.mjs`) | Confirm against X that each post exists and that its author and words match | `capture/`, `moments/` (to know which posts stories cite), X's public oEmbed endpoint | `verified/posts.json`: for each post `ok`, `mismatch`, `missing` or `withheld`, when it was checked, and the run that first recorded it; a count per run is printed | A post that is not `ok` is never published and counts for nothing in any total. First full pass, 2026-10-09: 272 confirmed, 0 missing, 0 mismatched, 2 withheld by X. |
 | Editor | Group posts into stories, research them, write every word | confirmed posts, reporting on the web | `moments/`, `briefs/`, `requests/` | A story it cannot stand behind is not written. |
-| Edition (**Built** 2026-11-14: `tools/lib/edition.mjs`, `tools/lib/opinion.mjs`, `tools/edition.mjs`; the build makes one for every day and the front page is the latest) | Turn one Eastern day of the record into the paper's edition: stories ranked by the views their posts gained that day, the lead, the briefing, posts not yet a story, posts watched, six sections, the day's opinion. Rules: `contract/PAPER.md`; numbers: `contract/paper.json` | `capture/`, `verified/posts.json`, `moments/`, the history of `pulse/current.json`, `contract/desks.json`, `opinion/<day>.json` | `<out>/<day>.json`, schema `mts.edition/1` | A broken opinion refuses the edition with every reason, exit 1. A post that does not count is left out of every list. Same record, same bytes. |
+| Edition (**Built** 2026-11-14: `tools/lib/edition.mjs`, `tools/lib/letter.mjs`, `tools/edition.mjs`; the build makes one for every day and the front page is the latest) | Turn one Eastern day of the record into the paper's edition: stories ranked by the views their posts gained that day, the lead, the briefing, posts not yet a story, posts watched, six sections, the day's opinion. Rules: `contract/PAPER.md`; numbers: `contract/paper.json` | `capture/`, `verified/posts.json`, `moments/`, the history of `pulse/current.json`, `contract/desks.json`, `opinion/<day>.json` | `<out>/<day>.json`, schema `mts.edition/1` | A broken opinion refuses the edition with every reason, exit 1. A post that does not count is left out of every list. Same record, same bytes. |
 | Build (**Built**: `tools/build.mjs`) | Render the site | `moments/`, `capture/`, `verified/posts.json`, `contract/desks.json`, `site.json` | `dist/` | Refuses to build if a story or the pulse cites a post that no capture recorded, that X shows with other words or another author (`mismatch`), or that the grabber flagged. A cited post X withholds, has no answer for, or has not been asked about yet is never shown and counts for nothing, and does not stop the build: a story shows a note ("Unavailable on X") and the post's id in its place, a pulse item or related post is left out, and the build prints a warning naming the story or item and the post (2026-11-03, DECISIONS.md). Desk traces and totals use confirmed posts only. `--demo` reads `fixtures/demo` and skips the ledger; `MTS_LEDGER` points the build at another copy of the ledger, and with `--demo` makes it check. |
 | Cloudflare (**Built**: `wrangler.jsonc`, `tools/ship.sh`) | Serve `dist/` at situation.seansooch.dev | `dist/` | the public site | The previous version stays live. `tools/ship.sh` refuses a dirty tree, failing tests or a demo build, and compares the live page with the build afterwards. |
 | Read planner (**Planned** until phase 0's done test passes; code landed 2026-10-28: `tools/plan-reads.mjs`, `tools/lib/plan.mjs`) | Turn the day's remaining budget into the next run's read list, in the contract's order | the last three days of captures, `requests/watch.json` and `open.json`, `contract/desks.json`, `contract/budget.json` | `requests/plan.json` (`contract/PLAN.md`): reads in order, a budget line each | A day that cannot afford the list is cut in `budget.json`'s order, never the re-read list or the counts; a plan still over budget says so. A missing or stale plan sends the grabber back to the standing orders, which it says in `run.reason`. A planner error never stops the refresh. |
@@ -229,7 +229,7 @@ a newspaper of the record (Edition 3, "The Broadsheet"; DECISIONS.md 2026-11-14)
   strip of today so far. The day in sixty seconds (the briefing), the lead story in columns with
   what each world is seeing and what is on the record, a rail of posts that are big on X and not
   yet a story and of the stories further down, the next three stories across the page, the
-  opinion (Soochiebot's, or a line saying there is none), what the internet watched, and the six
+  read from the day's letter (Soochiebot's, or a line saying there is none), what the internet watched, and the six
   sections with their posts, views and hourly bars. On the record's first day, or after a day
   with no story, the front page is today so far.
 - `/edition/<day>/` the front page of every day of the record, kept as the record stood at that
@@ -239,7 +239,9 @@ a newspaper of the record (Edition 3, "The Broadsheet"; DECISIONS.md 2026-11-14)
 - `/pulse/` the wire: the largest post on the pulse on its own; a card per desk (24 bars) that is
   also the switch for the reader's own desks; **Internet Pulse**, the rest of `pulse/current.json`
   under the editor's lines, ranked by views, one place to an account; the researched stories.
-- `/opinion/` every editorial; `/archive/` back issues (every edition) and the stories that have
+- `/newsletter/` the Newsletter: the latest letter and the earlier ones; `/newsletter/<day>/` each letter, set as a
+  letter with Harvard references (`contract/NEWSLETTER.md`). A switch under the nameplate turns every page between
+  the Paper and the Newsletter. `/archive/` back issues (every edition) and the stories that have
   left the wire; `/stories/` the researched stories of the last 48 hours.
 - `/story/<id>/` one page per story, now with where it ran in the paper ("In the paper: Lead,
   Fri 13 Nov"); `/desk/<id>/` one per desk; `/desks/`; `/about/`.
@@ -265,7 +267,8 @@ read, Libre Franklin for labels); rank is size. The wire's list is still one `<o
 `site/app.js` sorts by moving items. `tests/build.test.mjs` pins what the pages rest on, including
 that every class on every page is styled by the sheet or read by the script; `tests/paper.test.mjs`
 pins the paper (the front page is the edition, in the edition's order; every page wears the same
-head; a broken opinion stops the build). Test files run one at a time (`npm test`), since two of
+head; a broken letter stops the build; the Harvard references and their a, b suffixes). `tests/letter.test.mjs`
+pins the letter's rules, each with a case that breaks it. Test files run one at a time (`npm test`), since two of
 them rebuild the same demo.
 
 Every time on a page is Eastern time, labelled ET (`tools/lib/clock.mjs`). Captures, ids, file names
@@ -275,8 +278,8 @@ The reader's own desks are kept in their browser only (`localStorage`); nothing 
 Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex`
 (a header and `robots.txt`) until Sean opens the site to search engines.
 
-Not built yet: opinions (Soochiebot has not written one; CI admits an `opinion:` commit that touches one
-`opinion/<day>.json` and nothing else), bars drawn from `volume`, click-to-load embeds of posts, a dark variant.
+Not built yet: Soochiebot's first letter written for the Newsletter (No. 1 is the Field Notes post of 12 November, moved
+in; CI admits a `newsletter:` commit that touches one `newsletter/<day>.json` and nothing else), bars drawn from `volume`, click-to-load embeds of posts, a dark variant.
 The program's phases are listed in `PROGRAM.md` and not repeated here.
 
 ## What this replaced

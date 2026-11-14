@@ -48,7 +48,8 @@ test('every page wears the same head: the nameplate, the motto, the sections, th
     assert.match(page, /class="plate-name">Monitoring the Situation</, `${f} has the nameplate`);
     assert.ok(page.includes(pinned), `${f} carries the pinned post as its motto`);
     for (const g of groups) assert.ok(page.includes(`href="/section/${g.id}/"`), `${f} links the ${g.name} section`);
-    for (const href of ['/', '/opinion/', '/pulse/', '/archive/', '/about/']) assert.ok(page.includes(`href="${href}"`), `${f} links ${href}`);
+    for (const href of ['/', '/newsletter/', '/pulse/', '/archive/', '/about/']) assert.ok(page.includes(`href="${href}"`), `${f} links ${href}`);
+    assert.match(page, /<nav class="mode" aria-label="Read it as"><a href="\/"[^>]*>The Paper<\/a><a href="\/newsletter\/"[^>]*>The Newsletter<\/a><\/nav>/, `${f} has the switch between the Paper and the Newsletter`);
     assert.match(page, /<time id="asof" datetime="[^"]+Z">/, `${f} says when the record was read`);
     assert.ok(!page.includes(String.fromCharCode(0x2014)), `${f} has no em dash`);
     assert.ok(!/<script(?![^>]*src="\/app\.js")/.test(page), `${f}: the only script is the page script`);
@@ -66,43 +67,68 @@ test('six section pages, each with its desks and its share of the day', () => {
   }
 });
 
-const PLAIN = 'The record has one story above the rest, and the rest of the day follows from it. ';
-function writeOpinion(day, over = {}) {
+const pad = (t, n) => t + ' More words in the same plain voice.'.repeat(n);
+// A letter for the demo's front day, citing its two largest stories (contract/NEWSLETTER.md).
+function writeLetter(day, change = () => {}) {
   const ed = JSON.parse(read(`data/edition/${day}.json`));
-  mkdirSync(root + 'fixtures/demo/opinion', { recursive: true });
-  const op = { schema: 'mts.opinion/1', date: day, published: '2026-10-08', model: 'Demo Model', head: 'What the invented day adds up to',
-    text: [PLAIN.repeat(8), 'It is a test of the page, written by the test, and it says nothing true about any real day.'], cites: [ed.lead], ...over };
-  writeFileSync(`${root}fixtures/demo/opinion/${day}.json`, JSON.stringify(op));
-  return ed;
+  const [a, b] = ed.stories;
+  assert.ok(a && b, 'CONTROL: the demo edition has two stories to cite');
+  const letter = {
+    schema: 'mts.letter/1', date: day, published: '2026-10-08', model: 'Demo Model',
+    subject: 'What the invented day adds up to', summary: 'A test of the page, written by the test; nothing in it is true of any real day.',
+    lead: { desk: a.desks[0], head: 'The lead', text: [pad('The largest story drew {reach} views on the day.', 20)], cites: ['first'] },
+    notes: [
+      { desk: 'tech', head: 'A note', text: pad('The second story moved too.', 6), cites: ['second'] },
+      { desk: 'music', head: 'Another note', text: pad('And the first again, from elsewhere.', 6), cites: ['first'] },
+    ],
+    read: { text: [pad('What the day adds up to, in one call.', 8)], cites: ['first'] },
+    sources: { first: { story: a.id }, second: { story: b.id } },
+    figures: { reach: { value: '1.2M', of: 'views on the day', source: 'first' } },
+  };
+  if (letter.lead.desk === 'tech' || letter.lead.desk === 'music') letter.lead.desk = 'politics';
+  change(letter);
+  mkdirSync(root + 'fixtures/demo/newsletter', { recursive: true });
+  writeFileSync(`${root}fixtures/demo/newsletter/${day}.json`, JSON.stringify(letter));
+  return { ed, a, b };
 }
 
-test('the day\'s opinion rides in its edition, labelled, with links to what it rests on', () => {
+test('the day\'s letter is a page of the Newsletter, with Harvard references, and the Paper prints its read', () => {
   fresh();
   const day = frontDay();
-  const ed = writeOpinion(day);
+  const { a, b } = writeLetter(day);
   const out = run('tools/build.mjs', '--demo');
-  assert.match(out, /1 with an opinion/);
-  const home = read('index.html');
-  const op = home.split('id="opinion"')[1].split('</section>')[0];
-  assert.ok(op.includes('What the invented day adds up to'));
-  assert.ok(op.includes(`href="/story/${ed.lead}/"`), 'it links the story it cites');
-  assert.match(op, /Soochiebot \(Demo Model\)/, 'and says a program wrote it');
-  assert.ok(read('opinion/index.html').includes(`href="/edition/${day}/#opinion"`), 'the opinion page lists it');
+  assert.match(out, /1 with a letter/);
+  const letter = read(`newsletter/${day}/index.html`);
+  assert.match(letter, /<p class="l-dear">Dear reader,<\/p>/);
+  assert.match(letter, /<p class="l-sig">Soochiebot<\/p>/, 'it is signed');
+  assert.match(letter, /<a href="\/newsletter\/"[^>]*aria-current="page">The Newsletter<\/a>/, 'the switch shows where the reader is');
+  // Harvard: one author twice in one year takes a and b, in the order of the list; the text cites by them.
+  const refs = [...letter.matchAll(/<li id="ref-(\w+)">Monitoring the Situation \(\d{4}([ab])\) <i>([^<]+)<\/i>\. Available at: <a href="https:\/\/situation\.seansooch\.dev\/story\/([^/]+)\/">/g)];
+  assert.equal(refs.length, 2, 'both stories are in the reference list');
+  assert.deepEqual(refs.map((m) => m[2]), ['a', 'b']);
+  assert.deepEqual(refs.map((m) => m[4]).sort(), [a.id, b.id].sort());
+  assert.match(letter, /\(Accessed: 8 October 2026\)/, 'accessed on the day it was published');
+  assert.match(letter, /<span class="cite">\(<a href="#ref-first">Monitoring the Situation, \d{4}[ab]<\/a>\)<\/span>/, 'the text cites by author and year');
+  assert.match(letter, /<b class="fig">1\.2M<\/b>/, 'a figure is set in its place');
+  const band = read(`edition/${day}/index.html`).split('id="newsletter"')[1].split('</section>')[0];
+  assert.ok(band.includes('What the invented day adds up to') && band.includes(`href="/newsletter/${day}/"`), 'the Paper prints the read and links the letter');
+  assert.ok(read('newsletter/index.html').includes('What the invented day adds up to'), 'the Newsletter opens on the latest letter');
   run('tools/make-demo.mjs');
 });
 
-test('an opinion that breaks a rule stops the build and says why', () => {
+test('a letter that breaks a rule stops the build and says why', () => {
   fresh();
   const day = frontDay();
-  writeOpinion(day, { text: ['It drew 22.6M views. ' + PLAIN.repeat(8)] });
+  writeLetter(day, (l) => l.read.text.push('It drew 22.6M views.'));
   const r = spawnSync('node', ['tools/build.mjs', '--demo'], { cwd: root, encoding: 'utf8' });
   assert.notEqual(r.status, 0);
-  assert.match(r.stderr, new RegExp(`opinion/${day}\\.json does not meet contract/PAPER\\.md: .*22\\.6M`));
+  assert.match(r.stderr, new RegExp(`newsletter/${day}\\.json does not meet contract/NEWSLETTER\\.md: .*22\\.6M`));
   run('tools/make-demo.mjs');
 });
 
-test('a day without an opinion says so, and a day without a story says so', () => {
+test('a day without a letter says so, and the Newsletter says when there is none yet', () => {
   fresh();
-  assert.match(read('index.html'), /No editorial for this day\./);
-  assert.match(read('opinion/index.html'), /The first editorial has not been published\./);
+  assert.match(read('index.html'), /No letter for this day\./);
+  assert.match(read('newsletter/index.html'), /The first letter has not been written\./);
+  assert.ok(!existsSync(root + 'dist/opinion/index.html'), 'the opinion page is gone');
 });

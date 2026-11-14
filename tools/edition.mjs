@@ -8,11 +8,11 @@
 //     summary is printed. Nothing else is written.
 //   - The record is read from files: the captures from three days before the day to one day after
 //     (enough to find each post's reading at the day's start), verified/posts.json, moments/,
-//     contract/desks.json, contract/paper.json, and opinion/<day>.json when there is one.
+//     contract/desks.json, contract/paper.json, and newsletter/<day>.json when there is one.
 //   - The editor's lines come from the history of pulse/current.json: every version committed from 36
 //     hours before the day to its end, the latest line for each post winning. Commits are history, so
 //     a past day's edition does not change when the pulse moves on.
-//   - All the rules are in tools/lib/edition.mjs. A broken opinion stops the build: exit 1, with the
+//   - All the rules are in tools/lib/edition.mjs. A broken letter stops the build: exit 1, with the
 //     reasons, and no file written.
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
@@ -59,7 +59,7 @@ for (const f of [...folders].sort()) {
 const lines = linesBetween(pulseHistory(REPO), start, end);
 
 const moments = walk(join(REPO, 'moments'), (n) => n.endsWith('.json')).map(readJSON);
-const opinionFile = join(REPO, 'opinion', `${day}.json`);
+const letterFile = join(REPO, 'newsletter', `${day}.json`);
 
 let edition;
 try {
@@ -72,7 +72,7 @@ try {
     ledger: readJSON(join(REPO, 'verified', 'posts.json')),
     moments,
     lines,
-    opinion: existsSync(opinionFile) ? readJSON(opinionFile) : null,
+    letter: existsSync(letterFile) ? readJSON(letterFile) : null,
   });
 } catch (err) {
   console.error(`edition ${day}: refused. ${err.message}`);
@@ -85,4 +85,4 @@ const lead = edition.stories[0];
 const m = (n) => `${(n / 1e6).toFixed(1)}M`;
 console.log(`edition ${day}: ${lead ? `lead ${lead.id} (${m(lead.reach)})` : 'no story'}, ${edition.counts.stories} stories, ` +
   `${edition.unreported.length} not yet a story, ${edition.watched.length} watched, ${edition.counts.posts} posts, ${m(edition.counts.views)} views on the day` +
-  `${edition.opinion ? ', with the opinion' : ', no opinion'}`);
+  `${edition.letter ? ', with the letter' : ', no letter'}`);
