@@ -6372,3 +6372,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list and plan.json unchanged.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA nationwide ground stop; posts attribute different causes to DHS (software update, AI traffic control system, cyberattack not ruled out), none checked here. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T00:30Z
+- Captures read: 0004Z (2301Z was the last logged read). Last read: 0004Z.
+- X's check: 0004Z 69 confirmed, 0 missing, 0 mismatched, 0 withheld by X.
+- Pulse: 41 items listed (1 in, 2 out). In: Drone Wars on the ARMOLAB ROBONOSH evacuation robot test (defense, a desk that had nothing on the page). Out, past 36 hours: the Anthropic IPO post and the Teasercon trailer post. The build holds back one BBCWorld post (account cap). Header 0004Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Chrisean Rock and Adam22 fight post (violence claim about named people, not checked); PopBase quote of a DHS statement on the ground stop (account already holds a place); TMZ and FearedBuck student pilot clips (shows a private person); MarioNawfal FPCON Delta and Eric Trump robots posts (unchecked alarm claims); Gizmodo AI air traffic post (implies a cause, unchecked); MSFTIssues post (account not identified); catturd2 UK court post (target of the post is unclear); PlayStation QSSR post (product promotion); old_content posts.
+- Requests: none added or removed. Watch list gained one id; plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA ground stop causes still differ across posts (a DHS secretary's words as relayed by PopBase say telecommunications outage; the MSFTIssues post says no link to Microsoft services), none checked here. The starting message had no instructions beyond the contract.
