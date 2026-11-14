@@ -6462,3 +6462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T09:40Z
+- Captures read: 0908Z (0801Z was the last logged read). Last read: 0908Z.
+- X's check: 0908Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld by X. No missing or mismatched in recent runs (the 0801Z mismatch, 2121468167499219205, was not on the pulse).
+- Pulse: 35 items listed (1 in, 0 out). In: Pope Leo XIV on transhumanism (ideas). Nothing is past 36 hours yet. Header 0908Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: EricLDaugh Mullin "no cyber attack" clip (politics already full, claim unchecked); NBA, Fabrizio Romano, MarioNawfal, IGN posts (small or account already placed); T0neOnlyPh0t0 Hasan post (point unclear); Divyanshu555 organ-trafficking claim (unchecked, graphic); old_content posts.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T08:30:00Z",
-  "capture": "2026-11-14T0801Z",
+  "updated_at": "2026-11-14T09:40:00Z",
+  "capture": "2026-11-14T0908Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -209,6 +209,11 @@
       "desk": "tech",
       "line": "MKBHD, a tech reviewer, revisits his bet that Cybercab would be publicly available for under $30k by the end of 2026. He says there are no deliveries yet, it is invite only and private use only. He tags Grok, which is made by xAI, the company behind the grabber. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121425383480529346",
+      "desk": "ideas",
+      "line": "Pope Leo XIV posts that transhumanism promises to end disease, pain and death, that scientific progress should not become a privilege of millionaires seeking immortality, and that in Christian teaching a limitation is not a manufacturing defect. He is on an apostolic journey to Peru, per his hashtags."
     }
   ]
 }
