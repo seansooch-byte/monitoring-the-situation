@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T09:40:00Z",
-  "capture": "2026-11-14T0908Z",
+  "updated_at": "2026-11-14T10:10:00Z",
+  "capture": "2026-11-14T0959Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -214,6 +214,14 @@
       "id": "2121425383480529346",
       "desk": "ideas",
       "line": "Pope Leo XIV posts that transhumanism promises to end disease, pain and death, that scientific progress should not become a privilege of millionaires seeking immortality, and that in Christian teaching a limitation is not a manufacturing defect. He is on an apostolic journey to Peru, per his hashtags."
+    },
+    {
+      "id": "2121412678409478247",
+      "desk": "business",
+      "line": "Balaji says two investment firms, Altimeter and Atreides, hold more than $25B in assets together, and that Elon Musk and the founders of Uber, Shopify, Replit and Vercel have posted support for reinstating Jensen Huang at Nvidia. He says board members opposed will face growing pressure. Not checked here.",
+      "also": [
+        "2121401397346521412"
+      ]
     }
   ]
 }

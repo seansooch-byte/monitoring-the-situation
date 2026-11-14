@@ -6472,3 +6472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T10:10Z
+- Captures read: 0959Z (0908Z was the last logged read). Last read: 0959Z.
+- X's check: 0959Z 39 confirmed, 0 missing, 0 mismatched, 2 withheld by X (2118690934972133669, 1910539812701904965; both old_content, neither on the pulse).
+- Pulse: 36 items listed (1 in, 0 out). In: Balaji on the Nvidia board and Huang reinstatement (business, with Gavin Baker's letter post attached in also; claims attributed, marked unchecked). Nothing is past 36 hours yet. Header 0959Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn, EricLDaugh and GuntherEagleman FAA posts (politics full, account already placed, claims unchecked); ABC, PopBase, WatcherGuru ground stop lifted (disaster full, FAA item already shown); elonmusk Starship posts (account already holds the science place); FmrRepMTG press conference post (opinion about named officials, politics full); unusual_whales measles-status post (small, WSJ claim not checked); Reuters, SkyNews and Bitcoin posts (small); old_content and sexual posts.
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
