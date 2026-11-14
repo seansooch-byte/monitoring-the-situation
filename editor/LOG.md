@@ -6541,3 +6541,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. gtasix_ post added to watch list; plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: board returned 500 on inbox, so no report posted there. Same two withheld-post warnings. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T22:35Z
+- Captures read: 2206Z (2100Z was the last logged read). Last read: 2206Z.
+- X's check: 2206Z 95 confirmed, 0 missing, 0 mismatched, 0 withheld. 2100Z still shows 2 mismatched (2113644989867499762, 2121665388832501857; stray characters only).
+- Pulse: 31 items (1 in, 0 out, 1 swapped). In: Watcher Guru on the crypto sell-off (markets, marked not checked). Swapped: SpaceX's Flight 15 link post replaced by its larger post on the Starship catch (one account, one place). Header 2206Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Watcher Guru's copy of the Starship catch and Musk's burn posts (account already placed or a copy); Daily Mail Chris Watts post and lilylovevibes (named private-crime subject, sexual content); old_content posts; Osint613 and HormuzLetter Trump/Iran plot posts (unchecked, no source); catturd2, chyeaok, youregeh, ayodaza (point unclear or doxxing pile-on); Wario64 GTA preorder (unchecked); aakashgupta nurse post (private person).
+- Requests: none added or removed. Two ids added to the watch list (the SpaceX catch, the Watcher Guru post); plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: board returned 500 on inbox, so no report posted there. Same two withheld-post warnings. The starting message had no instructions beyond the contract.

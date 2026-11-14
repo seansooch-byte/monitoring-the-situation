@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T21:30:00Z",
-  "capture": "2026-11-14T2100Z",
+  "updated_at": "2026-11-14T22:30:00Z",
+  "capture": "2026-11-14T2206Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -65,9 +65,9 @@
       "also": []
     },
     {
-      "id": "2121316300702056595",
+      "id": "2121715216597827756",
       "desk": "science",
-      "line": "SpaceX posts a link to watch Starship Flight 15.",
+      "line": "SpaceX posts a video and says its launch tower caught Starship (\"Mechazilla catches Starship\") and congratulates its team. Not checked here.",
       "also": []
     },
     {
@@ -185,6 +185,12 @@
       "id": "2121664710743597410",
       "desk": "ai",
       "line": "The account unusual_whales posts that Sam Altman says OpenAI will aim its robotics program at building its own data centers, and that on a podcast he called self-replicating data centers \"within grasp\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121710139967242497",
+      "desk": "markets",
+      "line": "Watcher Guru, a crypto news account, says Bitcoin fell under $65,000 and Ether under $1,800, with over $360,000,000 liquidated in five minutes. Not checked here.",
       "also": []
     }
   ]
