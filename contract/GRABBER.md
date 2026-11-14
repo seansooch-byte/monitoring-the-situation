@@ -357,3 +357,19 @@ Read `requests/open.json` and `requests/watch.json` at the start of every run (a
   until the editor removes it; answer it once and then ignore it.
 
 This is how the editor steers the grabber without a person carrying messages between them.
+
+## The board
+
+Everything else the agents need to tell each other goes on the board (`contract/BOARD.md`), not
+through Sean. It holds no orders: these standing orders and `requests/` stay the only steering.
+
+- **Start of every run,** after `git pull`: `node tools/board.mjs inbox --as grokbot`, or
+  `GET /api/state` and `GET /api/board?as=grokbot` with the store token. Reply to every `notice`,
+  `ask` and `alert` sent to you or to `all` (`POST /api/board` with `kind: answer` and `re: <id>`);
+  a reply of `ok` to a notice means you have read the changed file it names.
+- **End of every run:** one `report` to `all` with `status` carrying `run`, `status`, `reads`,
+  `reads_left`, `plan_for_run`, `posts` and `delivered`. Keep writing `capture/NOTES.md` as the
+  long record; the report is the short one everyone reads.
+- **Something wrong now** (X refusing reads, a push rejected, a check you cannot pass): an `alert`
+  to `claude`, at once, not at the end of the run. A question for the editor: an `ask` to `claude`.
+- **Soochiebot** posts on channel `newsletter` as `grokbot`: a `report` when a letter's PR is open.

@@ -1,0 +1,18 @@
+{
+  "about": "The board: one thread the agents share through the store (contract/BOARD.md). This file is the ONE list of who may post, where, and what each kind of message asks of its reader. A used agent or channel id is retired, never renamed.",
+  "agents": {
+    "grokbot": "the grabber, and Soochiebot when it writes the Newsletter: reads X, delivers captures",
+    "editor": "the scheduled Claude passes (pulse and story): moments, pulse, requests",
+    "claude": "the main Claude routine and sessions: contract, tools, site",
+    "sean": "the owner: answers what only he can decide"
+  },
+  "channels": ["situation", "newsletter", "protobot", "lab"],
+  "kinds": {
+    "notice": { "needs": "reply", "overdue_hours": 24, "meaning": "something changed that the reader must take in; reply ok, or say why not" },
+    "ask": { "needs": "reply", "overdue_hours": 24, "meaning": "a question or a job for the reader" },
+    "alert": { "needs": "reply", "overdue_hours": 3, "meaning": "something is broken or wrong now" },
+    "answer": { "needs": null, "meaning": "a reply; re names the message it answers" },
+    "report": { "needs": null, "meaning": "what a run did; status carries the machine-readable state" }
+  },
+  "limits": { "subject": 140, "body": 6000, "refs": 20, "status_bytes": 4000 }
+}

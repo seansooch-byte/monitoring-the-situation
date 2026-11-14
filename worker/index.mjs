@@ -11,6 +11,10 @@
 //   GET  /api/checks?ids=        what X said about each post
 //   POST /api/verify {ids}       ask X now (Gate 2) and record the answers
 //   GET  /api/status             counts and the last sweep
+//   POST /api/board              a message on the agents' board (contract/BOARD.md)
+//   GET  /api/board?as=&since=   the thread after `since` (default: that agent's cursor)
+//   POST /api/board/seen {as,id} move an agent's cursor
+//   GET  /api/state              what every agent reads first: who was seen, latest reports, what waits on whom
 // Every route above needs `Authorization: Bearer <STORE_TOKEN>` until phase 2 opens the reads.
 // Everything else is served from the built site.
 //
@@ -21,6 +25,7 @@ import desks from '../contract/desks.json';
 import { checkCapture } from '../tools/lib/capture-check.mjs';
 import { askX, compareToX, WITHHELD } from '../tools/lib/gate2.mjs';
 import { rowsOf, recordOf, stripCapture } from '../tools/lib/store-rows.mjs';
+import { BOARD, checkMessage, stateOf } from '../tools/lib/board.mjs';
 
 const SWEEP_CHECKS = 150;      // oEmbed asks per hourly sweep
 const SWEEP_PURGES = 5;        // capture files rewritten per sweep; the rest wait an hour
@@ -239,6 +244,55 @@ async function sweep(env) {
   return r;
 }
 
+// The board. The store keeps the thread; tools/lib/board.mjs decides what a message may be and what is open.
+const STATE_WINDOW = 2000;     // messages the state is derived from; older open items are rare and still listed by /api/board
+const rowToMessage = (r) => ({ id: r.id, at: r.at, from: r.from_agent, to: r.to_agent, channel: r.channel, kind: r.kind, re: r.re ?? undefined, subject: r.subject, body: r.body ?? undefined, refs: r.refs ? JSON.parse(r.refs) : undefined, status: r.status ? JSON.parse(r.status) : undefined });
+
+async function boardPost(request, env) {
+  const m = await request.json().catch(() => null);
+  const errors = checkMessage(m);
+  if (!errors.length && m.re != null && !(await env.DB.prepare('SELECT id FROM board WHERE id = ?1').bind(m.re).first())) errors.push(`re: no message ${m.re}`);
+  if (errors.length) return json({ ok: false, errors }, 422);
+  const at = stamp();
+  const r = await env.DB.prepare('INSERT INTO board (at, from_agent, to_agent, channel, kind, re, subject, body, refs, status) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9, ?10) RETURNING id')
+    .bind(at, m.from, m.to, m.channel, m.kind, m.re ?? null, m.subject.trim(), m.body ?? null, m.refs ? JSON.stringify(m.refs) : null, m.status ? JSON.stringify(m.status) : null).first();
+  return json({ ok: true, id: r.id, at });
+}
+
+async function boardRead(url, env) {
+  const as = url.searchParams.get('as');
+  if (as && !(as in BOARD.agents)) return json({ error: 'as: not an agent' }, 400);
+  let since = Number(url.searchParams.get('since') ?? NaN);
+  if (!Number.isFinite(since)) since = as ? ((await env.DB.prepare('SELECT last_id FROM board_cursors WHERE agent = ?1').bind(as).first())?.last_id ?? 0) : 0;
+  const limit = Math.min(Number(url.searchParams.get('limit')) || 200, 1000);
+  const channel = url.searchParams.get('channel');
+  const q = channel
+    ? env.DB.prepare('SELECT * FROM board WHERE id > ?1 AND channel = ?2 ORDER BY id LIMIT ?3').bind(since, channel, limit)
+    : env.DB.prepare('SELECT * FROM board WHERE id > ?1 ORDER BY id LIMIT ?2').bind(since, limit);
+  const { results } = await q.all();
+  return json({ since, messages: results.map(rowToMessage) });
+}
+
+async function boardSeen(request, env) {
+  const b = await request.json().catch(() => ({}));
+  if (!(b.as in BOARD.agents) || !Number.isInteger(b.id) || b.id < 0) return json({ ok: false, errors: ['give {as: agent, id: last message read}'] }, 422);
+  const at = stamp();
+  // A cursor only moves forward; reading again at the same place still counts as being seen.
+  await env.DB.prepare('INSERT INTO board_cursors (agent, last_id, seen_at) VALUES (?1, ?2, ?3) ON CONFLICT(agent) DO UPDATE SET last_id = max(last_id, excluded.last_id), seen_at = excluded.seen_at').bind(b.as, b.id, at).run();
+  return json({ ok: true, as: b.as, id: b.id, seen_at: at });
+}
+
+async function boardState(env) {
+  const db = env.DB;
+  const [{ results: rows }, { results: cursors }, last_run, last_sweep] = await Promise.all([
+    db.prepare('SELECT * FROM (SELECT * FROM board ORDER BY id DESC LIMIT ?1) ORDER BY id').bind(STATE_WINDOW).all(),
+    db.prepare('SELECT * FROM board_cursors').all(),
+    db.prepare('SELECT id, started_at, received_at, status, reads, reads_left, posts FROM runs ORDER BY started_at DESC LIMIT 1').first(),
+    db.prepare('SELECT at, checked, missing, purged FROM sweep_log ORDER BY at DESC LIMIT 1').first(),
+  ]);
+  return json(stateOf({ messages: rows.map(rowToMessage), cursors, now: stamp(), store: { last_run: last_run ?? null, last_sweep: last_sweep ?? null } }));
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -252,6 +306,9 @@ export default {
           return json(await verify(env, want, { purge: body.purge !== false }));
         }
         if (url.pathname === '/api/sweep' && request.method === 'POST') return json(await sweep(env));
+        if (url.pathname === '/api/board') return request.method === 'POST' ? await boardPost(request, env) : await boardRead(url, env);
+        if (url.pathname === '/api/board/seen' && request.method === 'POST') return await boardSeen(request, env);
+        if (url.pathname === '/api/state' && request.method === 'GET') return await boardState(env);
         if (request.method === 'GET') return await read(url, env);
         return json({ error: 'no such route' }, 404);
       } catch (e) {

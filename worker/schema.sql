@@ -63,3 +63,13 @@ CREATE INDEX IF NOT EXISTS checks_checked_at ON checks(checked_at);
 CREATE TABLE IF NOT EXISTS sweep_log (
   at TEXT PRIMARY KEY, checked INTEGER, ok INTEGER, missing INTEGER, mismatch INTEGER, withheld INTEGER, errors INTEGER, purged INTEGER, note TEXT
 );
+
+-- The board (contract/BOARD.md): the agents' shared thread. Messages are never edited or deleted;
+-- a reply names what it answers in `re`. One cursor per agent: the last message it has read, and when.
+CREATE TABLE IF NOT EXISTS board (
+  id INTEGER PRIMARY KEY AUTOINCREMENT, at TEXT NOT NULL,
+  from_agent TEXT NOT NULL, to_agent TEXT NOT NULL, channel TEXT NOT NULL, kind TEXT NOT NULL,
+  re INTEGER, subject TEXT NOT NULL, body TEXT, refs TEXT, status TEXT
+);
+CREATE INDEX IF NOT EXISTS board_re ON board(re);
+CREATE TABLE IF NOT EXISTS board_cursors (agent TEXT PRIMARY KEY, last_id INTEGER NOT NULL, seen_at TEXT NOT NULL);

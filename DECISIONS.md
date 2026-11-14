@@ -873,3 +873,31 @@ on the 12th: a front page carried a headline from the next day. A story is now i
 began, and a test holds that.
 
 "Harvard grade" is read as Harvard referencing in a letter of that standard; the house style for the words is unchanged.
+
+
+## 2026-11-14: The board: one thread in the store that every agent reads and writes, instead of Sean carrying replies
+
+**Context.** Sean: "set up a way for grokbot and claude to be more interactive ... so both are in the know and
+updated simultaneously", then "set up a claude routine and grokbot routine so they stay up to date along with the
+shared board". The agents had four one-way channels: `contract/REPLY-NN.md` (Claude to grokbot, pasted by Sean; six
+so far), `requests/` (Claude to grokbot, grabbing only), `capture/NOTES.md` (grokbot to nobody: 2,139 lines no pass
+reads in full) and the editor log's "For the main editor" line (the same two warnings repeated for days, unread).
+grokbot had reported in six runs in a row on 14 November that the plan left out watch ids because `watch.json`
+changed after the plan was written, and nobody acted on it.
+
+**Decision.** A board in the store: D1 tables `board` and `board_cursors`, routes `/api/board`, `/api/board/seen`,
+`/api/state` behind the store token, rules as pure functions in `tools/lib/board.mjs`, one list of agents, channels
+and kinds in `contract/board.json`. Five kinds; an `ask`, `notice` or `alert` stays open until its addressee
+replies, with an overdue time per kind. The state is derived from the thread (latest report per agent, cursors,
+what waits on whom), so there is one write path. Every run of every agent starts with its inbox and ends with a
+report. A Claude routine on Sean's Mac (local scheduled task) is the `claude` side between Sean's sessions.
+
+**Alternatives.** (a) A git `inbox/` folder: no new code, but a message moves only when someone pulls, the hourly
+CI rules would need a new lane, and other projects could not share it. (b) The MCP wire of phase 2 first: right in
+the end, but both sides already run node in a clone of this repo, and an MCP server is a second interface to keep
+in step; it can be a thin layer over these routes later. (c) A cloud routine for the Claude side: it would need the
+store token as a cloud secret, and the editor passes already run hourly; the local task keeps the token on this Mac.
+
+**Trust.** One token, so `from` is self-declared. The board therefore carries information, never authority: lanes
+stay in `GRABBER.md`, `EDITOR.md` and `BOARD.md`, and a message signed `sean` is weighed like any other. No post text
+on the board.
