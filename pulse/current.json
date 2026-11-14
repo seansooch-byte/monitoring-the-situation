@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T17:40:00Z",
-  "capture": "2026-11-14T1708Z",
+  "updated_at": "2026-11-14T18:20:00Z",
+  "capture": "2026-11-14T1801Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -14,14 +14,6 @@
       "desk": "offbeat",
       "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
       "also": []
-    },
-    {
-      "id": "2121111560198426851",
-      "desk": "internet",
-      "line": "Jake Lucky, a streaming commentator, posts that IShowSpeed won Streamer of the Year at the Streamer Awards and gave his acceptance speech entirely in Indonesian. A reply from Overtime says the same of the speech.",
-      "also": [
-        "2121111756982636852"
-      ]
     },
     {
       "id": "2121138040508727707",
@@ -180,6 +172,18 @@
       "id": "2121622862339666275",
       "desk": "music",
       "line": "PopBase, a pop culture account, says the tracklist for \"GTA VI: The Album\" has leaked online. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121305674965540978",
+      "desk": "entertainment",
+      "line": "CineVow, a film account, posts a set of ten photos of actors posing with their own movie posters. The post does not name the actors or say when the photos were taken.",
+      "also": []
+    },
+    {
+      "id": "2121257756216934790",
+      "desk": "entertainment",
+      "line": "Rihanna posts photos from a shoot for Arena Homme+ issue 66, titled \"RIOT ROSE\", and credits the photographer, stylist, hair and production team.",
       "also": []
     }
   ]

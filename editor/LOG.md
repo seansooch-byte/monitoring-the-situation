@@ -6502,3 +6502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Five ids added to the watch list; plan.json rebuilt for 18Z.
 - Shipped: yes, commit 1553ac5e, live audit clean (183 files match). This log entry was added after shipping.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract. Microsoft, SpaceX-Tesla, Van Hollen and tanker stories not re-checked. Web search returned little on today's items, so no new story met the sourcing bar. verify-posts does not print the ids of mismatched posts in its summary.
+
+## 2026-11-14T18:20Z
+- Captures read: 1801Z (1708Z was the last logged read). Last read: 1801Z.
+- X's check: 1801Z 90 confirmed, 0 missing, 0 mismatched, 9 withheld by X. None of the withheld posts is on the pulse.
+- Pulse: 30 items (2 in, 1 out). In: CineVow actors-with-posters set and Rihanna's Arena Homme+ shoot (entertainment). Out: Jake Lucky IShowSpeed post, past 36 hours (the story on it stays). Header 1801Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Bernie Sanders steps post (point unclear), Nuremberg trailer and Bachelor posts (promotion), Pentagon/FBI stockpile alert (unchecked claim, no source), Acyn Duffy clip and Musk Starship posts (account already placed), Kansas truck post (private person), big-cat and "dog shit" videos (point unclear), non-English-only posts.
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
