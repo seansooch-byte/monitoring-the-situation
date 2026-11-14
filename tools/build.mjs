@@ -207,7 +207,7 @@ const desks = DESKS.desks.map((d) => {
 //
 // Edition 3, "The Broadsheet". The front page is the latest complete day, ranked by the views its
 // stories' posts gained that day; every day keeps its own front page under /edition/. The pulse is
-// still the record's live instrument, and it is now the paper's wire, at /pulse/.
+// still the record's live instrument, and it is now Internet Pulse, at /pulse/, the middle of the switch under the nameplate.
 
 const PAPER = readJSON(join(REPO, 'contract', 'paper.json'));
 // A post is captured again and again; a later capture may carry it with no desk (as a reference), so
@@ -337,7 +337,7 @@ function relatedPost(main, p) {
 }
 const storyLink = (it) => (it.story ? `<a class="story-link" href="/story/${esc(it.story.id)}/">The researched story</a>` : '');
 
-// ---------- the wire (/pulse/): the largest posts right now
+// ---------- Internet Pulse (/pulse/): the largest posts right now
 
 function leadBlock(it) {
   const d = it.deskInfo, p = it.post;
@@ -453,14 +453,14 @@ const sortBar = (keys) => `<div class="sort" role="group" aria-label="Order">${k
 // ---------- the page shell: ears, nameplate, dateline, sections
 
 const FONTS = 'https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Libre+Franklin:wght@400..800&display=swap';
-const SECTIONS = [['/', 'Front'], ...DESKS.groups.map((g) => [`/section/${g.id}/`, g.name]), ['/pulse/', 'The Wire'], ['/stories/', 'Stories'], ['/desks/', 'Desks'], ['/archive/', 'Back issues'], ['/about/', 'About']];
+const SECTIONS = [['/', 'Front'], ...DESKS.groups.map((g) => [`/section/${g.id}/`, g.name]), ['/stories/', 'Stories'], ['/desks/', 'Desks'], ['/archive/', 'Back issues'], ['/about/', 'About']];
 
 function page({ title, description, path, body, current, edition = null, front = false, mode = 'paper' }) {
-  const modes = [['paper', '/', 'The Paper'], ['newsletter', '/newsletter/', 'The Newsletter']]
+  const modes = [['paper', '/', 'The Paper'], ['pulse', '/pulse/', 'Internet Pulse'], ['newsletter', '/newsletter/', 'The Newsletter']]
     .map(([key, href, label]) => `<a href="${href}"${key === mode ? ' aria-current="page"' : ''}>${label}</a>`).join('');
   const nav = SECTIONS.map(([href, label]) => `<a href="${href}"${current === href ? ' aria-current="page"' : ''}>${esc(label)}</a>`).join('');
   const asof = `<time id="asof" datetime="${new Date(NOW).toISOString()}">${hhmm(NOW)} ${ZONE_LABEL} · ${day(NOW)}</time>`;
-  const left = mode === 'newsletter' ? 'The Newsletter<br>A letter a day by Soochiebot' : edition ? `${edition.partial ? 'Today, so far' : 'Morning edition'}<br>${edition.partial ? longDay(edition.edition.day) : `Published ${longDay(nextDay(edition.edition.day))}`}` : `Monitoring the Situation<br>${esc(SITE.line)}`;
+  const left = mode === 'newsletter' ? 'The Newsletter<br>A letter a day by Soochiebot' : mode === 'pulse' ? 'Internet Pulse<br>The largest posts on X, read hourly' : edition ? `${edition.partial ? 'Today, so far' : 'Morning edition'}<br>${edition.partial ? longDay(edition.edition.day) : `Published ${longDay(nextDay(edition.edition.day))}`}` : `Monitoring the Situation<br>${esc(SITE.line)}`;
   const plate = front
     ? `<h1 class="plate"><a href="/"><span class="plate-name">Monitoring the Situation</span></a></h1>`
     : `<p class="plate plate-s"><a href="/"><span class="plate-name">Monitoring the Situation</span></a></p>`;
@@ -558,7 +558,7 @@ function editionBody(ed, { front = false } = {}) {
   const story = (e) => storyById.get(e.id);
   const brief = ranked.slice(0, PAPER.briefing);
   const sofar = front && todayEd && todayEd !== ed && todayEd.stories.length
-    ? `<section class="sofar" aria-label="Today so far"><span class="lab">Today so far, to ${hhmm(NOW)} ${ZONE_LABEL}</span><ol>${todayEd.stories.slice(0, 3).map((e) => `<li><a href="/story/${esc(e.id)}/">${esc(story(e).title)}</a> <span class="lab lab-quiet">${num(e.reach)}</span></li>`).join('')}</ol><a href="/pulse/">The wire: the largest posts right now</a></section>` : '';
+    ? `<section class="sofar" aria-label="Today so far"><span class="lab">Today so far, to ${hhmm(NOW)} ${ZONE_LABEL}</span><ol>${todayEd.stories.slice(0, 3).map((e) => `<li><a href="/story/${esc(e.id)}/">${esc(story(e).title)}</a> <span class="lab lab-quiet">${num(e.reach)}</span></li>`).join('')}</ol><a href="/pulse/">Internet Pulse: the largest posts right now</a></section>` : '';
   const briefing = brief.length ? `<section class="brief" aria-labelledby="brief-h"><h2 class="lab" id="brief-h">The day in sixty seconds</h2><ol>${brief.map((e, i) => `<li><a href="${i ? `/story/${esc(e.id)}/` : '#lead'}"><span class="rank-n">${i + 1}</span><span class="brief-t">${esc(story(e).title)}</span><span class="num">${num(e.reach)} views</span></a></li>`).join('')}</ol></section>` : '';
   const unreported = ed.unreported.length ? `<section class="rail-sec" aria-labelledby="unrep-h">
       <h2 class="lab" id="unrep-h">Big on X, not yet a story</h2>
@@ -597,12 +597,12 @@ function editionPage(ed, { front = false } = {}) {
 
 // ---------- the other pages
 
-function wirePage() {
+function pulsePage() {
   const active = desks.filter((d) => d.posts > 0).length;
   const [lead, ...rest] = pulse;
   const early = captures.length < 4 ? ` <strong>Early days: ${captures.length === 1 ? 'one reading' : captures.length + ' readings'} so far, so each desk's bars show only when its posts began. They sharpen with every hourly reading.</strong>` : '';
   const shown = live.slice(0, 8);
-  const body = `${head({ label: 'The Wire · live', title: 'The largest posts right now', dek: `What every corner of the internet is passing around, read from X every hour across all ${desks.length} desks. The sentence above each post is the editor's and says what it is, not whether it is right.` })}
+  const body = `${head({ label: 'Internet Pulse · live', title: 'The largest posts right now', dek: `What every corner of the internet is passing around, read from X every hour across all ${desks.length} desks. The sentence above each post is the editor's and says what it is, not whether it is right.` })}
 ${lead ? leadBlock(lead) : ''}
 <section class="part-1" id="desks" aria-labelledby="desks-h">
   <div class="part-h"><h2 id="desks-h">Which worlds do you live in?</h2>
@@ -612,7 +612,7 @@ ${lead ? leadBlock(lead) : ''}
   <div class="dk-grid" role="group" aria-label="Desks you follow">${desks.map((d) => deskCard(d)).join('')}</div>
 </section>
 ${lead && !rest.length ? '' : `<section class="part" id="pulse" aria-labelledby="pulse-h">
-  <div class="part-h"><h2 id="pulse-h">Internet Pulse</h2>
+  <div class="part-h"><h2 id="pulse-h">Every desk, largest first</h2>
     <p>The number is magnitude: 6.0 is a million views, 7.0 is ten million.</p>
     ${rest.length ? sortBar([['views', 'Largest'], ['pace', 'Fastest'], ['start', 'Newest']]) : ''}
   </div>
@@ -622,7 +622,7 @@ ${lead && !rest.length ? '' : `<section class="part" id="pulse" aria-labelledby=
   <div class="part-h"><h2 id="stories-h">Researched stories</h2><p>Slower and deeper: what happened, how each world is describing it, and what is on the record, with sources.</p></div>
   ${shown.length ? `<ul class="st-list">${shown.map((s) => storyLine(s)).join('')}</ul>${live.length > shown.length ? `<p class="note"><a href="/stories/">All ${live.length} current stories</a></p>` : ''}` : empty('No stories written up yet.')}
 </section>`;
-  return page({ title: `The Wire · ${SITE.name}`, description: `The largest posts on X right now, across ${DESK_COUNT} desks, measured hourly and described by the editor.`, path: '/pulse/', body, current: '/pulse/' });
+  return page({ title: `Internet Pulse · ${SITE.name}`, description: `The largest posts on X right now, across ${DESK_COUNT} desks, measured hourly and described by the editor.`, path: '/pulse/', body, mode: 'pulse' });
 }
 
 function storiesPage() {
@@ -716,10 +716,10 @@ function archivePage() {
 <section class="part-1" id="issues" aria-labelledby="issues-h"><div class="part-h"><h2 id="issues-h">Editions</h2></div>
 ${issues.length ? `<div class="table-wrap"><table class="issues"><thead><tr><th scope="col">Day</th><th scope="col">The lead</th><th scope="col">Stories</th><th scope="col">Views on the day</th></tr></thead><tbody>${issues.map((e) => `<tr><td class="n"><a href="/edition/${e.edition.day}/">${esc(shortDay(e.edition.day))}${e.partial ? ', so far' : ''}</a></td><td class="t">${e.stories[0] ? esc(storyById.get(e.stories[0].id).title) : 'No researched story'}</td><td class="n">${e.counts.stories}</td><td class="n">${num(e.counts.views)}</td></tr>`).join('')}</tbody></table></div>` : empty('No edition yet.')}
 </section>
-<section class="part" id="past" aria-labelledby="past-h"><div class="part-h"><h2 id="past-h">Stories that have left the wire</h2><p>A story leaves the wire 48 hours after it began and is kept here, as it was last written up, with the numbers its posts had reached.</p></div>
+<section class="part" id="past" aria-labelledby="past-h"><div class="part-h"><h2 id="past-h">Past stories</h2><p>A story leaves the current list 48 hours after it began and is kept here, as it was last written up, with the numbers its posts had reached.</p></div>
 ${list || empty('Nothing here yet.', 'The record began on 9 October 2026. Stories arrive here two days after they start.')}
 </section>`;
-  return page({ title: `Back issues · ${SITE.name}`, description: 'Every day of the record as a front page, and every story that has left the wire, by day.', path: '/archive/', body, current: '/archive/' });
+  return page({ title: `Back issues · ${SITE.name}`, description: 'Every day of the record as a front page, and every past story, by day.', path: '/archive/', body, current: '/archive/' });
 }
 
 // ---------- the Newsletter: Soochiebot's letter for a day, set as a letter, referenced in the Harvard style
@@ -838,11 +838,11 @@ function aboutPage() {
   </ol>
   <h2>How to read it</h2>
   <dl class="glossary">
-    <div><dt>The Paper and the Newsletter</dt><dd>Two ways to read the same record, switched under the nameplate. The Paper is the day as a front page, ranked by the numbers. The Newsletter is Soochiebot's letter on the same day: what moved, what it means, and one call at the end, with its references.</dd></div>
+    <div><dt>The Paper and the Newsletter</dt><dd>Two ways to read the same record, switched under the nameplate, with Internet Pulse between them. The Paper is the day as a front page, ranked by the numbers. The Newsletter is Soochiebot's letter on the same day: what moved, what it means, and one call at the end, with its references.</dd></div>
     <div><dt>Views on the day</dt><dd>What a post gained between midnight and midnight, Eastern: its last reading that day less its last reading the day before. A story's reach is the sum over its posts. A story that began earlier counts only what it gained that day, so a story that moves again rises again.</dd></div>
     <div><dt>Big on X, not yet a story</dt><dd>Posts in the news sections that drew more views than most stories and that no story covers yet. The gaps in the reporting are printed, not hidden.</dd></div>
     <div><dt>What the internet watched</dt><dd>The largest posts outside the news sections that no story covers: what people were passing around.</dd></div>
-    <div><dt>The Wire</dt><dd>The record's live instrument: single posts from every desk, refreshed each hour. The largest leads, and the larger a post is, the larger it is set. No account holds more than ${inWords(PULSE_PER_ACCOUNT)} ${PULSE_PER_ACCOUNT === 1 ? 'place' : 'places'}, however many of its posts are large: this is every corner of the internet, not the loudest one.</dd></div>
+    <div><dt>Internet Pulse</dt><dd>The record's live instrument: single posts from every desk, refreshed each hour. The largest leads, and the larger a post is, the larger it is set. No account holds more than ${inWords(PULSE_PER_ACCOUNT)} ${PULSE_PER_ACCOUNT === 1 ? 'place' : 'places'}, however many of its posts are large: this is every corner of the internet, not the loudest one.</dd></div>
     <div><dt>Magnitude</dt><dd>The base ten log of views. 6.0 is a million views, 7.0 is ten million, 8.0 is a hundred million. Each whole step is ten times larger.</dd></div>
     <div><dt>Sections and desks</dt><dd>Six sections, from News to Life online, made of ${DESK_COUNT} desks. Each desk card has a bar for each of the last 24 hours: the views gained in that hour, on a log scale from a thousand to ten million.</dd></div>
     <div><dt>Worlds</dt><dd>When groups of people are describing the same story differently, each description is set out beside the post that carries it, followed by what is on the record.</dd></div>
@@ -861,7 +861,7 @@ rmSync(OUT, { recursive: true, force: true });
 const put = (rel, text) => { const p = join(OUT, rel); mkdirSync(dirname(p), { recursive: true }); writeFileSync(p, text); };
 put('index.html', frontEd ? editionPage(frontEd, { front: true }) : page({ title: `${SITE.name}: ${SITE.line}`, description: SITE.line, path: '/', body: empty('The first edition is being read.', 'The record has no day yet.'), current: '/', front: true }));
 for (const ed of editions) { put(`edition/${ed.edition.day}/index.html`, editionPage(ed)); put(`data/edition/${ed.edition.day}.json`, JSON.stringify({ ...ed, partial: undefined }, null, 1) + '\n'); }
-put('pulse/index.html', wirePage());
+put('pulse/index.html', pulsePage());
 put('desks/index.html', desksPage());
 put('stories/index.html', storiesPage());
 put('newsletter/index.html', newsletterPage());

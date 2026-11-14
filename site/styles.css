@@ -223,7 +223,11 @@ img { max-width: 100%; }
 
 /* the wire: the largest posts right now */
 .lead { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 2fr); gap: 28px; padding: 20px 0; border-bottom: 1px solid var(--ink); }
-.lead-fig .big { font-size: 64px; }
+.lead-fig .big { font-size: 64px; line-height: 1.05; margin-bottom: 4px; }
+/* The lead's figures read across under the numeral, each value over its label, so none sits apart from its name. */
+.lead .facts { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 14px; margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--rule); }
+.lead .facts div { display: flex; flex-direction: column-reverse; justify-content: flex-end; gap: 4px; padding: 0; border: 0; }
+.lead .facts dd { font-size: 24px; line-height: 1.1; text-align: left; }
 .lead-top { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; }
 .lead-line { font: 700 clamp(22px, 2.4vw, 32px)/1.2 var(--head); }
 .lead-q { margin-top: 12px; font-size: 18px; }
@@ -379,7 +383,7 @@ img { max-width: 100%; }
   .st-side { grid-column: 2; justify-content: flex-start; }
   .foot-links { align-items: flex-start; }
   /* one line you can swipe, not four that push the paper down */
-  .mode a { padding: 12px 14px; }
+  .mode a { padding: 12px 9px; font-size: 11px; letter-spacing: .05em; white-space: nowrap; }
   .letter { margin-top: 16px; border-left: 0; border-right: 0; }
   .l-part p:not(.lab) { text-align: left; hyphens: manual; }
   .secnav { flex-wrap: nowrap; justify-content: flex-start; gap: 18px; overflow-x: auto; scrollbar-width: none; }

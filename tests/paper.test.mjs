@@ -49,7 +49,8 @@ test('every page wears the same head: the nameplate, the motto, the sections, th
     assert.ok(page.includes(pinned), `${f} carries the pinned post as its motto`);
     for (const g of groups) assert.ok(page.includes(`href="/section/${g.id}/"`), `${f} links the ${g.name} section`);
     for (const href of ['/', '/newsletter/', '/pulse/', '/archive/', '/about/']) assert.ok(page.includes(`href="${href}"`), `${f} links ${href}`);
-    assert.match(page, /<nav class="mode" aria-label="Read it as"><a href="\/"[^>]*>The Paper<\/a><a href="\/newsletter\/"[^>]*>The Newsletter<\/a><\/nav>/, `${f} has the switch between the Paper and the Newsletter`);
+    assert.match(page, /<nav class="mode" aria-label="Read it as"><a href="\/"[^>]*>The Paper<\/a><a href="\/pulse\/"[^>]*>Internet Pulse<\/a><a href="\/newsletter\/"[^>]*>The Newsletter<\/a><\/nav>/, `${f} has the switch: the Paper, Internet Pulse, the Newsletter`);
+    assert.ok(!/>The Wire</.test(page), `${f} no longer names the old wire`);
     assert.match(page, /<time id="asof" datetime="[^"]+Z">/, `${f} says when the record was read`);
     assert.ok(!page.includes(String.fromCharCode(0x2014)), `${f} has no em dash`);
     assert.ok(!/<script(?![^>]*src="\/app\.js")/.test(page), `${f}: the only script is the page script`);
