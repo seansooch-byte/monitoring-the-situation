@@ -6482,3 +6482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T11:50Z
+- Captures read: 1107Z (0959Z was the last logged read). Last read: 1107Z.
+- X's check: 1107Z 48 confirmed, 0 missing, 0 mismatched, 1 withheld by X. No missing or mismatched in this pass's runs.
+- Pulse: 34 items (0 in, 2 out: stephenasmith and RupertLowe10 items, past 36 hours). Header 1107Z.
+- Added: 2026-11-13-ishowspeed-streamer-of-the-year (internet). Updated: 2026-11-13-faa-nationwide-ground-stop (officials' router and patch account, CBS counts; correction added), 2026-11-08-nvidia-board-probes-huang-china-spy (reinstatement petition, Musk's post; correction added). Tanker story checked, no newer report found.
+- Left out: Kim Jong Un death claim (IsraelArmyX post asks Grok to verify; no current source found, only older unverified rumours; Grok is made by xAI, the company behind the grabber); Chrisean Rock/Adam22 clip (assault allegation, no source checked); Bernie Sanders steps post (point unclear); Bachelor and Nuremberg trailer posts (promotion); GTA 6 Best Buy post (unchecked).
+- Requests: none added or removed. Four ids added to the watch list; plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract. The Starship, Microsoft, SpaceX-Tesla and Van Hollen stories were not re-checked this pass.

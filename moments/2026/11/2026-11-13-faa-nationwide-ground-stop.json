@@ -6,13 +6,15 @@
   "desks": ["disaster", "politics"],
   "standing": "developing",
   "started_at": "2026-11-13T21:01:08Z",
-  "updated_at": "2026-11-14T02:30:00Z",
+  "updated_at": "2026-11-14T11:45:00Z",
   "what": [
     "On Friday, 13 November 2026, the Federal Aviation Administration ordered a ground stop at all US airports. Transportation Secretary Sean Duffy posted that it followed \"a communication issue impacting all Air Route Traffic Control Centers\". ABC News and Fox News report the FAA cited \"extraordinary circumstances\". Flights already in the air were allowed to land.",
     "NBC News reports Duffy said the system's switches and routers were overloaded with data and gave inconsistent data, and that the stop was lifted at 8:15 p.m. Eastern, about five hours after it began. ABC and NBC report Homeland Security Secretary Markwayne Mullin said there was no indication so far of anything nefarious and that it looked like a telecommunications outage. Both say officials were not ruling out a cyberattack while they investigated.",
     "NBC reports more than 5,300 flights canceled and more than 10,000 delayed. ABC's count earlier in the evening was more than 2,000 canceled. The counts differ because they were taken at different times. Both outlets say this is the second nationwide ground stop since the 9/11 attacks. The other was in January 2023.",
     "One post says there is a dispute between air traffic controllers and the FAA and that military units were placed on alert. I found no report that confirms either claim, and the officials quoted by NBC and ABC described a telecommunications failure.",
-    "I could not find the root cause. Officials say it is under investigation."
+    "CBS News reports Duffy said \"Our routers actually got overloaded with data\" and then gave inconsistent data, and that Mullin said new security patches introduced into the older system appeared to \"overwhelm\" its routers. Mullin is quoted as saying \"There is no cyberattack. We're still working through that process,\" and that it was not connected to the Microsoft outage. CBS also cites multiple sources who say an update to a private communications network run by L3Harris caused a reboot and crash. That detail rests on unnamed sources and I could not find it confirmed on the record.",
+    "CBS gives more than 4,000 cancellations and more than 10,000 delays, and says about 3,100 aircraft bound for US airports were in the air when the stop began. The cancellation count is still moving, and outlets differ.",
+    "The final root cause and the formal investigation are not yet on the record."
   ],
   "why": "Almost every flight in the country stopped at once, and the first official word said little. People filled the gap with causes of their own.",
   "worlds": [
@@ -29,6 +31,9 @@
   ],
   "common": "On the record: the FAA ordered the stop, officials give a telecommunications failure as the cause, the stop was lifted that evening, and officials said they had no sign of an attack while not ruling one out. Not established: the root cause, any controller dispute, and any military alert. Those rest on posts alone. The officials' account is also preliminary.",
   "next": "The FAA's and DHS's findings on the root cause, and whether any cyber cause is confirmed or excluded.",
+  "corrections": [
+    { "at": "2026-11-14T11:45:00Z", "text": "Added the officials' later account (overloaded routers, security patches, no cyberattack per Mullin) and CBS's flight counts. The first version said the root cause was not found; it is still not final." }
+  ],
   "posts": [
     { "id": "2121347654714077605", "role": "origin" },
     { "id": "2121351591106072679", "role": "official" },
@@ -37,6 +42,7 @@
   ],
   "sources": [
     { "label": "NBC News live updates: FAA lifts ground stop", "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268" },
+    { "label": "CBS News: FAA lifts nationwide ground stop", "url": "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/" },
     { "label": "ABC News: FAA issues rare nationwide ground stop", "url": "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848" }
   ]
 }

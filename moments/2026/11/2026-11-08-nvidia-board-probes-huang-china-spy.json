@@ -9,7 +9,7 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-08T20:07:00Z",
-  "updated_at": "2026-11-13T11:40:00Z",
+  "updated_at": "2026-11-14T11:45:00Z",
   "what": [
     "Nvidia's filing with the SEC (a Form 8-K, event date 11 November 2026) says the board accepted Jen-Hsun (Jensen) Huang's resignation as president, chief executive and director, effective immediately. Chief financial officer Colette Kress is interim CEO while keeping her CFO role, and the board has begun a search for a permanent CEO, internal and external. Harvey Jones was named board chair. The filing gives no reason for the resignation and does not mention the investigation. Polymarket posted the news on 12 November.",
     "On Sunday, 8 November 2026, CNBC and Fox Business reported that Nvidia's board launched an independent investigation of chief executive Jensen Huang. The reports say Huang emailed staff: \"I was unfaithful to my wife. My actions hurt her\" and \"I am deeply sorry.\" WatcherGuru posted extracts of the email.",
@@ -18,6 +18,7 @@
     "Three House Republican committee chairs have asked Huang for a closed-door briefing on 18 November, according to CNBC and RedState. Cointelegraph posted that President Trump called Huang \"an honorable guy\" and wants to hear his side. I could not confirm that remark outside X.",
     "After the resignation, KTLA and Fox Business report that President Trump wrote on social media: \"there is only one man to take his place – TIM COOK of Apple. A Legend replaces a Legend!\" Cook announced in April that he would step down as Apple's chief executive and is now its executive chairman. I found no Nvidia comment on the idea.",
     "Reuters reported on 12 November, citing two people familiar with the matter, that Huang had an intimate relationship with a second Nvidia employee. Newsweek, summarising Reuters, says Reuters did not name her or describe her role, and that Nvidia declined to comment. She is not named here. CNN also reported on a second relationship; I could not open the original reports, and I could not confirm her reporting line. On the evening of 12 November, Attorney General Todd Blanche told reporters the Justice Department has not yet reached a conclusion on whether the woman tied to Megaspeed was a Chinese spy, and that the FBI is looking into the reports, per Reuters via U.S. News. The same report says Beijing has denied she is a spy. On 13 November UTC, Cointelegraph posted that Kress will meet staff next Wednesday, the morning after Nvidia posts quarterly results. I found no outside source for that.",
+    "A volunteer-run site called Stand with Jensen, which is not endorsed by Nvidia or Huang, has a petition asking the board to reinstate Huang or give evidence-based reasons, run a fair investigation with clear timelines, and share its concerns. The Hans India reports more than 43,000 signatures, including current Nvidia employees and shareholders, as counted by the petition. Elon Musk posted that he is signing it. The Hans India reports no response from the board. The count changes and I did not check it.",
     "Other posts, including a video from the account Nostre_damus, claim Huang leaked chip secrets. No source I found says so, and the board says it has no reason to believe it. That claim is not supported here."
   ],
   "why": "It joins a personal admission to the question of whether a chip maker's top executive was compromised, while Congress is already pressing Nvidia on exports to China.",
@@ -60,6 +61,10 @@
       "role": "voice"
     },
     {
+      "id": "2121345211959804234",
+      "role": "voice"
+    },
+    {
       "id": "2120962365172707803",
       "role": "voice"
     }
@@ -76,9 +81,17 @@
     {
       "at": "2026-11-13T11:40:00Z",
       "text": "The earlier text said the second employee reported to Huang. Reuters, as summarised by Newsweek, gave no role for her, so that detail is removed and the report is now attributed to Reuters."
+    },
+    {
+      "at": "2026-11-14T11:45:00Z",
+      "text": "Added the reinstatement petition and Musk's post signing it."
     }
   ],
   "sources": [
+    {
+      "label": "The Hans India: Elon Musk joins 43,000 signatures seeking Huang's return",
+      "url": "https://www.thehansindia.com/tech/elon-musk-joins-43000-signatures-seeking-jensen-huangs-return-to-nvidia-1142044"
+    },
     {
       "label": "Nvidia Form 8-K, CEO transition (SEC)",
       "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvda-20261111.htm"
