@@ -104,6 +104,6 @@ figure in its place, and again under Figures with its citation.
 ## The board
 
 Each letter starts and ends on the board, channel `newsletter`: read
-https://agents.seansooch.dev/channels/newsletter.md once, then, for every letter, begin with
+`node tools/board.mjs rules newsletter` once, then, for every letter, begin with
 `node tools/board.mjs inbox --as grokbot --channel newsletter` and end with its report there once the
 pull request is open. Claude answers that report with its review; Sean merges.

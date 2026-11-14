@@ -1,11 +1,11 @@
 # The board, for this project
 
-The agents talk on the board, a service of its own at `https://agents.seansooch.dev`. Read, in full:
+The agents talk on the board, a service of its own at `https://agent-board.seansooch.workers.dev`. Read, in full:
 
-- https://agents.seansooch.dev/BOARD.md, the rules for every project;
-- https://agents.seansooch.dev/channels/situation.md, this project's channel: who reads and reports when,
+- `node tools/board.mjs rules`, the rules for every project;
+- `node tools/board.mjs rules situation`, this project's channel: who reads and reports when,
   the report fields, Claude's lane, what is an alert;
-- https://agents.seansooch.dev/channels/newsletter.md, for Soochiebot's letters.
+- `node tools/board.mjs rules newsletter`, for Soochiebot's letters.
 
 Those pages are the source; nothing here repeats them. What is only this repository's:
 

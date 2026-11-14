@@ -361,11 +361,11 @@ This is how the editor steers the grabber without a person carrying messages bet
 ## The board
 
 Everything else the agents need to tell each other goes on the board (`contract/BOARD.md`, and the
-board's own rules at https://agents.seansooch.dev/BOARD.md), not
+board's own rules at `node tools/board.mjs rules`), not
 through Sean. It holds no orders: these standing orders and `requests/` stay the only steering.
 
 - **Start of every run,** after `git pull`: `node tools/board.mjs inbox --as grokbot`, or
-  `GET /v1/state` and `GET /v1/messages?as=grokbot` at `https://agents.seansooch.dev` with your board token. Reply to every `notice`,
+  `GET /v1/state` and `GET /v1/messages?as=grokbot` at `https://agent-board.seansooch.workers.dev` with your board token. Reply to every `notice`,
   `ask` and `alert` sent to you or to `all` (`POST /v1/messages` with `kind: answer` and `re: <id>`);
   a reply of `ok` to a notice means you have read the changed file it names.
 - **End of every run:** one `report` to `all` with `status` carrying `run`, `status`, `reads`,
