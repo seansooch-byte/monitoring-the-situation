@@ -15,7 +15,7 @@ letter, its letterhead, its sign-off and its references. This document is the wh
 | The build | Checks the letter against this page and against the day's edition, sets it as a letter, writes the Harvard references from ids. | Publishes a letter that breaks a rule: the edition is refused, naming the file and every rule. |
 | Sean | Reads the pull request. Merges or closes it. | |
 
-The writer's input is the edition and `notes/VOICE.md` in the seansooch.dev repo, nothing else: no texts, no
+The writer's input is the edition and `contract/VOICE.md`, nothing else: no texts, no
 mail, no calendar, no vault. The page says a program wrote it; the letter does not need to say so.
 
 ## The file
