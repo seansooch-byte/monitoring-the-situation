@@ -496,3 +496,24 @@ test('a volume sweep is a kind of sweep', () => {
   c.sweeps.push({ id: 'volume.sports', kind: 'volume', desk: 'sports', method: 'counts for the desk query, hourly', window_hours: 24, status: 'ok', reason: null, post_ids: [] });
   assert.deepEqual(errs(c), []);
 });
+
+// 14 Nov 2026: the store looked up every post id it held (38,000 rows) for each capture it took in, and a
+// backfill of 384 captures spent the account's 5,000,000 free D1 reads for the day. The check needs to know
+// only the ids a capture points at that are not in its own posts; idsToLookUp lists exactly those.
+test('idsToLookUp lists every post id the capture points at outside its own posts, and nothing else', async () => {
+  const { idsToLookUp } = await import('../tools/lib/capture-check.mjs');
+  const { readFileSync } = await import('node:fs');
+  const doc = JSON.parse(readFileSync(new URL('../contract/example.capture.json', import.meta.url), 'utf8'));
+  const own = new Set(doc.posts.map((p) => p.id));
+  const outside = '1999999999999999999';
+  doc.observations.push({ ...doc.observations[0], id: outside });
+  const ids = idsToLookUp(doc);
+  assert.ok(ids.includes(outside), 'an observation of an earlier capture\'s post');
+  assert.ok(ids.every((id) => !own.has(id)), 'its own posts need no lookup');
+  // With the looked-up ids as known, the check says what it says with the whole store as known.
+  const whole = new Set([outside, '1888888888888888888']);
+  const small = new Set(ids.filter((id) => whole.has(id)));
+  const now = new Date(Date.parse(doc.run.started_at) + 3600000);
+  assert.deepEqual(checkCapture(doc, { known: small, now }).errors, checkCapture(doc, { known: whole, now }).errors);
+  assert.ok(checkCapture(doc, { known: new Set(), now }).errors.some((e) => e.includes(outside)), 'and without it the outside post is refused');
+});

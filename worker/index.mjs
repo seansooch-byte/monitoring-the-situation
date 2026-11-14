@@ -18,7 +18,7 @@
 // first, then the posts checked longest ago; a 404 purges the post's words, name, media and link
 // from its row and from every capture file that holds it, and keeps its id and its numbers.
 import desks from '../contract/desks.json';
-import { checkCapture } from '../tools/lib/capture-check.mjs';
+import { checkCapture, idsToLookUp } from '../tools/lib/capture-check.mjs';
 import { askX, compareToX, WITHHELD } from '../tools/lib/gate2.mjs';
 import { rowsOf, recordOf, stripCapture } from '../tools/lib/store-rows.mjs';
 
@@ -71,7 +71,14 @@ const POST_UPSERT = `ON CONFLICT(id) DO UPDATE SET ${POST_COLS.filter((c) => !['
 async function ingest(request, env) {
   let doc;
   try { doc = await request.json(); } catch { return json({ ok: false, errors: ['body: must be the capture as JSON'] }, 400); }
-  const known = new Set((await env.DB.prepare('SELECT id FROM posts').all()).results.map((r) => r.id));
+  // Only the ids this capture points at outside its own posts, never the whole table: reading every id per
+  // capture spent the account's free D1 reads on 2026-11-14.
+  const known = new Set();
+  const want = idsToLookUp(doc);
+  for (let i = 0; i < want.length; i += 90) {
+    const part = want.slice(i, i + 90);
+    for (const r of (await env.DB.prepare(`SELECT id FROM posts WHERE id IN (${place(part.length)})`).bind(...part).all()).results) known.add(r.id);
+  }
   const { errors, warnings } = checkCapture(doc, { desks, known, now: new Date() });
   if (errors.length) return json({ ok: false, run: doc?.run?.id ?? null, errors, warnings }, 422);
   const text = JSON.stringify(doc);

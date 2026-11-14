@@ -60,6 +60,20 @@ function httpsUrl(v) {
   } catch { return false; }
 }
 
+// The post ids a capture points at outside its own posts: the only ids the check needs opts.known to
+// answer for. The store looks up these and nothing else (DECISIONS 2026-11-14, the D1 read limit).
+export function idsToLookUp(doc) {
+  const own = new Set((Array.isArray(doc?.posts) ? doc.posts : []).map((p) => p?.id));
+  const out = new Set();
+  const walk = (v) => {
+    if (isId(v)) { if (!own.has(v)) out.add(v); return; }
+    if (Array.isArray(v)) v.forEach(walk);
+    else if (v && typeof v === 'object') for (const [k, x] of Object.entries(v)) if (k !== 'run') walk(x);
+  };
+  for (const [k, v] of Object.entries(doc ?? {})) if (k !== 'posts' && k !== 'run') walk(v);
+  return [...out];
+}
+
 export function checkCapture(doc, opts = {}) {
   const errors = [];
   const warnings = [];
