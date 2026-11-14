@@ -6382,3 +6382,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained one id; plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: FAA ground stop causes still differ across posts (a DHS secretary's words as relayed by PopBase say telecommunications outage; the MSFTIssues post says no link to Microsoft services), none checked here. The starting message had no instructions beyond the contract.
+
+## 2026-11-14T01:30Z
+- Captures read: 0105Z (0004Z was the last logged read). Last read: 0105Z.
+- X's check: 0105Z 106 confirmed, 0 missing, 0 mismatched, 9 withheld by X (old_content or sexual posts, none on the pulse).
+- Pulse: 40 items listed (2 in, 3 out). In: NYC Mayor's account on the surveillance pricing ban (ideas, a desk that had nothing on the page), SpaceX "Watch Starship Flight 15" (science, replaces the smaller SpaceX propellant post so the account's larger post stands). Out: DiscussingFilm Thomas Crown trailer and Reggie B. El-Sayed clip (both past 36 hours), SpaceX propellant post (replaced). The build holds back one BBCWorld post (account cap). Header 0105Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Theveripost Bernie Sanders photo post (2022 claim unchecked); IsraelArmyX Kim Jong Un claim (unchecked alarm); iluvmssy "federal prison" clip (likely shows a private person); SarahisCensored Ring camera post (private individuals); Bachelor announcement (promotion); elonmusk "Jensen" (point unclear, account holds a place); Chrisean Rock and Adam22 posts, Pentagon stockpile post (unchecked); old_content posts.
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Starship Flight 15 appears under way (Musk posted "Live Starship video from space"); no story yet. The starting message had no instructions beyond the contract.

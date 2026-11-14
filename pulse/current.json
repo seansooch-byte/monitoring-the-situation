@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T00:30:00Z",
-  "capture": "2026-11-14T0004Z",
+  "updated_at": "2026-11-14T01:30:00Z",
+  "capture": "2026-11-14T0105Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -13,12 +13,6 @@
       "id": "2120876571829662014",
       "desk": "business",
       "line": "The Nvidia newsroom account announces a CEO transition and links the company release. Nvidia's SEC filing, dated 11 November, says Jensen Huang resigned as CEO and director, with CFO Colette Kress interim CEO; it gives no reason."
-    },
-    {
-      "id": "2120864682026418629",
-      "desk": "entertainment",
-      "line": "The account DiscussingFilm posts a new trailer for The Thomas Crown Affair, which it says Michael B. Jordan directs and stars in, and gives a release date of 5 March 2027. Not checked here.",
-      "also": []
     },
     {
       "id": "2120931356914151835",
@@ -158,11 +152,6 @@
       "line": "Sky Sports Premier League reports that Manchester United captain Bruno Fernandes has rejected a second contract offer from the club, with his deal due to expire at the end of the season. Not checked here."
     },
     {
-      "id": "2120858260521529455",
-      "desk": "politics",
-      "line": "Reggie B., a commentator account, posts a video of Abdul El-Sayed, a Democratic politician, answering an interviewer. Asked about calling President Trump \"the dumbest effing guy who ever was president\", the post has him answer \"True\" and say the way to deal with a bully is to stand up to him. Not checked here."
-    },
-    {
       "id": "2121250205806772283",
       "desk": "science",
       "line": "Elon Musk posts \"Starship 42 preparing for launch\" with a link. He quotes another post. Not checked here."
@@ -234,15 +223,21 @@
       ]
     },
     {
-      "id": "2121360601377374680",
-      "desk": "science",
-      "line": "SpaceX announces a go for propellant load and says teams will soon begin loading Starship with about 12 million pounds of liquid oxygen and liquid methane.",
-      "also": []
-    },
-    {
       "id": "2121214354699981193",
       "desk": "defense",
       "line": "Drone Wars, an account covering drone warfare, posts a video and says Ukrainian company ARMOLAB tested its ROBONOSH ground robotic evacuation system. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121316300702056595",
+      "desk": "science",
+      "line": "SpaceX posts a link to watch Starship Flight 15.",
+      "also": []
+    },
+    {
+      "id": "2121045067632922696",
+      "desk": "ideas",
+      "line": "The account of New York City Mayor Zohran Kwame Mamdani says some companies use personal data such as browsing history to charge different customers different prices, and that the city has banned the practice, which it calls surveillance pricing. Not checked here.",
       "also": []
     }
   ]
