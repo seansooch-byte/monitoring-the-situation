@@ -275,8 +275,8 @@ The reader's own desks are kept in their browser only (`localStorage`); nothing 
 Fonts come from Google Fonts. No other third party is contacted. Every page is `noindex`
 (a header and `robots.txt`) until Sean opens the site to search engines.
 
-Not built yet: opinions (Soochiebot has not written one; the CI rule that lets grokbot commit
-`opinion/` is not written), bars drawn from `volume`, click-to-load embeds of posts, a dark variant.
+Not built yet: opinions (Soochiebot has not written one; CI admits an `opinion:` commit that touches one
+`opinion/<day>.json` and nothing else), bars drawn from `volume`, click-to-load embeds of posts, a dark variant.
 The program's phases are listed in `PROGRAM.md` and not repeated here.
 
 ## What this replaced

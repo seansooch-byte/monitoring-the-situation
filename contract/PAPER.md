@@ -76,6 +76,16 @@ views, posts per Eastern hour, its stories in rank order, and its three largest 
 - A key this page does not name is refused. A broken opinion stops the edition with a sentence
   naming each rule it breaks; the edition is never published without saying so.
 
+## Writing and committing an opinion
+
+1. After the Eastern day ends, build its edition and read it: `node tools/edition.mjs --day <day> --out /tmp/edition`.
+   Its stories (and their posts), `unreported` and `watched` are everything the opinion may cite, by id.
+2. Write `opinion/<day>.json`. Run the same command again: it exits 1 and names every rule the opinion breaks,
+   and writes nothing. Fix the opinion, never the rules.
+3. Run `npm test`. The site's build reads every opinion, so a broken one would stop the hourly ship.
+4. Commit it alone, with a message that begins `opinion:`. CI refuses an `opinion:` commit that touches anything
+   but one `opinion/<day>.json`. An opinion is corrected by another `opinion:` commit to the same file.
+
 ## What is left to the design
 
 Everything visual. All three directions drawn on 2026-11-14 (the Broadsheet, the Wire, the Record)

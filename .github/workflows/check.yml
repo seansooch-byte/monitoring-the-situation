@@ -29,7 +29,7 @@ jobs:
           fi
           if [ -z "$files" ]; then echo "no capture files in this push"; exit 0; fi
           echo "$files" | xargs node tools/check-capture.mjs
-      - name: A capture commit touches only capture/, and a bulletin commit only the editor's files
+      - name: A capture commit touches only capture/, a bulletin commit only the editor's files, an opinion commit only opinion/
         env:
           BEFORE: ${{ github.event.before }}
         run: |
@@ -40,6 +40,11 @@ jobs:
               capture:*)
                 outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v '^capture/' || true)
                 if [ -n "$outside" ]; then echo "commit $c is a capture commit but changes:"; echo "$outside"; bad=1; fi
+                ;;
+              opinion:*)
+                # Soochiebot's editorial (contract/PAPER.md): one dated file in opinion/, nothing else.
+                outside=$(git diff-tree --no-commit-id --name-only -r "$c" | grep -v -E '^opinion/[0-9]{4}-[0-9]{2}-[0-9]{2}\.json$' || true)
+                if [ -n "$outside" ]; then echo "commit $c is an opinion commit but changes:"; echo "$outside"; bad=1; fi
                 ;;
               bulletin:*|pulse:*)
                 # A scheduled editor pass writes the pulse, stories, requests, the ledger and its log. Nothing else.
