@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T22:30:00Z",
-  "capture": "2026-11-14T2206Z",
+  "updated_at": "2026-11-14T23:40:00Z",
+  "capture": "2026-11-14T2307Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -101,12 +101,6 @@
       "also": []
     },
     {
-      "id": "2121205602474979387",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, says Robert Pattinson was offered more money but only a three-film commitment for his audition deal to play James Bond, compared with the other finalists. It cites a source it does not name in the text. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121365035268386914",
       "desk": "politics",
       "line": "Acyn, who posts clips of political events, shares a 35-second video in which a questioner asks whether something \"could be AI related\" and Mullin answers \"We call it SI around here.\" The post does not say what the question is about. Not checked here.",
@@ -191,6 +185,12 @@
       "id": "2121710139967242497",
       "desk": "markets",
       "line": "Watcher Guru, a crypto news account, says Bitcoin fell under $65,000 and Ether under $1,800, with over $360,000,000 liquidated in five minutes. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121724627667824796",
+      "desk": "gaming",
+      "line": "The official League of Legends account, posting from the Worlds 2026 tournament, shares a two-minute video it calls a peek at where the game is headed for 2027. The post gives no details in text.",
       "also": []
     }
   ]
