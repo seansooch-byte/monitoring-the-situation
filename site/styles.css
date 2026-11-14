@@ -135,7 +135,8 @@ img { max-width: 100%; }
 
 /* posts the internet watched, and posts that are not yet a story */
 .items { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.item { padding: 0 20px 18px; border-left: 1px solid var(--ink); }
+/* the rule between posts belongs to the three-across grid, not to a post standing in the rail */
+.items .item { padding: 0 20px 18px; border-left: 1px solid var(--ink); }
 .items .item:nth-child(3n + 1) { padding-left: 0; border-left: 0; }
 .item .big { font-size: 30px; }
 
@@ -325,7 +326,7 @@ img { max-width: 100%; }
   .rail, .full-side, .opinion-body { border-left: 0; padding-left: 0; border-top: 1px solid var(--ink); padding-top: 16px; margin-top: 18px; }
   .cols { column-count: 1; }
   .brief ol, .row3, .items, .strip { grid-template-columns: minmax(0, 1fr); }
-  .brief li, .row3 > *, .item, .strip > * { padding: 12px 0 0; border-left: 0; border-top: 1px solid var(--rule); margin-top: 12px; }
+  .brief li, .row3 > *, .items .item, .strip > * { padding: 12px 0 0; border-left: 0; border-top: 1px solid var(--rule); margin-top: 12px; }
   .brief li:first-child, .row3 > :first-child, .items .item:first-child, .strip > :first-child { border-top: 0; margin-top: 0; padding-top: 0; }
   .head-fig { text-align: left; }
   .it { grid-template-columns: 64px minmax(0, 1fr); column-gap: 14px; }
