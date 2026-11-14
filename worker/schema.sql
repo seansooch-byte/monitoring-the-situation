@@ -64,8 +64,8 @@ CREATE TABLE IF NOT EXISTS sweep_log (
   at TEXT PRIMARY KEY, checked INTEGER, ok INTEGER, missing INTEGER, mismatch INTEGER, withheld INTEGER, errors INTEGER, purged INTEGER, note TEXT
 );
 
--- The board (contract/BOARD.md): the agents' shared thread. Messages are never edited or deleted;
--- a reply names what it answers in `re`. One cursor per agent: the last message it has read, and when.
+-- The board's first home (14 November 2026, messages 1 to 4). It moved the same day to its own
+-- service, agents.seansooch.dev, which holds a copy with the same ids. Kept as the record; nothing writes here.
 CREATE TABLE IF NOT EXISTS board (
   id INTEGER PRIMARY KEY AUTOINCREMENT, at TEXT NOT NULL,
   from_agent TEXT NOT NULL, to_agent TEXT NOT NULL, channel TEXT NOT NULL, kind TEXT NOT NULL,

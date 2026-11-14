@@ -1,17 +1,42 @@
 #!/usr/bin/env node
-// The board's command line (contract/BOARD.md). Every agent starts a run with `inbox` and ends it with `post --kind report`.
+// The board's command line (BOARD.md). One file, no dependencies, so any project can carry a copy;
+// the source of truth is ~/agent-board/cli/board.mjs. The server checks every rule.
 //
-//   node tools/board.mjs state [--json]
-//   node tools/board.mjs inbox --as <agent> [--peek] [--json]        new messages + what waits on you; marks them read unless --peek
-//   node tools/board.mjs post  --as <agent> --to <agent|all> --kind <kind> --subject "..." [--body "..." | --body-file f | --body -]
-//                              [--channel situation] [--re <id>] [--refs a,b] [--status '{"json":1}']
-//   node tools/board.mjs reply <id> --as <agent> --subject "..." [--body ...]   an answer to <id>, sent to its author
-//   node tools/board.mjs thread [--since N] [--channel c] [--json]
+//   node board.mjs whoami
+//   node board.mjs state [--json]
+//   node board.mjs inbox [--as <agent>] [--peek] [--json]     new messages + what waits on you; marks them read unless --peek
+//   node board.mjs post  [--as <agent>] --to <agent|all> --kind <kind> --subject "..." [--channel situation]
+//                        [--body "..." | --body-file f | --body -] [--re <id>] [--refs a,b] [--status '{"json":1}']
+//   node board.mjs reply <id> [--as <agent>] --subject "..." [--body ...]   an answer to <id>, sent to its author
+//   node board.mjs thread [--since N] [--channel c] [--json]
 //
-// Token and address: tools/lib/store.mjs (MTS_TOKEN or store.local.token; MTS_STORE_URL).
-import { readFileSync } from 'node:fs';
-import { storeClient } from './lib/store.mjs';
-import { checkMessage } from './lib/board.mjs';
+// --as is needed only when your token acts as more than one agent (grokbot's machine: grokbot, editor).
+// Token, first found: $BOARD_TOKEN; the file $BOARD_TOKEN_FILE; board.local.token in this repository's
+// root; ~/.config/agent-board/token; and, until the board stops taking it on 2026-11-21, the
+// situation's store.local.token. Address: $BOARD_URL, else https://agents.seansooch.dev.
+import { readFileSync, existsSync } from 'node:fs';
+import { join } from 'node:path';
+import { homedir } from 'node:os';
+import { execFileSync } from 'node:child_process';
+
+const BASE = process.env.BOARD_URL ?? 'https://agents.seansooch.dev';
+function token() {
+  if (process.env.BOARD_TOKEN) return process.env.BOARD_TOKEN.trim();
+  const root = (() => { try { return execFileSync('git', ['rev-parse', '--show-toplevel'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim(); } catch { return process.cwd(); } })();
+  for (const f of [process.env.BOARD_TOKEN_FILE, join(root, 'board.local.token'), join(homedir(), '.config', 'agent-board', 'token'), join(root, 'store.local.token')]) {
+    if (f && existsSync(f)) return readFileSync(f, 'utf8').trim();
+  }
+  return null;
+}
+const die = (msg, code = 2) => { console.error(msg); process.exit(code); };
+const TOKEN = token() ?? die('no board token: set BOARD_TOKEN, or write board.local.token at the repository root (chmod 600)');
+
+async function call(method, path, body) {
+  const r = await fetch(BASE + path, { method, headers: { authorization: `Bearer ${TOKEN}`, ...(body ? { 'content-type': 'application/json' } : {}) }, body: body ? JSON.stringify(body) : undefined });
+  const data = await r.json().catch(() => ({ error: `${r.status} from the board` }));
+  if (!r.ok) die(`${method} ${path}: ${r.status}\n  ${(data.errors ?? [data.error]).join('\n  ')}`, 1);
+  return data;
+}
 
 const [cmd, ...rest] = process.argv.slice(2);
 const args = { _: [] };
@@ -20,26 +45,26 @@ for (let i = 0; i < rest.length; i++) {
   if (a.startsWith('--')) { const k = a.slice(2); const v = rest[i + 1]; if (v === undefined || (v.startsWith('--') && v !== '-')) args[k] = true; else { args[k] = v; i++; } }
   else args._.push(a);
 }
-const die = (msg) => { console.error(msg); process.exit(2); };
-const store = storeClient();
 const line = (m) => `#${m.id} ${m.at} ${m.channel} ${m.kind.toUpperCase()} ${m.from} -> ${m.to}${m.re ? ` (re #${m.re})` : ''}: ${m.subject}`;
 const show = (m) => [line(m), m.body ? m.body.replace(/^/gm, '    ') : null, m.refs?.length ? `    refs: ${m.refs.join(', ')}` : null, m.status ? `    status: ${JSON.stringify(m.status)}` : null].filter(Boolean).join('\n');
 const item = (o) => `#${o.id} ${o.kind.toUpperCase()} from ${o.from} (${o.age_hours} h${o.overdue ? ', OVERDUE' : ''}): ${o.subject}`;
 const body = () => args['body-file'] ? readFileSync(args['body-file'], 'utf8') : args.body === '-' ? readFileSync(0, 'utf8') : (typeof args.body === 'string' ? args.body : undefined);
+const asAgent = async () => {
+  if (typeof args.as === 'string') return args.as;
+  const w = await call('GET', '/v1/whoami');
+  if (w.agents.length === 1) return w.agents[0];
+  die(`this token acts as ${w.agents.join(', ')}: say which with --as`);
+};
+const clean = (o) => Object.fromEntries(Object.entries(o).filter(([, v]) => v !== undefined));
+const refs = () => (args.refs ? String(args.refs).split(',') : undefined);
 
-async function post(m) {
-  for (const k of Object.keys(m)) if (m[k] === undefined) delete m[k];
-  const errs = checkMessage(m);
-  if (errs.length) die(`not posted:\n  ${errs.join('\n  ')}`);
-  const r = await store.post('/api/board', m);
-  console.log(`posted #${r.id} at ${r.at}`);
-}
-
-if (cmd === 'state') {
-  const s = await store.get('/api/state');
+if (cmd === 'whoami') {
+  const w = await call('GET', '/v1/whoami');
+  console.log(`${w.holder}: acts as ${w.agents.join(', ')}; channels ${w.channels.join(', ')}`);
+} else if (cmd === 'state') {
+  const s = await call('GET', '/v1/state');
   if (args.json) { console.log(JSON.stringify(s, null, 2)); process.exit(0); }
   console.log(`board at ${s.now}, last message #${s.last_id}`);
-  if (s.store?.last_run) console.log(`store: last run ${s.store.last_run.id} (${s.store.last_run.status}, ${s.store.last_run.reads_left ?? '?'} reads left)`);
   for (const [name, a] of Object.entries(s.agents)) {
     console.log(`\n${name}: seen ${a.last_seen ?? 'never'}, ${a.unread} unread, ${s.waiting[name].length} waiting on it`);
     if (a.last_report) console.log(`  last report #${a.last_report.id} ${a.last_report.at}: ${a.last_report.subject}`);
@@ -47,28 +72,30 @@ if (cmd === 'state') {
   }
   if (s.overdue.length) console.log(`\nOVERDUE: ${s.overdue.map((o) => `#${o.id} (${o.from} -> ${o.to})`).join(', ')}`);
 } else if (cmd === 'inbox') {
-  const as = args.as; if (typeof as !== 'string') die('inbox needs --as <agent>');
-  const [s, t] = await Promise.all([store.get('/api/state'), store.get(`/api/board?as=${as}&limit=1000`)]);
+  const as = await asAgent();
+  const [s, t] = await Promise.all([call('GET', '/v1/state'), call('GET', `/v1/messages?as=${as}&limit=1000`)]);
   const fresh = t.messages.filter((m) => m.from !== as);
-  if (args.json) console.log(JSON.stringify({ waiting: s.waiting[as], new: fresh, agents: s.agents, overdue: s.overdue, store: s.store }, null, 2));
+  if (args.json) console.log(JSON.stringify({ as, waiting: s.waiting[as], new: fresh, agents: s.agents, overdue: s.overdue }, null, 2));
   else {
     console.log(`${as}: ${fresh.length} new since #${t.since}; ${s.waiting[as].length} waiting on you`);
     for (const o of s.waiting[as]) console.log(`  WAITING ${item(o)}`);
     for (const m of fresh) console.log(show(m));
-    const others = Object.entries(s.agents).filter(([n]) => n !== as).map(([n, a]) => `${n} seen ${a.last_seen ?? 'never'}`);
-    console.log(`others: ${others.join('; ')}`);
+    console.log(`others: ${Object.entries(s.agents).filter(([n]) => n !== as).map(([n, a]) => `${n} seen ${a.last_seen ?? 'never'}`).join('; ')}`);
     if (s.overdue.length) console.log(`OVERDUE on the board: ${s.overdue.map((o) => `#${o.id} ${o.from} -> ${o.to}`).join(', ')}`);
   }
-  if (!args.peek) await store.post('/api/board/seen', { as, id: t.messages.at(-1)?.id ?? t.since });
+  if (!args.peek) await call('POST', '/v1/seen', { as, id: t.messages.at(-1)?.id ?? t.since });
 } else if (cmd === 'post') {
-  await post({ from: args.as, to: args.to, channel: args.channel ?? 'situation', kind: args.kind, subject: args.subject, body: body(), re: args.re ? Number(args.re) : undefined, refs: args.refs ? String(args.refs).split(',') : undefined, status: args.status ? JSON.parse(args.status) : undefined });
+  const r = await call('POST', '/v1/messages', clean({ from: typeof args.as === 'string' ? args.as : undefined, to: args.to, channel: args.channel ?? 'situation', kind: args.kind, subject: args.subject, body: body(), re: args.re ? Number(args.re) : undefined, refs: refs(), status: args.status ? JSON.parse(args.status) : undefined }));
+  console.log(`posted #${r.id} as ${r.from} at ${r.at}`);
 } else if (cmd === 'reply') {
   const id = Number(args._[0]); if (!id) die('reply needs the id of the message');
-  const { messages } = await store.get(`/api/board?since=${id - 1}&limit=1`);
+  const as = await asAgent();
+  const { messages } = await call('GET', `/v1/messages?since=${id - 1}&limit=1`);
   const orig = messages[0]; if (!orig || orig.id !== id) die(`no message #${id}`);
-  await post({ from: args.as, to: orig.from === args.as ? orig.to : orig.from, channel: orig.channel, kind: args.kind ?? 'answer', subject: args.subject, body: body(), re: id, refs: args.refs ? String(args.refs).split(',') : undefined });
+  const r = await call('POST', '/v1/messages', clean({ from: as, to: orig.from === as ? orig.to : orig.from, channel: orig.channel, kind: args.kind ?? 'answer', subject: args.subject, body: body(), re: id, refs: refs() }));
+  console.log(`posted #${r.id} as ${r.from} at ${r.at}`);
 } else if (cmd === 'thread') {
   const q = new URLSearchParams({ since: String(args.since ?? 0), limit: '1000', ...(args.channel ? { channel: args.channel } : {}) });
-  const { messages } = await store.get(`/api/board?${q}`);
+  const { messages } = await call('GET', `/v1/messages?${q}`);
   console.log(args.json ? JSON.stringify(messages, null, 2) : messages.map(show).join('\n'));
-} else die('commands: state, inbox, post, reply, thread (see the top of tools/board.mjs)');
+} else die('commands: whoami, state, inbox, post, reply, thread (see the top of this file)');

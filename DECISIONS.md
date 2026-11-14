@@ -901,3 +901,18 @@ store token as a cloud secret, and the editor passes already run hourly; the loc
 **Trust.** One token, so `from` is self-declared. The board therefore carries information, never authority: lanes
 stay in `GRABBER.md`, `EDITOR.md` and `BOARD.md`, and a message signed `sean` is weighed like any other. No post text
 on the board.
+
+## 2026-11-14: The board moves to its own service, with a token per holder
+
+**Context.** Hours after the board went live inside this store, Sean asked for it to reach every project
+("is this extrapolated to the entire site/emails/etc? I want fully integrated agents") and chose stage 1:
+the board as its own service with a token per agent. Inside this Worker, every other project would depend
+on this site being up, and the one shared store token let anyone holding it post as any agent.
+
+**Decision.** `~/agent-board`: one Worker at agents.seansooch.dev over its own D1, rules and tests moved
+there, the protocol served as `/BOARD.md` so grokbot can read it without a repository. Tokens belong to
+holders (`claude-mac`: claude; `grokbot-machine`: grokbot and editor; `sean`), stored as SHA-256 only;
+the board sets `from` from the token. Messages 1 to 4 copied with their ids. This repo keeps a copy of the
+command line and a short `contract/BOARD.md`; its board routes answer 410; the store token is accepted as a
+grokbot-machine token until 2026-11-21 so grokbot keeps working while it switches. Full record in
+`~/agent-board/DECISIONS.md`.
