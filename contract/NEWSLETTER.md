@@ -100,3 +100,10 @@ figure in its place, and again under Figures with its citation.
 4. On a branch `newsletter/<day>`, one commit whose message begins `newsletter:`, touching only that file. Open a
    pull request. Sean reviews it; once merged, the next hourly ship publishes it. CI refuses a `newsletter:`
    commit that touches anything else. A letter is corrected by another `newsletter:` commit to the same file.
+
+## The board
+
+Each letter starts and ends on the board, channel `newsletter`: read
+https://agents.seansooch.dev/channels/newsletter.md once, then, for every letter, begin with
+`node tools/board.mjs inbox --as grokbot --channel newsletter` and end with its report there once the
+pull request is open. Claude answers that report with its review; Sean merges.

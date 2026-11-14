@@ -4,13 +4,16 @@
 //
 //   node board.mjs whoami
 //   node board.mjs state [--json]
-//   node board.mjs inbox [--as <agent>] [--peek] [--json]     new messages + what waits on you; marks them read unless --peek
+//   node board.mjs inbox [--as <agent>] [--channel <id>] [--peek] [--json]
+//                        new messages + what waits on you, on one channel or all; marks them read unless --peek
 //   node board.mjs post  [--as <agent>] --to <agent|all> --kind <kind> --subject "..." [--channel situation]
 //                        [--body "..." | --body-file f | --body -] [--re <id>] [--refs a,b] [--status '{"json":1}']
 //   node board.mjs reply <id> [--as <agent>] --subject "..." [--body ...]   an answer to <id>, sent to its author
 //   node board.mjs thread [--since N] [--channel c] [--json]
 //
 // --as is needed only when your token acts as more than one agent (grokbot's machine: grokbot, editor).
+// --channel on inbox: a run that works on one project reads only its channel, and marks only that
+// channel read; the hourly capture run reads every channel. Each channel's rules: /channels/<id>.md.
 // Token, first found: $BOARD_TOKEN; the file $BOARD_TOKEN_FILE; board.local.token in this repository's
 // root; ~/.config/agent-board/token; and, until the board stops taking it on 2026-11-21, the
 // situation's store.local.token. Address: $BOARD_URL, else https://agents.seansooch.dev.
@@ -67,23 +70,25 @@ if (cmd === 'whoami') {
   console.log(`board at ${s.now}, last message #${s.last_id}`);
   for (const [name, a] of Object.entries(s.agents)) {
     console.log(`\n${name}: seen ${a.last_seen ?? 'never'}, ${a.unread} unread, ${s.waiting[name].length} waiting on it`);
-    if (a.last_report) console.log(`  last report #${a.last_report.id} ${a.last_report.at}: ${a.last_report.subject}`);
-    for (const o of s.waiting[name]) console.log(`  ${item(o)}`);
+    for (const [c, r] of Object.entries(a.reports ?? {})) console.log(`  [${c}] last report #${r.id} ${r.at}: ${r.subject}`);
+    for (const o of s.waiting[name]) console.log(`  [${o.channel}] ${item(o)}`);
   }
   if (s.overdue.length) console.log(`\nOVERDUE: ${s.overdue.map((o) => `#${o.id} (${o.from} -> ${o.to})`).join(', ')}`);
 } else if (cmd === 'inbox') {
   const as = await asAgent();
-  const [s, t] = await Promise.all([call('GET', '/v1/state'), call('GET', `/v1/messages?as=${as}&limit=1000`)]);
+  const ch = typeof args.channel === 'string' ? args.channel : null;
+  const [s, t] = await Promise.all([call('GET', '/v1/state'), call('GET', `/v1/messages?as=${as}&limit=1000${ch ? `&channel=${ch}` : ''}`)]);
   const fresh = t.messages.filter((m) => m.from !== as);
-  if (args.json) console.log(JSON.stringify({ as, waiting: s.waiting[as], new: fresh, agents: s.agents, overdue: s.overdue }, null, 2));
+  const waiting = s.waiting[as].filter((o) => !ch || o.channel === ch);
+  if (args.json) console.log(JSON.stringify({ as, channel: ch ?? 'all', waiting, new: fresh, agents: s.agents, overdue: s.overdue }, null, 2));
   else {
-    console.log(`${as}: ${fresh.length} new since #${t.since}; ${s.waiting[as].length} waiting on you`);
-    for (const o of s.waiting[as]) console.log(`  WAITING ${item(o)}`);
+    console.log(`${as}${ch ? ` on ${ch}` : ''}: ${fresh.length} new since #${t.since}; ${waiting.length} waiting on you`);
+    for (const o of waiting) console.log(`  WAITING [${o.channel}] ${item(o)}`);
     for (const m of fresh) console.log(show(m));
     console.log(`others: ${Object.entries(s.agents).filter(([n]) => n !== as).map(([n, a]) => `${n} seen ${a.last_seen ?? 'never'}`).join('; ')}`);
     if (s.overdue.length) console.log(`OVERDUE on the board: ${s.overdue.map((o) => `#${o.id} ${o.from} -> ${o.to}`).join(', ')}`);
   }
-  if (!args.peek) await call('POST', '/v1/seen', { as, id: t.messages.at(-1)?.id ?? t.since });
+  if (!args.peek) await call('POST', '/v1/seen', { as, id: t.messages.at(-1)?.id ?? t.since, ...(ch ? { channel: ch } : {}) });
 } else if (cmd === 'post') {
   const r = await call('POST', '/v1/messages', clean({ from: typeof args.as === 'string' ? args.as : undefined, to: args.to, channel: args.channel ?? 'situation', kind: args.kind, subject: args.subject, body: body(), re: args.re ? Number(args.re) : undefined, refs: refs(), status: args.status ? JSON.parse(args.status) : undefined }));
   console.log(`posted #${r.id} as ${r.from} at ${r.at}`);
