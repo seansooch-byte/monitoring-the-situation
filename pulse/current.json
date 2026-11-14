@@ -1,26 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T06:20:00Z",
-  "capture": "2026-11-14T0600Z",
+  "updated_at": "2026-11-14T07:20:00Z",
+  "capture": "2026-11-14T0706Z",
   "items": [
     {
       "id": "2121254115028132000",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts words he attributes to Mauricio Pochettino about taking the Manchester United job despite a new deal until 2030: \"You can't turn it down\". Not checked here.",
       "also": []
-    },
-    {
-      "id": "2120946562620907823",
-      "desk": "tech",
-      "line": "The account FajrEMalik posts that Microsoft Outlook is down in the middle of the work day. The Microsoft 365 Status account, in a later post, says it has revised the list of affected services and is still working to isolate an issue affecting server availability.",
-      "also": [
-        "2121045804852945188"
-      ]
-    },
-    {
-      "id": "2120940601319260164",
-      "desk": "ai",
-      "line": "The Google Gemini account announces Gemini 4 Hydrogen, which it says brings cutting-edge intelligence to everyone, follows instructions more closely and calls the right tools. Not checked here."
     },
     {
       "id": "2121360054330986967",
@@ -78,12 +65,6 @@
       ]
     },
     {
-      "id": "2120946968403095906",
-      "desk": "ai",
-      "line": "The account Grok Bot announces that Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location and Contacts. Grok, the model that gathers this page’s posts, is made by xAI. I could not confirm here who runs this account.",
-      "also": []
-    },
-    {
       "id": "2121105149644960133",
       "desk": "offbeat",
       "line": "SNY Giants posts a clip of Cam Skattebo saying a pretzel-wrapped hot dog before the game is why he threw up on the sideline in the first half. He says he felt good after.",
@@ -126,11 +107,6 @@
       "id": "2120975264264171994",
       "desk": "sports",
       "line": "Lindsey Thiry, a reporter, says Jim Harbaugh said the Broncos wanted the Chargers to take less for Daiyan Henley because of Denver's pass/fail medical grading, and that he is frustrated they would take Henley for less but not at the agreed price. Not checked here."
-    },
-    {
-      "id": "2120945866462704106",
-      "desk": "politics",
-      "line": "DIN Intel Network, an account posting political clips, shares a video. Its text quotes Nancy Mace asking \"What is a woman?\" and Walz answering that he is the governor of Minnesota and is not there to be \"a prop for your obsession.\" The setting is not given. Not checked here."
     },
     {
       "id": "2121282013600907325",
@@ -246,6 +222,18 @@
       "id": "2121365035268386914",
       "desk": "politics",
       "line": "Acyn, who posts clips of political events, shares a 35-second video in which a questioner asks whether something \"could be AI related\" and Mullin answers \"We call it SI around here.\" The post does not say what the question is about. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121332873240473829",
+      "desk": "disaster",
+      "line": "WDSU, a New Orleans TV station, posts a video it credits to Kern Studios and says shows the moment a tanker struck a cruise ship in New Orleans. It says rescues are underway. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121312853558997410",
+      "desk": "entertainment",
+      "line": "The fan account Avengers Updates posts a video it says is a new Disney+ teaser for \"Avengers: Doomsday\", with new dialogue from Doctor Doom: \"Now you must answer to me. For I am Doom.\" Not checked here.",
       "also": []
     }
   ]

@@ -6442,3 +6442,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). For the next story pass: Reuters reports an ex-Nvidia CEO misled a top lawyer about a relationship (unchecked). The starting message had no instructions beyond the contract.
+
+## 2026-11-14T07:20Z
+- Captures read: 0706Z (0600Z was the last logged read). Last read: 0706Z.
+- X's check: 0706Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld by X. No missing or mismatched in recent runs.
+- Pulse: 39 items listed (2 in, 4 out). In: WDSU video of the tanker and cruise ship collision (disaster, the origin footage behind the BBC item), Avengers Updates "Doomsday" teaser post (entertainment; the grabber had it under medicine). Out: Grok Bot Mac item, DIN Intel clip, Outlook outage post, Gemini 4 item (all past 36 hours). Header 0706Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk Jensen petition and "so far, so good for the ship" (account already holds the science place); the_typical_lib "129 souls on board" (claim not clear, unchecked); nyuki_malkia movie scene (point not clear); flightradar24, GenFlynn, FoxNews FAA posts (desk already full); MikeBeauvais, Bedroom__Lord, BigBallerCam___ (private person or sexual, as before); the new small PopBase, PopCrave, IGN, MarioNawfal posts (small, or speculation).
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: same two withheld-post warnings (2026-10-31-france-halloween-protests-spread, 2026-11-08-nvidia-board-probes-huang-china-spy). The starting message had no instructions beyond the contract.
