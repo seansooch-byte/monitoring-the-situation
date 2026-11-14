@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T11:50:00Z",
-  "capture": "2026-11-14T1107Z",
+  "updated_at": "2026-11-14T17:40:00Z",
+  "capture": "2026-11-14T1708Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -16,41 +16,12 @@
       "also": []
     },
     {
-      "id": "2121061505160642660",
-      "desk": "politics",
-      "line": "Senator Chris Van Hollen says Americans called on his party to \"unrig\" an economy he calls rigged against working people and fueled by political corruption, says that takes new leadership, and announces he is running for Senate Majority Leader. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121111560198426851",
       "desk": "internet",
       "line": "Jake Lucky, a streaming commentator, posts that IShowSpeed won Streamer of the Year at the Streamer Awards and gave his acceptance speech entirely in Indonesian. A reply from Overtime says the same of the speech.",
       "also": [
         "2121111756982636852"
       ]
-    },
-    {
-      "id": "2121105149644960133",
-      "desk": "offbeat",
-      "line": "SNY Giants posts a clip of Cam Skattebo saying a pretzel-wrapped hot dog before the game is why he threw up on the sideline in the first half. He says he felt good after.",
-      "also": []
-    },
-    {
-      "id": "2121086493712134314",
-      "desk": "tech",
-      "line": "BBC News (World) reports that Microsoft says its attempts to fix the global outage are not going \"as expected\", and links to a live page."
-    },
-    {
-      "id": "2121069007159927248",
-      "desk": "internet",
-      "line": "Yoxics, an account covering streaming, says that for the first time in Streamer Awards history a nominee named SmallFryz invited his fellow nominees on stage to accept the Hidden Gem award with him. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121046734751010930",
-      "desk": "politics",
-      "line": "Benny Johnson, a commentator, says in an \"exclusive\" that White House Chief of Staff Stephen Miller has banned unauthorized meetings between White House staff and lobbyists and special interests. Not checked here.",
-      "also": []
     },
     {
       "id": "2121138040508727707",
@@ -75,18 +46,6 @@
       "also": []
     },
     {
-      "id": "2121064747625824279",
-      "desk": "internet",
-      "line": "A user says the Streamer Awards used a Fox News headline about Hasan, and calls the choice \"diabolical\". The post is a 12-second video; I could not see what it shows. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121095213829755333",
-      "desk": "sports",
-      "line": "The NFL account posts a short video captioned \"RASUL DOUGLAS CALLS GAME.\" The post does not say what the play was.",
-      "also": []
-    },
-    {
       "id": "2121249638829466038",
       "desk": "business",
       "line": "Valuetainment, a media account, says 88% of Nvidia employees voted for Jensen Huang to stay as CEO. Not checked here.",
@@ -102,12 +61,6 @@
       "id": "2121341525678342451",
       "desk": "disaster",
       "line": "BBC Breaking reports a rescue operation after a cargo ship collided with a cruise ship in New Orleans. Outlets including ABC and CBS describe a tanker striking a docked river cruise ship; the cause is not known. See the story on this site.",
-      "also": []
-    },
-    {
-      "id": "2121092373526831501",
-      "desk": "politics",
-      "line": "Rep. Ro Khanna calls on every Democratic senator to back Chris Van Hollen for majority leader. He says Van Hollen will commit to ending funding for the Iran war, a Medicare for All vote and zero aid to Israel. Not checked here: the reports I read do not show Van Hollen making those commitments himself.",
       "also": []
     },
     {
@@ -146,12 +99,6 @@
       "id": "2121384435241402737",
       "desk": "tech",
       "line": "An account named robotaxi says select customers are now being invited to purchase Cybercab for personal use. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121045067632922696",
-      "desk": "ideas",
-      "line": "The account of New York City Mayor Zohran Kwame Mamdani says some companies use personal data such as browsing history to charge different customers different prices, and that the city has banned the practice, which it calls surveillance pricing. Not checked here.",
       "also": []
     },
     {
@@ -208,6 +155,32 @@
       "also": [
         "2121401397346521412"
       ]
+    },
+    {
+      "id": "2121321310395789404",
+      "desk": "internet",
+      "line": "The account yarslav posts a set of 20 images under the caption \"20 years of YouTube in 1 tweet\". Another account quotes it to say the site got worse at one point in that time.",
+      "also": [
+        "2121424776027873564"
+      ]
+    },
+    {
+      "id": "2121319938472161392",
+      "desk": "offbeat",
+      "line": "The account GuGi263 posts a video it describes as an animal lover helping a cat whose tail was caught in metro doors. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121453668612677873",
+      "desk": "music",
+      "line": "JennieSTaer posts a video and says stuck travelers got a concert from the singer of Hoobastank during the nationwide air traffic shutdown. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121622862339666275",
+      "desk": "music",
+      "line": "PopBase, a pop culture account, says the tracklist for \"GTA VI: The Album\" has leaked online. Not checked here.",
+      "also": []
     }
   ]
 }

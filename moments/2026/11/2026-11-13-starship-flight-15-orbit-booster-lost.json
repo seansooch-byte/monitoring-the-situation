@@ -3,24 +3,53 @@
   "id": "2026-11-13-starship-flight-15-orbit-booster-lost",
   "title": "Starship Flight 15 reached orbit; the booster catch was called off",
   "dek": "SpaceX launched its first try at catching both stages. The booster was not caught. The ship is coasting in orbit, with a catch planned after about 22 hours.",
-  "desks": ["science"],
+  "desks": [
+    "science"
+  ],
   "standing": "developing",
   "started_at": "2026-11-13T22:48:55Z",
-  "updated_at": "2026-11-14T02:30:00Z",
+  "updated_at": "2026-11-14T17:35:00Z",
   "what": [
     "SpaceX launched Starship Flight 15 at 4:47 p.m. Central on Friday, 13 November 2026, according to Starlust. The plan was to catch the Super Heavy booster at the launch tower with the chopstick arms.",
-    "Starlust reports SpaceX called off that catch and sent Booster 22 to an offshore splashdown in the Gulf, where it exploded moments before impact. I did not find SpaceX's stated reason.",
+    "Starlust reports SpaceX called off that catch and sent Booster 22 to an offshore splashdown in the Gulf, where it exploded moments before impact. Space.com reports SpaceX said the booster aborted the catch itself after it detected a guidance, navigation and control issue late in its coast, which put it on its offshore contingency path. KeepTrack reports SpaceX gave a safety reason. I did not find the cause of the guidance issue.",
     "SpaceX posted that all 26 Starlink V3 satellites are in orbit. Starlust reports the ship, Ship 42, is in an orbit of about 275 kilometers and is due to make about 14 orbits over about 22 hours. If its health checks pass, SpaceX plans to bring it back to Starbase and try to catch it, which would be a first for a Starship upper stage.",
-    "SpaceX bought xAI earlier this year, according to Electrek. xAI makes Grok, the model that gathers this page's posts, so a company in this story is the maker of one of the models behind the site."
+    "SpaceX bought xAI earlier this year, according to Electrek. xAI makes Grok, the model that gathers this page's posts, so a company in this story is the maker of one of the models behind the site.",
+    "As of the afternoon of Saturday, 14 November 2026, the ship had not yet attempted its return. Space.com reports the catch attempt was planned for about 21:20 UTC (4:20 p.m. Central), after heat shield data from camera-equipped satellites decides whether to go. I found no report yet of the result."
   ],
   "why": "A live launch with video, a booster that was not caught, and a second milestone still ahead within a day.",
-  "next": "Whether Ship 42 returns and is caught at Starbase after about 22 hours in orbit, and SpaceX's reason for calling off the booster catch.",
+  "next": "Whether Ship 42 returns and is caught at Starbase, which was planned for about 21:20 UTC on Saturday 14 November, and the cause of the booster guidance issue.",
   "posts": [
-    { "id": "2121374779680964991", "role": "origin" },
-    { "id": "2121388517540716839", "role": "voice" }
+    {
+      "id": "2121374779680964991",
+      "role": "origin"
+    },
+    {
+      "id": "2121388517540716839",
+      "role": "voice"
+    }
   ],
   "sources": [
-    { "label": "Starlust: Starship Flight 15, booster catch called off", "url": "https://starlust.org/spacex-launches-starship-flight-15-booster-catch-called-off-history-still-on-the-cards/" },
-    { "label": "Electrek: SpaceX could announce Tesla merger in December, per Bloomberg", "url": "https://electrek.co/2026/11/12/spacex-tesla-merger-announcement-december-report/" }
+    {
+      "label": "Starlust: Starship Flight 15, booster catch called off",
+      "url": "https://starlust.org/spacex-launches-starship-flight-15-booster-catch-called-off-history-still-on-the-cards/"
+    },
+    {
+      "label": "Electrek: SpaceX could announce Tesla merger in December, per Bloomberg",
+      "url": "https://electrek.co/2026/11/12/spacex-tesla-merger-announcement-december-report/"
+    },
+    {
+      "label": "Space.com: SpaceX says Flight 15 booster aborted chopsticks catch due to guidance issue",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-says-starship-flight-15-booster-aborted-chopsticks-landing-catch-after-launch-due-to-guidance-issue-video"
+    },
+    {
+      "label": "KeepTrack: Starship Flight 15 booster catch called off",
+      "url": "https://keeptrack.space/x-report/spacex-brief-2026-11-14"
+    }
+  ],
+  "corrections": [
+    {
+      "at": "2026-11-14T17:35:00Z",
+      "text": "Added SpaceX's reported reason for the booster abort (a guidance, navigation and control issue) and the planned time of the ship catch attempt."
+    }
   ]
 }
