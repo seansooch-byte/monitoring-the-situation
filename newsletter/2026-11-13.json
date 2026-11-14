@@ -1,0 +1,106 @@
+{
+  "schema": "mts.letter/1",
+  "date": "2026-11-13",
+  "published": "2026-11-14",
+  "model": "Grok Bot",
+  "subject": "The FAA stopped every departure, and a riverboat capsized",
+  "summary": "The FAA ordered a nationwide ground stop, the second since 9/11, and lifted it that evening. Officials describe a telecommunications failure. That afternoon a tanker capsized a river cruise ship in New Orleans.",
+  "lead": {
+    "desk": "disaster",
+    "head": "The FAA stopped the country",
+    "text": [
+      "The Federal Aviation Administration ordered a ground stop at every US airport on Friday, November 13. Transportation Secretary Sean Duffy said it followed a communication issue affecting all Air Route Traffic Control Centers. Flights already in the air were allowed to land. Officials later said the stop was lifted that evening, about five hours after it began.",
+      "NBC News, ABC News and CBS News report this was the second nationwide ground stop since 9/11, after one in January 2023. Officials describe overloaded switches and routers in an aging system, and a telecommunications failure. Homeland Security Secretary Markwayne Mullin said there was no indication of anything nefarious and that it looked like a telecommunications outage. Officials were not ruling out a cyberattack while they investigated, and later said they had no sign of one. The formal root cause is not yet on the record. One post claimed a dispute between air traffic controllers and the FAA, and that military units were placed on alert. Those claims have not been confirmed. Duffy then asked Congress for emergency funding of {funding}, and described 1980s copper lines and old switches and routers. Outlets differ on how many flights were canceled, and the count was still moving.",
+      "The same afternoon, the tanker Atlantic Asphalt struck the docked river cruise ship American Heritage on the Mississippi River near the Port of New Orleans, and the riverboat capsized. CBS News later reported that everyone on both vessels was accounted for, that some passengers were taken to hospitals with none in critical condition, and that no deaths were reported. The Coast Guard was quoted as saying there seemed to be a loss of steering, and the National Transportation Safety Board sent a team. The cause is under investigation."
+    ],
+    "cites": [
+      "groundstop",
+      "riverboat"
+    ]
+  },
+  "notes": [
+    {
+      "desk": "internet",
+      "head": "Streamer of the Year, a third time",
+      "text": "The Streamer Awards were held on November 12, and Complex reports IShowSpeed won Streamer of the Year for the third year in a row. Complex also has him taking Best IRL Streamer and Best Streamed Series for his World Cup Tour, and Jynxzi taking Gamer of the Year. A clip of the winning moment traveled farther on X than the ceremony itself.",
+      "cites": [
+        "streamer"
+      ]
+    },
+    {
+      "desk": "business",
+      "head": "Nvidia is between chiefs",
+      "text": "Nvidia's filing for November 11 says the board accepted Jensen Huang's resignation as president, chief executive and director, and gives no reason. Colette Kress, the chief financial officer, is interim chief executive while the board searches. Days earlier, outlets reported an investigation into his relationship with a woman reportedly tied to China. The board said it has no reason to believe that national security or company secrets were compromised. President Trump then named Tim Cook, now Apple's executive chairman, as the person to take the job. Nvidia has not commented. Elon Musk posted that he is signing a petition, which The Hans India reports has more than {signatures} signatures, asking the board to reinstate Huang or give evidence-based reasons.",
+      "cites": [
+        "nvidia"
+      ]
+    },
+    {
+      "desk": "sports",
+      "head": "Pochettino leaves the US team for United",
+      "text": "Sky Sports reports that Manchester United appointed Mauricio Pochettino as head coach a day after sacking Michael Carrick. It says United had their worst Premier League start since 1986 and sat in the relegation zone. Sky Sports and RTE report that he takes over on Wednesday, November 18, after the United States plays Haiti, and that his contract runs to the summer of 2029. Sky Sports gives his first match as Sunday, November 22, at Liverpool.",
+      "cites": [
+        "united"
+      ]
+    },
+    {
+      "desk": "science",
+      "head": "Starship reached orbit; the booster was not caught",
+      "text": "SpaceX launched Starship Flight 15 on Friday afternoon. The plan was to catch the Super Heavy booster at the launch tower. SpaceX called that catch off. Space.com reports the company said the booster aborted the catch after it detected a guidance, navigation and control issue, and sent it on an offshore path. Starlust reports the booster exploded moments before splashdown in the Gulf. SpaceX posted that all the Starlink satellites on the flight are in orbit, and that the ship is coasting with a catch planned after about {hours} hours if its health checks pass. That would be a first for a Starship upper stage. The cause of the guidance issue is not yet on the record.",
+      "cites": [
+        "starship"
+      ]
+    }
+  ],
+  "read": {
+    "text": [
+      "Friday was a day of systems that failed in public, and of accounts that were not yet settled. The FAA stopped every departure and then lifted the stop, with officials describing overloaded equipment and no confirmed attack, while one post offered causes that remain unconfirmed. The same afternoon a tanker capsized a docked riverboat in New Orleans, and the later report was that everyone was accounted for.",
+      "Meanwhile a chip company is between chiefs, a national team coach took a club job in the relegation zone, and a Starship reached orbit without the booster catch. Treat the official accounts as preliminary until the investigations close, and keep the unconfirmed claims in the posts that made them."
+    ],
+    "cites": [
+      "groundstop",
+      "riverboat",
+      "streamer",
+      "nvidia",
+      "united",
+      "starship"
+    ]
+  },
+  "sources": {
+    "groundstop": {
+      "story": "2026-11-13-faa-nationwide-ground-stop"
+    },
+    "riverboat": {
+      "story": "2026-11-13-new-orleans-tanker-hits-cruise-ship"
+    },
+    "streamer": {
+      "story": "2026-11-13-ishowspeed-streamer-of-the-year"
+    },
+    "nvidia": {
+      "story": "2026-11-08-nvidia-board-probes-huang-china-spy"
+    },
+    "united": {
+      "story": "2026-11-13-pochettino-manchester-united"
+    },
+    "starship": {
+      "story": "2026-11-13-starship-flight-15-orbit-booster-lost"
+    }
+  },
+  "figures": {
+    "funding": {
+      "value": "$50 billion",
+      "of": "emergency funding Duffy asked Congress for",
+      "source": "groundstop"
+    },
+    "signatures": {
+      "value": "43,000",
+      "of": "signatures The Hans India reports on the petition",
+      "source": "nvidia"
+    },
+    "hours": {
+      "value": "22",
+      "of": "hours until the planned ship catch attempt",
+      "source": "starship"
+    }
+  }
+}
