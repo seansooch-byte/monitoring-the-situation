@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T17:20:49Z",
-  "capture": "2026-11-15T1710Z",
+  "updated_at": "2026-11-15T18:19:05Z",
+  "capture": "2026-11-15T1807Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -132,12 +132,6 @@
       "also": []
     },
     {
-      "id": "2121491318623064571",
-      "desk": "internet",
-      "line": "Aakash Gupta writes that IShowSpeed won Streamer of the Year for the third year running and gave his speech in Indonesian. The long post goes on to explain why, using figures and an account of a 2024 stream in Jakarta that are his own. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121633023196315951",
       "desk": "gaming",
       "line": "Dexerto, a gaming news account, says a playable copy of a lost PokePark DS game has resurfaced after 20 years sealed in a PSA grading case, and that fans are asking the collector to open it and dump the ROM. Not checked here.",
@@ -180,12 +174,6 @@
       "also": []
     },
     {
-      "id": "2121477504263389211",
-      "desk": "internet",
-      "line": "Clip account yoxics says streamer VanillaMace laughs at fellow streamer B Lou for calling the Streamer Awards rigged, before learning he lost by 300,000 votes. The vote count is the post's claim. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121664033397096495",
       "desk": "medicine",
       "line": "The account Democrats Deliver says overdose deaths in New York City have dropped 58%. The post carries a photo that the capture does not describe, and gives no source for the figure. Not checked here.",
@@ -222,6 +210,12 @@
       "also": [
         "2122010907148505115"
       ]
+    },
+    {
+      "id": "2121905490477379816",
+      "desk": "politics",
+      "line": "Politics UK, an account that posts British political news, says the UK Government has confirmed it is considering a \"staggered\" age of consent, which it says would make relationships between adults and 16 and 17-year-olds illegal. Not checked here.",
+      "also": []
     }
   ]
 }

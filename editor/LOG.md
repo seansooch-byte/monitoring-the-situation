@@ -6741,3 +6741,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained 4 ids; plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: AO3's return after 17 days offline (AO3_Status says no data deleted) is not researched; the FAA ground stop, Bessent remarks, Bitcoin and Bahrain items still need a refresh.
+
+## 2026-11-15T18:25Z
+- Captures read: 1807Z (1710Z was the last logged read). Last read: 1807Z.
+- X's check: 1807Z 92 confirmed, 0 missing, 0 mismatched, 1 withheld (not cited). Older runs unchanged: 1506Z 1 mismatched (1857289763755335911, not cited), 1403Z 1 mismatched (1535517560229318656, not cited), earlier mismatches as before (none cited); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 35 items (1 in, 2 out). In: Politics UK post on a reported "staggered" age of consent (politics, marked not checked). Out: aakashgupta and yoxics posts (over 36 hours). Header 1807Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DonaldTrumpvjr "under attack" post (unconfirmed alarm); sciencegirl big-cats clip (undescribed); JahlilWill Draymond post (undescribed video, opinion); Sky News goalkeeper ban post (cannot tell who is involved or what happened from the post); Kalshi Huang remark (hearsay); darrell_dai NVIDIA resignation (private employee); 0xbtom and TMZ justice posts (private individuals, sexual crime); r295328 China protest claim (unconfirmed); extra Romano, Musk, Schefter posts (account already holds a place).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the UK age of consent item is not researched; AO3's return, FAA ground stop, Bessent remarks, Bitcoin and Bahrain items still need a refresh.
