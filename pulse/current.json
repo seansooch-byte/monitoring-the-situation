@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T12:30:00Z",
-  "capture": "2026-11-15T1208Z",
+  "updated_at": "2026-11-15T13:35:00Z",
+  "capture": "2026-11-15T1309Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -25,14 +25,6 @@
       "id": "2121425383480529346",
       "desk": "ideas",
       "line": "Pope Leo XIV posts that transhumanism promises to end disease, pain and death, that scientific progress should not become a privilege of millionaires seeking immortality, and that in Christian teaching a limitation is not a manufacturing defect. He is on an apostolic journey to Peru, per his hashtags."
-    },
-    {
-      "id": "2121412678409478247",
-      "desk": "business",
-      "line": "Balaji says two investment firms, Altimeter and Atreides, hold more than $25B in assets together, and that Elon Musk and the founders of Uber, Shopify, Replit and Vercel have posted support for reinstating Jensen Huang at Nvidia. He says board members opposed will face growing pressure. Not checked here.",
-      "also": [
-        "2121401397346521412"
-      ]
     },
     {
       "id": "2121453668612677873",
@@ -80,12 +72,6 @@
       "id": "2121607597211926983",
       "desk": "markets",
       "line": "The Kobeissi Letter, a markets newsletter, says US consumer prices are up 30.2% since January 2020, an all-time high, or 4.0% a year, against 2% a year under the Fed target. The figures are its own. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121401400391295202",
-      "desk": "medicine",
-      "line": "Liz Essley Whyte posts an exclusive, reported with a colleague, saying the US has lost its measles elimination status. The post links a Wall Street Journal article with that news.",
       "also": []
     },
     {
@@ -207,6 +193,12 @@
       "id": "2121595116112761070",
       "desk": "ai",
       "line": "TBC_on_X posts a video of about two and a half minutes that it calls \"AI Seinfeld\" going to the DSA convention. It does not say which tool made it."
+    },
+    {
+      "id": "2121698156102525189",
+      "desk": "entertainment",
+      "line": "DBPerfectShots posts a video captioned \"Villains watching Goku vs Kid Buu in Hell\", from Episode 280 of Dragon Ball Z. I could not see the clip itself, only the caption.",
+      "also": []
     }
   ]
 }

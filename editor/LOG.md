@@ -6691,3 +6691,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Seven ids added to the watch list; plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634).
+
+## 2026-11-15T13:35Z
+- Captures read: 1309Z (1208Z was the last logged read). Last read: 1309Z.
+- X's check: 1309Z 92 confirmed, 0 missing, 0 mismatched, 1 withheld. Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 34 items (1 in, 2 out). In: DBPerfectShots Dragon Ball Z clip (entertainment, caption only, media not described). Out: balajis fund post and Whyte measles scoop (over 36 hours; the measles story is live). Header 1309Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: sciencegirl big-cats video (larger than the item shown, but the clip is undescribed and the point is unclear); darrell_dai NVIDIA resignation post (private employee, identifying detail); FearedBuck outfits post (named private individuals); Acyn Mullin/Duffy outage clip (politics full, claim unchecked); Rihanna photo post and other Arch Manning, Romano, Musk posts (desk or account already holds a place).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the Acyn clip of Mullin on the airport outage is not researched.
