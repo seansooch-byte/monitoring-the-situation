@@ -888,7 +888,7 @@
    "id": "viral.global",
    "kind": "discovery",
    "desk": null,
-   "method": " lang:en is:quote -is:retweet` (the bare word was rejected by X as an ambiguous keyword, costing one read), `it lang:en is:quote -is:retweet` and `that lang:en is:retweet`, newest first, 25 each; quoted and reposted originals screened by the global floor/pace, kept by views",
+   "method": "search_posts_all `\"and\" lang:en is:quote -is:retweet` (the bare word was rejected by X as an ambiguous keyword, costing one read), `it lang:en is:quote -is:retweet` and `that lang:en is:retweet`, newest first, 25 each; quoted and reposted originals screened by the global floor/pace, kept by views",
    "window_hours": 24,
    "status": "ok",
    "reason": null,
@@ -5041,24 +5041,24 @@
    "lead": null
   },
   {
-   "id": "2121693822795334118",
-   "url": "https://x.com/EricLDaugh/status/2121693822795334118",
-   "created_at": "2026-11-14T19:56:41.000Z",
+   "id": "2121919037416296753",
+   "url": "https://x.com/kimmonismus/status/2121919037416296753",
+   "created_at": "2026-11-15T10:51:36.000Z",
    "lang": "en",
-   "text": "🚨 BREAKING: The White House is putting House Democrats on notice that weaponized investigations and lawfare could end in CRIMINAL PROSECUTION — and the media is LOSING IT\n\nStephen Miller and WH Counsel Will Scharf are ready to go on OFFENSE and preempt the illegal lawfare! LFG 🔥\n\nScharf sent a letter to incoming Oversight Chair Robert Garcia saying Dem probes look designed to \"harass and aggrandize rather than to advance any legitimate legislative end.\"\n\nDemocrats take the House majority in January and have already promised an investigation BLITZ, with SecWar Pete Hegseth near the top of the list\n\nPOLITICO admits the message is unmistakable: Trump wants Democrats investigating him to be WORRIED that it could backfire and result in legal consequences\n\nDems are over-reaching already. The people will see it!",
+   "text": "Jensen Huang is helping Nvidia find his successor and has already called at least one potential candidate, the Washington Post reports.\n\nHe's kept a low profile since resigning Thursday, but he's part of the search, according to a person familiar with it.\n\nThe name Rene Haas is known from other reports: according to the Financial Times, Nvidia’s board has approached Arm CEO Rene Haas.",
    "author": {
-    "handle": "EricLDaugh",
-    "name": "Eric Daugherty",
-    "followers": 1240254,
+    "handle": "kimmonismus",
+    "name": "Chubby♨️",
+    "followers": 159158,
     "verified": "blue",
     "kind": "unknown"
    },
    "media": [
     {
-     "type": "video",
+     "type": "photo",
      "description": null,
      "alt": null,
-     "duration_s": 85.7,
+     "duration_s": null,
      "link_url": null,
      "link_title": null
     }
@@ -5067,40 +5067,8 @@
    "quotes": null,
    "note": null,
    "flags": [],
-   "desk": "politics",
-   "beat": "white-house",
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "1885522856567537700",
-   "url": "https://x.com/nayibbukele/status/1885522856567537700",
-   "created_at": "2025-02-01T02:57:34.000Z",
-   "lang": "en",
-   "text": "40% of our prison population is already repaying its debt to society.\n\nIn return, they receive a shorter sentence and learn a skill.\n\nThis program is NOT available for rapists and murderers.\n\nThey will help us build roads, hospitals, and schools; they will manufacture our uniforms and furniture; they will grow and harvest our crops; and they will help clean our rivers.",
-   "author": {
-    "handle": "nayibbukele",
-    "name": "Nayib Bukele",
-    "followers": 8662919,
-    "verified": "government",
-    "kind": "official"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 15.23,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "world",
-   "beat": "americas",
+   "desk": "business",
+   "beat": "companies",
    "topic": null,
    "lead": null
   },
@@ -5137,6 +5105,38 @@
    "lead": null
   },
   {
+   "id": "2121693822795334118",
+   "url": "https://x.com/EricLDaugh/status/2121693822795334118",
+   "created_at": "2026-11-14T19:56:41.000Z",
+   "lang": "en",
+   "text": "🚨 BREAKING: The White House is putting House Democrats on notice that weaponized investigations and lawfare could end in CRIMINAL PROSECUTION — and the media is LOSING IT\n\nStephen Miller and WH Counsel Will Scharf are ready to go on OFFENSE and preempt the illegal lawfare! LFG 🔥\n\nScharf sent a letter to incoming Oversight Chair Robert Garcia saying Dem probes look designed to \"harass and aggrandize rather than to advance any legitimate legislative end.\"\n\nDemocrats take the House majority in January and have already promised an investigation BLITZ, with SecWar Pete Hegseth near the top of the list\n\nPOLITICO admits the message is unmistakable: Trump wants Democrats investigating him to be WORRIED that it could backfire and result in legal consequences\n\nDems are over-reaching already. The people will see it!",
+   "author": {
+    "handle": "EricLDaugh",
+    "name": "Eric Daugherty",
+    "followers": 1240254,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 85.7,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "politics",
+   "beat": "white-house",
+   "topic": null,
+   "lead": null
+  },
+  {
    "id": "2121929485951836640",
    "url": "https://x.com/kimmonismus/status/2121929485951836640",
    "created_at": "2026-11-15T11:33:07.000Z",
@@ -5169,6 +5169,38 @@
    "lead": null
   },
   {
+   "id": "1885522856567537700",
+   "url": "https://x.com/nayibbukele/status/1885522856567537700",
+   "created_at": "2025-02-01T02:57:34.000Z",
+   "lang": "en",
+   "text": "40% of our prison population is already repaying its debt to society.\n\nIn return, they receive a shorter sentence and learn a skill.\n\nThis program is NOT available for rapists and murderers.\n\nThey will help us build roads, hospitals, and schools; they will manufacture our uniforms and furniture; they will grow and harvest our crops; and they will help clean our rivers.",
+   "author": {
+    "handle": "nayibbukele",
+    "name": "Nayib Bukele",
+    "followers": 8662919,
+    "verified": "government",
+    "kind": "official"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 15.23,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "americas",
+   "topic": null,
+   "lead": null
+  },
+  {
    "id": "2121917469669695540",
    "url": "https://x.com/jukan05/status/2121917469669695540",
    "created_at": "2026-11-15T10:45:22.000Z",
@@ -5188,38 +5220,6 @@
    "flags": [],
    "desk": "tech",
    "beat": "big-tech",
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2121919037416296753",
-   "url": "https://x.com/kimmonismus/status/2121919037416296753",
-   "created_at": "2026-11-15T10:51:36.000Z",
-   "lang": "en",
-   "text": "Jensen Huang is helping Nvidia find his successor and has already called at least one potential candidate, the Washington Post reports.\n\nHe's kept a low profile since resigning Thursday, but he's part of the search, according to a person familiar with it.\n\nThe name Rene Haas is known from other reports: according to the Financial Times, Nvidia’s board has approached Arm CEO Rene Haas.",
-   "author": {
-    "handle": "kimmonismus",
-    "name": "Chubby♨️",
-    "followers": 159158,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "business",
-   "beat": "companies",
    "topic": null,
    "lead": null
   }
