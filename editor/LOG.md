@@ -6761,3 +6761,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 20Z.
 - Shipped: pulse commit c86bb322 pushed; ship result in report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the UK age of consent item, AO3's return, FAA ground stop (Delta delays), Bessent remarks, Bitcoin and Bahrain items need research or a refresh.
+
+## 2026-11-15T20:40Z
+- Captures read: 2007Z (1901Z was the last logged read). Last read: 2007Z.
+- X's check: 2007Z 53 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 1710Z 1 withheld, 1807Z 1 withheld, 1901Z 2 withheld (none cited); earlier mismatches as before (none cited); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 33 items (2 swapped in, 1 out). In: NFL account's Amon-Ra St. Brown touchdown post (sports, replaces the smaller MySportsUpdate post), Romano's Ronaldinho/Ravenna post (sports, his largest post, replaces the Rice quote). Out: GTA 6 Updates tracklist post (over 36 hours; the PopBase post on the same leak stays). Header 2007Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Jitkant post (flagged private individual); sciencegirl big-cats clip (undescribed media; account already on pulse); axovviz CORTIS video (undescribed, Korean); Nam_kafi_hai "is this true" post (cannot tell what it asks about; involves Grok); Wearethrones1 jacket post; Beastlifts and GymArchivess gym posts (undescribed); 0xbtom and TMZ justice posts (private individuals); Phranklinton1 (promotion); floofy_pup (private health disclosure); darrell_dai and Kalshi Huang items (private employee, hearsay); extra Musk posts (account already holds a place).
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 21Z. One npm test run failed once while the plan and build ran in parallel; a clean rerun passed 147, 0 failed.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the UK age of consent item, AO3's return, FAA ground stop (Delta delays), Bessent remarks, Bitcoin and Bahrain items need research or a refresh.
