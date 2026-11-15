@@ -6751,3 +6751,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the UK age of consent item is not researched; AO3's return, FAA ground stop, Bessent remarks, Bitcoin and Bahrain items still need a refresh.
+
+## 2026-11-15T19:25Z
+- Captures read: 1901Z (1807Z was the last logged read). Last read: 1901Z.
+- X's check: 1901Z 90 confirmed, 0 missing, 0 mismatched, 2 withheld (not cited). Older runs unchanged: 1506Z 1 mismatched (1857289763755335911, not cited), 1403Z 1 mismatched (1535517560229318656, not cited), earlier mismatches as before (none cited); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 34 items (1 in, 2 out). In: scott_colom Delta delay post (business, marked not checked). Out: unusual_whales OpenAI robotics post and Kobeissi Letter inflation post (no longer among the largest). Header 1901Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DonaldTrumpvjr "under attack" post (unconfirmed alarm); Jitkant post (flagged minor); Hegseth "men with swords" post (cannot tell what it answers); Rihanna magazine post (unclear); AboutMusicYT ILLIT dance, Beastlifts and GymArchivess gym posts, RealJamesWoods clip, allchronology pilot audio (undescribed media); 0xbtom and TMZ justice posts (private individuals); floofy_pup (private health disclosure); extra Romano, Musk, Schefter posts (account already holds a place).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 20Z.
+- Shipped: pulse commit c86bb322 pushed; ship result in report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the UK age of consent item, AO3's return, FAA ground stop (Delta delays), Bessent remarks, Bitcoin and Bahrain items need research or a refresh.
