@@ -6631,3 +6631,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. One npm test run failed once, then passed 147/0 on rerun. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T07:20Z
+- Captures read: 0706Z (0604Z was the last logged read). Last read: 0706Z.
+- X's check: 0706Z 14 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); two cited story posts withheld (2116569280900706479, 2119523308580511928).
+- Pulse: 35 items (0 in, 4 out). Out, all past 36 hours: two entertainment items, one internet item, one offbeat item. Header 0706Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: UFC 334 and other sports clips (sports already has three accounts); FearedBuck outfits post (gossip about named people, nothing checkable); PopBase and PopCrave anniversary and renewal posts (small, no desk need); MarioNawfal posts on a 16-year-old (private individual and a minor) and on IShowSpeed (aggregator, small).
+- Requests: none added or removed. Watch list and plan.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

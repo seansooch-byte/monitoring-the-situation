@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T06:10:07Z",
-  "capture": "2026-11-15T0604Z",
+  "updated_at": "2026-11-15T07:20:00Z",
+  "capture": "2026-11-15T0706Z",
   "items": [
     {
       "id": "2121360054330986967",
@@ -72,12 +72,6 @@
       "also": []
     },
     {
-      "id": "2121312853558997410",
-      "desk": "entertainment",
-      "line": "The fan account Avengers Updates posts a video it says is a new Disney+ teaser for \"Avengers: Doomsday\", with new dialogue from Doctor Doom: \"Now you must answer to me. For I am Doom.\" Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121423916006617237",
       "desk": "tech",
       "line": "MKBHD, a tech reviewer, revisits his bet that Cybercab would be publicly available for under $30k by the end of 2026. He says there are no deliveries yet, it is invite only and private use only. He tags Grok, which is made by xAI, the company behind the grabber. Not checked here.",
@@ -97,20 +91,6 @@
       ]
     },
     {
-      "id": "2121321310395789404",
-      "desk": "internet",
-      "line": "The account yarslav posts a set of 20 images under the caption \"20 years of YouTube in 1 tweet\". Another account quotes it to say the site got worse at one point in that time.",
-      "also": [
-        "2121424776027873564"
-      ]
-    },
-    {
-      "id": "2121319938472161392",
-      "desk": "offbeat",
-      "line": "The account GuGi263 posts a video it describes as an animal lover helping a cat whose tail was caught in metro doors. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121453668612677873",
       "desk": "music",
       "line": "JennieSTaer posts a video and says stuck travelers got a concert from the singer of Hoobastank during the nationwide air traffic shutdown. Not checked here.",
@@ -120,12 +100,6 @@
       "id": "2121519137667027013",
       "desk": "music",
       "line": "The fan account GTA 6 Updates says the full tracklist of the GTA 6 album has leaked online, with 34 songs from artists it names, including Travis Scott, Lana Del Rey, Dua Lipa and SZA. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121305674965540978",
-      "desk": "entertainment",
-      "line": "CineVow, a film account, posts a set of ten photos of actors posing with their own movie posters. The post does not name the actors or say when the photos were taken.",
       "also": []
     },
     {
