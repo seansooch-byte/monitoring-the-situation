@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T02:55:00Z",
-  "capture": "2026-11-15T0204Z",
+  "updated_at": "2026-11-15T03:13:54Z",
+  "capture": "2026-11-15T0304Z",
   "items": [
     {
       "id": "2121360054330986967",
@@ -147,12 +147,6 @@
       "also": []
     },
     {
-      "id": "2121257756216934790",
-      "desk": "entertainment",
-      "line": "Rihanna posts photos from a shoot for Arena Homme+ issue 66, titled \"RIOT ROSE\", and credits the photographer, stylist, hair and production team.",
-      "also": []
-    },
-    {
       "id": "2121664710743597410",
       "desk": "ai",
       "line": "The account unusual_whales posts that Sam Altman says OpenAI will aim its robotics program at building its own data centers, and that on a podcast he called self-replicating data centers \"within grasp\". Not checked here.",
@@ -219,6 +213,30 @@
       "also": [
         "2121780438025064539"
       ]
+    },
+    {
+      "id": "2121789660817174686",
+      "desk": "disaster",
+      "line": "Thenewarea51, an aviation news account, says a UPS Boeing 767 collided with a Copa Airlines Boeing 737 at Miami this evening, and credits the audio to the ATC app. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121790990440694115",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a transfer reporter, says Ronaldinho, 46, is set to come out of retirement for one day to play for Ravenna against Forli in Italian third-division football.",
+      "also": []
+    },
+    {
+      "id": "2121785460968092045",
+      "desk": "sports",
+      "line": "Adam Schefter of ESPN passes on a colleague's report that the Patriots have placed running back TreVeyon Henderson on injured reserve with an illness that is still unexplained.",
+      "also": []
+    },
+    {
+      "id": "2121357879341166683",
+      "desk": "entertainment",
+      "line": "The account TUPACABRA posts an 87-second video it calls the official trailer for NUREMBERG. The capture has no description of the video.",
+      "also": []
     }
   ]
 }

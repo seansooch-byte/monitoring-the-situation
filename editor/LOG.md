@@ -6591,3 +6591,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Six ids added to the watch list; plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T03:15Z
+- Captures read: 0304Z (0204Z was the last logged read). Last read: 0304Z.
+- X's check: 0304Z 94 confirmed, 0 missing, 1 mismatched (2121673185540378797, @grok; not cited), 0 withheld. 0104Z still shows 1 mismatched (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857). Two cited posts in older stories are withheld by X (2116569280900706479, 2119523308580511928).
+- Pulse: 38 items (4 in, 1 out). In: Thenewarea51 on the reported Miami UPS and Copa collision (disaster); Fabrizio Romano on Ronaldinho's one-day return (sports); Adam Schefter on the Patriots and Henderson (sports); TUPACABRA's Nuremberg trailer (entertainment). Out: Rihanna photo shoot post (past 36 hours). Header 0304Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: nicksortor's Miami post (same clip with commentary); Dallas Love Field bomb threat (aggregator, unchecked); Jokic play post (opinion); Genesis_Perry6, sciencegirl, SamVale29 dark web rumour, interestingnevs (point unclear, unchecked or profanity); Chris Watts and GTA Best Buy posts (private people); old_content posts. For the next story pass: the Miami airport collision may deserve research.
+- Requests: none added or removed. Four ids added to the watch list; plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
