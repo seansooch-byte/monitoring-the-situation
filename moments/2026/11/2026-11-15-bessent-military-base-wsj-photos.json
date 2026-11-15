@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-15-bessent-military-base-wsj-photos",
+  "title": "Treasury Secretary Bessent has moved to a military base; posts blame a newspaper's photos of his home",
+  "dek": "The move was reported on 11 November and Treasury confirmed it, citing threats from Iran. On 15 November posts tied it to a Wall Street Journal photo of his house. The reporting I found is more limited than the posts.",
+  "desks": [
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-15T15:53:42Z",
+  "updated_at": "2026-11-15T22:30:00Z",
+  "what": [
+    "The Associated Press reported on Wednesday, 11 November 2026, that Treasury Secretary Scott Bessent had moved to a military base over safety concerns. Its source was one person familiar with the matter, who spoke without a name. AP says the move was partly due to media reports that helped identify his home address. It credits The New York Times with reporting the move first.",
+    "Fox Local reports that a Treasury spokesperson confirmed the move. It quotes the spokesperson: \"Threats against Sec. Bessent reached more than an advanced stage, which is why he and his family made the move.\" The spokesperson ties the threats to Iran. Bessent has led the US sanctions campaign against Iran. The location of the base has not been given.",
+    "Search results for the story carry a Reuters account, which I did not open. It says officials grew concerned after the Wall Street Journal published an aerial view of his Georgetown home. ABC News, in a summary I did not open in full, cites a source with the same detail. I did not find the Journal's reply to this, and I did not find the Journal piece itself.",
+    "On Sunday, 15 November, an account called ginamilan_ posted that Bessent's team \"pleaded with\" the Journal not to publish photos of his home and that the paper did it anyway. Another account, GuntherEagleman, posted that Bessent says the Journal helped put his family at risk. I found no statement from Bessent in his own words saying that, and I found no report that his team made such a request. Those two points rest only on posts.",
+    "Other officials are also reported to live in protected or military housing, among them Secretary of State Marco Rubio and Defense Secretary Pete Hegseth."
+  ],
+  "why": "It joins two live arguments: how far a news outlet should go in showing where a public official lives, and the threat from Iran to US officials during the war. Accounts that dislike the paper and accounts that back the administration both share the story.",
+  "next": "Neither Bessent's own account of the Journal photo nor the Journal's reply has come up in what I found. The location of the base is not public.",
+  "posts": [
+    {
+      "id": "2121995065065402852",
+      "role": "origin"
+    },
+    {
+      "id": "2122020802660831537",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "AP via WRDW: Bessent moves to a military base over safety concerns, an AP source says",
+      "url": "https://www.wrdw.com/2026/11/11/bessent-moves-military-base-over-safety-concerns-an-ap-source-says/"
+    },
+    {
+      "label": "Fox Local: Bessent and family relocated to military base following threats against his life",
+      "url": "https://www.fox5ny.com/news/bessent-family-relocated-military-base-following-threats-against-his-life"
+    }
+  ]
+}

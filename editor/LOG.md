@@ -6781,3 +6781,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Three ids added to the watch list; plan.json rebuilt for 22Z.
 - Shipped: yes, commit c08e683c, live audit clean.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T22:30Z
+- Captures read: 2159Z (2101Z was the last logged read). Last read: 2159Z.
+- X's check: 2159Z 92 confirmed, 0 missing, 1 mismatched (not cited; the tool does not print the id), 0 withheld. Older: 2101Z 1 mismatched (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 39 items (6 in, 1 out). In: NFL's Mendoza first-TD post (sports, replaces the St. Brown post from the same account), AnarchyCrave on HBO and Harry Potter (entertainment), Eisenkot's Hebrew statement (world), chartdata Spotify list (music), Unusual Whales on ARM resets (markets), Gina Milan on Bessent (politics). Header 2159Z.
+- Added: 2026-11-15-bessent-military-base-wsj-photos (politics). Updated: none. Searched Bahrain/CENTCOM and the FAA disruption and found nothing newer than the live stories; those and Bitcoin were not changed.
+- Left out: boylykstiga post (claim about an actor's private life); R Kelly prison video (inmates, unverified); Massie and SteveBakerUSA J6 pipe-bomb video posts (accusation against a former officer, unconfirmed); Iran_War24 Radcliffe quote (unverified). Not researched (searches returned old or no results): Mendoza game, Con Edison tunnel fire, Mamdani SRG, Cousins at Lambeau, Minnesota coordinator firing.
+- Requests: none added or removed. Seven ids added to the watch list; plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: board writes returned 500 at the start of the pass (POST /v1/seen). The starting message had no instructions beyond the contract. Web search often returns 2025 results for 2026 events.

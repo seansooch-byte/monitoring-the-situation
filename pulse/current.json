@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T21:35:00Z",
-  "capture": "2026-11-15T2101Z",
+  "updated_at": "2026-11-15T22:30:00Z",
+  "capture": "2026-11-15T2159Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -168,12 +168,6 @@
       "also": []
     },
     {
-      "id": "2121979549520892158",
-      "desk": "sports",
-      "line": "The NFL account posts a 14-second video and says Amon-Ra St. Brown scored a 56-yard touchdown in the New England-Detroit game in Germany.",
-      "also": []
-    },
-    {
       "id": "2121922329693626392",
       "desk": "internet",
       "line": "The AO3 Status account says the fan fiction archive AO3 is back up, with some features switched off so it could return earlier than the four-week mark it had given. It says no AO3 data has been deleted. Not checked here.",
@@ -208,6 +202,42 @@
       "id": "2122045918342238337",
       "desk": "business",
       "line": "The Kobeissi Letter, a markets account, says the Financial Times reports Jensen Huang is considering a return as Nvidia CEO while the board investigation continues. It adds a report of a \"war room\" of tech executives lobbying for it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122076776734306387",
+      "desk": "sports",
+      "line": "The NFL account posts a video and says Raiders quarterback Fernando Mendoza rushed in for his first career touchdown in the Seattle-Las Vegas game. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121891053829582983",
+      "desk": "entertainment",
+      "line": "AnarchyCrave, an entertainment gossip account, says HBO is reportedly in \"total panic mode\" over fan backlash to a clip of the Hogwarts feast in its Harry Potter series. It cites unnamed insiders. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122041067373502650",
+      "desk": "world",
+      "line": "Gadi Eisenkot, the Israeli politician the president has asked to form a government, writes in Hebrew that Netanyahu's conduct is a \"direct and immediate threat\" to Israeli democracy. He calls for an immediate investigation of a newly reported affair. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122051469692293299",
+      "desk": "music",
+      "line": "Chart Data, a music statistics account, posts a list of the most streamed songs in Spotify history. It puts Blinding Lights at number one and Shape of You at number two. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122057297450909727",
+      "desk": "markets",
+      "line": "Unusual Whales, a markets account, says the Wall Street Journal reports that about 186,000 adjustable-rate mortgages reset next year, citing ICE data, with a typical first payment rise of about 645 dollars a month. The post attributes the figures to the Journal. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121995065065402852",
+      "desk": "politics",
+      "line": "Gina Milan, a political commentator, says Scott Bessent's team asked the Wall Street Journal not to publish photos of his home and that he has moved to a military base after threats from Iran. AP reports the move; the request to the paper is not confirmed. See our story.",
       "also": []
     }
   ]
