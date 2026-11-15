@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T09:30:00Z",
-  "capture": "2026-11-15T0902Z",
+  "updated_at": "2026-11-15T10:30:00Z",
+  "capture": "2026-11-15T1008Z",
   "items": [
-    {
-      "id": "2121360054330986967",
-      "desk": "offbeat",
-      "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
-      "also": []
-    },
     {
       "id": "2121715216597827756",
       "desk": "science",
@@ -22,21 +16,9 @@
       "also": []
     },
     {
-      "id": "2121363171361575176",
-      "desk": "disaster",
-      "line": "The FAA's news account says there has been a temporary telecommunications outage, that all flights have been halted out of an abundance of caution, and that every flight is accounted for. The post does not say what caused the outage.",
-      "also": []
-    },
-    {
       "id": "2121428474816803089",
       "desk": "politics",
       "line": "Gavin Newsom says President Trump was \"MIA\" while 1.5 million Americans were stranded at airports at a scale not seen since 9/11, and says Trump does not care about them. The figure and the comparison are his claims. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121365035268386914",
-      "desk": "politics",
-      "line": "Acyn, who posts clips of political events, shares a 35-second video in which a questioner asks whether something \"could be AI related\" and Mullin answers \"We call it SI around here.\" The post does not say what the question is about. Not checked here.",
       "also": []
     },
     {
@@ -145,12 +127,6 @@
       "also": []
     },
     {
-      "id": "2121357879341166683",
-      "desk": "entertainment",
-      "line": "The account TUPACABRA posts an 87-second video it calls the official trailer for NUREMBERG. The capture has no description of the video.",
-      "also": []
-    },
-    {
       "id": "2121721987794174178",
       "desk": "science",
       "line": "Sundar Pichai, the head of Google, congratulates SpaceX on the Starship catch. He says it still feels like science fiction and that watching it live was incredible.",
@@ -186,9 +162,21 @@
       "also": []
     },
     {
-      "id": "2121848267663413723",
+      "id": "2121763977349013884",
+      "desk": "science",
+      "line": "Elon Musk says he hugged ship 42 upon its return, in a post with no picture or video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121622862339666275",
+      "desk": "music",
+      "line": "PopBase, a pop music account, says the tracklist for GTA VI: THE ALBUM has leaked online and shows an image of it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121605680213930064",
       "desk": "sports",
-      "line": "Barstool Sports posts a video and says Texas players were doing a Louisiana jig while Mike the Tiger was about to throw punches, and calls it proof college football is not real. I could not see the video.",
+      "line": "India's prime minister Narendra Modi congratulates India's young cricketers on winning the Men's U-19 Asia Cup 2026.",
       "also": []
     }
   ]

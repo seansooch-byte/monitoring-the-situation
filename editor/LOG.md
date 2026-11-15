@@ -6661,3 +6661,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T10:30Z
+- Captures read: 1008Z (0902Z was the last logged read). Last read: 1008Z.
+- X's check: 1008Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); two cited story posts withheld (2116569280900706479, 2119523308580511928).
+- Pulse: 29 items (3 in, 5 out). In: Elon Musk "hugged ship 42" (science); PopBase GTA VI album tracklist leak (music); Narendra Modi on the U-19 Asia Cup (sports). Out: Stephen King, FAA ground stop, Acyn, tupacabra (all past 36 hours); Barstool Texas/LSU clip (sports, replaced by Modi). Header 1008Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Reuters Bab el-Mandeb and Bahrain posts (Reuters already holds a place); Osint613 Iran drones (Osint613 already holds a place); crypto posts (unchecked figures, markets has two); Fox/Dana White UFC clip and NBA Cleveland clip (small, sports full); Daily Mail prison post (claim about a named convicted person, nothing checkable); Genesis_Perry and other no-desk viral posts (point unclear).
+- Requests: none added or removed. Three ids added to the watch list; plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
