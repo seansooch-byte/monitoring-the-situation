@@ -6581,3 +6581,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T03:00Z
+- Captures read: 0204Z (0104Z was the last logged read). Last read: 0204Z.
+- X's check: 0204Z 87 confirmed, 0 missing, 0 mismatched, 0 withheld. 0104Z still shows 1 mismatched (2121479240583635454, stray characters only); 2100Z 2 mismatched (2113644989867499762, 2121665388832501857). Two cited posts in older stories are withheld by X (2116569280900706479, 2119523308580511928).
+- Pulse: 35 items (2 in, 3 out). In: Musk on the Huang reinstatement petition (business); Osint613 on the Bahrain drone attack (world). Out: Romano on Pochettino, valuetainment, Musk's Starship 42 prep post (36 hours). Header 0204Z.
+- Added: 2026-11-15-iran-drones-bahrain-radar-claim (world, defense; disputed); 2026-11-15-bitcoin-slides-below-64000 (markets; developing). Updated: 2026-11-13-starship-flight-15-orbit-booster-lost (ship caught; fixed the Central/Eastern time), 2026-11-13-faa-nationwide-ground-stop (Saturday counts, recovery), 2026-11-08-nvidia-board-probes-huang-china-spy (petition count, Musk remark).
+- Left out: Alaska Senate result, Senate Democratic leader vote follow-ups, NY Post Zelensky report and measles elimination (not researched this pass; for the next one); Lyon unrest posts (unchecked); Chris Watts, GTA Best Buy and cousin posts (private people or a minor); Draymond play post (opinion, no media description).
+- Requests: none added or removed. Six ids added to the watch list; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

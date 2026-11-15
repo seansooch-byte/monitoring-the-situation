@@ -1,0 +1,47 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-15-iran-drones-bahrain-radar-claim",
+  "title": "Iran says it destroyed a US radar in Bahrain; US Central Command says it shot down two drones",
+  "dek": "The first Iranian drone attack on a Gulf country since early September came during a fragile lull. The two sides give opposite accounts of the result.",
+  "desks": [
+    "world",
+    "defense"
+  ],
+  "standing": "disputed",
+  "started_at": "2026-11-15T01:31:00Z",
+  "updated_at": "2026-11-15T02:50:00Z",
+  "what": [
+    "On Saturday, 14 November 2026, Iran's Revolutionary Guard (IRGC) launched two one-way attack drones toward Bahrain, according to US Central Command (CENTCOM). CENTCOM said, as quoted by The Tribune (India): \"The IRGC launched two one-way attack drones toward Bahrain and both were shot down by U.S. forces. There were no injuries or damage.\"",
+    "The IRGC Aerospace Force said it destroyed a US early-warning radar installation in Bahrain. The Tribune reports the IRGC called it retaliation for a US air strike on a telecommunications tower in Iran's Sirik area, about an hour earlier, and a warning that it is \"on full alert to respond without limits\" if the US repeats it. I did not find a US account of a strike on that tower.",
+    "The Nation (Pakistan) reports this was the first Iranian attack on a Gulf country since early September, in what it calls a fragile lull in a conflict that began on 28 February 2026. Bahrain hosts the headquarters of the US Navy's Fifth Fleet.",
+    "The claims do not match. The IRGC says the radar was destroyed. CENTCOM says nothing was damaged. I found no independent report of damage in Bahrain, and I could not check either side's claim myself.",
+    "Early posts on X called it an attack \"right now\" on Bahrain. One of them added that its author assumed the drones were intercepted; that was a guess when posted and CENTCOM later said so."
+  ],
+  "why": "Iran, the US and Gulf states are in a long conflict, and any break in the lull moves oil and flights and gets read for what comes next.",
+  "common": "On the record: CENTCOM says two IRGC drones were launched toward Bahrain and shot down with no injuries or damage. The IRGC says it destroyed a radar. Established by both sides: the drones were launched. Not established: any damage, and any US strike on the Sirik tower. Those rest on one side's word.",
+  "next": "Whether independent imagery or reporting shows damage in Bahrain, and whether the US or Iran acts again.",
+  "posts": [
+    {
+      "id": "2121777957450686817",
+      "role": "origin"
+    },
+    {
+      "id": "2121780438025064539",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Tribune: US CENTCOM denies Iran's claim of destroying US radar in Bahrain, says two drones shot down",
+      "url": "https://www.tribuneindia.com/news/bahrain/us-centcom-denies-irans-claim-of-destroying-us-radar-in-bahrain-says-two-drones-shot-down"
+    },
+    {
+      "label": "The Nation: US military confirms Iranian attack on Bahrain, says it shot down two IRGC drones",
+      "url": "https://www.nation.com.pk/14-Nov-2026/us-military-confirms-iranian-attack-bahrain-says-shot-two-irgc-drones"
+    },
+    {
+      "label": "El Dorado News-Times (AP): US military downs 2 Iranian attack drones as Iran claims a strike on a US radar in Bahrain",
+      "url": "https://www.eldoradonews.com/news/2026/nov/14/us-military-downs-2-iranian-attack-drones-as-iran/"
+    }
+  ]
+}

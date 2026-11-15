@@ -9,7 +9,7 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-13T21:01:08Z",
-  "updated_at": "2026-11-14T17:35:00Z",
+  "updated_at": "2026-11-15T02:40:00Z",
   "what": [
     "On Friday, 13 November 2026, the Federal Aviation Administration ordered a ground stop at all US airports. Transportation Secretary Sean Duffy posted that it followed \"a communication issue impacting all Air Route Traffic Control Centers\". ABC News and Fox News report the FAA cited \"extraordinary circumstances\". Flights already in the air were allowed to land.",
     "NBC News reports Duffy said the system's switches and routers were overloaded with data and gave inconsistent data, and that the stop was lifted at 8:15 p.m. Eastern, about five hours after it began. ABC and NBC report Homeland Security Secretary Markwayne Mullin said there was no indication so far of anything nefarious and that it looked like a telecommunications outage. Both say officials were not ruling out a cyberattack while they investigated.",
@@ -18,7 +18,8 @@
     "CBS News reports Duffy said \"Our routers actually got overloaded with data\" and then gave inconsistent data, and that Mullin said new security patches introduced into the older system appeared to \"overwhelm\" its routers. Mullin is quoted as saying \"There is no cyberattack. We're still working through that process,\" and that it was not connected to the Microsoft outage. CBS also cites multiple sources who say an update to a private communications network run by L3Harris caused a reboot and crash. That detail rests on unnamed sources and I could not find it confirmed on the record.",
     "CBS gives more than 4,000 cancellations and more than 10,000 delays, and says about 3,100 aircraft bound for US airports were in the air when the stop began. The cancellation count is still moving, and outlets differ.",
     "ABC7 reports Duffy then asked Congress for emergency funding: \"This is an emergency. I want Congress to give us emergency funding. This is bipartisan. This is American. I want $50 billion.\" He described \"1980s little copper lines\" and old switches and routers. CNBC reports he said of the equipment \"It's going to continue to fail,\" that Mullin said it \"appears this was mechanically driven\" with no sign of a cyberattack, and that the FAA said its technicians are investigating. CNBC says cancellations stretch into the weekend. Posts show a reporter asking Duffy why Congress has not paid, given Republican control of both chambers; I did not find a transcript.",
-    "The final root cause and the formal investigation are not yet on the record."
+    "Scripps News reports airlines canceled more than 5,300 flights on Saturday, 14 November, after 9,147 on Friday. It quotes Duffy as saying operations were resuming gradually on Saturday morning and that he expected the backlog to clear by late Sunday, with some delays and cancellations continuing as carriers reposition aircraft and crews. It quotes Mullin again: \"There is nothing that indicates the incident was caused by a cyberattack. It appears this was mechanically driven.\" Friday's counts differ across outlets because they were taken at different times.",
+    "As of Saturday evening, the final root cause and the formal investigation are not yet on the record. Officials still describe a router and communications failure."
   ],
   "why": "Almost every flight in the country stopped at once, and the first official word said little. People filled the gap with causes of their own.",
   "worlds": [
@@ -43,6 +44,10 @@
     {
       "at": "2026-11-14T17:35:00Z",
       "text": "Added Duffy's call for emergency funding and the officials' latest statements on cause."
+    },
+    {
+      "at": "2026-11-15T02:40:00Z",
+      "text": "Added Saturday cancellations and the expected recovery time from Scripps News. No change to the cause."
     }
   ],
   "posts": [
@@ -83,6 +88,10 @@
     {
       "label": "CNBC: FAA lifts ground stop after more than four hours",
       "url": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html"
+    },
+    {
+      "label": "Scripps News: Airlines report additional cancellations after FAA ground stop",
+      "url": "https://www.scrippsnews.com/us-news/faa-issues-nationwide-ground-stop-on-us-air-traffic"
     }
   ]
 }

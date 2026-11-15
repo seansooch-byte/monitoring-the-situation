@@ -1,24 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T01:25:00Z",
-  "capture": "2026-11-15T0104Z",
+  "updated_at": "2026-11-15T02:55:00Z",
+  "capture": "2026-11-15T0204Z",
   "items": [
-    {
-      "id": "2121254115028132000",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, posts words he attributes to Mauricio Pochettino about taking the Manchester United job despite a new deal until 2030: \"You can't turn it down\". Not checked here.",
-      "also": []
-    },
     {
       "id": "2121360054330986967",
       "desk": "offbeat",
       "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
       "also": []
-    },
-    {
-      "id": "2121250205806772283",
-      "desk": "science",
-      "line": "Elon Musk posts \"Starship 42 preparing for launch\" with a link. He quotes another post. Not checked here."
     },
     {
       "id": "2121282013600907325",
@@ -30,12 +19,6 @@
       "id": "2121293940909604988",
       "desk": "medicine",
       "line": "BRICS News, an aggregator account, says Russia reports that the first patient treated with a personalized mRNA cancer vaccine shows no signs of new tumors four months after treatment. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121249638829466038",
-      "desk": "business",
-      "line": "Valuetainment, a media account, says 88% of Nvidia employees voted for Jensen Huang to stay as CEO. Not checked here.",
       "also": []
     },
     {
@@ -222,6 +205,20 @@
       "desk": "politics",
       "line": "The account atrupar, which posts political clips, shares a 47-second video and says Sen. John Fetterman suggests he will leave the Democratic Party if Sen. Chris Van Hollen is elected majority leader. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121345211959804234",
+      "desk": "business",
+      "line": "Elon Musk, replying to another post, says a petition is underway to reinstate Jensen Huang as Nvidia's chief executive and that he is signing it. Huang resigned on 12 November and Nvidia's filing gives no reason. The petition is volunteer-run and not endorsed by Nvidia.",
+      "also": []
+    },
+    {
+      "id": "2121777957450686817",
+      "desk": "world",
+      "line": "Osint613, an account that posts conflict news, writes that Bahrain is under an Iranian attack. US Central Command says it shot down two Revolutionary Guard drones with no damage; Iran says it destroyed a US radar there. Neither claim is checked here.",
+      "also": [
+        "2121780438025064539"
+      ]
     }
   ]
 }
