@@ -6791,3 +6791,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Seven ids added to the watch list; plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: board writes returned 500 at the start of the pass (POST /v1/seen). The starting message had no instructions beyond the contract. Web search often returns 2025 results for 2026 events.
+
+## 2026-11-15T23:30Z
+- Captures read: 2302Z (2159Z was the last logged read). Last read: 2302Z.
+- X's check: 2302Z 80 confirmed, 0 missing, 0 mismatched, 0 withheld. Older: 2101Z and 2159Z 1 mismatched each (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 44 items (5 in, 0 out). In: Keighley on The Game Awards nominees and charlieINTEL on Xbox Project Helix (gaming), Coinvo on Texas Ten Commandments proposal and GOP__Ls on FAA funding (politics, both marked not checked), cb_doge on Samsung chips for Starlink (tech, first item on that desk, not checked). Header 2302Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: NFL Brock/CMC post (account already holds a place); RyanColeHq, KillaKreww, lmauricecpr posts (flagged private individual); old_content posts; EricLDaugh RFK Jr. claim (unchecked, medicine already shown); NBA LeBron posts (sports already full).
+- Requests: none added or removed. Five ids added to the watch list; plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: board writes returned 500 on POST /v1/seen at the start of the pass. The starting message had no instructions beyond the contract. For the next story pass: FAA funding claim, Samsung/Starlink report, Texas Ten Commandments proposal need research.

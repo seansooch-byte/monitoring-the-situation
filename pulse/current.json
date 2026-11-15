@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T22:30:00Z",
-  "capture": "2026-11-15T2159Z",
+  "updated_at": "2026-11-15T23:30:00Z",
+  "capture": "2026-11-15T2302Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -238,6 +238,36 @@
       "id": "2121995065065402852",
       "desk": "politics",
       "line": "Gina Milan, a political commentator, says Scott Bessent's team asked the Wall Street Journal not to publish photos of his home and that he has moved to a military base after threats from Iran. AP reports the move; the request to the paper is not confirmed. See our story.",
+      "also": []
+    },
+    {
+      "id": "2122010232620818885",
+      "desk": "gaming",
+      "line": "Geoff Keighley, who runs The Game Awards, says the 2026 nominees will be revealed on Tuesday at noon ET, live, and asks which games people hope to see.",
+      "also": []
+    },
+    {
+      "id": "2122019076872556719",
+      "desk": "gaming",
+      "line": "Charlie INTEL, a gaming news account, quotes Xbox on its next-generation Project Helix: Xbox says it is a console that can also play PC games, not a PC that can also play console games. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121877886655189092",
+      "desk": "politics",
+      "line": "Coinvo, a news account, says Texas Democrats have proposed ending the display of the Ten Commandments in classrooms. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122042007518351742",
+      "desk": "politics",
+      "line": "GOP__Ls, a partisan political account, says Trump cut Biden-era FAA funding in January 2025, calling it \"too woke\", and is now blaming Biden for the FAA problems. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121981656882122993",
+      "desk": "tech",
+      "line": "cb_doge, a Musk-focused news account, says Seoul Economic Daily reports Samsung plans to make a chip for SpaceX Starlink satellites at its Austin plant, with a $1.9 billion expansion. Not checked here.",
       "also": []
     }
   ]
