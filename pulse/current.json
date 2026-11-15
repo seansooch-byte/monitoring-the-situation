@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T07:20:00Z",
-  "capture": "2026-11-15T0706Z",
+  "updated_at": "2026-11-15T08:30:00Z",
+  "capture": "2026-11-15T0806Z",
   "items": [
     {
       "id": "2121360054330986967",
       "desk": "offbeat",
       "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
-      "also": []
-    },
-    {
-      "id": "2121329790942601427",
-      "desk": "sports",
-      "line": "Shams Charania of ESPN reports that New Orleans Pelicans guard Dejounte Murray wants a trade, and that his agent and team officials have started working on a resolution. He cites sources. Not checked here.",
       "also": []
     },
     {
@@ -63,12 +57,6 @@
       "id": "2121365035268386914",
       "desk": "politics",
       "line": "Acyn, who posts clips of political events, shares a 35-second video in which a questioner asks whether something \"could be AI related\" and Mullin answers \"We call it SI around here.\" The post does not say what the question is about. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121332873240473829",
-      "desk": "disaster",
-      "line": "WDSU, a New Orleans TV station, posts a video it credits to Kern Studios and says shows the moment a tanker struck a cruise ship in New Orleans. It says rescues are underway. Not checked here.",
       "also": []
     },
     {
@@ -216,6 +204,12 @@
       "id": "2121828061574246826",
       "desk": "world",
       "line": "Reuters reports that Bahrain's interior ministry has issued alerts of potential threats. The post gives no further detail."
+    },
+    {
+      "id": "2121809292110238171",
+      "desk": "offbeat",
+      "line": "The account Science girl posts a video, about two minutes long, with the caption \"Snowboarding with descendants of ancient wolves\". The post does not say where it was filmed. Not checked here.",
+      "also": []
     }
   ]
 }
