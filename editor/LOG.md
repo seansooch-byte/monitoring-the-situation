@@ -6681,3 +6681,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Three ids added to the watch list; plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story cites a post missing on X (2117537320392130634).
+
+## 2026-11-15T12:30Z
+- Captures read: 1208Z (1108Z was the last logged read). Last read: 1208Z.
+- X's check: 1208Z 33 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 35 items (7 in, 0 out). In: IShowSpeed award post (internet); Dexerto PokePark slab (gaming); Japanese comedy clip and Ultron/Doom clip (entertainment); Atlantic Asphalt AIS track (disaster, links the live New Orleans story); HormuzLetter helicopters over Washington (defense, text cut off, unchecked); AI Seinfeld video (ai). Out: none (oldest item reaches 36 hours at 12:34Z). Header 1208Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Sky News goalkeeper ban (fatal collision, unchecked); TMZ castration post and r295328 Jiangyou post (unchecked claims); amtvmedia "under attack" post (unconfirmed alarm); SamVale29 dark-web rumour; Arch Manning clips and Acyn Duffy clip (desk full); extra Elon Musk, sciencegirl and Romano posts (account already holds a place).
+- Requests: none added or removed. Seven ids added to the watch list; plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634).

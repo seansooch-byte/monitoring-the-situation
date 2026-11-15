@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T11:30:00Z",
-  "capture": "2026-11-15T1108Z",
+  "updated_at": "2026-11-15T12:30:00Z",
+  "capture": "2026-11-15T1208Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -172,6 +172,41 @@
       "desk": "sports",
       "line": "India's prime minister Narendra Modi congratulates India's young cricketers on winning the Men's U-19 Asia Cup 2026.",
       "also": []
+    },
+    {
+      "id": "2121491318623064571",
+      "desk": "internet",
+      "line": "Aakash Gupta writes that IShowSpeed won Streamer of the Year for the third year running and gave his speech in Indonesian. The long post goes on to explain why, using figures and an account of a 2024 stream in Jakarta that are his own. Not checked here."
+    },
+    {
+      "id": "2121633023196315951",
+      "desk": "gaming",
+      "line": "Dexerto, a gaming news account, says a playable copy of a lost PokePark DS game has resurfaced after 20 years sealed in a PSA grading case, and that fans are asking the collector to open it and dump the ROM. Not checked here."
+    },
+    {
+      "id": "2121606683206316295",
+      "desk": "entertainment",
+      "line": "DeepDiscountsco posts an 82-second video in Japanese saying that Japanese comedy goes over well abroad and is getting big laughs in the West. Not checked here."
+    },
+    {
+      "id": "2121603018252566805",
+      "desk": "entertainment",
+      "line": "MovieTings posts a one-minute video and says Ultron meeting Doctor Doom is a crazy twist, with the hashtag #AvengersDoomsday. The post does not say where the clip comes from."
+    },
+    {
+      "id": "2121594339457400994",
+      "desk": "disaster",
+      "line": "WAdrewhawkins posts a video of the ship track of the tanker Atlantic Asphalt before its collision at New Orleans on Friday. This site has a story on that collision."
+    },
+    {
+      "id": "2121755101136077180",
+      "desk": "defense",
+      "line": "HormuzLetter, a news account, says several helicopters of the US Air Force's 1st Helicopter Squadron flew over Washington, citing initial reports, and adds that Israel says Iran is planning a drone. The post text is cut off there. Not checked here."
+    },
+    {
+      "id": "2121595116112761070",
+      "desk": "ai",
+      "line": "TBC_on_X posts a video of about two and a half minutes that it calls \"AI Seinfeld\" going to the DSA convention. It does not say which tool made it."
     }
   ]
 }
