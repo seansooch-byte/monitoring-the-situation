@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T03:13:54Z",
-  "capture": "2026-11-15T0304Z",
+  "updated_at": "2026-11-15T04:25:00Z",
+  "capture": "2026-11-15T0406Z",
   "items": [
     {
       "id": "2121360054330986967",
@@ -236,6 +236,12 @@
       "id": "2121357879341166683",
       "desk": "entertainment",
       "line": "The account TUPACABRA posts an 87-second video it calls the official trailer for NUREMBERG. The capture has no description of the video.",
+      "also": []
+    },
+    {
+      "id": "2121721987794174178",
+      "desk": "science",
+      "line": "Sundar Pichai, the head of Google, congratulates SpaceX on the Starship catch. He says it still feels like science fiction and that watching it live was incredible.",
       "also": []
     }
   ]
