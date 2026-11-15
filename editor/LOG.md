@@ -6731,3 +6731,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained 5 ids; plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: Bessent's remarks on inflation and the reported WSJ editor are not researched; Bitcoin and Bahrain stories need a refresh.
+
+## 2026-11-15T17:25Z
+- Captures read: 1710Z (1603Z was the last logged read). Last read: 1710Z.
+- X's check: 1710Z 107 confirmed, 0 missing, 0 mismatched, 1 withheld (PopCrave Ashe slime post 2121990540711661766, not cited). Older runs unchanged: 1506Z 1 mismatched (1857289763755335911, not cited), 1403Z 1 mismatched (1535517560229318656, not cited), earlier mismatches as before (none cited); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 36 items (3 in, 1 out). In: AO3_Status "AO3 is back up" (internet), ESPN Arch Manning post (sports), AryePulliNFL Hutchinson injury clip with Schefter's ruled-out post attached (sports). Out: OTW_News AO3 birthday post (replaced by the larger AO3_Status post). Header 1710Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DonaldTrumpvjr "under attack" post (unconfirmed alarm); sciencegirl big-cats clip (undescribed; account already on pulse); SamVale29 dark-web rumour; Genesis_Perry6 street clip (undescribed); 0xbtom death-sentence post and TMZ castration post (justice; private individuals, sexual crime); Phranklinton1 hospital post (promotion); Bessent WSJ-editor post (no outside source); extra Romano, Musk, Schefter posts (account already holds a place).
+- Requests: none added or removed. Watch list gained 4 ids; plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: AO3's return after 17 days offline (AO3_Status says no data deleted) is not researched; the FAA ground stop, Bessent remarks, Bitcoin and Bahrain items still need a refresh.

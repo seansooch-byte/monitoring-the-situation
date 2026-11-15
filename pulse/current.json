@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T16:55:00Z",
-  "capture": "2026-11-15T1603Z",
+  "updated_at": "2026-11-15T17:20:49Z",
+  "capture": "2026-11-15T1710Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -90,12 +90,6 @@
       "also": []
     },
     {
-      "id": "2121652656284553648",
-      "desk": "internet",
-      "line": "The Organization for Transformative Works, the nonprofit behind the fan fiction archive AO3, says the archive just turned 17 and asks people to name their favorite fic.",
-      "also": []
-    },
-    {
       "id": "2121635892548751752",
       "desk": "offbeat",
       "line": "Zack D. Films posts a 35-second video captioned \"Cutting A Watermelon With Dental Floss\". The post gives no more detail.",
@@ -104,7 +98,8 @@
     {
       "id": "2121828061574246826",
       "desk": "world",
-      "line": "Reuters reports that Bahrain's interior ministry has issued alerts of potential threats. The post gives no further detail."
+      "line": "Reuters reports that Bahrain's interior ministry has issued alerts of potential threats. The post gives no further detail.",
+      "also": []
     },
     {
       "id": "2121809292110238171",
@@ -139,37 +134,44 @@
     {
       "id": "2121491318623064571",
       "desk": "internet",
-      "line": "Aakash Gupta writes that IShowSpeed won Streamer of the Year for the third year running and gave his speech in Indonesian. The long post goes on to explain why, using figures and an account of a 2024 stream in Jakarta that are his own. Not checked here."
+      "line": "Aakash Gupta writes that IShowSpeed won Streamer of the Year for the third year running and gave his speech in Indonesian. The long post goes on to explain why, using figures and an account of a 2024 stream in Jakarta that are his own. Not checked here.",
+      "also": []
     },
     {
       "id": "2121633023196315951",
       "desk": "gaming",
-      "line": "Dexerto, a gaming news account, says a playable copy of a lost PokePark DS game has resurfaced after 20 years sealed in a PSA grading case, and that fans are asking the collector to open it and dump the ROM. Not checked here."
+      "line": "Dexerto, a gaming news account, says a playable copy of a lost PokePark DS game has resurfaced after 20 years sealed in a PSA grading case, and that fans are asking the collector to open it and dump the ROM. Not checked here.",
+      "also": []
     },
     {
       "id": "2121606683206316295",
       "desk": "entertainment",
-      "line": "DeepDiscountsco posts an 82-second video in Japanese saying that Japanese comedy goes over well abroad and is getting big laughs in the West. Not checked here."
+      "line": "DeepDiscountsco posts an 82-second video in Japanese saying that Japanese comedy goes over well abroad and is getting big laughs in the West. Not checked here.",
+      "also": []
     },
     {
       "id": "2121603018252566805",
       "desk": "entertainment",
-      "line": "MovieTings posts a one-minute video and says Ultron meeting Doctor Doom is a crazy twist, with the hashtag #AvengersDoomsday. The post does not say where the clip comes from."
+      "line": "MovieTings posts a one-minute video and says Ultron meeting Doctor Doom is a crazy twist, with the hashtag #AvengersDoomsday. The post does not say where the clip comes from.",
+      "also": []
     },
     {
       "id": "2121594339457400994",
       "desk": "disaster",
-      "line": "WAdrewhawkins posts a video of the ship track of the tanker Atlantic Asphalt before its collision at New Orleans on Friday. This site has a story on that collision."
+      "line": "WAdrewhawkins posts a video of the ship track of the tanker Atlantic Asphalt before its collision at New Orleans on Friday. This site has a story on that collision.",
+      "also": []
     },
     {
       "id": "2121755101136077180",
       "desk": "defense",
-      "line": "HormuzLetter, a news account, says several helicopters of the US Air Force's 1st Helicopter Squadron flew over Washington, citing initial reports, and adds that Israel says Iran is planning a drone. The post text is cut off there. Not checked here."
+      "line": "HormuzLetter, a news account, says several helicopters of the US Air Force's 1st Helicopter Squadron flew over Washington, citing initial reports, and adds that Israel says Iran is planning a drone. The post text is cut off there. Not checked here.",
+      "also": []
     },
     {
       "id": "2121595116112761070",
       "desk": "ai",
-      "line": "TBC_on_X posts a video of about two and a half minutes that it calls \"AI Seinfeld\" going to the DSA convention. It does not say which tool made it."
+      "line": "TBC_on_X posts a video of about two and a half minutes that it calls \"AI Seinfeld\" going to the DSA convention. It does not say which tool made it.",
+      "also": []
     },
     {
       "id": "2121698156102525189",
@@ -200,6 +202,26 @@
       "desk": "sports",
       "line": "MySportsUpdate, a sports account, posts a video and says Amon-Ra St. Brown beat Christian Gonzalez for a 56-yard touchdown in a game in Germany. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121922329693626392",
+      "desk": "internet",
+      "line": "The AO3 Status account says the fan fiction archive AO3 is back up, with some features switched off so it could return earlier than the four-week mark it had given. It says no AO3 data has been deleted. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121822266891583782",
+      "desk": "sports",
+      "line": "ESPN posts a video and says Arch Manning came in clutch for Texas in Death Valley, and that Texas now has its fifth top 25 win of the year. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121977584103964708",
+      "desk": "sports",
+      "line": "The account AryePulliNFL posts a short video and says Detroit Lions player Aidan Hutchinson just got hurt celebrating a sack. Adam Schefter of ESPN says the Lions have ruled Hutchinson out with a knee injury. Not checked here.",
+      "also": [
+        "2122010907148505115"
+      ]
     }
   ]
 }
