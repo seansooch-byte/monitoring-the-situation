@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-14T23:40:00Z",
-  "capture": "2026-11-14T2307Z",
+  "updated_at": "2026-11-15T00:40:00Z",
+  "capture": "2026-11-15T0004Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -57,12 +57,6 @@
       "also": [
         "2121357965815108080"
       ]
-    },
-    {
-      "id": "2121214354699981193",
-      "desk": "defense",
-      "line": "Drone Wars, an account covering drone warfare, posts a video and says Ukrainian company ARMOLAB tested its ROBONOSH ground robotic evacuation system. Not checked here.",
-      "also": []
     },
     {
       "id": "2121715216597827756",
@@ -191,6 +185,30 @@
       "id": "2121724627667824796",
       "desk": "gaming",
       "line": "The official League of Legends account, posting from the Worlds 2026 tournament, shares a two-minute video it calls a peek at where the game is headed for 2027. The post gives no details in text.",
+      "also": []
+    },
+    {
+      "id": "2121711025695199660",
+      "desk": "world",
+      "line": "The New York Post says reports indicate Russia has lifted a ban on killing Ukrainian President Volodymyr Zelensky and other Ukrainian leaders. The post names no source for the reports. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121686210565280020",
+      "desk": "politics",
+      "line": "Rep. Thomas Massie says he will force a vote to \"END THE WAR in Iran\" before his term is up. He is quoting another post. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121607597211926983",
+      "desk": "markets",
+      "line": "The Kobeissi Letter, a markets newsletter, says US consumer prices are up 30.2% since January 2020, an all-time high, or 4.0% a year, against 2% a year under the Fed target. The figures are its own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121401400391295202",
+      "desk": "medicine",
+      "line": "Liz Essley Whyte posts an exclusive, reported with a colleague, saying the US has lost its measles elimination status. The post links a Wall Street Journal article with that news.",
       "also": []
     }
   ]
