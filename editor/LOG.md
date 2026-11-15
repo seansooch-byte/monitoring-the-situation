@@ -6721,3 +6721,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the NYC overdose figure is not researched; the FAA ground stop posts remain not researched.
+
+## 2026-11-15T17:00Z
+- Captures read: 1603Z (1506Z was the last logged read). Last read: 1603Z.
+- X's check: 1603Z 52 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 1506Z 1 mismatched (1857289763755335911, not cited), 1403Z 1 mismatched (1535517560229318656, not cited), 0501Z, 0304Z, 0104Z, 2100Z mismatches as before (none cited); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 34 items (2 in, 1 out). In: BTS thank-you post (music), St. Brown touchdown clip (sports). Out: JennieSTaer concert clip (over 36 hours). Header 1603Z.
+- Added: 2026-11-15-bts-melon-music-awards-2026 (music). Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (Bessent's call to hire outside, reported approach to Rene Haas); 2026-11-13-faa-nationwide-ground-stop (Duffy's Sunday account of the cause).
+- Left out: Bessent "WSJ editor doxxed his house" post and bank comparison (no outside source found); House Democrats impeachment push and White House "lawfare" posts (aggregators, unchecked); Neymar kiss rumour (private party, gossip); Qeshm SAM report and Bahrain updates (no new reporting found; Bahrain story not updated); Bitcoin story not updated (no reliable current price found); Bessent WatcherGuru post not on pulse (account already holds a place).
+- Requests: none added or removed. Watch list gained 5 ids; plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: Bessent's remarks on inflation and the reported WSJ editor are not researched; Bitcoin and Bahrain stories need a refresh.

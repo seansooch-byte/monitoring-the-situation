@@ -9,7 +9,7 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-08T20:07:00Z",
-  "updated_at": "2026-11-15T02:40:00Z",
+  "updated_at": "2026-11-15T16:40:00Z",
   "what": [
     "Nvidia's filing with the SEC (a Form 8-K, event date 11 November 2026) says the board accepted Jen-Hsun (Jensen) Huang's resignation as president, chief executive and director, effective immediately. Chief financial officer Colette Kress is interim CEO while keeping her CFO role, and the board has begun a search for a permanent CEO, internal and external. Harvey Jones was named board chair. The filing gives no reason for the resignation and does not mention the investigation. Polymarket posted the news on 12 November.",
     "On Sunday, 8 November 2026, CNBC and Fox Business reported that Nvidia's board launched an independent investigation of chief executive Jensen Huang. The reports say Huang emailed staff: \"I was unfaithful to my wife. My actions hurt her\" and \"I am deeply sorry.\" WatcherGuru posted extracts of the email.",
@@ -20,10 +20,11 @@
     "Reuters reported on 12 November, citing two people familiar with the matter, that Huang had an intimate relationship with a second Nvidia employee. Newsweek, summarising Reuters, says Reuters did not name her or describe her role, and that Nvidia declined to comment. She is not named here. CNN also reported on a second relationship; I could not open the original reports, and I could not confirm her reporting line. On the evening of 12 November, Attorney General Todd Blanche told reporters the Justice Department has not yet reached a conclusion on whether the woman tied to Megaspeed was a Chinese spy, and that the FBI is looking into the reports, per Reuters via U.S. News. The same report says Beijing has denied she is a spy. On 13 November UTC, Cointelegraph posted that Kress will meet staff next Wednesday, the morning after Nvidia posts quarterly results. I found no outside source for that.",
     "A volunteer-run site called Stand with Jensen, which is not endorsed by Nvidia or Huang, has a petition asking the board to reinstate Huang or give evidence-based reasons, run a fair investigation with clear timelines, and share its concerns. The Hans India reports more than 43,000 signatures, including current Nvidia employees and shareholders, as counted by the petition. Elon Musk posted that he is signing it. The Hans India reports no response from the board. The count changes and I did not check it. Polymarket posted on 14 November that the petition had passed 100,000 signatures. I did not check that count.",
     "Musk also posted that Huang \"drove supply chain brilliantly at Nvidia, but many of those deals were a handshake with Jensen, not a written contract,\" and that without him some of them are at risk. That is Musk's opinion of Nvidia's supplier arrangements. I found no Nvidia statement on it.",
+    "On Sunday, 15 November 2026, Treasury Secretary Scott Bessent told Fox News' Sunday Morning Futures, as Reuters reports, that Nvidia's board \"need to go outside the company, that just (with) what was going on inside the company, they need a dramatic shakeup.\" Reuters also says he called for the board and outside counsel to answer, within 10 days, questions about the company's culture of compliance with export restrictions. Reuters, citing the Financial Times, says the board has approached Arm Holdings chief executive Rene Haas. I could not open the Financial Times report and Nvidia has not commented in anything I found. WatcherGuru and others posted Bessent's remarks within minutes. The Washington Post is also reported, in a post by the account kimmonismus, to say Huang is helping find his successor; I could not confirm that outside X.",
     "Other posts, including a video from the account Nostre_damus, claim Huang leaked chip secrets. No source I found says so, and the board says it has no reason to believe it. That claim is not supported here."
   ],
   "why": "It joins a personal admission to the question of whether a chip maker's top executive was compromised, while Congress is already pressing Nvidia on exports to China.",
-  "next": "The board's search for a permanent CEO has no stated end date. Nvidia's quarterly results and Kress's staff meeting are reported for next week. The House chairs had asked for Huang's briefing on 18 November; I found no word on whether it still stands. The Justice Department has not said whether it considers the woman a spy.",
+  "next": "The board's search for a permanent CEO has no stated end date. Bessent set 10 days for answers on export compliance. Nvidia's quarterly results and Kress's staff meeting are reported for next week. The House chairs had asked for Huang's briefing on 18 November; I found no word on whether it still stands. The Justice Department has not said whether it considers the woman a spy.",
   "posts": [
     {
       "id": "2119524963644276809",
@@ -76,6 +77,10 @@
     {
       "id": "2121613402846204253",
       "role": "voice"
+    },
+    {
+      "id": "2121985197378097205",
+      "role": "voice"
     }
   ],
   "corrections": [
@@ -98,9 +103,17 @@
     {
       "at": "2026-11-15T02:40:00Z",
       "text": "Added the petition count Polymarket posted and Musk's remark about supplier deals."
+    },
+    {
+      "at": "2026-11-15T16:40:00Z",
+      "text": "Added Bessent's remarks of 15 November and the reported approach to Rene Haas."
     }
   ],
   "sources": [
+    {
+      "label": "Reuters via Investing.com: Bessent says Nvidia must go outside the company to find new CEO",
+      "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004"
+    },
     {
       "label": "The Hans India: Elon Musk joins 43,000 signatures seeking Huang's return",
       "url": "https://www.thehansindia.com/tech/elon-musk-joins-43000-signatures-seeking-jensen-huangs-return-to-nvidia-1142044"

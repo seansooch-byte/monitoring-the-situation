@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T15:17:22Z",
-  "capture": "2026-11-15T1506Z",
+  "updated_at": "2026-11-15T16:55:00Z",
+  "capture": "2026-11-15T1603Z",
   "items": [
     {
       "id": "2121715216597827756",
       "desk": "science",
       "line": "SpaceX posts a video and says its launch tower caught Starship (\"Mechazilla catches Starship\") and congratulates its team. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121453668612677873",
-      "desk": "music",
-      "line": "JennieSTaer posts a video and says stuck travelers got a concert from the singer of Hoobastank during the nationwide air traffic shutdown. Not checked here.",
       "also": []
     },
     {
@@ -193,6 +187,18 @@
       "id": "2121664033397096495",
       "desk": "medicine",
       "line": "The account Democrats Deliver says overdose deaths in New York City have dropped 58%. The post carries a photo that the capture does not describe, and gives no source for the figure. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121977851302047987",
+      "desk": "music",
+      "line": "BTS's official account thanks its fans, called ARMY, in a post tagged #MMA2026. Our story on the Melon Music Awards says BTS won Album of the Year and Artist of the Year there.",
+      "also": []
+    },
+    {
+      "id": "2121979726462136354",
+      "desk": "sports",
+      "line": "MySportsUpdate, a sports account, posts a video and says Amon-Ra St. Brown beat Christian Gonzalez for a 56-yard touchdown in a game in Germany. Not checked here.",
       "also": []
     }
   ]

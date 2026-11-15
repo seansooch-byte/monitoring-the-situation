@@ -9,7 +9,7 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-13T21:01:08Z",
-  "updated_at": "2026-11-15T02:40:00Z",
+  "updated_at": "2026-11-15T16:45:00Z",
   "what": [
     "On Friday, 13 November 2026, the Federal Aviation Administration ordered a ground stop at all US airports. Transportation Secretary Sean Duffy posted that it followed \"a communication issue impacting all Air Route Traffic Control Centers\". ABC News and Fox News report the FAA cited \"extraordinary circumstances\". Flights already in the air were allowed to land.",
     "NBC News reports Duffy said the system's switches and routers were overloaded with data and gave inconsistent data, and that the stop was lifted at 8:15 p.m. Eastern, about five hours after it began. ABC and NBC report Homeland Security Secretary Markwayne Mullin said there was no indication so far of anything nefarious and that it looked like a telecommunications outage. Both say officials were not ruling out a cyberattack while they investigated.",
@@ -19,7 +19,8 @@
     "CBS gives more than 4,000 cancellations and more than 10,000 delays, and says about 3,100 aircraft bound for US airports were in the air when the stop began. The cancellation count is still moving, and outlets differ.",
     "ABC7 reports Duffy then asked Congress for emergency funding: \"This is an emergency. I want Congress to give us emergency funding. This is bipartisan. This is American. I want $50 billion.\" He described \"1980s little copper lines\" and old switches and routers. CNBC reports he said of the equipment \"It's going to continue to fail,\" that Mullin said it \"appears this was mechanically driven\" with no sign of a cyberattack, and that the FAA said its technicians are investigating. CNBC says cancellations stretch into the weekend. Posts show a reporter asking Duffy why Congress has not paid, given Republican control of both chambers; I did not find a transcript.",
     "Scripps News reports airlines canceled more than 5,300 flights on Saturday, 14 November, after 9,147 on Friday. It quotes Duffy as saying operations were resuming gradually on Saturday morning and that he expected the backlog to clear by late Sunday, with some delays and cancellations continuing as carriers reposition aircraft and crews. It quotes Mullin again: \"There is nothing that indicates the incident was caused by a cyberattack. It appears this was mechanically driven.\" Friday's counts differ across outlets because they were taken at different times.",
-    "As of Saturday evening, the final root cause and the formal investigation are not yet on the record. Officials still describe a router and communications failure."
+    "As of Saturday evening, before Sunday's interviews, the final root cause and the formal investigation are not yet on the record. Officials still describe a router and communications failure.",
+    "On Sunday, 15 November 2026, Duffy told CBS News' Face the Nation that the contractor L3Harris Technologies was replacing old copper lines with fiber at a site in El Dorado, Arkansas, and that when the routers were switched over, data began flooding the network. CBS quotes him: \"we have to get off old network, old telecom\" and \"I don't have money for a new telecom system.\" He repeated the request for $50 billion from Congress. This is the first on-the-record cause I found. It differs from the Friday account of a security patch and a reboot, which rested on unnamed sources. Acyn posted clips of Brennan and of CNN's Dana Bash asking about the outage and about funding; I did not see the full interviews. I did not open a full transcript or any FAA or DHS investigation report."
   ],
   "why": "Almost every flight in the country stopped at once, and the first official word said little. People filled the gap with causes of their own.",
   "worlds": [
@@ -35,7 +36,7 @@
     }
   ],
   "common": "On the record: the FAA ordered the stop, officials give a telecommunications failure as the cause, the stop was lifted that evening, and officials said they had no sign of an attack while not ruling one out. Not established: the root cause, any controller dispute, and any military alert. Those rest on posts alone. The officials' account is also preliminary.",
-  "next": "The FAA's and DHS's findings on the root cause, and whether any cyber cause is confirmed or excluded.",
+  "next": "The FAA and DHS findings on the root cause, and whether Congress acts on the $50 billion request.",
   "corrections": [
     {
       "at": "2026-11-14T11:45:00Z",
@@ -48,6 +49,10 @@
     {
       "at": "2026-11-15T02:40:00Z",
       "text": "Added Saturday cancellations and the expected recovery time from Scripps News. No change to the cause."
+    },
+    {
+      "at": "2026-11-15T16:45:00Z",
+      "text": "Added Duffy's Sunday account of the cause. It replaces the unconfirmed Friday report of a software update."
     }
   ],
   "posts": [
@@ -66,9 +71,21 @@
     {
       "id": "2121373765317579140",
       "role": "voice"
+    },
+    {
+      "id": "2121971569853603863",
+      "role": "voice"
+    },
+    {
+      "id": "2121990593387925695",
+      "role": "voice"
     }
   ],
   "sources": [
+    {
+      "label": "CBS News: Ground stop proves we have to get off old network, Duffy says",
+      "url": "https://www.cbsnews.com/news/ground-stop-faa-telecom-network-sean-duffy-face-the-nation/"
+    },
     {
       "label": "NBC News live updates: FAA lifts ground stop",
       "url": "https://www.nbcnews.com/news/us-news/live-blog/live-updates-flights-grounded-faa-communications-outage-rcna609268"
