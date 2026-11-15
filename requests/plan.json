@@ -1,18 +1,18 @@
 {
  "schema": "mts.plan/1",
- "written_at": "2026-11-15T05:10:15.190Z",
- "for_run": "2026-11-15T06Z",
+ "written_at": "2026-11-15T06:10:14.075Z",
+ "for_run": "2026-11-15T07Z",
  "band": "overnight",
  "mode": "normal",
  "day": {
   "date": "2026-11-15",
-  "reads_left_before": 776,
-  "hours_left": 18,
+  "reads_left_before": 755,
+  "hours_left": 17,
   "short": false,
   "rule": "the overnight band's cap"
  },
  "allowance": 20,
- "total_reads": 20,
+ "total_reads": 18,
  "over_budget": false,
  "items": [
   {
@@ -387,123 +387,124 @@
     "2121635892548751752",
     "1737686737600516459",
     "1857088353629253748",
-    "2121483268763587009",
     "2121606683206316295",
+    "2121483268763587009",
     "2117624634971422993",
     "2057431794408886379",
-    "1981058091329184105",
     "2090817014541545773",
-    "1990357014615130311",
     "2121739714998780263",
-    "2105315170289422532",
-    "2121726288968720709",
     "2121629448449466774",
-    "1933620244637233210",
+    "2105315170289422532",
     "2097411989836275759",
-    "2121473980087361829",
-    "2121733992726802703",
-    "2121456853179920456",
     "2121763396190179414",
+    "2121473980087361829",
+    "2121575319589236939",
+    "2121456853179920456",
     "2121487039480881154",
     "2094898897260863652",
     "2121558317944148258",
-    "2121582531757609448",
-    "2121650506120700194",
     "2121740465187754160",
+    "2121650506120700194",
+    "2121582531757609448",
     "2121443672004972827",
-    "2121575319589236939",
-    "2121715055901155519",
-    "2121651014902452390",
     "2121700671577571838",
-    "2121605762027843726",
+    "2121651014902452390",
     "2121576439673754055",
-    "2121717407890964796",
+    "2121605762027843726",
     "2121664616598036537",
-    "2121654446283456933"
+    "2121654446283456933",
+    "2121770874885845044",
+    "2121531892742697284",
+    "2121755101136077180",
+    "2121759522851115109",
+    "2023281992100704548",
+    "2121664393725227299",
+    "2121673338221162684"
    ],
-   "why": "all 365 from watch.json, then posts under 6 h old, then posts gaining 2 percent; 0 flat posts outside watch.json wait for their sixth run"
+   "why": "all 365 from watch.json, then posts under 6 h old, then posts gaining 2 percent; 3 flat posts outside watch.json wait for their sixth run"
   },
   {
    "n": 2,
    "sweep": "desk.politics",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-15T05:01:00Z"
+   "why": "due: every 1 h, last 2026-11-15T06:04:00Z"
   },
   {
    "n": 3,
    "sweep": "desk.entertainment",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-15T05:01:00Z"
+   "why": "due: every 1 h, last 2026-11-15T06:04:00Z"
   },
   {
    "n": 4,
    "sweep": "desk.sports",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-15T05:01:00Z"
+   "why": "due: every 1 h, last 2026-11-15T06:04:00Z"
   },
   {
    "n": 5,
    "sweep": "desk.internet",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-15T05:01:00Z"
+   "why": "due: every 1 h, last 2026-11-15T06:04:00Z"
   },
   {
    "n": 6,
-   "sweep": "volume.business",
+   "sweep": "volume.world",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 7,
-   "sweep": "volume.ai",
+   "sweep": "volume.medicine",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 8,
-   "sweep": "volume.tech",
+   "sweep": "volume.entertainment",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 9,
-   "sweep": "volume.science",
+   "sweep": "volume.music",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 10,
+   "sweep": "volume.gaming",
+   "reads": 1,
+   "why": "counts 4 h old"
+  },
+  {
+   "n": 11,
    "sweep": "trends.us",
    "reads": 1
   },
   {
-   "n": 11,
+   "n": 12,
    "sweep": "trends.ww",
    "reads": 1
   },
   {
-   "n": 12,
-   "sweep": "sensors.news",
-   "reads": 1
-  },
-  {
    "n": 13,
-   "sweep": "sensors.money",
+   "sweep": "sensors.culture",
    "reads": 1
   },
   {
    "n": 14,
-   "sweep": "sensors.science",
+   "sweep": "sensors.sports",
    "reads": 1
   },
   {
    "n": 15,
-   "sweep": "viral.global",
-   "reads": 3
+   "sweep": "sensors.online",
+   "reads": 1
   }
  ],
  "cut": [
@@ -518,12 +519,13 @@
   "desk.justice",
   "desk.world",
   "rising.global",
-  "context.top"
+  "context.top",
+  "viral.global"
  ],
  "left_out": {
   "rereads": {
-   "slowed": 0,
-   "over_cap": 1234,
+   "slowed": 3,
+   "over_cap": 1226,
    "unavailable": 4
   },
   "desks_not_due": [
@@ -539,8 +541,8 @@
  },
  "inputs": {
   "captures": 72,
-  "first": "2026-11-12T0605Z",
-  "last": "2026-11-15T0501Z",
+  "first": "2026-11-12T0707Z",
+  "last": "2026-11-15T0604Z",
   "watch_ids": 365,
   "open_requests": 0
  }

@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T05:10:12Z",
-  "capture": "2026-11-15T0501Z",
+  "updated_at": "2026-11-15T06:10:07Z",
+  "capture": "2026-11-15T0604Z",
   "items": [
     {
       "id": "2121360054330986967",
       "desk": "offbeat",
       "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
-      "also": []
-    },
-    {
-      "id": "2121293940909604988",
-      "desk": "medicine",
-      "line": "BRICS News, an aggregator account, says Russia reports that the first patient treated with a personalized mRNA cancer vaccine shows no signs of new tumors four months after treatment. Not checked here.",
       "also": []
     },
     {
@@ -45,12 +39,6 @@
       "id": "2121351591106072679",
       "desk": "disaster",
       "line": "Transportation Secretary Sean Duffy says the FAA issued a nationwide ground stop for all US airports after a communication issue affecting all Air Route Traffic Control Centers, and that FAA technicians are investigating.",
-      "also": []
-    },
-    {
-      "id": "2121303523296211449",
-      "desk": "politics",
-      "line": "The White House account posts: \"English is the official language of the United States.\"",
       "also": []
     },
     {
@@ -249,6 +237,11 @@
       "desk": "offbeat",
       "line": "Zack D. Films posts a 35-second video captioned \"Cutting A Watermelon With Dental Floss\". The post gives no more detail.",
       "also": []
+    },
+    {
+      "id": "2121828061574246826",
+      "desk": "world",
+      "line": "Reuters reports that Bahrain's interior ministry has issued alerts of potential threats. The post gives no further detail."
     }
   ]
 }

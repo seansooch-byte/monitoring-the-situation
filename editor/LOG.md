@@ -6621,3 +6621,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: nothing. One npm test run failed once alongside a build, then passed 147/0 on reruns. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T06:15Z
+- Captures read: 0604Z (0501Z was the last logged read). Last read: 0604Z.
+- X's check: 0604Z 17 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); two cited story posts withheld (2116569280900706479, 2119523308580511928).
+- Pulse: 39 items (1 in, 2 out). In: Reuters on Bahrain's interior ministry alerts (world). Out: BRICSinfo Russia vaccine post (medicine) and the White House English post (politics), both past 36 hours. Header 0604Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Cooper Flagg and Jokic NBA posts (sports already has three accounts); unusual_whales WSJ data centre post (account already on the pulse); Osint613's other Bahrain posts (one place per account); Bitcoin posts (markets has two); BullTheoryio Iran drones (single source, unchecked); the two old_content posts. For the next story pass: Bahrain alerts and the Iran/US drone claims may deserve research.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: nothing. One npm test run failed once, then passed 147/0 on rerun. The starting message had no instructions beyond the contract.
