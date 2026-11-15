@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T13:35:00Z",
-  "capture": "2026-11-15T1309Z",
+  "updated_at": "2026-11-15T14:25:00Z",
+  "capture": "2026-11-15T1403Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -13,12 +13,6 @@
       "id": "2121428474816803089",
       "desk": "politics",
       "line": "Gavin Newsom says President Trump was \"MIA\" while 1.5 million Americans were stranded at airports at a scale not seen since 9/11, and says Trump does not care about them. The figure and the comparison are his claims. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121423916006617237",
-      "desk": "tech",
-      "line": "MKBHD, a tech reviewer, revisits his bet that Cybercab would be publicly available for under $30k by the end of 2026. He says there are no deliveries yet, it is invite only and private use only. He tags Grok, which is made by xAI, the company behind the grabber. Not checked here.",
       "also": []
     },
     {
@@ -198,6 +192,12 @@
       "id": "2121698156102525189",
       "desk": "entertainment",
       "line": "DBPerfectShots posts a video captioned \"Villains watching Goku vs Kid Buu in Hell\", from Episode 280 of Dragon Ball Z. I could not see the clip itself, only the caption.",
+      "also": []
+    },
+    {
+      "id": "2121477504263389211",
+      "desk": "internet",
+      "line": "Clip account yoxics says streamer VanillaMace laughs at fellow streamer B Lou for calling the Streamer Awards rigged, before learning he lost by 300,000 votes. The vote count is the post's claim. Not checked here.",
       "also": []
     }
   ]

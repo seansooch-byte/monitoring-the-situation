@@ -6701,3 +6701,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the Acyn clip of Mullin on the airport outage is not researched.
+
+## 2026-11-15T14:25Z
+- Captures read: 1403Z (1309Z was the last logged read). Last read: 1403Z.
+- X's check: 1403Z 113 confirmed, 0 missing, 1 mismatched (1535517560229318656, not cited), 3 withheld (2040913626228228169, 2102094353208336745, 2121733090364006613; none cited). Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 34 items (1 in, 1 out). In: yoxics Streamer Awards clip (internet). Out: MKBHD Cybercab post (over 36 hours). Header 1403Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: DonaldTrumpvjr "under attack" post (unconfirmed alarm); allchronology pilot/FAA post and JezziiB Uber post (claims unchecked); Phranklinton1 Nocturne post (promotion); your_ladynow HIV post (private person, health); MarioNawfal Ruka post (flagged private_individual, minor); darrell_dai NVIDIA resignation (private employee); extra Romano, Musk, Schefter, PopBase, Reuters posts (account or desk already holds a place).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the FAA nationwide ground stop posts (allchronology, JezziiB) are not researched.
