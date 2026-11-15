@@ -6771,3 +6771,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 21Z. One npm test run failed once while the plan and build ran in parallel; a clean rerun passed 147, 0 failed.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the UK age of consent item, AO3's return, FAA ground stop (Delta delays), Bessent remarks, Bitcoin and Bahrain items need research or a refresh.
+
+## 2026-11-15T21:45Z
+- Captures read: 2101Z (2007Z was the last logged read). Last read: 2101Z.
+- X's check: 2101Z 100 confirmed, 0 missing, 1 mismatched (not cited by any story or the pulse; the tool does not print the id), 0 withheld. Older: cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 34 items (1 in, 0 out). In: Kobeissi Letter on the FT report of a possible Huang return (business, marked not checked). Header 2101Z.
+- Added: 2026-11-15-ao3-returns-after-17-days (internet). Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (FT return report, rests on a post; I found no outside copy).
+- Left out: the 14-year-old TikTok livestream death (minor, private); Omaha bus attack (private individual); Flavio Bolsonaro, Vilnius statue, Mossad dossier claim (not researched this pass); Melania and Merchan posts (unchecked claims). Short story pass: one new story, one update; the rest of the bulletin not re-checked (FAA stop, Bessent remarks, Bitcoin, Bahrain still need a refresh).
+- Requests: none added or removed. Three ids added to the watch list; plan.json rebuilt for 22Z.
+- Shipped: yes, commit c08e683c, live audit clean.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
