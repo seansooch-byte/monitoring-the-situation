@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T00:40:00Z",
-  "capture": "2026-11-15T0004Z",
+  "updated_at": "2026-11-15T01:25:00Z",
+  "capture": "2026-11-15T0104Z",
   "items": [
     {
       "id": "2121254115028132000",
@@ -209,6 +209,18 @@
       "id": "2121401400391295202",
       "desk": "medicine",
       "line": "Liz Essley Whyte posts an exclusive, reported with a colleague, saying the US has lost its measles elimination status. The post links a Wall Street Journal article with that news.",
+      "also": []
+    },
+    {
+      "id": "2121755546487566426",
+      "desk": "gaming",
+      "line": "LoL Esports, the League of Legends tournament account, posts that Bilibili Gaming are the 2026 world champions. The post is text and one image. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121627962629816614",
+      "desk": "politics",
+      "line": "The account atrupar, which posts political clips, shares a 47-second video and says Sen. John Fetterman suggests he will leave the Democratic Party if Sen. Chris Van Hollen is elected majority leader. Not checked here.",
       "also": []
     }
   ]

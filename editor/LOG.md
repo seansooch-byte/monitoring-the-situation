@@ -6571,3 +6571,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Four ids added to the watch list; plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T01:30Z
+- Captures read: 0104Z (0004Z was the last logged read). Last read: 0104Z.
+- X's check: 0104Z 80 confirmed, 0 missing, 1 mismatched (2121479240583635454, MarkJCarney; stray characters only), 4 withheld. 2100Z still shows 2 mismatched (2113644989867499762, 2121665388832501857; stray characters only).
+- Pulse: 36 items (2 in, 0 out). In: atrupar's clip post on Fetterman and the majority leader vote (politics); LoL Esports on Bilibili Gaming's Worlds title (gaming). Nothing yet past 36 hours. Header 0104Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: MarkJCarney post (mismatch); PopBase on the Alaska Senate projection (aggregator, unchecked); Musk's, Fabrizio Romano's and Watcher Guru's further posts (account already placed or a copy); CapitolLeaks1 cartel executive order post (unchecked, no source); tupacabra Nuremberg trailer and sciencegirl big cat video (no media description, point unclear); Genesis_Perry6, the_typical_lib, nabulionee2 (point unclear or unverifiable); old_content posts. For the next story pass: the Alaska Senate result and the Senate Democratic leader vote may deserve research.
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
