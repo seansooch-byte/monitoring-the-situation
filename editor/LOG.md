@@ -6611,3 +6611,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T05:15Z
+- Captures read: 0501Z (0406Z was the last logged read). Last read: 0501Z.
+- X's check: 0501Z 98 confirmed, 0 missing, 1 mismatched, 0 withheld. Older runs unchanged: 0304Z 1 mismatched (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); two cited story posts withheld (2116569280900706479, 2119523308580511928). The 0501Z mismatch is not cited anywhere.
+- Pulse: 40 items (2 in, 1 out). In: OTW_News on AO3 turning 17 (internet); zackdfilms1 dental floss watermelon video (offbeat). Out: Microsoft outage apology (past 36 hours). Header 0501Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Hegseth "men with swords" post (point unclear from its words); Van Hollen and IsaacHayes3 (politics already full; Hayes asserts unchecked claims about named officials); Texas and Louisville game clips (sports already has three accounts); SanaELedene (insults a religion); trans firefighter post (private person); Ballityorg stats photo (no media description).
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: nothing. One npm test run failed once alongside a build, then passed 147/0 on reruns. The starting message had no instructions beyond the contract.

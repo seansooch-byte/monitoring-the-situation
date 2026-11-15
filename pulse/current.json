@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T04:25:00Z",
-  "capture": "2026-11-15T0406Z",
+  "updated_at": "2026-11-15T05:10:12Z",
+  "capture": "2026-11-15T0501Z",
   "items": [
     {
       "id": "2121360054330986967",
       "desk": "offbeat",
       "line": "Author Stephen King posts a joke that the real reason for the FAA ground stop is that aliens have landed and officials do not want a panic. It is a joke, not a report.",
-      "also": []
-    },
-    {
-      "id": "2121282013600907325",
-      "desk": "tech",
-      "line": "Microsoft says it is deeply sorry for the outage and that service is broadly recovering. It says the cause was a network capacity upgrade followed by a network change, not a cyberattack or AI agents, and that it will publish a full post-incident report. Not checked here.",
       "also": []
     },
     {
@@ -242,6 +236,18 @@
       "id": "2121721987794174178",
       "desk": "science",
       "line": "Sundar Pichai, the head of Google, congratulates SpaceX on the Starship catch. He says it still feels like science fiction and that watching it live was incredible.",
+      "also": []
+    },
+    {
+      "id": "2121652656284553648",
+      "desk": "internet",
+      "line": "The Organization for Transformative Works, the nonprofit behind the fan fiction archive AO3, says the archive just turned 17 and asks people to name their favorite fic.",
+      "also": []
+    },
+    {
+      "id": "2121635892548751752",
+      "desk": "offbeat",
+      "line": "Zack D. Films posts a 35-second video captioned \"Cutting A Watermelon With Dental Floss\". The post gives no more detail.",
       "also": []
     }
   ]
