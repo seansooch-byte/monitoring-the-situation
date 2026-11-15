@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T20:35:00Z",
-  "capture": "2026-11-15T2007Z",
+  "updated_at": "2026-11-15T21:35:00Z",
+  "capture": "2026-11-15T2101Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -203,6 +203,12 @@
       "id": "2121831918131904712",
       "desk": "business",
       "line": "The account scott_colom says his Delta flight at the Atlanta airport has been delayed for hours because the airline cannot find a pilot, and that hotel vouchers are withheld until it is cancelled. He quotes an unnamed airline worker as saying \"pick another transportation secretary.\" Not checked here."
+    },
+    {
+      "id": "2122045918342238337",
+      "desk": "business",
+      "line": "The Kobeissi Letter, a markets account, says the Financial Times reports Jensen Huang is considering a return as Nvidia CEO while the board investigation continues. It adds a report of a \"war room\" of tech executives lobbying for it. Not checked here.",
+      "also": []
     }
   ]
 }

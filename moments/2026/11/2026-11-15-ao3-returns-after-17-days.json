@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-15-ao3-returns-after-17-days",
+  "title": "AO3 comes back after 17 days offline, with features off and a user-data question still open",
+  "dek": "Archive of Our Own is a very large archive of fan works. It went dark after a security incident and returned early, but its operator says it cannot rule out that account details were accessed.",
+  "desks": [
+    "internet"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-15T08:28:00Z",
+  "updated_at": "2026-11-15T21:30:00Z",
+  "what": [
+    "Archive of Our Own (AO3), the fan fiction archive run by the nonprofit Organization for Transformative Works (OTW), went offline on 29 October 2026. IBTimes reports that OTW first called it maintenance, then on 30 October disclosed \"evidence of a security incident\" and said the site would be down for at least two weeks and possibly four.",
+    "On Sunday, 15 November, the AO3 Status account posted that AO3 is up, that some features are switched off so the site could return before the four-week mark, and that no AO3 data has been deleted. Dexerto reports the return came after 17 days. It says user and collection icons are hidden, importing works from other sites is unavailable, downloads are limited to HTML, and the site may run slowly.",
+    "OTW has said the database \"may contain usernames, email addresses, Internet Protocol (IP) addresses and hashed passwords.\" IBTimes quotes OTW's early assessment that the database was not stolen. Dexerto reports that, after the return, OTW says it has a security firm reviewing what happened and still cannot rule out that the user database was accessed. I found no statement saying what the attackers did or who they were.",
+    "Dexerto also reports that OTW has put out security guidance to users, and that automatic deletion of drafts stays paused through 29 November.",
+    "I could not open OTW's own status page, so the OTW statements here come from the AO3 Status post and from the two outlets."
+  ],
+  "why": "AO3 is a large, volunteer-run archive that many fan communities treat as the one place their work lives. Seventeen days without it, and an unanswered question about account data, drew wide attention.",
+  "next": "OTW has not said when the disabled features return or when the security review will report. Draft deletion is paused through 29 November.",
+  "posts": [
+    {
+      "id": "2121922329693626392",
+      "role": "official"
+    },
+    {
+      "id": "2121999814522986514",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "IBTimes UK: AO3 offline up to four weeks after a security incident",
+      "url": "https://www.ibtimes.co.uk/ao3-offline-four-weeks-security-incident-1829049"
+    },
+    {
+      "label": "Dexerto: AO3 returns after 17 days offline following security incident",
+      "url": "https://www.dexerto.com/entertainment/ao3-returns-after-17-days-offline-following-security-incident-3428313/"
+    }
+  ]
+}
