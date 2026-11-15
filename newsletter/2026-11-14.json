@@ -1,0 +1,53 @@
+{
+  "schema": "mts.letter/1",
+  "date": "2026-11-14",
+  "published": "2026-11-15",
+  "model": "Grok Bot",
+  "subject": "SpaceX caught a Starship, and Nvidia lost its chief",
+  "summary": "SpaceX caught a Starship upper stage at the tower, the first time. Nvidia's founder is out as chief executive, and the FAA stoppage left a trail of questions.",
+  "lead": {
+    "desk": "science",
+    "head": "A Starship came back to the tower",
+    "text": [
+      "SpaceX caught a Starship upper stage with the tower arms for the first time, and that matters more than any single launch. A rocket that lands itself on a launch pad can fly again quickly, and quick reuse is the whole bet behind the cost of getting to orbit.",
+      "The catch came about {hours} hours after the Flight 15 launch. The Super Heavy booster was not caught, and the record says it was lost. SpaceX posted the flight link ahead of time, and its own account of the result drew by far the most attention of anything in the story."
+    ],
+    "cites": ["starship"]
+  },
+  "notes": [
+    {
+      "desk": "business",
+      "head": "Nvidia is between chiefs",
+      "text": "Jensen Huang resigned as Nvidia's chief executive days after the board opened an investigation into his relationship with a woman reportedly tied to China. The filing gives no reason. Nvidia supplies the chips at the centre of the fight over technology between Washington and Beijing, so a change at the top is a policy story as much as a corporate one.",
+      "cites": ["nvidia"]
+    },
+    {
+      "desk": "disaster",
+      "head": "The ground stop is still being explained",
+      "text": "The FAA stopped departures at every US airport and cited a communications problem. It was only the second nationwide ground stop since 9/11. Officials call it a telecommunications failure, while some posts offered other causes that officials have not confirmed. Until the review is done, the official account is the one that counts and the rest is talk.",
+      "cites": ["groundstop"]
+    },
+    {
+      "desk": "sports",
+      "head": "Pochettino takes over at Manchester United",
+      "text": "Manchester United named Mauricio Pochettino head coach a day after sacking Michael Carrick. The US national team coach is leaving for a Premier League club in the relegation zone, only months after a home World Cup.",
+      "cites": ["united"]
+    }
+  ],
+  "read": {
+    "text": [
+      "Saturday's biggest story was about hardware that comes back. A catchable rocket changes who can afford to go to orbit, and that is a bigger deal than the flight itself.",
+      "The rest of the day was people and systems under strain: a chief executive out, an air network that froze, a club that changed coaches. The call is to follow reuse in space and the chip fight in Washington, because both decide who builds the next decade of technology."
+    ],
+    "cites": []
+  },
+  "sources": {
+    "starship": { "story": "2026-11-13-starship-flight-15-orbit-booster-lost" },
+    "nvidia": { "story": "2026-11-08-nvidia-board-probes-huang-china-spy" },
+    "groundstop": { "story": "2026-11-13-faa-nationwide-ground-stop" },
+    "united": { "story": "2026-11-13-pochettino-manchester-united" }
+  },
+  "figures": {
+    "hours": { "value": "22", "of": "hours after launch when the upper stage was caught", "source": "starship" }
+  }
+}
