@@ -1,24 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T14:25:00Z",
-  "capture": "2026-11-15T1403Z",
+  "updated_at": "2026-11-15T15:17:22Z",
+  "capture": "2026-11-15T1506Z",
   "items": [
     {
       "id": "2121715216597827756",
       "desk": "science",
       "line": "SpaceX posts a video and says its launch tower caught Starship (\"Mechazilla catches Starship\") and congratulates its team. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2121428474816803089",
-      "desk": "politics",
-      "line": "Gavin Newsom says President Trump was \"MIA\" while 1.5 million Americans were stranded at airports at a scale not seen since 9/11, and says Trump does not care about them. The figure and the comparison are his claims. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121425383480529346",
-      "desk": "ideas",
-      "line": "Pope Leo XIV posts that transhumanism promises to end disease, pain and death, that scientific progress should not become a privilege of millionaires seeking immortality, and that in Christian teaching a limitation is not a manufacturing defect. He is on an apostolic journey to Peru, per his hashtags."
     },
     {
       "id": "2121453668612677873",
@@ -198,6 +187,12 @@
       "id": "2121477504263389211",
       "desk": "internet",
       "line": "Clip account yoxics says streamer VanillaMace laughs at fellow streamer B Lou for calling the Streamer Awards rigged, before learning he lost by 300,000 votes. The vote count is the post's claim. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121664033397096495",
+      "desk": "medicine",
+      "line": "The account Democrats Deliver says overdose deaths in New York City have dropped 58%. The post carries a photo that the capture does not describe, and gives no source for the figure. Not checked here.",
       "also": []
     }
   ]

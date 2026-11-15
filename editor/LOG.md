@@ -6711,3 +6711,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the FAA nationwide ground stop posts (allchronology, JezziiB) are not researched.
+
+## 2026-11-15T15:25Z
+- Captures read: 1506Z (1403Z was the last logged read). Last read: 1506Z.
+- X's check: 1506Z 105 confirmed, 0 missing, 1 mismatched (1857289763755335911, not cited), 2 withheld (2121794806544556233, 2028217440987967850; none cited). Older runs unchanged: 1403Z 1 mismatched (1535517560229318656, not cited), 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 33 items (1 in, 2 out). In: DemzDeliver NYC overdose post (medicine, figure unchecked). Out: Newsom airport post and Pope Leo transhumanism post (over 36 hours). Header 1506Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Hegseth "men with swords" post (quotes a post not captured, point unclear); Kalshi post on a reported remark by a named executive (hearsay); darrell_dai NVIDIA resignation (private employee); SamVale29 dark-web rumour; DonaldTrumpvjr "under attack" post (unconfirmed alarm); sciencegirl big-cats video (clip undescribed); extra Romano, Musk, Schefter, Reuters posts (account or desk already holds a place).
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story still cites a post missing on X (2117537320392130634). For the next story pass: the NYC overdose figure is not researched; the FAA ground stop posts remain not researched.
