@@ -1,0 +1,8556 @@
+{
+ "schema": "mts.capture/1",
+ "run": {
+  "id": "2026-11-15T1008Z",
+  "started_at": "2026-11-15T10:08:00Z",
+  "finished_at": "2026-11-15T10:13:00Z",
+  "status": "partial",
+  "reason": "Overnight run 2026-11-15T1008Z / 5:08 AM EST Nov 15. Plan is requests/plan.json written 09:07:44Z (for_run 2026-11-15T10Z, overnight band, 20 reads listed, allowance 20), used except as noted; its watch list holds all 368 requests/watch.json ids (none left out), so no extra watch reads were needed. 20 X reads by X's count (701 left before, 681 left today after; 2 of the 20 were overhead: a single-post field test before the watch batches and a repost-stream query X rejected for a bare `and` keyword, re-run as `\"and\"`; to stay within the allowance volume.tech and volume.science (plan items 8 and 9) were cut). Watch: 398 of 400 returned; unavailable 2120080430388937046, 2121357117583995134. no pulse- or story-cited post missing or changed words; 2 truncation-only diffs where note_tweet filled truncated text or entities were unescaped or a trailing t.co link was dropped (1 of them cited); 0 uncited text change(s) (0 cited). 4 due desks read (politics, entertainment, sports, internet). Volume business/ai recorded (tech/science cut), 167 full hours each, sums match X's totals. Sensors news/money/science read. Global streams: quote is, quote you, repost \"and\". rising.global, context.top and screen reads cut by the plan (overnight band); origins without an author record in this run's reads were left out. No trend-name streams (plan).  Left out as sexual or unsafe: 2118423936895754264. account cap dropped {\"Reuters\": 4, \"SkyNews\": 2}. Left out as spam: 2121879513336631330 (a paid brokerage advertisement from a money sensor). Desks checked against contract/desks.json scope and not_here; reference-only posts given a desk where one fits. Media descriptions not filled this run (partial).",
+  "grabber": {
+   "agent": "grokbot",
+   "model": null,
+   "method": "x MCP namespace (get_posts_by_ids, search_posts_all, get_trends_by_woeid, get_posts_counts_recent)"
+  },
+  "requests_rev": "cb88b3f5aa822dc26239241a9a83bfa5f74e3f19",
+  "reads": 20,
+  "reads_left": 681,
+  "plan": "2026-11-15T10Z"
+ },
+ "sweeps": [
+  {
+   "id": "watch",
+   "kind": "watch",
+   "desk": null,
+   "method": "get_posts_by_ids of the re-read list in requests/plan.json for 2026-11-15T10Z (requests/plan.json written 09:07:44Z, for_run 2026-11-15T10Z, used unchanged; it lists all 368 requests/watch.json ids first, so none were left out), in its order and in batches of 100 (400 ids, 4 reads); 398 of 400 returned, 2 unavailable (2120080430388937046, 2121357117583995134).",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121721987794174178",
+    "2120878186154139750",
+    "2024917454301065480",
+    "2120102767624880364",
+    "2120163794370367715",
+    "2119795136003518716",
+    "2118704961638789583",
+    "2118721013831946695",
+    "2118781463382331432",
+    "2118854441063600539",
+    "2118856351858430019",
+    "2118591788701421573",
+    "2118717555598614919",
+    "2118707092571750824",
+    "2118720752379899907",
+    "2118674774440435905",
+    "2118719281038770389",
+    "2118732082843435305",
+    "2118830445915734194",
+    "2118830021863215410",
+    "2118799897583354187",
+    "2118795008379908136",
+    "2118802852646715663",
+    "2118888656589238392",
+    "2118889570561556500",
+    "2118652451993587895",
+    "2118888594563596455",
+    "2118819452313575707",
+    "2118718688748777545",
+    "2118737725964837353",
+    "2118878848305484277",
+    "2118900845370875984",
+    "2118862906150601176",
+    "2119029619341013080",
+    "2119088902866690441",
+    "2119078784892621164",
+    "2119077871775793615",
+    "2118871810225615067",
+    "2118712858326302770",
+    "2119165325698826436",
+    "2119208291603525764",
+    "2119196670043033897",
+    "2119157583533515245",
+    "2119225920590328115",
+    "2119139183746822639",
+    "2119125830462828593",
+    "2119146928436887774",
+    "2119185943664173142",
+    "2119211124906148159",
+    "2119029831497044188",
+    "2119138672536965426",
+    "2119051697301647700",
+    "2119043594984280069",
+    "2119093662957060389",
+    "2119303935743705097",
+    "2119309593239011715",
+    "2119311698855375231",
+    "2119351671251968297",
+    "2119116236470755624",
+    "2119113316308009416",
+    "2118893768984162668",
+    "2119293003340693687",
+    "2119053001814098023",
+    "2119077538307645513",
+    "2119083432835764635",
+    "2118911252910997578",
+    "2119071344075661320",
+    "2119073619473248265",
+    "2119304905642922169",
+    "2119399953240092933",
+    "2119359269774799256",
+    "2119505045846999253",
+    "2118803158503755925",
+    "2118794650563830159",
+    "2118661203669012904",
+    "2119505483019030962",
+    "2119500008688963965",
+    "2119500194882433212",
+    "2119508082124271628",
+    "2119435741528772981",
+    "2119551689523179764",
+    "2119566187986120705",
+    "2119327820941808067",
+    "2119587209909006716",
+    "2119530419347656888",
+    "2119591969207066654",
+    "2119574647448498685",
+    "2119524963644276809",
+    "2119522315184583136",
+    "2119591047126982933",
+    "2119577504432501240",
+    "2119588473724104732",
+    "2119523308580511928",
+    "2119514946287423508",
+    "2119455675256614988",
+    "2119339388463153524",
+    "2119670655180476885",
+    "2119632049103675510",
+    "2119598353218732358",
+    "2119678179963187564",
+    "2119698616478487001",
+    "2119629310969467053",
+    "2119799843107319946",
+    "2119531692918804552",
+    "2119792290600239401",
+    "2119320412635144528",
+    "2119522888067801560",
+    "2119583603206021555",
+    "2119586419983429731",
+    "2119775874967056831",
+    "2119656344764723212",
+    "2119538027341164639",
+    "2119841425923702877",
+    "2119686426811916717",
+    "2119513151821512903",
+    "2119513601828610199",
+    "2119785717714854215",
+    "2119691458093711418",
+    "2119805979583828413",
+    "2119867114450268322",
+    "2119867707546071125",
+    "2119640499497677074",
+    "2119869868564742545",
+    "2119851180948152590",
+    "2119633582989684908",
+    "2119825875755479344",
+    "2119867126613954736",
+    "2119841627808440589",
+    "2119890585989583238",
+    "2119824747454173268",
+    "2119841301612957699",
+    "2119777057102315680",
+    "2119822325876961537",
+    "2119639631616471347",
+    "2119871982946971659",
+    "2119916144144347422",
+    "2120003439962829014",
+    "2119788086490001906",
+    "2119916944245629157",
+    "2119869530327732250",
+    "2119979552248307779",
+    "2119912768413618647",
+    "2119924276933300282",
+    "2120083569808699696",
+    "2119909570646827482",
+    "2119800678998835648",
+    "2119963494963613873",
+    "2119882565855363534",
+    "2119846862286930036",
+    "2119888920615731326",
+    "2119799797385142274",
+    "2120154484244381738",
+    "2120185896469496180",
+    "2120180183626129783",
+    "2120209926370783463",
+    "2120202954867437952",
+    "2119954479193743395",
+    "2120193867374907421",
+    "2120240278523318567",
+    "2120237299900240146",
+    "2120220290219208884",
+    "2120093267396022458",
+    "2120182485015474372",
+    "2120233139997933977",
+    "2120295851230908918",
+    "2120173411594915933",
+    "2120237897240432705",
+    "2120218343139582161",
+    "2120275724657393985",
+    "2120264216896753767",
+    "2120228174730575892",
+    "2120196028259316193",
+    "2120200060029792691",
+    "2120269152279728478",
+    "2120262074186051969",
+    "2120212394488091086",
+    "2120325515148145040",
+    "2120186185423159331",
+    "2120247972084506878",
+    "2120356628822155594",
+    "2120345194696491375",
+    "2120037882811588785",
+    "2120250830846665066",
+    "2120325222310223899",
+    "2120206365759094857",
+    "2120302638860230794",
+    "2120452057060769874",
+    "2120456046426911039",
+    "2120430280205115441",
+    "2120216592395174382",
+    "2120237304552055274",
+    "2120080430388937046",
+    "2120193145577115998",
+    "2120199917255664020",
+    "2120492357674316188",
+    "2120582957782200586",
+    "2120344700032844000",
+    "2120339380774883672",
+    "2120640219871384044",
+    "2120614296451178761",
+    "2120642726483972483",
+    "2120563631536459876",
+    "2120422487733182841",
+    "2120688866529275958",
+    "2120688743111971293",
+    "2120658425550135333",
+    "2120704382589141319",
+    "2120591757981135223",
+    "2120389203997663424",
+    "2120612975018955227",
+    "2120404398677672432",
+    "2120310443285565563",
+    "2120233187112636745",
+    "2120575009777430974",
+    "2120761428831293871",
+    "2120606353953587303",
+    "2120366623219483049",
+    "2120812158363775311",
+    "2120574710245146814",
+    "2120577453823533134",
+    "2120662844287131896",
+    "2120834237213593805",
+    "2120834299868098637",
+    "2120852861600809284",
+    "2120776451607715862",
+    "2120841731302154708",
+    "2120876571829662014",
+    "2120856756393857450",
+    "2120804738031616095",
+    "2120808224324510133",
+    "2120805309757399534",
+    "2120797270341730587",
+    "2120798919059755181",
+    "2120637790329163833",
+    "2120609856671416610",
+    "2120576747062112408",
+    "2120563801552761217",
+    "2120920105299456066",
+    "2120913121116037278",
+    "2120581433639198885",
+    "2120834239377854806",
+    "2120879805042467174",
+    "2120931356914151835",
+    "2120894716006879552",
+    "2120940601319260164",
+    "2120946562620907823",
+    "2120895501662859445",
+    "2120924926278517131",
+    "2120955224810803419",
+    "2120973994191094179",
+    "2120945722959032358",
+    "2120973454866543042",
+    "2120924499637862414",
+    "2120979964535173612",
+    "2120584535423565889",
+    "2120746428720988408",
+    "2120736143566344324",
+    "2120972282096918904",
+    "2120978626132738178",
+    "2121026615228440796",
+    "2121023524567482716",
+    "2120992457630326841",
+    "2120921049097187618",
+    "2121010361398936037",
+    "2120974837623542258",
+    "2121045804852945188",
+    "2121061505160642660",
+    "2120909499200421900",
+    "2120909731963527300",
+    "2120995209261514827",
+    "2121111560198426851",
+    "2121111756982636852",
+    "2120946968403095906",
+    "2120856620708331791",
+    "2121083956724408551",
+    "2121105149644960133",
+    "2121023102452941188",
+    "2120933533552103859",
+    "2120683405205557628",
+    "2121086493712134314",
+    "2120951972706558431",
+    "2121179081043738742",
+    "2121187317008220447",
+    "2120962365172707803",
+    "2121069007159927248",
+    "2120909946623832213",
+    "2121046734751010930",
+    "2121138040508727707",
+    "2120864682026418629",
+    "2120938282204688468",
+    "2120858260521529455",
+    "2121254115028132000",
+    "2121250205806772283",
+    "2120975264264171994",
+    "2120945866462704106",
+    "2121282013600907325",
+    "2121293940909604988",
+    "2121311382218187128",
+    "2121064747625824279",
+    "2121095213829755333",
+    "2121249638829466038",
+    "2121329790942601427",
+    "2121327368610648070",
+    "2121337288655609915",
+    "2121341525678342451",
+    "2121092373526831501",
+    "2121068460428194287",
+    "2121351498181566589",
+    "2121357965815108080",
+    "2121357117583995134",
+    "2121360601377374680",
+    "2121214354699981193",
+    "2121316300702056595",
+    "2121045067632922696",
+    "2121351591106072679",
+    "2121303523296211449",
+    "2121384435241402737",
+    "2121347654714077605",
+    "2121353351468310803",
+    "2121373765317579140",
+    "2121374779680964991",
+    "2121388517540716839",
+    "2121360054330986967",
+    "2121363171361575176",
+    "2121428474816803089",
+    "2121205602474979387",
+    "2121365035268386914",
+    "2121332873240473829",
+    "2121312853558997410",
+    "2121423916006617237",
+    "2121425383480529346",
+    "2121412678409478247",
+    "2121401397346521412",
+    "2121111198108205371",
+    "2121345211959804234",
+    "2121321310395789404",
+    "2121424776027873564",
+    "2121319938472161392",
+    "2121453668612677873",
+    "2121622862339666275",
+    "2121305674965540978",
+    "2121257756216934790",
+    "2121664710743597410",
+    "2121519137667027013",
+    "2121715216597827756",
+    "2121710139967242497",
+    "2121724627667824796",
+    "2121711025695199660",
+    "2121686210565280020",
+    "2121607597211926983",
+    "2121401400391295202",
+    "2121755546487566426",
+    "2121627962629816614",
+    "2121777957450686817",
+    "2121780438025064539",
+    "2121763977349013884",
+    "2121771278583595471",
+    "2121774008878481433",
+    "2121757128524197950",
+    "2121789660817174686",
+    "2121790990440694115",
+    "2121785460968092045",
+    "2121357879341166683",
+    "2121652656284553648",
+    "2121635892548751752",
+    "2121809292110238171",
+    "2121860754089681295",
+    "2121848267663413723",
+    "2121822563009810445",
+    "2121822266891583782",
+    "2121558317944148258",
+    "2094898897260863652",
+    "2121822913762378094",
+    "2121802527524164015",
+    "2121619636827402302",
+    "2121770874885845044",
+    "2121605762027843726",
+    "2121773113239073260",
+    "2121673338221162684",
+    "2121764319792677119",
+    "2121646349892338167",
+    "2111018671519011308",
+    "2121807028759007634",
+    "2121650782701523334",
+    "2037883086570967104",
+    "2121777116018508128",
+    "2121828167560175914",
+    "2121786376685224056",
+    "2121739961485705327",
+    "2121654011724243235",
+    "2121878368165515544",
+    "2121572276617265490",
+    "2121802194517450941",
+    "2121790621644128413",
+    "2121807381902295184",
+    "2121777190375449019",
+    "2121807444657537434",
+    "2121779504578506995",
+    "2121783846236811298",
+    "2121664514219196467"
+   ]
+  },
+  {
+   "id": "trends.us",
+   "kind": "trends",
+   "desk": null,
+   "method": "get_trends_by_woeid 23424977 max 30",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2119583603206021555",
+    "2119587209909006716",
+    "2119640499497677074",
+    "2120992457630326841",
+    "2120864682026418629",
+    "2121257756216934790",
+    "2119138672536965426",
+    "2119165325698826436",
+    "2118591788701421573",
+    "2121822266891583782",
+    "2119805979583828413"
+   ]
+  },
+  {
+   "id": "trends.ww",
+   "kind": "trends",
+   "desk": null,
+   "method": "get_trends_by_woeid 1 max 30",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": []
+  },
+  {
+   "id": "viral.global",
+   "kind": "discovery",
+   "desk": null,
+   "method": "search_posts_all `is lang:en is:quote -is:retweet`, `you lang:en is:quote -is:retweet` and `\"and\" lang:en is:retweet`, newest first, 25 each; quoted and reposted originals screened by the global floor/pace, kept by views",
+   "window_hours": 24,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121605680213930064"
+   ]
+  },
+  {
+   "id": "rising.global",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run: cut by the plan (overnight band, requests/plan.json cut list)",
+   "window_hours": 6,
+   "status": "skipped",
+   "reason": "cut by the plan (overnight band)",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.culture",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run: rotation, news/money/science this run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "rotation: news/money/science this run",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.sports",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run: rotation, news/money/science this run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "rotation: news/money/science this run",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.online",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run: rotation, news/money/science this run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "rotation: news/money/science this run",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.news",
+   "kind": "discovery",
+   "desk": null,
+   "method": "search_posts_all (from:atrupar OR from:EricLDaugh OR from:LeadingReport OR from:visegrad24 OR from:Osint613 OR from:sethharpesq OR from:nfergus OR from:rawsalerts OR from:streetmediatv OR from:WFLA OR from:JimCantore OR from:BrandonCopicWx OR from:BBCBreaking OR from:SkyNews OR from:Reuters OR from:MeidasTouch OR from:CollinRugg OR from:Gerashchenko_en) -is:reply, newest first, 25; sensor posts and the origins they point at, screened by floor/pace",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121885934463406332",
+    "2121868919094882648",
+    "2121871118759829780",
+    "2121881340056326317",
+    "2121831411032138025",
+    "2121890973470900682",
+    "2121887208407785494",
+    "2121889656874618898",
+    "2121902666662260956"
+   ]
+  },
+  {
+   "id": "sensors.money",
+   "kind": "discovery",
+   "desk": null,
+   "method": "search_posts_all (from:unusual_whales OR from:TheStalwart OR from:biancoresearch OR from:markgurman OR from:MacRumors OR from:Variety OR from:DiscussingFilm OR from:WatcherGuru OR from:BitcoinMagazine OR from:Cointelegraph OR from:cryptorover OR from:AshCrypto OR from:BullTheoryio OR from:scottmelker OR from:BitcoinArchive OR from:GrantCardone) -is:reply, newest first, 25; sensor posts and the origins they point at, screened by floor/pace",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121837121858306062",
+    "2121861610012545295",
+    "2121870448669683909",
+    "2121828065278095840",
+    "2121878895385608471",
+    "2121826043933929869",
+    "2121894977777308048",
+    "2121882142955434115",
+    "2121893040314798375",
+    "2121868508854169938",
+    "2121838297794179191",
+    "2121853386207170713",
+    "2121883586815013051"
+   ]
+  },
+  {
+   "id": "sensors.science",
+   "kind": "discovery",
+   "desk": null,
+   "method": "search_posts_all (from:AndrewCurran_ OR from:kimmonismus OR from:jukan05 OR from:Hesamation OR from:marclou OR from:ryancarson OR from:NASAAdmin OR from:NASA OR from:SpaceX OR from:elonmusk OR from:sciencegirl OR from:ChildrensHD OR from:SecKennedy OR from:CDCgov) -is:reply, newest first, 25; sensor posts and the origins they point at, screened by floor/pace",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121875758704370144",
+    "2121875600906592260",
+    "2121875056817328621",
+    "2121777788797718785",
+    "2121689161845334396"
+   ]
+  },
+  {
+   "id": "desk.politics",
+   "kind": "desk",
+   "desk": "politics",
+   "method": "search_posts_all (Trump OR \"White House\" OR Congress OR Senate OR Democrats OR Republicans OR GOP OR \"Supreme Court\" OR election OR governor) lang:en is:retweet -is:reply, newest first, 25; reposted origins screened by desk floor/pace; keep at most five best",
+   "window_hours": 24,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121740578467856551",
+    "2121574101479534631",
+    "2121668849439248817"
+   ]
+  },
+  {
+   "id": "desk.entertainment",
+   "kind": "desk",
+   "desk": "entertainment",
+   "method": "search_posts_all (movie OR film OR trailer OR \"box office\" OR Netflix OR \"TV show\" OR episode OR season OR anime OR actor OR actress OR celebrity) lang:en is:retweet -is:reply, newest first, 25; reposted origins screened by desk floor/pace; keep at most five best",
+   "window_hours": 24,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121716179568091368",
+    "2121833298787774645"
+   ]
+  },
+  {
+   "id": "desk.sports",
+   "kind": "desk",
+   "desk": "sports",
+   "method": "search_posts_all (NFL OR NBA OR MLB OR NHL OR WNBA OR UFC OR \"Premier League\" OR soccer OR touchdown OR playoffs OR \"home run\" OR F1 OR golf OR tennis) lang:en is:retweet -is:reply, newest first, 25; reposted origins screened by desk floor/pace; keep at most five best",
+   "window_hours": 24,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121828167560175914",
+    "2121779504578506995",
+    "2121803085609947324",
+    "2121795141367189870"
+   ]
+  },
+  {
+   "id": "desk.internet",
+   "kind": "desk",
+   "desk": "internet",
+   "method": "search_posts_all (meme OR memes OR streamer OR stream OR Twitch OR Kick OR YouTuber OR TikTok OR influencer OR podcast OR fandom OR \"main character\") lang:en is:retweet -is:reply, newest first, 25; reposted origins screened by desk floor/pace; keep at most five best",
+   "window_hours": 24,
+   "status": "ok",
+   "reason": null,
+   "post_ids": [
+    "2121761927928131624",
+    "2121830555033694252"
+   ]
+  },
+  {
+   "id": "volume.desks",
+   "kind": "volume",
+   "desk": null,
+   "method": "get_posts_counts_recent granularity hour, `<standing query> lang:en`, start_time 2026-11-08T11:00:00Z, end_time 2026-11-15T10:00:00Z, for business and ai (plan items 6 and 7; tech and science, plan items 8 and 9, cut to stay within the 20-read allowance)",
+   "window_hours": null,
+   "status": "ok",
+   "reason": null,
+   "post_ids": []
+  }
+ ],
+ "trends": [
+  {
+   "region": "US",
+   "rank": 1,
+   "name": "AO3 IS BACK",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 2,
+   "name": "Gane",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 3,
+   "name": "Hokit",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 4,
+   "name": "#UFC334",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 5,
+   "name": "Utah",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 6,
+   "name": "#AEWFullGear",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 7,
+   "name": "Utes",
+   "post_count": null,
+   "story": null,
+   "post_ids": [
+    "2119583603206021555",
+    "2119587209909006716",
+    "2119640499497677074"
+   ]
+  },
+  {
+   "region": "US",
+   "rank": 8,
+   "name": "Arch",
+   "post_count": null,
+   "story": null,
+   "post_ids": [
+    "2120992457630326841",
+    "2120864682026418629",
+    "2121257756216934790"
+   ]
+  },
+  {
+   "region": "US",
+   "rank": 9,
+   "name": "Nunes",
+   "post_count": null,
+   "story": null,
+   "post_ids": [
+    "2119138672536965426",
+    "2119165325698826436"
+   ]
+  },
+  {
+   "region": "US",
+   "rank": 10,
+   "name": "Kayla Harrison",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 11,
+   "name": "#JAMESRegalEminence",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 12,
+   "name": "JAMES CROWNED IN LAURELS",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 13,
+   "name": "ITS BACK",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 14,
+   "name": "Fifita",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 15,
+   "name": "Dampier",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 16,
+   "name": "CHAORISMA",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 17,
+   "name": "IDEA BANK",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 18,
+   "name": "JAMOVATION",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 19,
+   "name": "Lane Kiffin",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 20,
+   "name": "AO3 IS UP",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 21,
+   "name": "Ospreay",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 22,
+   "name": "Daniel Bray",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 23,
+   "name": "#ラブライブフェス_Day2",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 24,
+   "name": "Texas",
+   "post_count": null,
+   "story": null,
+   "post_ids": [
+    "2118591788701421573",
+    "2121822266891583782",
+    "2119805979583828413"
+   ]
+  },
+  {
+   "region": "US",
+   "rank": 25,
+   "name": "Sark",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 26,
+   "name": "#HookEm",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 27,
+   "name": "Leavitt",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 28,
+   "name": "Pac 12",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 29,
+   "name": "Pacheco",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "US",
+   "rank": 30,
+   "name": "Holland",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 1,
+   "name": "#PBBCollab3SecondNomi",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 2,
+   "name": "デアリングタクト",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 3,
+   "name": "AO3 IS BACK",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 4,
+   "name": "ラフターラインズ",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 5,
+   "name": "#櫻坂6thアニラ_DAY2",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 6,
+   "name": "プリコネ",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 7,
+   "name": "#TheWallSong6THxPuinoonBint",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 8,
+   "name": "#ラブライブフェス_Day2",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 9,
+   "name": "#相葉マナブ",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 10,
+   "name": "エリザベス女王杯",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 11,
+   "name": "カムニャック",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 12,
+   "name": "BBS BELA",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 13,
+   "name": "デアタク",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 14,
+   "name": "GEHLEEgtas ANG PRINCESS",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 15,
+   "name": "DUNK ENCORE URANUS THAPRA",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 16,
+   "name": "SUNRANGHAE JEOLEE",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 17,
+   "name": "JSCEAN MAKAIFAM FOREVER",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 18,
+   "name": "武豊騎手",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 19,
+   "name": "タクトちゃん",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 20,
+   "name": "CAFE MOMENT WITH GAWIN",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 21,
+   "name": "レイソル",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 22,
+   "name": "コントレイル",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 23,
+   "name": "Hokit",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 24,
+   "name": "Gane",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 25,
+   "name": "MILKLOVE MUVSICAL HOUSE",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 26,
+   "name": "新時代の扉",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 27,
+   "name": "マイルCS",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 28,
+   "name": "LIGTASK SI JEO",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 29,
+   "name": "フロンターレ",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  },
+  {
+   "region": "WW",
+   "rank": 30,
+   "name": "アクアヴァーナル",
+   "post_count": null,
+   "story": null,
+   "post_ids": []
+  }
+ ],
+ "posts": [
+  {
+   "id": "2121795141367189870",
+   "url": "https://x.com/FoxNews/status/2121795141367189870",
+   "created_at": "2026-11-15T02:39:17.000Z",
+   "lang": "en",
+   "text": "Eight minutes to get President Trump into the Oval Office, with a storm threatening to derail the Freedom 250 UFC fight at the White House.\n\nDana White tells @LaraLeaTrump on @MyViewFNC how his head of production made an urgent call as the team scrambled to pull off a critical https://t.co/WeOpQXj91F",
+   "author": {
+    "handle": "FoxNews",
+    "name": "Fox News",
+    "followers": 29461764,
+    "verified": "blue",
+    "kind": "news"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "sports",
+   "beat": "combat",
+   "topic": null,
+   "lead": "desk.sports origin"
+  },
+  {
+   "id": "2121885934463406332",
+   "url": "https://x.com/Reuters/status/2121885934463406332",
+   "created_at": "2026-11-15T08:40:04.000Z",
+   "lang": null,
+   "text": "Yemen government forces withdraw from area near Bab el-Mandeb Strait, Houthis in control https://t.co/aERrRVD4om",
+   "author": {
+    "handle": "Reuters",
+    "name": "Reuters",
+    "followers": 26454968,
+    "verified": "business",
+    "kind": "news"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "middle-east",
+   "topic": null,
+   "lead": "sensors.news; about 72945 views an hour"
+  },
+  {
+   "id": "2121868919094882648",
+   "url": "https://x.com/SkyNews/status/2121868919094882648",
+   "created_at": "2026-11-15T07:32:27.000Z",
+   "lang": null,
+   "text": "Minister says 'changing age of consent deserves proper consideration' after Brand allegations https://t.co/zgOzGIgy5L",
+   "author": {
+    "handle": "SkyNews",
+    "name": "Sky News",
+    "followers": 9145820,
+    "verified": "business",
+    "kind": "news"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "europe",
+   "topic": null,
+   "lead": "sensors.news; about 26397 views an hour"
+  },
+  {
+   "id": "2121871118759829780",
+   "url": "https://x.com/Osint613/status/2121871118759829780",
+   "created_at": "2026-11-15T07:41:11.000Z",
+   "lang": null,
+   "text": "U.S. intelligence estimates that Iran possesses between 1,500 and 2,500 missiles. - WSJ\n\nContributed by @Conflict_Radar https://t.co/iKLmn5qcSn",
+   "author": {
+    "handle": "Osint613",
+    "name": "Open Source Intel",
+    "followers": 1799731,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "defense",
+   "beat": "weapons",
+   "topic": null,
+   "lead": "sensors.news"
+  },
+  {
+   "id": "2121881340056326317",
+   "url": "https://x.com/SkyNews/status/2121881340056326317",
+   "created_at": "2026-11-15T08:21:48.000Z",
+   "lang": null,
+   "text": "Raw liver, raw chicken and not a vegetable in sight. Can eating raw meat make you stronger, healthier or more masculine? \n\nSky's @SeabrookClimate speaks to the men who claim it can.\n\nWatch the full video here⬇️\nhttps://t.co/bqwuQ9xDks https://t.co/3GuPypzDh3",
+   "author": {
+    "handle": "SkyNews",
+    "name": "Sky News",
+    "followers": 9145820,
+    "verified": "business",
+    "kind": "news"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 80.12,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "medicine",
+   "beat": "wellness",
+   "topic": null,
+   "lead": "sensors.news"
+  },
+  {
+   "id": "2121831411032138025",
+   "url": "https://x.com/Gerashchenko_en/status/2121831411032138025",
+   "created_at": "2026-11-15T05:03:24.000Z",
+   "lang": null,
+   "text": "A massive fire at Nizhnekamskneftekhim in Russia's Tatarstan after an attack.\n\nIt is one of the largest petrochemical complexes in Russia and Eastern Europe. Part of SIBUR, the facility processes feedstock from the TAIF-NK and TANECO refineries and manufactures synthetic rubber, https://t.co/vdWB46CLCN",
+   "author": {
+    "handle": "Gerashchenko_en",
+    "name": "Anton Gerashchenko",
+    "followers": 696153,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "conflict",
+   "topic": null,
+   "lead": "sensors.news"
+  },
+  {
+   "id": "2121890973470900682",
+   "url": "https://x.com/Reuters/status/2121890973470900682",
+   "created_at": "2026-11-15T09:00:05.000Z",
+   "lang": null,
+   "text": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base https://t.co/xz4FjmIlk5",
+   "author": {
+    "handle": "Reuters",
+    "name": "Reuters",
+    "followers": 26454968,
+    "verified": "business",
+    "kind": "news"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "middle-east",
+   "topic": null,
+   "lead": "sensors.news; about 27162 views an hour"
+  },
+  {
+   "id": "2121887208407785494",
+   "url": "https://x.com/Reuters/status/2121887208407785494",
+   "created_at": "2026-11-15T08:45:07.000Z",
+   "lang": null,
+   "text": "🔊 On this episode of The Big View podcast, AI pioneer and investor Kai-Fu Lee tells Peter Thal Larsen why most companies aren’t seeing benefits from AI, and why those that develop new applications will reap the biggest rewards https://t.co/p55eCiEpw8",
+   "author": {
+    "handle": "Reuters",
+    "name": "Reuters",
+    "followers": 26454968,
+    "verified": "business",
+    "kind": "news"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "ai",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.news"
+  },
+  {
+   "id": "2121889656874618898",
+   "url": "https://x.com/SkyNews/status/2121889656874618898",
+   "created_at": "2026-11-15T08:54:51.000Z",
+   "lang": null,
+   "text": "'The most significant challenge facing our country.'\n\nHistorian, broadcaster and author @DavidOlusoga discusses the NEETS crisis in this weeks Sunday Morning With...\n\nhttps://t.co/mFrfbZynow\n\n📺 Sky 501, Virgin 602, Freeview 233 and YouTube https://t.co/J1psPWVWNb",
+   "author": {
+    "handle": "SkyNews",
+    "name": "Sky News",
+    "followers": 9145820,
+    "verified": "business",
+    "kind": "news"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 78.96,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "europe",
+   "topic": null,
+   "lead": "sensors.news"
+  },
+  {
+   "id": "2121902666662260956",
+   "url": "https://x.com/Osint613/status/2121902666662260956",
+   "created_at": "2026-11-15T09:46:33.000Z",
+   "lang": null,
+   "text": "Iran confirms it launched 6 drones at U.S. assets in Bahrain overnight. \n\nAccording to preliminary reports, all were intercepted.  https://t.co/9NdVrBHfnX",
+   "author": {
+    "handle": "Osint613",
+    "name": "Open Source Intel",
+    "followers": 1799731,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 31.483,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "world",
+   "beat": "conflict",
+   "topic": null,
+   "lead": "sensors.news; about 44110 views an hour"
+  },
+  {
+   "id": "2121870448669683909",
+   "url": "https://x.com/cryptorover/status/2121870448669683909",
+   "created_at": "2026-11-15T07:38:32.000Z",
+   "lang": null,
+   "text": "If you’re worried about the Bitcoin crash, check out this account.\n\nThis analyst called the $58K low and will call the bottom again using this indicator.\n\nOne of the few I trust. https://t.co/nIJqpA0CUu",
+   "author": {
+    "handle": "cryptorover",
+    "name": "Crypto Rover",
+    "followers": 1623954,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": "2121869560190226714",
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.money"
+  },
+  {
+   "id": "2121878895385608471",
+   "url": "https://x.com/AshCrypto/status/2121878895385608471",
+   "created_at": "2026-11-15T08:12:05.000Z",
+   "lang": null,
+   "text": "We fucking need this now https://t.co/5Y0QXIicBt",
+   "author": {
+    "handle": "AshCrypto",
+    "name": "Ash Crypto",
+    "followers": 2153004,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.money; about 29797 views an hour"
+  },
+  {
+   "id": "2121894977777308048",
+   "url": "https://x.com/AshCrypto/status/2121894977777308048",
+   "created_at": "2026-11-15T09:16:00.000Z",
+   "lang": null,
+   "text": "BITCOIN IS PUMPING BACK UP\n\nIt's now up +$4,000 from today's low and back above $66,000.\n\n$875 Million got liquidated in the last 12 hours. https://t.co/NHUnIJpDYJ",
+   "author": {
+    "handle": "AshCrypto",
+    "name": "Ash Crypto",
+    "followers": 2153004,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.money; about 58240 views an hour"
+  },
+  {
+   "id": "2121882142955434115",
+   "url": "https://x.com/cryptorover/status/2121882142955434115",
+   "created_at": "2026-11-15T08:25:00.000Z",
+   "lang": null,
+   "text": "BREAKING: Bitcoin Fear and Greed index hits 10. \n\nEXTREME fear... 🩸 https://t.co/42c8yGJtl0",
+   "author": {
+    "handle": "cryptorover",
+    "name": "Crypto Rover",
+    "followers": 1623954,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.money; about 27782 views an hour"
+  },
+  {
+   "id": "2121893040314798375",
+   "url": "https://x.com/cryptorover/status/2121893040314798375",
+   "created_at": "2026-11-15T09:08:18.000Z",
+   "lang": null,
+   "text": "🚨 Bitcoin and Ethereum are BOUNCING BACK HARD!\n\nBitcoin is up over $4,000 from its lows, while Ethereum has surged more than $110.\n\nIs this the beginning of the MASSIVE relief rally we’ve been waiting for? https://t.co/KqYjPtfl62",
+   "author": {
+    "handle": "cryptorover",
+    "name": "Crypto Rover",
+    "followers": 1623954,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    },
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.money; about 43909 views an hour"
+  },
+  {
+   "id": "2121868508854169938",
+   "url": "https://x.com/Cointelegraph/status/2121868508854169938",
+   "created_at": "2026-11-15T07:30:49.000Z",
+   "lang": null,
+   "text": "🔥 NEW: Tom Lee blames the crypto dump on Nvidia margin calls, pre-Anthropic IPO selling, released hack funds, AI fear and US chip-export scrutiny.\n\nHis verdict is that this is a supercycle and the headwinds will pass.\n\nWhat do you say? https://t.co/xR58tKWkXC",
+   "author": {
+    "handle": "Cointelegraph",
+    "name": "Cointelegraph",
+    "followers": 2928795,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    },
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": null,
+   "topic": null,
+   "lead": "sensors.money"
+  },
+  {
+   "id": "2121883586815013051",
+   "url": "https://x.com/Cointelegraph/status/2121883586815013051",
+   "created_at": "2026-11-15T08:30:44.000Z",
+   "lang": null,
+   "text": "🇹🇭 NEW: Thai police arrested two Chinese nationals in Bangkok wanted over a crypto pyramid scheme worth over $92M. https://t.co/rbXXp6V1RU",
+   "author": {
+    "handle": "Cointelegraph",
+    "name": "Cointelegraph",
+    "followers": 2928795,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    },
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "justice",
+   "beat": "crime",
+   "topic": null,
+   "lead": "sensors.money"
+  },
+  {
+   "id": "2121875758704370144",
+   "url": "https://x.com/elonmusk/status/2121875758704370144",
+   "created_at": "2026-11-15T07:59:38.000Z",
+   "lang": null,
+   "text": "5 years ago https://t.co/PvHI3xcTJf",
+   "author": {
+    "handle": "elonmusk",
+    "name": "Elon Musk",
+    "followers": 240817910,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": "2121750619816095753",
+   "note": null,
+   "flags": [],
+   "desk": "science",
+   "beat": "space",
+   "topic": null,
+   "lead": "sensors.science; about 351788 views an hour"
+  },
+  {
+   "id": "2121875600906592260",
+   "url": "https://x.com/elonmusk/status/2121875600906592260",
+   "created_at": "2026-11-15T07:59:00.000Z",
+   "lang": null,
+   "text": "This gives a clear sense of the catch maneuver https://t.co/5IlsUeDFnd",
+   "author": {
+    "handle": "elonmusk",
+    "name": "Elon Musk",
+    "followers": 240817910,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": "2121773282919649324",
+   "note": null,
+   "flags": [],
+   "desk": "science",
+   "beat": "space",
+   "topic": null,
+   "lead": "sensors.science; about 327175 views an hour"
+  },
+  {
+   "id": "2121875056817328621",
+   "url": "https://x.com/elonmusk/status/2121875056817328621",
+   "created_at": "2026-11-15T07:56:50.000Z",
+   "lang": null,
+   "text": "Great day https://t.co/B3sFYvxicR",
+   "author": {
+    "handle": "elonmusk",
+    "name": "Elon Musk",
+    "followers": 240817910,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": "2121773351093895413",
+   "note": null,
+   "flags": [],
+   "desk": "science",
+   "beat": "space",
+   "topic": null,
+   "lead": "sensors.science; about 301884 views an hour"
+  },
+  {
+   "id": "2121777788797718785",
+   "url": "https://x.com/GavinSBaker/status/2121777788797718785",
+   "created_at": "2026-11-15T01:30:20.000Z",
+   "lang": null,
+   "text": "If you have kids, I highly recommend taking them to a launch. You can watch from the Margaritaville, the town beach or many other viewing locations open to the public. \n\nSad to miss this one, great day for 🇺🇸 https://t.co/NhSfdiWC7k",
+   "author": {
+    "handle": "GavinSBaker",
+    "name": "Gavin Baker",
+    "followers": 372027,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "science",
+   "beat": "space",
+   "topic": null,
+   "lead": "sensors.science"
+  },
+  {
+   "id": "2121605680213930064",
+   "url": "https://x.com/narendramodi/status/2121605680213930064",
+   "created_at": "2026-11-14T14:06:26.000Z",
+   "lang": "en",
+   "text": "Outstanding day for Indian cricket! \n\nImmensely proud of our young cricketers for today’s impressive performance and for winning the Men’s U-19 Asia Cup 2026. Their success will inspire several youngsters. \n\nBest wishes to the team for their endeavours ahead. https://t.co/Qbrp8q8bvg",
+   "author": {
+    "handle": "narendramodi",
+    "name": "Narendra Modi",
+    "followers": 107027923,
+    "verified": "government",
+    "kind": "official"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": "2121591853632102886",
+   "note": null,
+   "flags": [],
+   "desk": "sports",
+   "beat": null,
+   "topic": null,
+   "lead": "viral.global from the quote or repost stream; seen in the quote or repost stream in 1 of the last 6 runs"
+  },
+  {
+   "id": "2096882881499111922",
+   "url": "https://x.com/wagura_katora/status/2096882881499111922",
+   "created_at": "2026-09-07T08:46:51.000Z",
+   "lang": null,
+   "text": "【フルアーマーガンダム〔cost450〕、筋トレ後の足腰】\n鈍重支援機　⭕️⭕️⭕️⭕️⭕️\n扱いやすさ　⭕️⭕️⚪︎⚪︎⚪︎\nポテンシャル　⭕️⭕️⚪︎⚪︎⚪︎\nレート適正　⭕️⚪︎⚪︎⚪︎⚪︎ https://t.co/Pf6pcCLNI8",
+   "author": {
+    "handle": "wagura_katora",
+    "name": "バトオペ機体紹介屋とうふのはんばーく",
+    "followers": 3638,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [
+    "old_content"
+   ],
+   "desk": "gaming",
+   "beat": "community",
+   "topic": null,
+   "lead": "pointed at by 2 posts read this run; seen in the quote or repost stream in 1 of the last 6 runs; origin more than 7 days older than a post that pointed to it"
+  },
+  {
+   "id": "1594811401972989957",
+   "url": "https://x.com/natalie_Zion_/status/1594811401972989957",
+   "created_at": "2022-11-21T21:54:03.000Z",
+   "lang": null,
+   "text": "The Black Hebrew Israelites are an extreme terrorist organisation. In this thread you will learn about; \n♦️The terrorist attacks they have carried out\n♦️Who the BHI's are\n♦️Their extremist ideology\nFalse claims\n♦️The FBI arrested leaders for Fraud,embezzlement,terrorism, violence https://t.co/J3UvUEKb6N",
+   "author": {
+    "handle": "natalie_Zion_",
+    "name": "Natalie_Z",
+    "followers": 30529,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [
+    "old_content"
+   ],
+   "desk": "justice",
+   "beat": "crime",
+   "topic": null,
+   "lead": "seen in the quote or repost stream in 1 of the last 6 runs; origin more than 7 days older than a post that pointed to it"
+  },
+  {
+   "id": "2121860754089681295",
+   "url": "https://x.com/FabrizioRomano/status/2121860754089681295",
+   "created_at": "2026-11-15T07:00:00.000Z",
+   "lang": "en",
+   "text": "❤️ Declan Rice: “My son is a huge fan of Lamine. I told him I was going to play against him, and he kept asking me why I was going to face Lamine!”.\n\n“But Lamine was really lovely to him, and as a father, I really appreciated that gesture. Such kindness”.\n\n“I know he has a younger brother he looks after, so I think it comes naturally to him. I was really touched by that gesture. It shows just how respectful and humble Lamine is”.",
+   "author": {
+    "handle": "FabrizioRomano",
+    "name": "Fabrizio Romano",
+    "followers": 29185510,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    },
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "sports",
+   "beat": "soccer",
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2121807444657537434",
+   "url": "https://x.com/NBA/status/2121807444657537434",
+   "created_at": "2026-11-15T03:28:10.000Z",
+   "lang": "en",
+   "text": "CLEVELAND: NEXT. MAN. UP!\n\nWith no player available averaging 25+ MPG coming into tonight, Cleveland's bench stepped up to the challenge and secured the W 🔥\n\nTyrese Proctor: 24p, 11r, 10a, 4 threes\nMario Hezonja: 22p, 7r, 4a\nMeleek Thomas:  20p, 4r, 3 threes\nThomas Bryant: 19p, 11r\nJaylon Tyson: 18p, 4r, 4a, 3 threes",
+   "author": {
+    "handle": "NBA",
+    "name": "NBA",
+    "followers": 47092297,
+    "verified": "business",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 46.811,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "sports",
+   "beat": "nba",
+   "topic": null,
+   "lead": null
+  }
+ ],
+ "observations": [
+  {
+   "id": "2121721987794174178",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 939384,
+   "likes": 36725,
+   "reposts": 1453,
+   "quotes": 52,
+   "replies": 384,
+   "bookmarks": 664,
+   "approx": false
+  },
+  {
+   "id": "2120878186154139750",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6079918,
+   "likes": 8294,
+   "reposts": 1047,
+   "quotes": 1114,
+   "replies": 1337,
+   "bookmarks": 964,
+   "approx": false
+  },
+  {
+   "id": "2024917454301065480",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 39483790,
+   "likes": 254225,
+   "reposts": 19230,
+   "quotes": 1050,
+   "replies": 8544,
+   "bookmarks": 16291,
+   "approx": false
+  },
+  {
+   "id": "2120102767624880364",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8259842,
+   "likes": 120663,
+   "reposts": 11023,
+   "quotes": 975,
+   "replies": 6348,
+   "bookmarks": 3923,
+   "approx": false
+  },
+  {
+   "id": "2120163794370367715",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3139996,
+   "likes": 9764,
+   "reposts": 417,
+   "quotes": 849,
+   "replies": 1430,
+   "bookmarks": 1015,
+   "approx": false
+  },
+  {
+   "id": "2119795136003518716",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2863538,
+   "likes": 66170,
+   "reposts": 9300,
+   "quotes": 613,
+   "replies": 10982,
+   "bookmarks": 1912,
+   "approx": false
+  },
+  {
+   "id": "2118704961638789583",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 15706074,
+   "likes": 74672,
+   "reposts": 10230,
+   "quotes": 6181,
+   "replies": 1787,
+   "bookmarks": 12020,
+   "approx": false
+  },
+  {
+   "id": "2118721013831946695",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1991028,
+   "likes": 14560,
+   "reposts": 4057,
+   "quotes": 1295,
+   "replies": 168,
+   "bookmarks": 713,
+   "approx": false
+  },
+  {
+   "id": "2118781463382331432",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3856229,
+   "likes": 40956,
+   "reposts": 7553,
+   "quotes": 1381,
+   "replies": 5082,
+   "bookmarks": 1210,
+   "approx": false
+  },
+  {
+   "id": "2118854441063600539",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 17758327,
+   "likes": 19097,
+   "reposts": 2268,
+   "quotes": 150,
+   "replies": 1142,
+   "bookmarks": 1181,
+   "approx": false
+  },
+  {
+   "id": "2118856351858430019",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 9879228,
+   "likes": 19503,
+   "reposts": 5258,
+   "quotes": 6361,
+   "replies": 10483,
+   "bookmarks": 6070,
+   "approx": false
+  },
+  {
+   "id": "2118591788701421573",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10151221,
+   "likes": 89589,
+   "reposts": 5698,
+   "quotes": 2726,
+   "replies": 8488,
+   "bookmarks": 3639,
+   "approx": false
+  },
+  {
+   "id": "2118717555598614919",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1808412,
+   "likes": 3518,
+   "reposts": 543,
+   "quotes": 1092,
+   "replies": 501,
+   "bookmarks": 403,
+   "approx": false
+  },
+  {
+   "id": "2118707092571750824",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 13870006,
+   "likes": 145707,
+   "reposts": 19954,
+   "quotes": 1971,
+   "replies": 2902,
+   "bookmarks": 38818,
+   "approx": false
+  },
+  {
+   "id": "2118720752379899907",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 725200,
+   "likes": 9696,
+   "reposts": 943,
+   "quotes": 92,
+   "replies": 366,
+   "bookmarks": 167,
+   "approx": false
+  },
+  {
+   "id": "2118674774440435905",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4432804,
+   "likes": 25720,
+   "reposts": 3151,
+   "quotes": 690,
+   "replies": 710,
+   "bookmarks": 1088,
+   "approx": false
+  },
+  {
+   "id": "2118719281038770389",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 38986050,
+   "likes": 31351,
+   "reposts": 4272,
+   "quotes": 628,
+   "replies": 1294,
+   "bookmarks": 6460,
+   "approx": false
+  },
+  {
+   "id": "2118732082843435305",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5235816,
+   "likes": 95438,
+   "reposts": 11382,
+   "quotes": 1116,
+   "replies": 6771,
+   "bookmarks": 3518,
+   "approx": false
+  },
+  {
+   "id": "2118830445915734194",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 474672,
+   "likes": 4290,
+   "reposts": 740,
+   "quotes": 61,
+   "replies": 86,
+   "bookmarks": 352,
+   "approx": false
+  },
+  {
+   "id": "2118830021863215410",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1878194,
+   "likes": 8320,
+   "reposts": 509,
+   "quotes": 366,
+   "replies": 338,
+   "bookmarks": 240,
+   "approx": false
+  },
+  {
+   "id": "2118799897583354187",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 132663,
+   "likes": 3341,
+   "reposts": 362,
+   "quotes": 34,
+   "replies": 933,
+   "bookmarks": 57,
+   "approx": false
+  },
+  {
+   "id": "2118795008379908136",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2861354,
+   "likes": 25130,
+   "reposts": 3781,
+   "quotes": 1920,
+   "replies": 23988,
+   "bookmarks": 947,
+   "approx": false
+  },
+  {
+   "id": "2118802852646715663",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1088250,
+   "likes": 3298,
+   "reposts": 695,
+   "quotes": 128,
+   "replies": 1436,
+   "bookmarks": 210,
+   "approx": false
+  },
+  {
+   "id": "2118888656589238392",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 195241,
+   "likes": 591,
+   "reposts": 93,
+   "quotes": 94,
+   "replies": 16,
+   "bookmarks": 63,
+   "approx": false
+  },
+  {
+   "id": "2118889570561556500",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7539579,
+   "likes": 89922,
+   "reposts": 4824,
+   "quotes": 6005,
+   "replies": 1327,
+   "bookmarks": 4406,
+   "approx": false
+  },
+  {
+   "id": "2118652451993587895",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 615741,
+   "likes": 1261,
+   "reposts": 216,
+   "quotes": 162,
+   "replies": 189,
+   "bookmarks": 151,
+   "approx": false
+  },
+  {
+   "id": "2118888594563596455",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 798648,
+   "likes": 5199,
+   "reposts": 529,
+   "quotes": 146,
+   "replies": 129,
+   "bookmarks": 242,
+   "approx": false
+  },
+  {
+   "id": "2118819452313575707",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1409835,
+   "likes": 11528,
+   "reposts": 1047,
+   "quotes": 186,
+   "replies": 223,
+   "bookmarks": 294,
+   "approx": false
+  },
+  {
+   "id": "2118718688748777545",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5326590,
+   "likes": 14354,
+   "reposts": 1083,
+   "quotes": 64,
+   "replies": 141,
+   "bookmarks": 538,
+   "approx": false
+  },
+  {
+   "id": "2118737725964837353",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10250316,
+   "likes": 124796,
+   "reposts": 15468,
+   "quotes": 886,
+   "replies": 4787,
+   "bookmarks": 5495,
+   "approx": false
+  },
+  {
+   "id": "2118878848305484277",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8327945,
+   "likes": 10478,
+   "reposts": 2338,
+   "quotes": 1591,
+   "replies": 3491,
+   "bookmarks": 3618,
+   "approx": false
+  },
+  {
+   "id": "2118900845370875984",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5752387,
+   "likes": 24949,
+   "reposts": 994,
+   "quotes": 3313,
+   "replies": 796,
+   "bookmarks": 2352,
+   "approx": false
+  },
+  {
+   "id": "2118862906150601176",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1218857,
+   "likes": 4813,
+   "reposts": 149,
+   "quotes": 97,
+   "replies": 128,
+   "bookmarks": 451,
+   "approx": false
+  },
+  {
+   "id": "2119029619341013080",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2249258,
+   "likes": 114683,
+   "reposts": 21756,
+   "quotes": 1072,
+   "replies": 6699,
+   "bookmarks": 1472,
+   "approx": false
+  },
+  {
+   "id": "2119088902866690441",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1532335,
+   "likes": 2579,
+   "reposts": 489,
+   "quotes": 163,
+   "replies": 372,
+   "bookmarks": 255,
+   "approx": false
+  },
+  {
+   "id": "2119078784892621164",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 74561,
+   "likes": 324,
+   "reposts": 56,
+   "quotes": 6,
+   "replies": 4,
+   "bookmarks": 19,
+   "approx": false
+  },
+  {
+   "id": "2119077871775793615",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 330082,
+   "likes": 11196,
+   "reposts": 4584,
+   "quotes": 214,
+   "replies": 413,
+   "bookmarks": 572,
+   "approx": false
+  },
+  {
+   "id": "2118871810225615067",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 899982,
+   "likes": 1156,
+   "reposts": 275,
+   "quotes": 65,
+   "replies": 335,
+   "bookmarks": 165,
+   "approx": false
+  },
+  {
+   "id": "2118712858326302770",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2525431,
+   "likes": 18572,
+   "reposts": 752,
+   "quotes": 66,
+   "replies": 114,
+   "bookmarks": 4503,
+   "approx": false
+  },
+  {
+   "id": "2119165325698826436",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 98475,
+   "likes": 224,
+   "reposts": 47,
+   "quotes": 57,
+   "replies": 86,
+   "bookmarks": 38,
+   "approx": false
+  },
+  {
+   "id": "2119208291603525764",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 148210,
+   "likes": 96,
+   "reposts": 32,
+   "quotes": 4,
+   "replies": 63,
+   "bookmarks": 14,
+   "approx": false
+  },
+  {
+   "id": "2119196670043033897",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1429642,
+   "likes": 10382,
+   "reposts": 327,
+   "quotes": 125,
+   "replies": 235,
+   "bookmarks": 279,
+   "approx": false
+  },
+  {
+   "id": "2119157583533515245",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1164654,
+   "likes": 6482,
+   "reposts": 1693,
+   "quotes": 249,
+   "replies": 155,
+   "bookmarks": 418,
+   "approx": false
+  },
+  {
+   "id": "2119225920590328115",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 61108,
+   "likes": 35,
+   "reposts": 16,
+   "quotes": 3,
+   "replies": 12,
+   "bookmarks": 7,
+   "approx": false
+  },
+  {
+   "id": "2119139183746822639",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 895683,
+   "likes": 4435,
+   "reposts": 352,
+   "quotes": 361,
+   "replies": 489,
+   "bookmarks": 550,
+   "approx": false
+  },
+  {
+   "id": "2119125830462828593",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1205479,
+   "likes": 33073,
+   "reposts": 9784,
+   "quotes": 386,
+   "replies": 1656,
+   "bookmarks": 1370,
+   "approx": false
+  },
+  {
+   "id": "2119146928436887774",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1310140,
+   "likes": 6387,
+   "reposts": 1322,
+   "quotes": 103,
+   "replies": 1153,
+   "bookmarks": 331,
+   "approx": false
+  },
+  {
+   "id": "2119185943664173142",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1382006,
+   "likes": 14821,
+   "reposts": 1212,
+   "quotes": 354,
+   "replies": 250,
+   "bookmarks": 558,
+   "approx": false
+  },
+  {
+   "id": "2119211124906148159",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1472204,
+   "likes": 4823,
+   "reposts": 436,
+   "quotes": 122,
+   "replies": 183,
+   "bookmarks": 515,
+   "approx": false
+  },
+  {
+   "id": "2119029831497044188",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5319944,
+   "likes": 86847,
+   "reposts": 36588,
+   "quotes": 3412,
+   "replies": 6252,
+   "bookmarks": 5069,
+   "approx": false
+  },
+  {
+   "id": "2119138672536965426",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2924292,
+   "likes": 5537,
+   "reposts": 922,
+   "quotes": 1215,
+   "replies": 1439,
+   "bookmarks": 986,
+   "approx": false
+  },
+  {
+   "id": "2119051697301647700",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 18788121,
+   "likes": 68173,
+   "reposts": 3132,
+   "quotes": 2041,
+   "replies": 3170,
+   "bookmarks": 12889,
+   "approx": false
+  },
+  {
+   "id": "2119043594984280069",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6972660,
+   "likes": 1354,
+   "reposts": 94,
+   "quotes": 58,
+   "replies": 70,
+   "bookmarks": 130,
+   "approx": false
+  },
+  {
+   "id": "2119093662957060389",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3531245,
+   "likes": 25214,
+   "reposts": 3667,
+   "quotes": 910,
+   "replies": 1151,
+   "bookmarks": 1958,
+   "approx": false
+  },
+  {
+   "id": "2119303935743705097",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 330336,
+   "likes": 466,
+   "reposts": 114,
+   "quotes": 16,
+   "replies": 70,
+   "bookmarks": 44,
+   "approx": false
+  },
+  {
+   "id": "2119309593239011715",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 117428,
+   "likes": 709,
+   "reposts": 58,
+   "quotes": 4,
+   "replies": 22,
+   "bookmarks": 27,
+   "approx": false
+  },
+  {
+   "id": "2119311698855375231",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1943568,
+   "likes": 29617,
+   "reposts": 9131,
+   "quotes": 667,
+   "replies": 360,
+   "bookmarks": 2746,
+   "approx": false
+  },
+  {
+   "id": "2119351671251968297",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 616098,
+   "likes": 1157,
+   "reposts": 158,
+   "quotes": 28,
+   "replies": 62,
+   "bookmarks": 954,
+   "approx": false
+  },
+  {
+   "id": "2119116236470755624",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1899903,
+   "likes": 12918,
+   "reposts": 1319,
+   "quotes": 33,
+   "replies": 137,
+   "bookmarks": 7066,
+   "approx": false
+  },
+  {
+   "id": "2119113316308009416",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 719372,
+   "likes": 1381,
+   "reposts": 794,
+   "quotes": 5,
+   "replies": 118,
+   "bookmarks": 237,
+   "approx": false
+  },
+  {
+   "id": "2118893768984162668",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1185956,
+   "likes": 23346,
+   "reposts": 2185,
+   "quotes": 409,
+   "replies": 1479,
+   "bookmarks": 805,
+   "approx": false
+  },
+  {
+   "id": "2119293003340693687",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 14072600,
+   "likes": 22828,
+   "reposts": 1517,
+   "quotes": 510,
+   "replies": 256,
+   "bookmarks": 4476,
+   "approx": false
+  },
+  {
+   "id": "2119053001814098023",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1063947,
+   "likes": 11822,
+   "reposts": 666,
+   "quotes": 424,
+   "replies": 703,
+   "bookmarks": 1517,
+   "approx": false
+  },
+  {
+   "id": "2119077538307645513",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2614794,
+   "likes": 19603,
+   "reposts": 2507,
+   "quotes": 214,
+   "replies": 295,
+   "bookmarks": 5709,
+   "approx": false
+  },
+  {
+   "id": "2119083432835764635",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1187545,
+   "likes": 5559,
+   "reposts": 759,
+   "quotes": 149,
+   "replies": 846,
+   "bookmarks": 303,
+   "approx": false
+  },
+  {
+   "id": "2118911252910997578",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5707880,
+   "likes": 3455,
+   "reposts": 691,
+   "quotes": 162,
+   "replies": 323,
+   "bookmarks": 356,
+   "approx": false
+  },
+  {
+   "id": "2119071344075661320",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1172625,
+   "likes": 6845,
+   "reposts": 1395,
+   "quotes": 92,
+   "replies": 551,
+   "bookmarks": 308,
+   "approx": false
+  },
+  {
+   "id": "2119073619473248265",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1646760,
+   "likes": 8204,
+   "reposts": 1051,
+   "quotes": 214,
+   "replies": 376,
+   "bookmarks": 837,
+   "approx": false
+  },
+  {
+   "id": "2119304905642922169",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1131725,
+   "likes": 4648,
+   "reposts": 450,
+   "quotes": 55,
+   "replies": 128,
+   "bookmarks": 1461,
+   "approx": false
+  },
+  {
+   "id": "2119399953240092933",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3515417,
+   "likes": 8518,
+   "reposts": 1029,
+   "quotes": 618,
+   "replies": 330,
+   "bookmarks": 491,
+   "approx": false
+  },
+  {
+   "id": "2119359269774799256",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1058607,
+   "likes": 16975,
+   "reposts": 8528,
+   "quotes": 864,
+   "replies": 1811,
+   "bookmarks": 1287,
+   "approx": false
+  },
+  {
+   "id": "2119505045846999253",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8928524,
+   "likes": 86924,
+   "reposts": 5081,
+   "quotes": 20088,
+   "replies": 2658,
+   "bookmarks": 6056,
+   "approx": false
+  },
+  {
+   "id": "2118803158503755925",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 656635,
+   "likes": 100,
+   "reposts": 12,
+   "quotes": 0,
+   "replies": 14,
+   "bookmarks": 11,
+   "approx": false
+  },
+  {
+   "id": "2118794650563830159",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 44531,
+   "likes": 913,
+   "reposts": 116,
+   "quotes": 13,
+   "replies": 45,
+   "bookmarks": 113,
+   "approx": false
+  },
+  {
+   "id": "2118661203669012904",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 26430,
+   "likes": 301,
+   "reposts": 120,
+   "quotes": 16,
+   "replies": 59,
+   "bookmarks": 15,
+   "approx": false
+  },
+  {
+   "id": "2119505483019030962",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1155094,
+   "likes": 7306,
+   "reposts": 628,
+   "quotes": 510,
+   "replies": 1318,
+   "bookmarks": 1141,
+   "approx": false
+  },
+  {
+   "id": "2119500008688963965",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 538509,
+   "likes": 31732,
+   "reposts": 7672,
+   "quotes": 1248,
+   "replies": 293,
+   "bookmarks": 303,
+   "approx": false
+  },
+  {
+   "id": "2119500194882433212",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 776416,
+   "likes": 56817,
+   "reposts": 10637,
+   "quotes": 1048,
+   "replies": 231,
+   "bookmarks": 694,
+   "approx": false
+  },
+  {
+   "id": "2119508082124271628",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1343687,
+   "likes": 51502,
+   "reposts": 5675,
+   "quotes": 546,
+   "replies": 129,
+   "bookmarks": 1727,
+   "approx": false
+  },
+  {
+   "id": "2119435741528772981",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1389880,
+   "likes": 10893,
+   "reposts": 2584,
+   "quotes": 333,
+   "replies": 1239,
+   "bookmarks": 2527,
+   "approx": false
+  },
+  {
+   "id": "2119551689523179764",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2469685,
+   "likes": 15415,
+   "reposts": 2024,
+   "quotes": 779,
+   "replies": 1278,
+   "bookmarks": 818,
+   "approx": false
+  },
+  {
+   "id": "2119566187986120705",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7657924,
+   "likes": 85745,
+   "reposts": 9966,
+   "quotes": 1406,
+   "replies": 7467,
+   "bookmarks": 4223,
+   "approx": false
+  },
+  {
+   "id": "2119327820941808067",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4044834,
+   "likes": 4554,
+   "reposts": 372,
+   "quotes": 2877,
+   "replies": 916,
+   "bookmarks": 1384,
+   "approx": false
+  },
+  {
+   "id": "2119587209909006716",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6486569,
+   "likes": 8322,
+   "reposts": 1273,
+   "quotes": 229,
+   "replies": 697,
+   "bookmarks": 2721,
+   "approx": false
+  },
+  {
+   "id": "2119530419347656888",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 557661,
+   "likes": 1538,
+   "reposts": 138,
+   "quotes": 262,
+   "replies": 599,
+   "bookmarks": 150,
+   "approx": false
+  },
+  {
+   "id": "2119591969207066654",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 181267,
+   "likes": 1597,
+   "reposts": 174,
+   "quotes": 10,
+   "replies": 86,
+   "bookmarks": 295,
+   "approx": false
+  },
+  {
+   "id": "2119574647448498685",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1189898,
+   "likes": 4481,
+   "reposts": 551,
+   "quotes": 145,
+   "replies": 274,
+   "bookmarks": 732,
+   "approx": false
+  },
+  {
+   "id": "2119524963644276809",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8248375,
+   "likes": 24357,
+   "reposts": 1982,
+   "quotes": 1726,
+   "replies": 1727,
+   "bookmarks": 3204,
+   "approx": false
+  },
+  {
+   "id": "2119522315184583136",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6057809,
+   "likes": 10161,
+   "reposts": 760,
+   "quotes": 424,
+   "replies": 345,
+   "bookmarks": 904,
+   "approx": false
+  },
+  {
+   "id": "2119591047126982933",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 705098,
+   "likes": 2371,
+   "reposts": 213,
+   "quotes": 62,
+   "replies": 234,
+   "bookmarks": 387,
+   "approx": false
+  },
+  {
+   "id": "2119577504432501240",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 131700,
+   "likes": 749,
+   "reposts": 49,
+   "quotes": 15,
+   "replies": 79,
+   "bookmarks": 145,
+   "approx": false
+  },
+  {
+   "id": "2119588473724104732",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 87271,
+   "likes": 1234,
+   "reposts": 75,
+   "quotes": 11,
+   "replies": 47,
+   "bookmarks": 35,
+   "approx": false
+  },
+  {
+   "id": "2119523308580511928",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4541714,
+   "likes": 100389,
+   "reposts": 7264,
+   "quotes": 751,
+   "replies": 1350,
+   "bookmarks": 28608,
+   "approx": false
+  },
+  {
+   "id": "2119514946287423508",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6428444,
+   "likes": 23041,
+   "reposts": 2211,
+   "quotes": 701,
+   "replies": 368,
+   "bookmarks": 3159,
+   "approx": false
+  },
+  {
+   "id": "2119455675256614988",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 817711,
+   "likes": 508,
+   "reposts": 67,
+   "quotes": 71,
+   "replies": 72,
+   "bookmarks": 58,
+   "approx": false
+  },
+  {
+   "id": "2119339388463153524",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 649873,
+   "likes": 13308,
+   "reposts": 921,
+   "quotes": 265,
+   "replies": 812,
+   "bookmarks": 978,
+   "approx": false
+  },
+  {
+   "id": "2119670655180476885",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1380027,
+   "likes": 45943,
+   "reposts": 2016,
+   "quotes": 80,
+   "replies": 383,
+   "bookmarks": 187,
+   "approx": false
+  },
+  {
+   "id": "2119632049103675510",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 286173,
+   "likes": 420,
+   "reposts": 61,
+   "quotes": 4,
+   "replies": 54,
+   "bookmarks": 63,
+   "approx": false
+  },
+  {
+   "id": "2119598353218732358",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5130537,
+   "likes": 4787,
+   "reposts": 618,
+   "quotes": 328,
+   "replies": 355,
+   "bookmarks": 2652,
+   "approx": false
+  },
+  {
+   "id": "2119678179963187564",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 831658,
+   "likes": 12227,
+   "reposts": 1238,
+   "quotes": 367,
+   "replies": 485,
+   "bookmarks": 327,
+   "approx": false
+  },
+  {
+   "id": "2119698616478487001",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6656705,
+   "likes": 77778,
+   "reposts": 4868,
+   "quotes": 675,
+   "replies": 543,
+   "bookmarks": 11150,
+   "approx": false
+  },
+  {
+   "id": "2119629310969467053",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 25517446,
+   "likes": 172547,
+   "reposts": 13761,
+   "quotes": 8578,
+   "replies": 22451,
+   "bookmarks": 11190,
+   "approx": false
+  },
+  {
+   "id": "2119799843107319946",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1582456,
+   "likes": 5356,
+   "reposts": 1016,
+   "quotes": 549,
+   "replies": 0,
+   "bookmarks": 181,
+   "approx": false
+  },
+  {
+   "id": "2119531692918804552",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4925252,
+   "likes": 9253,
+   "reposts": 411,
+   "quotes": 116,
+   "replies": 611,
+   "bookmarks": 1458,
+   "approx": false
+  },
+  {
+   "id": "2119792290600239401",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3009075,
+   "likes": 68463,
+   "reposts": 5975,
+   "quotes": 1000,
+   "replies": 1253,
+   "bookmarks": 3999,
+   "approx": false
+  },
+  {
+   "id": "2119320412635144528",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 16128808,
+   "likes": 9764,
+   "reposts": 1022,
+   "quotes": 1027,
+   "replies": 2054,
+   "bookmarks": 2733,
+   "approx": false
+  },
+  {
+   "id": "2119522888067801560",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5958673,
+   "likes": 29739,
+   "reposts": 4855,
+   "quotes": 2674,
+   "replies": 1352,
+   "bookmarks": 4332,
+   "approx": false
+  },
+  {
+   "id": "2119583603206021555",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 20585086,
+   "likes": 7820,
+   "reposts": 1078,
+   "quotes": 1166,
+   "replies": 928,
+   "bookmarks": 3159,
+   "approx": false
+  },
+  {
+   "id": "2119586419983429731",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8094463,
+   "likes": 21342,
+   "reposts": 2488,
+   "quotes": 4353,
+   "replies": 4153,
+   "bookmarks": 9286,
+   "approx": false
+  },
+  {
+   "id": "2119775874967056831",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5753555,
+   "likes": 32730,
+   "reposts": 3203,
+   "quotes": 3858,
+   "replies": 1217,
+   "bookmarks": 816,
+   "approx": false
+  },
+  {
+   "id": "2119656344764723212",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4699023,
+   "likes": 29381,
+   "reposts": 9863,
+   "quotes": 3577,
+   "replies": 760,
+   "bookmarks": 1776,
+   "approx": false
+  },
+  {
+   "id": "2119538027341164639",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 9056007,
+   "likes": 48265,
+   "reposts": 4225,
+   "quotes": 2744,
+   "replies": 1534,
+   "bookmarks": 10987,
+   "approx": false
+  },
+  {
+   "id": "2119841425923702877",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 18886682,
+   "likes": 173451,
+   "reposts": 16284,
+   "quotes": 31799,
+   "replies": 9049,
+   "bookmarks": 19199,
+   "approx": false
+  },
+  {
+   "id": "2119686426811916717",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6970913,
+   "likes": 32359,
+   "reposts": 1117,
+   "quotes": 1540,
+   "replies": 2065,
+   "bookmarks": 3571,
+   "approx": false
+  },
+  {
+   "id": "2119513151821512903",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 12471244,
+   "likes": 60803,
+   "reposts": 4210,
+   "quotes": 1546,
+   "replies": 1054,
+   "bookmarks": 11023,
+   "approx": false
+  },
+  {
+   "id": "2119513601828610199",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5329154,
+   "likes": 65145,
+   "reposts": 3857,
+   "quotes": 966,
+   "replies": 476,
+   "bookmarks": 16732,
+   "approx": false
+  },
+  {
+   "id": "2119785717714854215",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1704801,
+   "likes": 5588,
+   "reposts": 923,
+   "quotes": 724,
+   "replies": 8954,
+   "bookmarks": 811,
+   "approx": false
+  },
+  {
+   "id": "2119691458093711418",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1660967,
+   "likes": 3461,
+   "reposts": 1045,
+   "quotes": 519,
+   "replies": 761,
+   "bookmarks": 1081,
+   "approx": false
+  },
+  {
+   "id": "2119805979583828413",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2721677,
+   "likes": 7762,
+   "reposts": 934,
+   "quotes": 196,
+   "replies": 449,
+   "bookmarks": 671,
+   "approx": false
+  },
+  {
+   "id": "2119867114450268322",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 19218420,
+   "likes": 96048,
+   "reposts": 9232,
+   "quotes": 6945,
+   "replies": 3125,
+   "bookmarks": 15780,
+   "approx": false
+  },
+  {
+   "id": "2119867707546071125",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 938400,
+   "likes": 15044,
+   "reposts": 938,
+   "quotes": 436,
+   "replies": 615,
+   "bookmarks": 953,
+   "approx": false
+  },
+  {
+   "id": "2119640499497677074",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2752594,
+   "likes": 20151,
+   "reposts": 1916,
+   "quotes": 842,
+   "replies": 870,
+   "bookmarks": 2617,
+   "approx": false
+  },
+  {
+   "id": "2119869868564742545",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1886670,
+   "likes": 23359,
+   "reposts": 3563,
+   "quotes": 542,
+   "replies": 5886,
+   "bookmarks": 585,
+   "approx": false
+  },
+  {
+   "id": "2119851180948152590",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 567495,
+   "likes": 10175,
+   "reposts": 763,
+   "quotes": 227,
+   "replies": 625,
+   "bookmarks": 1016,
+   "approx": false
+  },
+  {
+   "id": "2119633582989684908",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1189726,
+   "likes": 21358,
+   "reposts": 3727,
+   "quotes": 262,
+   "replies": 1821,
+   "bookmarks": 1128,
+   "approx": false
+  },
+  {
+   "id": "2119825875755479344",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1293211,
+   "likes": 6438,
+   "reposts": 1237,
+   "quotes": 1110,
+   "replies": 1394,
+   "bookmarks": 405,
+   "approx": false
+  },
+  {
+   "id": "2119867126613954736",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 889952,
+   "likes": 4950,
+   "reposts": 255,
+   "quotes": 101,
+   "replies": 56,
+   "bookmarks": 618,
+   "approx": false
+  },
+  {
+   "id": "2119841627808440589",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 442535,
+   "likes": 33526,
+   "reposts": 226,
+   "quotes": 2,
+   "replies": 21,
+   "bookmarks": 141,
+   "approx": false
+  },
+  {
+   "id": "2119890585989583238",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2843608,
+   "likes": 70378,
+   "reposts": 3876,
+   "quotes": 2301,
+   "replies": 882,
+   "bookmarks": 6913,
+   "approx": false
+  },
+  {
+   "id": "2119824747454173268",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6229405,
+   "likes": 107306,
+   "reposts": 10724,
+   "quotes": 4086,
+   "replies": 5024,
+   "bookmarks": 3003,
+   "approx": false
+  },
+  {
+   "id": "2119841301612957699",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1271982,
+   "likes": 1401,
+   "reposts": 529,
+   "quotes": 96,
+   "replies": 128,
+   "bookmarks": 636,
+   "approx": false
+  },
+  {
+   "id": "2119777057102315680",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3426108,
+   "likes": 81953,
+   "reposts": 18069,
+   "quotes": 12137,
+   "replies": 2245,
+   "bookmarks": 4843,
+   "approx": false
+  },
+  {
+   "id": "2119822325876961537",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1780573,
+   "likes": 57,
+   "reposts": 20,
+   "quotes": 13,
+   "replies": 14,
+   "bookmarks": 23,
+   "approx": false
+  },
+  {
+   "id": "2119639631616471347",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4301348,
+   "likes": 1413,
+   "reposts": 53,
+   "quotes": 350,
+   "replies": 418,
+   "bookmarks": 497,
+   "approx": false
+  },
+  {
+   "id": "2119871982946971659",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2035080,
+   "likes": 39578,
+   "reposts": 2192,
+   "quotes": 1253,
+   "replies": 4728,
+   "bookmarks": 938,
+   "approx": false
+  },
+  {
+   "id": "2119916144144347422",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 670381,
+   "likes": 43490,
+   "reposts": 7565,
+   "quotes": 182,
+   "replies": 1060,
+   "bookmarks": 969,
+   "approx": false
+  },
+  {
+   "id": "2120003439962829014",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4897232,
+   "likes": 13138,
+   "reposts": 1110,
+   "quotes": 323,
+   "replies": 598,
+   "bookmarks": 819,
+   "approx": false
+  },
+  {
+   "id": "2119788086490001906",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 327945,
+   "likes": 1761,
+   "reposts": 175,
+   "quotes": 142,
+   "replies": 183,
+   "bookmarks": 246,
+   "approx": false
+  },
+  {
+   "id": "2119916944245629157",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 485078,
+   "likes": 2960,
+   "reposts": 412,
+   "quotes": 27,
+   "replies": 98,
+   "bookmarks": 309,
+   "approx": false
+  },
+  {
+   "id": "2119869530327732250",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 44337343,
+   "likes": 558763,
+   "reposts": 15946,
+   "quotes": 1441,
+   "replies": 2302,
+   "bookmarks": 101342,
+   "approx": false
+  },
+  {
+   "id": "2119979552248307779",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 19891074,
+   "likes": 198562,
+   "reposts": 6258,
+   "quotes": 696,
+   "replies": 645,
+   "bookmarks": 112146,
+   "approx": false
+  },
+  {
+   "id": "2119912768413618647",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2564490,
+   "likes": 63547,
+   "reposts": 7890,
+   "quotes": 521,
+   "replies": 5379,
+   "bookmarks": 1382,
+   "approx": false
+  },
+  {
+   "id": "2119924276933300282",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5652699,
+   "likes": 7109,
+   "reposts": 205,
+   "quotes": 194,
+   "replies": 219,
+   "bookmarks": 1221,
+   "approx": false
+  },
+  {
+   "id": "2120083569808699696",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 437535,
+   "likes": 6041,
+   "reposts": 740,
+   "quotes": 128,
+   "replies": 229,
+   "bookmarks": 207,
+   "approx": false
+  },
+  {
+   "id": "2119909570646827482",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 12273503,
+   "likes": 33732,
+   "reposts": 3980,
+   "quotes": 5949,
+   "replies": 1943,
+   "bookmarks": 1120,
+   "approx": false
+  },
+  {
+   "id": "2119800678998835648",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8745182,
+   "likes": 21515,
+   "reposts": 1582,
+   "quotes": 1615,
+   "replies": 730,
+   "bookmarks": 1634,
+   "approx": false
+  },
+  {
+   "id": "2119963494963613873",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4562050,
+   "likes": 16261,
+   "reposts": 4324,
+   "quotes": 903,
+   "replies": 98,
+   "bookmarks": 2250,
+   "approx": false
+  },
+  {
+   "id": "2119882565855363534",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7811803,
+   "likes": 26504,
+   "reposts": 2323,
+   "quotes": 202,
+   "replies": 328,
+   "bookmarks": 2883,
+   "approx": false
+  },
+  {
+   "id": "2119846862286930036",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 570946,
+   "likes": 1784,
+   "reposts": 220,
+   "quotes": 22,
+   "replies": 177,
+   "bookmarks": 79,
+   "approx": false
+  },
+  {
+   "id": "2119888920615731326",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 9433626,
+   "likes": 27648,
+   "reposts": 1656,
+   "quotes": 1017,
+   "replies": 1776,
+   "bookmarks": 1224,
+   "approx": false
+  },
+  {
+   "id": "2119799797385142274",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2078004,
+   "likes": 39060,
+   "reposts": 4917,
+   "quotes": 696,
+   "replies": 531,
+   "bookmarks": 1454,
+   "approx": false
+  },
+  {
+   "id": "2120154484244381738",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10979920,
+   "likes": 129790,
+   "reposts": 16979,
+   "quotes": 2546,
+   "replies": 3727,
+   "bookmarks": 9012,
+   "approx": false
+  },
+  {
+   "id": "2120185896469496180",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 791532,
+   "likes": 8581,
+   "reposts": 605,
+   "quotes": 265,
+   "replies": 573,
+   "bookmarks": 502,
+   "approx": false
+  },
+  {
+   "id": "2120180183626129783",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 358612,
+   "likes": 1632,
+   "reposts": 98,
+   "quotes": 116,
+   "replies": 162,
+   "bookmarks": 558,
+   "approx": false
+  },
+  {
+   "id": "2120209926370783463",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 44519,
+   "likes": 39,
+   "reposts": 15,
+   "quotes": 3,
+   "replies": 7,
+   "bookmarks": 3,
+   "approx": false
+  },
+  {
+   "id": "2120202954867437952",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 448303,
+   "likes": 4717,
+   "reposts": 609,
+   "quotes": 146,
+   "replies": 508,
+   "bookmarks": 113,
+   "approx": false
+  },
+  {
+   "id": "2119954479193743395",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1581179,
+   "likes": 2782,
+   "reposts": 665,
+   "quotes": 62,
+   "replies": 176,
+   "bookmarks": 648,
+   "approx": false
+  },
+  {
+   "id": "2120193867374907421",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3301697,
+   "likes": 55833,
+   "reposts": 5575,
+   "quotes": 857,
+   "replies": 9455,
+   "bookmarks": 1512,
+   "approx": false
+  },
+  {
+   "id": "2120240278523318567",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1511297,
+   "likes": 36939,
+   "reposts": 2827,
+   "quotes": 1590,
+   "replies": 877,
+   "bookmarks": 872,
+   "approx": false
+  },
+  {
+   "id": "2120237299900240146",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 546040,
+   "likes": 6155,
+   "reposts": 693,
+   "quotes": 94,
+   "replies": 573,
+   "bookmarks": 149,
+   "approx": false
+  },
+  {
+   "id": "2120220290219208884",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2638045,
+   "likes": 17807,
+   "reposts": 2101,
+   "quotes": 352,
+   "replies": 586,
+   "bookmarks": 896,
+   "approx": false
+  },
+  {
+   "id": "2120093267396022458",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 156193,
+   "likes": 2728,
+   "reposts": 417,
+   "quotes": 24,
+   "replies": 48,
+   "bookmarks": 125,
+   "approx": false
+  },
+  {
+   "id": "2120182485015474372",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 15253354,
+   "likes": 270458,
+   "reposts": 36555,
+   "quotes": 5544,
+   "replies": 12382,
+   "bookmarks": 19720,
+   "approx": false
+  },
+  {
+   "id": "2120233139997933977",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1056323,
+   "likes": 4208,
+   "reposts": 1732,
+   "quotes": 225,
+   "replies": 1,
+   "bookmarks": 381,
+   "approx": false
+  },
+  {
+   "id": "2120295851230908918",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 241500,
+   "likes": 2338,
+   "reposts": 100,
+   "quotes": 33,
+   "replies": 111,
+   "bookmarks": 51,
+   "approx": false
+  },
+  {
+   "id": "2120173411594915933",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 871008,
+   "likes": 14116,
+   "reposts": 2127,
+   "quotes": 607,
+   "replies": 7840,
+   "bookmarks": 392,
+   "approx": false
+  },
+  {
+   "id": "2120237897240432705",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 746213,
+   "likes": 1761,
+   "reposts": 363,
+   "quotes": 87,
+   "replies": 117,
+   "bookmarks": 256,
+   "approx": false
+  },
+  {
+   "id": "2120218343139582161",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1391672,
+   "likes": 2698,
+   "reposts": 744,
+   "quotes": 238,
+   "replies": 1382,
+   "bookmarks": 295,
+   "approx": false
+  },
+  {
+   "id": "2120275724657393985",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3719071,
+   "likes": 10413,
+   "reposts": 1571,
+   "quotes": 1232,
+   "replies": 1536,
+   "bookmarks": 2059,
+   "approx": false
+  },
+  {
+   "id": "2120264216896753767",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1121169,
+   "likes": 23105,
+   "reposts": 4152,
+   "quotes": 306,
+   "replies": 819,
+   "bookmarks": 1711,
+   "approx": false
+  },
+  {
+   "id": "2120228174730575892",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 13286367,
+   "likes": 55467,
+   "reposts": 3000,
+   "quotes": 865,
+   "replies": 1931,
+   "bookmarks": 14652,
+   "approx": false
+  },
+  {
+   "id": "2120196028259316193",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2635742,
+   "likes": 6681,
+   "reposts": 2317,
+   "quotes": 75,
+   "replies": 426,
+   "bookmarks": 1218,
+   "approx": false
+  },
+  {
+   "id": "2120200060029792691",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1928632,
+   "likes": 30710,
+   "reposts": 2098,
+   "quotes": 523,
+   "replies": 584,
+   "bookmarks": 1417,
+   "approx": false
+  },
+  {
+   "id": "2120269152279728478",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 312180,
+   "likes": 15826,
+   "reposts": 2078,
+   "quotes": 248,
+   "replies": 3632,
+   "bookmarks": 197,
+   "approx": false
+  },
+  {
+   "id": "2120262074186051969",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 256182,
+   "likes": 473,
+   "reposts": 104,
+   "quotes": 107,
+   "replies": 1407,
+   "bookmarks": 32,
+   "approx": false
+  },
+  {
+   "id": "2120212394488091086",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6444789,
+   "likes": 24500,
+   "reposts": 1435,
+   "quotes": 811,
+   "replies": 2132,
+   "bookmarks": 9879,
+   "approx": false
+  },
+  {
+   "id": "2120325515148145040",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10948794,
+   "likes": 34804,
+   "reposts": 2184,
+   "quotes": 2026,
+   "replies": 1226,
+   "bookmarks": 3464,
+   "approx": false
+  },
+  {
+   "id": "2120186185423159331",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2929604,
+   "likes": 10739,
+   "reposts": 1113,
+   "quotes": 875,
+   "replies": 676,
+   "bookmarks": 1486,
+   "approx": false
+  },
+  {
+   "id": "2120247972084506878",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1555361,
+   "likes": 6226,
+   "reposts": 888,
+   "quotes": 771,
+   "replies": 1389,
+   "bookmarks": 1557,
+   "approx": false
+  },
+  {
+   "id": "2120356628822155594",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2584974,
+   "likes": 135928,
+   "reposts": 19154,
+   "quotes": 3482,
+   "replies": 823,
+   "bookmarks": 6019,
+   "approx": false
+  },
+  {
+   "id": "2120345194696491375",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 372370,
+   "likes": 1422,
+   "reposts": 212,
+   "quotes": 25,
+   "replies": 70,
+   "bookmarks": 225,
+   "approx": false
+  },
+  {
+   "id": "2120037882811588785",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8585988,
+   "likes": 45053,
+   "reposts": 2877,
+   "quotes": 5399,
+   "replies": 1701,
+   "bookmarks": 6493,
+   "approx": false
+  },
+  {
+   "id": "2120250830846665066",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5148772,
+   "likes": 12584,
+   "reposts": 914,
+   "quotes": 4279,
+   "replies": 1589,
+   "bookmarks": 2392,
+   "approx": false
+  },
+  {
+   "id": "2120325222310223899",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2769148,
+   "likes": 10395,
+   "reposts": 1360,
+   "quotes": 1804,
+   "replies": 561,
+   "bookmarks": 1662,
+   "approx": false
+  },
+  {
+   "id": "2120206365759094857",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 12317773,
+   "likes": 64307,
+   "reposts": 5273,
+   "quotes": 3849,
+   "replies": 1542,
+   "bookmarks": 29444,
+   "approx": false
+  },
+  {
+   "id": "2120302638860230794",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5415131,
+   "likes": 39438,
+   "reposts": 5268,
+   "quotes": 2546,
+   "replies": 2442,
+   "bookmarks": 3283,
+   "approx": false
+  },
+  {
+   "id": "2120452057060769874",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2379629,
+   "likes": 41100,
+   "reposts": 3543,
+   "quotes": 769,
+   "replies": 1229,
+   "bookmarks": 694,
+   "approx": false
+  },
+  {
+   "id": "2120456046426911039",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3284440,
+   "likes": 40909,
+   "reposts": 3492,
+   "quotes": 757,
+   "replies": 1446,
+   "bookmarks": 510,
+   "approx": false
+  },
+  {
+   "id": "2120430280205115441",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 11109131,
+   "likes": 84129,
+   "reposts": 11524,
+   "quotes": 10331,
+   "replies": 4317,
+   "bookmarks": 2704,
+   "approx": false
+  },
+  {
+   "id": "2120216592395174382",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6132593,
+   "likes": 17757,
+   "reposts": 1441,
+   "quotes": 1556,
+   "replies": 1468,
+   "bookmarks": 19216,
+   "approx": false
+  },
+  {
+   "id": "2120237304552055274",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10974129,
+   "likes": 24890,
+   "reposts": 570,
+   "quotes": 163,
+   "replies": 100,
+   "bookmarks": 3142,
+   "approx": false
+  },
+  {
+   "id": "2120080430388937046",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "unavailable",
+   "views": null,
+   "likes": null,
+   "reposts": null,
+   "quotes": null,
+   "replies": null,
+   "bookmarks": null,
+   "approx": false
+  },
+  {
+   "id": "2120193145577115998",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 85706207,
+   "likes": 134537,
+   "reposts": 6010,
+   "quotes": 3591,
+   "replies": 7739,
+   "bookmarks": 41406,
+   "approx": false
+  },
+  {
+   "id": "2120199917255664020",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 38390211,
+   "likes": 169082,
+   "reposts": 17700,
+   "quotes": 4871,
+   "replies": 7577,
+   "bookmarks": 16048,
+   "approx": false
+  },
+  {
+   "id": "2120492357674316188",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 20046294,
+   "likes": 67281,
+   "reposts": 3491,
+   "quotes": 3062,
+   "replies": 2347,
+   "bookmarks": 11576,
+   "approx": false
+  },
+  {
+   "id": "2120582957782200586",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 55751658,
+   "likes": 15009,
+   "reposts": 1318,
+   "quotes": 1009,
+   "replies": 2754,
+   "bookmarks": 4340,
+   "approx": false
+  },
+  {
+   "id": "2120344700032844000",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 18700393,
+   "likes": 27687,
+   "reposts": 1844,
+   "quotes": 1570,
+   "replies": 805,
+   "bookmarks": 5392,
+   "approx": false
+  },
+  {
+   "id": "2120339380774883672",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 13892253,
+   "likes": 249460,
+   "reposts": 48249,
+   "quotes": 19156,
+   "replies": 2202,
+   "bookmarks": 24019,
+   "approx": false
+  },
+  {
+   "id": "2120640219871384044",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1457621,
+   "likes": 51950,
+   "reposts": 10535,
+   "quotes": 2176,
+   "replies": 286,
+   "bookmarks": 1194,
+   "approx": false
+  },
+  {
+   "id": "2120614296451178761",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2660019,
+   "likes": 3069,
+   "reposts": 626,
+   "quotes": 88,
+   "replies": 196,
+   "bookmarks": 1093,
+   "approx": false
+  },
+  {
+   "id": "2120642726483972483",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1149205,
+   "likes": 5926,
+   "reposts": 355,
+   "quotes": 164,
+   "replies": 159,
+   "bookmarks": 714,
+   "approx": false
+  },
+  {
+   "id": "2120563631536459876",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 482761,
+   "likes": 6813,
+   "reposts": 392,
+   "quotes": 49,
+   "replies": 149,
+   "bookmarks": 1622,
+   "approx": false
+  },
+  {
+   "id": "2120422487733182841",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 347570,
+   "likes": 13953,
+   "reposts": 2817,
+   "quotes": 105,
+   "replies": 605,
+   "bookmarks": 357,
+   "approx": false
+  },
+  {
+   "id": "2120688866529275958",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1022296,
+   "likes": 3882,
+   "reposts": 866,
+   "quotes": 56,
+   "replies": 24,
+   "bookmarks": 322,
+   "approx": false
+  },
+  {
+   "id": "2120688743111971293",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10147442,
+   "likes": 166441,
+   "reposts": 8093,
+   "quotes": 2458,
+   "replies": 4917,
+   "bookmarks": 5399,
+   "approx": false
+  },
+  {
+   "id": "2120658425550135333",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5238053,
+   "likes": 65402,
+   "reposts": 2178,
+   "quotes": 290,
+   "replies": 947,
+   "bookmarks": 1688,
+   "approx": false
+  },
+  {
+   "id": "2120704382589141319",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 207771,
+   "likes": 214,
+   "reposts": 60,
+   "quotes": 19,
+   "replies": 62,
+   "bookmarks": 25,
+   "approx": false
+  },
+  {
+   "id": "2120591757981135223",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 31788257,
+   "likes": 224926,
+   "reposts": 13171,
+   "quotes": 2728,
+   "replies": 1797,
+   "bookmarks": 18279,
+   "approx": false
+  },
+  {
+   "id": "2120389203997663424",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1103512,
+   "likes": 69271,
+   "reposts": 27182,
+   "quotes": 3404,
+   "replies": 745,
+   "bookmarks": 1544,
+   "approx": false
+  },
+  {
+   "id": "2120612975018955227",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 299881,
+   "likes": 3515,
+   "reposts": 528,
+   "quotes": 40,
+   "replies": 101,
+   "bookmarks": 287,
+   "approx": false
+  },
+  {
+   "id": "2120404398677672432",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1846616,
+   "likes": 16765,
+   "reposts": 1827,
+   "quotes": 657,
+   "replies": 304,
+   "bookmarks": 1288,
+   "approx": false
+  },
+  {
+   "id": "2120310443285565563",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1311496,
+   "likes": 24119,
+   "reposts": 1485,
+   "quotes": 320,
+   "replies": 371,
+   "bookmarks": 3689,
+   "approx": false
+  },
+  {
+   "id": "2120233187112636745",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4004971,
+   "likes": 14471,
+   "reposts": 1167,
+   "quotes": 1479,
+   "replies": 1587,
+   "bookmarks": 3065,
+   "approx": false
+  },
+  {
+   "id": "2120575009777430974",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 12305883,
+   "likes": 19259,
+   "reposts": 1139,
+   "quotes": 5709,
+   "replies": 5035,
+   "bookmarks": 4996,
+   "approx": false
+  },
+  {
+   "id": "2120761428831293871",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 158786,
+   "likes": 664,
+   "reposts": 65,
+   "quotes": 37,
+   "replies": 71,
+   "bookmarks": 65,
+   "approx": false
+  },
+  {
+   "id": "2120606353953587303",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 11478313,
+   "likes": 105276,
+   "reposts": 17231,
+   "quotes": 2353,
+   "replies": 2422,
+   "bookmarks": 14243,
+   "approx": false
+  },
+  {
+   "id": "2120366623219483049",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5680631,
+   "likes": 142158,
+   "reposts": 4981,
+   "quotes": 143,
+   "replies": 186,
+   "bookmarks": 7786,
+   "approx": false
+  },
+  {
+   "id": "2120812158363775311",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10000814,
+   "likes": 238355,
+   "reposts": 28633,
+   "quotes": 12282,
+   "replies": 9819,
+   "bookmarks": 3980,
+   "approx": false
+  },
+  {
+   "id": "2120574710245146814",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3083105,
+   "likes": 53709,
+   "reposts": 12770,
+   "quotes": 1549,
+   "replies": 6543,
+   "bookmarks": 3376,
+   "approx": false
+  },
+  {
+   "id": "2120577453823533134",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2638543,
+   "likes": 88574,
+   "reposts": 25939,
+   "quotes": 1384,
+   "replies": 1424,
+   "bookmarks": 3132,
+   "approx": false
+  },
+  {
+   "id": "2120662844287131896",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2280466,
+   "likes": 16551,
+   "reposts": 2095,
+   "quotes": 264,
+   "replies": 582,
+   "bookmarks": 2605,
+   "approx": false
+  },
+  {
+   "id": "2120834237213593805",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3908067,
+   "likes": 178420,
+   "reposts": 16962,
+   "quotes": 888,
+   "replies": 2964,
+   "bookmarks": 2543,
+   "approx": false
+  },
+  {
+   "id": "2120834299868098637",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1629724,
+   "likes": 73976,
+   "reposts": 8899,
+   "quotes": 4171,
+   "replies": 654,
+   "bookmarks": 824,
+   "approx": false
+  },
+  {
+   "id": "2120852861600809284",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1963959,
+   "likes": 28402,
+   "reposts": 2780,
+   "quotes": 1246,
+   "replies": 226,
+   "bookmarks": 746,
+   "approx": false
+  },
+  {
+   "id": "2120776451607715862",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1120346,
+   "likes": 3407,
+   "reposts": 1006,
+   "quotes": 89,
+   "replies": 156,
+   "bookmarks": 263,
+   "approx": false
+  },
+  {
+   "id": "2120841731302154708",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3218125,
+   "likes": 10396,
+   "reposts": 1017,
+   "quotes": 893,
+   "replies": 1043,
+   "bookmarks": 2800,
+   "approx": false
+  },
+  {
+   "id": "2120876571829662014",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 17687929,
+   "likes": 76609,
+   "reposts": 14750,
+   "quotes": 9406,
+   "replies": 8616,
+   "bookmarks": 8297,
+   "approx": false
+  },
+  {
+   "id": "2120856756393857450",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1045376,
+   "likes": 6278,
+   "reposts": 1151,
+   "quotes": 523,
+   "replies": 360,
+   "bookmarks": 139,
+   "approx": false
+  },
+  {
+   "id": "2120804738031616095",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1884034,
+   "likes": 23637,
+   "reposts": 6872,
+   "quotes": 918,
+   "replies": 1530,
+   "bookmarks": 756,
+   "approx": false
+  },
+  {
+   "id": "2120808224324510133",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 907325,
+   "likes": 4692,
+   "reposts": 431,
+   "quotes": 68,
+   "replies": 263,
+   "bookmarks": 91,
+   "approx": false
+  },
+  {
+   "id": "2120805309757399534",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6200133,
+   "likes": 11908,
+   "reposts": 429,
+   "quotes": 1128,
+   "replies": 210,
+   "bookmarks": 2133,
+   "approx": false
+  },
+  {
+   "id": "2120797270341730587",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1039751,
+   "likes": 1855,
+   "reposts": 139,
+   "quotes": 43,
+   "replies": 91,
+   "bookmarks": 50,
+   "approx": false
+  },
+  {
+   "id": "2120798919059755181",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1272057,
+   "likes": 1209,
+   "reposts": 67,
+   "quotes": 32,
+   "replies": 76,
+   "bookmarks": 68,
+   "approx": false
+  },
+  {
+   "id": "2120637790329163833",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4035884,
+   "likes": 8234,
+   "reposts": 1099,
+   "quotes": 704,
+   "replies": 440,
+   "bookmarks": 1062,
+   "approx": false
+  },
+  {
+   "id": "2120609856671416610",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 21411764,
+   "likes": 160127,
+   "reposts": 12834,
+   "quotes": 5485,
+   "replies": 4947,
+   "bookmarks": 28173,
+   "approx": false
+  },
+  {
+   "id": "2120576747062112408",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 22732003,
+   "likes": 87715,
+   "reposts": 5791,
+   "quotes": 2190,
+   "replies": 3156,
+   "bookmarks": 26379,
+   "approx": false
+  },
+  {
+   "id": "2120563801552761217",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 20234713,
+   "likes": 67385,
+   "reposts": 3222,
+   "quotes": 1119,
+   "replies": 1587,
+   "bookmarks": 12998,
+   "approx": false
+  },
+  {
+   "id": "2120920105299456066",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 703246,
+   "likes": 4115,
+   "reposts": 416,
+   "quotes": 50,
+   "replies": 145,
+   "bookmarks": 400,
+   "approx": false
+  },
+  {
+   "id": "2120913121116037278",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 265774,
+   "likes": 6775,
+   "reposts": 680,
+   "quotes": 76,
+   "replies": 197,
+   "bookmarks": 474,
+   "approx": false
+  },
+  {
+   "id": "2120581433639198885",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 797267,
+   "likes": 10630,
+   "reposts": 632,
+   "quotes": 358,
+   "replies": 595,
+   "bookmarks": 3163,
+   "approx": false
+  },
+  {
+   "id": "2120834239377854806",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 531302,
+   "likes": 2335,
+   "reposts": 148,
+   "quotes": 52,
+   "replies": 180,
+   "bookmarks": 476,
+   "approx": false
+  },
+  {
+   "id": "2120879805042467174",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2489185,
+   "likes": 33205,
+   "reposts": 3426,
+   "quotes": 746,
+   "replies": 463,
+   "bookmarks": 3485,
+   "approx": false
+  },
+  {
+   "id": "2120931356914151835",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2764097,
+   "likes": 74593,
+   "reposts": 10933,
+   "quotes": 1216,
+   "replies": 566,
+   "bookmarks": 3020,
+   "approx": false
+  },
+  {
+   "id": "2120894716006879552",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 663573,
+   "likes": 15097,
+   "reposts": 2388,
+   "quotes": 444,
+   "replies": 800,
+   "bookmarks": 741,
+   "approx": false
+  },
+  {
+   "id": "2120940601319260164",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3812394,
+   "likes": 7527,
+   "reposts": 760,
+   "quotes": 407,
+   "replies": 418,
+   "bookmarks": 865,
+   "approx": false
+  },
+  {
+   "id": "2120946562620907823",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4101010,
+   "likes": 151820,
+   "reposts": 21700,
+   "quotes": 1652,
+   "replies": 465,
+   "bookmarks": 3514,
+   "approx": false
+  },
+  {
+   "id": "2120895501662859445",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2063735,
+   "likes": 15705,
+   "reposts": 2451,
+   "quotes": 223,
+   "replies": 527,
+   "bookmarks": 1242,
+   "approx": false
+  },
+  {
+   "id": "2120924926278517131",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 201404,
+   "likes": 3688,
+   "reposts": 311,
+   "quotes": 129,
+   "replies": 70,
+   "bookmarks": 266,
+   "approx": false
+  },
+  {
+   "id": "2120955224810803419",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 94196,
+   "likes": 4049,
+   "reposts": 1185,
+   "quotes": 60,
+   "replies": 243,
+   "bookmarks": 156,
+   "approx": false
+  },
+  {
+   "id": "2120973994191094179",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 9881795,
+   "likes": 80996,
+   "reposts": 5132,
+   "quotes": 5348,
+   "replies": 2256,
+   "bookmarks": 20474,
+   "approx": false
+  },
+  {
+   "id": "2120945722959032358",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 937194,
+   "likes": 11939,
+   "reposts": 1949,
+   "quotes": 108,
+   "replies": 387,
+   "bookmarks": 1032,
+   "approx": false
+  },
+  {
+   "id": "2120973454866543042",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 27171383,
+   "likes": 40662,
+   "reposts": 8672,
+   "quotes": 24123,
+   "replies": 1390,
+   "bookmarks": 8117,
+   "approx": false
+  },
+  {
+   "id": "2120924499637862414",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1288467,
+   "likes": 1884,
+   "reposts": 393,
+   "quotes": 29,
+   "replies": 59,
+   "bookmarks": 258,
+   "approx": false
+  },
+  {
+   "id": "2120979964535173612",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 49955,
+   "likes": 38,
+   "reposts": 8,
+   "quotes": 2,
+   "replies": 27,
+   "bookmarks": 2,
+   "approx": false
+  },
+  {
+   "id": "2120584535423565889",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 51714685,
+   "likes": 22787,
+   "reposts": 2282,
+   "quotes": 312,
+   "replies": 2247,
+   "bookmarks": 2894,
+   "approx": false
+  },
+  {
+   "id": "2120746428720988408",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4110202,
+   "likes": 46943,
+   "reposts": 4274,
+   "quotes": 454,
+   "replies": 3306,
+   "bookmarks": 1208,
+   "approx": false
+  },
+  {
+   "id": "2120736143566344324",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4297530,
+   "likes": 23106,
+   "reposts": 2839,
+   "quotes": 1023,
+   "replies": 1218,
+   "bookmarks": 889,
+   "approx": false
+  },
+  {
+   "id": "2120972282096918904",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10110273,
+   "likes": 34060,
+   "reposts": 2710,
+   "quotes": 466,
+   "replies": 1507,
+   "bookmarks": 2444,
+   "approx": false
+  },
+  {
+   "id": "2120978626132738178",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 697323,
+   "likes": 10812,
+   "reposts": 840,
+   "quotes": 171,
+   "replies": 281,
+   "bookmarks": 619,
+   "approx": false
+  },
+  {
+   "id": "2121026615228440796",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1340949,
+   "likes": 15278,
+   "reposts": 1577,
+   "quotes": 104,
+   "replies": 697,
+   "bookmarks": 3125,
+   "approx": false
+  },
+  {
+   "id": "2121023524567482716",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 395690,
+   "likes": 3062,
+   "reposts": 451,
+   "quotes": 98,
+   "replies": 683,
+   "bookmarks": 509,
+   "approx": false
+  },
+  {
+   "id": "2120992457630326841",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6536488,
+   "likes": 40855,
+   "reposts": 6325,
+   "quotes": 2160,
+   "replies": 1799,
+   "bookmarks": 20703,
+   "approx": false
+  },
+  {
+   "id": "2120921049097187618",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 587950,
+   "likes": 2377,
+   "reposts": 326,
+   "quotes": 204,
+   "replies": 2501,
+   "bookmarks": 244,
+   "approx": false
+  },
+  {
+   "id": "2121010361398936037",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 56103,
+   "likes": 429,
+   "reposts": 35,
+   "quotes": 3,
+   "replies": 24,
+   "bookmarks": 62,
+   "approx": false
+  },
+  {
+   "id": "2120974837623542258",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 40903,
+   "likes": 210,
+   "reposts": 19,
+   "quotes": 2,
+   "replies": 20,
+   "bookmarks": 4,
+   "approx": false
+  },
+  {
+   "id": "2121045804852945188",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2243042,
+   "likes": 1843,
+   "reposts": 316,
+   "quotes": 344,
+   "replies": 679,
+   "bookmarks": 469,
+   "approx": false
+  },
+  {
+   "id": "2121061505160642660",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3799603,
+   "likes": 147844,
+   "reposts": 27034,
+   "quotes": 2938,
+   "replies": 6500,
+   "bookmarks": 4110,
+   "approx": false
+  },
+  {
+   "id": "2120909499200421900",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8066616,
+   "likes": 217064,
+   "reposts": 22291,
+   "quotes": 2218,
+   "replies": 4901,
+   "bookmarks": 7395,
+   "approx": false
+  },
+  {
+   "id": "2120909731963527300",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5065140,
+   "likes": 155177,
+   "reposts": 20353,
+   "quotes": 2263,
+   "replies": 2119,
+   "bookmarks": 4953,
+   "approx": false
+  },
+  {
+   "id": "2120995209261514827",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3778484,
+   "likes": 1276,
+   "reposts": 180,
+   "quotes": 265,
+   "replies": 288,
+   "bookmarks": 184,
+   "approx": false
+  },
+  {
+   "id": "2121111560198426851",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 16760350,
+   "likes": 188784,
+   "reposts": 11014,
+   "quotes": 2343,
+   "replies": 938,
+   "bookmarks": 15476,
+   "approx": false
+  },
+  {
+   "id": "2121111756982636852",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2297124,
+   "likes": 26763,
+   "reposts": 3989,
+   "quotes": 690,
+   "replies": 445,
+   "bookmarks": 2496,
+   "approx": false
+  },
+  {
+   "id": "2120946968403095906",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2538269,
+   "likes": 8514,
+   "reposts": 561,
+   "quotes": 324,
+   "replies": 1514,
+   "bookmarks": 1589,
+   "approx": false
+  },
+  {
+   "id": "2120856620708331791",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5642322,
+   "likes": 59690,
+   "reposts": 4585,
+   "quotes": 576,
+   "replies": 207,
+   "bookmarks": 9442,
+   "approx": false
+  },
+  {
+   "id": "2121083956724408551",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1213627,
+   "likes": 15523,
+   "reposts": 2264,
+   "quotes": 286,
+   "replies": 157,
+   "bookmarks": 805,
+   "approx": false
+  },
+  {
+   "id": "2121105149644960133",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1269626,
+   "likes": 315,
+   "reposts": 16,
+   "quotes": 23,
+   "replies": 35,
+   "bookmarks": 40,
+   "approx": false
+  },
+  {
+   "id": "2121023102452941188",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 368814,
+   "likes": 30429,
+   "reposts": 2533,
+   "quotes": 100,
+   "replies": 726,
+   "bookmarks": 304,
+   "approx": false
+  },
+  {
+   "id": "2120933533552103859",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 22777467,
+   "likes": 81800,
+   "reposts": 9474,
+   "quotes": 3037,
+   "replies": 2927,
+   "bookmarks": 12451,
+   "approx": false
+  },
+  {
+   "id": "2120683405205557628",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5781302,
+   "likes": 62058,
+   "reposts": 7516,
+   "quotes": 2076,
+   "replies": 649,
+   "bookmarks": 9762,
+   "approx": false
+  },
+  {
+   "id": "2121086493712134314",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2447586,
+   "likes": 9070,
+   "reposts": 2301,
+   "quotes": 1267,
+   "replies": 490,
+   "bookmarks": 761,
+   "approx": false
+  },
+  {
+   "id": "2120951972706558431",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3181686,
+   "likes": 1394,
+   "reposts": 172,
+   "quotes": 37,
+   "replies": 201,
+   "bookmarks": 132,
+   "approx": false
+  },
+  {
+   "id": "2121179081043738742",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 199221,
+   "likes": 3442,
+   "reposts": 445,
+   "quotes": 88,
+   "replies": 160,
+   "bookmarks": 158,
+   "approx": false
+  },
+  {
+   "id": "2121187317008220447",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 546082,
+   "likes": 3961,
+   "reposts": 975,
+   "quotes": 526,
+   "replies": 280,
+   "bookmarks": 348,
+   "approx": false
+  },
+  {
+   "id": "2120962365172707803",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2584458,
+   "likes": 20497,
+   "reposts": 1223,
+   "quotes": 1439,
+   "replies": 1263,
+   "bookmarks": 1255,
+   "approx": false
+  },
+  {
+   "id": "2121069007159927248",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1298051,
+   "likes": 48008,
+   "reposts": 1626,
+   "quotes": 135,
+   "replies": 128,
+   "bookmarks": 3165,
+   "approx": false
+  },
+  {
+   "id": "2120909946623832213",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 735959,
+   "likes": 3614,
+   "reposts": 755,
+   "quotes": 235,
+   "replies": 2113,
+   "bookmarks": 714,
+   "approx": false
+  },
+  {
+   "id": "2121046734751010930",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1204933,
+   "likes": 31791,
+   "reposts": 6359,
+   "quotes": 393,
+   "replies": 1126,
+   "bookmarks": 1596,
+   "approx": false
+  },
+  {
+   "id": "2121138040508727707",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2350865,
+   "likes": 45555,
+   "reposts": 4677,
+   "quotes": 1767,
+   "replies": 2715,
+   "bookmarks": 936,
+   "approx": false
+  },
+  {
+   "id": "2120864682026418629",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5932626,
+   "likes": 53237,
+   "reposts": 5870,
+   "quotes": 1470,
+   "replies": 849,
+   "bookmarks": 13745,
+   "approx": false
+  },
+  {
+   "id": "2120938282204688468",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 22181363,
+   "likes": 33957,
+   "reposts": 7517,
+   "quotes": 4650,
+   "replies": 4890,
+   "bookmarks": 5675,
+   "approx": false
+  },
+  {
+   "id": "2120858260521529455",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 9515259,
+   "likes": 86912,
+   "reposts": 12821,
+   "quotes": 962,
+   "replies": 2117,
+   "bookmarks": 9498,
+   "approx": false
+  },
+  {
+   "id": "2121254115028132000",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7045620,
+   "likes": 134037,
+   "reposts": 6738,
+   "quotes": 1544,
+   "replies": 1696,
+   "bookmarks": 2880,
+   "approx": false
+  },
+  {
+   "id": "2121250205806772283",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2176385,
+   "likes": 35277,
+   "reposts": 3436,
+   "quotes": 395,
+   "replies": 2180,
+   "bookmarks": 668,
+   "approx": false
+  },
+  {
+   "id": "2120975264264171994",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2811205,
+   "likes": 4089,
+   "reposts": 96,
+   "quotes": 78,
+   "replies": 115,
+   "bookmarks": 229,
+   "approx": false
+  },
+  {
+   "id": "2120945866462704106",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1568893,
+   "likes": 38116,
+   "reposts": 1449,
+   "quotes": 150,
+   "replies": 270,
+   "bookmarks": 1726,
+   "approx": false
+  },
+  {
+   "id": "2121282013600907325",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 19746741,
+   "likes": 69724,
+   "reposts": 11866,
+   "quotes": 3403,
+   "replies": 7369,
+   "bookmarks": 8864,
+   "approx": false
+  },
+  {
+   "id": "2121293940909604988",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1292956,
+   "likes": 38967,
+   "reposts": 5202,
+   "quotes": 292,
+   "replies": 496,
+   "bookmarks": 2273,
+   "approx": false
+  },
+  {
+   "id": "2121311382218187128",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 259005,
+   "likes": 1792,
+   "reposts": 212,
+   "quotes": 22,
+   "replies": 93,
+   "bookmarks": 165,
+   "approx": false
+  },
+  {
+   "id": "2121064747625824279",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5111824,
+   "likes": 94907,
+   "reposts": 3157,
+   "quotes": 268,
+   "replies": 56,
+   "bookmarks": 7611,
+   "approx": false
+  },
+  {
+   "id": "2121095213829755333",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3935362,
+   "likes": 3752,
+   "reposts": 340,
+   "quotes": 246,
+   "replies": 219,
+   "bookmarks": 151,
+   "approx": false
+  },
+  {
+   "id": "2121249638829466038",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 997882,
+   "likes": 39608,
+   "reposts": 2074,
+   "quotes": 364,
+   "replies": 579,
+   "bookmarks": 1340,
+   "approx": false
+  },
+  {
+   "id": "2121329790942601427",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4238149,
+   "likes": 24339,
+   "reposts": 2125,
+   "quotes": 2458,
+   "replies": 1675,
+   "bookmarks": 849,
+   "approx": false
+  },
+  {
+   "id": "2121327368610648070",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3031792,
+   "likes": 14797,
+   "reposts": 4037,
+   "quotes": 555,
+   "replies": 924,
+   "bookmarks": 1796,
+   "approx": false
+  },
+  {
+   "id": "2121337288655609915",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2302302,
+   "likes": 18317,
+   "reposts": 4313,
+   "quotes": 414,
+   "replies": 990,
+   "bookmarks": 3747,
+   "approx": false
+  },
+  {
+   "id": "2121341525678342451",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1519009,
+   "likes": 334,
+   "reposts": 116,
+   "quotes": 7,
+   "replies": 20,
+   "bookmarks": 25,
+   "approx": false
+  },
+  {
+   "id": "2121092373526831501",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 553752,
+   "likes": 38259,
+   "reposts": 6807,
+   "quotes": 360,
+   "replies": 3405,
+   "bookmarks": 570,
+   "approx": false
+  },
+  {
+   "id": "2121068460428194287",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 422986,
+   "likes": 2867,
+   "reposts": 355,
+   "quotes": 463,
+   "replies": 5661,
+   "bookmarks": 169,
+   "approx": false
+  },
+  {
+   "id": "2121351498181566589",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 11783856,
+   "likes": 46133,
+   "reposts": 7915,
+   "quotes": 2709,
+   "replies": 1706,
+   "bookmarks": 5285,
+   "approx": false
+  },
+  {
+   "id": "2121357965815108080",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 530044,
+   "likes": 6898,
+   "reposts": 217,
+   "quotes": 71,
+   "replies": 23,
+   "bookmarks": 479,
+   "approx": false
+  },
+  {
+   "id": "2121357117583995134",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "unavailable",
+   "views": null,
+   "likes": null,
+   "reposts": null,
+   "quotes": null,
+   "replies": null,
+   "bookmarks": null,
+   "approx": false
+  },
+  {
+   "id": "2121360601377374680",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 701024,
+   "likes": 6517,
+   "reposts": 685,
+   "quotes": 105,
+   "replies": 251,
+   "bookmarks": 201,
+   "approx": false
+  },
+  {
+   "id": "2121214354699981193",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5536815,
+   "likes": 9250,
+   "reposts": 538,
+   "quotes": 663,
+   "replies": 757,
+   "bookmarks": 1461,
+   "approx": false
+  },
+  {
+   "id": "2121316300702056595",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7492872,
+   "likes": 42805,
+   "reposts": 6299,
+   "quotes": 1635,
+   "replies": 2918,
+   "bookmarks": 5830,
+   "approx": false
+  },
+  {
+   "id": "2121045067632922696",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2888156,
+   "likes": 222436,
+   "reposts": 20591,
+   "quotes": 972,
+   "replies": 1016,
+   "bookmarks": 6140,
+   "approx": false
+  },
+  {
+   "id": "2121351591106072679",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7383686,
+   "likes": 33732,
+   "reposts": 7117,
+   "quotes": 2163,
+   "replies": 4565,
+   "bookmarks": 2535,
+   "approx": false
+  },
+  {
+   "id": "2121303523296211449",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 8942472,
+   "likes": 144729,
+   "reposts": 13081,
+   "quotes": 2800,
+   "replies": 10617,
+   "bookmarks": 3942,
+   "approx": false
+  },
+  {
+   "id": "2121384435241402737",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6670929,
+   "likes": 25319,
+   "reposts": 3283,
+   "quotes": 1960,
+   "replies": 2824,
+   "bookmarks": 2235,
+   "approx": false
+  },
+  {
+   "id": "2121347654714077605",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5603246,
+   "likes": 26361,
+   "reposts": 6102,
+   "quotes": 2534,
+   "replies": 796,
+   "bookmarks": 2780,
+   "approx": false
+  },
+  {
+   "id": "2121353351468310803",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4555594,
+   "likes": 14340,
+   "reposts": 2975,
+   "quotes": 631,
+   "replies": 704,
+   "bookmarks": 2072,
+   "approx": false
+  },
+  {
+   "id": "2121373765317579140",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5796152,
+   "likes": 35760,
+   "reposts": 6151,
+   "quotes": 541,
+   "replies": 2343,
+   "bookmarks": 4151,
+   "approx": false
+  },
+  {
+   "id": "2121374779680964991",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1299485,
+   "likes": 23488,
+   "reposts": 2946,
+   "quotes": 424,
+   "replies": 474,
+   "bookmarks": 1092,
+   "approx": false
+  },
+  {
+   "id": "2121388517540716839",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6689090,
+   "likes": 70992,
+   "reposts": 7778,
+   "quotes": 749,
+   "replies": 4751,
+   "bookmarks": 3198,
+   "approx": false
+  },
+  {
+   "id": "2121360054330986967",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 19899445,
+   "likes": 158254,
+   "reposts": 18603,
+   "quotes": 7113,
+   "replies": 7083,
+   "bookmarks": 14914,
+   "approx": false
+  },
+  {
+   "id": "2121363171361575176",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5129631,
+   "likes": 43142,
+   "reposts": 6685,
+   "quotes": 1615,
+   "replies": 1668,
+   "bookmarks": 3023,
+   "approx": false
+  },
+  {
+   "id": "2121428474816803089",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2353872,
+   "likes": 80309,
+   "reposts": 9298,
+   "quotes": 675,
+   "replies": 12753,
+   "bookmarks": 1088,
+   "approx": false
+  },
+  {
+   "id": "2121205602474979387",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 5511588,
+   "likes": 65105,
+   "reposts": 2489,
+   "quotes": 1350,
+   "replies": 550,
+   "bookmarks": 6134,
+   "approx": false
+  },
+  {
+   "id": "2121365035268386914",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3039043,
+   "likes": 8805,
+   "reposts": 945,
+   "quotes": 1395,
+   "replies": 1732,
+   "bookmarks": 1483,
+   "approx": false
+  },
+  {
+   "id": "2121332873240473829",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7046439,
+   "likes": 12988,
+   "reposts": 3036,
+   "quotes": 801,
+   "replies": 595,
+   "bookmarks": 4441,
+   "approx": false
+  },
+  {
+   "id": "2121312853558997410",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4871361,
+   "likes": 39826,
+   "reposts": 3376,
+   "quotes": 742,
+   "replies": 235,
+   "bookmarks": 7274,
+   "approx": false
+  },
+  {
+   "id": "2121423916006617237",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4672916,
+   "likes": 17352,
+   "reposts": 445,
+   "quotes": 229,
+   "replies": 2266,
+   "bookmarks": 1696,
+   "approx": false
+  },
+  {
+   "id": "2121425383480529346",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4298603,
+   "likes": 65636,
+   "reposts": 8350,
+   "quotes": 1814,
+   "replies": 1615,
+   "bookmarks": 9418,
+   "approx": false
+  },
+  {
+   "id": "2121412678409478247",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 703397,
+   "likes": 6375,
+   "reposts": 695,
+   "quotes": 53,
+   "replies": 253,
+   "bookmarks": 528,
+   "approx": false
+  },
+  {
+   "id": "2121401397346521412",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1809208,
+   "likes": 12808,
+   "reposts": 1518,
+   "quotes": 198,
+   "replies": 582,
+   "bookmarks": 1035,
+   "approx": false
+  },
+  {
+   "id": "2121111198108205371",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6052766,
+   "likes": 128581,
+   "reposts": 13378,
+   "quotes": 3453,
+   "replies": 1229,
+   "bookmarks": 12161,
+   "approx": false
+  },
+  {
+   "id": "2121345211959804234",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10237882,
+   "likes": 226096,
+   "reposts": 20003,
+   "quotes": 3078,
+   "replies": 7403,
+   "bookmarks": 6878,
+   "approx": false
+  },
+  {
+   "id": "2121321310395789404",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 21977545,
+   "likes": 74258,
+   "reposts": 5357,
+   "quotes": 1784,
+   "replies": 644,
+   "bookmarks": 24672,
+   "approx": false
+  },
+  {
+   "id": "2121424776027873564",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 14816830,
+   "likes": 369989,
+   "reposts": 16593,
+   "quotes": 827,
+   "replies": 2738,
+   "bookmarks": 47975,
+   "approx": false
+  },
+  {
+   "id": "2121319938472161392",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 17120545,
+   "likes": 43338,
+   "reposts": 2692,
+   "quotes": 493,
+   "replies": 1952,
+   "bookmarks": 9019,
+   "approx": false
+  },
+  {
+   "id": "2121453668612677873",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7072799,
+   "likes": 67011,
+   "reposts": 7786,
+   "quotes": 1819,
+   "replies": 1031,
+   "bookmarks": 10382,
+   "approx": false
+  },
+  {
+   "id": "2121622862339666275",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 12047319,
+   "likes": 92350,
+   "reposts": 5754,
+   "quotes": 4475,
+   "replies": 1346,
+   "bookmarks": 8950,
+   "approx": false
+  },
+  {
+   "id": "2121305674965540978",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 7599424,
+   "likes": 189270,
+   "reposts": 8595,
+   "quotes": 478,
+   "replies": 85,
+   "bookmarks": 13875,
+   "approx": false
+  },
+  {
+   "id": "2121257756216934790",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4202738,
+   "likes": 69139,
+   "reposts": 8019,
+   "quotes": 1495,
+   "replies": 1030,
+   "bookmarks": 1647,
+   "approx": false
+  },
+  {
+   "id": "2121664710743597410",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 218771,
+   "likes": 622,
+   "reposts": 66,
+   "quotes": 51,
+   "replies": 140,
+   "bookmarks": 127,
+   "approx": false
+  },
+  {
+   "id": "2121519137667027013",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 23545616,
+   "likes": 81894,
+   "reposts": 8517,
+   "quotes": 6501,
+   "replies": 2195,
+   "bookmarks": 12488,
+   "approx": false
+  },
+  {
+   "id": "2121715216597827756",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 10845278,
+   "likes": 126216,
+   "reposts": 24838,
+   "quotes": 8252,
+   "replies": 6163,
+   "bookmarks": 12034,
+   "approx": false
+  },
+  {
+   "id": "2121710139967242497",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 539355,
+   "likes": 6355,
+   "reposts": 586,
+   "quotes": 212,
+   "replies": 541,
+   "bookmarks": 181,
+   "approx": false
+  },
+  {
+   "id": "2121724627667824796",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 6459750,
+   "likes": 51129,
+   "reposts": 4646,
+   "quotes": 3128,
+   "replies": 1671,
+   "bookmarks": 7828,
+   "approx": false
+  },
+  {
+   "id": "2121711025695199660",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 624756,
+   "likes": 5287,
+   "reposts": 825,
+   "quotes": 195,
+   "replies": 562,
+   "bookmarks": 566,
+   "approx": false
+  },
+  {
+   "id": "2121686210565280020",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1300764,
+   "likes": 77380,
+   "reposts": 8097,
+   "quotes": 458,
+   "replies": 5504,
+   "bookmarks": 1094,
+   "approx": false
+  },
+  {
+   "id": "2121607597211926983",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 239629,
+   "likes": 1892,
+   "reposts": 335,
+   "quotes": 61,
+   "replies": 212,
+   "bookmarks": 261,
+   "approx": false
+  },
+  {
+   "id": "2121401400391295202",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 498807,
+   "likes": 1532,
+   "reposts": 705,
+   "quotes": 176,
+   "replies": 149,
+   "bookmarks": 155,
+   "approx": false
+  },
+  {
+   "id": "2121755546487566426",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1252678,
+   "likes": 51327,
+   "reposts": 8973,
+   "quotes": 2234,
+   "replies": 1106,
+   "bookmarks": 833,
+   "approx": false
+  },
+  {
+   "id": "2121627962629816614",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3538414,
+   "likes": 19350,
+   "reposts": 1620,
+   "quotes": 3298,
+   "replies": 8524,
+   "bookmarks": 2044,
+   "approx": false
+  },
+  {
+   "id": "2121777957450686817",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 484532,
+   "likes": 7559,
+   "reposts": 891,
+   "quotes": 58,
+   "replies": 144,
+   "bookmarks": 318,
+   "approx": false
+  },
+  {
+   "id": "2121780438025064539",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 393567,
+   "likes": 3186,
+   "reposts": 316,
+   "quotes": 25,
+   "replies": 60,
+   "bookmarks": 185,
+   "approx": false
+  },
+  {
+   "id": "2121763977349013884",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 4662038,
+   "likes": 87461,
+   "reposts": 4351,
+   "quotes": 526,
+   "replies": 4199,
+   "bookmarks": 1396,
+   "approx": false
+  },
+  {
+   "id": "2121771278583595471",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 447799,
+   "likes": 5297,
+   "reposts": 376,
+   "quotes": 142,
+   "replies": 421,
+   "bookmarks": 105,
+   "approx": false
+  },
+  {
+   "id": "2121774008878481433",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 87622,
+   "likes": 1748,
+   "reposts": 175,
+   "quotes": 16,
+   "replies": 168,
+   "bookmarks": 23,
+   "approx": false
+  },
+  {
+   "id": "2121757128524197950",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 45795,
+   "likes": 290,
+   "reposts": 22,
+   "quotes": 3,
+   "replies": 57,
+   "bookmarks": 32,
+   "approx": false
+  },
+  {
+   "id": "2121789660817174686",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2155125,
+   "likes": 503,
+   "reposts": 110,
+   "quotes": 39,
+   "replies": 43,
+   "bookmarks": 122,
+   "approx": false
+  },
+  {
+   "id": "2121790990440694115",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1074239,
+   "likes": 12833,
+   "reposts": 863,
+   "quotes": 42,
+   "replies": 194,
+   "bookmarks": 367,
+   "approx": false
+  },
+  {
+   "id": "2121785460968092045",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 851711,
+   "likes": 726,
+   "reposts": 51,
+   "quotes": 6,
+   "replies": 71,
+   "bookmarks": 38,
+   "approx": false
+  },
+  {
+   "id": "2121357879341166683",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 23196852,
+   "likes": 110286,
+   "reposts": 11481,
+   "quotes": 4255,
+   "replies": 3763,
+   "bookmarks": 62573,
+   "approx": false
+  },
+  {
+   "id": "2121652656284553648",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1852667,
+   "likes": 66809,
+   "reposts": 6068,
+   "quotes": 2846,
+   "replies": 1091,
+   "bookmarks": 2485,
+   "approx": false
+  },
+  {
+   "id": "2121635892548751752",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 3062821,
+   "likes": 28925,
+   "reposts": 2652,
+   "quotes": 537,
+   "replies": 296,
+   "bookmarks": 3904,
+   "approx": false
+  },
+  {
+   "id": "2121809292110238171",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 97626,
+   "likes": 1255,
+   "reposts": 84,
+   "quotes": 6,
+   "replies": 30,
+   "bookmarks": 147,
+   "approx": false
+  },
+  {
+   "id": "2121860754089681295",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1496143,
+   "likes": 38511,
+   "reposts": 2010,
+   "quotes": 105,
+   "replies": 276,
+   "bookmarks": 537,
+   "approx": false
+  },
+  {
+   "id": "2121848267663413723",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 279557,
+   "likes": 4992,
+   "reposts": 271,
+   "quotes": 38,
+   "replies": 80,
+   "bookmarks": 526,
+   "approx": false
+  },
+  {
+   "id": "2121822563009810445",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2990293,
+   "likes": 18628,
+   "reposts": 684,
+   "quotes": 1245,
+   "replies": 1986,
+   "bookmarks": 1192,
+   "approx": false
+  },
+  {
+   "id": "2121822266891583782",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2942335,
+   "likes": 7815,
+   "reposts": 829,
+   "quotes": 141,
+   "replies": 189,
+   "bookmarks": 356,
+   "approx": false
+  },
+  {
+   "id": "2121558317944148258",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2683142,
+   "likes": 2700,
+   "reposts": 273,
+   "quotes": 455,
+   "replies": 93,
+   "bookmarks": 822,
+   "approx": false
+  },
+  {
+   "id": "2094898897260863652",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2410586,
+   "likes": 2957,
+   "reposts": 178,
+   "quotes": 888,
+   "replies": 250,
+   "bookmarks": 528,
+   "approx": false
+  },
+  {
+   "id": "2121822913762378094",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2724349,
+   "likes": 23748,
+   "reposts": 783,
+   "quotes": 320,
+   "replies": 1166,
+   "bookmarks": 8608,
+   "approx": false
+  },
+  {
+   "id": "2121802527524164015",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 2083142,
+   "likes": 41886,
+   "reposts": 3264,
+   "quotes": 238,
+   "replies": 1778,
+   "bookmarks": 1254,
+   "approx": false
+  },
+  {
+   "id": "2121619636827402302",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1882350,
+   "likes": 34992,
+   "reposts": 1333,
+   "quotes": 154,
+   "replies": 400,
+   "bookmarks": 8254,
+   "approx": false
+  },
+  {
+   "id": "2121770874885845044",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1807923,
+   "likes": 10004,
+   "reposts": 989,
+   "quotes": 81,
+   "replies": 859,
+   "bookmarks": 2043,
+   "approx": false
+  },
+  {
+   "id": "2121605762027843726",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1733298,
+   "likes": 39327,
+   "reposts": 9393,
+   "quotes": 496,
+   "replies": 660,
+   "bookmarks": 4332,
+   "approx": false
+  },
+  {
+   "id": "2121773113239073260",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1721299,
+   "likes": 23217,
+   "reposts": 2621,
+   "quotes": 835,
+   "replies": 3307,
+   "bookmarks": 1869,
+   "approx": false
+  },
+  {
+   "id": "2121673338221162684",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1482741,
+   "likes": 69215,
+   "reposts": 11814,
+   "quotes": 458,
+   "replies": 1403,
+   "bookmarks": 2334,
+   "approx": false
+  },
+  {
+   "id": "2121764319792677119",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1548442,
+   "likes": 13387,
+   "reposts": 794,
+   "quotes": 49,
+   "replies": 858,
+   "bookmarks": 223,
+   "approx": false
+  },
+  {
+   "id": "2121646349892338167",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1434659,
+   "likes": 17835,
+   "reposts": 653,
+   "quotes": 24,
+   "replies": 35,
+   "bookmarks": 1670,
+   "approx": false
+  },
+  {
+   "id": "2111018671519011308",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1263222,
+   "likes": 4713,
+   "reposts": 434,
+   "quotes": 4,
+   "replies": 102,
+   "bookmarks": 216,
+   "approx": false
+  },
+  {
+   "id": "2121807028759007634",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1218414,
+   "likes": 183,
+   "reposts": 20,
+   "quotes": 7,
+   "replies": 7,
+   "bookmarks": 35,
+   "approx": false
+  },
+  {
+   "id": "2121650782701523334",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 886120,
+   "likes": 1285,
+   "reposts": 35,
+   "quotes": 38,
+   "replies": 185,
+   "bookmarks": 147,
+   "approx": false
+  },
+  {
+   "id": "2037883086570967104",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 859215,
+   "likes": 18000,
+   "reposts": 2214,
+   "quotes": 257,
+   "replies": 46,
+   "bookmarks": 1497,
+   "approx": false
+  },
+  {
+   "id": "2121777116018508128",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 865806,
+   "likes": 2954,
+   "reposts": 249,
+   "quotes": 34,
+   "replies": 39,
+   "bookmarks": 117,
+   "approx": false
+  },
+  {
+   "id": "2121828167560175914",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 872915,
+   "likes": 17701,
+   "reposts": 1211,
+   "quotes": 158,
+   "replies": 174,
+   "bookmarks": 789,
+   "approx": false
+  },
+  {
+   "id": "2121786376685224056",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 801364,
+   "likes": 6391,
+   "reposts": 846,
+   "quotes": 382,
+   "replies": 985,
+   "bookmarks": 876,
+   "approx": false
+  },
+  {
+   "id": "2121739961485705327",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 753011,
+   "likes": 7334,
+   "reposts": 777,
+   "quotes": 101,
+   "replies": 106,
+   "bookmarks": 871,
+   "approx": false
+  },
+  {
+   "id": "2121654011724243235",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 1537077,
+   "likes": 3682,
+   "reposts": 234,
+   "quotes": 84,
+   "replies": 154,
+   "bookmarks": 655,
+   "approx": false
+  },
+  {
+   "id": "2121878368165515544",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 719266,
+   "likes": 15369,
+   "reposts": 1149,
+   "quotes": 67,
+   "replies": 252,
+   "bookmarks": 107,
+   "approx": false
+  },
+  {
+   "id": "2121572276617265490",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 535661,
+   "likes": 14550,
+   "reposts": 773,
+   "quotes": 19,
+   "replies": 8,
+   "bookmarks": 2715,
+   "approx": false
+  },
+  {
+   "id": "2121802194517450941",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 554632,
+   "likes": 7702,
+   "reposts": 663,
+   "quotes": 226,
+   "replies": 697,
+   "bookmarks": 190,
+   "approx": false
+  },
+  {
+   "id": "2121790621644128413",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 554186,
+   "likes": 192,
+   "reposts": 43,
+   "quotes": 16,
+   "replies": 9,
+   "bookmarks": 39,
+   "approx": false
+  },
+  {
+   "id": "2121807381902295184",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 799856,
+   "likes": 5502,
+   "reposts": 278,
+   "quotes": 39,
+   "replies": 141,
+   "bookmarks": 689,
+   "approx": false
+  },
+  {
+   "id": "2121777190375449019",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 823209,
+   "likes": 4986,
+   "reposts": 272,
+   "quotes": 370,
+   "replies": 2621,
+   "bookmarks": 283,
+   "approx": false
+  },
+  {
+   "id": "2121807444657537434",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 564640,
+   "likes": 4162,
+   "reposts": 277,
+   "quotes": 97,
+   "replies": 109,
+   "bookmarks": 209,
+   "approx": false
+  },
+  {
+   "id": "2121779504578506995",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 600727,
+   "likes": 9357,
+   "reposts": 733,
+   "quotes": 46,
+   "replies": 69,
+   "bookmarks": 458,
+   "approx": false
+  },
+  {
+   "id": "2121783846236811298",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 419521,
+   "likes": 1282,
+   "reposts": 70,
+   "quotes": 13,
+   "replies": 20,
+   "bookmarks": 138,
+   "approx": false
+  },
+  {
+   "id": "2121664514219196467",
+   "at": "2026-11-15T10:10:00Z",
+   "state": "live",
+   "views": 377796,
+   "likes": 6858,
+   "reposts": 1376,
+   "quotes": 146,
+   "replies": 104,
+   "bookmarks": 271,
+   "approx": false
+  },
+  {
+   "id": "2121740578467856551",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 817871,
+   "likes": 64374,
+   "reposts": 4027,
+   "quotes": 217,
+   "replies": 138,
+   "bookmarks": 1600,
+   "approx": false
+  },
+  {
+   "id": "2121574101479534631",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 487279,
+   "likes": 7305,
+   "reposts": 1343,
+   "quotes": 122,
+   "replies": 556,
+   "bookmarks": 1488,
+   "approx": false
+  },
+  {
+   "id": "2121668849439248817",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 304552,
+   "likes": 20396,
+   "reposts": 3964,
+   "quotes": 112,
+   "replies": 417,
+   "bookmarks": 554,
+   "approx": false
+  },
+  {
+   "id": "2121716179568091368",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 442819,
+   "likes": 15387,
+   "reposts": 1334,
+   "quotes": 69,
+   "replies": 64,
+   "bookmarks": 992,
+   "approx": false
+  },
+  {
+   "id": "2121833298787774645",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 87524,
+   "likes": 2192,
+   "reposts": 160,
+   "quotes": 24,
+   "replies": 26,
+   "bookmarks": 113,
+   "approx": false
+  },
+  {
+   "id": "2121803085609947324",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 584809,
+   "likes": 5313,
+   "reposts": 535,
+   "quotes": 53,
+   "replies": 49,
+   "bookmarks": 233,
+   "approx": false
+  },
+  {
+   "id": "2121795141367189870",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 471210,
+   "likes": 1385,
+   "reposts": 210,
+   "quotes": 8,
+   "replies": 97,
+   "bookmarks": 151,
+   "approx": false
+  },
+  {
+   "id": "2121761927928131624",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 133886,
+   "likes": 8100,
+   "reposts": 1990,
+   "quotes": 44,
+   "replies": 23,
+   "bookmarks": 240,
+   "approx": false
+  },
+  {
+   "id": "2121830555033694252",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 95547,
+   "likes": 763,
+   "reposts": 61,
+   "quotes": 5,
+   "replies": 25,
+   "bookmarks": 70,
+   "approx": false
+  },
+  {
+   "id": "2121885934463406332",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 111768,
+   "likes": 143,
+   "reposts": 43,
+   "quotes": 13,
+   "replies": 18,
+   "bookmarks": 21,
+   "approx": false
+  },
+  {
+   "id": "2121868919094882648",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 70196,
+   "likes": 41,
+   "reposts": 6,
+   "quotes": 3,
+   "replies": 56,
+   "bookmarks": 4,
+   "approx": false
+  },
+  {
+   "id": "2121871118759829780",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 42505,
+   "likes": 493,
+   "reposts": 65,
+   "quotes": 2,
+   "replies": 38,
+   "bookmarks": 37,
+   "approx": false
+  },
+  {
+   "id": "2121881340056326317",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 38281,
+   "likes": 28,
+   "reposts": 2,
+   "quotes": 4,
+   "replies": 16,
+   "bookmarks": 15,
+   "approx": false
+  },
+  {
+   "id": "2121831411032138025",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 36513,
+   "likes": 1772,
+   "reposts": 346,
+   "quotes": 13,
+   "replies": 30,
+   "bookmarks": 19,
+   "approx": false
+  },
+  {
+   "id": "2121890973470900682",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 32557,
+   "likes": 35,
+   "reposts": 22,
+   "quotes": 5,
+   "replies": 9,
+   "bookmarks": 4,
+   "approx": false
+  },
+  {
+   "id": "2121887208407785494",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 30687,
+   "likes": 8,
+   "reposts": 4,
+   "quotes": 0,
+   "replies": 10,
+   "bookmarks": 1,
+   "approx": false
+  },
+  {
+   "id": "2121889656874618898",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 22196,
+   "likes": 30,
+   "reposts": 3,
+   "quotes": 4,
+   "replies": 34,
+   "bookmarks": 5,
+   "approx": false
+  },
+  {
+   "id": "2121902666662260956",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 18710,
+   "likes": 110,
+   "reposts": 27,
+   "quotes": 1,
+   "replies": 8,
+   "bookmarks": 14,
+   "approx": false
+  },
+  {
+   "id": "2121837121858306062",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 234120,
+   "likes": 1764,
+   "reposts": 248,
+   "quotes": 34,
+   "replies": 118,
+   "bookmarks": 178,
+   "approx": false
+  },
+  {
+   "id": "2121861610012545295",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 82670,
+   "likes": 1186,
+   "reposts": 141,
+   "quotes": 15,
+   "replies": 151,
+   "bookmarks": 39,
+   "approx": false
+  },
+  {
+   "id": "2121870448669683909",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 62145,
+   "likes": 377,
+   "reposts": 19,
+   "quotes": 0,
+   "replies": 48,
+   "bookmarks": 36,
+   "approx": false
+  },
+  {
+   "id": "2121828065278095840",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 61437,
+   "likes": 504,
+   "reposts": 27,
+   "quotes": 4,
+   "replies": 63,
+   "bookmarks": 9,
+   "approx": false
+  },
+  {
+   "id": "2121878895385608471",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 59553,
+   "likes": 875,
+   "reposts": 53,
+   "quotes": 5,
+   "replies": 168,
+   "bookmarks": 15,
+   "approx": false
+  },
+  {
+   "id": "2121826043933929869",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 56826,
+   "likes": 1268,
+   "reposts": 124,
+   "quotes": 11,
+   "replies": 38,
+   "bookmarks": 58,
+   "approx": false
+  },
+  {
+   "id": "2121894977777308048",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 54358,
+   "likes": 792,
+   "reposts": 47,
+   "quotes": 13,
+   "replies": 155,
+   "bookmarks": 16,
+   "approx": false
+  },
+  {
+   "id": "2121882142955434115",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 49545,
+   "likes": 570,
+   "reposts": 51,
+   "quotes": 9,
+   "replies": 97,
+   "bookmarks": 13,
+   "approx": false
+  },
+  {
+   "id": "2121893040314798375",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 46617,
+   "likes": 736,
+   "reposts": 65,
+   "quotes": 8,
+   "replies": 128,
+   "bookmarks": 18,
+   "approx": false
+  },
+  {
+   "id": "2121868508854169938",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 41198,
+   "likes": 345,
+   "reposts": 34,
+   "quotes": 11,
+   "replies": 114,
+   "bookmarks": 17,
+   "approx": false
+  },
+  {
+   "id": "2121838297794179191",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 41061,
+   "likes": 323,
+   "reposts": 44,
+   "quotes": 13,
+   "replies": 78,
+   "bookmarks": 14,
+   "approx": false
+  },
+  {
+   "id": "2121853386207170713",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 38970,
+   "likes": 140,
+   "reposts": 13,
+   "quotes": 10,
+   "replies": 74,
+   "bookmarks": 8,
+   "approx": false
+  },
+  {
+   "id": "2121883586815013051",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 35965,
+   "likes": 279,
+   "reposts": 21,
+   "quotes": 5,
+   "replies": 46,
+   "bookmarks": 10,
+   "approx": false
+  },
+  {
+   "id": "2121875758704370144",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 776085,
+   "likes": 10255,
+   "reposts": 914,
+   "quotes": 73,
+   "replies": 794,
+   "bookmarks": 380,
+   "approx": false
+  },
+  {
+   "id": "2121875600906592260",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 725239,
+   "likes": 6436,
+   "reposts": 648,
+   "quotes": 45,
+   "replies": 529,
+   "bookmarks": 311,
+   "approx": false
+  },
+  {
+   "id": "2121875056817328621",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 680078,
+   "likes": 5263,
+   "reposts": 423,
+   "quotes": 51,
+   "replies": 660,
+   "bookmarks": 122,
+   "approx": false
+  },
+  {
+   "id": "2121777788797718785",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 226191,
+   "likes": 3017,
+   "reposts": 180,
+   "quotes": 16,
+   "replies": 92,
+   "bookmarks": 149,
+   "approx": false
+  },
+  {
+   "id": "2121689161845334396",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 217438,
+   "likes": 3052,
+   "reposts": 473,
+   "quotes": 96,
+   "replies": 166,
+   "bookmarks": 850,
+   "approx": false
+  },
+  {
+   "id": "2121605680213930064",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 1064832,
+   "likes": 42560,
+   "reposts": 6606,
+   "quotes": 203,
+   "replies": 806,
+   "bookmarks": 350,
+   "approx": false
+  },
+  {
+   "id": "1998437118343872678",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 18660911,
+   "likes": 594,
+   "reposts": 88,
+   "quotes": 34,
+   "replies": 80,
+   "bookmarks": 103,
+   "approx": false
+  },
+  {
+   "id": "2088124836518490392",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 37653338,
+   "likes": 57087,
+   "reposts": 2353,
+   "quotes": 1054,
+   "replies": 2199,
+   "bookmarks": 41810,
+   "approx": false
+  },
+  {
+   "id": "2089353739932926016",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 195003,
+   "likes": 3282,
+   "reposts": 5104,
+   "quotes": 2,
+   "replies": 91,
+   "bookmarks": 772,
+   "approx": false
+  },
+  {
+   "id": "2117044016621748292",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 949553,
+   "likes": 4336,
+   "reposts": 618,
+   "quotes": 132,
+   "replies": 345,
+   "bookmarks": 1298,
+   "approx": false
+  },
+  {
+   "id": "2096882881499111922",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 8892,
+   "likes": 60,
+   "reposts": 6,
+   "quotes": 2,
+   "replies": 6,
+   "bookmarks": 8,
+   "approx": false
+  },
+  {
+   "id": "1594811401972989957",
+   "at": "2026-11-15T10:11:00Z",
+   "state": "live",
+   "views": 0,
+   "likes": 116,
+   "reposts": 52,
+   "quotes": 8,
+   "replies": 22,
+   "bookmarks": 9,
+   "approx": false
+  }
+ ],
+ "context": [],
+ "answers": [],
+ "volume": [
+  {
+   "key": "desk.business",
+   "desk": "business",
+   "query": "(CEO OR company OR layoffs OR \"laid off\" OR merger OR acquisition OR startup OR boycott OR retail OR earnings OR brand) lang:en",
+   "granularity": "hour",
+   "points": [
+    {
+     "start": "2026-11-08T11:00:00Z",
+     "count": 17710
+    },
+    {
+     "start": "2026-11-08T12:00:00Z",
+     "count": 19121
+    },
+    {
+     "start": "2026-11-08T13:00:00Z",
+     "count": 21421
+    },
+    {
+     "start": "2026-11-08T14:00:00Z",
+     "count": 22871
+    },
+    {
+     "start": "2026-11-08T15:00:00Z",
+     "count": 23313
+    },
+    {
+     "start": "2026-11-08T16:00:00Z",
+     "count": 23600
+    },
+    {
+     "start": "2026-11-08T17:00:00Z",
+     "count": 24171
+    },
+    {
+     "start": "2026-11-08T18:00:00Z",
+     "count": 24562
+    },
+    {
+     "start": "2026-11-08T19:00:00Z",
+     "count": 23662
+    },
+    {
+     "start": "2026-11-08T20:00:00Z",
+     "count": 25806
+    },
+    {
+     "start": "2026-11-08T21:00:00Z",
+     "count": 27293
+    },
+    {
+     "start": "2026-11-08T22:00:00Z",
+     "count": 27805
+    },
+    {
+     "start": "2026-11-08T23:00:00Z",
+     "count": 26720
+    },
+    {
+     "start": "2026-11-09T00:00:00Z",
+     "count": 25781
+    },
+    {
+     "start": "2026-11-09T01:00:00Z",
+     "count": 24018
+    },
+    {
+     "start": "2026-11-09T02:00:00Z",
+     "count": 22142
+    },
+    {
+     "start": "2026-11-09T03:00:00Z",
+     "count": 22214
+    },
+    {
+     "start": "2026-11-09T04:00:00Z",
+     "count": 20850
+    },
+    {
+     "start": "2026-11-09T05:00:00Z",
+     "count": 20517
+    },
+    {
+     "start": "2026-11-09T06:00:00Z",
+     "count": 20765
+    },
+    {
+     "start": "2026-11-09T07:00:00Z",
+     "count": 22172
+    },
+    {
+     "start": "2026-11-09T08:00:00Z",
+     "count": 21308
+    },
+    {
+     "start": "2026-11-09T09:00:00Z",
+     "count": 22380
+    },
+    {
+     "start": "2026-11-09T10:00:00Z",
+     "count": 24090
+    },
+    {
+     "start": "2026-11-09T11:00:00Z",
+     "count": 26004
+    },
+    {
+     "start": "2026-11-09T12:00:00Z",
+     "count": 29631
+    },
+    {
+     "start": "2026-11-09T13:00:00Z",
+     "count": 33162
+    },
+    {
+     "start": "2026-11-09T14:00:00Z",
+     "count": 43658
+    },
+    {
+     "start": "2026-11-09T15:00:00Z",
+     "count": 53065
+    },
+    {
+     "start": "2026-11-09T16:00:00Z",
+     "count": 49632
+    },
+    {
+     "start": "2026-11-09T17:00:00Z",
+     "count": 48851
+    },
+    {
+     "start": "2026-11-09T18:00:00Z",
+     "count": 49665
+    },
+    {
+     "start": "2026-11-09T19:00:00Z",
+     "count": 44123
+    },
+    {
+     "start": "2026-11-09T20:00:00Z",
+     "count": 42062
+    },
+    {
+     "start": "2026-11-09T21:00:00Z",
+     "count": 40679
+    },
+    {
+     "start": "2026-11-09T22:00:00Z",
+     "count": 37305
+    },
+    {
+     "start": "2026-11-09T23:00:00Z",
+     "count": 35238
+    },
+    {
+     "start": "2026-11-10T00:00:00Z",
+     "count": 31278
+    },
+    {
+     "start": "2026-11-10T01:00:00Z",
+     "count": 28585
+    },
+    {
+     "start": "2026-11-10T02:00:00Z",
+     "count": 27575
+    },
+    {
+     "start": "2026-11-10T03:00:00Z",
+     "count": 27105
+    },
+    {
+     "start": "2026-11-10T04:00:00Z",
+     "count": 24665
+    },
+    {
+     "start": "2026-11-10T05:00:00Z",
+     "count": 25236
+    },
+    {
+     "start": "2026-11-10T06:00:00Z",
+     "count": 25621
+    },
+    {
+     "start": "2026-11-10T07:00:00Z",
+     "count": 26096
+    },
+    {
+     "start": "2026-11-10T08:00:00Z",
+     "count": 26471
+    },
+    {
+     "start": "2026-11-10T09:00:00Z",
+     "count": 28044
+    },
+    {
+     "start": "2026-11-10T10:00:00Z",
+     "count": 46425
+    },
+    {
+     "start": "2026-11-10T11:00:00Z",
+     "count": 38473
+    },
+    {
+     "start": "2026-11-10T12:00:00Z",
+     "count": 40939
+    },
+    {
+     "start": "2026-11-10T13:00:00Z",
+     "count": 42393
+    },
+    {
+     "start": "2026-11-10T14:00:00Z",
+     "count": 43168
+    },
+    {
+     "start": "2026-11-10T15:00:00Z",
+     "count": 43369
+    },
+    {
+     "start": "2026-11-10T16:00:00Z",
+     "count": 41869
+    },
+    {
+     "start": "2026-11-10T17:00:00Z",
+     "count": 40647
+    },
+    {
+     "start": "2026-11-10T18:00:00Z",
+     "count": 38781
+    },
+    {
+     "start": "2026-11-10T19:00:00Z",
+     "count": 36099
+    },
+    {
+     "start": "2026-11-10T20:00:00Z",
+     "count": 37239
+    },
+    {
+     "start": "2026-11-10T21:00:00Z",
+     "count": 37543
+    },
+    {
+     "start": "2026-11-10T22:00:00Z",
+     "count": 33854
+    },
+    {
+     "start": "2026-11-10T23:00:00Z",
+     "count": 30046
+    },
+    {
+     "start": "2026-11-11T00:00:00Z",
+     "count": 28066
+    },
+    {
+     "start": "2026-11-11T01:00:00Z",
+     "count": 26771
+    },
+    {
+     "start": "2026-11-11T02:00:00Z",
+     "count": 25802
+    },
+    {
+     "start": "2026-11-11T03:00:00Z",
+     "count": 24599
+    },
+    {
+     "start": "2026-11-11T04:00:00Z",
+     "count": 21971
+    },
+    {
+     "start": "2026-11-11T05:00:00Z",
+     "count": 21324
+    },
+    {
+     "start": "2026-11-11T06:00:00Z",
+     "count": 22161
+    },
+    {
+     "start": "2026-11-11T07:00:00Z",
+     "count": 23310
+    },
+    {
+     "start": "2026-11-11T08:00:00Z",
+     "count": 23868
+    },
+    {
+     "start": "2026-11-11T09:00:00Z",
+     "count": 23890
+    },
+    {
+     "start": "2026-11-11T10:00:00Z",
+     "count": 24047
+    },
+    {
+     "start": "2026-11-11T11:00:00Z",
+     "count": 26075
+    },
+    {
+     "start": "2026-11-11T12:00:00Z",
+     "count": 28731
+    },
+    {
+     "start": "2026-11-11T13:00:00Z",
+     "count": 30969
+    },
+    {
+     "start": "2026-11-11T14:00:00Z",
+     "count": 31970
+    },
+    {
+     "start": "2026-11-11T15:00:00Z",
+     "count": 36975
+    },
+    {
+     "start": "2026-11-11T16:00:00Z",
+     "count": 34108
+    },
+    {
+     "start": "2026-11-11T17:00:00Z",
+     "count": 33033
+    },
+    {
+     "start": "2026-11-11T18:00:00Z",
+     "count": 31442
+    },
+    {
+     "start": "2026-11-11T19:00:00Z",
+     "count": 28721
+    },
+    {
+     "start": "2026-11-11T20:00:00Z",
+     "count": 28151
+    },
+    {
+     "start": "2026-11-11T21:00:00Z",
+     "count": 25887
+    },
+    {
+     "start": "2026-11-11T22:00:00Z",
+     "count": 37117
+    },
+    {
+     "start": "2026-11-11T23:00:00Z",
+     "count": 39341
+    },
+    {
+     "start": "2026-11-12T00:00:00Z",
+     "count": 33060
+    },
+    {
+     "start": "2026-11-12T01:00:00Z",
+     "count": 28174
+    },
+    {
+     "start": "2026-11-12T02:00:00Z",
+     "count": 28436
+    },
+    {
+     "start": "2026-11-12T03:00:00Z",
+     "count": 26525
+    },
+    {
+     "start": "2026-11-12T04:00:00Z",
+     "count": 23965
+    },
+    {
+     "start": "2026-11-12T05:00:00Z",
+     "count": 23294
+    },
+    {
+     "start": "2026-11-12T06:00:00Z",
+     "count": 22434
+    },
+    {
+     "start": "2026-11-12T07:00:00Z",
+     "count": 23330
+    },
+    {
+     "start": "2026-11-12T08:00:00Z",
+     "count": 22273
+    },
+    {
+     "start": "2026-11-12T09:00:00Z",
+     "count": 22707
+    },
+    {
+     "start": "2026-11-12T10:00:00Z",
+     "count": 25742
+    },
+    {
+     "start": "2026-11-12T11:00:00Z",
+     "count": 26262
+    },
+    {
+     "start": "2026-11-12T12:00:00Z",
+     "count": 29145
+    },
+    {
+     "start": "2026-11-12T13:00:00Z",
+     "count": 37858
+    },
+    {
+     "start": "2026-11-12T14:00:00Z",
+     "count": 84958
+    },
+    {
+     "start": "2026-11-12T15:00:00Z",
+     "count": 64058
+    },
+    {
+     "start": "2026-11-12T16:00:00Z",
+     "count": 54267
+    },
+    {
+     "start": "2026-11-12T17:00:00Z",
+     "count": 49295
+    },
+    {
+     "start": "2026-11-12T18:00:00Z",
+     "count": 44628
+    },
+    {
+     "start": "2026-11-12T19:00:00Z",
+     "count": 43072
+    },
+    {
+     "start": "2026-11-12T20:00:00Z",
+     "count": 43956
+    },
+    {
+     "start": "2026-11-12T21:00:00Z",
+     "count": 39469
+    },
+    {
+     "start": "2026-11-12T22:00:00Z",
+     "count": 34929
+    },
+    {
+     "start": "2026-11-12T23:00:00Z",
+     "count": 32319
+    },
+    {
+     "start": "2026-11-13T00:00:00Z",
+     "count": 29975
+    },
+    {
+     "start": "2026-11-13T01:00:00Z",
+     "count": 28780
+    },
+    {
+     "start": "2026-11-13T02:00:00Z",
+     "count": 28608
+    },
+    {
+     "start": "2026-11-13T03:00:00Z",
+     "count": 28853
+    },
+    {
+     "start": "2026-11-13T04:00:00Z",
+     "count": 27163
+    },
+    {
+     "start": "2026-11-13T05:00:00Z",
+     "count": 27787
+    },
+    {
+     "start": "2026-11-13T06:00:00Z",
+     "count": 27848
+    },
+    {
+     "start": "2026-11-13T07:00:00Z",
+     "count": 28482
+    },
+    {
+     "start": "2026-11-13T08:00:00Z",
+     "count": 27237
+    },
+    {
+     "start": "2026-11-13T09:00:00Z",
+     "count": 26730
+    },
+    {
+     "start": "2026-11-13T10:00:00Z",
+     "count": 26965
+    },
+    {
+     "start": "2026-11-13T11:00:00Z",
+     "count": 30136
+    },
+    {
+     "start": "2026-11-13T12:00:00Z",
+     "count": 32641
+    },
+    {
+     "start": "2026-11-13T13:00:00Z",
+     "count": 36070
+    },
+    {
+     "start": "2026-11-13T14:00:00Z",
+     "count": 36316
+    },
+    {
+     "start": "2026-11-13T15:00:00Z",
+     "count": 37247
+    },
+    {
+     "start": "2026-11-13T16:00:00Z",
+     "count": 36738
+    },
+    {
+     "start": "2026-11-13T17:00:00Z",
+     "count": 37188
+    },
+    {
+     "start": "2026-11-13T18:00:00Z",
+     "count": 33651
+    },
+    {
+     "start": "2026-11-13T19:00:00Z",
+     "count": 31293
+    },
+    {
+     "start": "2026-11-13T20:00:00Z",
+     "count": 30892
+    },
+    {
+     "start": "2026-11-13T21:00:00Z",
+     "count": 33515
+    },
+    {
+     "start": "2026-11-13T22:00:00Z",
+     "count": 36789
+    },
+    {
+     "start": "2026-11-13T23:00:00Z",
+     "count": 37210
+    },
+    {
+     "start": "2026-11-14T00:00:00Z",
+     "count": 34251
+    },
+    {
+     "start": "2026-11-14T01:00:00Z",
+     "count": 30523
+    },
+    {
+     "start": "2026-11-14T02:00:00Z",
+     "count": 28516
+    },
+    {
+     "start": "2026-11-14T03:00:00Z",
+     "count": 27828
+    },
+    {
+     "start": "2026-11-14T04:00:00Z",
+     "count": 25539
+    },
+    {
+     "start": "2026-11-14T05:00:00Z",
+     "count": 24037
+    },
+    {
+     "start": "2026-11-14T06:00:00Z",
+     "count": 22774
+    },
+    {
+     "start": "2026-11-14T07:00:00Z",
+     "count": 22060
+    },
+    {
+     "start": "2026-11-14T08:00:00Z",
+     "count": 22426
+    },
+    {
+     "start": "2026-11-14T09:00:00Z",
+     "count": 25148
+    },
+    {
+     "start": "2026-11-14T10:00:00Z",
+     "count": 23654
+    },
+    {
+     "start": "2026-11-14T11:00:00Z",
+     "count": 24958
+    },
+    {
+     "start": "2026-11-14T12:00:00Z",
+     "count": 26749
+    },
+    {
+     "start": "2026-11-14T13:00:00Z",
+     "count": 28833
+    },
+    {
+     "start": "2026-11-14T14:00:00Z",
+     "count": 30387
+    },
+    {
+     "start": "2026-11-14T15:00:00Z",
+     "count": 32373
+    },
+    {
+     "start": "2026-11-14T16:00:00Z",
+     "count": 31167
+    },
+    {
+     "start": "2026-11-14T17:00:00Z",
+     "count": 32596
+    },
+    {
+     "start": "2026-11-14T18:00:00Z",
+     "count": 31358
+    },
+    {
+     "start": "2026-11-14T19:00:00Z",
+     "count": 28056
+    },
+    {
+     "start": "2026-11-14T20:00:00Z",
+     "count": 24800
+    },
+    {
+     "start": "2026-11-14T21:00:00Z",
+     "count": 23964
+    },
+    {
+     "start": "2026-11-14T22:00:00Z",
+     "count": 22814
+    },
+    {
+     "start": "2026-11-14T23:00:00Z",
+     "count": 20914
+    },
+    {
+     "start": "2026-11-15T00:00:00Z",
+     "count": 20642
+    },
+    {
+     "start": "2026-11-15T01:00:00Z",
+     "count": 18896
+    },
+    {
+     "start": "2026-11-15T02:00:00Z",
+     "count": 18682
+    },
+    {
+     "start": "2026-11-15T03:00:00Z",
+     "count": 18221
+    },
+    {
+     "start": "2026-11-15T04:00:00Z",
+     "count": 18268
+    },
+    {
+     "start": "2026-11-15T05:00:00Z",
+     "count": 17717
+    },
+    {
+     "start": "2026-11-15T06:00:00Z",
+     "count": 18033
+    },
+    {
+     "start": "2026-11-15T07:00:00Z",
+     "count": 17587
+    },
+    {
+     "start": "2026-11-15T08:00:00Z",
+     "count": 17532
+    },
+    {
+     "start": "2026-11-15T09:00:00Z",
+     "count": 16659
+    }
+   ]
+  },
+  {
+   "key": "desk.ai",
+   "desk": "ai",
+   "query": "(AI OR \"artificial intelligence\" OR OpenAI OR ChatGPT OR Anthropic OR Claude OR Gemini OR Grok OR LLM OR \"AI model\") lang:en",
+   "granularity": "hour",
+   "points": [
+    {
+     "start": "2026-11-08T11:00:00Z",
+     "count": 51083
+    },
+    {
+     "start": "2026-11-08T12:00:00Z",
+     "count": 54294
+    },
+    {
+     "start": "2026-11-08T13:00:00Z",
+     "count": 60660
+    },
+    {
+     "start": "2026-11-08T14:00:00Z",
+     "count": 66650
+    },
+    {
+     "start": "2026-11-08T15:00:00Z",
+     "count": 70773
+    },
+    {
+     "start": "2026-11-08T16:00:00Z",
+     "count": 72170
+    },
+    {
+     "start": "2026-11-08T17:00:00Z",
+     "count": 70735
+    },
+    {
+     "start": "2026-11-08T18:00:00Z",
+     "count": 72008
+    },
+    {
+     "start": "2026-11-08T19:00:00Z",
+     "count": 65459
+    },
+    {
+     "start": "2026-11-08T20:00:00Z",
+     "count": 61611
+    },
+    {
+     "start": "2026-11-08T21:00:00Z",
+     "count": 59539
+    },
+    {
+     "start": "2026-11-08T22:00:00Z",
+     "count": 58124
+    },
+    {
+     "start": "2026-11-08T23:00:00Z",
+     "count": 54394
+    },
+    {
+     "start": "2026-11-09T00:00:00Z",
+     "count": 52306
+    },
+    {
+     "start": "2026-11-09T01:00:00Z",
+     "count": 51906
+    },
+    {
+     "start": "2026-11-09T02:00:00Z",
+     "count": 53942
+    },
+    {
+     "start": "2026-11-09T03:00:00Z",
+     "count": 55572
+    },
+    {
+     "start": "2026-11-09T04:00:00Z",
+     "count": 56418
+    },
+    {
+     "start": "2026-11-09T05:00:00Z",
+     "count": 59126
+    },
+    {
+     "start": "2026-11-09T06:00:00Z",
+     "count": 66496
+    },
+    {
+     "start": "2026-11-09T07:00:00Z",
+     "count": 63612
+    },
+    {
+     "start": "2026-11-09T08:00:00Z",
+     "count": 58212
+    },
+    {
+     "start": "2026-11-09T09:00:00Z",
+     "count": 58628
+    },
+    {
+     "start": "2026-11-09T10:00:00Z",
+     "count": 63230
+    },
+    {
+     "start": "2026-11-09T11:00:00Z",
+     "count": 67178
+    },
+    {
+     "start": "2026-11-09T12:00:00Z",
+     "count": 70885
+    },
+    {
+     "start": "2026-11-09T13:00:00Z",
+     "count": 79020
+    },
+    {
+     "start": "2026-11-09T14:00:00Z",
+     "count": 91164
+    },
+    {
+     "start": "2026-11-09T15:00:00Z",
+     "count": 96648
+    },
+    {
+     "start": "2026-11-09T16:00:00Z",
+     "count": 96865
+    },
+    {
+     "start": "2026-11-09T17:00:00Z",
+     "count": 90996
+    },
+    {
+     "start": "2026-11-09T18:00:00Z",
+     "count": 82197
+    },
+    {
+     "start": "2026-11-09T19:00:00Z",
+     "count": 82750
+    },
+    {
+     "start": "2026-11-09T20:00:00Z",
+     "count": 72446
+    },
+    {
+     "start": "2026-11-09T21:00:00Z",
+     "count": 66296
+    },
+    {
+     "start": "2026-11-09T22:00:00Z",
+     "count": 61587
+    },
+    {
+     "start": "2026-11-09T23:00:00Z",
+     "count": 57126
+    },
+    {
+     "start": "2026-11-10T00:00:00Z",
+     "count": 57105
+    },
+    {
+     "start": "2026-11-10T01:00:00Z",
+     "count": 62827
+    },
+    {
+     "start": "2026-11-10T02:00:00Z",
+     "count": 68534
+    },
+    {
+     "start": "2026-11-10T03:00:00Z",
+     "count": 75357
+    },
+    {
+     "start": "2026-11-10T04:00:00Z",
+     "count": 69149
+    },
+    {
+     "start": "2026-11-10T05:00:00Z",
+     "count": 72532
+    },
+    {
+     "start": "2026-11-10T06:00:00Z",
+     "count": 70476
+    },
+    {
+     "start": "2026-11-10T07:00:00Z",
+     "count": 69112
+    },
+    {
+     "start": "2026-11-10T08:00:00Z",
+     "count": 69811
+    },
+    {
+     "start": "2026-11-10T09:00:00Z",
+     "count": 67732
+    },
+    {
+     "start": "2026-11-10T10:00:00Z",
+     "count": 70070
+    },
+    {
+     "start": "2026-11-10T11:00:00Z",
+     "count": 76653
+    },
+    {
+     "start": "2026-11-10T12:00:00Z",
+     "count": 80753
+    },
+    {
+     "start": "2026-11-10T13:00:00Z",
+     "count": 91288
+    },
+    {
+     "start": "2026-11-10T14:00:00Z",
+     "count": 102064
+    },
+    {
+     "start": "2026-11-10T15:00:00Z",
+     "count": 110535
+    },
+    {
+     "start": "2026-11-10T16:00:00Z",
+     "count": 108731
+    },
+    {
+     "start": "2026-11-10T17:00:00Z",
+     "count": 101193
+    },
+    {
+     "start": "2026-11-10T18:00:00Z",
+     "count": 93591
+    },
+    {
+     "start": "2026-11-10T19:00:00Z",
+     "count": 83623
+    },
+    {
+     "start": "2026-11-10T20:00:00Z",
+     "count": 77885
+    },
+    {
+     "start": "2026-11-10T21:00:00Z",
+     "count": 71946
+    },
+    {
+     "start": "2026-11-10T22:00:00Z",
+     "count": 65402
+    },
+    {
+     "start": "2026-11-10T23:00:00Z",
+     "count": 61441
+    },
+    {
+     "start": "2026-11-11T00:00:00Z",
+     "count": 58431
+    },
+    {
+     "start": "2026-11-11T01:00:00Z",
+     "count": 63229
+    },
+    {
+     "start": "2026-11-11T02:00:00Z",
+     "count": 65505
+    },
+    {
+     "start": "2026-11-11T03:00:00Z",
+     "count": 72729
+    },
+    {
+     "start": "2026-11-11T04:00:00Z",
+     "count": 72330
+    },
+    {
+     "start": "2026-11-11T05:00:00Z",
+     "count": 73893
+    },
+    {
+     "start": "2026-11-11T06:00:00Z",
+     "count": 76256
+    },
+    {
+     "start": "2026-11-11T07:00:00Z",
+     "count": 70014
+    },
+    {
+     "start": "2026-11-11T08:00:00Z",
+     "count": 67123
+    },
+    {
+     "start": "2026-11-11T09:00:00Z",
+     "count": 63061
+    },
+    {
+     "start": "2026-11-11T10:00:00Z",
+     "count": 65749
+    },
+    {
+     "start": "2026-11-11T11:00:00Z",
+     "count": 70817
+    },
+    {
+     "start": "2026-11-11T12:00:00Z",
+     "count": 78089
+    },
+    {
+     "start": "2026-11-11T13:00:00Z",
+     "count": 84024
+    },
+    {
+     "start": "2026-11-11T14:00:00Z",
+     "count": 93684
+    },
+    {
+     "start": "2026-11-11T15:00:00Z",
+     "count": 107525
+    },
+    {
+     "start": "2026-11-11T16:00:00Z",
+     "count": 106199
+    },
+    {
+     "start": "2026-11-11T17:00:00Z",
+     "count": 98870
+    },
+    {
+     "start": "2026-11-11T18:00:00Z",
+     "count": 91845
+    },
+    {
+     "start": "2026-11-11T19:00:00Z",
+     "count": 80793
+    },
+    {
+     "start": "2026-11-11T20:00:00Z",
+     "count": 72312
+    },
+    {
+     "start": "2026-11-11T21:00:00Z",
+     "count": 68532
+    },
+    {
+     "start": "2026-11-11T22:00:00Z",
+     "count": 65599
+    },
+    {
+     "start": "2026-11-11T23:00:00Z",
+     "count": 63370
+    },
+    {
+     "start": "2026-11-12T00:00:00Z",
+     "count": 61120
+    },
+    {
+     "start": "2026-11-12T01:00:00Z",
+     "count": 64018
+    },
+    {
+     "start": "2026-11-12T02:00:00Z",
+     "count": 76171
+    },
+    {
+     "start": "2026-11-12T03:00:00Z",
+     "count": 73140
+    },
+    {
+     "start": "2026-11-12T04:00:00Z",
+     "count": 71091
+    },
+    {
+     "start": "2026-11-12T05:00:00Z",
+     "count": 72715
+    },
+    {
+     "start": "2026-11-12T06:00:00Z",
+     "count": 78372
+    },
+    {
+     "start": "2026-11-12T07:00:00Z",
+     "count": 70540
+    },
+    {
+     "start": "2026-11-12T08:00:00Z",
+     "count": 69391
+    },
+    {
+     "start": "2026-11-12T09:00:00Z",
+     "count": 67883
+    },
+    {
+     "start": "2026-11-12T10:00:00Z",
+     "count": 69561
+    },
+    {
+     "start": "2026-11-12T11:00:00Z",
+     "count": 73171
+    },
+    {
+     "start": "2026-11-12T12:00:00Z",
+     "count": 77100
+    },
+    {
+     "start": "2026-11-12T13:00:00Z",
+     "count": 84089
+    },
+    {
+     "start": "2026-11-12T14:00:00Z",
+     "count": 106765
+    },
+    {
+     "start": "2026-11-12T15:00:00Z",
+     "count": 114237
+    },
+    {
+     "start": "2026-11-12T16:00:00Z",
+     "count": 107038
+    },
+    {
+     "start": "2026-11-12T17:00:00Z",
+     "count": 101883
+    },
+    {
+     "start": "2026-11-12T18:00:00Z",
+     "count": 93561
+    },
+    {
+     "start": "2026-11-12T19:00:00Z",
+     "count": 80601
+    },
+    {
+     "start": "2026-11-12T20:00:00Z",
+     "count": 77412
+    },
+    {
+     "start": "2026-11-12T21:00:00Z",
+     "count": 73399
+    },
+    {
+     "start": "2026-11-12T22:00:00Z",
+     "count": 67919
+    },
+    {
+     "start": "2026-11-12T23:00:00Z",
+     "count": 65526
+    },
+    {
+     "start": "2026-11-13T00:00:00Z",
+     "count": 61756
+    },
+    {
+     "start": "2026-11-13T01:00:00Z",
+     "count": 67683
+    },
+    {
+     "start": "2026-11-13T02:00:00Z",
+     "count": 67783
+    },
+    {
+     "start": "2026-11-13T03:00:00Z",
+     "count": 70573
+    },
+    {
+     "start": "2026-11-13T04:00:00Z",
+     "count": 75012
+    },
+    {
+     "start": "2026-11-13T05:00:00Z",
+     "count": 73252
+    },
+    {
+     "start": "2026-11-13T06:00:00Z",
+     "count": 78407
+    },
+    {
+     "start": "2026-11-13T07:00:00Z",
+     "count": 73147
+    },
+    {
+     "start": "2026-11-13T08:00:00Z",
+     "count": 65580
+    },
+    {
+     "start": "2026-11-13T09:00:00Z",
+     "count": 72655
+    },
+    {
+     "start": "2026-11-13T10:00:00Z",
+     "count": 73893
+    },
+    {
+     "start": "2026-11-13T11:00:00Z",
+     "count": 84569
+    },
+    {
+     "start": "2026-11-13T12:00:00Z",
+     "count": 80649
+    },
+    {
+     "start": "2026-11-13T13:00:00Z",
+     "count": 91210
+    },
+    {
+     "start": "2026-11-13T14:00:00Z",
+     "count": 102325
+    },
+    {
+     "start": "2026-11-13T15:00:00Z",
+     "count": 107062
+    },
+    {
+     "start": "2026-11-13T16:00:00Z",
+     "count": 105301
+    },
+    {
+     "start": "2026-11-13T17:00:00Z",
+     "count": 92882
+    },
+    {
+     "start": "2026-11-13T18:00:00Z",
+     "count": 84466
+    },
+    {
+     "start": "2026-11-13T19:00:00Z",
+     "count": 75912
+    },
+    {
+     "start": "2026-11-13T20:00:00Z",
+     "count": 70419
+    },
+    {
+     "start": "2026-11-13T21:00:00Z",
+     "count": 73847
+    },
+    {
+     "start": "2026-11-13T22:00:00Z",
+     "count": 86410
+    },
+    {
+     "start": "2026-11-13T23:00:00Z",
+     "count": 83785
+    },
+    {
+     "start": "2026-11-14T00:00:00Z",
+     "count": 78865
+    },
+    {
+     "start": "2026-11-14T01:00:00Z",
+     "count": 80137
+    },
+    {
+     "start": "2026-11-14T02:00:00Z",
+     "count": 74314
+    },
+    {
+     "start": "2026-11-14T03:00:00Z",
+     "count": 77271
+    },
+    {
+     "start": "2026-11-14T04:00:00Z",
+     "count": 72599
+    },
+    {
+     "start": "2026-11-14T05:00:00Z",
+     "count": 72653
+    },
+    {
+     "start": "2026-11-14T06:00:00Z",
+     "count": 73460
+    },
+    {
+     "start": "2026-11-14T07:00:00Z",
+     "count": 71135
+    },
+    {
+     "start": "2026-11-14T08:00:00Z",
+     "count": 63506
+    },
+    {
+     "start": "2026-11-14T09:00:00Z",
+     "count": 63964
+    },
+    {
+     "start": "2026-11-14T10:00:00Z",
+     "count": 62736
+    },
+    {
+     "start": "2026-11-14T11:00:00Z",
+     "count": 67545
+    },
+    {
+     "start": "2026-11-14T12:00:00Z",
+     "count": 65818
+    },
+    {
+     "start": "2026-11-14T13:00:00Z",
+     "count": 72765
+    },
+    {
+     "start": "2026-11-14T14:00:00Z",
+     "count": 85691
+    },
+    {
+     "start": "2026-11-14T15:00:00Z",
+     "count": 95123
+    },
+    {
+     "start": "2026-11-14T16:00:00Z",
+     "count": 93501
+    },
+    {
+     "start": "2026-11-14T17:00:00Z",
+     "count": 88838
+    },
+    {
+     "start": "2026-11-14T18:00:00Z",
+     "count": 76799
+    },
+    {
+     "start": "2026-11-14T19:00:00Z",
+     "count": 68826
+    },
+    {
+     "start": "2026-11-14T20:00:00Z",
+     "count": 63519
+    },
+    {
+     "start": "2026-11-14T21:00:00Z",
+     "count": 59016
+    },
+    {
+     "start": "2026-11-14T22:00:00Z",
+     "count": 55964
+    },
+    {
+     "start": "2026-11-14T23:00:00Z",
+     "count": 53691
+    },
+    {
+     "start": "2026-11-15T00:00:00Z",
+     "count": 54649
+    },
+    {
+     "start": "2026-11-15T01:00:00Z",
+     "count": 54266
+    },
+    {
+     "start": "2026-11-15T02:00:00Z",
+     "count": 57771
+    },
+    {
+     "start": "2026-11-15T03:00:00Z",
+     "count": 60770
+    },
+    {
+     "start": "2026-11-15T04:00:00Z",
+     "count": 60527
+    },
+    {
+     "start": "2026-11-15T05:00:00Z",
+     "count": 60526
+    },
+    {
+     "start": "2026-11-15T06:00:00Z",
+     "count": 63536
+    },
+    {
+     "start": "2026-11-15T07:00:00Z",
+     "count": 58515
+    },
+    {
+     "start": "2026-11-15T08:00:00Z",
+     "count": 57417
+    },
+    {
+     "start": "2026-11-15T09:00:00Z",
+     "count": 56631
+    }
+   ]
+  }
+ ]
+}
