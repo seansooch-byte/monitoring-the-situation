@@ -6671,3 +6671,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Three ids added to the watch list; plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-15T11:30Z
+- Captures read: 1108Z (1008Z was the last logged read). Last read: 1108Z.
+- X's check: 1108Z 13 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: 0501Z 1 mismatched (not cited), 0304Z 1 (2121673185540378797), 0104Z 1 (2121479240583635454), 2100Z 2 (2113644989867499762, 2121665388832501857); cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 28 items (0 in, 1 out). Out: robotaxi Cybercab post (36 hours old). Header 1108Z.
+- Added: 2026-11-14-us-loses-measles-elimination-status (medicine), 2026-11-14-miami-ups-copa-taxiway-collision (disaster). Updated: none.
+- Left out: Cybercab purchase story (searches found only a fleet interest form, nothing confirming personal sales); Massie Iran vote (not researched this pass); Fox/Dana White UFC clip and Mario Nawfal posts (unchecked claims).
+- Requests: none added or removed. Three ids added to the watch list; plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One story cites a post missing on X (2117537320392130634).

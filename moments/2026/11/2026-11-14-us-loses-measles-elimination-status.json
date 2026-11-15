@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-14-us-loses-measles-elimination-status",
+  "title": "US loses its measles elimination status, the Pan American Health Organization says",
+  "dek": "Losing the status means measles is judged to be spreading continuously inside the country, not only arriving from abroad.",
+  "desks": ["medicine"],
+  "standing": "established",
+  "started_at": "2026-11-14T00:34:42Z",
+  "updated_at": "2026-11-15T11:30:00Z",
+  "what": [
+    "Liz Essley Whyte, a Wall Street Journal reporter, posted an exclusive with a colleague that the US has lost its measles elimination status. The post links to the Journal's story. I could not open that story.",
+    "Local12 reports that the Pan American Health Organization (PAHO) has revoked the status, the first change in the country's measles status in three decades. It says the basis is that the US did not stop person-to-person spread of measles inside the country for at least 12 months. Local12 dates the announcement 14 November 2026.",
+    "Local12 reports, citing CDC data, 5,412 confirmed US cases as of 12 November 2026, with Pennsylvania at 1,529, South Carolina at 670 and Utah at 536. It reports 2,289 cases in 2025 and 285 in 2024, and a death count of 10 in 2026 after two new deaths.",
+    "Local12 includes no statement from the CDC or the Department of Health and Human Services about the decision. I did not find one."
+  ],
+  "why": "The loss is a marker readers can point to in a long argument over vaccination rates and public health policy. A major newspaper reported it first, and the regional health body is reported to have confirmed it.",
+  "next": "Local12 reports the US must go 12 months without home-grown spread to regain the status. Watch for CDC and HHS statements and for updated case counts.",
+  "posts": [
+    { "id": "2121401400391295202", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Local12: The U.S. loses measles elimination status after death count rises to 10 in 2026", "url": "https://local12.com/news/nation-world/the-us-loses-measles-elimination-status-after-death-count-rises-to-10-in-2026-cdc-us-centers-for-disease-control-and-prevention" }
+  ]
+}

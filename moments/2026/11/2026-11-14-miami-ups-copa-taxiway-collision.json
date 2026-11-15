@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-14-miami-ups-copa-taxiway-collision",
+  "title": "UPS cargo jet and Copa passenger jet collide on a Miami airport taxiway, two minor injuries",
+  "dek": "It happened the same night as the nationwide FAA ground stop, and some posts linked the two. The reporting I opened does not.",
+  "desks": ["disaster"],
+  "standing": "developing",
+  "started_at": "2026-11-15T02:17:30Z",
+  "updated_at": "2026-11-15T11:30:00Z",
+  "what": [
+    "Fox News and ABC7 report that on Saturday 14 November 2026, at about 9 p.m. local time, a UPS Boeing 767 and a Copa Airlines Boeing 737 collided where two taxiways meet at Miami International Airport. Fox News says the Copa jet's left wingtip struck the nose of the UPS plane.",
+    "Fox News says the Copa flight, CM427, was arriving from Panama City with 166 passengers and six crew, and that all passengers got off at the terminal. The UPS plane was preparing to leave for Bogota, Colombia.",
+    "Both outlets say air traffic control had told the UPS crew to give way to the Copa flight. ABC7 quotes a pilot on the radio: \"Somebody hit us.\" Why the aircraft touched is not established in what I read.",
+    "Both outlets say Miami-Dade Fire Rescue treated two people for minor injuries at the scene and that neither went to hospital. The FAA is investigating. UPS said its crew is safe and it will work with authorities.",
+    "ABC7 reports that the airport said flights were sent to other taxiways, with no effect on operations. A later post on X shows video of damage to one of the aircraft. I could not confirm the damage from a source outside X."
+  ],
+  "why": "Radio audio of the moment spread within minutes, and the collision came during a nationwide FAA ground stop, so some posts treated the two as connected.",
+  "next": "The FAA's findings on how the aircraft came to touch. The ABC7 page treats this as unrelated to the ground stop.",
+  "posts": [
+    { "id": "2121789660817174686", "role": "origin" },
+    { "id": "2121814069602881615", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Fox News: UPS and Copa Airlines planes collide at Miami International Airport", "url": "https://www.foxnews.com/us/ups-cargo-plane-copa-airlines-passenger-jet-collide-miami-airport-leaving-2-injured" },
+    { "label": "ABC7 New York: UPS plane, Copa Airlines flight collide on taxiway at Miami International Airport", "url": "https://abc7ny.com/story/ups-plane-copa-airlines-flight-collide-taxiway-miami-international-airport/20041481/" }
+  ]
+}
