@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T18:19:05Z",
-  "capture": "2026-11-15T1807Z",
+  "updated_at": "2026-11-15T19:15:35Z",
+  "capture": "2026-11-15T1901Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -13,12 +13,6 @@
       "id": "2121519137667027013",
       "desk": "music",
       "line": "The fan account GTA 6 Updates says the full tracklist of the GTA 6 album has leaked online, with 34 songs from artists it names, including Travis Scott, Lana Del Rey, Dua Lipa and SZA. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121664710743597410",
-      "desk": "ai",
-      "line": "The account unusual_whales posts that Sam Altman says OpenAI will aim its robotics program at building its own data centers, and that on a podcast he called self-replicating data centers \"within grasp\". Not checked here.",
       "also": []
     },
     {
@@ -43,12 +37,6 @@
       "id": "2121686210565280020",
       "desk": "politics",
       "line": "Rep. Thomas Massie says he will force a vote to \"END THE WAR in Iran\" before his term is up. He is quoting another post. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121607597211926983",
-      "desk": "markets",
-      "line": "The Kobeissi Letter, a markets newsletter, says US consumer prices are up 30.2% since January 2020, an all-time high, or 4.0% a year, against 2% a year under the Fed target. The figures are its own. Not checked here.",
       "also": []
     },
     {
@@ -216,6 +204,11 @@
       "desk": "politics",
       "line": "Politics UK, an account that posts British political news, says the UK Government has confirmed it is considering a \"staggered\" age of consent, which it says would make relationships between adults and 16 and 17-year-olds illegal. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121831918131904712",
+      "desk": "business",
+      "line": "The account scott_colom says his Delta flight at the Atlanta airport has been delayed for hours because the airline cannot find a pilot, and that hotel vouchers are withheld until it is cancelled. He quotes an unnamed airline worker as saying \"pick another transportation secretary.\" Not checked here."
     }
   ]
 }
