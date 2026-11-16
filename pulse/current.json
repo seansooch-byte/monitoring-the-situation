@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T05:15:20Z",
-  "capture": "2026-11-16T0505Z",
+  "updated_at": "2026-11-16T06:08:35Z",
+  "capture": "2026-11-16T0602Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -87,12 +87,6 @@
       "id": "2121698156102525189",
       "desk": "entertainment",
       "line": "DBPerfectShots posts a video captioned \"Villains watching Goku vs Kid Buu in Hell\", from Episode 280 of Dragon Ball Z. I could not see the clip itself, only the caption.",
-      "also": []
-    },
-    {
-      "id": "2121664033397096495",
-      "desk": "medicine",
-      "line": "The account Democrats Deliver says overdose deaths in New York City have dropped 58%. The post carries a photo that the capture does not describe, and gives no source for the figure. Not checked here.",
       "also": []
     },
     {
@@ -263,6 +257,12 @@
       "id": "2121922724004254200",
       "desk": "music",
       "line": "About Music, a music news account, says the K-pop industry joined ILLIT to dance to \"It's Me\" together at the 2026 Melon Music Awards. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122190447170736230",
+      "desk": "ai",
+      "line": "Reuters reports, citing the Wall Street Journal, that the Trump administration will name Nvidia and other AI firms as US \"national champions\". Not checked here.",
       "also": []
     }
   ]
