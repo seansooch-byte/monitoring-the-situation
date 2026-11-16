@@ -794,3 +794,4 @@ One line per editor pass, written by /workspace/pipeline/editor-pass.sh from Cla
 | 2026-11-16T0013Z | EDITOR-BRIEF-PULSE.md | ok | 31 | 5m57s | 0.48 | 56/9689/1121498/38759 | none |
 | 2026-11-16T0115Z | EDITOR-BRIEF-PULSE.md | failed(timeout) | 0 | 15m2s | 0.00 | 0/0/0/0 | refresh.sh exit 0 |
 | 2026-11-16T0217Z | EDITOR-BRIEF.md | ok | 48 | 8m10s | 1.05 | 86/14153/2490904/68645 | none |
+| 2026-11-16T0314Z | EDITOR-BRIEF-PULSE.md | failed(timeout) | 0 | 21m0s | 0.00 | 0/0/0/0 | refresh.sh exit 0 |
