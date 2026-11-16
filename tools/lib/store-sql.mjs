@@ -67,7 +67,7 @@ export const checksStatement = (answers) => ({ table: 'checks', sql: insertSql('
 
 // Rows D1 counts for one new row of each table: the table and each index every row enters
 // (worker/schema.sql; a test holds the two together). A partial index takes only the rows it names.
-export const BTREES = { runs: 3, captures: 2, posts: 4, post_runs: 2, observations: 3, sweeps: 2, volume_points: 3, trends: 2, context: 2, answers: 2 };
+export const BTREES = { runs: 3, captures: 2, posts: 4, post_runs: 2, observations: 2, sweeps: 2, volume_points: 3, trends: 2, context: 2, answers: 2 };
 
 // The most a capture can cost to deliver. The true cost is lower when counts or records are unchanged.
 export function writeCost(rows) {
@@ -88,11 +88,12 @@ export const SPEND_ADD = 'INSERT INTO spend (day, written) VALUES (?1, ?2) ON CO
 
 // The deletion sweep, in three short reads. None of them walks the posts table: the first sweep did,
 // once an hour, and read 119,000 rows each time by November 2026.
-//   owed   posts X said are gone whose purge was not finished: purged now, no question asked
+//   owed   posts X said are gone whose purge was not finished: purged now, no question asked, the
+//          oldest finding first, because a purge is owed within a day of the check that found it
 //   gone   posts a reading found unavailable, not yet purged, not asked about in the last day (?1)
 //   round  every other post in the order it arrived, from where the last sweep stopped (?1), so each
 //          is asked about again once per lap
-export const PICK_OWED = "SELECT post_id AS id FROM checks INDEXED BY checks_owed WHERE result = 'missing' AND purged_at IS NULL LIMIT ?1";
+export const PICK_OWED = "SELECT post_id AS id FROM checks INDEXED BY checks_owed WHERE result = 'missing' AND purged_at IS NULL ORDER BY checked_at LIMIT ?1";
 export const PICK_GONE = `SELECT DISTINCT o.post_id AS id
   FROM observations o INDEXED BY observations_gone
   CROSS JOIN posts p ON p.id = o.post_id

@@ -6,7 +6,8 @@
 //   GET  /api/runs               the runs, newest first (?from=&to=&limit=)
 //   GET  /api/capture/<run id>   the capture as delivered, after any purge
 //   GET  /api/posts?ids=         records, in the capture's shape
-//   GET  /api/observations       ?ids= or ?since= (and ?until=): the numbers
+//   GET  /api/observations?ids=  the numbers, by post. By time: /api/runs for the window, then each
+//                                run's /api/capture (the index by time was dropped on 2026-11-16)
 //   GET  /api/volume?desk=       X's hourly counts (?since=)
 //   GET  /api/checks?ids=        what X said about each post
 //   POST /api/verify {ids}       ask X now (Gate 2) and record the answers
@@ -120,7 +121,8 @@ async function read(url, env) {
   if (path === '/api/posts') {
     const want = ids(url);
     if (!want.length) return json({ posts: [] });
-    const { results } = await db.prepare(`SELECT * FROM posts WHERE id IN (${place(want.length)})`).bind(...want).all();
+    const results = [];
+    for (const part of chunks(want)) results.push(...(await db.prepare(`SELECT * FROM posts WHERE id IN (${place(part.length)})`).bind(...part).all()).results);
     return json({ posts: results.map(recordOf) });
   }
   const one = /^\/api\/post\/(\d{15,20})$/.exec(path);
@@ -136,12 +138,10 @@ async function read(url, env) {
   }
   if (path === '/api/observations') {
     const want = ids(url);
-    const since = url.searchParams.get('since'), until = url.searchParams.get('until') ?? '9999';
-    let q;
-    if (want.length) q = db.prepare(`SELECT * FROM observations WHERE post_id IN (${place(want.length)}) ORDER BY post_id, at`).bind(...want);
-    else if (since) q = db.prepare('SELECT * FROM observations WHERE at >= ?1 AND at <= ?2 ORDER BY at LIMIT 50000').bind(since, until);
-    else return json({ error: 'give ?ids= or ?since=' }, 400);
-    const { results } = await q.all();
+    // By post only. Reading by time would walk every observation now that nothing indexes them by time.
+    if (!want.length) return json({ error: 'give ?ids=; for a window of time, read /api/runs?from=&to= and then /api/capture/<run id> for each run' }, 400);
+    const results = [];
+    for (const part of chunks(want)) results.push(...(await db.prepare(`SELECT * FROM observations WHERE post_id IN (${place(part.length)}) ORDER BY post_id, at`).bind(...part).all()).results);
     return json({ observations: results.map((o) => ({ id: o.post_id, at: o.at, run_id: o.run_id, state: o.state, views: o.views, likes: o.likes, reposts: o.reposts, quotes: o.quotes, replies: o.replies, bookmarks: o.bookmarks, approx: Boolean(o.approx) })) });
   }
   if (path === '/api/volume') {
@@ -162,7 +162,8 @@ async function read(url, env) {
       return json({ checks: Object.fromEntries(results.map((r) => [r.post_id, { result: r.result, detail: r.detail, checked_at: r.checked_at, handle: r.handle, run: r.run, purged_at: r.purged_at }])) });
     }
     if (!want.length) return json({ checks: {} });
-    const { results } = await db.prepare(`SELECT * FROM checks WHERE post_id IN (${place(want.length)})`).bind(...want).all();
+    const results = [];
+    for (const part of chunks(want)) results.push(...(await db.prepare(`SELECT * FROM checks WHERE post_id IN (${place(part.length)})`).bind(...part).all()).results);
     return json({ checks: Object.fromEntries(results.map((r) => [r.post_id, { result: r.result, detail: r.detail, checked_at: r.checked_at, handle: r.handle, run: r.run, purged_at: r.purged_at }])) });
   }
   if (path === '/api/spend') {

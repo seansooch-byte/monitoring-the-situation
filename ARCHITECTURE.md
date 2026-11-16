@@ -184,7 +184,9 @@ editor's words and the engine's numbers.
 - **The store keeps to a share of the database plan.** The account's free D1 plan counts rows written
   across both of its databases, this store and the agents' board (`~/agent-board`), and refuses every
   write past 100,000 a day until 00:00 UTC. The store counts its own (`spend`), stops taking captures at
-  90,000 (`contract/budget.json`, `store`), and `GET /api/spend` says where the day stands. A held
+  90,000 (`contract/budget.json`, `store`), and `GET /api/spend` says where the day stands. An observation
+  is two rows (its table and its key): there is no index by time, so a reader wanting a window asks
+  `/api/runs` and reads each run's capture. A held
   capture is not a failure: `tools/ingest.mjs` prints `HELD`, exits 0, and the first `--new` after
   midnight UTC delivers it.
 - For every pass the procedure is `contract/EDITOR.md`, which the agent reads from the repository

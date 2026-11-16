@@ -40,7 +40,7 @@
     "writes_per_day": 90000,
     "sweep_every_minutes": 10,
     "sweep_asks": 8,
-    "sweep_purges": 1,
+    "sweep_purges": 2,
     "recheck_hours": 24
   }
 }

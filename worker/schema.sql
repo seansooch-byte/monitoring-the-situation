@@ -35,7 +35,12 @@ CREATE TABLE IF NOT EXISTS observations (
   views INTEGER, likes INTEGER, reposts INTEGER, quotes INTEGER, replies INTEGER, bookmarks INTEGER, approx INTEGER,
   PRIMARY KEY (post_id, at)
 );
-CREATE INDEX IF NOT EXISTS observations_at ON observations(at);
+-- No index by time. Until 2026-11-16 there was one (observations_at), and it was a third of what every
+-- observation cost to write: 21,000 of the 100,000 rows a day the free plan allows the whole account, for a
+-- reading by time that nothing used. A reader that wants a window asks for its runs (runs_started) and reads
+-- each run's capture. On the free plan the index cannot be rebuilt once dropped (450,000 rows); on a paid plan
+-- it is one statement.
+DROP INDEX IF EXISTS observations_at;
 -- The readings that found a post unavailable (a handful a run): where the deletion sweep starts, without
 -- reading the table.
 CREATE INDEX IF NOT EXISTS observations_gone ON observations(post_id) WHERE state = 'unavailable';

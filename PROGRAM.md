@@ -176,7 +176,7 @@ not tolerable the day a third party reads the record through the wire.
   the order it arrived (a lap takes about five weeks at 40,000 posts; that is what the free plan
   allows); Gate 2 (`tools/lib/gate2.mjs`) asks X's oEmbed endpoint; a 404 purges the post's words,
   author name, media descriptions and link from its row and from every stored capture file that
-  holds it, keeping its id and its numbers, one purge a run.
+  holds it, keeping its id and its numbers, two purges a run, the oldest finding first.
   The store's `checks` table is the ledger for this; `verified/posts.json` stays the editor's
   until the readers switch.
 - `tools/build.mjs`, `verify-posts.mjs` and `metrics.mjs` read from the store (through a small
@@ -189,9 +189,9 @@ not tolerable the day a third party reads the record through the wire.
 
 **Cost.** Reads: none. oEmbed is not metered. Cloudflare: D1 is inside the free plan only with care.
 The plan counts a row written once for its table and once more for each index it enters, across
-every database on the account, so a daytime capture costs about 3,300 rows, a day about 76,000
+every database on the account, so a daytime capture costs about 2,400 rows, a day about 55,000
 with the sweep, against a free limit of 100,000 that the agents' board shares (measured
-2026-11-16; the first estimate here, 40,000 a day, counted table rows only, and the store ran
+2026-11-16, after the index of observations by time was dropped that day; the first estimate here, 40,000 a day, counted table rows only, and the store ran
 out by 17:10Z on 15 November). The store stops at 90,000 a day (`contract/budget.json`, `store`).
 The one-time import of the history is more than a day's free writes and is paced or needs the $5
 plan). The Worker's CPU limit on the free plan may bind on `/ingest`; the smoke test says.

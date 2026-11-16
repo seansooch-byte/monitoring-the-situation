@@ -965,3 +965,28 @@ be rebuilt inside the free plan once dropped, and nothing reads by time yet, so 
 can cost before it is taken, a backlog clears at two or three captures a day, so after an outage the
 store trails git for up to a week; nothing reads the store yet. The round reaches each post about once in five weeks at today's size. Both are the free plan's
 arithmetic, written down so nobody takes them for bugs.
+
+## 2026-11-16: The index of observations by time is dropped, and the sweep purges two a run, oldest finding first
+
+**Context.** The morning's entry left the `observations_at` index for Sean, because it cannot be rebuilt on the
+free plan. He chose to drop it ("Yes, drop it"). The numbers behind the choice: after the morning's change a
+normal day still cost about 76,000 of the store's 90,000 rows, so the thirteen captures held on 16 November
+would have taken up to a week to clear, with the store holding for part of each day until then. The index was
+one of the three rows every observation cost, about 21,000 rows a day, and nothing reads observations by time:
+no tool, no test, no page. Measured on the live store with a throwaway index on `runs`: creating it cost 810
+rows written, dropping it cost none, so the drop itself spends nothing.
+
+By 11:40Z the rebuilt sweep had run 34 times without an error. It had asked about 272 of the 287 posts a
+reading had found unavailable, X answered 404 for about 200 of them, and it had purged 34, one a run. At that
+pace the last of them would wait longer than the day a purge is owed in.
+
+**Decision.** `DROP INDEX observations_at` (in `worker/schema.sql`, idempotent). An observation is two rows, a
+daytime capture about 2,400, a day about 55,000 with the sweep. `GET /api/observations` reads by post only
+(`?ids=`); a request without ids answers 400 and names the other way to a window of time: `/api/runs` for the
+window, then each run's capture. The three `?ids=` reads now bind 90 ids a statement like everything else
+(200 in one statement was over D1's limit of 100). The sweep purges two posts a run, the oldest finding first
+(`contract/budget.json`, `store.sweep_purges`; `PICK_OWED` orders by `checked_at`).
+
+**What it costs.** A reading of observations by time (the wire of phase 2 may want one) has to go through runs
+and captures, or wait for a paid plan, where the index is one statement again. Two purges a run is more work in
+one run of a free Worker; the purge is still resumable, and the log says if a run is cut short.

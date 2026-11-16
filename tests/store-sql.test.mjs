@@ -135,9 +135,11 @@ function seeded() {
 }
 const DAY_AGO = '2026-11-15T06:00:00Z';
 
-test('the sweep finishes a purge it owes before anything else', { skip }, () => {
+test('the sweep finishes a purge it owes before anything else, the oldest finding first', { skip }, () => {
   const db = seeded();
   assert.deepEqual(all(db, PICK_OWED, 5).map((r) => r.id), ['p5']);
+  db.prepare("INSERT INTO checks (post_id, result, checked_at) VALUES ('p1', 'missing', '2026-11-16T05:50:00Z'), ('p6', 'missing', '2026-11-16T04:00:00Z')").run();
+  assert.deepEqual(all(db, PICK_OWED, 2).map((r) => r.id), ['p6', 'p5'], 'a purge is owed within a day of the check that found the post gone, so the longest wait goes first');
   assert.match(plan(db, PICK_OWED, 5), /checks_owed/, 'read from the index of owed purges, not the whole table');
 });
 
@@ -203,4 +205,12 @@ test('the timer of the Worker is the sweep interval the budget names', () => {
   const config = readFileSync(new URL('wrangler.jsonc', root), 'utf8');
   const crons = /"crons":\s*\[([^\]]*)\]/.exec(config)[1];
   assert.equal(crons.trim(), `"*/${BUDGET.store.sweep_every_minutes} * * * *"`);
+});
+
+test('an observation costs two rows to write: its table and its key, no index by time', { skip }, () => {
+  const db = open();
+  const names = all(db, 'PRAGMA index_list(observations)').map((i) => i.name);
+  assert.ok(!names.includes('observations_at'), 'dropped 2026-11-16: a third of every observation, for a reading nothing used');
+  assert.equal(BTREES.observations, 2);
+  assert.ok(BUDGET.store.sweep_purges >= 2, 'six purges an hour could not clear a backlog of 170 inside the day each is owed');
 });
