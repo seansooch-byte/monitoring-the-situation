@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-15T23:30:00Z",
-  "capture": "2026-11-15T2302Z",
+  "updated_at": "2026-11-16T00:30:00Z",
+  "capture": "2026-11-16T0004Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -268,6 +268,18 @@
       "id": "2121981656882122993",
       "desk": "tech",
       "line": "cb_doge, a Musk-focused news account, says Seoul Economic Daily reports Samsung plans to make a chip for SpaceX Starlink satellites at its Austin plant, with a $1.9 billion expansion. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121997151232471125",
+      "desk": "business",
+      "line": "Pirat_Nation, a news account, says a US judge has let an antitrust lawsuit against Samsung, Micron and SK hynix go forward. The suit alleges they limited RAM supply to keep prices high. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121956147888554387",
+      "desk": "ai",
+      "line": "Blackwell, a stock-commentary account, posts a 66-second clip it says shows Nvidia's Jensen Huang telling Joe Rogan that AI will replace people whose job is only a task. The post calls Huang the ex-CEO and ends with a pitch to join its group. Not checked here.",
       "also": []
     }
   ]

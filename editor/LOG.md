@@ -6801,3 +6801,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Five ids added to the watch list; plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: board writes returned 500 on POST /v1/seen at the start of the pass. The starting message had no instructions beyond the contract. For the next story pass: FAA funding claim, Samsung/Starlink report, Texas Ten Commandments proposal need research.
+
+## 2026-11-16T00:30Z
+- Captures read: 0004Z (2302Z was the last logged read). Last read: 0004Z.
+- X's check: 0004Z 48 confirmed, 0 missing, 1 mismatched (not cited; the tool does not print the id), 0 withheld. Older: 2101Z and 2159Z 1 mismatched each (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 46 items (2 in, 0 out). In: Pirat_Nation on the Samsung, Micron and SK hynix antitrust suit (business, not checked), Blackwell's Huang and Rogan clip (ai, not checked). Header 0004Z. The oldest item is from 11-14 12:53Z and ages out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: DailyLoud medicine and justice posts (flagged private individual); WatcherGuru weekly recap (affair claim about a real person, unconfirmed); further Musk, NFL and Schefter posts (account already holds a place); Starship reply posts (small); Osint613 old post (old_content).
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
