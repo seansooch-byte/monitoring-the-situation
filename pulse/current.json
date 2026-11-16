@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T18:40:00Z",
-  "capture": "2026-11-16T1807Z",
+  "updated_at": "2026-11-16T19:35:00Z",
+  "capture": "2026-11-16T1907Z",
   "items": [
     {
       "id": "2121977851302047987",
@@ -239,6 +239,32 @@
       "desk": "politics",
       "line": "Zohran Mamdani, whose account is listed as New York City mayor, posts a 102-second video with the words \"We are disbanding the SRG.\" The post does not say what the SRG is, and the capture has no description of the video. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2122298694351683621",
+      "desk": "offbeat",
+      "line": "RT, a news outlet, posts a seven-second clip of a large dark-winged creature in the daytime sky over Mexico that it says went viral on TikTok. RT says many claim it is a flying dinosaur and that local officials called it likely a large bird. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122374841789730830",
+      "desk": "disaster",
+      "line": "TMZ, an entertainment news site, says in an exclusive that the tour bus of the DJ John Summit was involved in a deadly crash in Florida. The post gives no further details. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122393272156869047",
+      "desk": "tech",
+      "line": "Eric Daugherty, a political commentator, says Chase Bank has a major outage and that, per Downdetector, users also report problems at Bank of America, Wells Fargo and U.S. Bank. He says the trouble is mostly web logins, missing balances and Zelle transfers, and that there is no exact cause yet. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122392577467117714",
+      "desk": "internet",
+      "line": "IShowSpeedHQ, a fan account for the streamer IShowSpeed, says he spoke Indonesian with former President Barack Obama and surprised him. FearedBuck posts a 45-second video of the exchange and says Obama smiled. Not checked here.",
+      "also": [
+        "2122392928001957959"
+      ]
     }
   ]
 }

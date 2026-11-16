@@ -6911,3 +6911,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: what the SRG disbanding is (NYC mayor), Fed Chair Warsh AI-bust remark, Pattinson Bond, Maye injury, Nvidia/Huang.
+
+## 2026-11-16T19:40Z
+- Captures read: 1907Z. Last read: 1907Z.
+- X's check: 1907Z 94 confirmed, 0 missing, 0 mismatched, 1 withheld. Older mismatches and cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 44 items (4 in, 0 out). In: RT pterodactyl clip (offbeat, the desk had no item), TMZ John Summit tour bus crash (disaster), Eric Daugherty on the Chase outage (tech), IShowSpeedHQ on Speed and Obama (internet, with FearedBuck's video in also). Header 1907Z. The build holds two Reuters items off the front.
+- Added: none. Updated: none (pulse pass).
+- Left out: the unnamed 6-second video (cannot tell what it shows); the Senate tariff vote post (small account, unconfirmed); Newsom in Ukraine, Miller on CNN, Trump on the Muslim Brotherhood (politics already has places); evangelist prayer crowd (private persons); ER bill post (private person); Hamas video (unchecked, inflammatory); Stewart/Pattinson post (claim about real persons); Hutchinson, Maye, Addison, Ertz posts (sports has places).
+- Requests: none added or removed. 5 ids added to the watch list; plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Chase and other US bank outage, John Summit bus crash, Senate tariff vote claim, Pattinson Bond, Maye injury, Nvidia/Huang.
