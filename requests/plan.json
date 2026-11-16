@@ -1,18 +1,18 @@
 {
  "schema": "mts.plan/1",
- "written_at": "2026-11-16T09:14:18.441Z",
- "for_run": "2026-11-16T10Z",
+ "written_at": "2026-11-16T10:09:41.216Z",
+ "for_run": "2026-11-16T11Z",
  "band": "overnight",
  "mode": "normal",
  "day": {
   "date": "2026-11-16",
-  "reads_left_before": 699,
-  "hours_left": 14,
+  "reads_left_before": 681,
+  "hours_left": 13,
   "short": false,
   "rule": "the overnight band's cap"
  },
  "allowance": 20,
- "total_reads": 18,
+ "total_reads": 19,
  "over_budget": false,
  "items": [
   {
@@ -449,76 +449,82 @@
    "sweep": "desk.politics",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-16T09:08:00Z"
+   "why": "due: every 1 h, last 2026-11-16T10:04:00Z"
   },
   {
    "n": 3,
    "sweep": "desk.entertainment",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-16T09:08:00Z"
+   "why": "due: every 1 h, last 2026-11-16T10:04:00Z"
   },
   {
    "n": 4,
    "sweep": "desk.sports",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-16T09:08:00Z"
+   "why": "due: every 1 h, last 2026-11-16T10:04:00Z"
   },
   {
    "n": 5,
    "sweep": "desk.internet",
    "reads": 1,
    "every": 1,
-   "why": "due: every 1 h, last 2026-11-16T09:08:00Z"
+   "why": "due: every 1 h, last 2026-11-16T10:04:00Z"
   },
   {
    "n": 6,
-   "sweep": "volume.markets",
+   "sweep": "volume.world",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 7,
-   "sweep": "volume.business",
+   "sweep": "volume.tech",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 8,
-   "sweep": "volume.ai",
+   "sweep": "volume.science",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 9,
-   "sweep": "volume.offbeat",
+   "sweep": "volume.medicine",
    "reads": 1,
    "why": "counts 4 h old"
   },
   {
    "n": 10,
+   "sweep": "volume.entertainment",
+   "reads": 1,
+   "why": "counts 4 h old"
+  },
+  {
+   "n": 11,
    "sweep": "trends.us",
    "reads": 1
   },
   {
-   "n": 11,
+   "n": 12,
    "sweep": "trends.ww",
    "reads": 1
   },
   {
-   "n": 12,
-   "sweep": "sensors.news",
-   "reads": 1
-  },
-  {
    "n": 13,
-   "sweep": "sensors.money",
+   "sweep": "sensors.culture",
    "reads": 1
   },
   {
    "n": 14,
-   "sweep": "sensors.science",
+   "sweep": "sensors.sports",
+   "reads": 1
+  },
+  {
+   "n": 15,
+   "sweep": "sensors.online",
    "reads": 1
   }
  ],
@@ -546,7 +552,7 @@
  "left_out": {
   "rereads": {
    "slowed": 0,
-   "over_cap": 1119,
+   "over_cap": 1097,
    "unavailable": 3
   },
   "desks_not_due": [],
@@ -555,8 +561,8 @@
  },
  "inputs": {
   "captures": 72,
-  "first": "2026-11-13T1001Z",
-  "last": "2026-11-16T0908Z",
+  "first": "2026-11-13T1106Z",
+  "last": "2026-11-16T1004Z",
   "watch_ids": 421,
   "open_requests": 0
  }
