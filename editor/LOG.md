@@ -6851,3 +6851,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. A leftover script from an earlier pass at /tmp/s/edit2.mjs ran by mistake and wrote old content to the pulse; I reverted it before anything was committed. For the next story pass: Iran threats against two Navy officers (Fox), Warren legal notice, Japan Nikkei drop.
+
+## 2026-11-16T05:20Z
+- Captures read: 0505Z (0403Z was the last logged read). Last read: 0505Z.
+- X's check: 0505Z 78 confirmed, 0 missing, 0 mismatched, 1 withheld. Older mismatches unchanged (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 44 items (1 in, 0 out). In: About Music on the ILLIT dance at the Melon Music Awards (music, not checked). Nothing past 36 hours yet; the Democrats Deliver medicine post is at about 35 hours and goes next pass. Header 0505Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: JamesLucasIT doppelganger post (museum photos may show private people); "Hey @grok is this true" post (point unclear); Florida death sentence post (names a crime against a child); Nvidia employee leaving (private person); Hutchinson injury, Arch Manning, Harry Potter and Samuel L. Jackson posts (desks already have places); old_content posts.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. A stale script at /tmp/s/edit.mjs from an earlier pass was not run. For the next story pass: Hutchinson injury, Iran threats against Navy officers, Starship V4.

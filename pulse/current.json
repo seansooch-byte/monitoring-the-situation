@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T04:12:57Z",
-  "capture": "2026-11-16T0403Z",
+  "updated_at": "2026-11-16T05:15:20Z",
+  "capture": "2026-11-16T0505Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -257,6 +257,12 @@
       "id": "2122014229834105200",
       "desk": "medicine",
       "line": "Polymarket says scientists have developed an electric comb that could potentially cure male pattern baldness. The post names no study. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2121922724004254200",
+      "desk": "music",
+      "line": "About Music, a music news account, says the K-pop industry joined ILLIT to dance to \"It's Me\" together at the 2026 Melon Music Awards. Not checked here.",
       "also": []
     }
   ]
