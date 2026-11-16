@@ -6831,3 +6831,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Anthropic IPO pricing week (existing story 2026-10-26-anthropic-files-s1-ipo, not rechecked this pass), Hutchinson's injury, the Vilnius statue incident.
+
+## 2026-11-16T03:45Z
+- Captures read: 0306Z (0208Z was the last logged read). Last read: 0306Z.
+- X's check: 0306Z 106 confirmed, 0 missing, 1 mismatched (not cited; the tool does not print the id), 3 withheld. Older: 2101Z, 2159Z, 0004Z, 0107Z 1 mismatched each, 0208Z 2 (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 45 items (0 in, 3 out; the file was over the 45 cap). Out: PopBase GTA VI album post (past 36 hours), Reuters Bahrain alerts and AJEnglish Estonia border (among the smallest on the world desk). Header 0306Z. Quiet: ideas (the large posts have no stated point), justice (the large post names a private person's crime).
+- Added: none. Updated: none (pulse pass).
+- Left out: Kalshi post on Huang (unconfirmed claim about a real person); darrell_dai leaving Nvidia (private person, employer named); Romano Jorge Jesus quote (context unclear, not researched); Musk Starship V4 post (account already holds a place); old_content posts.
+- Requests: none added or removed. plan.json rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Starship V4 specs, Huang's status at Nvidia.

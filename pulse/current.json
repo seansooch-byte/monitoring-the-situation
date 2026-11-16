@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T02:35:00Z",
-  "capture": "2026-11-16T0208Z",
+  "updated_at": "2026-11-16T03:40:00Z",
+  "capture": "2026-11-16T0306Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -78,12 +78,6 @@
       "also": []
     },
     {
-      "id": "2121828061574246826",
-      "desk": "world",
-      "line": "Reuters reports that Bahrain's interior ministry has issued alerts of potential threats. The post gives no further detail.",
-      "also": []
-    },
-    {
       "id": "2121809292110238171",
       "desk": "offbeat",
       "line": "The account Science girl posts a video, about two minutes long, with the caption \"Snowboarding with descendants of ancient wolves\". The post does not say where it was filmed. Not checked here.",
@@ -93,12 +87,6 @@
       "id": "2121763977349013884",
       "desk": "science",
       "line": "Elon Musk says he hugged ship 42 upon its return, in a post with no picture or video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121622862339666275",
-      "desk": "music",
-      "line": "PopBase, a pop music account, says the tracklist for GTA VI: THE ALBUM has leaked online and shows an image of it. Not checked here.",
       "also": []
     },
     {
@@ -265,11 +253,6 @@
       "id": "2121949367670124578",
       "desk": "medicine",
       "line": "Jonathan Reiner writes that George Washington died of a throat abscess, that antibiotics now prevent such deaths, and that the federal government is largely silent as people die of measles. These are his claims. Not checked here."
-    },
-    {
-      "id": "2122079695785107839",
-      "desk": "world",
-      "line": "Al Jazeera English reports that Estonia is closing its border crossings with Russia after an alleged arson attempt at a drone factory. It says Tallinn blames Russian military intelligence and that eight people were arrested."
     },
     {
       "id": "2121972562079203497",
