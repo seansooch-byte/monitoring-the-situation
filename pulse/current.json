@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T19:35:00Z",
-  "capture": "2026-11-16T1907Z",
+  "updated_at": "2026-11-16T20:13:42Z",
+  "capture": "2026-11-16T2001Z",
   "items": [
     {
       "id": "2121977851302047987",
@@ -33,7 +33,7 @@
     {
       "id": "2122045918342238337",
       "desk": "business",
-      "line": "The Kobeissi Letter, a markets account, says the Financial Times reports Jensen Huang is considering a return as Nvidia CEO while the board investigation continues. It adds a report of a \"war room\" of tech executives lobbying for it. Not checked here.",
+      "line": "The Kobeissi Letter, a markets account, says the Financial Times reports Jensen Huang is considering a return as Nvidia CEO while the board investigation continues. It adds a report of a \"war room\" of tech executives lobbying for it. Not checked here. Later posts say CNBC reports the board is not considering it.",
       "also": []
     },
     {
@@ -170,16 +170,6 @@
       "line": "Reuters reports that French actor Gérard Depardieu withdrew his appeal against a 2025 sexual assault conviction and apologized to his victims. Not checked here."
     },
     {
-      "id": "2122208251458506967",
-      "desk": "ai",
-      "line": "Cointelegraph says Alibaba unveiled Qwen4-Max and claims it beats Anthropic's Claude Fable 5.1 and Kimi K3.1 Pro on code benchmarks. Claude writes this page and is made by Anthropic. Not checked here."
-    },
-    {
-      "id": "2122264183815180682",
-      "desk": "world",
-      "line": "Sky News reports the UK prime minister will say \"Brexit hasn't worked\" and set conditions for a future EU deal in a major speech."
-    },
-    {
       "id": "2122274730095084023",
       "desk": "sports",
       "line": "The NFL reporter account RapSheet says sources believe Patriots quarterback Drake Maye has a significant lower leg injury that could keep him out for an extended period. Not checked here."
@@ -256,7 +246,9 @@
       "id": "2122393272156869047",
       "desk": "tech",
       "line": "Eric Daugherty, a political commentator, says Chase Bank has a major outage and that, per Downdetector, users also report problems at Bank of America, Wells Fargo and U.S. Bank. He says the trouble is mostly web logins, missing balances and Zelle transfers, and that there is no exact cause yet. Not checked here.",
-      "also": []
+      "also": [
+        "2122402906796159199"
+      ]
     },
     {
       "id": "2122392577467117714",
@@ -265,6 +257,26 @@
       "also": [
         "2122392928001957959"
       ]
+    },
+    {
+      "id": "2122384487330037922",
+      "desk": "business",
+      "line": "Watcher Guru, a markets news account, says Nvidia is not considering bringing Jensen Huang back as CEO. The Kobeissi Letter, in a post attached here, says CNBC reports it and that the stock fell on the news. Not checked here.",
+      "also": [
+        "2122384301102694599"
+      ]
+    },
+    {
+      "id": "2122331157714887160",
+      "desk": "music",
+      "line": "John Summit says the artists nominated are not bad but are pop, not dance music, and that no DJ plays that music in clubs. The post does not say which nominations it means.",
+      "also": []
+    },
+    {
+      "id": "2122370346774909341",
+      "desk": "disaster",
+      "line": "Sky News reports a yellow snow warning for a large part of the UK and links to a story. The post does not say who issued the warning. Not checked here.",
+      "also": []
     }
   ]
 }

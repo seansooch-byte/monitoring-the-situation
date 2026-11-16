@@ -6921,3 +6921,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 5 ids added to the watch list; plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Chase and other US bank outage, John Summit bus crash, Senate tariff vote claim, Pattinson Bond, Maye injury, Nvidia/Huang.
+
+## 2026-11-16T20:25Z
+- Captures read: 2001Z. Last read: 2001Z.
+- X's check: 2001Z 65 confirmed, 0 missing, 0 mismatched, 0 withheld. Older mismatches and cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (3 in, 2 out). In: Watcher Guru on Nvidia not bringing Huang back (business, Kobeissi's CNBC post in also), John Summit on Grammy nominees (music), Sky News yellow snow warning (disaster). Out: Cointelegraph on Alibaba Qwen4-Max, Sky News on the Brexit speech (both small now). Changed: Kobeissi's Huang line now notes the later CNBC report; AP bank outage post added to the Chase item's also. Header 2001Z. The build holds two Reuters items off the front.
+- Added: none. Updated: none (pulse pass).
+- Left out: John Summit's reply pile (small accounts); Breaking911 on the SRG (the mayor's own post is on); Netflix ads; Cristiano "Have you figured it out yet?" (no desk, point unclear); Miller on CNN, Speed on GTA 6, Elon Musk Starship posts (accounts or desks already have places); Anthropic IPO post (small).
+- Requests: none added or removed. 5 ids added to the watch list; plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia after Huang (CNBC says no return), bank outage, Anthropic IPO filing figures, SRG disbanding.
