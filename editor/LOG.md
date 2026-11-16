@@ -6841,3 +6841,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Starship V4 specs, Huang's status at Nvidia.
+
+## 2026-11-16T04:15Z
+- Captures read: 0403Z (0306Z was the last logged read). Last read: 0403Z.
+- X's check: 0403Z 46 confirmed, 0 missing, 0 mismatched, 1 withheld. Older: 2101Z, 2159Z, 0004Z, 0107Z 1 mismatched each, 0208Z 2, 0306Z 1 mismatched and 3 withheld (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 43 items (1 in, 3 out). In: Polymarket on an electric comb for baldness (medicine, not checked). Out: three posts past 36 hours. Header 0403Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: atrupar's second post (the account already holds a place); Musk's three new posts and cb_doge's Reisman clip (accounts already hold places); Eric Daugherty's Warren legal-notice post (politics already has many places; claim about a senator not checked); Fox News and 60 Minutes Iran posts (name service members and officers, not researched); old_content posts.
+- Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. A leftover script from an earlier pass at /tmp/s/edit2.mjs ran by mistake and wrote old content to the pulse; I reverted it before anything was committed. For the next story pass: Iran threats against two Navy officers (Fox), Warren legal notice, Japan Nikkei drop.

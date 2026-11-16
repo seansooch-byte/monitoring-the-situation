@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T03:40:00Z",
-  "capture": "2026-11-16T0306Z",
+  "updated_at": "2026-11-16T04:12:57Z",
+  "capture": "2026-11-16T0403Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -40,12 +40,6 @@
       "also": []
     },
     {
-      "id": "2121627962629816614",
-      "desk": "politics",
-      "line": "The account atrupar, which posts political clips, shares a 47-second video and says Sen. John Fetterman suggests he will leave the Democratic Party if Sen. Chris Van Hollen is elected majority leader. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121777957450686817",
       "desk": "world",
       "line": "Osint613, an account that posts conflict news, writes that Bahrain is under an Iranian attack. US Central Command says it shot down two Revolutionary Guard drones with no damage; Iran says it destroyed a US radar there. Neither claim is checked here.",
@@ -72,12 +66,6 @@
       "also": []
     },
     {
-      "id": "2121635892548751752",
-      "desk": "offbeat",
-      "line": "Zack D. Films posts a 35-second video captioned \"Cutting A Watermelon With Dental Floss\". The post gives no more detail.",
-      "also": []
-    },
-    {
       "id": "2121809292110238171",
       "desk": "offbeat",
       "line": "The account Science girl posts a video, about two minutes long, with the caption \"Snowboarding with descendants of ancient wolves\". The post does not say where it was filmed. Not checked here.",
@@ -87,12 +75,6 @@
       "id": "2121763977349013884",
       "desk": "science",
       "line": "Elon Musk says he hugged ship 42 upon its return, in a post with no picture or video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121633023196315951",
-      "desk": "gaming",
-      "line": "Dexerto, a gaming news account, says a playable copy of a lost PokePark DS game has resurfaced after 20 years sealed in a PSA grading case, and that fans are asking the collector to open it and dump the ROM. Not checked here.",
       "also": []
     },
     {
@@ -269,6 +251,12 @@
       "id": "2122048996621393938",
       "desk": "politics",
       "line": "AbdulElSayed posts, \"I am against unconditional aid for foreign militaries. I am for unconditional aid for our kids.\" The post does not name a country or a bill.",
+      "also": []
+    },
+    {
+      "id": "2122014229834105200",
+      "desk": "medicine",
+      "line": "Polymarket says scientists have developed an electric comb that could potentially cure male pattern baldness. The post names no study. Not checked here.",
       "also": []
     }
   ]
