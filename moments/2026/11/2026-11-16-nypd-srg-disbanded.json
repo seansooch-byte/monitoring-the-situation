@@ -1,0 +1,37 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-nypd-srg-disbanded",
+  "title": "NYC mayor says he is disbanding the NYPD's Strategic Response Group",
+  "dek": "The unit handled both protests and counterterrorism. The plan splits those jobs, and supporters and critics describe the split in opposite ways.",
+  "desks": ["politics", "justice"],
+  "standing": "developing",
+  "started_at": "2026-11-16T11:59:22Z",
+  "updated_at": "2026-11-16T21:45:00Z",
+  "what": [
+    "On Monday 16 November 2026 the New York City mayor's account posted a short video with the words \"We are disbanding the SRG.\" The post does not say what the SRG is. It is the NYPD's Strategic Response Group, a specialised unit that handled both counterterrorism work and responses to demonstrations, according to amNY.",
+    "amNY reports that Mayor Zohran Mamdani announced the plan on 16 November and that Police Commissioner Jessica Tisch backs it. amNY quotes her: \"These changes will make us a stronger, more effective department.\" It reports that the unit's heavy-weapons counterterrorism work moves to the NYPD's Intelligence and Counterterrorism Bureau. Crowd management goes to a new Patrol Support Division. A 30-officer First Amendment Support Team and a new dialogue and de-escalation division in the Mayor's Office of Community Safety are also created.",
+    "amNY reports the plan bans kettling, tear gas, long guns and pepper spray as general crowd-control tools, and caps long-range sound devices at 90 decibels. It reports no extra cost, no change in headcount and no firm completion date. amNY also reports that the New York Civil Liberties Union welcomed the move but is concerned that the new Patrol Support Division could repeat the SRG's tactics."
+  ],
+  "why": "The unit sat where two arguments meet: how police handle protests, and how the city guards against terror attacks. Moving it touches both at once.",
+  "worlds": [
+    {
+      "name": "Supporters of the change",
+      "sees": "A promise kept. The mayor says the unit is ending, and the department says its counterterrorism work stays inside the NYPD.",
+      "post": "2122298477816504328"
+    },
+    {
+      "name": "Critics of the change",
+      "sees": "A counterterrorism task force being disbanded in the city that was hit by the deadliest terrorist attack in the nation's history, and a question of why that is not getting more attention.",
+      "post": "2122366587608895980"
+    }
+  ],
+  "common": "Established by amNY: the mayor announced the plan, the police commissioner backs it, and the unit's counterterrorism duties go to the Intelligence and Counterterrorism Bureau. The unit did both counterterrorism and protest work, so \"disbanding the counterterrorism task force\" describes only part of the record: the counterterrorism work is reported as moved, not ended. Whether the new arrangement protects the city as well as before, or polices protests differently in practice, is not established. The reports I read give no firm end date.",
+  "next": "The NYPD's detailed plan would show how the counterterrorism work is staffed and when the unit ends.",
+  "posts": [
+    { "id": "2122298477816504328", "role": "official" },
+    { "id": "2122366587608895980", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "amNY: Mamdani moves to disband SRG with Tisch's backing", "url": "https://www.amny.com/politics/mamdani-disband-srg-nypd-tischs-backing/" }
+  ]
+}

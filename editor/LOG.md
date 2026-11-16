@@ -6931,3 +6931,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 5 ids added to the watch list; plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia after Huang (CNBC says no return), bank outage, Anthropic IPO filing figures, SRG disbanding.
+
+## 2026-11-16T21:50Z
+- Captures read: 2106Z. Last read: 2106Z.
+- X's check: 2106Z 94 confirmed, 0 missing, 1 mismatched (not cited), 0 withheld. Older mismatches and cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 43 on the page, items unchanged; header moved to 2106Z. The build holds two Reuters items off the front.
+- Added: 2026-11-16-us-bank-outages-chase-zelle (business), 2026-11-16-nypd-srg-disbanded (politics). Updated: none; live stories not re-checked for new facts this pass.
+- Left out: Nvidia and Huang (claims about a real person's private life, not researched); Anthropic IPO figures (analysis of a filing, not checked); Starship catch (already a live story); Trump drone remark and Texas Democrats posts (not researched); Saudi/Houthi coup claim (aggregator, unchecked); Maalouf's SRG post (insinuates about the mayor's religion).
+- Requests: none added or removed. 5 post ids added to the watch list; plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia after Huang (earnings Nov 17), Anthropic IPO filing figures (disclose maker), Trump flight-cancellation remark, Texas Democrats claims, Saudi/Houthi claim.
