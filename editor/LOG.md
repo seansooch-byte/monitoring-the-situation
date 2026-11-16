@@ -6891,3 +6891,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 13 ids added to the watch list; plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Maye lower-leg injury, Nvidia/Huang, re-check Hormuz and Shenzhen stories, BTS and the Grammys.
+
+## 2026-11-16T17:15Z
+- Captures read: 1700Z. Last read: 1700Z.
+- X's check: 1700Z 109 confirmed, 0 missing, 0 mismatched, 1 withheld. Older mismatches unchanged (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X.
+- Pulse: 39 items (1 in, 2 out). In: the 007 account's "Robert Pattinson is James Bond" post (entertainment), with Sky News and the DiscussingFilm teaser in also; it replaces the teaser as the item. Out: scott_colom Delta post (past 36 hours), teaser as its own item. Header 1700Z. The build holds two Reuters items off the front (one account, one place).
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix "Black Doves" sticker posts (not researched, tied to private persons); Ronaldinho fan clip (video not described, cannot tell what it shows); octopus joke; Romano McKennie and Pochettino quotes (sports has places); Eric Daugherty Trump drone joke (partisan, same exchange as the Rupar item).
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Pattinson Bond casting (Sky News), Maye injury, Nvidia/Huang, re-check Hormuz and Shenzhen stories.

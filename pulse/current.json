@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T16:50:00Z",
-  "capture": "2026-11-16T1600Z",
+  "updated_at": "2026-11-16T17:12:00Z",
+  "capture": "2026-11-16T1700Z",
   "items": [
     {
       "id": "2121977851302047987",
@@ -29,11 +29,6 @@
       "desk": "politics",
       "line": "Politics UK, an account that posts British political news, says the UK Government has confirmed it is considering a \"staggered\" age of consent, which it says would make relationships between adults and 16 and 17-year-olds illegal. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2121831918131904712",
-      "desk": "business",
-      "line": "The account scott_colom says his Delta flight at the Atlanta airport has been delayed for hours because the airline cannot find a pilot, and that hotel vouchers are withheld until it is cancelled. He quotes an unnamed airline worker as saying \"pick another transportation secretary.\" Not checked here."
     },
     {
       "id": "2122045918342238337",
@@ -207,12 +202,6 @@
       "also": []
     },
     {
-      "id": "2122344079132393513",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts what it calls the first teaser for Robert Pattinson as the next James Bond. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122144905279525098",
       "desk": "gaming",
       "line": "DiscussingFilm posts words it attributes to Rockstar Games, taken from The Guardian, on why GTA 6 took so long: that the studio could have made \"GTA 5.5\" faster but wanted a bigger swing. Not checked here.",
@@ -235,6 +224,15 @@
       "desk": "tech",
       "line": "Tesla's Robotaxi account says it is now serving more of Miami, in a post with one photo. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2122343950308540474",
+      "desk": "entertainment",
+      "line": "The account named James Bond, which carries a business badge, posts a photo with the words \"Robert Pattinson is James Bond\". Sky News posts that he is confirmed as the new Bond. Not checked here.",
+      "also": [
+        "2122346473421484062",
+        "2122344079132393513"
+      ]
     }
   ]
 }
