@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T22:20:00Z",
-  "capture": "2026-11-16T2203Z",
+  "updated_at": "2026-11-16T23:35:00Z",
+  "capture": "2026-11-16T2301Z",
   "items": [
     {
       "id": "2121977851302047987",
       "desk": "music",
       "line": "BTS's official account thanks its fans, called ARMY, in a post tagged #MMA2026. Our story on the Melon Music Awards says BTS won Album of the Year and Artist of the Year there.",
-      "also": []
-    },
-    {
-      "id": "2121922329693626392",
-      "desk": "internet",
-      "line": "The AO3 Status account says the fan fiction archive AO3 is back up, with some features switched off so it could return earlier than the four-week mark it had given. It says no AO3 data has been deleted. Not checked here.",
       "also": []
     },
     {
@@ -129,18 +123,6 @@
       "also": []
     },
     {
-      "id": "2121922724004254200",
-      "desk": "music",
-      "line": "About Music, a music news account, says the K-pop industry joined ILLIT to dance to \"It's Me\" together at the 2026 Melon Music Awards. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122190447170736230",
-      "desk": "ai",
-      "line": "Reuters reports, citing the Wall Street Journal, that the Trump administration will name Nvidia and other AI firms as US \"national champions\". Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122259644563206402",
       "desk": "justice",
       "line": "Reuters reports that French actor Gérard Depardieu withdrew his appeal against a 2025 sexual assault conviction and apologized to his victims. Not checked here."
@@ -177,12 +159,6 @@
       "id": "2122318384587247658",
       "desk": "music",
       "line": "The Grammys' official account lists the nominees for Best Global Music Album: Anitta, Davido, Angelique Kidjo, Ayra Starr and Tems. It says the awards are live on Feb. 7, 2027.",
-      "also": []
-    },
-    {
-      "id": "2122165276015771945",
-      "desk": "disaster",
-      "line": "Reuters reports, citing police, that a fire in a shophouse in Phuket killed 11 people and injured 16.",
       "also": []
     },
     {
@@ -279,6 +255,26 @@
       "also": [
         "2122377057963516410"
       ]
+    },
+    {
+      "id": "2122348244139401681",
+      "desk": "politics",
+      "line": "Breaking911, a news account, posts a quoted exchange in which a reporter asks Trump whether he is worried about Iranian drones targeting him personally. It quotes Trump answering that he is worried about the reporter, because if they get him, the reporter is gone too. The exchange has not been checked here."
+    },
+    {
+      "id": "2122322180578951333",
+      "desk": "entertainment",
+      "line": "The account cocoviralai, a film news account, posts a 76-second video it calls a new trailer for Avengers: Doomsday and says the film is in theatres December 18. Not checked here."
+    },
+    {
+      "id": "2121989670410019267",
+      "desk": "gaming",
+      "line": "The lolesports account, a League of Legends esports account, posts a video it calls the full pro view of Knight’s Worlds-winning game 4 against GEN. The capture has no description of the video."
+    },
+    {
+      "id": "2121975392554619298",
+      "desk": "ai",
+      "line": "The AI news account mark_k says Grok’s text watermarking is now off by default in the SpaceXSI API, and that Elon Musk confirmed it and said it is on only where law requires it or a user asks. xAI makes Grok, the model that gathers this site’s posts. Not checked here."
     }
   ]
 }
