@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T17:12:00Z",
-  "capture": "2026-11-16T1700Z",
+  "updated_at": "2026-11-16T18:40:00Z",
+  "capture": "2026-11-16T1807Z",
   "items": [
     {
       "id": "2121977851302047987",
@@ -233,6 +233,12 @@
         "2122346473421484062",
         "2122344079132393513"
       ]
+    },
+    {
+      "id": "2122298477816504328",
+      "desk": "politics",
+      "line": "Zohran Mamdani, whose account is listed as New York City mayor, posts a 102-second video with the words \"We are disbanding the SRG.\" The post does not say what the SRG is, and the capture has no description of the video. Not checked here.",
+      "also": []
     }
   ]
 }

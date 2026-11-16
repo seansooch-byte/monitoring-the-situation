@@ -6901,3 +6901,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Pattinson Bond casting (Sky News), Maye injury, Nvidia/Huang, re-check Hormuz and Shenzhen stories.
+
+## 2026-11-16T18:40Z
+- Captures read: 1807Z. Last read: 1807Z.
+- X's check: 1807Z 118 confirmed, 0 missing, 1 mismatched (2122344081951191158, not cited), 0 withheld. Older mismatches and cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 40 items (1 in, 0 out). In: NYC mayor's account, "We are disbanding the SRG" video (politics); the line says the post does not explain the SRG. Header 1807Z. The build holds two Reuters items off the front.
+- Added: none. Updated: none (pulse pass).
+- Left out: the 007 account's "Identity Confirmed" (same account already holds a place); Elon Musk's "12 years ago" (same account); Paris apartment video (cannot see the person); Black Doves sticker posts; Romano quotes.
+- Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: what the SRG disbanding is (NYC mayor), Fed Chair Warsh AI-bust remark, Pattinson Bond, Maye injury, Nvidia/Huang.
