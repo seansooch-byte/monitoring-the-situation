@@ -281868,6 +281868,13 @@
   "handle": "CifutBR",
   "run": "2026-11-16T0306Z"
  },
+ "2122033615362302355": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:34Z",
+  "handle": "cb_doge",
+  "run": "2026-11-16T0807Z"
+ },
  "2122033913942220827": {
   "result": "ok",
   "detail": null,
@@ -282476,6 +282483,13 @@
   "checked_at": "2026-11-15T21:09:43Z",
   "handle": "billboard",
   "run": "2026-11-15T2101Z"
+ },
+ "2122057548958429655": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:27Z",
+  "handle": "F1",
+  "run": "2026-11-16T0807Z"
  },
  "2122057551181386010": {
   "result": "ok",
@@ -284612,6 +284626,13 @@
   "handle": "BlameEricLamont",
   "run": "2026-11-16T0505Z"
  },
+ "2122164224382447808": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:33Z",
+  "handle": "elonmusk",
+  "run": "2026-11-16T0807Z"
+ },
  "2122164257957573003": {
   "result": "ok",
   "detail": null,
@@ -284836,6 +284857,13 @@
   "handle": "Reuters",
   "run": "2026-11-16T0602Z"
  },
+ "2122186399575396604": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:33Z",
+  "handle": "elonmusk",
+  "run": "2026-11-16T0807Z"
+ },
  "2122187509195014296": {
   "result": "ok",
   "detail": null,
@@ -284849,6 +284877,13 @@
   "checked_at": "2026-11-16T06:07:52Z",
   "handle": "Reuters",
   "run": "2026-11-16T0602Z"
+ },
+ "2122191623731745133": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:33Z",
+  "handle": "elonmusk",
+  "run": "2026-11-16T0807Z"
  },
  "2122192943381446841": {
   "result": "ok",
@@ -284920,6 +284955,13 @@
   "handle": "Osint613",
   "run": "2026-11-16T0602Z"
  },
+ "2122200691254972745": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:31Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-16T0807Z"
+ },
  "2122208041303146869": {
   "result": "ok",
   "detail": null,
@@ -284955,6 +284997,13 @@
   "handle": "IGN",
   "run": "2026-11-16T0705Z"
  },
+ "2122208251458506967": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:32Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-16T0807Z"
+ },
  "2122208858105839785": {
   "result": "ok",
   "detail": null,
@@ -284976,6 +285025,20 @@
   "handle": "MarioNawfal",
   "run": "2026-11-16T0705Z"
  },
+ "2122209164714008792": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:31Z",
+  "handle": "BullTheoryio",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122211903779017060": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:31Z",
+  "handle": "cryptorover",
+  "run": "2026-11-16T0807Z"
+ },
  "2122215590169620554": {
   "result": "ok",
   "detail": null,
@@ -284983,12 +285046,117 @@
   "handle": "MarioNawfal",
   "run": "2026-11-16T0705Z"
  },
+ "2122215787737866541": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:32Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122215903798636625": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:32Z",
+  "handle": "biancoresearch",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122218424067916241": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:30Z",
+  "handle": "BullTheoryio",
+  "run": "2026-11-16T0807Z"
+ },
  "2122218529948876830": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-16T07:10:32Z",
   "handle": "AMAZlNGNATURE",
   "run": "2026-11-16T0705Z"
+ },
+ "2122219467811836029": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:28Z",
+  "handle": "Osint613",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122220499858075853": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:29Z",
+  "handle": "Gerashchenko_en",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122221793704587327": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:30Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122222597114876225": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:27Z",
+  "handle": "SkyNews",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122224392973537570": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:29Z",
+  "handle": "Osint613",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122224422777938389": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:27Z",
+  "handle": "Reuters",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122225048434176240": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:31Z",
+  "handle": "cryptorover",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122225671946617171": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:28Z",
+  "handle": "Reuters",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122226425474281697": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:29Z",
+  "handle": "Osint613",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122226637513343332": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:30Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122231962546880529": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:28Z",
+  "handle": "Reuters",
+  "run": "2026-11-16T0807Z"
+ },
+ "2122235162243301561": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T08:12:26Z",
+  "handle": "BRICSinfo",
+  "run": "2026-11-16T0807Z"
  },
  "237217446099030020": {
   "result": "ok",
