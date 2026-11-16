@@ -10,6 +10,10 @@
 // any failure that remains stops the run, since every later file could depend on it. Run again to
 // resume. A file the store already holds is reported and skipped; a file Gate 1 refuses is reported
 // with its errors. Exits 1 if a delivery failed. Token and address: tools/lib/store.mjs.
+//
+// HELD is not a failure. The store shares a free database plan with the agents' board and stops at
+// its share of the day's writes (contract/budget.json, store), answering 429. The file and every later
+// one stay in git, and the first --new after 00:00 UTC delivers them, oldest first. Exit 0.
 import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -52,15 +56,21 @@ async function deliver(doc) {
   }
 }
 
-let failed = 0, delivered = 0;
+let failed = 0, delivered = 0, held = 0, heldUntil = null;
 for (const f of files) {
   let doc;
   try { doc = JSON.parse(readFileSync(f, 'utf8')); } catch (e) { console.log(`FAIL  ${f}  not readable JSON: ${e.message}`); failed++; continue; }
   try {
     const r = await deliver(doc);
     if (r.duplicate) console.log(`HAVE  ${r.run}`);
-    else { delivered++; console.log(`OK    ${r.run}  ${r.posts} posts, ${r.observations} observations, ${r.volume_points} counts, ${Math.round(r.bytes / 1024)} KB as ${Math.round(r.gzip / 1024)} KB${r.warnings?.length ? `, ${r.warnings.length} warning${r.warnings.length === 1 ? '' : 's'}` : ''}`); }
+    else { delivered++; console.log(`OK    ${r.run}  ${r.posts} posts, ${r.observations} observations, ${r.volume_points} counts, ${Math.round(r.bytes / 1024)} KB as ${Math.round(r.gzip / 1024)} KB${r.written ? `, ${r.written} rows written (${r.spent} of ${r.allowance} today)` : ''}${r.warnings?.length ? `, ${r.warnings.length} warning${r.warnings.length === 1 ? '' : 's'}` : ''}`); }
   } catch (e) {
+    if (e.status === 429 && e.data?.held) {
+      held = files.length - files.indexOf(f);
+      heldUntil = e.data.resets_at;
+      console.log(`HELD  ${runIdOf(f) ?? f}  the store has written ${e.data.spent} of its ${e.data.allowance} rows for today; ${held} file${held === 1 ? '' : 's'} wait${held === 1 ? 's' : ''} in git until ${heldUntil}`);
+      break;
+    }
     failed++;
     console.log(`FAIL  ${f}  ${e.status && e.status >= 500 ? `${e.status} from the store` : e.message}`);
     if (e.status === 422 && e.data?.errors) for (const err of e.data.errors.slice(0, 5)) console.log(`        ${err}`);
@@ -68,5 +78,5 @@ for (const f of files) {
     break;
   }
 }
-console.log(`delivered ${delivered}, failed ${failed}`);
+console.log(`delivered ${delivered}, failed ${failed}${held ? `, held ${held} until ${heldUntil} (the store's share of the day's writes is spent; not a failure)` : ''}`);
 process.exit(failed ? 1 : 0);

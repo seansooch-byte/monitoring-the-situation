@@ -1,6 +1,6 @@
 {
   "schema": "mts.budget/1",
-  "about": "The grabber's read budget, in numbers. contract/GRABBER.md says the rules in words; tools/plan-reads.mjs (the hourly plan) and tools/budget-report.mjs (the day's report) read this file. Change a number here and nowhere else.",
+  "about": "The grabber's read budget, in numbers. contract/GRABBER.md says the rules in words; tools/plan-reads.mjs (the hourly plan) and tools/budget-report.mjs (the day's report) read this file. Change a number here and nowhere else. `store` is a second budget, the store's share of the database plan, read by worker/index.mjs.",
   "reads_per_day": 1000,
   "ceiling": 850,
   "target_min": 600,
@@ -33,5 +33,14 @@
     "screen": 3
   },
   "cut_order": ["screen", "desk:4", "desk:2", "rising.global", "context.top", "viral.global", "sensors", "trends.ww", "trends.us", "desk:1", "request"],
-  "x_side_reasons": ["429", "rate limit", "refus", "reject", "timeout", "timed out", "unavailable", "outage", "X is down", "X was down"]
+  "x_side_reasons": ["429", "rate limit", "refus", "reject", "timeout", "timed out", "unavailable", "outage", "X is down", "X was down"],
+  "store": {
+    "about": "The store's share of Cloudflare's free database plan. The plan counts rows written across every database on the account, the agents' board included (one per table row, one more per index the row enters), and past account_writes_per_day in a UTC day it refuses every write until 00:00 UTC. The store stops taking captures at writes_per_day; a capture held that way stays in git and is delivered after the day turns. The deletion sweep runs every sweep_every_minutes, asks X about sweep_asks posts (a free Worker may call 50 other sites per run) and finishes sweep_purges purges. worker/index.mjs and tools/lib/store-sql.mjs read these.",
+    "account_writes_per_day": 100000,
+    "writes_per_day": 90000,
+    "sweep_every_minutes": 10,
+    "sweep_asks": 8,
+    "sweep_purges": 1,
+    "recheck_hours": 24
+  }
 }

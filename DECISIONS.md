@@ -916,3 +916,52 @@ the board sets `from` from the token. Messages 1 to 4 copied with their ids. Thi
 command line and a short `contract/BOARD.md`; its board routes answer 410; the store token is accepted as a
 grokbot-machine token until 2026-11-21 so grokbot keeps working while it switches. Full record in
 `~/agent-board/DECISIONS.md`.
+
+## 2026-11-16: The store keeps to a share of the database plan, writes only what changed, and sweeps a few posts every ten minutes
+
+**Context.** On 15 November every write to the store and to the agents' board failed from about 17:10Z
+until midnight UTC ("store and board writes 500" in `capture/NOTES.md`, six captures running; the board
+has no message between #83 at 17:08Z and #84 at 00:19Z). The cause was Cloudflare's free D1 plan: it
+counts rows written across every database on the account, one per table row and one more per index
+the row enters, and past 100,000 in a UTC day it refuses every write. Measured with `wrangler d1
+insights`: the store wrote about 6,100 rows a capture, 146,000 a day. Half of that was the hourly counts:
+each run delivers a week of them for five desks, 835 rows, and `INSERT OR REPLACE` rewrote all of them
+though about 600 were identical to what was held. The board itself writes under 700 rows a day. The
+backlog delivered after midnight then spent 74,000 of the next day's rows by 06Z, so each day was due
+to fail earlier than the last.
+
+The same look found that the deletion sweep had never finished a run since 28 October (`sweep_log`
+empty, three rows in `checks`, all from the hand-run proof). It read every post each hour (119,000 rows a
+run, 2.9 million a day, 57% of the account's free reads), then bound 150 ids to one statement, and D1
+allows 100.
+
+**Decision.**
+- A count is written only when its hour is new or X counts it differently now (an upsert that changes
+  nothing writes nothing). An unchanged hour keeps the run that last changed it.
+- The store knows what a capture can cost before writing it (`writeCost`: rows times the B-trees the
+  schema gives each table, held to the schema by a test), keeps what D1 says it wrote in one row a day
+  (`spend`), and answers `429` with `held: true` to a capture that would take it past 90,000
+  (`contract/budget.json`, `store`). The capture stays in git; `tools/ingest.mjs` prints `HELD`, exits 0,
+  and the first `--new` after 00:00 UTC delivers it. The board keeps at least 10,000 rows a day.
+- The sweep runs every ten minutes and asks about eight posts, inside what a free Worker may do in one
+  run (50 calls to other sites, 100 bound values). It reads three short lists and never the whole table:
+  purges still owed (index `checks_owed`), posts a reading found unavailable that are not purged and
+  not asked about in a day (index `observations_gone`, 756 rows today), then a round of every other
+  post from a saved mark (`sweep_round`). What X said is recorded in one statement. A purge blanks the
+  row first and marks the check last, so one cut short is still owed and the next run finishes it.
+- All of the SQL moved to `tools/lib/store-sql.mjs`, and `tests/store-sql.test.mjs` runs that text against
+  `worker/schema.sql` in SQLite (skipped, not failed, on a node without `node:sqlite`, because the
+  grabber's machine ships on a green suite every hour).
+
+**Alternatives.** (a) The $5 Workers plan: it ends this class of failure (50 million rows written a
+month), and Sean chose to stay on free on 14 November; this keeps free working and the choice open.
+(b) Move the board off D1 to a Durable Object so it shares no meter with the store: the cleanest
+separation, but a storage move of a live service and a new admin path for tokens; not done unasked.
+(c) Drop the `observations_at` index (a third of every observation's cost, 21,000 rows a day): it cannot
+be rebuilt inside the free plan once dropped, and nothing reads by time yet, so it is left for Sean.
+(d) Keep the hourly sweep and only cut its ids to 100: it would run, and still read every post every hour.
+
+**What this costs.** With the share at 90,000, a normal day near 76,000, and a capture counted at the most it
+can cost before it is taken, a backlog clears at two or three captures a day, so after an outage the
+store trails git for up to a week; nothing reads the store yet. The round reaches each post about once in five weeks at today's size. Both are the free plan's
+arithmetic, written down so nobody takes them for bugs.

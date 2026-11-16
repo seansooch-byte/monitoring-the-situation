@@ -10,25 +10,41 @@
 //   GET  /api/volume?desk=       X's hourly counts (?since=)
 //   GET  /api/checks?ids=        what X said about each post
 //   POST /api/verify {ids}       ask X now (Gate 2) and record the answers
-//   GET  /api/status             counts and the last sweep
+//   GET  /api/status             counts and the last sweep (reads every row: for a person, not a routine)
+//   GET  /api/spend              rows the store has written today, and its share of the day
 // Every route above needs `Authorization: Bearer <STORE_TOKEN>` until phase 2 opens the reads.
 // Everything else is served from the built site.
 //
-// The deletion sweep runs on the hour (triggers.crons): posts X stopped returning are checked
-// first, then the posts checked longest ago; a 404 purges the post's words, name, media and link
-// from its row and from every capture file that holds it, and keeps its id and its numbers.
+// The deletion sweep runs every ten minutes (triggers.crons), a few posts at a time: a purge still
+// owed is finished first, then posts X stopped returning are asked about, then the round of every
+// other post is taken up where it stopped. A 404 purges the post's words, name, media and link from
+// its row and from every capture file that holds it, and keeps its id and its numbers.
+//
+// The store shares Cloudflare's free database plan with the agents' board, and the plan refuses every
+// write on the account past 100,000 rows a day. So the store counts what it writes (table `spend`),
+// writes only what changed, and answers 429 to a capture that would take it past its share
+// (contract/budget.json, store): the capture stays in git and tools/ingest.mjs delivers it after
+// 00:00 UTC. The SQL and its cost are tools/lib/store-sql.mjs.
 import desks from '../contract/desks.json';
+import budget from '../contract/budget.json';
 import { checkCapture, idsToLookUp } from '../tools/lib/capture-check.mjs';
 import { askX, compareToX, WITHHELD } from '../tools/lib/gate2.mjs';
 import { rowsOf, recordOf, stripCapture } from '../tools/lib/store-rows.mjs';
+import {
+  ingestStatements, checksStatement, writeCost, heldBy, dayOf, resetsAt, secondsUntil, chunks,
+  SPEND_OF, SPEND_ADD, PICK_OWED, PICK_GONE, PICK_ROUND, ROUND_GET, ROUND_SET, sweepAsks,
+} from '../tools/lib/store-sql.mjs';
 
-const SWEEP_CHECKS = 150;      // oEmbed asks per hourly sweep
-const SWEEP_PURGES = 5;        // capture files rewritten per sweep; the rest wait an hour
-const RECHECK_HOURS = 24;      // a post is asked about again this long after its last check
-const ROWS_PER_STATEMENT = 400;
+const STORE = budget.store;    // the store's share of the day's writes, and the sweep's size
+const VERIFY_MAX = 45;         // posts one request may ask X about: a free Worker may call 50 other sites per run
 
 const stamp = () => new Date().toISOString().replace(/\.\d{3}Z$/, 'Z');
-const json = (data, status = 200) => new Response(JSON.stringify(data), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } });
+const json = (data, status = 200, headers = {}) => new Response(JSON.stringify(data), { status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', ...headers } });
+// Rows D1 says a statement, or a batch of them, wrote.
+const wrote = (r) => (Array.isArray(r) ? r : [r]).reduce((n, x) => n + (x?.meta?.rows_written ?? 0), 0);
+const spentToday = async (db, now) => (await db.prepare(SPEND_OF).bind(dayOf(now)).first())?.written ?? 0;
+// The spend row is itself one row written. A failed count never fails the work it counts.
+const spend = (db, now, n) => db.prepare(SPEND_ADD).bind(dayOf(now), n + 1).run().then(() => true, () => false);
 const authed = (request, env) => Boolean(env.STORE_TOKEN) && request.headers.get('authorization') === `Bearer ${env.STORE_TOKEN}`;
 
 async function gzip(text) {
@@ -46,28 +62,6 @@ async function gunzip(bytes) {
   return new Response(ds.readable).text();
 }
 
-// One INSERT per table from a JSON array, in slices, so a capture of any size is a short batch.
-function inserts(db, table, cols, rows, mode = 'INSERT OR IGNORE', onConflict = '') {
-  const picks = cols.map((c) => `json_extract(value, '$.${c}')`).join(', ');
-  const out = [];
-  for (let i = 0; i < rows.length; i += ROWS_PER_STATEMENT) {
-    // "WHERE true" is SQLite's documented way to keep an INSERT ... SELECT from reading the upsert clause's ON as a join.
-    out.push(db.prepare(`${mode} INTO ${table} (${cols.join(', ')}) SELECT ${picks} FROM json_each(?1) WHERE true ${onConflict}`).bind(JSON.stringify(rows.slice(i, i + ROWS_PER_STATEMENT))));
-  }
-  return out;
-}
-
-const RUN_COLS = ['id', 'source', 'started_at', 'finished_at', 'status', 'reason', 'agent', 'model', 'method', 'requests_rev', 'reads', 'reads_left', 'plan', 'received_at', 'posts', 'observations'];
-const POST_COLS = ['id', 'source', 'url', 'created_at', 'lang', 'text', 'author_handle', 'author_name', 'author_followers', 'author_verified', 'author_kind', 'media', 'reply_to', 'quotes', 'media_source', 'note', 'flags', 'desk', 'beat', 'topic', 'lead', 'first_run', 'last_run'];
-const OBS_COLS = ['post_id', 'at', 'run_id', 'state', 'views', 'likes', 'reposts', 'quotes', 'replies', 'bookmarks', 'approx'];
-const SWEEP_COLS = ['run_id', 'sweep_id', 'kind', 'desk', 'method', 'window_hours', 'status', 'reason', 'post_ids'];
-const VOL_COLS = ['key', 'desk', 'query', 'start', 'count', 'run_id'];
-const TREND_COLS = ['run_id', 'region', 'rank', 'name', 'post_count', 'story', 'post_ids'];
-const CONTEXT_COLS = ['run_id', 'post_id', 'replies', 'quotes'];
-const ANSWER_COLS = ['run_id', 'request_id', 'status', 'post_ids', 'note'];
-// A record delivered again (the text was edited, a note appeared) replaces the old one, except a purged one.
-const POST_UPSERT = `ON CONFLICT(id) DO UPDATE SET ${POST_COLS.filter((c) => !['id', 'source', 'first_run'].includes(c)).map((c) => `${c} = excluded.${c}`).join(', ')} WHERE posts.purged_at IS NULL AND excluded.last_run > posts.last_run`;
-
 async function ingest(request, env) {
   let doc;
   try { doc = await request.json(); } catch { return json({ ok: false, errors: ['body: must be the capture as JSON'] }, 400); }
@@ -84,22 +78,25 @@ async function ingest(request, env) {
   const text = JSON.stringify(doc);
   const existing = await env.DB.prepare('SELECT bytes FROM captures WHERE run_id = ?1').bind(doc.run.id).first();
   if (existing) return json({ ok: existing.bytes === text.length, duplicate: true, run: doc.run.id, note: existing.bytes === text.length ? 'already in the store' : 'a different file for this run is already in the store; a pushed capture is never rewritten' }, existing.bytes === text.length ? 200 : 409);
-  const rows = rowsOf(doc, stamp());
-  const gz = await gzip(text);
   const db = env.DB;
-  await db.batch([
-    ...inserts(db, 'runs', RUN_COLS, [rows.run], 'INSERT'),
-    db.prepare('INSERT INTO captures (run_id, gz, bytes, updated_at) VALUES (?1, ?2, ?3, ?4)').bind(doc.run.id, gz, text.length, stamp()),
-    ...inserts(db, 'posts', POST_COLS, rows.posts, 'INSERT', POST_UPSERT),
-    ...inserts(db, 'post_runs', ['post_id', 'run_id'], rows.post_runs),
-    ...inserts(db, 'observations', OBS_COLS, rows.observations),
-    ...inserts(db, 'sweeps', SWEEP_COLS, rows.sweeps, 'INSERT OR REPLACE'),
-    ...inserts(db, 'volume_points', VOL_COLS, rows.volume_points, 'INSERT OR REPLACE'),
-    ...inserts(db, 'trends', TREND_COLS, rows.trends, 'INSERT OR REPLACE'),
-    ...inserts(db, 'context', CONTEXT_COLS, rows.context, 'INSERT OR REPLACE'),
-    ...inserts(db, 'answers', ANSWER_COLS, rows.answers, 'INSERT OR REPLACE'),
+  const now = stamp();
+  const rows = rowsOf(doc, now);
+  // The store's share of the day: a capture that would pass it waits in git for the day to turn, so the
+  // account's other database, the agents' board, is never left unable to write.
+  const cost = writeCost(rows);
+  const spent = await spentToday(db, now);
+  if (heldBy({ spent, cost, allowance: STORE.writes_per_day })) {
+    const resets = resetsAt(now);
+    return json({ ok: false, held: true, run: doc.run.id, spent, cost, allowance: STORE.writes_per_day, resets_at: resets, error: `the store has written ${spent} of its ${STORE.writes_per_day} rows for today and this capture may need ${cost}; it stays in git and is taken after ${resets}` }, 429, { 'retry-after': String(secondsUntil(resets, now)) });
+  }
+  const gz = await gzip(text);
+  const done = await db.batch([
+    ...ingestStatements(rows).map((q) => db.prepare(q.sql).bind(...q.params)),
+    db.prepare('INSERT INTO captures (run_id, gz, bytes, updated_at) VALUES (?1, ?2, ?3, ?4)').bind(doc.run.id, gz, text.length, now),
   ]);
-  return json({ ok: true, run: doc.run.id, posts: rows.posts.length, observations: rows.observations.length, volume_points: rows.volume_points.length, bytes: text.length, gzip: gz.length, warnings });
+  const written = wrote(done) || cost;   // what D1 counted; the estimate stands in if it gave no count
+  await spend(db, now, written);
+  return json({ ok: true, run: doc.run.id, posts: rows.posts.length, observations: rows.observations.length, volume_points: rows.volume_points.length, bytes: text.length, gzip: gz.length, written, spent: spent + written + 1, allowance: STORE.writes_per_day, warnings });
 }
 
 const ids = (url) => (url.searchParams.get('ids') ?? '').split(',').map((s) => s.trim()).filter((s) => /^\d{15,20}$/.test(s)).slice(0, 200);
@@ -168,6 +165,10 @@ async function read(url, env) {
     const { results } = await db.prepare(`SELECT * FROM checks WHERE post_id IN (${place(want.length)})`).bind(...want).all();
     return json({ checks: Object.fromEntries(results.map((r) => [r.post_id, { result: r.result, detail: r.detail, checked_at: r.checked_at, handle: r.handle, run: r.run, purged_at: r.purged_at }])) });
   }
+  if (path === '/api/spend') {
+    const now = stamp();
+    return json({ day: dayOf(now), written: await spentToday(db, now), allowance: STORE.writes_per_day, account_limit: STORE.account_writes_per_day, resets_at: resetsAt(now), last_sweep: (await db.prepare('SELECT * FROM sweep_log ORDER BY at DESC LIMIT 1').first()) ?? null });
+  }
   if (path === '/api/status') {
     const one = async (sql) => (await db.prepare(sql).first())?.n ?? 0;
     const [runs, posts, observations, purged, checks, last, sweep] = await Promise.all([
@@ -181,14 +182,16 @@ async function read(url, env) {
   return json({ error: 'no such route' }, 404);
 }
 
-// Gate 2 for a list of posts, now. Returns what X said and records it.
-async function verify(env, want, { purge = true } = {}) {
+// Gate 2 for a list of posts, now. Returns what X said and records it, in one statement. `owed` are
+// posts already known gone whose purge comes first.
+async function verify(env, want, { purge = true, owed = [] } = {}) {
   const db = env.DB;
-  const out = { checked: 0, ok: 0, missing: 0, mismatch: 0, withheld: 0, errors: 0, purged: 0, results: {} };
-  if (!want.length) return out;
-  const { results } = await db.prepare(`SELECT id, url, text, author_handle, first_run, purged_at FROM posts WHERE id IN (${place(want.length)})`).bind(...want).all();
-  const toPurge = [];
-  for (const p of results) {
+  const out = { checked: 0, ok: 0, missing: 0, mismatch: 0, withheld: 0, errors: 0, purged: 0, written: 0, results: {} };
+  const posts = [];
+  for (const part of chunks(want)) posts.push(...(await db.prepare(`SELECT id, url, text, author_handle, first_run, purged_at FROM posts WHERE id IN (${place(part.length)})`).bind(...part).all()).results);
+  const answers = [];
+  const toPurge = [...owed];
+  for (const p of posts) {
     const at = stamp();
     let verdict;
     try {
@@ -198,52 +201,66 @@ async function verify(env, want, { purge = true } = {}) {
     } catch (e) { out.errors++; out.results[p.id] = { result: 'error', detail: String(e.message) }; continue; }
     out.checked++; out[verdict.result]++;
     out.results[p.id] = verdict;
-    await db.prepare('INSERT INTO checks (post_id, result, detail, checked_at, handle, run) VALUES (?1, ?2, ?3, ?4, ?5, ?6) ON CONFLICT(post_id) DO UPDATE SET result = excluded.result, detail = excluded.detail, checked_at = excluded.checked_at')
-      .bind(p.id, verdict.result, verdict.detail, at, p.author_handle, p.first_run).run();
-    if (verdict.result === 'missing' && !p.purged_at) toPurge.push(p.id);
+    answers.push({ post_id: p.id, result: verdict.result, detail: verdict.detail, checked_at: at, handle: p.author_handle, run: p.first_run });
+    if (verdict.result === 'missing' && !p.purged_at && !toPurge.includes(p.id)) toPurge.push(p.id);
   }
-  if (purge) out.purged = await purgePosts(env, toPurge.slice(0, SWEEP_PURGES));
+  if (answers.length) { const q = checksStatement(answers); out.written += wrote(await db.prepare(q.sql).bind(...q.params).run()); }
+  if (purge) {
+    const r = await purgePosts(env, toPurge.slice(0, STORE.sweep_purges));
+    out.purged = r.purged; out.written += r.written;
+  }
   return out;
 }
 
 // A post X no longer returns loses its words everywhere: its row, and every capture file it is in.
+// The row goes first and the check is marked last, so a purge cut short (a free Worker's time is brief)
+// is still owed and the next sweep finishes it; a file already stripped is not written again.
 async function purgePosts(env, postIds) {
   const db = env.DB;
-  let n = 0;
+  const out = { purged: 0, written: 0 };
   for (const id of postIds) {
-    const at = stamp();
-    await db.prepare("UPDATE posts SET text = '', url = '', media = '[]', note = 'null', lead = NULL, author_name = '', purged_at = ?2 WHERE id = ?1 AND purged_at IS NULL").bind(id, at).run();
-    await db.prepare('UPDATE checks SET purged_at = ?2 WHERE post_id = ?1 AND purged_at IS NULL').bind(id, at).run();
+    const at = (await db.prepare('SELECT purged_at FROM posts WHERE id = ?1').bind(id).first())?.purged_at ?? stamp();
+    out.written += wrote(await db.prepare("UPDATE posts SET text = '', url = '', media = '[]', note = 'null', lead = NULL, author_name = '', purged_at = ?2 WHERE id = ?1 AND purged_at IS NULL").bind(id, at).run());
     const { results } = await db.prepare('SELECT run_id FROM post_runs WHERE post_id = ?1').bind(id).all();
     for (const { run_id } of results) {
       const row = await db.prepare('SELECT gz FROM captures WHERE run_id = ?1').bind(run_id).first();
       if (!row) continue;
       const doc = JSON.parse(await gunzip(row.gz));
+      const held = (doc.posts ?? []).find((p) => p.id === id);
+      if (!held || held.purged_at) continue;
       const stripped = JSON.stringify(stripCapture(doc, new Set([id]), at));
-      await db.prepare('UPDATE captures SET gz = ?2, bytes = ?3, updated_at = ?4 WHERE run_id = ?1').bind(run_id, await gzip(stripped), stripped.length, at).run();
+      out.written += wrote(await db.prepare('UPDATE captures SET gz = ?2, bytes = ?3, updated_at = ?4 WHERE run_id = ?1').bind(run_id, await gzip(stripped), stripped.length, at).run());
     }
-    n++;
+    out.written += wrote(await db.prepare('UPDATE checks SET purged_at = ?2 WHERE post_id = ?1 AND purged_at IS NULL').bind(id, at).run());
+    out.purged++;
   }
-  return n;
+  return out;
 }
 
-// The hourly sweep: posts X stopped returning first, then the posts checked longest ago.
+// The deletion sweep: every few minutes, a few posts (tools/lib/store-sql.mjs says how they are picked
+// and why none of the picks reads the whole table).
 async function sweep(env) {
   const db = env.DB;
-  const before = new Date(Date.now() - RECHECK_HOURS * 3600000).toISOString().replace(/\.\d{3}Z$/, 'Z');
-  const { results } = await db.prepare(`
-    SELECT p.id,
-      (SELECT o.state FROM observations o WHERE o.post_id = p.id ORDER BY o.at DESC LIMIT 1) AS last_state,
-      c.checked_at
-    FROM posts p LEFT JOIN checks c ON c.post_id = p.id
-    WHERE p.purged_at IS NULL AND (c.checked_at IS NULL OR c.checked_at < ?1)
-    ORDER BY (last_state = 'unavailable') DESC, c.checked_at IS NOT NULL, c.checked_at ASC
-    LIMIT ?2`).bind(before, SWEEP_CHECKS).all();
-  const at = stamp();
-  const r = await verify(env, results.map((p) => p.id));
-  await db.prepare('INSERT OR REPLACE INTO sweep_log (at, checked, ok, missing, mismatch, withheld, errors, purged, note) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)')
-    .bind(at, r.checked, r.ok, r.missing, r.mismatch, r.withheld, r.errors, r.purged, `${results.filter((p) => p.last_state === 'unavailable').length} were unavailable at their last reading`).run();
-  return r;
+  const now = stamp();
+  const before = new Date(Date.now() - STORE.recheck_hours * 3600000).toISOString().replace(/\.\d{3}Z$/, 'Z');
+  const mark = (await db.prepare(ROUND_GET).first())?.last_rowid ?? 0;
+  const [owed, gone, round] = (await db.batch([
+    db.prepare(PICK_OWED).bind(STORE.sweep_purges),
+    db.prepare(PICK_GONE).bind(before, STORE.sweep_asks),
+    db.prepare(PICK_ROUND).bind(mark, STORE.sweep_asks),
+  ])).map((r) => r.results);
+  const plan = sweepAsks({ gone, round, limit: STORE.sweep_asks });
+  const r = await verify(env, plan.ids, { owed: owed.map((o) => o.id) });
+  // A sweep X answered nothing to (it is down, or refusing us) leaves the round where it was.
+  const moved = plan.mark !== null && (r.checked > 0 || plan.ids.length === 0);
+  const note = `${gone.length} gone, ${owed.length} owed a purge, round ${moved ? `to ${plan.mark}${plan.wrapped ? ' (new lap)' : ''}` : `stays at ${mark}`}`;
+  const done = await db.batch([
+    ...(moved ? [db.prepare(ROUND_SET).bind(plan.mark, plan.wrapped ? 1 : 0, now)] : []),
+    db.prepare('INSERT OR REPLACE INTO sweep_log (at, checked, ok, missing, mismatch, withheld, errors, purged, note) VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)')
+      .bind(now, r.checked, r.ok, r.missing, r.mismatch, r.withheld, r.errors, r.purged, note),
+  ]);
+  await spend(db, now, r.written + wrote(done));
+  return { ...r, note };
 }
 
 
@@ -256,11 +273,14 @@ export default {
         if (url.pathname === '/ingest') return request.method === 'POST' ? await ingest(request, env) : json({ error: 'POST a capture' }, 405);
         if (url.pathname === '/api/verify' && request.method === 'POST') {
           const body = await request.json().catch(() => ({}));
-          const want = (body.ids ?? []).filter((s) => /^\d{15,20}$/.test(String(s))).slice(0, 100);
-          return json(await verify(env, want, { purge: body.purge !== false }));
+          const want = (body.ids ?? []).filter((s) => /^\d{15,20}$/.test(String(s))).slice(0, VERIFY_MAX);
+          const now = stamp();
+          const r = await verify(env, want, { purge: body.purge !== false });
+          await spend(env.DB, now, r.written);
+          return json(r);
         }
         if (url.pathname === '/api/sweep' && request.method === 'POST') return json(await sweep(env));
-        if (url.pathname.startsWith('/api/board') || url.pathname === '/api/state') return json({ error: 'the board moved to https://agents.seansooch.dev (rules: /BOARD.md)' }, 410);
+        if (url.pathname.startsWith('/api/board') || url.pathname === '/api/state') return json({ error: 'the board moved to https://agent-board.seansooch.workers.dev (rules: node tools/board.mjs rules)' }, 410);
         if (request.method === 'GET') return await read(url, env);
         return json({ error: 'no such route' }, 404);
       } catch (e) {

@@ -327,7 +327,11 @@ git push origin main                                           # on rejection: p
   there too, after the push: `POST https://situation.seansooch.dev/ingest` with
   `Authorization: Bearer <token>` and the capture as the JSON body. The answer is Gate 1's
   verdict: `200` with counts, `422` with the errors, `409` if a different file for that run is
-  already there (a pushed capture is never rewritten). Until the editor says the cutover is done,
+  already there (a pushed capture is never rewritten), `429` with `held: true` when the store has
+  reached its share of the day's database writes (`contract/budget.json`, `store`). **Held is not a
+  failure and not an alert:** the file is safe in git, `tools/ingest.mjs` prints `HELD` and exits 0,
+  and the first delivery after 00:00 UTC takes it, oldest first. Report it as `delivered: false`
+  with the word held, and carry on. Until the editor says the cutover is done,
   the git push stays the delivery of record and the editor mirrors anything you did not deliver.
 - No em dashes in anything you write yourself. Verbatim text is exempt and must not be altered.
 

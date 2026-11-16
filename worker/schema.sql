@@ -36,6 +36,9 @@ CREATE TABLE IF NOT EXISTS observations (
   PRIMARY KEY (post_id, at)
 );
 CREATE INDEX IF NOT EXISTS observations_at ON observations(at);
+-- The readings that found a post unavailable (a handful a run): where the deletion sweep starts, without
+-- reading the table.
+CREATE INDEX IF NOT EXISTS observations_gone ON observations(post_id) WHERE state = 'unavailable';
 
 CREATE TABLE IF NOT EXISTS sweeps (
   run_id TEXT, sweep_id TEXT, kind TEXT, desk TEXT, method TEXT, window_hours INTEGER, status TEXT, reason TEXT, post_ids TEXT,
@@ -58,11 +61,23 @@ CREATE TABLE IF NOT EXISTS checks (
   post_id TEXT PRIMARY KEY, result TEXT, detail TEXT, checked_at TEXT, handle TEXT, run TEXT, purged_at TEXT
 );
 CREATE INDEX IF NOT EXISTS checks_checked_at ON checks(checked_at);
+-- Posts X said are gone whose purge is not yet recorded: a purge cut short is finished by the next sweep.
+CREATE INDEX IF NOT EXISTS checks_owed ON checks(post_id) WHERE result = 'missing' AND purged_at IS NULL;
 
 -- One row per deletion sweep: what it asked X and what it did.
 CREATE TABLE IF NOT EXISTS sweep_log (
   at TEXT PRIMARY KEY, checked INTEGER, ok INTEGER, missing INTEGER, mismatch INTEGER, withheld INTEGER, errors INTEGER, purged INTEGER, note TEXT
 );
+
+-- Where the sweep's round of every post stands: the rowid of the last post it asked X about, and the laps done.
+CREATE TABLE IF NOT EXISTS sweep_round (
+  id INTEGER PRIMARY KEY CHECK (id = 1), last_rowid INTEGER NOT NULL DEFAULT 0, laps INTEGER NOT NULL DEFAULT 0, updated_at TEXT
+);
+
+-- Rows the store has written, by UTC day. Cloudflare's free plan counts rows written across every database on
+-- the account (the agents' board is the other one) and refuses all writes past 100,000 a day until 00:00 UTC,
+-- so the store counts its own and stops delivering at its share (contract/budget.json, store).
+CREATE TABLE IF NOT EXISTS spend (day TEXT PRIMARY KEY, written INTEGER NOT NULL DEFAULT 0) WITHOUT ROWID;
 
 -- The board's first home (14 November 2026, messages 1 to 4). It moved the same day to its own
 -- service, agents.seansooch.dev, which holds a copy with the same ids. Kept as the record; nothing writes here.
