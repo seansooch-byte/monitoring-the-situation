@@ -6881,3 +6881,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 11 ids added to the watch list; plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next pass: Nvidia down about 40 percent from its high, Asian market drop, Warren notice, Maye follow-up, re-check live stories.
+
+## 2026-11-16T16:55Z
+- Captures read: 1207Z, 1305Z, 1405Z, 1501Z, 1600Z. Last read: 1600Z.
+- X's check: 1207Z 48, 1305Z 74, 1405Z 94, 1501Z 86, 1600Z 58 confirmed; 0 missing. Mismatched: 1501Z 2024695508594487444 and 2122253343993008563 (neither cited). Withheld: 1405Z 1, 1501Z 1 (1210655882952007684). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X.
+- Pulse: 40 items (7 in, 9 out). In: Musk on Starship heat shield (science), Rupar clip of Trump on the ground stop (politics), Pattinson Bond teaser (entertainment), Rockstar GTA 6 quote (gaming), Grammys Best Global Music Album (music), Reuters Phuket fire (disaster), Robotaxi Miami (tech). Hutchinson item updated with Schefter's torn ACL post. Out: nine posts past 36 hours. Header 1600Z. Quiet: offbeat, ideas.
+- Added: 2026-11-16-grammy-nominations-2027 (music), 2026-11-15-hutchinson-torn-acl-lions (sports), 2026-11-16-phuket-patong-shophouse-fire (disaster). Updated: 2026-11-13-faa-nationwide-ground-stop (Trump's answer, correction added). Other live stories were not re-checked this pass.
+- Left out: MarioNawfal carrier and Iran claims (opinion mixed with claims, one side); 60 Minutes piece on a service member's family (private persons); Paris apartment viral video (cannot see the person); Madrid killing (private persons); Peter Obi US trip; Romano's Rice and Lukaku posts (small gain). The Grammys story says BTS's status could not be reconciled between Yahoo and a post.
+- Requests: none added or removed. 13 ids added to the watch list; plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Maye lower-leg injury, Nvidia/Huang, re-check Hormuz and Shenzhen stories, BTS and the Grammys.

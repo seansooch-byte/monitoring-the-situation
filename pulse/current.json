@@ -1,52 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T11:35:00Z",
-  "capture": "2026-11-16T1102Z",
+  "updated_at": "2026-11-16T16:50:00Z",
+  "capture": "2026-11-16T1600Z",
   "items": [
-    {
-      "id": "2121755546487566426",
-      "desk": "gaming",
-      "line": "LoL Esports, the League of Legends tournament account, posts that Bilibili Gaming are the 2026 world champions. The post is text and one image. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121777957450686817",
-      "desk": "world",
-      "line": "Osint613, an account that posts conflict news, writes that Bahrain is under an Iranian attack. US Central Command says it shot down two Revolutionary Guard drones with no damage; Iran says it destroyed a US radar there. Neither claim is checked here.",
-      "also": [
-        "2121780438025064539"
-      ]
-    },
-    {
-      "id": "2121789660817174686",
-      "desk": "disaster",
-      "line": "Thenewarea51, an aviation news account, says a UPS Boeing 767 collided with a Copa Airlines Boeing 737 at Miami this evening, and credits the audio to the ATC app. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121785460968092045",
-      "desk": "sports",
-      "line": "Adam Schefter of ESPN passes on a colleague's report that the Patriots have placed running back TreVeyon Henderson on injured reserve with an illness that is still unexplained.",
-      "also": []
-    },
-    {
-      "id": "2121809292110238171",
-      "desk": "offbeat",
-      "line": "The account Science girl posts a video, about two minutes long, with the caption \"Snowboarding with descendants of ancient wolves\". The post does not say where it was filmed. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121763977349013884",
-      "desk": "science",
-      "line": "Elon Musk says he hugged ship 42 upon its return, in a post with no picture or video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121755101136077180",
-      "desk": "defense",
-      "line": "HormuzLetter, a news account, says several helicopters of the US Air Force's 1st Helicopter Squadron flew over Washington, citing initial reports, and adds that Israel says Iran is planning a drone. The post text is cut off there. Not checked here.",
-      "also": []
-    },
     {
       "id": "2121977851302047987",
       "desk": "music",
@@ -60,17 +16,12 @@
       "also": []
     },
     {
-      "id": "2121822266891583782",
-      "desk": "sports",
-      "line": "ESPN posts a video and says Arch Manning came in clutch for Texas in Death Valley, and that Texas now has its fifth top 25 win of the year. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121977584103964708",
       "desk": "sports",
-      "line": "The account AryePulliNFL posts a short video and says Detroit Lions player Aidan Hutchinson just got hurt celebrating a sack. Adam Schefter of ESPN says the Lions have ruled Hutchinson out with a knee injury. Not checked here.",
+      "line": "The account AryePulliNFL posts a short video and says Detroit Lions player Aidan Hutchinson just got hurt celebrating a sack. Adam Schefter of ESPN later posts that initial tests showed a torn ACL in his right knee and that he is out for the season. NFL.com says the same; see the story.",
       "also": [
-        "2122010907148505115"
+        "2122010907148505115",
+        "2122340552842883209"
       ]
     },
     {
@@ -174,11 +125,6 @@
       "line": "Pop Base, a pop culture account, says Miguel Ángel Félix Gallardo, a founder of a Mexican drug cartel, has died at 80. The post gives no source. Not checked here."
     },
     {
-      "id": "2121778104485949705",
-      "desk": "entertainment",
-      "line": "Kick Vault, a streaming clips account, posts a video it says shows Drake on a livestream urging people to go outside and see friends. The quote in the post is the account's transcription. Not checked here."
-    },
-    {
       "id": "2122050746996957548",
       "desk": "politics",
       "line": "Scott Robertson posts a 26-second clip captioned as Rachel Maddow asking Hillary Clinton if there is a leader of the free world, and Clinton answering \"Maybe Mark Carney.\" Not checked here."
@@ -247,6 +193,48 @@
       "id": "2122212734947184673",
       "desk": "defense",
       "line": "Osint613 relays the Iranian Revolutionary Guard Navy's claims that six tankers caught fire and that two hit mines in the Strait of Hormuz. Reuters could not verify them; see the story."
+    },
+    {
+      "id": "2122092374016806969",
+      "desk": "science",
+      "line": "Elon Musk, who runs SpaceX, says he went over the Starship heat shield and that it looks great, and that Ship 42 could probably be reflown after a few weeks of refurbishment. He says many small fixes are still needed before it can be reused like an airplane. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122341061695557692",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a clip in which a reporter asks Trump what responsibility he takes for Friday's nationwide ground stop and Trump answers \"I don't take any responsibility.\" The full exchange has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2122344079132393513",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, posts what it calls the first teaser for Robert Pattinson as the next James Bond. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122144905279525098",
+      "desk": "gaming",
+      "line": "DiscussingFilm posts words it attributes to Rockstar Games, taken from The Guardian, on why GTA 6 took so long: that the studio could have made \"GTA 5.5\" faster but wanted a bigger swing. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122318384587247658",
+      "desk": "music",
+      "line": "The Grammys' official account lists the nominees for Best Global Music Album: Anitta, Davido, Angelique Kidjo, Ayra Starr and Tems. It says the awards are live on Feb. 7, 2027.",
+      "also": []
+    },
+    {
+      "id": "2122165276015771945",
+      "desk": "disaster",
+      "line": "Reuters reports, citing police, that a fire in a shophouse in Phuket killed 11 people and injured 16.",
+      "also": []
+    },
+    {
+      "id": "2122234442328740005",
+      "desk": "tech",
+      "line": "Tesla's Robotaxi account says it is now serving more of Miami, in a post with one photo. Not checked here.",
+      "also": []
     }
   ]
 }

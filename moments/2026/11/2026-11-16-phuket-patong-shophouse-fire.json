@@ -1,0 +1,31 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-phuket-patong-shophouse-fire",
+  "title": "A fire in a shophouse block in Phuket kills at least 11 and injures 16",
+  "dek": "It broke out before dawn on Monday near Patong beach. Police say no tourists were among the dead or hurt.",
+  "desks": [
+    "disaster"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-16T03:10:04Z",
+  "updated_at": "2026-11-16T16:50:00Z",
+  "what": [
+    "Al Jazeera reports that a fire began at about 3:17 a.m. local time on Monday, 16 November 2026, in a commercial building in Patong, on Thailand's resort island of Phuket. The building held a restaurant, rented rooms and a motorcycle rental shop. At least 11 people were killed and 16 injured. Fifteen of the injured were Thai and one was from Myanmar. Authorities said no tourists were among the dead or injured.",
+    "The cause is under investigation. Al Jazeera says police ruled out arson and that an electrical transformer near the building reportedly exploded shortly before the fire started. Phuket's governor, Codnarin Koedsom, said the rental shop held about 100 motorcycles plus fuel, engine oil, plastics and tires, which may have helped the fire spread and made the smoke thick and toxic.",
+    "Reuters' first post said 11 killed and 16 injured, citing police. I relied on the Al Jazeera report; the counts could still change."
+  ],
+  "why": "A deadly fire at a place known to visitors from many countries, reported by wire services within hours.",
+  "next": "The police finding on the cause, and any change in the toll.",
+  "posts": [
+    {
+      "id": "2122165276015771945",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Al Jazeera: Shophouse fire on Thai resort island kills 11",
+      "url": "https://www.aljazeera.com/news/2026/11/16/shophouse-fire-on-thai-resort-island-kills-11"
+    }
+  ]
+}
