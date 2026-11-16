@@ -6951,3 +6951,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 5 ids added to the watch list; plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Microsoft 365 outage with the bank outages, Warsh remarks on AI scenarios, Iran settlement claim, size of the market selloff.
+
+## 2026-11-16T23:40Z
+- Captures read: 2301Z. Last read: 2301Z.
+- X's check: 2301Z 94 confirmed, 0 missing, 1 mismatched (not cited), 0 withheld. Older mismatches and cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (4 in, 4 out). In: Breaking911 Trump drone exchange (politics), Avengers: Doomsday trailer (entertainment), lolesports Worlds game 4 (gaming), mark_k on Grok watermarking (ai, maker disclosed). Out: AO3 Status and About Music (over 36 hours old), Reuters Phuket fire and Reuters "national champions" (no longer among the largest). Header 2301Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: the apartment-entry clip (a private person, as with the Paris clip); the O'Leary guard clip and the fentanyl street clip (private individuals, flagged); DemocraticWins on Trump and NBC (partisan framing, politics has places); Netflix "THE WINK", Cristiano, Elon "12 years ago" (point unclear or account already placed); PopBase Grammys list, anandv2409 funding, AJ English Vilnius statue (no room, smaller).
+- Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Pattinson cast as Bond (largest post of the day), bank outages, Warsh on AI scenarios, Grok watermarking default (disclose maker).
