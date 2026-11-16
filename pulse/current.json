@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T21:50:00Z",
-  "capture": "2026-11-16T2106Z",
+  "updated_at": "2026-11-16T22:20:00Z",
+  "capture": "2026-11-16T2203Z",
   "items": [
     {
       "id": "2121977851302047987",
@@ -25,12 +25,6 @@
       ]
     },
     {
-      "id": "2121905490477379816",
-      "desk": "politics",
-      "line": "Politics UK, an account that posts British political news, says the UK Government has confirmed it is considering a \"staggered\" age of consent, which it says would make relationships between adults and 16 and 17-year-olds illegal. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122045918342238337",
       "desk": "business",
       "line": "The Kobeissi Letter, a markets account, says the Financial Times reports Jensen Huang is considering a return as Nvidia CEO while the board investigation continues. It adds a report of a \"war room\" of tech executives lobbying for it. Not checked here. Later posts say CNBC reports the board is not considering it.",
@@ -40,12 +34,6 @@
       "id": "2122076776734306387",
       "desk": "sports",
       "line": "The NFL account posts a video and says Raiders quarterback Fernando Mendoza rushed in for his first career touchdown in the Seattle-Las Vegas game. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121891053829582983",
-      "desk": "entertainment",
-      "line": "AnarchyCrave, an entertainment gossip account, says HBO is reportedly in \"total panic mode\" over fan backlash to a clip of the Hogwarts feast in its Harry Potter series. It cites unnamed insiders. Not checked here.",
       "also": []
     },
     {
@@ -85,21 +73,9 @@
       "also": []
     },
     {
-      "id": "2121877886655189092",
-      "desk": "politics",
-      "line": "Coinvo, a news account, says Texas Democrats have proposed ending the display of the Ten Commandments in classrooms. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122042007518351742",
       "desk": "politics",
       "line": "GOP__Ls, a partisan political account, says Trump cut Biden-era FAA funding in January 2025, calling it \"too woke\", and is now blaming Biden for the FAA problems. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121981656882122993",
-      "desk": "tech",
-      "line": "cb_doge, a Musk-focused news account, says Seoul Economic Daily reports Samsung plans to make a chip for SpaceX Starlink satellites at its Austin plant, with a $1.9 billion expansion. Not checked here.",
       "also": []
     },
     {
@@ -277,6 +253,32 @@
       "desk": "disaster",
       "line": "Sky News reports a yellow snow warning for a large part of the UK and links to a story. The post does not say who issued the warning. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2121967615358714152",
+      "desk": "ideas",
+      "line": "Literature, a writing account, posts a prompt for writers: write \"I felt alone\" without writing the words \"I felt alone.\"",
+      "also": []
+    },
+    {
+      "id": "2122368004298068305",
+      "desk": "science",
+      "line": "SpaceX posts two videos it says were filmed riding on Starship 42 during its final approach to the catch, captioned \"Don't Panic.\"",
+      "also": []
+    },
+    {
+      "id": "2122359930628063248",
+      "desk": "ai",
+      "line": "OpenAI says it is working with Apollo Research, METR, Transluce and Goodfire on \"embedded assessments\": outside experts given deep access to its internal models and systems to investigate alignment and test its safeguards.",
+      "also": []
+    },
+    {
+      "id": "2122379130008174700",
+      "desk": "markets",
+      "line": "Walter Bloomberg, an account that posts market headlines, relays remarks it attributes to Fed Chair Warsh: disappointing AI investment could trigger an equity selloff and higher unemployment, the scenarios are illustrative and not forecasts, and Fed staff is modeling superintelligence scenarios. Not checked here.",
+      "also": [
+        "2122377057963516410"
+      ]
     }
   ]
 }

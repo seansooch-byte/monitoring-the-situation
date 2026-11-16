@@ -6941,3 +6941,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 5 post ids added to the watch list; plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia after Huang (earnings Nov 17), Anthropic IPO filing figures (disclose maker), Trump flight-cancellation remark, Texas Democrats claims, Saudi/Houthi claim.
+
+## 2026-11-16T22:25Z
+- Captures read: 2203Z. Last read: 2203Z.
+- X's check: 2203Z 100 confirmed, 0 missing, 1 mismatched (2122343952175296856, TAEYEON album post, not cited), 2 withheld (1887582089953816677, 2122361407064973561, neither cited). Older mismatches and cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (4 in, 4 out). In: Literature writing prompt (ideas, the desk had no item), SpaceX Starship 42 ride-along video (science), OpenAI on outside evaluators (ai), Walter Bloomberg on Warsh and AI scenarios (markets, BullTheory's post in also). Out: Coinvo, Politics UK, AnarchyCrave (all over 36 hours old), cb_doge on Samsung/Starlink chip (no longer among the largest). Header 2203Z. The build holds two Reuters items off the front.
+- Added: none. Updated: none (pulse pass).
+- Left out: Paris apartment clip and the security guard clip (private persons); Nvidia/Huang and the $1.4 trillion selloff posts (nothing confirmed here); Microsoft 365 and bank outage conspiracy posts (insinuation); Iran settlement "bombshell" (unchecked); 60 Minutes posts on a named service member (private person); J6 pipe bomb posts (claims about a real person); Fuentes and Shapiro posts (politics already has places).
+- Requests: none added or removed. 5 ids added to the watch list; plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Microsoft 365 outage with the bank outages, Warsh remarks on AI scenarios, Iran settlement claim, size of the market selloff.
