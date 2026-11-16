@@ -6811,3 +6811,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-16T01:40Z
+- Captures read: 0107Z (0004Z was the last logged read). Last read: 0107Z.
+- X's check: 0107Z 98 confirmed, 0 missing, 1 mismatched (not cited; the tool does not print the id), 0 withheld. Older: 2101Z, 2159Z and 0004Z 1 mismatched each (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 49 items (6 in, 3 out). In: Pop Base on Félix Gallardo's death (world, not checked), Kick Vault on a Drake livestream (entertainment, not checked), Scott Robertson's Clinton/Carney clip (politics, not checked), Jonathan Reiner on measles (medicine, his claims), Al Jazeera English on Estonia's border closing (world), Maira (life, first item on that desk). Out: three posts past 36 hours (Ronaldinho, tanker ship track, TBC_on_X clip). Header 0107Z. The build holds the Pop Base world item off the front page (the account already holds the GTA VI album item).
+- Added: none. Updated: none (pulse pass).
+- Left out: Eric Daugherty's Trump/Iran drone post (unconfirmed threat claim); Mario Nawfal shale and Iran warhead posts (unconfirmed); WatcherGuru recap (Huang affair claim, unconfirmed) and the Yashar post on Huang's possible return (not researched); Barstool Mendoza post (names a private person's health); Gryph911 and EndWokeness religion posts; pippaisright and RT_com posts (flagged private individual); Cleese police clip (shows private people); ClownWorld sentencing post (names a private person); Starbucks post (Unusual Whales already holds a place); old_content posts.
+- Requests: none added or removed. Six ids added to the watch list; plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Huang's status at Nvidia (resignation and comeback claims), Estonia border closing, Gallardo's death.
