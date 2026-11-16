@@ -281840,6 +281840,13 @@
   "handle": "lacho_ai_",
   "run": "2026-11-16T0107Z"
  },
+ "2122032079655592211": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:26Z",
+  "handle": "NFL",
+  "run": "2026-11-16T0705Z"
+ },
  "2122032398988918836": {
   "result": "ok",
   "detail": null,
@@ -284759,12 +284766,26 @@
   "handle": "AshCrypto",
   "run": "2026-11-16T0602Z"
  },
+ "2122181166363287652": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:29Z",
+  "handle": "NFL",
+  "run": "2026-11-16T0705Z"
+ },
  "2122181414900859249": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-16T06:07:54Z",
   "handle": "Variety",
   "run": "2026-11-16T0602Z"
+ },
+ "2122181702634381583": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:30Z",
+  "handle": "NFL",
+  "run": "2026-11-16T0705Z"
  },
  "2122182278214537235": {
   "result": "ok",
@@ -284815,12 +284836,47 @@
   "handle": "Reuters",
   "run": "2026-11-16T0602Z"
  },
+ "2122187509195014296": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:30Z",
+  "handle": "barstoolsports",
+  "run": "2026-11-16T0705Z"
+ },
  "2122190447170736230": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-16T06:07:52Z",
   "handle": "Reuters",
   "run": "2026-11-16T0602Z"
+ },
+ "2122192943381446841": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:30Z",
+  "handle": "SportsCenter",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122192945290027018": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:27Z",
+  "handle": "PopBase",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122192946678448276": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:27Z",
+  "handle": "PopCrave",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122192980932956476": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:28Z",
+  "handle": "IGN",
+  "run": "2026-11-16T0705Z"
  },
  "2122193120414617785": {
   "result": "ok",
@@ -284829,12 +284885,110 @@
   "handle": "Cointelegraph",
   "run": "2026-11-16T0602Z"
  },
+ "2122193192887959835": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:28Z",
+  "handle": "PopCrave",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122193444604919842": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:29Z",
+  "handle": "PopCrave",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122194450915233983": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:27Z",
+  "handle": "PopBase",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122195205856317492": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:28Z",
+  "handle": "PopBase",
+  "run": "2026-11-16T0705Z"
+ },
  "2122196406739845581": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-16T06:07:53Z",
   "handle": "Osint613",
   "run": "2026-11-16T0602Z"
+ },
+ "2122208041303146869": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:29Z",
+  "handle": "FabrizioRomano",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122208043198972025": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:31Z",
+  "handle": "crazyclipsonly",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122208043274535193": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:32Z",
+  "handle": "NoContextHumans",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122208047565340959": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:31Z",
+  "handle": "MarioNawfal",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122208078397387089": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:29Z",
+  "handle": "IGN",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122208858105839785": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:33Z",
+  "handle": "TheNairobiTimez",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122208875357372444": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:26Z",
+  "handle": "Nintendo",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122209011680559133": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:31Z",
+  "handle": "MarioNawfal",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122215590169620554": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:32Z",
+  "handle": "MarioNawfal",
+  "run": "2026-11-16T0705Z"
+ },
+ "2122218529948876830": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-16T07:10:32Z",
+  "handle": "AMAZlNGNATURE",
+  "run": "2026-11-16T0705Z"
  },
  "237217446099030020": {
   "result": "ok",
