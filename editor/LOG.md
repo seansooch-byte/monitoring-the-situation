@@ -6821,3 +6821,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Six ids added to the watch list; plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Huang's status at Nvidia (resignation and comeback claims), Estonia border closing, Gallardo's death.
+
+## 2026-11-16T02:40Z
+- Captures read: 0208Z (0107Z was the last logged read). Last read: 0208Z.
+- X's check: 0208Z 116 confirmed, 0 missing, 2 mismatched (not cited; the tool does not print the ids), 0 withheld. Older: 2101Z, 2159Z, 0004Z and 0107Z 1 mismatched each (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X (cited by 2026-11-03-us-strike-qeshm-island).
+- Pulse: 47 items on the front page (48 in the file; 2 in, 3 out). In: cz_binance on why crypto is down, with the Anthropic IPO named and the maker disclosure (markets, not checked), AbdulElSayed on foreign and domestic aid (politics). Out: three posts past 36 hours (narendramodi, DeepDiscountsco, MovieTings). Header 0208Z.
+- Added: none. Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (petition count and Nvidia's reply, from Business Upturn; the FT return claim still rests on a post).
+- Left out: Hutchinson injury as a story (no outside source found yet; the NFL desk already has places); BRICSinfo cancer patient post (unchecked claim about a private person); KillaKreww and RealAlexJones posts (flagged private individual); boylykstiga post (claims about a named actor's private life); Nam_kafi_hai "is this true" post (point unclear); AJEnglish Vilnius statue clip (not researched); Gryph911 religion post.
+- Requests: none added or removed. Two ids added to the watch list; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Anthropic IPO pricing week (existing story 2026-10-26-anthropic-files-s1-ipo, not rechecked this pass), Hutchinson's injury, the Vilnius statue incident.
