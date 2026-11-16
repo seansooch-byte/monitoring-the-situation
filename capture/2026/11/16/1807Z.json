@@ -3,7 +3,7 @@
  "run": {
   "id": "2026-11-16T1807Z",
   "started_at": "2026-11-16T18:07:00Z",
-  "finished_at": "2026-11-16T18:18:00Z",
+  "finished_at": "2026-11-16T18:19:00Z",
   "status": "partial",
   "reason": "Day run 2026-11-16T1807Z / 1:07 PM EST Nov 16. Plan is requests/plan.json written 17:23:38Z, for_run 2026-11-16T18Z (day band, 40 reads listed, allowance 42), used unchanged; its watch list holds all 447 requests/watch.json ids, so no watch.json id was left out and no extra watch reads were needed. 41 X reads this run (426 left before, 385 left today after). Watch: 798 of 800 returned; unavailable 2120080430388937046, 2121357117583995134. no pulse- or story-cited post missing or changed words; 5 truncation-only diffs where note_tweet filled truncated text or entities were unescaped or a trailing t.co link was dropped (0 of them cited); 0 uncited text change(s) (0 cited). 13 due desks read (politics, world, justice, markets, ai, tech, medicine, entertainment, music, gaming, sports, internet, offbeat; defense, disaster, business, science, ideas and life not due). Volume markets/business/ai/offbeat recorded, 167 full hours each, sums match X's totals. Sensors news/money/science read. Global streams: quote the, quote what, repost it; rising quote just, repost my; context.top on 2122343820180275593 (24 replies and 25 quotes in the 20-minute window, most liked kept). Screen: 3 by-id reads of 300 ids (all returned): the 2 references pointed at by 2 posts and 298 origins without an author record; 218 single-pointer references or origins left unread. No trend-name streams (plan).  Left out as sexual or unsafe: 2122117272911151346, 1963816839122649467, 2092210115541934136, 2099286734659821725, 1938576642294546609, 2094162231898284508. account cap dropped {\"EricLDaugh\": 2, \"LeadingReport\": 2, \"jukan05\": 1}. A first viral quote read on `and lang:en is:quote -is:retweet` was refused by X (ambiguous use of and as a keyword) and still cost 1 read, so the run used 41 reads against the plan's 40; the quote read was redone on `the`. Desks checked against contract/desks.json scope and not_here; reference-only posts given a desk where one fits. Media descriptions not filled this run (partial).",
   "grabber": {
@@ -1244,9 +1244,9 @@
     "2122348638638846291",
     "2122348838363046175",
     "2122348825184522624",
-    "2122348847653331298",
     "2122348837490598057",
-    "2122348820562641345"
+    "2122348820562641345",
+    "2122348806381453324"
    ]
   }
  ],
@@ -5301,29 +5301,6 @@
    "lead": null
   },
   {
-   "id": "2122348847653331298",
-   "url": "https://x.com/chasekr8/status/2122348847653331298",
-   "created_at": "2026-11-16T15:19:31.000Z",
-   "lang": "en",
-   "text": "My dick legit moved when the music came in and he stepped out of the shadows https://t.co/W5Xt86G47X",
-   "author": {
-    "handle": "chasekr8",
-    "name": "Chase",
-    "followers": 1137,
-    "verified": "none",
-    "kind": "unknown"
-   },
-   "media": [],
-   "reply_to": null,
-   "quotes": "2122343820180275593",
-   "note": null,
-   "flags": [],
-   "desk": null,
-   "beat": null,
-   "topic": null,
-   "lead": null
-  },
-  {
    "id": "2122348837490598057",
    "url": "https://x.com/MarkKnopflerr/status/2122348837490598057",
    "created_at": "2026-11-16T15:19:28.000Z",
@@ -5372,65 +5349,26 @@
    "lead": null
   },
   {
-   "id": "2122350361386074422",
-   "url": "https://x.com/FabrizioRomano/status/2122350361386074422",
-   "created_at": "2026-11-16T15:25:32.000Z",
-   "lang": "en",
-   "text": "🚨🔴 Weston McKennie on Man United links with Pochettino: “It’s a potential, we have a lot of guys on our team who are due to make moves within the next year…”.\n\n“Rumors are inevitable, but you never know what’s going on coaches minds”.\n\n“But you can see guys from here being talked about going to Manchester United”, says — via @tombogert.",
+   "id": "2122348806381453324",
+   "url": "https://x.com/cloudsbyjr/status/2122348806381453324",
+   "created_at": "2026-11-16T15:19:21.000Z",
+   "lang": "it",
+   "text": "Madre mia\nChe cena stasera https://t.co/ITOtV47Fz3",
    "author": {
-    "handle": "FabrizioRomano",
-    "name": "Fabrizio Romano",
-    "followers": 29187699,
+    "handle": "cloudsbyjr",
+    "name": "Agnese🍜",
+    "followers": 962,
     "verified": "none",
     "kind": "unknown"
    },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
+   "media": [],
    "reply_to": null,
-   "quotes": null,
+   "quotes": "2122343820180275593",
    "note": null,
-   "flags": [],
-   "desk": "sports",
-   "beat": null,
-   "topic": null,
-   "lead": "about 400717 views an hour; credits @tombogert"
-  },
-  {
-   "id": "2122314511889613201",
-   "url": "https://x.com/Variety/status/2122314511889613201",
-   "created_at": "2026-11-16T13:03:04.000Z",
-   "lang": "en",
-   "text": "Beyoncé makes Grammy history as the first artist to earn 100 nominations:\n\n• Her latest nod comes for Best R&B Solo Performance for “Morning Dew (Donk),” a long-unreleased track released ahead of the 20th anniversary of “B’Day”\n\n• She’ll compete against Kehlani’s “Out the Window,” Victoria Monét’s “Let Me,” Jill Scott’s “Pressha” and Tems’ “What You Need”\n\nhttps://t.co/qnOU5LnrVW",
-   "author": {
-    "handle": "Variety",
-    "name": "Variety",
-    "followers": 3839004,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
+   "flags": [
+    "non_english"
    ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "music",
+   "desk": "entertainment",
    "beat": null,
    "topic": null,
    "lead": null
@@ -5489,6 +5427,70 @@
    "beat": "white-house",
    "topic": null,
    "lead": null
+  },
+  {
+   "id": "2122314511889613201",
+   "url": "https://x.com/Variety/status/2122314511889613201",
+   "created_at": "2026-11-16T13:03:04.000Z",
+   "lang": "en",
+   "text": "Beyoncé makes Grammy history as the first artist to earn 100 nominations:\n\n• Her latest nod comes for Best R&B Solo Performance for “Morning Dew (Donk),” a long-unreleased track released ahead of the 20th anniversary of “B’Day”\n\n• She’ll compete against Kehlani’s “Out the Window,” Victoria Monét’s “Let Me,” Jill Scott’s “Pressha” and Tems’ “What You Need”\n\nhttps://t.co/qnOU5LnrVW",
+   "author": {
+    "handle": "Variety",
+    "name": "Variety",
+    "followers": 3839004,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "music",
+   "beat": null,
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122350361386074422",
+   "url": "https://x.com/FabrizioRomano/status/2122350361386074422",
+   "created_at": "2026-11-16T15:25:32.000Z",
+   "lang": "en",
+   "text": "🚨🔴 Weston McKennie on Man United links with Pochettino: “It’s a potential, we have a lot of guys on our team who are due to make moves within the next year…”.\n\n“Rumors are inevitable, but you never know what’s going on coaches minds”.\n\n“But you can see guys from here being talked about going to Manchester United”, says — via @tombogert.",
+   "author": {
+    "handle": "FabrizioRomano",
+    "name": "Fabrizio Romano",
+    "followers": 29187699,
+    "verified": "none",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "sports",
+   "beat": null,
+   "topic": null,
+   "lead": "about 400717 views an hour; credits @tombogert"
   },
   {
    "id": "2122326009966104958",
@@ -16628,18 +16630,6 @@
    "approx": false
   },
   {
-   "id": "2122348847653331298",
-   "at": "2026-11-16T18:13:00Z",
-   "state": "live",
-   "views": 640,
-   "likes": 14,
-   "reposts": 0,
-   "quotes": 0,
-   "replies": 2,
-   "bookmarks": 0,
-   "approx": false
-  },
-  {
    "id": "2122348837490598057",
    "at": "2026-11-16T18:13:00Z",
    "state": "live",
@@ -16662,6 +16652,18 @@
    "replies": 1,
    "bookmarks": 0,
    "approx": false
+  },
+  {
+   "id": "2122348806381453324",
+   "at": "2026-11-16T18:13:00Z",
+   "state": "live",
+   "views": 163,
+   "likes": 5,
+   "reposts": 0,
+   "quotes": 0,
+   "replies": 0,
+   "bookmarks": 0,
+   "approx": false
   }
  ],
  "context": [
@@ -16677,9 +16679,9 @@
    "quotes": [
     "2122348838363046175",
     "2122348825184522624",
-    "2122348847653331298",
     "2122348837490598057",
-    "2122348820562641345"
+    "2122348820562641345",
+    "2122348806381453324"
    ]
   }
  ],
