@@ -1,0 +1,50 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-irgc-says-tankers-hit-mines-hormuz",
+  "title": "Iran's Guard says tankers hit mines in the Strait of Hormuz; no outside source confirms the cause",
+  "dek": "Oil and shipping read every fire in the strait. So far the cause of each fire rests on Iran's word or on no one's.",
+  "desks": [
+    "world",
+    "defense"
+  ],
+  "standing": "disputed",
+  "started_at": "2026-11-16T06:18:00Z",
+  "updated_at": "2026-11-16T11:30:00Z",
+  "what": [
+    "On Monday, 16 November 2026, Iran's Revolutionary Guard (IRGC) said in a statement carried by state media that two oil tankers took what it called the illegal southern route through the Strait of Hormuz, hit a naval mine and exploded. As Middle East Eye quotes it, the IRGC said the blasts \"lit up the sky of the Strait of Hormuz for hours\" and that the southern route is \"mined with fiery walls.\"",
+    "The IRGC also said six tankers caught fire in similar incidents in the waterway on Sunday and Monday. Reuters, as carried by the Jerusalem Post, said it could not immediately verify the report. I found no vessel names, no shipping-agency statement and no independent confirmation of the number of ships or the cause.",
+    "One post on X says UKMTO, the British naval body that tracks shipping incidents, reported a tanker hit by an unknown projectile with a fire in its engine room, and that Iran's army separately blamed a mine. I could not find that UKMTO notice today, so that part rests only on the post. UKMTO did report a ship on fire near Khasab, Oman, on 30 October and said then that it could not confirm the cause.",
+    "What is not established: how many ships burned, whether mines are the cause, and whether any tanker sank. One X post repeats the IRGC claim that ships were escorted by US fighter jets; I found no US statement on that."
+  ],
+  "why": "The strait carries a large share of the world's oil, and a mine claim and a projectile claim point at different parties.",
+  "common": "On the record: the IRGC says tankers hit mines, and Reuters could not verify it. Not established: the count, the cause and any sinking. Each of those rests on one side's statement or on posts.",
+  "next": "Whether UKMTO or a ship's owner names a vessel and a cause, and whether the US responds to the IRGC claim.",
+  "posts": [
+    {
+      "id": "2122212734947184673",
+      "role": "origin"
+    },
+    {
+      "id": "2122261934263488674",
+      "role": "voice"
+    },
+    {
+      "id": "2122231101221421102",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Jerusalem Post (Reuters): Two oil tankers hit mines in the Strait of Hormuz, IRGC says",
+      "url": "http://www.jpost.com/middle-east/article-915014"
+    },
+    {
+      "label": "Middle East Eye live blog: IRGC says two oil tankers hit mines in the Hormuz Strait",
+      "url": "https://www.middleeasteye.net/live-blog/live-blog-update/irgc-says-two-oil-tankers-hit-mines-hormuz-strait"
+    },
+    {
+      "label": "Marine Insight: Ship ablaze off Oman as Iran increases ship attacks, UKMTO reports",
+      "url": "https://www.marineinsight.com/ship-ablaze-off-oman-as-iran-increases-ship-attacks-ukmto-reports/"
+    }
+  ]
+}

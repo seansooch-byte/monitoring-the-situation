@@ -6871,3 +6871,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id added to the watch list; plan.json rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia "national champions" (WSJ, one copy names Anthropic), Trump-Putin meeting claim.
+
+## 2026-11-16T11:45Z
+- Captures read: 0705Z, 0807Z, 0908Z, 1004Z, 1102Z. Last read: 1102Z.
+- X's check: 0705Z 22, 0807Z 24, 0908Z 21, 1004Z 24, 1102Z 20 confirmed; 0 missing, 0 mismatched, 0 withheld in each. Older mismatches unchanged (not cited). Cited story posts withheld (2116569280900706479, 2119523308580511928); 2117537320392130634 missing on X.
+- Pulse: 42 items (5 in, 7 out). In: Depardieu appeal (justice), Qwen4-Max (ai, names Anthropic's Claude), Brexit speech (world), Maye injury (sports), Osint613 Hormuz claims (defense). Out: seven posts past 36 hours. Header 1102Z.
+- Added: 2026-11-16-irgc-says-tankers-hit-mines-hormuz (world), 2026-11-16-trump-xi-putin-shenzhen-meeting (world). Updated: none; I did not re-check the older live stories against their sources this pass.
+- Left out: Asian markets and gold crash posts (figures not checked); Rwanda deportation hub (Reuters already holds places); Warren legal notice and Alito claims (one-sided, not researched); Netherlands "phase black"; Prince Harry in Lviv.
+- Requests: none added or removed. 11 ids added to the watch list; plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next pass: Nvidia down about 40 percent from its high, Asian market drop, Warren notice, Maye follow-up, re-check live stories.

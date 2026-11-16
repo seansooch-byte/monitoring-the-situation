@@ -1,0 +1,46 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-trump-xi-putin-shenzhen-meeting",
+  "title": "Trump, Xi and Putin may meet in Shenzhen this week; nothing is final",
+  "dek": "Three leaders have never sat down together. Posts call it settled; officials have only said it is being discussed.",
+  "desks": [
+    "world",
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-16T03:57:00Z",
+  "updated_at": "2026-11-16T11:30:00Z",
+  "what": [
+    "On 6 November, Chinese Foreign Ministry spokesperson Mao Ning said China \"is in communication with relevant parties\" about a meeting of the three heads of state, according to KSAT. The report said timing, format and topics were not settled.",
+    "The EWN report of 9 November quotes Trump as saying he is going to China and expects to meet Xi Jinping and Vladimir Putin, and that they would discuss denuclearization and ending the war in Iran. It places the APEC summit in Shenzhen on 18 and 19 November.",
+    "On Monday, 16 November, a post on X says China called the meeting \"significantly groundbreaking.\" I did not find that wording in a report. Another post quotes Canadian Prime Minister Mark Carney saying the idea came from Brazil's president, Lula, to help end the war in Ukraine. I did not check that quote.",
+    "A widely shared post says the three \"meet in Shenzhen in days\" and carries a guest's claims about Israel and a possible false flag. I did not check those claims and they are not part of this story."
+  ],
+  "why": "No meeting of the three has happened before, and each leader wants something different from it: an end to the Iran war, talks on Ukraine, or arms control.",
+  "common": "On the record: China says it is in communication with the parties, and Trump says he expects to meet both leaders. Not established: that all three will meet, the agenda, or any format. Posts that call it settled go further than the officials quoted.",
+  "next": "Whether the three leaders appear together on 18 or 19 November, and what each government says afterward.",
+  "posts": [
+    {
+      "id": "2122177277534278002",
+      "role": "origin"
+    },
+    {
+      "id": "2122235162243301561",
+      "role": "voice"
+    },
+    {
+      "id": "2122224392973537570",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "KSAT: China confirms discussions are underway on a historic Xi, Trump, Putin meeting",
+      "url": "https://www.ksat.com/news/politics/2026/11/06/china-confirms-discussions-are-underway-on-a-historic-xi-trump-putin-meeting/"
+    },
+    {
+      "label": "EWN: Trump says likely to meet Putin, Xi in China",
+      "url": "https://www.ewn.co.za/2026/11/09/trump-says-likely-to-meet-putin-xi-in-china"
+    }
+  ]
+}
