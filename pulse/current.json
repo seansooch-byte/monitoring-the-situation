@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-16T00:30:00Z",
-  "capture": "2026-11-16T0004Z",
+  "updated_at": "2026-11-16T01:40:00Z",
+  "capture": "2026-11-16T0107Z",
   "items": [
     {
       "id": "2121715216597827756",
@@ -90,12 +90,6 @@
       "also": []
     },
     {
-      "id": "2121587439152079289",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a transfer reporter, says Ronaldinho has arrived for pre-match training with the Italian third-division club Ravenna and will play an official game for it, against Forlì, as he comes out of retirement. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2121763977349013884",
       "desk": "science",
       "line": "Elon Musk says he hugged ship 42 upon its return, in a post with no picture or video. Not checked here.",
@@ -132,21 +126,9 @@
       "also": []
     },
     {
-      "id": "2121594339457400994",
-      "desk": "disaster",
-      "line": "WAdrewhawkins posts a video of the ship track of the tanker Atlantic Asphalt before its collision at New Orleans on Friday. This site has a story on that collision.",
-      "also": []
-    },
-    {
       "id": "2121755101136077180",
       "desk": "defense",
       "line": "HormuzLetter, a news account, says several helicopters of the US Air Force's 1st Helicopter Squadron flew over Washington, citing initial reports, and adds that Israel says Iran is planning a drone. The post text is cut off there. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2121595116112761070",
-      "desk": "ai",
-      "line": "TBC_on_X posts a video of about two and a half minutes that it calls \"AI Seinfeld\" going to the DSA convention. It does not say which tool made it.",
       "also": []
     },
     {
@@ -281,6 +263,36 @@
       "desk": "ai",
       "line": "Blackwell, a stock-commentary account, posts a 66-second clip it says shows Nvidia's Jensen Huang telling Joe Rogan that AI will replace people whose job is only a task. The post calls Huang the ex-CEO and ends with a pitch to join its group. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2122115458551935009",
+      "desk": "world",
+      "line": "Pop Base, a pop culture account, says Miguel Ángel Félix Gallardo, a founder of a Mexican drug cartel, has died at 80. The post gives no source. Not checked here."
+    },
+    {
+      "id": "2121778104485949705",
+      "desk": "entertainment",
+      "line": "Kick Vault, a streaming clips account, posts a video it says shows Drake on a livestream urging people to go outside and see friends. The quote in the post is the account's transcription. Not checked here."
+    },
+    {
+      "id": "2122050746996957548",
+      "desk": "politics",
+      "line": "Scott Robertson posts a 26-second clip captioned as Rachel Maddow asking Hillary Clinton if there is a leader of the free world, and Clinton answering \"Maybe Mark Carney.\" Not checked here."
+    },
+    {
+      "id": "2121949367670124578",
+      "desk": "medicine",
+      "line": "Jonathan Reiner writes that George Washington died of a throat abscess, that antibiotics now prevent such deaths, and that the federal government is largely silent as people die of measles. These are his claims. Not checked here."
+    },
+    {
+      "id": "2122079695785107839",
+      "desk": "world",
+      "line": "Al Jazeera English reports that Estonia is closing its border crossings with Russia after an alleged arson attempt at a drone factory. It says Tallinn blames Russian military intelligence and that eight people were arrested."
+    },
+    {
+      "id": "2121972562079203497",
+      "desk": "life",
+      "line": "Maira, a personal account, writes that maturing means seeing that no one is easy to be with, and that what counts is who stays to understand you and grow with you. It quotes another post."
     }
   ]
 }
