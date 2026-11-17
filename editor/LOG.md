@@ -6961,3 +6961,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Pattinson cast as Bond (largest post of the day), bank outages, Warsh on AI scenarios, Grok watermarking default (disclose maker).
+
+## 2026-11-17T01:35Z
+- Captures read: 0004Z, 0103Z. Last read: 0103Z.
+- X's check: 0004Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld; 0103Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 44 items (1 in, 2 out). In: Fox News on the United Airlines outage (tech, Acyn's CNN "resolved" post in also). Out: BlackwellEdge Huang clip and JReinerMD (both over 36 hours old). Header 0103Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Iran dirty bomb claims citing CNN (several posts, unchecked here); TMZ Bachelor post (private persons); Hunger Games premiere posts (entertainment already placed); Starship tower view and Starlink posts (account already placed); SecKennedy "Food. Real Food." (point unclear).
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Iran dirty bomb reports (CNN), United outage, Pattinson as Bond.

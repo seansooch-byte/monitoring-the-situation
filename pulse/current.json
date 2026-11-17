@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T00:20:00Z",
-  "capture": "2026-11-17T0004Z",
+  "updated_at": "2026-11-17T01:30:00Z",
+  "capture": "2026-11-17T0103Z",
   "items": [
     {
       "id": "2121977851302047987",
@@ -79,12 +79,6 @@
       "also": []
     },
     {
-      "id": "2121956147888554387",
-      "desk": "ai",
-      "line": "Blackwell, a stock-commentary account, posts a 66-second clip it says shows Nvidia's Jensen Huang telling Joe Rogan that AI will replace people whose job is only a task. The post calls Huang the ex-CEO and ends with a pitch to join its group. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122115458551935009",
       "desk": "world",
       "line": "Pop Base, a pop culture account, says Miguel Ángel Félix Gallardo, a founder of a Mexican drug cartel, has died at 80. The post gives no source. Not checked here."
@@ -93,11 +87,6 @@
       "id": "2122050746996957548",
       "desk": "politics",
       "line": "Scott Robertson posts a 26-second clip captioned as Rachel Maddow asking Hillary Clinton if there is a leader of the free world, and Clinton answering \"Maybe Mark Carney.\" Not checked here."
-    },
-    {
-      "id": "2121949367670124578",
-      "desk": "medicine",
-      "line": "Jonathan Reiner writes that George Washington died of a throat abscess, that antibiotics now prevent such deaths, and that the federal government is largely silent as people die of measles. These are his claims. Not checked here."
     },
     {
       "id": "2121972562079203497",
@@ -275,6 +264,14 @@
       "id": "2121975392554619298",
       "desk": "ai",
       "line": "The AI news account mark_k says Grok’s text watermarking is now off by default in the SpaceXSI API, and that Elon Musk confirmed it and said it is on only where law requires it or a user asks. xAI makes Grok, the model that gathers this site’s posts. Not checked here."
+    },
+    {
+      "id": "2122464695365816473",
+      "desk": "tech",
+      "line": "Fox News reports that United Airlines had an outage that kept flights from departing, and says the pilots union cited trouble getting aircraft weight data. A later post from Acyn quotes CNN saying the issue is resolved. Not checked here.",
+      "also": [
+        "2122468044383682759"
+      ]
     }
   ]
 }
