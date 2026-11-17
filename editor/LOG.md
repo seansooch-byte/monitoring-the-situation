@@ -7061,3 +7061,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. plan.json rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Kerch Bridge, Penn Station, Senate tariff vote date, FEMA alert test, Pope Leo XIV in Peru.
+
+## 2026-11-17T12:40Z
+- Captures read: 1205Z. Last read: 1205Z.
+- X's check: 1205Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X). Story check ran; the build warned only about those three.
+- Pulse: 41 items (3 in, 1 out). In: NBC News on measles no longer eliminated in the U.S. (medicine, was empty; marked not checked), Kai Cenat GTA 6 play-through announcement (gaming), thijs Minecraft world recreation (gaming, marked not checked). Out: Gallardo post (36.6 hours; the story stays). Header 1205Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: StevenBartlett seduction-training clip (unchecked claim, point unclear); fdkfhs Brazil killing (private individual flag); DemocraticWins Trump/NBC post (copy of an item already shown); Dexerto Nikocado medical claim (unconfirmed health claim about a person); Zelensky "unprecedented operation" post (text cut off, subject unclear); bennyjohnson Iran dirty bomb (unconfirmed); old_content posts.
+- Requests: none added or removed. 3 ids added to the watch list; plan.json rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: measles elimination status (NBC, CDC/PAHO), Zelensky operation and Kerch Bridge, Senate tariff vote date, GTA 6 launch.

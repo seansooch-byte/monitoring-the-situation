@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T11:30Z",
-  "capture": "2026-11-17T1102Z",
+  "updated_at": "2026-11-17T12:40Z",
+  "capture": "2026-11-17T1205Z",
   "items": [
-    {
-      "id": "2122115458551935009",
-      "desk": "world",
-      "line": "Pop Base, a pop culture account, says Miguel Ángel Félix Gallardo, a founder of a Mexican drug cartel, has died at 80. The post gives no source. Not checked here."
-    },
     {
       "id": "2122259644563206402",
       "desk": "justice",
@@ -241,6 +236,24 @@
       "id": "2122356267209642000",
       "desk": "sports",
       "line": "The official Formula 1 account says Max Verstappen has finished on the podium at the last eight Grands Prix, a run that began at the Italian Grand Prix in September."
+    },
+    {
+      "id": "2122491675993903169",
+      "desk": "medicine",
+      "line": "NBC News reports that measles is no longer considered eliminated in the U.S., which it calls a reversal of one of the country’s greatest public health achievements this century. The post links a story that I have not read here. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122427634743214114",
+      "desk": "gaming",
+      "line": "Streamer Kai Cenat announces a full play-through of GTA 6 on November 18 at 8 p.m. Eastern, in a three-minute video. The post does not say where it will stream.",
+      "also": []
+    },
+    {
+      "id": "2122416145517117463",
+      "desk": "gaming",
+      "line": "A developer who posts as thijs says he recreated the whole world in Minecraft at 1:1 scale, every building included, using a generator he trained on map data. The post has a 36-second video and a link to try it. Not checked here.",
+      "also": []
     }
   ]
 }
