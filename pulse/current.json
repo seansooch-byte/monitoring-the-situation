@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T20:30:00Z",
-  "capture": "2026-11-17T2002Z",
+  "updated_at": "2026-11-17T21:40:00Z",
+  "capture": "2026-11-17T2101Z",
   "items": [
     {
       "id": "2122318384587247658",
@@ -164,11 +164,6 @@
       "line": "SmallKino_ posts a 50-second anime-coloured version of Bad Apple! and says it was made entirely with a video generator it calls MiniMax H3. Not checked here."
     },
     {
-      "id": "2122354827086721378",
-      "desk": "justice",
-      "line": "The account 905hub_ reports that Peel police dismantled an auto theft ring, recovering 90 cars valued at $4.5 million and arresting 12 people. Not checked here."
-    },
-    {
       "id": "2122418905348235529",
       "desk": "world",
       "line": "Clash Report posts words it attributes to Czech Prime Minister Andrej Babiš, spoken to Netanyahu: that the Czech Republic is very safe, is the future of Europe and is the best country to invest in. Not checked here."
@@ -182,11 +177,6 @@
       "id": "2122635204472844631",
       "desk": "defense",
       "line": "Sweden's armed forces, Försvarsmakten, post a video and a photo with text saying bridges enable military mobility and that protecting these land corridors matters. The record does not describe the media."
-    },
-    {
-      "id": "2122392613823328547",
-      "desk": "internet",
-      "line": "An ordinary user posts a joke that they say \"sounds good\" at work while thinking the idea is foolish."
     },
     {
       "id": "2122388455959535623",
@@ -262,6 +252,18 @@
       "id": "2122739039316971629",
       "desk": "gaming",
       "line": "The Game Awards, the show's official account, lists its six nominees for Game of the Year: 007 First Light, Control Resonant, Grand Theft Auto VI, Phantom Blade Zero, Resident Evil Requiem and The Legend of Zelda: Ocarina of Time. It links a fan ballot.",
+      "also": []
+    },
+    {
+      "id": "2122750124543926515",
+      "desk": "ai",
+      "line": "OpenAI announces that GPT-6.2 Astra and Sol are now available and calls them \"super efficient and built to perform where it counts.\" OpenAI says Astra is for the hardest projects and Sol for everyday work; see the story on the launch. The model writing this page is made by Anthropic, a rival of OpenAI.",
+      "also": []
+    },
+    {
+      "id": "2122757081753141676",
+      "desk": "tech",
+      "line": "HormuzLetter, a news account, says a major outage has hit several Apple services at once, including iCloud, Apple Pay, the App Store and Apple Support. Apple told reporters an internal update caused it; see the story.",
       "also": []
     }
   ]

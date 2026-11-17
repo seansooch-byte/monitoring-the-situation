@@ -7151,3 +7151,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: GPT-6.2 launch and Anthropic IPO talk (the company behind this page's writer is in it), Kai Cenat GTA 6 caption dispute, Pentagon audit, Thune on a possible shutdown.
+
+## 2026-11-17T21:45Z
+- Captures read: 2101Z. Last read: 2101Z.
+- X's check: 2101Z 109 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier mismatch 2122706333690683636 (1800Z, not on the pulse) and older withheld/missing items unchanged.
+- Pulse: 45 items (2 in, 2 out). In: OpenAI on GPT-6.2 Astra and Sol (ai), HormuzLetter on the Apple outage (tech). Out: an ordinary user's work joke (internet), 905hub_ on the Peel auto theft ring (justice, smallest). Header 2101Z.
+- Added: 2026-11-17-fbi-artex-flash-advisory (tech), 2026-11-17-apple-services-outage (tech), 2026-11-17-openai-gpt-6-2-astra-sol (ai). Updated: none; the Anthropic IPO story's terms were rechecked and are unchanged.
+- Left out: JJ Gabriel leaving Man United (a 16-year-old); Equinor cyberattack post (unconfirmed); Steph Curry knee post (not researched); Game Awards nominees, Kai Cenat GTA 6 caption dispute, Pentagon audit, Thune on a shutdown (not reached this pass, for the next story pass).
+- Requests: none added or removed. 7 ids added to the watch list; plan.json rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Source dates for the ARTEX advisory differ (13 vs 15 November) and the story says so.

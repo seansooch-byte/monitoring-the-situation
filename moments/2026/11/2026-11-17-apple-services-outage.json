@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-17-apple-services-outage",
+  "title": "Apple services go down, and Apple says an internal update caused it, not a cyberattack",
+  "dek": "iCloud, Apple Pay, the App Store and Apple Support failed for many users on Tuesday, in a week of outages that posts have tied together. Apple and reporters say the outages do not appear to be related.",
+  "desks": ["tech"],
+  "standing": "developing",
+  "started_at": "2026-11-17T18:21:00Z",
+  "updated_at": "2026-11-17T21:40:00Z",
+  "what": [
+    "Time reports that Apple's status page first flagged AppleCare problems at 11:15 a.m. Eastern on Tuesday, 17 November, and that user reports spiked around 11:40 a.m. It says services affected included Apple Pay, iCloud and Apple Support, and that App Store problems were resolved by 3:30 p.m. Eastern. It cites about 2,000 reports on Downdetector shortly before 1 p.m.",
+    "Time quotes an Apple statement: \"Many of our systems are back up and running after an internal update caused some outages this morning. We're working to get the remaining systems online as soon as possible.\" It says Apple denied that a cyberattack was behind it. Time and 9to5Mac describe iCloud sign-in as one of the last things still affected on Tuesday afternoon. I could not check Apple's status page at the time of writing, so what is still down now is not known here.",
+    "Posts by PopBase and HormuzLetter list Apple Pay, iCloud, the App Store, Apple Music, Apple Card and Apple Support. A post by InsiderWire adds Outlook, Gmail and Schwab. I found no report confirming Gmail or Schwab outages on Tuesday, so that claim rests on the post alone.",
+    "Time notes the outage follows recent disruptions at big banks, in US air travel systems and in Microsoft's Outlook, and writes that \"the outages do not appear to be related.\" I found no source that links them."
+  ],
+  "why": "Apple is one company millions of people use for payments, photos and sign-in, so a failure is seen at once. It landed in a week of other outages, and posts invite readers to treat them as one event.",
+  "next": "Apple's account of what the update was, and whether any service is still down.",
+  "posts": [
+    { "id": "2122757081753141676", "role": "origin" },
+    { "id": "2122763960273559994", "role": "voice" },
+    { "id": "2122751188802163184", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Time: What to know about the Apple outage", "url": "https://time.com/article/2026/11/17/apple-outage-down-update-issue/" },
+    { "label": "9to5Mac: iCloud, App Store, and other Apple services hit by ongoing outage", "url": "https://9to5mac.com/2026/11/17/icloud-app-store-and-other-apple-services-hit-by-ongoing-outage/" }
+  ]
+}
