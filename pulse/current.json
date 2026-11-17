@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T06:40:00Z",
-  "capture": "2026-11-17T0607Z",
+  "updated_at": "2026-11-17T07:15Z",
+  "capture": "2026-11-17T0702Z",
   "items": [
     {
       "id": "2122045918342238337",
@@ -16,12 +16,6 @@
       "also": []
     },
     {
-      "id": "2122041067373502650",
-      "desk": "world",
-      "line": "Gadi Eisenkot, the Israeli politician the president has asked to form a government, writes in Hebrew that Netanyahu's conduct is a \"direct and immediate threat\" to Israeli democracy. He calls for an immediate investigation of a newly reported affair. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122051469692293299",
       "desk": "music",
       "line": "Chart Data, a music statistics account, posts a list of the most streamed songs in Spotify history. It puts Blinding Lights at number one and Shape of You at number two. Not checked here.",
@@ -31,18 +25,6 @@
       "id": "2122057297450909727",
       "desk": "markets",
       "line": "Unusual Whales, a markets account, says the Wall Street Journal reports that about 186,000 adjustable-rate mortgages reset next year, citing ICE data, with a typical first payment rise of about 645 dollars a month. The post attributes the figures to the Journal. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122019076872556719",
-      "desk": "gaming",
-      "line": "Charlie INTEL, a gaming news account, quotes Xbox on its next-generation Project Helix: Xbox says it is a console that can also play PC games, not a PC that can also play console games. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122042007518351742",
-      "desk": "politics",
-      "line": "GOP__Ls, a partisan political account, says Trump cut Biden-era FAA funding in January 2025, calling it \"too woke\", and is now blaming Biden for the FAA problems. Not checked here.",
       "also": []
     },
     {
@@ -265,6 +247,18 @@
       "id": "2122490851129774345",
       "desk": "science",
       "line": "DogeDesigner posts words it attributes to NASA chief Jared Isaacman after SpaceX's Starship catch: \"This really changes everything.\" The post says he describes a world of many Starships flying routinely. Not checked here."
+    },
+    {
+      "id": "2122403605579722943",
+      "desk": "politics",
+      "line": "Morgan J. Freeman posts a video with a caption saying the Senate voted 50-46 to strip the president of his power to impose tariffs, with several Republicans joining Democrats. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122311491240009826",
+      "desk": "offbeat",
+      "line": "okdiario, a Spanish-language outlet, posts a video it says shows a supposed dinosaur flying in Mexico, and says paleontologists cannot explain it. The post is in Spanish. Not checked here.",
+      "also": []
     }
   ]
 }

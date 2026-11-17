@@ -7011,3 +7011,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 3 ids added to the watch list; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Mamdani disbanding the NYPD Strategic Response Group (Fox News), Penn Station tunnel delays, FEMA alert test Nov 17.
+
+## 2026-11-17T07:15Z
+- Captures read: 0607Z (pulse already refreshed from it at 0640Z, not logged then), 0702Z. Last read: 0702Z.
+- X's check: 0702Z 40 confirmed, 0 missing, 0 mismatched, 2 withheld by X. 0607Z 51 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X). The story check was not run (pulse pass).
+- Pulse: 42 items (2 in, 3 out). In: Morgan J. Freeman on the Senate tariff vote (politics), okdiario dinosaur clip (offbeat). Out: gadi_eisenkot, charlieINTEL, GOP__Ls (all over 36 hours). Header 0702Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA Klay post, NFL hug and Hampton posts, ESPNNFL Kelce, Romano JJ Gabriel and Wirtz (sports well covered, Romano already placed); extratv Brad Pitt (Bond already placed); RT_com Pope Leo (RT already placed); MarioNawfal AI trailer (no description, account capped); DailyLoud Iran dirty bomb (small, unconfirmed); PopBase and PopCrave calendar posts (trivia); strugglesaurus, MeghUpdates (private individuals); Zac Goldsmith Imran Khan (small).
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Senate tariff vote (mjfree claim, 50-46), FEMA alert test Nov 17, Kerch bridge, Penn Station delays.
