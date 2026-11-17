@@ -7141,3 +7141,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Apple and Schwab outages, Tesla Powercore, Game Awards nominees.
+
+## 2026-11-17T20:30Z
+- Captures read: 2002Z. Last read: 2002Z.
+- X's check: 2002Z 45 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (2 in, 2 out). In: the White House's emergency alert test notice (politics), Watcher Guru on the Pentagon audit (defense, not checked). Out: StockMKTNewz on Druckenmiller (markets, smallest item), Sarah Adams on the NYPD briefing (justice, small). Header 2002Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: scubaryan_ Kai Cenat trailer (a copy of an origin already shown; replies dispute its caption); the replies and quotes on it (private individual flags); zerohedge on Anthropic lobbying (unconfirmed claim about named people; Anthropic is the company behind the model writing this page); GPT-6.2 posts by kimmonismus (small, opinion); Ornstein on Hincapie (sports full, smaller); Game Awards nominee copies (desk covered); Tesla vote ad; Osint613 post on a named scholar (religious claim about a person); old_content posts.
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: GPT-6.2 launch and Anthropic IPO talk (the company behind this page's writer is in it), Kai Cenat GTA 6 caption dispute, Pentagon audit, Thune on a possible shutdown.
