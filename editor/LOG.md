@@ -7091,3 +7091,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 6 ids added to the watch list; plan.json rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: United outage and the FAA ground stop, Megaspeed investigation, Korean exam-day alert, Kutcher/Anthropic valuation.
+
+## 2026-11-17T15:30Z
+- Captures read: 1506Z. Last read: 1506Z.
+- X's check: 1506Z 89 confirmed, 0 missing, 0 mismatched, 2 withheld (1291063312092991494 Fierclyrve, 2122508237270335896 RealBrittHughes). Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (4 in, 4 out). In: Clash Report on words attributed to the Czech PM (world, marked not checked), NBA on Suni Lee at a game (sports), Försvarsmakten on bridges and military mobility (defense, replaces Osint613), a work-joke post (internet). Out: Osint613 IRGC tanker relay (defense, now covered by the Swedish armed forces post), DogeDesigner/Isaacman words (science), ScopeReport_ stuck trains (disaster), Gerashchenko Kerch Bridge (world, the Zelensky post covers it). Header 1506Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: ohiojesustwink AI Charlie Kirk song and other old_content posts; Tinubu housing-fund post (long official policy statement, not shown this pass); Savsays O'Keefe court clip (one-sided claims about a prosecution, unchecked); ScooterCasterNY Rutgers protest (unchecked); TMZ Pope Leo rosary and Romano Raya (account already placed); MarioNawfal paid ad; IGN "1 DAY" (subject unclear).
+- Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Kerch Bridge damage, O'Keefe/Higby Hennepin County case, Rutgers Bovino protest, Nigeria MREIF mortgage fund.
