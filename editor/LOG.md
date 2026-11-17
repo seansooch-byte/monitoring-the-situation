@@ -7171,3 +7171,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 3 ids added to the watch list; plan.json rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia Q3 results without Huang, Crimean Bridge strikes, PlayStation Network outage, Dragon undocking.
+
+## 2026-11-17T23:15Z
+- Captures read: 2300Z. Last read: 2300Z.
+- X's check: 2300Z 114 confirmed, 0 missing, 0 mismatched, 0 withheld. Older withheld/missing items on cited stories unchanged.
+- Pulse: 45 items (1 in, 1 out). In: Zelenskyy on Patriot and IRIS-T interceptors (defense, not checked). Out: Fabrizio Romano on Lukaku (sports, 36 hours old). Header 2300Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kobeissi on the Nvidia board (business full, unconfirmed claim); Duffy reply to Musk (politics full); Haaland post (sports, smaller); Starbase catch (science already has SpaceX); private-person posts (Gen Z worker clip, Brazil killing, teacher sentencing); old_content posts.
+- Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia board and Huang, Duffy and Musk on Starlink for the FAA, Ukraine's interceptor swap proposal.

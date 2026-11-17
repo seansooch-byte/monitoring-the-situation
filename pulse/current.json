@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T22:20:00Z",
-  "capture": "2026-11-17T2200Z",
+  "updated_at": "2026-11-17T23:12:00Z",
+  "capture": "2026-11-17T2300Z",
   "items": [
     {
       "id": "2122318384587247658",
@@ -89,12 +89,6 @@
       "id": "2122488851939606631",
       "desk": "ideas",
       "line": "The Economist says modern life can feel like a sci-fi story with only the aliens missing, and that they probably will not appear in 2027. It says it has ten other things to watch for, and links its article. The post carries an illustration by Cleon Peterson.",
-      "also": []
-    },
-    {
-      "id": "2122287442438824162",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, says Romelu Lukaku has retired from international football, with 135 appearances and 94 goals for Belgium. Not checked here.",
       "also": []
     },
     {
@@ -263,6 +257,12 @@
       "id": "2122757081753141676",
       "desk": "tech",
       "line": "HormuzLetter, a news account, says a major outage has hit several Apple services at once, including iCloud, Apple Pay, the App Store and Apple Support. Apple told reporters an internal update caused it; see the story.",
+      "also": []
+    },
+    {
+      "id": "2122784104039031256",
+      "desk": "defense",
+      "line": "Volodymyr Zelenskyy, Ukraine’s president, says in a post with a 72-second video that Ukraine wants Patriot and IRIS-T interceptors from partners’ existing stocks now, repaid with newer missiles it has already ordered. He asks the United States not to delay. Not checked here.",
       "also": []
     }
   ]
