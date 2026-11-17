@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T09:35Z",
-  "capture": "2026-11-17T0905Z",
+  "updated_at": "2026-11-17T10:30Z",
+  "capture": "2026-11-17T1006Z",
   "items": [
     {
       "id": "2122115458551935009",
@@ -22,12 +22,6 @@
       "id": "2122212734947184673",
       "desk": "defense",
       "line": "Osint613 relays the Iranian Revolutionary Guard Navy's claims that six tankers caught fire and that two hit mines in the Strait of Hormuz. Reuters could not verify them; see the story."
-    },
-    {
-      "id": "2122092374016806969",
-      "desk": "science",
-      "line": "Elon Musk, who runs SpaceX, says he went over the Starship heat shield and that it looks great, and that Ship 42 could probably be reflown after a few weeks of refurbishment. He says many small fixes are still needed before it can be reused like an airplane. Not checked here.",
-      "also": []
     },
     {
       "id": "2122341061695557692",
@@ -142,11 +136,6 @@
       "line": "Breaking911, a news account, posts a quoted exchange in which a reporter asks Trump whether he is worried about Iranian drones targeting him personally. It quotes Trump answering that he is worried about the reporter, because if they get him, the reporter is gone too. The exchange has not been checked here."
     },
     {
-      "id": "2122322180578951333",
-      "desk": "entertainment",
-      "line": "The account cocoviralai, a film news account, posts a 76-second video it calls a new trailer for Avengers: Doomsday and says the film is in theatres December 18. Not checked here."
-    },
-    {
       "id": "2122464695365816473",
       "desk": "tech",
       "line": "Fox News reports that United Airlines had an outage that kept flights from departing, and says the pilots union cited trouble getting aircraft weight data. A later post from Acyn quotes CNN saying the issue is resolved. Not checked here.",
@@ -242,6 +231,16 @@
       "desk": "world",
       "line": "A Spanish-language post from Keylin Acosta says Pope Leo XIV nearly came to harm in Peru, and attaches a 33-second video. I could not see what the video shows, and nothing here confirms what happened. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2122441315799400640",
+      "desk": "politics",
+      "line": "BRICS News, a news aggregator account, says Vice President JD Vance said President Trump will end the Iran war by 2028. The post carries no quote or source. Not checked here."
+    },
+    {
+      "id": "2122356267209642000",
+      "desk": "sports",
+      "line": "The official Formula 1 account says Max Verstappen has finished on the podium at the last eight Grands Prix, a run that began at the Italian Grand Prix in September."
     }
   ]
 }

@@ -7041,3 +7041,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Pope Leo XIV in Peru (what the clip shows), corporate bonuses from tariff refunds (Forbes), Senate tariff vote, FAA ground stop politics.
+
+## 2026-11-17T10:30Z
+- Captures read: 1006Z. Last read: 1006Z.
+- X's check: 1006Z 40 confirmed, 0 missing, 0 mismatched, 1 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X). The story check was not run beyond the tool's own pass (pulse pass).
+- Pulse: 39 items (2 in, 2 out). In: BRICSinfo on a Vance remark about the Iran war (politics, marked not checked), F1 on Verstappen's podium run (sports). Out: SpaceX heat shield post from Musk (36 hours), cocoviralai video 2122322180578951333 (unavailable on X in the 1006Z read, flagged by the grabber). Header 1006Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: bennyjohnson Iran dirty bomb plot (unconfirmed, same as the earlier DailyLoud post); HaydenWinks P.J. Walker video and rememertofocus violin clip (no description, point unclear); anabology Neuralink video (names a patient's handle); Musk ship catch post (account already placed); Osint613 Kerch footage (Kerch already placed); crypto, Variety and anime posts (small or promotional); old_content posts.
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Vance Iran war remark (unchecked), Iran dirty bomb reports, Kerch bridge strike, Senate tariff vote.
