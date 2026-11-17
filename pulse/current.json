@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T05:25:00Z",
-  "capture": "2026-11-17T0503Z",
+  "updated_at": "2026-11-17T06:40:00Z",
+  "capture": "2026-11-17T0607Z",
   "items": [
     {
       "id": "2122045918342238337",
@@ -242,6 +242,29 @@
       "desk": "disaster",
       "line": "ScopeReport_, a breaking-news aggregator, says two trains became stuck in an underwater tunnel and caused major delays at New York’s Penn Station, crediting PIX11. The post has a seven-second video. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2122515598274187461",
+      "desk": "ai",
+      "line": "Acyn posts a clip captioned as Mullin on the outages. In it the speaker says an unnamed person in the tech industry told him he believes \"SI\" is the cause, because these programs are not designed to run as fast as it does. The post cuts off mid-sentence. Not checked here."
+    },
+    {
+      "id": "2122558112788082933",
+      "desk": "world",
+      "line": "Anton Gerashchenko says the Kerch Bridge was critically damaged overnight in a missile and drone attack, and posts a photo he says shows a Flamingo cruise missile a second before it hit. A second post of his adds a video and says the same. Not checked here.",
+      "also": [
+        "2122561575206756769"
+      ]
+    },
+    {
+      "id": "2122490372127330479",
+      "desk": "entertainment",
+      "line": "Bark, a blue-badge account, says Barack Obama produced a film in which America collapses after a cyberattack that starts with planes, banks and the internet going down, and asks Grok if it is true. Grok, the model that gathers this page's posts, is made by xAI. The claim is not checked here."
+    },
+    {
+      "id": "2122490851129774345",
+      "desk": "science",
+      "line": "DogeDesigner posts words it attributes to NASA chief Jared Isaacman after SpaceX's Starship catch: \"This really changes everything.\" The post says he describes a world of many Starships flying routinely. Not checked here."
     }
   ]
 }
