@@ -5,7 +5,7 @@
   "started_at": "2026-11-17T04:01:00Z",
   "finished_at": "2026-11-17T04:14:00Z",
   "status": "partial",
-  "reason": "Day run 2026-11-17T0401Z / 11:01 PM EST Nov 16. Plan is requests/plan.json written 03:15:46Z, for_run 2026-11-17T04Z (day band, 42 reads by item, allowance 42), used unchanged; its watch list holds all 475 requests/watch.json ids (watch.json last updated 03:16:00Z), so no watch.json id was left out and no extra watch reads were needed. 42 X reads this run (853 left before, 811 left today after). Watch: 798 of 800 returned; unavailable 2120080430388937046, 2121357117583995134. no pulse- or story-cited post missing or changed words; 14 truncation-only diffs where note_tweet filled truncated text or entities were unescaped or a trailing t.co link was dropped (0 of them cited); 0 uncited text change(s) (0 cited). 17 due desks read (all but ideas and life, which the plan cut). Volume defense/music/gaming/ideas/sports recorded, 167 full hours each (2026-11-10T05:00Z to 2026-11-17T04:00Z, ending at the run's hour), sums match X's totals. Sensors culture/sports/online read (the plan's rotation; news/money/science were last read at the 0202Z run). Global streams: quote is, quote you, repost that; rising quote just, repost it; context.top on 2122339368710938638 (25 replies and 25 quotes in the 20-minute window, most liked kept). No screen reads (the plan's 42 items used the whole allowance). No trend-name streams (plan).  Left out as sexual or unsafe: 2122528904825160063, 2115176515608498626, 2108409619043475867. account cap dropped {\"IGN\": 2, \"MarioNawfal\": 11, \"NFL\": 7}.  Desks checked against contract/desks.json scope and not_here; reference-only posts given a desk where one fits; keyword fallback whole-word only. Media descriptions not filled this run (partial).",
+  "reason": "Day run 2026-11-17T0401Z / 11:01 PM EST Nov 16. Plan executed: the requests/plan.json written 04:00:01Z for_run 2026-11-17T05Z, which the grabber wrote locally by mistake at the start of the run (it ran `node tools/plan-reads.mjs --help`; the tool has no --help and wrote the plan instead; never committed, and since reverted to git's copy). The editor's plan in git for this run (written 03:15:46Z, for_run 2026-11-17T04Z) was not followed: it listed sensors news/money/science (read culture/sports/online instead), no desk.science (read anyway), and 73 watch ids that this run did not re-read; both lists held all 475 requests/watch.json ids (watch.json last updated 03:16:00Z), so no watch.json id was left out. 42 X reads this run (853 left before, 811 left today after). Watch: 798 of 800 returned; unavailable 2120080430388937046, 2121357117583995134. no pulse- or story-cited post missing or changed words; 14 truncation-only diffs where note_tweet filled truncated text or entities were unescaped or a trailing t.co link was dropped (0 of them cited); 0 uncited text change(s) (0 cited). 17 desks read (all but ideas and life; desk.science was not due in the 04Z plan). Volume defense/music/gaming/ideas/sports recorded, 167 full hours each (2026-11-10T05:00Z to 2026-11-17T04:00Z, ending at the run's hour), sums match X's totals. Sensors culture/sports/online read (news/money/science, which the 04Z plan listed, were last read at the 0202Z run). Global streams: quote is, quote you, repost that; rising quote just, repost it; context.top on 2122339368710938638 (25 replies and 25 quotes in the 20-minute window, most liked kept). No screen reads (the plan's 42 items used the whole allowance). No trend-name streams (plan).  Left out as sexual or unsafe: 2122528904825160063, 2115176515608498626, 2108409619043475867. account cap dropped {\"IGN\": 2, \"MarioNawfal\": 11, \"NFL\": 7}.  Desks checked against contract/desks.json scope and not_here; reference-only posts given a desk where one fits; keyword fallback whole-word only. Media descriptions not filled this run (partial).",
   "grabber": {
    "agent": "grokbot",
    "model": null,
@@ -14,14 +14,14 @@
   "requests_rev": "48026181e744432dc53ae1714a2fd134d5e2620b",
   "reads": 42,
   "reads_left": 811,
-  "plan": "2026-11-17T04Z"
+  "plan": "2026-11-17T05Z"
  },
  "sweeps": [
   {
    "id": "watch",
    "kind": "watch",
    "desk": null,
-   "method": "get_posts_by_ids of the re-read list in requests/plan.json for 2026-11-17T04Z (requests/plan.json written 03:15:46Z, for_run 2026-11-17T04Z, used unchanged; it lists all 475 requests/watch.json ids, so none were left out), in its order and in batches of 100 (800 ids, 8 reads); 798 of 800 returned, 2 unavailable (2120080430388937046, 2121357117583995134).",
+   "method": "get_posts_by_ids of the re-read list of (the requests/plan.json written 04:00:01Z for_run 2026-11-17T05Z, which the grabber wrote locally by mistake at the start of the run (it ran `node tools/plan-reads.mjs --help`; the tool has no --help and wrote the plan instead; never committed, and since reverted to git's copy). The editor's plan in git for this run (written 03:15:46Z, for_run 2026-11-17T04Z) was not followed: it listed sensors news/money/science (read culture/sports/online instead), no desk.science (read anyway), and 73 watch ids that this run did not re-read; both lists held all 475 requests/watch.json ids, so none were left out), in its order and in batches of 100 (800 ids, 8 reads); 798 of 800 returned, 2 unavailable (2120080430388937046, 2121357117583995134).",
    "window_hours": null,
    "status": "ok",
    "reason": null,
@@ -2924,6 +2924,71 @@
    "lead": null
   },
   {
+   "id": "2122486399202955657",
+   "url": "https://x.com/EricLDaugh/status/2122486399202955657",
+   "created_at": "2026-11-17T00:26:06.000Z",
+   "lang": "en",
+   "text": "🚨 BREAKING: VP JD Vance just WENT OFF on any GOP Senator considering not showing up to work hard and confirm all of President Trump's nominees before Dems take over\n\n\"We have a LOT of nominations, a lot of good judges that have lifetime appointments that have to get confirmed — and we can't have EXCUSES, senators and congressmen, they can't say, 'well we can't show up for work!' When you have so many good appointees that can do such amazing good things for the American people, so we've got to get those folks confirmed.\"\n\nOne more judge has been confirmed so far today. Roughly 19 more Trump judges remain to be confirmed\n\nDemocrats confirmed 22 Biden judges in their lame duck. Show up and GET IT DONE.",
+   "author": {
+    "handle": "EricLDaugh",
+    "name": "Eric Daugherty",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 59.633,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "politics",
+   "beat": null,
+   "topic": null,
+   "lead": "pointed at by 2 posts read this run"
+  },
+  {
+   "id": "2122503307511927251",
+   "url": "https://x.com/MarioNawfal/status/2122503307511927251",
+   "created_at": "2026-11-17T01:33:17.000Z",
+   "lang": "en",
+   "text": "🔥🇲🇽🦖 You’re telling me there’s a doggone PTERODACTYL flying over Mexico, but NOOO, NOTHING TO SEE HERE!\n\nThere are apparently multiple angles of this thing, and it’s supposedly not AI… but come on! Jellyfish UAPs in Alaska, dinosaur birds in Mexico, WTF is going on? \n\nWriter: Jamie https://t.co/j8i2wR00rQ",
+   "author": {
+    "handle": "MarioNawfal",
+    "name": "Mario Nawfal",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 6.866,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "offbeat",
+   "beat": "oddities",
+   "topic": null,
+   "lead": "about 51648 views an hour",
+   "media_source": "2122298694351683621"
+  },
+  {
    "id": "2122454638096265440",
    "url": "https://x.com/kugaleo_Q/status/2122454638096265440",
    "created_at": "2026-11-16T22:19:53.000Z",
@@ -2968,6 +3033,197 @@
    "beat": null,
    "topic": null,
    "lead": "pointed at by 2 posts read this run"
+  },
+  {
+   "id": "2122465250691993648",
+   "url": "https://x.com/MarioNawfal/status/2122465250691993648",
+   "created_at": "2026-11-16T23:02:03.000Z",
+   "lang": "en",
+   "text": "🇺🇸🇨🇳 Why did markets drop when Jensen Huang’s removal leaked? Shouldn’t less Nvidia mean less chips to China, a win for American AI?\n\nPhilip Pilkington says Nvidia is more than a chip company. It’s the bank of the entire AI ecosystem.\n\nJensen takes Nvidia’s hardware revenue and plows it into every VC and startup that crosses his desk. He vendor-finances the whole sector. Remove him, and that investment engine stops.\n\nThe interim CEO has already signaled she wants to discontinue the investment drive.\n\nPilkington’s verdict: this isn’t a business dispute. It’s a controlled destruction of Nvidia. A hostile act.\n\n@philippilk",
+   "author": {
+    "handle": "MarioNawfal",
+    "name": "Mario Nawfal",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 146.266,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": "2122416278359208289",
+   "note": null,
+   "flags": [],
+   "desk": "markets",
+   "beat": "stocks",
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122356124066193752",
+   "url": "https://x.com/GuntherEagleman/status/2122356124066193752",
+   "created_at": "2026-11-16T15:48:26.000Z",
+   "lang": "en",
+   "text": "🚨 BOOM: The Ilhan Omar investigation just landed on JEANINE PIRRO'S DESK. \n\nThe Star Tribune reports the DOJ pulled the probe into Omar's immigration paperwork and finances away from federal prosecutors in Minnesota.\n\nThose Minnesota prosecutors had already closed an earlier look without charges.\n\nA D.C. GRAND JURY IS NOW REVIEWING THE EVIDENCE.\n\nOmar denies any wrongdoing.\n\nMinnesota had its shot. Now Judge Jeanine gets a turn.",
+   "author": {
+    "handle": "GuntherEagleman",
+    "name": "Gunther Eagleman™",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "politics",
+   "beat": null,
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122370474873434485",
+   "url": "https://x.com/xbtlevi/status/2122370474873434485",
+   "created_at": "2026-11-16T16:45:27.000Z",
+   "lang": "en",
+   "text": "Michael Richards reportedly made $600,000 an episode playing Kramer on Seinfeld. Then in 2006, he screamed racial slurs at Black audience members during a comedy club set, and his career ended overnight.\n\nIn the video below, he reveals what he believes was behind it, and he can barely get the words out.\n\nIn the late '80s, Richards learned something about his own birth: he was conceived when his mother was raped.\n\nHe says the feeling of being unwanted stayed with him for decades. An inferiority complex followed him into his career.\n\nThat night in 2006, a heckler set him off, and it all came out in the worst way possible. The video exploded online. He walked away from Hollywood and disappeared for almost 20 years.\n\n\"I don't want any pity,\" he says, fighting back tears. \"I canceled myself.\"\n\nJerry Seinfeld still asks him when he's coming back.\n\nShould a man be defined by his worst moment forever, or does he deserve a second chance?",
+   "author": {
+    "handle": "xbtlevi",
+    "name": "Levi",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 101.966,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "entertainment",
+   "beat": "tv",
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122359761891217520",
+   "url": "https://x.com/EricLDaugh/status/2122359761891217520",
+   "created_at": "2026-11-16T16:02:53.000Z",
+   "lang": "en",
+   "text": "🚨 WOW: Treasury Sec. Scott Bessent just EXPOSED Virginia Gov. Abigail Spanberger for withholding OVER $1 BILLION FOR school choice families\n\nBessent CONFIRMED she is trying to block school choice participation\n\nGLENN YOUNGKIN: \"A governor who purports to be a MODERATE and purports to CARE about cost of living, and she RIPS $1.5 BILLION out of families pockets?!\"\n\n\"I think this reflects the politics here of the teachers unions trying to block families from having to say about what happens with their kids education.\" 🎯\n\nDefund the teachers unions.\n\nStarting in January 2027, the federal credit gives taxpayers up to $1,700 back, dollar for dollar, when they donate to a scholarship fund\n\nMore than 1.37 MILLION Virginia students, about 94% of K-12 kids, would be eligible\n\nThis is what you get with Democrat rule.",
+   "author": {
+    "handle": "EricLDaugh",
+    "name": "Eric Daugherty",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 130.333,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "politics",
+   "beat": null,
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122506553047814275",
+   "url": "https://x.com/unusual_whales/status/2122506553047814275",
+   "created_at": "2026-11-17T01:46:11.000Z",
+   "lang": "en",
+   "text": "BREAKING: Google says “the era of autonomous attacks has arrived.”\n\nHackers are now using AI to scan software updates, figure out which security flaw each patch fixes and build an attack before companies can install the fix, all without a human involved, according to a new report from the Google Threat Intelligence Group.\n\n“Defending against machine-speed threats at human speed isn’t feasible,” Google said.",
+   "author": {
+    "handle": "unusual_whales",
+    "name": "unusual_whales",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "tech",
+   "beat": null,
+   "topic": null,
+   "lead": "about 262291 views an hour"
+  },
+  {
+   "id": "2122489235769053434",
+   "url": "https://x.com/RodrigoTimes/status/2122489235769053434",
+   "created_at": "2026-11-17T00:37:22.000Z",
+   "lang": "en",
+   "text": "Olivia Rodrigo reacts to her 7 Grammy nominations at the 2027 #GRAMMYs:\n\n“Woke up this morning to 7 Grammy nominations!!!! I am over the moon!!!!! I love this album so much and for it to be recognized in this way is the biggest honor. I am extra stoked because Robert Smith and I are nominated for two awards together for ‘what’s wrong with me,’ which is just the coolest most pinch-me moment I could’ve ever dreamed up. Yipeeee”",
+   "author": {
+    "handle": "RodrigoTimes",
+    "name": "Rodrigo Times",
+    "followers": null,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    },
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "music",
+   "beat": "pop",
+   "topic": null,
+   "lead": null
   },
   {
    "id": "2122457781466759565",
@@ -3034,262 +3290,6 @@
    "lead": "about 29894 views an hour"
   },
   {
-   "id": "2122356124066193752",
-   "url": "https://x.com/GuntherEagleman/status/2122356124066193752",
-   "created_at": "2026-11-16T15:48:26.000Z",
-   "lang": "en",
-   "text": "🚨 BOOM: The Ilhan Omar investigation just landed on JEANINE PIRRO'S DESK. \n\nThe Star Tribune reports the DOJ pulled the probe into Omar's immigration paperwork and finances away from federal prosecutors in Minnesota.\n\nThose Minnesota prosecutors had already closed an earlier look without charges.\n\nA D.C. GRAND JURY IS NOW REVIEWING THE EVIDENCE.\n\nOmar denies any wrongdoing.\n\nMinnesota had its shot. Now Judge Jeanine gets a turn.",
-   "author": {
-    "handle": "GuntherEagleman",
-    "name": "Gunther Eagleman™",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "politics",
-   "beat": null,
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122489235769053434",
-   "url": "https://x.com/RodrigoTimes/status/2122489235769053434",
-   "created_at": "2026-11-17T00:37:22.000Z",
-   "lang": "en",
-   "text": "Olivia Rodrigo reacts to her 7 Grammy nominations at the 2027 #GRAMMYs:\n\n“Woke up this morning to 7 Grammy nominations!!!! I am over the moon!!!!! I love this album so much and for it to be recognized in this way is the biggest honor. I am extra stoked because Robert Smith and I are nominated for two awards together for ‘what’s wrong with me,’ which is just the coolest most pinch-me moment I could’ve ever dreamed up. Yipeeee”",
-   "author": {
-    "handle": "RodrigoTimes",
-    "name": "Rodrigo Times",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    },
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "music",
-   "beat": "pop",
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122503307511927251",
-   "url": "https://x.com/MarioNawfal/status/2122503307511927251",
-   "created_at": "2026-11-17T01:33:17.000Z",
-   "lang": "en",
-   "text": "🔥🇲🇽🦖 You’re telling me there’s a doggone PTERODACTYL flying over Mexico, but NOOO, NOTHING TO SEE HERE!\n\nThere are apparently multiple angles of this thing, and it’s supposedly not AI… but come on! Jellyfish UAPs in Alaska, dinosaur birds in Mexico, WTF is going on? \n\nWriter: Jamie https://t.co/j8i2wR00rQ",
-   "author": {
-    "handle": "MarioNawfal",
-    "name": "Mario Nawfal",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 6.866,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "offbeat",
-   "beat": "oddities",
-   "topic": null,
-   "lead": "about 51648 views an hour",
-   "media_source": "2122298694351683621"
-  },
-  {
-   "id": "2122465250691993648",
-   "url": "https://x.com/MarioNawfal/status/2122465250691993648",
-   "created_at": "2026-11-16T23:02:03.000Z",
-   "lang": "en",
-   "text": "🇺🇸🇨🇳 Why did markets drop when Jensen Huang’s removal leaked? Shouldn’t less Nvidia mean less chips to China, a win for American AI?\n\nPhilip Pilkington says Nvidia is more than a chip company. It’s the bank of the entire AI ecosystem.\n\nJensen takes Nvidia’s hardware revenue and plows it into every VC and startup that crosses his desk. He vendor-finances the whole sector. Remove him, and that investment engine stops.\n\nThe interim CEO has already signaled she wants to discontinue the investment drive.\n\nPilkington’s verdict: this isn’t a business dispute. It’s a controlled destruction of Nvidia. A hostile act.\n\n@philippilk",
-   "author": {
-    "handle": "MarioNawfal",
-    "name": "Mario Nawfal",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 146.266,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": "2122416278359208289",
-   "note": null,
-   "flags": [],
-   "desk": "markets",
-   "beat": "stocks",
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122506553047814275",
-   "url": "https://x.com/unusual_whales/status/2122506553047814275",
-   "created_at": "2026-11-17T01:46:11.000Z",
-   "lang": "en",
-   "text": "BREAKING: Google says “the era of autonomous attacks has arrived.”\n\nHackers are now using AI to scan software updates, figure out which security flaw each patch fixes and build an attack before companies can install the fix, all without a human involved, according to a new report from the Google Threat Intelligence Group.\n\n“Defending against machine-speed threats at human speed isn’t feasible,” Google said.",
-   "author": {
-    "handle": "unusual_whales",
-    "name": "unusual_whales",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "tech",
-   "beat": null,
-   "topic": null,
-   "lead": "about 262291 views an hour"
-  },
-  {
-   "id": "2122502964036424086",
-   "url": "https://x.com/ramonashelburne/status/2122502964036424086",
-   "created_at": "2026-11-17T01:31:55.000Z",
-   "lang": "en",
-   "text": "The Toronto Tempo won the WNBA lottery and with it, the right to draft a generational talent in @jujubballin …. if she decides to come out for the 2027 draft. Here’s what I’m hearing on how she’s approaching the situation AND why that message from @serenawilliams — who is part of Toronto’s ownership group — could be very important.",
-   "author": {
-    "handle": "ramonashelburne",
-    "name": "Ramona Shelburne",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 102.45,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "sports",
-   "beat": "wnba",
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122486399202955657",
-   "url": "https://x.com/EricLDaugh/status/2122486399202955657",
-   "created_at": "2026-11-17T00:26:06.000Z",
-   "lang": "en",
-   "text": "🚨 BREAKING: VP JD Vance just WENT OFF on any GOP Senator considering not showing up to work hard and confirm all of President Trump's nominees before Dems take over\n\n\"We have a LOT of nominations, a lot of good judges that have lifetime appointments that have to get confirmed — and we can't have EXCUSES, senators and congressmen, they can't say, 'well we can't show up for work!' When you have so many good appointees that can do such amazing good things for the American people, so we've got to get those folks confirmed.\"\n\nOne more judge has been confirmed so far today. Roughly 19 more Trump judges remain to be confirmed\n\nDemocrats confirmed 22 Biden judges in their lame duck. Show up and GET IT DONE.",
-   "author": {
-    "handle": "EricLDaugh",
-    "name": "Eric Daugherty",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 59.633,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "politics",
-   "beat": null,
-   "topic": null,
-   "lead": "pointed at by 2 posts read this run"
-  },
-  {
-   "id": "2122370474873434485",
-   "url": "https://x.com/xbtlevi/status/2122370474873434485",
-   "created_at": "2026-11-16T16:45:27.000Z",
-   "lang": "en",
-   "text": "Michael Richards reportedly made $600,000 an episode playing Kramer on Seinfeld. Then in 2006, he screamed racial slurs at Black audience members during a comedy club set, and his career ended overnight.\n\nIn the video below, he reveals what he believes was behind it, and he can barely get the words out.\n\nIn the late '80s, Richards learned something about his own birth: he was conceived when his mother was raped.\n\nHe says the feeling of being unwanted stayed with him for decades. An inferiority complex followed him into his career.\n\nThat night in 2006, a heckler set him off, and it all came out in the worst way possible. The video exploded online. He walked away from Hollywood and disappeared for almost 20 years.\n\n\"I don't want any pity,\" he says, fighting back tears. \"I canceled myself.\"\n\nJerry Seinfeld still asks him when he's coming back.\n\nShould a man be defined by his worst moment forever, or does he deserve a second chance?",
-   "author": {
-    "handle": "xbtlevi",
-    "name": "Levi",
-    "followers": null,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 101.966,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "entertainment",
-   "beat": "tv",
-   "topic": null,
-   "lead": null
-  },
-  {
    "id": "2122450057215553561",
    "url": "https://x.com/EricLDaugh/status/2122450057215553561",
    "created_at": "2026-11-16T22:01:41.000Z",
@@ -3322,14 +3322,14 @@
    "lead": "pointed at by 2 posts read this run"
   },
   {
-   "id": "2122359761891217520",
-   "url": "https://x.com/EricLDaugh/status/2122359761891217520",
-   "created_at": "2026-11-16T16:02:53.000Z",
+   "id": "2122502964036424086",
+   "url": "https://x.com/ramonashelburne/status/2122502964036424086",
+   "created_at": "2026-11-17T01:31:55.000Z",
    "lang": "en",
-   "text": "🚨 WOW: Treasury Sec. Scott Bessent just EXPOSED Virginia Gov. Abigail Spanberger for withholding OVER $1 BILLION FOR school choice families\n\nBessent CONFIRMED she is trying to block school choice participation\n\nGLENN YOUNGKIN: \"A governor who purports to be a MODERATE and purports to CARE about cost of living, and she RIPS $1.5 BILLION out of families pockets?!\"\n\n\"I think this reflects the politics here of the teachers unions trying to block families from having to say about what happens with their kids education.\" 🎯\n\nDefund the teachers unions.\n\nStarting in January 2027, the federal credit gives taxpayers up to $1,700 back, dollar for dollar, when they donate to a scholarship fund\n\nMore than 1.37 MILLION Virginia students, about 94% of K-12 kids, would be eligible\n\nThis is what you get with Democrat rule.",
+   "text": "The Toronto Tempo won the WNBA lottery and with it, the right to draft a generational talent in @jujubballin …. if she decides to come out for the 2027 draft. Here’s what I’m hearing on how she’s approaching the situation AND why that message from @serenawilliams — who is part of Toronto’s ownership group — could be very important.",
    "author": {
-    "handle": "EricLDaugh",
-    "name": "Eric Daugherty",
+    "handle": "ramonashelburne",
+    "name": "Ramona Shelburne",
     "followers": null,
     "verified": "blue",
     "kind": "unknown"
@@ -3339,7 +3339,7 @@
      "type": "video",
      "description": null,
      "alt": null,
-     "duration_s": 130.333,
+     "duration_s": 102.45,
      "link_url": null,
      "link_title": null
     }
@@ -3348,8 +3348,8 @@
    "quotes": null,
    "note": null,
    "flags": [],
-   "desk": "politics",
-   "beat": null,
+   "desk": "sports",
+   "beat": "wnba",
    "topic": null,
    "lead": null
   }
