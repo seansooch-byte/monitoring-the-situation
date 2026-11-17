@@ -6971,3 +6971,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Iran dirty bomb reports (CNN), United outage, Pattinson as Bond.
+
+## 2026-11-17T02:35Z
+- Captures read: 0202Z. Last read: 0202Z.
+- X's check: 0202Z 102 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 42 items (0 in, 2 out). Out: two items over 36 hours old. Header 0202Z. No new items: the largest new posts were already placed, covered by a story, or left out below.
+- Added: 2026-11-16-pattinson-cast-as-james-bond (entertainment), 2026-11-16-drake-maye-lower-leg-injury (sports). Updated: 2026-11-16-us-bank-outages-chase-zelle (Chase says service normal by 8:15 p.m. Eastern, software bug; correction added).
+- Left out: Iran dirty bomb claims (searches found no dated CNN report I could open); United Airlines outage (searches found only an earlier November outage, nothing for Monday); Duffy and FAA Starlink exchange (no source found); Jensen Huang return as Nvidia CEO (nothing confirmed here); Paris apartment, O'Leary guard and fentanyl clips (private persons); Nikocado Avocado health post (private health claim, no source).
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

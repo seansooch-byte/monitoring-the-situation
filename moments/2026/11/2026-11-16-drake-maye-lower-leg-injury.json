@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-drake-maye-lower-leg-injury",
+  "title": "Patriots quarterback Drake Maye hurt in Munich, may miss the rest of the season, NFL Network reports",
+  "dek": "The team fears a fractured ankle, ESPN reports. Coach Mike Vrabel does not expect him back after the bye.",
+  "desks": ["sports"],
+  "standing": "developing",
+  "started_at": "2026-11-16T10:25:00Z",
+  "updated_at": "2026-11-17T02:30:00Z",
+  "what": [
+    "NFL.com reports that Patriots quarterback Drake Maye was hurt on the team's first drive against the Lions in Munich on Sunday 15 November, after a sack by Aidan Hutchinson. He grabbed at his leg and walked off. The Patriots lost 35-10 and stand at 5-5.",
+    "NFL Network's Ian Rapoport reports Maye is believed to have a significant lower leg injury that could end his 2026 season. ESPN's Adam Schefter reports the team fears a fractured ankle. NFL.com says Maye stayed in Germany overnight for more tests.",
+    "NFL.com quotes coach Mike Vrabel as saying he does not expect Maye to be available coming out of the bye, for the Week 12 game against the Chargers. More tests are planned in the United States to decide whether he needs surgery. I could not find a team statement that names the injury, so the diagnosis rests on reporters citing sources."
+  ],
+  "why": "A starting quarterback's injury changes a team's season, and the game was the league's showcase in Germany, watched far beyond New England.",
+  "next": "The result of the tests in the United States, and whether the team announces surgery.",
+  "posts": [
+    { "id": "2122274730095084023", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "NFL.com: Patriots QB Drake Maye could miss rest of 2026 season", "url": "https://www.nfl.com/news/nfl-network-patriots-qb-drake-maye-could-miss-rest-of-2026-season" },
+    { "label": "Boston.com: Drake Maye injury update", "url": "https://www.boston.com/sports/new-england-patriots/2026/11/16/drake-maye-injury-update-report-patriots-lions/" }
+  ]
+}

@@ -6,16 +6,20 @@
   "desks": ["business", "tech"],
   "standing": "developing",
   "started_at": "2026-11-16T18:16:02Z",
-  "updated_at": "2026-11-16T21:45:00Z",
+  "updated_at": "2026-11-17T02:30:00Z",
+  "corrections": [
+    { "at": "2026-11-17T02:30:00Z", "text": "Added that Chase reported service back to normal by 8:15 p.m. Eastern Monday and gave a software bug as the cause. The earlier text said no fix time had been given." }
+  ],
   "what": [
     "On Monday 16 November 2026, customers of Chase, Bank of America, U.S. Bank, Wells Fargo and other banks reported problems, according to Downdetector figures quoted by CBS News. CBS lists Capital One and Truist among the banks with a spike in complaints, and Zelle payments as affected. The reports covered web and app logins, balances not showing, ATM trouble at Bank of America, and delayed transfers, wires and check deposits.",
     "CBS reports more than 4,800 problem reports for Chase by 2 p.m. Eastern. Chase told CBS: \"Due to a technical issue, some transactions are taking longer than usual to complete but customers still have access to their accounts and funds.\" CBS reports Chase called it a technical bug and not a cyber issue, and said it was working to resolve it as quickly as possible. It gave no time for a fix.",
     "CBS reports that Zelle said its service was \"operating as it should\" and that people use it through participating banks, which hold their money. CBS reports U.S. Bank said Zelle payments with another institution might be delayed.",
     "Fox Business reports, in a piece published at 3:06 p.m. Eastern, that shares in JPMorgan Chase fell 2.4%, Bank of America 2.1% and Wells Fargo 2% around the time of the outages, while the S&P 500 fell more than 1.8%. It does not say the outages caused the fall.",
-    "I could not find a cause for the problems at the other banks, and I could not find a statement that they are over. Posts on X that link the banks' problems to each other or call the timing odd rest on the timing alone. No bank has said the outages share a cause."
+    "Fox's LiveNOW reports Chase said by 8:15 p.m. Eastern that transactions were processing normally again. It reports Chase blamed a software bug in on-premise hardware systems and said it saw no sign of a cyber cause. LiveNOW says Downdetector complaints about Chase fell from more than 4,700 at 2 p.m. to about 600 at 8 p.m., with Bank of America near 380 and Wells Fargo under 200.",
+    "I could not find a statement of cause from the other banks. Posts on X that link the banks' problems to each other or call the timing odd rest on the timing alone. No bank has said the outages share a cause."
   ],
   "why": "Banking is something nearly everyone uses, so a failure shows up at once in many feeds, and several banks having trouble in the same afternoon invites a search for one cause.",
-  "next": "Statements from Chase and the other banks would say when service returns and what went wrong. A statement of cause would settle whether the problems are linked.",
+  "next": "A fuller account from Chase of what failed, and whether the other banks name a cause, would settle whether the problems are linked.",
   "posts": [
     { "id": "2122393272156869047", "role": "origin" },
     { "id": "2122411702490894550", "role": "official" },
@@ -23,6 +27,7 @@
   ],
   "sources": [
     { "label": "CBS News: Major U.S. banks report widespread service outages", "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/" },
+    { "label": "Fox LiveNOW: Chase says transactions processing normally after nationwide outage", "url": "https://www.livenowfox.com/news/chase-bank-america-wells-fargo-outage" },
     { "label": "Fox Business: Chase, Bank of America, Wells Fargo outages hit online banking users", "url": "https://www.foxbusiness.com/markets/financial-stocks-slide-online-banking-outages-reported-several-large-us-banks" }
   ]
 }

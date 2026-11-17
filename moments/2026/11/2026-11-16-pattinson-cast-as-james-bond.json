@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-pattinson-cast-as-james-bond",
+  "title": "Amazon MGM names Robert Pattinson as the next James Bond",
+  "dek": "The studio ended months of rumour with a video on Monday. Denis Villeneuve will direct.",
+  "desks": ["entertainment"],
+  "standing": "established",
+  "started_at": "2026-11-16T14:59:32Z",
+  "updated_at": "2026-11-17T02:30:00Z",
+  "what": [
+    "Amazon MGM Studios announced on Monday 16 November 2026 that Robert Pattinson will play James Bond, according to the company's own news page. The announcement came as a video on the franchise's social accounts, and a post from the account @007 reading \"Robert Pattinson is James Bond\" went up at about 3 p.m. UTC.",
+    "Amazon says Denis Villeneuve will direct and Steven Knight is writing the script. Amy Pascal and David Heyman produce, with Tanya Lapointe as executive producer. Amazon quotes Pattinson: \"James Bond is one of the most legendary characters in cinema, and to be entrusted with 007 is the honour of a lifetime.\" It quotes Villeneuve: \"He has the timeless soul of 007 and brings a spirit that is completely new.\"",
+    "Earlier in November, outlets had reported that Pattinson screen-tested, and Amazon MGM had declined to comment. The Amazon page I read gives no release date."
+  ],
+  "why": "Who plays Bond is a long-running public guessing game, the studio ended it with a single timed reveal, and a huge fan base shared the same clip at once.",
+  "next": "A release date and the rest of the cast, once Amazon MGM gives them.",
+  "posts": [
+    { "id": "2122343820180275593", "role": "origin" },
+    { "id": "2122343950308540474", "role": "official" },
+    { "id": "2122344023985996135", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Amazon: Robert Pattinson cast as James Bond for the next 007 film", "url": "https://www.aboutamazon.com/news/entertainment/james-bond-robert-pattinson-cast-amazon-mgm-film" },
+    { "label": "Fox News: 'Batman' star Robert Pattinson named the next James Bond", "url": "https://www.foxnews.com/entertainment/robert-pattinson-named-next-james-bond" }
+  ]
+}
