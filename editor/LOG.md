@@ -7021,3 +7021,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Senate tariff vote (mjfree claim, 50-46), FEMA alert test Nov 17, Kerch bridge, Penn Station delays.
+
+## 2026-11-17T08:30Z
+- Captures read: 0807Z. Last read: 0807Z.
+- X's check: 0807Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X). The story check was not run (pulse pass).
+- Pulse: 39 items (2 in, 5 out). In: Elon Musk on reinforcement learning (ai; held off the front page by the account cap, shows on the ai desk), Jonny Meat reply post (sports). Out: KobeissiLetter, chartdata, sarobertson_, AbdulElSayed, unusual_whales (all at or over 36 hours). Header 0807Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: CapitolLeaks "6 moves" thread (many unchecked claims); japan_nobunaga, DemocraticWins, HuffPost FAA posts (politics well covered); NewManjiSlime and Miclipse1 memes (no description, point unclear); NewsAlgebraIND (private individual flag); cb_doge and teslaownersSV posts (accounts already placed or promotional); parkersmith (promotion); old_content posts; small Reuters and RidgeandFrost posts.
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Crimean bridge arch reports (visegrad24, unchecked), FAA ground stop politics, Senate tariff vote, Penn Station delays.

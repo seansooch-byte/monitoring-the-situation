@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T07:15Z",
-  "capture": "2026-11-17T0702Z",
+  "updated_at": "2026-11-17T08:30Z",
+  "capture": "2026-11-17T0807Z",
   "items": [
-    {
-      "id": "2122045918342238337",
-      "desk": "business",
-      "line": "The Kobeissi Letter, a markets account, says the Financial Times reports Jensen Huang is considering a return as Nvidia CEO while the board investigation continues. It adds a report of a \"war room\" of tech executives lobbying for it. Not checked here. Later posts say CNBC reports the board is not considering it.",
-      "also": []
-    },
     {
       "id": "2122076776734306387",
       "desk": "sports",
@@ -16,32 +10,9 @@
       "also": []
     },
     {
-      "id": "2122051469692293299",
-      "desk": "music",
-      "line": "Chart Data, a music statistics account, posts a list of the most streamed songs in Spotify history. It puts Blinding Lights at number one and Shape of You at number two. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122057297450909727",
-      "desk": "markets",
-      "line": "Unusual Whales, a markets account, says the Wall Street Journal reports that about 186,000 adjustable-rate mortgages reset next year, citing ICE data, with a typical first payment rise of about 645 dollars a month. The post attributes the figures to the Journal. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122115458551935009",
       "desk": "world",
       "line": "Pop Base, a pop culture account, says Miguel Ángel Félix Gallardo, a founder of a Mexican drug cartel, has died at 80. The post gives no source. Not checked here."
-    },
-    {
-      "id": "2122050746996957548",
-      "desk": "politics",
-      "line": "Scott Robertson posts a 26-second clip captioned as Rachel Maddow asking Hillary Clinton if there is a leader of the free world, and Clinton answering \"Maybe Mark Carney.\" Not checked here."
-    },
-    {
-      "id": "2122048996621393938",
-      "desk": "politics",
-      "line": "AbdulElSayed posts, \"I am against unconditional aid for foreign militaries. I am for unconditional aid for our kids.\" The post does not name a country or a bill.",
-      "also": []
     },
     {
       "id": "2122259644563206402",
@@ -258,6 +229,18 @@
       "id": "2122311491240009826",
       "desk": "offbeat",
       "line": "okdiario, a Spanish-language outlet, posts a video it says shows a supposed dinosaur flying in Mexico, and says paleontologists cannot explain it. The post is in Spanish. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122577169863885235",
+      "desk": "ai",
+      "line": "Elon Musk posts that relentless reinforcement learning must feel like the film Edge of Tomorrow to superintelligence. It is a one-line comparison and gives no detail.",
+      "also": []
+    },
+    {
+      "id": "2122418308503028017",
+      "desk": "sports",
+      "line": "The account Jonny Meat says it woke up laughing at insults it has heard for 10 years, in a post that mentions UFC heavyweight history and Madison Square Garden. It says it is still better than the other man and gets the last laugh. The post does not name its target. Not checked here.",
       "also": []
     }
   ]
