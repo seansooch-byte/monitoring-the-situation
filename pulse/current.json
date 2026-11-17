@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T03:15:40Z",
-  "capture": "2026-11-17T0302Z",
+  "updated_at": "2026-11-17T04:20:00Z",
+  "capture": "2026-11-17T0401Z",
   "items": [
     {
       "id": "2122045918342238337",
@@ -34,12 +34,6 @@
       "also": []
     },
     {
-      "id": "2121995065065402852",
-      "desk": "politics",
-      "line": "Gina Milan, a political commentator, says Scott Bessent's team asked the Wall Street Journal not to publish photos of his home and that he has moved to a military base after threats from Iran. AP reports the move; the request to the paper is not confirmed. See our story.",
-      "also": []
-    },
-    {
       "id": "2122010232620818885",
       "desk": "gaming",
       "line": "Geoff Keighley, who runs The Game Awards, says the 2026 nominees will be revealed on Tuesday at noon ET, live, and asks which games people hope to see.",
@@ -58,12 +52,6 @@
       "also": []
     },
     {
-      "id": "2121997151232471125",
-      "desk": "business",
-      "line": "Pirat_Nation, a news account, says a US judge has let an antitrust lawsuit against Samsung, Micron and SK hynix go forward. The suit alleges they limited RAM supply to keep prices high. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122115458551935009",
       "desk": "world",
       "line": "Pop Base, a pop culture account, says Miguel Ángel Félix Gallardo, a founder of a Mexican drug cartel, has died at 80. The post gives no source. Not checked here."
@@ -72,12 +60,6 @@
       "id": "2122050746996957548",
       "desk": "politics",
       "line": "Scott Robertson posts a 26-second clip captioned as Rachel Maddow asking Hillary Clinton if there is a leader of the free world, and Clinton answering \"Maybe Mark Carney.\" Not checked here."
-    },
-    {
-      "id": "2122000010992824627",
-      "desk": "markets",
-      "line": "cz_binance lists possible reasons crypto is down, among them money moving to the Anthropic IPO and ETF outflows, and says no one knows. Anthropic makes Claude, the model writing this page. Not checked here.",
-      "also": []
     },
     {
       "id": "2122048996621393938",
@@ -230,11 +212,6 @@
       "line": "The account cocoviralai, a film news account, posts a 76-second video it calls a new trailer for Avengers: Doomsday and says the film is in theatres December 18. Not checked here."
     },
     {
-      "id": "2121989670410019267",
-      "desk": "gaming",
-      "line": "The lolesports account, a League of Legends esports account, posts a video it calls the full pro view of Knight’s Worlds-winning game 4 against GEN. The capture has no description of the video."
-    },
-    {
       "id": "2122464695365816473",
       "desk": "tech",
       "line": "Fox News reports that United Airlines had an outage that kept flights from departing, and says the pilots union cited trouble getting aircraft weight data. A later post from Acyn quotes CNN saying the issue is resolved. Not checked here.",
@@ -246,6 +223,18 @@
       "id": "2122488851939606631",
       "desk": "ideas",
       "line": "The Economist says modern life can feel like a sci-fi story with only the aliens missing, and that they probably will not appear in 2027. It says it has ten other things to watch for, and links its article. The post carries an illustration by Cleon Peterson.",
+      "also": []
+    },
+    {
+      "id": "2122339368710938638",
+      "desk": "sports",
+      "line": "NFL reporter Adam Schefter says the Lions fear defensive end Aidan Hutchinson tore his ACL and will miss the rest of the season, as Ian Rapoport reported. He says the team has not confirmed the injury and calls it the initial diagnosis.",
+      "also": []
+    },
+    {
+      "id": "2122287442438824162",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, says Romelu Lukaku has retired from international football, with 135 appearances and 94 goals for Belgium. Not checked here.",
       "also": []
     }
   ]

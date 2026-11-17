@@ -6991,3 +6991,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: FEMA national alert test Nov 17, Optimizely supply-chain report.
+
+## 2026-11-17T04:25Z
+- Captures read: 0401Z. Last read: 0401Z.
+- X's check: 0401Z 44 confirmed, 0 missing, 0 mismatched, 0 withheld. The 0302Z mismatch (2122525141582160287) and withhold (2122398012161089942) stand. Older cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 38 items (2 in, 4 out). In: Schefter on Hutchinson's feared torn ACL (sports), Fabrizio Romano on Lukaku's international retirement (sports). Out: ginamilan_, Pirat_Nation, cz_binance, lolesports (all at or over 36 hours). Header 0401Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fox News Ukraine/Kerch bridge post (Fox already holds the United outage place); unusual_whales Google AI attacks and WatcherGuru Microsoft timeline (accounts already placed); Greta Thunberg post (small, quote unchecked); Kai Cenat GTA 6 stream (promotion); Michael Richards post (no source).
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Ukraine strike on the Kerch bridge (Fox News), Hutchinson injury confirmation, FEMA alert test Nov 17.
