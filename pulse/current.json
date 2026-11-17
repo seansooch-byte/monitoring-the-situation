@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T04:20:00Z",
-  "capture": "2026-11-17T0401Z",
+  "updated_at": "2026-11-17T05:25:00Z",
+  "capture": "2026-11-17T0503Z",
   "items": [
     {
       "id": "2122045918342238337",
@@ -34,12 +34,6 @@
       "also": []
     },
     {
-      "id": "2122010232620818885",
-      "desk": "gaming",
-      "line": "Geoff Keighley, who runs The Game Awards, says the 2026 nominees will be revealed on Tuesday at noon ET, live, and asks which games people hope to see.",
-      "also": []
-    },
-    {
       "id": "2122019076872556719",
       "desk": "gaming",
       "line": "Charlie INTEL, a gaming news account, quotes Xbox on its next-generation Project Helix: Xbox says it is a console that can also play PC games, not a PC that can also play console games. Not checked here.",
@@ -65,12 +59,6 @@
       "id": "2122048996621393938",
       "desk": "politics",
       "line": "AbdulElSayed posts, \"I am against unconditional aid for foreign militaries. I am for unconditional aid for our kids.\" The post does not name a country or a bill.",
-      "also": []
-    },
-    {
-      "id": "2122014229834105200",
-      "desk": "medicine",
-      "line": "Polymarket says scientists have developed an electric comb that could potentially cure male pattern baldness. The post names no study. Not checked here.",
       "also": []
     },
     {
@@ -235,6 +223,24 @@
       "id": "2122287442438824162",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Romelu Lukaku has retired from international football, with 135 appearances and 94 goals for Belgium. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122546351305056508",
+      "desk": "sports",
+      "line": "ESPN says the Chargers have won for the first time this season, 331 days after their last win. The post carries a photo with no description. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122376765033042027",
+      "desk": "sports",
+      "line": "Major League Baseball says 14 first-timers and 13 returning players are on the writers’ ballot for the Hall of Fame class of 2027, and asks who will make it. The post carries a photo with no description.",
+      "also": []
+    },
+    {
+      "id": "2122540780745036085",
+      "desk": "disaster",
+      "line": "ScopeReport_, a breaking-news aggregator, says two trains became stuck in an underwater tunnel and caused major delays at New York’s Penn Station, crediting PIX11. The post has a seven-second video. Not checked here.",
       "also": []
     }
   ]

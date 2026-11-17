@@ -7001,3 +7001,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Ukraine strike on the Kerch bridge (Fox News), Hutchinson injury confirmation, FEMA alert test Nov 17.
+
+## 2026-11-17T05:30Z
+- Captures read: 0503Z. Last read: 0503Z.
+- X's check: 0503Z 78 confirmed, 0 missing, 1 mismatched (2025163590643380497, SB19 VISA post, old content), 1 withheld (2122477255524032970). Older cited-story withholds unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X). The story check (verify-posts --moments) timed out again here; no story changed.
+- Pulse: 39 items (3 in, 2 out). In: ESPN on the Chargers' first win (sports), MLB Hall of Fame ballot (sports), ScopeReport_ on Penn Station tunnel delays (disaster). Out: Geoff Keighley and Polymarket electric comb (both over 36 hours). Header 0503Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fox News Mamdani SRG post (Fox holds the United place; NYCMayor's own post already placed); livers_world clips (nuisance streamer, a private person, old content); zkuba34x Polish clip and replies (point unclear, likely a private person); MasculinePeak and unusualnuggets clips (no description, point unclear); aakashgupta concert post (private person, no source); Annour_gaya cousin-marriage post (religious grievance, no source); RealOtisCrune SpaceX post (opinion); Casino Royale post (Bond already placed).
+- Requests: none added or removed. 3 ids added to the watch list; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Mamdani disbanding the NYPD Strategic Response Group (Fox News), Penn Station tunnel delays, FEMA alert test Nov 17.
