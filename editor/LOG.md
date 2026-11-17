@@ -7071,3 +7071,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 3 ids added to the watch list; plan.json rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: measles elimination status (NBC, CDC/PAHO), Zelensky operation and Kerch Bridge, Senate tariff vote date, GTA 6 launch.
+
+## 2026-11-17T13:30Z
+- Captures read: 1308Z. Last read: 1308Z.
+- X's check: 1308Z 88 confirmed, 0 missing, 1 mismatched (2122661206737793246, ALD1_official, text differs from X only in spacing/emoji handling), 1 withheld (2122462344890769614, wildonx). Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 43 items (2 in, 0 out). In: Zelensky on the strikes on the Crimea crossing (world), AlertesInfos on a French presidential hopeful's proposals (world, French, marked not checked). Header 1308Z. The GTA 6 DiscussingFilm post (01:49Z) leaves at 36 hours next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: CENTCOM claim (only a relay by an account already placed, small); hackers' malware post (unconfirmed); FEMA alert test posts (no desk, unchecked); the French replies to AlertesInfos (private individual flags); old_content posts; Elon Starship 42 post (account already placed).
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Zelensky operation and Kerch Bridge, Iran/CENTCOM Bahrain claims, FEMA alert test, French presidential hopefuls.
