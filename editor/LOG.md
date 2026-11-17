@@ -7131,3 +7131,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: ARTEX advisory and ConnectWise, Tesla Powercore, Bernardo Silva and Portugal, measles elimination status.
+
+## 2026-11-17T19:20Z
+- Captures read: 1907Z. Last read: 1907Z.
+- X's check: 1907Z 102 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (1 in, 1 out). In: The Game Awards on the Game of the Year nominees (gaming). Out: RapSheet on Drake Maye (sports, oldest item, unchecked injury report). Header 1907Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: fdkfhs, Plioric89 and IAmyLeigh (private individual flags); StevenBartlett clip (unnamed woman); Ted and Only Murders trailers (entertainment crowded); Tesla Powercore (tech crowded); Apple and Schwab outage posts (unconfirmed); old_content posts.
+- Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Apple and Schwab outages, Tesla Powercore, Game Awards nominees.

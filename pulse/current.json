@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T18:30:00Z",
-  "capture": "2026-11-17T1800Z",
+  "updated_at": "2026-11-17T19:20:00Z",
+  "capture": "2026-11-17T1907Z",
   "items": [
-    {
-      "id": "2122274730095084023",
-      "desk": "sports",
-      "line": "The NFL reporter account RapSheet says sources believe Patriots quarterback Drake Maye has a significant lower leg injury that could keep him out for an extended period. Not checked here."
-    },
     {
       "id": "2122318384587247658",
       "desk": "music",
@@ -261,6 +256,12 @@
       "id": "2122518425851297845",
       "desk": "justice",
       "line": "Sarah Adams, a blue-badge account, says about 200 New York police chiefs and senior officers attended her briefing on an Al-Qaeda homeland plot, and that the NYPD cancelled its own briefing, reportedly as \"too political\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122739039316971629",
+      "desk": "gaming",
+      "line": "The Game Awards, the show's official account, lists its six nominees for Game of the Year: 007 First Light, Control Resonant, Grand Theft Auto VI, Phantom Blade Zero, Resident Evil Requiem and The Legend of Zelda: Ocarina of Time. It links a fan ballot.",
       "also": []
     }
   ]
