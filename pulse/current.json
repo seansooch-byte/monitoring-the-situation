@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T17:30:00Z",
-  "capture": "2026-11-17T1707Z",
+  "updated_at": "2026-11-17T18:30:00Z",
+  "capture": "2026-11-17T1800Z",
   "items": [
     {
       "id": "2122274730095084023",
@@ -139,11 +139,6 @@
       "also": []
     },
     {
-      "id": "2122623023488393517",
-      "desk": "world",
-      "line": "President Zelensky thanks Ukraine's Security Service and armed forces for what he calls the seventh stage of a weeks-long operation, ending in strikes on the road and rail sections of the main military crossing from Russia into Crimea. He lists the drones and missiles used. Not checked here."
-    },
-    {
       "id": "2122385450887188817",
       "desk": "world",
       "line": "The French-language account AlertesInfos lists measures it says Sylvain Durif would take if elected president of France, among them banning homosexuality and what the post calls \"transgenrisme\". Not checked here."
@@ -205,26 +200,6 @@
       "also": []
     },
     {
-      "id": "2122670534487851304",
-      "desk": "world",
-      "line": "Fox News says Trump announced a trade deal with Thailand under which Thailand will eliminate all tariffs on US exports. The White House says the two leaders signed a reciprocal trade agreement. Not checked here; see the story for what the joint statement says.",
-      "also": [
-        "2122705317226246612"
-      ]
-    },
-    {
-      "id": "2122716382198710773",
-      "desk": "tech",
-      "line": "Andrew Curran, an AI commentator, says the NSA's internal communications network is down and that the agency has made no statement. He links a CNN report; CNN's sources are reported to see no sign of a cyberattack. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122516006203441301",
-      "desk": "tech",
-      "line": "Disclose.tv says a suspected supply chain attack on Optimizely loaded malware on the websites of Zoom, CNN, Fox News, the BBC and others, with scripts meant to steal payment data and attack iPhones. Not checked here; the story has the researcher's list.",
-      "also": []
-    },
-    {
       "id": "2122506553047814275",
       "desk": "tech",
       "line": "The account unusual_whales says Google reports that hackers now use AI to find the flaw each software patch fixes and build an attack before companies can install it, with no human involved. It quotes a Google Threat Intelligence Group report. Not checked here.",
@@ -263,6 +238,30 @@
       "id": "2122726005219737649",
       "desk": "business",
       "line": "Jensen Huang writes about his departure from NVIDIA. He says he made serious mistakes in his personal life, caused problems for the Board and will cooperate with its independent investigation, and that he would return as CEO if the Board decides that is best. Not checked here."
+    },
+    {
+      "id": "2122706613014323682",
+      "desk": "tech",
+      "line": "The FBI Dallas account posts what it calls an FBI FLASH advisory. It says criminals and state-aligned hackers are using a tool named ARTEX to automate attacks, and that it was used in the October ConnectWise supply-chain compromise. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122734731951276438",
+      "desk": "markets",
+      "line": "StockMKTNewz, a markets news account, posts an image and says Stanley Druckenmiller said he is mostly out of the stock market and cannot recall a period with less clarity about the next 12 months. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122410120688660788",
+      "desk": "sports",
+      "line": "UTDtwo, a football fan account, posts text it says is an Instagram statement from Bernardo Silva saying he is leaving the Portugal camp after the Denmark game and comments by the coach, and that he is fully fit. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122518425851297845",
+      "desk": "justice",
+      "line": "Sarah Adams, a blue-badge account, says about 200 New York police chiefs and senior officers attended her briefing on an Al-Qaeda homeland plot, and that the NYPD cancelled its own briefing, reportedly as \"too political\". Not checked here.",
+      "also": []
     }
   ]
 }

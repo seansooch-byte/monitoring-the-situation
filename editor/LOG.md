@@ -7121,3 +7121,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Jensen Huang's statement and the NVIDIA board investigation, Schwab and Akamai errors, Dhoni and CSK.
+
+## 2026-11-17T18:30Z
+- Captures read: 1800Z. Last read: 1800Z.
+- X's check: 1800Z 77 confirmed, 1 mismatched (2122706333690683636 weareoneEXO, not on the pulse), 0 missing, 0 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (4 in, 4 out). In: FBI Dallas on the ARTEX advisory (tech), StockMKTNewz on Druckenmiller (markets, not checked), UTDtwo on Bernardo Silva's reported statement (sports, not checked), Sarah Adams on the NYPD briefing (justice, not checked). Out: Curran NSA (tech, small), Fox Thailand (world, story covers it), Disclose.tv Optimizely (tech, story covers it), Zelensky Security Service (world). Header 1800Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: cryptorover and BullTheoryio crash posts (unchecked market figures); brickcryptox Economist predictions list (speculation); StreamerBatch bank-balance clip (a person's finances); SamaHoole JFK thread (historical claims, unchecked); baraispeak and roseknowsxx (private individual flags); C_3C_3 O'Keefe post (one-sided, unchecked); Tesla Powercore posts (tech crowded); old_content posts.
+- Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: ARTEX advisory and ConnectWise, Tesla Powercore, Bernardo Silva and Portugal, measles elimination status.
