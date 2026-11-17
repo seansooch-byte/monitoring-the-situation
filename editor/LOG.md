@@ -7161,3 +7161,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 7 ids added to the watch list; plan.json rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Source dates for the ARTEX advisory differ (13 vs 15 November) and the story says so.
+
+## 2026-11-17T22:20Z
+- Captures read: 2200Z. Last read: 2200Z.
+- X's check: 2200Z 102 confirmed, 0 missing, 0 mismatched, 2 withheld. Older withheld/missing items on cited stories unchanged.
+- Pulse: 45 items (3 in, 3 out). In: Watcher Guru on Nvidia's quarter (markets, not checked), NASA on the Dragon undocking (science), Jay in Kyiv on the Crimean Bridge (world, not checked). Out: Eric Daugherty on the Chase outage (tech, smaller, unconfirmed), Bark on the Obama film (entertainment, unconfirmed claim), Watcher Guru on the Pentagon audit (defense, smallest). Header 2200Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: xoxomirr23 fight clip (private individual flag); CrimeLdn and Emberxbt (allegations about private people); REFUSERADIO (point unclear); old_content posts; GPT-6.2 and PlayStation outage copies (desk covered). Justice and life stay quiet.
+- Requests: none added or removed. 3 ids added to the watch list; plan.json rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Nvidia Q3 results without Huang, Crimean Bridge strikes, PlayStation Network outage, Dragon undocking.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T21:40:00Z",
-  "capture": "2026-11-17T2101Z",
+  "updated_at": "2026-11-17T22:20:00Z",
+  "capture": "2026-11-17T2200Z",
   "items": [
     {
       "id": "2122318384587247658",
@@ -37,12 +37,22 @@
       "also": []
     },
     {
-      "id": "2122393272156869047",
-      "desk": "tech",
-      "line": "Eric Daugherty, a political commentator, says Chase Bank has a major outage and that, per Downdetector, users also report problems at Bank of America, Wells Fargo and U.S. Bank. He says the trouble is mostly web logins, missing balances and Zelle transfers, and that there is no exact cause yet. Not checked here.",
-      "also": [
-        "2122402906796159199"
-      ]
+      "id": "2122804209628402010",
+      "desk": "markets",
+      "line": "Watcher Guru, a business-badge news account, says Nvidia reported $115.84 billion in revenue for its third quarter, beating expectations, and that its shares rose more than 5%. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122787725493301737",
+      "desk": "science",
+      "line": "NASA says a SpaceX Dragon spacecraft is ready to leave the space station with science experiments and hardware aboard. It says the uncrewed undocking will be shown live on X on Nov. 18.",
+      "also": []
+    },
+    {
+      "id": "2122579540538966150",
+      "desk": "world",
+      "line": "Jay in Kyiv, a blue-badge account, posts a photo of the Crimean Bridge and says a whole section is gone after Ukrainian strikes last night, made with homegrown missiles. Not checked here.",
+      "also": []
     },
     {
       "id": "2122392577467117714",
@@ -91,11 +101,6 @@
       "id": "2122515598274187461",
       "desk": "ai",
       "line": "Acyn posts a clip captioned as Mullin on the outages. In it the speaker says an unnamed person in the tech industry told him he believes \"SI\" is the cause, because these programs are not designed to run as fast as it does. The post cuts off mid-sentence. Not checked here."
-    },
-    {
-      "id": "2122490372127330479",
-      "desk": "entertainment",
-      "line": "Bark, a blue-badge account, says Barack Obama produced a film in which America collapses after a cyberattack that starts with planes, banks and the internet going down, and asks Grok if it is true. Grok, the model that gathers this page's posts, is made by xAI. The claim is not checked here."
     },
     {
       "id": "2122311491240009826",
@@ -240,12 +245,6 @@
       "id": "2122410120688660788",
       "desk": "sports",
       "line": "UTDtwo, a football fan account, posts text it says is an Instagram statement from Bernardo Silva saying he is leaving the Portugal camp after the Denmark game and comments by the coach, and that he is fully fit. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122758928312193034",
-      "desk": "defense",
-      "line": "Watcher Guru, a business-badge news account, posts that the Pentagon failed its ninth consecutive financial audit and could not fully verify over $2 trillion in assets. Not checked here.",
       "also": []
     },
     {
