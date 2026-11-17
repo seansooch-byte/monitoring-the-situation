@@ -3,17 +3,17 @@
  "run": {
   "id": "2026-11-17T2101Z",
   "started_at": "2026-11-17T21:01:00Z",
-  "finished_at": "2026-11-17T21:10:04Z",
+  "finished_at": "2026-11-17T21:10:24Z",
   "status": "partial",
-  "reason": "Day run 2026-11-17T2101Z / 4:01 PM EST Nov 17. Plan is requests/plan.json written 20:14:01Z, for_run 2026-11-17T21Z (day band, 34 reads listed, allowance 42, nothing cut), used unchanged; its watch list holds all 533 requests/watch.json ids first, so no watch.json id was left out and no extra watch reads were needed. 31 X reads this run (0 left before, 0 left today after). Watch: 796 of 800 returned; unavailable 2120080430388937046, 2120945866462704106, 2121357117583995134, 2122322180578951333. no pulse- or story-cited post missing or changed words; 7 truncation-only diffs where note_tweet filled truncated text or entities were unescaped or a trailing t.co link was dropped (0 of them cited); 0 uncited text change(s) (0 cited). 6 due desks read (politics, entertainment, ideas, sports, internet, life). Volume politics/justice/disaster/internet/life recorded, 167 full hours each (2026-11-10T22:00Z to 2026-11-17T21:00Z, ending at the run's hour), sums match X's totals. Sensors culture/sports/online read. Global streams: quote the, quote this, repost my; rising quote what, repost \"and\"; context.top on 2122739291113799742 (25 replies and 25 quotes in the 20-minute window, most liked kept).  No trend-name streams (plan).  Left out as sexual or unsafe: 2122759096281809172, 2122476056506413200, 2122489855322345674, 2122744023442157966, 2122694762381939136, 2118714840101372014. account cap dropped {\"MarioNawfal\": 4}.  Desks checked against contract/desks.json scope and not_here; reference-only posts given a desk where one fits. Media descriptions not filled this run (partial).",
+  "reason": "Day run 2026-11-17T2101Z / 4:01 PM EST Nov 17. Plan is requests/plan.json written 20:14:01Z, for_run 2026-11-17T21Z (day band, 34 reads listed, allowance 42, nothing cut), used unchanged; its watch list holds all 533 requests/watch.json ids first, so no watch.json id was left out and no extra watch reads were needed. 34 X reads this run (294 left before, 260 left today after). Watch: 796 of 800 returned; unavailable 2120080430388937046, 2120945866462704106, 2121357117583995134, 2122322180578951333. no pulse- or story-cited post missing or changed words; 7 truncation-only diffs where note_tweet filled truncated text or entities were unescaped or a trailing t.co link was dropped (0 of them cited); 0 uncited text change(s) (0 cited). 6 due desks read (politics, entertainment, ideas, sports, internet, life). Volume politics/justice/disaster/internet/life recorded, 167 full hours each (2026-11-10T22:00Z to 2026-11-17T21:00Z, ending at the run's hour), sums match X's totals. Sensors culture/sports/online read. Global streams: quote the, quote this, repost my; rising quote what, repost \"and\"; context.top on 2122739291113799742 (25 replies and 25 quotes in the 20-minute window, most liked kept). Screen: 3 by-id reads of 300 ids (242 origins without an author record first, then 58 references, the five pointed at by 2 posts first), 300 returned. No trend-name streams (plan).  Left out as sexual or unsafe: 2122759096281809172, 2122476056506413200, 2122489855322345674, 2122744023442157966, 2122694762381939136, 2118714840101372014. account cap dropped {\"MarioNawfal\": 4}. X's day counter went 294 to 260 (34 reads, all this run's, exactly the plan's 34); no call was refused. context.top went to 2122739291113799742 (thegameawards, Game of the Year nominees, 3.4M views, the biggest new post that is not sexual or unsafe); its 20-minute window returned 25 replies and 25 quotes, the five most liked of each kept with private_individual. Left out: UnhingedShirts video 2122476056506413200 (7.8M views, possibly_sensitive) and Maryam_efi27's re-upload of it 2122489855322345674; an AI sex-site ad 2122759096281809172; an old sexual spam origin 2118714840101372014; 2122744023442157966 for a racial slur; 2122694762381939136 for a rape remark. Left without a desk: link- or video-only posts whose subject cannot be told from the record (blognaointendo, kunostia). Global stream words this run: quote the and this, repost my; rising quote what, repost \"and\" (in quotes, since X rejects the bare word); none repeats the previous run's is/just/it/that/you. Desks checked against contract/desks.json scope and not_here; reference-only posts given a desk where one fits. Media descriptions not filled this run (partial).",
   "grabber": {
    "agent": "grokbot",
    "model": null,
    "method": "x MCP namespace (get_posts_by_ids, search_posts_all, get_trends_by_woeid, get_posts_counts_recent)"
   },
   "requests_rev": "e75453d59caec5e23aad2c634e1f62ba3dbe6534",
-  "reads": 31,
-  "reads_left": 0,
+  "reads": 34,
+  "reads_left": 260,
   "plan": "2026-11-17T21Z"
  },
  "sweeps": [
@@ -5928,133 +5928,6 @@
    "lead": null
   },
   {
-   "id": "2122747834420109553",
-   "url": "https://x.com/HormuzLetter/status/2122747834420109553",
-   "created_at": "2026-11-17T17:44:57.000Z",
-   "lang": "en",
-   "text": "BREAKING: FBI says state-aligned hackers are exploiting ARTEX, an AI-powered \"super intelligence\" penetration tool, to break into businesses and organizations worldwide in under 3 hours.\n\nIt was used in a ConnectWise supply-chain breach that hit Microsoft 365 environments across more than 2,250 downstream tenants.\n\nIt was also used against South Korean financial institutions, exposing personal data on about 67,000 people.\n\nTargets included financial services, government, technology, defense, energy, healthcare, manufacturing, and telecommunications.",
-   "author": {
-    "handle": "HormuzLetter",
-    "name": "The Hormuz Letter",
-    "followers": 247147,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "tech",
-   "beat": null,
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122751943286362239",
-   "url": "https://x.com/kimmonismus/status/2122751943286362239",
-   "created_at": "2026-11-17T18:01:16.000Z",
-   "lang": "en",
-   "text": "HERE IT IS: GPT-6.2 ASTRA AND SOL\n\nIts 20% cheaper than GPT-6.1 Astra!\n\nOpenAI says GPT-6.2 Astra scores 5.5 points higher than Claude Fable 5.2 on Agents’ Last Exam at 5% of the cost per task.\n\nBUT it falls short for example in Frontier Code 2.0 to Fable 5.2! \n\nSo far: Very efficient model, comparable to Fable 5.2 but looks like they are more on par than GPT-6.2 outperforming Fable!",
-   "author": {
-    "handle": "kimmonismus",
-    "name": "Chubby♨️",
-    "followers": 159764,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    },
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "ai",
-   "beat": null,
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122713716059754759",
-   "url": "https://x.com/atrupar/status/2122713716059754759",
-   "created_at": "2026-11-17T15:29:22.000Z",
-   "lang": "en",
-   "text": "wow -- GOP Sen. Mike Rounds berates Acting Navy Secretary Hung Cao: \"Are you aware that on multiple occasions where there have been classified discussions, my Democrat colleagues weren't invited? ... I want a commitment from you that we move this back to a bipartisan basis when it comes to sharing critical information in the defense of this country. That requires a cooperative effort on your part in the future.\"",
-   "author": {
-    "handle": "atrupar",
-    "name": "Aaron Rupar",
-    "followers": 1177093,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "video",
-     "description": null,
-     "alt": null,
-     "duration_s": 117.999,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "politics",
-   "beat": null,
-   "topic": null,
-   "lead": null
-  },
-  {
-   "id": "2122671813851279427",
-   "url": "https://x.com/SamaHoole/status/2122671813851279427",
-   "created_at": "2026-11-17T12:42:52.000Z",
-   "lang": "en",
-   "text": "Paul McCartney has spent fifty years telling the world to stop eating meat, and on this subject he is not a serious person.\n\nHe wrote Yesterday, so he is allowed almost anything. The trouble starts when he gets on to dinner.\n\nHe gave up meat in the 1970s after looking out of his farmhouse window at the lambs while eating one. He had, a few years before, released a single called Mary Had a Little Lamb.\n\nHe still keeps sheep on the farm in Scotland. None of them is ever eaten. They are shorn, they grow old, and they are buried. It is the only flock in Argyll run as a retirement home, and it is offered as a model for feeding eight billion people.\n\nIn 2009 he launched Meat Free Monday, to save the planet one day a week. He promoted it between world tours, which are conducted by private jet.\n\nIn 2008 Lexus gave him a hybrid limousine for his green credentials. It came from Japan. It was flown, 7,000 miles, because the boat would have taken too long. The carbon saved by the hybrid engine was spent about a hundred times over before he had sat in it.\n\nHe says that if slaughterhouses had glass walls everyone would be vegetarian. The frozen sausages sold under his late wife's name are made of rehydrated soya and rapeseed oil in a factory owned by an American conglomerate, and nobody has ever asked for a look round.\n\nLast year he wrote to Brussels to defend the right of a vegetable to be called a burger.\n\nSo the position is that a sheep on a Scottish hill is a moral emergency, the jet is logistics, and the planet will be rescued on Mondays.\n\nHe has never, in fifty years, met a hill farmer he could not write a song about and then put out of business.",
-   "author": {
-    "handle": "SamaHoole",
-    "name": "Sama Hoole",
-    "followers": 202727,
-    "verified": "blue",
-    "kind": "unknown"
-   },
-   "media": [
-    {
-     "type": "photo",
-     "description": null,
-     "alt": null,
-     "duration_s": null,
-     "link_url": null,
-     "link_title": null
-    }
-   ],
-   "reply_to": null,
-   "quotes": null,
-   "note": null,
-   "flags": [],
-   "desk": "life",
-   "beat": null,
-   "topic": null,
-   "lead": null
-  },
-  {
    "id": "2122722281675780424",
    "url": "https://x.com/MarioNawfal/status/2122722281675780424",
    "created_at": "2026-11-17T16:03:24.000Z",
@@ -6110,6 +5983,110 @@
    "lead": null
   },
   {
+   "id": "2122671813851279427",
+   "url": "https://x.com/SamaHoole/status/2122671813851279427",
+   "created_at": "2026-11-17T12:42:52.000Z",
+   "lang": "en",
+   "text": "Paul McCartney has spent fifty years telling the world to stop eating meat, and on this subject he is not a serious person.\n\nHe wrote Yesterday, so he is allowed almost anything. The trouble starts when he gets on to dinner.\n\nHe gave up meat in the 1970s after looking out of his farmhouse window at the lambs while eating one. He had, a few years before, released a single called Mary Had a Little Lamb.\n\nHe still keeps sheep on the farm in Scotland. None of them is ever eaten. They are shorn, they grow old, and they are buried. It is the only flock in Argyll run as a retirement home, and it is offered as a model for feeding eight billion people.\n\nIn 2009 he launched Meat Free Monday, to save the planet one day a week. He promoted it between world tours, which are conducted by private jet.\n\nIn 2008 Lexus gave him a hybrid limousine for his green credentials. It came from Japan. It was flown, 7,000 miles, because the boat would have taken too long. The carbon saved by the hybrid engine was spent about a hundred times over before he had sat in it.\n\nHe says that if slaughterhouses had glass walls everyone would be vegetarian. The frozen sausages sold under his late wife's name are made of rehydrated soya and rapeseed oil in a factory owned by an American conglomerate, and nobody has ever asked for a look round.\n\nLast year he wrote to Brussels to defend the right of a vegetable to be called a burger.\n\nSo the position is that a sheep on a Scottish hill is a moral emergency, the jet is logistics, and the planet will be rescued on Mondays.\n\nHe has never, in fifty years, met a hill farmer he could not write a song about and then put out of business.",
+   "author": {
+    "handle": "SamaHoole",
+    "name": "Sama Hoole",
+    "followers": 202727,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "life",
+   "beat": null,
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122713716059754759",
+   "url": "https://x.com/atrupar/status/2122713716059754759",
+   "created_at": "2026-11-17T15:29:22.000Z",
+   "lang": "en",
+   "text": "wow -- GOP Sen. Mike Rounds berates Acting Navy Secretary Hung Cao: \"Are you aware that on multiple occasions where there have been classified discussions, my Democrat colleagues weren't invited? ... I want a commitment from you that we move this back to a bipartisan basis when it comes to sharing critical information in the defense of this country. That requires a cooperative effort on your part in the future.\"",
+   "author": {
+    "handle": "atrupar",
+    "name": "Aaron Rupar",
+    "followers": 1177093,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "video",
+     "description": null,
+     "alt": null,
+     "duration_s": 117.999,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "politics",
+   "beat": null,
+   "topic": null,
+   "lead": null
+  },
+  {
+   "id": "2122751943286362239",
+   "url": "https://x.com/kimmonismus/status/2122751943286362239",
+   "created_at": "2026-11-17T18:01:16.000Z",
+   "lang": "en",
+   "text": "HERE IT IS: GPT-6.2 ASTRA AND SOL\n\nIts 20% cheaper than GPT-6.1 Astra!\n\nOpenAI says GPT-6.2 Astra scores 5.5 points higher than Claude Fable 5.2 on Agents’ Last Exam at 5% of the cost per task.\n\nBUT it falls short for example in Frontier Code 2.0 to Fable 5.2! \n\nSo far: Very efficient model, comparable to Fable 5.2 but looks like they are more on par than GPT-6.2 outperforming Fable!",
+   "author": {
+    "handle": "kimmonismus",
+    "name": "Chubby♨️",
+    "followers": 159764,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    },
+    {
+     "type": "photo",
+     "description": null,
+     "alt": null,
+     "duration_s": null,
+     "link_url": null,
+     "link_title": null
+    }
+   ],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "ai",
+   "beat": null,
+   "topic": null,
+   "lead": null
+  },
+  {
    "id": "2122758312353755543",
    "url": "https://x.com/MarioNawfal/status/2122758312353755543",
    "created_at": "2026-11-17T18:26:35.000Z",
@@ -6141,6 +6118,29 @@
    "topic": null,
    "lead": "about 94029 views an hour",
    "media_source": "2122744597202030745"
+  },
+  {
+   "id": "2122747834420109553",
+   "url": "https://x.com/HormuzLetter/status/2122747834420109553",
+   "created_at": "2026-11-17T17:44:57.000Z",
+   "lang": "en",
+   "text": "BREAKING: FBI says state-aligned hackers are exploiting ARTEX, an AI-powered \"super intelligence\" penetration tool, to break into businesses and organizations worldwide in under 3 hours.\n\nIt was used in a ConnectWise supply-chain breach that hit Microsoft 365 environments across more than 2,250 downstream tenants.\n\nIt was also used against South Korean financial institutions, exposing personal data on about 67,000 people.\n\nTargets included financial services, government, technology, defense, energy, healthcare, manufacturing, and telecommunications.",
+   "author": {
+    "handle": "HormuzLetter",
+    "name": "The Hormuz Letter",
+    "followers": 247147,
+    "verified": "blue",
+    "kind": "unknown"
+   },
+   "media": [],
+   "reply_to": null,
+   "quotes": null,
+   "note": null,
+   "flags": [],
+   "desk": "tech",
+   "beat": null,
+   "topic": null,
+   "lead": null
   }
  ],
  "observations": [
