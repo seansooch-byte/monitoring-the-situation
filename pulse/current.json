@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T16:30:00Z",
-  "capture": "2026-11-17T1600Z",
+  "updated_at": "2026-11-17T17:30:00Z",
+  "capture": "2026-11-17T1707Z",
   "items": [
     {
       "id": "2122274730095084023",
@@ -87,12 +87,6 @@
       "also": []
     },
     {
-      "id": "2122339368710938638",
-      "desk": "sports",
-      "line": "NFL reporter Adam Schefter says the Lions fear defensive end Aidan Hutchinson tore his ACL and will miss the rest of the season, as Ian Rapoport reported. He says the team has not confirmed the injury and calls it the initial diagnosis.",
-      "also": []
-    },
-    {
       "id": "2122287442438824162",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, says Romelu Lukaku has retired from international football, with 135 appearances and 94 goals for Belgium. Not checked here.",
@@ -125,11 +119,6 @@
       "desk": "world",
       "line": "A Spanish-language post from Keylin Acosta says Pope Leo XIV nearly came to harm in Peru, and attaches a 33-second video. I could not see what the video shows, and nothing here confirms what happened. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2122441315799400640",
-      "desk": "politics",
-      "line": "BRICS News, a news aggregator account, says Vice President JD Vance said President Trump will end the Iran war by 2028. The post carries no quote or source. Not checked here."
     },
     {
       "id": "2122491675993903169",
@@ -264,6 +253,16 @@
       "desk": "gaming",
       "line": "Culture Crave says the person behind the 2022 GTA 6 leak has pleaded guilty three days before the game's release, and lists details about the leak and its cost to Rockstar. It adds that sentencing is later. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2122620787450654896",
+      "desk": "sports",
+      "line": "The Chennai Super Kings account announces that Mahendra Singh Dhoni takes charge as the team's Team Mentor. The text thanks him for victories and memories and is cut off mid-sentence; the photo is not described. Not checked here."
+    },
+    {
+      "id": "2122726005219737649",
+      "desk": "business",
+      "line": "Jensen Huang writes about his departure from NVIDIA. He says he made serious mistakes in his personal life, caused problems for the Board and will cooperate with its independent investigation, and that he would return as CEO if the Board decides that is best. Not checked here."
     }
   ]
 }

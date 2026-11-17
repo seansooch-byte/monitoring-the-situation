@@ -7111,3 +7111,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 17 ids added to the watch list; plan.json rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Megaspeed and Nvidia leadership, Korean exam-day alert, Google's autonomous-attack report, GTA 6 launch week, Schwab and Akamai errors, Anthropic pricing on Wednesday.
+
+## 2026-11-17T17:30Z
+- Captures read: 1707Z. Last read: 1707Z.
+- X's check: 1707Z 99 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (2 in, 2 out). In: Chennai Super Kings on Dhoni as Team Mentor (sports), Jensen Huang's statement on his NVIDIA departure (business, his words only, not checked). Out: Schefter on Hutchinson (sports, crowded), BRICS News on Vance (unsourced aggregator claim). Header 1707Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: IAmyLeigh 911 audio post (private individual flag); Saka wedding rumour and Daddario Bond rumour (personal claims about real people, unconfirmed); Kai Cenat car clip (unclear, involves another person); Kim Jong Un ski resort post (shows his daughter, a minor); Hipsilon2b and Diazinho07 (point unclear); Barstool FEMA/Simpsons post; Schwab outage (account already placed); MarthaStewart ad; old_content posts.
+- Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Jensen Huang's statement and the NVIDIA board investigation, Schwab and Akamai errors, Dhoni and CSK.
