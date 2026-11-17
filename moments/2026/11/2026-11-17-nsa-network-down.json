@@ -1,0 +1,40 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-17-nsa-network-down",
+  "title": "CNN reports the NSA's internal classified network is down; sources see no sign of a cyberattack",
+  "dek": "The agency has staggered staff arrivals while it investigates. The cause is unknown, and the NSA had not commented in the report.",
+  "desks": ["tech", "defense"],
+  "standing": "developing",
+  "started_at": "2026-11-17T15:39:58Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "what": [
+    "CNN reported on the morning of Tuesday, 17 November 2026, citing six people familiar with the matter, that NSA Net, the network NSA staff use to share classified information internally, had gone down. Its report, which it marked as breaking, said the cause was unknown and that \"at this point there is no evidence of a cyberattack,\" according to the sources.",
+    "CNN reported that the agency had put in place staggered arrivals for personnel while it investigated. CNN asked the NSA for comment, and the article carries no statement from it. The report gives no time for the failure and no expected time of repair.",
+    "Posts passed the CNN report on within minutes. Eric Daugherty's post repeats CNN's line that there is no sign of a cyberattack. I have only CNN's account, which rests on unnamed sources; I could not find the NSA or another outlet confirming it."
+  ],
+  "why": "It follows a week of public outages at the FAA, a bank and an airline, and a malware attack through a website vendor. Readers look for one cause. The officials and companies involved have so far given separate technical explanations.",
+  "worlds": [
+    {
+      "name": "Posters who link the week's failures",
+      "sees": "A run of attacks on Microsoft, transportation and banks, with the next target obvious.",
+      "post": "2122439412458099175"
+    },
+    {
+      "name": "Companies and officials describing technical faults",
+      "sees": "Separate failures with separate causes. Chase called its problem a technical issue, not a cyber issue.",
+      "post": "2122411702490894550"
+    }
+  ],
+  "common": "On the record: CNN's sources say the NSA network is down and see no evidence of an attack, and Chase and US transportation officials have given technical causes for their outages. Not established: the NSA's cause, any link between this and the other outages, and the claim in posts that they were cyberattacks.",
+  "next": "A statement from the NSA, and a stated cause.",
+  "posts": [
+    { "id": "2122716382198710773", "role": "origin" },
+    { "id": "2122718949062156436", "role": "voice" },
+    { "id": "2122439412458099175", "role": "voice" },
+    { "id": "2122411702490894550", "role": "official" }
+  ],
+  "sources": [
+    { "label": "CNN via KVIA: Exclusive: Highly classified US national security communications network goes down, sources say", "url": "https://kvia.com/politics/cnn-us-politics/2026/11/17/exclusive-highly-classified-us-national-security-communications-network-goes-down-sources-say/" },
+    { "label": "CBS News: Major U.S. banks report widespread service outages", "url": "https://www.cbsnews.com/news/banks-online-service-outages-jpmorgan-chase-bank-of-america-wells-fargo/" }
+  ]
+}

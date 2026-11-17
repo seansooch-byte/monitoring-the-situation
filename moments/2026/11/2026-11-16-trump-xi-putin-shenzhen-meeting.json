@@ -1,24 +1,31 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-16-trump-xi-putin-shenzhen-meeting",
-  "title": "Trump, Xi and Putin may meet in Shenzhen this week; nothing is final",
-  "dek": "Three leaders have never sat down together. Posts call it settled; officials have only said it is being discussed.",
+  "title": "China and Russia confirm a Trump, Xi and Putin meeting in Shenzhen on 19 November",
+  "dek": "Three leaders have never sat down together. China and the Kremlin now give a date. The agenda is not set out in public: Gulf Times reports the White House says Ukraine is not on it.",
   "desks": [
     "world",
     "politics"
   ],
   "standing": "developing",
   "started_at": "2026-11-16T03:57:00Z",
-  "updated_at": "2026-11-16T11:30:00Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "corrections": [
+    {
+      "at": "2026-11-17T16:30:00Z",
+      "text": "The earlier version said nothing was final. China's Foreign Ministry and the Kremlin have since confirmed a meeting on 19 November, so the title, summary and conclusion are changed."
+    }
+  ],
   "what": [
     "On 6 November, Chinese Foreign Ministry spokesperson Mao Ning said China \"is in communication with relevant parties\" about a meeting of the three heads of state, according to KSAT. The report said timing, format and topics were not settled.",
     "The EWN report of 9 November quotes Trump as saying he is going to China and expects to meet Xi Jinping and Vladimir Putin, and that they would discuss denuclearization and ending the war in Iran. It places the APEC summit in Shenzhen on 18 and 19 November.",
     "On Monday, 16 November, a post on X says China called the meeting \"significantly groundbreaking.\" I did not find that wording in a report. Another post quotes Canadian Prime Minister Mark Carney saying the idea came from Brazil's president, Lula, to help end the war in Ukraine. I did not check that quote.",
+    "Pravda Ukraine reports that China's Foreign Ministry confirmed that on 19 November President Xi Jinping will host Putin and Trump in Shenzhen, and that it gave no agenda. Gulf Times quotes Kremlin spokesman Dmitry Peskov: \"An agreement has been reached to hold a trilateral meeting on the 19th ... This meeting will take place in Shenzhen on the sidelines of the APEC summit.\" Gulf Times also reports that a White House spokeswoman said the talks would cover nuclear weapons reduction and the Middle East and not Ukraine. A headline I saw but did not open says Trump has said Ukraine will come up. I did not find a transcript of either.",
     "A widely shared post says the three \"meet in Shenzhen in days\" and carries a guest's claims about Israel and a possible false flag. I did not check those claims and they are not part of this story."
   ],
   "why": "No meeting of the three has happened before, and each leader wants something different from it: an end to the Iran war, talks on Ukraine, or arms control.",
-  "common": "On the record: China says it is in communication with the parties, and Trump says he expects to meet both leaders. Not established: that all three will meet, the agenda, or any format. Posts that call it settled go further than the officials quoted.",
-  "next": "Whether the three leaders appear together on 18 or 19 November, and what each government says afterward.",
+  "common": "On the record: China and the Kremlin have each confirmed a trilateral meeting in Shenzhen on 19 November, and the White House has confirmed that the leaders will meet. Not established: the agenda, including whether Ukraine is on it, and the claims in some posts about Israel and a false flag.",
+  "next": "Whether the three leaders appear together on 19 November, and what each government says afterward.",
   "posts": [
     {
       "id": "2122177277534278002",
@@ -34,6 +41,14 @@
     }
   ],
   "sources": [
+    {
+      "label": "Pravda Ukraine: China confirms 19 November date for Xi-Trump-Putin trilateral summit in Shenzhen",
+      "url": "https://www.pravda.com.ua/eng/news/2026/11/16/8063010/"
+    },
+    {
+      "label": "Gulf Times: Moscow confirms Trump, Xi, Putin meeting in China",
+      "url": "https://www.gulf-times.com/article/738225/international/rest-of-the-world/moscow-confirms-trump-xi-putin-meeting-in-china"
+    },
     {
       "label": "KSAT: China confirms discussions are underway on a historic Xi, Trump, Putin meeting",
       "url": "https://www.ksat.com/news/politics/2026/11/06/china-confirms-discussions-are-underway-on-a-historic-xi-trump-putin-meeting/"

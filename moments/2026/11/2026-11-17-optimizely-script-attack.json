@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-17-optimizely-script-attack",
+  "title": "Malicious code planted through Optimizely ran on at least 178 organizations' websites",
+  "dek": "A website-testing service was used to push scripts that skim cards and swap crypto wallet addresses. Optimizely says it has fixed the flaw. No one has been named as the attacker.",
+  "desks": ["tech"],
+  "standing": "developing",
+  "started_at": "2026-11-17T02:23:44Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "what": [
+    "The Register reports that attackers used a vulnerability in Optimizely's Web Experimentation software to insert malicious JavaScript into customers' projects, so that websites that load Optimizely served it to visitors. It reports at least 178 organizations affected, with 188 of 1,611 scripts examined holding malicious code, and says the true number may be higher. It lists the BBC, CNN, Zoom, IKEA, Salesforce, HSBC, TalkTalk and GitLab among them.",
+    "The Register says the code swapped cryptocurrency wallet addresses, skimmed payment card details, and tried to run exploit kits called Coruna and DarkSword against older iPhones and iPads. It credits the researcher Scott Helme of Report URI with finding it, and says about $7,000 in crypto was traced to wallets the attackers control. It names no attacker.",
+    "The Register quotes Optimizely: \"An unauthorized party exploited a vulnerability in Experimentation and used it to add malicious JavaScript to some customer projects. We've fixed the vulnerability and removed the injected code from affected projects.\" It says that by 21:52 UTC on Monday, 16 November, TalkTalk was the only organization still serving the malicious code.",
+    "A post by Disclose.tv calls it a suspected supply chain attack and lists Fox News, Bitly, KLM and others. Another by Benny Johnson says CNN and Fox News were hit and that sites \"crashed.\" I did not find Fox News in the list in The Register, and I found nothing saying any site crashed. Which sites carried the code, and for how long, is not settled here."
+  ],
+  "why": "One shared script reached many well-known sites at once, so a single flaw looked like an attack on the whole web. It arrived in the same days as several outages that officials have described as technical faults, and some posts join them.",
+  "next": "Optimizely's own account of what was changed and when, and a count of affected sites that does not rest on one researcher.",
+  "posts": [
+    { "id": "2122516006203441301", "role": "origin" },
+    { "id": "2122709846239666387", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "The Register: Optimizely hack turns world's biggest websites into malware dispensers", "url": "https://www.theregister.com/cyber-crime/2026/11/17/optimizely-hack-turns-worlds-biggest-websites-into-malware-dispensers/5310448" }
+  ]
+}

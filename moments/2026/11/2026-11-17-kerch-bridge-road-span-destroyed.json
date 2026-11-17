@@ -1,0 +1,42 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-17-kerch-bridge-road-span-destroyed",
+  "title": "Ukraine says it destroyed the road span of the Kerch Bridge; Russia says it will rebuild",
+  "dek": "The bridge is Russia's main land link to occupied Crimea. Zelensky calls the strike the seventh stage of a weeks-long operation. Moscow says repairs will come.",
+  "desks": ["world", "defense"],
+  "standing": "developing",
+  "started_at": "2026-11-17T05:24:49Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "what": [
+    "On Tuesday, 17 November 2026, Ukraine struck the 19-kilometre bridge that links Russia to occupied Crimea. RTE, citing videos verified by Reuters, reports that the main road arch collapsed into the sea and left a large gap. The Kyiv Independent reports that Ukraine's Security Service (SBU) said one of the metal arches and the road span under it were \"completely destroyed.\"",
+    "President Volodymyr Zelensky posted that the strike was \"the seventh stage of an operation carried out over several weeks,\" run by the SBU and the General Staff. He wrote that Ukrainian forces first destroyed air defences, radars and electronic warfare equipment, and that drones hit the road section while missiles and drones hit the railway section. He named an FP-5 Flamingo cruise missile as the weapon of a final precision strike. He said it answered Russian strikes on Ukrainian infrastructure, including bridges.",
+    "Russian officials do not dispute that the bridge is damaged. RTE reports that Kremlin spokesman Dmitry Peskov said repair plans would be prepared and the bridge would be restored \"even better than before.\" It reports that Crimea's Russian-installed governor, Sergei Aksyonov, suspended road traffic, and that rail traffic partly resumed after a pause. The Kyiv Independent reports that Russia's Transport Ministry also confirmed the suspension. The two reports differ on casualties: RTE says Aksyonov reported two deaths, and the Kyiv Independent says the ministry reported none. I could not settle which is right.",
+    "I could not confirm the weapons list, the seven-stage account or the \"largest drone attack\" claim made in some posts. Those come from Zelensky's own post and from other posts. A post by the commentator Anton Gerashchenko calls the strike a turning point and the bridge the main symbol of the Russian occupation of Crimea. A video post by Visegrad 24 quotes Ukraine's defence minister as saying \"We're only just getting started.\" I have not seen that statement reported elsewhere."
+  ],
+  "why": "Posts such as Gerashchenko's treat the bridge as a symbol of the Russian hold on Crimea, and videos of a collapsed span travel fast. The timing, days before a planned meeting of the US, Russian and Chinese leaders, gives posts a second thread to pull.",
+  "worlds": [
+    {
+      "name": "Ukrainian officials and supporters",
+      "sees": "A planned operation that finished with the bridge's road span destroyed, a reply to Russian strikes on Ukrainian bridges and cities.",
+      "post": "2122623023488393517"
+    },
+    {
+      "name": "US commentators watching the summit",
+      "sees": "A very large Ukrainian attack that came right before President Trump meets Vladimir Putin, set beside Zelensky's statement that he had offered de-escalation.",
+      "post": "2122662993959809153"
+    }
+  ],
+  "common": "On the record: the road span is damaged, Ukraine says it did it, and Russia confirms the damage and the traffic suspension and says it will repair the bridge. Not established: the full list of weapons, how many operations led up to it, casualties, and any link to the timing of the leaders' meeting. Those rest on Zelensky's post or on other posts.",
+  "next": "How long road traffic stays suspended, whether Russia gives a repair timeline, and whether the 19 November meeting is affected.",
+  "posts": [
+    { "id": "2122561575206756769", "role": "origin" },
+    { "id": "2122623023488393517", "role": "official" },
+    { "id": "2122662993959809153", "role": "voice" },
+    { "id": "2122600774391771475", "role": "voice" },
+    { "id": "2122717669644210492", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "RTE: Ukraine strikes bridge linking occupied Crimea and Russia", "url": "https://www.rte.ie/news/ukraine/2026/1117/1599488-russia-ukraine-strikes-bridge/" },
+    { "label": "Kyiv Independent: Entire section of Crimean Bridge collapses after 'seven-phase operation,' Zelensky reveals", "url": "https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/" }
+  ]
+}

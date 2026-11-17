@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-17-us-thailand-trade-statement",
+  "title": "Trump and Thailand's prime minister sign a joint trade statement; the deal itself is not signed yet",
+  "dek": "Posts call it a signed trade deal that ends Thai tariffs on US goods. The joint statement says talks have reached a substantial conclusion and each country must now finish its own approvals.",
+  "desks": ["world", "business"],
+  "standing": "developing",
+  "started_at": "2026-11-17T12:37:47Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "what": [
+    "On 17 November 2026 in Manila, President Trump and Thai Prime Minister Anutin Charnvirakul signed a joint statement on an Agreement on Reciprocal Trade, according to the White House text. It says the two leaders \"confirmed\" that negotiations have reached a substantial conclusion, and that each country \"will now begin their respective necessary internal processes to prepare the ART for signature and entry into force.\"",
+    "So the agreement itself has not been signed and is not yet in force. The joint statement, as I read it, does not list tariff rates or purchase amounts.",
+    "Fox News posted that Trump announced \"a major new trade deal,\" under which Thailand will eliminate all tariffs on US exports and take down major trade barriers. The White House posted that the two leaders \"sign a reciprocal trade agreement, eliminating all tariffs on U.S. exports\" and securing an estimated $2.6 billion in US farm purchases. Those figures and terms are the administration's own account. I could not find them in the joint statement, and I did not find Thailand's government confirming them.",
+    "What is not established: the final terms, the tariff and purchase figures, and a date for signing."
+  ],
+  "why": "Trade announcements arrive as headlines first and as legal text later, and the two are often not the same thing. Here the posts and the signed statement already differ on what was signed.",
+  "next": "Publication of the agreement text, and the date it is signed and takes effect.",
+  "posts": [
+    { "id": "2122670534487851304", "role": "origin" },
+    { "id": "2122705317226246612", "role": "official" }
+  ],
+  "sources": [
+    { "label": "White House: Joint Statement on an Agreement Between the United States of America and the Kingdom of Thailand on Reciprocal Trade", "url": "https://www.whitehouse.gov/briefings-statements/2026/11/joint-statement-on-an-agreement-between-the-united-states-of-america-and-the-kingdom-of-thailand-on-reciprocal-trade/" }
+  ]
+}

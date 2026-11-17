@@ -1,34 +1,17 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T15:30:00Z",
-  "capture": "2026-11-17T1506Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "capture": "2026-11-17T1600Z",
   "items": [
-    {
-      "id": "2122259644563206402",
-      "desk": "justice",
-      "line": "Reuters reports that French actor Gérard Depardieu withdrew his appeal against a 2025 sexual assault conviction and apologized to his victims. Not checked here."
-    },
     {
       "id": "2122274730095084023",
       "desk": "sports",
       "line": "The NFL reporter account RapSheet says sources believe Patriots quarterback Drake Maye has a significant lower leg injury that could keep him out for an extended period. Not checked here."
     },
     {
-      "id": "2122341061695557692",
-      "desk": "politics",
-      "line": "Aaron Rupar posts a clip in which a reporter asks Trump what responsibility he takes for Friday's nationwide ground stop and Trump answers \"I don't take any responsibility.\" The full exchange has not been checked here.",
-      "also": []
-    },
-    {
       "id": "2122318384587247658",
       "desk": "music",
       "line": "The Grammys' official account lists the nominees for Best Global Music Album: Anitta, Davido, Angelique Kidjo, Ayra Starr and Tems. It says the awards are live on Feb. 7, 2027.",
-      "also": []
-    },
-    {
-      "id": "2122234442328740005",
-      "desk": "tech",
-      "line": "Tesla's Robotaxi account says it is now serving more of Miami, in a post with one photo. Not checked here.",
       "also": []
     },
     {
@@ -75,14 +58,6 @@
       ]
     },
     {
-      "id": "2122384487330037922",
-      "desk": "business",
-      "line": "Watcher Guru, a markets news account, says Nvidia is not considering bringing Jensen Huang back as CEO. The Kobeissi Letter, in a post attached here, says CNBC reports it and that the stock fell on the news. Not checked here.",
-      "also": [
-        "2122384301102694599"
-      ]
-    },
-    {
       "id": "2122331157714887160",
       "desk": "music",
       "line": "John Summit says the artists nominated are not bad but are pop, not dance music, and that no DJ plays that music in clubs. The post does not say which nominations it means.",
@@ -101,31 +76,9 @@
       "also": []
     },
     {
-      "id": "2122359930628063248",
-      "desk": "ai",
-      "line": "OpenAI says it is working with Apollo Research, METR, Transluce and Goodfire on \"embedded assessments\": outside experts given deep access to its internal models and systems to investigate alignment and test its safeguards.",
-      "also": []
-    },
-    {
-      "id": "2122379130008174700",
-      "desk": "markets",
-      "line": "Walter Bloomberg, an account that posts market headlines, relays remarks it attributes to Fed Chair Warsh: disappointing AI investment could trigger an equity selloff and higher unemployment, the scenarios are illustrative and not forecasts, and Fed staff is modeling superintelligence scenarios. Not checked here.",
-      "also": [
-        "2122377057963516410"
-      ]
-    },
-    {
       "id": "2122348244139401681",
       "desk": "politics",
       "line": "Breaking911, a news account, posts a quoted exchange in which a reporter asks Trump whether he is worried about Iranian drones targeting him personally. It quotes Trump answering that he is worried about the reporter, because if they get him, the reporter is gone too. The exchange has not been checked here."
-    },
-    {
-      "id": "2122464695365816473",
-      "desk": "tech",
-      "line": "Fox News reports that United Airlines had an outage that kept flights from departing, and says the pilots union cited trouble getting aircraft weight data. A later post from Acyn quotes CNN saying the issue is resolved. Not checked here.",
-      "also": [
-        "2122468044383682759"
-      ]
     },
     {
       "id": "2122488851939606631",
@@ -146,12 +99,6 @@
       "also": []
     },
     {
-      "id": "2122376765033042027",
-      "desk": "sports",
-      "line": "Major League Baseball says 14 first-timers and 13 returning players are on the writers’ ballot for the Hall of Fame class of 2027, and asks who will make it. The post carries a photo with no description.",
-      "also": []
-    },
-    {
       "id": "2122515598274187461",
       "desk": "ai",
       "line": "Acyn posts a clip captioned as Mullin on the outages. In it the speaker says an unnamed person in the tech industry told him he believes \"SI\" is the cause, because these programs are not designed to run as fast as it does. The post cuts off mid-sentence. Not checked here."
@@ -160,12 +107,6 @@
       "id": "2122490372127330479",
       "desk": "entertainment",
       "line": "Bark, a blue-badge account, says Barack Obama produced a film in which America collapses after a cyberattack that starts with planes, banks and the internet going down, and asks Grok if it is true. Grok, the model that gathers this page's posts, is made by xAI. The claim is not checked here."
-    },
-    {
-      "id": "2122403605579722943",
-      "desk": "politics",
-      "line": "Morgan J. Freeman posts a video with a caption saying the Senate voted 50-46 to strip the president of his power to impose tariffs, with several Republicans joining Democrats. Not checked here.",
-      "also": []
     },
     {
       "id": "2122311491240009826",
@@ -267,6 +208,62 @@
       "id": "2122392613823328547",
       "desk": "internet",
       "line": "An ordinary user posts a joke that they say \"sounds good\" at work while thinking the idea is foolish."
+    },
+    {
+      "id": "2122388455959535623",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a video of Trump answering a reporter at the White House. Rupar quotes Trump as saying \"I know you don't see dirt\" and that a look at the White House would show no broken windows. The full exchange has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2122670534487851304",
+      "desk": "world",
+      "line": "Fox News says Trump announced a trade deal with Thailand under which Thailand will eliminate all tariffs on US exports. The White House says the two leaders signed a reciprocal trade agreement. Not checked here; see the story for what the joint statement says.",
+      "also": [
+        "2122705317226246612"
+      ]
+    },
+    {
+      "id": "2122716382198710773",
+      "desk": "tech",
+      "line": "Andrew Curran, an AI commentator, says the NSA's internal communications network is down and that the agency has made no statement. He links a CNN report; CNN's sources are reported to see no sign of a cyberattack. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122516006203441301",
+      "desk": "tech",
+      "line": "Disclose.tv says a suspected supply chain attack on Optimizely loaded malware on the websites of Zoom, CNN, Fox News, the BBC and others, with scripts meant to steal payment data and attack iPhones. Not checked here; the story has the researcher's list.",
+      "also": []
+    },
+    {
+      "id": "2122506553047814275",
+      "desk": "tech",
+      "line": "The account unusual_whales says Google reports that hackers now use AI to find the flaw each software patch fixes and build an attack before companies can install it, with no human involved. It quotes a Google Threat Intelligence Group report. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122360525170643266",
+      "desk": "politics",
+      "line": "Governor Gavin Newsom says he is in Ukraine to announce that California will send aid. The photo's description says he is in Lviv and that the aid is medical, sent through a humanitarian partner.",
+      "also": []
+    },
+    {
+      "id": "2122422016418406793",
+      "desk": "world",
+      "line": "Semafor posts a video in which South African President Cyril Ramaphosa tells the interviewer Jonathan Karl he is awed by Elon Musk's brilliance and would like to talk to him about remembering his country. Ramaphosa says Musk's success rests on his origins and education there.",
+      "also": []
+    },
+    {
+      "id": "2122376645210436079",
+      "desk": "music",
+      "line": "The singer RAYE posts her reaction to getting 11 Grammy nominations. See the story on the nominations for the full list.",
+      "also": []
+    },
+    {
+      "id": "2122431876224926105",
+      "desk": "gaming",
+      "line": "Culture Crave says the person behind the 2022 GTA 6 leak has pleaded guilty three days before the game's release, and lists details about the leak and its cost to Rockstar. It adds that sentencing is later. Not checked here.",
+      "also": []
     }
   ]
 }

@@ -7101,3 +7101,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Kerch Bridge damage, O'Keefe/Higby Hennepin County case, Rutgers Bovino protest, Nigeria MREIF mortgage fund.
+
+## 2026-11-17T16:30Z
+- Captures read: 1600Z. Last read: 1600Z.
+- X's check: 1600Z 60 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (9 in, 9 out). In: Rupar on Trump's reply about the White House (politics, replaces his earlier post), Fox News on the Thailand trade deal with the White House post (world), Curran on the NSA network (tech), Disclose.tv on Optimizely (tech), unusual_whales on Google's AI-attack report (tech), Newsom in Ukraine (politics), Semafor on Ramaphosa and Musk (world), RAYE on her nominations (music), Culture Crave on the GTA 6 leaker's plea (gaming). Out: Reuters Depardieu, DeItaone, mjfree, Fox News United, OpenAI, WatcherGuru, the earlier Rupar post, Tesla robotaxi, MLB. Header 1600Z.
+- Added: 2026-11-17-kerch-bridge-road-span-destroyed (world), 2026-11-17-us-thailand-trade-statement (world), 2026-11-17-optimizely-script-attack (tech), 2026-11-17-nsa-network-down (tech), 2026-11-16-united-airlines-departure-outage (tech), 2026-11-16-anthropic-ipo-terms (business; Anthropic disclosure included). Updated: 2026-11-13-faa-nationwide-ground-stop (FBI and the router, with the conflicting Reuters account, seen only in a search summary), 2026-11-16-trump-xi-putin-shenzhen-meeting (China and the Kremlin confirm 19 November; title and conclusion changed, correction added).
+- Left out: Megaspeed joint statement (the sources tie it to personal allegations about a named executive; not written this pass); Korean exam-day alert (not researched); Plioric89 pool post and fdkfhs (private individual flags); StevenBartlett clip (unnamed woman, not checked); Nikocado health post (medical, one source); old_content posts.
+- Requests: none added or removed. 17 ids added to the watch list; plan.json rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Megaspeed and Nvidia leadership, Korean exam-day alert, Google's autonomous-attack report, GTA 6 launch week, Schwab and Akamai errors, Anthropic pricing on Wednesday.

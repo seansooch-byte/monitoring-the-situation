@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-16-united-airlines-departure-outage",
+  "title": "United Airlines reports a system outage that delayed departures for about an hour and a half",
+  "dek": "It came three days after the nationwide FAA ground stop. United says it has fixed the problem and has not named a cause. Reports say it did not appear to be a cyber issue.",
+  "desks": ["tech", "disaster"],
+  "standing": "established",
+  "started_at": "2026-11-16T22:20:53Z",
+  "updated_at": "2026-11-17T16:30:00Z",
+  "what": [
+    "On Monday, 16 November 2026, around 5 p.m. Eastern, United Airlines said it had a widespread system outage that was delaying departures, NBC News reports. NBC says the problem hit several apps that pilots use, including crew communications and messaging, and the airline's ability to give pilots final aircraft weight information for departure.",
+    "NBC reports United said flights already in the air and United Express flights were not affected, and that it had resolved the technology issue by about 6:38 p.m. Eastern, close to an hour and a half after the first announcement. Fox News reported, citing the United pilots union, that the outage affected the airline's ability to provide precise aircraft weight information.",
+    "NBC says the problem did not appear to be cybersecurity related and was separate from the FAA ground stop on Friday, 13 November. United has not said, in anything I found, what caused the outage."
+  ],
+  "why": "Coming three days after the nationwide ground stop, a second large airline problem looked to many people like part of one run of failures. The sources I found describe separate causes.",
+  "next": "A statement from United on what failed.",
+  "posts": [
+    { "id": "2122454887438938511", "role": "origin" },
+    { "id": "2122464695365816473", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "NBC News: United Airlines says it has resolved a 'widespread system outage'", "url": "https://www.nbcnews.com/news/us-news/united-airlines-system-outage-rcna609712" }
+  ]
+}
