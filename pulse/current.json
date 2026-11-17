@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T08:30Z",
-  "capture": "2026-11-17T0807Z",
+  "updated_at": "2026-11-17T09:35Z",
+  "capture": "2026-11-17T0905Z",
   "items": [
-    {
-      "id": "2122076776734306387",
-      "desk": "sports",
-      "line": "The NFL account posts a video and says Raiders quarterback Fernando Mendoza rushed in for his first career touchdown in the Seattle-Las Vegas game. Not checked here.",
-      "also": []
-    },
     {
       "id": "2122115458551935009",
       "desk": "world",
@@ -241,6 +235,12 @@
       "id": "2122418308503028017",
       "desk": "sports",
       "line": "The account Jonny Meat says it woke up laughing at insults it has heard for 10 years, in a post that mentions UFC heavyweight history and Madison Square Garden. It says it is still better than the other man and gets the last laugh. The post does not name its target. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122306504753561633",
+      "desk": "world",
+      "line": "A Spanish-language post from Keylin Acosta says Pope Leo XIV nearly came to harm in Peru, and attaches a 33-second video. I could not see what the video shows, and nothing here confirms what happened. Not checked here.",
       "also": []
     }
   ]

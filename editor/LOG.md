@@ -7031,3 +7031,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Crimean bridge arch reports (visegrad24, unchecked), FAA ground stop politics, Senate tariff vote, Penn Station delays.
+
+## 2026-11-17T09:40Z
+- Captures read: 0905Z. Last read: 0905Z.
+- X's check: 0905Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. Older cited-story items unchanged (2119523308580511928 withheld; 2117537320392130634 missing on X). The story check was not run beyond the tool's own pass (pulse pass).
+- Pulse: 38 items (1 in, 1 out). In: KeylinAcosta Spanish-language post on Pope Leo XIV in Peru (world; video not described). Out: NFL Mendoza touchdown post (over 36 hours). Header 0905Z. The build held back one elonmusk post over the account cap.
+- Added: none. Updated: none (pulse pass).
+- Left out: fdkfhs Brazil killing (private individual flag); cadettrim TikTok post (point unclear); hdlucian Simon Baker thread (unchecked claims about a private marriage and money); Romano Wirtz and Hojlund posts (account already placed); Forbes tariff refund bonuses (small); MarioNawfal posts (account cap); xinge53, Mumiasfinest, Deathvds (no description, point unclear); old_content posts.
+- Requests: none added or removed. 1 id added to the watch list; plan.json rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Pope Leo XIV in Peru (what the clip shows), corporate bonuses from tariff refunds (Forbes), Senate tariff vote, FAA ground stop politics.
