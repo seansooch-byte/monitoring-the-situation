@@ -7081,3 +7081,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Zelensky operation and Kerch Bridge, Iran/CENTCOM Bahrain claims, FEMA alert test, French presidential hopefuls.
+
+## 2026-11-17T14:30Z
+- Captures read: 1406Z. Last read: 1406Z.
+- X's check: 1406Z 100 confirmed, 0 missing, 1 mismatched (2122654099049202012, ygtreasuremaker), 1 withheld (2122370502891352553, XCinemaxx). Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X).
+- Pulse: 45 items (6 in, 4 out). In: Commerce Dept joint statement on Megaspeed (business, contents in an image, marked not checked), AP on a United Airlines outage (tech), Polymarket on a Kutcher firm's Anthropic stake (business, Anthropic disclosure, not checked), KBS Disaster on the exam-day emergency alert (world, Korean), SmallKino_ Bad Apple video (ai), 905hub_ on a Peel police auto theft case (justice, not checked). Out: DiscussingFilm GTA 6 (past 36 hours), and F1, JonnyBones, espn (sports crowded, to hold the 45 cap). Header 1406Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Plioric89 pool post (private individual flag); Baby Koah post (a minor); Raeeethaabaeee sentencing clip (point unclear); RonDeSantis Jefferson letter (religion framing); IterIntellectus South Africa laws (unconfirmed); simonribc photos (no media description); Polymarket H-1B and Pentagon audit posts (account already placed); old_content posts.
+- Requests: none added or removed. 6 ids added to the watch list; plan.json rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: United outage and the FAA ground stop, Megaspeed investigation, Korean exam-day alert, Kutcher/Anthropic valuation.
