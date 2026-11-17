@@ -7051,3 +7051,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 2 ids added to the watch list; plan.json rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Vance Iran war remark (unchecked), Iran dirty bomb reports, Kerch bridge strike, Senate tariff vote.
+
+## 2026-11-17T11:30Z
+- Captures read: 1102Z. Last read: 1102Z.
+- X's check: 1102Z 44 confirmed, 0 missing, 0 mismatched, 1 withheld. Older cited-story items unchanged (2116569280900706479, 2119523308580511928 withheld; 2117537320392130634 missing on X). The story check ran in the background and the build warned only about those three.
+- Pulse: 39 items, no change in membership; header moved to 1102Z. All items still in the 1102Z capture and under 36 hours.
+- Added: 2026-11-15-felix-gallardo-dies (world), 2026-11-13-depardieu-drops-appeal (justice). Updated: none; I did not re-check older live stories against their sources this pass.
+- Left out: Kerch Bridge strike, Penn Station tunnel delay, Senate tariff vote (50-46), Iran dirty bomb and Vance remarks. Searches found no current report for the first three; the 50-46 Senate tally in results is from October 2025 (Canada tariffs), so Morgan J. Freeman's caption may recycle that vote. Unconfirmed, so no story.
+- Requests: none added or removed. plan.json rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. For the next story pass: Kerch Bridge, Penn Station, Senate tariff vote date, FEMA alert test, Pope Leo XIV in Peru.

@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-13-depardieu-drops-appeal",
+  "title": "Gérard Depardieu withdraws his appeal against a sexual assault conviction",
+  "dek": "The 2025 verdict now stands. A separate rape case against the actor is still moving through French courts.",
+  "desks": ["justice"],
+  "standing": "established",
+  "started_at": "2026-11-13T12:00:00Z",
+  "updated_at": "2026-11-17T11:30:00Z",
+  "what": [
+    "Outlook India, carrying an AFP report, says Gérard Depardieu withdrew on 13 November 2026 his appeal against a May 2025 conviction for sexually assaulting two women on the set of the 2021 film Les Volets Verts. The two women were a set dresser and an assistant director. The sentence was 18 months suspended, with registration as a sex offender. AFP's source was a person close to the case. With the appeal withdrawn, the verdict is final.",
+    "Reuters, in a post on X, says he also apologized to his victims. The AFP report I read does not mention an apology, and I could not confirm it outside X. It says he has denied the allegations.",
+    "A separate case is open. Actress Charlotte Arnould has filed a rape complaint, which he denies. He has appealed against the decision to send it to a criminal court, and a ruling on that appeal is expected on 26 November."
+  ],
+  "why": "A famous name and a final verdict in a case that became a marker in France's debate over abuse in film.",
+  "next": "The ruling on 26 November on whether the rape case goes to a criminal court.",
+  "posts": [
+    { "id": "2122259644563206402", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Outlook India (AFP): Depardieu withdraws appeal, making verdict final", "url": "https://www.outlookindia.com/art-entertainment/gerard-depardieu-withdraws-appeal-against-sexual-assault-conviction-making-verdict-final" },
+    { "label": "Paris Match Belgique: Depardieu se désiste de l'appel", "url": "https://www.parismatch.be/actualites/people/2026/11/13/depardieu-se-desiste-de-lappel-de-sa-condamnation-pour-agressions-sexuelles-3FGERSA3PJHJ7HVNLAFZMS527M/" }
+  ]
+}
