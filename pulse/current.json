@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-17T23:12:00Z",
-  "capture": "2026-11-17T2300Z",
+  "updated_at": "2026-11-18T00:25:00Z",
+  "capture": "2026-11-18T0008Z",
   "items": [
     {
       "id": "2122318384587247658",
@@ -19,18 +19,6 @@
       ]
     },
     {
-      "id": "2122298477816504328",
-      "desk": "politics",
-      "line": "Zohran Mamdani, whose account is listed as New York City mayor, posts a 102-second video with the words \"We are disbanding the SRG.\" The post does not say what the SRG is, and the capture has no description of the video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122298694351683621",
-      "desk": "offbeat",
-      "line": "RT, a news outlet, posts a seven-second clip of a large dark-winged creature in the daytime sky over Mexico that it says went viral on TikTok. RT says many claim it is a flying dinosaur and that local officials called it likely a large bird. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2122374841789730830",
       "desk": "disaster",
       "line": "TMZ, an entertainment news site, says in an exclusive that the tour bus of the DJ John Summit was involved in a deadly crash in Florida. The post gives no further details. Not checked here.",
@@ -40,12 +28,6 @@
       "id": "2122804209628402010",
       "desk": "markets",
       "line": "Watcher Guru, a business-badge news account, says Nvidia reported $115.84 billion in revenue for its third quarter, beating expectations, and that its shares rose more than 5%. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2122787725493301737",
-      "desk": "science",
-      "line": "NASA says a SpaceX Dragon spacecraft is ready to leave the space station with science experiments and hardware aboard. It says the uncrewed undocking will be shown live on X on Nov. 18.",
       "also": []
     },
     {
@@ -263,6 +245,26 @@
       "id": "2122784104039031256",
       "desk": "defense",
       "line": "Volodymyr Zelenskyy, Ukraine’s president, says in a post with a 72-second video that Ukraine wants Patriot and IRIS-T interceptors from partners’ existing stocks now, repaid with newer missiles it has already ordered. He asks the United States not to delay. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122810772967575759",
+      "desk": "politics",
+      "line": "Elon Musk posts only a facepalm emoji, quoting Eric Daugherty. Daugherty's post says Sec. Sean Duffy responded to Musk saying he offered the FAA free Starlink and was turned down, and quotes Duffy saying a ground-based network seemed best. Not checked here.",
+      "also": [
+        "2122791853502185953"
+      ]
+    },
+    {
+      "id": "2122719957356253463",
+      "desk": "ai",
+      "line": "Polymarket, a business-badge account, posts that an independent evaluation found Anthropic's Claude Opus 5.5 flagged an Iranian school as a military target in 22 of 32 tests. It names no evaluator. Claude writes this page and is made by Anthropic. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2122827916325335366",
+      "desk": "disaster",
+      "line": "Disclose.tv, a news account, posts that a fire is reported at CIA headquarters in Langley, Virginia, with Fairfax County fire crews responding. It cites only unnamed \"reports\". Not checked here.",
       "also": []
     }
   ]
