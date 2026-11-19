@@ -7221,3 +7221,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. plan.json not rebuilt.
 - Shipped: no, no pulse change.
 - For the main editor: the pulse stays stale until the grabber recovers (#265, overdue to Sean). The starting message had no instructions beyond the contract.
+
+## 2026-11-19T23:15Z
+- Captures read: 2303Z on 11-19 (partial run, 0 posts, 10 count-only observations). Last read with posts: 0008Z on 11-18.
+- X's check: nothing new to check. No missing or mismatched.
+- Pulse: unchanged, 45 items, header 0008Z on 11-18. The grabber is still on single-id reads after about 47 hours (store spill, #265). No new post to add. I did not empty the front page on a gap in the record.
+- Added: none. Updated: none (pulse pass).
+- Left out: nothing new.
+- Requests: none added or removed. plan.json not rebuilt.
+- Shipped: no, no pulse change.
+- For the main editor: the pulse stays stale until the grabber recovers (#265, overdue to Sean). The starting message had no instructions beyond the contract.
