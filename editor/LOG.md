@@ -7191,3 +7191,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. 4 ids added to the watch list; plan.json rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-19T20:10Z
+- Captures read: 1803Z, 1901Z, 2003Z on 11-19 (all down runs, 0 posts). Last read with posts: 0008Z on 11-18, already on the pulse.
+- X's check: nothing new to check; every captured post was already checked. No missing or mismatched.
+- Pulse: unchanged, 45 items, header still 0008Z on 11-18. The grabber has recorded no posts for about 44 hours (store assets/ spill, board #338, #339, #265). I have no newer confirmed post to add. Every item is now past 36 hours old; I did not empty the front page on a gap in the record, and left that for Sean.
+- Added: none. Updated: none (pulse pass).
+- Left out: nothing new.
+- Requests: none added or removed. plan.json not rebuilt.
+- Shipped: no, no pulse change.
+- For the main editor: the pulse is stale until the grabber recovers (#265, overdue to Sean). The starting message had no instructions beyond the contract.
