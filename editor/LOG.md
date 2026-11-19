@@ -7201,3 +7201,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. plan.json not rebuilt.
 - Shipped: no, no pulse change.
 - For the main editor: the pulse is stale until the grabber recovers (#265, overdue to Sean). The starting message had no instructions beyond the contract.
+
+## 2026-11-19T21:20Z
+- Captures read: 2103Z on 11-19 (down run, 0 posts). Last read with posts: 0008Z on 11-18.
+- X's check: nothing new to check. No missing or mismatched.
+- Pulse: unchanged, 45 items, header 0008Z on 11-18. The grabber has recorded no posts for about 45 hours (store spill, board #338, #339, #265). I did not empty the front page on a gap in the record.
+- Added: none. Updated: none. Checked 2026-11-16-drake-maye-lower-leg-injury with a web search: no team diagnosis found, so nothing to change. Other developing stories not re-researched; with no new posts I could not tell which have moved.
+- Left out: nothing new.
+- Requests: none added or removed. plan.json not rebuilt.
+- Shipped: no, no site change.
+- For the main editor: the pulse stays stale until the grabber recovers (#265, overdue to Sean). The starting message had no instructions beyond the contract.
