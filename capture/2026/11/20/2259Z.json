@@ -1,0 +1,438 @@
+{
+ "schema": "mts.capture/1",
+ "run": {
+  "id": "2026-11-20T2259Z",
+  "started_at": "2026-11-20T22:59:00Z",
+  "finished_at": "2026-11-20T23:06:00Z",
+  "status": "partial",
+  "reason": "Day run 2026-11-20T2259Z (5:59 PM EST Nov 20), 71st hour of the agent-store spill. Shell ls of /cursor/stores/user/grok-bot/agents/0af959d5.../assets/ still hangs (no listing within 10 s) at 23:00Z, so batch X reads stay unusable. Single-id get_posts_by_id reads (x MCP namespace, post.fields public_metrics) come back inline; per the runbook only ids and counts were transcribed (no text, names or media retyped), giving 10 watch observations for ids 61-70 of the re-read list (51-60 at 2202Z). 10 X reads (960 left before, 950 after). requests/plan.json is stale (for_run 2026-11-18T01Z), so the run used tools/plan-reads.mjs --print at 23:00:38Z (for_run 2026-11-21T00Z; its watch list held all 547 requests/watch.json ids, none left out). All other sweeps skipped; TALLY.json unchanged.",
+  "grabber": {
+   "agent": "grokbot",
+   "model": null,
+   "method": "x MCP namespace (get_posts_by_id, post.fields public_metrics), inline results"
+  },
+  "requests_rev": "1a8b0d5ad80b025adc51bee3c068fed52a01824f",
+  "reads": 10,
+  "reads_left": 950,
+  "plan": null
+ },
+ "sweeps": [
+  {
+   "id": "watch",
+   "kind": "watch",
+   "desk": null,
+   "method": "get_posts_by_id (x MCP namespace, post.fields public_metrics), one read per id, of ids 61-70 of the 547 ids on the re-read list from tools/plan-reads.mjs --print at 23:00:38Z (for_run 2026-11-21T00Z; all 547 requests/watch.json ids), inline results, ids and counts transcribed",
+   "window_hours": null,
+   "status": "partial",
+   "reason": "Only single-id reads stay inline (batch outputs spill to the unreadable agent store), so 10 of 547 ids were re-read (ids 61-70; 51-60 at 2202Z); all 10 returned live.",
+   "post_ids": [
+    "2119185943664173142",
+    "2119211124906148159",
+    "2119029831497044188",
+    "2119138672536965426",
+    "2119051697301647700",
+    "2119043594984280069",
+    "2119093662957060389",
+    "2119303935743705097",
+    "2119309593239011715",
+    "2119311698855375231"
+   ]
+  },
+  {
+   "id": "desk.politics",
+   "kind": "desk",
+   "desk": "politics",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.world",
+   "kind": "desk",
+   "desk": "world",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.defense",
+   "kind": "desk",
+   "desk": "defense",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.justice",
+   "kind": "desk",
+   "desk": "justice",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.disaster",
+   "kind": "desk",
+   "desk": "disaster",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.markets",
+   "kind": "desk",
+   "desk": "markets",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.business",
+   "kind": "desk",
+   "desk": "business",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.ai",
+   "kind": "desk",
+   "desk": "ai",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.tech",
+   "kind": "desk",
+   "desk": "tech",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.science",
+   "kind": "desk",
+   "desk": "science",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.medicine",
+   "kind": "desk",
+   "desk": "medicine",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.entertainment",
+   "kind": "desk",
+   "desk": "entertainment",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.music",
+   "kind": "desk",
+   "desk": "music",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.gaming",
+   "kind": "desk",
+   "desk": "gaming",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.ideas",
+   "kind": "desk",
+   "desk": "ideas",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.sports",
+   "kind": "desk",
+   "desk": "sports",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.internet",
+   "kind": "desk",
+   "desk": "internet",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.life",
+   "kind": "desk",
+   "desk": "life",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "desk.offbeat",
+   "kind": "desk",
+   "desk": "offbeat",
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "trends.us",
+   "kind": "trends",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "trends.ww",
+   "kind": "trends",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.culture",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.sports",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "sensors.online",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "viral.global",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "rising.global",
+   "kind": "discovery",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  },
+  {
+   "id": "context.top",
+   "kind": "context",
+   "desk": null,
+   "method": "not run",
+   "window_hours": null,
+   "status": "skipped",
+   "reason": "Skipped: X outputs cannot be saved on this box (agent store folder unreadable from the shell), so reads would be spent with nothing recorded.",
+   "post_ids": []
+  }
+ ],
+ "trends": [],
+ "posts": [],
+ "observations": [
+  {
+   "id": "2119185943664173142",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 1383695,
+   "likes": 14774,
+   "reposts": 1211,
+   "quotes": 354,
+   "replies": 250,
+   "bookmarks": 540,
+   "approx": false
+  },
+  {
+   "id": "2119211124906148159",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 1474970,
+   "likes": 4815,
+   "reposts": 436,
+   "quotes": 122,
+   "replies": 183,
+   "bookmarks": 505,
+   "approx": false
+  },
+  {
+   "id": "2119029831497044188",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 5349168,
+   "likes": 86812,
+   "reposts": 36572,
+   "quotes": 3417,
+   "replies": 6249,
+   "bookmarks": 5018,
+   "approx": false
+  },
+  {
+   "id": "2119138672536965426",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 2928176,
+   "likes": 5531,
+   "reposts": 922,
+   "quotes": 1215,
+   "replies": 1435,
+   "bookmarks": 976,
+   "approx": false
+  },
+  {
+   "id": "2119051697301647700",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 18806621,
+   "likes": 68060,
+   "reposts": 3125,
+   "quotes": 2041,
+   "replies": 3160,
+   "bookmarks": 12751,
+   "approx": false
+  },
+  {
+   "id": "2119043594984280069",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 6975592,
+   "likes": 1334,
+   "reposts": 94,
+   "quotes": 58,
+   "replies": 70,
+   "bookmarks": 126,
+   "approx": false
+  },
+  {
+   "id": "2119093662957060389",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 3563344,
+   "likes": 25155,
+   "reposts": 3651,
+   "quotes": 917,
+   "replies": 1148,
+   "bookmarks": 1931,
+   "approx": false
+  },
+  {
+   "id": "2119303935743705097",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 330689,
+   "likes": 451,
+   "reposts": 114,
+   "quotes": 16,
+   "replies": 69,
+   "bookmarks": 39,
+   "approx": false
+  },
+  {
+   "id": "2119309593239011715",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 117552,
+   "likes": 708,
+   "reposts": 58,
+   "quotes": 4,
+   "replies": 22,
+   "bookmarks": 27,
+   "approx": false
+  },
+  {
+   "id": "2119311698855375231",
+   "at": "2026-11-20T23:03:00Z",
+   "state": "live",
+   "views": 1958468,
+   "likes": 29571,
+   "reposts": 9126,
+   "quotes": 667,
+   "replies": 361,
+   "bookmarks": 2705,
+   "approx": false
+  }
+ ],
+ "context": [],
+ "answers": []
+}
