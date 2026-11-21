@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T07:10:35Z",
-  "capture": "2026-11-21T0703Z",
+  "updated_at": "2026-11-21T08:14:22Z",
+  "capture": "2026-11-21T0805Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -75,12 +75,6 @@
       "id": "2123939905999138932",
       "desk": "business",
       "line": "Unusual Whales says Bloomberg reports that CrowdStrike is in talks to acquire Zscaler. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123900232161202278",
-      "desk": "tech",
-      "line": "Polymarket says a Neuralink patient plays GTA VI with a chip implanted in the brain, controlling the game with their thoughts. Not checked here.",
       "also": []
     },
     {
@@ -267,6 +261,12 @@
       "id": "2123983382627405993",
       "desk": "defense",
       "line": "Mario Nawfal posts that a new report says the U.S. is critically short of Patriot and THAAD interceptors, Standard Missiles and Tomahawks. It quotes retired Lt. Col. Anthony Aguilar saying \"Firing missiles is not a strategy to win.\" The post does not name the report. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124028719190749681",
+      "desk": "medicine",
+      "line": "Elon Musk posts \"Playing GTA VI with Telepathy\" with a link. He does not say who is playing or how; the post it quotes is not in the record here. Not checked here.",
       "also": []
     }
   ]
