@@ -7371,3 +7371,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (48 ids). plan.json rebuilt.
 - Shipped: yes, commit 2ed092f3 (log entry committed after the ship, so the live site does not carry it; it is not site content).
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T09:30Z
+- Captures read: 0906Z on 11-21 (23 posts). Last read: 0906Z.
+- X's check: 0906Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (1 swapped: Formula 1's Ferrari qualifying video replaces its smaller Las Vegas clip, same account). The build shows 40 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the ostonox Senate clip (video with no description, quotes a post whose point cannot be worked out); the PopBase El Chapo Isidro report (small, account already on the pulse, unchecked); Fabrizio Romano and Mario Nawfal posts (account or desk already carried); IGN, CultureCrave, Billboard posts (small or promotional); old-content posts. For the next story pass: the reported capture of "El Chapo Isidro" in Mexico.
+- Requests: none added or removed. watch.json updated (48 ids, F1 id swapped). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
