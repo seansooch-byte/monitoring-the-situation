@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T21:45:00Z",
-  "capture": "2026-11-21T2107Z",
+  "updated_at": "2026-11-21T22:35:00Z",
+  "capture": "2026-11-21T2204Z",
   "items": [
     {
       "id": "2123852660688494744",
@@ -247,6 +247,24 @@
       "id": "2124098562443354591",
       "desk": "markets",
       "line": "Kraken's support account says that from about 20:00 UTC on Nov 20, heavy selling pushed prices of its CAD pairs well below other markets. It says the platform processed every order correctly, its security teams found no sign of a breach, and executed trades stand. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124244539426922598",
+      "desk": "politics",
+      "line": "Popstonox says Donald Trump shared Abdul El-Sayed's Medicare for All proposal on Truth Social, and that El-Sayed had suggested renaming it \"TrumpCare for All\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124120914904457524",
+      "desk": "music",
+      "line": "JT News posts a 24-second video it says shows the singer JT performing \"Okay\" at the GTA VI launch party.",
+      "also": []
+    },
+    {
+      "id": "2124110068308144411",
+      "desk": "sports",
+      "line": "Adam Schefter reports that the New England Patriots are close to the limit of players they can designate to return from injured reserve, so Drake Maye and AJ Brown may not be placed there.",
       "also": []
     }
   ]

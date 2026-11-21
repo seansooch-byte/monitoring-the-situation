@@ -7501,3 +7501,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json: dropped one id, added seven for the two stories. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T22:35Z
+- Captures read: 2204Z on 11-21 (85 posts). Last read: 2204Z.
+- X's check: 2204Z 83 confirmed, 0 missing, 0 mismatched, 0 withheld. Older mismatches unchanged (none used). The build warns of 3 older story-cited posts X has not confirmed (2117537320392130634 missing, 2116569280900706479 and 2119523308580511928 withheld).
+- Pulse: 44 items (3 new, 0 dropped): Popstonox on Trump sharing the El-Sayed Medicare for All proposal (politics), JT News clip at the GTA VI launch party (music), Adam Schefter on Patriots injured reserve limits (sports). The build shows 40 and holds back 4 under one place per account. The Zelensky and Rahul Gandhi posts are near 36 hours and go next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: ianmSC's Sorkin and Luckey clip (describes a person's reaction as fact); Musk's Uranus and FSD posts and SpaceX's splashdown (account already on the pulse); PollTracker2024's copy of the El-Sayed post; Moloi_Herman1's arrest post (private individual flag); sharqasticc's Claude joke, the AI GTA video and ClashRoyale (desks full).
+- Requests: none added or removed. watch.json gained three ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
