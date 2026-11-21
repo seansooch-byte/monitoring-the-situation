@@ -7381,3 +7381,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json updated (48 ids, F1 id swapped). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T10:25Z
+- Captures read: 1006Z on 11-21 (19 posts). Last read: 1006Z.
+- X's check: 1006Z 18 confirmed, 0 missing, 0 mismatched, 1 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: unchanged, 45 items, none older than 36 hours and none of the new posts among the largest. Nothing shipped.
+- Added: none. Updated: none (pulse pass).
+- Left out: Reuters, SkyNews and Gerashchenko posts (small, or desk already carried); crypto and Bitcoin posts (small, price talk, financial advice risk); the Elon Musk AI, science and gaming posts (account already on the pulse; the AI post involves Grok's maker and is unclear without context); the NFL promo (advertisement); the Ocarina of Time anniversary (old content). For the next story pass: the Reuters report on Epstein and intermediaries to Putin, the judge's ruling on the homelessness program, the Polish airspace incident.
+- Requests: none added or removed. watch.json and plan.json unchanged.
+- Shipped: no, nothing changed on the site.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
