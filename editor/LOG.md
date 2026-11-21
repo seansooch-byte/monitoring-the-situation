@@ -7311,3 +7311,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (38 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T03:40Z
+- Captures read: 0305Z on 11-21 (100 posts). Last read: 0305Z.
+- X's check: 0305Z 97 confirmed, 0 missing, 0 mismatched, 2 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 42 items (8 added: Rikers, Rupar on Democratic majorities, GTA 6 review bombing, shower joke, Asia stocks, Obama on trust, Trump on Iran, Rahul Gandhi in Hindi; 1 dropped: the older Rupar clip, replaced by the larger one). The build shows 38 and holds back elonmusk, discussingfilm, reuters x2.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Polymarket posts on Jensen Huang (violent claims about a named person, only reportedly from the NYT, not checked); the Bowen Yang apology (names a slur); the FBI and USDA hack posts (unconfirmed); the Kobeissi buying-opportunity post (financial advice); old-content posts; private_individual replies to Rupar. For the next story pass: the Huang NYT report, the FBI database hack claim, the USDA cyberattack claim, the Rikers closure plan.
+- Requests: none added or removed. watch.json rebuilt (45 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

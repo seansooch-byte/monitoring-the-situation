@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T02:30:00Z",
-  "capture": "2026-11-21T0203Z",
+  "updated_at": "2026-11-21T03:35:00Z",
+  "capture": "2026-11-21T0305Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -189,11 +189,6 @@
       "line": "MLB says the Dodgers reportedly acquired infielder Royce Lewis from the Twins, citing multiple reports including MLB Network's Jon Heyman. Not checked here."
     },
     {
-      "id": "2123851610283540807",
-      "desk": "politics",
-      "line": "Aaron Rupar posts a clip of President Trump praising Stephen Miller and asking Vice President Vance and Secretary of State Rubio, whom he points at, whether they want to run for president. The caption is Rupar's and the clip is not checked here."
-    },
-    {
       "id": "2123671332722299057",
       "desk": "world",
       "line": "Cebu Daily News reports on a Philippine House bill to create a \"Pax Silica\" semiconductor, AI and critical minerals zone in Tarlac. It says advocacy groups warn about tax incentives for foreign firms and land leases that could displace farmers and Indigenous people."
@@ -207,6 +202,54 @@
       "id": "2123821412955681099",
       "desk": "business",
       "line": "The Free Press says journalist Matt Taibbi is joining it as a reporter at large for the presidential campaign."
+    },
+    {
+      "id": "2123752253295042912",
+      "desk": "justice",
+      "line": "The NYCMayor account posts a 91-second video with the words \"We're closing Rikers once and for all.\" The post does not say how or when.",
+      "also": []
+    },
+    {
+      "id": "2123846816642789627",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a short video of President Trump talking about Democratic majorities. Rupar quotes him as saying \"We could end up with great healthcare in our country.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123902500986347623",
+      "desk": "gaming",
+      "line": "CultureCrave says \"Grand Theft Auto 6\" has been review-bombed by users on Metacritic and shows a 4.9 rating. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123667978696925384",
+      "desk": "internet",
+      "line": "A user posts a joke that a very hot shower is bad for skin and hair, but \"being boiled alive\" is good for their mental health.",
+      "also": []
+    },
+    {
+      "id": "2123705768461676741",
+      "desk": "markets",
+      "line": "Coin Bureau says Asia's stock markets lost over $1.1 trillion today, with 12 of 13 major indexes down. It lists Taiwan down 6.23% and Japan down 5.06%. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123834412366229888",
+      "desk": "politics",
+      "line": "Barack Obama posts a video about trust in institutions. He says this year's Democracy Forum, December 9 to 11 in Chicago, will focus on trust.",
+      "also": []
+    },
+    {
+      "id": "2123833098551038180",
+      "desk": "world",
+      "line": "The Rapid Response 47 account posts President Trump on Iran. It quotes him saying Iran wants a deal \"that's acceptable to me\" and that he wants \"a real deal, not a fake deal.\"",
+      "also": []
+    },
+    {
+      "id": "2123730351851999638",
+      "desk": "world",
+      "line": "Rahul Gandhi posts in Hindi. He says that Modi's complaint that industrialists did not raise pay or create jobs after tax cuts is a confession, and accuses Modi's policies of harming small businesses.",
+      "also": []
     }
   ]
 }
