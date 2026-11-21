@@ -7450,3 +7450,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained 6 ids (55). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T17:20Z
+- Captures read: 1702Z on 11-21 (87 posts). Last read: 1702Z.
+- X's check: 1702Z 80 confirmed, 0 missing, 1 mismatched (2124013278246420854, an F1 post, not used). 1405Z still 2 mismatched (game ads, not used); 0203Z still 1 mismatched (2121132013595844894). The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 44 items (0 new accounts, 2 changed): dropped Araghchi's post (older than 36 hours); the Formula 1 item now points at its "George and Max" video post, which is larger than the qualifying one. The build shows 39 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Polymarket's Jensen Huang posts (a claim about a real person, no outside confirmation here; for the next story pass); boatsdotcom "wait for it" (no description of the video); the hitchhiker posts from ekonomat_pl and dziki_zachod (private individual, not English); Müller MLS quote (sports crowded, account already on the pulse); sexual or promotional posts.
+- Requests: none added or removed. watch.json swapped one id for another. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
