@@ -7321,3 +7321,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (45 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T04:45Z
+- Captures read: 0401Z on 11-21 (113 posts). Last read: 0401Z.
+- X's check: 0401Z 105 confirmed, 0 missing, 0 mismatched, 2 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (6 added: Stephen Miller exchange with Polymarket in also, Broncos and Umamusume, Araghchi quip, FBI database hack claim, Bitcoin under $57,000, whale video; 1 dropped: Cointelegraph Bitcoin, replaced by the newer post; 2 dropped for size: Poundland, Ledger theft). The build shows 39 and holds back 6 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Bleacher Report Mamdani post (PopBase already carries it); the Kobeissi buy-the-dip post (financial advice); the Chinese EV post (unchecked product claim); the Brunei vote post (charged claim, not checked); old-content posts; sexual or private posts. For the next story pass: the Miller 2028 exchange, the FBI database hack (CNN), the USDA breach (NBC), the Bitcoin fall under $57,000.
+- Requests: none added or removed. watch.json rebuilt (49 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

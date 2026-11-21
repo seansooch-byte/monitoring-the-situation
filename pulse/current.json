@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T03:35:00Z",
-  "capture": "2026-11-21T0305Z",
+  "updated_at": "2026-11-21T04:40:00Z",
+  "capture": "2026-11-21T0401Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -104,12 +104,6 @@
       "also": []
     },
     {
-      "id": "2123914395990241761",
-      "desk": "markets",
-      "line": "Cointelegraph says Bitcoin has fallen to its lowest level since September 2024. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2123937091583082559",
       "desk": "business",
       "line": "Reuters reports, citing sources, an exclusive: Nvidia's accounting is a focus of a U.S. Securities and Exchange Commission investigation. Not checked here.",
@@ -122,21 +116,9 @@
       "also": []
     },
     {
-      "id": "2123932884016754845",
-      "desk": "business",
-      "line": "Sky News reports that the Poundland chief shared the pain with staff as last-ditch rescue talks go on.",
-      "also": []
-    },
-    {
       "id": "2123900232161202278",
       "desk": "tech",
       "line": "Polymarket says a Neuralink patient plays GTA VI with a chip implanted in the brain, controlling the game with their thoughts. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123917505970225379",
-      "desk": "tech",
-      "line": "Scott Melker posts a claim that Arkham traced $95.35 million stolen from 1,486 Ledger wallet addresses tied to devices sold by a compromised reseller, with $10 million frozen by Tether. Not checked here.",
       "also": []
     },
     {
@@ -249,6 +231,44 @@
       "id": "2123730351851999638",
       "desk": "world",
       "line": "Rahul Gandhi posts in Hindi. He says that Modi's complaint that industrialists did not raise pay or create jobs after tax cuts is a confession, and accuses Modi's policies of harming small businesses.",
+      "also": []
+    },
+    {
+      "id": "2123852403724439956",
+      "desk": "politics",
+      "line": "Ed Krassenstein posts a 28-second clip of President Trump with Stephen Miller at the White House podium. He says Trump seemingly endorsed Miller for president over JD Vance and Marco Rubio. Polymarket describes the same exchange as Trump asking Miller if he would like to run in 2028. Not checked here.",
+      "also": [
+        "2123873514625159179"
+      ]
+    },
+    {
+      "id": "2123733172298875265",
+      "desk": "sports",
+      "line": "Dexerto says the Denver Broncos are bringing Umamusume horse girls to the NFL. It says Gold Ship and Mejiro McQueen will appear at the team's December 6 game against the Miami Dolphins. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123636912392994951",
+      "desk": "world",
+      "line": "Iran's foreign minister Abbas Araghchi posts a quip that Iran did not know the Israeli ambassador to Washington was the commander-in-chief of the U.S. military. The post he quotes is not in the record here, so what prompted it is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123964580791501251",
+      "desk": "tech",
+      "line": "Watcher Guru says the FBI was hacked again in a cyberattack on its nationwide crime database, citing CNN. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123983677495349408",
+      "desk": "markets",
+      "line": "Watcher Guru says Bitcoin has fallen under $57,000 for the first time in over two years and that $385 million was liquidated from the crypto market in five minutes. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123901153821782284",
+      "desk": "offbeat",
+      "line": "Nature Unedited posts a video of a whale and says the discomfort the whale had endured for years disappeared in 30 seconds. What the video shows is not checked here.",
       "also": []
     }
   ]
