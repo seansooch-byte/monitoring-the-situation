@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T09:16:30Z",
-  "capture": "2026-11-21T0906Z",
+  "updated_at": "2026-11-21T12:15:53Z",
+  "capture": "2026-11-21T1204Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -75,12 +75,6 @@
       "id": "2123939905999138932",
       "desk": "business",
       "line": "Unusual Whales says Bloomberg reports that CrowdStrike is in talks to acquire Zscaler. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123758657540370633",
-      "desk": "tech",
-      "line": "Marc Lou says his $100K Hackathon disqualified its number one product. He says the work started before November 16 and was a reworked existing product, which breaks the rules.",
       "also": []
     },
     {
@@ -252,12 +246,6 @@
       "also": []
     },
     {
-      "id": "2123856760549019721",
-      "desk": "politics",
-      "line": "Gunther Eagleman posts a clip of President Trump ending a press conference. The post says Trump told a reporter who shouted over him, \"You really are a rude person. I'm not talking to you,\" and that they belonged in the back row. The clip is not checked here.",
-      "also": []
-    },
-    {
       "id": "2123983382627405993",
       "desk": "defense",
       "line": "Mario Nawfal posts that a new report says the U.S. is critically short of Patriot and THAAD interceptors, Standard Missiles and Tomahawks. It quotes retired Lt. Col. Anthony Aguilar saying \"Firing missiles is not a strategy to win.\" The post does not name the report. Not checked here.",
@@ -267,6 +255,18 @@
       "id": "2124028719190749681",
       "desk": "medicine",
       "line": "Elon Musk posts \"Playing GTA VI with Telepathy\" with a link. He does not say who is playing or how; the post it quotes is not in the record here. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123816257136865791",
+      "desk": "gaming",
+      "line": "Dexerto says Take-Two CEO Strauss Zelnick was asked whether Grand Theft Auto 7 could be set across the whole world. It quotes him answering that GTA 6 went live on November 19 and that it is still November 19. The quote is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124064300155187277",
+      "desk": "music",
+      "line": "Kpop Charts, a fan chart account, says BTS won Album of the Year (Daesang) at the 2026 MAMA Awards for \"ARIRANG\". Not checked here.",
       "also": []
     }
   ]
