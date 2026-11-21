@@ -7410,3 +7410,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json swapped two ids for the two new ones (50 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T13:20Z
+- Captures read: 1300Z on 11-21 (104 posts). Last read: 1300Z.
+- X's check: 1300Z 95 confirmed, 0 missing, 0 mismatched, 1 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (1 new, 1 dropped): added PopCrave's Sorkin and Hailey Bieber interview post (entertainment); dropped Variety's "Michael" report (entertainment, crowded, among the smallest). The build shows 39 and holds back 6 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Academy Hunger Games post (desk already carried); CORTIS MAMA win (Kpop Charts already on the pulse); Itsthatlawyer clip of the same interview (PopCrave's post carries it); boatsdotcom "wait for it" (no description of the video); private_individual and old_content posts; Brian Karem's pilot post (small). For the next story pass: the Sorkin and Bieber interview, if it keeps spreading.
+- Requests: none added or removed. watch.json swapped one id for the new one (50 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

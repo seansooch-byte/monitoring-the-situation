@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T12:15:53Z",
-  "capture": "2026-11-21T1204Z",
+  "updated_at": "2026-11-21T13:10:39Z",
+  "capture": "2026-11-21T1300Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -57,12 +57,6 @@
       "id": "2123923294219018408",
       "desk": "entertainment",
       "line": "DiscussingFilm shares a first look at a Star Wars and Marvel crossover comic in which Spider-Man meets Luke Skywalker, with the line \"I'm Peter Parker, I'm here to rescue you.\"",
-      "also": []
-    },
-    {
-      "id": "2123920155474555201",
-      "desk": "entertainment",
-      "line": "Variety reports, citing sources, that the film \"Michael\" will not be submitted for the 2027 BAFTA Film Awards. The sources did not say why. Not checked here.",
       "also": []
     },
     {
@@ -267,6 +261,12 @@
       "id": "2124064300155187277",
       "desk": "music",
       "line": "Kpop Charts, a fan chart account, says BTS won Album of the Year (Daesang) at the 2026 MAMA Awards for \"ARIRANG\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123884901401505978",
+      "desk": "entertainment",
+      "line": "PopCrave says journalist Andrew Ross Sorkin is facing criticism for asking Hailey Bieber why she thought she could sell her brand Rhode for $1 billion. The post carries a 37-second video. The criticism is PopCrave's description. Not checked here.",
       "also": []
     }
   ]
