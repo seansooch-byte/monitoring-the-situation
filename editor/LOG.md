@@ -7291,3 +7291,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. plan.json not rebuilt.
 - Shipped: no, no pulse change.
 - For the main editor: the pulse stays stale until a capture with posts arrives (#265, overdue to Sean). The starting message had no instructions beyond the contract.
+
+## 2026-11-21T01:25Z
+- Captures read: 0104Z on 11-21 (57 posts, the first full capture since 0008Z on 11-18). Last read: 0104Z.
+- X's check: 0104Z 57 confirmed, 0 missing, 0 mismatched, 0 withheld. (The build still warns of 3 older story-cited posts X has not confirmed.)
+- Pulse: 26 items on 15 desks (all new; the 45 old items dropped as older than 36 hours). Quiet: defense, justice, medicine, life, offbeat. The build holds 4 posts back under one place per account (elonmusk, discussingfilm, reuters x2); they stand on their desk pages.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Palisades Fire verdict post (names a private person accused of a crime); the Elon reply and quote posts (flagged private_individual); two old-content posts; the Fed and Gunther Eagleman market posts (partisan framing, one account one place); the jukan05 posts (no content to describe); the Wario64 Steam sale (ad); the sciencegirl Christmas clip (credits a private person); the kimmonismus Gemini posts (hype, a Claude Riemann joke not checked). For the next story pass: the Nasdaq and Bitcoin selloff, the Ledger reseller theft, the Nvidia SEC report, the Anthropic donation to Trump Accounts (Anthropic makes the model writing the page), Zelensky's report of the overnight Russian attack.
+- Requests: none opened or removed. watch.json rebuilt to the pulse plus the pinned post (29 ids; no stories in the last 48 hours). plan.json rebuilt.
+- Shipped: see the commit and ship output in the report.
+- For the main editor: nothing new. The grabber's store spill (#265) is over. The starting message had no instructions beyond the contract.
