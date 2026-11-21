@@ -7440,3 +7440,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the Neuralink id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T16:55Z
+- Captures read: 1604Z on 11-21 (51 posts). Last read: 1604Z.
+- X's check: 1604Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld. 1405Z still 2 mismatched (game ads, not used); 0203Z still 1 mismatched (2121132013595844894). The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 45 items (0 new, 0 dropped): the FBI crime database item now points at Fox News's post (Watcher Guru's attached in `also`). The build shows 40.
+- Added: 2026-11-20-gta-vi-day-one-sales (gaming), 2026-11-20-ai-selloff-correction-week (markets). Updated: 2026-11-16-anthropic-ipo-terms (priced at $83, first day, correction line).
+- Left out: Neuralink GTA VI clip (no outside source; Musk and xAI involved); FBI NCIC hack (Fox post only, no outside confirmation found; for the next pass); Palisades fire verdict, Basra fire, Iran F-16 claim (not researched this pass); private_individual and old_content posts.
+- Requests: none added or removed. watch.json gained 6 ids (55). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

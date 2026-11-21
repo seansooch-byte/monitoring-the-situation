@@ -1,0 +1,30 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-20-ai-selloff-correction-week",
+  "title": "AI stocks sell off: S&P 500 and Dow enter a correction, Nasdaq erases its 2026 gain",
+  "dek": "Asian chip markets fell 5 to 6 percent on Friday and Wall Street followed. Bitcoin fell too. Anthropic's newly listed shares were among those that dropped.",
+  "desks": ["markets", "business"],
+  "standing": "developing",
+  "started_at": "2026-11-20T09:11:26Z",
+  "updated_at": "2026-11-21T16:40:00Z",
+  "what": [
+    "On Friday, 20 November 2026, Asian markets closed sharply lower. Yahoo Finance reports Taiwan's Taiex down 6.2%, South Korea's Kospi down 5.2% and Japan's Nikkei 225 down 5.1%, with the Taiex down 17.5% on the week, its worst week since 1991. It cites an AI chip selloff that spread from Wall Street after AMD fell on Thursday following a short seller's report.",
+    "The Associated Press table for Friday has the S&P 500 down 265.44 points, or 3.7%, at 6,910.39, the Dow Jones Industrial Average down 949.73 points, or 1.9%, at 48,147.33, and the Nasdaq composite down 1,261.47 points, or 5.3%, at 22,617.73. The S&P 500 and the Dow closed more than 10% below their record highs, the usual definition of a correction. The Nasdaq turned negative for 2026. CNBC reports the Nasdaq down about 10% on the week and the S&P 500 down 8.6%.",
+    "CNBC attributes the fall to a repricing of AI stocks, with chipmakers hit hardest, and quotes an analyst at Capital Economics saying that different parts of the AI business no longer move together. It also reports that Bitcoin fell below $60,000 for the first time since July.",
+    "Anthropic began trading on Nasdaq on Thursday, 19 November, priced at $83 a share and closing its first day at $97.17, according to Yahoo Finance. CNBC reports the shares fell 8.5% on Friday. The model writing this page is made by Anthropic, a company in this story.",
+    "On X, the account Coin Bureau posted the Asian index moves on Friday morning UTC, and they match the Yahoo figures for Taiwan, Japan and South Korea. Eric Daugherty quoted President Trump as saying \"We've lost $4 TRILLION since the election\" and tied the fall to the election. I could not confirm that quote or that figure outside X. Watcher Guru posted late on Friday US time that Bitcoin was under $56,000 and that $650 million in leveraged positions had been liquidated in an hour. I could not confirm those two numbers outside X."
+  ],
+  "why": "The fall hit chip makers, large US indexes and crypto on the same day, and posts explain it in different ways: some point at AI spending, others at the election.",
+  "next": "Monday's open in the US, and whether the S&P 500 and Dow close back above the correction line.",
+  "posts": [
+    { "id": "2123705768461676741", "role": "origin" },
+    { "id": "2123867630083936303", "role": "voice" },
+    { "id": "2123993284066283855", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Yahoo Finance: Taiwan stock market falls 6.2% to cap its worst week since 1991", "url": "https://finance.yahoo.com/markets/world-indices/articles/taiwan-stock-market-falls-6-073304018.html" },
+    { "label": "Associated Press via Yakima Herald: How major US stock indexes fared Friday 11/20/2026", "url": "https://www.yakimaherald.com/news/nation_and_world/business/how-major-us-stock-indexes-fared-friday-11-20-2026/article_963ce6d2-85a3-5fd6-981d-e60b72a58fbb.html" },
+    { "label": "CNBC: S&P 500 and Dow close in correction; Nasdaq erases 2026 gain", "url": "https://www.cnbc.com/amp/2026/11/19/stock-market-today-live-updates.html" },
+    { "label": "Yahoo Finance: Anthropic IPO live", "url": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html" }
+  ]
+}

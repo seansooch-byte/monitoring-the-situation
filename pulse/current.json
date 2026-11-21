@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T15:14:14Z",
-  "capture": "2026-11-21T1503Z",
+  "updated_at": "2026-11-21T16:45:00Z",
+  "capture": "2026-11-21T1604Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -187,10 +187,12 @@
       "also": []
     },
     {
-      "id": "2123964580791501251",
+      "id": "2124152725722059007",
       "desk": "tech",
-      "line": "Watcher Guru says the FBI was hacked again in a cyberattack on its nationwide crime database, citing CNN. Not checked here.",
-      "also": []
+      "line": "Fox News reports that the FBI’s National Crime Information Center, a database used for background checks and for sharing warrant information among law enforcement agencies, has been hacked. The post says it is unclear what was taken. Not checked here.",
+      "also": [
+        "2123964580791501251"
+      ]
     },
     {
       "id": "2123901153821782284",

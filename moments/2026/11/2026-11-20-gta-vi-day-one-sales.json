@@ -1,0 +1,29 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-20-gta-vi-day-one-sales",
+  "title": "Take-Two says Grand Theft Auto VI made $3.79 billion in its first day",
+  "dek": "The company calls it the biggest entertainment launch ever. The number counts months of pre-orders, and an outside estimate a day earlier was about half as large.",
+  "desks": ["gaming", "business"],
+  "standing": "developing",
+  "started_at": "2026-11-20T19:29:03Z",
+  "updated_at": "2026-11-21T16:40:00Z",
+  "what": [
+    "Grand Theft Auto VI went on sale on Thursday, 19 November 2026. In a press release dated 20 November, Take-Two Interactive said day one retail sales reached $3.79 billion, which it called a new record for entertainment across any medium. It also said the game sold 32.5 million units before release, a record across all platforms.",
+    "Fox Business reports that Rockstar Games president Sam Houser said the studio was humbled by the response. The figure comes from the company itself. I found no independent count.",
+    "The units sold before release are inside the number. Fox Business notes that a film's lifetime box office and a game's first-day retail sales are different measures. Comparisons in posts, to concert tours and to film openings, mix those measures.",
+    "On 19 November, the day of launch, the research firm Sensor Tower estimated about $1.84 billion from about 19 million copies sold. Fox 5 New York reported it and noted that the estimate was not official sales data. The two numbers were made at different times and are not the same measure, so they do not directly contradict each other.",
+    "On X, Wario64 posted the figure at 19:29 UTC on 20 November, IGN posted that Rockstar had confirmed it, and CNN reported it with a comparison to a Taylor Swift tour and a Marvel film."
+  ],
+  "why": "The number is large enough to beat the opening of any film, so gaming accounts, film accounts and general news accounts all passed it along within hours.",
+  "next": "Whether Take-Two gives a first-day unit count after release, and how its next earnings report treats the launch.",
+  "posts": [
+    { "id": "2123861198194254079", "role": "origin" },
+    { "id": "2123865536123572264", "role": "voice" },
+    { "id": "2123954557587702102", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Take-Two Interactive press release (SEC Form 8-K exhibit), 20 November 2026", "url": "https://www.sec.gov/Archives/edgar/data/0000946581/000162828026075217/exhibit9918k.htm" },
+    { "label": "Fox Business: GTA VI smashes records with $3.79 billion in first 24 hours, Rockstar says", "url": "https://www.foxbusiness.com/entertainment/grand-theft-auto-vi-shatters-entertainment-records-staggering-3-79b-debut" },
+    { "label": "Fox 5 New York: GTA VI pulls in estimated $1.84 billion by release day", "url": "https://www.fox5ny.com/news/gta-vi-pulls-estimated-1-84-billion-release-day-more-than-double-gta-vs-launch-record" }
+  ]
+}
