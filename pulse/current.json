@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T18:22:23Z",
-  "capture": "2026-11-21T1808Z",
+  "updated_at": "2026-11-21T19:15:17Z",
+  "capture": "2026-11-21T1902Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -45,12 +45,6 @@
       "id": "2123825853008122336",
       "desk": "science",
       "line": "SpaceX says its Dragon capsule has separated from the International Space Station and is firing four departure burns. It says splashdown is about 29 hours away, off the coast of California.",
-      "also": []
-    },
-    {
-      "id": "2123693272396910825",
-      "desk": "music",
-      "line": "Stray Kids announce that the \"Christmas EveL\" music video has reached 200 million views. The post is in Korean and English.",
       "also": []
     },
     {
@@ -208,9 +202,9 @@
       "also": []
     },
     {
-      "id": "2123975737107493302",
+      "id": "2124188376005833083",
       "desk": "sports",
-      "line": "Fabrizio Romano quotes Manchester United CEO Omar Berrada, speaking to Sky Sports, on new coach Mauricio Pochettino. Berrada says he has experience, passion and energy and is as ambitious as the club about winning titles.",
+      "line": "Fabrizio Romano says Désiré Doué left the pitch in tears after a serious injury and was taken off at once. The post has a photo. The injury is not checked here.",
       "also": []
     },
     {
@@ -234,9 +228,9 @@
       "also": []
     },
     {
-      "id": "2124064300155187277",
+      "id": "2124062788117315651",
       "desk": "music",
-      "line": "Kpop Charts, a fan chart account, says BTS won Album of the Year (Daesang) at the 2026 MAMA Awards for \"ARIRANG\". Not checked here.",
+      "line": "Kpop Charts, a fan chart account, says CORTIS won Song of the Year (Daesang) with \"REDRED\" at the 2026 MAMA Awards. Not checked here.",
       "also": []
     },
     {
@@ -259,6 +253,12 @@
       "id": "2124123812912669088",
       "desk": "gaming",
       "line": "The account TheGameVerse posts an 11-second video it calls the funniest GTA 6 clip it has seen so far. The clip is not described in the record, so what it shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124098562443354591",
+      "desk": "markets",
+      "line": "Kraken's support account says that from about 20:00 UTC on Nov 20, heavy selling pushed prices of its CAD pairs well below other markets. It says the platform processed every order correctly, its security teams found no sign of a breach, and executed trades stand. Not checked here.",
       "also": []
     }
   ]
