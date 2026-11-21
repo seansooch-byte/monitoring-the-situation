@@ -7420,3 +7420,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json swapped one id for the new one (50 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T14:40Z
+- Captures read: 1405Z on 11-21 (109 posts). Last read: 1405Z.
+- X's check: 1405Z 105 confirmed, 0 missing, 2 mismatched (2124115610795663738, 2124119385153360240, both AKEndfield game ads, not used), 1 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (2 new, 2 dropped): added the "caseoh out of context" clip post (internet) and Bleacher Report's Mamdani Achilles post (politics); dropped MLB's Royce Lewis trade post and Adam Schefter's Stroud post (sports, crowded).
+- Added: none. Updated: none (pulse pass).
+- Left out: boatsdotcom "wait for it" (no description of the video); Itsthatlawyer clip (PopCrave's post already carries the interview); the Palisades fire verdict and Bitcoin rebound posts (small and fast moving; for the next story pass, with the FBI database hack and the Basra power station fire); private_individual and old_content posts; AKEndfield ads.
+- Requests: none added or removed. watch.json swapped two ids for the two new ones. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

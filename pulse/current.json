@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T13:10:39Z",
-  "capture": "2026-11-21T1300Z",
+  "updated_at": "2026-11-21T14:35:00Z",
+  "capture": "2026-11-21T1405Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -102,11 +102,6 @@
       "id": "2123841393609351292",
       "desk": "sports",
       "line": "The NFL says the Indianapolis Colts have released quarterback Daniel Jones."
-    },
-    {
-      "id": "2123906744137167322",
-      "desk": "sports",
-      "line": "MLB says the Dodgers reportedly acquired infielder Royce Lewis from the Twins, citing multiple reports including MLB Network's Jon Heyman. Not checked here."
     },
     {
       "id": "2123671332722299057",
@@ -234,12 +229,6 @@
       "also": []
     },
     {
-      "id": "2123779922238066756",
-      "desk": "sports",
-      "line": "Adam Schefter shares an ESPN story saying Houston quarterback C.J. Stroud stayed in the \"groove\" with another three-touchdown night in the Texans' blowout of the Colts.",
-      "also": []
-    },
-    {
       "id": "2123983382627405993",
       "desk": "defense",
       "line": "Mario Nawfal posts that a new report says the U.S. is critically short of Patriot and THAAD interceptors, Standard Missiles and Tomahawks. It quotes retired Lt. Col. Anthony Aguilar saying \"Firing missiles is not a strategy to win.\" The post does not name the report. Not checked here.",
@@ -268,6 +257,16 @@
       "desk": "entertainment",
       "line": "PopCrave says journalist Andrew Ross Sorkin is facing criticism for asking Hailey Bieber why she thought she could sell her brand Rhode for $1 billion. The post carries a 37-second video. The criticism is PopCrave's description. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2123902824354664656",
+      "desk": "internet",
+      "line": "The account \"caseoh out of context\" posts a clip it says shows the streamer Caseoh giving Lucia another makeover while singing \"Hot to Go\". I could not see the clip."
+    },
+    {
+      "id": "2123797980742607193",
+      "desk": "politics",
+      "line": "Bleacher Report says New York City Mayor Zohran Mamdani said he tore his Achilles playing soccer on Thursday night, will be in a boot for 6 to 8 weeks and expects to play soccer again in nine months. Not checked here."
     }
   ]
 }
