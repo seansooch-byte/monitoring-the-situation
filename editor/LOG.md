@@ -7361,3 +7361,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (48 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T08:20Z
+- Captures read: 0805Z on 11-21 (21 posts). Last read: 0805Z.
+- X's check: 0805Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (1 added: Elon Musk on GTA VI with Neuralink, medicine; 1 dropped: Polymarket on the same, a smaller copy). The build shows 40 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Elon Musk "True" quote of a Grok post and the monkey post (account already on the pulse; the first involves Grok); the F1 grid, Henderson, Unusual Whales SpaceX lobbyists and Reuters posts (account or desk already carried, or small); crypto cheer posts (financial advice); old-content posts. For the next story pass: the SpaceX lobbyist report, Bitcoin at a two-year low.
+- Requests: none added or removed. watch.json rebuilt (48 ids). plan.json rebuilt.
+- Shipped: yes, commit 2ed092f3 (log entry committed after the ship, so the live site does not carry it; it is not site content).
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
