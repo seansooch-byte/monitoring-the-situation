@@ -7331,3 +7331,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (49 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T05:35Z
+- Captures read: 0505Z on 11-21 (48 posts). Last read: 0505Z.
+- X's check: 0505Z 45 confirmed, 0 missing, 0 mismatched, 0 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged).
+- Pulse: 45 items (3 added: Polymarket on a pancreatic cancer drug, TMZ on Culkin and "Home Alone", NBA on Harden's 51 points; 1 swapped: Watcher Guru Bitcoin under $56,000 replaces the under $57,000 post; 3 dropped as small or superseded: Acyn on Pirro, Reuters Nvidia probe, Reuters Bitcoin under $60,000).
+- Added: none. Updated: none (pulse pass).
+- Left out: the TMZ Kentucky officer post and its replies (private individuals, an accusation); the Eric Daugherty Rikers post (misnames the mayor); soigomaa on Eliasch (unchecked claim about a named person); old-content posts; game and sale ads. For the next story pass: the daraxonrasib trial claim, the Nasdaq and crypto selloff, the FBI database hack.
+- Requests: none added or removed. watch.json rebuilt (49 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T04:40:00Z",
-  "capture": "2026-11-21T0401Z",
+  "updated_at": "2026-11-21T05:16:22Z",
+  "capture": "2026-11-21T0505Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -80,12 +80,6 @@
       "also": []
     },
     {
-      "id": "2123939668072992866",
-      "desk": "politics",
-      "line": "Acyn posts a video of Pirro speaking about Mamdani and Rikers Island. She says the effort is meant to put fewer people in jail and calls it part of a \"socialist agenda\". Her claim is not checked here.",
-      "also": []
-    },
-    {
       "id": "2123884717204533414",
       "desk": "politics",
       "line": "The Vice President's account says CMS revoked or suspended 900 durable medical equipment providers, saving taxpayers $1.6 billion. The figures are the account's and are not checked here.",
@@ -95,18 +89,6 @@
       "id": "2123770967508070738",
       "desk": "disaster",
       "line": "ABC News reports life-threatening flooding on both U.S. coasts. It says days of rain have left some Florida neighborhoods under water and another powerful storm is aimed at the West.",
-      "also": []
-    },
-    {
-      "id": "2123934461444173873",
-      "desk": "markets",
-      "line": "Reuters reports that Bitcoin has fallen below the $60,000 level.",
-      "also": []
-    },
-    {
-      "id": "2123937091583082559",
-      "desk": "business",
-      "line": "Reuters reports, citing sources, an exclusive: Nvidia's accounting is a focus of a U.S. Securities and Exchange Commission investigation. Not checked here.",
       "also": []
     },
     {
@@ -260,15 +242,33 @@
       "also": []
     },
     {
-      "id": "2123983677495349408",
-      "desk": "markets",
-      "line": "Watcher Guru says Bitcoin has fallen under $57,000 for the first time in over two years and that $385 million was liquidated from the crypto market in five minutes. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2123901153821782284",
       "desk": "offbeat",
       "line": "Nature Unedited posts a video of a whale and says the discomfort the whale had endured for years disappeared in 30 seconds. What the video shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123993284066283855",
+      "desk": "markets",
+      "line": "Watcher Guru says crypto keeps falling: Bitcoin under $56,000, Ether under $1,550, and $650,000,000 in leveraged positions liquidated in the past hour. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123783128141766717",
+      "desk": "medicine",
+      "line": "Polymarket says a new pancreatic cancer drug, daraxonrasib, halted tumor growth in 90% of patients in an early trial. The post names no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123868741825966346",
+      "desk": "entertainment",
+      "line": "TMZ says Macaulay Culkin is returning as Kevin McCallister in a \"Home Alone\" sequel. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123977131747123526",
+      "desk": "sports",
+      "line": "The NBA says James Harden scored 51 points, the most he has scored as a Cavalier, as Cleveland moved to 2-1 in Emirates NBA Cup group play.",
       "also": []
     }
   ]
