@@ -7430,3 +7430,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json swapped two ids for the two new ones. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T15:20Z
+- Captures read: 1503Z on 11-21 (108 posts). Last read: 1503Z.
+- X's check: 1503Z 104 confirmed, 0 missing, 0 mismatched, 0 withheld. 1405Z still 2 mismatched (2124115610795663738, 2124119385153360240, game ads, not used); 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (1 new, 1 dropped): replaced Elon Musk's "Playing GTA VI with Telepathy" (medicine) with the Neuralink origin post (tech), Musk's post attached in `also`. The build shows 40 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: EndWokeness posts (old_content, or a face-reading pile-on); Fabrizio Romano's Real Madrid posts (account already on the pulse); WWE Team USA tease (sports crowded); Hannity and Rupar clips (politics crowded, accounts held); JoJoJosiah stream post (point unclear); Tobi Bakre series promo (promotion). For the next story pass: the Neuralink GTA VI demo, if it keeps spreading.
+- Requests: none added or removed. watch.json gained the Neuralink id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

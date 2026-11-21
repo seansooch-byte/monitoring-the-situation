@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T14:35:00Z",
-  "capture": "2026-11-21T1405Z",
+  "updated_at": "2026-11-21T15:14:14Z",
+  "capture": "2026-11-21T1503Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -235,10 +235,12 @@
       "also": []
     },
     {
-      "id": "2124028719190749681",
-      "desk": "medicine",
-      "line": "Elon Musk posts \"Playing GTA VI with Telepathy\" with a link. He does not say who is playing or how; the post it quotes is not in the record here. Not checked here.",
-      "also": []
+      "id": "2123890949029818800",
+      "desk": "tech",
+      "line": "Neuralink posts a 2-minute video titled \"Playing GTA VI with a Neuralink\". The post does not say who is playing or how the controls work. Elon Musk quote-posts it with \"Playing GTA VI with Telepathy\".",
+      "also": [
+        "2124028719190749681"
+      ]
     },
     {
       "id": "2123816257136865791",
