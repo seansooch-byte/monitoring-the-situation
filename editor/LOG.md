@@ -7301,3 +7301,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none opened or removed. watch.json rebuilt to the pulse plus the pinned post (29 ids; no stories in the last 48 hours). plan.json rebuilt.
 - Shipped: see the commit and ship output in the report.
 - For the main editor: nothing new. The grabber's store spill (#265) is over. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T02:35Z
+- Captures read: 0203Z on 11-21 (116 posts). Last read: 0203Z.
+- X's check: 0203Z 111 confirmed, 1 mismatched (2121132013595844894, @thebodynetflix, old post, text differs only in invisible characters or normalisation), 1 withheld. 0104Z unchanged. The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 35 items (9 added from 0203Z: MAMA, Mamdani injury report, Trump AI guardrails clip, Colts, Dodgers, Rupar clip, Pax Silica bill, Riemann video, Taibbi). Held back by the build: elonmusk, discussingfilm, reuters x2.
+- Added: none. Updated: none (story pass, no story written).
+- Left out: all story candidates. I searched for the Nasdaq and Bitcoin selloff, GTA 6 first-day sales and the Zelensky overnight attack. The searches returned nothing that matched this week's posts (mixed 2025 and 2026 items, other figures). The GTA 6 search found only unconfirmed reports of about $3 billion, not the $3.79 billion in the posts, so the pulse line keeps "Not checked here." Nothing was confirmed outside X, so no story. Also left out: the Palisades Fire verdict (names a private person), the Elon reply posts, old-content posts, the Babylon Bee satire headline.
+- Requests: none added or removed. watch.json rebuilt (38 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
