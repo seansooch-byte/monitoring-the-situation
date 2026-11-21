@@ -7511,3 +7511,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained three ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T23:20Z
+- Captures read: 2302Z on 11-21 (102 posts). Last read: 2302Z.
+- X's check: 2302Z 91 confirmed, 0 missing, 1 mismatched (2099318576867913908, proofofworkme, old post, not used), 2 withheld (2095115226316488729, 2121348206969921898, not used). Older mismatches unchanged (none used). The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 41 items (0 new, 3 dropped): Zelensky's overnight attack update, Rahul Gandhi's Hindi post and Dexerto's Broncos post, all past 36 hours. The build shows 38 and holds back 3 under one place per account. World is down to one item; nothing new on it was safe to show.
+- Added: none. Updated: none (pulse pass).
+- Left out: Putin bodyguard posts (siradisi_bilim, joeroganhq: claims about a real person, unchecked); the NPC and Leonida GTA 6 posts (gaming full); the Carmelo Anthony and Humphrey clip and The Rock on College GameDay (sports full); the Georgia Tech couple post and the Hindi video (private individual flags); Homan's "We don't" clip (claim about real people, no outside confirmation here); Musk's other posts (account already on the pulse).
+- Requests: none added or removed. watch.json lost the three dropped ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

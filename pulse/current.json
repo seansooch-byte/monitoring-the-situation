@@ -1,18 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T22:35:00Z",
-  "capture": "2026-11-21T2204Z",
+  "updated_at": "2026-11-21T23:20:00Z",
+  "capture": "2026-11-21T2302Z",
   "items": [
     {
       "id": "2123852660688494744",
       "desk": "ai",
       "line": "Elon Musk jokes about \"Singularity dot Com\", a dating site for digital superintelligences.",
-      "also": []
-    },
-    {
-      "id": "2123728708242481257",
-      "desk": "world",
-      "line": "Ukraine's president Volodymyr Zelensky says that since last night Russia has launched more than 400 attack drones and over 110 missiles, 27 of them ballistic, spread across many cities and regions. Not checked here.",
       "also": []
     },
     {
@@ -132,24 +126,12 @@
       "also": []
     },
     {
-      "id": "2123730351851999638",
-      "desk": "world",
-      "line": "Rahul Gandhi posts in Hindi. He says that Modi's complaint that industrialists did not raise pay or create jobs after tax cuts is a confession, and accuses Modi's policies of harming small businesses.",
-      "also": []
-    },
-    {
       "id": "2123852403724439956",
       "desk": "politics",
       "line": "Ed Krassenstein posts a 28-second clip of President Trump with Stephen Miller at the White House podium. He says Trump seemingly endorsed Miller for president over JD Vance and Marco Rubio. Polymarket describes the same exchange as Trump asking Miller if he would like to run in 2028. Not checked here.",
       "also": [
         "2123873514625159179"
       ]
-    },
-    {
-      "id": "2123733172298875265",
-      "desk": "sports",
-      "line": "Dexerto says the Denver Broncos are bringing Umamusume horse girls to the NFL. It says Gold Ship and Mejiro McQueen will appear at the team's December 6 game against the Miami Dolphins. Not checked here.",
-      "also": []
     },
     {
       "id": "2124152725722059007",
