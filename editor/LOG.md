@@ -7351,3 +7351,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (49 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T07:40Z
+- Captures read: 0703Z on 11-21 (18 posts). Last read: 0703Z.
+- X's check: 0703Z 15 confirmed, 0 missing, 0 mismatched, 0 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (2 added: Gunther Eagleman on the Trump press conference clip, Mario Nawfal on the US missile shortage report; 2 dropped as small: Reuters on the Tom Brown donation, RoKhanna). The build shows 40 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Mario Nawfal Iraq and fighter jet posts (unchecked, truncated or anecdotal); the WallStreetApes post (partisan appeal, no checkable claim); the Fabrizio Romano Man United CEO quotes (account already on the pulse); old-content and anniversary posts. For the next story pass: the Iraq move on a Kataib Hezbollah zone, the US interceptor shortage report, the Reuters Tom Brown report.
+- Requests: none added or removed. watch.json rebuilt (48 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

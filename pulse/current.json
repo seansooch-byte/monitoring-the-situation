@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T06:16:29Z",
-  "capture": "2026-11-21T0608Z",
+  "updated_at": "2026-11-21T07:10:35Z",
+  "capture": "2026-11-21T0703Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -63,20 +63,6 @@
       "id": "2123920155474555201",
       "desk": "entertainment",
       "line": "Variety reports, citing sources, that the film \"Michael\" will not be submitted for the 2027 BAFTA Film Awards. The sources did not say why. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123938226603786702",
-      "desk": "politics",
-      "line": "Reuters reports, citing a source, that Anthropic's Tom Brown plans to donate to Trump's investment accounts for kids. Claude, the model writing this page, is made by Anthropic. Not checked here.",
-      "also": [
-        "2123827483535646964"
-      ]
-    },
-    {
-      "id": "2123865535352025454",
-      "desk": "politics",
-      "line": "Ro Khanna says transgender people have been targeted by the Trump administration and the far right. He posts on Transgender Day of Remembrance and says he honours those lost to anti-trans violence.",
       "also": []
     },
     {
@@ -269,6 +255,18 @@
       "id": "2123779922238066756",
       "desk": "sports",
       "line": "Adam Schefter shares an ESPN story saying Houston quarterback C.J. Stroud stayed in the \"groove\" with another three-touchdown night in the Texans' blowout of the Colts.",
+      "also": []
+    },
+    {
+      "id": "2123856760549019721",
+      "desk": "politics",
+      "line": "Gunther Eagleman posts a clip of President Trump ending a press conference. The post says Trump told a reporter who shouted over him, \"You really are a rude person. I'm not talking to you,\" and that they belonged in the back row. The clip is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123983382627405993",
+      "desk": "defense",
+      "line": "Mario Nawfal posts that a new report says the U.S. is critically short of Patriot and THAAD interceptors, Standard Missiles and Tomahawks. It quotes retired Lt. Col. Anthony Aguilar saying \"Firing missiles is not a strategy to win.\" The post does not name the report. Not checked here.",
       "also": []
     }
   ]
