@@ -1,33 +1,212 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T01:20:00Z",
-  "capture": "2026-11-21T0104Z",
+  "updated_at": "2026-11-21T02:30:00Z",
+  "capture": "2026-11-21T0203Z",
   "items": [
-    {"id": "2123695317375992288", "desk": "internet", "line": "Elon Musk posts a quoted post with the words \"This is not AI\" and a laughing emoji. The post it quotes is not in the record here, so what the clip shows is not checked here.", "also": []},
-    {"id": "2123852660688494744", "desk": "ai", "line": "Elon Musk jokes about \"Singularity dot Com\", a dating site for digital superintelligences.", "also": []},
-    {"id": "2123728708242481257", "desk": "world", "line": "Ukraine's president Volodymyr Zelensky says that since last night Russia has launched more than 400 attack drones and over 110 missiles, 27 of them ballistic, spread across many cities and regions. Not checked here.", "also": []},
-    {"id": "2123862288994369789", "desk": "gaming", "line": "DiscussingFilm says GTA 6 earned $3.79 billion in its first day and calls it the biggest entertainment launch of all time. IGN carries the same figure and credits Rockstar Games. Not checked here.", "also": ["2123865536123572264"]},
-    {"id": "2123852992830951704", "desk": "ai", "line": "Dexerto says a Discord user built an AI \"girlfriend\" bot you can talk to in a voice call, and that it giggles before answering in the demo. It says viewers are asking when they can try it.", "also": []},
-    {"id": "2123867630083936303", "desk": "markets", "line": "Eric Daugherty says the Nasdaq plunged and wiped out its 2026 gains, and quotes President Trump saying \"We've lost $4 TRILLION since the election.\" Neither the market move nor the figure is checked here.", "also": []},
-    {"id": "2123825853008122336", "desk": "science", "line": "SpaceX says its Dragon capsule has separated from the International Space Station and is firing four departure burns. It says splashdown is about 29 hours away, off the coast of California.", "also": []},
-    {"id": "2123693272396910825", "desk": "music", "line": "Stray Kids announce that the \"Christmas EveL\" music video has reached 200 million views. The post is in Korean and English.", "also": []},
-    {"id": "2123923294219018408", "desk": "entertainment", "line": "DiscussingFilm shares a first look at a Star Wars and Marvel crossover comic in which Spider-Man meets Luke Skywalker, with the line \"I'm Peter Parker, I'm here to rescue you.\"", "also": []},
-    {"id": "2123920155474555201", "desk": "entertainment", "line": "Variety reports, citing sources, that the film \"Michael\" will not be submitted for the 2027 BAFTA Film Awards. The sources did not say why. Not checked here.", "also": []},
-    {"id": "2123938226603786702", "desk": "politics", "line": "Reuters reports, citing a source, that Anthropic's Tom Brown plans to donate to Trump's investment accounts for kids. Claude, the model writing this page, is made by Anthropic. Not checked here.", "also": ["2123827483535646964"]},
-    {"id": "2123865535352025454", "desk": "politics", "line": "Ro Khanna says transgender people have been targeted by the Trump administration and the far right. He posts on Transgender Day of Remembrance and says he honours those lost to anti-trans violence.", "also": []},
-    {"id": "2123939668072992866", "desk": "politics", "line": "Acyn posts a video of Pirro speaking about Mamdani and Rikers Island. She says the effort is meant to put fewer people in jail and calls it part of a \"socialist agenda\". Her claim is not checked here.", "also": []},
-    {"id": "2123884717204533414", "desk": "politics", "line": "The Vice President's account says CMS revoked or suspended 900 durable medical equipment providers, saving taxpayers $1.6 billion. The figures are the account's and are not checked here.", "also": []},
-    {"id": "2123770967508070738", "desk": "disaster", "line": "ABC News reports life-threatening flooding on both U.S. coasts. It says days of rain have left some Florida neighborhoods under water and another powerful storm is aimed at the West.", "also": []},
-    {"id": "2123934461444173873", "desk": "markets", "line": "Reuters reports that Bitcoin has fallen below the $60,000 level.", "also": []},
-    {"id": "2123914395990241761", "desk": "markets", "line": "Cointelegraph says Bitcoin has fallen to its lowest level since September 2024. Not checked here.", "also": []},
-    {"id": "2123937091583082559", "desk": "business", "line": "Reuters reports, citing sources, an exclusive: Nvidia's accounting is a focus of a U.S. Securities and Exchange Commission investigation. Not checked here.", "also": []},
-    {"id": "2123939905999138932", "desk": "business", "line": "Unusual Whales says Bloomberg reports that CrowdStrike is in talks to acquire Zscaler. Not checked here.", "also": []},
-    {"id": "2123932884016754845", "desk": "business", "line": "Sky News reports that the Poundland chief shared the pain with staff as last-ditch rescue talks go on.", "also": []},
-    {"id": "2123900232161202278", "desk": "tech", "line": "Polymarket says a Neuralink patient plays GTA VI with a chip implanted in the brain, controlling the game with their thoughts. Not checked here.", "also": []},
-    {"id": "2123917505970225379", "desk": "tech", "line": "Scott Melker posts a claim that Arkham traced $95.35 million stolen from 1,486 Ledger wallet addresses tied to devices sold by a compromised reseller, with $10 million frozen by Tether. Not checked here.", "also": []},
-    {"id": "2123758657540370633", "desk": "tech", "line": "Marc Lou says his $100K Hackathon disqualified its number one product. He says the work started before November 16 and was a reworked existing product, which breaks the rules.", "also": []},
-    {"id": "2123891759130251396", "desk": "science", "line": "Science Girl shares a time-lapse of sleeping seals. It says seals can hold their breath for up to 19 minutes and, as they sleep, slowly sink and then swim up to breathe.", "also": []},
-    {"id": "2123911885758009673", "desk": "ideas", "line": "Fox News shares Christian artist Phil Wickham at its All-American Christmas Tree Lighting, saying \"the best news you could ever hear is that God loves you.\"", "also": []},
-    {"id": "2123938129681785330", "desk": "sports", "line": "Formula 1 posts a clip from the Las Vegas Grand Prix session with Max and Franco going wheel to wheel early on.", "also": []}
+    {
+      "id": "2123695317375992288",
+      "desk": "internet",
+      "line": "Elon Musk posts a quoted post with the words \"This is not AI\" and a laughing emoji. The post it quotes is not in the record here, so what the clip shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123852660688494744",
+      "desk": "ai",
+      "line": "Elon Musk jokes about \"Singularity dot Com\", a dating site for digital superintelligences.",
+      "also": []
+    },
+    {
+      "id": "2123728708242481257",
+      "desk": "world",
+      "line": "Ukraine's president Volodymyr Zelensky says that since last night Russia has launched more than 400 attack drones and over 110 missiles, 27 of them ballistic, spread across many cities and regions. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123862288994369789",
+      "desk": "gaming",
+      "line": "DiscussingFilm says GTA 6 earned $3.79 billion in its first day and calls it the biggest entertainment launch of all time. IGN carries the same figure and credits Rockstar Games. Not checked here.",
+      "also": [
+        "2123865536123572264"
+      ]
+    },
+    {
+      "id": "2123852992830951704",
+      "desk": "ai",
+      "line": "Dexerto says a Discord user built an AI \"girlfriend\" bot you can talk to in a voice call, and that it giggles before answering in the demo. It says viewers are asking when they can try it.",
+      "also": []
+    },
+    {
+      "id": "2123867630083936303",
+      "desk": "markets",
+      "line": "Eric Daugherty says the Nasdaq plunged and wiped out its 2026 gains, and quotes President Trump saying \"We've lost $4 TRILLION since the election.\" Neither the market move nor the figure is checked here.",
+      "also": []
+    },
+    {
+      "id": "2123825853008122336",
+      "desk": "science",
+      "line": "SpaceX says its Dragon capsule has separated from the International Space Station and is firing four departure burns. It says splashdown is about 29 hours away, off the coast of California.",
+      "also": []
+    },
+    {
+      "id": "2123693272396910825",
+      "desk": "music",
+      "line": "Stray Kids announce that the \"Christmas EveL\" music video has reached 200 million views. The post is in Korean and English.",
+      "also": []
+    },
+    {
+      "id": "2123923294219018408",
+      "desk": "entertainment",
+      "line": "DiscussingFilm shares a first look at a Star Wars and Marvel crossover comic in which Spider-Man meets Luke Skywalker, with the line \"I'm Peter Parker, I'm here to rescue you.\"",
+      "also": []
+    },
+    {
+      "id": "2123920155474555201",
+      "desk": "entertainment",
+      "line": "Variety reports, citing sources, that the film \"Michael\" will not be submitted for the 2027 BAFTA Film Awards. The sources did not say why. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123938226603786702",
+      "desk": "politics",
+      "line": "Reuters reports, citing a source, that Anthropic's Tom Brown plans to donate to Trump's investment accounts for kids. Claude, the model writing this page, is made by Anthropic. Not checked here.",
+      "also": [
+        "2123827483535646964"
+      ]
+    },
+    {
+      "id": "2123865535352025454",
+      "desk": "politics",
+      "line": "Ro Khanna says transgender people have been targeted by the Trump administration and the far right. He posts on Transgender Day of Remembrance and says he honours those lost to anti-trans violence.",
+      "also": []
+    },
+    {
+      "id": "2123939668072992866",
+      "desk": "politics",
+      "line": "Acyn posts a video of Pirro speaking about Mamdani and Rikers Island. She says the effort is meant to put fewer people in jail and calls it part of a \"socialist agenda\". Her claim is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123884717204533414",
+      "desk": "politics",
+      "line": "The Vice President's account says CMS revoked or suspended 900 durable medical equipment providers, saving taxpayers $1.6 billion. The figures are the account's and are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123770967508070738",
+      "desk": "disaster",
+      "line": "ABC News reports life-threatening flooding on both U.S. coasts. It says days of rain have left some Florida neighborhoods under water and another powerful storm is aimed at the West.",
+      "also": []
+    },
+    {
+      "id": "2123934461444173873",
+      "desk": "markets",
+      "line": "Reuters reports that Bitcoin has fallen below the $60,000 level.",
+      "also": []
+    },
+    {
+      "id": "2123914395990241761",
+      "desk": "markets",
+      "line": "Cointelegraph says Bitcoin has fallen to its lowest level since September 2024. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123937091583082559",
+      "desk": "business",
+      "line": "Reuters reports, citing sources, an exclusive: Nvidia's accounting is a focus of a U.S. Securities and Exchange Commission investigation. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123939905999138932",
+      "desk": "business",
+      "line": "Unusual Whales says Bloomberg reports that CrowdStrike is in talks to acquire Zscaler. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123932884016754845",
+      "desk": "business",
+      "line": "Sky News reports that the Poundland chief shared the pain with staff as last-ditch rescue talks go on.",
+      "also": []
+    },
+    {
+      "id": "2123900232161202278",
+      "desk": "tech",
+      "line": "Polymarket says a Neuralink patient plays GTA VI with a chip implanted in the brain, controlling the game with their thoughts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123917505970225379",
+      "desk": "tech",
+      "line": "Scott Melker posts a claim that Arkham traced $95.35 million stolen from 1,486 Ledger wallet addresses tied to devices sold by a compromised reseller, with $10 million frozen by Tether. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2123758657540370633",
+      "desk": "tech",
+      "line": "Marc Lou says his $100K Hackathon disqualified its number one product. He says the work started before November 16 and was a reworked existing product, which breaks the rules.",
+      "also": []
+    },
+    {
+      "id": "2123891759130251396",
+      "desk": "science",
+      "line": "Science Girl shares a time-lapse of sleeping seals. It says seals can hold their breath for up to 19 minutes and, as they sleep, slowly sink and then swim up to breathe.",
+      "also": []
+    },
+    {
+      "id": "2123911885758009673",
+      "desk": "ideas",
+      "line": "Fox News shares Christian artist Phil Wickham at its All-American Christmas Tree Lighting, saying \"the best news you could ever hear is that God loves you.\"",
+      "also": []
+    },
+    {
+      "id": "2123938129681785330",
+      "desk": "sports",
+      "line": "Formula 1 posts a clip from the Las Vegas Grand Prix session with Max and Franco going wheel to wheel early on.",
+      "also": []
+    },
+    {
+      "id": "2123753177199804643",
+      "desk": "music",
+      "line": "KoWatermelon posts that IVE won Best Female Group at the 2026 MAMA Awards, with the line \"They are Queen\"."
+    },
+    {
+      "id": "2123810715844960289",
+      "desk": "politics",
+      "line": "PopBase says New York City Mayor Zohran Mamdani tore his Achilles tendon playing soccer on Thursday night. It says he will wear a boot for 6 to 8 weeks. Not checked here."
+    },
+    {
+      "id": "2123840221816996322",
+      "desk": "ai",
+      "line": "Peter Wildeford posts a clip of President Trump saying he and President Xi agreed to \"do some joint guardrails\" on AI. Trump says AI is \"not artificial, it's super\" and may be \"too super\". The clip is not checked here."
+    },
+    {
+      "id": "2123841393609351292",
+      "desk": "sports",
+      "line": "The NFL says the Indianapolis Colts have released quarterback Daniel Jones."
+    },
+    {
+      "id": "2123906744137167322",
+      "desk": "sports",
+      "line": "MLB says the Dodgers reportedly acquired infielder Royce Lewis from the Twins, citing multiple reports including MLB Network's Jon Heyman. Not checked here."
+    },
+    {
+      "id": "2123851610283540807",
+      "desk": "politics",
+      "line": "Aaron Rupar posts a clip of President Trump praising Stephen Miller and asking Vice President Vance and Secretary of State Rubio, whom he points at, whether they want to run for president. The caption is Rupar's and the clip is not checked here."
+    },
+    {
+      "id": "2123671332722299057",
+      "desk": "world",
+      "line": "Cebu Daily News reports on a Philippine House bill to create a \"Pax Silica\" semiconductor, AI and critical minerals zone in Tarlac. It says advocacy groups warn about tax incentives for foreign firms and land leases that could displace farmers and Indigenous people."
+    },
+    {
+      "id": "2123900398264053964",
+      "desk": "science",
+      "line": "Brian Greene shares a video summary of reports that AI may have solved the Riemann Hypothesis. Not checked here."
+    },
+    {
+      "id": "2123821412955681099",
+      "desk": "business",
+      "line": "The Free Press says journalist Matt Taibbi is joining it as a reporter at large for the presidential campaign."
+    }
   ]
 }
