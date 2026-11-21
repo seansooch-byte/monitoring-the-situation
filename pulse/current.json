@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T05:16:22Z",
-  "capture": "2026-11-21T0505Z",
+  "updated_at": "2026-11-21T06:16:29Z",
+  "capture": "2026-11-21T0608Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -80,12 +80,6 @@
       "also": []
     },
     {
-      "id": "2123884717204533414",
-      "desk": "politics",
-      "line": "The Vice President's account says CMS revoked or suspended 900 durable medical equipment providers, saving taxpayers $1.6 billion. The figures are the account's and are not checked here.",
-      "also": []
-    },
-    {
       "id": "2123770967508070738",
       "desk": "disaster",
       "line": "ABC News reports life-threatening flooding on both U.S. coasts. It says days of rain have left some Florida neighborhoods under water and another powerful storm is aimed at the West.",
@@ -107,12 +101,6 @@
       "id": "2123758657540370633",
       "desk": "tech",
       "line": "Marc Lou says his $100K Hackathon disqualified its number one product. He says the work started before November 16 and was a reworked existing product, which breaks the rules.",
-      "also": []
-    },
-    {
-      "id": "2123891759130251396",
-      "desk": "science",
-      "line": "Science Girl shares a time-lapse of sleeping seals. It says seals can hold their breath for up to 19 minutes and, as they sleep, slowly sink and then swim up to breathe.",
       "also": []
     },
     {
@@ -269,6 +257,18 @@
       "id": "2123977131747123526",
       "desk": "sports",
       "line": "The NBA says James Harden scored 51 points, the most he has scored as a Cavalier, as Cleveland moved to 2-1 in Emirates NBA Cup group play.",
+      "also": []
+    },
+    {
+      "id": "2123975737107493302",
+      "desk": "sports",
+      "line": "Fabrizio Romano quotes Manchester United CEO Omar Berrada, speaking to Sky Sports, on new coach Mauricio Pochettino. Berrada says he has experience, passion and energy and is as ambitious as the club about winning titles.",
+      "also": []
+    },
+    {
+      "id": "2123779922238066756",
+      "desk": "sports",
+      "line": "Adam Schefter shares an ESPN story saying Houston quarterback C.J. Stroud stayed in the \"groove\" with another three-touchdown night in the Texans' blowout of the Colts.",
       "also": []
     }
   ]

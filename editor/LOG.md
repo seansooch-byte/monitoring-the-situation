@@ -7341,3 +7341,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt (49 ids). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T06:35Z
+- Captures read: 0608Z on 11-21 (18 posts). Last read: 0608Z.
+- X's check: 0608Z 12 confirmed, 0 missing, 0 mismatched, 0 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (2 added: Fabrizio Romano on the Man United CEO and Pochettino, Adam Schefter on Stroud and the Texans; 2 dropped as small: VP account on CMS revocations, Science Girl seals). The build shows 40 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Polymarket Jensen Huang posts and the TMZ Kentucky officer post (accusations about named or private people); the Bleacher Report Mamdani post (PopBase already carries it); the Bowen Yang apology (names a slur); Kobeissi and burrytracker market posts (financial advice); the Chinese EV and Eliasch posts (unchecked claims); old-content posts. For the next story pass: the Lutnick and Pure Lithium report, the Nvidia SEC accounting report, the Capricor FDA decision, the Bitcoin fall under $56,000, the Huang NYT report.
+- Requests: none added or removed. watch.json rebuilt (49 ids). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
