@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-21T17:14:47Z",
-  "capture": "2026-11-21T1702Z",
+  "updated_at": "2026-11-21T18:22:23Z",
+  "capture": "2026-11-21T1808Z",
   "items": [
     {
       "id": "2123695317375992288",
@@ -104,11 +104,6 @@
       "line": "The NFL says the Indianapolis Colts have released quarterback Daniel Jones."
     },
     {
-      "id": "2123671332722299057",
-      "desk": "world",
-      "line": "Cebu Daily News reports on a Philippine House bill to create a \"Pax Silica\" semiconductor, AI and critical minerals zone in Tarlac. It says advocacy groups warn about tax incentives for foreign firms and land leases that could displace farmers and Indigenous people."
-    },
-    {
       "id": "2123900398264053964",
       "desk": "science",
       "line": "Brian Greene shares a video summary of reports that AI may have solved the Riemann Hypothesis. Not checked here."
@@ -134,12 +129,6 @@
       "id": "2123902500986347623",
       "desk": "gaming",
       "line": "CultureCrave says \"Grand Theft Auto 6\" has been review-bombed by users on Metacritic and shows a 4.9 rating. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123667978696925384",
-      "desk": "internet",
-      "line": "A user posts a joke that a very hot shower is bad for skin and hair, but \"being boiled alive\" is good for their mental health.",
       "also": []
     },
     {
@@ -265,6 +254,12 @@
       "id": "2123797980742607193",
       "desk": "politics",
       "line": "Bleacher Report says New York City Mayor Zohran Mamdani said he tore his Achilles playing soccer on Thursday night, will be in a boot for 6 to 8 weeks and expects to play soccer again in nine months. Not checked here."
+    },
+    {
+      "id": "2124123812912669088",
+      "desk": "gaming",
+      "line": "The account TheGameVerse posts an 11-second video it calls the funniest GTA 6 clip it has seen so far. The clip is not described in the record, so what it shows is not checked here.",
+      "also": []
     }
   ]
 }
