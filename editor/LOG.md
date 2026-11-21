@@ -7480,3 +7480,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json swapped three ids for three (53). plan.json rebuilt.
 - Shipped: yes, commit 1d9c2aea (log entry in the next commit), live audit see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T20:30Z
+- Captures read: 2008Z on 11-21 (56 posts). Last read: 2008Z.
+- X's check: 2008Z 52 confirmed, 0 missing, 0 mismatched, 1 withheld (2124215312451317829, DiscussingFilm GTA 6 sitcom post, not used). 1808Z still 1 mismatched (2123843603533365577, not used); 1702Z still 1 mismatched (2124013278246420854, F1, not used); 1405Z still 2 mismatched (game ads, not used); 0203Z still 1 mismatched (2121132013595844894). The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 42 items (0 new, 1 dropped): dropped Elon Musk's "This is not AI" quote post (at 36 hours). The build shows 38 and holds back 4 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Riemann explanation posts (account already on the pulse; the proof claim is not checked here, for the next story pass); RabbiJeffx's FBI museum post and GMCNews24's Patel clip (claims about real people, no outside confirmation here); DemzDeliver's game-ownership bill post (politics already has three items, no outside confirmation of the bill); Polymarket's Jensen Huang posts (claim about a real person, unconfirmed); ekonomat_pl and dziki_zachod hitchhiker posts (private individual, not English); iamMrMarfo1 and the TMZ Kentucky post (private individuals); mattvanswol (private individual flag).
+- Requests: none added or removed. watch.json lost the dropped id. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
