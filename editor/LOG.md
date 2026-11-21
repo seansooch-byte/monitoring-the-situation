@@ -7470,3 +7470,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json swapped two ids for one. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T19:20Z
+- Captures read: 1902Z on 11-21 (91 posts). Last read: 1902Z.
+- X's check: 1902Z 86 confirmed, 0 missing, 0 mismatched, 0 withheld. 1808Z still 1 mismatched (2123843603533365577, not used); 1702Z still 1 mismatched (2124013278246420854, F1, not used); 1405Z still 2 mismatched (game ads, not used); 0203Z still 1 mismatched (2121132013595844894). The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 43 items (3 new, 3 dropped): dropped Stray Kids' video post (35 hours, no longer among the largest), Fabrizio Romano's Berrada quote and Kpop Charts' BTS post, which gave their accounts' place to larger posts: Romano's Doue injury post and Kpop Charts' CORTIS Song of the Year post (both new). Also added Kraken support's statement on the CAD-pair selling. The build shows 38 and holds back 5 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Polymarket's Jensen Huang posts (a claim about a real person, no outside confirmation; for the next story pass); ekonomat_pl and dziki_zachod hitchhiker posts (private individual, not English); iamMrMarfo1 and the TMZ Kentucky post (private individuals); boatsdotcom, GameJoker_ and imacelebrity (point unclear); DiscussingFilm's GTA 6 NPC post (account already on the pulse); GrantCardone's Nvidia claim (about a real person, unconfirmed).
+- Requests: none added or removed. watch.json swapped three ids for three (53). plan.json rebuilt.
+- Shipped: yes, commit 1d9c2aea (log entry in the next commit), live audit see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
