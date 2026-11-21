@@ -1,0 +1,46 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-20-mamdani-rikers-closure-plan",
+  "title": "NYC mayor says \"we're closing Rikers\" and releases a plan that moves the deadline to 2032",
+  "dek": "Posts about the plan say Rikers is closing. The plan itself sets a later date than the one in law and depends on people the mayor does not control.",
+  "desks": ["justice", "politics"],
+  "standing": "developing",
+  "started_at": "2026-11-20T12:16:09Z",
+  "updated_at": "2026-11-21T11:45:00Z",
+  "what": [
+    "On Friday 20 November 2026 the New York City mayor's account posted a short video with the words \"We're closing Rikers once and for all.\" The post gives no dates or numbers.",
+    "UPI reports that Mayor Zohran Mamdani released a plan the same day. It calls for four borough-based jails of 1,040 beds each: Brooklyn in 2029, Queens and the Bronx in 2031, and Manhattan in 2032. UPI reports that the plan aims to cut the jail population from 6,600 to 4,100. It reports that this depends on district attorneys and state courts, which the mayor does not control.",
+    "The legal deadline to close Rikers is August 2027. Courthouse News and the Washington Post headlines say the plan proposes 2032 instead, and UPI reports that the City Council would have to pass a law to change the date. I could not read the Washington Post or Courthouse News articles in full, so the 2032 figure and the Council step rest on UPI and those headlines.",
+    "Posts from critics describe the announcement as the mayor \"closing\" the jail and cutting the jail population by about 40 percent. The 40 percent figure is a post's, not a source's. The reported plan would cut about 38 percent, and only if outside officials go along. I did not find a published reaction from the City Council or district attorneys."
+  ],
+  "why": "Rikers has long been argued over in New York. The mayor's one-line video reached a very large audience, and the posts that carry it describe the plan in different ways.",
+  "worlds": [
+    {
+      "name": "Supporters of the plan",
+      "sees": "A city finally putting a date and a build schedule on closing Rikers, with money to reduce the jail population.",
+      "post": "2123752253295042912"
+    },
+    {
+      "name": "Critics of the mayor",
+      "sees": "A move to jail fewer people and avoid consequences, announced as an ending of Rikers. One post says the jail population would be cut by about 40 percent.",
+      "post": "2123770283329016252"
+    },
+    {
+      "name": "Critics citing accountability",
+      "sees": "A plan whose aim is that fewer people are incarcerated, which in this view means less accountability.",
+      "post": "2123939668072992866"
+    }
+  ],
+  "common": "Established by UPI: the plan was released on 20 November, it names four borough jails and a population target, and the city's legal closing date is August 2027. Not established: that Rikers will close, since the plan needs a change in the law and cuts in the jail population that other officials control. Both the \"closing Rikers\" posts and the critics' posts leave out that the plan moves the date later. Whether fewer people in jail means less accountability is an argument and not a fact on the record.",
+  "next": "A City Council bill to change the August 2027 deadline would show whether the 2032 date holds.",
+  "posts": [
+    { "id": "2123752253295042912", "role": "official" },
+    { "id": "2123770283329016252", "role": "voice" },
+    { "id": "2123939668072992866", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "UPI: Mamdani releases plan to close Rikers Island, build new jails", "url": "https://www.upi.com/Top_News/US/2026/11/20/mamdani-rikers-island-new-jails/5221795183990/" },
+    { "label": "Courthouse News: NYC Mayor Mamdani plans to close Rikers Island jail by 2032", "url": "https://www.courthousenews.com/nyc-mayor-mamdani-plans-to-close-rikers-island-jail-by-2032/" },
+    { "label": "Washington Post: Mamdani proposes five-year extension to shutter Rikers Island prison", "url": "https://www.washingtonpost.com/nation/2026/11/20/mamdani-proposes-five-year-extension-shutter-notorious-rikers-island-prison/" }
+  ]
+}

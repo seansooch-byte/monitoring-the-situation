@@ -7391,3 +7391,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json and plan.json unchanged.
 - Shipped: no, nothing changed on the site.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T11:55Z
+- Captures read: 1109Z on 11-21 (15 posts). Last read: 1109Z.
+- X's check: 1109Z 15 confirmed, 0 missing, 0 mismatched, 0 withheld. 0203Z still 1 mismatched (2121132013595844894, as logged). The build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: unchanged, 45 items (40 shown), none older than 36 hours; the new posts are small or from accounts already carried.
+- Added: 2026-11-20-mamdani-rikers-closure-plan (justice). Updated: none (no story was live from the last 48 hours).
+- Left out: the Jensen Huang threat reports (allegation about a named person, unchecked); Stephen Miller podium posts (appointment was 9 Nov, podium event not sourced); the homelessness ruling (my search found older rulings, not the 20-21 Nov one); BioWare "closed today" (announced 22 Oct, no source for the 21 Nov date); Mamdani Achilles injury (small, no outside source read); Bitcoin low, SpaceX lobbyists, El Chapo Isidro, Epstein-Putin, Polish airspace (not researched this pass). For the next story pass: those.
+- Requests: none added or removed. watch.json gained the two new cited posts (2123770283329016252, 2123939668072992866). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
