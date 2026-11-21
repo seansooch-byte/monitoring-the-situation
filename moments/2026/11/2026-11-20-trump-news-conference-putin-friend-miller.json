@@ -1,0 +1,31 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-20-trump-news-conference-putin-friend-miller",
+  "title": "Trump, asked if Putin is a friend to America, says \"I can't speak to America\"; also floats Stephen Miller for president",
+  "dek": "Two lines from a 90-minute White House news conference on 20 November drew the most reaction: one about Russia's nuclear weapons, one about the chief of staff.",
+  "desks": ["politics"],
+  "standing": "developing",
+  "started_at": "2026-11-20T18:14:00Z",
+  "updated_at": "2026-11-21T21:40:00Z",
+  "what": [
+    "On Friday, 20 November 2026, President Trump held a news conference of about 90 minutes in the White House briefing room after a trip to Asia, CNN reports. During the trip he met Chinese President Xi Jinping and Russian President Vladimir Putin in China on the margins of the APEC summit. CNN's transcript of 19 November has Trump greeting Putin with \"Who is he? He's my friend.\"",
+    "CNN's Kaitlan Collins asked Trump whether Putin is a friend to America. Trump answered \"I can't speak to America.\" Posts by Aaron Rupar and Acyn carry the video and the words. The Daily Beast quotes Trump on Russia's nuclear arsenal: \"He's got lots of nuclear, he's second to us in nuclear weapons. It's very good. I think it gives us a lot of additional strength.\" Mark Kelly, a Democratic senator, posted that he is trying to work out what Trump meant by \"additional strength\" and that nuclear missiles pointed at the U.S. are bad for the country.",
+    "CNN reports that Trump called his chief of staff, Stephen Miller, \"the most powerful man in the room right now\" and asked him in front of reporters, \"Do you want to run for president?\" CNN notes Miller had not signaled any 2028 ambitions. Ed Krassen posted that Trump \"seemingly endorsed\" Miller over Vice President JD Vance and Marco Rubio. I did not find Trump naming either of them in what I could read, so that framing is the poster's.",
+    "Trump also spoke about the new Democratic majorities. CNN reports he said \"If they want to get things done, I want to get things done\" and named health care as a possible area for a deal. A post by Rupar quotes him saying \"We could end up with great healthcare in our country.\"",
+    "I could not open CNN's own page, so the CNN details come from a syndicated copy and its transcript archive. I did not find a full transcript of the news conference."
+  ],
+  "why": "Short clips of a few sentences carry well, and each side of the argument over Trump's dealings with Russia got a line to quote.",
+  "next": "Miller has not said whether he wants to run.",
+  "posts": [
+    { "id": "2123842461231411542", "role": "origin" },
+    { "id": "2123842949805183277", "role": "voice" },
+    { "id": "2123994636288938059", "role": "voice" },
+    { "id": "2123852403724439956", "role": "voice" },
+    { "id": "2123846816642789627", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "CNN via KEYT: Trump defends Putin, floats a Stephen Miller presidential run and says he'd work with Dems", "url": "https://keyt.com/politics/cnn-us-politics/2026/11/20/trump-defends-putin-floats-a-stephen-miller-presidential-run-and-says-hed-work-with-dems-news-briefing-takeaways/" },
+    { "label": "CNN transcript, The Source with Kaitlan Collins, 19 November 2026", "url": "https://transcripts.cnn.com/show/skc/date/2026-11-19/segment/01" },
+    { "label": "The Daily Beast: Collins corners Trump on Putin 'friend' claim", "url": "https://thedailybeast.com/cnn-star-kaitlan-collins-corners-trump-on-embarrassing-putin-friend-claim" }
+  ]
+}

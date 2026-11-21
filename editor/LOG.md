@@ -7490,3 +7490,14 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost the dropped id. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-21T21:45Z
+- Captures read: 2107Z on 11-21 (94 posts). Last read: 2107Z.
+- X's check: 2107Z 92 confirmed, 0 missing, 0 mismatched, 1 withheld. Older mismatches unchanged (2123843603533365577, 2124013278246420854, two game ads on 1405Z, 2121132013595844894; none used). The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 41 items (0 new, 1 dropped): dropped Coin Bureau's Asia stocks post (36 hours). The build shows 37 and holds back 4 under one place per account.
+- Added: 2026-11-20-mamdani-tears-achilles (politics, sports); 2026-11-20-trump-news-conference-putin-friend-miller (politics). Updated: none. Live stories were not re-checked for movement this pass beyond the Nvidia lead below.
+- Left out: Doué injury (searches returned only 2025 reports, nothing on this one); Harden 51 points, F1 Las Vegas and the MAMA awards (not researched this pass); Musk's Riemann and Neuralink GTA posts (unchecked claims).
+- For the next story pass: the Nvidia story (2026-11-08) is behind. Polymarket posts (2123789972629303490, 2123828758503182389) cite a NYT report of Huang threats. I found no outside copy of the quoted lines; secondary sources say the NYT reported outbursts, a Kress all-hands on 18 November, and a Wachtell Lipton investigation. Nothing added until the NYT report is read.
+- Requests: none added or removed. watch.json: dropped one id, added seven for the two stories. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

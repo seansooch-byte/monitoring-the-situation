@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-20-mamdani-tears-achilles",
+  "title": "NYC Mayor Mamdani says he tore his Achilles tendon in a soccer game against City Hall reporters",
+  "dek": "The mayor of the country's largest city will be in a boot for weeks. His own account, given at a news conference, is the main source.",
+  "desks": ["politics", "sports"],
+  "standing": "established",
+  "started_at": "2026-11-20T15:17:00Z",
+  "updated_at": "2026-11-21T21:40:00Z",
+  "what": [
+    "New York City Mayor Zohran Mamdani, who is 35, told reporters on Friday, 20 November 2026, that he tore his Achilles tendon in a pickup soccer match on Thursday night against the City Hall press corps. NBC New York and the Associated Press (via ABC News) report that he came to the news conference on crutches.",
+    "Mamdani said he will be in a medical boot for six to eight weeks and does not expect to play soccer again for about nine months. He gave a reason: \"I did not stretch.\" He also said \"I forgot that I was 35.\"",
+    "He said he scored a goal soon after he got on the pitch, and that his team beat the journalists' team.",
+    "I found no statement from City Hall about how the injury changes his schedule, and no medical report. The details above are the mayor's own."
+  ],
+  "why": "It is a human moment for a mayor who is usually in the news for policy, and sports outlets and politics accounts both carried it.",
+  "next": "The mayor says the boot stays on for six to eight weeks.",
+  "posts": [
+    { "id": "2123797980742607193", "role": "origin" },
+    { "id": "2123810715844960289", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "NBC New York: Mamdani tears Achilles in soccer match against journalists", "url": "https://www.nbcnewyork.com/news/local/i-forgot-i-was-35-mamdani-tears-achilles-in-soccer-match-against-journalists/6574810/" },
+    { "label": "Associated Press via ABC News: Mamdani is injured in soccer match against journalists", "url": "https://abcnews.com/US/wireStory/zohran-mamdani-injured-soccer-match-journalists-138323242" }
+  ]
+}
