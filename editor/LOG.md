@@ -7521,3 +7521,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost the three dropped ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T00:30Z
+- Captures read: 0001Z on 11-22 (50 posts). Last read: 0001Z.
+- X's check: 0001Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier 2302Z mismatch (2099318576867913908) and withheld (2095115226316488729, 2121348206969921898) unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 39 items (0 new, 2 dropped): KoWatermelon's IVE MAMA post and NYCMayor's Rikers post, both at 36 hours. The build shows 36 and holds back 3 under one place per account. Justice and music are thinner; nothing new on them was safe or large.
+- Added: none. Updated: none (pulse pass).
+- Left out: the 0001Z posts (Stephen A. Smith clip via MarioNawfal, Trump on the filibuster, Loomer posts, Iranian tanker, Embiid and LeBron): small, claims about real people unchecked, or account already on the pulse.
+- Requests: none added or removed. watch.json lost the IVE id; the Rikers id stays (a story started 11-20 cites it). plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
