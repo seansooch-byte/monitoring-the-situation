@@ -7611,3 +7611,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost the seven dropped ids and two `also` ids not cited elsewhere. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T09:20Z
+- Captures read: 0906Z on 11-22 (22 posts). Last read: 0906Z.
+- X's check: 0906Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 28 items (3 new, 3 dropped). Added: Nature Unedited's deep-sea shark video (replaces its smaller whale post, same account), Elon Musk's Uranus post (science), Democrats Deliver's games ownership bill post (politics). Dropped at 36 hours: Neuralink's GTA VI telepathy video, PopCrave's Sorkin post, the whale post. The build shows 27 and holds back 1 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Georgia Tech couple clip and the NYC dog clip (private people, flagged); the Putin bodyguard posts (speculation about a real person, one non-English); the Sorkin and Luckey clip (characterisation of real people); Turkish and Hindi-language viral clips (point unclear, one flags a private person); further GTA 6 posts and sports clips (desks already at three). Nothing new and large on medicine, justice or defense.
+- Requests: none added or removed. watch.json gained the three new ids and lost the three dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

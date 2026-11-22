@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T08:20:00Z",
-  "capture": "2026-11-22T0806Z",
+  "updated_at": "2026-11-22T09:20:00Z",
+  "capture": "2026-11-22T0906Z",
   "items": [
     {
       "id": "2123923294219018408",
@@ -47,12 +47,6 @@
       ]
     },
     {
-      "id": "2123901153821782284",
-      "desk": "offbeat",
-      "line": "Nature Unedited posts a video of a whale and says the discomfort the whale had endured for years disappeared in 30 seconds. What the video shows is not checked here.",
-      "also": []
-    },
-    {
       "id": "2123993284066283855",
       "desk": "markets",
       "line": "Watcher Guru says crypto keeps falling: Bitcoin under $56,000, Ether under $1,550, and $650,000,000 in leveraged positions liquidated in the past hour. Not checked here.",
@@ -71,23 +65,9 @@
       "also": []
     },
     {
-      "id": "2123890949029818800",
-      "desk": "tech",
-      "line": "Neuralink posts a 2-minute video titled \"Playing GTA VI with a Neuralink\". The post does not say who is playing or how the controls work. Elon Musk quote-posts it with \"Playing GTA VI with Telepathy\".",
-      "also": [
-        "2124028719190749681"
-      ]
-    },
-    {
       "id": "2124062788117315651",
       "desk": "music",
       "line": "Kpop Charts, a fan chart account, says CORTIS won Song of the Year (Daesang) with \"REDRED\" at the 2026 MAMA Awards. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123884901401505978",
-      "desk": "entertainment",
-      "line": "PopCrave says journalist Andrew Ross Sorkin is facing criticism for asking Hailey Bieber why she thought she could sell her brand Rhode for $1 billion. The post carries a 37-second video. The criticism is PopCrave's description. Not checked here.",
       "also": []
     },
     {
@@ -173,6 +153,24 @@
       "id": "2124355996663611453",
       "desk": "disaster",
       "line": "Osint613 reports that at least three people have died and 39 are missing after a fire at a candy factory in Serang, Indonesia, and that search and rescue is ongoing. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124283961845141759",
+      "desk": "offbeat",
+      "line": "Nature Unedited posts an 87-second video and says a massive deep-sea shark was filmed approaching a submarine during an expedition. What the video shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124241570451054609",
+      "desk": "science",
+      "line": "Elon Musk writes \"It's high time we probed Uranus again! Much better images are needed (actually).\"",
+      "also": []
+    },
+    {
+      "id": "2123932415068340513",
+      "desk": "politics",
+      "line": "Democrats Deliver, an account that posts political news, says Democrats have unveiled a bill so consumers own the games they buy and companies could not remove access. Not checked here.",
       "also": []
     }
   ]
