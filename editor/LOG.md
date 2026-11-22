@@ -7621,3 +7621,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the three new ids and lost the three dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T10:25Z
+- Captures read: 1007Z on 11-22 (20 posts). Last read: 1007Z.
+- X's check: 1007Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 30 items (5 new, 3 dropped). Added: Mario Nawfal's Trump and China warheads post (defense), Osint613's Strahmore party shooting post (justice), Cointelegraph's Anthropic cash post (business, line says Anthropic makes the model writing the page), Ash Crypto's Russia crypto rules post (markets), Reuters on China and the FCC ban (world). Dropped at 36 hours: Brian Greene's science video, CultureCrave's GTA 6 post, the caseoh internet clip. The build shows 26 and holds back 4 under one place per account (the new defense, justice and world items stand on their desk pages).
+- Added: none. Updated: none (pulse pass).
+- Left out: Mario Nawfal's Lamborghini clip (shows a private person); F1's Keanu podium post, Reuters' UCLA post and the Netflix post (account already placed, small, or old); crypto price posts (smaller than what markets holds); Osint613's Iran missile and tanker posts (account already placed); Cointelegraph's Pump fun post (small). Nothing new and large on medicine.
+- Requests: none added or removed. watch.json gained the five new ids and lost the three dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
