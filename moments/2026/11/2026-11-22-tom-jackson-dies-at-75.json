@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-22-tom-jackson-dies-at-75",
+  "title": "Tom Jackson, Broncos linebacker and longtime ESPN analyst, dies at 75",
+  "dek": "He was a star of Denver's Orange Crush defense and then one of ESPN's first NFL analysts. Chris Berman paid tribute on Sunday NFL Countdown.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-22T15:15:43Z",
+  "updated_at": "2026-11-22T16:40:00Z",
+  "what": [
+    "The Denver Broncos announced on Sunday 22 November that Tom Jackson has died at 75. CBS Sports reports no cause of death has been given. The team called him \"a cornerstone of the legendary Orange Crush defense and one of the most beloved players in franchise history.\"",
+    "Jackson played linebacker for Denver for 14 seasons, from 1973 to 1986. He was picked in the fourth round of the 1973 draft, went to three Pro Bowls and played in two Super Bowls. He went into the Broncos Ring of Fame in 1992.",
+    "He joined ESPN in 1987 as one of its first NFL analysts and retired in 2016 after 29 years. He received the Pro Football Hall of Fame's Pete Rozelle Award in 2015. On Sunday, Chris Berman paid tribute to him on Sunday NFL Countdown, and ESPN and reporter Ian Rapoport posted about it.",
+    "Reports differ on the date of death, so I give only the date of the announcement."
+  ],
+  "why": "Viewers knew him from decades of Sunday NFL Countdown, and the tribute aired on the show he helped make.",
+  "posts": [
+    { "id": "2124522219980361876", "role": "voice" },
+    { "id": "2124523042000757012", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Denver Broncos: Broncos mourn the passing of Ring of Fame LB Tom Jackson", "url": "https://www.denverbroncos.com/news/broncos-mourn-the-passing-of-ring-of-fame-lb-tom-jackson" },
+    { "label": "CBS Sports: Tom Jackson dies at 75", "url": "https://www.cbssports.com/nfl/news/broncos-ring-of-fame-linebacker-hall-of-fame-broadcaster-tom-jackson-dies-at-75/" }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T15:20:00Z",
-  "capture": "2026-11-22T1503Z",
+  "updated_at": "2026-11-22T16:45:00Z",
+  "capture": "2026-11-22T1600Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -10,18 +10,6 @@
       "also": [
         "2123964580791501251"
       ]
-    },
-    {
-      "id": "2123993284066283855",
-      "desk": "markets",
-      "line": "Watcher Guru says crypto keeps falling: Bitcoin under $56,000, Ether under $1,550, and $650,000,000 in leveraged positions liquidated in the past hour. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123977131747123526",
-      "desk": "sports",
-      "line": "The NBA says James Harden scored 51 points, the most he has scored as a Cavalier, as Cleveland moved to 2-1 in Emirates NBA Cup group play.",
-      "also": []
     },
     {
       "id": "2124062788117315651",
@@ -188,6 +176,21 @@
       "desk": "business",
       "line": "The account lunar_mimi says Wacom is being sold for $800 million and will be removed from the stock market once the deal is done. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2124488035945333208",
+      "desk": "defense",
+      "line": "Osinttechnical, an open-source intelligence account, posts footage it says shows the Russian corvette Merkury suffering a catastrophic explosion in the port of Benghazi, Libya, and says the ship was destroyed. Reports differ on the cause. Not checked here beyond the story on this site."
+    },
+    {
+      "id": "2124523042000757012",
+      "desk": "sports",
+      "line": "ESPN posts a tribute to Tom Jackson, the former Broncos linebacker and ESPN analyst, after the Broncos announced his death at 75: \"We'll miss you, TJ.\""
+    },
+    {
+      "id": "2124337452492136829",
+      "desk": "sports",
+      "line": "The NBA's account says Mikal Bridges hit a buzzer-beater to give the Knicks their fourth straight win."
     }
   ]
 }

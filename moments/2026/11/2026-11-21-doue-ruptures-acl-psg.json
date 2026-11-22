@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-21-doue-ruptures-acl-psg",
+  "title": "PSG confirm Désiré Doué has ruptured his ACL and will have surgery",
+  "dek": "The 21-year-old forward was carried off in tears on Saturday. PSG now have two forwards with torn knee ligaments.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-21T17:09:09Z",
+  "updated_at": "2026-11-22T16:40:00Z",
+  "what": [
+    "Paris Saint-Germain forward Désiré Doué left the pitch on a stretcher, in tears, during PSG's Ligue 1 match against Nice on Saturday 21 November. Reports say he twisted the knee with no contact and play stopped for several minutes. Those reports say PSG won 3-2.",
+    "On Sunday 22 November the club confirmed a rupture of the anterior cruciate ligament in his right knee. Yahoo Sports reports the club said he will have surgery before the end of the month. Transfer reporter Fabrizio Romano posted the news as official and wrote that Doué would be out until next season. I could not find a club statement that gives a return date, so that part rests on Romano's post.",
+    "Reports also say Khvicha Kvaratskhelia, another PSG forward, has been out since an ACL rupture in October. Doué is reported to have scored six goals in all competitions this season."
+  ],
+  "why": "A young star of the European champions is lost for months, and a second forward on the same team is already out with the same injury.",
+  "next": "A date for the surgery and a club estimate of his return. PSG play Roma in the Champions League on Wednesday, according to Yahoo Sports.",
+  "posts": [
+    { "id": "2124188376005833083", "role": "origin" },
+    { "id": "2124477706582515965", "role": "official" }
+  ],
+  "sources": [
+    { "label": "Yahoo Sports: PSG's Doué to have surgery on ruptured ACL", "url": "https://sports.yahoo.com/articles/psgs-doue-surgery-ruptured-acl-155010556.html" },
+    { "label": "Tribuna: PSG confirm Doué has suffered ACL rupture", "url": "https://tribuna.com/en/news/2026-11-22-official-psg-confirm-desire-doue-has-suffered-acl-rupture-and-will-undergo-surgery/" }
+  ]
+}

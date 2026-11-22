@@ -7681,3 +7681,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json and plan.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T16:50Z
+- Captures read: 1600Z on 11-22 (54 posts). Last read: 1600Z.
+- X's check: 1600Z 54 confirmed, 0 missing, 0 mismatched, 0 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 31 items (3 new, 2 dropped). Dropped: Watcher Guru's bitcoin post and the NBA Harden post (past 36 hours). Added: Osinttechnical's Merkury footage (defense), ESPN's Tom Jackson tribute and the NBA's Bridges buzzer-beater (sports). The build shows 28 and holds back 3 under one place per account.
+- Added: 2026-11-21-doue-ruptures-acl-psg (sports), 2026-11-22-tom-jackson-dies-at-75 (sports), 2026-11-22-merkury-corvette-benghazi-explosion (defense, disputed). Updated: none; the Khat Shekan story, updated 11:50Z, still matches its source.
+- Left out: Seattle airport ICE detention (private individuals); Brazil supercell and other disaster posts (not researched this pass); Putin bodyguard prosthetic claim (unsourced claim about a real person); Cruz/Cornyn post (unsourced); Messi throw-in clip (video not described); Mourinho and Bruno Fernandes quotes (account already placed).
+- Requests: none added or removed. watch.json rebuilt from the pulse and stories of the last 48 hours; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Web sources gave conflicting dates of death for Tom Jackson; the story gives only the announcement date.

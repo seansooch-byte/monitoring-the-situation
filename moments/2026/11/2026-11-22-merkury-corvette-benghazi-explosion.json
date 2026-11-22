@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-22-merkury-corvette-benghazi-explosion",
+  "title": "Russian corvette Merkury reported destroyed by explosion at Benghazi port; cause unclear",
+  "dek": "Video shows a Russian warship burning at a Libyan port. Libyan authorities and Ukrainian-aligned accounts give different causes.",
+  "desks": ["defense", "world"],
+  "standing": "disputed",
+  "started_at": "2026-11-22T12:22:49Z",
+  "updated_at": "2026-11-22T16:40:00Z",
+  "what": [
+    "Footage shows a Russian Navy Project 20380 corvette, assessed to be Merkury, burning with secondary explosions at the port of Benghazi, Libya, on the night of Saturday 21 November. United24 Media reports that analyst H I Sutton assessed the ship was almost certainly destroyed. Posts say it had been in Benghazi for several days escorting a convoy of Russian vessels. I could not confirm the ship's name or its fate from a Russian or Libyan official source.",
+    "The cause is not established. United24 Media reports that Benghazi civil defence attributed the incident to an explosion at an ammunition depot inside the naval base, and that Libyan authorities confirmed an explosion at the base without reporting damage to a Russian warship. Kyiv Post reports that the Ukrainian OSINT channel Exilenova+ says the detonation was aboard the ship, and that eyewitness video showed air defences firing at an unidentified aerial target. Neither account is confirmed.",
+    "I found no Russian government statement."
+  ],
+  "why": "Video of a burning warship spreads fast, and the two accounts of the cause point to very different events.",
+  "next": "A statement from Russia's defence ministry or Libyan authorities on the ship and the cause.",
+  "posts": [
+    { "id": "2124478705737052361", "role": "origin" },
+    { "id": "2124488035945333208", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Kyiv Post: Russian Missile Corvette Merkury engulfed in flames after explosion in Benghazi port", "url": "https://www.kyivpost.com/post/90861" },
+    { "label": "United24 Media: Merkury reportedly destroyed in massive explosion at Libyan port", "url": "https://united24media.com/world/russian-navy-corvette-merkury-reportedly-destroyed-in-massive-explosion-at-libyan-port-24603" }
+  ]
+}
