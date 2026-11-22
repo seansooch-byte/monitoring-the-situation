@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T19:25:00Z",
-  "capture": "2026-11-22T1907Z",
+  "updated_at": "2026-11-22T20:10:46Z",
+  "capture": "2026-11-22T2000Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -220,6 +220,20 @@
       "id": "2124548714111136051",
       "desk": "markets",
       "line": "Unusual Whales says Luke Gromen of Forest for the Trees argues gold could reach $18,000 an ounce in a US debt crisis. The post puts gold near $4,000 now. The forecast and the figures are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124576203113636183",
+      "desk": "science",
+      "line": "SpaceX says a Falcon 9 carrying NROL-136 lifted off from pad 4E in California 32 hours after the USSF-317 launch from the same pad, and calls it its fastest turnaround between launches from one pad. Not checked here.",
+      "also": [
+        "2124589255565680900"
+      ]
+    },
+    {
+      "id": "2124554335225106628",
+      "desk": "entertainment",
+      "line": "PopBase, a pop culture account, says Matty Healy and Gabbriette Bechtel are expecting their first child. Not checked here.",
       "also": []
     }
   ]
