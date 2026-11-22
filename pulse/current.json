@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T05:12:35Z",
-  "capture": "2026-11-22T0501Z",
+  "updated_at": "2026-11-22T06:25:00Z",
+  "capture": "2026-11-22T0608Z",
   "items": [
     {
       "id": "2123852660688494744",
@@ -52,16 +52,6 @@
       "desk": "sports",
       "line": "Formula 1 posts a video from the Las Vegas Grand Prix weekend, captioned \"Whoa! George ⚔️ Max\". The post does not say what happens in it, so that is not checked here.",
       "also": []
-    },
-    {
-      "id": "2123840221816996322",
-      "desk": "ai",
-      "line": "Peter Wildeford posts a clip of President Trump saying he and President Xi agreed to \"do some joint guardrails\" on AI. Trump says AI is \"not artificial, it's super\" and may be \"too super\". The clip is not checked here."
-    },
-    {
-      "id": "2123841393609351292",
-      "desk": "sports",
-      "line": "The NFL says the Indianapolis Colts have released quarterback Daniel Jones."
     },
     {
       "id": "2123900398264053964",
@@ -124,12 +114,6 @@
       "id": "2124188376005833083",
       "desk": "sports",
       "line": "Fabrizio Romano says Désiré Doué left the pitch in tears after a serious injury and was taken off at once. The post has a photo. The injury is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123983382627405993",
-      "desk": "defense",
-      "line": "Mario Nawfal posts that a new report says the U.S. is critically short of Patriot and THAAD interceptors, Standard Missiles and Tomahawks. It quotes retired Lt. Col. Anthony Aguilar saying \"Firing missiles is not a strategy to win.\" The post does not name the report. Not checked here.",
       "also": []
     },
     {
@@ -217,6 +201,24 @@
       "id": "2124163016593969419",
       "desk": "internet",
       "line": "PETA posts \"Here’s an idea: don’t eat turkey for Thanksgiving this year.\"",
+      "also": []
+    },
+    {
+      "id": "2124275259901710576",
+      "desk": "world",
+      "line": "Mario Nawfal posts that Iran says its Revolutionary Guard hit two US Patriot radars at bases in Bahrain, while Bahrain says a civilian industrial site burned. The post says the two accounts do not match. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124349687079502030",
+      "desk": "disaster",
+      "line": "Reuters reports that a town in southern Brazil has been left reeling by a supercell storm.",
+      "also": []
+    },
+    {
+      "id": "2124355996663611453",
+      "desk": "disaster",
+      "line": "Osint613 reports that at least three people have died and 39 are missing after a fire at a candy factory in Serang, Indonesia, and that search and rescue is ongoing. Not checked here.",
       "also": []
     }
   ]

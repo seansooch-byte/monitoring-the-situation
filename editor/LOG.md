@@ -7581,3 +7581,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the two new ids. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T06:25Z
+- Captures read: 0608Z on 11-22 (16 posts). Last read: 0608Z.
+- X's check: 0608Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 35 items (3 new, 3 dropped): Mario Nawfal's Iran and Bahrain Patriot radar post (world; replaces his smaller Patriot shortage post on defense, same account), Reuters on the Brazil supercell storm and Osint613 on the Serang candy factory fire (disaster) added; Peter Wildeford's Trump and Xi AI clip and the NFL's Daniel Jones post dropped at 36 hours. The build shows 33 and holds back 2 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Formula 1's Las Vegas Grand Prix posts (account already on the pulse with a larger post); Kane's surgery post and other sports (sports already past its three); Alito, ARK, Bitcoin mining cost and Musk AI cash posts (desks full or smaller than what stays); Reuters' Nadal post (account already placed). Nothing new and large on medicine, justice or defense.
+- Requests: none added or removed. watch.json gained the three new ids and lost the three dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
