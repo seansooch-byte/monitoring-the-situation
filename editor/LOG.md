@@ -7601,3 +7601,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json and plan.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T08:20Z
+- Captures read: 0806Z on 11-22 (19 posts). Last read: 0806Z.
+- X's check: 0806Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 28 items (0 new, 7 dropped at 36 hours: Musk's Singularity dot Com joke, the GTA 6 first-day figure post, Dexerto's AI girlfriend bot, the Nasdaq plunge post, Rupar's Trump clip, Krassenstein's Trump clip, TMZ's Home Alone post). The build shows 27 and holds back 1 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the NBA's Selena Gomez Spurs post and the F1 Max winning post (accounts already on the pulse); wire posts on the Indonesia fire, IG Metall strike and Gaza strike (small); crypto and Bitcoin posts (small); the Himes SpaceX funding post (claim about a real person, unchecked). Nothing new and large on medicine, justice or defense.
+- Requests: none added or removed. watch.json lost the seven dropped ids and two `also` ids not cited elsewhere. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

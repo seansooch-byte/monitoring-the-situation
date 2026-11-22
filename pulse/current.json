@@ -1,34 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T07:20:00Z",
-  "capture": "2026-11-22T0703Z",
+  "updated_at": "2026-11-22T08:20:00Z",
+  "capture": "2026-11-22T0806Z",
   "items": [
-    {
-      "id": "2123852660688494744",
-      "desk": "ai",
-      "line": "Elon Musk jokes about \"Singularity dot Com\", a dating site for digital superintelligences.",
-      "also": []
-    },
-    {
-      "id": "2123862288994369789",
-      "desk": "gaming",
-      "line": "DiscussingFilm says GTA 6 earned $3.79 billion in its first day and calls it the biggest entertainment launch of all time. IGN carries the same figure and credits Rockstar Games. Not checked here.",
-      "also": [
-        "2123865536123572264"
-      ]
-    },
-    {
-      "id": "2123852992830951704",
-      "desk": "ai",
-      "line": "Dexerto says a Discord user built an AI \"girlfriend\" bot you can talk to in a voice call, and that it giggles before answering in the demo. It says viewers are asking when they can try it.",
-      "also": []
-    },
-    {
-      "id": "2123867630083936303",
-      "desk": "markets",
-      "line": "Eric Daugherty says the Nasdaq plunged and wiped out its 2026 gains, and quotes President Trump saying \"We've lost $4 TRILLION since the election.\" Neither the market move nor the figure is checked here.",
-      "also": []
-    },
     {
       "id": "2123923294219018408",
       "desk": "entertainment",
@@ -59,24 +33,10 @@
       "line": "Brian Greene shares a video summary of reports that AI may have solved the Riemann Hypothesis. Not checked here."
     },
     {
-      "id": "2123846816642789627",
-      "desk": "politics",
-      "line": "Aaron Rupar posts a short video of President Trump talking about Democratic majorities. Rupar quotes him as saying \"We could end up with great healthcare in our country.\" Not checked here.",
-      "also": []
-    },
-    {
       "id": "2123902500986347623",
       "desk": "gaming",
       "line": "CultureCrave says \"Grand Theft Auto 6\" has been review-bombed by users on Metacritic and shows a 4.9 rating. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2123852403724439956",
-      "desk": "politics",
-      "line": "Ed Krassenstein posts a 28-second clip of President Trump with Stephen Miller at the White House podium. He says Trump seemingly endorsed Miller for president over JD Vance and Marco Rubio. Polymarket describes the same exchange as Trump asking Miller if he would like to run in 2028. Not checked here.",
-      "also": [
-        "2123873514625159179"
-      ]
     },
     {
       "id": "2124152725722059007",
@@ -96,12 +56,6 @@
       "id": "2123993284066283855",
       "desk": "markets",
       "line": "Watcher Guru says crypto keeps falling: Bitcoin under $56,000, Ether under $1,550, and $650,000,000 in leveraged positions liquidated in the past hour. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123868741825966346",
-      "desk": "entertainment",
-      "line": "TMZ says Macaulay Culkin is returning as Kevin McCallister in a \"Home Alone\" sequel. Not checked here.",
       "also": []
     },
     {
