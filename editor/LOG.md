@@ -7591,3 +7591,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the three new ids and lost the three dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T07:20Z
+- Captures read: 0703Z on 11-22 (21 posts). Last read: 0703Z.
+- X's check: 0703Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 35 items (0 new, 0 dropped). Every item is under 36 hours old and still large; the new capture held nothing larger. The build shows 33 and holds back 2 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano's Mourinho and PSG posts and Formula 1's Las Vegas posts (account already on the pulse with a larger post); PopBase, PopCrave, LEGO and horoscope posts (small, not news); Stephen A. Smith's denial of a suspension (claim about a real person, unchecked); Kai Cenat's IRL GTA clip (smaller than what the internet desk holds); Mario Nawfal's second Bahrain post and GTA post (account already placed). Nothing new and large on medicine, justice or defense.
+- Requests: none added or removed. watch.json and plan.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
