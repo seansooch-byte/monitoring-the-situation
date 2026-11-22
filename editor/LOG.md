@@ -7631,3 +7631,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the five new ids and lost the three dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T11:55Z
+- Captures read: 1108Z on 11-22 (16 posts). Last read: 1108Z.
+- X's check: 1108Z 16 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged. Osint613's first Khat Shekan post 2124286473470120324 came back missing on X at the moments check (deleted), so the story cites HormuzLetter's post instead. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 28 items (0 new, 2 dropped at 36 hours: Fox's Wickham tree lighting post, DiscussingFilm's comic post). The build shows 25 and holds back 3 under one place per account.
+- Added: 2026-11-21-riemann-hypothesis-lean-certified (science, ai), 2026-11-21-fbi-ncic-breach (tech, justice), 2026-11-21-khat-shekan-tanker-blockade (world, defense; disputed). Updated: none. I searched for new figures on the live GTA VI sales story and found none; the other developing stories were not re-checked this pass.
+- Left out: the Georgia Tech couple clip (private people, flagged); the Putin bodyguard posts (speculation about a real person); the Sorkin and Luckey clips; the GTA 6 Metacritic review-bomb post (I found no reporting); Democrats Deliver's games ownership bill (reporting I found describes Rep. Torres's Power to the Players Act as announced in October and not yet introduced, so I could not tell what was unveiled on 21 November; for the next pass); Doué's injury (no reporting found for 21 November).
+- Requests: none added or removed. watch.json gained the story posts and lost the two dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

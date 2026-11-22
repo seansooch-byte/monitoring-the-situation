@@ -1,0 +1,42 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-21-khat-shekan-tanker-blockade",
+  "title": "A tanker called Khat Shekan, \"line breaker\", is said to be sailing at the US blockade of Iran. A tracker says it does not exist",
+  "dek": "Posts said Iran had sent a ship to break the US naval blockade. A vessel tracker says the signal behind them was false.",
+  "desks": [
+    "world",
+    "defense"
+  ],
+  "standing": "disputed",
+  "started_at": "2026-11-21T23:22:35Z",
+  "updated_at": "2026-11-22T11:50:00Z",
+  "what": [
+    "Late on 21 November, the account HormuzLetter posted that an oil tanker named \"Khat Shekan\", meaning \"line-breaker\", had entered the Strait of Hormuz and was heading toward the Gulf of Oman, citing MarineTraffic. It said Iran appeared to have started a mission to break the US naval blockade. Mario Nawfal then posted that a loaded supertanker called \"Line Breaker\" was sailing for the blockade and should reach it within a day.",
+    "The Week reports that MarineTraffic showed a vessel with that name moving at 8.5 knots on Sunday. It reports that the tracking service TankerTrackers says the tanker \"does not even exist\". The Week lists TankerTrackers' reasons: satellite imagery shows no vessel making those moves, the signal carried false data, the call sign belongs to a Liberian-flagged ship, and the destination field implies a trip from Iran to Nigeria in a few hours.",
+    "On the morning of 22 November Osint613 posted that the signal had been spoofed, that satellite imagery did not back up the transit, and that no Iranian tanker had been seen trying to break the blockade.",
+    "The Week reports that Iranian Foreign Minister Abbas Araghchi said \"The blockade must be broken\", and that Iranian officials have not confirmed any convoy. I found no statement from the US military about this ship.",
+    "What is on the record: a signal with this name appeared on a tracking service. What is not: that a real ship sent it, or that Iran sent a ship to challenge the blockade. The claim that a ship was sent rests on posts and on that signal."
+  ],
+  "why": "It fits a standing question of whether Iran will test the US blockade, and a ship name that means \"line breaker\" makes a good headline. Ship signals can be faked, so a signal alone can start a story that tracking and satellite checks then undo.",
+  "next": "Whether any real vessel is seen approaching the blockade line, and whether the US military or Iran says anything about it.",
+  "posts": [
+    {
+      "id": "2124282354546115059",
+      "role": "origin"
+    },
+    {
+      "id": "2124308835774992630",
+      "role": "voice"
+    },
+    {
+      "id": "2124433378082505027",
+      "role": "correction"
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Week: The mystery of Khat Shekan",
+      "url": "https://www.theweek.in/news/middle-east/2026/11/22/the-mystery-of-khat-shekan-alleged-iranian-oil-tanker-challenging-us-blockade-does-not-exist.html"
+    }
+  ]
+}

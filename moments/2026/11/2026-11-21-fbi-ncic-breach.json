@@ -1,0 +1,46 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-21-fbi-ncic-breach",
+  "title": "The FBI is reported to be investigating a breach of its National Crime Information Center",
+  "dek": "The database is how police across the US check warrants and wanted people. What was taken, and by whom, is not known.",
+  "desks": [
+    "tech",
+    "justice"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-21T02:40:59Z",
+  "updated_at": "2026-11-22T11:40:00Z",
+  "what": [
+    "Al Jazeera reports that CNN and NBC first reported on Friday 20 November, citing two briefed sources, that the FBI's National Crime Information Center, known as NCIC, was compromised. The FBI declined to comment to ABC News. ABC says a law enforcement source confirmed the database was breached.",
+    "On Saturday 21 November President Trump told Fox News by phone, \"we just heard about it, and I will say that it's not good.\" Fox News then posted that the database \"has been hacked\" and that it is unclear what information was compromised.",
+    "The FBI describes NCIC as a system that lets local, state and federal agencies share information on warrants, wanted people, missing people and stolen property. ABC and Al Jazeera both report that who did it, how much was reached, and what was taken are not known. Al Jazeera notes the breach follows another reported FBI breach in September that involved employee records.",
+    "ABC reports that Trump suggested, without evidence, that the breach might involve material from the 2016 Russia investigations. ABC says NCIC would not hold such investigative records.",
+    "Posts that spread this earlier on Friday night carried more detail than the reporting supports. Some list what the database holds as if it were known to be taken. I found no report that any particular data was stolen."
+  ],
+  "why": "NCIC is used by police every day, so a breach reaches far beyond the FBI. The news came with a president's comment on live television and a second FBI breach in a few months.",
+  "next": "Whether the FBI confirms the breach, and what it says was reached.",
+  "posts": [
+    {
+      "id": "2123976668234621408",
+      "role": "voice"
+    },
+    {
+      "id": "2124152725722059007",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ABC News: FBI's national crime database targeted in hack, Trump says",
+      "url": "https://abcnews.com/US/fbis-national-crime-database-targeted-hack-trump/story?id=138347810"
+    },
+    {
+      "label": "Al Jazeera: FBI national crime database suffers suspected breach",
+      "url": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports"
+    },
+    {
+      "label": "FBI: National Crime Information Center",
+      "url": "https://le.fbi.gov/informational-tools/ncic"
+    }
+  ]
+}
