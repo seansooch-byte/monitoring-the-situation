@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T04:13:00Z",
-  "capture": "2026-11-22T0401Z",
+  "updated_at": "2026-11-22T05:12:35Z",
+  "capture": "2026-11-22T0501Z",
   "items": [
     {
       "id": "2123852660688494744",
@@ -27,12 +27,6 @@
       "id": "2123867630083936303",
       "desk": "markets",
       "line": "Eric Daugherty says the Nasdaq plunged and wiped out its 2026 gains, and quotes President Trump saying \"We've lost $4 TRILLION since the election.\" Neither the market move nor the figure is checked here.",
-      "also": []
-    },
-    {
-      "id": "2123825853008122336",
-      "desk": "science",
-      "line": "SpaceX says its Dragon capsule has separated from the International Space Station and is firing four departure burns. It says splashdown is about 29 hours away, off the coast of California.",
       "also": []
     },
     {
@@ -75,11 +69,6 @@
       "line": "Brian Greene shares a video summary of reports that AI may have solved the Riemann Hypothesis. Not checked here."
     },
     {
-      "id": "2123821412955681099",
-      "desk": "business",
-      "line": "The Free Press says journalist Matt Taibbi is joining it as a reporter at large for the presidential campaign."
-    },
-    {
       "id": "2123846816642789627",
       "desk": "politics",
       "line": "Aaron Rupar posts a short video of President Trump talking about Democratic majorities. Rupar quotes him as saying \"We could end up with great healthcare in our country.\" Not checked here.",
@@ -89,18 +78,6 @@
       "id": "2123902500986347623",
       "desk": "gaming",
       "line": "CultureCrave says \"Grand Theft Auto 6\" has been review-bombed by users on Metacritic and shows a 4.9 rating. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2123834412366229888",
-      "desk": "politics",
-      "line": "Barack Obama posts a video about trust in institutions. He says this year's Democracy Forum, December 9 to 11 in Chicago, will focus on trust.",
-      "also": []
-    },
-    {
-      "id": "2123833098551038180",
-      "desk": "world",
-      "line": "The Rapid Response 47 account posts President Trump on Iran. It quotes him saying Iran wants a deal \"that's acceptable to me\" and that he wants \"a real deal, not a fake deal.\"",
       "also": []
     },
     {
@@ -162,12 +139,6 @@
       "also": [
         "2124028719190749681"
       ]
-    },
-    {
-      "id": "2123816257136865791",
-      "desk": "gaming",
-      "line": "Dexerto says Take-Two CEO Strauss Zelnick was asked whether Grand Theft Auto 7 could be set across the whole world. It quotes him answering that GTA 6 went live on November 19 and that it is still November 19. The quote is not checked here.",
-      "also": []
     },
     {
       "id": "2124062788117315651",
@@ -234,6 +205,18 @@
       "id": "2124222447855743019",
       "desk": "tech",
       "line": "Tesla says FSD v15 is starting to roll out, and lists a claim of 25x better handling of safety critical cases, a live visualization called Reality View, and slowing for speed cameras. Tesla's claims; not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124159121645801562",
+      "desk": "science",
+      "line": "The Lean FRO and Mathlib Initiative say they have verified a proof of the Riemann Hypothesis that Levent Alpöge released on November 20 as a Lean library of 17 million lines of code. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124163016593969419",
+      "desk": "internet",
+      "line": "PETA posts \"Here’s an idea: don’t eat turkey for Thanksgiving this year.\"",
       "also": []
     }
   ]

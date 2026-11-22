@@ -7571,3 +7571,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. plan.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T05:35Z
+- Captures read: 0501Z on 11-22 (115 posts). Last read: 0501Z.
+- X's check: 0501Z 111 confirmed, 0 missing, 0 mismatched, 3 withheld (not used). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 36 items (2 new, 5 dropped): the Lean FRO and Mathlib statement on the Riemann Hypothesis (science) and PETA's turkey post (internet) added; SpaceX Dragon, Free Press Taibbi and Zelnick GTA 7 dropped at 36 hours; Obama's trust video and Rapid Response 47's Iran post dropped as they reached 36 hours. The build shows 33 and holds back 2 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Georgia Tech couple on air posts (private individuals); the Putin bodyguard posts (speculation about a person); Elon Musk's Uranus and Riemann posts (account already on the pulse); the Paris and Polish yacht posts (not English, unchecked); the Sorkin and Luckey clip (claim about real people); the Democrats' game ownership bill post (claim not checked). Nothing new and large on disaster, defense, medicine, justice or world.
+- Requests: none added or removed. watch.json gained the two new ids. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
