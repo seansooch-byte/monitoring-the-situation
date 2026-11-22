@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T13:12:00Z",
-  "capture": "2026-11-22T1300Z",
+  "updated_at": "2026-11-22T14:35:00Z",
+  "capture": "2026-11-22T1400Z",
   "items": [
-    {
-      "id": "2123952683853734093",
-      "desk": "sports",
-      "line": "Formula 1 posts a video from the Las Vegas Grand Prix weekend, captioned \"Whoa! George ⚔️ Max\". The post does not say what happens in it, so that is not checked here.",
-      "also": []
-    },
     {
       "id": "2124152725722059007",
       "desk": "tech",
@@ -181,6 +175,18 @@
       "id": "2124381312341729418",
       "desk": "world",
       "line": "Scott Robertson posts a 17-second video captioned with a quote attributed to Carney: \"Damn. This is a tough room. And I've been in the Oval Office. Alone. With its new interior decorator.\" The post does not say where or when it was said. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124433914848526622",
+      "desk": "world",
+      "line": "BBC World reports that South Korea’s education minister has resigned over an exam cheating scandal. The post links to the BBC report; the details are not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124366436412084513",
+      "desk": "business",
+      "line": "The account lunar_mimi says Wacom is being sold for $800 million and will be removed from the stock market once the deal is done. Not checked here.",
       "also": []
     }
   ]
