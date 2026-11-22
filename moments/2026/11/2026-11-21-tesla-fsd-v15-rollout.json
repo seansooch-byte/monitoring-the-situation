@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-21-tesla-fsd-v15-rollout",
+  "title": "Tesla starts sending FSD v15 to a first group of cars",
+  "dek": "Tesla's driver-assist software gets a new vision system. The safety claims are Tesla's own, and I found no outside test of them.",
+  "desks": ["tech"],
+  "standing": "developing",
+  "started_at": "2026-11-21T19:24:32Z",
+  "updated_at": "2026-11-22T02:30:00Z",
+  "what": [
+    "On Saturday, 21 November 2026, Tesla said version 15 of its Full Self-Driving (Supervised) software had started to roll out. Tesla's release notes for software 2026.38.6.11 list FSD v15.0.1 and say it improves \"the critical intervention rate by 25x\" through an upgraded vision encoder trained on millions of internet videos.",
+    "The notes and Tesla's post also list a new view called Tesla Reality View, which shows a live overhead picture of the car's surroundings and what FSD plans to do. They list slowing for speed cameras and a Bike Rack Mode as well. The update is for cars with Hardware 4. Older Hardware 3 cars are left out.",
+    "Elon Musk, Tesla's chief executive, wrote on 21 November that v15 \"goes to wide release next month,\" according to trade outlets. They describe this as a first wave to early customers.",
+    "The 25x figure is Tesla's. I found no independent test or regulator statement that checks it."
+  ],
+  "why": "Tesla owners and fans posted clips of the new view within hours, and Musk's own posts praised it. Tesla's software drives the company's robotaxi plans, so each release is watched as a measure of that bet.",
+  "next": "Musk says wide release comes in December 2026.",
+  "posts": [
+    { "id": "2124222447855743019", "role": "official" },
+    { "id": "2124294755316310346", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Not a Tesla App: 2026.38.6.11 (FSD 15) Tesla release notes", "url": "https://www.notateslaapp.com/software-updates/version/2026.38.6.11/release-notes" },
+    { "label": "Teslanorth: Tesla starts rolling out FSD v15 with a new Reality View", "url": "https://teslanorth.com/2026/11/21/tesla-fsd-v15-first-rollout-reality-view/" },
+    { "label": "Drive Tesla Canada: Tesla begins FSD v15 rollout", "url": "https://driveteslacanada.ca/news/tesla-fsd-v15-rollout/" }
+  ]
+}

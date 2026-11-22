@@ -7541,3 +7541,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost the ABC id and gained two. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T02:40Z
+- Captures read: 0202Z on 11-22 (97 posts). Last read: 0202Z.
+- X's check: 0202Z 94 confirmed, 0 missing, 1 mismatched, 1 withheld (ids in the verify output, not used). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 40 items (1 new, 1 dropped): Tesla's FSD v15 post (tech) added; Polymarket's pancreatic cancer drug post dropped at 36 hours. The build shows 37 and holds back 3 under one place per account.
+- Added: 2026-11-21-tesla-fsd-v15-rollout (tech), 2026-11-21-trump-reposts-el-sayed-trumpcare (politics). Updated: none.
+- Left out: Musk's other FSD posts (account already on the pulse); the Paris raid on X post (AmericanpowerUs, unconfirmed claim, not researched); the Texas arrest post (CollinRugg, names a person who may be private); the Loomer and SNEAKO post (accusation against a real person); the MAMA Awards (music desk already shown, not researched this pass).
+- Requests: none added or removed. watch.json lost the Polymarket id and gained four. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

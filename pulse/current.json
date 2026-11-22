@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T01:35:00Z",
-  "capture": "2026-11-22T0108Z",
+  "updated_at": "2026-11-22T02:35:00Z",
+  "capture": "2026-11-22T0202Z",
   "items": [
     {
       "id": "2123852660688494744",
@@ -137,12 +137,6 @@
       "also": []
     },
     {
-      "id": "2123783128141766717",
-      "desk": "medicine",
-      "line": "Polymarket says a new pancreatic cancer drug, daraxonrasib, halted tumor growth in 90% of patients in an early trial. The post names no source. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2123868741825966346",
       "desk": "entertainment",
       "line": "TMZ says Macaulay Culkin is returning as Kevin McCallister in a \"Home Alone\" sequel. Not checked here.",
@@ -242,6 +236,12 @@
       "id": "2124197430967284191",
       "desk": "politics",
       "line": "The account Nancy Pelosi Stock Tracker says a Senate vote to end the Iran war failed again, 48 to 51, and that Sen. John Fetterman was the lone Democrat blocking it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124222447855743019",
+      "desk": "tech",
+      "line": "Tesla says FSD v15 is starting to roll out, and lists a claim of 25x better handling of safety critical cases, a live visualization called Reality View, and slowing for speed cameras. Tesla's claims; not checked here.",
       "also": []
     }
   ]

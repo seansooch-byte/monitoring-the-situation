@@ -1,0 +1,29 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-21-trump-reposts-el-sayed-trumpcare",
+  "title": "Trump reposts Senator-elect El-Sayed's \"TrumpCare\" card for Medicare for All, with no comment",
+  "dek": "A Democrat's offer to put the president's name on universal health coverage got a repost from the president. The White House then rejected the idea.",
+  "desks": ["politics"],
+  "standing": "established",
+  "started_at": "2026-11-21T21:21:06Z",
+  "updated_at": "2026-11-22T02:30:00Z",
+  "what": [
+    "On Saturday, 21 November 2026, President Trump reposted on Truth Social a post by Abdul El-Sayed, the Democratic senator-elect from Michigan. Fox 2 Detroit reports that the repost had no caption from Trump.",
+    "El-Sayed's post showed a mock gold \"TrumpCare\" insurance card with Medicare for All on it. His caption, as reported, read: \"Donald, this is on the table. Guarantee healthcare for every American, from cradle to grave.\" Fox 2 Detroit dates the first version of the pitch to 12 November.",
+    "After the repost, El-Sayed posted: \"Let's get to work, then. Ready when you are.\"",
+    "A White House spokeswoman, Allison Schuster, told Fox News Digital the plan should be called \"Medicare for None\" and called it a \"government takeover of healthcare.\"",
+    "A repost is not an endorsement. I found no statement of Trump's own about the plan, and no bill text."
+  ],
+  "why": "One image drew two readings. Supporters of Medicare for All see an opening. Some conservative outlets, such as RedState, describe the repost as Trump trolling El-Sayed. Both readings rest on a post with no words.",
+  "next": "Whether Trump says anything himself, or El-Sayed files a bill.",
+  "posts": [
+    { "id": "2124245959097917822", "role": "origin" },
+    { "id": "2124244539426922598", "role": "voice" },
+    { "id": "2124251785317790081", "role": "reply" }
+  ],
+  "sources": [
+    { "label": "Fox 2 Detroit: Trump reposts El-Sayed's 'TrumpCare' proposal", "url": "https://www.fox2detroit.com/news/trump-reposts-el-sayeds-trumpcare-proposal" },
+    { "label": "Washington Times: Trump boosts El-Sayed's call for Medicare for all", "url": "https://www.washingtontimes.com/news/2026/nov/21/trump-boosts-el-sayeds-call-medicare/" },
+    { "label": "RedState: Trump trolls Abdul El-Sayed over offer to name Medicare for All plan after him", "url": "https://redstate.com/beccalower/2026/11/21/popcorn-trump-trolls-abdul-el-sayed-over-offer-to-name-medicare-for-all-bill-after-him-n2209665" }
+  ]
+}
