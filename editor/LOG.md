@@ -7691,3 +7691,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json rebuilt from the pulse and stories of the last 48 hours; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Web sources gave conflicting dates of death for Tom Jackson; the story gives only the announcement date.
+
+## 2026-11-22T17:30Z
+- Captures read: 1706Z on 11-22 (94 posts). Last read: 1706Z.
+- X's check: 1706Z 88 confirmed, 0 missing, 0 mismatched, 1 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 34 items (4 new, 0 dropped; none older than 36 hours). Added: Rahul Gandhi's BJP/RSS post (world), SBakerMD's sports longevity list (medicine), Kyle Kuzma moon landing clip via The Dunk Central (sports), Marvel Studios' Avengers tour post (entertainment). The build shows 32 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Georgia Tech couple, Disneyland scooter, Kick streamer, Seattle airport clips (private individuals, flagged); Putin bodyguard prosthetic claim (unsourced, about a real person); old_content posts; Fabrizio Romano's newer posts, Schefter, Mourinho (accounts already placed); Marc Marquez DAZN post (Spanish, sports already full); GTA 6 posts beyond the three on the page.
+- Requests: none added or removed. watch.json gained the four new ids; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

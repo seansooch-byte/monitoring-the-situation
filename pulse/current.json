@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T16:45:00Z",
-  "capture": "2026-11-22T1600Z",
+  "updated_at": "2026-11-22T17:30:00Z",
+  "capture": "2026-11-22T1706Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -191,6 +191,30 @@
       "id": "2124337452492136829",
       "desk": "sports",
       "line": "The NBA's account says Mikal Bridges hit a buzzer-beater to give the Knicks their fourth straight win."
+    },
+    {
+      "id": "2124429059455348995",
+      "desk": "world",
+      "line": "Rahul Gandhi, an Indian opposition politician, says in a post with a photo that the BJP and RSS do not understand India's spiritual and religious traditions, and calls them uncouth, greedy, casteist male chauvinists. The photo is not described in the record. This is his political charge, not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124265510028329113",
+      "desk": "medicine",
+      "line": "The account SBakerMD, which posts as a doctor, lists sports by the years of added life it says they bring, with tennis first at +9.7 years. The post gives no source in the text shown. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124321337216807194",
+      "desk": "sports",
+      "line": "The Dunk Central posts a 25-second video in which NBA player Kyle Kuzma says the moon landing footage is \"just BS\" to him and asks why people have not gone back. The post credits a show for the clip. Kuzma's view is his own claim. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124389639633195104",
+      "desk": "entertainment",
+      "line": "Marvel Studios announces that Chris Evans, Anthony Mackie and Simu Liu started the Avengers: Doomsday Global Tour at the Las Vegas Grand Prix, and posts six photos. It is a promotion by the studio.",
+      "also": []
     }
   ]
 }
