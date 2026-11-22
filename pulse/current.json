@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T00:25:00Z",
-  "capture": "2026-11-22T0001Z",
+  "updated_at": "2026-11-22T01:35:00Z",
+  "capture": "2026-11-22T0108Z",
   "items": [
     {
       "id": "2123852660688494744",
@@ -39,12 +39,6 @@
       "id": "2123923294219018408",
       "desk": "entertainment",
       "line": "DiscussingFilm shares a first look at a Star Wars and Marvel crossover comic in which Spider-Man meets Luke Skywalker, with the line \"I'm Peter Parker, I'm here to rescue you.\"",
-      "also": []
-    },
-    {
-      "id": "2123770967508070738",
-      "desk": "disaster",
-      "line": "ABC News reports life-threatening flooding on both U.S. coasts. It says days of rain have left some Florida neighborhoods under water and another powerful storm is aimed at the West.",
       "also": []
     },
     {
@@ -236,6 +230,18 @@
       "id": "2124110068308144411",
       "desk": "sports",
       "line": "Adam Schefter reports that the New England Patriots are close to the limit of players they can designate to return from injured reserve, so Drake Maye and AJ Brown may not be placed there.",
+      "also": []
+    },
+    {
+      "id": "2124224526636490866",
+      "desk": "gaming",
+      "line": "Radec posts a 29-second video, credited to Reddit user MelloYello917, that he says shows the best way to get money in GTA 6. The post does not describe the video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124197430967284191",
+      "desk": "politics",
+      "line": "The account Nancy Pelosi Stock Tracker says a Senate vote to end the Iran war failed again, 48 to 51, and that Sen. John Fetterman was the lone Democrat blocking it. Not checked here.",
       "also": []
     }
   ]

@@ -7531,3 +7531,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost the IVE id; the Rikers id stays (a story started 11-20 cites it). plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T01:40Z
+- Captures read: 0108Z on 11-22 (111 posts). Last read: 0108Z.
+- X's check: 0108Z 100 confirmed, 0 missing, 0 mismatched, 1 withheld (2124233147533398347, Levan_2003, not used). Earlier 2302Z mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 40 items (2 new, 1 dropped): Radec's GTA 6 money clip (gaming) and pelositracker on the failed Senate Iran vote (politics); ABC News flooding post dropped at 36 hours. The build shows 37 and holds back 3 under one place per account. Disaster has nothing new and large enough. Medicine, Zelnick, Mamdani and Taibbi posts are near 36 hours and go next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Bryozi's "lucia" post (describes a person, unclear); the Wayne Rooney I'm A Celebrity post (one-sided commentary on a contestant's reaction); the GTA 6 characters and "leave reality" posts (gaming full); Reinadder's flag post (insult-driven); zerobarkthirty and yabaleftonline posts (private individual, graphic flags); the sports touchdown and upset posts (small, desk full).
+- Requests: none added or removed. watch.json lost the ABC id and gained two. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
