@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T02:35:00Z",
-  "capture": "2026-11-22T0202Z",
+  "updated_at": "2026-11-22T03:25:00Z",
+  "capture": "2026-11-22T0303Z",
   "items": [
     {
       "id": "2123852660688494744",
@@ -192,11 +192,6 @@
       "line": "The account \"caseoh out of context\" posts a clip it says shows the streamer Caseoh giving Lucia another makeover while singing \"Hot to Go\". I could not see the clip."
     },
     {
-      "id": "2123797980742607193",
-      "desk": "politics",
-      "line": "Bleacher Report says New York City Mayor Zohran Mamdani said he tore his Achilles playing soccer on Thursday night, will be in a boot for 6 to 8 weeks and expects to play soccer again in nine months. Not checked here."
-    },
-    {
       "id": "2124123812912669088",
       "desk": "gaming",
       "line": "The account TheGameVerse posts an 11-second video it calls the funniest GTA 6 clip it has seen so far. The clip is not described in the record, so what it shows is not checked here.",
@@ -212,7 +207,9 @@
       "id": "2124244539426922598",
       "desk": "politics",
       "line": "Popstonox says Donald Trump shared Abdul El-Sayed's Medicare for All proposal on Truth Social, and that El-Sayed had suggested renaming it \"TrumpCare for All\". Not checked here.",
-      "also": []
+      "also": [
+        "2124251785317790081"
+      ]
     },
     {
       "id": "2124120914904457524",
