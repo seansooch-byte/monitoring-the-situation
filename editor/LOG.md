@@ -7701,3 +7701,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the four new ids; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T18:20Z
+- Captures read: 1803Z on 11-22 (89 posts). Last read: 1803Z.
+- X's check: 1803Z 87 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier today: mismatch 2124300025392185572 (therampagefext, 1400Z) and 2124195423636353383 (DemzDeliver, 0202Z), the grabber's record; neither is on the pulse. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 35 items (0 new, 0 dropped; none older than 36 hours). Nothing new and large in 1803Z; the ranking of the largest confirmed posts is unchanged. Capture id and time refreshed. The build shows 32 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: usedgov "Vice City" photo post (photo undescribed, point unclear); sharqasticc Claude joke clip (video undescribed, quotes a post I did not read); Putin bodyguard prosthetic claim (unsourced, about a real person); Georgia Tech couple, Disneyland scooter, Kick streamer, Seattle airport clips (private individuals, flagged); old_content posts. Quiet: ai, ideas.
+- Requests: none added or removed. watch.json already holds every pulse id.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
