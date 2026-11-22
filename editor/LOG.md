@@ -7711,3 +7711,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json already holds every pulse id.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T19:30Z
+- Captures read: 1907Z on 11-22 (96 posts). Last read: 1907Z.
+- X's check: 1907Z 89 confirmed, 0 missing, 0 mismatched, 0 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928). The grabber's watch read found 2124351642703204438 unavailable; it is not on the pulse.
+- Pulse: 36 items (1 new, 0 dropped; none older than 36 hours). Added: Unusual Whales' gold forecast post (markets). The build shows 33 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fheisti red-pill post (slur, quotes a post I did not read); Tom Nichols post on a Trump post (photo undescribed, point unclear); groypern Hasan Piker GTA claim (claim about a real person, unsourced); Romano's newer posts and Kleiman's Joe Milton clip (account placed, sports full); old_content posts; flagged private-individual posts. Quiet: ai, ideas.
+- Requests: none added or removed. watch.json gained the new id; plan.json rebuilt (the 18Z plan was stale for the 19Z run).
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

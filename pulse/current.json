@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T18:20:00Z",
-  "capture": "2026-11-22T1803Z",
+  "updated_at": "2026-11-22T19:25:00Z",
+  "capture": "2026-11-22T1907Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -214,6 +214,12 @@
       "id": "2124389639633195104",
       "desk": "entertainment",
       "line": "Marvel Studios announces that Chris Evans, Anthony Mackie and Simu Liu started the Avengers: Doomsday Global Tour at the Las Vegas Grand Prix, and posts six photos. It is a promotion by the studio.",
+      "also": []
+    },
+    {
+      "id": "2124548714111136051",
+      "desk": "markets",
+      "line": "Unusual Whales says Luke Gromen of Forest for the Trees argues gold could reach $18,000 an ounce in a US debt crisis. The post puts gold near $4,000 now. The forecast and the figures are not checked here.",
       "also": []
     }
   ]
