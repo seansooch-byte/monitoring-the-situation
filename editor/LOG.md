@@ -7561,3 +7561,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json already holds every pulse id, the El-Sayed reply and the story-cited Bleacher id. plan.json unchanged.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T04:15Z
+- Captures read: 0401Z on 11-22 (46 posts). Last read: 0401Z.
+- X's check: 0401Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld. Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 38 items (0 new, 1 dropped): PopBase's Mamdani Achilles post dropped at 36 hours (still cited by a story, so it stays on watch.json). The build shows 35 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Georgia Tech couple on air posts (private individuals); Nebraska and Ohio State, Messi and other sports posts (sports already past its three); Benny Johnson's cartel leader post (claim, not checked); the Putin bodyguard posts (speculation about a person); Elon Musk's Uranus post (account already on the pulse); the Texas arrest post (real person accused, unchecked). Nothing new and large on disaster, defense, medicine or world.
+- Requests: none added or removed. plan.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
