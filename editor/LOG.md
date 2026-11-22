@@ -7741,3 +7741,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the two F1 post ids; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T22:40Z
+- Captures read: 2200Z on 11-22 (126 posts). Last read: 2200Z.
+- X's check: 2200Z 118 confirmed, 0 missing, 0 mismatched, 3 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 40 items (5 new, 1 dropped). Added: Polymarket's Amodei and WSJ post (ai, names Anthropic), a user's Singularity post with Musk's post and Grok's reply in also (ai, names xAI and Grok), Rand Paul's Medicare for All cost post (politics), birdabo's Tesla FSD V15 Toronto video (tech), hlovo_'s TikTok best-friend trend post (internet). Dropped: the CORTIS MAMA post (older than 36 hours). The build shows 40 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Complex ChatGPT James Bond post (a private man, photos undescribed); HughRetard returned-to-country video (reach rests on a nationality pile-on); BenSchettler arrest post (claim about a named person, unsourced); Skubal-to-Mets rumour (unsourced); bradfordonian beef joint (quotes an unread post); Musk's own newer posts (account placed); flagged private-individual and old_content posts. Quiet: ideas. For a story pass: the Amodei and WSJ video-games claim, the Musk Singularity claim.
+- Requests: none added or removed. watch.json gained seven ids and lost the dropped one; plan.json rebuilt. A test run made alongside other tools failed in 2 to 3 places (one named a pulse item that is not in my files); a solo rerun passed 162 of 162.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
