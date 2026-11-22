@@ -7661,3 +7661,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the two new ids and lost CrowdStrike. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T14:40Z
+- Captures read: 1400Z on 11-22 (105 posts). Last read: 1400Z.
+- X's check: 1400Z 102 confirmed, 0 missing, 1 mismatched (2124300025392185572, therampagefext, Japanese-language; the record has an extra account tag X lacks; not used), 0 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 30 items (2 new, 1 dropped). Dropped: Formula 1 Las Vegas video (past 36 hours). Added: BBC World's South Korea education minister post (world), lunar_mimi's Wacom sale post (business). The build shows 27 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Wembanyama (NBA account already placed); Polymarket's archaeology claim (science has two, claim unchecked); WSJ Kim Jong Un post (world has several); Stephen Miller clip and Cruz/Cornyn post (claims about real people I cannot source); old-content posts (flagged).
+- Requests: none added or removed. watch.json gained the two new ids and lost the F1 post. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
