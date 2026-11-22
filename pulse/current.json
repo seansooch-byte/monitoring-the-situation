@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T11:45:00Z",
-  "capture": "2026-11-22T1108Z",
+  "updated_at": "2026-11-22T12:40:00Z",
+  "capture": "2026-11-22T1203Z",
   "items": [
     {
       "id": "2123939905999138932",
@@ -140,12 +140,6 @@
       "also": []
     },
     {
-      "id": "2123932415068340513",
-      "desk": "politics",
-      "line": "Democrats Deliver, an account that posts political news, says Democrats have unveiled a bill so consumers own the games they buy and companies could not remove access. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124285676942147823",
       "desk": "defense",
       "line": "Mario Nawfal says Trump told reporters on Friday that China's roughly 600 warheads will catch up with the American arsenal within 10 years. He adds retired Air Force general Rob Spalding's view that the contest will move to trade, finance and digital networks. Not checked here.",
@@ -173,6 +167,18 @@
       "id": "2124432734995050878",
       "desk": "world",
       "line": "Reuters reports that China opposes a US Federal Communications Commission ban on Chinese telecoms having direct access to US phone numbers.",
+      "also": []
+    },
+    {
+      "id": "2124168179262058807",
+      "desk": "gaming",
+      "line": "EnigmaGamingX posts a video of about two and a half minutes titled \"I Found the BIGGEST Python in GTA 6\". The post says nothing more about what it shows, so that is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124299724492775763",
+      "desk": "entertainment",
+      "line": "PopCrave says Noah Schnapp revealed that he auditioned for the role of Haymitch in \"The Hunger Games: Sunrise on the Reaping\". It quotes him saying, \"think they picked right for this one.\" Not checked here.",
       "also": []
     }
   ]

@@ -7641,3 +7641,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the story posts and lost the two dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T12:45Z
+- Captures read: 1203Z on 11-22 (43 posts). Last read: 1203Z.
+- X's check: 1203Z 41 confirmed, 0 missing, 0 mismatched, 0 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 29 items (2 new, 1 dropped at 36 hours: Democrats Deliver's games ownership post). Added: EnigmaGamingX's GTA 6 python video (gaming), PopCrave's Noah Schnapp Hunger Games post (entertainment). The build shows 26 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Georgia Tech couple clip (private people, flagged); the Putin bodyguard posts (speculation about a real person); the Sorkin and Luckey clip; Elon Musk's telepathy, monkey and SFT posts (quote posts whose quoted text I did not read; account already placed); the "Aftercare" skit and Turkish and Hindi clips (point unclear or flagged); Fabrizio Romano's Fernandes post (account already placed). The 1203Z posts were small or from accounts already placed. Nothing new and large on medicine, ai, ideas or life.
+- Requests: none added or removed. watch.json gained the two new ids and lost the one dropped. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
