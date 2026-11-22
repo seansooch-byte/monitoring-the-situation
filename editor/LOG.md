@@ -7551,3 +7551,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost the Polymarket id and gained four. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T03:25Z
+- Captures read: 0303Z on 11-22 (113 posts). Last read: 0303Z.
+- X's check: 0303Z 101 confirmed, 0 missing, 0 mismatched, 1 withheld (not used). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 39 items (0 new, 1 dropped): Bleacher Report's Mamdani Achilles post dropped at 36 hours (PopBase's post on the same thing stays). Attached AbdulElSayed's reply (2124251785317790081) in `also` to the Popstonox Trump/El-Sayed item. The build shows 36 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk's Uranus and real-time video posts (account already on the pulse); the Putin bodyguard posts (speculation about a person's body, unchecked); Tim Sweeney's Riemann joke and other GTA 6 posts (gaming full); the Georgia Tech couple on air (private individuals); the Kentucky officer and Texas arrest posts (real people accused, unchecked); Polymarket's Nvidia employee post (identifies a private person); the Sorkin and Luckey clip (claim about real people). Disaster and defense have nothing new and large; Mario Nawfal's Patriot item stays as the defense item.
+- Requests: none added or removed. watch.json already holds every pulse id, the El-Sayed reply and the story-cited Bleacher id. plan.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
