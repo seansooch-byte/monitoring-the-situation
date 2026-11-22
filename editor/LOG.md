@@ -7751,3 +7751,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained seven ids and lost the dropped one; plan.json rebuilt. A test run made alongside other tools failed in 2 to 3 places (one named a pulse item that is not in my files); a solo rerun passed 162 of 162.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T23:10Z
+- Captures read: 2300Z on 11-22 (116 posts). Last read: 2300Z.
+- X's check: 2300Z 100 confirmed, 0 missing, 0 mismatched, 1 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 45 items (4 new, 2 dropped). Added: merettm's OpenAI pretraining post (ai), sagespells' six-minute song question (music), NFL_DovKleiman's post on Chris Johnson's ALS trial drug (medicine), tombogert's Messi throw-in video (sports). Dropped: Kraken CAD pairs (36 hours old) and Schefter's Patriots injured reserve post (oldest sports item). The build shows 42 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kick streamer clip, Nigeria emir post (flagged private individual); Complex ChatGPT Bond post (private man); Cinema_says kids-and-parents clip (minors, unread); Miss Universe booing post (not English, charged, not read); Dexerto GTA developer memorial and Madeline_617 blackjack hand (private people); Musk's newer posts (account placed). Quiet: life, ideas.
+- Requests: none added or removed. watch.json gained four ids and lost two; plan.json rebuilt. A test run made alongside other tools failed in places; a solo rerun passed 162 of 162.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

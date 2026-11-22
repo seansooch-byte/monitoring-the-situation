@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T22:35:00Z",
-  "capture": "2026-11-22T2200Z",
+  "updated_at": "2026-11-22T23:11:44Z",
+  "capture": "2026-11-22T2300Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -18,12 +18,6 @@
       "also": []
     },
     {
-      "id": "2124098562443354591",
-      "desk": "markets",
-      "line": "Kraken's support account says that from about 20:00 UTC on Nov 20, heavy selling pushed prices of its CAD pairs well below other markets. It says the platform processed every order correctly, its security teams found no sign of a breach, and executed trades stand. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124244539426922598",
       "desk": "politics",
       "line": "Popstonox says Donald Trump shared Abdul El-Sayed's Medicare for All proposal on Truth Social, and that El-Sayed had suggested renaming it \"TrumpCare for All\". Not checked here.",
@@ -35,12 +29,6 @@
       "id": "2124120914904457524",
       "desk": "music",
       "line": "JT News posts a 24-second video it says shows the singer JT performing \"Okay\" at the GTA VI launch party.",
-      "also": []
-    },
-    {
-      "id": "2124110068308144411",
-      "desk": "sports",
-      "line": "Adam Schefter reports that the New England Patriots are close to the limit of players they can designate to return from injured reserve, so Drake Maye and AJ Brown may not be placed there.",
       "also": []
     },
     {
@@ -269,6 +257,30 @@
       "id": "2124568418963665364",
       "desk": "internet",
       "line": "A user says a TikTok trend has people finding out they are no longer visitors at their best friends’ houses, and calls the responses wholesome. The eight images are not described in the record.",
+      "also": []
+    },
+    {
+      "id": "2124549218995949967",
+      "desk": "ai",
+      "line": "The account merettm says OpenAI is sharing more on its pretraining progress, and that its essay \"Perplexity and Intelligence\" argues for common limits based on perplexity, with progress beyond them gated on understanding AI behavior. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124416284591047116",
+      "desk": "music",
+      "line": "The account sagespells posts \"gun to your head, name a song that is over six minutes long.\" It is a question to readers.",
+      "also": []
+    },
+    {
+      "id": "2124298778358280558",
+      "desk": "medicine",
+      "line": "NFL_DovKleiman says former Titans running back Chris Johnson announced that he is starting a new trial drug to help battle ALS, and quotes Johnson: \"Starting a new trial drug! Prayers up that it makes a difference.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124292215883395103",
+      "desk": "sports",
+      "line": "The account tombogert posts a six-second video and says it shows Lionel Messi taking a throw-in off Gonzalo Tapia's face. What the video shows is not checked here.",
       "also": []
     }
   ]
