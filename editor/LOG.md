@@ -7731,3 +7731,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained three ids; plan.json rebuilt. A test run made alongside other tools failed in places; a solo rerun passed 162 of 162.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T21:40Z
+- Captures read: 2102Z on 11-22 (86 posts). Last read: 2102Z.
+- X's check: 2102Z 78 confirmed, 0 missing, 0 mismatched, 1 withheld. Earlier today: mismatch 2124300025392185572 (1400Z) and 2124195423636353383 (0202Z), the grabber's record. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 39 items (1 new, 0 dropped). Added: Red Bull's Verstappen post with Russell's post in also (sports). The build shows 36 and holds back 3 under one place per account.
+- Added: 2026-11-22-vegas-gp-verstappen-wins-russell-crashes (sports). Updated: none (nothing in 2102Z moved the live stories; their sources were not re-fetched this pass).
+- Left out: Miley Cyrus wedding post (only a pre-wedding "this weekend" report found, marriage unconfirmed); Stephen Miller side-door post and Andy Burnham Downing Street post (no source found for the new claims); Man United 4-0 at Anfield (search returned only a 2022 match); Pentagon CIO post (not researched); flagged private-individual posts; old_content posts.
+- Requests: none added or removed. watch.json gained the two F1 post ids; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

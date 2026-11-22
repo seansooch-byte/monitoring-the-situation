@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-22-vegas-gp-verstappen-wins-russell-crashes",
+  "title": "Verstappen wins the Las Vegas Grand Prix after Russell hits the wall late",
+  "dek": "A race with many lead changes ended with the Red Bull driver first and the Mercedes driver ninth. Russell says he took a high-risk move for the win.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-22T05:33:52Z",
+  "updated_at": "2026-11-22T21:30:00Z",
+  "what": [
+    "Max Verstappen of Red Bull won the Las Vegas Grand Prix on Saturday night local time, which was Sunday 22 November 2026 in UTC. Lando Norris was second and Oscar Piastri third, both for McLaren. Kimi Antonelli of Mercedes was fourth and Pierre Gasly of Alpine fifth, according to Sky Sports.",
+    "Sky Sports and The Race both report that George Russell of Mercedes locked up at Turn 5 and hit the barrier with three laps to go. He kept driving and finished ninth. The Race says he and Verstappen had traded the lead many times earlier in the race.",
+    "Sky Sports also reports that Ferrari teammates Lewis Hamilton and Charles Leclerc touched at Turn 7 while racing for position, and that Leclerc was given a 10-second penalty. The Race reports penalties for both Ferrari drivers. The two outlets differ on the reason for Hamilton's penalty, so I give it no detail here.",
+    "Russell wrote on X after the race that he wanted the win, that he \"went for a high risk move and paid the price,\" and that he has no regrets. Red Bull's account posted that Verstappen's drive was incredible. Some outlets say Verstappen mocked Russell on the radio. I did not find the radio message in a primary source."
+  ],
+  "why": "A late crash by a leading driver, a win after a race of constant overtakes, and a team clash at Ferrari gave fans several things to argue about at once. Both the winner's team and the driver who crashed posted their own account within hours.",
+  "next": "Two races remain in the season, in Qatar and Abu Dhabi, according to Sky Sports.",
+  "posts": [
+    { "id": "2124375791412879756", "role": "official" },
+    { "id": "2124590971208040766", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Sky Sports: Las Vegas GP, Verstappen wins wild race as Ferraris collide again", "url": "https://www.skysports.com/f1/news/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again" },
+    { "label": "The Race: Verstappen wins breathless Las Vegas GP as Ferraris collide", "url": "https://www.the-race.com/formula-1/f1-las-vegas-gp-max-verstappen-wins-ferrari-drivers-collide/" },
+    { "label": "Sky Sports: Las Vegas GP results", "url": "https://www.skysports.com/f1/grandprix/las-vegas/results" }
+  ]
+}

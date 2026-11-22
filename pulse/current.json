@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T20:10:46Z",
-  "capture": "2026-11-22T2000Z",
+  "updated_at": "2026-11-22T21:35:00Z",
+  "capture": "2026-11-22T2102Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -235,6 +235,14 @@
       "desk": "entertainment",
       "line": "PopBase, a pop culture account, says Matty Healy and Gabbriette Bechtel are expecting their first child. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2124375791412879756",
+      "desk": "sports",
+      "line": "Red Bull Racing posts that Max Verstappen’s drive at the Las Vegas Grand Prix was incredible. Sky Sports reports he won; George Russell, whose own post is attached, says he went for a high-risk move and paid the price.",
+      "also": [
+        "2124590971208040766"
+      ]
     }
   ]
 }
