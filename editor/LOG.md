@@ -7721,3 +7721,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the new id; plan.json rebuilt (the 18Z plan was stale for the 19Z run).
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T20:20Z
+- Captures read: 2000Z on 11-22 (63 posts). Last read: 2000Z.
+- X's check: 2000Z 62 confirmed, 0 missing, 0 mismatched, 0 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 38 items (2 new, 0 dropped; none older than 36 hours). Added: SpaceX pad-turnaround post with Elon Musk's quote of it in also (science), PopBase Healy and Bechtel post (entertainment). The build shows 35 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: libsoftiktok NY cop post and Miami goat-cash post (private individuals, flagged); CNN COP summit and BRICSinfo Iran lawsuits posts (world desk already full); Elon launch post on its own (account already placed); replies under the PopBase post (insults and drug claims about named people); Delta outage post (cause unsourced); TRobinson prison post (about his own case, not checked); old_content posts. Quiet: ai, ideas.
+- Requests: none added or removed. watch.json gained three ids; plan.json rebuilt. A test run made alongside other tools failed in places; a solo rerun passed 162 of 162.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
