@@ -7671,3 +7671,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the two new ids and lost the F1 post. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T15:20Z
+- Captures read: 1503Z on 11-22 (104 posts). Last read: 1503Z.
+- X's check: 1503Z 97 confirmed, 0 missing, 0 mismatched, 0 withheld. The build still warns of 2 older story-cited posts X has not confirmed (2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 30 items, none new, none dropped (the oldest, the NBA Harden post, is at the 36-hour edge and goes next pass). The build shows 27 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Georgia Tech couple, Disneyland scooter, Kick streamer, Seattle airport and Nigeria clips (private individuals, flagged); Musk's newer posts, Schefter, Rapsheet and Romano posts (accounts already placed); the Starlink rescue repost (aggregator of an account already placed); SpaceX "Liftoff!" (video not described, point unclear); Grok's high-speed rail post (claims I cannot source). Nothing new and large on medicine, ai, ideas or life.
+- Requests: none added or removed. watch.json and plan.json unchanged.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
