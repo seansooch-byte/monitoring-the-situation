@@ -7651,3 +7651,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained the two new ids and lost the one dropped. plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-22T13:20Z
+- Captures read: 1300Z on 11-22 (97 posts). Last read: 1300Z.
+- X's check: 1300Z 90 confirmed, 0 missing, 0 mismatched, 2 withheld (already checked by the hourly script). Earlier mismatch and withheld ids unchanged, none used. The build warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 29 items (1 new, 1 replaced, 1 dropped). Dropped: Unusual Whales' CrowdStrike post (past 36 hours). Replaced: Romano's earlier Doue injury post by his official ACL post, with the earlier one in `also`. Added: Scott Robertson's Carney video (world). The build shows 26 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: the Disneyland scooter clip and the Kick streamer clip (private individuals, flagged); the Dept of Education Vice City post (I could not work out its point from the post; replies hint at gender-segregated spaces, unchecked); Political Rock's election post (claims I cannot source); Glenn Diesen's Kaliningrad post (unconfirmed claim, not checked); the Leroy Boseman death post (private family); other Romano, Schefter and Rapsheet posts (accounts already placed). Nothing new and large on medicine, ai, ideas or life.
+- Requests: none added or removed. watch.json gained the two new ids and lost CrowdStrike. plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

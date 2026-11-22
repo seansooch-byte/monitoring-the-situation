@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T12:40:00Z",
-  "capture": "2026-11-22T1203Z",
+  "updated_at": "2026-11-22T13:12:00Z",
+  "capture": "2026-11-22T1300Z",
   "items": [
-    {
-      "id": "2123939905999138932",
-      "desk": "business",
-      "line": "Unusual Whales says Bloomberg reports that CrowdStrike is in talks to acquire Zscaler. Not checked here.",
-      "also": []
-    },
     {
       "id": "2123952683853734093",
       "desk": "sports",
@@ -33,12 +27,6 @@
       "id": "2123977131747123526",
       "desk": "sports",
       "line": "The NBA says James Harden scored 51 points, the most he has scored as a Cavalier, as Cleveland moved to 2-1 in Emirates NBA Cup group play.",
-      "also": []
-    },
-    {
-      "id": "2124188376005833083",
-      "desk": "sports",
-      "line": "Fabrizio Romano says Désiré Doué left the pitch in tears after a serious injury and was taken off at once. The post has a photo. The injury is not checked here.",
       "also": []
     },
     {
@@ -179,6 +167,20 @@
       "id": "2124299724492775763",
       "desk": "entertainment",
       "line": "PopCrave says Noah Schnapp revealed that he auditioned for the role of Haymitch in \"The Hunger Games: Sunrise on the Reaping\". It quotes him saying, \"think they picked right for this one.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124477706582515965",
+      "desk": "sports",
+      "line": "Fabrizio Romano posts what he calls official: Désiré Doué has ruptured his ACL and will be out until next season. The post has a photo and is in English. The club statement is not checked here.",
+      "also": [
+        "2124188376005833083"
+      ]
+    },
+    {
+      "id": "2124381312341729418",
+      "desk": "world",
+      "line": "Scott Robertson posts a 17-second video captioned with a quote attributed to Carney: \"Damn. This is a tough room. And I've been in the Oval Office. Alone. With its new interior decorator.\" The post does not say where or when it was said. Not checked here.",
       "also": []
     }
   ]
