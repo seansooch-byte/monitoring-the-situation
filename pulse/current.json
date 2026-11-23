@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T12:40:00Z",
-  "capture": "2026-11-23T1207Z",
+  "updated_at": "2026-11-23T13:40:00Z",
+  "capture": "2026-11-23T1306Z",
   "items": [
     {
       "id": "2124349687079502030",
@@ -10,21 +10,9 @@
       "also": []
     },
     {
-      "id": "2124285676942147823",
-      "desk": "defense",
-      "line": "Mario Nawfal says Trump told reporters on Friday that China's roughly 600 warheads will catch up with the American arsenal within 10 years. He adds retired Air Force general Rob Spalding's view that the contest will move to trade, finance and digital networks. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124413006906007956",
       "desk": "markets",
       "line": "Ash Crypto says retail investors in Russia can now legally trade Bitcoin, Ether and USDT on approved exchanges under new rules, and calls for the US to pass the Crypto CLARITY act. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124299724492775763",
-      "desk": "entertainment",
-      "line": "PopCrave says Noah Schnapp revealed that he auditioned for the role of Haymitch in \"The Hunger Games: Sunrise on the Reaping\". It quotes him saying, \"think they picked right for this one.\" Not checked here.",
       "also": []
     },
     {
@@ -145,18 +133,6 @@
       "also": []
     },
     {
-      "id": "2124298778358280558",
-      "desk": "medicine",
-      "line": "NFL_DovKleiman says former Titans running back Chris Johnson announced that he is starting a new trial drug to help battle ALS, and quotes Johnson: \"Starting a new trial drug! Prayers up that it makes a difference.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124292215883395103",
-      "desk": "sports",
-      "line": "The account tombogert posts a six-second video and says it shows Lionel Messi taking a throw-in off Gonzalo Tapia's face. What the video shows is not checked here.",
-      "also": []
-    },
-    {
       "id": "2124480996003508672",
       "desk": "sports",
       "line": "Adam Schefter of ESPN reports, citing sources, that former Colts quarterback Daniel Jones is likely to wait before signing with a new team if he clears waivers on Monday. The post links an ESPN story. Not checked here.",
@@ -254,6 +230,12 @@
       "id": "2124829510092898349",
       "desk": "business",
       "line": "Unusual Whales reports that CrowdStrike is buying Zscaler in an all-stock deal of about $44 billion, which it calls the largest cybersecurity acquisition ever, with Zscaler holders getting 1.135 CrowdStrike shares each. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124707853944631341",
+      "desk": "gaming",
+      "line": "A user jokes about GTA VI, telling players to skip a character called Mandy and visit a spot on the game map to enter the code 1886. The post comes with one image, which I could not see described.",
       "also": []
     }
   ]

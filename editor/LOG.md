@@ -7882,3 +7882,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T13:40Z
+- Captures read: 1306Z on 11-23 (105 posts). Last read: 1306Z.
+- X's check: 1306Z 99 confirmed, 0 missing, 0 mismatched, 2 withheld. Older runs: 1 missing (0106Z on 11-23), grabber's record. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 37 items (1 new, 4 dropped at 36 hours: Nawfal China warheads, PopCrave Schnapp, NFL_DovKleiman Chris Johnson, tombogert Messi clip). Added the xzx_slipknot GTA VI joke (gaming; its image has no description). Build shows 36 on the pulse (unusual_whales second post held off the front page). Medicine desk now has no item.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn and other old_content posts; Fabrizio Romano van Dijk/Endrick/Courtois posts (his place is held); ESPN Tom Jackson copy (account already has a place); PopCrave and newsnoteworthy Don Toliver tear gas posts (small, nothing outside X); jaeharana "my lucia" and other image-only GTA posts (point not clear); RT/Nawfal Tel Aviv jackals (small).
+- Requests: none added or removed.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
