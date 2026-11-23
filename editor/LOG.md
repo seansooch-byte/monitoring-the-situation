@@ -7892,3 +7892,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T14:35Z
+- Captures read: 1404Z on 11-23 (96 posts). Last read: 1404Z.
+- X's check: 1404Z 94 confirmed, 0 missing, 1 mismatched (2124509395505562026, Mihawk9_9, a small post not on the pulse), 0 withheld. Older runs: 1 missing (0106Z on 11-23), grabber's record. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 42 items (5 new, 0 dropped; the Bridges buzzer-beater post turns 36 hours old next pass). Added: Elon Musk "homeless Batman" (internet), Nikita Bier subscriptions post (internet), pokgaii BYD steering wheel (tech, Chinese), InsiderWire Delta outage (tech), ItsPeptime FDA gene therapy claim (medicine, unconfirmed). Build shows 40 on the pulse (elonmusk 1 and unusual_whales 1 held off the front page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Costakid stream clips and the Ced_Byke, iniemohk and HateradeCon posts (private individuals); Cinema_says kids clip and Madeline_617 blackjack clip (media not described, people may be shown); GFreiNews Manchester post (stereotyping of women, German); dom_lucre Swae Lee post (shows a fan); WatcherGuru and AshCrypto Nvidia reinstating Jensen Huang (under an hour old, nothing outside X; candidate for the next story pass with the Acyn item and the Nov 8 Nvidia story); visegrad24 and Osint613 Poland missile posts (young and small, a candidate for the next story pass); unusual_whales Alice Huang post (account holds places).
+- Requests: none added or removed. Watch list gained the 5 new pulse ids and the CrowdStrike post; plan rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

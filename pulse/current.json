@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T13:40:00Z",
-  "capture": "2026-11-23T1306Z",
+  "updated_at": "2026-11-23T14:21:53Z",
+  "capture": "2026-11-23T1404Z",
   "items": [
     {
       "id": "2124349687079502030",
@@ -236,6 +236,36 @@
       "id": "2124707853944631341",
       "desk": "gaming",
       "line": "A user jokes about GTA VI, telling players to skip a character called Mandy and visit a spot on the game map to enter the code 1886. The post comes with one image, which I could not see described.",
+      "also": []
+    },
+    {
+      "id": "2124450538976629076",
+      "desk": "internet",
+      "line": "Elon Musk says his personal design esthetic is “homeless Batman.” The post is text only.",
+      "also": []
+    },
+    {
+      "id": "2124613622588707018",
+      "desk": "internet",
+      "line": "Nikita Bier says the global economy rests on people forgetting to cancel auto-renewing subscriptions and not moving their cash to higher-yielding money market accounts. He says that if everyone had an AI agent do it, the banking system would collapse. That is his view. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124369266476790267",
+      "desk": "tech",
+      "line": "The account pokgaii posts a short video with a Chinese caption. It appears to say the folding steering wheel on the BYD Fangchengbao Titanium 9 is more useful than it looks. The post is not in English and I am not certain of every word.",
+      "also": []
+    },
+    {
+      "id": "2124525424965247117",
+      "desk": "tech",
+      "line": "InsiderWire reports that thousands of US flights were delayed after a Delta outage ahead of Thanksgiving. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124489825676099708",
+      "desk": "medicine",
+      "line": "The account ItsPeptime says the first human trial of an age-reversal gene therapy has received a green light from the FDA. The post names no company and links no source. Not checked here.",
       "also": []
     }
   ]
