@@ -7802,3 +7802,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained five ids and lost twelve; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T04:25Z
+- Captures read: 0406Z on 11-23 (54 posts). Last read: 0406Z.
+- X's check: 0406Z 51 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs still show 1 mismatched (1400Z on 11-22, grabber's record) and 1 missing (0106Z on 11-23).
+- Pulse: 45 items (1 new, 1 dropped). Added: EricLDaugh Amtrak and 18-wheeler collision in Lafayette (disaster), with Osint613's post in also. Dropped: EnigmaGamingX GTA post (past 36 hours).
+- Added: none. Updated: none (pulse pass).
+- Left out: Alice Huang spy-contact posts and the NYT Nvidia scandal posts (claims about named people, unsourced here); Trump "rehire Jensen Huang" posts (not yet checked outside X); KOSPI crash posts (markets desk already holds three). For the next story pass: Trump's Nvidia remark and the KOSPI fall may be worth researched stories.
+- Requests: none added or removed. watch.json gained two ids; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T03:40:00Z",
-  "capture": "2026-11-23T0307Z",
+  "updated_at": "2026-11-23T04:17:18Z",
+  "capture": "2026-11-23T0406Z",
   "items": [
     {
       "id": "2124244539426922598",
@@ -75,12 +75,6 @@
       "id": "2124432734995050878",
       "desk": "world",
       "line": "Reuters reports that China opposes a US Federal Communications Commission ban on Chinese telecoms having direct access to US phone numbers.",
-      "also": []
-    },
-    {
-      "id": "2124168179262058807",
-      "desk": "gaming",
-      "line": "EnigmaGamingX posts a video of about two and a half minutes titled \"I Found the BIGGEST Python in GTA 6\". The post says nothing more about what it shows, so that is not checked here.",
       "also": []
     },
     {
@@ -280,6 +274,14 @@
       "desk": "ai",
       "line": "Complex shares a set of screenshots, via tomscibelli, of a man asking ChatGPT why he was not cast as James Bond. The post says things take a wild turn. The images are not described, so what ChatGPT said is not clear from the post. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2124695940292321709",
+      "desk": "disaster",
+      "line": "Eric Daugherty says an Amtrak train partially derailed after hitting an 18-wheeler in Lafayette, Louisiana, and cites KLFY as reporting about 95 passengers aboard. The post text is cut off in the record. Not checked here.",
+      "also": [
+        "2124700384585486504"
+      ]
     }
   ]
 }
