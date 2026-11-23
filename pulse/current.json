@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T19:35:00Z",
-  "capture": "2026-11-23T1909Z",
+  "updated_at": "2026-11-23T20:20:00Z",
+  "capture": "2026-11-23T2002Z",
   "items": [
     {
       "id": "2124477706582515965",
@@ -278,6 +278,12 @@
       "id": "2124903027370774900",
       "desk": "science",
       "line": "NASA says it is on its way to explore Europa, an ocean world that could support life, and promotes a new documentary about the mission, The Europa Concept, now on NASA+.",
+      "also": []
+    },
+    {
+      "id": "2124876165085368518",
+      "desk": "markets",
+      "line": "Watcher Guru, a news and finance account, says over $3 trillion was added to the US stock market in the first 10 minutes of trading on Monday. It gives no source. Not checked here.",
       "also": []
     }
   ]

@@ -7952,3 +7952,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the Altman post and lost the dropped id; plan rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One npm test run showed 1 failure while verify and build ran in parallel; a clean rerun passed 162, 0 fail.
+
+## 2026-11-23T20:25Z
+- Captures read: 2002Z on 11-23 (54 posts). Last read: 2002Z.
+- X's check: 2002Z 54 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs: 1 mismatched (1404Z, 2124509395505562026), 1 mismatched (1601Z), 1 mismatched (1800Z, 2124607645902422499), 1 missing (0106Z on 11-23), grabber's record. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 45 items (1 new, 0 dropped; nothing past 36 hours). Added: Watcher Guru on the $3 trillion first-ten-minutes claim (markets, not checked). Build shows 42 on the front (elonmusk 1, watcherguru 1, unusual_whales 1 held off; the Watcher Guru item stands on the markets page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Kalshi post on an Anthropic researcher's warning (unchecked claim; Anthropic makes Claude), AndrewCurran_ NYT SpaceXAI post (report about xAI, nothing checked), Polymarket OpenAI small-business post (ai desk covered), EricLDaugh glyphosate post (medical claim, nothing outside X), further Nvidia/Huang and elonmusk posts (covered, or account holds places).
+- Requests: none added or removed. Watch list gained the new id; plan rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. A stale script in my scratch directory overwrote pulse/current.json when I ran it by mistake; I restored the file from git before any edit and nothing from it was committed.
