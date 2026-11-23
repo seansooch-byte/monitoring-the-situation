@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T01:30:00Z",
-  "capture": "2026-11-23T0106Z",
+  "updated_at": "2026-11-23T02:40:00Z",
+  "capture": "2026-11-23T0204Z",
   "items": [
     {
       "id": "2124244539426922598",
@@ -122,21 +122,9 @@
       ]
     },
     {
-      "id": "2124381312341729418",
-      "desk": "world",
-      "line": "Scott Robertson posts a 17-second video captioned with a quote attributed to Carney: \"Damn. This is a tough room. And I've been in the Oval Office. Alone. With its new interior decorator.\" The post does not say where or when it was said. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124433914848526622",
       "desk": "world",
       "line": "BBC World reports that South Korea’s education minister has resigned over an exam cheating scandal. The post links to the BBC report; the details are not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124366436412084513",
-      "desk": "business",
-      "line": "The account lunar_mimi says Wacom is being sold for $800 million and will be removed from the stock market once the deal is done. Not checked here.",
       "also": []
     },
     {
@@ -164,12 +152,6 @@
       "id": "2124265510028329113",
       "desk": "medicine",
       "line": "The account SBakerMD, which posts as a doctor, lists sports by the years of added life it says they bring, with tennis first at +9.7 years. The post gives no source in the text shown. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124321337216807194",
-      "desk": "sports",
-      "line": "The Dunk Central posts a 25-second video in which NBA player Kyle Kuzma says the moon landing footage is \"just BS\" to him and asks why people have not gone back. The post credits a show for the clip. Kuzma's view is his own claim. Not checked here.",
       "also": []
     },
     {
@@ -286,6 +268,16 @@
       "desk": "ideas",
       "line": "Elon Musk writes that consciousness is either an illusion or present everywhere on a gradient, and that it is difficult to argue that carbon is conscious but silicon is not. It is his opinion, not a finding.",
       "also": []
+    },
+    {
+      "id": "2124623456540951028",
+      "desk": "sports",
+      "line": "ESPN baseball reporter Jeff Passan says, citing sources, that pitcher Tarik Skubal and the New York Mets have agreed on a nine-year, $450 million contract. Not checked here."
+    },
+    {
+      "id": "2124555061363921186",
+      "desk": "politics",
+      "line": "The account Watcher Guru says President Trump blames Democrats for the stock market crashing and says \"it will only get worse.\" Not checked here."
     }
   ]
 }
