@@ -7962,3 +7962,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the new id; plan rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. A stale script in my scratch directory overwrote pulse/current.json when I ran it by mistake; I restored the file from git before any edit and nothing from it was committed.
+
+## 2026-11-23T21:40Z
+- Captures read: 2107Z on 11-23 (114 posts). Last read: 2107Z.
+- X's check: 2107Z 110 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z (2124509395505562026), 1601Z, 1800Z (2124607645902422499); missing 0106Z. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 45 items (4 new, 4 dropped). Added: Rapoport on the Cardinals firing Nick Rallis (sports, not checked); Claude Ship from ClaudeDevs (ai, Anthropic note); Jeffries on the Nvidia reinstatement (politics); Ted Lasso renewal (entertainment, not checked). Dropped small items: sagespells, Dexerto cat, 72quvu GTA, Musk "homeless Batman".
+- Added: none. Updated: none. Searches for the Cardinals firing and the Fifth Circuit Pelosi item returned only older or contradicting results, so no story.
+- Left out: Schefter Rallis post (account already holds a place); Ms. Rachel immigration court clip (children, nothing outside X); Landers post on NYT reporting about the woman in the Huang story (nothing outside X); Turley Fifth Circuit post (could not match it to a ruling); Kobeissi Huang and market posts (figures unchecked); Larian post (no text or media description).
+- Requests: none added or removed. Watch list updated; plan rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Candidates for a later story pass: Claude Ship launch (find Anthropic's own page), Cardinals defense change once the team confirms.
