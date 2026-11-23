@@ -1,16 +1,21 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-08-nvidia-board-probes-huang-china-spy",
-  "title": "Jensen Huang resigns as Nvidia CEO days after the board opened an investigation into his relationship with a woman reportedly tied to China",
-  "dek": "Nvidia supplies the chips at the centre of the U.S.-China technology fight. Its founder is out as chief executive, and the filing gives no reason.",
+  "title": "Nvidia reinstates Jensen Huang as CEO 12 days after he resigned",
+  "dek": "Nvidia supplies the chips at the centre of the U.S.-China technology fight. Its founder is back as chief executive, and the White House says the President took part.",
   "desks": [
     "business",
     "politics"
   ],
   "standing": "developing",
   "started_at": "2026-11-08T20:07:00Z",
-  "updated_at": "2026-11-16T02:35:00Z",
+  "updated_at": "2026-11-23T16:40:00Z",
   "what": [
+    "Update, 23 November 2026. Nvidia says its board voted unanimously to reinstate Huang as president, chief executive and director, effective immediately. In its release, filed with the SEC, board chair Harvey Jones says the board believes Huang is \"the right person to lead NVIDIA.\" The release says the board held discussions with Huang, received input from senior U.S. government officials, and is confident his return \"poses no national security risk.\" It also says an independent committee continues to look into a reported foreign intelligence targeting of Huang, that a National Security and Export Control Committee has been set up, and that Nvidia is recruiting a Chief Compliance Officer. It thanks Colette Kress for her service as interim CEO; she keeps her CFO role.",
+    "On 17 November, the Associated Press reported Jones as saying the board \"unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\" The AP also reported that Huang agreed to appear before House committees on 1 December and Nvidia general counsel Tim Teter on 2 December. I did not find a statement from Nvidia that explains what changed in six days beyond the release above.",
+    "President Trump, in a statement the White House account posted, called the board's decision \"correct and proper\" and said the country needs Huang's leadership. A post of the full statement also has him saying the government has no reason to believe Huang's return poses a national security risk. I could not see the rest of that statement. Per a post, the White House also says Trump joined a board meeting and \"intervened\" to advocate for the return. I found no Nvidia statement confirming that, and the release speaks only of input from government officials. In remarks the account atrupar posted, Trump says he has been speaking to the board \"directly and indirectly,\" and, on CNBC, that his administration gave the board \"assurance\" on the national security question. Those are Trump's statements and I could not check them against another source.",
+    "Elon Musk posted \"It is done\" and, per Cointelegraph, \"The mistake has been corrected.\" Musk had said earlier that he was signing the petition for Huang's return. In nothing I found has the Justice Department said whether it now considers the woman a spy; Trump's statement refers to the Attorney General, but I could not read what it says about that. Posts also say Nvidia shares rose sharply on the news. I did not check a price or a market value, and I give none here.",
+    "The paragraphs below are the earlier record, as of 16 November, and are kept for context.",
     "Nvidia's filing with the SEC (a Form 8-K, event date 11 November 2026) says the board accepted Jen-Hsun (Jensen) Huang's resignation as president, chief executive and director, effective immediately. Chief financial officer Colette Kress is interim CEO while keeping her CFO role, and the board has begun a search for a permanent CEO, internal and external. Harvey Jones was named board chair. The filing gives no reason for the resignation and does not mention the investigation. Polymarket posted the news on 12 November.",
     "On Sunday, 8 November 2026, CNBC and Fox Business reported that Nvidia's board launched an independent investigation of chief executive Jensen Huang. The reports say Huang emailed staff: \"I was unfaithful to my wife. My actions hurt her\" and \"I am deeply sorry.\" WatcherGuru posted extracts of the email.",
     "CNBC says the woman is tied to Megaspeed, a cloud company and Nvidia customer that has been investigated over whether it helped restricted Chinese firms get Nvidia chips. CNBC and others, citing The New York Times and the Financial Times, say U.S. intelligence agencies believe she passes information to Beijing. I could not see those original reports, and I found no statement from her. She is not named here. The 8-K does not say whether the investigation has ended.",
@@ -25,7 +30,7 @@
     "Other posts, including a video from the account Nostre_damus, claim Huang leaked chip secrets. No source I found says so, and the board says it has no reason to believe it. That claim is not supported here."
   ],
   "why": "It joins a personal admission to the question of whether a chip maker's top executive was compromised, while Congress is already pressing Nvidia on exports to China.",
-  "next": "The board's search for a permanent CEO has no stated end date. Bessent set 10 days for answers on export compliance. Nvidia's quarterly results and Kress's staff meeting are reported for next week. The House chairs had asked for Huang's briefing on 18 November; I found no word on whether it still stands. The Justice Department has not said whether it considers the woman a spy.",
+  "next": "Huang is due before House committees on 1 December and Nvidia's general counsel on 2 December, per the AP. The independent committee has not said when it will finish. The Justice Department has not said whether it considers the woman a spy. Nvidia has not said what the White House role was beyond \"input.\"",
   "posts": [
     {
       "id": "2119524963644276809",
@@ -86,6 +91,34 @@
     {
       "id": "2122045918342238337",
       "role": "voice"
+    },
+    {
+      "id": "2124865060397019480",
+      "role": "official"
+    },
+    {
+      "id": "2124868287708205116",
+      "role": "voice"
+    },
+    {
+      "id": "2124872428723552741",
+      "role": "official"
+    },
+    {
+      "id": "2124882928001781904",
+      "role": "voice"
+    },
+    {
+      "id": "2124893577947832325",
+      "role": "voice"
+    },
+    {
+      "id": "2124893976171860456",
+      "role": "voice"
+    },
+    {
+      "id": "2124893458926022752",
+      "role": "voice"
     }
   ],
   "corrections": [
@@ -120,9 +153,21 @@
     {
       "at": "2026-11-16T02:35:00Z",
       "text": "Added the petition count of 15 November, the caveats on it, and Nvidia's reply to the petition, from Business Upturn."
+    },
+    {
+      "at": "2026-11-23T16:40:00Z",
+      "text": "Huang was reinstated on 23 November. Title, summary, status text and the next steps updated; the earlier paragraphs are kept as the record up to 16 November."
     }
   ],
   "sources": [
+    {
+      "label": "Nvidia press release, Form 8-K exhibit: NVIDIA Reinstates Jensen Huang as President and CEO (SEC)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000090/nov23pressrelease.htm"
+    },
+    {
+      "label": "AP via WRDW: Nvidia chairman says board does not intend to reinstate Huang (17 November)",
+      "url": "https://www.wrdw.com/2026/11/17/former-nvidia-ceo-jensen-huang-appear-before-congress-national-security-questions-intensify/?outputType=amp"
+    },
     {
       "label": "Reuters via Investing.com: Bessent says Nvidia must go outside the company to find new CEO",
       "url": "https://www.investing.com/news/economy-news/bessent-says-nvidia-must-go-outside-the-company-to-find-new-ceo-5028004"

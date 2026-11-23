@@ -7912,3 +7912,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the 5 new ids; plan rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T16:50Z
+- Captures read: 1601Z on 11-23 (52 posts). Last read: 1601Z.
+- X's check: 1601Z 52 confirmed, 0 missing, 1 mismatched (not on the pulse or in a story; grabber's record), 0 withheld. Older runs: 1 mismatched (1404Z, 2124509395505562026), 1 missing (0106Z on 11-23). Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 45 items (6 new, 5 dropped). Added: Dexerto Zeus the cat (offbeat), RT Alabama pipeline cloud (disaster, not checked), DiscussingFilm Cyclops (entertainment), MLB Goldschmidt to the Mets (sports), Mario Nawfal on the Ukrainian major (defense), PollTracker2024 on El-Sayed and Schumer (politics, not checked). Dropped: Reuters Brazil storm (36 hours), AshCrypto Russia crypto, Red Bull Verstappen, EricLDaugh Amtrak, USWPColby thread (all small).
+- Added: none. Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (the 23 November reinstatement: Nvidia's release, the AP on the 17 November board position, Trump and White House statements as posted; correction added; title replaced).
+- Left out: Kalshi, KobeissiLetter and unusual_whales Nvidia market-value posts (figures not checked, story gives none); RabbiJeffx post (insult toward a group); Fabrizio Romano Mourinho post and elonmusk Grok Black Friday post (accounts hold places); Sawyer Merritt Tesla and NBA clips (media not described); "It is done" (subject not clear, covered by the Musk quote on the Nvidia item).
+- Requests: none added or removed. Watch list gained the new pulse ids and 7 story-cited posts; plan rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Only one story was updated this pass; the Poland missile posts and the Alabama pipeline blast are left for the next pass.

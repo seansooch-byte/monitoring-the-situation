@@ -1,20 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T15:20:07Z",
-  "capture": "2026-11-23T1508Z",
+  "updated_at": "2026-11-23T16:45:00Z",
+  "capture": "2026-11-23T1601Z",
   "items": [
-    {
-      "id": "2124349687079502030",
-      "desk": "disaster",
-      "line": "Reuters reports that a town in southern Brazil has been left reeling by a supercell storm.",
-      "also": []
-    },
-    {
-      "id": "2124413006906007956",
-      "desk": "markets",
-      "line": "Ash Crypto says retail investors in Russia can now legally trade Bitcoin, Ether and USDT on approved exchanges under new rules, and calls for the US to pass the Crypto CLARITY act. Not checked here.",
-      "also": []
-    },
     {
       "id": "2124477706582515965",
       "desk": "sports",
@@ -66,14 +54,6 @@
       "desk": "entertainment",
       "line": "PopBase, a pop culture account, says Matty Healy and Gabbriette Bechtel are expecting their first child. Not checked here.",
       "also": []
-    },
-    {
-      "id": "2124375791412879756",
-      "desk": "sports",
-      "line": "Red Bull Racing posts that Max Verstappen’s drive at the Las Vegas Grand Prix was incredible. Sky Sports reports he won; George Russell, whose own post is attached, says he went for a high-risk move and paid the price.",
-      "also": [
-        "2124590971208040766"
-      ]
     },
     {
       "id": "2124553359512465784",
@@ -183,23 +163,9 @@
       "also": []
     },
     {
-      "id": "2124695940292321709",
-      "desk": "disaster",
-      "line": "Eric Daugherty says an Amtrak train partially derailed after hitting an 18-wheeler in Lafayette, Louisiana, and cites KLFY as reporting about 95 passengers aboard. The post text is cut off in the record. Not checked here.",
-      "also": [
-        "2124700384585486504"
-      ]
-    },
-    {
       "id": "2124529933649383716",
       "desk": "politics",
       "line": "Acyn posts a 96-second clip with a transcript of an interview in which an interviewer named Brennan asks Bessent about the president saying Jensen Huang should get his job back. Bessent says \"Jensen is on the outside now\" and that \"we have to see where the buck stops.\" Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124528236398785018",
-      "desk": "world",
-      "line": "Elbridge Colby, whose account is titled Under Secretary of War, says in a thread that US support for Ukraine should put Europe in the lead and focus on helping Ukraine hold its front lines. This is his stated view, not checked here.",
       "also": []
     },
     {
@@ -280,6 +246,42 @@
       "id": "2124864353702998131",
       "desk": "politics",
       "line": "The account of New York City Mayor Zohran Mamdani says the city is capping 45-minute Citi Bike rides at $3.65, 365 days a year. The post has a video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124858085135044922",
+      "desk": "offbeat",
+      "line": "Dexerto, an entertainment news account, says a cat named Zeus took a 37-mile train trip from Essex to London alone, and that station staff found him and sent him home on another train. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124573635943788937",
+      "desk": "disaster",
+      "line": "RT, an outlet funded by the Russian state, says a natural gas pipeline explosion lit up Alabama with a mushroom cloud that resembled a nuclear explosion. The post links to media with no description. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124867444644950098",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, posts the line “To me, my X-Men!” and says it shows Cyclops summoning the Avengers and the X-Men together. The linked media has no description, so what it shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124880742849143240",
+      "desk": "sports",
+      "line": "MLB’s account says the Mets and first baseman Paul Goldschmidt reportedly agree to a deal, citing multiple reports including MLB Network’s Jon Heyman. It is a report, not a team announcement.",
+      "also": []
+    },
+    {
+      "id": "2124707006829457617",
+      "desk": "defense",
+      "line": "Mario Nawfal, who runs a news roundup account, says a Ukrainian major, Olha Bihar, told NATO its soldiers are training for the wrong kind of war, and that drones have made the 15 kilometres nearest the front a kill zone where tanks and armoured vehicles can barely operate. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124666871618449897",
+      "desk": "politics",
+      "line": "PollTracker2024, a politics account, says the Wall Street Journal reports that Abdul El-Sayed was behind the effort to launch a challenge to Chuck Schumer for Senate majority leader. Not checked here.",
       "also": []
     }
   ]
