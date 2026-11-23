@@ -6670,6 +6670,20 @@
   "handle": "DAZN_DE",
   "run": "2026-10-10T0905Z"
  },
+ "1904697438922744192": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:21Z",
+  "handle": "mistapussy",
+  "run": "2026-11-23T0802Z"
+ },
+ "1905782877868224713": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:21Z",
+  "handle": "distributedkv",
+  "run": "2026-11-23T0802Z"
+ },
  "1906045700179145024": {
   "result": "ok",
   "detail": null,
@@ -90102,6 +90116,13 @@
   "checked_at": "2026-10-25T04:05:07Z",
   "handle": "RadioGenoa",
   "run": "2026-10-25T0400Z"
+ },
+ "2114058542348927313": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:21Z",
+  "handle": "ZukoMandlakazi",
+  "run": "2026-11-23T0802Z"
  },
  "2114058624268140922": {
   "result": "ok",
@@ -326227,6 +326248,13 @@
   "handle": "RadioGenoa",
   "run": "2026-11-22T1907Z"
  },
+ "2124520779664785652": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:15Z",
+  "handle": "F1",
+  "run": "2026-11-23T0802Z"
+ },
  "2124520780201374013": {
   "result": "ok",
   "detail": null,
@@ -327038,6 +327066,13 @@
   "checked_at": "2026-11-22T17:19:06Z",
   "handle": "avfcjosh_",
   "run": "2026-11-22T1706Z"
+ },
+ "2124545433208782944": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:20Z",
+  "handle": "PollTracker2024",
+  "run": "2026-11-23T0802Z"
  },
  "2124545508932743253": {
   "result": "ok",
@@ -330210,6 +330245,13 @@
   "handle": "IGN",
   "run": "2026-11-23T0307Z"
  },
+ "2124684861185331582": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:15Z",
+  "handle": "Kalshi",
+  "run": "2026-11-23T0802Z"
+ },
  "2124685301666943150": {
   "result": "ok",
   "detail": null,
@@ -330931,6 +330973,13 @@
   "handle": "PopCrave",
   "run": "2026-11-23T0705Z"
  },
+ "2124729916889428389": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:19Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-23T0802Z"
+ },
  "2124730159513440466": {
   "result": "ok",
   "detail": null,
@@ -331001,6 +331050,13 @@
   "handle": "IGN",
   "run": "2026-11-23T0705Z"
  },
+ "2124737452346626192": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:19Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-23T0802Z"
+ },
  "2124738569260417419": {
   "result": "ok",
   "detail": null,
@@ -331014,6 +331070,27 @@
   "checked_at": "2026-11-23T07:12:44Z",
   "handle": "MarioNawfal",
   "run": "2026-11-23T0705Z"
+ },
+ "2124743531965415905": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:20Z",
+  "handle": "cryptorover",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124745018132832288": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:20Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124747730778255471": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:18Z",
+  "handle": "cryptorover",
+  "run": "2026-11-23T0802Z"
  },
  "2124747775367897506": {
   "result": "ok",
@@ -331035,6 +331112,76 @@
   "checked_at": "2026-11-23T07:12:41Z",
   "handle": "IGN",
   "run": "2026-11-23T0705Z"
+ },
+ "2124767463921315846": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:16Z",
+  "handle": "Reuters",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124768697608798221": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:16Z",
+  "handle": "Reuters",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124768730710204632": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:18Z",
+  "handle": "Gerashchenko_en",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124769863721947158": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:16Z",
+  "handle": "Osint613",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124769961134424459": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:16Z",
+  "handle": "Reuters",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124770236553695655": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:19Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124770502216499533": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:17Z",
+  "handle": "Osint613",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124770974675402929": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:18Z",
+  "handle": "SkyNews",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124771023551639707": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:17Z",
+  "handle": "SkyNews",
+  "run": "2026-11-23T0802Z"
+ },
+ "2124771185657364503": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T08:08:17Z",
+  "handle": "Osint613",
+  "run": "2026-11-23T0802Z"
  },
  "237217446099030020": {
   "result": "ok",
