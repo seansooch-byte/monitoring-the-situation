@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T22:40:00Z",
-  "capture": "2026-11-23T2201Z",
+  "updated_at": "2026-11-23T23:20:00Z",
+  "capture": "2026-11-23T2305Z",
   "items": [
     {
       "id": "2124477706582515965",
@@ -123,12 +123,6 @@
       ]
     },
     {
-      "id": "2124570941535719521",
-      "desk": "business",
-      "line": "Sen. Bernie Sanders says Procter & Gamble made $19.7 billion in profits last year and has announced plans to cut up to 30% of its product-supply workforce by automating and replacing workers with robots. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124620232287277091",
       "desk": "politics",
       "line": "WesternLensman posts a 44-second clip in which, it says, Jessica Tarlov says she listened to the full audio of Trump's \"Fine People\" comments and found he was not talking about Nazis. The poster calls the earlier reading a lie. Not checked here.",
@@ -144,12 +138,6 @@
       "id": "2124638954272305593",
       "desk": "gaming",
       "line": "Pavel Durov, who founded Telegram, jokes that the least realistic thing about GTA VI is that its characters Jason and Lucia run a criminal operation without a single Telegram group.",
-      "also": []
-    },
-    {
-      "id": "2124829510092898349",
-      "desk": "business",
-      "line": "Unusual Whales reports that CrowdStrike is buying Zscaler in an all-stock deal of about $44 billion, which it calls the largest cybersecurity acquisition ever, with Zscaler holders getting 1.135 CrowdStrike shares each. Not checked here.",
       "also": []
     },
     {
@@ -280,6 +268,20 @@
       "id": "2124880726441009640",
       "desk": "music",
       "line": "The account BrendaLeeMusic_ says Taylor Swift surprised its owner in Nashville with an RIAA Diamond plaque for 10 million copies of \"Rockin' Around the Christmas Tree\", which it calls only the second Christmas song to get there. The post has a video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124773456231444900",
+      "desk": "gaming",
+      "line": "MemeioYT, a small gaming account, says it found an easter egg in GTA 6 about three days ago and calls itself the first to crack the code. The post has a 118-second video. DiscussingFilm posts a shorter version saying the egg takes players back to the original Vice City. Not checked here.",
+      "also": [
+        "2124916933208199428"
+      ]
+    },
+    {
+      "id": "2124522962510614855",
+      "desk": "music",
+      "line": "Dom Lucre says Swae Lee stopped his show at the Shillong Cherry Blossom Festival in India after a fan threw beer in his face, and that officials say the fan was handed to police. The post has a 39-second video. Not checked here.",
       "also": []
     }
   ]

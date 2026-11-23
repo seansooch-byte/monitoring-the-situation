@@ -7982,3 +7982,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the three new ids and lost the dropped ones; plan rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T23:20Z
+- Captures read: 2305Z on 11-23 (106 posts). Last read: 2305Z.
+- X's check: 2305Z 99 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z (2124509395505562026), 1601Z, 1800Z (2124607645902422499), 2201Z (2124982825233559867); missing 0106Z. Build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (2 new, 2 dropped). Added: MemeioYT GTA 6 easter egg with DiscussingFilm's copy in also (gaming, not checked); Dom Lucre on Swae Lee at the Shillong festival (music, not checked). Dropped: Unusual Whales CrowdStrike and Sanders on P&G (small). Build shows 43 on the front (watcherguru 1, discussingfilm 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: alexandr_wang post (only a link, point not clear); Cinema_says kids clip (children); Stu Smith video (disability claims about people shown, nothing outside X); aburducky video (point not clear); RT Arkansas and HateradeCon posts (private individual flags); further elonmusk posts (account holds a place).
+- Requests: none added or removed. Watch list gained three ids and lost two; plan rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
