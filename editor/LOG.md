@@ -7972,3 +7972,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list updated; plan rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Candidates for a later story pass: Claude Ship launch (find Anthropic's own page), Cardinals defense change once the team confirms.
+
+## 2026-11-23T22:45Z
+- Captures read: 2201Z on 11-23 (140 posts). Last read: 2201Z.
+- X's check: 2201Z 135 confirmed, 0 missing, 1 mismatched (2124982825233559867, BOYNEXTDOOR_KOZ, hashtag text differs), 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z; missing 0106Z. Build still warns of 3 older story-cited posts X has not confirmed.
+- Pulse: 45 items (3 new, 3 dropped). Added: X Safety on Grok Imagine (ai, xAI note); Daily Mail on the Iranian singer's lashing (world, not checked); Brenda Lee's Swift plaque post (music, not checked). Dropped: BBC World South Korea minister and Rahul Gandhi (past 36 hours); Unusual Whales gold (small). Build shows 43 on the front (watcherguru 1, discussingfilm 1 held off). Quiet: offbeat.
+- Added: none. Updated: none (pulse pass).
+- Left out: aburducky video (point not clear); AJamesMcCarthy video (no description); NY Post Paralympic rape charge (accusation, nothing outside X); MTSlive GTA 6 leak (unconfirmed); further Nvidia and elonmusk posts (covered or account holds places).
+- Requests: none added or removed. Watch list gained the three new ids and lost the dropped ones; plan rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

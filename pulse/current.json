@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T21:35:00Z",
-  "capture": "2026-11-23T2107Z",
+  "updated_at": "2026-11-23T22:40:00Z",
+  "capture": "2026-11-23T2201Z",
   "items": [
     {
       "id": "2124477706582515965",
@@ -10,12 +10,6 @@
       "also": [
         "2124188376005833083"
       ]
-    },
-    {
-      "id": "2124433914848526622",
-      "desk": "world",
-      "line": "BBC World reports that South Korea’s education minister has resigned over an exam cheating scandal. The post links to the BBC report; the details are not checked here.",
-      "also": []
     },
     {
       "id": "2124488035945333208",
@@ -27,18 +21,6 @@
       "id": "2124523042000757012",
       "desk": "sports",
       "line": "ESPN posts a tribute to Tom Jackson, the former Broncos linebacker and ESPN analyst, after the Broncos announced his death at 75: \"We'll miss you, TJ.\"",
-      "also": []
-    },
-    {
-      "id": "2124429059455348995",
-      "desk": "world",
-      "line": "Rahul Gandhi, an Indian opposition politician, says in a post with a photo that the BJP and RSS do not understand India's spiritual and religious traditions, and calls them uncouth, greedy, casteist male chauvinists. The photo is not described in the record. This is his political charge, not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124548714111136051",
-      "desk": "markets",
-      "line": "Unusual Whales says Luke Gromen of Forest for the Trees argues gold could reach $18,000 an ounce in a US debt crisis. The post puts gold near $4,000 now. The forecast and the figures are not checked here.",
       "also": []
     },
     {
@@ -281,6 +263,24 @@
       "id": "2124964076845666357",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Ted Lasso has been renewed for a fifth season at Apple TV. The post has a photo. Not checked here."
+    },
+    {
+      "id": "2124853016377397403",
+      "desk": "ai",
+      "line": "X's Safety account says sexual content involving minors has no place on X or in Grok. It says people tried to misuse Grok Imagine by breaking its terms, that it screens every prompt and output, and that it notifies law enforcement. Grok, which gathers this page's posts, is made by xAI. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124882739929227670",
+      "desk": "world",
+      "line": "The Daily Mail reports that an Iranian singer received 74 lashes over an online concert held without a hijab. The post links to the Daily Mail story and does not name the singer here. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124880726441009640",
+      "desk": "music",
+      "line": "The account BrendaLeeMusic_ says Taylor Swift surprised its owner in Nashville with an RIAA Diamond plaque for 10 million copies of \"Rockin' Around the Christmas Tree\", which it calls only the second Christmas song to get there. The post has a video. Not checked here.",
+      "also": []
     }
   ]
 }
