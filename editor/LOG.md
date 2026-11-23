@@ -7792,3 +7792,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained two ids and lost three; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T03:40Z
+- Captures read: 0307Z on 11-23 (95 posts). Last read: 0307Z.
+- X's check: 0307Z 95 confirmed, 0 missing, 0 mismatched, 0 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 45 items (4 new, 4 dropped). Added: US Army Iowa detonation date with Reuters in also (defense), Sanders on Procter & Gamble (business), WesternLensman Tarlov clip (politics), Complex ChatGPT James Bond post (ai). Dropped: Lean FRO Riemann post and PETA turkey post (both at 36 hours), Cointelegraph Anthropic cash post and Osint613 Strahmore shooting post (smallest). The build shows 42 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Seattle airport clips, Cinema_says kids clip, Madeline_617 blackjack hand, Neutral_OC Disneyland clip, Costakid clip (private people or minors); GFreiNews, DDG shark, Draymond posts (as before); Swae Lee beer post (a private fan); LauraLoomer SNEAKO post (loaded claims about a person, unsourced); Trump Truth commentary account post (repost account, claims unsourced). For the next story pass: the Iowa lead detonation (Army moved it to Nov 25 after emergency powers bypassed a court order) may be worth a researched story.
+- Requests: none added or removed. watch.json gained five ids and lost twelve; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
