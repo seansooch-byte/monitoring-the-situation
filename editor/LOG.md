@@ -7761,3 +7761,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained four ids and lost two; plan.json rebuilt. A test run made alongside other tools failed in places; a solo rerun passed 162 of 162.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T00:12Z
+- Captures read: 0000Z on 11-23 (61 posts). Last read: 0000Z.
+- X's check: 0000Z 54 confirmed, 0 missing, 0 mismatched, 0 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 45 items (2 new, 2 dropped). Added: Schefter's Daniel Jones waivers post (sports), Ackman's Fed post (markets). Dropped: the JT GTA V launch party video and TheGameVerse GTA 6 clip (both about to pass 36 hours). The build shows 42 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: usedgov "Vice City" post (photo undescribed, point not clear); Seattle airport clips (private people); Putin bodyguard clip (unsupported claim); Cinema_says kids clip (minors); WatcherGuru Trump watches post (unsourced); Musk's and Polymarket's newer posts (account placed); flagged private-individual and graphic posts. Quiet: ideas, life.
+- Requests: none added or removed. watch.json gained two ids and lost two; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

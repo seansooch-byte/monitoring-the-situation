@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-22T23:11:44Z",
-  "capture": "2026-11-22T2300Z",
+  "updated_at": "2026-11-23T00:11:11Z",
+  "capture": "2026-11-23T0000Z",
   "items": [
     {
       "id": "2124152725722059007",
@@ -12,24 +12,12 @@
       ]
     },
     {
-      "id": "2124123812912669088",
-      "desk": "gaming",
-      "line": "The account TheGameVerse posts an 11-second video it calls the funniest GTA 6 clip it has seen so far. The clip is not described in the record, so what it shows is not checked here.",
-      "also": []
-    },
-    {
       "id": "2124244539426922598",
       "desk": "politics",
       "line": "Popstonox says Donald Trump shared Abdul El-Sayed's Medicare for All proposal on Truth Social, and that El-Sayed had suggested renaming it \"TrumpCare for All\". Not checked here.",
       "also": [
         "2124251785317790081"
       ]
-    },
-    {
-      "id": "2124120914904457524",
-      "desk": "music",
-      "line": "JT News posts a 24-second video it says shows the singer JT performing \"Okay\" at the GTA VI launch party.",
-      "also": []
     },
     {
       "id": "2124224526636490866",
@@ -281,6 +269,18 @@
       "id": "2124292215883395103",
       "desk": "sports",
       "line": "The account tombogert posts a six-second video and says it shows Lionel Messi taking a throw-in off Gonzalo Tapia's face. What the video shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124480996003508672",
+      "desk": "sports",
+      "line": "Adam Schefter of ESPN reports, citing sources, that former Colts quarterback Daniel Jones is likely to wait before signing with a new team if he clears waivers on Monday. The post links an ESPN story. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124629409105944729",
+      "desk": "markets",
+      "line": "Bill Ackman, an investor, says he thinks the Fed is about to make another mistake on December 9th. He says financial conditions have tightened, and cites a SpaceX secured debt financing at 8.259% as an example. Not checked here.",
       "also": []
     }
   ]
