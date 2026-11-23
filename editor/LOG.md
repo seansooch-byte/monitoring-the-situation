@@ -7822,3 +7822,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained one id and lost two; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T07:20Z
+- Captures read: 0559Z and 0705Z on 11-23 (19 and 25 posts). Last read: 0705Z.
+- X's check: 0559Z 17 confirmed, 0 missing, 0 mismatched, 0 withheld; 0705Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs still show 1 mismatched (1400Z on 11-22) and 1 missing (0106Z on 11-23), grabber's record. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 45 items (3 new, 3 dropped). Added: Durov GTA VI Telegram joke (gaming), 72quvu GTA VI character details (gaming, not checked), Polymarket archaeologist claim (science, not checked). Dropped: Radec GTA 6 clip and Tesla FSD v15 post (both at 36 hours), Osint613 shooting post (smallest). The build shows 42 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Cinema_says kids clip, Costakid clip, Seattle airport clips, Madeline_617 clip, Georgia Tech couple clip (private people or minors); DDG shark, Swae Lee, GFreiNews posts (as before); Adela/Billie Eilish gossip post (claims about named people, unsourced). For the next story pass: Tesla FSD v15 rollout and the Polymarket archaeology claim may be worth researched stories.
+- Requests: none added or removed. watch.json gained three ids and lost two; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

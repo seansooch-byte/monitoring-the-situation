@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T06:06:24Z",
-  "capture": "2026-11-23T0559Z",
+  "updated_at": "2026-11-23T07:13:47Z",
+  "capture": "2026-11-23T0705Z",
   "items": [
     {
       "id": "2124244539426922598",
@@ -10,18 +10,6 @@
       "also": [
         "2124251785317790081"
       ]
-    },
-    {
-      "id": "2124224526636490866",
-      "desk": "gaming",
-      "line": "Radec posts a 29-second video, credited to Reddit user MelloYello917, that he says shows the best way to get money in GTA 6. The post does not describe the video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124222447855743019",
-      "desk": "tech",
-      "line": "Tesla says FSD v15 is starting to roll out, and lists a claim of 25x better handling of safety critical cases, a live visualization called Reality View, and slowing for speed cameras. Tesla's claims; not checked here.",
-      "also": []
     },
     {
       "id": "2124275259901710576",
@@ -33,12 +21,6 @@
       "id": "2124349687079502030",
       "desk": "disaster",
       "line": "Reuters reports that a town in southern Brazil has been left reeling by a supercell storm.",
-      "also": []
-    },
-    {
-      "id": "2124355996663611453",
-      "desk": "disaster",
-      "line": "Osint613 reports that at least three people have died and 39 are missing after a fire at a candy factory in Serang, Indonesia, and that search and rescue is ongoing. Not checked here.",
       "also": []
     },
     {
@@ -282,6 +264,21 @@
       "desk": "world",
       "line": "Elbridge Colby, whose account is titled Under Secretary of War, says in a thread that US support for Ukraine should put Europe in the lead and focus on helping Ukraine hold its front lines. This is his stated view, not checked here.",
       "also": []
+    },
+    {
+      "id": "2124638954272305593",
+      "desk": "gaming",
+      "line": "Pavel Durov, who founded Telegram, jokes that the least realistic thing about GTA VI is that its characters Jason and Lucia run a criminal operation without a single Telegram group."
+    },
+    {
+      "id": "2124497286768013558",
+      "desk": "gaming",
+      "line": "The account 72quvu posts three images and says they show the birthdates and heights of GTA VI characters, including Lucia Caminos and Jason Duval. It does not say where they come from. Not checked here."
+    },
+    {
+      "id": "2124268366500348185",
+      "desk": "science",
+      "line": "Polymarket posts that an archaeologist claims a forgotten civilization of millions once dominated the eastern United States, with pyramids, cities and water systems. The post names no archaeologist or study. Not checked here."
     }
   ]
 }
