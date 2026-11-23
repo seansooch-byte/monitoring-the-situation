@@ -913,3 +913,4 @@ One line per editor pass, written by /workspace/pipeline/editor-pass.sh from Cla
 | 2026-11-23T1115Z | EDITOR-BRIEF.md | ok | 37 | 9m13s | 0.56 | 58/8869/1176933/43448 | none |
 | 2026-11-23T1218Z | EDITOR-BRIEF-PULSE.md | ok | 1 | 0m1s | 0.50 | 4/57/55145/695 | none |
 | 2026-11-23T1318Z | EDITOR-BRIEF-PULSE.md | ok | 29 | 9m41s | 0.47 | 56/9311/1107556/38221 | none |
+| 2026-11-23T1419Z | EDITOR-BRIEF-PULSE.md | ok | 41 | 9m21s | 0.74 | 70/16585/1720567/58257 | none |
