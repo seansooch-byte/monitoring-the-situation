@@ -1,24 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T09:30:00Z",
-  "capture": "2026-11-23T0907Z",
+  "updated_at": "2026-11-23T11:35:00Z",
+  "capture": "2026-11-23T1106Z",
   "items": [
-    {
-      "id": "2124275259901710576",
-      "desk": "world",
-      "line": "Mario Nawfal posts that Iran says its Revolutionary Guard hit two US Patriot radars at bases in Bahrain, while Bahrain says a civilian industrial site burned. The post says the two accounts do not match. Not checked here.",
-      "also": []
-    },
     {
       "id": "2124349687079502030",
       "desk": "disaster",
       "line": "Reuters reports that a town in southern Brazil has been left reeling by a supercell storm.",
-      "also": []
-    },
-    {
-      "id": "2124283961845141759",
-      "desk": "offbeat",
-      "line": "Nature Unedited posts an 87-second video and says a massive deep-sea shark was filmed approaching a submarine during an expedition. What the video shows is not checked here.",
       "also": []
     },
     {
@@ -56,28 +44,25 @@
     {
       "id": "2124488035945333208",
       "desk": "defense",
-      "line": "Osinttechnical, an open-source intelligence account, posts footage it says shows the Russian corvette Merkury suffering a catastrophic explosion in the port of Benghazi, Libya, and says the ship was destroyed. Reports differ on the cause. Not checked here beyond the story on this site."
+      "line": "Osinttechnical, an open-source intelligence account, posts footage it says shows the Russian corvette Merkury suffering a catastrophic explosion in the port of Benghazi, Libya, and says the ship was destroyed. Reports differ on the cause. Not checked here beyond the story on this site.",
+      "also": []
     },
     {
       "id": "2124523042000757012",
       "desk": "sports",
-      "line": "ESPN posts a tribute to Tom Jackson, the former Broncos linebacker and ESPN analyst, after the Broncos announced his death at 75: \"We'll miss you, TJ.\""
+      "line": "ESPN posts a tribute to Tom Jackson, the former Broncos linebacker and ESPN analyst, after the Broncos announced his death at 75: \"We'll miss you, TJ.\"",
+      "also": []
     },
     {
       "id": "2124337452492136829",
       "desk": "sports",
-      "line": "The NBA's account says Mikal Bridges hit a buzzer-beater to give the Knicks their fourth straight win."
+      "line": "The NBA's account says Mikal Bridges hit a buzzer-beater to give the Knicks their fourth straight win.",
+      "also": []
     },
     {
       "id": "2124429059455348995",
       "desk": "world",
       "line": "Rahul Gandhi, an Indian opposition politician, says in a post with a photo that the BJP and RSS do not understand India's spiritual and religious traditions, and calls them uncouth, greedy, casteist male chauvinists. The photo is not described in the record. This is his political charge, not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124265510028329113",
-      "desk": "medicine",
-      "line": "The account SBakerMD, which posts as a doctor, lists sports by the years of added life it says they bring, with tennis first at +9.7 years. The post gives no source in the text shown. Not checked here.",
       "also": []
     },
     {
@@ -198,12 +183,14 @@
     {
       "id": "2124623456540951028",
       "desk": "sports",
-      "line": "ESPN baseball reporter Jeff Passan says, citing sources, that pitcher Tarik Skubal and the New York Mets have agreed on a nine-year, $450 million contract. Not checked here."
+      "line": "ESPN baseball reporter Jeff Passan says, citing sources, that pitcher Tarik Skubal and the New York Mets have agreed on a nine-year, $450 million contract. Not checked here.",
+      "also": []
     },
     {
       "id": "2124555061363921186",
       "desk": "politics",
-      "line": "The account Watcher Guru says President Trump blames Democrats for the stock market crashing and says \"it will only get worse.\" Not checked here."
+      "line": "The account Watcher Guru says President Trump blames Democrats for the stock market crashing and says \"it will only get worse.\" Not checked here.",
+      "also": []
     },
     {
       "id": "2124680508408021249",
@@ -254,17 +241,14 @@
     {
       "id": "2124638954272305593",
       "desk": "gaming",
-      "line": "Pavel Durov, who founded Telegram, jokes that the least realistic thing about GTA VI is that its characters Jason and Lucia run a criminal operation without a single Telegram group."
+      "line": "Pavel Durov, who founded Telegram, jokes that the least realistic thing about GTA VI is that its characters Jason and Lucia run a criminal operation without a single Telegram group.",
+      "also": []
     },
     {
       "id": "2124497286768013558",
       "desk": "gaming",
-      "line": "The account 72quvu posts three images and says they show the birthdates and heights of GTA VI characters, including Lucia Caminos and Jason Duval. It does not say where they come from. Not checked here."
-    },
-    {
-      "id": "2124268366500348185",
-      "desk": "science",
-      "line": "Polymarket posts that an archaeologist claims a forgotten civilization of millions once dominated the eastern United States, with pyramids, cities and water systems. The post names no archaeologist or study. Not checked here."
+      "line": "The account 72quvu posts three images and says they show the birthdates and heights of GTA VI characters, including Lucia Caminos and Jason Duval. It does not say where they come from. Not checked here.",
+      "also": []
     }
   ]
 }

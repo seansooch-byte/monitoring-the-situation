@@ -7862,3 +7862,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed.
 - Shipped: no, nothing changed on the pulse.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T11:40Z
+- Captures read: 1106Z on 11-23 (19 posts). Last read: 1106Z.
+- X's check: 1106Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs: 1 missing (0106Z on 11-23), grabber's record. Build still warns of older story-cited posts X has not confirmed (2117537320392130634, 2119523308580511928).
+- Pulse: 39 items (0 new, 4 dropped at 36 hours: Nawfal Bahrain radars, Nature Unedited shark, SBakerMD, Polymarket archaeologist). Nothing in 1106Z beat what is shown.
+- Added: none. Updated: none. Searched the FBI breach and the Benghazi/Merkury story for movement; found no new reporting, so the text stands.
+- Left out: PopBase Don Toliver Manchester evacuation (no report outside X found in search); a candidate for the next story pass if reporting appears. Dexerto bus-driver clip (involves a private person). Fabrizio Romano CAS AFCON post (his place is held). Others small or as before.
+- Requests: none added or removed.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
