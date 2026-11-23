@@ -7781,3 +7781,14 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost two ids and gained two; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T02:45Z
+- Captures read: 0204Z on 11-23 (93 posts). Last read: 0204Z.
+- X's check: 0204Z 88 confirmed, 0 missing, 0 mismatched, 2 withheld. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 45 items (2 new, 3 dropped). Added: Passan's Skubal-Mets contract post (sports), Watcher Guru's Trump stock market post (politics). Dropped: Kuzma moon clip, Wacom sale post, Carney clip (lowest of the items). The build shows 41 and holds back 4 under one place per account.
+- Added: none. Updated: none. I did not review the live stories for movement this pass and wrote no new story.
+- Left out: Seattle airport clips, Cinema_says kids clip, Madeline_617 blackjack hand, Dexerto developer memorial (private people or minors); GFreiNews, DDG shark, Draymond posts (as before).
+- Research: I could not find outside reporting on the Skubal agreement (search showed only projections), so it stays a pulse line marked not checked, with no story. The Senate Iran war powers vote (51 to 48 against on Nov 19, per ADN) is already on the pulse and not new enough for its own story.
+- Requests: none added or removed. watch.json gained two ids and lost three; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
