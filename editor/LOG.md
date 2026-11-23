@@ -7832,3 +7832,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained three ids and lost two; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T08:15Z
+- Captures read: 0802Z on 11-23 (25 posts). Last read: 0802Z.
+- X's check: 0802Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs still show 1 missing (0106Z on 11-23), grabber's record. The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: unchanged, 45 items (0 new, 0 dropped). None of the 0802Z posts is among the largest of the last 36 hours; the largest posts not on the pulse were left out before or are held by the one-place-per-account rule. Two items (Uranus probe, Trump/El-Sayed) pass 36 hours within the hour and drop next pass. The build shows 42 and holds back 3.
+- Added: none. Updated: none (pulse pass).
+- Left out: as before (Costakid, Cinema_says, Seattle airport, Madeline_617 clips: private people or minors; DDG shark, Swae Lee, GFreiNews, Adela posts). pokgaii BYD clip (Chinese, product video, point not clear).
+- Requests: none added or removed.
+- Shipped: no, nothing changed on the pulse.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
