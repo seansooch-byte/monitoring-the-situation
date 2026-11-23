@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T18:25:00Z",
-  "capture": "2026-11-23T1800Z",
+  "updated_at": "2026-11-23T19:35:00Z",
+  "capture": "2026-11-23T1909Z",
   "items": [
     {
       "id": "2124477706582515965",
@@ -92,7 +92,9 @@
       "id": "2124549218995949967",
       "desk": "ai",
       "line": "The account merettm says OpenAI is sharing more on its pretraining progress, and that its essay \"Perplexity and Intelligence\" argues for common limits based on perplexity, with progress beyond them gated on understanding AI behavior. Not checked here.",
-      "also": []
+      "also": [
+        "2124551594691932405"
+      ]
     },
     {
       "id": "2124416284591047116",
@@ -264,12 +266,6 @@
       "id": "2124707006829457617",
       "desk": "defense",
       "line": "Mario Nawfal, who runs a news roundup account, says a Ukrainian major, Olha Bihar, told NATO its soldiers are training for the wrong kind of war, and that drones have made the 15 kilometres nearest the front a kill zone where tanks and armoured vehicles can barely operate. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124666871618449897",
-      "desk": "politics",
-      "line": "PollTracker2024, a politics account, says the Wall Street Journal reports that Abdul El-Sayed was behind the effort to launch a challenge to Chuck Schumer for Senate majority leader. Not checked here.",
       "also": []
     },
     {

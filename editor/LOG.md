@@ -7942,3 +7942,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the 2 new ids; plan rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. The X Money and DOJ item is a candidate for the next story pass.
+
+## 2026-11-23T19:40Z
+- Captures read: 1909Z on 11-23 (98 posts). Last read: 1909Z.
+- X's check: 1909Z 92 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs: 1 mismatched (1404Z, 2124509395505562026), 1 mismatched (1601Z), 1 mismatched (1800Z, 2124607645902422499), 1 missing (0106Z on 11-23), grabber's record. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 44 items (0 new, 1 dropped). Dropped: PollTracker2024 on El-Sayed and Schumer (small, politics well covered). Attached Sam Altman's quote to the OpenAI pretraining item. Build shows 42 on the pulse (elonmusk 1, unusual_whales 1 held off the front page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Cinema_says kids and parents clip (shows minors, media not described); Costakid stream clip (private individual flag); SenWarren Nvidia post (politics already covered); Swae Lee, Rainbolt and Burnham posts (unconfirmed claims or insult framing); NoContextHumans clip (media not described); further elonmusk posts (account holds places).
+- Requests: none added or removed. Watch list gained the Altman post and lost the dropped id; plan rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One npm test run showed 1 failure while verify and build ran in parallel; a clean rerun passed 162, 0 fail.
