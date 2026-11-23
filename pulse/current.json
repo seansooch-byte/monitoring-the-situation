@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T11:35:00Z",
-  "capture": "2026-11-23T1106Z",
+  "updated_at": "2026-11-23T12:40:00Z",
+  "capture": "2026-11-23T1207Z",
   "items": [
     {
       "id": "2124349687079502030",
@@ -248,6 +248,12 @@
       "id": "2124497286768013558",
       "desk": "gaming",
       "line": "The account 72quvu posts three images and says they show the birthdates and heights of GTA VI characters, including Lucia Caminos and Jason Duval. It does not say where they come from. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124829510092898349",
+      "desk": "business",
+      "line": "Unusual Whales reports that CrowdStrike is buying Zscaler in an all-stock deal of about $44 billion, which it calls the largest cybersecurity acquisition ever, with Zscaler holders getting 1.135 CrowdStrike shares each. Not checked here.",
       "also": []
     }
   ]

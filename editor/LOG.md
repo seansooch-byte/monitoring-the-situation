@@ -7872,3 +7872,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T12:40Z
+- Captures read: 1207Z on 11-23 (54 posts). Last read: 1207Z.
+- X's check: 1207Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs: 1 missing (0106Z on 11-23), grabber's record. Build still warns of 2 older story-cited posts X has not confirmed (2117537320392130634, 2119523308580511928).
+- Pulse: 40 items (1 new, 0 dropped). Added the unusual_whales CrowdStrike/Zscaler deal post (business). The build holds it off the front page (unusual_whales already holds a place with the gold post); it stands on the business desk page. Build shows 39 on the pulse.
+- Added: none. Updated: none (pulse pass).
+- Left out: Anthropic junk-bond WSJ post (involves Anthropic, small; a candidate for the next story pass); BRICSinfo NATO nuclear-satellite post (unconfirmed, defense full); ESPN Skubal copy (Passan's post is shown); SpaceX old_content posts; Sheehy and Iowa posts (politics full). Others small or as before.
+- Requests: none added or removed.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
