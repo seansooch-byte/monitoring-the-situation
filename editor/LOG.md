@@ -7812,3 +7812,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained two ids; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T05:40Z
+- Captures read: 0502Z on 11-23 (130 posts). Last read: 0502Z.
+- X's check: 0502Z 117 confirmed, 0 missing, 0 mismatched, 2 withheld. Older runs still show 1 mismatched (1400Z on 11-22) and 1 missing (0106Z on 11-23), grabber's record. The build still warns of 3 older story-cited posts X has not confirmed (2117537320392130634, 2119523308580511928, and the Qeshm story's).
+- Pulse: 45 items (1 new, 1 dropped). Added: Acyn clip of Bessent on Jensen Huang (politics). Dropped: pelositracker Senate vote post (at 36 hours). The build shows 42 and holds back 3 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: Costakid, Cinema_says kids, Seattle airport, Madeline_617 clips (private people or minors); Beardvet election machines post and Localizefoodapp McRib post (unsourced claims); GFreiNews, DDG shark, Draymond, Swae Lee posts (as before).
+- Requests: none added or removed. watch.json gained one id and lost two; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
