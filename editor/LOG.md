@@ -7902,3 +7902,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the 5 new pulse ids and the CrowdStrike post; plan rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T15:20Z
+- Captures read: 1508Z on 11-23 (103 posts). Last read: 1508Z.
+- X's check: 1508Z 100 confirmed, 0 missing, 0 mismatched, 1 withheld. Older runs: 1 mismatched (1404Z, 2124509395505562026, not on the pulse), 1 missing (0106Z on 11-23), grabber's record. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 44 items (4 new, 2 dropped). Added: Nvidia newsroom reinstating Jensen Huang, with Elon Musk's quote attached (business); Marvel Studios Avengers: Doomsday trailer (entertainment, replaces its older post); White House Trump statement on Huang (politics); NYC mayor Citi Bike cap (politics, not checked). Dropped: NBA clip (36 hours), the older Marvel post. Build shows 42 on the pulse (elonmusk 1 and unusual_whales 1 held off the front page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Samstein and Bertrand posts on the government pressuring the Nvidia board (claims, nothing outside X); Trump Truth account and Nawfal Huang copies; Fox Publix post (private individuals); Middletown Iowa lead azide post (unconfirmed, individual account); Skubal MLB copy; Fabrizio Romano Raya post (his place is held); Don Toliver (small, as before). The Nvidia reinstatement with the White House and Trump posts is a candidate for the next story pass, alongside the live Nov 8 Nvidia story.
+- Requests: none added or removed. Watch list gained the 5 new ids; plan rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

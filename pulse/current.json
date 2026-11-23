@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T14:21:53Z",
-  "capture": "2026-11-23T1404Z",
+  "updated_at": "2026-11-23T15:20:07Z",
+  "capture": "2026-11-23T1508Z",
   "items": [
     {
       "id": "2124349687079502030",
@@ -42,21 +42,9 @@
       "also": []
     },
     {
-      "id": "2124337452492136829",
-      "desk": "sports",
-      "line": "The NBA's account says Mikal Bridges hit a buzzer-beater to give the Knicks their fourth straight win.",
-      "also": []
-    },
-    {
       "id": "2124429059455348995",
       "desk": "world",
       "line": "Rahul Gandhi, an Indian opposition politician, says in a post with a photo that the BJP and RSS do not understand India's spiritual and religious traditions, and calls them uncouth, greedy, casteist male chauvinists. The photo is not described in the record. This is his political charge, not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124389639633195104",
-      "desk": "entertainment",
-      "line": "Marvel Studios announces that Chris Evans, Anthony Mackie and Simu Liu started the Avengers: Doomsday Global Tour at the Las Vegas Grand Prix, and posts six photos. It is a promotion by the studio.",
       "also": []
     },
     {
@@ -266,6 +254,32 @@
       "id": "2124489825676099708",
       "desk": "medicine",
       "line": "The account ItsPeptime says the first human trial of an age-reversal gene therapy has received a green light from the FDA. The post names no company and links no source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124865060397019480",
+      "desk": "business",
+      "line": "Nvidia’s newsroom account announces that its board has reinstated Jensen Huang as president, CEO and board director. The post links to the company’s release; Elon Musk’s quote of it is attached.",
+      "also": [
+        "2124875939133751684"
+      ]
+    },
+    {
+      "id": "2124865772824809474",
+      "desk": "entertainment",
+      "line": "Marvel Studios posts a video it presents as the Avengers: Doomsday trailer, and says the film arrives in theaters on December 18. This is the studio’s own promotion, and the trailer is the news.",
+      "also": []
+    },
+    {
+      "id": "2124872428723552741",
+      "desk": "politics",
+      "line": "The White House account posts a statement it attributes to President Trump, saying the Nvidia board made the correct and proper decision to return Jensen Huang as CEO. The post is an image of the quote.",
+      "also": []
+    },
+    {
+      "id": "2124864353702998131",
+      "desk": "politics",
+      "line": "The account of New York City Mayor Zohran Mamdani says the city is capping 45-minute Citi Bike rides at $3.65, 365 days a year. The post has a video. Not checked here.",
       "also": []
     }
   ]
