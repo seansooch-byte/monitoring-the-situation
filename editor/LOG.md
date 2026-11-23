@@ -7922,3 +7922,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the new pulse ids and 7 story-cited posts; plan rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Only one story was updated this pass; the Poland missile posts and the Alabama pipeline blast are left for the next pass.
+
+## 2026-11-23T17:45Z
+- Captures read: 1707Z on 11-23 (111 posts). Last read: 1707Z.
+- X's check: 1707Z 104 confirmed, 0 missing, 0 mismatched, 2 withheld (not on the pulse or in a story). Older runs: 1 mismatched (1404Z, 2124509395505562026), 1 mismatched (1601Z), 1 missing (0106Z on 11-23), grabber's record. Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 43 items (0 new, 2 dropped). Dropped: Complex and pokgaii (both past 36 hours). The BBC World Nigerian villa post was tried and removed: BBC World already holds a place with its South Korea post. Build shows 41 on the pulse (elonmusk 1, bbcworld 1, unusual_whales 1 held off the front page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Brenda Lee Taylor Swift plaque post (account has about 1,400 followers and no verification, may not be the singer); Himchan post (an unconfirmed allegation about a real person); Ed Sheeran Chile jersey post (claim, nothing outside X); Logan Paul VHS post (gossip about his wife); GTA 6 leaker, Trump/Huang meme and weijia posts (desks already covered; Nvidia is a story-pass candidate); further Fabrizio Romano and elonmusk posts (accounts hold places).
+- Requests: none added or removed. Watch list lost the 2 dropped ids; plan rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
