@@ -7852,3 +7852,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json lost three ids; plan.json rebuilt (the 0907Z grabber found it stale).
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T10:15Z
+- Captures read: 1003Z on 11-23 (19 posts). Last read: 1003Z.
+- X's check: 1003Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs still show 1 missing (0106Z on 11-23), grabber's record. The build still warns of 2 older story-cited posts X has not confirmed (2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: unchanged, 43 items (0 new, 0 dropped). Nothing is past 36 hours yet; two items (SBakerMD sports-years post, Polymarket archaeologist post) pass it by the next pass and drop then. The build shows 41 and holds back 2 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: FabrizioRomano Man United table post (his place is held by his ACL post); NFL slo-mo clip (point not clear from text or media); mistapussy clip (private individual, old content); crypto and Reuters posts (small). Others as before.
+- Requests: none added or removed.
+- Shipped: no, nothing changed on the pulse.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

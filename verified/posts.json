@@ -5788,6 +5788,13 @@
   "handle": "Nasukushh",
   "run": "2026-10-15T2308Z"
  },
+ "1866188751623397718": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:05Z",
+  "handle": "mistapussy",
+  "run": "2026-11-23T1003Z"
+ },
  "1866593230055411883": {
   "result": "ok",
   "detail": null,
@@ -327753,6 +327760,13 @@
   "handle": "netflix",
   "run": "2026-11-22T2200Z"
  },
+ "2124566489252700575": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:00Z",
+  "handle": "FabrizioRomano",
+  "run": "2026-11-23T1003Z"
+ },
  "2124566550187331948": {
   "result": "ok",
   "detail": null,
@@ -328579,6 +328593,13 @@
   "handle": "KurtBenkert",
   "run": "2026-11-22T2200Z"
  },
+ "2124596744512004238": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:00Z",
+  "handle": "NFL",
+  "run": "2026-11-23T1003Z"
+ },
  "2124597103347511491": {
   "result": "ok",
   "detail": null,
@@ -329068,6 +329089,13 @@
   "checked_at": "2026-11-23T03:19:18Z",
   "handle": "WesternLensman",
   "run": "2026-11-23T0307Z"
+ },
+ "2124620604313678133": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:01Z",
+  "handle": "NFL",
+  "run": "2026-11-23T1003Z"
  },
  "2124620688136806731": {
   "result": "ok",
@@ -331071,6 +331099,13 @@
   "handle": "PopBase",
   "run": "2026-11-23T0705Z"
  },
+ "2124734673763131519": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:05Z",
+  "handle": "jukan05",
+  "run": "2026-11-23T1003Z"
+ },
  "2124734689319792862": {
   "result": "ok",
   "detail": null,
@@ -331190,6 +331225,20 @@
   "handle": "IGN",
   "run": "2026-11-23T0705Z"
  },
+ "2124752549521572120": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:04Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124759480961294770": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:05Z",
+  "handle": "cryptorover",
+  "run": "2026-11-23T1003Z"
+ },
  "2124759861229465949": {
   "result": "ok",
   "detail": null,
@@ -331203,6 +331252,13 @@
   "checked_at": "2026-11-23T09:14:00Z",
   "handle": "IGN",
   "run": "2026-11-23T0907Z"
+ },
+ "2124767408397193683": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:01Z",
+  "handle": "NBA",
+  "run": "2026-11-23T1003Z"
  },
  "2124767447249047781": {
   "result": "ok",
@@ -331281,6 +331337,13 @@
   "handle": "Osint613",
   "run": "2026-11-23T0802Z"
  },
+ "2124771295564804283": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:03Z",
+  "handle": "cryptorover",
+  "run": "2026-11-23T1003Z"
+ },
  "2124773696023969884": {
   "result": "ok",
   "detail": null,
@@ -331302,12 +331365,75 @@
   "handle": "MarioNawfal",
   "run": "2026-11-23T0907Z"
  },
+ "2124777244123910451": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:04Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124782748577530232": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:03Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124783762689176031": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:04Z",
+  "handle": "cryptorover",
+  "run": "2026-11-23T1003Z"
+ },
  "2124785124071899362": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-23T09:13:58Z",
   "handle": "WatcherGuru",
   "run": "2026-11-23T0907Z"
+ },
+ "2124785250899521636": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:02Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124793837839167985": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:02Z",
+  "handle": "Reuters",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124794227003654629": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:03Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124796374822666364": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:01Z",
+  "handle": "Reuters",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124798134773600761": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:02Z",
+  "handle": "SkyNews",
+  "run": "2026-11-23T1003Z"
+ },
+ "2124798900007506346": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-23T10:10:02Z",
+  "handle": "Reuters",
+  "run": "2026-11-23T1003Z"
  },
  "237217446099030020": {
   "result": "ok",
