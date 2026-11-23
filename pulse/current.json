@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T07:13:47Z",
-  "capture": "2026-11-23T0705Z",
+  "updated_at": "2026-11-23T09:30:00Z",
+  "capture": "2026-11-23T0907Z",
   "items": [
-    {
-      "id": "2124244539426922598",
-      "desk": "politics",
-      "line": "Popstonox says Donald Trump shared Abdul El-Sayed's Medicare for All proposal on Truth Social, and that El-Sayed had suggested renaming it \"TrumpCare for All\". Not checked here.",
-      "also": [
-        "2124251785317790081"
-      ]
-    },
     {
       "id": "2124275259901710576",
       "desk": "world",
@@ -27,12 +19,6 @@
       "id": "2124283961845141759",
       "desk": "offbeat",
       "line": "Nature Unedited posts an 87-second video and says a massive deep-sea shark was filmed approaching a submarine during an expedition. What the video shows is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124241570451054609",
-      "desk": "science",
-      "line": "Elon Musk writes \"It's high time we probed Uranus again! Much better images are needed (actually).\"",
       "also": []
     },
     {

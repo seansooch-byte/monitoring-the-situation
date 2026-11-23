@@ -7842,3 +7842,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed.
 - Shipped: no, nothing changed on the pulse.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T09:30Z
+- Captures read: 0907Z on 11-23 (25 posts). Last read: 0907Z.
+- X's check: 0907Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs still show 1 missing (0106Z on 11-23), grabber's record. The build still warns of 2 older story-cited posts X has not confirmed (2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 43 items (0 new, 2 dropped). Dropped at 36 hours: Popstonox Trump/El-Sayed post (with its also post) and elonmusk Uranus probe post. Nothing in 0907Z beat what is shown; politics already has four accounts. The build shows 41 and holds back 2 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: as before (Costakid, Cinema_says, Seattle airport, Madeline_617 clips: private people or minors; DDG shark, Swae Lee, GFreiNews, Adela posts; pokgaii BYD clip). PollTracker2024 Kennedy-on-Nvidia and BleacherReport tackle clip: politics and sports already full.
+- Requests: none added or removed. watch.json lost three ids; plan.json rebuilt (the 0907Z grabber found it stale).
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
