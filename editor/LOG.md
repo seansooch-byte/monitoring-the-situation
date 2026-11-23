@@ -7932,3 +7932,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the 2 dropped ids; plan rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T18:30Z
+- Captures read: 1800Z on 11-23 (122 posts). Last read: 1800Z.
+- X's check: 1800Z 116 confirmed, 0 missing, 1 mismatched (2124607645902422499, not on the pulse or in a story; grabber's record), 2 withheld (2074674835062682095, 2124912787562353005, neither used). Older runs: 1 mismatched (1404Z, 2124509395505562026), 1 mismatched (1601Z), 1 missing (0106Z on 11-23). Build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479 withheld, 2117537320392130634 missing, 2119523308580511928 withheld).
+- Pulse: 45 items (2 new, 0 dropped; nothing past 36 hours). Added: X Global Government Affairs on the DOJ Criminal Division investigation of X Money (justice, X/xAI note, not checked); NASA Europa documentary (science). Build shows 43 on the pulse (elonmusk 1, unusual_whales 1 held off the front page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Kobeissi, Kalshi and Pompliano Nvidia market-value posts (figures not checked); elonmusk posts (account holds a place); Dutch police clip (small account, no media description, framing about a religious group); GTA 6 leaker posts (gaming covered); Ron Johnson HHS records post (medical claims about identifiable young women, nothing outside X); duplicate Avengers posts.
+- Requests: none added or removed. Watch list gained the 2 new ids; plan rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. The X Money and DOJ item is a candidate for the next story pass.
