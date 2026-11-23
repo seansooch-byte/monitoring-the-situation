@@ -7771,3 +7771,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. watch.json gained two ids and lost two; plan.json rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-23T01:32Z
+- Captures read: 0106Z on 11-23 (115 posts). Last read: 0106Z.
+- X's check: 0106Z 103 confirmed, 1 missing (2124667525203919228, alexbrasky), 0 mismatched, 3 withheld (2124320341950378137, 2124336697785643271, 2124372226946511040). The build still warns of 3 older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 46 items (2 new, 1 dropped). Added: IU's 2027 world tour dates post (music), Musk's consciousness post (ideas, a second account post on a different desk). Dropped: Fox News NCIC hack post (35 hours old). The build shows 42 and holds back 4 under one place per account.
+- Added: none. Updated: none (pulse pass).
+- Left out: GFreiNews Manchester nightlife post (German, sexualised claims about women, unsourced); Madeline_617 blackjack hand and Cinema_says kids clip (private people, minors); DDG shark clip, Jumpshot8 Draymond post and boylykstiga device post (point not clear without media description); Schefter's Ravens offer post and Romano's newer posts (account placed). Quiet: life.
+- Requests: none added or removed. watch.json lost two ids and gained two; plan.json rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-23T00:11:11Z",
-  "capture": "2026-11-23T0000Z",
+  "updated_at": "2026-11-23T01:30:00Z",
+  "capture": "2026-11-23T0106Z",
   "items": [
-    {
-      "id": "2124152725722059007",
-      "desk": "tech",
-      "line": "Fox News reports that the FBI’s National Crime Information Center, a database used for background checks and for sharing warrant information among law enforcement agencies, has been hacked. The post says it is unclear what was taken. Not checked here.",
-      "also": [
-        "2123964580791501251"
-      ]
-    },
     {
       "id": "2124244539426922598",
       "desk": "politics",
@@ -281,6 +273,18 @@
       "id": "2124629409105944729",
       "desk": "markets",
       "line": "Bill Ackman, an investor, says he thinks the Fed is about to make another mistake on December 9th. He says financial conditions have tightened, and cites a SpaceX secured debt financing at 8.259% as an example. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124518265695478076",
+      "desk": "music",
+      "line": "The account named IU (@_IUofficial) posts a list of dates and cities for a 2027 world tour, from Bangkok in January to Jakarta in May, and adds \"and more\". The post carries two photos, which are not described in the capture.",
+      "also": []
+    },
+    {
+      "id": "2124619599882920139",
+      "desk": "ideas",
+      "line": "Elon Musk writes that consciousness is either an illusion or present everywhere on a gradient, and that it is difficult to argue that carbon is conscious but silicon is not. It is his opinion, not a finding.",
       "also": []
     }
   ]
