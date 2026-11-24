@@ -8062,3 +8062,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the two dropped ids; plan rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T07:40Z
+- Captures read: 0707Z on 11-24 (23 posts). Last read: 0707Z.
+- X's check: 0707Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 34 items (2 new, 2 dropped). Added: NFL video on Jayden Daniels (sports, video undescribed, not checked); Mario Nawfal on a GTA 6 style car (offbeat, not checked). Dropped, past 36 hours: SpaceX NROL-136 launch, RT pipeline post. Build shows 32 on the front (discussingfilm 1, marionawfal 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Nawfal Olivia Rodrigo and Colombia blast posts (small or unconfirmed); Pop Base and Pop Crave anniversary posts (small); IGN GTA 6 posts (small); Fabrizio Romano Chelsea post (second sports item from that account, small); Benny Johnson Newsom post (names victims, small).
+- Requests: none added or removed. Watch list lost the two dropped ids and gained two; plan rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T06:20:00Z",
-  "capture": "2026-11-24T0600Z",
+  "updated_at": "2026-11-24T07:40:00Z",
+  "capture": "2026-11-24T0707Z",
   "items": [
-    {
-      "id": "2124576203113636183",
-      "desk": "science",
-      "line": "SpaceX says a Falcon 9 carrying NROL-136 lifted off from pad 4E in California 32 hours after the USSF-317 launch from the same pad, and calls it its fastest turnaround between launches from one pad. Not checked here.",
-      "also": [
-        "2124589255565680900"
-      ]
-    },
     {
       "id": "2124629409105944729",
       "desk": "markets",
@@ -85,12 +77,6 @@
       "id": "2124864353702998131",
       "desk": "politics",
       "line": "The account of New York City Mayor Zohran Mamdani says the city is capping 45-minute Citi Bike rides at $3.65, 365 days a year. The post has a video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124573635943788937",
-      "desk": "disaster",
-      "line": "RT, an outlet funded by the Russian state, says a natural gas pipeline explosion lit up Alabama with a mushroom cloud that resembled a nuclear explosion. The post links to media with no description. Not checked here.",
       "also": []
     },
     {
@@ -206,6 +192,18 @@
       "id": "2125071531046731957",
       "desk": "sports",
       "line": "ESPN posts a clip of Joe Buck saying the lighting vendor never turned off its scheduled 10 p.m. maintenance, which he gives as the reason the lights went out during the Bengals-Commanders game. Not checked here."
+    },
+    {
+      "id": "2125061471730372986",
+      "desk": "sports",
+      "line": "The NFL account posts a video with the words \"Look at Jayden Daniels go\", tied to the Cincinnati and Washington game on ESPN. The video has no description, so what it shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124797604881989825",
+      "desk": "offbeat",
+      "line": "Mario Nawfal, who runs a news roundup account, says a man customized his car to look like something from GTA 6, and says Rockstar should be paying him for the advertising. Not checked here.",
+      "also": []
     }
   ]
 }
