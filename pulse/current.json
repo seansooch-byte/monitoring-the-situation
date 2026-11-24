@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T20:19:45Z",
-  "capture": "2026-11-24T2008Z",
+  "updated_at": "2026-11-24T21:45:00Z",
+  "capture": "2026-11-24T2107Z",
   "items": [
     {
       "id": "2124865060397019480",
@@ -126,12 +126,6 @@
       "line": "ESPN posts a clip of Joe Buck saying the lighting vendor never turned off its scheduled 10 p.m. maintenance, which he gives as the reason the lights went out during the Bengals-Commanders game. Not checked here."
     },
     {
-      "id": "2124797604881989825",
-      "desk": "offbeat",
-      "line": "Mario Nawfal, who runs a news roundup account, says a man customized his car to look like something from GTA 6, and says Rockstar should be paying him for the advertising. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124958161765380348",
       "desk": "politics",
       "line": "Unusual Whales, an account that posts market news, says that, per Reuters, President Trump and Vice President JD Vance became convinced Jensen Huang was a singular figure protecting US open-weight AI models. The post is cut off in the capture. Not checked here.",
@@ -216,6 +210,11 @@
       "desk": "tech",
       "line": "Watcher Guru, a news and finance account, says hackers breached the CIA and US intelligence systems and exposed unclassified government data, and credits the New York Times. The Times report is not in the capture. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2125241933127709104",
+      "desk": "sports",
+      "line": "ESPN reporter Pete Thamel says Michigan's search firm has told Trev Alberts he will not be its next athletic director, citing his attorney, Tom Mars. Thamel says Alberts signed a \"contractually binding MOU\" that requires Michigan to pay his buyout."
     }
   ]
 }

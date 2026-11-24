@@ -8192,3 +8192,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained one id; plan rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Lead for the next story pass: the CIA breach claim (Watcher Guru credits the New York Times; not researched).
+
+## 2026-11-24T21:45Z
+- Captures read: 2107Z on 11-24. Last read: 2107Z.
+- X's check: 2107Z 103 confirmed, 0 missing, 1 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z (3), 1506Z (1), 1704Z (1), 1806Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 36 items in the file, 34 on the front (1 new, 1 dropped). Added: Pete Thamel on Trev Alberts and Michigan (sports). Dropped, near 36 hours: Mario Nawfal car post.
+- Added: 2026-11-24-michigan-alberts-not-athletic-director (sports). Updated: none. The Nvidia story is already current to the FT report of 24 November; I found no newer facts for the tariffs or NCIC stories.
+- Left out: Avengers: Doomsday trailer (already on the pulse; I found no source for a new trailer on 23 November, only earlier ones); CIA breach claim and Microsoft "Code Red" claim (searched, found nothing outside X for either); Treasury Iran exchange-house sanctions (could not find the 24 November release); Cardinals defensive coordinator firing (found no report); Hillary Clinton, aburducky and Elon "It is done" posts (point not clear, or already in the Nvidia story); Portnoy list (small).
+- Requests: added the Thamel post to the watch list; plan rebuilt for 22Z. No open requests added.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
