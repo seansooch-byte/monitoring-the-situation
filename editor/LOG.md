@@ -8032,3 +8032,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained one id and lost two; plan rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Candidate for a story pass: the FT report on the Trump Nvidia share gains, once the article is read.
+
+## 2026-11-24T04:25Z
+- Captures read: 0404Z on 11-24 (53 posts). Last read: 0404Z.
+- X's check: 0404Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 39 items (1 new, 4 dropped). Added: Fabrizio Romano quoting Courtois on Carlos Espí (sports, not checked). Dropped, past 36 hours: ESPN on Tom Jackson, Dom Lucre on Swae Lee, InsiderWire on flight delays, Acyn interview clip. Build shows 37 on the front (watcherguru 1, discussingfilm 1 held off). Quiet: medicine, life, offbeat.
+- Added: none. Updated: none (pulse pass).
+- Left out: Variety on the Fuqua lawsuit and WatcherGuru on Huang (claims about named people, nothing outside X read); Omar warrant posts and the Infantino/Kushner post (claims not confirmed outside X); RFK Jr hearing clip, Billboard, Cohen on GTA 6 (small); crypto price posts (coin posts are not sought).
+- Requests: none added or removed. Watch list lost the four dropped ids and gained one; plan rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

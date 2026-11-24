@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T03:25:00Z",
-  "capture": "2026-11-24T0304Z",
+  "updated_at": "2026-11-24T04:16:33Z",
+  "capture": "2026-11-24T0404Z",
   "items": [
-    {
-      "id": "2124523042000757012",
-      "desk": "sports",
-      "line": "ESPN posts a tribute to Tom Jackson, the former Broncos linebacker and ESPN analyst, after the Broncos announced his death at 75: \"We'll miss you, TJ.\"",
-      "also": []
-    },
     {
       "id": "2124576203113636183",
       "desk": "science",
@@ -91,12 +85,6 @@
       "also": []
     },
     {
-      "id": "2124529933649383716",
-      "desk": "politics",
-      "line": "Acyn posts a 96-second clip with a transcript of an interview in which an interviewer named Brennan asks Bessent about the president saying Jensen Huang should get his job back. Bessent says \"Jensen is on the outside now\" and that \"we have to see where the buck stops.\" Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124638954272305593",
       "desk": "gaming",
       "line": "Pavel Durov, who founded Telegram, jokes that the least realistic thing about GTA VI is that its characters Jason and Lucia run a criminal operation without a single Telegram group.",
@@ -112,12 +100,6 @@
       "id": "2124613622588707018",
       "desk": "internet",
       "line": "Nikita Bier says the global economy rests on people forgetting to cancel auto-renewing subscriptions and not moving their cash to higher-yielding money market accounts. He says that if everyone had an AI agent do it, the banking system would collapse. That is his view. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124525424965247117",
-      "desk": "tech",
-      "line": "InsiderWire reports that thousands of US flights were delayed after a Delta outage ahead of Thanksgiving. Not checked here.",
       "also": []
     },
     {
@@ -235,12 +217,6 @@
       ]
     },
     {
-      "id": "2124522962510614855",
-      "desk": "music",
-      "line": "Dom Lucre says Swae Lee stopped his show at the Shillong Cherry Blossom Festival in India after a fan threw beer in his face, and that officials say the fan was handed to police. The post has a 39-second video. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124942186425069836",
       "desk": "ai",
       "line": "The ChatGPT account says it is rolling out a version of GPT-6.2 Sol in the Chat tab for everyday conversation. It says the model handles complex requests and photo details better, and that it is available today to Plus, Pro, Business and Enterprise users. Not checked here."
@@ -259,6 +235,12 @@
       "id": "2124997050789986717",
       "desk": "politics",
       "line": "The Financial Times reports that President Trump made up to $15 million on Nvidia shares after Jensen Huang was reinstated as chief executive. The post links to the FT article. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124907750987853883",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, posts quotes he attributes to Thibaut Courtois praising Carlos Espí as humble, hardworking and strong, and saying a strong bench is essential for winning trophies. Not checked here.",
       "also": []
     }
   ]
