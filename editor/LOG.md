@@ -8122,3 +8122,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained three ids; plan rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T14:35Z
+- Captures read: 1306Z, 1404Z on 11-24. Last read: 1404Z.
+- X's check: 1306Z 94 confirmed, 0 missing, 0 mismatched, 0 withheld. 1404Z 115 confirmed, 0 missing, 3 mismatched (2124880762810097993, 2125061846335893516, 2125137593033441442), 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z (11-23); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 32 items (1 new, 1 dropped). Added: Kobeissi Letter on reported new Trump tariffs, citing the WSJ (politics, Not checked here). Dropped, past 36 hours: US Army Iowa detonation post (the story still cites it, so it stays on the watch list). Build shows 30 on the front (discussingfilm 1, marionawfal 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano and NFL/SportsCenter posts (sports full, second posts from accounts); Unusual Whales Huang post and Watcher Guru BlackRock post (small); a4lasade post (flagged private_individual); JoaquinEterno video (Portuguese, point not clear, as before). The tariff report is a lead for the next story pass (WSJ report not opened here).
+- Requests: none added or removed. Watch list gained the tariff post; plan rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

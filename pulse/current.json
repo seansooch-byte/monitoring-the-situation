@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T12:22:02Z",
-  "capture": "2026-11-24T1208Z",
+  "updated_at": "2026-11-24T14:20:35Z",
+  "capture": "2026-11-24T1404Z",
   "items": [
-    {
-      "id": "2124680508408021249",
-      "desk": "defense",
-      "line": "The US Army says the controlled detonation at the Iowa Army Ammunition Plant is now set for Wednesday, November 25, 2026, for better weather and so all mitigation measures can be in place. Reuters says the Army will proceed under emergency powers, bypassing a court order. Not checked here.",
-      "also": [
-        "2124606378236924366"
-      ]
-    },
     {
       "id": "2124707853944631341",
       "desk": "gaming",
@@ -193,6 +185,12 @@
       "id": "2125137409209737637",
       "desk": "ideas",
       "line": "CNN reports that newly published diaries of the late Pope Francis reveal a spiritual crisis during his papacy, in which he saw visions of the devil and hell while struggling with how to exercise power. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125216303875035217",
+      "desk": "politics",
+      "line": "The Kobeissi Letter, a finance news account, says that President Trump is preparing to impose \"sweeping\" new tariffs on China, the EU and 14 other economies, citing the Wall Street Journal. Not checked here.",
       "also": []
     }
   ]
