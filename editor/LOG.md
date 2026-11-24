@@ -8052,3 +8052,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the four dropped ids and gained one; plan rebuilt for 06Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T06:20Z
+- Captures read: 0600Z on 11-24 (14 posts). Last read: 0600Z.
+- X's check: 0600Z 14 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 34 items (0 new, 2 dropped). Dropped, past 36 hours: Polymarket on Amodei, hlovo_ TikTok trend. Build shows 33 on the front (discussingfilm 1 held off). The 0600Z capture was a short run and its posts are all small (under 81,000 views), so none were added.
+- Added: none. Updated: none (pulse pass).
+- Left out: Huang further-affairs posts (Cointelegraph, BullTheoryio: claim about a named person, nothing outside X read); Bloomberg ex-OpenAI engineer post (claim about a person, small); crypto posts (small, coin posts not sought); Benny Johnson Newsom post (small, names a victim).
+- Requests: none added or removed. Watch list lost the two dropped ids; plan rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
