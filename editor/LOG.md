@@ -8112,3 +8112,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the two dropped ids, gained the FT post; plan rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T12:25Z
+- Captures read: 1208Z on 11-24 (55 posts). Last read: 1208Z.
+- X's check: 1208Z 52 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 32 items (2 new, 0 dropped). Added: Musk's "Bullseye" quoting Grok on compute and energy (ai, Grok post attached, xAI/Anthropic disclosure in the line); CNN on Pope Francis's diaries (ideas, not checked). Nothing past 36 hours. Build shows 30 on the front (discussingfilm 1, marionawfal 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: NebsGoodTakes Avengers post (copy of the Marvel post shown); GMCNews24 Vance exchange (politics full, aggregator); NBA posts (sports full); Grok's own post (attached to Musk's); Watcher Guru and Unusual Whales "AI employees fear" posts (cite Axios, unchecked, for the next story pass); kimhyeppeo post (flagged old_content); Hanoi, Soham, helicopter crash posts (small, not researched); Bovtunenko post (names a child victim).
+- Requests: none added or removed. Watch list gained three ids; plan rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

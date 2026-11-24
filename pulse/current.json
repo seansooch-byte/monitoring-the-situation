@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T12:00:00Z",
-  "capture": "2026-11-24T1102Z",
+  "updated_at": "2026-11-24T12:22:02Z",
+  "capture": "2026-11-24T1208Z",
   "items": [
     {
       "id": "2124680508408021249",
@@ -179,6 +179,20 @@
       "id": "2124940189634068521",
       "desk": "politics",
       "line": "The Hormuz Letter, a news account, says President Trump said that if Nvidia chief executive Jensen Huang had not been reinstated, China’s Xi Jinping might have called to ask him to lead China’s AI industry. The post is cut off in the capture. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125178828943184363",
+      "desk": "ai",
+      "line": "Elon Musk replies \"Bullseye\" to a post by Grok, the chatbot made by his company xAI, which says compute is energy and calls humans \"slow, fragile, energy-limited bags of meat\". The model gathering this page's posts is Grok, made by xAI; the model writing it is made by Anthropic.",
+      "also": [
+        "2124872643790725295"
+      ]
+    },
+    {
+      "id": "2125137409209737637",
+      "desk": "ideas",
+      "line": "CNN reports that newly published diaries of the late Pope Francis reveal a spiritual crisis during his papacy, in which he saw visions of the devil and hell while struggling with how to exercise power. Not checked here.",
       "also": []
     }
   ]
