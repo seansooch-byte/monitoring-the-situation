@@ -1,26 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T09:11:43Z",
-  "capture": "2026-11-24T0904Z",
+  "updated_at": "2026-11-24T10:05:29Z",
+  "capture": "2026-11-24T0959Z",
   "items": [
-    {
-      "id": "2124629409105944729",
-      "desk": "markets",
-      "line": "Bill Ackman, an investor, says he thinks the Fed is about to make another mistake on December 9th. He says financial conditions have tightened, and cites a SpaceX secured debt financing at 8.259% as an example. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124619599882920139",
-      "desk": "ideas",
-      "line": "Elon Musk writes that consciousness is either an illusion or present everywhere on a gradient, and that it is difficult to argue that carbon is conscious but silicon is not. It is his opinion, not a finding.",
-      "also": []
-    },
-    {
-      "id": "2124623456540951028",
-      "desk": "sports",
-      "line": "ESPN baseball reporter Jeff Passan says, citing sources, that pitcher Tarik Skubal and the New York Mets have agreed on a nine-year, $450 million contract. Not checked here.",
-      "also": []
-    },
     {
       "id": "2124680508408021249",
       "desk": "defense",
@@ -28,12 +10,6 @@
       "also": [
         "2124606378236924366"
       ]
-    },
-    {
-      "id": "2124620232287277091",
-      "desk": "politics",
-      "line": "WesternLensman posts a 44-second clip in which, it says, Jessica Tarlov says she listened to the full audio of Trump's \"Fine People\" comments and found he was not talking about Nazis. The poster calls the earlier reading a lie. Not checked here.",
-      "also": []
     },
     {
       "id": "2124638954272305593",

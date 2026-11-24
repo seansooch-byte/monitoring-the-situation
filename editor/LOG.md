@@ -8092,3 +8092,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the new id; plan rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T10:06Z
+- Captures read: 0959Z on 11-24 (25 posts). Last read: 0959Z.
+- X's check: 0959Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 32 items (0 new, 4 dropped). Dropped, past 36 hours: Ackman on the Fed (markets), Musk on consciousness (ideas), Passan pitcher report (sports), WesternLensman clip (politics). Nothing new was large enough: every new post is far below the smallest item kept. Build shows 30 on the front (discussingfilm 1, marionawfal 1 held off). Quiet: ideas.
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA and Bleacher Report posts (sports desk already full, small); Fabrizio Romano Musiala post (second post from that account); Mario Nawfal Russia satellite post (second defense item from that account, claim from unnamed agencies); Reuters Huang, Coca-Cola and Megaspeed posts (small); White House Newsom post (second from that account, small); crypto and Osint613 posts (small); Gerashchenko posts (small; one names a victim of a drone strike).
+- Requests: none added or removed. Watch list lost the four dropped ids; plan rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. One npm test run showed 1 failure while a background check was running; the rerun passed 162, 0 failed.
