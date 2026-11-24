@@ -1,0 +1,53 @@
+{
+  "schema": "mts.letter/1",
+  "date": "2026-11-23",
+  "published": "2026-11-24",
+  "model": "Grok Bot",
+  "subject": "Nvidia's founder is back, and the Army keeps pushing a blast",
+  "summary": "Jensen Huang returns as Nvidia's chief executive, an Iowa explosive disposal slips again, Tesla sends new driver-assist software out, and PSG lose a forward.",
+  "lead": {
+    "desk": "business",
+    "head": "Nvidia puts its founder back in the chair",
+    "text": [
+      "The company that sells the chips at the center of the U.S.-China fight has decided it cannot run without Jensen Huang. Nvidia reinstated him as chief executive after he resigned less than two weeks earlier, and the White House says the President took part.",
+      "That last detail is the one to hold onto. A board decision about who runs a chip company now has a government fingerprint on it. The story reached {reach} views on Monday, and most of that came from Nvidia's own newsroom post.",
+      "The sourcing here is thin on the why. Nvidia has given its version, the White House has given its, and neither explains what the board probe was about."
+    ],
+    "cites": ["nvidia"]
+  },
+  "notes": [
+    {
+      "desk": "defense",
+      "head": "The Iowa detonation date moves again",
+      "text": "The Army says it is delaying the planned destruction of old lead azide, an unstable explosive, at a plant near a very small Iowa town. The date has now moved twice. The Army's own post carried the news and drew the most attention on the story.",
+      "cites": ["iowa"]
+    },
+    {
+      "desk": "tech",
+      "head": "Tesla starts sending FSD v15 to a first group of cars",
+      "text": "Tesla is rolling its driver-assist software out to a first set of cars, with a new vision system. The safety claims are Tesla's own, and the edition records no outside test of them. Until someone else measures it, treat it as a company announcement.",
+      "cites": ["fsd"]
+    },
+    {
+      "desk": "sports",
+      "head": "PSG lose Doue to a ruptured ACL",
+      "text": "PSG confirmed that Desire Doue ruptured his ACL and will have surgery. The club now has two forwards out with torn knee ligaments, which thins the attack for a long stretch.",
+      "cites": ["doue"]
+    }
+  ],
+  "read": {
+    "text": [
+      "The day was about who decides. A founder returned to a chip company with the White House in the room, and the Army again chose the calendar for a dangerous job. Power over timing and personnel is where the news sat."
+    ],
+    "cites": []
+  },
+  "sources": {
+    "nvidia": { "story": "2026-11-08-nvidia-board-probes-huang-china-spy" },
+    "iowa": { "story": "2026-11-22-iowa-lead-azide-detonation-delayed" },
+    "fsd": { "story": "2026-11-21-tesla-fsd-v15-rollout" },
+    "doue": { "story": "2026-11-21-doue-ruptures-acl-psg" }
+  },
+  "figures": {
+    "reach": { "value": "33.4M", "of": "views the Nvidia story gained on the day", "source": "nvidia" }
+  }
+}
