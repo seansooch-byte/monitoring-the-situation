@@ -8182,3 +8182,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained two ids; plan rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Lead for the next story pass: the Microsoft outage and "Code Red" claim (not researched).
+
+## 2026-11-24T20:25Z
+- Captures read: 2008Z on 11-24. Last read: 2008Z.
+- X's check: 2008Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z (3), 1506Z (1), 1704Z (1), 1806Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 36 items in the file, 34 on the front (1 new, 1 dropped). Added: Watcher Guru on the reported CIA breach (tech; second post from the account, on a different desk, so held off the front and shown on tech). Dropped, past 36 hours: MemeioYT GTA 6 easter egg post and its attached DiscussingFilm post. The Mario Nawfal car post ages out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: realMaalouf Belgian court post (private_individual flag); WallStreetApes post (private individual); Tesla post (advertisement); rawsalerts and AndrewCurran CIA posts (smaller copies of the same claim); turkey pardon posts, Nick Sortor and Eric Daugh posts (small); PopBase Swift Uggs post (music desk covered, small); unusual_whales Anthropic co-founders share sale post (involves Anthropic, small, not researched).
+- Requests: none added or removed. Watch list gained one id; plan rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Lead for the next story pass: the CIA breach claim (Watcher Guru credits the New York Times; not researched).
