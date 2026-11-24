@@ -7992,3 +7992,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained three ids and lost two; plan rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T00:15Z
+- Captures read: 0000Z on 11-24 (52 posts). Last read: 0000Z.
+- X's check: 0000Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build still warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 44 items (0 new, 1 dropped). Dropped: birdabo Tesla FSD video (past 36 hours). Build shows 42 on the front (watcherguru 1, discussingfilm 1 held off). Nothing new in this capture was among the largest.
+- Added: none. Updated: none (pulse pass).
+- Left out: Polymarket post on an internal Claude model and VP vs VNP (small, unconfirmed outside X, involves Anthropic); FirstSquawk post on a Daniela Amodei share sale (small, unconfirmed); Eagleman Iran post (characterisation, small); RT rabbi post and Variety Fuqua accusation (accusations against named people, nothing outside X); the "friend" replies to Musk (small, private individuals).
+- Requests: none added or removed. Watch list lost one id; plan rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Candidates for a later story pass: the Claude VP vs VNP claim and the Amodei share sale, if outside sources appear.
