@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T01:35:00Z",
-  "capture": "2026-11-24T0104Z",
+  "updated_at": "2026-11-24T02:50:00Z",
+  "capture": "2026-11-24T0202Z",
   "items": [
     {
       "id": "2124523042000757012",
@@ -251,6 +251,21 @@
       "desk": "music",
       "line": "Dom Lucre says Swae Lee stopped his show at the Shillong Cherry Blossom Festival in India after a fan threw beer in his face, and that officials say the fan was handed to police. The post has a 39-second video. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2124942186425069836",
+      "desk": "ai",
+      "line": "The ChatGPT account says it is rolling out a version of GPT-6.2 Sol in the Chat tab for everyday conversation. It says the model handles complex requests and photo details better, and that it is available today to Plus, Pro, Business and Enterprise users. Not checked here."
+    },
+    {
+      "id": "2124950601247186986",
+      "desk": "world",
+      "line": "The U.S. Treasury says it sanctioned more than two dozen Iranian exchange houses, front companies and key personnel as part of what it calls Operation Economic Outcast, to disrupt Iran's shadow banking networks."
+    },
+    {
+      "id": "2124941671334895944",
+      "desk": "sports",
+      "line": "ESPN's PR account says ESPN, Disney, the NFL and IMAX will show the Super Bowl in IMAX for the first time, on Sunday, Feb. 14 at 6 p.m. ET, with tickets expected to go on sale in January 2027."
     }
   ]
 }

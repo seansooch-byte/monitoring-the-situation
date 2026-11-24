@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-22-iowa-lead-azide-detonation-delayed",
+  "title": "Army delays the planned detonation of old lead azide at an Iowa plant to Wednesday, 25 November",
+  "dek": "The Army plans to destroy thousands of pounds of unstable explosive near a town of about 400 people, and the date has moved twice.",
+  "desks": [
+    "defense",
+    "disaster"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-23T01:44:42Z",
+  "updated_at": "2026-11-24T02:30:00Z",
+  "what": [
+    "The Army plans controlled detonations at the Iowa Army Ammunition Plant in Middletown, Iowa, to destroy about 9,700 pounds (68 barrels) of lead azide, per ABC News. The Army's advisory of 15 November says residents will hear a loud noise, feel vibrations from two rapid detonations and see a dust plume that will contain some lead.",
+    "ABC and MPR News report the material was stored for more than 20 years in barrels of ethanol and water. The EPA, which permitted the work, said recrystallization has made it more sensitive to friction and shock, and that disturbing the containers \"could create an unacceptable risk of unintentional detonation.\" MPR reports the emergency permit was approved on 13 November and sets air and dust tracking and advance public notice.",
+    "The detonation was first set for Friday, 20 November, and moved to Monday, 23 November. ABC quotes Acting Army Secretary Adam Telle saying that was the latest possible moment before a forecast temperature drop that would risk further destabilization. The U.S. Army account then posted that it is now set for Wednesday, 25 November, \"to allow for optimal weather conditions and all mitigation measures to be emplaced.\" I did not find the new evacuation hours in a source I could open.",
+    "Residents near Middletown City Park were asked to leave for several hours, and those who could not were told to shelter indoors, per ABC. The Army projected lead dust could settle over an area about 25 miles long and 5 miles wide, per ABC. MPR reports earlier maps showed drift up to 100 miles and that some communities were later removed. The CDC says there is no safe blood lead level for children. A city official told MPR \"the biggest issue we're having is the lack of information.\""
+  ],
+  "why": "Lead dust near homes, a changing date and little detail for residents have kept the story moving.",
+  "next": "The Army says more detail is coming. The new date is Wednesday, 25 November, and weather is the stated condition.",
+  "posts": [
+    {
+      "id": "2124680508408021249",
+      "role": "official"
+    }
+  ],
+  "sources": [
+    {
+      "label": "U.S. Army: IAAAP public advisory",
+      "url": "https://www.army.mil/article/296772"
+    },
+    {
+      "label": "ABC News: Nearly 10,000 pounds of lead azide to be detonated at Army plant",
+      "url": "https://abcnews.com/US/iowa-army-plant-lead-azide-detonation/story?id=138261613"
+    },
+    {
+      "label": "MPR News: Iowa residents brace for a lead dust cloud",
+      "url": "https://www.mprnews.org/story/2026/11/19/iowa-residents-brace-for-lead-dust-cloud-army-to-detonate-5-tons-of-bombmaking-chemicals"
+    }
+  ]
+}

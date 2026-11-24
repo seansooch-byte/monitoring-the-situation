@@ -1,0 +1,40 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-22-delta-automation-failure-ohare-ground-stop",
+  "title": "Delta automation failure and an O'Hare staffing stop open Thanksgiving travel week with delays",
+  "dek": "About six million people are expected to fly in the U.S. over Thanksgiving. Two separate disruptions hit the first two days of the week.",
+  "desks": [
+    "disaster",
+    "tech"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-22T15:28:27Z",
+  "updated_at": "2026-11-24T02:30:00Z",
+  "what": [
+    "On Sunday, 22 November, Delta Air Lines had an automation failure that affected weight-and-balance calculations for departing flights, as Newsweek reports. Delta said teams were \"using manual workarounds this morning to safely get flights departed while work continues to restore automation.\" Newsweek says Delta had about 5,000 flights scheduled and that Delta said roughly 70 percent of the delays and cancellations shown on FlightAware were tied to the automation problem. The rest it put down to weather and air traffic control limits in New York and the Northeast. Another report puts the delays at more than 1,600 flights nationwide.",
+    "On Monday, 23 November, the FAA paused flights into Chicago O'Hare. The stop began at 10:40 a.m. Central and ended at about 12:15 p.m., per the Chicago Sun-Times. The FAA said the pause was \"due to staffing constraints at Chicago Terminal Radar Approach Control.\" FAA data cited by Newsweek show 2,211 total minutes of assigned delay, an average of 48 minutes and a maximum of 82. By 1 p.m. Eastern, FlightAware showed 182 delays and 7 cancellations at O'Hare. The FAA gave no more detail on the staffing, and it is not clear how many delays came from the stop itself.",
+    "The two events are separate. The Delta failure was the airline's own systems. The O'Hare stop was an FAA staffing limit. Posts joined them under one Thanksgiving theme. I did not find a source linking them."
+  ],
+  "why": "Millions are travelling at once, so a short stop at one hub or one airline's software is felt well beyond it.",
+  "next": "AAA forecasts 81.5 million people will travel 50 miles or more from 24 to 30 November, 5.96 million of them by air. The National Weather Service forecasts rain and wind along the Mid-Atlantic and Northeast coasts on Wednesday and Thursday.",
+  "posts": [
+    {
+      "id": "2124525424965247117",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Newsweek: Busiest U.S. airports hit by ground stops two days in a row",
+      "url": "https://www.newsweek.com/busiest-us-airports-hit-by-ground-stops-two-days-in-a-row-12758749"
+    },
+    {
+      "label": "Chicago Sun-Times: Staffing constraints caused ground stop at O'Hare",
+      "url": "https://chicago.suntimes.com/news/2026/11/23/ground-stop-issued-at-ohare-airport-during-busy-holiday-travel-week"
+    },
+    {
+      "label": "Washington Times: Ground stop at Chicago's O'Hare raises concerns about Thanksgiving delays",
+      "url": "https://www.washingtontimes.com/news/2026/nov/23/ground-stop-chicagos-ohare-raises-concerns-thanksgiving-delays/"
+    }
+  ]
+}

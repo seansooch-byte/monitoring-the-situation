@@ -8012,3 +8012,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost two ids; plan rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T02:55Z
+- Captures read: 0202Z on 11-24 (117 posts). Last read: 0202Z.
+- X's check: 0202Z 117 confirmed, 0 missing, 0 mismatched, 1 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 43 items (3 new, 0 dropped). Added: ChatGPT GPT-6.2 Sol rollout (ai, not checked); Treasury sanctions on Iranian exchange houses (world); ESPN PR Super Bowl in IMAX (sports). Build shows 41 on the front (watcherguru 1, discussingfilm 1 held off).
+- Added: 2026-11-22-delta-automation-failure-ohare-ground-stop (disaster), 2026-11-22-iowa-lead-azide-detonation-delayed (defense). Updated: none. The Nvidia story already carries the 23 November reinstatement.
+- Left out: Avengers: Doomsday trailer (searches found only the July trailer, nothing on a 23 November release); Alabama pipeline explosion (no source found for this event); Iranian singer lashes, DACA/deportation figures, Citi Bike cap (not researched this pass); Polymarket post on Huang's wife (private person); Biden airport clip (video not described, nothing outside X).
+- Requests: none added or removed. Watch list gained the pulse and story ids; plan rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Delta story rests on Newsweek and the Sun-Times; I could not open Delta's own statement.
