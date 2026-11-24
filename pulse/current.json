@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T04:16:33Z",
-  "capture": "2026-11-24T0404Z",
+  "updated_at": "2026-11-24T05:10:33Z",
+  "capture": "2026-11-24T0458Z",
   "items": [
     {
       "id": "2124576203113636183",
@@ -9,21 +9,6 @@
       "line": "SpaceX says a Falcon 9 carrying NROL-136 lifted off from pad 4E in California 32 hours after the USSF-317 launch from the same pad, and calls it its fastest turnaround between launches from one pad. Not checked here.",
       "also": [
         "2124589255565680900"
-      ]
-    },
-    {
-      "id": "2124554335225106628",
-      "desk": "entertainment",
-      "line": "PopBase, a pop culture account, says Matty Healy and Gabbriette Bechtel are expecting their first child. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124553359512465784",
-      "desk": "ai",
-      "line": "A user posts that Elon Musk says we have entered the Singularity and asks the Grok account to verify it. Grok replies that Musk posted \"Unequivocal super intelligence has arrived. Welcome to the Singularity.\" Grok is made by xAI, which also gathers this page’s posts. The claim itself is not checked here.",
-      "also": [
-        "2124464633490850164",
-        "2124553442873991266"
       ]
     },
     {
@@ -37,14 +22,6 @@
       "desk": "internet",
       "line": "A user says a TikTok trend has people finding out they are no longer visitors at their best friends’ houses, and calls the responses wholesome. The eight images are not described in the record.",
       "also": []
-    },
-    {
-      "id": "2124549218995949967",
-      "desk": "ai",
-      "line": "The account merettm says OpenAI is sharing more on its pretraining progress, and that its essay \"Perplexity and Intelligence\" argues for common limits based on perplexity, with progress beyond them gated on understanding AI behavior. Not checked here.",
-      "also": [
-        "2124551594691932405"
-      ]
     },
     {
       "id": "2124629409105944729",
@@ -62,12 +39,6 @@
       "id": "2124623456540951028",
       "desk": "sports",
       "line": "ESPN baseball reporter Jeff Passan says, citing sources, that pitcher Tarik Skubal and the New York Mets have agreed on a nine-year, $450 million contract. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124555061363921186",
-      "desk": "politics",
-      "line": "The account Watcher Guru says President Trump blames Democrats for the stock market crashing and says \"it will only get worse.\" Not checked here.",
       "also": []
     },
     {
@@ -242,6 +213,11 @@
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts quotes he attributes to Thibaut Courtois praising Carlos Espí as humble, hardworking and strong, and saying a strong bench is essential for winning trophies. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2125071531046731957",
+      "desk": "sports",
+      "line": "ESPN posts a clip of Joe Buck saying the lighting vendor never turned off its scheduled 10 p.m. maintenance, which he gives as the reason the lights went out during the Bengals-Commanders game. Not checked here."
     }
   ]
 }
