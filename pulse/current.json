@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T16:45:00Z",
-  "capture": "2026-11-24T1606Z",
+  "updated_at": "2026-11-24T17:18:24Z",
+  "capture": "2026-11-24T1704Z",
   "items": [
     {
       "id": "2124865060397019480",
@@ -129,21 +129,9 @@
       "also": []
     },
     {
-      "id": "2124907750987853883",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, posts quotes he attributes to Thibaut Courtois praising Carlos Espí as humble, hardworking and strong, and saying a strong bench is essential for winning trophies. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125071531046731957",
       "desk": "sports",
       "line": "ESPN posts a clip of Joe Buck saying the lighting vendor never turned off its scheduled 10 p.m. maintenance, which he gives as the reason the lights went out during the Bengals-Commanders game. Not checked here."
-    },
-    {
-      "id": "2125061471730372986",
-      "desk": "sports",
-      "line": "The NFL account posts a video with the words \"Look at Jayden Daniels go\", tied to the Cincinnati and Washington game on ESPN. The video has no description, so what it shows is not checked here.",
-      "also": []
     },
     {
       "id": "2124797604881989825",
@@ -184,9 +172,45 @@
       "also": []
     },
     {
-      "id": "2125257281071649242",
+      "id": "2125235212363682098",
       "desk": "sports",
-      "line": "Sky News reports that Senegal has been awarded the Africa Cup of Nations after winning an appeal against having the title stripped. A researched story has the court ruling and its reasoning.",
+      "line": "Fabrizio Romano, a football transfer reporter, posts that Senegal are the Africa Cup of Nations 2025 winners after the Court of Arbitration for Sport verdict. A researched story has the court ruling and its reasoning.",
+      "also": []
+    },
+    {
+      "id": "2125086807784395147",
+      "desk": "sports",
+      "line": "The NFL account posts a video of the Commanders’ game-winning drive and calls it “a thing of beauty”. The video has no description, so what it shows is not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124764825049850041",
+      "desk": "world",
+      "line": "President Zelenskyy says Ukraine used seven naval drones off the coast of Libya, sank the Russian corvette Merkury and destroyed a Ka-27 helicopter, and hit a cargo ship. The post has a video. Not checked here. A researched story covers the Merkury explosion at Benghazi.",
+      "also": []
+    },
+    {
+      "id": "2124839414631141639",
+      "desk": "music",
+      "line": "Vanity Fair posts a passage from May Jeong’s reporting on a star it does not name in the post. The passage says she emerges as “a combination of victim and victimizer”. Other posts name the subject as Taylor Swift. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125002209775751385",
+      "desk": "medicine",
+      "line": "A post says it shows Schrier asking RFK Jr. if he has ever treated measles, and him answering no. It quotes her saying she has, and that the vaccine works only if children are given it. The video runs about two and a half minutes. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124918076953018511",
+      "desk": "defense",
+      "line": "A user says Ukraine has found Nvidia hardware inside Russian attack drones and a cruise missile, and that Reuters found records showing China’s military bought restricted Nvidia chips. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124865804181160278",
+      "desk": "offbeat",
+      "line": "James Lucas posts 20 photos under the words “Animals interrupting wildlife photographers”. The photos have no descriptions.",
       "also": []
     }
   ]

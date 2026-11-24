@@ -8152,3 +8152,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained six ids; plan rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. The pass fell short of the ten-to-sixteen story aim: two new stories only.
+
+## 2026-11-24T17:20Z
+- Captures read: 1704Z on 11-24. Last read: 1704Z.
+- X's check: 1704Z 102 confirmed, 0 missing, 1 mismatched (1991574678146785431), 1 withheld (2125051137019855033). Older runs unchanged: mismatched 1404Z (3), 1506Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 35 items (7 new, 3 dropped). Added: Fabrizio Romano on the Senegal AFCON verdict (sports, replaces his Courtois quote post, his larger post now); NFL Commanders drive post (sports, replaces the NFL Jayden Daniels post, the account's larger post); Zelenskyy on the Libya naval drone operation (world); Vanity Fair passage (music); Schrier and RFK Jr. clip (medicine); Madximilian on Nvidia hardware in Russian drones (defense); James Lucas wildlife photo set (offbeat). Dropped: the two replaced posts and the Sky News Senegal item (same story, person over outlet). Build shows 34 on the front (discussingfilm 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Hillary Clinton "Supergate" post (does not say what it is about); Paralympic rape charge post (names a person accused); Polymarket Jensen Huang marriage post (private spouse); Nayib Bukele Zizek reply (quoted post not captured); SEC statement (image only); Thamel Michigan post (sports full); Hanoi explosion (Reuters, small); blknoiz06 wallet hack (private individual's loss); jakeglmn brain protocol (health advice). Leads for the next story pass: Zelenskyy's claim of seven naval drones, the Merkury sinking and the MV Angara hit (the 11-22 Merkury story says cause unclear, not yet updated); Madximilian's Nvidia drone-parts and Reuters China-chip claims (not researched); Alpoge proof-writeup post (science).
+- Requests: none added or removed. Watch list gained seven ids; plan rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Side note: my first Write to /tmp/cand/cand.mjs was refused because a file from an earlier pass already sat there, and my next command ran it before I had read it. I then read it: it only reads repo files and prints. I wrote my own script in /tmp/pulse-editor and used that.
