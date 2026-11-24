@@ -8162,3 +8162,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained seven ids; plan rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Side note: my first Write to /tmp/cand/cand.mjs was refused because a file from an earlier pass already sat there, and my next command ran it before I had read it. I then read it: it only reads repo files and prints. I wrote my own script in /tmp/pulse-editor and used that.
+
+## 2026-11-24T18:20Z
+- Captures read: 1806Z on 11-24. Last read: 1806Z.
+- X's check: 1806Z 101 confirmed, 0 missing, 1 mismatched, 2 withheld. Older runs unchanged: mismatched 1404Z (3), 1506Z (1), 1704Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 34 items on the build (all kept, 0 new, 0 dropped). Nothing is past 36 hours yet; the GTA 6 easter egg post, Zelenskyy's post and the Mario Nawfal car post (33 to 35 hours) age out next pass. discussingfilm 1 held off the front.
+- Added: none. Updated: none (pulse pass).
+- Left out: Complex "Lucia from GTA VI" photo set (six photos, no description, point not clear); Polymarket Huang marriage post (private spouse, left out before); NYT report on SpaceXAI (involves xAI, not researched, lead for the next story pass); OpenAI OpenWorks program post (ai desk already full, not researched); Yoro red card (second post from Romano's account); Himchan and Paralympic rape posts (name people accused); Hillary Clinton post (point not stated).
+- Requests: none added or removed. Watch list already holds every pulse id and the pinned post; plan not rebuilt.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
