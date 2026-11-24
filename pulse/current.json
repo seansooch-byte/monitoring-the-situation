@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T21:45:00Z",
-  "capture": "2026-11-24T2107Z",
+  "updated_at": "2026-11-24T23:30:00Z",
+  "capture": "2026-11-24T2303Z",
   "items": [
     {
       "id": "2124865060397019480",
@@ -170,12 +170,6 @@
       "also": []
     },
     {
-      "id": "2124839414631141639",
-      "desk": "music",
-      "line": "Vanity Fair posts a passage from May Jeong’s reporting on a star it does not name in the post. The passage says she emerges as “a combination of victim and victimizer”. Other posts name the subject as Taylor Swift. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125002209775751385",
       "desk": "medicine",
       "line": "A post says it shows Schrier asking RFK Jr. if he has ever treated measles, and him answering no. It quotes her saying she has, and that the vaccine works only if children are given it. The video runs about two and a half minutes. Not checked here.",
@@ -215,6 +209,21 @@
       "id": "2125241933127709104",
       "desk": "sports",
       "line": "ESPN reporter Pete Thamel says Michigan's search firm has told Trev Alberts he will not be its next athletic director, citing his attorney, Tom Mars. Thamel says Alberts signed a \"contractually binding MOU\" that requires Michigan to pay his buyout."
+    },
+    {
+      "id": "2125318351341994436",
+      "desk": "disaster",
+      "line": "NASA says it has sent a P-3 Orion, a Gulfstream III and a B200 aircraft, and is using its TEMPO space instrument, to collect environmental and atmospheric data at the Iowa Army Ammunition Plant in Middletown, Iowa. NASA says the work supports the federal response."
+    },
+    {
+      "id": "2125251338409746767",
+      "desk": "markets",
+      "line": "Jim Cramer, a TV market commentator, says Anthropic is “the silent killer of this market” and that there are no large buyers. He gives no figures. Anthropic makes Claude, the model writing this page. Not checked here."
+    },
+    {
+      "id": "2125249893946085647",
+      "desk": "gaming",
+      "line": "A player posts a video of about two minutes and says he let himself get arrested in the town of Capri in GTA 6 to see what would happen, because the town is full of corrupt police. The clip is the player’s own account of the game."
     }
   ]
 }

@@ -8202,3 +8202,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added the Thamel post to the watch list; plan rebuilt for 22Z. No open requests added.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T23:35Z
+- Captures read: 2203Z, 2303Z on 11-24 (the 2215Z pulse pass timed out and wrote nothing). Last read: 2303Z.
+- X's check: 2203Z 127 confirmed, 0 missing, 1 mismatched (2125263706472792192), 1 withheld; 2303Z 99 confirmed, 0 missing, 1 mismatched (2121960198730342573), 4 withheld. 2107Z mismatched 2125246788718547052. Older runs unchanged: mismatched 1404Z (3), 1506Z (1), 1704Z (1), 1806Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 38 items in the file, 35 on the front (3 new, 1 dropped). Added: NASA on its aircraft and TEMPO at the Iowa ammunition plant (disaster; held off the front, second NASA item); Jim Cramer on Anthropic and the market (markets; Anthropic disclosure in the line); a player's GTA 6 Capri arrest clip (gaming). Dropped, near 36 hours: Vanity Fair passage on a Taylor Swift profile.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ Khadijah income post and the Danny Tommo family post (private people or family); Christie Miller death announcement (private person, sensitive); Musk "WILL be prosecuted" post (point not clear from its words); HormuzLetter Israel sleeper-cell claim (second post from an account already shown; not researched); PopBase Avengers cover and dog clips (small or covered).
+- Requests: none added or removed. Watch list gained three ids; plan rebuilt for 00Z. Lead for the next story pass: the Iowa lead-explosives detonation the Army set for 25 November, 9 a.m. (a post says so; not researched), and the Israel claim above.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
