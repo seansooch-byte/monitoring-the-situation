@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T08:40:00Z",
-  "capture": "2026-11-24T0802Z",
+  "updated_at": "2026-11-24T09:11:43Z",
+  "capture": "2026-11-24T0904Z",
   "items": [
     {
       "id": "2124629409105944729",
@@ -209,6 +209,12 @@
       "id": "2124958161765380348",
       "desk": "politics",
       "line": "Unusual Whales, an account that posts market news, says that, per Reuters, President Trump and Vice President JD Vance became convinced Jensen Huang was a singular figure protecting US open-weight AI models. The post is cut off in the capture. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124940189634068521",
+      "desk": "politics",
+      "line": "The Hormuz Letter, a news account, says President Trump said that if Nvidia chief executive Jensen Huang had not been reinstated, China’s Xi Jinping might have called to ask him to lead China’s AI industry. The post is cut off in the capture. Not checked here.",
       "also": []
     }
   ]

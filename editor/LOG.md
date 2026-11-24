@@ -8082,3 +8082,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the new id; plan rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T09:15Z
+- Captures read: 0904Z on 11-24 (19 posts). Last read: 0904Z.
+- X's check: 0904Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 36 items (1 new, 0 dropped). Added: The Hormuz Letter on Trump's remarks about Jensen Huang (politics, cut off in the capture, not checked). Nothing past 36 hours. Build shows 34 on the front (discussingfilm 1, marionawfal 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Polymarket Trump/Huang post (small, same story as others on the pulse); Mario Nawfal Russia satellite post (claim from unnamed agencies, second defense item from that account); Fabrizio Romano Musiala and Mourinho posts (second post from that account); IGN, Culture Crave, Billboard, NFL, goat, plumber and roast posts (small).
+- Requests: none added or removed. Watch list gained the new id; plan rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
