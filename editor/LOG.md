@@ -8102,3 +8102,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the four dropped ids; plan rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. One npm test run showed 1 failure while a background check was running; the rerun passed 162, 0 failed.
+
+## 2026-11-24T12:00Z
+- Captures read: 1102Z on 11-24 (19 posts). Last read: 1102Z.
+- X's check: 1102Z 15 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 30 items (0 new, 2 dropped). Dropped, past 36 hours: Durov GTA joke (gaming), Nikita Bier subscriptions (internet). Nothing new was large enough. Build shows 28 on the front.
+- Added: none. Updated: 2026-11-08-nvidia-board-probes-huang-china-spy (FT report on Trump's possible gain, with its limits; cites the FT post).
+- Left out: Iowa lead azide story not changed (no new source past the 25 November date). New 1102Z posts all small; Gerashchenko posts name a victim of a strike.
+- Requests: none added or removed. Watch list lost the two dropped ids, gained the FT post; plan rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
