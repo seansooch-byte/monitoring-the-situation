@@ -8042,3 +8042,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the four dropped ids and gained one; plan rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T05:15Z
+- Captures read: 0458Z on 11-24 (91 posts). Last read: 0458Z.
+- X's check: 0458Z 88 confirmed, 0 missing, 0 mismatched, 2 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 36 items (1 new, 4 dropped). Added: ESPN on Joe Buck explaining the Bengals-Commanders lights outage (sports, not checked). Dropped, past 36 hours: PopBase on Matty Healy, Grok/Singularity post, merettm on OpenAI pretraining, Watcher Guru on Trump and the market. Build shows 35 on the front (discussingfilm 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Amazon drone crash (post names a private customer and town); Huang affair post (claim about a named person, nothing outside X); Watters Bigfoot files (claim not confirmed); Complex GTA VI Lucia and other clips (point unclear from words); Avengers gifs (small, no source).
+- Requests: none added or removed. Watch list lost the four dropped ids and gained one; plan rebuilt for 06Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
