@@ -1,22 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T00:15:00Z",
-  "capture": "2026-11-24T0000Z",
+  "updated_at": "2026-11-24T01:35:00Z",
+  "capture": "2026-11-24T0104Z",
   "items": [
-    {
-      "id": "2124477706582515965",
-      "desk": "sports",
-      "line": "Fabrizio Romano posts what he calls official: Désiré Doué has ruptured his ACL and will be out until next season. The post has a photo and is in English. The club statement is not checked here.",
-      "also": [
-        "2124188376005833083"
-      ]
-    },
-    {
-      "id": "2124488035945333208",
-      "desk": "defense",
-      "line": "Osinttechnical, an open-source intelligence account, posts footage it says shows the Russian corvette Merkury suffering a catastrophic explosion in the port of Benghazi, Libya, and says the ship was destroyed. Reports differ on the cause. Not checked here beyond the story on this site.",
-      "also": []
-    },
     {
       "id": "2124523042000757012",
       "desk": "sports",
@@ -71,12 +57,6 @@
       "also": [
         "2124551594691932405"
       ]
-    },
-    {
-      "id": "2124480996003508672",
-      "desk": "sports",
-      "line": "Adam Schefter of ESPN reports, citing sources, that former Colts quarterback Daniel Jones is likely to wait before signing with a new team if he clears waivers on Monday. The post links an ESPN story. Not checked here.",
-      "also": []
     },
     {
       "id": "2124629409105944729",
@@ -150,12 +130,6 @@
       "id": "2124525424965247117",
       "desk": "tech",
       "line": "InsiderWire reports that thousands of US flights were delayed after a Delta outage ahead of Thanksgiving. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124489825676099708",
-      "desk": "medicine",
-      "line": "The account ItsPeptime says the first human trial of an age-reversal gene therapy has received a green light from the FDA. The post names no company and links no source. Not checked here.",
       "also": []
     },
     {

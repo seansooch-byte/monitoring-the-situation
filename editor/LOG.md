@@ -8002,3 +8002,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost one id; plan rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Candidates for a later story pass: the Claude VP vs VNP claim and the Amodei share sale, if outside sources appear.
+
+## 2026-11-24T01:35Z
+- Captures read: 0104Z on 11-24 (112 posts). Last read: 0104Z.
+- X's check: 0104Z 98 confirmed, 0 missing, 0 mismatched, 2 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build still warns of 4 older story-cited posts X has not confirmed (3 withheld, 1 missing).
+- Pulse: 40 items (0 new, 4 dropped). Dropped, past 36 hours: Fabrizio Romano on Doué, Osinttechnical on the Merkury, Adam Schefter, ItsPeptime. Build shows 38 on the front (watcherguru 1, discussingfilm 1 held off). Quiet: medicine (its largest confirmed post is a health-protocol list, which reads as advice).
+- Added: none. Updated: none (pulse pass).
+- Left out: JoaquinEterno video (Portuguese, no media description, point not clear); GavinSBaker Nvidia scenes (covered by the Nvidia item); further elonmusk posts (account holds a place); SenRonJohnson HHS records post (small, unconfirmed outside X).
+- Requests: none added or removed. Watch list lost two ids; plan rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
