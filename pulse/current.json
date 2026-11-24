@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T07:40:00Z",
-  "capture": "2026-11-24T0707Z",
+  "updated_at": "2026-11-24T08:40:00Z",
+  "capture": "2026-11-24T0802Z",
   "items": [
     {
       "id": "2124629409105944729",
@@ -203,6 +203,12 @@
       "id": "2124797604881989825",
       "desk": "offbeat",
       "line": "Mario Nawfal, who runs a news roundup account, says a man customized his car to look like something from GTA 6, and says Rockstar should be paying him for the advertising. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124958161765380348",
+      "desk": "politics",
+      "line": "Unusual Whales, an account that posts market news, says that, per Reuters, President Trump and Vice President JD Vance became convinced Jensen Huang was a singular figure protecting US open-weight AI models. The post is cut off in the capture. Not checked here.",
       "also": []
     }
   ]

@@ -8072,3 +8072,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list lost the two dropped ids and gained two; plan rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T08:40Z
+- Captures read: 0802Z on 11-24 (22 posts). Last read: 0802Z.
+- X's check: 0802Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 35 items (1 new, 0 dropped). Added: Unusual Whales on Trump, Vance and Huang, per Reuters (politics, not checked). Nothing past 36 hours. Build shows 33 on the front (discussingfilm 1, marionawfal 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Unusual Whales WSJ post on further Huang affairs and kimmonismus Huang post (claims about a named person, nothing outside X read); BlackRock tokenized fund and crypto posts (small); Variety Hila Klein post (family matter, small); Colombia blast post (small, unconfirmed); Reuters posts (small).
+- Requests: none added or removed. Watch list gained the new id; plan rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
