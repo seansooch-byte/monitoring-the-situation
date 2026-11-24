@@ -8172,3 +8172,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list already holds every pulse id and the pinned post; plan not rebuilt.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T19:20Z
+- Captures read: 1902Z on 11-24. Last read: 1902Z.
+- X's check: 1902Z 86 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z (3), 1506Z (1), 1704Z (1), 1806Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 35 items on the build (2 new, 1 dropped). Added: PlayStation on the GTA VI player count (gaming); Polymarket on Microsoft's "Code Red" after an outage, crediting Reuters (tech). Dropped, past 36 hours: Zelenskyy's naval drone post. discussingfilm 1 held off the front. The GTA 6 easter egg post and the Mario Nawfal car post age out next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: aburducky and Elon "It is done" posts (point not clear from text); Alpoge writeup (text cut off, point unclear); Complex Lucia photo set; Hillary Clinton post (point not stated); Paralympic and Himchan rape posts (name people accused); Polymarket Huang marriage post (private spouse); life and internet desk posts (insults or unclear); Zelenskyy missile alert and WarMonitor Sputnik-S claim (small or unverified, not researched).
+- Requests: none added or removed. Watch list gained two ids; plan rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Lead for the next story pass: the Microsoft outage and "Code Red" claim (not researched).

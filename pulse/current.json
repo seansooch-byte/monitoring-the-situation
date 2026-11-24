@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T18:19:17Z",
-  "capture": "2026-11-24T1806Z",
+  "updated_at": "2026-11-24T19:15:02Z",
+  "capture": "2026-11-24T1902Z",
   "items": [
     {
       "id": "2124865060397019480",
@@ -184,12 +184,6 @@
       "also": []
     },
     {
-      "id": "2124764825049850041",
-      "desk": "world",
-      "line": "President Zelenskyy says Ukraine used seven naval drones off the coast of Libya, sank the Russian corvette Merkury and destroyed a Ka-27 helicopter, and hit a cargo ship. The post has a video. Not checked here. A researched story covers the Merkury explosion at Benghazi.",
-      "also": []
-    },
-    {
       "id": "2124839414631141639",
       "desk": "music",
       "line": "Vanity Fair posts a passage from May Jeong’s reporting on a star it does not name in the post. The passage says she emerges as “a combination of victim and victimizer”. Other posts name the subject as Taylor Swift. Not checked here.",
@@ -211,6 +205,18 @@
       "id": "2124865804181160278",
       "desk": "offbeat",
       "line": "James Lucas posts 20 photos under the words “Animals interrupting wildlife photographers”. The photos have no descriptions.",
+      "also": []
+    },
+    {
+      "id": "2125009125322957131",
+      "desk": "gaming",
+      "line": "PlayStation's account says more than 39 million unique players have played Grand Theft Auto VI on PS5 since launch, and calls it the biggest launch in PlayStation history. These are the company's own figures. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125265616693080108",
+      "desk": "tech",
+      "line": "Polymarket, a prediction market account, posts that Microsoft has declared “Code Red,” its highest emergency alert, after a 24-hour global outage, and credits Reuters. The Reuters report itself is not in the capture. Not checked here.",
       "also": []
     }
   ]
