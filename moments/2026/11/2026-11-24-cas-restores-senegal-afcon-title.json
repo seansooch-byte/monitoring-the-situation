@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-24-cas-restores-senegal-afcon-title",
+  "title": "Court of Arbitration for Sport gives Senegal back the Africa Cup of Nations title",
+  "dek": "Senegal won the final on the pitch, lost the title to a forfeit ruling in March, and has now won it back in court.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-24T15:56:00Z",
+  "updated_at": "2026-11-24T16:45:00Z",
+  "what": [
+    "On 24 November 2026, the Court of Arbitration for Sport ruled for Senegal in its appeal over the Africa Cup of Nations title, per ESPN. The title returns to Senegal.",
+    "In the January final, Senegal beat host Morocco 1-0 after extra time. Late in the match at 0-0, Morocco was given a penalty. Senegal's players walked off the field in protest for about 15 minutes. Referee Jean-Jacques Ndala let play resume, Morocco's penalty was saved, and Senegal scored in extra time, per ESPN.",
+    "In March, an appeals panel of the Confederation of African Football overturned the result and gave Morocco a 3-0 win, citing a rule that a team which refuses to play or leaves the ground before the end of the match is the loser. ESPN reports that the court rejected that reading. It held the rule applies only when a team's conduct leads the referee to call off the game permanently, and that Ndala \"did not err in law\" by resuming play.",
+    "ESPN says CAS rulings can be challenged at Switzerland's supreme court, but only on limited procedural grounds. I found no statement yet from Morocco or the confederation."
+  ],
+  "why": "A final decided on the pitch was reversed, then restored, which has people arguing about whether results should be settled by referees or by rulebooks and courts.",
+  "next": "Whether Morocco or the confederation appeals to the Swiss supreme court.",
+  "posts": [
+    { "id": "2125257281071649242", "role": "origin" },
+    { "id": "2125240183607947405", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "ESPN: Senegal reinstated as Africa Cup of Nations winners over Morocco by CAS ruling", "url": "https://www.espn.com/soccer/story/_/id/50582074/senegal-africa-cup-nations-morocco-cas" }
+  ]
+}

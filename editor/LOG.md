@@ -8142,3 +8142,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained one id; plan rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T16:50Z
+- Captures read: 1606Z on 11-24. Last read: 1606Z.
+- X's check: 1606Z 49 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged: mismatched 1404Z (3), 1506Z (1); missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 31 items (1 new, 2 dropped). Added: Sky News on Senegal's AFCON appeal win (sports). Dropped, past 36 hours: the GTA VI joke post and the Mario Nawfal Belarus hack post.
+- Added: 2026-11-24-wsj-new-tariffs-stocks-fall (markets), 2026-11-24-cas-restores-senegal-afcon-title (sports). Updated: none. The Nvidia story was refreshed at 12:00Z and not rechecked; the 11-22 stories were not rechecked.
+- Left out: BullTheoryio Anthropic IPO price post (involves Anthropic, not researched, lead for next pass); Riyadh tower Houthi report, Polymarket Estonia warning and Spain election odds, Newsom clemency post (not researched); Yoro red card overturned (second post from Romano's account); Kayla attendance post (names a private person).
+- Requests: none added or removed. Watch list gained six ids; plan rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. The pass fell short of the ten-to-sixteen story aim: two new stories only.

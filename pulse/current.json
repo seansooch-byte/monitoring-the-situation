@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T15:22:11Z",
-  "capture": "2026-11-24T1506Z",
+  "updated_at": "2026-11-24T16:45:00Z",
+  "capture": "2026-11-24T1606Z",
   "items": [
-    {
-      "id": "2124707853944631341",
-      "desk": "gaming",
-      "line": "A user jokes about GTA VI, telling players to skip a character called Mandy and visit a spot on the game map to enter the code 1886. The post comes with one image, which I could not see described.",
-      "also": []
-    },
     {
       "id": "2124865060397019480",
       "desk": "business",
@@ -45,12 +39,6 @@
       "id": "2124880742849143240",
       "desk": "sports",
       "line": "MLB’s account says the Mets and first baseman Paul Goldschmidt reportedly agree to a deal, citing multiple reports including MLB Network’s Jon Heyman. It is a report, not a team announcement.",
-      "also": []
-    },
-    {
-      "id": "2124707006829457617",
-      "desk": "defense",
-      "line": "Mario Nawfal, who runs a news roundup account, says a Ukrainian major, Olha Bihar, told NATO its soldiers are training for the wrong kind of war, and that drones have made the 15 kilometres nearest the front a kill zone where tanks and armoured vehicles can barely operate. Not checked here.",
       "also": []
     },
     {
@@ -193,6 +181,12 @@
       "id": "2125216303875035217",
       "desk": "politics",
       "line": "The Kobeissi Letter, a finance news account, says that President Trump is preparing to impose \"sweeping\" new tariffs on China, the EU and 14 other economies, citing the Wall Street Journal. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125257281071649242",
+      "desk": "sports",
+      "line": "Sky News reports that Senegal has been awarded the Africa Cup of Nations after winning an appeal against having the title stripped. A researched story has the court ruling and its reasoning.",
       "also": []
     }
   ]
