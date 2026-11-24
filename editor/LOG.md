@@ -8022,3 +8022,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the pulse and story ids; plan rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Delta story rests on Newsweek and the Sun-Times; I could not open Delta's own statement.
+
+## 2026-11-24T03:30Z
+- Captures read: 0304Z on 11-24 (107 posts). Last read: 0304Z.
+- X's check: 0304Z 103 confirmed, 0 missing, 0 mismatched, 1 withheld. Older runs unchanged: mismatched 1404Z, 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 42 items (1 new, 2 dropped). Added: FT on Trump's Nvidia share gains (politics, not checked). Dropped, past 36 hours: Rand Paul on Medicare for All, IU tour dates. Build shows 40 on the front (watcherguru 1, discussingfilm 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: Tee Higgins arrival at Monday Night Football (sports already has five items, small); Benny Johnson Biden airport video (video not described, nothing outside X); Troy Aikman clips (old or small).
+- Requests: none added or removed. Watch list gained one id and lost two; plan rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Candidate for a story pass: the FT report on the Trump Nvidia share gains, once the article is read.

@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T02:50:00Z",
-  "capture": "2026-11-24T0202Z",
+  "updated_at": "2026-11-24T03:25:00Z",
+  "capture": "2026-11-24T0304Z",
   "items": [
     {
       "id": "2124523042000757012",
@@ -39,12 +39,6 @@
       "also": []
     },
     {
-      "id": "2124518268811846005",
-      "desk": "politics",
-      "line": "Senator Rand Paul says Medicare for All is not free and would cost taxpayers about $47 trillion. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2124568418963665364",
       "desk": "internet",
       "line": "A user says a TikTok trend has people finding out they are no longer visitors at their best friends’ houses, and calls the responses wholesome. The eight images are not described in the record.",
@@ -62,12 +56,6 @@
       "id": "2124629409105944729",
       "desk": "markets",
       "line": "Bill Ackman, an investor, says he thinks the Fed is about to make another mistake on December 9th. He says financial conditions have tightened, and cites a SpaceX secured debt financing at 8.259% as an example. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124518265695478076",
-      "desk": "music",
-      "line": "The account named IU (@_IUofficial) posts a list of dates and cities for a 2027 world tour, from Bangkok in January to Jakarta in May, and adds \"and more\". The post carries two photos, which are not described in the capture.",
       "also": []
     },
     {
@@ -266,6 +254,12 @@
       "id": "2124941671334895944",
       "desk": "sports",
       "line": "ESPN's PR account says ESPN, Disney, the NFL and IMAX will show the Super Bowl in IMAX for the first time, on Sunday, Feb. 14 at 6 p.m. ET, with tickets expected to go on sale in January 2027."
+    },
+    {
+      "id": "2124997050789986717",
+      "desk": "politics",
+      "line": "The Financial Times reports that President Trump made up to $15 million on Nvidia shares after Jensen Huang was reinstated as chief executive. The post links to the FT article. Not checked here.",
+      "also": []
     }
   ]
 }
