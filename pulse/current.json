@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T14:20:35Z",
-  "capture": "2026-11-24T1404Z",
+  "updated_at": "2026-11-24T15:22:11Z",
+  "capture": "2026-11-24T1506Z",
   "items": [
     {
       "id": "2124707853944631341",
@@ -57,7 +57,9 @@
       "id": "2124866469762646060",
       "desk": "justice",
       "line": "The Global Government Affairs account of X says the Justice Department’s Criminal Division opened an investigation this month into people suspected of using stolen payment credentials on X Money. X is part of xAI, the company that makes Grok, the model gathering this page’s posts. Not checked here.",
-      "also": []
+      "also": [
+        "2124917923391443211"
+      ]
     },
     {
       "id": "2124903027370774900",

@@ -8132,3 +8132,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained the tariff post; plan rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-24T15:25Z
+- Captures read: 1506Z on 11-24. Last read: 1506Z.
+- X's check: 1506Z 93 confirmed, 0 missing, 1 mismatched (2011000398233083913), 1 withheld (2124890717709299772). Older runs unchanged: mismatched 1404Z (3), 1601Z, 1800Z, 2201Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 32 items (0 new, 0 dropped). Nothing is past 36 hours yet. Attached Musk's post on prosecuting violators to the X Global Government Affairs item. Build shows 30 on the front (discussingfilm 1, marionawfal 1 held off).
+- Added: none. Updated: none (pulse pass).
+- Left out: JoaquinEterno and aburducky videos (point not clear from words); Musk "It is done" (no context in the post); Paralympic medalist rape charge (names a person accused); Hillary Clinton Supergate post (politics full); Alpoge proof-writeup post (science, point not checked, lead for the next story pass).
+- Requests: none added or removed. Watch list gained one id; plan rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
