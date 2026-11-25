@@ -8442,3 +8442,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (2 ids added); plan rebuilt for 23Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T23:20Z
+- Captures read: 2303Z on 11-25. Last read: 2303Z.
+- X's check: 2303Z 105 confirmed, 0 missing, 1 mismatched (not used), 2 withheld (not used). Older runs unchanged. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 51 items in the file, 47 on the front (1 new, 3 dropped). Added: President Tinubu's statement on the death of Pete Edochie (entertainment, attributed, marked not checked). Dropped, over 36 hours: Musk (ai), HYPEX Fortnite (gaming), Gerashchenko (defense).
+- Added: none. Updated: none (pulse pass).
+- Left out: Steelers McCarthy support and Rodgers follow-ups (sports full, a story covers it); Calvert-Lewin contract (account already placed); Tiger Woods ball clips (anecdote, not checked); Fincher AI post (claim only); Voxyz Gemini post (point unclear). For the next story pass: Edochie death (one statement, no outside check yet), Fincher AI dialogue.
+- Requests: none added or removed. Watch list synced (1 added, 3 removed); plan rebuilt for 00Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

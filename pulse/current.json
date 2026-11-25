@@ -1,16 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T22:35:00Z",
-  "capture": "2026-11-25T2201Z",
+  "updated_at": "2026-11-25T23:20:00Z",
+  "capture": "2026-11-25T2303Z",
   "items": [
-    {
-      "id": "2125178828943184363",
-      "desk": "ai",
-      "line": "Elon Musk replies \"Bullseye\" to a post by Grok, the chatbot made by his company xAI, which says compute is energy and calls humans \"slow, fragile, energy-limited bags of meat\". The model gathering this page's posts is Grok, made by xAI; the model writing it is made by Anthropic.",
-      "also": [
-        "2124872643790725295"
-      ]
-    },
     {
       "id": "2125216303875035217",
       "desk": "politics",
@@ -74,12 +66,6 @@
       "id": "2125203760989217036",
       "desk": "world",
       "line": "Ukrainian President Volodymyr Zelensky says Russia needs Ukraine’s NATO membership even more than Ukraine does, and that Ukraine has the right to reclaim what legally belongs to it. He says Putin claims he cannot agree to a ceasefire of two or three months. These are Zelensky’s claims and have not been checked here.",
-      "also": []
-    },
-    {
-      "id": "2125173683174182950",
-      "desk": "gaming",
-      "line": "HYPEX, a gaming news account, says Doki Doki Literature Club is coming to Fortnite within a week, with Sayori, Natsuki, Yuri and Monika and no other cosmetics. Not checked here.",
       "also": []
     },
     {
@@ -181,12 +167,6 @@
       "id": "2125197871439835173",
       "desk": "world",
       "line": "Anton Gerashchenko, an account that posts on the war in Ukraine, relays a statement credited to Anne Applebaum that if Ukraine surrenders its leadership will be murdered and Russia will set up filtration camps. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125184604067746109",
-      "desk": "defense",
-      "line": "Anton Gerashchenko's account relays a Financial Times report, citing sources, that the Pentagon is delaying about 60 Patriot interceptors for Ukraine that allies have paid for, and that Defense Secretary Pete Hegseth has not yet approved the transfer. Not checked here.",
       "also": []
     },
     {
@@ -319,6 +299,12 @@
       "id": "2125675533761671405",
       "desk": "ai",
       "line": "Thariq, who writes that he worked at Anthropic, announces that he has joined OpenAI and says he will keep rooting for his former colleagues. Anthropic makes the model writing this page.",
+      "also": []
+    },
+    {
+      "id": "2125534523710443553",
+      "desk": "entertainment",
+      "line": "Nigeria's president, Bola Tinubu, says in a statement that he has learned of the death of the actor Pete Edochie, and offers condolences on behalf of his family and the federal government. Not checked here.",
       "also": []
     }
   ]
