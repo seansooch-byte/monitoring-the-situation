@@ -8392,3 +8392,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (69 ids); plan rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T18:20Z
+- Captures read: 1801Z on 11-25. Last read: 1801Z.
+- X's check: 1801Z 99 confirmed, 0 missing, 0 mismatched, 1 withheld (not used). Older runs unchanged (0308Z has 1 mismatched).
+- Pulse: 44 items in the file (0 new, 0 dropped). Nothing aged out; the new posts were from accounts already placed or not worth a place. Capture id advanced to 1801Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: bennyjohnson Iowa/East Palestine comparison (opinion, account claim); Phil_Lewis_ Iowa post (disaster already covered); Fabrizio Romano Guardiola post and Schefter/RapSheet Walker posts (accounts or desk already placed); WatcherGuru Burry post (as before).
+- Requests: none added or removed. Watch list already held every pulse id (synced 17:25Z).
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
