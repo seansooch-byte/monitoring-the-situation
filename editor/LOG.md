@@ -8422,3 +8422,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (71 ids); plan rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T21:40Z
+- Captures read: 2105Z on 11-25. Last read: 2105Z.
+- X's check: 2105Z 116 confirmed, 0 missing, 0 mismatched, 6 withheld (not used). Older runs unchanged. Build warns of the same 2 older story-cited posts X has not confirmed (Qeshm, Nvidia board story).
+- Pulse: 51 items in the file, 46 on the front (1 new, 0 dropped). Added: UnderdogNFL on Rodgers's McAfee interview (sports). Pelissero item line updated for the reported release.
+- Added: none. Updated: 2026-11-25-steelers-bench-rodgers-rudolph (Rodgers interview, reported release, ESPN corroboration; correction added; now developing). Iowa story rechecked: no newer facts found, no change.
+- Left out: Miss Universe 2026 posts (nothing outside X read); Ice Cube and Bill Maher clip (claim only); Van Hollen on Schumer (post only, not checked); Taylor Swift takedown post (opinion); Stephen Miller Iowa praise (account claim, disaster already covered).
+- Requests: none added or removed. Watch list synced with 3 Rodgers posts; plan rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

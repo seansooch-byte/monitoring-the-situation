@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T20:25:00Z",
-  "capture": "2026-11-25T2002Z",
+  "updated_at": "2026-11-25T21:35:00Z",
+  "capture": "2026-11-25T2105Z",
   "items": [
     {
       "id": "2125178828943184363",
@@ -126,7 +126,7 @@
     {
       "id": "2125442796467417433",
       "desk": "sports",
-      "line": "NFL reporter Tom Pelissero says the Steelers are benching quarterback Aaron Rodgers and starting Mason Rudolph against the Broncos on Friday, a coach’s decision per sources. Adam Schefter later reports that Rodgers said on the Pat McAfee Show that coach Mike McCarthy dozed off and snored in meetings. Not checked here.",
+      "line": "Tom Pelissero says the Steelers are benching quarterback Aaron Rodgers. Adam Schefter later reports, per Gerry Dulac, that they are releasing him after he said on the Pat McAfee Show that coach Mike McCarthy dozed off in meetings. ESPN says league sources back Rodgers. McCarthy has not responded in these posts.",
       "also": [
         "2125662932336079265"
       ]
@@ -301,6 +301,12 @@
       "id": "2125671356339499494",
       "desk": "business",
       "line": "SpaceX announces that it is committing one SpaceX share to millions of American children, to give \"the next generation a stake in building a more exciting future.\" Details are in a linked page that has not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2125667033052299651",
+      "desk": "sports",
+      "line": "UnderdogNFL, a football account, lists what Aaron Rodgers said about coach Mike McCarthy on the Pat McAfee Show, including that McCarthy snored in meetings and that Rodgers learned he was inactive from a teammate. These are Rodgers's claims; ESPN says league sources corroborate them.",
       "also": []
     }
   ]
