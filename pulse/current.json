@@ -1,24 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T02:50:00Z",
-  "capture": "2026-11-25T0204Z",
+  "updated_at": "2026-11-25T03:19:53Z",
+  "capture": "2026-11-25T0308Z",
   "items": [
-    {
-      "id": "2124880742849143240",
-      "desk": "sports",
-      "line": "MLB’s account says the Mets and first baseman Paul Goldschmidt reportedly agree to a deal, citing multiple reports including MLB Network’s Jon Heyman. It is a report, not a team announcement.",
-      "also": []
-    },
     {
       "id": "2124903027370774900",
       "desk": "science",
       "line": "NASA says it is on its way to explore Europa, an ocean world that could support life, and promotes a new documentary about the mission, The Europa Concept, now on NASA+.",
-      "also": []
-    },
-    {
-      "id": "2124876165085368518",
-      "desk": "markets",
-      "line": "Watcher Guru, a news and finance account, says over $3 trillion was added to the US stock market in the first 10 minutes of trading on Monday. It gives no source. Not checked here.",
       "also": []
     },
     {
@@ -40,18 +28,6 @@
       "id": "2124964076845666357",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Ted Lasso has been renewed for a fifth season at Apple TV. The post has a photo. Not checked here."
-    },
-    {
-      "id": "2124882739929227670",
-      "desk": "world",
-      "line": "The Daily Mail reports that an Iranian singer received 74 lashes over an online concert held without a hijab. The post links to the Daily Mail story and does not name the singer here. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124880726441009640",
-      "desk": "music",
-      "line": "The account BrendaLeeMusic_ says Taylor Swift surprised its owner in Nashville with an RIAA Diamond plaque for 10 million copies of \"Rockin' Around the Christmas Tree\", which it calls only the second Christmas song to get there. The post has a video. Not checked here.",
-      "also": []
     },
     {
       "id": "2124942186425069836",
@@ -226,6 +202,21 @@
       "desk": "music",
       "line": "The band twenty one pilots says it is closing two album cycles and three years of touring with Supercycle (Live), a live album recorded in Columbus and London, and links preorders and tickets for the London show.",
       "also": []
+    },
+    {
+      "id": "2125221411916833199",
+      "desk": "world",
+      "line": "Indian Prime Minister Narendra Modi says he spoke with German Chancellor Friedrich Merz about trade, investment, defence and advanced technologies, and that the two countries will keep working together on peace and a rules-based order. Not checked here."
+    },
+    {
+      "id": "2125215179549950355",
+      "desk": "markets",
+      "line": "Walter Bloomberg, a market news account, says the U.S. is preparing new tariffs on China, the EU and 14 other economies, citing sources, and that Trade Representative Jamieson Greer could announce them this week. The post says final rates are undecided. Not checked here."
+    },
+    {
+      "id": "2125346212064928216",
+      "desk": "internet",
+      "line": "Telegram founder Pavel Durov says someone offered him $1 million for the @liar username on Telegram, and jokes that he finds it hard to trust a man who wants that name. Not checked here."
     }
   ]
 }

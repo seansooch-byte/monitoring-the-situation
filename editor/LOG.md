@@ -8242,3 +8242,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced to the pulse plus the new story's post; plan rebuilt for 03Z. A stale helper script from an earlier pass in /tmp ran by mistake; it only dropped two old ids from the watch list.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T03:20Z
+- Captures read: 0308Z on 11-25. Last read: 0308Z.
+- X's check: 0308Z 90 confirmed, 0 missing, 1 mismatched (1992979395573871067, CORTIS), 1 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 38 items in the file, 36 on the front (3 new, 4 dropped). Added: Modi on his call with Merz (world); Walter Bloomberg on the planned tariffs (markets, the existing tariff story covers it); Durov on the @liar username offer (internet). Dropped, 36 hours: MLB Goldschmidt, Watcher Guru $3 trillion, BrendaLeeMusic_ Taylor Swift, Daily Mail Iranian singer.
+- Added: none. Updated: none (pulse pass).
+- Left out: Lions owner death posts (sports already at six accounts); Boston City Council "day of mourning" (politics full, one side only); CORTIS post (X mismatch); MTG Iowa post (politics full, charged claims); DiscussingFilm TED clip (account already on the pulse); xyzontwi insecurity clip and exam meme (private people possible); Brunkiste pop-stars opinion (no clear subject); Aboriginal depiction post (no source).
+- Requests: none added or removed. Watch list synced to the pulse plus recent story posts (older extras removed); plan rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
