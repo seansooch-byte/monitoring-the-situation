@@ -8302,3 +8302,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained one id; plan rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T09:15Z
+- Captures read: 0904Z on 11-25. Last read: 0904Z.
+- X's check: 0904Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 42 items in the file, 40 on the front (4 new, 5 dropped). Added: SportsCenter on the VCU buzzer-beater (sports); NBA on Tuesday's NBA Cup scores (sports); a nature account on flamingos in Kenya (offbeat, Not checked here); Billboard on Dolly Parton and U2's "Torn" (music). Dropped, over 36 hours: RapSheet Cardinals, ClaudeDevs Claude Ship, DiscussingFilm, unusual_whales, Complex.
+- Added: none. Updated: none (pulse pass).
+- Left out: FabrizioRomano Guardiola, Pochettino and Bellingham posts, MarioNawfal defense and Romania posts, DeItaone Huang pardon (account already on the pulse); Osint613 on Kang Wei and Alice Huang (names individuals in an unconfirmed affair claim); AshCrypto iPhone crypto warning (advice, unsourced); IGN posts (reviews, game news, Huang reactions; small or account cap); MySportsUpdate NFL chart (no readable content); PopBase Ramayana and IRENE posts (account already on the pulse); recipe post (old, small).
+- Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
