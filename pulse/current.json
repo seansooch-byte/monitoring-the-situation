@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T09:10:43Z",
-  "capture": "2026-11-25T0904Z",
+  "updated_at": "2026-11-25T10:20:00Z",
+  "capture": "2026-11-25T1004Z",
   "items": [
     {
       "id": "2124997050789986717",
@@ -198,11 +198,6 @@
       "line": "Variety reports the Season 35 winners of Dancing with the Stars: Ezra Frech and Daniella Karagach, with Amber Glenn and Pasha Pashkov second and Connor Wood third."
     },
     {
-      "id": "2125439534062063715",
-      "desk": "business",
-      "line": "Cointelegraph, a crypto news outlet, says Nvidia CEO Jensen Huang apologized to staff at an all-hands and said he is in daily therapy, citing Bloomberg. Not checked here."
-    },
-    {
       "id": "2125444121380913430",
       "desk": "markets",
       "line": "BullTheory, a markets account, says Asian stock markets lost $750 billion in value, with falls in Japan, South Korea, China and Taiwan that it lists in an image. Not checked here."
@@ -242,9 +237,27 @@
       "also": []
     },
     {
-      "id": "2125477132868465104",
-      "desk": "music",
-      "line": "Billboard links its report that Dolly Parton's final recording, on U2's \"Torn\", marks chart milestones for both acts.",
+      "id": "2125250590942912833",
+      "desk": "politics",
+      "line": "Rep. Nancy Mace says that if Rep. Ilhan Omar is \"truly guilty of these crimes\" she should be removed from Congress, and that deportation should be on the table. The post does not say which crimes. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125197871439835173",
+      "desk": "world",
+      "line": "Anton Gerashchenko, an account that posts on the war in Ukraine, relays a statement credited to Anne Applebaum that if Ukraine surrenders its leadership will be murdered and Russia will set up filtration camps. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125184604067746109",
+      "desk": "defense",
+      "line": "Anton Gerashchenko's account relays a Financial Times report, citing sources, that the Pentagon is delaying about 60 Patriot interceptors for Ukraine that allies have paid for, and that Defense Secretary Pete Hegseth has not yet approved the transfer. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125527595022184789",
+      "desk": "justice",
+      "line": "BBC Breaking News reports that two men have been charged with trespass and intent to steal at the Prince and Princess of Wales's Norfolk home.",
       "also": []
     }
   ]

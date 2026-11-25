@@ -8312,3 +8312,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T10:25Z
+- Captures read: 1004Z on 11-25. Last read: 1004Z.
+- X's check: 1004Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged (0308Z has 1 mismatched and 1 withheld, 0506Z 7 withheld, from before). Build warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 44 items in the file, 41 on the front (4 new, 2 dropped). Added: Rep. Nancy Mace on Rep. Omar (politics, Not checked here); Gerashchenko relaying Applebaum on filtration camps (world, Not checked here); Gerashchenko relaying FT on delayed Patriot interceptors (defense, stands on the defense page, held off the front by the account rule; Not checked here); BBC Breaking on two men charged over the Norfolk trespass (justice). Dropped as small: Billboard on Dolly Parton and U2, Cointelegraph on Huang and therapy.
+- Added: none. Updated: none (pulse pass).
+- Left out: F1 Piastri podium and NBA Tatum posts (sports full, small); Elon Musk Starlink and Grok road trip posts (account already on, near copies); Fabrizio Romano Guardiola and Nawfal Romania/Patriot posts (account already on); NFL Rodgers clip (old content); Reuters, Osint613, visegrad24, AshCrypto, cryptorover and BullTheory posts (small, account cap, advice, or unconfirmed claims such as the airfield strike); Cointelegraph posts (small).
+- Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
