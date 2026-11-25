@@ -1,27 +1,37 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-24-wsj-new-tariffs-stocks-fall",
-  "title": "Report of new U.S. tariffs on China, the EU and 14 others hits stocks",
-  "dek": "The Wall Street Journal reports the White House is preparing broad new tariffs. U.S. stock indexes fell on Tuesday morning, and nothing has been announced.",
+  "title": "U.S. proposes new tariffs on 14 trading partners; stocks fall",
+  "dek": "The Trade Representative has proposed new tariffs after its industrial-subsidies investigation, following Tuesday's Wall Street Journal report. U.S. stocks fell again on Wednesday.",
   "desks": ["markets", "politics"],
   "standing": "developing",
   "started_at": "2026-11-24T13:13:46Z",
-  "updated_at": "2026-11-24T16:45:00Z",
+  "updated_at": "2026-11-25T16:40:00Z",
+  "corrections": [
+    { "at": "2026-11-25T16:40:00Z", "text": "The tariffs were proposed on 25 November. The earlier text said nothing had been announced and that I found no official statement. Title, summary, rates and next steps updated." }
+  ],
   "what": [
+    "Update, 25 November 2026. The Trump administration proposed new tariffs on 14 trading partners on Wednesday after the Trade Representative's investigation into subsidies and excess capacity, per CNN, FXStreet and the Korea Times. Trade Representative Jamieson Greer said many countries are creating capacity \"not justified by economics,\" and that in most cases tariffs would \"top up just a few percentage points,\" per FXStreet. The reports agree that rates for South Korea, Japan, Taiwan, the EU and Switzerland would be capped at 15%, as in existing trade deals, and that China would face 20% under its truce, rising to as much as 40% if the truce fails. They differ on some other rates: FXStreet's summary has Vietnam at 20% with a deal or 35% without, and India at 17% or 25%. The Kobeissi Letter's list of maximum rates on X matches the \"up to\" figures for China, Vietnam and India. I did not open the Trade Representative's own notice, so the full rate table is not confirmed here. FXStreet and the Korea Times say the tariffs would take effect after a public hearing. I could not confirm the hearing date.",
+    "On Wednesday the Nasdaq composite was down more than 3% at the time of the Korea Times report. Posts from WatcherGuru and Kobeissi gave larger losses in market value. I did not check those dollar figures, and the day's figures were still moving. The Tuesday account below is kept as the earlier record.",
     "On the morning of 24 November 2026, the Wall Street Journal reported that the Trump administration is preparing new tariffs on China, the European Union and 14 other economies, based on a long U.S. Trade Representative investigation into industrial subsidies. I could not open the Journal article. This account comes from two summaries of it, one by TMGM and one by investinglive.",
     "Those summaries say U.S. Trade Representative Jamieson Greer could release findings as early as this week, though the timing could change. They say the report cites people familiar with the plans, and that the tariffs would cover most imports, not only industrial sectors. The Journal's reasoning, as summarised, is that government subsidies have created excess capacity that lets producers abroad undercut U.S. makers.",
     "No rates have been announced. A post by the Kobeissi Letter says the EU, Japan and South Korea would face 15% or less and that China, Vietnam and India may face more. I could not confirm those rates outside X. Investinglive says Greer said on Friday the investigation would end very soon and certainly before year-end, and that an extra 7.5% on China is expected.",
     "Markets fell. Investinglive reported the S&P 500 down 1.1% and the Nasdaq down 2.1% in morning trading, and the TMGM summary says Nasdaq 100 futures were down 2.38% after the report. These are intraday figures that were still moving. A post by visegrad24 says the U.S. market lost about $1 trillion in value at the open. I did not check that figure. I found no White House or Trade Representative statement on the report."
   ],
   "why": "Tariffs touch prices and company profits, so a report of a coming announcement moves markets at once. It landed the day after stocks rose on Nvidia's chief executive returning.",
-  "next": "The Trade Representative's findings and any tariff rates, if they are released. The White House has not confirmed the report.",
+  "next": "The Trade Representative's published notice, the hearing date and any change to the rates. The truce with China is reported to run out in January.",
   "posts": [
+    { "id": "2125580585972228367", "role": "voice" },
+    { "id": "2125601493533483025", "role": "voice" },
     { "id": "2125216303875035217", "role": "origin" },
     { "id": "2125228298905043352", "role": "voice" },
     { "id": "2125254462436462606", "role": "voice" },
     { "id": "2125230991522324822", "role": "voice" }
   ],
   "sources": [
+    { "label": "FXStreet: US proposes new tariffs on 14 trading partners including China", "url": "https://www.fxstreet.com/news/ustr-proposes-new-tariffs-on-14-trading-partners-including-china-202611251416" },
+    { "label": "The Korea Times: US proposes tariffs over excess production, retains 15% cap for Korea, Japan, EU", "url": "https://www.koreatimes.co.kr/world/20261126/us-proposes-tariffs-over-excess-production-retains-15-cap-for-korea-japan-eu" },
+    { "label": "CNN: Trump targets China, EU in new round of tariffs", "url": "https://www.cnn.com/2026/11/25/economy/trump-new-tariffs" },
     { "label": "TMGM: US prepares new tariffs on China and other trading partners (WSJ)", "url": "https://www.tmgm.com/en/analysis/market-news/article/us-prepares-new-tariffs-on-china-and-other-trading-partners-wsj-202611241338" },
     { "label": "investinglive: Stock markets fall as Trump pivots from corporate meddling to fresh tariffs", "url": "https://investinglive.com/news/stock-markets-fall-as-trump-pivots-from-corporate-meddling-to-fresh-tariffs/" }
   ]

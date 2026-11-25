@@ -9,8 +9,9 @@
   ],
   "standing": "developing",
   "started_at": "2026-11-08T20:07:00Z",
-  "updated_at": "2026-11-24T12:00:00Z",
+  "updated_at": "2026-11-25T16:40:00Z",
   "what": [
+    "Update, 25 November 2026. Cointelegraph and WatcherGuru posted that, per the Wall Street Journal, U.S. officials told Congress there is no evidence Chinese intelligence directed the woman tied to Megaspeed to target Huang. I could not open the Journal report or find another outlet repeating it, so this rests on those posts. Earlier paragraphs below say U.S. intelligence agencies were reported to believe she passed information to Beijing. Those were reports, and the Justice Department had not reached a conclusion. EricLDaugh posted that Elon Musk visited Nvidia headquarters with Huang the day after the reinstatement. I found no outside report of the visit.",
     "Update, 23 November 2026. Nvidia says its board voted unanimously to reinstate Huang as president, chief executive and director, effective immediately. In its release, filed with the SEC, board chair Harvey Jones says the board believes Huang is \"the right person to lead NVIDIA.\" The release says the board held discussions with Huang, received input from senior U.S. government officials, and is confident his return \"poses no national security risk.\" It also says an independent committee continues to look into a reported foreign intelligence targeting of Huang, that a National Security and Export Control Committee has been set up, and that Nvidia is recruiting a Chief Compliance Officer. It thanks Colette Kress for her service as interim CEO; she keeps her CFO role.",
     "On 17 November, the Associated Press reported Jones as saying the board \"unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.\" The AP also reported that Huang agreed to appear before House committees on 1 December and Nvidia general counsel Tim Teter on 2 December. I did not find a statement from Nvidia that explains what changed in six days beyond the release above.",
     "President Trump, in a statement the White House account posted, called the board's decision \"correct and proper\" and said the country needs Huang's leadership. A post of the full statement also has him saying the government has no reason to believe Huang's return poses a national security risk. I could not see the rest of that statement. Per a post, the White House also says Trump joined a board meeting and \"intervened\" to advocate for the return. I found no Nvidia statement confirming that, and the release speaks only of input from government officials. In remarks the account atrupar posted, Trump says he has been speaking to the board \"directly and indirectly,\" and, on CNBC, that his administration gave the board \"assurance\" on the national security question. Those are Trump's statements and I could not check them against another source.",
@@ -33,6 +34,8 @@
   "why": "It joins a personal admission to the question of whether a chip maker's top executive was compromised, while Congress is already pressing Nvidia on exports to China.",
   "next": "Huang is due before House committees on 1 December and Nvidia's general counsel on 2 December, per the AP. The independent committee has not said when it will finish. The Justice Department has not said whether it considers the woman a spy. Nvidia has not said what the White House role was beyond \"input.\"",
   "posts": [
+    { "id": "2125619182393864616", "role": "voice" },
+    { "id": "2125619132360274225", "role": "voice" },
     {
       "id": "2119524963644276809",
       "role": "origin"
@@ -127,6 +130,10 @@
     }
   ],
   "corrections": [
+    {
+      "at": "2026-11-25T16:40:00Z",
+      "text": "Added the 25 November reports that U.S. officials told Congress they found no evidence China directed the woman, marked as resting on posts."
+    },
     {
       "at": "2026-11-12T16:40:00Z",
       "text": "The story said Huang was staying on as CEO. Nvidia's 8-K of 11 November says he resigned as CEO and director effective immediately; Colette Kress is interim CEO. Title and text updated."

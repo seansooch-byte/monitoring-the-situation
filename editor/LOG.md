@@ -8372,3 +8372,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (60 ids); plan rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T16:40Z
+- Captures read: 1606Z on 11-25. Last read: 1606Z.
+- X's check: 1606Z 52 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged (0308Z has 1 mismatched). Build warns of 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 45 items in the file, 41 on the front (4 new, 4 dropped). Added: nicksortor on the EPA reading in Iowa (disaster), Cointelegraph on the Huang report (business), Unusual Whales on the Fed report (markets) and on the park account deposit (politics; held off the front, second Unusual Whales item). Dropped for the cap: SportsCenter VCU buzzer, NBA Cup scores, Cinéprism photos, Persian goat camera.
+- Added: none. Updated: 2026-11-22-iowa-lead-azide-detonation-delayed (detonated 25 Nov, early results), 2026-11-24-wsj-new-tariffs-stocks-fall (tariffs proposed 25 Nov), 2026-11-08-nvidia-board-probes-huang-china-spy (no-evidence report, resting on posts).
+- Left out: Poundland administration (BBC Breaking already placed; no BBC source opened); Aaronson RSA rumour (claim only); Zeldin/Miller post (account claim); Maryland dad / Garcia post (names a private person); Harwich principal post (names a private person); Danny Tommo (as before); Laporta reply posts (insults).
+- Requests: none added or removed. Watch list synced (64 ids); plan rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Tariff sources disagree on some rates and one gave odd years for the hearing date; I left the hearing date out.

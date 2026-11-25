@@ -1,33 +1,45 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-22-iowa-lead-azide-detonation-delayed",
-  "title": "Army delays the planned detonation of old lead azide at an Iowa plant to Wednesday, 25 November",
-  "dek": "The Army plans to destroy thousands of pounds of unstable explosive near a town of about 400 people, and the date has moved twice.",
+  "title": "Army detonates old lead azide at an Iowa plant; early air readings show no lead, sampling continues",
+  "dek": "The Army destroyed thousands of pounds of unstable explosive near a town of about 400 people on Wednesday, 25 November. Officials say it went better than expected. Full results are not in.",
   "desks": [
     "defense",
     "disaster"
   ],
   "standing": "developing",
   "started_at": "2026-11-23T01:44:42Z",
-  "updated_at": "2026-11-25T11:45:00Z",
+  "updated_at": "2026-11-25T16:40:00Z",
   "corrections": [
+    { "at": "2026-11-25T16:40:00Z", "text": "The detonation took place on 25 November at about 9 a.m. CST. Title, summary, status text and next steps updated. The earlier text said I could not confirm it had happened." },
     { "at": "2026-11-25T11:45:00Z", "text": "Added the 9 a.m. CST target time, the relocation of Middletown residents and NASA's data collection. The earlier text said I did not find the new evacuation hours." }
   ],
   "what": [
+    "Update, 25 November 2026. The Army carried out the detonation of the 68 barrels of lead azide at about 9 a.m. CST on Wednesday, per Fox News and Truthout. Fox reports President Trump said early reports show the Army's mitigation \"far exceeded expectations,\" and that Missouri Governor Mike Kehoe said the explosion \"was well-contained.\" EPA Administrator Lee Zeldin also said the mitigation exceeded expectations, per Truthout. A post by nicksortor, quoting Zeldin, says EPA monitors found no lead in the air 15 minutes after the blast. I did not find that reading on an EPA or Army page, and the Army advisory page I opened was still the 24 November version. Fox reports the EPA had predicted a brief rise in lead in the air above Middletown and along the published plume path. It says residents within 20 miles who did not leave should keep sheltering until given an all clear, and that EPA teams will publish air, land, dust and soil results as fast as they can. Truthout reports environmental experts say it will take more time to tell how much hazardous material was released. The text below is the earlier record, kept for context.",
     "The Army plans controlled detonations at the Iowa Army Ammunition Plant in Middletown, Iowa, to destroy about 9,700 pounds (68 barrels) of lead azide, per ABC News. The Army's advisory of 15 November says residents will hear a loud noise, feel vibrations from two rapid detonations and see a dust plume that will contain some lead.",
     "ABC and MPR News report the material was stored for more than 20 years in barrels of ethanol and water. The EPA, which permitted the work, said recrystallization has made it more sensitive to friction and shock, and that disturbing the containers \"could create an unacceptable risk of unintentional detonation.\" MPR reports the emergency permit was approved on 13 November and sets air and dust tracking and advance public notice.",
     "The detonation was first set for Friday, 20 November, and moved to Monday, 23 November. ABC quotes Acting Army Secretary Adam Telle saying that was the latest possible moment before a forecast temperature drop that would risk further destabilization. The U.S. Army account then posted that it is now set for Wednesday, 25 November, \"to allow for optimal weather conditions and all mitigation measures to be emplaced.\"",
-    "The Army's advisory of 24 November says the detonation is planned for about 9:00 a.m. CST on Wednesday, 25 November, with exact timing to be announced after a weather check. It says a March 11, 2026 inspection found the stored lead azide had partly crystallized, and that detonating it was judged safer than chemical treatment, thermal processing, moving it or storing it longer. The Army says FEMA is supporting a recommended relocation of all residents of Middletown from Tuesday, 24 November, with transport, shelter through Friday, 27 November, and meals. The relocation zone is a 5-mile cone southwest of the plant plus a mile as a precaution. People outside it are told to shelter in place with windows closed and heating set to recirculate. NASA says it has sent research aircraft and is using its TEMPO satellite instrument to collect air data for the federal response. The Army says it will post maps starting six hours before detonation and every hour after. As of this writing, early on 25 November, I could not confirm the detonation had happened.",
+    "The Army's advisory of 24 November says the detonation is planned for about 9:00 a.m. CST on Wednesday, 25 November, with exact timing to be announced after a weather check. It says a March 11, 2026 inspection found the stored lead azide had partly crystallized, and that detonating it was judged safer than chemical treatment, thermal processing, moving it or storing it longer. The Army says FEMA is supporting a recommended relocation of all residents of Middletown from Tuesday, 24 November, with transport, shelter through Friday, 27 November, and meals. The relocation zone is a 5-mile cone southwest of the plant plus a mile as a precaution. People outside it are told to shelter in place with windows closed and heating set to recirculate. NASA says it has sent research aircraft and is using its TEMPO satellite instrument to collect air data for the federal response. The Army says it will post maps starting six hours before detonation and every hour after.",
     "Residents near Middletown City Park were asked to leave for several hours, and those who could not were told to shelter indoors, per ABC. The Army projected lead dust could settle over an area about 25 miles long and 5 miles wide, per ABC. MPR reports earlier maps showed drift up to 100 miles and that some communities were later removed. The CDC says there is no safe blood lead level for children. A city official told MPR \"the biggest issue we're having is the lack of information.\""
   ],
-  "why": "Lead dust near homes, a changing date and little detail for residents have kept the story moving.",
-  "next": "The Army says exact timing follows a weather check on the morning of 25 November. Whether it went ahead, and what air monitoring shows afterwards, will be on the Army and EPA pages.",
+  "why": "Lead dust near homes, a date that moved twice and little detail for residents kept the story moving. The blast now turns it into a question of what the air and soil tests show.",
+  "next": "The EPA and Army say post-detonation air, dust and soil results will be published. I found no all clear for residents yet, or a date when Middletown residents may go home.",
   "posts": [
+    { "id": "2125619021869646266", "role": "voice" },
+    { "id": "2125600307585450259", "role": "official" },
     { "id": "2124680508408021249", "role": "official" },
     { "id": "2125258515581399399", "role": "official" },
     { "id": "2125318351341994436", "role": "official" }
   ],
   "sources": [
+    {
+      "label": "Fox News live: Army disposes of 68 barrels of lead azide at Iowa Army Ammunition Plant",
+      "url": "https://www.foxnews.com/live-news/army-detonation-lead-azide-middletown-iowa-11-25-26"
+    },
+    {
+      "label": "Truthout: Despite Environmental Worries, Army Blasts Off 68 Barrels of Lead Azide in Iowa",
+      "url": "https://truthout.org/articles/despite-environmental-worries-army-blasts-off-68-barrels-of-lead-azide-in-iowa/"
+    },
     {
       "label": "U.S. Army: IAAAP public advisory",
       "url": "https://www.army.mil/article/296772"
