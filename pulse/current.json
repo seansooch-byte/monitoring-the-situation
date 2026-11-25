@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T14:18:56Z",
-  "capture": "2026-11-25T1406Z",
+  "updated_at": "2026-11-25T15:13:40Z",
+  "capture": "2026-11-25T1501Z",
   "items": [
     {
       "id": "2125071531046731957",
@@ -159,12 +159,6 @@
       "also": []
     },
     {
-      "id": "2125040590371082405",
-      "desk": "world",
-      "line": "Salvadoran President Nayib Bukele answers the philosopher Slavoj Žižek, saying he is neither left wing nor right wing and calling himself “a man of God”. The post quotes another post that is not captured here.",
-      "also": []
-    },
-    {
       "id": "2125449450541691300",
       "desk": "justice",
       "line": "Reuters reports that the author of a book titled \"How to Kill a Federal Judge\" has been sentenced to 6-1/2 years in US prison for threats. The post links the full report."
@@ -268,6 +262,12 @@
       "id": "2125381285355176382",
       "desk": "disaster",
       "line": "WeatherNation posts video it says shows a man and his dog swept away by a sneaker wave at Cannon Beach, Oregon, as king tides came in. It says authorities told it police had cited the man earlier that day for driving on the ocean shore. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125394287110082891",
+      "desk": "gaming",
+      "line": "Nintendo of America announces a free Mario Kart World update. It says the update adds eight courses with new twists, two new Knockout Tour rallies and a replay viewer.",
       "also": []
     }
   ]
