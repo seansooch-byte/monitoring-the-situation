@@ -8232,3 +8232,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained three ids; plan rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T02:55Z
+- Captures read: 0204Z on 11-25. Last read: 0204Z.
+- X's check: 0204Z 109 confirmed, 0 missing, 0 mismatched, 4 withheld. Older runs unchanged: mismatched 0001Z, 2303Z, 2203Z, 2107Z, 1404Z (3), 1506Z, 1704Z, 1806Z; missing 0106Z.
+- Pulse: 39 items in the file (3 new, 7 dropped). Added: U.S. Army safety notice on the Iowa detonation (disaster; replaces the America Newsroom item); ToonHive on Coca-Cola's ad (business); twenty one pilots live album (music). Dropped, near 36 hours: Nvidia reinstatement, Avengers trailer, White House Nvidia statement, Mamdani Citi Bike, X-Men post, X Global Government Affairs post, America Newsroom. Musk "Starlink" line updated now that the story exists.
+- Added: 2026-11-24-spacex-starlink-bead-no-funding (tech), 2026-11-24-coca-cola-holiday-ad-no-ai (business). Updated: none. The Iowa story is current; the Army advisory page I could open shows no change.
+- Left out: X's London suit over Creator Revenue Sharing (names individuals who may be private, and X is a party); Amanda Seyfried clip (insult about a dead person); Kash Patel clip (cut off); Kenya eCitizen theft claim (found nothing outside X, only 2023 attacks); Trump meeting El-Sayed (one post, not confirmed outside X); Austin donation (no source); the $1 trillion market-open post (the tariff story covers the day).
+- Requests: none added or removed. Watch list synced to the pulse plus the new story's post; plan rebuilt for 03Z. A stale helper script from an earlier pass in /tmp ran by mistake; it only dropped two old ids from the watch list.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

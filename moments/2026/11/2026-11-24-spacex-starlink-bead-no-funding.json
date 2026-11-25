@@ -1,0 +1,29 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-24-spacex-starlink-bead-no-funding",
+  "title": "SpaceX offers to serve rural broadband locations without taking federal grant money",
+  "dek": "Under a new federal model agreement, Starlink would give up its BEAD awards and still serve those locations, with free equipment and a ten-year commitment. States that refuse the agreement would have to find other providers.",
+  "desks": ["tech", "politics"],
+  "standing": "developing",
+  "started_at": "2026-11-24T19:42:13Z",
+  "updated_at": "2026-11-25T02:45:00Z",
+  "what": [
+    "BEAD is the federal Broadband Equity, Access, and Deployment program, which pays for internet service in places without it. On 23 and 24 November 2026, trade outlets reported that the U.S. Commerce Department's NTIA had written a new model service agreement that lets SpaceX's Starlink serve the locations it won without taking BEAD money.",
+    "The reported amount is not the same everywhere. Broadband Breakfast and Telecompetitor put it at about $636 million. The Blandin Foundation's broadband blog and posts on X say about $738 million. I could not find out why the figures differ.",
+    "Telecompetitor lists the terms: service of at least 100 megabits down and 20 up, service starting within 10 business days of a request, equipment at no cost beyond shipping, a low-cost plan for eligible households, and obligations that run 10 years. SpaceX could not take other federal broadband subsidies. The post by Sawyer Merritt quotes the NTIA text on free equipment and says SpaceX would be exempt from most BEAD financial audits, procurement rules and administrative reporting, but not from network performance testing. I did not open the NTIA agreement itself.",
+    "The offer depends on the state. Broadband Breakfast reports that Starlink stays only in states that sign the agreement and gives up the locations in states that do not. Those states would have to find other providers at a comparable cost. An NTIA official told the outlet the aim was to stop states from adding requirements to their contracts that are not in the federal rules.",
+    "Free equipment is not free service. Telecompetitor does not give the monthly price, and I found none. Broadband Breakfast reports that fiber providers and advocacy groups have objected to the deal; I could not read their arguments, which are behind a paywall.",
+    "Elon Musk, who leads SpaceX, posted the single word \"Starlink\" with a link, and replies and quotes describe the story."
+  ],
+  "why": "It joins a fight over who should serve rural America: satellite or fiber. The word \"free\" in the headlines applies to the federal grant and the dish, not to the monthly bill. Musk's own post pushed it to a wide audience.",
+  "next": "Which states sign the model agreement, and which ask other providers to bid for the locations. The monthly price of the low-cost plan has not been published in anything I found.",
+  "posts": [
+    { "id": "2125314062997467640", "role": "origin" },
+    { "id": "2125363942977597554", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Broadband Breakfast: Starlink Giving Up All BEAD Money But Keeping Locations in States That Embrace NTIA's New Contract Model", "url": "https://broadbandbreakfast.com/starlink-giving-up-all-bead-money-but-keeping-locations-in-states-that-embrace-ntias-new-contract-model/" },
+    { "label": "Telecompetitor: Starlink gives up $636M in BEAD funding, keeps locations in some states", "url": "https://www.telecompetitor.com/starlink-gives-up-636m-in-bead-funding-keeps-locations-in-some-states/" },
+    { "label": "Blandin on Broadband: SpaceX declines BEAD winnings, prefers to serve locations at no cost (24 November)", "url": "https://blandinonbroadband.org/2026/11/24/spacex-declines-bead-winnings-prefers-to-serve-locations-at-no-cost/" }
+  ]
+}

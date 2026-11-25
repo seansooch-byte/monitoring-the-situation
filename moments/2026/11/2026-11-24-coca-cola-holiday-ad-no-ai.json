@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-24-coca-cola-holiday-ad-no-ai",
+  "title": "Coca-Cola's 2026 holiday campaign is made without generative AI",
+  "dek": "After two years of AI-made holiday ads that drew public criticism, the company has put out human-made spots. Marketing Dive reports it is a deliberate change.",
+  "desks": ["business"],
+  "standing": "established",
+  "started_at": "2026-11-24T19:03:16Z",
+  "updated_at": "2026-11-25T02:45:00Z",
+  "what": [
+    "Marketing Dive reported on 19 November 2026 that Coca-Cola's holiday campaign, called \"Enjoy Joy,\" does not use generative AI. It says this departs from the company's two earlier holiday campaigns, which did use it.",
+    "The spots were directed by Paul Dektor and show families and friends at football and shared meals, per the same report. Stacy Jackson, a vice president for the Coca-Cola trademark, is quoted: \"There's something special about the role Coca-Cola plays during the holidays.\" She does not say in that quote that AI was dropped.",
+    "Marketing Dive says the earlier AI campaigns were divisive with consumers but beat the company's own performance targets. I did not find Coca-Cola saying why it changed course, so the reason is not established.",
+    "The post carrying the story is a 29-second video from an account that shares viral clips. I could not tell from the post which ad it shows."
+  ],
+  "why": "The earlier AI ads were criticised widely, so a return to human-made work reads as a reaction to that, though Coca-Cola has not said so. Brands and viewers are watching how AI is used in advertising.",
+  "next": "Whether Coca-Cola says anything further about its use of AI in future campaigns.",
+  "posts": [
+    { "id": "2125304260565123513", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Marketing Dive: Coca-Cola pivots from divisive AI-generated ads for holiday campaign (19 November)", "url": "https://marketingdive.com/news/coca-cola-pivots-from-divisive-ai-generated-ads-for-holiday-campaign/875215" }
+  ]
+}

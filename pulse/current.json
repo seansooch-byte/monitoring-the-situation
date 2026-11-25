@@ -1,53 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T01:13:17Z",
-  "capture": "2026-11-25T0100Z",
+  "updated_at": "2026-11-25T02:50:00Z",
+  "capture": "2026-11-25T0204Z",
   "items": [
-    {
-      "id": "2124865060397019480",
-      "desk": "business",
-      "line": "Nvidia’s newsroom account announces that its board has reinstated Jensen Huang as president, CEO and board director. The post links to the company’s release; Elon Musk’s quote of it is attached.",
-      "also": [
-        "2124875939133751684"
-      ]
-    },
-    {
-      "id": "2124865772824809474",
-      "desk": "entertainment",
-      "line": "Marvel Studios posts a video it presents as the Avengers: Doomsday trailer, and says the film arrives in theaters on December 18. This is the studio’s own promotion, and the trailer is the news.",
-      "also": []
-    },
-    {
-      "id": "2124872428723552741",
-      "desk": "politics",
-      "line": "The White House account posts a statement it attributes to President Trump, saying the Nvidia board made the correct and proper decision to return Jensen Huang as CEO. The post is an image of the quote.",
-      "also": []
-    },
-    {
-      "id": "2124864353702998131",
-      "desk": "politics",
-      "line": "The account of New York City Mayor Zohran Mamdani says the city is capping 45-minute Citi Bike rides at $3.65, 365 days a year. The post has a video. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124867444644950098",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts the line “To me, my X-Men!” and says it shows Cyclops summoning the Avengers and the X-Men together. The linked media has no description, so what it shows is not checked here.",
-      "also": []
-    },
     {
       "id": "2124880742849143240",
       "desk": "sports",
       "line": "MLB’s account says the Mets and first baseman Paul Goldschmidt reportedly agree to a deal, citing multiple reports including MLB Network’s Jon Heyman. It is a report, not a team announcement.",
       "also": []
-    },
-    {
-      "id": "2124866469762646060",
-      "desk": "justice",
-      "line": "The Global Government Affairs account of X says the Justice Department’s Criminal Division opened an investigation this month into people suspected of using stolen payment credentials on X Money. X is part of xAI, the company that makes Grok, the model gathering this page’s posts. Not checked here.",
-      "also": [
-        "2124917923391443211"
-      ]
     },
     {
       "id": "2124903027370774900",
@@ -222,7 +182,7 @@
     {
       "id": "2125363942977597554",
       "desk": "tech",
-      "line": "Elon Musk posts the single word “Starlink” with a link. Replies and quote posts describe SpaceX giving up a federal broadband subsidy and handing out Starlink dishes free instead. That comes from those posts, not from SpaceX or the government. Not checked here.",
+      "line": "Elon Musk posts the single word “Starlink” with a link. Replies and quote posts describe SpaceX giving up a federal broadband subsidy and handing out Starlink dishes free instead. Trade outlets report the same under a new federal model agreement; the story gives the terms and the two dollar figures.",
       "also": []
     },
     {
@@ -244,15 +204,27 @@
       "also": []
     },
     {
-      "id": "2125248746011189521",
-      "desk": "disaster",
-      "line": "America Newsroom, a news account, says Army officials are holding a press conference on the planned detonation of unstable explosives at an Iowa ammunition plant, and that residents and environmental groups fear toxic dust could spread. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125093387812409492",
       "desk": "music",
       "line": "Mr. Pop, a pop culture account, says the 2013 American Music Awards took place 13 years ago today and shares a look back at the red carpet.",
+      "also": []
+    },
+    {
+      "id": "2125258515581399399",
+      "desk": "disaster",
+      "line": "The U.S. Army account tells people in and near Middletown, Iowa to read its public safety notice, and says it will post maps starting six hours before the planned detonation and every hour after. The detonation concerns old lead azide at the ammunition plant.",
+      "also": []
+    },
+    {
+      "id": "2125304260565123513",
+      "desk": "business",
+      "line": "ToonHive, an account that shares viral clips, says Coca-Cola has released a Christmas ad made without AI after two years of using it. Marketing Dive reports the same about the 2026 campaign.",
+      "also": []
+    },
+    {
+      "id": "2125306837968859212",
+      "desk": "music",
+      "line": "The band twenty one pilots says it is closing two album cycles and three years of touring with Supercycle (Live), a live album recorded in Columbus and London, and links preorders and tickets for the London show.",
       "also": []
     }
   ]
