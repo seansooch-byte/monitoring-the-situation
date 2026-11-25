@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-24T23:30:00Z",
-  "capture": "2026-11-24T2303Z",
+  "updated_at": "2026-11-25T00:35:00Z",
+  "capture": "2026-11-25T0001Z",
   "items": [
     {
       "id": "2124865060397019480",
@@ -224,6 +224,24 @@
       "id": "2125249893946085647",
       "desk": "gaming",
       "line": "A player posts a video of about two minutes and says he let himself get arrested in the town of Capri in GTA 6 to see what would happen, because the town is full of corrupt police. The clip is the player’s own account of the game."
+    },
+    {
+      "id": "2125363942977597554",
+      "desk": "tech",
+      "line": "Elon Musk posts the single word “Starlink” with a link. Replies and quote posts describe SpaceX giving up a federal broadband subsidy and handing out Starlink dishes free instead. That comes from those posts, not from SpaceX or the government. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125321647749996570",
+      "desk": "politics",
+      "line": "A post shares a clip in which Newsmax asks Brooke Rollins what she is doing to bring grocery prices down. The post quotes her answer as beginning “The Biden administration…” and cuts off there, so the rest of her reply is not in the post.",
+      "also": []
+    },
+    {
+      "id": "2125203760989217036",
+      "desk": "world",
+      "line": "Ukrainian President Volodymyr Zelensky says Russia needs Ukraine’s NATO membership even more than Ukraine does, and that Ukraine has the right to reclaim what legally belongs to it. He says Putin claims he cannot agree to a ceasefire of two or three months. These are Zelensky’s claims and have not been checked here.",
+      "also": []
     }
   ]
 }
