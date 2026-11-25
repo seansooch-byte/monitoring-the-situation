@@ -8362,3 +8362,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (60 ids); plan rebuilt for 15Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T15:20Z
+- Captures read: 1501Z on 11-25. Last read: 1501Z.
+- X's check: 1501Z 96 confirmed, 0 missing, 0 mismatched, 1 withheld (not used). Older runs unchanged (0308Z has 1 mismatched). Build still warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 45 items in the file, 42 on the front (1 new, 1 dropped). Added: Nintendo of America Mario Kart World update (gaming). Dropped: Bukele (over 36 hours).
+- Added: none. Updated: none (pulse pass).
+- Left out: Kobeissi tariff post (account already placed); Danny Tommo sentence post (names a private person); Epochal launch (older capture, ai has two items).
+- Requests: none added or removed. Watch list synced (60 ids); plan rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
