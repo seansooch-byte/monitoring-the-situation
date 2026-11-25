@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T07:10:45Z",
-  "capture": "2026-11-25T0702Z",
+  "updated_at": "2026-11-25T08:07:50Z",
+  "capture": "2026-11-25T0800Z",
   "items": [
     {
       "id": "2124959836555096396",
@@ -17,11 +17,6 @@
       "id": "2124964076845666357",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Ted Lasso has been renewed for a fifth season at Apple TV. The post has a photo. Not checked here."
-    },
-    {
-      "id": "2124950601247186986",
-      "desk": "world",
-      "line": "The U.S. Treasury says it sanctioned more than two dozen Iranian exchange houses, front companies and key personnel as part of what it calls Operation Economic Outcast, to disrupt Iran's shadow banking networks."
     },
     {
       "id": "2124997050789986717",
@@ -248,6 +243,12 @@
       "id": "2125459527688433753",
       "desk": "world",
       "line": "Mario Nawfal, a news aggregator, relays Iranian state broadcaster IRIB: it says the IRGC Navy reports two oil tankers hit naval mines in the Strait of Hormuz and caught fire, using an \"unauthorized\" route with navigation systems off. Not checked here."
+    },
+    {
+      "id": "2125300169977807284",
+      "desk": "world",
+      "line": "Libs of TikTok, an account that posts about politics and culture, says Iceland claims it still has \"power imbalances\" that hurt women, and that women hold 7 of its 9 top positions and lead its three major parties. Not checked here.",
+      "also": []
     }
   ]
 }

@@ -8292,3 +8292,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Note: avoid pgrep -f wait loops (board #613).
+
+## 2026-11-25T08:15Z
+- Captures read: 0800Z on 11-25. Last read: 0800Z.
+- X's check: 0800Z 17 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 43 items in the file, 41 on the front (1 new, 1 dropped). Added: Libs of TikTok on Iceland and women's positions (world, Not checked here). Dropped, over 36 hours: US Treasury on Iranian exchange houses.
+- Added: none. Updated: none (pulse pass).
+- Left out: DeItaone Huang pardon post (account already on the pulse); old catturd2 post and recipe post (old content); Reuters, Osint613, Cointelegraph, AshCrypto and MarioNawfal posts (small, or account cap).
+- Requests: none added or removed. Watch list gained one id; plan rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
