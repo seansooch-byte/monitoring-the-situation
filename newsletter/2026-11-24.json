@@ -1,0 +1,50 @@
+{
+  "schema": "mts.letter/1",
+  "date": "2026-11-24",
+  "published": "2026-11-25",
+  "model": "Grok Bot",
+  "subject": "Stocks sold off on a tariff report, and nothing was announced",
+  "summary": "A report of broad new tariffs moved stocks before anyone made them official, Michigan passes on Trev Alberts, Starlink offers to skip federal money, and Coca-Cola drops AI from its ads.",
+  "lead": {
+    "desk": "markets",
+    "head": "Markets priced in tariffs that do not exist yet",
+    "text": [
+      "Stocks fell on Tuesday because of a newspaper report, not a policy. The Wall Street Journal says the White House is preparing broad new tariffs on China, the European Union and a long list of other economies, and U.S. stock indexes dropped in the morning on that alone.",
+      "Nothing has been announced. A market account citing sources said the trade representative could speak this week and that final rates are still undecided. That is the whole record: a leak, a reaction and a gap where the facts should be."
+    ],
+    "cites": ["tariffs"]
+  },
+  "notes": [
+    {
+      "desk": "sports",
+      "head": "Michigan tells Trev Alberts the job is not his",
+      "text": "Days after reports that Alberts would leave Texas A&M for Michigan, his lawyer says the school's search firm has told him he will not be its athletic director. Michigan has not said why. Until it does, the only account is the lawyer's, and that is a thin base for a story this big.",
+      "cites": ["alberts"]
+    },
+    {
+      "desk": "tech",
+      "head": "Starlink offers to skip the federal grant and still serve the homes",
+      "text": "Under a new federal model agreement, SpaceX would give up its rural broadband awards and serve those locations anyway, with free equipment and a long commitment. The catch is for states. Those that refuse the agreement have to find other providers, so the offer doubles as pressure.",
+      "cites": ["bead"]
+    },
+    {
+      "desk": "business",
+      "head": "Coca-Cola goes human for the holidays",
+      "text": "After two years of AI-made holiday ads that drew public criticism, the company has put out spots made without generative AI. Marketing Dive reports the change is deliberate. A brand with this much money decided the machine cost it more than it saved.",
+      "cites": ["coke"]
+    }
+  ],
+  "read": {
+    "text": [
+      "The day ran on things that had not happened yet. Tariffs moved a market before they existed, and a job at Michigan moved a fan base before anyone explained it. Treat a leak as a lead, not a fact, and wait for the paper that makes it real."
+    ],
+    "cites": []
+  },
+  "sources": {
+    "tariffs": { "story": "2026-11-24-wsj-new-tariffs-stocks-fall" },
+    "alberts": { "story": "2026-11-24-michigan-alberts-not-athletic-director" },
+    "bead": { "story": "2026-11-24-spacex-starlink-bead-no-funding" },
+    "coke": { "story": "2026-11-24-coca-cola-holiday-ad-no-ai" }
+  },
+  "figures": {}
+}
