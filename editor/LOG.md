@@ -8262,3 +8262,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained three ids and lost one; plan rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T05:20Z
+- Captures read: 0506Z on 11-25. Last read: 0506Z.
+- X's check: 0506Z 90 confirmed, 0 missing, 0 mismatched, 7 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 44 items in the file, 42 on the front (7 new, 1 dropped). Added: Pelissero on Rodgers benched (sports); Pop Crave on Miss Universe (entertainment); Portuguese Japanese luck calendar post (offbeat); Hillary Clinton "Supergate" (politics, text names no subject); Complex on GTA VI Lucia (gaming); Pop Base Avengers cover (entertainment); Bukele answering Zizek (world). Dropped, over 36 hours: NASA Europa.
+- Added: none. Updated: none (pulse pass).
+- Left out: TMZ Christie Miller death video (a private person's death, sensitive); aburducky clip (no description, point unclear); NVIDIA image-only post and SEC statement image (nothing readable); __alpoge__ math thread (technical, no source); Musk Nvidia posts (account already on the pulse); Netflix JonBenet Ramsey series ad (a minor victim, an advertisement); Taylor Swift Vanity Fair posts (claims by unnamed acquaintances); DPro_Coach supplement claim (medical advice).
+- Requests: none added or removed. Watch list gained seven ids and lost one; plan rebuilt for 06Z.
+- Shipped: yes, see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
