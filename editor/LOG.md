@@ -8402,3 +8402,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list already held every pulse id (synced 17:25Z).
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T19:40Z
+- Captures read: 1903Z on 11-25. Last read: 1903Z.
+- X's check: 1903Z 101 confirmed, 0 missing, 0 mismatched, 1 withheld (not used). Older runs unchanged (0308Z has 1 mismatched). Build warns of 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 48 items in the file, 44 on the front (4 new, 0 dropped). Added: DarioAmodei reply on AI governance (ai, Anthropic disclosure in the line), Warner Bros Gollum wrap (entertainment), Bessent Iran tanker claim (world), CGTN space station dinner (science). Pelissero Steelers item now carries Schefter's Rodgers/McCarthy post in `also`, line extended.
+- Added: none. Updated: none (pulse pass).
+- Left out: _InfoGram_ Carney/Trump clip (account claim, not checked); cb_doge Musk/Huang post (claim only); Osint613 Warsaw self-immolation (graphic, not checked); PopBase Pitt and Avatar posts (account already placed); Mark Ruffalo, WallStreetApes (opinion); Matta/TikTok post (private person); boohoo2259 Army lead post (account claim); 2 Chainz painkiller clip (health claim, no outside check); PetrichorCrown meme post (no media, point unclear).
+- Requests: none added or removed. Watch list synced (68 ids); plan rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
