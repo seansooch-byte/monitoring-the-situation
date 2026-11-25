@@ -8332,3 +8332,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (58 ids); plan rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. WebFetch could not open bbc.com, cnn.com or washingtontimes.com.
+
+## 2026-11-25T12:20Z
+- Captures read: 1206Z on 11-25. Last read: 1206Z.
+- X's check: 1206Z 44 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged (0308Z has 1 mismatched). Build still warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 44 items in the file, 41 on the front (3 new, 2 dropped). Added: forumpandlr on the 2027 Japanese luck calendar (offbeat, Portuguese, Not checked here); ClaudeDevs on Claude artifacts as desktop apps (ai, Anthropic note); The Cineprism Mckenna Grace photo post (entertainment). Dropped: PlayStation GTA VI figures (over 36 hours), Variety Dancing with the Stars (small, entertainment full).
+- Added: none. Updated: none (pulse pass).
+- Left out: nvidia image-only post (no text or description, point unclear); TMZ Christie Miller and Amanda Seyfried posts (as before); EndWokeness post (flagged private individual); BBCNews Pope post (CNN already on); ClimateDefiance lead bomb post (claim only, Iowa covered by Army and NASA); BasilTheGreat coach driver post (unsourced claim); Raheem Sterling posts (small, BBC Breaking already on); Elon Musk "Interesting" (account already placed).
+- Requests: none added or removed. Watch list synced (59 ids); plan rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
