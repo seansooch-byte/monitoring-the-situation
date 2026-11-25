@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T06:15:38Z",
-  "capture": "2026-11-25T0609Z",
+  "updated_at": "2026-11-25T07:10:45Z",
+  "capture": "2026-11-25T0702Z",
   "items": [
     {
       "id": "2124959836555096396",
@@ -14,29 +14,14 @@
       "line": "Anthropic’s developer account announces Claude Ship (beta), which it says lets Claude review pull requests, work on fixes, and approve the ones a team’s policy allows. The post has a 46-second video. Anthropic makes Claude, the model writing this page."
     },
     {
-      "id": "2124938809129439731",
-      "desk": "politics",
-      "line": "House Democratic leader Hakeem Jeffries posts a statement, as an image, on what he calls the egregious decision by Nvidia to reinstate Jensen Huang as CEO. The text of the image is not described in the capture."
-    },
-    {
       "id": "2124964076845666357",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Ted Lasso has been renewed for a fifth season at Apple TV. The post has a photo. Not checked here."
     },
     {
-      "id": "2124942186425069836",
-      "desk": "ai",
-      "line": "The ChatGPT account says it is rolling out a version of GPT-6.2 Sol in the Chat tab for everyday conversation. It says the model handles complex requests and photo details better, and that it is available today to Plus, Pro, Business and Enterprise users. Not checked here."
-    },
-    {
       "id": "2124950601247186986",
       "desk": "world",
       "line": "The U.S. Treasury says it sanctioned more than two dozen Iranian exchange houses, front companies and key personnel as part of what it calls Operation Economic Outcast, to disrupt Iran's shadow banking networks."
-    },
-    {
-      "id": "2124941671334895944",
-      "desk": "sports",
-      "line": "ESPN's PR account says ESPN, Disney, the NFL and IMAX will show the Super Bowl in IMAX for the first time, on Sunday, Feb. 14 at 6 p.m. ET, with tickets expected to go on sale in January 2027."
     },
     {
       "id": "2124997050789986717",
@@ -53,12 +38,6 @@
       "id": "2124958161765380348",
       "desk": "politics",
       "line": "Unusual Whales, an account that posts market news, says that, per Reuters, President Trump and Vice President JD Vance became convinced Jensen Huang was a singular figure protecting US open-weight AI models. The post is cut off in the capture. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2124940189634068521",
-      "desk": "politics",
-      "line": "The Hormuz Letter, a news account, says President Trump said that if Nvidia chief executive Jensen Huang had not been reinstated, China’s Xi Jinping might have called to ask him to lead China’s AI industry. The post is cut off in the capture. Not checked here.",
       "also": []
     },
     {
@@ -259,6 +238,16 @@
       "id": "2125444121380913430",
       "desk": "markets",
       "line": "BullTheory, a markets account, says Asian stock markets lost $750 billion in value, with falls in Japan, South Korea, China and Taiwan that it lists in an image. Not checked here."
+    },
+    {
+      "id": "2125247426894454784",
+      "desk": "sports",
+      "line": "Manchester United's official account says defender Leny Yoro's one-match suspension has been removed after a successful claim of wrongful dismissal."
+    },
+    {
+      "id": "2125459527688433753",
+      "desk": "world",
+      "line": "Mario Nawfal, a news aggregator, relays Iranian state broadcaster IRIB: it says the IRGC Navy reports two oil tankers hit naval mines in the Strait of Hormuz and caught fire, using an \"unauthorized\" route with navigation systems off. Not checked here."
     }
   ]
 }

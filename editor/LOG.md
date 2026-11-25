@@ -8282,3 +8282,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 07Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T07:20Z
+- Captures read: 0702Z on 11-25. Last read: 0702Z.
+- X's check: 0702Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 43 items in the file, 41 on the front (2 new, 4 dropped). Added: Manchester United on Yoro's suspension removed (sports); Mario Nawfal relaying IRIB on tankers and mines in Hormuz (world, Not checked here). Dropped, over 36 hours: Jeffries statement, ChatGPT GPT-6.2 Sol, Hormuz Letter on Nvidia, ESPN Super Bowl IMAX.
+- Added: none. Updated: none (pulse pass).
+- Left out: Acyn clip of Leavitt on Ms. Rachel (children in immigration court, charged); Schefter and Pelissero Rodgers (Pelissero already on); DiscussingFilm Blade Runner (account already on the pulse); music anniversary posts (nothing new); Steelers and Bellingham quotes (small, sports full).
+- Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. Note: avoid pgrep -f wait loops (board #613).
