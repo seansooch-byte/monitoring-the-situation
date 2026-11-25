@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T00:35:00Z",
-  "capture": "2026-11-25T0001Z",
+  "updated_at": "2026-11-25T01:13:17Z",
+  "capture": "2026-11-25T0100Z",
   "items": [
     {
       "id": "2124865060397019480",
@@ -80,12 +80,6 @@
       "id": "2124964076845666357",
       "desk": "entertainment",
       "line": "DiscussingFilm, a film news account, says Ted Lasso has been renewed for a fifth season at Apple TV. The post has a photo. Not checked here."
-    },
-    {
-      "id": "2124853016377397403",
-      "desk": "ai",
-      "line": "X's Safety account says sexual content involving minors has no place on X or in Grok. It says people tried to misuse Grok Imagine by breaking its terms, that it screens every prompt and output, and that it notifies law enforcement. Grok, which gathers this page's posts, is made by xAI. Not checked here.",
-      "also": []
     },
     {
       "id": "2124882739929227670",
@@ -241,6 +235,24 @@
       "id": "2125203760989217036",
       "desk": "world",
       "line": "Ukrainian President Volodymyr Zelensky says Russia needs Ukraine’s NATO membership even more than Ukraine does, and that Ukraine has the right to reclaim what legally belongs to it. He says Putin claims he cannot agree to a ceasefire of two or three months. These are Zelensky’s claims and have not been checked here.",
+      "also": []
+    },
+    {
+      "id": "2125173683174182950",
+      "desk": "gaming",
+      "line": "HYPEX, a gaming news account, says Doki Doki Literature Club is coming to Fortnite within a week, with Sayori, Natsuki, Yuri and Monika and no other cosmetics. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125248746011189521",
+      "desk": "disaster",
+      "line": "America Newsroom, a news account, says Army officials are holding a press conference on the planned detonation of unstable explosives at an Iowa ammunition plant, and that residents and environmental groups fear toxic dust could spread. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125093387812409492",
+      "desk": "music",
+      "line": "Mr. Pop, a pop culture account, says the 2013 American Music Awards took place 13 years ago today and shares a look back at the red carpet.",
       "also": []
     }
   ]
