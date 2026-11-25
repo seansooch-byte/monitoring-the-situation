@@ -8412,3 +8412,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (68 ids); plan rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T20:30Z
+- Captures read: 2002Z on 11-25. Last read: 2002Z.
+- X's check: 2002Z 63 posts, all ok (55 confirmed by the moments run, 0 missing, 0 mismatched, 0 withheld). Older runs unchanged. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 50 items in the file, 45 on the front (3 new, 1 dropped). Added: NBACentral on Wembanyama "Mr. Morality" (sports), SpaceX Cygnus XL launch (science), SpaceX share for children (business, held off the front by the one-account rule). Dropped: CNN Pope diaries (ideas, over 36 hours; still on the watch list because a story cites it). Ideas desk is now quiet.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk "Thanks Ron", Colossus 3 and "Interesting" posts (account already placed); WatcherGuru FCC data centers post (claim only, no outside check); Polymarket Anthropic and Nvidia posts (account already placed, claims); Phil_Lewis stabbing admission (private individuals); WallStreetApes cost of living, Hassett tariff clip, EricLDaugh Gill post (opinion or account already placed); Zyri post (personal disclosure, not checked); Sanders AI pause post (claim only, not checked).
+- Requests: none added or removed. Watch list synced (71 ids); plan rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

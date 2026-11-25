@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T19:15:42Z",
-  "capture": "2026-11-25T1903Z",
+  "updated_at": "2026-11-25T20:25:00Z",
+  "capture": "2026-11-25T2002Z",
   "items": [
     {
       "id": "2125178828943184363",
@@ -10,12 +10,6 @@
       "also": [
         "2124872643790725295"
       ]
-    },
-    {
-      "id": "2125137409209737637",
-      "desk": "ideas",
-      "line": "CNN reports that newly published diaries of the late Pope Francis reveal a spiritual crisis during his papacy, in which he saw visions of the devil and hell while struggling with how to exercise power. Not checked here.",
-      "also": []
     },
     {
       "id": "2125216303875035217",
@@ -289,6 +283,24 @@
       "id": "2125600646946492785",
       "desk": "science",
       "line": "CGTN says China’s space station is hosting a dinner for six, with more than 100 halal dishes for its Pakistani astronaut, including beef nihari, lamb korma and curried chickpeas. The photo has no description here. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125606265078636925",
+      "desk": "sports",
+      "line": "NBACentral, a basketball news account, says NBA players reportedly call Victor Wembanyama \"Mr. Morality\" and think he is on a \"moral high horse\" because of his criticism of other stars, per reporter Mike Wright. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125649126398591003",
+      "desk": "science",
+      "line": "SpaceX says teams have encapsulated the Cygnus XL spacecraft ahead of a Falcon 9 launch of Northrop Grumman's commercial resupply mission to the International Space Station. It says liftoff is targeted for 10:47 a.m. ET on Sunday, November 29. The photos have no description here.",
+      "also": []
+    },
+    {
+      "id": "2125671356339499494",
+      "desk": "business",
+      "line": "SpaceX announces that it is committing one SpaceX share to millions of American children, to give \"the next generation a stake in building a more exciting future.\" Details are in a linked page that has not been checked here.",
       "also": []
     }
   ]
