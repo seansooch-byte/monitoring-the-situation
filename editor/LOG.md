@@ -8212,3 +8212,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained three ids; plan rebuilt for 00Z. Lead for the next story pass: the Iowa lead-explosives detonation the Army set for 25 November, 9 a.m. (a post says so; not researched), and the Israel claim above.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T00:40Z
+- Captures read: 0001Z on 11-25. Last read: 0001Z.
+- X's check: 0001Z 55 confirmed, 0 missing, 1 mismatched (2125246845538726090, Stray Kids), 0 withheld. Older runs unchanged: mismatched 2107Z, 2203Z, 2303Z, 1404Z (3), 1506Z, 1704Z, 1806Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 41 items in the file, 37 on the front (3 new, 0 dropped). Added: Elon Musk "Starlink" (tech; the subsidy description comes from replies and is marked unchecked; it takes Musk's front place, so his "Bullseye" reply stands on the ai desk only); Brooke Rollins grocery-price clip (politics); Zelensky on NATO and a ceasefire (world).
+- Added: none. Updated: none (pulse pass).
+- Left out: HormuzLetter Israel sleeper-cell claim (second post from an account already on the pulse, unconfirmed outside X); Fort Bragg 1987 exercise post (text cut off, may involve private people); spencerpratt Fable 5 post (point not clear, text cut off); Stray Kids album (X mismatch); Thomas Markle indictment (child abuse imagery charge, left for a story pass); Stephen A. Smith Lakers post (racial framing, no outside source); Sato/Cubs (MLB already on the pulse).
+- Requests: none added or removed. Watch list gained three ids; plan rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
