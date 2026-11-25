@@ -8432,3 +8432,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced with 3 Rodgers posts; plan rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T22:35Z
+- Captures read: 2201Z on 11-25. Last read: 2201Z.
+- X's check: 2201Z 115 confirmed, 0 missing, 1 mismatched (2125605435894051276, weareoneEXO EXO album post, not used), 0 withheld. Older runs unchanged. Build warns of the same 2 older story-cited posts X has not confirmed (Qeshm, Nvidia board story).
+- Pulse: 53 items in the file, 47 on the front (2 new, 0 dropped). Added: Watcher Guru on Neuralink FDA trials (medicine, claim only, marked not checked; held off the front by the one-account rule), Thariq joining OpenAI from Anthropic (ai, with the Anthropic disclosure). No item is over 36 hours old.
+- Added: none. Updated: none (pulse pass).
+- Left out: Gordon Ramsay Top Gear host (entertainment already has three); 1Password hack (claim only); EXO album post (mismatch, advertisement); justice clips (private individuals); Tesla charging anecdote (personal story, not checked). For the next story pass: Neuralink FDA claim, FCC SpaceX satellites.
+- Requests: none added or removed. Watch list synced (2 ids added); plan rebuilt for 23Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
