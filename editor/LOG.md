@@ -8352,3 +8352,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced; plan rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T14:20Z
+- Captures read: 1406Z on 11-25. Last read: 1406Z.
+- X's check: 1406Z all confirmed already (checked by the hourly script), 0 missing, 0 mismatched. Older runs unchanged (0308Z has 1 mismatched). Build still warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 45 items in the file, 42 on the front (1 new, 1 dropped). Added: WeatherNation on the Cannon Beach sneaker wave (disaster). Dropped for the 45 cap: AMAZlNGNATURE flamingos (small, offbeat has two others).
+- Added: none. Updated: none (pulse pass).
+- Left out: Fox clip via atrupar on a CIA breach (account already placed, claim only); _S_choir Claude exam post (point unclear without the quoted post); Pete Edochie death post (instablog9ja, unconfirmed claim about a real person); TMZ Christie Miller, Seyfried, EndWokeness, Ethan Klein posts (as before); skongki2000 Thai clip (non-English, point unclear).
+- Requests: none added or removed. Watch list synced (60 ids); plan rebuilt for 15Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

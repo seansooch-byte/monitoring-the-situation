@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T13:21:36Z",
-  "capture": "2026-11-25T1308Z",
+  "updated_at": "2026-11-25T14:18:56Z",
+  "capture": "2026-11-25T1406Z",
   "items": [
     {
       "id": "2125071531046731957",
@@ -193,12 +193,6 @@
       "also": []
     },
     {
-      "id": "2125496458761609573",
-      "desk": "offbeat",
-      "line": "A nature account posts a video it says shows thousands of flamingos gathering at Kenya's lakes in large pink formations seen from the air. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125250590942912833",
       "desk": "politics",
       "line": "Rep. Nancy Mace says that if Rep. Ilhan Omar is \"truly guilty of these crimes\" she should be removed from Congress, and that deportation should be on the table. The post does not say which crimes. Not checked here.",
@@ -268,6 +262,12 @@
       "id": "2125319962726166866",
       "desk": "offbeat",
       "line": "A Persian-language post says someone tied a camera to a mountain goat and let it go, and marvels at the goat’s climbing in the video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125381285355176382",
+      "desk": "disaster",
+      "line": "WeatherNation posts video it says shows a man and his dog swept away by a sneaker wave at Cannon Beach, Oregon, as king tides came in. It says authorities told it police had cited the man earlier that day for driving on the ocean shore. Not checked here.",
       "also": []
     }
   ]
