@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T16:40:00Z",
-  "capture": "2026-11-25T1606Z",
+  "updated_at": "2026-11-25T17:24:34Z",
+  "capture": "2026-11-25T1707Z",
   "items": [
-    {
-      "id": "2125071531046731957",
-      "desk": "sports",
-      "line": "ESPN posts a clip of Joe Buck saying the lighting vendor never turned off its scheduled 10 p.m. maintenance, which he gives as the reason the lights went out during the Bengals-Commanders game. Not checked here."
-    },
     {
       "id": "2125178828943184363",
       "desk": "ai",
@@ -32,12 +27,6 @@
       "id": "2125235212363682098",
       "desk": "sports",
       "line": "Fabrizio Romano, a football transfer reporter, posts that Senegal are the Africa Cup of Nations 2025 winners after the Court of Arbitration for Sport verdict. A researched story has the court ruling and its reasoning.",
-      "also": []
-    },
-    {
-      "id": "2125086807784395147",
-      "desk": "sports",
-      "line": "The NFL account posts a video of the Commanders’ game-winning drive and calls it “a thing of beauty”. The video has no description, so what it shows is not checked here.",
       "also": []
     },
     {
@@ -268,6 +257,12 @@
       "id": "2125394287110082891",
       "desk": "gaming",
       "line": "Nintendo of America announces a free Mario Kart World update. It says the update adds eight courses with new twists, two new Knockout Tour rallies and a replay viewer.",
+      "also": []
+    },
+    {
+      "id": "2125608468417486883",
+      "desk": "disaster",
+      "line": "A user posts a 39-second drone video and says it shows the Iowa detonation \"moments ago\". The post carries no description of the footage beyond that. Not checked here.",
       "also": []
     }
   ]

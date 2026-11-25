@@ -8382,3 +8382,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (64 ids); plan rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. Tariff sources disagree on some rates and one gave odd years for the hearing date; I left the hearing date out.
+
+## 2026-11-25T17:30Z
+- Captures read: 1707Z on 11-25. Last read: 1707Z.
+- X's check: 1707Z 107 confirmed, 0 missing, 0 mismatched, 1 withheld (not used). Older runs unchanged (0308Z has 1 mismatched). Build warns of 3 older story-cited posts X has not confirmed (Qeshm, Nvidia board story, one more).
+- Pulse: 44 items in the file, 40 on the front (1 new, 2 dropped). Added: nmjameswilson drone video of the Iowa detonation (disaster). Dropped (over 36 hours): ESPN Joe Buck lighting clip, NFL Commanders drive.
+- Added: none. Updated: none (pulse pass).
+- Left out: EndWokeness AP hot mic post (account already left out; claim only); Geiger_Capital Iowa post (opinion); Burry, Fabrizio Romano and Kenneth Walker posts (accounts or desks already placed); Tv_Libertaria clip (non-English, shows a private person); Badenoch/Farage post (account claim, not checked).
+- Requests: none added or removed. Watch list synced (69 ids); plan rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
