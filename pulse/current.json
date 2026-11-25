@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T12:17:51Z",
-  "capture": "2026-11-25T1206Z",
+  "updated_at": "2026-11-25T13:21:36Z",
+  "capture": "2026-11-25T1308Z",
   "items": [
     {
       "id": "2125071531046731957",
@@ -170,24 +170,9 @@
       "line": "Reuters reports that the author of a book titled \"How to Kill a Federal Judge\" has been sentenced to 6-1/2 years in US prison for threats. The post links the full report."
     },
     {
-      "id": "2125451950745440315",
-      "desk": "world",
-      "line": "Reuters reports that the head of the World Health Organization has called on the US to lift its oil blockade on Cuba, citing the effect on health. The post links the full report."
-    },
-    {
-      "id": "2125444121380913430",
-      "desk": "markets",
-      "line": "BullTheory, a markets account, says Asian stock markets lost $750 billion in value, with falls in Japan, South Korea, China and Taiwan that it lists in an image. Not checked here."
-    },
-    {
       "id": "2125247426894454784",
       "desk": "sports",
       "line": "Manchester United's official account says defender Leny Yoro's one-match suspension has been removed after a successful claim of wrongful dismissal."
-    },
-    {
-      "id": "2125459527688433753",
-      "desk": "world",
-      "line": "Mario Nawfal, a news aggregator, relays Iranian state broadcaster IRIB: it says the IRGC Navy reports two oil tankers hit naval mines in the Strait of Hormuz and caught fire, using an \"unauthorized\" route with navigation systems off. Not checked here."
     },
     {
       "id": "2125300169977807284",
@@ -259,6 +244,30 @@
       "id": "2125255064726208827",
       "desk": "entertainment",
       "line": "The Cinéprism, a film account, posts nine photos with the caption \"Mckenna Grace any time a blonde actress needed a young version for a flashback\". The photos have no description here.",
+      "also": []
+    },
+    {
+      "id": "2125487655961931790",
+      "desk": "markets",
+      "line": "BBC Breaking says the UK regulator Ofgem has announced that energy bills for a typical household will rise by 26% a month from January. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125568013885755540",
+      "desk": "defense",
+      "line": "Sky News reports that the Royal Air Force is moving aircraft into hangars and hardened shelters at night to protect them from possible drone threats, \"it is understood\". The post does not name a source. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125482707870216258",
+      "desk": "disaster",
+      "line": "7NEWS Australia posts video it says shows a German tourist holding on as strong winds make a suspension footbridge sway in Chile’s Torres del Paine National Park. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125319962726166866",
+      "desk": "offbeat",
+      "line": "A Persian-language post says someone tied a camera to a mountain goat and let it go, and marvels at the goat’s climbing in the video. Not checked here.",
       "also": []
     }
   ]
