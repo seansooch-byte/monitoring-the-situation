@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T04:18:51Z",
-  "capture": "2026-11-25T0406Z",
+  "updated_at": "2026-11-25T05:17:49Z",
+  "capture": "2026-11-25T0506Z",
   "items": [
-    {
-      "id": "2124903027370774900",
-      "desk": "science",
-      "line": "NASA says it is on its way to explore Europa, an ocean world that could support life, and promotes a new documentary about the mission, The Europa Concept, now on NASA+.",
-      "also": []
-    },
     {
       "id": "2124959836555096396",
       "desk": "sports",
@@ -222,6 +216,48 @@
       "also": [
         "2125433796786860444"
       ]
+    },
+    {
+      "id": "2125442796467417433",
+      "desk": "sports",
+      "line": "NFL reporter Tom Pelissero says the Pittsburgh Steelers are benching quarterback Aaron Rodgers and starting Mason Rudolph against the Broncos on Friday. He says sources describe it as a coach’s decision. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125441188681642115",
+      "desk": "entertainment",
+      "line": "Pop Crave, a pop culture account, says Miss Puerto Rico has been crowned Miss Universe 2026. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125263295011573774",
+      "desk": "offbeat",
+      "line": "A Portuguese-language post, not in English, announces the “Japanese Luck Calendar” for 2027, a traditional ranking of the 366 possible birthdays by how lucky the coming year is said to be. It asks readers where theirs landed.",
+      "also": []
+    },
+    {
+      "id": "2124953169629209027",
+      "desk": "politics",
+      "line": "Hillary Clinton asks whether something is a national security, corruption, insider trading and market manipulation scandal, answers yes to each, and suggests calling it “Supergate”. The text does not name what she means. These are her characterisations. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2124961269287641192",
+      "desk": "gaming",
+      "line": "Complex, a culture outlet, posts six images under the caption that Lucia from Grand Theft Auto VI is “causing breakups”. The post does not say whose.",
+      "also": []
+    },
+    {
+      "id": "2125276099416354920",
+      "desk": "entertainment",
+      "line": "Pop Base, a pop culture account, says it is showing the cast of Avengers: Doomsday for the latest issue of Entertainment Weekly, and links to the magazine.",
+      "also": []
+    },
+    {
+      "id": "2125040590371082405",
+      "desk": "world",
+      "line": "Salvadoran President Nayib Bukele answers the philosopher Slavoj Žižek, saying he is neither left wing nor right wing and calling himself “a man of God”. The post quotes another post that is not captured here.",
+      "also": []
     }
   ]
 }
