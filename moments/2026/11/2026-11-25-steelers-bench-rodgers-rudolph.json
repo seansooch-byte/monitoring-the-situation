@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-25-steelers-bench-rodgers-rudolph",
+  "title": "Steelers bench Aaron Rodgers and start Mason Rudolph against the Broncos on Friday",
+  "dek": "A coach who said a day earlier that Rodgers was his quarterback has changed course, in what Rodgers has said is his last season.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-25T04:13:46Z",
+  "updated_at": "2026-11-25T11:45:00Z",
+  "what": [
+    "NFL Network's Tom Pelissero reported that the Pittsburgh Steelers are benching quarterback Aaron Rodgers and naming Mason Rudolph the starter for Friday's game against the Denver Broncos. His sources say it was the coaching staff's decision. ESPN reports the Steelers announced it late Tuesday night and that Rodgers will be inactive for the game.",
+    "ESPN says head coach Mike McCarthy had said the day before, \"Aaron Rodgers is our quarterback.\" ESPN lists reasons: a 60.9 percent completion rate, 31 sacks, and a loss to Philadelphia in Week 11 that left Pittsburgh with two straight defeats. It says Rodgers, 42, has said this is his final season, and that Rudolph went 3-0 as a fill-in starter in 2023.",
+    "I did not find a statement from Rodgers in the sources I opened."
+  ],
+  "why": "A veteran star pulled mid-season, a day after a public vote of confidence, ahead of a Friday game.",
+  "next": "Friday's game against the Broncos. Whether Rodgers speaks, and whether he plays again this season.",
+  "posts": [
+    { "id": "2125442796467417433", "role": "origin" },
+    { "id": "2125441862714392788", "role": "official" }
+  ],
+  "sources": [
+    { "label": "ESPN: Steelers bench struggling QB Aaron Rodgers, to start Mason Rudolph", "url": "https://www.espn.com/nfl/story/_/id/50589757/steelers-bench-struggling-qb-aaron-rodgers-start-mason-rudolph" }
+  ]
+}

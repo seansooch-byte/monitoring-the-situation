@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-24-pope-francis-private-diary-published",
+  "title": "Pope Francis's private diary is published and describes visions of the devil and a spiritual crisis",
+  "dek": "The diary, kept from 1992 to 2024 and released after his death, is a first look at his private account of fear, temptation and power.",
+  "desks": ["ideas"],
+  "standing": "established",
+  "started_at": "2026-11-24T08:00:16Z",
+  "updated_at": "2026-11-25T11:45:00Z",
+  "what": [
+    "The Private Diary of Pope Francis, 160 pages, came out on 24 November 2026, per its publisher. It was compiled by Cardinal Victor Manuel Fernandez, head of the Vatican's doctrine office. The publisher says it could not be published while Francis was alive. He died on 21 April 2025.",
+    "ABC News, citing the book, reports three encounters with the devil, two in Buenos Aires and one after the 2018 Chile abuse scandal. A June 7, 2018 entry says Francis \"saw the entrance to hell.\" A January 24, 2021 entry quotes the devil saying \"Now I've gotten everything I wanted.\" ABC says the diary describes a crisis from January 2021 into 2022, which Fernandez ties to a temptation to use power as if he alone could solve every problem, and that Francis recorded it as overcome by 30 December 2022.",
+    "I could not open the CNN or BBC articles. These details come from the publisher's page and the ABC report, and I have not read the book."
+  ],
+  "why": "A pope's own words on fear and temptation, from a man known for public warnings about the devil, reached readers in several languages on one day.",
+  "next": "Further excerpts, and any Vatican comment on the book.",
+  "posts": [
+    { "id": "2125137409209737637", "role": "origin" },
+    { "id": "2125187306592047197", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Penguin Random House: The Private Diary of Pope Francis", "url": "https://www.penguinrandomhouse.com/books/863775/the-private-diary-of-pope-francis-by-pope-francis-and-victor-manuel-fernandez/" },
+    { "label": "ABC News (AP): Pope Francis' diary details profound spiritual crisis and encounters with the devil", "url": "https://abcnews.com/International/wireStory/pope-francis-private-diary-details-profound-spiritual-crisis-138401988" }
+  ]
+}

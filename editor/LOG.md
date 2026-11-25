@@ -8322,3 +8322,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T11:55Z
+- Captures read: 1106Z on 11-25 (earlier ones read by pulse passes). Last read: 1106Z.
+- X's check: 1106Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged (0308Z has 1 mismatched). Build still warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 41 items on the front (1 new, 2 dropped). Added: Culture Crave on the Warner Bros. strikes (internet). Dropped, over 36 hours: FT on Trump and Nvidia shares, Schrier and RFK Jr. clip.
+- Added: 2026-11-25-steelers-bench-rodgers-rudolph (sports), 2026-11-24-yoro-red-card-overturned (sports), 2026-11-24-pope-francis-private-diary-published (ideas), 2026-11-25-warner-bros-copyright-strikes-malfoid-channel (internet). Updated: 2026-11-22-iowa-lead-azide-detonation-delayed (9 a.m. CST target, Middletown relocation, NASA; correction added).
+- Left out: Alberts and tariffs stories not changed (searched, nothing newer found); Ras Tanura drones, NBC report on Iran leadership strikes, Patriot delay (only posts and aggregators, no source I could open); TMZ Christie Miller post (private person); Amanda Seyfried clip (claim about a real person, unsourced); Epochal launch (company announcement, thin). Pope story: CNN and BBC blocked to me, used publisher and ABC. Warner story: A.V. Club read through a syndicated copy; creator not named.
+- Requests: none added or removed. Watch list synced (58 ids); plan rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. WebFetch could not open bbc.com, cnn.com or washingtontimes.com.

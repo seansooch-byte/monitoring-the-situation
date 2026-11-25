@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T10:20:00Z",
-  "capture": "2026-11-25T1004Z",
+  "updated_at": "2026-11-25T11:50:00Z",
+  "capture": "2026-11-25T1106Z",
   "items": [
-    {
-      "id": "2124997050789986717",
-      "desk": "politics",
-      "line": "The Financial Times reports that President Trump made up to $15 million on Nvidia shares after Jensen Huang was reinstated as chief executive. The post links to the FT article. Not checked here.",
-      "also": []
-    },
     {
       "id": "2125071531046731957",
       "desk": "sports",
@@ -44,12 +38,6 @@
       "id": "2125086807784395147",
       "desk": "sports",
       "line": "The NFL account posts a video of the Commanders’ game-winning drive and calls it “a thing of beauty”. The video has no description, so what it shows is not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125002209775751385",
-      "desk": "medicine",
-      "line": "A post says it shows Schrier asking RFK Jr. if he has ever treated measles, and him answering no. It quotes her saying she has, and that the vaccine works only if children are given it. The video runs about two and a half minutes. Not checked here.",
       "also": []
     },
     {
@@ -252,6 +240,12 @@
       "id": "2125184604067746109",
       "desk": "defense",
       "line": "Anton Gerashchenko's account relays a Financial Times report, citing sources, that the Pentagon is delaying about 60 Patriot interceptors for Ukraine that allies have paid for, and that Defense Secretary Pete Hegseth has not yet approved the transfer. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125525721972097221",
+      "desk": "internet",
+      "line": "Culture Crave says Warner Bros. has confirmed it issued several copyright strikes against a YouTuber who made AI Harry Potter videos, and that he lost his channel. It credits The A.V. Club. A story on this page has the details.",
       "also": []
     },
     {

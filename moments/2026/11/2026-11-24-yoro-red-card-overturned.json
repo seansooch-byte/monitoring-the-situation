@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-24-yoro-red-card-overturned",
+  "title": "FA removes Leny Yoro's suspension after Manchester United's claim of wrongful dismissal",
+  "dek": "The red card in United's 4-0 loss at Liverpool drew anger from the club. The FA now says the sending off was wrong.",
+  "desks": ["sports"],
+  "standing": "established",
+  "started_at": "2026-11-24T15:20:43Z",
+  "updated_at": "2026-11-25T11:45:00Z",
+  "what": [
+    "On Tuesday 24 November the Football Association said Leny Yoro's one-match suspension has been removed after a successful claim of wrongful dismissal. In its words, the Manchester United player was sent off for denying an obvious goal-scoring opportunity in the Premier League match against Liverpool on Sunday 22 November. It said the independent Regulatory Commission's written reasons will be published in due course.",
+    "ESPN reports Yoro was sent off in the eighth minute at Anfield, and Liverpool won 4-0 in Mauricio Pochettino's first game as United head coach. United argued that Alexander Isak's heavy touch meant there was no clear scoring chance. ESPN quotes Pochettino saying the ball was not in Yoro's control, and Bruno Fernandes calling it \"never a red card.\"",
+    "The ruling does not change the result. I have not seen the Commission's written reasons."
+  ],
+  "why": "A red card in the first minutes of a new manager's first match shaped a 4-0 result, and fans now argue over what it cost.",
+  "next": "The Commission's written reasons.",
+  "posts": [
+    { "id": "2125248252240961798", "role": "official" },
+    { "id": "2125247426894454784", "role": "official" },
+    { "id": "2125499730583236649", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "ESPN: Man United win appeal over Yoro red card against Liverpool", "url": "https://www.espn.com/soccer/story/_/id/50583223/man-united-win-appeal-leny-yoro-red-card" }
+  ]
+}

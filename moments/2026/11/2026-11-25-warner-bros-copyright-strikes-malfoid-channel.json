@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-25-warner-bros-copyright-strikes-malfoid-channel",
+  "title": "Warner Bros. confirms the copyright strikes that ended a YouTube channel of AI Harry Potter videos",
+  "dek": "A studio has owned up to taking down a fan channel built on a gender-swapped Draco Malfoy.",
+  "desks": ["internet"],
+  "standing": "developing",
+  "started_at": "2026-11-25T09:43:17Z",
+  "updated_at": "2026-11-25T11:45:00Z",
+  "what": [
+    "The A.V. Club reports that Warner Bros. confirmed to the channel's owner that it sent copyright notices against a YouTube channel posting AI-made Harry Potter videos about \"Malfoid,\" a female version of Draco Malfoy. The article says the channel received 13 strikes and was shut down, and that other accounts posting similar content also got takedowns.",
+    "It says a Warner Bros. anti-piracy executive confirmed the takedown to the owner. The owner has started a Change.org petition asking for clearer rules on fan work. Warner Bros. had not answered the A.V. Club's request for comment. I did not find a public Warner Bros. statement, and I could not open the A.V. Club article itself; this rests on a syndicated copy.",
+    "Posts from Culture Crave and Dexerto carry the news. I have left out the creator's name."
+  ],
+  "why": "The case sits where studios' control of their characters meets cheap AI video and a large fan audience.",
+  "next": "Any statement from Warner Bros. or YouTube, and any reply to the petition.",
+  "posts": [
+    { "id": "2125525721972097221", "role": "origin" },
+    { "id": "2125345102528757781", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "The A.V. Club via Yahoo: Warner Bros. orders copyright strikes against Malfoid YouTubers", "url": "https://www.yahoo.com/entertainment/articles/warner-bros-order-copyright-strikes-223331676.html" }
+  ]
+}
