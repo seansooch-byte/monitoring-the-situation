@@ -8222,3 +8222,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained three ids; plan rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T01:15Z
+- Captures read: 0100Z on 11-25. Last read: 0100Z.
+- X's check: 0100Z 94 confirmed, 0 missing, 0 mismatched, 2 withheld. Older runs unchanged: mismatched 0001Z, 2303Z, 2203Z, 2107Z, 1404Z (3), 1506Z, 1704Z, 1806Z; missing 0106Z. Build warns of 4 older story-cited posts X has not confirmed.
+- Pulse: 43 items in the file, 39 on the front (3 new, 1 dropped). Added: HYPEX on Doki Doki Literature Club in Fortnite (gaming, unchecked); America Newsroom on the Army press conference about the Iowa explosives (disaster, unchecked; second item on that desk, different account from NASA); Mr. Pop on the 2013 American Music Awards (music). Dropped, 36 hours: X Safety post.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano Bellingham and Mourinho posts, Kobeissi Trump-Nvidia equity post (accounts already on the pulse); Greenwald post on Huang and Swalwell (claims about named people, no outside source); Cole Sprouse interview (entertainment already full); Christie Miller death, marxiners and Ameleahss life posts, VigilantFox student clip (private people); Attack on Titan 3 (gaming at three); Arabic GTA post and Japanese relationship post (point not sure); Fort Bragg 1987 post (private people possible). Lead for a story pass: research the Iowa detonation planned for 25 November.
+- Requests: none added or removed. Watch list gained three ids; plan rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
