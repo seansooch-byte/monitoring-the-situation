@@ -8252,3 +8252,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced to the pulse plus recent story posts (older extras removed); plan rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T04:25Z
+- Captures read: 0406Z on 11-25. Last read: 0406Z.
+- X's check: 0406Z 45 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed (Qeshm story, Nvidia board story).
+- Pulse: 39 items in the file, 35 on the front (1 new, 1 dropped). Added: Hormuz Letter on the FinCEN cyberattack (tech, Watcher Guru's post on it in also; Not checked here). Dropped, over 36 hours: JamesLucasIT animals photos (offbeat). Attached the NASA Administrator's reply to the NASA Iowa item as also. The build holds back second posts from elonmusk, nasa and hormuzletter.
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA Paul George clip (sports full); Musk "Interesting" (account already on the pulse); MTG Chernobyl post (charged, the NASA reply carries it); Watters/Gutfeld clip (insinuation about named people, no source); CNN and Unusual Whales El-Sayed posts (not confirmed outside X); Polymarket ads; Adventzx1 manga (old content); DiscussingFilm Oscars, GTA 6 and Patrick Stewart posts (account already on the pulse); Schumer on Nvidia (claim about a named person, one outlet post); Korea and Japan selloff posts (markets covered). Lead for a story pass: FinCEN and CIA/ODNI breach, find Treasury's own statement.
+- Requests: none added or removed. Watch list gained three ids and lost one; plan rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

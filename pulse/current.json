@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T03:19:53Z",
-  "capture": "2026-11-25T0308Z",
+  "updated_at": "2026-11-25T04:18:51Z",
+  "capture": "2026-11-25T0406Z",
   "items": [
     {
       "id": "2124903027370774900",
@@ -112,12 +112,6 @@
       "also": []
     },
     {
-      "id": "2124865804181160278",
-      "desk": "offbeat",
-      "line": "James Lucas posts 20 photos under the words “Animals interrupting wildlife photographers”. The photos have no descriptions.",
-      "also": []
-    },
-    {
       "id": "2125009125322957131",
       "desk": "gaming",
       "line": "PlayStation's account says more than 39 million unique players have played Grand Theft Auto VI on PS5 since launch, and calls it the biggest launch in PlayStation history. These are the company's own figures. Not checked here.",
@@ -143,7 +137,10 @@
     {
       "id": "2125318351341994436",
       "desk": "disaster",
-      "line": "NASA says it has sent a P-3 Orion, a Gulfstream III and a B200 aircraft, and is using its TEMPO space instrument, to collect environmental and atmospheric data at the Iowa Army Ammunition Plant in Middletown, Iowa. NASA says the work supports the federal response."
+      "line": "NASA says it has sent a P-3 Orion, a Gulfstream III and a B200 aircraft, and is using its TEMPO space instrument, to collect environmental and atmospheric data at the Iowa Army Ammunition Plant in Middletown, Iowa. NASA says the work supports the federal response.",
+      "also": [
+        "2125421987938066551"
+      ]
     },
     {
       "id": "2125251338409746767",
@@ -217,6 +214,14 @@
       "id": "2125346212064928216",
       "desk": "internet",
       "line": "Telegram founder Pavel Durov says someone offered him $1 million for the @liar username on Telegram, and jokes that he finds it hard to trust a man who wants that name. Not checked here."
+    },
+    {
+      "id": "2125421101933080979",
+      "desk": "tech",
+      "line": "The Hormuz Letter, a news account, says the US Treasury was hit by a cyberattack that took multiple FinCEN systems offline, citing a Treasury disclosure. A second post, from Watcher Guru, says FinCEN is investigating a breach and took some systems offline as a precaution. Not checked here.",
+      "also": [
+        "2125433796786860444"
+      ]
     }
   ]
 }
