@@ -8272,3 +8272,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list gained seven ids and lost one; plan rebuilt for 06Z.
 - Shipped: yes, see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-25T06:25Z
+- Captures read: 0609Z on 11-25. Last read: 0609Z.
+- X's check: 0609Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged. Build warns of 4 older story-cited posts X has not confirmed (planet-candidate, France protests, Qeshm, Nvidia board stories).
+- Pulse: 45 items in the file (5 new, 4 dropped). Added: Reuters on the judge-threats sentencing (justice); Reuters on WHO and Cuba (world); Variety on the DWTS winners (entertainment); Cointelegraph on Huang's apology (business, Not checked here); BullTheory on the Asian selloff (markets, Not checked here). Dropped: Madximilian Ukraine drone post (over 36 hours); Hillary Clinton "Supergate", Portuguese luck calendar, Mr. Pop AMAs (to stay within 45).
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk "True", Grok Bot Black Friday and Google posts (account already on the pulse); Grok foreign-aid grants list (charged, no source); WatcherGuru outage timeline and Pop Crave Ariana post (account already on the pulse); Reuters North Korea and Colombia posts (account cap); bitcoin-bottom and ETF-sale posts (promotional or unsourced).
+- Requests: none added or removed. Watch list synced to the pulse; plan rebuilt for 07Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
