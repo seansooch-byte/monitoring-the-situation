@@ -8512,3 +8512,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list already holds every pulse post.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T06:25Z
+- Captures read: 0603Z on 11-26. Last read: 0603Z.
+- X's check: 0603Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 41 items in the file, 37 on the front (1 new, 0 dropped; the build holds 4 back as second posts from one account). Added: Open Source Intel post on the Cairo Ring Road tanker explosion (disaster), attributed and marked not checked. Nothing is over 36 hours yet; five items (Watcher Guru CIA, NASA aircraft, ToonHive, twenty one pilots, ClaudeDevs) pass 36 hours in the next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: LeBron/VJ and Durant NBA posts (sports desk full); Reuters Nvidia CreditWatch, birthright ruling and China chips posts (small); crypto posts (small); Shane Gillis (names a private person, as last pass). For the next story pass: Cairo tanker explosion, Nvidia CreditWatch.
+- Requests: none added or removed. Watch list synced (1 added); plan rebuilt for 07Z.
+- Shipped: yes, commit 8cdf84dc, live audit clean (350 files match).
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
