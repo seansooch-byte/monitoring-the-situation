@@ -8542,3 +8542,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (1 added); plan rebuilt for 09Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T09:20Z
+- Captures read: 0902Z on 11-26. Last read: 0902Z.
+- X's check: 0902Z 19 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed (Qeshm, Nvidia board story, and others as before).
+- Pulse: 36 items in the file, 33 on the front (0 new, 0 dropped; the build holds 3 back as second posts from one account). Nothing is over 36 hours yet; the Durov post and the Musk Starlink post pass 36 hours in the next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano quotes (sports desk full, one account); Atiku birthday post (account already holds a place); Netflix U2 clip, NBA Durant, PopBase, IGN, Billboard, Variety, Cointelegraph posts (small). For the next story pass: nothing new.
+- Requests: none added or removed. Watch list unchanged; plan rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
