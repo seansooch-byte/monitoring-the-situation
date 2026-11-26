@@ -8532,3 +8532,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. ToonHive post stays on the watch list because the Coca-Cola story cites it; plan rebuilt for 08Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T08:40Z
+- Captures read: 0802Z on 11-26. Last read: 0802Z.
+- X's check: 0802Z 22 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed (planet candidate, France protests, Qeshm, Nvidia board story).
+- Pulse: 36 items in the file, 33 on the front (1 new, 4 dropped; the build holds 3 back as second posts from one account). Added: Dexerto on PETA and Jensen Huang's jacket (business), attributed, marked not checked. Dropped, over 36 hours: Watcher Guru CIA, NASA aircraft (Iowa), Newsmax/Rollins clip, ClaudeDevs.
+- Added: none. Updated: none (pulse pass).
+- Left out: Tinubu birthday post for Atiku (the account already holds a place on the world desk); Musk image-only post (no way to tell what it is); NBA Blazers, Variety Eisenberg, Pop Base Tina Turner, Unusual Whales Nvidia (small or desks full). For the next story pass: nothing new.
+- Requests: none added or removed. Watch list synced (1 added); plan rebuilt for 09Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

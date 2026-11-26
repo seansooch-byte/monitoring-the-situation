@@ -1,32 +1,12 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T07:35:00Z",
-  "capture": "2026-11-26T0706Z",
+  "updated_at": "2026-11-26T08:35:00Z",
+  "capture": "2026-11-26T0802Z",
   "items": [
-    {
-      "id": "2125316217611432251",
-      "desk": "tech",
-      "line": "Watcher Guru, a news and finance account, says hackers breached the CIA and US intelligence systems and exposed unclassified government data, and credits the New York Times. The Times report is not in the capture. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125318351341994436",
-      "desk": "disaster",
-      "line": "NASA says it has sent a P-3 Orion, a Gulfstream III and a B200 aircraft, and is using its TEMPO space instrument, to collect environmental and atmospheric data at the Iowa Army Ammunition Plant in Middletown, Iowa. NASA says the work supports the federal response.",
-      "also": [
-        "2125421987938066551"
-      ]
-    },
     {
       "id": "2125363942977597554",
       "desk": "tech",
       "line": "Elon Musk posts the single word “Starlink” with a link. Replies and quote posts describe SpaceX giving up a federal broadband subsidy and handing out Starlink dishes free instead. Trade outlets report the same under a new federal model agreement; the story gives the terms and the two dollar figures.",
-      "also": []
-    },
-    {
-      "id": "2125321647749996570",
-      "desk": "politics",
-      "line": "A post shares a clip in which Newsmax asks Brooke Rollins what she is doing to bring grocery prices down. The post quotes her answer as beginning “The Biden administration…” and cuts off there, so the rest of her reply is not in the post.",
       "also": []
     },
     {
@@ -74,12 +54,6 @@
       "id": "2125527595022184789",
       "desk": "justice",
       "line": "BBC Breaking News reports that two men have been charged with trespass and intent to steal at the Prince and Princess of Wales's Norfolk home.",
-      "also": []
-    },
-    {
-      "id": "2125315491522650299",
-      "desk": "ai",
-      "line": "ClaudeDevs, the developer account for Claude, says Claude artifacts can now be installed as desktop apps on Mac and Windows. It says users ask Claude to build an artifact, click \"Install as app\" and open it like any app. Claude, the model writing this page, is made by Anthropic. Not checked here.",
       "also": []
     },
     {
@@ -244,6 +218,12 @@
       "id": "2125680336231363016",
       "desk": "disaster",
       "line": "Open Source Intel, a news account, says at least 30 people are dead after a fuel tanker overturned and exploded on Cairo’s Ring Road, that flames spread to nearby vehicles, and that Egypt sent 39 ambulances. It credits Reuters. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125703593802002922",
+      "desk": "business",
+      "line": "Dexerto reports that PETA is urging Nvidia CEO Jensen Huang to swap his black leather jacket for a vegan one, and says PETA offered a tax deduction for donating his old jacket to its planned museum. Not checked here.",
       "also": []
     }
   ]
