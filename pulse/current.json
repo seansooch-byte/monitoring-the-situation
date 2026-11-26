@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T15:16:26Z",
-  "capture": "2026-11-26T1501Z",
+  "updated_at": "2026-11-26T16:12:14Z",
+  "capture": "2026-11-26T1601Z",
   "items": [
     {
       "id": "2125506806608724374",
@@ -247,6 +247,16 @@
       "desk": "politics",
       "line": "Journalist Aaron Rupar posts a clip of JD Vance answering why the Iowa detonation came in November and not March. Vance says the administration was dealing with a problem the Obama administration had kicked to it. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2125977202680644037",
+      "desk": "world",
+      "line": "Visegrad 24, a news account, says two Italians were killed in an Iranian drone strike in Kuwait and that they were civilian technicians employed by Rheinmetall Italia. Kuwait and Italy have since confirmed the deaths; see the story."
+    },
+    {
+      "id": "2125976653935345753",
+      "desk": "business",
+      "line": "Reuters reports that the airline Norse Atlantic says it faces a risk of bankruptcy and has suspended flights."
     }
   ]
 }

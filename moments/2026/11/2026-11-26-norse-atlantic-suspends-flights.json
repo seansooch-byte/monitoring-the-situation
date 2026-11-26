@@ -1,0 +1,44 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-26-norse-atlantic-suspends-flights",
+  "title": "Norse Atlantic suspends flights and says it may file for bankruptcy",
+  "dek": "The Norwegian long-haul budget airline says it needs short-term financing urgently. Reports tie its trouble to jet fuel costs that rose with the Iran war.",
+  "desks": [
+    "business"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-26T15:35:07Z",
+  "updated_at": "2026-11-26T16:40:00Z",
+  "what": [
+    "On Wednesday 25 November 2026, Norse Atlantic Airways said its financial situation was \"critical\" and that it needed new financing for short-term liquidity. CNBC reports that its Oslo-listed shares fell 85% that day.",
+    "On Thursday 26 November, CNBC and Reuters report, the airline suspended its flights. Norse said: \"If a short-term financing solution is not secured urgently, it is the Board's intention to file for bankruptcy.\" It also said it is in talks with selected parties about a takeover that would include financing, and that there is no assurance of a solution.",
+    "CNBC reports that the airline had 122 flights scheduled for November and was still selling tickets on Thursday morning. It ties the trouble to jet fuel costs that rose after the Iran war began. Earlier this year Norse cut US routes and was moving toward a sale, per Airline Geeks.",
+    "I could not confirm how many passengers are affected or what the airline will offer them."
+  ],
+  "why": "Travelers with bookings face cancellations, and the story is one more case of the war's fuel costs reaching an airline's accounts.",
+  "next": "A financing deal or takeover announcement, or a bankruptcy filing, from Norse.",
+  "posts": [
+    {
+      "id": "2125976653935345753",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CNBC: Norse Atlantic suspends all flights, warns it may file for bankruptcy",
+      "url": "https://www.cnbc.com/amp/2026/11/26/norse-airline-finance-business.html"
+    },
+    {
+      "label": "Reuters via Yahoo Finance: Airline Norse Atlantic flags bankruptcy risk as flights suspended",
+      "url": "https://ca.finance.yahoo.com/news/airline-norse-atlantic-suspends-flights-080300161.html"
+    },
+    {
+      "label": "RTE: Norse Atlantic says financial situation critical",
+      "url": "https://www.rte.ie/news/business/2026/1126/1600721-norse-atlantic-says-financial-situation-critical/"
+    },
+    {
+      "label": "Airline Geeks: Norse Atlantic moving toward sale",
+      "url": "https://airlinegeeks.com/2026/05/20/norse-atlantic-moving-toward-sale/"
+    }
+  ]
+}

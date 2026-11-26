@@ -1,0 +1,44 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-26-kuwait-drone-strike-two-italians-killed",
+  "title": "Two Italian technicians die after Iranian drones target a site in Kuwait",
+  "dek": "Italy and Kuwait both say two Italians working for a defense contractor were killed. Kuwait blames Iran.",
+  "desks": [
+    "world"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-26T13:55:00Z",
+  "updated_at": "2026-11-26T16:40:00Z",
+  "what": [
+    "On Thursday 26 November 2026, Kuwait's Ministry of Defense said Iranian drones were detected in its airspace and that it \"dealt with them\". A post by the account Mario Nawfal quotes the ministry as saying the attack hit a \"vital site\" and that falling shrapnel injured four people: one Kuwaiti, two Italians and one Pakistani.",
+    "Later reporting says the two Italians died. Il Foglio reports that Italian Foreign Minister Antonio Tajani confirmed the deaths in the Senate and that Prime Minister Giorgia Meloni sent condolences from Brussels. Arab News and Il Sole 24 Ore report that the two worked for Rheinmetall Italia, the Italian arm of the German defense group Rheinmetall.",
+    "Il Foglio reports that they were maintaining detection antennas of the Skyguard air defense system used by Kuwait's armed forces, at about 2 p.m. local time. Al Jazeera's live blog reports Kuwait's account that they were killed by falling debris during the drone attack. Il Foglio says a Kuwaiti and a Pakistani who were hurt are in hospital, and that a Defense Ministry spokesperson called it a \"cowardly Iranian attack\".",
+    "I did not find an Iranian statement on this strike. A post from Visegrad 24 gives the same employer and the same number of dead. The Mario Nawfal post also says Iran struck Ali Al Salem Air Base on 18 November. I did not check that."
+  ],
+  "why": "The deaths of European civilians in a Gulf state make a strike on a military site a matter for Rome and Berlin. The posts gave the employer and the number at once.",
+  "next": "Whether Iran comments, and what Italy and Kuwait say about the site and the cause of death.",
+  "posts": [
+    {
+      "id": "2125951457568379209",
+      "role": "official"
+    },
+    {
+      "id": "2125977202680644037",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Il Foglio: Two Italians have died in Kuwait following an attack by Iranian drones",
+      "url": "https://www.ilfoglio.it/en/world/2026/11/26/news/two-italians-have-died-in-kuwait-following-an-attack-by-iranian-drones--414867"
+    },
+    {
+      "label": "Arab News: Two Italians killed in Iranian drone attack on Kuwait, Italian media reports",
+      "url": "https://www.arabnews.com/middle-east/two-italians-killed-in-iranian-drone-attack-on-kuwait-italian-media-reports-3014135"
+    },
+    {
+      "label": "Al Jazeera live blog, 26 November 2026",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
+    }
+  ]
+}

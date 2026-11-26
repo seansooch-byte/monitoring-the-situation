@@ -8602,3 +8602,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Three ids added to the watch list; FinCEN ids kept for the live story; plan rebuilt for 16Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T16:45Z
+- Captures read: 1601Z on 11-26. Last read: 1601Z.
+- X's check: 1601Z 47 confirmed, 1 mismatched (2125884511359807765, jukan05 DRAM price outlook: the record and X differ in the text; not on the pulse), 0 missing, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 42 items in the file, 39 on the front (2 new, 0 dropped; the build holds 3 back as second posts from one account). Added: Visegrad 24 on the Kuwait deaths (world), Reuters on Norse Atlantic (business).
+- Added: 2026-11-26-kuwait-drone-strike-two-italians-killed (world), 2026-11-26-norse-atlantic-suspends-flights (business). Updated: none (I did not re-check the older developing stories this pass).
+- Left out: Poland 5,000 soldiers and Japan hypersonic posts (not researched); Maricopa Dominion post (election claim, unconfirmed); Burry, Huawei HBM, Trump data-manipulation call, Peterborough stabbing, Jason Arday cleared and the GTA VI writer (not researched, or about named people; candidates for the next story pass); DRAM outlook (mismatch).
+- Requests: none added or removed. Three ids added to the watch list; plan rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
