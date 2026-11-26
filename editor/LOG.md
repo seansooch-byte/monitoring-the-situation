@@ -8522,3 +8522,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (1 added); plan rebuilt for 07Z.
 - Shipped: yes, commit 8cdf84dc, live audit clean (350 files match).
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T07:35Z
+- Captures read: 0706Z on 11-26. Last read: 0706Z.
+- X's check: 0706Z 27 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 39 items in the file (0 new, 2 dropped). Dropped, over 36 hours: ToonHive Coca-Cola clip (business), twenty one pilots (music). The 0706Z capture held only small posts.
+- Added: none. Updated: none (pulse pass).
+- Left out: DeepLeaks Obamacare post (unconfirmed prediction, small); Fabrizio Romano transfer posts (sports desk full); NBA, Rams and Thanksgiving Eve posts (small). For the next story pass: nothing new.
+- Requests: none added or removed. ToonHive post stays on the watch list because the Coca-Cola story cites it; plan rebuilt for 08Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
