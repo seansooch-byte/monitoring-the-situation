@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T02:35:00Z",
-  "capture": "2026-11-26T0201Z",
+  "updated_at": "2026-11-26T03:30:00Z",
+  "capture": "2026-11-26T0308Z",
   "items": [
     {
       "id": "2125265616693080108",
@@ -48,9 +48,9 @@
       "also": []
     },
     {
-      "id": "2125258515581399399",
+      "id": "2125506806608724374",
       "desk": "disaster",
-      "line": "The U.S. Army account tells people in and near Middletown, Iowa to read its public safety notice, and says it will post maps starting six hours before the planned detonation and every hour after. The detonation concerns old lead azide at the ammunition plant.",
+      "line": "The U.S. Army account says its personnel are on site in Middletown, Iowa and have worked around the clock to reduce the impact of the planned controlled detonation. It lists a water wall of more than 100,000 gallons, earth berms, sand filled blocks, dispersion modeling and temperature-regulating tarps.",
       "also": []
     },
     {
@@ -80,10 +80,11 @@
       ]
     },
     {
-      "id": "2125442796467417433",
+      "id": "2125707460334014901",
       "desk": "sports",
-      "line": "Tom Pelissero says the Steelers are benching Aaron Rodgers. Adam Schefter later reports they are releasing him, after Rodgers said on the Pat McAfee Show that coach Mike McCarthy dozed off in meetings. Schefter then reports, per @RapSheet and @JFowlerESPN, that McCarthy has full team support and will stay.",
+      "line": "The Pittsburgh Steelers' official account says it has released quarterback Aaron Rodgers. Earlier Tom Pelissero reported he was being benched. Adam Schefter reports Rodgers said coach Mike McCarthy dozed off in meetings, and later that McCarthy has full team support and will stay.",
       "also": [
+        "2125442796467417433",
         "2125662932336079265"
       ]
     },
@@ -97,12 +98,6 @@
       "id": "2125276099416354920",
       "desk": "entertainment",
       "line": "Pop Base, a pop culture account, says it is showing the cast of Avengers: Doomsday for the latest issue of Entertainment Weekly, and links to the magazine.",
-      "also": []
-    },
-    {
-      "id": "2125247426894454784",
-      "desk": "sports",
-      "line": "Manchester United's official account says defender Leny Yoro's one-match suspension has been removed after a successful claim of wrongful dismissal.",
       "also": []
     },
     {
