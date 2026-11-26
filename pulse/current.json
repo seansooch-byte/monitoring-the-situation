@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T04:35:00Z",
-  "capture": "2026-11-26T0406Z",
+  "updated_at": "2026-11-26T05:35:00Z",
+  "capture": "2026-11-26T0505Z",
   "items": [
-    {
-      "id": "2125265616693080108",
-      "desk": "tech",
-      "line": "Polymarket, a prediction market account, posts that Microsoft has declared “Code Red,” its highest emergency alert, after a 24-hour global outage, and credits Reuters. The Reuters report itself is not in the capture. Not checked here.",
-      "also": []
-    },
     {
       "id": "2125316217611432251",
       "desk": "tech",
@@ -22,18 +16,6 @@
       "also": [
         "2125421987938066551"
       ]
-    },
-    {
-      "id": "2125251338409746767",
-      "desk": "markets",
-      "line": "Jim Cramer, a TV market commentator, says Anthropic is “the silent killer of this market” and that there are no large buyers. He gives no figures. Anthropic makes Claude, the model writing this page. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125249893946085647",
-      "desk": "gaming",
-      "line": "A player posts a video of about two minutes and says he let himself get arrested in the town of Capri in GTA 6 to see what would happen, because the town is full of corrupt police. The clip is the player’s own account of the game.",
-      "also": []
     },
     {
       "id": "2125363942977597554",
@@ -95,12 +77,6 @@
       "also": []
     },
     {
-      "id": "2125276099416354920",
-      "desk": "entertainment",
-      "line": "Pop Base, a pop culture account, says it is showing the cast of Avengers: Doomsday for the latest issue of Entertainment Weekly, and links to the magazine.",
-      "also": []
-    },
-    {
       "id": "2125619021869646266",
       "desk": "disaster",
       "line": "Nick Sortor, a commentator, says the EPA found no lead in the air in a test 15 minutes after the Army's detonation of lead azide in Iowa. He quotes EPA Administrator Lee Zeldin saying the lead levels are so low they equal no detection. Not checked here.",
@@ -110,12 +86,6 @@
       "id": "2125527595022184789",
       "desk": "justice",
       "line": "BBC Breaking News reports that two men have been charged with trespass and intent to steal at the Prince and Princess of Wales's Norfolk home.",
-      "also": []
-    },
-    {
-      "id": "2125263295011573774",
-      "desk": "offbeat",
-      "line": "A Portuguese-language post, so not in English, from the account forumpandlr says the 2027 Japanese luck calendar is out. It says the traditional ranking sorts all 366 possible birth dates by predicted luck for next year, and asks readers where they placed. The four photos have no description here. Not checked here.",
       "also": []
     },
     {
@@ -275,6 +245,12 @@
       "also": [
         "2125798055903375739"
       ]
+    },
+    {
+      "id": "2125749288655557099",
+      "desk": "gaming",
+      "line": "validclipx, a clips account, posts a video of about two and a half minutes and says the streamer NickEh30 keeps finding creative ways to wipe out NPCs in GTA 6. Not checked here.",
+      "also": []
     }
   ]
 }

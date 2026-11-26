@@ -8502,3 +8502,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (3 added); plan rebuilt for 05Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T05:40Z
+- Captures read: 0505Z on 11-26. Last read: 0505Z.
+- X's check: 0505Z 105 confirmed, 0 missing, 0 mismatched, 1 withheld. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 40 items in the file, 36 on the front (1 new, 5 dropped; the build holds 4 back as second posts from one account). Added: validclipx GTA 6 clip (gaming, attributed, marked not checked). Dropped, over 36 hours: Polymarket on Microsoft, Cramer on Anthropic, the arrest video (gaming), the Portuguese forum post, Pop Base Avengers.
+- Added: none. Updated: none (pulse pass).
+- Left out: Shane Gillis post (names his ex-partner, a private person); Stefanie Fair DUI post (a named private person); Ossoff post (politics desk full); Saudi refinery claim (Houthi claim, X only, world desk placed); Pritzker utility aid (small). For the next story pass: nothing new.
+- Requests: none added or removed. Watch list already holds every pulse post.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
