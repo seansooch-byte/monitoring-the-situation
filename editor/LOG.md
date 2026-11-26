@@ -8582,3 +8582,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two dropped ids taken off the watch list; plan rebuilt for 13Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T13:20Z
+- Captures read: 1301Z on 11-26. Last read: 1301Z.
+- X's check: 1301Z 99 confirmed, 1 mismatched (2125878263096750329, MagicLoverTH teaser: the record and X differ in the hashtags; not on the pulse), 0 missing, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 38 items in the file, 35 on the front (0 new, 2 dropped; the build holds 3 back as second posts from one account). Dropped, over 36 hours: Mario Kart World update (gaming), frozen-turkey video (offbeat). Quiet: ideas, internet, life, offbeat.
+- Added: none. Updated: none (pulse pass).
+- Left out: Magic Lover teaser (mismatch); Barney parade post (unclear joke); Vance/Obama Iowa headline and Balegde v Badenoch (claims about named people, small gain); Mourinho/Vini Jr and other small sports items (desk full). For the next story pass: nothing new.
+- Requests: none added or removed. Two dropped ids taken off the watch list; plan rebuilt for 14Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
