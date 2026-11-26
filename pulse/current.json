@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T13:14:24Z",
-  "capture": "2026-11-26T1301Z",
+  "updated_at": "2026-11-26T14:22:10Z",
+  "capture": "2026-11-26T1407Z",
   "items": [
     {
       "id": "2125506806608724374",
@@ -143,12 +143,6 @@
       "also": []
     },
     {
-      "id": "2125413110815043620",
-      "desk": "politics",
-      "line": "CNN reports that President Trump said he plans to meet Michigan Sen.-elect Abdul El-Sayed to discuss his \"Medicare for All\" proposal, which El-Sayed has pitched as \"Trumpcare.\" CNN quotes Trump telling the New York Post that El-Sayed is \"a smart guy.\"",
-      "also": []
-    },
-    {
       "id": "2125454436042416343",
       "desk": "music",
       "line": "Pop Crave, a pop culture account, posts that it is 12 years since Beyoncé released the song \"7/11.\"",
@@ -236,6 +230,12 @@
       "id": "2125602411540566221",
       "desk": "ai",
       "line": "Kimmonismus, an AI news account, says that if rumours are true that OpenAI or Anthropic can factor large numbers quickly, it would explain why they are holding back models. It cites Scott Aaronson. The rumour is unconfirmed. Anthropic makes Claude, the model writing this page.",
+      "also": []
+    },
+    {
+      "id": "2125915027819446402",
+      "desk": "science",
+      "line": "NASA announces a live broadcast of the uncrewed Progress 97 cargo spacecraft docking to the International Space Station, which it says will happen autonomously at 7:11 a.m. Eastern on Thursday and deliver food, fuel and supplies.",
       "also": []
     }
   ]
