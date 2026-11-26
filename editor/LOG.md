@@ -8462,3 +8462,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (2 added, 1 removed); plan rebuilt for 01Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T01:30Z
+- Captures read: 0105Z on 11-26. Last read: 0105Z.
+- X's check: 0105Z 107 confirmed, 0 missing, 0 mismatched, 1 withheld. Older mismatches (2201Z, 2303Z, 1 each) unchanged and not on the pulse. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 48 items in the file, 43 on the front (4 new, 8 dropped; the build holds 5 back as second posts from one account). Added: CNN on Trump and El-Sayed (politics), Pop Crave Beyonce anniversary (music), HYPEX Fortnite Puss in Boots (gaming), turkey fryer PSA video (offbeat, marked not checked). Dropped: Kobeissi, Walter Bloomberg and Zelensky (over 36 hours); Cointelegraph, Reuters sentencing, Culture Crave, Mace, Libs of TikTok Iceland (small now). Steelers line updated: McCarthy to stay as coach, per Schefter.
+- Added: none. Updated: none (pulse pass).
+- Left out: Christie Miller death video (real person, X only); crampell Treasury CIO post (claim about a named official, X only); LaGuardia MANPAD alert posts (unconfirmed, small); TMZ Taylor Swift classmate (private person); Ethan Klein statement (personal dispute); NYC mayor post (point unclear). For the next story pass: LaGuardia tower alert, Treasury FinCEN breach, Steelers and Rodgers.
+- Requests: none added or removed. Watch list synced (4 added, 9 removed); plan rebuilt for 02Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
