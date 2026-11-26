@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T20:20:00Z",
-  "capture": "2026-11-26T2004Z",
+  "updated_at": "2026-11-26T21:35:00Z",
+  "capture": "2026-11-26T2101Z",
   "items": [
     {
       "id": "2125650973251235882",
@@ -245,6 +245,16 @@
       "desk": "offbeat",
       "line": "Dexerto reports that a Christmas market that used AI-made promotional images has been cancelled, because visitors arrived to find a sparse warehouse with a leaking roof that looked nothing like the pictures.",
       "also": []
+    },
+    {
+      "id": "2125998265707483323",
+      "desk": "markets",
+      "line": "Unusual Whales summarises the Federal Reserve's latest Financial Stability Report as warning about \"circular financing\" in AI, and gives dollar figures for Nvidia. The report does use the phrase; the Nvidia figures were not found in it and are not checked here."
+    },
+    {
+      "id": "2125928504827035955",
+      "desk": "music",
+      "line": "A fan account says U2's performance of \"Sunday Bloody Sunday\" at the NFL Thanksgiving Eve halftime show felt like a scene from an epic movie."
     }
   ]
 }

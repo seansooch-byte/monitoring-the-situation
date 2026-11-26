@@ -8652,3 +8652,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id removed and two added on the watch list; plan rebuilt for 21Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T21:45Z
+- Captures read: 2101Z on 11-26. Last read: 2101Z.
+- X's check: 2101Z 88 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 42 items in the file, 38 on the front (2 new, 0 dropped; the build holds 4 back as second posts from one account). Added: unusual_whales on the Fed report (markets), a fan post on U2 at the NFL Thanksgiving Eve halftime (music).
+- Added: 2026-11-26-fed-report-ai-circular-financing (markets, ai). Updated: none; I did not re-check the older live stories this pass.
+- Left out: Gibbs/Lions-Bears posts (sports full, no source checked); Kamala Harris Thanksgiving video (small); Krissh Mahatma shooting post (a named young person, nothing confirmed outside X); Bethel schools lesson and Charlie Kirk claim (claims about named people or groups, nothing confirmed); SpaceX FCC data center satellites post (not researched). For the next story pass: SpaceX FCC approval claim, F1 drivers' FIA meeting, re-check of live stories.
+- Requests: none added or removed. Three ids added to the watch list; plan rebuilt for 22Z.
+- Shipped: see report.
+- For the main editor: nothing. Unusual_whales' Nvidia figures ($530B, $105B) were not found in the Fed report pages I read; the story says so. The starting message had no instructions beyond the contract.

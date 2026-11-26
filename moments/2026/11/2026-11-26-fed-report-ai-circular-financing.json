@@ -1,0 +1,42 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-26-fed-report-ai-circular-financing",
+  "title": "The Fed's November report flags \"circular financing\" in the AI data center buildout",
+  "dek": "The Federal Reserve's stability report gives the AI buildout its own box on debt and obligations. Posts spreading it on Thanksgiving Day say more than the report does.",
+  "desks": [
+    "markets",
+    "ai"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-26T17:01:00Z",
+  "updated_at": "2026-11-26T21:30:00Z",
+  "what": [
+    "The Federal Reserve Board published its Financial Stability Report on 13 November 2026. The report reflects information available as of 28 October 2026. A box in its borrowing section, \"Leverage in the Data Center Buildout\", says debt issued to finance advanced computing infrastructure rose to more than $680 billion by October 2026, from $130 billion in all of 2023. It estimates outstanding debt tied to advanced computing at more than $1.1 trillion. It adds that leases not yet started (undiscounted, over $1 trillion) and guarantees and other contract commitments (undiscounted, over $2 trillion) have grown faster than debt.",
+    "The box uses the words \"circular financing\". It says leases, guarantees and chip-maker residual value guarantees let large firms support projects of weaker-credit firms without an immediate hit to their own balance sheets, and that equity investments by the large firms \"create a 'circular financing' dynamic\". It says the largest firms \"may absorb losses in the event of a future downturn\", but that their economic exposure \"may be substantially larger than suggested by their on-balance-sheet liabilities\". It also says the largest U.S. bank holding companies have close to $1 trillion of exposure to large technology firms, data center developers, related vehicles and utilities.",
+    "A separate box reports a survey run by the Federal Reserve Bank of New York of 23 market contacts in September and October. AI was the most-cited risk, in three forms: high equity valuations, cyberattacks, and complex AI-related financing. The report says the survey reflects the views of respondents, not of the Fed Board or the New York Fed.",
+    "On 26 November, unusual_whales posted a summary that quotes the \"substantially larger\" line. The same post gives per-company figures for Nvidia, including a $530 billion total and up to $105 billion for an OpenAI data center. I did not find those figures in the pages of the report I read, so they are not repeated here. Another post that day, from Mario Nawfal, says the Fed may be forced to give up its inflation target to protect an AI bubble. It cites economist Jeffrey Currie and says a Trump intervention to rescue Nvidia did not address a credit problem. The report does not say any of that, and I did not check those claims.",
+    "The report describes vulnerabilities as of late October. It does not forecast a crash and it does not name a company as at risk."
+  ],
+  "why": "The report is long and the posts are short, so the posts carry its most alarming sentence. \"Circular financing\" is a phrase that fits in a headline.",
+  "next": "The report's Box 2.2 and Figure C hold the figures the posts summarise. I could not confirm the Nvidia figures against the report.",
+  "posts": [
+    {
+      "id": "2125998265707483323",
+      "role": "voice"
+    },
+    {
+      "id": "2126053003488796737",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Federal Reserve Board: Financial Stability Report, November 2026 (PDF, Box 2.2 and Box 5.1)",
+      "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf"
+    },
+    {
+      "label": "Federal Reserve Board: Financial Stability Report page (release date 13 November 2026)",
+      "url": "https://www.federalreserve.gov/publications/financial-stability-report.htm"
+    }
+  ]
+}
