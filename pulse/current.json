@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T21:35:00Z",
-  "capture": "2026-11-26T2101Z",
+  "updated_at": "2026-11-26T22:13:55Z",
+  "capture": "2026-11-26T2200Z",
   "items": [
     {
       "id": "2125650973251235882",
@@ -28,12 +28,6 @@
       "id": "2125619021869646266",
       "desk": "disaster",
       "line": "Nick Sortor, a commentator, says the EPA found no lead in the air in a test 15 minutes after the Army's detonation of lead azide in Iowa. He quotes EPA Administrator Lee Zeldin saying the lead levels are so low they equal no detection. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125527595022184789",
-      "desk": "justice",
-      "line": "BBC Breaking News reports that two men have been charged with trespass and intent to steal at the Prince and Princess of Wales's Norfolk home.",
       "also": []
     },
     {
@@ -255,6 +249,30 @@
       "id": "2125928504827035955",
       "desk": "music",
       "line": "A fan account says U2's performance of \"Sunday Bloody Sunday\" at the NFL Thanksgiving Eve halftime show felt like a scene from an epic movie."
+    },
+    {
+      "id": "2126018532060061963",
+      "desk": "ideas",
+      "line": "Geiger Capital, a finance account, posts a Thanksgiving message saying half of the Mayflower settlers were dead after the first winter and that the 53 survivors held the first harvest in 1621. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126024872773951938",
+      "desk": "tech",
+      "line": "Binance says its withdrawal recovery after a security incident is complete and the suspension has been lifted on nearly all networks, with a small number paused for maintenance. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125925032840884488",
+      "desk": "offbeat",
+      "line": "Rainmaker1973, an account that shares science and curiosity clips, posts a video of about a minute that it says shows a North Carolina animal shelter serving Thanksgiving dinner to its dogs and cats.",
+      "also": []
+    },
+    {
+      "id": "2126058756027105491",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, posts a quote it attributes to director Christopher Nolan, who suggests a projector, a living room and popcorn as a way to watch The Odyssey at home. Not checked here.",
+      "also": []
     }
   ]
 }
