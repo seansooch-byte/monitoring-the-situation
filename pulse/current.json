@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T05:35:00Z",
-  "capture": "2026-11-26T0505Z",
+  "updated_at": "2026-11-26T06:20:00Z",
+  "capture": "2026-11-26T0603Z",
   "items": [
     {
       "id": "2125316217611432251",
@@ -250,6 +250,12 @@
       "id": "2125749288655557099",
       "desk": "gaming",
       "line": "validclipx, a clips account, posts a video of about two and a half minutes and says the streamer NickEh30 keeps finding creative ways to wipe out NPCs in GTA 6. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125680336231363016",
+      "desk": "disaster",
+      "line": "Open Source Intel, a news account, says at least 30 people are dead after a fuel tanker overturned and exploded on Cairo’s Ring Road, that flames spread to nearby vehicles, and that Egypt sent 39 ambulances. It credits Reuters. Not checked here.",
       "also": []
     }
   ]
