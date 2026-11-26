@@ -1,21 +1,13 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T14:22:10Z",
-  "capture": "2026-11-26T1407Z",
+  "updated_at": "2026-11-26T15:16:26Z",
+  "capture": "2026-11-26T1501Z",
   "items": [
     {
       "id": "2125506806608724374",
       "desk": "disaster",
       "line": "The U.S. Army account says its personnel are on site in Middletown, Iowa and have worked around the clock to reduce the impact of the planned controlled detonation. It lists a water wall of more than 100,000 gallons, earth berms, sand filled blocks, dispersion modeling and temperature-regulating tarps.",
       "also": []
-    },
-    {
-      "id": "2125421101933080979",
-      "desk": "tech",
-      "line": "The Hormuz Letter, a news account, says the US Treasury was hit by a cyberattack that took multiple FinCEN systems offline, citing a Treasury disclosure. A second post, from Watcher Guru, says FinCEN is investigating a breach and took some systems offline as a precaution. Not checked here.",
-      "also": [
-        "2125433796786860444"
-      ]
     },
     {
       "id": "2125707460334014901",
@@ -236,6 +228,24 @@
       "id": "2125915027819446402",
       "desk": "science",
       "line": "NASA announces a live broadcast of the uncrewed Progress 97 cargo spacecraft docking to the International Space Station, which it says will happen autonomously at 7:11 a.m. Eastern on Thursday and deliver food, fuel and supplies.",
+      "also": []
+    },
+    {
+      "id": "2125742541253300563",
+      "desk": "tech",
+      "line": "The Boring Company says its twin tunnels in Las Vegas run 2.3 miles from the Westgate Resort to across from UNLV’s Thomas & Mack Center, then on to the airport. It says 14 more Loop stations open when the tunnels open to the public. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125749325888188846",
+      "desk": "music",
+      "line": "Rapper Cardi B says she released an album, had a baby, rehearsed, toured, signed endorsements and launched a hair business in one year, and tells her followers to go after their own goals. These are her claims about herself. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125663363162157394",
+      "desk": "politics",
+      "line": "Journalist Aaron Rupar posts a clip of JD Vance answering why the Iowa detonation came in November and not March. Vance says the administration was dealing with a problem the Obama administration had kicked to it. Not checked here.",
       "also": []
     }
   ]

@@ -8592,3 +8592,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two dropped ids taken off the watch list; plan rebuilt for 14Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T15:20Z
+- Captures read: 1407Z, 1501Z on 11-26. Last read: 1501Z.
+- X's check: 1407Z 135 confirmed, 0 missing, 0 mismatched, 0 withheld. 1501Z 91 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 40 items in the file, 37 on the front (3 new, 1 dropped; the build holds 3 back as second posts from one account). Dropped, over 36 hours: Hormuz Letter FinCEN post (tech). Added: Boring Company Las Vegas tunnels (tech), Cardi B on her year (music), Rupar clip of Vance on the Iowa detonation (politics).
+- Added: none. Updated: none (pulse pass).
+- Left out: Shane Gillis and Zyri posts (private or named people); Stefanski/WNBA post (allegation about named people); Brooks/Durant clip (sports desk full); Jocko Willink/Rogan summary (account's characterisation, small gain); RpsAgainstTrump Vance headline (claim about a named person); Denny's post (image only, unclear). For the next story pass: nothing new.
+- Requests: none added or removed. Three ids added to the watch list; FinCEN ids kept for the live story; plan rebuilt for 16Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
