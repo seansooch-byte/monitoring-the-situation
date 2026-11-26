@@ -8572,3 +8572,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (12 added); plan rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T12:40Z
+- Captures read: 1201Z on 11-26. Last read: 1201Z.
+- X's check: 1201Z 46 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed (planet candidate, France protests, Qeshm, Nvidia board story).
+- Pulse: 40 items in the file, 37 on the front (0 new, 2 dropped; the build holds 3 back as second posts from one account). Dropped, over 36 hours: WeatherNation post (disaster), NYC mayor post (politics). Quiet: ideas, internet, life (large posts there are flagged private_individual, crude, or unclear).
+- Added: none. Updated: none (pulse pass).
+- Left out: NBA Deni fans clip (private_individual) and Hebrew replies; LeadingReport post (sexual); DHS, Visegrad24 Sydney raid, F1 Bearman, Nvidia shipments halt, FIFA cyberattack (smaller than the current cut or desk already full; FIFA and Nvidia could be checked next story pass); Variety Iger post (claim about a named person, unconfirmed).
+- Requests: none added or removed. Two dropped ids taken off the watch list; plan rebuilt for 13Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
