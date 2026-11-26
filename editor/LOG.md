@@ -8482,3 +8482,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (3 added, 3 removed); plan rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T03:35Z
+- Captures read: 0308Z on 11-26. Last read: 0308Z.
+- X's check: 0308Z 89 confirmed, 0 missing, 0 mismatched, 1 withheld. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 47 items in the file, 42 on the front (0 new, 1 dropped; the build holds 5 back as second posts from one account). Dropped: Man Utd Yoro (over 36 hours). Updated: Steelers item is now the team's own post that it released Rodgers (Pelissero and Schefter posts attached); Army item is now its larger post on the Iowa protections, since the old line looked ahead to a detonation that has happened.
+- Added: none. Updated: none (pulse pass).
+- Left out: Korean anchor crying on air (real person, claim not checked); Musiala statement (a player's health); Zyri post (a person's private life); Weather Channel Macy's parade post (small, unchecked); Miami FedEx overrun (small); new Avengers teasers (desk full). For the next story pass: Rodgers release and McCarthy.
+- Requests: none added or removed. Watch list synced (2 added, 1 removed); plan rebuilt for 04Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
