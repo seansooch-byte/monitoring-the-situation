@@ -1,0 +1,37 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-25-macys-parade-postponed-to-saturday",
+  "title": "Macy's moves its 100th Thanksgiving Day Parade to Saturday because of a storm",
+  "dek": "It is the first time the parade has been postponed for weather. The mayor says wind gusts of 60 mph were forecast, more than the balloons are allowed to face.",
+  "desks": [
+    "disaster"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-25T23:29:39Z",
+  "updated_at": "2026-11-26T11:45:00Z",
+  "what": [
+    "On Wednesday 25 November 2026, Macy's announced that the Thanksgiving Day Parade, planned for Thursday 26 November, will instead step off on Saturday 28 November at 8:30 a.m. Eastern. Macy's said it decided \"after close consultation with our city and agency partners\", and that the safety of participants and spectators comes first.",
+    "ABC7 New York reports that city officials, the NYPD and Macy's decided together, after the National Weather Service issued a high wind warning. It quotes Mayor Zohran Mamdani as saying the storm would bring widespread coastal flooding at high tide and gusts of 60 mph, \"well in excess of what is permissible for the balloons\". The forecast CNBC cites is heavy rain and thunderstorms in the city on Thursday.",
+    "CNBC reports that this is the first weather postponement in the parade's history. The parade was suspended from 1942 to 1944 during World War II. This year is its 100th.",
+    "Many balloons were already inflated on Wednesday. ABC7 reports they were deflated that night, and that Macy's executive producer Will Coss said re-inflating them would not be open to the public and that the balloons go back to New Jersey for preparation on a 24-hour timetable. ABC7 also reports that Mamdani will not attend on Saturday because of upcoming surgery.",
+    "In the video on X, Mamdani says generations have watched the balloons float down Sixth Avenue and that \"safety has to come first\"."
+  ],
+  "why": "Millions plan a holiday morning around the parade, and the change came less than a day before it. The reason is on the record from the city and Macy's: wind, flooding and rain.",
+  "next": "The Saturday 8:30 a.m. start, and the forecast for that morning.",
+  "posts": [
+    {
+      "id": "2125733686473613498",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "CNBC: Macy's postpones Thanksgiving Day Parade due to severe weather",
+      "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html"
+    },
+    {
+      "label": "ABC7 New York: Macy's Thanksgiving Day Parade 2026 postponed to Saturday",
+      "url": "https://abc7ny.com/story/will-macys-parade-balloons-fly-storm-wind-rain-puts-doubt/20078423/"
+    }
+  ]
+}

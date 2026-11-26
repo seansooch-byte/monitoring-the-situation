@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-25-fincen-systems-offline-cyber-incident",
+  "title": "Treasury's FinCEN takes systems offline after unauthorized access",
+  "dek": "The financial crimes bureau says a limited subset of its systems was reached and some are down. No public source ties it to the other recent federal breaches.",
+  "desks": ["tech", "markets"],
+  "standing": "developing",
+  "started_at": "2026-11-25T02:47:33Z",
+  "updated_at": "2026-11-26T11:45:00Z",
+  "what": [
+    "FinCEN, the Treasury bureau that collects bank reports on suspected money laundering, posted a notice on the evening of Tuesday 24 November 2026, US time. It said it was investigating a cybersecurity incident that gave unauthorized access to \"a limited subset of its systems\", and that it had taken some systems offline as a precaution. The Record and Nextgov both report the notice; they say The Verge reported it first. I did not open the notice itself.",
+    "The Record reports that FinCEN's electronic filing site for Bank Secrecy Act reports stayed up, that investigators found \"no evidence of any breach of the Bank Secrecy Act or beneficial ownership databases\", and that the FBI and CISA are helping. Nextgov reports that FinCEN extended deadlines: institutions have until 30 December to file reports that were due between 18 and 29 November.",
+    "FinCEN has not said what data was reached or who did it, according to both outlets. No group has claimed it. The Record notes that Chinese state-backed hackers were linked to earlier Treasury breaches in 2024 and 2025. That is background, not a finding about this incident.",
+    "The post on X says the attack came \"just hours after\" the CIA and ODNI were hacked. Nextgov and cybersecurity outlets report that an unclassified analysis system used by the CIA and the Office of the Director of National Intelligence was reached at about the same time, and that classified systems were not affected. Nextgov says authorities have not publicly connected that to FinCEN or to the earlier FBI breach, so the timing is the only link I found."
+  ],
+  "why": "Several federal systems were reported hit within days, so each new notice is read as part of a run. The agencies have said little, which leaves room for guesses about who is behind it.",
+  "next": "What FinCEN says about data reached, and whether any agency names a source. The filing deadline extension runs to 30 December.",
+  "posts": [
+    { "id": "2125421101933080979", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "The Record: Treasury's FinCEN takes systems offline after cyber incident", "url": "https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident" },
+    { "label": "Nextgov/FCW: Treasury's financial crimes bureau takes systems offline after hack", "url": "https://www.nextgov.com/cybersecurity/2026/11/treasurys-financial-crimes-bureau-takes-systems-offline-after-hack/417442/" }
+  ]
+}

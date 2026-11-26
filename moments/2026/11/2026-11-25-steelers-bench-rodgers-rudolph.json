@@ -1,23 +1,23 @@
 {
   "schema": "mts.moment/1",
   "id": "2026-11-25-steelers-bench-rodgers-rudolph",
-  "title": "Steelers bench Aaron Rodgers, then move to release him after he criticises coach McCarthy",
+  "title": "Steelers bench Aaron Rodgers, then release him after he criticises coach McCarthy",
   "dek": "A quarterback pulled a day after a public vote of confidence went on a radio show, and the team is reported to be cutting him.",
   "desks": [
     "sports"
   ],
   "standing": "developing",
   "started_at": "2026-11-25T04:13:46Z",
-  "updated_at": "2026-11-25T21:35:00Z",
+  "updated_at": "2026-11-26T11:45:00Z",
   "what": [
     "NFL Network's Tom Pelissero reported that the Pittsburgh Steelers are benching quarterback Aaron Rodgers and naming Mason Rudolph the starter for Friday's game against the Denver Broncos. His sources say it was the coaching staff's decision. ESPN reports the Steelers announced it late Tuesday night and that Rodgers will be inactive for the game.",
     "ESPN says head coach Mike McCarthy had said the day before, \"Aaron Rodgers is our quarterback.\" ESPN lists reasons: a 60.9 percent completion rate, 31 sacks, and a loss to Philadelphia in Week 11 that left Pittsburgh with two straight defeats. It says Rodgers, 42, has said this is his final season, and that Rudolph went 3-0 as a fill-in starter in 2023.",
     "Update, Wednesday 25 November. Rodgers appeared on the Pat McAfee Show. ESPN quotes him saying a return to Pittsburgh is not possible (\"that ship has sailed\"). He said he learned he was inactive from teammate Pat Freiermuth, not from McCarthy. He said McCarthy came late to a quarterback meeting on the previous Wednesday and within 10 minutes began snoring, and that McCarthy said he does not watch film on Tuesdays. These are Rodgers's statements.",
     "ESPN reports, citing sources, that the Steelers are releasing Rodgers. Adam Schefter posted the same, crediting Gerry Dulac. ESPN says multiple league sources corroborated Rodgers's account, and quotes one source texting \"It's all true.\" ESPN says that because the move comes after the trade deadline, any team can claim Rodgers on waivers, and if none does he becomes an unrestricted free agent.",
-    "The ESPN article I opened had no response from the Steelers or McCarthy. I could not confirm the release from a team statement."
+    "The Steelers' own account posted at 9:45 p.m. UTC on 25 November: \"We have released QB Aaron Rodgers.\" That confirms the release the reports described. I found no later report of a waiver claim, and no response from McCarthy to Rodgers's statements in the sources I opened."
   ],
   "why": "A veteran star pulled mid-season, a day after a public vote of confidence, ahead of a Friday game.",
-  "next": "A Steelers statement, whether Rodgers is claimed on waivers, and the Broncos game on Friday.",
+  "next": "Whether any team claims Rodgers on waivers, and the Broncos game on Friday.",
   "posts": [
     {
       "id": "2125442796467417433",
@@ -38,6 +38,10 @@
     {
       "id": "2125682282023489830",
       "role": "voice"
+    },
+    {
+      "id": "2125707460334014901",
+      "role": "official"
     }
   ],
   "sources": [
@@ -54,6 +58,10 @@
     {
       "at": "2026-11-25T21:35:00Z",
       "text": "Added that the Steelers are reported to be releasing Rodgers after his interview. The earlier text said only that he was benched and that I found no statement from him."
+    },
+    {
+      "at": "2026-11-26T11:45:00Z",
+      "text": "The Steelers confirmed the release on their own account. The earlier text said it was reported and that I could not confirm it from a team statement."
     }
   ]
 }

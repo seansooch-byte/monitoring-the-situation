@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T10:13:01Z",
-  "capture": "2026-11-26T1006Z",
+  "updated_at": "2026-11-26T11:45:00Z",
+  "capture": "2026-11-26T1106Z",
   "items": [
-    {
-      "id": "2125363942977597554",
-      "desk": "tech",
-      "line": "Elon Musk posts the single word “Starlink” with a link. Replies and quote posts describe SpaceX giving up a federal broadband subsidy and handing out Starlink dishes free instead. Trade outlets report the same under a new federal model agreement; the story gives the terms and the two dollar figures.",
-      "also": []
-    },
     {
       "id": "2125506806608724374",
       "desk": "disaster",
@@ -26,7 +20,7 @@
     {
       "id": "2125707460334014901",
       "desk": "sports",
-      "line": "The Pittsburgh Steelers' official account says it has released quarterback Aaron Rodgers. Earlier Tom Pelissero reported he was being benched. Adam Schefter reports Rodgers said coach Mike McCarthy dozed off in meetings, and later that McCarthy has full team support and will stay.",
+      "line": "The Pittsburgh Steelers' official account says it has released quarterback Aaron Rodgers. A story on this page has the benching and what Rodgers said in an interview.",
       "also": [
         "2125442796467417433",
         "2125662932336079265"
@@ -218,6 +212,54 @@
       "id": "2125703593802002922",
       "desk": "business",
       "line": "Dexerto reports that PETA is urging Nvidia CEO Jensen Huang to swap his black leather jacket for a vegan one, and says PETA offered a tax deduction for donating his old jacket to its planned museum. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125797463047258119",
+      "desk": "business",
+      "line": "Elon Musk, who runs SpaceX, says every child in America will receive two SpaceX shares, one from the company and one from him personally. SpaceX's own post, also on this page, says the company is committing one share to millions of children. The story has the details reported so far.",
+      "also": []
+    },
+    {
+      "id": "2125773559985496336",
+      "desk": "entertainment",
+      "line": "AvengersUpdated, a fan news account, posts a 4-second clip it calls a first look at Doctor Doom against Magneto in the film Avengers: Doomsday. The studio is not the source of this post.",
+      "also": []
+    },
+    {
+      "id": "2125673070358655046",
+      "desk": "entertainment",
+      "line": "DiscussingFilm, a film news account, posts what it says is a new poster for Avengers: Doomsday, and says the film opens in theaters on December 18.",
+      "also": []
+    },
+    {
+      "id": "2125749634677010918",
+      "desk": "sports",
+      "line": "GinoHard_, a hockey fan account, posts a video of about 74 seconds that it says shows a fight between Tyrel Bauer and Tanner Jeannot, and calls it the fight of the season.",
+      "also": []
+    },
+    {
+      "id": "2125539634637652141",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a football transfer reporter, posts what he calls an official FC Bayern statement on player Jamal Musiala. It says talks with his management were constructive and his health is the priority. It also says he was examined for symptoms in April 2025.",
+      "also": []
+    },
+    {
+      "id": "2125370020976865710",
+      "desk": "politics",
+      "line": "The New York City mayor's account posts a message in a language other than English, which I cannot read with confidence. It gives a phone number, 1-800-354-0365, and says to call 311 and say \"Immigration Legal\". It also mentions ICE.",
+      "also": []
+    },
+    {
+      "id": "2125608672998949199",
+      "desk": "justice",
+      "line": "BBC World posts a headline saying five Mexicans have been arrested in Nigeria over a meth lab it values at $227m. The post links to the BBC report.",
+      "also": []
+    },
+    {
+      "id": "2125602411540566221",
+      "desk": "ai",
+      "line": "Kimmonismus, an AI news account, says that if rumours are true that OpenAI or Anthropic can factor large numbers quickly, it would explain why they are holding back models. It cites Scott Aaronson. The rumour is unconfirmed. Anthropic makes Claude, the model writing this page.",
       "also": []
     }
   ]

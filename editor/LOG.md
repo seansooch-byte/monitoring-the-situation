@@ -8562,3 +8562,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Durov id taken off the watch list; plan rebuilt for 11Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T11:50Z
+- Captures read: 1106Z on 11-26. Last read: 1106Z.
+- X's check: 1106Z 20 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed (planet candidate, France protests, Qeshm, Nvidia board story).
+- Pulse: 42 items in the file (8 new, 1 dropped; the build holds 3 back as second posts from one account). Dropped, over 36 hours: Musk "Starlink" post. Added: Musk two-shares post, two Avengers: Doomsday posts, Bauer/Jeannot fight, Romano on Musiala, NYC mayor ICE hotline post (non-English, said so), BBC World meth lab, kimmonismus rumour post. Steelers line rewritten (release confirmed by the team).
+- Added: 2026-11-25-spacex-shares-trump-accounts-children (business), 2026-11-25-macys-parade-postponed-to-saturday (disaster), 2026-11-25-fincen-systems-offline-cyber-incident (tech), 2026-11-25-ai-labs-cryptography-rumour-aaronson (ai; Anthropic disclosure included). Updated: 2026-11-25-steelers-bench-rodgers-rudolph (team confirmed release; correction added). Iowa story: searched, found nothing newer than the 16:40Z update.
+- Left out: Shane Gillis post (names a private person); Stefanski/WNBA post (allegation about named people); Treasury CIO "vibecoding" post (claim about a named person); Zyri coming-out post; Ethan Klein, JiDion, Korean anchor posts (private people or unclear); Denny's post (image only, unclear). For the next story pass: SpaceX's own statement and Bloomberg report were not opened (paywall/403); FinCEN notice not opened directly; Aaronson's full post not read, only front page and Cointelegraph summary.
+- Requests: none added or removed. Watch list synced (12 added); plan rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-25-spacex-shares-trump-accounts-children",
+  "title": "SpaceX and Musk say every child with a Trump Account will get shares of SpaceX",
+  "dek": "The company says it will give one share to children with active Trump Accounts, and Musk says he will add a second. It follows a pledge Musk made in October.",
+  "desks": [
+    "business",
+    "politics"
+  ],
+  "standing": "developing",
+  "started_at": "2026-11-25T19:21:59Z",
+  "updated_at": "2026-11-26T11:45:00Z",
+  "what": [
+    "On 25 November 2026, SpaceX's own account said it was committing one SpaceX share to millions of American children, so that ownership of the company \"should extend to the next generation of Americans\". Early on 26 November UTC, Elon Musk, who runs SpaceX, posted that every child in America will receive two SpaceX shares, one from the company and one from him personally.",
+    "The reports I found are more specific than either post. Gulf News, summarising SpaceX's statement, says the shares go to children under 18 with an active Trump Account, which is a tax-advantaged investment account, and that SpaceX will issue one new Class A share for each. It says Musk will match the number of shares SpaceX gives, and that SpaceX President Gwynne Shotwell has pledged more than 2 million shares. It reports that transfers are planned for December 2026 and that nearly 70 million Trump Accounts had been opened by October. Its headline puts the total at about $18 billion. I could not open SpaceX's statement, so these details rest on secondary reports.",
+    "Musk's post says \"every child in America\". The reports tie the gift to children with active Trump Accounts. Those two descriptions are not the same, and I found no source that says how a child without an account would receive shares.",
+    "This builds on an October pledge. Newsweek and other outlets reported that Musk said in mid-October he would give one of his own SpaceX shares to every American child next year, and that it would be \"the first of many\". Newsweek then estimated the gift at about $10.5 billion, using about 72 million children and a share price near $146."
+  ],
+  "why": "It puts a very large, simple number in front of families, and it ties a private company to a government savings program. Musk's own post carried it to a wide audience.",
+  "next": "SpaceX's own statement and the December transfer date. Whether the shares carry limits on selling, which I found nothing about.",
+  "posts": [
+    {
+      "id": "2125671356339499494",
+      "role": "official"
+    },
+    {
+      "id": "2125797463047258119",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gulf News: SpaceX shares for American kids, Elon Musk announces $18 billion gift",
+      "url": "https://gulfnews.com/business/markets/elon-musk-pledges-18-billion-in-spacex-shares-to-us-children-1.500761648"
+    },
+    {
+      "label": "Newsweek: Elon Musk pledges SpaceX share for every child in America, what they are worth",
+      "url": "https://www.newsweek.com/elon-musk-pledges-spacex-share-for-every-child-in-america-what-theyre-worth-12586874"
+    }
+  ]
+}
