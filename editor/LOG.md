@@ -8612,3 +8612,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Three ids added to the watch list; plan rebuilt for 17Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T17:35Z
+- Captures read: 1702Z on 11-26. Last read: 1702Z.
+- X's check: 1702Z 94 confirmed, 0 missing, 0 mismatched, 1 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 42 items in the file, 38 on the front (2 new, 2 dropped; the build holds 4 back as second posts from one account). Dropped, over 36 hours: Miss Universe crowning, Beyonce anniversary. Added: BBC Breaking on UK net migration (world; held back as a second BBC Breaking post), Dexerto on the cancelled AI-image Christmas market (offbeat; held back behind Dexerto's business post, stands on the offbeat page).
+- Added: none. Updated: none (pulse pass).
+- Left out: Huw Edwards documentary (named person); Trump GDP investigation call (claim about a named person, not checked); Times Square parade post (political framing); Huawei HBM, sama on Ven (not researched). For the next story pass: Trump GDP revision claim, UK migration figures.
+- Requests: none added or removed. Two ids added to the watch list; plan rebuilt for 18Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
