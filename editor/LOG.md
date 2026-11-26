@@ -8492,3 +8492,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (2 added, 1 removed); plan rebuilt for 04Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T04:40Z
+- Captures read: 0406Z on 11-26. Last read: 0406Z.
+- X's check: 0406Z 34 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 44 items in the file, 40 on the front (1 new, 4 dropped; the build holds 4 back as second posts from one account). Added: Fox News clip of Mamdani on the postponed Macy's parade, with the NYC Mayor post attached (disaster). Updated: SpaceX share item now carries Musk's larger post in `also`. Dropped to make room, all small and on crowded desks: Mario Nawfal Ukraine drones, two Unusual Whales posts (politics, markets), Guillemet cryptography.
+- Added: none. Updated: none (pulse pass).
+- Left out: atrupar Vance Iowa clip (account already placed on the same desk); Sortor NYC clashes (flagged private_individual); LeBron triple-double (sports desk full); Andy Taylor death (only Reuters, small); Godzilla clip, HSBC stablecoin (small); Bessent/Harris post (claim about named people, X only). For the next story pass: Giuliani Medal of Freedom, SpaceX shares for children and Trump Accounts, Vance on the Iowa detonation.
+- Requests: none added or removed. Watch list synced (3 added); plan rebuilt for 05Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

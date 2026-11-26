@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T03:30:00Z",
-  "capture": "2026-11-26T0308Z",
+  "updated_at": "2026-11-26T04:35:00Z",
+  "capture": "2026-11-26T0406Z",
   "items": [
     {
       "id": "2125265616693080108",
@@ -125,12 +125,6 @@
       "also": []
     },
     {
-      "id": "2125574472937971885",
-      "desk": "markets",
-      "line": "Unusual Whales, a markets news account, says the Fed's Financial Stability Report calls stock prices high, \"partly driven by market enthusiasm for super intelligence,\" and warns valuations could fall sharply if AI earnings disappoint. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125487655961931790",
       "desk": "markets",
       "line": "BBC Breaking says the UK regulator Ofgem has announced that energy bills for a typical household will rise by 26% a month from January. Not checked here.",
@@ -146,12 +140,6 @@
       "id": "2125482707870216258",
       "desk": "disaster",
       "line": "7NEWS Australia posts video it says shows a German tourist holding on as strong winds make a suspension footbridge sway in Chile’s Torres del Paine National Park. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125619771333070987",
-      "desk": "politics",
-      "line": "Unusual Whales says about $300 million from an unknown source was deposited in September into a National Park Service account President Trump has used for D.C. renovation projects, citing the New York Times. Not checked here.",
       "also": []
     },
     {
@@ -211,8 +199,10 @@
     {
       "id": "2125671356339499494",
       "desk": "business",
-      "line": "SpaceX announces that it is committing one SpaceX share to millions of American children, to give \"the next generation a stake in building a more exciting future.\" Details are in a linked page that has not been checked here.",
-      "also": []
+      "line": "SpaceX announces that it is committing one SpaceX share to millions of American children, to give \"the next generation a stake in building a more exciting future.\" Elon Musk posts that every child in America will receive two shares, one from the company and one from him. Details not checked here.",
+      "also": [
+        "2125797463047258119"
+      ]
     },
     {
       "id": "2125667033052299651",
@@ -245,12 +235,6 @@
       "also": []
     },
     {
-      "id": "2125708320749064579",
-      "desk": "world",
-      "line": "Mario Nawfal, a news account, says Ukrainian drones reportedly hit an Iranian cargo ship near Benghazi, Libya, citing Italy's Corriere della Sera. It quotes retired Army Col. Douglas Macgregor, who believes Ukraine needed Western help and offers no proof. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125413110815043620",
       "desk": "politics",
       "line": "CNN reports that President Trump said he plans to meet Michigan Sen.-elect Abdul El-Sayed to discuss his \"Medicare for All\" proposal, which El-Sayed has pitched as \"Trumpcare.\" CNN quotes Trump telling the New York Post that El-Sayed is \"a smart guy.\"",
@@ -280,14 +264,17 @@
       "line": "Shayne Coplan, the founder of Polymarket, says the prediction market now prices on-demand compute for Nvidia H100, B200 and B300 chips out to 2028, and calls it a yield curve for the cost of compute. This is his own announcement; I did not check it against Polymarket or a second source."
     },
     {
-      "id": "2125633815519354949",
-      "desk": "ai",
-      "line": "Charles Guillemet, a security researcher, writes that he is hearing rumors that AI labs have broken some cryptography, and lists them. He says he does not think they are true. Not checked here."
-    },
-    {
       "id": "2125695514138284196",
       "desk": "world",
       "line": "Saudi Civil Defense posts, in Arabic and English, that the national early warning platform has issued an alert for Riyadh Province about a potential danger and tells people to follow the instructions in the attached image. The post does not say what the danger is."
+    },
+    {
+      "id": "2125733686473613498",
+      "desk": "disaster",
+      "line": "Fox News posts a clip of Mamdani speaking about the postponed Macy’s Thanksgiving Day Parade, saying the change of plans will cause inconveniences. The official NYC Mayor account says a storm is headed for New York on Thursday and the 100th parade will now be held on Saturday, November 28.",
+      "also": [
+        "2125798055903375739"
+      ]
     }
   ]
 }
