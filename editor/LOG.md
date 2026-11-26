@@ -8622,3 +8622,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids added to the watch list; plan rebuilt for 18Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T18:40Z
+- Captures read: 1806Z on 11-26. Last read: 1806Z.
+- X's check: 1806Z 125 confirmed, 1 mismatched (2125967996040695998, TAEYEON album pre-order post, music; not used), 0 missing, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 41 items in the file, 37 on the front (0 new, 1 dropped; the build holds 4 back as second posts from one account). Dropped: NASA Progress 97 docking broadcast (the docking time has passed and it is now the smallest post on the page). Nothing new cleared the bar: the new large posts were on desks already full (Netflix Thanksgiving post, entertainment) or were aggregator or named-person claims.
+- Added: none. Updated: none (pulse pass).
+- Left out: Trump Thanksgiving message posts (Rugg, Daugh; political characterisation of a named group, not checked); DeLauro Medicare for America post (aggregator, small); Fed "circular financing" post (small). For the next story pass: Fed Financial Stability Report on AI circular financing; SpaceX child-share details (Musk's post says the SpaceX share transfers next month).
+- Requests: none added or removed. One id removed from the watch list (Progress 97); plan rebuilt for 19Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
