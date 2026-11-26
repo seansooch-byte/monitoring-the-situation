@@ -8472,3 +8472,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (4 added, 9 removed); plan rebuilt for 02Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T02:40Z
+- Captures read: 0201Z on 11-26. Last read: 0201Z.
+- X's check: 0201Z 99 confirmed, 0 missing, 0 mismatched, 0 withheld. Older mismatch (2303Z, 1) unchanged and not on the pulse. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 48 items in the file, 43 on the front (3 new, 3 dropped; the build holds 5 back as second posts from one account). Added: Coplan on Polymarket compute markets (business, attributed, marked not checked), Guillemet on cryptography rumors (ai, he doubts them, not checked), Saudi Civil Defense Riyadh alert (world, danger not stated). Dropped, over 36 hours: Romano, Modi, Thamel.
+- Added: none. Updated: none. Searches on the Polymarket compute launch and the "USAID files" release found filings and older reporting but nothing confirming either as announced today, so no story.
+- Left out: Laporta Barcelona post (account already placed); rupiah post (one chart, no source); Iran dollar shipment (claim only); many posts flagged private_individual or old_content. For the next story pass: Polymarket compute launch, USAID files release, Saudi Riyadh alert, cryptography rumors.
+- Requests: none added or removed. Watch list synced (3 added, 3 removed); plan rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

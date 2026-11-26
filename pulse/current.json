@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T01:30:00Z",
-  "capture": "2026-11-26T0105Z",
+  "updated_at": "2026-11-26T02:35:00Z",
+  "capture": "2026-11-26T0201Z",
   "items": [
-    {
-      "id": "2125235212363682098",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, posts that Senegal are the Africa Cup of Nations 2025 winners after the Court of Arbitration for Sport verdict. A researched story has the court ruling and its reasoning.",
-      "also": []
-    },
     {
       "id": "2125265616693080108",
       "desk": "tech",
@@ -19,12 +13,6 @@
       "id": "2125316217611432251",
       "desk": "tech",
       "line": "Watcher Guru, a news and finance account, says hackers breached the CIA and US intelligence systems and exposed unclassified government data, and credits the New York Times. The Times report is not in the capture. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125241933127709104",
-      "desk": "sports",
-      "line": "ESPN reporter Pete Thamel says Michigan's search firm has told Trev Alberts he will not be its next athletic director, citing his attorney, Tom Mars. Thamel says Alberts signed a \"contractually binding MOU\" that requires Michigan to pay his buyout.",
       "also": []
     },
     {
@@ -75,12 +63,6 @@
       "id": "2125306837968859212",
       "desk": "music",
       "line": "The band twenty one pilots says it is closing two album cycles and three years of touring with Supercycle (Live), a live album recorded in Columbus and London, and links preorders and tickets for the London show.",
-      "also": []
-    },
-    {
-      "id": "2125221411916833199",
-      "desk": "world",
-      "line": "Indian Prime Minister Narendra Modi says he spoke with German Chancellor Friedrich Merz about trade, investment, defence and advanced technologies, and that the two countries will keep working together on peace and a rules-based order. Not checked here.",
       "also": []
     },
     {
@@ -296,6 +278,21 @@
       "desk": "offbeat",
       "line": "A user posts a video and says that every November local fire departments spend $40,000 of tax money to drop a frozen turkey into hot oil on live TV as a safety message. The video has no description here. Not checked here.",
       "also": []
+    },
+    {
+      "id": "2125653367640805799",
+      "desk": "business",
+      "line": "Shayne Coplan, the founder of Polymarket, says the prediction market now prices on-demand compute for Nvidia H100, B200 and B300 chips out to 2028, and calls it a yield curve for the cost of compute. This is his own announcement; I did not check it against Polymarket or a second source."
+    },
+    {
+      "id": "2125633815519354949",
+      "desk": "ai",
+      "line": "Charles Guillemet, a security researcher, writes that he is hearing rumors that AI labs have broken some cryptography, and lists them. He says he does not think they are true. Not checked here."
+    },
+    {
+      "id": "2125695514138284196",
+      "desk": "world",
+      "line": "Saudi Civil Defense posts, in Arabic and English, that the national early warning platform has issued an alert for Riyadh Province about a potential danger and tells people to follow the instructions in the attached image. The post does not say what the danger is."
     }
   ]
 }
