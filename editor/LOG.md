@@ -8632,3 +8632,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id removed from the watch list (Progress 97); plan rebuilt for 19Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T19:30Z
+- Captures read: 1908Z on 11-26. Last read: 1908Z.
+- X's check: 1908Z 104 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 39 items in the file, 36 on the front (0 new, 2 dropped; the build holds 3 back as second posts from one account). Dropped, over 36 hours: 7NewsAustralia (disaster), BBC Breaking markets post. Nothing new cleared the bar: the large new posts were on desks already full (sports, entertainment) or were claims about named people.
+- Added: none. Updated: none (pulse pass).
+- Left out: Kristol impeachment call (named person, political); Gürcü police clip (flagged private individual); Denny's post (advertisement); Brooks and Durant clip (sports full).
+- Requests: none added or removed. Two ids removed from the watch list (the dropped posts); plan rebuilt for 20Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
