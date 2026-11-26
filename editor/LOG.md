@@ -8662,3 +8662,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Three ids added to the watch list; plan rebuilt for 22Z.
 - Shipped: see report.
 - For the main editor: nothing. Unusual_whales' Nvidia figures ($530B, $105B) were not found in the Fed report pages I read; the story says so. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T22:20Z
+- Captures read: 2200Z on 11-26. Last read: 2200Z.
+- X's check: 2200Z 118 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 45 items in the file, 41 on the front (4 new, 1 dropped; the build holds 4 back as second posts from one account). Dropped, over 36 hours: BBC Breaking trespass post. Added: Geiger Capital Mayflower post (ideas), Binance withdrawal recovery (tech, attributed, not checked), animal shelter dinner clip (offbeat), Nolan projector quote (entertainment, not checked).
+- Added: none. Updated: none (pulse pass).
+- Left out: Trump and aide tabloid claim (named people, nothing confirmed); Israel grid cyberattack post (unconfirmed breaking claim); Vietnamese marriage advice post (advice, private person); Elon Musk Thanksgiving and SpaceX share posts (account already on the pulse); NFL Caleb to Rome clip (sports full); King Von and cancer-patient posts (private individual flags or named people); GTA 6 Lucia post (mentions running Claude Code on patch notes, not checkable).
+- Requests: none added or removed. One id removed and four added on the watch list; plan rebuilt for 23Z. For the next story pass: SpaceX yearly share to kids post, Binance incident.
+- Shipped: yes, commit 22585a89, live audit clean.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
