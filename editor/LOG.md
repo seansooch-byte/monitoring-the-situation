@@ -8552,3 +8552,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list unchanged; plan rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T10:40Z
+- Captures read: 1006Z on 11-26. Last read: 1006Z.
+- X's check: 1006Z 21 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed (Qeshm, Nvidia board story, and others as before).
+- Pulse: 35 items in the file, 32 on the front (0 new, 1 dropped; the build holds 3 back as second posts from one account). Dropped, over 36 hours: Durov offer post (internet). The Musk Starlink post passes 36 hours in the next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Musk Community Notes, Teslas and Boring Co posts (the account holds a place; the first is crude and unclear); BBC and Sky net migration, Reuters MiniMax and Morning Bid, Osint613 and crypto posts (small); Visegrad24 alarm post (flagged private_individual). For the next story pass: nothing new.
+- Requests: none added or removed. Durov id taken off the watch list; plan rebuilt for 11Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
