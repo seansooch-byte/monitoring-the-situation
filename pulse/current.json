@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-25T23:20:00Z",
-  "capture": "2026-11-25T2303Z",
+  "updated_at": "2026-11-26T00:20:00Z",
+  "capture": "2026-11-26T0005Z",
   "items": [
     {
       "id": "2125216303875035217",
@@ -164,12 +164,6 @@
       "also": []
     },
     {
-      "id": "2125197871439835173",
-      "desk": "world",
-      "line": "Anton Gerashchenko, an account that posts on the war in Ukraine, relays a statement credited to Anne Applebaum that if Ukraine surrenders its leadership will be murdered and Russia will set up filtration camps. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2125525721972097221",
       "desk": "internet",
       "line": "Culture Crave says Warner Bros. has confirmed it issued several copyright strikes against a YouTuber who made AI Harry Potter videos, and that he lost his channel. It credits The A.V. Club. A story on this page has the details.",
@@ -305,6 +299,18 @@
       "id": "2125534523710443553",
       "desk": "entertainment",
       "line": "Nigeria's president, Bola Tinubu, says in a statement that he has learned of the death of the actor Pete Edochie, and offers condolences on behalf of his family and the federal government. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125560131173638471",
+      "desk": "politics",
+      "line": "Wall Street Apes, a finance and news account, says it went through 248 newly released USAID files and lists dollar amounts for media and \"disinformation\" programs abroad. It says this shows USAID was used for regime change and media manipulation. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125708320749064579",
+      "desk": "world",
+      "line": "Mario Nawfal, a news account, says Ukrainian drones reportedly hit an Iranian cargo ship near Benghazi, Libya, citing Italy's Corriere della Sera. It quotes retired Army Col. Douglas Macgregor, who believes Ukraine needed Western help and offers no proof. Not checked here.",
       "also": []
     }
   ]

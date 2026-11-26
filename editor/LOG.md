@@ -8452,3 +8452,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list synced (1 added, 3 removed); plan rebuilt for 00Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T00:20Z
+- Captures read: 0005Z on 11-26. Last read: 0005Z.
+- X's check: 0005Z 51 confirmed, 0 missing, 0 mismatched, 0 withheld. Older runs unchanged. Build warns of the same 3 older story-cited posts X has not confirmed (France protests, Qeshm, Nvidia board story).
+- Pulse: 52 items in the file, 48 on the front (2 new, 1 dropped). Added: Wall Street Apes on the USAID files (politics, claim only, marked not checked), Mario Nawfal on the Iranian ship near Benghazi (world, attributed, marked not checked). Dropped, over 36 hours: Gerashchenko (world).
+- Added: none. Updated: none (pulse pass).
+- Left out: libsoftiktok Iowa post (partisan claim, a story covers Iowa); Netflix set photo (entertainment full); Watcher Guru Nvidia wartime powers (account already placed, a story covers Nvidia); NYC mayor taxi post (text cut off at a link, point unclear); HormuzLetter AI models post (account already placed). For the next story pass: USAID files claim, Libya ship report.
+- Requests: none added or removed. Watch list synced (2 added, 1 removed); plan rebuilt for 01Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
