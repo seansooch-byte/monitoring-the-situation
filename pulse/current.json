@@ -1,12 +1,18 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T19:30:00Z",
-  "capture": "2026-11-26T1908Z",
+  "updated_at": "2026-11-26T20:20:00Z",
+  "capture": "2026-11-26T2004Z",
   "items": [
     {
-      "id": "2125506806608724374",
-      "desk": "disaster",
-      "line": "The U.S. Army account says its personnel are on site in Middletown, Iowa and have worked around the clock to reduce the impact of the planned controlled detonation. It lists a water wall of more than 100,000 gallons, earth berms, sand filled blocks, dispersion modeling and temperature-regulating tarps.",
+      "id": "2125650973251235882",
+      "desk": "life",
+      "line": "ABC News posts a 20-second video it says shows California's 405 Freeway the night before, as holiday travelers hit the road ahead of Thanksgiving.",
+      "also": []
+    },
+    {
+      "id": "2125628271337554117",
+      "desk": "markets",
+      "line": "Watcher Guru, an account that posts market news, says investor Michael Burry says he is now almost entirely long and plans to invest the rest of his cash. Two images are attached. Not checked here.",
       "also": []
     },
     {

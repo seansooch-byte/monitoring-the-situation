@@ -8642,3 +8642,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Two ids removed from the watch list (the dropped posts); plan rebuilt for 20Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-26T20:25Z
+- Captures read: 2004Z on 11-26. Last read: 2004Z.
+- X's check: 2004Z 45 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 37 items in the file, 36 on the front (2 new, 1 dropped; the build holds 4 back as second posts from one account, the Burry post among them as a second Watcher Guru post, so it stands on the markets page). Dropped, over 36 hours: U.S. Army Middletown detonation post. Added: ABC News on 405 Freeway holiday traffic (life), Watcher Guru on Michael Burry (markets; attributed, not checked).
+- Added: none. Updated: none (pulse pass).
+- Left out: internet archiva trend clip (the trend is not named in words or media description); Shane Gillis post (ex-partner, private person); Steven Universe actor post (personal disclosure of a real person, nothing outside X); Barney parade joke (not a real event, nothing to add); Times Square cam post (political framing, as before). The newest capture's posts were small.
+- Requests: none added or removed. One id removed and two added on the watch list; plan rebuilt for 21Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
