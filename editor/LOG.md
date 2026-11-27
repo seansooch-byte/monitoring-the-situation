@@ -8672,3 +8672,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. One id removed and four added on the watch list; plan rebuilt for 23Z. For the next story pass: SpaceX yearly share to kids post, Binance incident.
 - Shipped: yes, commit 22585a89, live audit clean.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-27T20:20Z
+- Captures read: 2004Z on 11-27 (first since 2200Z on 11-26, a gap of about 22 hours). Last read: 2004Z.
+- X's check: 2004Z 50 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same older story-cited posts X has not confirmed.
+- Pulse: 41 items in the file, 35 on the front (31 new, 35 dropped; the build holds 6 back as second posts from one account). Nearly the whole previous pulse was past 36 hours and dropped; ten items from 11-26 stayed with their lines. Thin on politics, internet and life, because the capture gap left few posts from the 11-26 evening on.
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix "this thanksgiving plate" and the Trump Jr reply (video not described, point unclear); Cranefomo GTA 6 glitch guide (exploit steps, Claude Code claim not checkable); unusual_whales on the NYT AI columnist paid by an Anthropic investor (named person, only ZeroHedge cited, nothing outside X); Vietnamese marriage advice (advice); Times Square cam and Rubin parade post (political insult); bullet-ear clip (conspiracy framing); Besiktas police and Brazil police clips, King Von, Krissh Mahatma (private individuals or flagged); Poland mobilisation and Volgograd strike claims (unconfirmed breaking); UFO vault post (fringe claim); Depardieu trial (names an accuser); Cade_Onder Rockstar union post (screenshot unseen).
+- Requests: none added or removed. Watch list rebuilt from the pulse and live stories (32 ids added, 81 removed); plan rebuilt for 21Z. For the next story pass: Air Force cloud breach (Reuters), NYT columnist disclosure claim, Nvidia server shipment halt claim, SpaceX yearly share pledge, East Coast storm.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. The grabber made no capture for about 22 hours (NOTES.md says so).

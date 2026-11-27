@@ -1,223 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-26T22:13:55Z",
-  "capture": "2026-11-26T2200Z",
+  "updated_at": "2026-11-27T20:16:23Z",
+  "capture": "2026-11-27T2004Z",
   "items": [
-    {
-      "id": "2125650973251235882",
-      "desk": "life",
-      "line": "ABC News posts a 20-second video it says shows California's 405 Freeway the night before, as holiday travelers hit the road ahead of Thanksgiving.",
-      "also": []
-    },
-    {
-      "id": "2125628271337554117",
-      "desk": "markets",
-      "line": "Watcher Guru, an account that posts market news, says investor Michael Burry says he is now almost entirely long and plans to invest the rest of his cash. Two images are attached. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125707460334014901",
-      "desk": "sports",
-      "line": "The Pittsburgh Steelers' official account says it has released quarterback Aaron Rodgers. A story on this page has the benching and what Rodgers said in an interview.",
-      "also": [
-        "2125442796467417433",
-        "2125662932336079265"
-      ]
-    },
-    {
-      "id": "2125619021869646266",
-      "desk": "disaster",
-      "line": "Nick Sortor, a commentator, says the EPA found no lead in the air in a test 15 minutes after the Army's detonation of lead azide in Iowa. He quotes EPA Administrator Lee Zeldin saying the lead levels are so low they equal no detection. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125568013885755540",
-      "desk": "defense",
-      "line": "Sky News reports that the Royal Air Force is moving aircraft into hangars and hardened shelters at night to protect them from possible drone threats, \"it is understood\". The post does not name a source. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125608468417486883",
-      "desk": "disaster",
-      "line": "A user posts a 39-second drone video and says it shows the Iowa detonation \"moments ago\". The post carries no description of the footage beyond that. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125656399392690605",
-      "desk": "ai",
-      "line": "Anthropic chief executive Dario Amodei replies at length to an article, saying he does not believe humans should “surrender human free will” to AI systems and that turning governance over to AI would be a bad idea. Anthropic makes Claude, the model writing this page.",
-      "also": []
-    },
-    {
-      "id": "2125651261492256856",
-      "desk": "entertainment",
-      "line": "Warner Bros. says production on The Lord of the Rings: The Hunt for Gollum has ended and gives the film’s release as December 2027. The 83-second video has no description here.",
-      "also": []
-    },
-    {
-      "id": "2125592759344287920",
-      "desk": "world",
-      "line": "U.S. Treasury Secretary Scott Bessent says Iran has not loaded a single tanker since a Treasury effort he calls Operation Economic Outcast began in August, and has no oil on the water left to sell. The 18-second video has no description here. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125600646946492785",
-      "desk": "science",
-      "line": "CGTN says China’s space station is hosting a dinner for six, with more than 100 halal dishes for its Pakistani astronaut, including beef nihari, lamb korma and curried chickpeas. The photo has no description here. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125606265078636925",
-      "desk": "sports",
-      "line": "NBACentral, a basketball news account, says NBA players reportedly call Victor Wembanyama \"Mr. Morality\" and think he is on a \"moral high horse\" because of his criticism of other stars, per reporter Mike Wright. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125649126398591003",
-      "desk": "science",
-      "line": "SpaceX says teams have encapsulated the Cygnus XL spacecraft ahead of a Falcon 9 launch of Northrop Grumman's commercial resupply mission to the International Space Station. It says liftoff is targeted for 10:47 a.m. ET on Sunday, November 29. The photos have no description here.",
-      "also": []
-    },
-    {
-      "id": "2125671356339499494",
-      "desk": "business",
-      "line": "SpaceX announces that it is committing one SpaceX share to millions of American children, to give \"the next generation a stake in building a more exciting future.\" Elon Musk posts that every child in America will receive two shares, one from the company and one from him. Details not checked here.",
-      "also": [
-        "2125797463047258119"
-      ]
-    },
-    {
-      "id": "2125667033052299651",
-      "desk": "sports",
-      "line": "UnderdogNFL, a football account, lists what Aaron Rodgers said about coach Mike McCarthy on the Pat McAfee Show, including that McCarthy snored in meetings and that Rodgers learned he was inactive from a teammate. These are Rodgers's claims; ESPN says league sources corroborate them.",
-      "also": []
-    },
-    {
-      "id": "2125696909985640728",
-      "desk": "medicine",
-      "line": "Watcher Guru, a news account, says the FDA has approved trials of Elon Musk's Neuralink brain implant. The post gives no source. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125675533761671405",
-      "desk": "ai",
-      "line": "Thariq, who writes that he worked at Anthropic, announces that he has joined OpenAI and says he will keep rooting for his former colleagues. Anthropic makes the model writing this page.",
-      "also": []
-    },
-    {
-      "id": "2125534523710443553",
-      "desk": "entertainment",
-      "line": "Nigeria's president, Bola Tinubu, says in a statement that he has learned of the death of the actor Pete Edochie, and offers condolences on behalf of his family and the federal government. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125560131173638471",
-      "desk": "politics",
-      "line": "Wall Street Apes, a finance and news account, says it went through 248 newly released USAID files and lists dollar amounts for media and \"disinformation\" programs abroad. It says this shows USAID was used for regime change and media manipulation. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125591721606066676",
-      "desk": "gaming",
-      "line": "HYPEX, a gaming news account, posts a video it calls the full showcase of Puss in Boots in Fortnite and says \"Death & Puss\" is available tomorrow. The video has no description here.",
-      "also": []
-    },
-    {
-      "id": "2125653367640805799",
-      "desk": "business",
-      "line": "Shayne Coplan, the founder of Polymarket, says the prediction market now prices on-demand compute for Nvidia H100, B200 and B300 chips out to 2028, and calls it a yield curve for the cost of compute. This is his own announcement; I did not check it against Polymarket or a second source."
-    },
-    {
-      "id": "2125695514138284196",
-      "desk": "world",
-      "line": "Saudi Civil Defense posts, in Arabic and English, that the national early warning platform has issued an alert for Riyadh Province about a potential danger and tells people to follow the instructions in the attached image. The post does not say what the danger is."
-    },
-    {
-      "id": "2125733686473613498",
-      "desk": "disaster",
-      "line": "Fox News posts a clip of Mamdani speaking about the postponed Macy’s Thanksgiving Day Parade, saying the change of plans will cause inconveniences. The official NYC Mayor account says a storm is headed for New York on Thursday and the 100th parade will now be held on Saturday, November 28.",
-      "also": [
-        "2125798055903375739"
-      ]
-    },
-    {
-      "id": "2125749288655557099",
-      "desk": "gaming",
-      "line": "validclipx, a clips account, posts a video of about two and a half minutes and says the streamer NickEh30 keeps finding creative ways to wipe out NPCs in GTA 6. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125680336231363016",
-      "desk": "disaster",
-      "line": "Open Source Intel, a news account, says at least 30 people are dead after a fuel tanker overturned and exploded on Cairo’s Ring Road, that flames spread to nearby vehicles, and that Egypt sent 39 ambulances. It credits Reuters. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125703593802002922",
-      "desk": "business",
-      "line": "Dexerto reports that PETA is urging Nvidia CEO Jensen Huang to swap his black leather jacket for a vegan one, and says PETA offered a tax deduction for donating his old jacket to its planned museum. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125797463047258119",
-      "desk": "business",
-      "line": "Elon Musk, who runs SpaceX, says every child in America will receive two SpaceX shares, one from the company and one from him personally. SpaceX's own post, also on this page, says the company is committing one share to millions of children. The story has the details reported so far.",
-      "also": []
-    },
-    {
-      "id": "2125773559985496336",
-      "desk": "entertainment",
-      "line": "AvengersUpdated, a fan news account, posts a 4-second clip it calls a first look at Doctor Doom against Magneto in the film Avengers: Doomsday. The studio is not the source of this post.",
-      "also": []
-    },
-    {
-      "id": "2125673070358655046",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts what it says is a new poster for Avengers: Doomsday, and says the film opens in theaters on December 18.",
-      "also": []
-    },
-    {
-      "id": "2125749634677010918",
-      "desk": "sports",
-      "line": "GinoHard_, a hockey fan account, posts a video of about 74 seconds that it says shows a fight between Tyrel Bauer and Tanner Jeannot, and calls it the fight of the season.",
-      "also": []
-    },
-    {
-      "id": "2125539634637652141",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a football transfer reporter, posts what he calls an official FC Bayern statement on player Jamal Musiala. It says talks with his management were constructive and his health is the priority. It also says he was examined for symptoms in April 2025.",
-      "also": []
-    },
-    {
-      "id": "2125608672998949199",
-      "desk": "justice",
-      "line": "BBC World posts a headline saying five Mexicans have been arrested in Nigeria over a meth lab it values at $227m. The post links to the BBC report.",
-      "also": []
-    },
-    {
-      "id": "2125602411540566221",
-      "desk": "ai",
-      "line": "Kimmonismus, an AI news account, says that if rumours are true that OpenAI or Anthropic can factor large numbers quickly, it would explain why they are holding back models. It cites Scott Aaronson. The rumour is unconfirmed. Anthropic makes Claude, the model writing this page.",
-      "also": []
-    },
-    {
-      "id": "2125742541253300563",
-      "desk": "tech",
-      "line": "The Boring Company says its twin tunnels in Las Vegas run 2.3 miles from the Westgate Resort to across from UNLV’s Thomas & Mack Center, then on to the airport. It says 14 more Loop stations open when the tunnels open to the public. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125749325888188846",
-      "desk": "music",
-      "line": "Rapper Cardi B says she released an album, had a baby, rehearsed, toured, signed endorsements and launched a hair business in one year, and tells her followers to go after their own goals. These are her claims about herself. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125663363162157394",
-      "desk": "politics",
-      "line": "Journalist Aaron Rupar posts a clip of JD Vance answering why the Iowa detonation came in November and not March. Vance says the administration was dealing with a problem the Obama administration had kicked to it. Not checked here.",
-      "also": []
-    },
     {
       "id": "2125977202680644037",
       "desk": "world",
@@ -269,9 +54,195 @@
       "also": []
     },
     {
-      "id": "2126058756027105491",
+      "id": "2126279085215391931",
+      "desk": "tech",
+      "line": "Reuters reports, in an exclusive, that hackers have breached the US Air Force's main cloud computing platform, citing three people familiar with the matter. Reuters says the breach could put tactical, personnel and logistics data at risk.",
+      "also": []
+    },
+    {
+      "id": "2125901898435662004",
+      "desk": "science",
+      "line": "BBC News reports that research by Jason Arday has been cleared following an investigation by Queen's University.",
+      "also": []
+    },
+    {
+      "id": "2126362766818623807",
+      "desk": "science",
+      "line": "NASA posts an image of a barred galaxy in Coma Berenices that it says astronomers think is what our Milky Way would look like from a similar vantage point.",
+      "also": []
+    },
+    {
+      "id": "2125908698396504403",
+      "desk": "medicine",
+      "line": "BBC News (World) reports that a cheaper HIV prevention jab is reaching Africa, under the headline \"Hope for millions\".",
+      "also": []
+    },
+    {
+      "id": "2126061320097112142",
+      "desk": "medicine",
+      "line": "Sky News reports that Scotland's chief medical officer, Professor Sir Gregor Smith, has resigned, quoting his statement about his mental health. Sky says this follows questions from Holyrood's Health Committee about NHS Grampian.",
+      "also": []
+    },
+    {
+      "id": "2126003642507632979",
+      "desk": "defense",
+      "line": "Fox News reports that Kim Jong Un is pushing for more nuclear weapons while touring sites that make nuclear materials, based on blurred images released by North Korean state media. Fox says the US has not publicly responded.",
+      "also": []
+    },
+    {
+      "id": "2125978009358262776",
+      "desk": "justice",
+      "line": "Sky News reports that an attacker has been found guilty of all 14 counts of attempted murder over a two-day stabbing spree across Peterborough, London and an LNER train in late October and early November last year.",
+      "also": []
+    },
+    {
+      "id": "2126305220091125796",
+      "desk": "disaster",
+      "line": "Fox News reports that a powerful storm has hit the East Coast, with seawater cutting off Hatteras Island in North Carolina and flooded streets along the Jersey Shore, disrupting Thanksgiving travel.",
+      "also": []
+    },
+    {
+      "id": "2126064597039997254",
+      "desk": "business",
+      "line": "Elon Musk, replying to another user, says he will donate another share of SpaceX to all kids in America every year. A story on this page covers his earlier pledge. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125915002813260004",
+      "desk": "business",
+      "line": "Watcher Guru, an account that posts market news, says Nvidia has ordered its manufacturing partners to halt shipments of servers containing its chips to Thailand, Malaysia, Indonesia and Singapore. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126021729495478460",
+      "desk": "markets",
+      "line": "Shayne Coplan says Nvidia H100 perpetual contracts with up to 3x leverage are now live on the platform. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125903859092787395",
+      "desk": "markets",
+      "line": "Watcher Guru lists the price of Bitcoin on each Thanksgiving from 2010 to 2026, ending with $60,400 this year. The prices are the account's own. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126326531110887749",
+      "desk": "markets",
+      "line": "AshCrypto, a crypto commentator, says the US stock market added $1 trillion at the open, and that crypto is not moving with it. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126228217077932094",
+      "desk": "world",
+      "line": "Nigel Farage, leader of Reform UK, announces a Reform policy to abolish hospital car parking charges and calls the charges cruel. The post is a party announcement. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125964695660097987",
+      "desk": "world",
+      "line": "Ukraine's President Zelensky posts a Thanksgiving message thanking Americans for caring and for standing with \"us\".",
+      "also": []
+    },
+    {
+      "id": "2125874231409844665",
+      "desk": "politics",
+      "line": "Micah Erfan says Rep. Rosa DeLauro has introduced the Medicare for America Act, and lists what he says it would do, including automatic Medicare enrollment of the uninsured and a cap on out-of-pocket costs. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126047246823170072",
+      "desk": "politics",
+      "line": "Kamala Harris posts a Thanksgiving video in which she says she answers questions about the dish she is known for, the best gift to bring a host and her husband's onion goggles.",
+      "also": []
+    },
+    {
+      "id": "2125928675304685594",
+      "desk": "offbeat",
+      "line": "A Turkish-language post says UFC fighter Khabib head-wrestled a goat and stopped when he found he could not beat it. It carries a 24-second video. I have not checked it.",
+      "also": []
+    },
+    {
+      "id": "2125999078572204470",
+      "desk": "gaming",
+      "line": "HYPEX says Doki Doki Literature Club is coming to Fortnite the next day.",
+      "also": []
+    },
+    {
+      "id": "2126054666614005897",
+      "desk": "gaming",
+      "line": "Dexerto reports that Rockstar hired Gran Turismo player Lewis Bentley to help develop GTA 6's driving physics, and that the studio has a racing team of employees that won its class at the 24 Hours of Nürburgring. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126325372665114876",
+      "desk": "music",
+      "line": "PopBase says the AI-generated song \"The Adult I Dreamed of\" by MEOMERU has achieved a Perfect All-Kill, topping all major streaming platforms' daily and real-time charts. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2125903123747381406",
+      "desk": "music",
+      "line": "Sarcaesthetics, a fan account, says, via TMZ, that Korean actress Kim Yoo Jung will play Jungkook's love interest in the music video for his song \"Love Is Blind\", out December 3. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126035627506332130",
       "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts a quote it attributes to director Christopher Nolan, who suggests a projector, a living room and popcorn as a way to watch The Odyssey at home. Not checked here.",
+      "line": "DiscussingFilm, a film news account, posts a clip it says is from a new Lilo & Stitch short film in which Stitch goes to war with a cute cat that Lilo adopts.",
+      "also": []
+    },
+    {
+      "id": "2126364062191956112",
+      "desk": "entertainment",
+      "line": "PopCrave, a pop culture account, says the final episode of \"Chicken Shop Date\" is out on YouTube and Netflix, with Amelia Dimoldenberg's therapist Esther Perel as the guest.",
+      "also": []
+    },
+    {
+      "id": "2125911818916827326",
+      "desk": "entertainment",
+      "line": "PolitlcsUK, a news account, says Channel 4 has announced a documentary with former BBC presenter Huw Edwards called \"Huw Edwards - Guilty\". Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126056382353056182",
+      "desk": "sports",
+      "line": "The NFL's account posts a short video it labels as a 70-yard touchdown by Jahmyr Gibbs.",
+      "also": []
+    },
+    {
+      "id": "2125892820980629629",
+      "desk": "sports",
+      "line": "Fabrizio Romano, a transfer reporter, says Archie Brown has a 23 million euro release clause in his Fenerbahce contract, valid in both winter and summer windows, and that several clubs have shown interest. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126023387025981636",
+      "desk": "sports",
+      "line": "Adam Schefter reports that with Justin Herbert in concussion protocol, the Chargers have signed veteran quarterback Jake Browning to their active roster.",
+      "also": []
+    },
+    {
+      "id": "2125976563418280426",
+      "desk": "internet",
+      "line": "Sithdaddyx says a video is the best Jensen Huang meme song the internet has seen so far.",
+      "also": []
+    },
+    {
+      "id": "2125998392065286544",
+      "desk": "life",
+      "line": "PETA, an animal rights group, posts \"Turkeys aren't food.\" on Thanksgiving.",
+      "also": []
+    },
+    {
+      "id": "2126020268405784724",
+      "desk": "ai",
+      "line": "Polymarket's account says AI safety researcher Nikola Jurkovic warns this could be \"humanity's last Thanksgiving.\" Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126365899410341931",
+      "desk": "ai",
+      "line": "Elon Musk says Grok keeps getting better. Grok, the model that gathers this site's posts, is made by xAI, a company in this post.",
       "also": []
     }
   ]
