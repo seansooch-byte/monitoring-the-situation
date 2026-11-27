@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-27T21:45:00Z",
-  "capture": "2026-11-27T2103Z",
+  "updated_at": "2026-11-27T22:20:00Z",
+  "capture": "2026-11-27T2203Z",
   "items": [
     {
       "id": "2125977202680644037",
@@ -198,12 +198,6 @@
       "also": []
     },
     {
-      "id": "2125892820980629629",
-      "desk": "sports",
-      "line": "Fabrizio Romano, a transfer reporter, says Archie Brown has a 23 million euro release clause in his Fenerbahce contract, valid in both winter and summer windows, and that several clubs have shown interest. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2126023387025981636",
       "desk": "sports",
       "line": "Adam Schefter reports that with Justin Herbert in concussion protocol, the Chargers have signed veteran quarterback Jake Browning to their active roster.",
@@ -265,6 +259,12 @@
       "id": "2126146327532712205",
       "desk": "ai",
       "line": "The Financial Times posts a link to an article titled \"Can AI replace economics PhDs?\""
+    },
+    {
+      "id": "2126375103780839453",
+      "desk": "sports",
+      "line": "Formula 1's official account posts a video it calls a look at \"that Lewis/Max moment\", tagged #QatarGP. The post does not say what happened in it.",
+      "also": []
     }
   ]
 }
