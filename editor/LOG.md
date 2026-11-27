@@ -8682,3 +8682,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list rebuilt from the pulse and live stories (32 ids added, 81 removed); plan rebuilt for 21Z. For the next story pass: Air Force cloud breach (Reuters), NYT columnist disclosure claim, Nvidia server shipment halt claim, SpaceX yearly share pledge, East Coast storm.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. The grabber made no capture for about 22 hours (NOTES.md says so).
+
+## 2026-11-27T21:50Z
+- Captures read: 2103Z on 11-27. Last read: 2103Z.
+- X's check: 2103Z 111 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same four older story-cited posts X has not confirmed.
+- Pulse: 45 items in the file, 38 on the front (6 new, 2 dropped; the build holds 7 back as second posts from one account). Dropped, over 36 hours: BBC Breaking migration post, Micah Erfan Medicare post. Added: Police Scotland pop-up (justice), Kozloski claim about Claude (ai, attributed, not checked, notes Anthropic), PopCrave Silly Bandz (business, not found elsewhere), Team Cherry Silksong trailer (gaming), SportsCenter Bills walk-off (sports), FT economics PhD link (ai).
+- Added: none. Updated: none. Web searches did not confirm the Air Force cloud breach or Silly Bandz, so no story was written; I did not re-check the older live stories.
+- Left out: Daily Mail surgery blunder (private patient); Ned Luke GTA post, Trump Putin Doral and Mar-a-Lago party posts (named people or unconfirmed claims); unusual_whales NYT columnist (named person, ZeroHedge only); Nick Shirley fraud post (accusation); Slatzism and RT Tampa posts (private individual flags); clips with no description (Joshwydd_, BeTheMogger).
+- Requests: none added or removed. Watch list: 7 ids added, 2 removed; plan rebuilt for 22Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim (Kozloski, KingBootoshi), Silly Bandz closure, Nvidia shipment halt, East Coast storm.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
