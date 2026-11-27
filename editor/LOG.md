@@ -8702,3 +8702,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 1 id added, 1 removed; plan rebuilt for 23Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim (Kozloski, KingBootoshi, RealAstropulse), Texas governor-elect claim, East Coast storm.
 - Shipped: yes, commit 05825e5c, live audit clean.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-27T23:20Z
+- Captures read: 2300Z on 11-27. Last read: 2300Z.
+- X's check: 2300Z 106 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 45 items in the file, 38 on the front (4 new, 4 dropped; the build holds 7 back as second posts from one account). Dropped, over 36 hours: BBC Arday research post, BBC HIV jab post, Watcher Guru Thanksgiving Bitcoin prices, Sarcaesthetics Kim actress post. Added: Arknights Endfield trailer (gaming), Andy Burnham Islamophobia Awareness Month post (world), CNN military housing report (politics, not checked here), PopBase JoJo Siwa breakup (entertainment, not checked here).
+- Added: none. Updated: none (pulse pass).
+- Left out: Hunter Schafer surgery clip (private medical detail); SaraSchon sexting joke (sexual, private person); Eric_Schmitt USAID claim and O'Leary China AI claim (unconfirmed political claims); Iranian child bride post (private_individual); NBC ad post (PopBase already on pulse); Elon Muse post (account already on pulse); old_content posts; Brad Pitt and My Wife and Kids posts (low value).
+- Requests: none added or removed. Watch list: 4 ids added, 4 removed; plan rebuilt for 00Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim, East Coast storm, Silly Bandz closure.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

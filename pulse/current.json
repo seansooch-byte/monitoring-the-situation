@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-27T22:20:00Z",
-  "capture": "2026-11-27T2203Z",
+  "updated_at": "2026-11-27T23:15:00Z",
+  "capture": "2026-11-27T2300Z",
   "items": [
     {
       "id": "2125977202680644037",
@@ -54,21 +54,9 @@
       "also": []
     },
     {
-      "id": "2125901898435662004",
-      "desk": "science",
-      "line": "BBC News reports that research by Jason Arday has been cleared following an investigation by Queen's University.",
-      "also": []
-    },
-    {
       "id": "2126362766818623807",
       "desk": "science",
       "line": "NASA posts an image of a barred galaxy in Coma Berenices that it says astronomers think is what our Milky Way would look like from a similar vantage point.",
-      "also": []
-    },
-    {
-      "id": "2125908698396504403",
-      "desk": "medicine",
-      "line": "BBC News (World) reports that a cheaper HIV prevention jab is reaching Africa, under the headline \"Hope for millions\".",
       "also": []
     },
     {
@@ -111,12 +99,6 @@
       "id": "2126021729495478460",
       "desk": "markets",
       "line": "Shayne Coplan says Nvidia H100 perpetual contracts with up to 3x leverage are now live on the platform. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125903859092787395",
-      "desk": "markets",
-      "line": "Watcher Guru lists the price of Bitcoin on each Thanksgiving from 2010 to 2026, ending with $60,400 this year. The prices are the account's own. Not checked here.",
       "also": []
     },
     {
@@ -165,12 +147,6 @@
       "id": "2126325372665114876",
       "desk": "music",
       "line": "PopBase says the AI-generated song \"The Adult I Dreamed of\" by MEOMERU has achieved a Perfect All-Kill, topping all major streaming platforms' daily and real-time charts. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125903123747381406",
-      "desk": "music",
-      "line": "Sarcaesthetics, a fan account, says, via TMZ, that Korean actress Kim Yoo Jung will play Jungkook's love interest in the music video for his song \"Love Is Blind\", out December 3. Not checked here.",
       "also": []
     },
     {
@@ -265,6 +241,26 @@
       "desk": "sports",
       "line": "Formula 1's official account posts a video it calls a look at \"that Lewis/Max moment\", tagged #QatarGP. The post does not say what happened in it.",
       "also": []
+    },
+    {
+      "id": "2126164115018453442",
+      "desk": "gaming",
+      "line": "The official Arknights: Endfield account posts a preview trailer for a 2027 update called \"Endfield Echoes\". Its text says the original music is composed by Hans Zimmer. Not checked here."
+    },
+    {
+      "id": "2126391485834916182",
+      "desk": "world",
+      "line": "Andy Burnham posts that as Islamophobia Awareness Month ends he reaffirms his commitment to tackling anti-Muslim hatred, and says nobody should face discrimination because of their faith."
+    },
+    {
+      "id": "2126307811764174956",
+      "desk": "politics",
+      "line": "CNN reports that about half a dozen members of the Trump administration now live in Washington, DC military housing, which it calls a historically high number. Not checked here."
+    },
+    {
+      "id": "2126385496352006146",
+      "desk": "entertainment",
+      "line": "PopBase, a pop culture account, says JoJo Siwa and Chris Hughes have broken up after a year and a half, citing People. Not checked here."
     }
   ]
 }
