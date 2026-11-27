@@ -8692,3 +8692,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 7 ids added, 2 removed; plan rebuilt for 22Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim (Kozloski, KingBootoshi), Silly Bandz closure, Nvidia shipment halt, East Coast storm.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-27T22:25Z
+- Captures read: 2203Z on 11-27. Last read: 2203Z.
+- X's check: 2203Z 143 confirmed, 0 missing, 1 mismatched (2126239615657136285, weareoneEXO EXO-KASE teaser; not used), 0 withheld. Build warns of the same four older story-cited posts X has not confirmed.
+- Pulse: 45 items in the file, 38 on the front (1 new, 1 dropped; the build holds 7 back as second posts from one account). Dropped, over 36 hours: Fabrizio Romano Archie Brown clause post. Added: Formula 1 "Lewis/Max moment" video (sports; the line says the post does not say what happened).
+- Added: none. Updated: none (pulse pass).
+- Left out: Texas governor-elect education commissioner claim (DemzDeliver, unconfirmed political claim); Netflix plate and LosPollosTV reaction (point unclear); MiyuSuzukiX anime clip and damicelled dog clip (no media description); KDTrey5 ice cream sandwich post (point unclear); Villeneuve posts (DiscussingFilm already on the pulse); Marvel Doomsday ad; Elon Musk Thanksgiving and Grok bot posts (account already on the pulse); private-individual flagged posts (Besiktas, Brazil police, dhaevian, Breck Worsham).
+- Requests: none added or removed. Watch list: 1 id added, 1 removed; plan rebuilt for 23Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim (Kozloski, KingBootoshi, RealAstropulse), Texas governor-elect claim, East Coast storm.
+- Shipped: yes, commit 05825e5c, live audit clean.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
