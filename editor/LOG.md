@@ -8872,3 +8872,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; the FT id came off the watch list, plan rebuilt for 16Z. For the next story pass: United Fidelity Bank (FDIC), WLFI and Binance, the CPAC_TV mismatch.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T16:30Z
+- Captures read: 1600Z on 11-28. Last read: 1600Z.
+- X's check: 1600Z 47 confirmed, 0 missing, 1 mismatched (not cited anywhere), 0 withheld. Earlier mismatches stand as logged. Build warns of the same three older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 36 items in the file, 32 on the front (0 new, 1 dropped; the build holds 4 back as second posts from one account). Dropped: the Arknights Endfield trailer (past 36 hours). Capture field moved to 1600Z.
+- Added: 2026-11-28-united-fidelity-bank-fails (markets), 2026-11-27-taliban-balkh-women-names-bibi (world). Updated: none. I did not re-check the other live stories against their sources this pass.
+- Left out: WLFI and Binance (found no source outside X and crypto sites for the November event); Hunter Schafer surgery post (medical details of a person); Police Scotland campaign, Starship Ship 42 and Con Dao (not researched this pass); Tupac clip, Musk posts, anime and NFL repeats (as before).
+- Requests: none added or removed; the Reuters bank post and the Daily Mail Taliban post joined the watch list, the Arknights id left it, plan rebuilt for 17Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

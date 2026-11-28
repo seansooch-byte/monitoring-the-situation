@@ -1,0 +1,27 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-28-united-fidelity-bank-fails",
+  "title": "United Fidelity Bank of Indiana fails; First-Citizens takes over",
+  "dek": "Regulators closed a bank of about $5.9 billion in assets on Friday. Depositors were moved to the buyer and kept their insurance.",
+  "desks": ["markets"],
+  "standing": "established",
+  "started_at": "2026-11-28T04:18:00Z",
+  "updated_at": "2026-11-28T16:30:00Z",
+  "what": [
+    "The FDIC's failed bank list shows United Fidelity Bank, fsb, of Evansville, Indiana, closed on Friday 27 November 2026, with First-Citizens Bank & Trust Company as the acquiring institution.",
+    "The Next Web reports the bank had about $5.9 billion in assets. It says First Citizens takes on about $4.5 billion in deposits and $3.1 billion in loans, and the 22 branches reopen as First Citizens branches. It reports the FDIC estimates the failure will cost its Deposit Insurance Fund about $1.83 billion, and that this is the seventh US bank failure of 2026.",
+    "Reuters' headline calls it the biggest US bank failure in two years. The Next Web says it is the largest since Republic First Bank in April 2024. Depositors become First Citizens customers automatically and keep deposit insurance, per The Next Web.",
+    "The Next Web puts the closing date as Friday 28 November. The FDIC list says 27 November, a Friday, and this page uses the FDIC date. I could not open the FDIC's own press release or the full Reuters story, so the cost and deal figures rest on The Next Web."
+  ],
+  "why": "A bank failure of this size had not happened for more than two years, and prediction and crypto accounts passed the news on within hours. Some posts framed it as the start of a wider banking crisis. I found nothing from the FDIC or the reports that says so.",
+  "next": "The FDIC's own notice and its updated cost estimate once the receivership is settled.",
+  "posts": [
+    { "id": "2126531025568215040", "role": "origin" },
+    { "id": "2126569322210279786", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "FDIC: Failed bank list", "url": "https://www.fdic.gov/resources/resolutions/bank-failures/failed-bank-list/" },
+    { "label": "The Next Web: US regulators shut United Fidelity Bank in biggest bank failure since 2024", "url": "https://thenextweb.com/news/us-regulators-shut-united-fidelity-bank-in-biggest-bank-failure-since-2024" },
+    { "label": "Reuters via MarketScreener: United Fidelity Bank shut in biggest US bank failure in 2 years", "url": "https://www.marketscreener.com/news/united-fidelity-bank-shut-in-biggest-us-bank-failure-in-2-years-first-citizens-buys-assets-ce7851d9d08bff20" }
+  ]
+}

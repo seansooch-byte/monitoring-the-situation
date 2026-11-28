@@ -1,0 +1,25 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-27-taliban-balkh-women-names-bibi",
+  "title": "Taliban in Balkh order women's names replaced with \"Bibi\" in health records",
+  "dek": "A Guardian and Zan Times investigation reports the order. Viral headlines went further than what is confirmed.",
+  "desks": ["world"],
+  "standing": "developing",
+  "started_at": "2026-11-27T16:11:00Z",
+  "updated_at": "2026-11-28T16:30:00Z",
+  "what": [
+    "The Daily Mail's headline says the Taliban are stripping Afghan women of their names and replacing them with \"granny\" or \"goat\".",
+    "The reporting behind it comes from a joint Guardian and Zan Times investigation, as relayed by The New Arab and the Latin Times. They report that in May 2026 the Taliban's vice and virtue ministry told hospitals, clinics and government offices in Balkh province, in northern Afghanistan, to use the word \"Bibi\" instead of women's names, including on prescriptions. \"Bibi\" is a term for a grandmother or an elderly woman.",
+    "The animal names rest on testimony. Activist Lalah Osmany says women inside Afghanistan told her they are called \"goat\" and \"cow\" in some settings. The Latin Times notes that no written Taliban order requiring those terms has been independently confirmed.",
+    "I could not open the Guardian original, so the order's wording and date come from those two relays. I found no Taliban statement on it. The reports describe the order as applying to Balkh, and I found no sign that it applies across Afghanistan."
+  ],
+  "why": "The headline joins a documented health-records order to a claim about animal names, and the second part is harder to check. Accounts that repost it often drop the Balkh and \"reportedly\" qualifiers.",
+  "next": "A Taliban statement, or confirmation of a similar order in other provinces.",
+  "posts": [
+    { "id": "2126348304875139216", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "The New Arab: Taliban bans women's names on official documents in province", "url": "https://newarab.com/news/taliban-bans-womens-names-official-documents-province" },
+    { "label": "Latin Times: Taliban orders Afghan women's names replaced with 'Bibi' in Balkh records", "url": "https://www.latintimes.com/taliban-balkh-womens-names-replaced-bibi-601922" }
+  ]
+}
