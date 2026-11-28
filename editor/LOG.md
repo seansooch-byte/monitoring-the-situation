@@ -8772,3 +8772,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; plan not rebuilt. For the next story pass: F-35 white Sidewinder report, Kwankwaso/EFCC statement, Silly Bandz hoax.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T06:40Z
+- Captures read: 0607Z on 11-28. Last read: 0607Z.
+- X's check: 0607Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. (The 2203Z run on 11-27 still shows 1 mismatched, as before.) Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 39 items in the file, 36 on the front (2 new, 2 dropped; the build holds 3 back as second posts from one account). Dropped, past 36 hours: Geiger Capital Thanksgiving post, Polymarket AI safety post. Added: Watcher Guru WLFI drop, Cointelegraph United Fidelity bank closure (both say "Not checked here"). Capture field moved to 0607Z. Quiet: internet, life.
+- Added: none. Updated: none (pulse pass).
+- Left out: rawsalerts PETA community note (point not clear); Fabrizio Romano Forest win (sports already full); Netflix Tupac Tapes post (claims about a real person, nothing outside X); Elon Musk posts (account already holds a place); Reuters Costa Rica and OpenAI/Apple posts (small); Eric Daugherty post (insults named people); WLFI and bank copies.
+- Requests: none added or removed. For the next story pass: United Fidelity Bank closure (check FDIC), WLFI token drop, OpenAI countersuit against Apple.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
