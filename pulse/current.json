@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-27T23:15:00Z",
-  "capture": "2026-11-27T2300Z",
+  "updated_at": "2026-11-28T00:20:00Z",
+  "capture": "2026-11-28T0000Z",
   "items": [
     {
       "id": "2125977202680644037",
@@ -12,12 +12,6 @@
       "id": "2125976653935345753",
       "desk": "business",
       "line": "Reuters reports that the airline Norse Atlantic says it faces a risk of bankruptcy and has suspended flights."
-    },
-    {
-      "id": "2125922634156106099",
-      "desk": "offbeat",
-      "line": "Dexerto reports that a Christmas market that used AI-made promotional images has been cancelled, because visitors arrived to find a sparse warehouse with a leaking roof that looked nothing like the pictures.",
-      "also": []
     },
     {
       "id": "2125998265707483323",
@@ -39,12 +33,6 @@
       "id": "2126024872773951938",
       "desk": "tech",
       "line": "Binance says its withdrawal recovery after a security incident is complete and the suspension has been lifted on nearly all networks, with a small number paused for maintenance. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125925032840884488",
-      "desk": "offbeat",
-      "line": "Rainmaker1973, an account that shares science and curiosity clips, posts a video of about a minute that it says shows a North Carolina animal shelter serving Thanksgiving dinner to its dogs and cats.",
       "also": []
     },
     {
@@ -87,12 +75,6 @@
       "id": "2126064597039997254",
       "desk": "business",
       "line": "Elon Musk, replying to another user, says he will donate another share of SpaceX to all kids in America every year. A story on this page covers his earlier pledge. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125915002813260004",
-      "desk": "business",
-      "line": "Watcher Guru, an account that posts market news, says Nvidia has ordered its manufacturing partners to halt shipments of servers containing its chips to Thailand, Malaysia, Indonesia and Singapore. Not checked here.",
       "also": []
     },
     {
@@ -159,12 +141,6 @@
       "id": "2126364062191956112",
       "desk": "entertainment",
       "line": "PopCrave, a pop culture account, says the final episode of \"Chicken Shop Date\" is out on YouTube and Netflix, with Amelia Dimoldenberg's therapist Esther Perel as the guest.",
-      "also": []
-    },
-    {
-      "id": "2125911818916827326",
-      "desk": "entertainment",
-      "line": "PolitlcsUK, a news account, says Channel 4 has announced a documentary with former BBC presenter Huw Edwards called \"Huw Edwards - Guilty\". Not checked here.",
       "also": []
     },
     {

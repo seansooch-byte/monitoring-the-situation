@@ -8712,3 +8712,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 4 ids added, 4 removed; plan rebuilt for 00Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim, East Coast storm, Silly Bandz closure.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T00:20Z
+- Captures read: 0000Z on 11-28. Last read: 0000Z.
+- X's check: 0000Z 40 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 41 items in the file, 35 on the front (0 new, 4 dropped; the build holds 6 back as second posts from one account). Dropped, over 36 hours: Dexerto AI Christmas market post, Rainmaker1973 clip, Watcher Guru Nvidia post, PolitlcsUK Channel 4 post. Offbeat is now one item.
+- Added: none. Updated: none (pulse pass).
+- Left out: new Elon Musk posts (Grok Bot deals, Tesla super vision; account already on pulse); Villeneuve Dune post (DiscussingFilm already on pulse); Kevin O'Leary China AI claim and USAID, Sheinbaum and CIA hack claims (unconfirmed); nurse whistleblower, Iranian bride, NYPD rescue (private_individual); Eric Daugherty and Gunther Eagleman posts (political claims, nothing outside X); the rest were far smaller than the pulse items.
+- Requests: none added or removed. Watch list: 4 ids removed; plan rebuilt for 01Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim, East Coast storm, Silly Bandz closure.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
