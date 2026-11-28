@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T00:20:00Z",
-  "capture": "2026-11-28T0000Z",
+  "updated_at": "2026-11-28T01:20:00Z",
+  "capture": "2026-11-28T0107Z",
   "items": [
     {
       "id": "2125977202680644037",
@@ -17,11 +17,6 @@
       "id": "2125998265707483323",
       "desk": "markets",
       "line": "Unusual Whales summarises the Federal Reserve's latest Financial Stability Report as warning about \"circular financing\" in AI, and gives dollar figures for Nvidia. The report does use the phrase; the Nvidia figures were not found in it and are not checked here."
-    },
-    {
-      "id": "2125928504827035955",
-      "desk": "music",
-      "line": "A fan account says U2's performance of \"Sunday Bloody Sunday\" at the NFL Thanksgiving Eve halftime show felt like a scene from an epic movie."
     },
     {
       "id": "2126018532060061963",
@@ -105,12 +100,6 @@
       "id": "2126047246823170072",
       "desk": "politics",
       "line": "Kamala Harris posts a Thanksgiving video in which she says she answers questions about the dish she is known for, the best gift to bring a host and her husband's onion goggles.",
-      "also": []
-    },
-    {
-      "id": "2125928675304685594",
-      "desk": "offbeat",
-      "line": "A Turkish-language post says UFC fighter Khabib head-wrestled a goat and stopped when he found he could not beat it. It carries a 24-second video. I have not checked it.",
       "also": []
     },
     {
@@ -237,6 +226,29 @@
       "id": "2126385496352006146",
       "desk": "entertainment",
       "line": "PopBase, a pop culture account, says JoJo Siwa and Chris Hughes have broken up after a year and a half, citing People. Not checked here."
+    },
+    {
+      "id": "2126469293093314656",
+      "desk": "sports",
+      "line": "WWE announces that Jermaine Haley, known to fans as Bronson Reed, has died, and offers condolences to his family, friends and fans. The cause is not given in the post."
+    },
+    {
+      "id": "2126437061452275776",
+      "desk": "world",
+      "line": "Médecins Sans Frontières (MSF) says two of its watchmen were killed in an Israeli strike on one of its Gaza clinics, that the site was marked with its logos and known to the Israeli military, and calls for accountability. Not checked here."
+    },
+    {
+      "id": "2126443794329407496",
+      "desk": "sports",
+      "line": "The NFL on Prime account posts a short video of Al Michaels reading a message he says he received from Aaron Rodgers that day. The message is not given in the post text.",
+      "also": [
+        "2126467807315423302"
+      ]
+    },
+    {
+      "id": "2126329415349235973",
+      "desk": "music",
+      "line": "A fan account posts a video it says shows Tupac Shakur's comments about the rap duo Mobb Deep, and says the room was shaken. The date and setting of the clip were not checked here."
     }
   ]
 }

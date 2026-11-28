@@ -8722,3 +8722,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 4 ids removed; plan rebuilt for 01Z. For the next story pass: Air Force cloud breach (Reuters), Claude sabotage claim, East Coast storm, Silly Bandz closure.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T01:20Z
+- Captures read: 0107Z on 11-28. Last read: 0107Z.
+- X's check: 0107Z 92 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 43 items in the file, 37 on the front (4 new, 2 dropped; the build holds 6 back as second posts from one account). Dropped, over 36 hours: U2 halftime fan post, offbeat post 2125928675304685594. New: WWE announcement on Bronson Reed, MSF statement on Gaza clinic watchmen, NFL on Prime Al Michaels/Rodgers video (Schefter post in also), Tupac clip. Offbeat is now empty.
+- Added: none. Updated: none (pulse pass).
+- Left out: Naruto censorship photos (no description, point not clear); Netflix "bomb" post (no content visible); old_content posts (Grok Bot, BTS, Trillanes); mccahell wedding gift post (private_individual); btarunr Passport Act post and Iyervval law exam post (claims about a named person, nothing outside X); Eric Daugherty IBM H-1B and Gunther Eagleman Air Force posts (nothing outside X; Air Force breach already noted for story pass); the rest smaller than pulse items.
+- Requests: none added or removed. Watch list: 3 ids removed, 5 added; plan rebuilt for 02Z. For the next story pass: MSF Gaza clinic strike (needs MSF/Israeli statements outside X), Bronson Reed death (needs outside confirmation), Air Force cloud breach, East Coast storm.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
