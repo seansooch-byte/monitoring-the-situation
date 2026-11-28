@@ -1,0 +1,26 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-27-air-force-cloud-one-breach",
+  "title": "Reuters: hackers breached the Air Force's Cloud One platform",
+  "dek": "Anonymous sources say the intrusion touches air defense, munitions tracking and personnel systems. The Air Force has not confirmed it.",
+  "desks": ["defense", "tech"],
+  "standing": "developing",
+  "started_at": "2026-11-27T11:36:52Z",
+  "updated_at": "2026-11-28T02:30:00Z",
+  "what": [
+    "On Friday 27 November 2026 Reuters reported, in an exclusive, that hackers had breached Cloud One, the US Air Force's flagship cloud computing platform. Its reporters, Mike Stone and Raphael Satter, cite anonymous people familiar with the matter. Reuters's own post says three; the Military Times copy of the story says five. I could not settle the count.",
+    "Reuters and Military Times say the systems that run on Cloud One include Cloud-Based Command and Control, which collects air defense radar data, and the Theater Integrated Combat Munitions System, which tracks munitions at more than 200 locations. Personnel, payroll, logistics and maintenance applications also run there. Reuters does not say which of these the hackers reached.",
+    "The sources say the intrusion was found within the past month during upgrade work. They say it blocked application updates, paused migrations, and removed administrator rights from some users. Cyber Command is said to be assessing the damage.",
+    "Reuters could not establish who the hackers are, how far they got, whether data was taken, or what flaw they used. The Air Force told Reuters it does not comment on the security posture, vulnerabilities or operational status of specific networks. Fox News says the Air Force has not publicly confirmed the breach.",
+    "Other federal systems were reported breached this month. I found no source linking this one to them."
+  ],
+  "why": "It follows a run of federal breach reports, and the systems named are military ones. The Air Force has said little, so most posts repeat the Reuters wording.",
+  "next": "Whether the Air Force or Cyber Command confirms the breach, and whether anyone names the hackers or what was taken.",
+  "posts": [
+    { "id": "2126279085215391931", "role": "origin" },
+    { "id": "2126385243968204872", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Military Times (Reuters): Hackers breach US Air Force flagship Cloud One computing platform", "url": "https://www.militarytimes.com/news/your-military/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/" }
+  ]
+}

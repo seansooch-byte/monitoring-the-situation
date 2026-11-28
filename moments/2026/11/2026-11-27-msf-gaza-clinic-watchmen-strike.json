@@ -1,0 +1,24 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-27-msf-gaza-clinic-watchmen-strike",
+  "title": "MSF and Israel disagree over who two men killed at a Gaza clinic were",
+  "dek": "MSF says two of its watchmen died in a direct hit on a marked clinic. The Israeli military says it killed two Hamas members who worked as guards there.",
+  "desks": ["world"],
+  "standing": "disputed",
+  "started_at": "2026-11-27T22:04:37Z",
+  "updated_at": "2026-11-28T02:30:00Z",
+  "what": [
+    "On the night of Friday 27 November 2026 Médecins Sans Frontières (Doctors Without Borders) said two colleagues, both watchmen, were killed in an Israeli strike on one of its Gaza clinics. Newscord places the clinic in Gaza City. MSF says this brings the number of its colleagues killed in Gaza to 17. It says the premises were marked with its logos and that their location was known to the Israeli military. It calls for accountability.",
+    "The Israeli military says it killed two Hamas members who worked as security guards at the clinic. Ynet reports its statement: one was a commander in Hamas's military wing, and both were planning attacks and helping rebuild the group's capability in breach of the ceasefire. It says no medical infrastructure in the area was damaged. It has offered no evidence that I could find, and it does not address MSF's word \"direct hit\".",
+    "I could not confirm either account outside these two statements. MSF has not said what it knew of the men beyond their jobs, and the Israeli claim about them has not been checked independently. The ceasefire began in October 2025, according to Newscord, and Israel has revoked the operating licences of MSF and other aid groups over registration."
+  ],
+  "why": "Aid-worker deaths and claims of militants embedded in aid groups are an old, sharp dispute, and each side's statement fits what its audience already believes.",
+  "next": "Any independent account of the strike, evidence for or against the Israeli claim, and a response from MSF to it.",
+  "posts": [
+    { "id": "2126437061452275776", "role": "origin" }
+  ],
+  "sources": [
+    { "label": "Ynet: IDF eliminates two Hamas terrorists working for Doctors Without Borders in Gaza", "url": "https://www.ynetnews.com/article/bysj4opj7g" },
+    { "label": "Newscord: Doctors Without Borders says Israeli strike killed two guards at Gaza clinic", "url": "https://newscord.org/article/doctors-without-borders-says-israeli-strike-killed-two-guards-at-gaza-clinic--Story_20261127_DoctorsWithoutBorder63b275b6" }
+  ]
+}

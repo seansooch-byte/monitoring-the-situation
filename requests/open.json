@@ -1,5 +1,18 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-11-28T01:20:00Z",
-  "requests": []
+  "updated_at": "2026-11-28T02:35:00Z",
+  "requests": [
+    {
+      "id": "r-2026-11-28-01",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the Israeli military (IDF), COGAT or Israeli officials about the 27 November strike on a Doctors Without Borders (MSF) clinic in Gaza City, and any posts from independent outlets or Gaza officials describing the two men killed."
+    },
+    {
+      "id": "r-2026-11-28-02",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from the US Air Force, the Pentagon or Cyber Command responding to the Reuters report of a breach of the Cloud One platform."
+    }
+  ]
 }

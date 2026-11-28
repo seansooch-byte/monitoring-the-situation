@@ -8732,3 +8732,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 3 ids removed, 5 added; plan rebuilt for 02Z. For the next story pass: MSF Gaza clinic strike (needs MSF/Israeli statements outside X), Bronson Reed death (needs outside confirmation), Air Force cloud breach, East Coast storm.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T02:40Z
+- Captures read: 0205Z on 11-28. Last read: 0205Z.
+- X's check: 0205Z 96 confirmed, 0 missing, 0 mismatched, 1 withheld. (The 2203Z run on 11-27 still shows 1 mismatched, as before.) Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 43 items in the file, 37 on the front (0 new, 0 dropped; nothing past 36 hours; the build holds 6 back as second posts from one account). Capture field moved to 0205Z.
+- Added: 2026-11-27-air-force-cloud-one-breach (defense), 2026-11-27-bronson-reed-dies-at-38 (sports), 2026-11-27-msf-gaza-clinic-watchmen-strike (world, disputed). Updated: none.
+- Left out: East Coast storm (not researched this pass); Claude sabotage claim (nothing outside X); USAID claims (nothing outside X); the WWE remembrance post 2126486850374123582 (names the wife and child); private_individual posts; Taliban naming report and Tim Robinson item (not researched).
+- Requests: added r-2026-11-28-01 (Israeli side on the MSF clinic strike; the capture holds only MSF's post) and r-2026-11-28-02 (Air Force or Pentagon response). Watch list: 5 ids added; plan rebuilt for 03Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

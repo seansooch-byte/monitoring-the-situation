@@ -1,0 +1,23 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-27-bronson-reed-dies-at-38",
+  "title": "WWE says wrestler Bronson Reed has died at 38",
+  "dek": "WWE gave \"medical complications\" and no more. He was reported hurt at an event three weeks earlier; WWE has not linked the two.",
+  "desks": ["sports", "entertainment"],
+  "standing": "established",
+  "started_at": "2026-11-28T00:12:42Z",
+  "updated_at": "2026-11-28T02:30:00Z",
+  "what": [
+    "WWE announced on the evening of Friday 27 November 2026, US time, that Jermaine Haley, who wrestled as Bronson Reed, had died that day at 38. Its statement, as carried by Pro Wrestling Dot Net, says he died \"due to medical complications\" and calls him \"a devoted family man.\" WWE gave no further detail.",
+    "Pro Wrestling Dot Net also reports that Reed was hurt at WWE's Crown Jewel show in Saudi Arabia on 7 November, in a stage spot with another wrestler, and went home about 10 days later. It credits the site F4W Online for the return. I did not open F4W Online. WWE has not said whether his death is related to that injury."
+  ],
+  "why": "He was a current WWE performer and the news came on a holiday evening with no cause given.",
+  "next": "Whether WWE or his family give a cause.",
+  "posts": [
+    { "id": "2126469293093314656", "role": "official" },
+    { "id": "2126473915056755075", "role": "voice" }
+  ],
+  "sources": [
+    { "label": "Pro Wrestling Dot Net: WWE star Bronson Reed dead at age 38", "url": "https://prowrestling.net/site/2026/11/27/wwe-star-bronson-reed-dead-at-age-38/" }
+  ]
+}
