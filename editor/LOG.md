@@ -8752,3 +8752,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 5 ids added; plan rebuilt for 04Z. For the next story pass: Taliban naming report (Daily Mail), MSF Gaza clinic strike, East Coast storm.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T04:15Z
+- Captures read: 0401Z on 11-28. Last read: 0401Z.
+- X's check: 0401Z 43 confirmed, 0 missing, 0 mismatched, 0 withheld. (The 2203Z run on 11-27 still shows 1 mismatched, as before.) Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 43 items in the file, 39 on the front (0 new, 2 dropped; the build holds 4 back as second posts from one account). Dropped, past 36 hours: sithdaddyx internet post, SkyNews justice post. Internet is now empty. Capture field moved to 0401Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Elon Musk "Yes" and "Yup" posts (no point without the posts they answer) and his AI software post (account already holds a place); Fabrizio Romano Inter Miami post (sports already full); jackunheard Trump Account post (uses a slur); Dexerto Dragon Ball singer post and the Mamdani encampment post (claims about named or private people, nothing outside X); toddesque fandom video (point not clear); Reuters Iran ship and RETN posts (smaller than pulse items; Iran ship noted for story pass); FranceskAlbs (private_individual).
+- Requests: none added or removed. Watch list: 2 ids removed; plan rebuilt for 05Z. One npm test run showed 2 failures while verify ran alongside; the rerun passed 162, 0 fail.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
