@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T13:17:32Z",
-  "capture": "2026-11-28T1301Z",
+  "updated_at": "2026-11-28T14:19:24Z",
+  "capture": "2026-11-28T1406Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -172,12 +172,6 @@
       ]
     },
     {
-      "id": "2126534126991761683",
-      "desk": "markets",
-      "line": "Cointelegraph, a crypto news outlet, says federal regulators shut down Indiana-based United Fidelity, a $6 billion bank, and that First Citizens is taking over all its deposits and assets. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2126358985385312578",
       "desk": "world",
       "line": "Polymarket, a prediction market account, says the Canadian Supreme Court has upheld Quebec’s law banning public employees from wearing religious symbols. A story on this page covers the ruling.",
@@ -223,6 +217,12 @@
       "id": "2126195279603085535",
       "desk": "world",
       "line": "A Spanish-language post with an 83-second video calls Con Dao prison “hell on Earth” and says what it shows is inhuman. The post gives no source, place detail or date for the video. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126656770705699066",
+      "desk": "markets",
+      "line": "World Liberty Financial (WLFI) says Binance automatically closed WLFI perpetual futures positions overnight on both sides, and that some users report profitable positions settled as losses. It says Binance runs those markets and WLFI had no involvement. Not checked here.",
       "also": []
     }
   ]

@@ -8852,3 +8852,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list gained 2 ids (Reuters bank post, Con Dao post), plan rebuilt for 14Z. For the next story pass: United Fidelity Bank (check FDIC for the $5.9 billion figure), the CPAC_TV mismatch.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T14:25Z
+- Captures read: 1406Z on 11-28. Last read: 1406Z.
+- X's check: 1406Z 160 confirmed, 0 missing, 4 mismatched (2126476197651755400 FreeThinkerFit Bronson Reed post; 2126676417752772614 and 2126676502553256352 official_jo1; 2126676492570829182 number_i_offic; none cited anywhere), 3 withheld (2105339754346590609, 2123040739819233710, 936199918724583424). Build warns of the same three older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 38 items in the file, 34 on the front (1 new, 1 dropped; the build holds 4 back as second posts from one account). Added: World Liberty Financial's own post on Binance closing WLFI futures positions (markets; line says Not checked here). Dropped: Cointelegraph United Fidelity post (a repeat of the Polymarket and Reuters posts already there). Capture field moved to 1406Z. The FT AI post passes 36 hours at about 14:49Z and goes next pass.
+- Added: none. Updated: none (pulse pass).
+- Left out: Tupac and Mobb Deep clip (profanity, a dead person's remarks, music already has two); Hunter Schafer, Daily Mail and private-individual posts; Musk posts (account already holds places); anime, NFL and football repeats (desks full); Bronson Reed and JO1 posts (mismatch).
+- Requests: none added or removed; watch list swapped one id (Cointelegraph out, WLFI in), plan rebuilt for 15Z. For the next story pass: United Fidelity Bank (FDIC), WLFI and Binance (check Binance and press), the CPAC_TV mismatch.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
