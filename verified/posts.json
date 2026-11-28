@@ -200773,6 +200773,13 @@
   "handle": "tedlieu",
   "run": "2026-11-07T1301Z"
  },
+ "2118935174863896747": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:45Z",
+  "handle": "NBA",
+  "run": "2026-11-28T0607Z"
+ },
  "2118935177573666974": {
   "result": "ok",
   "detail": null,
@@ -376578,6 +376585,13 @@
   "handle": "catturd2",
   "run": "2026-11-28T0205Z"
  },
+ "2126315105470009714": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:39Z",
+  "handle": "netflix",
+  "run": "2026-11-28T0607Z"
+ },
  "2126316946886979954": {
   "result": "ok",
   "detail": null,
@@ -377348,6 +377362,13 @@
   "handle": "LaurenMaeve",
   "run": "2026-11-28T0507Z"
  },
+ "2126356626890211490": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:39Z",
+  "handle": "F1",
+  "run": "2026-11-28T0607Z"
+ },
  "2126356663359975836": {
   "result": "ok",
   "detail": null,
@@ -377844,6 +377865,13 @@
   "checked_at": "2026-11-27T23:11:07Z",
   "handle": "TayeDiggs",
   "run": "2026-11-27T2300Z"
+ },
+ "2126388526841200753": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:38Z",
+  "handle": "EricLDaugh",
+  "run": "2026-11-28T0607Z"
  },
  "2126388636325499201": {
   "result": "ok",
@@ -379027,6 +379055,13 @@
   "checked_at": "2026-11-28T00:10:29Z",
   "handle": "phil_osifer",
   "run": "2026-11-28T0000Z"
+ },
+ "2126434520224403853": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:38Z",
+  "handle": "FabrizioRomano",
+  "run": "2026-11-28T0607Z"
  },
  "2126434964136661419": {
   "result": "ok",
@@ -380274,6 +380309,13 @@
   "handle": "HYPEX",
   "run": "2026-11-28T0305Z"
  },
+ "2126505770988548516": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:44Z",
+  "handle": "elonmusk",
+  "run": "2026-11-28T0607Z"
+ },
  "2126505868107891117": {
   "result": "ok",
   "detail": null,
@@ -380344,6 +380386,13 @@
   "handle": "LakeShowYo",
   "run": "2026-11-28T0507Z"
  },
+ "2126513955539415103": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:40Z",
+  "handle": "Reuters",
+  "run": "2026-11-28T0607Z"
+ },
  "2126515038618034360": {
   "result": "ok",
   "detail": null,
@@ -380393,12 +380442,26 @@
   "handle": "barstoolsports",
   "run": "2026-11-28T0507Z"
  },
+ "2126524013119672515": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:40Z",
+  "handle": "Reuters",
+  "run": "2026-11-28T0607Z"
+ },
  "2126524060633063642": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-28T05:20:28Z",
   "handle": "MarryMarAw",
   "run": "2026-11-28T0507Z"
+ },
+ "2126524214048063836": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:44Z",
+  "handle": "MacRumors",
+  "run": "2026-11-28T0607Z"
  },
  "2126525841534546194": {
   "result": "ok",
@@ -380407,12 +380470,26 @@
   "handle": "AdamSchefter",
   "run": "2026-11-28T0507Z"
  },
+ "2126525841668481496": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:40Z",
+  "handle": "rawsalerts",
+  "run": "2026-11-28T0607Z"
+ },
  "2126526509351608791": {
   "result": "withheld",
   "detail": "X will not show this post without a login",
   "checked_at": "2026-11-28T05:20:37Z",
   "handle": "Layds_",
   "run": "2026-11-28T0507Z"
+ },
+ "2126526576011469010": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:43Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-28T0607Z"
  },
  "2126527622327001095": {
   "result": "ok",
@@ -380441,6 +380518,13 @@
   "checked_at": "2026-11-28T05:20:26Z",
   "handle": "MarioNawfal",
   "run": "2026-11-28T0507Z"
+ },
+ "2126529047148613637": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:39Z",
+  "handle": "Reuters",
+  "run": "2026-11-28T0607Z"
  },
  "2126529205932544132": {
   "result": "ok",
@@ -380526,12 +380610,103 @@
   "handle": "FabrizioRomano",
   "run": "2026-11-28T0507Z"
  },
+ "2126534126991761683": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:42Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-28T0607Z"
+ },
  "2126534767776555288": {
   "result": "ok",
   "detail": null,
   "checked_at": "2026-11-28T05:20:24Z",
   "handle": "FearedBuck",
   "run": "2026-11-28T0507Z"
+ },
+ "2126538443450937788": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:44Z",
+  "handle": "cryptorover",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126538472508801049": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:45Z",
+  "handle": "elonmusk",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126539857581511160": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:45Z",
+  "handle": "elonmusk",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126543872100852122": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:43Z",
+  "handle": "BullTheoryio",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126544063180783963": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:42Z",
+  "handle": "cryptorover",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126546128418263547": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:41Z",
+  "handle": "DiscussingFilm",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126546852959093033": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:41Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126548562288971955": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:40Z",
+  "handle": "WatcherGuru",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126549551637234114": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:42Z",
+  "handle": "cryptorover",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126550720837042643": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:43Z",
+  "handle": "Cointelegraph",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126553822302794050": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:41Z",
+  "handle": "WatcherGuru",
+  "run": "2026-11-28T0607Z"
+ },
+ "2126555516843544635": {
+  "result": "ok",
+  "detail": null,
+  "checked_at": "2026-11-28T06:16:42Z",
+  "handle": "AshCrypto",
+  "run": "2026-11-28T0607Z"
  },
  "237217446099030020": {
   "result": "ok",

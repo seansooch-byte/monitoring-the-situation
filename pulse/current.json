@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T05:40:00Z",
-  "capture": "2026-11-28T0507Z",
+  "updated_at": "2026-11-28T06:40:00Z",
+  "capture": "2026-11-28T0607Z",
   "items": [
-    {
-      "id": "2126018532060061963",
-      "desk": "ideas",
-      "line": "Geiger Capital, a finance account, posts a Thanksgiving message saying half of the Mayflower settlers were dead after the first winter and that the 53 survivors held the first harvest in 1621. Not checked here.",
-      "also": []
-    },
     {
       "id": "2126024872773951938",
       "desk": "tech",
@@ -103,12 +97,6 @@
       "id": "2126023387025981636",
       "desk": "sports",
       "line": "Adam Schefter reports that with Justin Herbert in concussion protocol, the Chargers have signed veteran quarterback Jake Browning to their active roster.",
-      "also": []
-    },
-    {
-      "id": "2126020268405784724",
-      "desk": "ai",
-      "line": "Polymarket's account says AI safety researcher Nikola Jurkovic warns this could be \"humanity's last Thanksgiving.\" Not checked here.",
       "also": []
     },
     {
@@ -226,6 +214,18 @@
       "id": "2126186615043498354",
       "desk": "science",
       "line": "A user posts a time-lapse the post says shows Ship 42 being stacked onto Booster 22 at Starbase, and says the main lift takes around 30 minutes. Not checked here."
+    },
+    {
+      "id": "2126548562288971955",
+      "desk": "markets",
+      "line": "Watcher Guru, a markets news account, says the WLFI token of the Trump family's World Liberty Financial crashed more than 35% in 15 minutes. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126534126991761683",
+      "desk": "markets",
+      "line": "Cointelegraph, a crypto news outlet, says federal regulators shut down Indiana-based United Fidelity, a $6 billion bank, and that First Citizens is taking over all its deposits and assets. Not checked here.",
+      "also": []
     }
   ]
 }
