@@ -1,14 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T06:40:00Z",
-  "capture": "2026-11-28T0607Z",
+  "updated_at": "2026-11-28T07:15:00Z",
+  "capture": "2026-11-28T0659Z",
   "items": [
-    {
-      "id": "2126024872773951938",
-      "desk": "tech",
-      "line": "Binance says its withdrawal recovery after a security incident is complete and the suspension has been lifted on nearly all networks, with a small number paused for maintenance. Not checked here.",
-      "also": []
-    },
     {
       "id": "2126279085215391931",
       "desk": "defense",
@@ -37,12 +31,6 @@
       "id": "2126064597039997254",
       "desk": "business",
       "line": "Elon Musk, replying to another user, says he will donate another share of SpaceX to all kids in America every year. A story on this page covers his earlier pledge. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2126021729495478460",
-      "desk": "markets",
-      "line": "Shayne Coplan says Nvidia H100 perpetual contracts with up to 3x leverage are now live on the platform. Not checked here.",
       "also": []
     },
     {
@@ -91,12 +79,6 @@
       "id": "2126056382353056182",
       "desk": "sports",
       "line": "The NFL's account posts a short video it labels as a 70-yard touchdown by Jahmyr Gibbs.",
-      "also": []
-    },
-    {
-      "id": "2126023387025981636",
-      "desk": "sports",
-      "line": "Adam Schefter reports that with Justin Herbert in concussion protocol, the Chargers have signed veteran quarterback Jake Browning to their active roster.",
       "also": []
     },
     {
@@ -225,6 +207,12 @@
       "id": "2126534126991761683",
       "desk": "markets",
       "line": "Cointelegraph, a crypto news outlet, says federal regulators shut down Indiana-based United Fidelity, a $6 billion bank, and that First Citizens is taking over all its deposits and assets. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126358985385312578",
+      "desk": "world",
+      "line": "Polymarket, a prediction market account, says the Canadian Supreme Court has upheld Quebec’s law banning public employees from wearing religious symbols. Not checked here.",
       "also": []
     }
   ]
