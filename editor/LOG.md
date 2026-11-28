@@ -8812,3 +8812,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list updated (4 removed, 2 added), plan rebuilt for 10Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T10:30Z
+- Captures read: 1004Z on 11-28. Last read: 1004Z.
+- X's check: 1004Z 25 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 37 items in the file, 33 on the front (3 new, 0 dropped; the build holds 4 back as second posts from one account). Added: Musk on non-profits (ideas, opinion, "Not checked here"), White House Newsom clip (politics, "Not checked here"), RT China firefighting robot (tech, "Not checked here"). Capture field moved to 1004Z. Quiet: internet, life, medicine.
+- Added: none. Updated: none (pulse pass).
+- Left out: Fabrizio Romano, Bleacher Report, NFL and NBA posts (sports already full); Musk compute post (account already holds places); Andrew Curran Anthropic post (small, a link only); AshCrypto and unusual_whales posts (small, or account already placed); Visegrad24 Rotherham post (private_individual); Reuters, Sky News, Gerashchenko and kimmonismus posts (small).
+- Requests: none added or removed; watch list updated (3 added), plan rebuilt for 11Z. For the next story pass: Newsom commutations (check the governor's office), Micron DRAM supply (Nikkei).
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

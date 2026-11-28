@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T09:12:49Z",
-  "capture": "2026-11-28T0904Z",
+  "updated_at": "2026-11-28T10:14:32Z",
+  "capture": "2026-11-28T1004Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -197,6 +197,24 @@
       "id": "2126355368213189072",
       "desk": "offbeat",
       "line": "Rainmaker1973 posts a video and says a retired underwater operations soldier jumped in to save a life, and that his speed left onlookers speechless. Where and when it happened is not stated. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126376500584702103",
+      "desk": "ideas",
+      "line": "Elon Musk, replying to John Arnold and Paul Graham, says his observation is that giving money to \"non-profits\" rarely helps people and often hurts civilization by building a bureaucracy that cares only about getting more money. That is his opinion. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126449108810387647",
+      "desk": "politics",
+      "line": "The White House account posts a clip in which a speaker says Gavin Newsom is commuting the death sentences of 548 people, and says victims' families share their stories. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126356432618410180",
+      "desk": "tech",
+      "line": "RT posts a video it says shows a Chinese firefighting robot that can endure 1,000°C heat walking into a fire and out again still working. Not checked here.",
       "also": []
     }
   ]
