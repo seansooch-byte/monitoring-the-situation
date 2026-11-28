@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T14:19:24Z",
-  "capture": "2026-11-28T1406Z",
+  "updated_at": "2026-11-28T15:12:39Z",
+  "capture": "2026-11-28T1502Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -83,11 +83,6 @@
       "id": "2126171719916470755",
       "desk": "sports",
       "line": "SportsCenter posts a 20-second clip it describes as the Bills winning the Chiefs-Bills Thanksgiving night game with a walk-off finish. The clip comes from the NFL."
-    },
-    {
-      "id": "2126146327532712205",
-      "desk": "ai",
-      "line": "The Financial Times posts a link to an article titled \"Can AI replace economics PhDs?\""
     },
     {
       "id": "2126375103780839453",

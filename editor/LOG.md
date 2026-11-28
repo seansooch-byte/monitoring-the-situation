@@ -8862,3 +8862,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list swapped one id (Cointelegraph out, WLFI in), plan rebuilt for 15Z. For the next story pass: United Fidelity Bank (FDIC), WLFI and Binance (check Binance and press), the CPAC_TV mismatch.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T15:20Z
+- Captures read: 1502Z on 11-28. Last read: 1502Z.
+- X's check: 1502Z 71 confirmed, 0 missing, 0 mismatched, 2 withheld. Earlier mismatches (1206Z to 1406Z, none cited anywhere) stand as logged. Build warns of the same three older story-cited posts X has not confirmed (2116569280900706479, 2117537320392130634, 2119523308580511928).
+- Pulse: 37 items in the file, 33 on the front (0 new, 1 dropped; the build holds 4 back as second posts from one account). Dropped: the FT AI post (past 36 hours). Capture field moved to 1502Z. Nothing in 1502Z was both new and large enough to add. Quiet: internet, life, medicine, defense, disaster.
+- Added: none. Updated: none (pulse pass).
+- Left out: nothing new beyond earlier passes' reasons.
+- Requests: none added or removed; the FT id came off the watch list, plan rebuilt for 16Z. For the next story pass: United Fidelity Bank (FDIC), WLFI and Binance, the CPAC_TV mismatch.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
