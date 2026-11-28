@@ -1,13 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T04:13:38Z",
-  "capture": "2026-11-28T0401Z",
+  "updated_at": "2026-11-28T05:40:00Z",
+  "capture": "2026-11-28T0507Z",
   "items": [
-    {
-      "id": "2125998265707483323",
-      "desk": "markets",
-      "line": "Unusual Whales summarises the Federal Reserve's latest Financial Stability Report as warning about \"circular financing\" in AI, and gives dollar figures for Nvidia. The report does use the phrase; the Nvidia figures were not found in it and are not checked here."
-    },
     {
       "id": "2126018532060061963",
       "desk": "ideas",
@@ -22,7 +17,7 @@
     },
     {
       "id": "2126279085215391931",
-      "desk": "tech",
+      "desk": "defense",
       "line": "Reuters reports, in an exclusive, that hackers have breached the US Air Force's main cloud computing platform, citing three people familiar with the matter. Reuters says the breach could put tactical, personnel and logistics data at risk.",
       "also": []
     },
@@ -36,12 +31,6 @@
       "id": "2126061320097112142",
       "desk": "medicine",
       "line": "Sky News reports that Scotland's chief medical officer, Professor Sir Gregor Smith, has resigned, quoting his statement about his mental health. Sky says this follows questions from Holyrood's Health Committee about NHS Grampian.",
-      "also": []
-    },
-    {
-      "id": "2126003642507632979",
-      "desk": "defense",
-      "line": "Fox News reports that Kim Jong Un is pushing for more nuclear weapons while touring sites that make nuclear materials, based on blurred images released by North Korean state media. Fox says the US has not publicly responded.",
       "also": []
     },
     {
@@ -81,12 +70,6 @@
       "also": []
     },
     {
-      "id": "2125999078572204470",
-      "desk": "gaming",
-      "line": "HYPEX says Doki Doki Literature Club is coming to Fortnite the next day.",
-      "also": []
-    },
-    {
       "id": "2126054666614005897",
       "desk": "gaming",
       "line": "Dexerto reports that Rockstar hired Gran Turismo player Lewis Bentley to help develop GTA 6's driving physics, and that the studio has a racing team of employees that won its class at the 24 Hours of Nürburgring. Not checked here.",
@@ -123,12 +106,6 @@
       "also": []
     },
     {
-      "id": "2125998392065286544",
-      "desk": "life",
-      "line": "PETA, an animal rights group, posts \"Turkeys aren't food.\" on Thanksgiving.",
-      "also": []
-    },
-    {
       "id": "2126020268405784724",
       "desk": "ai",
       "line": "Polymarket's account says AI safety researcher Nikola Jurkovic warns this could be \"humanity's last Thanksgiving.\" Not checked here.",
@@ -156,7 +133,10 @@
     {
       "id": "2126392374284734903",
       "desk": "business",
-      "line": "PopCrave, a pop culture account, posts what it presents as a statement that Silly Bandz will shut down after Black Friday. I could not find this confirmed outside X. Not checked here."
+      "line": "PopCrave, a pop culture account, posts what it presents as a statement that Silly Bandz will shut down after Black Friday. A later post from PopBase says the company lied about shutting down as part of a \"viral Black Friday trend.\" I could not find either confirmed outside X. Not checked here.",
+      "also": [
+        "2126521906195271686"
+      ]
     },
     {
       "id": "2126338145348431874",

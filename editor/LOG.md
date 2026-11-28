@@ -8762,3 +8762,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed. Watch list: 2 ids removed; plan rebuilt for 05Z. One npm test run showed 2 failures while verify ran alongside; the rerun passed 162, 0 fail.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T05:45Z
+- Captures read: 0507Z on 11-28. Last read: 0507Z.
+- X's check: 0507Z 83 confirmed, 0 missing, 0 mismatched, 1 withheld. (The 2203Z run on 11-27 still shows 1 mismatched, as before.) Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 39 items in the file, 36 on the front (0 new, 4 dropped; the build holds 3 back as second posts from one account). Dropped, past 36 hours: Unusual Whales Fed report, Fox Kim Jong Un, HYPEX Doki Doki Fortnite, PETA turkeys. Silly Bandz line updated: PopBase now says the shutdown was a lie, attached in also. Reuters Air Force breach item moved from tech to defense. Capture field moved to 0507Z. Quiet: internet, life.
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix Thanksgiving post and HYPEX Captain X clip (point not clear from words); DemzDeliver Hinojosa post and BRICSinfo China sentence (nothing outside X); MarioNawfal F-35 Sidewinder post (small); Fox Air Force post (copy of the Reuters item); Schefter, PopBase and DiscussingFilm second posts (account already holds a place); Brady, Hunter Schafer, Tim Robinson, Tupac posts (claims about real people); private_individual posts; Claude sabotage claim (nothing outside X).
+- Requests: none added or removed; plan not rebuilt. For the next story pass: F-35 white Sidewinder report, Kwankwaso/EFCC statement, Silly Bandz hoax.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
