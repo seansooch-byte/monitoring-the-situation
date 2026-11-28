@@ -8842,3 +8842,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list updated (1 swapped), plan rebuilt for 13Z. For the next story pass: United Fidelity Bank (check FDIC; drop the pulse item if nothing), the CPAC_TV mismatch.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T13:20Z
+- Captures read: 1301Z on 11-28. Last read: 1301Z.
+- X's check: 1301Z 81 confirmed, 0 missing, 1 mismatched (2126340757661376823, CPAC_TV, the one flagged last pass; not cited anywhere), 2 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 38 items in the file, 34 on the front (1 new, 0 dropped; the build holds 4 back as second posts from one account). Added: soroshijueputa2 Con Dao prison video (world; Spanish, line says source and date not given, not checked). Updated: Polymarket on United Fidelity Bank now carries the Reuters post (2126632285185204499) in also; line says Reuters reports the shutdown and First Citizens purchase, and that the $5.9 billion figure is not in the Reuters post. Capture field moved to 1301Z. Quiet: internet, life, medicine, defense, disaster.
+- Added: none. Updated: none (pulse pass).
+- Left out: Daily Mail Iran bride and penis-surgery posts (graphic, and Daily Mail holds its place); Hunter Schafer surgery post (medical details of a person); Musk posts (account already holds places); Villeneuve, anime and NFL repeats (desks full); BRICSinfo China sentence and DemzDeliver Hinojosa post (aggregators, unchecked); Likah_Marie post (about a region's people).
+- Requests: none added or removed; watch list gained 2 ids (Reuters bank post, Con Dao post), plan rebuilt for 14Z. For the next story pass: United Fidelity Bank (check FDIC for the $5.9 billion figure), the CPAC_TV mismatch.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

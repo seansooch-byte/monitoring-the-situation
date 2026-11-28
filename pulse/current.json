@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T12:19:05Z",
-  "capture": "2026-11-28T1206Z",
+  "updated_at": "2026-11-28T13:17:32Z",
+  "capture": "2026-11-28T1301Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -24,8 +24,10 @@
     {
       "id": "2126531025568215040",
       "desk": "markets",
-      "line": "Polymarket, a prediction market account, says Indiana-based United Fidelity Bank has collapsed with $5.9 billion in assets, which it calls the largest US bank failure in over two years. Not checked here; an earlier search found no report of it.",
-      "also": []
+      "line": "Polymarket, a prediction market account, says Indiana-based United Fidelity Bank collapsed with $5.9 billion in assets. Reuters, in the attached post, says the bank shut and First Citizens buys its assets; the $5.9 billion figure is not in that post. Not checked here.",
+      "also": [
+        "2126632285185204499"
+      ]
     },
     {
       "id": "2126228217077932094",
@@ -215,6 +217,12 @@
       "id": "2126438201548046626",
       "desk": "politics",
       "line": "Libs of TikTok, a conservative account, says the Supreme Court will hear a major Second Amendment case next month on whether states can ban AR-15-style rifles, and that 11 Democrat-controlled states and D.C. have such bans. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126195279603085535",
+      "desk": "world",
+      "line": "A Spanish-language post with an 83-second video calls Con Dao prison “hell on Earth” and says what it shows is inhuman. The post gives no source, place detail or date for the video. Not checked here.",
       "also": []
     }
   ]
