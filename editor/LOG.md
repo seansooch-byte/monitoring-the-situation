@@ -8802,3 +8802,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list updated (2 removed, 2 added), plan rebuilt for 09Z. For the next story pass: WLFI/USD1 depeg and the Justin Sun accusation (check company statements and reporting), United Fidelity closure (FDIC).
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T09:15Z
+- Captures read: 0904Z on 11-28. Last read: 0904Z.
+- X's check: 0904Z 24 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 34 items in the file, 31 on the front (2 new, 4 dropped; the build holds 3 back as second posts from one account). Dropped, past 36 hours: NFL Week 12 post, Dexerto post, Kamala Harris post, Sky News medicine post (medicine now quiet). Added: NFL Caleb Williams mic'd up clip (sports), Rainmaker1973 water rescue video (offbeat, "Not checked here"). Capture field moved to 0904Z. Quiet: internet, life, ideas, medicine.
+- Added: none. Updated: none (pulse pass).
+- Left out: Rainmaker1973 diving clip and gym CCTV clip (old_content; the CCTV one also private_individual); Fabrizio Romano quotes, F1 and NBA posts (sports already full); FearedBuck dating clip (private_individual); RT Israeli TV satire (a world item already covers it); barstool, PopBase, IGN and MarioNawfal posts (small or copies).
+- Requests: none added or removed; watch list updated (4 removed, 2 added), plan rebuilt for 10Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

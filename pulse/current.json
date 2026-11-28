@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T08:20:00Z",
-  "capture": "2026-11-28T0802Z",
+  "updated_at": "2026-11-28T09:12:49Z",
+  "capture": "2026-11-28T0904Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -13,12 +13,6 @@
       "id": "2126362766818623807",
       "desk": "science",
       "line": "NASA posts an image of a barred galaxy in Coma Berenices that it says astronomers think is what our Milky Way would look like from a similar vantage point.",
-      "also": []
-    },
-    {
-      "id": "2126061320097112142",
-      "desk": "medicine",
-      "line": "Sky News reports that Scotland's chief medical officer, Professor Sir Gregor Smith, has resigned, quoting his statement about his mental health. Sky says this follows questions from Holyrood's Health Committee about NHS Grampian.",
       "also": []
     },
     {
@@ -46,18 +40,6 @@
       "also": []
     },
     {
-      "id": "2126047246823170072",
-      "desk": "politics",
-      "line": "Kamala Harris posts a Thanksgiving video in which she says she answers questions about the dish she is known for, the best gift to bring a host and her husband's onion goggles.",
-      "also": []
-    },
-    {
-      "id": "2126054666614005897",
-      "desk": "gaming",
-      "line": "Dexerto reports that Rockstar hired Gran Turismo player Lewis Bentley to help develop GTA 6's driving physics, and that the studio has a racing team of employees that won its class at the 24 Hours of Nürburgring. Not checked here.",
-      "also": []
-    },
-    {
       "id": "2126325372665114876",
       "desk": "music",
       "line": "PopBase says the AI-generated song \"The Adult I Dreamed of\" by MEOMERU has achieved a Perfect All-Kill, topping all major streaming platforms' daily and real-time charts. Not checked here.",
@@ -67,12 +49,6 @@
       "id": "2126364062191956112",
       "desk": "entertainment",
       "line": "PopCrave, a pop culture account, says the final episode of \"Chicken Shop Date\" is out on YouTube and Netflix, with Amelia Dimoldenberg's therapist Esther Perel as the guest.",
-      "also": []
-    },
-    {
-      "id": "2126056382353056182",
-      "desk": "sports",
-      "line": "The NFL's account posts a short video it labels as a 70-yard touchdown by Jahmyr Gibbs.",
       "also": []
     },
     {
@@ -209,6 +185,18 @@
       "id": "2126358985385312578",
       "desk": "world",
       "line": "Polymarket, a prediction market account, says the Canadian Supreme Court has upheld Quebec’s law banning public employees from wearing religious symbols. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126336616906080681",
+      "desk": "sports",
+      "line": "The NFL posts a clip from its Week 12 \"Mic’d Up\" show on X. It says Caleb Williams lived up to his \"Ice\" nickname in the clutch.",
+      "also": []
+    },
+    {
+      "id": "2126355368213189072",
+      "desk": "offbeat",
+      "line": "Rainmaker1973 posts a video and says a retired underwater operations soldier jumped in to save a life, and that his speed left onlookers speechless. Where and when it happened is not stated. Not checked here.",
       "also": []
     }
   ]
