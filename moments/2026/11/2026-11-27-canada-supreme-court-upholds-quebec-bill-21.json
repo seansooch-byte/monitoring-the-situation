@@ -1,0 +1,36 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-27-canada-supreme-court-upholds-quebec-bill-21",
+  "title": "Canada's Supreme Court largely upholds Quebec's religious symbols law",
+  "dek": "The ruling on Bill 21 settles how far a province can go in using the notwithstanding clause, and leaves a ban on religious dress for some public workers in place.",
+  "desks": [
+    "world"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-27T16:54:22Z",
+  "updated_at": "2026-11-28T12:00:00Z",
+  "what": [
+    "On Friday 27 November 2026, the Supreme Court of Canada largely upheld Quebec's Bill 21, the 2019 law that bars some public employees from wearing religious symbols at work. Al Jazeera reports that it covers public school teachers, police officers and certain other public employees.",
+    "Al Jazeera reports that the court found Quebec had used the notwithstanding clause lawfully, and that the clause can be used before a court rules on whether a law breaks Charter rights. It also reports that the court found a face-covering rule, as it applies to elected members of Quebec's National Assembly, infringed their democratic rights.",
+    "Reaction, as reported by Al Jazeera: the National Council of Canadian Muslims called it \"a dark day in our constitutional democracy\". Prime Minister Mark Carney told the CBC that his colleagues were \"carefully studying\" the ruling of more than 500 pages. CP24 reports that Quebec Premier Paul St-Pierre Plamondon called it a good day for secularism in Quebec.",
+    "Sources describe the vote of the seven justices differently. I could not confirm it from the court's own text, so I do not state it here."
+  ],
+  "why": "The law has been argued over in Canada since 2019, and the question of how far a legislature may shield a law from the Charter reaches well beyond Quebec.",
+  "next": "Whether Ottawa or any challenger responds once the federal government finishes studying the ruling.",
+  "posts": [
+    {
+      "id": "2126358985385312578",
+      "role": "origin"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Al Jazeera: Canada's top court largely upholds Quebec's religious symbols ban",
+      "url": "https://www.aljazeera.com/news/2026/11/27/canadas-top-court-largely-upholds-quebecs-religious-symbols-ban"
+    },
+    {
+      "label": "CP24: Supreme Court of Canada upholds Quebec's secularism law",
+      "url": "https://www.cp24.com/news/canada/2026/11/27/supreme-court-of-canada-upholds-quebecs-secularism-law/"
+    }
+  ]
+}

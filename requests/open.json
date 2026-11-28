@@ -1,6 +1,6 @@
 {
   "schema": "mts.requests/1",
-  "updated_at": "2026-11-28T10:14:32Z",
+  "updated_at": "2026-11-28T11:16:51Z",
   "requests": [
     {
       "id": "r-2026-11-28-01",
@@ -13,6 +13,18 @@
       "kind": "search",
       "post": null,
       "ask": "Posts from the US Air Force, the Pentagon or Cyber Command responding to the Reuters report of a breach of the Cloud One platform."
+    },
+    {
+      "id": "r-2026-11-28-03",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts from Quebec or Canadian officials, and from groups that challenged Bill 21, reacting to the 27 November Supreme Court of Canada ruling."
+    },
+    {
+      "id": "r-2026-11-28-04",
+      "kind": "search",
+      "post": null,
+      "ask": "Posts defending Gavin Newsom's commutation of 548 California death sentences, from his office, from death penalty opponents or from his supporters, since 20 November."
     }
   ]
 }

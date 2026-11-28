@@ -8822,3 +8822,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: none added or removed; watch list updated (3 added), plan rebuilt for 11Z. For the next story pass: Newsom commutations (check the governor's office), Micron DRAM supply (Nikkei).
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T12:10Z
+- Captures read: 1108Z on 11-28. Last read: 1108Z.
+- X's check: 1108Z 18 confirmed, 0 missing, 0 mismatched, 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 34 on the front (1 new, 1 dropped). Dropped, past 36 hours: Musk SpaceX share pledge. Added: Libs of TikTok AR-15 case post (politics, "Not checked here"). Polymarket and White House lines now point to their stories. Capture field moved to 1108Z.
+- Added: 2026-11-27-canada-supreme-court-upholds-quebec-bill-21 (world); 2026-11-27-white-house-attacks-newsom-death-row-commutations (politics, justice). Updated: none.
+- Left out: Taliban women's names (only the Daily Mail post and a headline; I found no confirmation); WLFI/USD1 (the only reporting I found was a February depeg, nothing on the new post); United Fidelity Bank closure (I found no report of it); Huw Edwards documentary (involves a conviction and a minor's family, one side only); Micron DRAM (not researched); Spurs, Wemby and Giannis posts (sports already full); Pakistani astronaut (aggregator, unchecked); SF parking ticket and Trump-on-Iran posts (aggregators, unchecked).
+- Requests: added r-2026-11-28-03 (reaction to the Bill 21 ruling), r-2026-11-28-04 (supporters of the Newsom commutations). None answered or removed. Watch list 55 to 56, plan rebuilt for 12Z.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract. The Bill 21 vote split and the Newsom court-review count differ between sources I fetched; the stories state only what two sources agree on.

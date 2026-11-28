@@ -1,0 +1,41 @@
+{
+  "schema": "mts.moment/1",
+  "id": "2026-11-27-white-house-attacks-newsom-death-row-commutations",
+  "title": "White House attacks Newsom's plan to commute all 548 California death sentences",
+  "dek": "Newsom announced on 5 November that he would commute every California death sentence. On 27 November the White House used the move against him.",
+  "desks": [
+    "politics",
+    "justice"
+  ],
+  "standing": "established",
+  "started_at": "2026-11-27T22:52:29Z",
+  "updated_at": "2026-11-28T12:00:00Z",
+  "what": [
+    "On 5 November 2026, California Governor Gavin Newsom announced that he would commute the death sentences of 548 people, 529 men and 19 women, to life without parole. ABC7 and Law360 report this, citing figures from his office. Newsom said: \"I take this action because I firmly believe that state-sanctioned killing is incompatible with California's values, undermines the foundations of our legal system, and diminishes all of us.\"",
+    "ABC7 reports that the state constitution requires the California Supreme Court to review the commutations of 382 of the 548, those convicted of more than one felony. I could not find a report on where that review stands.",
+    "On 27 November, the White House account on X posted a clip. A speaker in it says Newsom \"wants to champion serial killers\" and that the people whose sentences he is commuting are \"literally among the worst people who have ever lived\". The post says victims' families share their stories in the clip. I could not review the clip itself.",
+    "ABC7 reports that the California District Attorneys Association said the action would \"inflict additional anguish on victims' families\". I did not find statements from supporters of the commutations in the captured posts, so this story shows one side's description only."
+  ],
+  "why": "The White House is making a governor's act on the death penalty its argument, and the clip puts victims' families at its centre.",
+  "next": "The California Supreme Court's review of the 382 commutations that need it.",
+  "posts": [
+    {
+      "id": "2126449108810387647",
+      "role": "voice"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ABC7: California Gov. Newsom says he will commute all death sentences in state to life without parole",
+      "url": "https://abc7news.com/post/california-gov-gavin-newsom-says-he-will-commute-death-sentences-state-life-parole/20018235/"
+    },
+    {
+      "label": "Law360: Calif. Gov. Newsom Seeks To Empty Death Row At Term's End",
+      "url": "https://www.law360.com/access-to-justice/articles/2546991"
+    },
+    {
+      "label": "Death Penalty Information Center: Governor Newsom grants largest mass commutation in U.S. history",
+      "url": "https://deathpenaltyinfo.org/news/governor-gavin-newsom-grants-largest-mass-commutation-in-u-s-history-to-death-sentenced-prisoners-in-california"
+    }
+  ]
+}

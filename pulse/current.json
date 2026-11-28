@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T10:14:32Z",
-  "capture": "2026-11-28T1004Z",
+  "updated_at": "2026-11-28T11:16:43Z",
+  "capture": "2026-11-28T1108Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -19,12 +19,6 @@
       "id": "2126305220091125796",
       "desk": "disaster",
       "line": "Fox News reports that a powerful storm has hit the East Coast, with seawater cutting off Hatteras Island in North Carolina and flooded streets along the Jersey Shore, disrupting Thanksgiving travel.",
-      "also": []
-    },
-    {
-      "id": "2126064597039997254",
-      "desk": "business",
-      "line": "Elon Musk, replying to another user, says he will donate another share of SpaceX to all kids in America every year. A story on this page covers his earlier pledge. Not checked here.",
       "also": []
     },
     {
@@ -184,7 +178,7 @@
     {
       "id": "2126358985385312578",
       "desk": "world",
-      "line": "Polymarket, a prediction market account, says the Canadian Supreme Court has upheld Quebec’s law banning public employees from wearing religious symbols. Not checked here.",
+      "line": "Polymarket, a prediction market account, says the Canadian Supreme Court has upheld Quebec’s law banning public employees from wearing religious symbols. A story on this page covers the ruling.",
       "also": []
     },
     {
@@ -208,13 +202,19 @@
     {
       "id": "2126449108810387647",
       "desk": "politics",
-      "line": "The White House account posts a clip in which a speaker says Gavin Newsom is commuting the death sentences of 548 people, and says victims' families share their stories. Not checked here.",
+      "line": "The White House account posts a clip in which a speaker says Gavin Newsom is commuting the death sentences of 548 people, and says victims' families share their stories. A story on this page covers the commutations.",
       "also": []
     },
     {
       "id": "2126356432618410180",
       "desk": "tech",
       "line": "RT posts a video it says shows a Chinese firefighting robot that can endure 1,000°C heat walking into a fire and out again still working. Not checked here.",
+      "also": []
+    },
+    {
+      "id": "2126438201548046626",
+      "desk": "politics",
+      "line": "Libs of TikTok, a conservative account, says the Supreme Court will hear a major Second Amendment case next month on whether states can ban AR-15-style rifles, and that 11 Democrat-controlled states and D.C. have such bans. Not checked here.",
       "also": []
     }
   ]
