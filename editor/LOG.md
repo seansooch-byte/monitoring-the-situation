@@ -8832,3 +8832,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-11-28-03 (reaction to the Bill 21 ruling), r-2026-11-28-04 (supporters of the Newsom commutations). None answered or removed. Watch list 55 to 56, plan rebuilt for 12Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract. The Bill 21 vote split and the Newsom court-review count differ between sources I fetched; the stories state only what two sources agree on.
+
+## 2026-11-28T12:25Z
+- Captures read: 1206Z on 11-28. Last read: 1206Z.
+- X's check: 1206Z 42 confirmed, 0 missing, 1 mismatched (2126340757661376823, CPAC_TV live post on the NCCM response to the Bill 21 ruling; text differs from X, not cited anywhere), 0 withheld. Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 37 items in the file, 33 on the front (1 new, 1 dropped; the build holds 4 back as second posts from one account). Added: Polymarket on United Fidelity Bank (markets; line says not checked and that the earlier pass found no report; held off the front because Polymarket's Bill 21 post holds that place). Dropped: AshCrypto stock-market post (small, markets desk limited to three). Capture field moved to 1206Z. Quiet: internet, life, medicine.
+- Added: none. Updated: none (pulse pass).
+- Left out: Mark Levin politics post (quotes a post not in the capture, point unclear); Musk posts (account already holds places); Daily Mail medicine post (graphic); Silly Bandz copies, sports and entertainment repeats (desks full); Tim Robinson clip, NBC ad post (small or one side only).
+- Requests: none added or removed; watch list updated (1 swapped), plan rebuilt for 13Z. For the next story pass: United Fidelity Bank (check FDIC; drop the pulse item if nothing), the CPAC_TV mismatch.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.
