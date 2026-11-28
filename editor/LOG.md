@@ -8742,3 +8742,13 @@ One entry per pass, newest last. Each pass starts by reading the last entry. For
 - Requests: added r-2026-11-28-01 (Israeli side on the MSF clinic strike; the capture holds only MSF's post) and r-2026-11-28-02 (Air Force or Pentagon response). Watch list: 5 ids added; plan rebuilt for 03Z.
 - Shipped: see report.
 - For the main editor: nothing. The starting message had no instructions beyond the contract.
+
+## 2026-11-28T03:30Z
+- Captures read: 0305Z on 11-28. Last read: 0305Z.
+- X's check: 0305Z 99 confirmed, 0 missing, 0 mismatched, 1 withheld. (The 2203Z run on 11-27 still shows 1 mismatched, as before.) Build warns of the same three older story-cited posts X has not confirmed.
+- Pulse: 45 items in the file, 40 on the front (5 new, 3 dropped; the build holds 5 back as second posts from one account). Capture field moved to 0305Z.
+- Added: none. Updated: none (pulse pass).
+- Left out: Netflix "this thanksgiving plate" and the replies to it (video not described, point not clear); Con Dao prison video and the Lucia clothing glitch video (content not described, may be graphic or sexual); Naruto and anime censorship posts (no description); the DailyMail hospital surgery post and its copies (a private patient); NoLimitGains Bloomberg Nvidia post (names a private person); Tim Robinson, Hunter Schafer, Tom Brady and Tupac/Faith Evans posts (claims about real people, nothing outside X); mccahell, RyanAFournier, dhaevian, CollieYimby and other private_individual posts; the WWE remembrance post (names the family).
+- Requests: none added or removed. Watch list: 5 ids added; plan rebuilt for 04Z. For the next story pass: Taliban naming report (Daily Mail), MSF Gaza clinic strike, East Coast storm.
+- Shipped: see report.
+- For the main editor: nothing. The starting message had no instructions beyond the contract.

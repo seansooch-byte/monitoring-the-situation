@@ -1,18 +1,8 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T02:35:00Z",
-  "capture": "2026-11-28T0205Z",
+  "updated_at": "2026-11-28T03:25:00Z",
+  "capture": "2026-11-28T0305Z",
   "items": [
-    {
-      "id": "2125977202680644037",
-      "desk": "world",
-      "line": "Visegrad 24, a news account, says two Italians were killed in an Iranian drone strike in Kuwait and that they were civilian technicians employed by Rheinmetall Italia. Kuwait and Italy have since confirmed the deaths; see the story."
-    },
-    {
-      "id": "2125976653935345753",
-      "desk": "business",
-      "line": "Reuters reports that the airline Norse Atlantic says it faces a risk of bankruptcy and has suspended flights."
-    },
     {
       "id": "2125998265707483323",
       "desk": "markets",
@@ -88,12 +78,6 @@
       "id": "2126228217077932094",
       "desk": "world",
       "line": "Nigel Farage, leader of Reform UK, announces a Reform policy to abolish hospital car parking charges and calls the charges cruel. The post is a party announcement. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2125964695660097987",
-      "desk": "world",
-      "line": "Ukraine's President Zelensky posts a Thanksgiving message thanking Americans for caring and for standing with \"us\".",
       "also": []
     },
     {
@@ -249,6 +233,31 @@
       "id": "2126329415349235973",
       "desk": "music",
       "line": "A fan account posts a video it says shows Tupac Shakur's comments about the rap duo Mobb Deep, and says the room was shaken. The date and setting of the clip were not checked here."
+    },
+    {
+      "id": "2126290276268249115",
+      "desk": "offbeat",
+      "line": "A user posts two photos of a dog breed they call the most ridiculous looking dog they came across while reading about breeds."
+    },
+    {
+      "id": "2126238071762886808",
+      "desk": "gaming",
+      "line": "A user says there is nothing to do after finishing GTA 6, and that money cannot be spent on cars, properties, planes, boats or stocks. This is one player’s opinion."
+    },
+    {
+      "id": "2126366620679598168",
+      "desk": "entertainment",
+      "line": "A user posts a video they say shows the audience reaction to \"the Squish\" at the world premiere of Hoppers."
+    },
+    {
+      "id": "2126348304875139216",
+      "desk": "world",
+      "line": "The Daily Mail posts a headline saying the Taliban are stripping Afghan women of their names and replacing them with \"granny\" or \"goat\". The post is a headline and link only. Not checked here."
+    },
+    {
+      "id": "2126186615043498354",
+      "desk": "science",
+      "line": "A user posts a time-lapse the post says shows Ship 42 being stacked onto Booster 22 at Starbase, and says the main lift takes around 30 minutes. Not checked here."
     }
   ]
 }
