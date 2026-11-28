@@ -1,7 +1,7 @@
 {
   "schema": "mts.pulse/1",
-  "updated_at": "2026-11-28T07:15:00Z",
-  "capture": "2026-11-28T0659Z",
+  "updated_at": "2026-11-28T08:20:00Z",
+  "capture": "2026-11-28T0802Z",
   "items": [
     {
       "id": "2126279085215391931",
@@ -61,12 +61,6 @@
       "id": "2126325372665114876",
       "desk": "music",
       "line": "PopBase says the AI-generated song \"The Adult I Dreamed of\" by MEOMERU has achieved a Perfect All-Kill, topping all major streaming platforms' daily and real-time charts. Not checked here.",
-      "also": []
-    },
-    {
-      "id": "2126035627506332130",
-      "desk": "entertainment",
-      "line": "DiscussingFilm, a film news account, posts a clip it says is from a new Lilo & Stitch short film in which Stitch goes to war with a cute cat that Lilo adopts.",
       "also": []
     },
     {
@@ -198,10 +192,12 @@
       "line": "A user posts a time-lapse the post says shows Ship 42 being stacked onto Booster 22 at Starbase, and says the main lift takes around 30 minutes. Not checked here."
     },
     {
-      "id": "2126548562288971955",
+      "id": "2126577684033556904",
       "desk": "markets",
-      "line": "Watcher Guru, a markets news account, says the WLFI token of the Trump family's World Liberty Financial crashed more than 35% in 15 minutes. Not checked here.",
-      "also": []
+      "line": "Watcher Guru, a markets news account, says the USD1 stablecoin of the Trump family’s World Liberty Financial has come off its peg to the US dollar. In an attached post it says Tron founder Justin Sun accuses the company of investor fraud. Not checked here.",
+      "also": [
+        "2126582764484899327"
+      ]
     },
     {
       "id": "2126534126991761683",
